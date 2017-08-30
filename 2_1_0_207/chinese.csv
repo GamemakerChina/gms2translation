@@ -276,14 +276,14 @@ Event_Key_Down,Down,↓,,Key event subtype
 Event_Key_End,End,End键,,"Key event ""others"" subtype"
 Event_Key_Enter,Enter,回车（Enter）,,Key event subtype
 Event_Key_Escape,Escape,退出（Esc）,,"Key event ""others"" subtype"
-Event_Key_FunctionKeys,Function Keys,功能键,,Key event subtype
+Event_Key_FunctionKeys,Function Keys,功能键（F1..F12）,,Key event subtype
 Event_Key_Home,Home,Home键,,"Key event ""others"" subtype"
 Event_Key_Insert,Insert,插入键（Insert）,,"Key event ""others"" subtype"
 Event_Key_Keypad,Keypad,小键盘,,Key event subtype
 Event_Key_KeypadN,Keypad {0},小键盘 {0},,Keypad event N
 Event_Keyboard_Modifiers,Modifiers,修饰键,,Modifiers keyboard group title
 Event_Key_ArrowKeys,Arrow Keys,箭头键,,Arrow keys keyboard group title
-Event_Key_ControlKeys,Control Keys,功能键（F1..F12）,,Control keys keybaord group title
+Event_Key_ControlKeys,Control Keys,控制键,,Control keys keybaord group title
 Event_Key_Left,Left,←,,Key event subtype
 Event_Key_Letters,Letters,字母,,Key event subtype
 Event_Key_NoKey,No Key,无键位,,Key event subtype
@@ -387,7 +387,7 @@ Extension_Import_Resources_Title,Import resources: {0},导入资源: {0},,extens
 Extension_Import_Legacy_Resources_Title,Import legacy resources: {0},导入传统资源:{0},,legacy extension(1.x) import resource title
 Logout_Query,Logout user '{0}'?\nThis will save any changes and restart the IDE.,登出帐户 '{0}'吗？\n这将保存所有更改并重启IDE.,,Query if the user really wants to logout
 Restored_Default_Settings_Restart,Are you sure you want to restore default settings?\nThis will restart the application for the changes to take effect.,你确认要恢复默认设置吗？\n这将重启软件,以使应用更改生效.,,Restore default settings restart prompt,,,,
-File_Menu_NewIDE,New IDE,新的IDE,,Start a new instance of the IDE from the file menu
+File_Menu_NewIDE,New IDE,另开IDE,,Start a new instance of the IDE from the file menu
 File_Menu_Logout,Logout,注销,,The Logout program menu item
 File_Menu_MyAccount,My Account,我的帐户,,Launches my account web page menu item
 File_Menu_Exit,Exit,退出,,The Exit program menu item
@@ -1037,9 +1037,9 @@ ObjectEditor_Box,Box,方形,,Object editor collision shape box
 ObjectEditor_ChangeEvent,Change Event,变更事件,,Object editor change event menu option
 ObjectEditor_ChangeEventExistsTitle,Cannot change event,无法变更事件,,Object Editor tried to change an event to one that already exists
 ObjectEditor_ChangeEventExistsMessage,The Event cannot be changed to an existing Event.,无法将事件变更为已有的事件.,,Object Editor tried to change an event to one that already exists
-ObjectEditor_ConvertEventType,Convert to {0},转换为 {0},,Change the event from DnD™  to script or from script to DnD™ 
+ObjectEditor_ConvertEventType,Convert to {0},转换为 {0},,Change the event from DnD?  to script or from script to DnD? 
 ObjectEditor_EventTypeScript,GML,GML,,Event type when script
-ObjectEditor_EventTypeDnD,DnD™ ,DnD™ ,,Event type when DnD™ 
+ObjectEditor_EventTypeDnD,DnD? ,DnD? ,,Event type when DnD? 
 ObjectEditor_Children,Children,子级,,Children label in Object Editor
 ObjectEditor_Circle,Circle,圆形,,Object editor collision shape circle
 ObjectEditor_CodeWindow,Code,代码,,object editor code window heading
@@ -1131,7 +1131,7 @@ ResourceNode_RemoveFromView,Remove From Current View,从当前视野中移除,,R
 ResourceNode_RemoveFromView_Confirm,"You are about to remove """"{0}"""" from view """"{1}"""". Continue?","您正要从视野 """"{1}""""中删除""""{0}"""".继续？",,Resource Tree - confirmation of removal from the current view
 ResourceNode_Create,Create,创建,,Resource Tree node menu - create resource
 ResourceNode_DndToScript,Convert to GML,转换成GML,,Resource Tree node menu - Dnd To GML
-ResourceNode_ScriptToDnd,Convert to DnD™ ,转换成DnD™ ,,Resource Tree node menu - Script To Dnd
+ResourceNode_ScriptToDnd,Convert to DnD? ,转换成DnD? ,,Resource Tree node menu - Script To Dnd
 ResourceNode_CreateChild,Create Child,创建子对象,,Resource tree context menu label for creating a child resource of the selected node
 ResourceNode_CreateDataFile,Create Included File,创建内含文件,,Resource Tree node menu - create included file
 ResourceNode_Delete,Delete,删除,,Resource Tree node menu - delete resource
@@ -1428,7 +1428,7 @@ Splash_LoadingPlugins,Loading Plugins...,载入插件……,,Loading the plugins
 Splash_LoadingPrefs,Loading Preferences...,载入偏好设置……,,Loading the preferences
 Splash_LoadingDevices,Loading Devices...,载入设备……,,Loading the devices
 Splash_UserLogin,User Login,用户登录,,User Login has been started
-Splash_InitDnD,Drag and Drop...,拖拽按钮……,,Initialising Drag and Drop™
+Splash_InitDnD,Drag and Drop...,拖拽按钮……,,Initialising Drag and Drop?
 Splash_CheckingRSS,Checking RSS...,检查RSS……,,Checking RSS...
 SplineEditor_DeletePoints,Delete Points,删除点,,Path spline editor context menu entry
 SpriteEditor_Manual,Manual,手动,,Sprite editor manual bounding box label
@@ -1629,7 +1629,7 @@ TimeLine_Names,Description,描述,,Time line editor names caption
 TimeLine_WindowTitle,Timeline: {0},时间轴:{0},,Time line editor window caption
 TimeLine_WindowTitle_CodeEditor,Timeline Moments: {0},时间轴时刻:{0},,Time line code editor window title
 TimeLine_ContextMenu_EditDescription,Change Description,更改描述,,Change time line description menu entry
-TimeLine_ConvertType,Convert to {0},转换为 {0},,Change the event from DnD™  to script or from script to DnD™ 
+TimeLine_ConvertType,Convert to {0},转换为 {0},,Change the event from DnD?  to script or from script to DnD? 
 TreeView_AddChildNode,Add Child Node,添加子节点,,context menu option to add a child node
 TreeView_AddNode,Add Node,添加节点,,context menu option to add a node
 TreeView_AddNodeAfter,Add Node After,在后面添加节点,,context menu option to add a node after
@@ -1726,113 +1726,113 @@ ResourceTree_SearchOptions,Search Options,搜索选项,,Additional Search Option
 SearchInScript_Search, Find...,查找...,,Search in Script Search default box text
 SearchInScript_Replace,Replace...,替换...,,Search in Script Replace default box text
 SearchInScript_SelectionOnly,Selection Only,选择仅有,,Search in Script Selection Only
-DnD_Gadget_DirectionalInput,Directional Input,方向输入,,DnD™  gadget for directional input
-DnD_Gadget_NumericInput,Numeric Input,数字输入,,DnD™  gadget for numeric input
-DnD_Gadget_ApplyTo,Apply To,应用于,,DnD™  gadget for applying to a specific object or instance
-DnD_Gadget_IsRelative,Is Relative,是相对的,,DnD™  gadget for determining if a change is relative
-DnD_Gadget_IsTemp,Is Temp,是临时的,,DnD™  gadget for determining if a target is temp
-DnD_Gadget_TextInput,Text Input,文本输入,,DnD™  gadget for text input
-DnD_Gadget_ExpressionInput,Expression,表达式,,DnD™  gadget for expression input
-DnD_Gadget_MenuInput,Menu Input,菜单输入,,DnD™  gadget for menu input
-DnD_Gadget_MenuExpressionInput,Menu Expression Input,表达式输入菜单,,DnD™ gadget for menu expression input
-DnD_Gadget_ResourceSelection,Resource Selection,资源选择,,DnD™  gadget for resource selection
-DnD_Gadget_ResourceSelection_SelectResource,Select Resource,选择资源,,DnD™  gadget list view explorer title
-DnD_Gadget_BooleanInput,Boolean Input,布尔输入,,DnD™  gadget for boolean input
-DnD_Gadget_BooleanExprInput,Boolean Expression Input,布尔表达式输入,,DnD™  gadget for boolean input
-DnD_Gadget_ColorPicker,Color Picker,吸管,,DnD™  gadget for picking a color
-DnD_Gadget_ColorPalette,Color Palette,调色板,,DnD™  gadget for picking a color
-DnD_Gadget_MultiLineTextInput,Text Input (MultiLine),文本输入(多行),,DnD™ gadget for multiline text input
-DnD_Gadget_CodeInput,Code Input,代码输入,,DnD™  gadget for code input
-DnD_Gadget_Caption_GroupSelector,Options,选项,,DnD™  label caption for the group selector gadget
-DnD_Gadget_GroupSelector,Group Selector,组选择器,,DnD™ group selector gadget name
-DnD_Gadget_Caption_IsRelative,Relative,相对,,DnD™ gadget caption name for Is Relative
-DnD_Gadget_Caption_IsTemp,Temp,临时,,DnD™ gadget caption name for Is Temp
-DnD_Gadget_Caption_ApplyTo,Apply To,应用于,,DnD™ gadget caption name for Apply To
-DnDMaker_AppTitle,DnD™ Maker,DnD™ 制作器,,DnD™ Maker application title
-DnDMaker_Arguments,Arguments,参数,,DnD™ Maker argument gadgets header
-DnDMaker_Gadgets,Gadgets,部件,,DnD™ Maker gui gadgets header
-DnDMaker_Properties,Argument Properties,参数属性,,DnD™ Maker properties header
-DnDMaker_Layout,Argument Layout,参数布局,,DnD™ Maker layout header
-DnDMaker_LivePreview,Node Designer ({0}),节点设计器({0}),,DnD™ Maker live preview header
-DnDMaker_NoAction,No Action,没有动作,,DnD™ Maker designer title no action selected
-DnDMaker_Groups,Layout Groups,布局组,,DnD™ Maker layout groups view header
-DnDMaker_Menu_Library,Library,库,,DnD™ Maker menu entry
-DnDMaker_Menu_Nodes,Nodes,节点,,DnD™ Maker menu entry
-DnDMaker_Menu_Layout,Layout,布局,,DnD™ Maker menu entry
-DnDMaker_Menu_Languages,Languages,语言（Languages）,,DnD™ Maker menu entry
-DnDMaker_Menu_NewLang,New Language,新的语言,,DnD™ Maker menu entry
-DnDMaker_Menu_EditLang,Edit Language,编辑语言,,DnD™ Maker menu entry
-DnDMaker_Group_Default,Default,默认,,DnD™ Maker default group name
-DnDMaker_NewGroup,Group,组,,DnD™ Maker default new group name
-DnDMaker_NewSection,New Section,新建节,,DnD™ Maker default new section name
-DnDMaker_NewAction,New Action,新建动作,,DnD™ Maker default new action name
-DnDMaker_Menu_NewNode,New Node,新建节点,,DnD™ Maker new node menu item
-DnDMaker_Menu_SaveNode,Save Node,保存节点,,DnD™ Maker save node menu item
-DnDMaker_Menu_PreviewNode,Preview,预览,,DnD™ Maker preview node menu item
-DnDMaker_Menu_EvaluateNode,Evaluate,求值,,DnD™ Maker evaluate node menu item
-DnDMaker_Menu_LoadLibrary,Load Library,载入库,,DnD™ Maker load library menu item
-DnDMaker_Menu_SaveLibrary,Save Library,保存库,,DnD™ Maker save library menu item
-DnDMaker_Menu_NewLibrary,New Library,新建库,,DnD™ Maker new library menu item
-DnDMaker_Library,My Library,我的库,,DnD™ Maker library header text
-DnDMaker_Menu_ExportLibrary,Export Library,导出库,,DnD™ Maker export library menu item
-DnDMaker_LibWizard_Label,Write new library name,新的库名称,,DnD™ Maker library wizard name label
-DnDMaker_LibWizard_OK,Create Library,创建库,,DnD™ Maker library wizard OK button
-DnDMaker_LibWizard_Cancel,Cancel,取消,,DnD™ Maker library wizard Cancel button
-DnDMaker_Menu_Sections,Sections,节,,DnD™ Maker sections menu item
-DnDMaker_Menu_AddSection,Add Section,添加节,,DnD™ Maker add section menu item
-DnDMaker_Menu_LayoutWizard,Open Layout Wizard...,打开布局向导...,,DnD™ Maker Open Layout Wizard menu item
-DnDMaker_Menu_AddGroup,Add Layout Group,添加布局组,,DnD™ Maker add layout group menu item
-DnDMaker_Menu_RenameGroup,Rename Layout Group,重命名布局组,,DnD™ Maker rename layout group menu item
-DnDMaker_Menu_RemoveGroup,Remove Layout Group,删除布局组,,DnD™ Maker remove layout group menu item
-DnDMaker_CMenu_AddSection,Add Section,添加节,,DnD™ Maker context menu add section caption
-DnDMaker_CMenu_RemoveSectionOrAction,Remove,移除,,DnD™ Maker library context menu remove caption
-DnDMaker_CMenu_RenameSectionOrAction,Rename,重命名,,DnD™ Maker library context menu rename caption
-DnDMaker_CMenu_EditAction,Edit Action,编辑动作,,DnD™ Maker library context menu edit caption
-DnDMaker_CMenu_RemoveGadget,Remove Gadget,删除小工具,,DnD™ Maker designer remove gadget menu entry
-DnDMaker_CMenu_CopyGadget,Copy Gadget,复制部件,,DnD™ Maker designer copy gadget menu entry
-DnDMaker_CMenu_CutGadget,Cut Gadget,剪切部件,,DnD™ Maker designer cut gadget menu entry
-DnDMaker_CMenu_PasteGadget,Paste Gadget,粘贴部件,,DnD™ Maker designer paste gadget menu entry
-DnDMaker_PopUp_OK,OK,确定,,DnD™ Maker popup window OK button
-DnDMaker_MustMakeLibrary,No library loaded.,没有库载入,,DnD™ Maker no library loaded warning message
-DnDMaker_CMenu_AddGroup,Add Group,添加组,,DnD™ Maker add group menu entry
-DnDMaker_CMenu_RenameGroup,Rename Group,重命名组,,DnD™ Maker rename group menu entry
-DnDMaker_CMenu_RemoveGroup,Remove Group,删除组,,DnD™ Maker remove group menu entry
-DnDMaker_CannotDeleteDefaultGroup,Default group cannot be deleted.,默认组不能删除.,,DnD™ Maker warning message
-DnDMaker_CannotDeleteLibrary,Library cannot be deleted.,无法删除该库.,,DnD™ Maker cannot delete library node warning message
-DnDMaker_InvalidActionName,Invalid action name: must be XML compatible.,动作名称无锡哦:必须兼容XML.,,DnD™ Maker invalid action name warning message
-DnDMaker_NoActionLayout,This action has no layout.,这个动作没有布局.,,DnD™ Maker invalid action layout warning message
-DnDMaker_CantShowPreview,Error -- Cannot show preview.,错误 -- 不能显示预览.,,DnD™ Maker cannot show preview warning message
-DnDMaker_NotEditingAction,You are not editing an action.,你没有在编辑一个动作.,,DnD™ Maker not editing action warning message
-DnDMaker_NotPreviewingAction,You are not previewing an action.,你没有在预览一个动作.,,DnD™ Maker not previewing action warning message
-DnDMaker_EvaluationResult,Evaluation Result,求值结果,,DnD™ Maker evaluation result window caption
-DnDMaker_ActionProperties,Action Properties,动作属性,,DnD™ Maker action properties caption
-DnDMaker_DefaultCode,// Your code here,// 在这里撰写你的代码,,DnD™ Maker default code input for group
-DnDMaker_CodeCaption,Code (Group: {0}),代码 (组: {0}),,DnD™ Maker code for selected group caption
-DnDMaker_SaveError,Saving failed.,保存失败.,,DnD™ Maker save error message
-DnDMaker_SaveComplete,Library saved.,库保存了.,,DnD™ Maker library save message
-DnDMaker_DialogTitle,DnD™ Maker,DnD™ 制作器,,DnD™ Maker dialog title
-DnDMaker_UnsavedChanges,There are unsaved changes. Do you want to save?,有未保存的更改.想要保存吗？,,DnD™ Maker unsaved changes confirmation dialog
-DnDMaker_UnsavedLibrary,Do you want to save the current library before continuing?,在继续之前你想要保存当前的库吗？,,DnD™ Maker unsaved library
-DnDMaker_ExportFailed,Exporting library failed.,导出库失败.,,DnD™ Maker export failed message
-DnDMaker_OpenFailed,Couldn't open the specified library.,不能打开指定的库.,,DnD™ Maker open library error message
-DnDMaker_CantParentAction,Actions can't be parents.,动作不能作为父级.,,DnD™ Maker drag into action error
-DnDMaker_CantParentGadget,Gadgets can't be parents.,部件不能作为父级.,,DnD™ Maker drag into Gadgets error
-DnDMaker_NoSelectedGadget,You have not selected a gadget.,你还没有选择一个部件.,,DnD™ Maker no selected gadget error
-DnDMaker_NoCopiedGadget,You have not copied a gadget.,你还没有复制一个部件.,,DnD™ Maker no copied gadget error
-DnDMaker_LayoutWizard,Layout Wizard,布局向导,,DnD™ Maker layout wizard name
-DnDMaker_LayoutWizardHelpText,This wizard helps you easily create a layout for your DnD™ action.,这个向导将帮助你为你DnD™ 动作轻松的创建一个布局.,,DnD™ Maker layout wizard help text
-DnDMaker_LayoutWizardArgCount,How many arguments do you need?,你需要多少个参数？,,DnD™ Maker layout wizard arg count
-DnDMaker_LayoutWizardArgCaption,Caption,标题,,DnD™ Maker layout wizard arg caption label
-DnDMaker_LayoutWizardArgGadget,Argument Gadget,小工具,,DnD™ Maker layout wizard arg gadget label
-DnDMaker_LayoutWizardArgTagName,Tag Name,标签名,,DnD™ Maker layout wizard arg tag name label
-DnDMaker_LayoutWizardIsRelative,Can Be Relative?,可以是相对的吗？,,DnD™ Maker layout wizard can be relative label
-DnDMaker_LayoutWizardProperties,Properties,属性,,DnD™ Maker layout wizard properties label
-DnDMaker_LayoutWizardIsTemp,Can Be Temp?,可以是临时的吗？,,DnD™ Maker layout wizard can be temp label
-DnDMaker_NoLayoutWizardLayout,Layout wizard layout is missing.,布局向导的布局丢失.,,DnD™ Maker layout wizard error
-DnD_Gadget_Label,Label,标签,,DnD™ Label gadget localised name
-DnD_Gadget_StackPanel,Stack Panel,层叠面板,,DnD™ Stack Panel gadget localised name
-DnD_Gadget_Grid,Grid,网格,,DnD™ Grid gadget localised name
-DnD_Gadget_MKConstantSelector,Mouse & Key Selector,鼠标 & 键位选择器,,DnD™ gadget localised name
+DnD_Gadget_DirectionalInput,Directional Input,方向输入,,DnD?  gadget for directional input
+DnD_Gadget_NumericInput,Numeric Input,数字输入,,DnD?  gadget for numeric input
+DnD_Gadget_ApplyTo,Apply To,应用于,,DnD?  gadget for applying to a specific object or instance
+DnD_Gadget_IsRelative,Is Relative,是相对的,,DnD?  gadget for determining if a change is relative
+DnD_Gadget_IsTemp,Is Temp,是临时的,,DnD?  gadget for determining if a target is temp
+DnD_Gadget_TextInput,Text Input,文本输入,,DnD?  gadget for text input
+DnD_Gadget_ExpressionInput,Expression,表达式,,DnD?  gadget for expression input
+DnD_Gadget_MenuInput,Menu Input,菜单输入,,DnD?  gadget for menu input
+DnD_Gadget_MenuExpressionInput,Menu Expression Input,表达式输入菜单,,DnD? gadget for menu expression input
+DnD_Gadget_ResourceSelection,Resource Selection,资源选择,,DnD?  gadget for resource selection
+DnD_Gadget_ResourceSelection_SelectResource,Select Resource,选择资源,,DnD?  gadget list view explorer title
+DnD_Gadget_BooleanInput,Boolean Input,布尔输入,,DnD?  gadget for boolean input
+DnD_Gadget_BooleanExprInput,Boolean Expression Input,布尔表达式输入,,DnD?  gadget for boolean input
+DnD_Gadget_ColorPicker,Color Picker,吸管,,DnD?  gadget for picking a color
+DnD_Gadget_ColorPalette,Color Palette,调色板,,DnD?  gadget for picking a color
+DnD_Gadget_MultiLineTextInput,Text Input (MultiLine),文本输入(多行),,DnD? gadget for multiline text input
+DnD_Gadget_CodeInput,Code Input,代码输入,,DnD?  gadget for code input
+DnD_Gadget_Caption_GroupSelector,Options,选项,,DnD?  label caption for the group selector gadget
+DnD_Gadget_GroupSelector,Group Selector,组选择器,,DnD? group selector gadget name
+DnD_Gadget_Caption_IsRelative,Relative,相对,,DnD? gadget caption name for Is Relative
+DnD_Gadget_Caption_IsTemp,Temp,临时,,DnD? gadget caption name for Is Temp
+DnD_Gadget_Caption_ApplyTo,Apply To,应用于,,DnD? gadget caption name for Apply To
+DnDMaker_AppTitle,DnD? Maker,DnD? 制作器,,DnD? Maker application title
+DnDMaker_Arguments,Arguments,参数,,DnD? Maker argument gadgets header
+DnDMaker_Gadgets,Gadgets,部件,,DnD? Maker gui gadgets header
+DnDMaker_Properties,Argument Properties,参数属性,,DnD? Maker properties header
+DnDMaker_Layout,Argument Layout,参数布局,,DnD? Maker layout header
+DnDMaker_LivePreview,Node Designer ({0}),节点设计器({0}),,DnD? Maker live preview header
+DnDMaker_NoAction,No Action,没有动作,,DnD? Maker designer title no action selected
+DnDMaker_Groups,Layout Groups,布局组,,DnD? Maker layout groups view header
+DnDMaker_Menu_Library,Library,库,,DnD? Maker menu entry
+DnDMaker_Menu_Nodes,Nodes,节点,,DnD? Maker menu entry
+DnDMaker_Menu_Layout,Layout,布局,,DnD? Maker menu entry
+DnDMaker_Menu_Languages,Languages,语言（Languages）,,DnD? Maker menu entry
+DnDMaker_Menu_NewLang,New Language,新的语言,,DnD? Maker menu entry
+DnDMaker_Menu_EditLang,Edit Language,编辑语言,,DnD? Maker menu entry
+DnDMaker_Group_Default,Default,默认,,DnD? Maker default group name
+DnDMaker_NewGroup,Group,组,,DnD? Maker default new group name
+DnDMaker_NewSection,New Section,新建节,,DnD? Maker default new section name
+DnDMaker_NewAction,New Action,新建动作,,DnD? Maker default new action name
+DnDMaker_Menu_NewNode,New Node,新建节点,,DnD? Maker new node menu item
+DnDMaker_Menu_SaveNode,Save Node,保存节点,,DnD? Maker save node menu item
+DnDMaker_Menu_PreviewNode,Preview,预览,,DnD? Maker preview node menu item
+DnDMaker_Menu_EvaluateNode,Evaluate,求值,,DnD? Maker evaluate node menu item
+DnDMaker_Menu_LoadLibrary,Load Library,载入库,,DnD? Maker load library menu item
+DnDMaker_Menu_SaveLibrary,Save Library,保存库,,DnD? Maker save library menu item
+DnDMaker_Menu_NewLibrary,New Library,新建库,,DnD? Maker new library menu item
+DnDMaker_Library,My Library,我的库,,DnD? Maker library header text
+DnDMaker_Menu_ExportLibrary,Export Library,导出库,,DnD? Maker export library menu item
+DnDMaker_LibWizard_Label,Write new library name,新的库名称,,DnD? Maker library wizard name label
+DnDMaker_LibWizard_OK,Create Library,创建库,,DnD? Maker library wizard OK button
+DnDMaker_LibWizard_Cancel,Cancel,取消,,DnD? Maker library wizard Cancel button
+DnDMaker_Menu_Sections,Sections,节,,DnD? Maker sections menu item
+DnDMaker_Menu_AddSection,Add Section,添加节,,DnD? Maker add section menu item
+DnDMaker_Menu_LayoutWizard,Open Layout Wizard...,打开布局向导...,,DnD? Maker Open Layout Wizard menu item
+DnDMaker_Menu_AddGroup,Add Layout Group,添加布局组,,DnD? Maker add layout group menu item
+DnDMaker_Menu_RenameGroup,Rename Layout Group,重命名布局组,,DnD? Maker rename layout group menu item
+DnDMaker_Menu_RemoveGroup,Remove Layout Group,删除布局组,,DnD? Maker remove layout group menu item
+DnDMaker_CMenu_AddSection,Add Section,添加节,,DnD? Maker context menu add section caption
+DnDMaker_CMenu_RemoveSectionOrAction,Remove,移除,,DnD? Maker library context menu remove caption
+DnDMaker_CMenu_RenameSectionOrAction,Rename,重命名,,DnD? Maker library context menu rename caption
+DnDMaker_CMenu_EditAction,Edit Action,编辑动作,,DnD? Maker library context menu edit caption
+DnDMaker_CMenu_RemoveGadget,Remove Gadget,删除小工具,,DnD? Maker designer remove gadget menu entry
+DnDMaker_CMenu_CopyGadget,Copy Gadget,复制部件,,DnD? Maker designer copy gadget menu entry
+DnDMaker_CMenu_CutGadget,Cut Gadget,剪切部件,,DnD? Maker designer cut gadget menu entry
+DnDMaker_CMenu_PasteGadget,Paste Gadget,粘贴部件,,DnD? Maker designer paste gadget menu entry
+DnDMaker_PopUp_OK,OK,确定,,DnD? Maker popup window OK button
+DnDMaker_MustMakeLibrary,No library loaded.,没有库载入,,DnD? Maker no library loaded warning message
+DnDMaker_CMenu_AddGroup,Add Group,添加组,,DnD? Maker add group menu entry
+DnDMaker_CMenu_RenameGroup,Rename Group,重命名组,,DnD? Maker rename group menu entry
+DnDMaker_CMenu_RemoveGroup,Remove Group,删除组,,DnD? Maker remove group menu entry
+DnDMaker_CannotDeleteDefaultGroup,Default group cannot be deleted.,默认组不能删除.,,DnD? Maker warning message
+DnDMaker_CannotDeleteLibrary,Library cannot be deleted.,无法删除该库.,,DnD? Maker cannot delete library node warning message
+DnDMaker_InvalidActionName,Invalid action name: must be XML compatible.,动作名称无锡哦:必须兼容XML.,,DnD? Maker invalid action name warning message
+DnDMaker_NoActionLayout,This action has no layout.,这个动作没有布局.,,DnD? Maker invalid action layout warning message
+DnDMaker_CantShowPreview,Error -- Cannot show preview.,错误 -- 不能显示预览.,,DnD? Maker cannot show preview warning message
+DnDMaker_NotEditingAction,You are not editing an action.,你没有在编辑一个动作.,,DnD? Maker not editing action warning message
+DnDMaker_NotPreviewingAction,You are not previewing an action.,你没有在预览一个动作.,,DnD? Maker not previewing action warning message
+DnDMaker_EvaluationResult,Evaluation Result,求值结果,,DnD? Maker evaluation result window caption
+DnDMaker_ActionProperties,Action Properties,动作属性,,DnD? Maker action properties caption
+DnDMaker_DefaultCode,// Your code here,// 在这里撰写你的代码,,DnD? Maker default code input for group
+DnDMaker_CodeCaption,Code (Group: {0}),代码 (组: {0}),,DnD? Maker code for selected group caption
+DnDMaker_SaveError,Saving failed.,保存失败.,,DnD? Maker save error message
+DnDMaker_SaveComplete,Library saved.,库保存了.,,DnD? Maker library save message
+DnDMaker_DialogTitle,DnD? Maker,DnD? 制作器,,DnD? Maker dialog title
+DnDMaker_UnsavedChanges,There are unsaved changes. Do you want to save?,有未保存的更改.想要保存吗？,,DnD? Maker unsaved changes confirmation dialog
+DnDMaker_UnsavedLibrary,Do you want to save the current library before continuing?,在继续之前你想要保存当前的库吗？,,DnD? Maker unsaved library
+DnDMaker_ExportFailed,Exporting library failed.,导出库失败.,,DnD? Maker export failed message
+DnDMaker_OpenFailed,Couldn't open the specified library.,不能打开指定的库.,,DnD? Maker open library error message
+DnDMaker_CantParentAction,Actions can't be parents.,动作不能作为父级.,,DnD? Maker drag into action error
+DnDMaker_CantParentGadget,Gadgets can't be parents.,部件不能作为父级.,,DnD? Maker drag into Gadgets error
+DnDMaker_NoSelectedGadget,You have not selected a gadget.,你还没有选择一个部件.,,DnD? Maker no selected gadget error
+DnDMaker_NoCopiedGadget,You have not copied a gadget.,你还没有复制一个部件.,,DnD? Maker no copied gadget error
+DnDMaker_LayoutWizard,Layout Wizard,布局向导,,DnD? Maker layout wizard name
+DnDMaker_LayoutWizardHelpText,This wizard helps you easily create a layout for your DnD? action.,这个向导将帮助你为你DnD? 动作轻松的创建一个布局.,,DnD? Maker layout wizard help text
+DnDMaker_LayoutWizardArgCount,How many arguments do you need?,你需要多少个参数？,,DnD? Maker layout wizard arg count
+DnDMaker_LayoutWizardArgCaption,Caption,标题,,DnD? Maker layout wizard arg caption label
+DnDMaker_LayoutWizardArgGadget,Argument Gadget,小工具,,DnD? Maker layout wizard arg gadget label
+DnDMaker_LayoutWizardArgTagName,Tag Name,标签名,,DnD? Maker layout wizard arg tag name label
+DnDMaker_LayoutWizardIsRelative,Can Be Relative?,可以是相对的吗？,,DnD? Maker layout wizard can be relative label
+DnDMaker_LayoutWizardProperties,Properties,属性,,DnD? Maker layout wizard properties label
+DnDMaker_LayoutWizardIsTemp,Can Be Temp?,可以是临时的吗？,,DnD? Maker layout wizard can be temp label
+DnDMaker_NoLayoutWizardLayout,Layout wizard layout is missing.,布局向导的布局丢失.,,DnD? Maker layout wizard error
+DnD_Gadget_Label,Label,标签,,DnD? Label gadget localised name
+DnD_Gadget_StackPanel,Stack Panel,层叠面板,,DnD? Stack Panel gadget localised name
+DnD_Gadget_Grid,Grid,网格,,DnD? Grid gadget localised name
+DnD_Gadget_MKConstantSelector,Mouse & Key Selector,鼠标 & 键位选择器,,DnD? gadget localised name
 Tutorial_Install_NoTutorials,Failed to find any tutorials in the installed package,未能在安装包中找到任何教程,,tutorial install error message
 Tutorial_Install_Complete,Tutorial install complete!,教程安装完成！,,tutorial install complete message
 Tutorial_Menu_OpenInBrowser,Open in browser,在浏览器中打开,,tutorial context menu entry
@@ -1865,18 +1865,18 @@ yyzexport_message,YYZ Exporter,YYZ导出器,,YYZ Exporter Message Title
 yyzexport_success,YYZ Exported Successfully,YYZ导出成功.,,YYZ Exported Successfully
 yyzexport_failed,YYZ Export Failed,YYZ导出失败,,YYZ Export Failed
 InheritFromDialog_Title,Inherit From Project,继承自项目,,title for inherit from project dialog
-DnDEditor_Menu_Workspace,Workspace,工作区,,DnD™ Editor Workspace caption
-DnDEditor_Menu_Save,Save,保存,,DnD™ Editor Workspace Save caption
-DnDEditor_Menu_Reload,Reload,重新载入,,DnD™ Editor Workspace Reload caption
-DnDEditor_CMenu_Preview,Live Preview,实时预览,,DnD™ Editor Workspace Reload caption
-DnDEditor_LivePreviewTitle,DnD™ Preview,DnD™ 预览,,DnD live preview tab title
-DnDNodeWindow_CMenu_PanToThis,Pan,平移,,DnD™ node window context menu
-DnDNodeWindow_CMenu_Copy,Copy,复制,,DnD™ node window context menu
-DnDNodeWindow_CMenu_Cut,Cut,剪切,,DnD™ node window context menu
+DnDEditor_Menu_Workspace,Workspace,工作区,,DnD? Editor Workspace caption
+DnDEditor_Menu_Save,Save,保存,,DnD? Editor Workspace Save caption
+DnDEditor_Menu_Reload,Reload,重新载入,,DnD? Editor Workspace Reload caption
+DnDEditor_CMenu_Preview,Live Preview,实时预览,,DnD? Editor Workspace Reload caption
+DnDEditor_LivePreviewTitle,DnD? Preview,DnD? 预览,,DnD live preview tab title
+DnDNodeWindow_CMenu_PanToThis,Pan,平移,,DnD? node window context menu
+DnDNodeWindow_CMenu_Copy,Copy,复制,,DnD? node window context menu
+DnDNodeWindow_CMenu_Cut,Cut,剪切,,DnD? node window context menu
 DnDNodeWindow_CMenu_Help,Show Help...,显示帮助...,,DnD node window context menu
-DnDNodeWindow_CMenu_Paste,Paste,粘贴,,DnD™ node window context menu
+DnDNodeWindow_CMenu_Paste,Paste,粘贴,,DnD? node window context menu
 DnDNodeWindow_CMenu_CollapseAll,Collapse All,全部折叠,,DnD node window context menu
-DnDNodeWindow_CMenu_Evaluate,Evaluate...,求值,,DnD™ node window context menu
+DnDNodeWindow_CMenu_Evaluate,Evaluate...,求值,,DnD? node window context menu
 ggs_graphics_scale,Scaling,放大,,Game Settings Graphics Scale title
 ggs_graphics_scale_keepaspectratio,Keep aspect ratio,保持长宽比,,Game Settings Graphics Scale - Keep Aspect Ratio option
 ggs_graphics_scale_fullscale,Full scale,等大,,Game Settings Graphics Scale - Full scale option
@@ -2371,7 +2371,7 @@ ggs_use_fast_collisions,Enable Fast Collisions,启用快速碰撞,,Enable Fast C
 ggs_game_speed,Game Frames Per Second,每秒游戏帧数(FPS),,Game Frames Per Second
 ggs_game_identifier,Game Identifier,游戏标识号,,Game Identifier
 ggs_game_guid,Game GUID,游戏 GUID,,Game GUID
-ggs_isdnd,Use DnD™ as default code choice,默认使用 DnD™ 代码,,Project code type
+ggs_isdnd,Use DnD? as default code choice,默认使用 DnD? 代码,,Project code type
 ggs_mips_for_3d_textures,Generate mipmaps for seperate texture pages,为单独的纹理页生成多级渐进纹理（mipmap）,,Generate mipmaps for seperate texture pages
 TargetSelection_RequiresWorker,Requires Worker,需要工作者,,label for when a selected platform requires a worker
 TargetSelection_Worker,Worker:,工作者:,,the list title for target selecting worker
@@ -2416,8 +2416,8 @@ TargetSelection_Device_Simulator_iPhone6SPlus,Simulator - iPhone 6 Plus,模拟�
 TargetSelection_Device_Editor,Device Editor,设备编辑器,,the device editor window title
 TargetSelection_Device_Editor_Tooltop,Open Device Editor,打开设备编辑器,,the device editor button tooltip
 TargetSelection_Device_Editor_Cancel,This will lose any unapplied changes you have made - do you want to continue?,这将会丢失所有未应用的更改 - 你想要继续吗？,,Cancelling the device manager does this
-DnDModule_ToolboxWindow,Toolbox,工具箱,,The Drag and Drop™ toolbox when in a standalone window
-DnDModule_CodeOutputWindow,Equivalent Code,等价代码,,The Drag and Drop™ equivalent code window for nodes
+DnDModule_ToolboxWindow,Toolbox,工具箱,,The Drag and Drop? toolbox when in a standalone window
+DnDModule_CodeOutputWindow,Equivalent Code,等价代码,,The Drag and Drop? equivalent code window for nodes
 DnDModule_Toolbox_Title,Toolbox,工具箱,,The toolbox title when docked
 DnDModule_Toolbox_Recent,Recently Used,最近使用,,Toolbox recent category
 DnDModule_Toolbox_Favorites,Favourites,喜爱,,Toolbox favourites category
@@ -2433,20 +2433,20 @@ SplashScreen_LaunchProjectNotFound,Project '{0}' does not exist,项目 '{0}' 不
 SplashScreen_LaunchProjectInvalid,'{0}' is not a valid GameMaker Studio 2 project,'{0}' 不是有效的 GameMaker Studio 2 项目,,Message dialog when the program was launched with a file command argument of a non .yyp file
 SplashScreen_LaunchProjectFailed,Launch Project Failed,启动项目失败,,Message dialog title when the program was launched with a file command argument but it has failed
 LicensedModulesError,Your license does not have this module enabled,你的许可证中没有这个模块.,,Message Dialog for when a user tries to build/run a target their license doesn't have
-DnD_Pref_ToolboxLocation,What is the default toolbox location?,默认的工具栏位置是？,,DnD™ pref
-DnD_Pref_StoryMode,When does the overview appear next to a node?,这个概述什么时候出现在节点旁边？,,DnD™ pref
-DnD_Pref_CollapseToolbox,Should new toolboxes collapse if you have a floating toolbox?,如果有一个浮动工具栏,新的工具栏应该折叠吗？,,DnD™ pref,,,,
-DnD_Pref_CollapseStory,Should the overview be collapsed by default?,是否默认将该概述面板折叠?？,,DnD™ pref
-DnD_Pref_MaxThumbSize,The maximum size of the Toolbox action thumbnails.,工具栏动作缩略图的最大尺寸,,DnD™ pref
-DnD_Pref_MinThumbSize,The minimum size of the Toolbox action thumbnails.,工具栏动作缩略图的最小尺寸,,DnD™ pref
-DnD_Pref_ThumbSize,The default size of the Toolbox action thumbnails.,工具栏动作缩略图的默认尺寸,,DnD™ pref
-DnD_Pref_RecentlyUsed,The maximum amount of recently used actions to be displayed.,最近使用动作的最大显示数目,,DnD™ pref
-DnD_Pref_ChainSmoothness,The smoothness of the chain.,连线的平滑度,,DnD™ pref
-DnD_Pref_DragTime,The time in milliseconds to hold the mouse down to drag nodes.,按住鼠标到拖动节点所需的时间(毫秒).,,DnD™ pref
-DnD_Message_Error_Prefix,ERROR:,错误:,,DnD™ message prefix
-DnD_Message_InvalidSyntaxError,"The ""{0}"" node is causing an invalid program flow. Move it to a correct location.","节点 ""{0}"" 正导致无效的程序流.请将它移动到正确的位置.",,DnD™ message syntax error
-DnD_Message_InvalidSyntaxInsertionTitle,Invalid Insertion,无效插入,,DnD™ pop up title for below message
-DnD_Message_InvalidSyntaxInsertion,Inserting {0} at this location would result in an invalid program.,在这个位置插入 {0} 将会导致程序无效.,,DnD™ pop up message for invalid syntax insertion
+DnD_Pref_ToolboxLocation,What is the default toolbox location?,默认的工具栏位置是？,,DnD? pref
+DnD_Pref_StoryMode,When does the overview appear next to a node?,这个概述什么时候出现在节点旁边？,,DnD? pref
+DnD_Pref_CollapseToolbox,Should new toolboxes collapse if you have a floating toolbox?,如果有一个浮动工具栏,新的工具栏应该折叠吗？,,DnD? pref,,,,
+DnD_Pref_CollapseStory,Should the overview be collapsed by default?,是否默认将该概述面板折叠?？,,DnD? pref
+DnD_Pref_MaxThumbSize,The maximum size of the Toolbox action thumbnails.,工具栏动作缩略图的最大尺寸,,DnD? pref
+DnD_Pref_MinThumbSize,The minimum size of the Toolbox action thumbnails.,工具栏动作缩略图的最小尺寸,,DnD? pref
+DnD_Pref_ThumbSize,The default size of the Toolbox action thumbnails.,工具栏动作缩略图的默认尺寸,,DnD? pref
+DnD_Pref_RecentlyUsed,The maximum amount of recently used actions to be displayed.,最近使用动作的最大显示数目,,DnD? pref
+DnD_Pref_ChainSmoothness,The smoothness of the chain.,连线的平滑度,,DnD? pref
+DnD_Pref_DragTime,The time in milliseconds to hold the mouse down to drag nodes.,按住鼠标到拖动节点所需的时间(毫秒).,,DnD? pref
+DnD_Message_Error_Prefix,ERROR:,错误:,,DnD? message prefix
+DnD_Message_InvalidSyntaxError,"The ""{0}"" node is causing an invalid program flow. Move it to a correct location.","节点 ""{0}"" 正导致无效的程序流.请将它移动到正确的位置.",,DnD? message syntax error
+DnD_Message_InvalidSyntaxInsertionTitle,Invalid Insertion,无效插入,,DnD? pop up title for below message
+DnD_Message_InvalidSyntaxInsertion,Inserting {0} at this location would result in an invalid program.,在这个位置插入 {0} 将会导致程序无效.,,DnD? pop up message for invalid syntax insertion
 ggs_webserver_port,Webserver Port,Web服务器端口,,Webserver Port
 ggs_webserver_ips,Allowed Webserver IPs,允许的 Web服务器 IP,,Allowed IPs to connect to the debug webserver
 ggs_browser_path,Path to Browser,浏览器地址,,Path to Browser to use for testing HTML5
@@ -2540,17 +2540,17 @@ Room_AutoDepthUpdateMessage,"User defined layer depths are not adequately spaced
 Room_AutoDepthUpdateTitle,Layer Depth Error,层深度错误,,message title when the user has given invalid layer depths
 roomdefaultstep,The amount of spacing for depth between layers,层间深度的间距,,the preference label for auto depth layer spacing
 room_autodepthchoice,Default for automatically updating layer depths,默认自动更新层深度,,preference label for the auto depth confirmation dialog preference
-DnDConvert_Warning,You are performing a one-way conversion from DnD™ to GameMaker Language. Do you want to continue?,你正在执行一个 DnD™  到 GML的单向转换.你想要继续吗？,,Object editor convert dnd to script warning
-DnDConvert_WarningTitle,Convert DnD™,转换 DnD™,,object editor dnd convert warning title
-TimelineEditor_ConvertMerge,Merging the selected moments will result in conversion from DnD™ to GameMaker Language. Do you want to continue?,合并选中的时刻点将导致从 DnD™ 转换为 GML.你想要继续吗？,,Merge warning
+DnDConvert_Warning,You are performing a one-way conversion from DnD? to GameMaker Language. Do you want to continue?,你正在执行一个 DnD?  到 GML的单向转换.你想要继续吗？,,Object editor convert dnd to script warning
+DnDConvert_WarningTitle,Convert DnD?,转换 DnD?,,object editor dnd convert warning title
+TimelineEditor_ConvertMerge,Merging the selected moments will result in conversion from DnD? to GameMaker Language. Do you want to continue?,合并选中的时刻点将导致从 DnD? 转换为 GML.你想要继续吗？,,Merge warning
 TimelineDnD_ConvertOpposite,Opposite,相对的,,Convert dnd or script to opposite type
-Settings_DnDConvert,Default for DnD™ conversion to GameMaker Language,默认 DnD™ 转换为 GML,,DnD™ convert pref
-Settings_DnDDeleteNode,Default for DnD™ node deletion,默认为 DnD™ 节点删除,,DnD™ deletion pref
-DnDModule_DeleteNodeMsg,Are you sure you want to delete this DnD™ action?,你确定要删除这个 DnD™ 动作?,,DnD delete message
-DnDModule_ConvertToScript,Convert to GML,转换成GML,,DnD™ module convert to gml context menu
+Settings_DnDConvert,Default for DnD? conversion to GameMaker Language,默认 DnD? 转换为 GML,,DnD? convert pref
+Settings_DnDDeleteNode,Default for DnD? node deletion,默认为 DnD? 节点删除,,DnD? deletion pref
+DnDModule_DeleteNodeMsg,Are you sure you want to delete this DnD? action?,你确定要删除这个 DnD? 动作?,,DnD delete message
+DnDModule_ConvertToScript,Convert to GML,转换成GML,,DnD? module convert to gml context menu
 dpi_percentage,% of Native DPI,% 的本地分辨率（DPI）,,Slider to control percentage of DPI
 dpi_raw,Raw DPI value,原DPI值,,Raw value of DPI to override with
-DnDModule_ResetLayout,Reset Layout,重置布局,,DnD™ module reset layout context menu
+DnDModule_ResetLayout,Reset Layout,重置布局,,DnD? module reset layout context menu
 ggs_support_lib,Support Library,支持库,,Support Library
 BackgroundLayer_AnimationFPS,Animation Speed:,动画速度:,,The caption for the background layer animation fps property
 ListViewExplorer_None,None,无,,None resource
@@ -2677,7 +2677,7 @@ platformdevice_connection_success_title,Connection Successful,连接成功,,Conn
 platformdevice_connection_failed_title,Connection Failed,连接失败,,Connection Failed title
 platformdevice_connection_no_devices,No Devices found,没有发现设备,,no devices are found
 AssetExplorer_SelectResource,Select Resource,选择资源,,Fallback title for asset explorer
-ParserError_DnD,{0} in DnD™ action {1},在 DnD™ 动作{1}中的{0},,DnD™ parser error message
+ParserError_DnD,{0} in DnD? action {1},在 DnD? 动作{1}中的{0},,DnD? parser error message
 GadgetToolbox_ListView,List View,列表视图,,List View dialog editor name
 GadgetToolbox_Table,Table,表格,,Table dialog editor name
 GadgetToolbox_TableListBox,TableListBox,列表框,,The table gadgets list box name
@@ -2956,12 +2956,12 @@ RoomEditor_PathLayerStatus,Selected control point(s): {0},所选控制点:{0},,t
 RoomEditor_PathLayerPointStatus,"({0}, {1}), ","({0}, {1}),",,the an individual control point status for the path layer shown in the room editor status bar
 ListBoxEnum_eAnimSpeedType_FramesPerSecond,Frames per second,帧每秒(FPS),,the playback type comboxbox entry for fps
 ListBoxEnum_eAnimSpeedType_FramesPerGameFrame,Frames per game frame,帧每游戏帧,,the playback type comboxbox entry for game frame locked playback
-DnDToolbox_Menu_AddToWorkspace,Use {0},使用 {0},,DnD™ Toolbox use action
+DnDToolbox_Menu_AddToWorkspace,Use {0},使用 {0},,DnD? Toolbox use action
 DnDToolbox_Menu_CollapseAll,Collapse All,全部折叠,,DnD toolbox collapse all
-DnDToolbox_Menu_Favorite,Make Favourite,设置最喜爱,,DnD™ Toolbox make favourite
-DnDToolbox_Menu_RemoveFav,Remove Favourite,删除最喜爱,,DnD™ Toolbox remove favourite
-DnDToolbox_Menu_ClearRecentlyUsed,Clear Recently Used,清除最近使用,,DnD™ Toolbox clear recently used
-DnDToolbox_Menu_ClearFavs,Clear Favourites,清除最喜爱,,DnD™ Toolbox clear favourites
+DnDToolbox_Menu_Favorite,Make Favourite,设置最喜爱,,DnD? Toolbox make favourite
+DnDToolbox_Menu_RemoveFav,Remove Favourite,删除最喜爱,,DnD? Toolbox remove favourite
+DnDToolbox_Menu_ClearRecentlyUsed,Clear Recently Used,清除最近使用,,DnD? Toolbox clear recently used
+DnDToolbox_Menu_ClearFavs,Clear Favourites,清除最喜爱,,DnD? Toolbox clear favourites
 SourceControlGit_FileLock,One or more files are locked. Please check that none of the files are open in external programs. Do you want to try again?,一个或多个文件被锁定.请检查没有文件是通过外部程序打开的.你想要重试吗？,,Files locked and need to try again
 SourceControlGit_Error,Source Control (Git) Error,源控制 (Git) 错误,,Error with Source Control (Git)
 SourceControlGit_ProjectBreakRetry,"Be aware that this may have broken your project, as the command was not successful and you have chosen not to retry it.",请注意这可能已经破坏了你的项目,因为命令没有成功,而你选择了不重试.,,Project may be broken warning due to command failing and choosing not to retry,,,
@@ -2987,787 +2987,787 @@ ZoomWidget_ZoomCentreFit,Centre Fit,居中适配,,Tooltip for zoom centre fit
 RoomEditor_ShowViews,Show Views,显示视野,,Tooltip for show views button
 RoomEditor_PlayAnimation,Play Animation,播放动画,,Tooltip for play animation button
 display_us_spelling_functions,Show US Spelling for system functions,显示系统函数的美式拼写,,Show US Spelling for system functions
-GMStdCatDefault,Default,默认,,Drag and Drop™ library category name
+GMStdCatDefault,Default,默认,,Drag and Drop? library category name
 GMStdFunction,Function,功能,,DnD label
 GMStdOption,Option,选项,,DnD label
 GMStdChoose_Name,Choose,随机选择,,DnD label
 GMStdChoose_Desc,Randomly chooses one of the supplied arguments.,随机从所提供参数中选出一个。,,DnD label
 GMStdCallFunction_Name,Function Call,函数调用,,DnD label
 GMStdCallFunction_Desc,Call any function with optional arguments and get the return value of the function.,使用可选参数调用任意参数，并获取函数的返回值。,,DnD label
-GMStdCatCommon,Common,常规,,Drag and Drop™ library category name
-GMStdCatCamera,Cameras,摄像机,,Drag and Drop™ library category name
-GMStdCatInstances,Instances,实例,,Drag and Drop™ library category name
-GMStdCatMouseKeyboard,Mouse & Keyboard,鼠标与键盘,,Drag and Drop™ library category name
-GMStdCatGamepad,Gamepad,游戏手柄,,Drag and Drop™ library category name
-GMStdCatMovement,Movement,移动,,Drag and Drop™ library category name
-GMStdCatCollisions,Collisions,碰撞,,Drag and Drop™ library category name
-GMStdCatDrawing,Drawing,绘制,,Drag and Drop™ library category name
-GMStdCatTiles,Tiles,图块,,Drag and Drop™ library category name
-GMStdCatInstVars,Instance Variables,实例变量,,Drag and Drop™ library category name
-GMStdCatGlobal,Global,全局,,Drag and Drop™ library category name
-GMStdCatRandom,Random,随机,,Drag and Drop™ library category name
-GMStdCatLoops,Loops,循环,,Drag and Drop™ library category name
-GMStdCatSwitch,Switch,多条件分支,,Drag and Drop™ library category name
-GMStdCatTypes,Types,类型,,Drag and Drop™ library category name
-GMStdCatDataStructs,Data Structures,数据结构,,Drag and Drop™ library category name
-GMStdCatAudio,Audio,音频,,Drag and Drop™ library category name
-GMStdCatRooms,Rooms,房间,,Drag and Drop™ library category name
-GMStdCatGame,Game,游戏,,Drag and Drop™ library category name
-GMStdCatFiles,Files,文件,,Drag and Drop™ library category name
-GMStdCatTimelines,Timelines,时间轴,,Drag and Drop™ library category name
-GMStdCatPaths,Paths,路径,,Drag and Drop™ library category name
-GMStdCatMisc,Miscellaneous,杂项,,Drag and Drop™ library category name
-GMStdCatParticles,Particles,粒子,,Drag and Drop™ library category name
-GMStdVar_Name,Assign Variable,变量赋值,,Drag and Drop™ library action name
-GMStdVar_Desc,Assign a value to a variable.,将一个值赋给一个变量,,Drag and Drop™ library action description
-GMStdTempVar_Name,Declare Temp,声明临时变量,,Drag and Drop™ library action name
-GMStdTempVar_Desc,Declare a temporary variable.,声明一个临时的变量,,Drag and Drop™ library action description
-GMStdTemp,Temp,临时,,DnD™ library
-GMStdIfVar_Name,If Variable,如果变量……,,Drag and Drop™ library action name
-GMStdIfVar_Desc,Check if a variable satisfies a condition.,检测变量是否满足某个,,Drag and Drop™ library action description
-GMStdIfScore_Name,If Score,如果分数……,,Drag and Drop™ library action name
-GMStdIfScore_Desc,Check if an instance's score satisfies a condition.,检测一个实例的分数是否满足某个条件,,Drag and Drop™ library action description
-GMStdIfLives_Name,If Lives,如果生命数……,,Drag and Drop™ library action name
-GMStdIfLives_Desc,Check if an instance's lives satisfies a condition.,检测一个实例的生命数是否满足某个条件,,Drag and Drop™ library action description
-GMStdIfHealth_Name,If Health,如果生命值……,,Drag and Drop™ library action name
-GMStdIfHealth_Desc,Check if an instance's health satisfies a condition.,检测一个实例的生命值是否满足某个条件,,Drag and Drop™ library action description
-GMStdIfExpr_Name,If Expression,如果表达式……,,Drag and Drop™ library action name
-GMStdIfExpr_Desc,Check if an expression is true or false.,检测一个表达式的结果是否为真,,Drag and Drop™ library action description
-GMStdIfUndef_Name,If Undefined,如果……未定义,,Drag and Drop™ library action name
-GMStdIfUndef_Desc,Check if a variable is or isn't undefined.,检测一个变量是否是未定义（Undefined）的,,Drag and Drop™ library action description
-GMStdElse_Name,Else,否则,,Drag and Drop™ library action name
-GMStdElse_Desc,Append this to an if-statement to execute code when the condition evaluates to false.,将其附加到if语句后会在条件判断为假的矢耦执行其中代码。,,Drag and Drop™ library action description
-GMStdExCode_Name,Execute Code,执行代码,,Drag and Drop™ library action name
-GMStdExCode_Desc,Execute a piece of code.,执行一段代码,,Drag and Drop™ library action description
-GMStdExScript_Name,Execute Script,执行脚本,,Drag and Drop™ library action name
-GMStdExScript_Desc,Execute a script resource.,执行一个脚本资源,,Drag and Drop™ library action description
-GMStdApplyTo_Name,Apply To,应用于,,Drag and Drop™ library action name
+GMStdCatCommon,Common,常规,,Drag and Drop? library category name
+GMStdCatCamera,Cameras,摄像机,,Drag and Drop? library category name
+GMStdCatInstances,Instances,实例,,Drag and Drop? library category name
+GMStdCatMouseKeyboard,Mouse & Keyboard,鼠标与键盘,,Drag and Drop? library category name
+GMStdCatGamepad,Gamepad,游戏手柄,,Drag and Drop? library category name
+GMStdCatMovement,Movement,移动,,Drag and Drop? library category name
+GMStdCatCollisions,Collisions,碰撞,,Drag and Drop? library category name
+GMStdCatDrawing,Drawing,绘制,,Drag and Drop? library category name
+GMStdCatTiles,Tiles,图块,,Drag and Drop? library category name
+GMStdCatInstVars,Instance Variables,实例变量,,Drag and Drop? library category name
+GMStdCatGlobal,Global,全局,,Drag and Drop? library category name
+GMStdCatRandom,Random,随机,,Drag and Drop? library category name
+GMStdCatLoops,Loops,循环,,Drag and Drop? library category name
+GMStdCatSwitch,Switch,多条件分支,,Drag and Drop? library category name
+GMStdCatTypes,Types,类型,,Drag and Drop? library category name
+GMStdCatDataStructs,Data Structures,数据结构,,Drag and Drop? library category name
+GMStdCatAudio,Audio,音频,,Drag and Drop? library category name
+GMStdCatRooms,Rooms,房间,,Drag and Drop? library category name
+GMStdCatGame,Game,游戏,,Drag and Drop? library category name
+GMStdCatFiles,Files,文件,,Drag and Drop? library category name
+GMStdCatTimelines,Timelines,时间轴,,Drag and Drop? library category name
+GMStdCatPaths,Paths,路径,,Drag and Drop? library category name
+GMStdCatMisc,Miscellaneous,杂项,,Drag and Drop? library category name
+GMStdCatParticles,Particles,粒子,,Drag and Drop? library category name
+GMStdVar_Name,Assign Variable,变量赋值,,Drag and Drop? library action name
+GMStdVar_Desc,Assign a value to a variable.,将一个值赋给一个变量,,Drag and Drop? library action description
+GMStdTempVar_Name,Declare Temp,声明临时变量,,Drag and Drop? library action name
+GMStdTempVar_Desc,Declare a temporary variable.,声明一个临时的变量,,Drag and Drop? library action description
+GMStdTemp,Temp,临时,,DnD? library
+GMStdIfVar_Name,If Variable,如果变量……,,Drag and Drop? library action name
+GMStdIfVar_Desc,Check if a variable satisfies a condition.,检测变量是否满足某个,,Drag and Drop? library action description
+GMStdIfScore_Name,If Score,如果分数……,,Drag and Drop? library action name
+GMStdIfScore_Desc,Check if an instance's score satisfies a condition.,检测一个实例的分数是否满足某个条件,,Drag and Drop? library action description
+GMStdIfLives_Name,If Lives,如果生命数……,,Drag and Drop? library action name
+GMStdIfLives_Desc,Check if an instance's lives satisfies a condition.,检测一个实例的生命数是否满足某个条件,,Drag and Drop? library action description
+GMStdIfHealth_Name,If Health,如果生命值……,,Drag and Drop? library action name
+GMStdIfHealth_Desc,Check if an instance's health satisfies a condition.,检测一个实例的生命值是否满足某个条件,,Drag and Drop? library action description
+GMStdIfExpr_Name,If Expression,如果表达式……,,Drag and Drop? library action name
+GMStdIfExpr_Desc,Check if an expression is true or false.,检测一个表达式的结果是否为真,,Drag and Drop? library action description
+GMStdIfUndef_Name,If Undefined,如果……未定义,,Drag and Drop? library action name
+GMStdIfUndef_Desc,Check if a variable is or isn't undefined.,检测一个变量是否是未定义（Undefined）的,,Drag and Drop? library action description
+GMStdElse_Name,Else,否则,,Drag and Drop? library action name
+GMStdElse_Desc,Append this to an if-statement to execute code when the condition evaluates to false.,将其附加到if语句后会在条件判断为假的矢耦执行其中代码。,,Drag and Drop? library action description
+GMStdExCode_Name,Execute Code,执行代码,,Drag and Drop? library action name
+GMStdExCode_Desc,Execute a piece of code.,执行一段代码,,Drag and Drop? library action description
+GMStdExScript_Name,Execute Script,执行脚本,,Drag and Drop? library action name
+GMStdExScript_Desc,Execute a script resource.,执行一个脚本资源,,Drag and Drop? library action description
+GMStdApplyTo_Name,Apply To,应用于,,Drag and Drop? library action name
 GMStdApply,Apply,应用,,Apply dnd label
-GMStdApplyTo_Desc,Execute code in the context of a specific object or instance.,在特定物体或实例的论域下执行代码。,,Drag and Drop™ library action description
-GMStdRet_Name,Return,返回,,Drag and Drop™ library action name
-GMStdRet_Desc,Return a value from a script.,从脚本中返回一个值,,Drag and Drop™ library action description
-GMStdMacro_Name,Macro,定义宏,,Drag and Drop™ library action name
-GMStdMacro_Desc,Define a global compile-time macro.,定义一个全局的预编译宏。,,Drag and Drop™ library action description
-GMStdExit_Name,Exit,离开事件,,Drag and Drop™ library action name
-GMStdExit_Desc,Exit the current event without executing the remaining code.,不再执行后续代码并跳出该事件,,Drag and Drop™ library action description
-GMStdInstCount_Name,Get Instance Count,获取实例数量,,Drag and Drop™ library action name
-GMStdInstCount_Desc,Returns the number of active instances of the object.,返回某一物体处于活跃状态的实例数量。,,Drag and Drop™ library action description
-GMStdInstCreate_Name,Create Instance,创建实例,,Drag and Drop™ library action name
-GMStdInstCreate_Desc,Creates an instance of an object.,创建一个物体的实例,,Drag and Drop™ library action description
-GMStdInstChange_Name,Change Instance,变更实例,,Drag and Drop™ library action name
-GMStdInstChange_Desc,Change an instance to be an instance of another object.,将一个实例改变为另一个物体的实例。,,Drag and Drop™ library action description
-GMStdInstDestroy_Name,Destroy Instance,销毁实例,,Drag and Drop™ library action name
-GMStdInstDestroy_Desc,Destroy an instance and remove it from the room.,销毁一个实例并将其移出房间。,,Drag and Drop™ library action description
-GMStdDestroyAtPos_Name,Destroy At Position,定点销毁,,Drag and Drop™ library action name
-GMStdDestroyAtPos_Desc,Destroy all instances at a position.,销毁在某一位置上的所有实例,,Drag and Drop™ library action description
-GMStdSetSprite_Name,Set Sprite,设置精灵,,Drag and Drop™ library action name
-GMStdSetSprite_Desc,Change the sprite of an object instance.,改变物体实例的精灵,,Drag and Drop™ library action description
-GMStdRotSprite_Name,Set Instance Rotation,设置实例旋转,,Drag and Drop™ library action name
-GMStdRotSprite_Desc,Set the rotation of an instance.,改变实例的旋转角度,,Drag and Drop™ library action description
-GMStdSpriteAnimSpd_Name,Set Animation Speed,设置动画速度,,Drag and Drop™ library action name
-GMStdSpriteAnimSpd_Desc,Set the animation speed of an instance's sprite.,设置实例精灵的动画播放速度,,Drag and Drop™ library action description
-GMStdSpriteScale_Name,Set Instance Scale,设置实例缩放,,Drag and Drop™ library action name
-GMStdSpriteScale_Desc,Set the horizontal and vertical scaling of an instance's sprite.,设置实例精灵的横向和纵向缩放比例,,Drag and Drop™ library action description
-GMStdSpriteAlpha_Name,Set Instance Alpha,设置实例透明度,,Drag and Drop™ library action name
-GMStdSpriteAlpha_Desc,Set the transparency (0-1) of an instance's sprite.,设置实例精灵的透明度(0~1),,Drag and Drop™ library action description
-GMStdSpriteColor_Name,Set Instance Colour,设置实例颜色,,Drag and Drop™ library action name
-GMStdSpriteColor_Desc,Set the colour blend of an instance's sprite.,设置实例精灵的混合色。,,Drag and Drop™ library action description
-GMStdSetAlarm_Name,Set Alarm Countdown,设置计时器倒计时,,Drag and Drop™ library action name
-GMStdSetAlarm_Desc,Set the countdown value of an alarm event.,设置一个计时器事件的倒计时数。,,Drag and Drop™ library action description
-GMStdGetAlarm_Name,Get Alarm Countdown,获取计时器倒计时,,Drag and Drop™ library action name
-GMStdGetAlarm_Desc,Get the countdown value of an alarm event.,获取一个计时器事件的倒计时数。,,Drag and Drop™ library action description
-GMStdInheritEvent_Name,Call Parent Event,调用父事件,,Drag and Drop™ library action name
-GMStdInheritEvent_Desc,Call this event on the instance's parent object.,调用实例的父物体的本事件。,,Drag and Drop™ library action description
-GMStdIfMousePressed_Name,If Mouse Pressed,如果鼠标按下,,Drag and Drop™ library action name
-GMStdIfMousePressed_Desc,Check if a mouse button is pressed.,检测一个鼠标键是否按下,,Drag and Drop™ library action description
-GMStdIfMouseDown_Name,If Mouse Down,如果鼠标压住,,Drag and Drop™ library action name
-GMStdIfMouseDown_Desc,Check if a mouse button is held or released.,检测一个鼠标键是否被按住,,Drag and Drop™ library action description
-GMStdIfMouseUp_Name,If Mouse Released,如果鼠标放开,,Drag and Drop™ library action name
-GMStdIfMouseUp_Desc,Check if a mouse button is released.,检测一个鼠标键是否被松开,,Drag and Drop™ library action description
-GMStdIfKeyPressed_Name,If Key Pressed,如果键位按下,,Drag and Drop™ library action name
-GMStdIfKeyPressed_Desc,Check if a key is pressed.,检测一个键位是否被按下,,Drag and Drop™ library action description
-GMStdIfKeyDown_Name,If Key Down,如果键位按下,,Drag and Drop™ library action name
-GMStdIfKeyDown_Desc,Check if a key is down or released.,Check if a key is down or released.,,Drag and Drop™ library action description
-GMStdIfKeyUp_Name,If Key Released,If Key Released,,Drag and Drop™ library action name
-GMStdIfKeyUp_Desc,Check if a key is released.,Check if a key is released.,,Drag and Drop™ library action description
-GMStdGPAxis_Name,Get Gamepad Axis,Get Gamepad Axis,,Drag and Drop™ library action name
-GMStdGPAxis_Desc,Get the value of an axis on a gamepad.,Get the value of an axis on a gamepad.,,Drag and Drop™ library action description
-GMStdGPTrigger_Name,Get Gamepad Trigger,Get Gamepad Trigger,,Drag and Drop™ library action name
-GMStdGPTrigger_Desc,Get the value of a gamepad's trigger button.,Get the value of a gamepad's trigger button.,,Drag and Drop™ library action description
-GMStdIfGPDown_Name,If Gamepad Button Down,If Gamepad Button Down,,Drag and Drop™ library action name
-GMStdIfGPDown_Desc,Check if a gamepad button is down or released.,Check if a gamepad button is down or released.,,Drag and Drop™ library action description
-GMStdIfGPPressed_Name,If Gamepad Button Pressed,If Gamepad Button Pressed,,Drag and Drop™ library action name
-GMStdIfGPPressed_Desc,Check if a gamepad button is pressed.,Check if a gamepad button is pressed.,,Drag and Drop™ library action description
-GMStdIfGPUp_Name,If Gamepad Button Released,If Gamepad Button Released,,Drag and Drop™ library action name
-GMStdIfGPUp_Desc,Check if a gamepad button is released.,Check if a gamepad button is released.,,Drag and Drop™ library action description
-GMStdGPDeadzone_Name,Set Gamepad Axis Deadzone,Set Gamepad Axis Deadzone,,Drag and Drop™ library action name
-GMStdGPDeadzone_Desc,Set the deadzone of a gamepad axis.,Set the deadzone of a gamepad axis.,,Drag and Drop™ library action description
-GMStdGpDeviceC_Name,Get Gamepad Count,Get Gamepad Count,,Drag and Drop™ library action name
-GMStdGpDeviceC_Desc,Get the number of connected gamepad devices.,Get the number of connected gamepad devices.,,Drag and Drop™ library action description
-GMStdGPConnc_Name,Get Gamepad Connected,Get Gamepad Connected,,Drag and Drop™ library action name
-GMStdGPConnc_Desc,Get whether a given gamepad is connected.,Get whether a given gamepad is connected.,,Drag and Drop™ library action description
-GMStdDirFixed_Name,Set Direction Fixed,Set Direction Fixed,,Drag and Drop™ library action name
-GMStdDirFixed_Desc,Set a fixed direction.,Set a fixed direction.,,Drag and Drop™ library action description
-GMStdDirFree_Name,Set Direction Variable,Set Direction Variable,,Drag and Drop™ library action name
-GMStdDirFree_Desc,Set a variable direction.,Set a variable direction.,,Drag and Drop™ library action description
-GMStdDirPoint_Name,Set Point Direction,Set Point Direction,,Drag and Drop™ library action name
-GMStdDirPoint_Desc,Set a direction towards a specified point.,Set a direction towards a specified point.,,Drag and Drop™ library action description
-GMStdDirRandom_Name,Set Direction Random,Set Direction Random,,Drag and Drop™ library action name
-GMStdDirRandom_Desc,Set a random direction based on the specified directions.,Set a random direction based on the specified directions.,,Drag and Drop™ library action description
-GMStdSpeed_Name,Set Speed,设置速度,,Drag and Drop™ library action name
-GMStdSpeed_Desc,Set the speed of an instance.,设置实例的运动速度,,Drag and Drop™ library action description
-GMStdGravDir_Name,Set Gravity Direction,设置重力方向,,Drag and Drop™ library action name
-GMStdGravDir_Desc,Set the gravitational direction.,设置重力的方向,,Drag and Drop™ library action description
-GMStdGravForce_Name,Set Gravity Force,设置重力大小,,Drag and Drop™ library action name
-GMStdGravForce_Desc,Set the gravitational force.,设置重力的大小,,Drag and Drop™ library action description
-GMStdReverse_Name,Reverse,反向,,Drag and Drop™ library action name
-GMStdReverse_Desc,Reverse a direction from a list of presets.,Reverse a direction from a list of presets.,,Drag and Drop™ library action description
-GMStdFriction_Name,Set Friction,设置阻力,,Drag and Drop™ library action name
-GMStdFriction_Desc,Apply friction to the instance's movement.,对实例运动施加阻力,,Drag and Drop™ library action description
-GMStdJumpPoint_Name,Jump To Point,跳转到点,,Drag and Drop™ library action name
-GMStdJumpPoint_Desc,Jump to the specified position.,跳转到指定位置,,Drag and Drop™ library action description
-GMStdJumpStart_Name,Jump To Start,跳转到起点,,Drag and Drop™ library action name
-GMStdJumpStart_Desc,Jump to the instance's start position.,跳转到实例的起始位置,,Drag and Drop™ library action description
-GMStdSnapPos_Name,Snap Position,吸附位置,,Drag and Drop™ library action name
-GMStdSnapPos_Desc,Snap an instance's position to a grid.,将实例的位置吸附到网格上,,Drag and Drop™ library action description
-GMStdWrapRoom_Name,Wrap Around Room,在房间内卷动,,Drag and Drop™ library action name
-GMStdWrapRoom_Desc,Wrap around room.,在房间内循环卷动,,Drag and Drop™ library action description
-GMStdIfAnyObjAt_Name,If Any Object At,如果有实例位于……,,Drag and Drop™ library action name
-GMStdIfAnyObjAt_Desc,Check if an instance intersects any other instances at a position.,检测实例在某一位置上是否与其他别的实例发生交叠。,,Drag and Drop™ library action description
-GMStdIfObjAt_Name,If Object At,如果物体位于……,,Drag and Drop™ library action name
-GMStdIfObjAt_Desc,Check if an instance intersects another instance at a position.,检测实例在某一位置上是否与另一个物体发生交叠。,,Drag and Drop™ library action description
-GMStdIfColShape_Name,If Collision Shape,如果与形状发生碰撞……,,Drag and Drop™ library action name
-GMStdIfColShape_Desc,Check if an instance is intersecting a shape.,Check if an instance is intersecting a shape.,,Drag and Drop™ library action description
-GMStdDrawSelf_Name,Draw Self,绘制自身,,Drag and Drop™ library action name
-GMStdDrawSelf_Desc,Draw this instance's sprite.,绘制该实例的精灵,,Drag and Drop™ library action description
-GMStdDrawValue_Name,Draw Value,绘制值,,Drag and Drop™ library action name
-GMStdDrawValue_Desc,"Draw the specified value. It can be a string, number or variable.",绘制一个指定的值，可以是字符串、数字或变量。,,Drag and Drop™ library action description
-GMStdDrawValueTransformed_Name,Draw Transformed Value,变形地绘制值,,Drag and Drop™ library action name
-GMStdDrawValueTransformed_Desc,"Draw a value with a transformation. It can be a string, number or variable.",带有形变地绘制一个值，可以是字符串、数字或变量。,,Drag and Drop™ library action description
-GMStdDrawSprite_Name,Draw Sprite,绘制精灵,,Drag and Drop™ library action name
-GMStdDrawSprite_Desc,Draw a sprite.,绘制一个精灵,,Drag and Drop™ library action description
-GMStdDrawSpritesStacked_Name,Draw Stacked Sprites,绘制堆叠精灵,,Drag and Drop™ library action name
-GMStdDrawSpritesStacked_Desc,Draw a sprite multiple times in a stack.,在一列中多次绘制精灵。,,Drag and Drop™ library action description
-GMStdDrawRectangle_Name,Draw Rectangle,绘制矩形,,Drag and Drop™ library action name
-GMStdDrawRectangle_Desc,Draw a rectangle.,绘制一个矩形,,Drag and Drop™ library action description
-GMStdDrawGradientRect_Name,Draw Gradient Rectangle,绘制渐变矩形,,Drag and Drop™ library action name
-GMStdDrawGradientRect_Desc,Draw a gradient in a rectangular shape.,在矩形中绘制渐变色。,,Drag and Drop™ library action description
-GMStdDrawEllipse_Name,Draw Ellipse,绘制椭圆,,Drag and Drop™ library action name
-GMStdDrawEllipse_Desc,Draw an ellipse.,绘制一个椭圆,,Drag and Drop™ library action description
-GMStdDrawGradientEllipse_Name,Draw Gradient Ellipse,绘制渐变椭圆,,Drag and Drop™ library action name
-GMStdDrawGradientEllipse_Desc,Draw a gradient in an elliptical shape.,在椭圆形中绘制渐变色,,Drag and Drop™ library action description
-GMStdDrawLine_Name,Draw Line,绘制线,,Drag and Drop™ library action name
-GMStdDrawLine_Desc,Draw a line.,绘制一条线段,,Drag and Drop™ library action description
-GMStdDrawHealthbar_Name,Draw Healthbar,绘制生命值条,,Drag and Drop™ library action name
-GMStdDrawHealthbar_Desc,Draw a healthbar from a 0-100 value.,Draw a healthbar from a 0-100 value.,,Drag and Drop™ library action description
-GMStdDrawInstanceScore_Name,Draw Instance Score,Draw Instance Score,,Drag and Drop™ library action name
-GMStdDrawInstanceScore_Desc,Draw an instance's score with a caption.,Draw an instance's score with a caption.,,Drag and Drop™ library action description
-GMStdDrawInstanceHealth_Name,Draw Instance Health,Draw Instance Health,,Drag and Drop™ library action name
-GMStdDrawInstanceHealth_Desc,Draw an instance's health with a healthbar.,Draw an instance's health with a healthbar.,,Drag and Drop™ library action description
-GMStdDrawInstanceLives_Name,Draw Instance Lives,Draw Instance Lives,,Drag and Drop™ library action name
-GMStdDrawInstanceLives_Desc,Draw an instance's lives with stacked sprites.,Draw an instance's lives with stacked sprites.,,Drag and Drop™ library action description
-GMStdSetColor_Name,Set Draw Colour,Set Draw Colour,,Drag and Drop™ library action name
-GMStdSetColor_Desc,Set the color to blend all drawing with.,Set the color to blend all drawing with.,,Drag and Drop™ library action description
-GMStdGetColor_Name,Get Draw Colour,获取绘制颜色,,Drag and Drop™ library action name
-GMStdGetColor_Desc,Get the color used to blend all drawing with.,获取用于混合所有绘制的颜色。,,Drag and Drop™ library action description
-GMStdSetFont_Name,Set Font,设置字体,,Drag and Drop™ library action name
-GMStdSetFont_Desc,Set the font to use for all text drawing.,Set the font to use for all text drawing.,,Drag and Drop™ library action description
-GMStdSetAlignment_Name,Set Text Alignment,设置文本对齐,,Drag and Drop™ library action name
-GMStdSetAlignment_Desc,Set the horizontal and vertical alignment of text drawing.,Set the horizontal and vertical alignment of text drawing.,,Drag and Drop™ library action description
-GMStdTileSetAtPixel_Name,Set Tile Index At Pixel,Set Tile Index At Pixel,,Drag and Drop™ library action name
-GMStdTileSetAtPixel_Desc,Set the tile index at the specified position.,Set the tile index at the specified position.,,Drag and Drop™ library action description
-GMStdTileGetAtPixel_Name,Get Tile Index At Pixel,Get Tile Index At Pixel,,Drag and Drop™ library action name
-GMStdTileGetAtPixel_Desc,Get the tile index at the specified position.,Get the tile index at the specified position.,,Drag and Drop™ library action description
-GMStdTileSetInCell_Name,Set Tile Index In Cell,Set Tile Index In Cell,,Drag and Drop™ library action name
-GMStdTileSetInCell_Desc,Set the tile index in the specified cell.,Set the tile index in the specified cell.,,Drag and Drop™ library action description
-GMStdTileGetInCell_Name,Get Tile Index In Cell,Get Tile Index In Cell,,Drag and Drop™ library action name
-GMStdTileGetInCell_Desc,Get the tile index in the specified cell.,Get the tile index in the specified cell.,,Drag and Drop™ library action description
-GMStdTileGetElm_Name,Get Tile Data In Cell,Get Tile Data In Cell,,DnD label
-GMStdTileGetElm_Desc,Get the tile data in a cell on a tile layer.,Get the tile data in a cell on a tile layer.,,DnD label
-GMStdTileGetElmPixel_Name,Get Tile Data At Pixel,Get Tile Data At Pixel,,DnD label
-GMStdTileGetElmPixel_Desc,Get the tile data at the specified position on a tile layer.,Get the tile data at the specified position on a tile layer.,,DnD label
-GMStdTileSetElm_Name,Set Tile Data In Cell,Set Tile Data In Cell,,DnD label
-GMStdTileSetElm_Desc,Set the tile data in a cell on a tile layer.,Set the tile data in a cell on a tile layer.,,DnD label
-GMStdTileSetElmPixel_Name,Set Tile Data At Pixel,Set Tile Data At Pixel,,DnD label
-GMStdTileSetElmPixel_Desc,Set the tile data at the specified position on a tile layer.,Set the tile data at the specified position on a tile layer.,,DnD label
-GMStdTileGetVar_Name,Get Tilemap Variable,Get Tilemap Variable,,DnD label
-GMStdTileGetVar_Desc,Get a variable from a tilemap element.,Get a variable from a tilemap element.,,DnD label
-GMStdTileSetTileSet_Name,Set Tile Set,Set Tile Set,,DnD label
-GMStdTileSetTileSet_Desc,Set the tile set resource of a tilemap.,Set the tile set resource of a tilemap.,,DnD label
-GMStdTileTransform_Name,Set Tile Data Transform,Set Tile Data Transform,,Drag and Drop™ library action name
-GMStdTileTransform_Desc,Apply a transformation to tile data.,Apply a transformation to tile data.,,Drag and Drop™ library action description
-GMStdTileGetTransform_Name,Get Tile Data Transform,Get Tile Data Transform,,Drag and Drop™ library action name
-GMStdTileGetTransform_Desc,Get the transformation of tile data.,Get the transformation of tile data.,,Drag and Drop™ library action description
+GMStdApplyTo_Desc,Execute code in the context of a specific object or instance.,在特定物体或实例的论域下执行代码。,,Drag and Drop? library action description
+GMStdRet_Name,Return,返回,,Drag and Drop? library action name
+GMStdRet_Desc,Return a value from a script.,从脚本中返回一个值,,Drag and Drop? library action description
+GMStdMacro_Name,Macro,定义宏,,Drag and Drop? library action name
+GMStdMacro_Desc,Define a global compile-time macro.,定义一个全局的预编译宏。,,Drag and Drop? library action description
+GMStdExit_Name,Exit,离开事件,,Drag and Drop? library action name
+GMStdExit_Desc,Exit the current event without executing the remaining code.,不再执行后续代码并跳出该事件,,Drag and Drop? library action description
+GMStdInstCount_Name,Get Instance Count,获取实例数量,,Drag and Drop? library action name
+GMStdInstCount_Desc,Returns the number of active instances of the object.,返回某一物体处于活跃状态的实例数量。,,Drag and Drop? library action description
+GMStdInstCreate_Name,Create Instance,创建实例,,Drag and Drop? library action name
+GMStdInstCreate_Desc,Creates an instance of an object.,创建一个物体的实例,,Drag and Drop? library action description
+GMStdInstChange_Name,Change Instance,变更实例,,Drag and Drop? library action name
+GMStdInstChange_Desc,Change an instance to be an instance of another object.,将一个实例改变为另一个物体的实例。,,Drag and Drop? library action description
+GMStdInstDestroy_Name,Destroy Instance,销毁实例,,Drag and Drop? library action name
+GMStdInstDestroy_Desc,Destroy an instance and remove it from the room.,销毁一个实例并将其移出房间。,,Drag and Drop? library action description
+GMStdDestroyAtPos_Name,Destroy At Position,定点销毁,,Drag and Drop? library action name
+GMStdDestroyAtPos_Desc,Destroy all instances at a position.,销毁在某一位置上的所有实例,,Drag and Drop? library action description
+GMStdSetSprite_Name,Set Sprite,设置精灵,,Drag and Drop? library action name
+GMStdSetSprite_Desc,Change the sprite of an object instance.,改变物体实例的精灵,,Drag and Drop? library action description
+GMStdRotSprite_Name,Set Instance Rotation,设置实例旋转,,Drag and Drop? library action name
+GMStdRotSprite_Desc,Set the rotation of an instance.,改变实例的旋转角度,,Drag and Drop? library action description
+GMStdSpriteAnimSpd_Name,Set Animation Speed,设置动画速度,,Drag and Drop? library action name
+GMStdSpriteAnimSpd_Desc,Set the animation speed of an instance's sprite.,设置实例精灵的动画播放速度,,Drag and Drop? library action description
+GMStdSpriteScale_Name,Set Instance Scale,设置实例缩放,,Drag and Drop? library action name
+GMStdSpriteScale_Desc,Set the horizontal and vertical scaling of an instance's sprite.,设置实例精灵的横向和纵向缩放比例,,Drag and Drop? library action description
+GMStdSpriteAlpha_Name,Set Instance Alpha,设置实例透明度,,Drag and Drop? library action name
+GMStdSpriteAlpha_Desc,Set the transparency (0-1) of an instance's sprite.,设置实例精灵的透明度(0~1),,Drag and Drop? library action description
+GMStdSpriteColor_Name,Set Instance Colour,设置实例颜色,,Drag and Drop? library action name
+GMStdSpriteColor_Desc,Set the colour blend of an instance's sprite.,设置实例精灵的混合色。,,Drag and Drop? library action description
+GMStdSetAlarm_Name,Set Alarm Countdown,设置计时器倒计时,,Drag and Drop? library action name
+GMStdSetAlarm_Desc,Set the countdown value of an alarm event.,设置一个计时器事件的倒计时数。,,Drag and Drop? library action description
+GMStdGetAlarm_Name,Get Alarm Countdown,获取计时器倒计时,,Drag and Drop? library action name
+GMStdGetAlarm_Desc,Get the countdown value of an alarm event.,获取一个计时器事件的倒计时数。,,Drag and Drop? library action description
+GMStdInheritEvent_Name,Call Parent Event,调用父事件,,Drag and Drop? library action name
+GMStdInheritEvent_Desc,Call this event on the instance's parent object.,调用实例的父物体的本事件。,,Drag and Drop? library action description
+GMStdIfMousePressed_Name,If Mouse Pressed,如果鼠标按下,,Drag and Drop? library action name
+GMStdIfMousePressed_Desc,Check if a mouse button is pressed.,检测一个鼠标键是否按下,,Drag and Drop? library action description
+GMStdIfMouseDown_Name,If Mouse Down,如果鼠标压住,,Drag and Drop? library action name
+GMStdIfMouseDown_Desc,Check if a mouse button is held or released.,检测一个鼠标键是否被按住,,Drag and Drop? library action description
+GMStdIfMouseUp_Name,If Mouse Released,如果鼠标放开,,Drag and Drop? library action name
+GMStdIfMouseUp_Desc,Check if a mouse button is released.,检测一个鼠标键是否被松开,,Drag and Drop? library action description
+GMStdIfKeyPressed_Name,If Key Pressed,如果键位按下,,Drag and Drop? library action name
+GMStdIfKeyPressed_Desc,Check if a key is pressed.,检测一个键位是否被按下,,Drag and Drop? library action description
+GMStdIfKeyDown_Name,If Key Down,如果键位入键,,Drag and Drop? library action name
+GMStdIfKeyDown_Desc,Check if a key is down or released.,检测一个键位是入键还是出键,,Drag and Drop? library action description
+GMStdIfKeyUp_Name,If Key Released,如果键位松开,,Drag and Drop? library action name
+GMStdIfKeyUp_Desc,Check if a key is released.,检测一个键位是否被松开,,Drag and Drop? library action description
+GMStdGPAxis_Name,Get Gamepad Axis,获取手柄轴向,,Drag and Drop? library action name
+GMStdGPAxis_Desc,Get the value of an axis on a gamepad.,获取关于一个手柄的轴向值。,,Drag and Drop? library action description
+GMStdGPTrigger_Name,Get Gamepad Trigger,获取手柄触发,,Drag and Drop? library action name
+GMStdGPTrigger_Desc,Get the value of a gamepad's trigger button.,获取游戏手柄触发键的值,,Drag and Drop? library action description
+GMStdIfGPDown_Name,If Gamepad Button Down,如果手柄键位入键,,Drag and Drop? library action name
+GMStdIfGPDown_Desc,Check if a gamepad button is down or released.,检测某个游戏手柄按钮是否入键。,,Drag and Drop? library action description
+GMStdIfGPPressed_Name,If Gamepad Button Pressed,如果手柄键位按下,,Drag and Drop? library action name
+GMStdIfGPPressed_Desc,Check if a gamepad button is pressed.,检测某个游戏手柄按键是否被按下。,,Drag and Drop? library action description
+GMStdIfGPUp_Name,If Gamepad Button Released,如果手柄键位放开,,Drag and Drop? library action name
+GMStdIfGPUp_Desc,Check if a gamepad button is released.,检测手柄按键是否被松开。,,Drag and Drop? library action description
+GMStdGPDeadzone_Name,Set Gamepad Axis Deadzone,设置游戏手柄轴向盲区,,Drag and Drop? library action name
+GMStdGPDeadzone_Desc,Set the deadzone of a gamepad axis.,设置一个游戏手柄的轴向盲区。,,Drag and Drop? library action description
+GMStdGpDeviceC_Name,Get Gamepad Count,获取游戏手柄数量,,Drag and Drop? library action name
+GMStdGpDeviceC_Desc,Get the number of connected gamepad devices.,获取当前已连接的游戏手柄数量。,,Drag and Drop? library action description
+GMStdGPConnc_Name,Get Gamepad Connected,获取已连接的游戏手柄,,Drag and Drop? library action name
+GMStdGPConnc_Desc,Get whether a given gamepad is connected.,获取所指定的游戏手柄是否已连接。,,Drag and Drop? library action description
+GMStdDirFixed_Name,Set Direction Fixed,设置固定方向,,Drag and Drop? library action name
+GMStdDirFixed_Desc,Set a fixed direction.,设置一个固定的方向,,Drag and Drop? library action description
+GMStdDirFree_Name,Set Direction Variable,设置可变方向,,Drag and Drop? library action name
+GMStdDirFree_Desc,Set a variable direction.,设置一个可变的方向,,Drag and Drop? library action description
+GMStdDirPoint_Name,Set Point Direction,设置点位置,,Drag and Drop? library action name
+GMStdDirPoint_Desc,Set a direction towards a specified point.,设置当前方向为到指定点的方向。,,Drag and Drop? library action description
+GMStdDirRandom_Name,Set Direction Random,设置随机方向,,Drag and Drop? library action name
+GMStdDirRandom_Desc,Set a random direction based on the specified directions.,基于所指定的几个方向随机设置方向。,,Drag and Drop? library action description
+GMStdSpeed_Name,Set Speed,设置速度,,Drag and Drop? library action name
+GMStdSpeed_Desc,Set the speed of an instance.,设置实例的运动速度,,Drag and Drop? library action description
+GMStdGravDir_Name,Set Gravity Direction,设置重力方向,,Drag and Drop? library action name
+GMStdGravDir_Desc,Set the gravitational direction.,设置重力的方向,,Drag and Drop? library action description
+GMStdGravForce_Name,Set Gravity Force,设置重力大小,,Drag and Drop? library action name
+GMStdGravForce_Desc,Set the gravitational force.,设置重力的大小,,Drag and Drop? library action description
+GMStdReverse_Name,Reverse,反向,,Drag and Drop? library action name
+GMStdReverse_Desc,Reverse a direction from a list of presets.,按照一组预设调转方向。,,Drag and Drop? library action description
+GMStdFriction_Name,Set Friction,设置阻力,,Drag and Drop? library action name
+GMStdFriction_Desc,Apply friction to the instance's movement.,对实例运动施加阻力,,Drag and Drop? library action description
+GMStdJumpPoint_Name,Jump To Point,跳转到点,,Drag and Drop? library action name
+GMStdJumpPoint_Desc,Jump to the specified position.,跳转到指定位置,,Drag and Drop? library action description
+GMStdJumpStart_Name,Jump To Start,跳转到起点,,Drag and Drop? library action name
+GMStdJumpStart_Desc,Jump to the instance's start position.,跳转到实例的起始位置,,Drag and Drop? library action description
+GMStdSnapPos_Name,Snap Position,吸附位置,,Drag and Drop? library action name
+GMStdSnapPos_Desc,Snap an instance's position to a grid.,将实例的位置吸附到网格上,,Drag and Drop? library action description
+GMStdWrapRoom_Name,Wrap Around Room,在房间内卷动,,Drag and Drop? library action name
+GMStdWrapRoom_Desc,Wrap around room.,在房间内循环卷动,,Drag and Drop? library action description
+GMStdIfAnyObjAt_Name,If Any Object At,如果有实例位于……,,Drag and Drop? library action name
+GMStdIfAnyObjAt_Desc,Check if an instance intersects any other instances at a position.,检测实例在某一位置上是否与其他别的实例发生交叠。,,Drag and Drop? library action description
+GMStdIfObjAt_Name,If Object At,如果物体位于……,,Drag and Drop? library action name
+GMStdIfObjAt_Desc,Check if an instance intersects another instance at a position.,检测实例在某一位置上是否与另一个物体发生交叠。,,Drag and Drop? library action description
+GMStdIfColShape_Name,If Collision Shape,如果与形状发生碰撞……,,Drag and Drop? library action name
+GMStdIfColShape_Desc,Check if an instance is intersecting a shape.,检测一个实例与一个形状是否发生交叠,,Drag and Drop? library action description
+GMStdDrawSelf_Name,Draw Self,绘制自身,,Drag and Drop? library action name
+GMStdDrawSelf_Desc,Draw this instance's sprite.,绘制该实例的精灵,,Drag and Drop? library action description
+GMStdDrawValue_Name,Draw Value,绘制值,,Drag and Drop? library action name
+GMStdDrawValue_Desc,"Draw the specified value. It can be a string, number or variable.",绘制一个指定的值，可以是字符串、数字或变量。,,Drag and Drop? library action description
+GMStdDrawValueTransformed_Name,Draw Transformed Value,变形地绘制值,,Drag and Drop? library action name
+GMStdDrawValueTransformed_Desc,"Draw a value with a transformation. It can be a string, number or variable.",带有形变地绘制一个值，可以是字符串、数字或变量。,,Drag and Drop? library action description
+GMStdDrawSprite_Name,Draw Sprite,绘制精灵,,Drag and Drop? library action name
+GMStdDrawSprite_Desc,Draw a sprite.,绘制一个精灵,,Drag and Drop? library action description
+GMStdDrawSpritesStacked_Name,Draw Stacked Sprites,绘制堆叠精灵,,Drag and Drop? library action name
+GMStdDrawSpritesStacked_Desc,Draw a sprite multiple times in a stack.,在一列中多次绘制精灵。,,Drag and Drop? library action description
+GMStdDrawRectangle_Name,Draw Rectangle,绘制矩形,,Drag and Drop? library action name
+GMStdDrawRectangle_Desc,Draw a rectangle.,绘制一个矩形,,Drag and Drop? library action description
+GMStdDrawGradientRect_Name,Draw Gradient Rectangle,绘制渐变矩形,,Drag and Drop? library action name
+GMStdDrawGradientRect_Desc,Draw a gradient in a rectangular shape.,在矩形中绘制渐变色。,,Drag and Drop? library action description
+GMStdDrawEllipse_Name,Draw Ellipse,绘制椭圆,,Drag and Drop? library action name
+GMStdDrawEllipse_Desc,Draw an ellipse.,绘制一个椭圆,,Drag and Drop? library action description
+GMStdDrawGradientEllipse_Name,Draw Gradient Ellipse,绘制渐变椭圆,,Drag and Drop? library action name
+GMStdDrawGradientEllipse_Desc,Draw a gradient in an elliptical shape.,在椭圆形中绘制渐变色,,Drag and Drop? library action description
+GMStdDrawLine_Name,Draw Line,绘制线,,Drag and Drop? library action name
+GMStdDrawLine_Desc,Draw a line.,绘制一条线段,,Drag and Drop? library action description
+GMStdDrawHealthbar_Name,Draw Healthbar,绘制生命值条,,Drag and Drop? library action name
+GMStdDrawHealthbar_Desc,Draw a healthbar from a 0-100 value.,以一个0~100的值绘制一个生命值条。,,Drag and Drop? library action description
+GMStdDrawInstanceScore_Name,Draw Instance Score,绘制实例分数,,Drag and Drop? library action name
+GMStdDrawInstanceScore_Desc,Draw an instance's score with a caption.,绘制一个带有标签名头的实例分数。,,Drag and Drop? library action description
+GMStdDrawInstanceHealth_Name,Draw Instance Health,绘制实例生命值,,Drag and Drop? library action name
+GMStdDrawInstanceHealth_Desc,Draw an instance's health with a healthbar.,绘制一个带有标签名头的实例生命值。,,Drag and Drop? library action description
+GMStdDrawInstanceLives_Name,Draw Instance Lives,绘制实例生命数,,Drag and Drop? library action name
+GMStdDrawInstanceLives_Desc,Draw an instance's lives with stacked sprites.,用一组堆叠精灵绘制实例的生命数,,Drag and Drop? library action description
+GMStdSetColor_Name,Set Draw Colour,设置绘制颜色,,Drag and Drop? library action name
+GMStdSetColor_Desc,Set the color to blend all drawing with.,设置用于之后所有绘制所混合的颜色。,,Drag and Drop? library action description
+GMStdGetColor_Name,Get Draw Colour,获取绘制颜色,,Drag and Drop? library action name
+GMStdGetColor_Desc,Get the color used to blend all drawing with.,获取当前用于混合绘制的颜色。,,Drag and Drop? library action description
+GMStdSetFont_Name,Set Font,设置字体,,Drag and Drop? library action name
+GMStdSetFont_Desc,Set the font to use for all text drawing.,设置用于之后所有文本绘制的字体,,Drag and Drop? library action description
+GMStdSetAlignment_Name,Set Text Alignment,设置文本对齐,,Drag and Drop? library action name
+GMStdSetAlignment_Desc,Set the horizontal and vertical alignment of text drawing.,设置绘制文本的水平及垂直对齐方式。,,Drag and Drop? library action description
+GMStdTileSetAtPixel_Name,Set Tile Index At Pixel,设置像素位置的图块索引,,Drag and Drop? library action name
+GMStdTileSetAtPixel_Desc,Set the tile index at the specified position.,设置位于指定位置的图块索引。,,Drag and Drop? library action description
+GMStdTileGetAtPixel_Name,Get Tile Index At Pixel,获取像素位置的图块索引,,Drag and Drop? library action name
+GMStdTileGetAtPixel_Desc,Get the tile index at the specified position.,获取位于指定位置的图块索引。,,Drag and Drop? library action description
+GMStdTileSetInCell_Name,Set Tile Index In Cell,设置单元格内的图块索引,,Drag and Drop? library action name
+GMStdTileSetInCell_Desc,Set the tile index in the specified cell.,设置在指定单元格处的图块索引。,,Drag and Drop? library action description
+GMStdTileGetInCell_Name,Get Tile Index In Cell,获取单元格内的图块索引,,Drag and Drop? library action name
+GMStdTileGetInCell_Desc,Get the tile index in the specified cell.,获取在指定单元格处的图块索引。,,Drag and Drop? library action description
+GMStdTileGetElm_Name,Get Tile Data In Cell,获取单元格内的图块数据,,DnD label
+GMStdTileGetElm_Desc,Get the tile data in a cell on a tile layer.,获取在一个图块层上一个单元格内的图块数据。,,DnD label
+GMStdTileGetElmPixel_Name,Get Tile Data At Pixel,获取像素位置的图块数据,,DnD label
+GMStdTileGetElmPixel_Desc,Get the tile data at the specified position on a tile layer.,获取在一个图块层上一个像素位置处的图块数据。,,DnD label
+GMStdTileSetElm_Name,Set Tile Data In Cell,设置单元格内的图块数据,,DnD label
+GMStdTileSetElm_Desc,Set the tile data in a cell on a tile layer.,设置在一个图块层上一个单元格内的图块数据。,,DnD label
+GMStdTileSetElmPixel_Name,Set Tile Data At Pixel,设置像素位置的图块数据,,DnD label
+GMStdTileSetElmPixel_Desc,Set the tile data at the specified position on a tile layer.,设置在一个图块层上一个像素位置处的图块数据。,,DnD label
+GMStdTileGetVar_Name,Get Tilemap Variable,获取图块映射变量,,DnD label
+GMStdTileGetVar_Desc,Get a variable from a tilemap element.,从一个图块映射元素获取一个变量。,,DnD label
+GMStdTileSetTileSet_Name,Set Tile Set,设置图块集,,DnD label
+GMStdTileSetTileSet_Desc,Set the tile set resource of a tilemap.,设置一个图块映射的图块集资源。,,DnD label
+GMStdTileTransform_Name,Set Tile Data Transform,设置图块数据形变,,Drag and Drop? library action name
+GMStdTileTransform_Desc,Apply a transformation to tile data.,将一个形变应用于图块数据。,,Drag and Drop? library action description
+GMStdTileGetTransform_Name,Get Tile Data Transform,获取图块形变,,Drag and Drop? library action name
+GMStdTileGetTransform_Desc,Get the transformation of tile data.,获取图块数据的形变。,,Drag and Drop? library action description
 GMStdTileSet,Tile Set,图块集,,DnD label
-GMStdSetScore_Name,Set Score,设置分数,,Drag and Drop™ library action name
-GMStdSetScore_Desc,Set the score variable on the instance.,设置实例的分数变量,,Drag and Drop™ library action description
-GMStdGetScore_Name,Get Score,获取分数,,Drag and Drop™ library action name
-GMStdGetScore_Desc,Get the score of the instance.,获取实例的分数变量,,Drag and Drop™ library action description
-GMStdSetLives_Name,Set Lives,设置生命数,,Drag and Drop™ library action name
-GMStdSetLives_Desc,Set the life count of the instance.,设置实例中的生命数。,,Drag and Drop™ library action description
-GMStdGetLives_Name,Get Lives,获取生命数,,Drag and Drop™ library action name
-GMStdGetLives_Desc,Get the life count of the instance.,获取实例的生命数。,,Drag and Drop™ library action description
-GMStdSetHealth_Name,Set Health,设置生命值,,Drag and Drop™ library action name
-GMStdSetHealth_Desc,Set the health variable of the instance.,设置实例的生命值,,Drag and Drop™ library action description
-GMStdGetHealth_Name,Get Health,获取生命值,,Drag and Drop™ library action name
-GMStdGetHealth_Desc,Get the health of the instance.,获取实例的生命值,,Drag and Drop™ library action description
-GMStdSetGlobal_Name,Set Global Variable,设置全局变量,,Drag and Drop™ library action name
-GMStdSetGlobal_Desc,Set a global variable.,设置一个全局变量。,,Drag and Drop™ library action description
-GMStdGetGlobal_Name,Get Global Variable,获取全局变量,,Drag and Drop™ library action name
-GMStdGetGlobal_Desc,Get a global variable.,获取一个全局变量。,,Drag and Drop™ library action description
-GMStdGetRandomNumber_Name,Get Random Number,获取随机数,,Drag and Drop™ library action name
-GMStdGetRandomNumber_Desc,Get a random inclusive number.,获取一个随机数（包括该数）。,,Drag and Drop™ library action description
-GMStdRandomize_Name,Randomize,随机化,,Drag and Drop™ library action name
-GMStdRandomize_Desc,Create a new random seed used by the random number generator.,通过随机数发生器创建一个新的随机种子。,,Drag and Drop™ library action description
-GMStdRepeat_Name,Repeat,重复(Repeat),,Drag and Drop™ library action name
-GMStdRepeat_Desc,Repeat code a number of times.,重复一段代码若干次。,,Drag and Drop™ library action description
-GMStdWhileLoop_Name,While Loop,当型循环(While),,Drag and Drop™ library action name
-GMStdWhileLoop_Desc,Execute code while a given expression is true.,当给定条件为真时循环执行其中代码,,Drag and Drop™ library action description
-GMStdBreak_Name,Break,跳出(Break),,Drag and Drop™ library action name
-GMStdBreak_Desc,Break out of a loop.,跳出一个循环,,Drag and Drop™ library action description
-GMStdSwitch_Name,Switch,多条件分支(Switch),,Drag and Drop™ library action name
-GMStdSwitch_Desc,Switch which branch to execute based on input.,基于输入值来选择执行某一分支的代码。,,Drag and Drop™ library action description
-GMStdCase_Name,Case,情形(Case),,Drag and Drop™ library action name
-GMStdCase_Desc,A branch to execute in a switch if the case is true.,switch分支中当满足情形时所执行的分支。,,Drag and Drop™ library action description
-GMStdDecimalToInteger_Name,Decimal To Integer,小数转化为整数,,Drag and Drop™ library action name
-GMStdDecimalToInteger_Desc,"Round a decimal value to an integer value by rounding, ceiling or flooring it.",通过就近、向上或向下取整来将小数值近似为一个整数。,,Drag and Drop™ library action description
-GMStdStringToNumber_Name,String To Number,字符串转化为数字,,Drag and Drop™ library action name
-GMStdStringToNumber_Desc,Convert a string to a number.,将一个字符串转换为一个数字,,Drag and Drop™ library action description
-GMStdNumberToString_Name,Number To String,数字转化为字符串,,Drag and Drop™ library action name
-GMStdNumberToString_Desc,Convert a number to a string.,将一个数字转换为字符串,,Drag and Drop™ library action description
-GMStdCreateList_Name,Create List,创建列表,,Drag and Drop™ library action name
-GMStdCreateList_Desc,Create a list data structure.,创建一个列表数据结构,,Drag and Drop™ library action description
-GMStdCreateMap_Name,Create Map,创建映射,,Drag and Drop™ library action name
-GMStdCreateMap_Desc,Create a map data structure.,创建一个映射数据结构,,Drag and Drop™ library action description
-GMStdForLoop_Name,For Loop,步长循环(For),,Drag and Drop™ library action name
-GMStdForLoop_Desc,"A self-contained loop structure with initialise, condition and increment statements.",一个带有初值、条件和步进语句的完备的循环结构。,,Drag and Drop™ library action description
-GMStdDrawSpriteExt_Name,Draw Sprite Transformed,变形绘制精灵,,Drag and Drop™ library action name
-GMStdDrawSpriteExt_Desc,Draw a sprite with transformations.,带有形变地绘制一个精灵,,Drag and Drop™ library action description
-GMStdSetViewVar_Name,Set View Variable,设置视野变量,,Drag and Drop™ library action name
-GMStdSetViewVar_Desc,Set a variable pertaining to a room view.,设置一个房间视野相关的变量。,,Drag and Drop™ library action description
-GMStdGetViewVar_Name,Get View Variable,获取视野变量,,Drag and Drop™ library action name
-GMStdGetViewVar_Desc,Get a variable pertaining to a room view.,获取房间视野相关的变量。,,Drag and Drop™ library action description
-GMStdCreateGrid_Name,Create Grid,创建栅格,,Drag and Drop™ library action name
-GMStdCreateGrid_Desc,Create a new grid data structure.,创建一个栅格数据结构,,Drag and Drop™ library action description
-GMStdCreateStack_Name,Create Stack,创建堆栈,,Drag and Drop™ library action name
-GMStdCreateStack_Desc,Create a stack data structure.,创建一个堆栈数据结构,,Drag and Drop™ library action description
-GMStdIfDSExists_Name,If Data Structure Exists,如果数据结构存在,,Drag and Drop™ library action name
-GMStdIfDSExists_Desc,Check if a data structure exists.,检测一个数据结构是否存在,,Drag and Drop™ library action description
-GMStdIfDSEmpty_Name,If Data Structure Empty,如果数据结构为空,,Drag and Drop™ library action name
-GMStdIfDSEmpty_Desc,Check if a data structure is empty.,检测一个数据结构是否为空,,Drag and Drop™ library action description
-GMStdDSClear_Name,Clear Data Structure,清空数据结构,,Drag and Drop™ library action name
-GMStdDSClear_Desc,Clear the contents of a data structure.,清空一个数据结构的内容,,Drag and Drop™ library action description
-GMStdDSFree_Name,Free Data Structure,释放数据结构,,Drag and Drop™ library action name
-GMStdDSFree_Desc,Free an existing data structure.,释放一个现有的数据结构,,Drag and Drop™ library action description
-GMStdListAdd_Name,Add To List,添加到列表,,Drag and Drop™ library action name
-GMStdListAdd_Desc,Add a value to a list.,将一个值添加到一个列表中,,Drag and Drop™ library action description
-GMStdListRemove_Name,Remove From List,从列表移除,,Drag and Drop™ library action name
-GMStdListRemove_Desc,Remove a value from a list.,将一个值移出列表,,Drag and Drop™ library action description
-GMStdListGetAt_Name,Get List Item At,获取所在处的列表项,,Drag and Drop™ library action name
-GMStdListGetAt_Desc,Get a list item at an index.,获取位于一个索引的列表项,,Drag and Drop™ library action description
-GMStdListIndexOf_Name,Get Index Of List Item,获取列表项的索引,,Drag and Drop™ library action name
-GMStdListIndexOf_Desc,Get the index of a list item.,获取一个列表项的索引。,,Drag and Drop™ library action description
-GMStdListInsert_Name,Insert Into List,插入到列表,,Drag and Drop™ library action name
-GMStdListInsert_Desc,Insert an item into a list at an index.,在指定索引位置插入一项,,Drag and Drop™ library action description
-GMStdListCount_Name,Get List Item Count,获取列表项总数,,Drag and Drop™ library action name
-GMStdListCount_Desc,Get the number of items in a list.,获取一个列表的项目总数。,,Drag and Drop™ library action description
-GMStdMapSetValue_Name,Set Map Value,设置映射值,,Drag and Drop™ library action name
-GMStdMapSetValue_Desc,Set the value of a map entry.,设置映射项的值。,,Drag and Drop™ library action description
-GMStdMapGetValue_Name,Get Map Value,获取映射值,,Drag and Drop™ library action name
-GMStdMapGetValue_Desc,Get the value of a map entry.,获取一个映射项的值。,,Drag and Drop™ library action description
-GMStdMapRemove_Name,Remove Map Entry,移除映射项,,Drag and Drop™ library action name
-GMStdMapRemove_Desc,Remove a map entry.,移除一个映射项,,Drag and Drop™ library action description
-GMStdGridSetValue_Name,Set Grid Value,设置栅格值,,Drag and Drop™ library action name
-GMStdGridSetValue_Desc,Set a value in a grid.,Set a value in a grid.,,Drag and Drop™ library action description
-GMStdGridGetValue_Name,Get Grid Value,Get Grid Value,,Drag and Drop™ library action name
-GMStdGridGetValue_Desc,Get a value in a grid.,Get a value in a grid.,,Drag and Drop™ library action description
-GMStdGridClear_Name,Clear Grid,Clear Grid,,Drag and Drop™ library action name
-GMStdGridClear_Desc,Clear a grid to a specific value.,Clear a grid to a specific value.,,Drag and Drop™ library action description
-GMStdStackPush_Name,Push Onto Stack,压栈,,Drag and Drop™ library action name
-GMStdStackPush_Desc,Push a value onto a stack.,将一个值压入堆栈。,,Drag and Drop™ library action description
-GMStdStackPop_Name,Pop Stack,出栈,,Drag and Drop™ library action name
-GMStdStackPop_Desc,Pop a value off a stack.,将一个值弹出堆栈。,,Drag and Drop™ library action description
-GMStdPlayAudio_Name,Play Audio,播放音频,,Drag and Drop™ library action name
-GMStdPlayAudio_Desc,Play a sound effect or a music track.,播放一个音效或者一个音乐音轨。,,Drag and Drop™ library action description
-GMStdStopAudio_Name,Stop Audio,停止音频,,Drag and Drop™ library action name
-GMStdStopAudio_Desc,Stop playing a sound effect or a music track.,停止播放一个音效或者音乐音轨。,,Drag and Drop™ library action description
-GMStdStopAllAudio_Name,Stop All Audio,停止所有音频,,Drag and Drop™ library action name
-GMStdStopAllAudio_Desc,Stop all audio.,停止所有音频。,,Drag and Drop™ library action description
-GMStdPauseAudio_Name,Pause Audio,暂停音频,,Drag and Drop™ library action name
-GMStdPauseAudio_Desc,Pause a sound effect or a music track.,暂停一个音效或者音乐音轨的播放。,,Drag and Drop™ library action description
-GMStdPauseAllAudio_Name,Pause All Audio,暂停所有音频,,Drag and Drop™ library action name
-GMStdPauseAllAudio_Desc,Pause all audio.,暂停所有音频。,,Drag and Drop™ library action description
-GMStdResumeAudio_Name,Resume Audio,恢复音频的播放,,Drag and Drop™ library action name
-GMStdResumeAudio_Desc,Resume playing a sound effect or a music track.,恢复播放一个音效或音乐音轨。,,Drag and Drop™ library action description
-GMStdResumeAllAudio_Name,Resume All Audio,恢复所有音频的播放,,Drag and Drop™ library action name
-GMStdResumeAllAudio_Desc,Resume playing all paused audio.,恢复所有的暂停音频的播放。,,Drag and Drop™ library action description
-GMStdIfAudioPlaying_Name,If Audio Is Playing,如果音频正在播放,,Drag and Drop™ library action name
-GMStdIfAudioPlaying_Desc,Check if a sound effect or a music track is playing.,检查音效或者音乐音轨是否正在播放,,Drag and Drop™ library action description
-GMStdIfAudioPaused_Name,If Audio Is Paused,如果音频被暂停,,Drag and Drop™ library action name
-GMStdIfAudioPaused_Desc,Check if a sound effect or a music track is paused.,检查是否一个音效或者音乐音轨已经暂停。,,Drag and Drop™ library action description
-GMStdAudioSetPosition_Name,Set Audio Position,设置音频位置,,Drag and Drop™ library action name
-GMStdAudioSetPosition_Desc,Set the playback position of a sound effect or a music track.,设置音效或者音轨的播放位置。,,Drag and Drop™ library action description
-GMStdAudioGetLength_Name,Get Audio Length,获取音频长度,,Drag and Drop™ library action name
-GMStdAudioGetLength_Desc,Get the length of a sound effect or a music track in seconds.,获取音效或者音轨的长度，单位秒。,,Drag and Drop™ library action description
-GMStdAudioSetPitch_Name,Set Audio Pitch,设置音频音调,,Drag and Drop™ library action name
-GMStdAudioSetPitch_Desc,Set the pitch of a sound effect or a music track.,设置音效或音轨的音调。,,Drag and Drop™ library action description
-GMStdAudioGetPitch_Name,Get Audio Pitch,获取音频音调,,Drag and Drop™ library action name
-GMStdAudioGetPitch_Desc,Get the pitch of a sound effect or a music track.,获取音效或音轨的音调,,Drag and Drop™ library action description
-GMStdAudioSetVolume_Name,Set Audio Volume,设置音频音量,,Drag and Drop™ library action name
-GMStdAudioSetVolume_Desc,Set the volume of a sound effect or a music track.,设置一个音效或音轨的音量。,,Drag and Drop™ library action description
-GMStdAudioGetVolume_Name,Get Audio Volume,获取音频音量,,Drag and Drop™ library action name
-GMStdAudioGetVolume_Desc,Get the volume of a sound effect or a music track.,获取音效或音轨的音量。,,Drag and Drop™ library action description
-GMStdAudoSetMasterVolume_Name,Set Master Volume,设置主音量,,Drag and Drop™ library action name
-GMStdAudoSetMasterVolume_Desc,Set the master volume that all other volumes are relative to.,设置主音量，所有其它音频的音量与它相关。,,Drag and Drop™ library action description
-GMStdAudioGetMasterVolume_Name,Get Master Volume,获取主音量,,Drag and Drop™ library action name
-GMStdAudioGetMasterVolume_Desc,Get the master volume all other volumes are relative to.,获取主音量，所有其它的音频音量都与它相关。,,Drag and Drop™ library action description
-GMStdGetCurrentRoom_Name,Get Current Room,获取当前房间,,Drag and Drop™ library action name
-GMStdGetCurrentRoom_Desc,Get the currently active room.,获取当前活动的房间。,,Drag and Drop™ library action description
-GMStdPreviousRoom_Name,Go To Previous Room,前往前一个房间,,Drag and Drop™ library action name
-GMStdPreviousRoom_Desc,Go to the room that was previously active.,前往前一个活动的房间。,,Drag and Drop™ library action description
-GMStdNextRoom_Name,Go To Next Room,前往下一个房间,,Drag and Drop™ library action name
-GMStdNextRoom_Desc,Go to the next room in the list.,前往列表中的下一个房间,,Drag and Drop™ library action description
-GMStdRestartRoom_Name,Restart Room,重启房间,,Drag and Drop™ library action name
-GMStdRestartRoom_Desc,Restart the current room.,重启当前房间,,Drag and Drop™ library action description
-GMStdGoToRoom_Name,Go To Room,前往房间,,Drag and Drop™ library action name
-GMStdGoToRoom_Desc,Go to a specific room.,前往指定房间,,Drag and Drop™ library action description
-GMStdIfFirstRoom_Name,If Room Is First,如果房间是第一个,,Drag and Drop™ library action name
-GMStdIfFirstRoom_Desc,Check if the current room is the first room or not.,检测当前房间是否为第一个房间。,,Drag and Drop™ library action description
-GMStdIfLastRoom_Name,If Room Is Last,如果房间是最后一个,,Drag and Drop™ library action name
-GMStdIfLastRoom_Desc,Check if the current room is the last room or not.,检测当前房间是否为最后一个房间。,,Drag and Drop™ library action description
-GMStdRestartGame_Name,Restart Game,重启游戏,,Drag and Drop™ library action name
-GMStdRestartGame_Desc,Restart the game.,重新启动游戏,,Drag and Drop™ library action description
-GMStdEndGame_Name,Exit Game,退出游戏,,Drag and Drop™ library action name
-GMStdEndGame_Desc,Exit the game application.,退出游戏程序,,Drag and Drop™ library action description
-GMStdSaveGame_Name,Save Game,保存游戏,,Drag and Drop™ library action name
-GMStdSaveGame_Desc,Save the current progress.,保存当前进度,,Drag and Drop™ library action description
-GMStdLoadGame_Name,Load Game,载入游戏,,Drag and Drop™ library action name
-GMStdLoadGame_Desc,Load the game from a save file.,从一个存档文件中载入游戏,,Drag and Drop™ library action description
-GMStdOpenIni_Name,Open Ini File,打开INI文件,,Drag and Drop™ library action name
-GMStdOpenIni_Desc,Open an ini file for reading and writing. You can only have 1 ini file open at a time.,打开一个INI文件以供读写，你只能同时打开一个INI文件。,,Drag and Drop™ library action description
-GMStdCloseIni_Name,Close Ini File,关闭INI文件,,Drag and Drop™ library action name
-GMStdCloseIni_Desc,Close the currently open ini file.,关闭当前已开启的INI文件,,Drag and Drop™ library action description
+GMStdSetScore_Name,Set Score,设置分数,,Drag and Drop? library action name
+GMStdSetScore_Desc,Set the score variable on the instance.,设置实例的分数变量,,Drag and Drop? library action description
+GMStdGetScore_Name,Get Score,获取分数,,Drag and Drop? library action name
+GMStdGetScore_Desc,Get the score of the instance.,获取实例的分数变量,,Drag and Drop? library action description
+GMStdSetLives_Name,Set Lives,设置生命数,,Drag and Drop? library action name
+GMStdSetLives_Desc,Set the life count of the instance.,设置实例中的生命数。,,Drag and Drop? library action description
+GMStdGetLives_Name,Get Lives,获取生命数,,Drag and Drop? library action name
+GMStdGetLives_Desc,Get the life count of the instance.,获取实例的生命数。,,Drag and Drop? library action description
+GMStdSetHealth_Name,Set Health,设置生命值,,Drag and Drop? library action name
+GMStdSetHealth_Desc,Set the health variable of the instance.,设置实例的生命值,,Drag and Drop? library action description
+GMStdGetHealth_Name,Get Health,获取生命值,,Drag and Drop? library action name
+GMStdGetHealth_Desc,Get the health of the instance.,获取实例的生命值,,Drag and Drop? library action description
+GMStdSetGlobal_Name,Set Global Variable,设置全局变量,,Drag and Drop? library action name
+GMStdSetGlobal_Desc,Set a global variable.,设置一个全局变量。,,Drag and Drop? library action description
+GMStdGetGlobal_Name,Get Global Variable,获取全局变量,,Drag and Drop? library action name
+GMStdGetGlobal_Desc,Get a global variable.,获取一个全局变量。,,Drag and Drop? library action description
+GMStdGetRandomNumber_Name,Get Random Number,获取随机数,,Drag and Drop? library action name
+GMStdGetRandomNumber_Desc,Get a random inclusive number.,获取一个随机数（包括该数）。,,Drag and Drop? library action description
+GMStdRandomize_Name,Randomize,随机化,,Drag and Drop? library action name
+GMStdRandomize_Desc,Create a new random seed used by the random number generator.,通过随机数发生器创建一个新的随机种子。,,Drag and Drop? library action description
+GMStdRepeat_Name,Repeat,重复(Repeat),,Drag and Drop? library action name
+GMStdRepeat_Desc,Repeat code a number of times.,重复一段代码若干次。,,Drag and Drop? library action description
+GMStdWhileLoop_Name,While Loop,当型循环(While),,Drag and Drop? library action name
+GMStdWhileLoop_Desc,Execute code while a given expression is true.,当给定条件为真时循环执行其中代码,,Drag and Drop? library action description
+GMStdBreak_Name,Break,跳出(Break),,Drag and Drop? library action name
+GMStdBreak_Desc,Break out of a loop.,跳出一个循环,,Drag and Drop? library action description
+GMStdSwitch_Name,Switch,多条件分支(Switch),,Drag and Drop? library action name
+GMStdSwitch_Desc,Switch which branch to execute based on input.,基于输入值来选择执行某一分支的代码。,,Drag and Drop? library action description
+GMStdCase_Name,Case,情形(Case),,Drag and Drop? library action name
+GMStdCase_Desc,A branch to execute in a switch if the case is true.,Switch分支中当满足情形时所执行的分支。,,Drag and Drop? library action description
+GMStdDecimalToInteger_Name,Decimal To Integer,小数转化为整数,,Drag and Drop? library action name
+GMStdDecimalToInteger_Desc,"Round a decimal value to an integer value by rounding, ceiling or flooring it.",通过就近、向上或向下取整来将小数值近似为一个整数。,,Drag and Drop? library action description
+GMStdStringToNumber_Name,String To Number,字符串转化为数字,,Drag and Drop? library action name
+GMStdStringToNumber_Desc,Convert a string to a number.,将一个字符串转换为一个数字,,Drag and Drop? library action description
+GMStdNumberToString_Name,Number To String,数字转化为字符串,,Drag and Drop? library action name
+GMStdNumberToString_Desc,Convert a number to a string.,将一个数字转换为字符串,,Drag and Drop? library action description
+GMStdCreateList_Name,Create List,创建列表,,Drag and Drop? library action name
+GMStdCreateList_Desc,Create a list data structure.,创建一个列表数据结构,,Drag and Drop? library action description
+GMStdCreateMap_Name,Create Map,创建映射,,Drag and Drop? library action name
+GMStdCreateMap_Desc,Create a map data structure.,创建一个映射数据结构,,Drag and Drop? library action description
+GMStdForLoop_Name,For Loop,步长循环(For),,Drag and Drop? library action name
+GMStdForLoop_Desc,"A self-contained loop structure with initialise, condition and increment statements.",一个带有初值、条件和步进语句的完备的循环结构。,,Drag and Drop? library action description
+GMStdDrawSpriteExt_Name,Draw Sprite Transformed,变形绘制精灵,,Drag and Drop? library action name
+GMStdDrawSpriteExt_Desc,Draw a sprite with transformations.,带有形变地绘制一个精灵,,Drag and Drop? library action description
+GMStdSetViewVar_Name,Set View Variable,设置视野变量,,Drag and Drop? library action name
+GMStdSetViewVar_Desc,Set a variable pertaining to a room view.,设置一个房间视野相关的变量。,,Drag and Drop? library action description
+GMStdGetViewVar_Name,Get View Variable,获取视野变量,,Drag and Drop? library action name
+GMStdGetViewVar_Desc,Get a variable pertaining to a room view.,获取房间视野相关的变量。,,Drag and Drop? library action description
+GMStdCreateGrid_Name,Create Grid,创建栅格,,Drag and Drop? library action name
+GMStdCreateGrid_Desc,Create a new grid data structure.,创建一个栅格数据结构,,Drag and Drop? library action description
+GMStdCreateStack_Name,Create Stack,创建堆栈,,Drag and Drop? library action name
+GMStdCreateStack_Desc,Create a stack data structure.,创建一个堆栈数据结构,,Drag and Drop? library action description
+GMStdIfDSExists_Name,If Data Structure Exists,如果数据结构存在,,Drag and Drop? library action name
+GMStdIfDSExists_Desc,Check if a data structure exists.,检测一个数据结构是否存在,,Drag and Drop? library action description
+GMStdIfDSEmpty_Name,If Data Structure Empty,如果数据结构为空,,Drag and Drop? library action name
+GMStdIfDSEmpty_Desc,Check if a data structure is empty.,检测一个数据结构是否为空,,Drag and Drop? library action description
+GMStdDSClear_Name,Clear Data Structure,清空数据结构,,Drag and Drop? library action name
+GMStdDSClear_Desc,Clear the contents of a data structure.,清空一个数据结构的内容,,Drag and Drop? library action description
+GMStdDSFree_Name,Free Data Structure,释放数据结构,,Drag and Drop? library action name
+GMStdDSFree_Desc,Free an existing data structure.,释放一个现有的数据结构,,Drag and Drop? library action description
+GMStdListAdd_Name,Add To List,添加到列表,,Drag and Drop? library action name
+GMStdListAdd_Desc,Add a value to a list.,将一个值添加到一个列表中,,Drag and Drop? library action description
+GMStdListRemove_Name,Remove From List,从列表移除,,Drag and Drop? library action name
+GMStdListRemove_Desc,Remove a value from a list.,将一个值移出列表,,Drag and Drop? library action description
+GMStdListGetAt_Name,Get List Item At,获取所在处的列表项,,Drag and Drop? library action name
+GMStdListGetAt_Desc,Get a list item at an index.,获取位于一个索引的列表项。,,Drag and Drop? library action description
+GMStdListIndexOf_Name,Get Index Of List Item,获取列表项的索引,,Drag and Drop? library action name
+GMStdListIndexOf_Desc,Get the index of a list item.,获取一个列表项的索引。,,Drag and Drop? library action description
+GMStdListInsert_Name,Insert Into List,插入到列表,,Drag and Drop? library action name
+GMStdListInsert_Desc,Insert an item into a list at an index.,在指定索引位置插入一项。,,Drag and Drop? library action description
+GMStdListCount_Name,Get List Item Count,获取列表项总数,,Drag and Drop? library action name
+GMStdListCount_Desc,Get the number of items in a list.,获取一个列表的项目总数。,,Drag and Drop? library action description
+GMStdMapSetValue_Name,Set Map Value,设置映射值,,Drag and Drop? library action name
+GMStdMapSetValue_Desc,Set the value of a map entry.,设置映射项的值。,,Drag and Drop? library action description
+GMStdMapGetValue_Name,Get Map Value,获取映射值,,Drag and Drop? library action name
+GMStdMapGetValue_Desc,Get the value of a map entry.,获取一个映射项的值。,,Drag and Drop? library action description
+GMStdMapRemove_Name,Remove Map Entry,移除映射项,,Drag and Drop? library action name
+GMStdMapRemove_Desc,Remove a map entry.,移除一个映射项。,,Drag and Drop? library action description
+GMStdGridSetValue_Name,Set Grid Value,设置栅格值,,Drag and Drop? library action name
+GMStdGridSetValue_Desc,Set a value in a grid.,设置栅格结构中的值。,,Drag and Drop? library action description
+GMStdGridGetValue_Name,Get Grid Value,获取栅格值,,Drag and Drop? library action name
+GMStdGridGetValue_Desc,Get a value in a grid.,获取栅格结构中的值。,,Drag and Drop? library action description
+GMStdGridClear_Name,Clear Grid,清空栅格,,Drag and Drop? library action name
+GMStdGridClear_Desc,Clear a grid to a specific value.,使用指定值清空整个栅格。,,Drag and Drop? library action description
+GMStdStackPush_Name,Push Onto Stack,压栈,,Drag and Drop? library action name
+GMStdStackPush_Desc,Push a value onto a stack.,将一个值压入堆栈。,,Drag and Drop? library action description
+GMStdStackPop_Name,Pop Stack,出栈,,Drag and Drop? library action name
+GMStdStackPop_Desc,Pop a value off a stack.,将一个值弹出堆栈。,,Drag and Drop? library action description
+GMStdPlayAudio_Name,Play Audio,播放音频,,Drag and Drop? library action name
+GMStdPlayAudio_Desc,Play a sound effect or a music track.,播放一个音效或者一个音乐音轨。,,Drag and Drop? library action description
+GMStdStopAudio_Name,Stop Audio,停止音频,,Drag and Drop? library action name
+GMStdStopAudio_Desc,Stop playing a sound effect or a music track.,停止播放一个音效或者音乐音轨。,,Drag and Drop? library action description
+GMStdStopAllAudio_Name,Stop All Audio,停止所有音频,,Drag and Drop? library action name
+GMStdStopAllAudio_Desc,Stop all audio.,停止所有音频。,,Drag and Drop? library action description
+GMStdPauseAudio_Name,Pause Audio,暂停音频,,Drag and Drop? library action name
+GMStdPauseAudio_Desc,Pause a sound effect or a music track.,暂停一个音效或者音乐音轨的播放。,,Drag and Drop? library action description
+GMStdPauseAllAudio_Name,Pause All Audio,暂停所有音频,,Drag and Drop? library action name
+GMStdPauseAllAudio_Desc,Pause all audio.,暂停所有音频。,,Drag and Drop? library action description
+GMStdResumeAudio_Name,Resume Audio,恢复音频的播放,,Drag and Drop? library action name
+GMStdResumeAudio_Desc,Resume playing a sound effect or a music track.,恢复播放一个音效或音乐音轨。,,Drag and Drop? library action description
+GMStdResumeAllAudio_Name,Resume All Audio,恢复所有音频的播放,,Drag and Drop? library action name
+GMStdResumeAllAudio_Desc,Resume playing all paused audio.,恢复所有的暂停音频的播放。,,Drag and Drop? library action description
+GMStdIfAudioPlaying_Name,If Audio Is Playing,如果音频正在播放,,Drag and Drop? library action name
+GMStdIfAudioPlaying_Desc,Check if a sound effect or a music track is playing.,检查音效或者音乐音轨是否正在播放,,Drag and Drop? library action description
+GMStdIfAudioPaused_Name,If Audio Is Paused,如果音频被暂停,,Drag and Drop? library action name
+GMStdIfAudioPaused_Desc,Check if a sound effect or a music track is paused.,检查是否一个音效或者音乐音轨已经暂停。,,Drag and Drop? library action description
+GMStdAudioSetPosition_Name,Set Audio Position,设置音频位置,,Drag and Drop? library action name
+GMStdAudioSetPosition_Desc,Set the playback position of a sound effect or a music track.,设置音效或者音轨的播放位置。,,Drag and Drop? library action description
+GMStdAudioGetLength_Name,Get Audio Length,获取音频长度,,Drag and Drop? library action name
+GMStdAudioGetLength_Desc,Get the length of a sound effect or a music track in seconds.,获取音效或者音轨的长度，单位秒。,,Drag and Drop? library action description
+GMStdAudioSetPitch_Name,Set Audio Pitch,设置音频音调,,Drag and Drop? library action name
+GMStdAudioSetPitch_Desc,Set the pitch of a sound effect or a music track.,设置音效或音轨的音调。,,Drag and Drop? library action description
+GMStdAudioGetPitch_Name,Get Audio Pitch,获取音频音调,,Drag and Drop? library action name
+GMStdAudioGetPitch_Desc,Get the pitch of a sound effect or a music track.,获取音效或音轨的音调,,Drag and Drop? library action description
+GMStdAudioSetVolume_Name,Set Audio Volume,设置音频音量,,Drag and Drop? library action name
+GMStdAudioSetVolume_Desc,Set the volume of a sound effect or a music track.,设置一个音效或音轨的音量。,,Drag and Drop? library action description
+GMStdAudioGetVolume_Name,Get Audio Volume,获取音频音量,,Drag and Drop? library action name
+GMStdAudioGetVolume_Desc,Get the volume of a sound effect or a music track.,获取音效或音轨的音量。,,Drag and Drop? library action description
+GMStdAudoSetMasterVolume_Name,Set Master Volume,设置主音量,,Drag and Drop? library action name
+GMStdAudoSetMasterVolume_Desc,Set the master volume that all other volumes are relative to.,设置主音量，所有其它音频的音量与它相关。,,Drag and Drop? library action description
+GMStdAudioGetMasterVolume_Name,Get Master Volume,获取主音量,,Drag and Drop? library action name
+GMStdAudioGetMasterVolume_Desc,Get the master volume all other volumes are relative to.,获取主音量，所有其它的音频音量都与它相关。,,Drag and Drop? library action description
+GMStdGetCurrentRoom_Name,Get Current Room,获取当前房间,,Drag and Drop? library action name
+GMStdGetCurrentRoom_Desc,Get the currently active room.,获取当前活动的房间。,,Drag and Drop? library action description
+GMStdPreviousRoom_Name,Go To Previous Room,前往前一个房间,,Drag and Drop? library action name
+GMStdPreviousRoom_Desc,Go to the room that was previously active.,前往前一个活动的房间。,,Drag and Drop? library action description
+GMStdNextRoom_Name,Go To Next Room,前往下一个房间,,Drag and Drop? library action name
+GMStdNextRoom_Desc,Go to the next room in the list.,前往列表中的下一个房间,,Drag and Drop? library action description
+GMStdRestartRoom_Name,Restart Room,重启房间,,Drag and Drop? library action name
+GMStdRestartRoom_Desc,Restart the current room.,重启当前房间,,Drag and Drop? library action description
+GMStdGoToRoom_Name,Go To Room,前往房间,,Drag and Drop? library action name
+GMStdGoToRoom_Desc,Go to a specific room.,前往指定房间,,Drag and Drop? library action description
+GMStdIfFirstRoom_Name,If Room Is First,如果房间是第一个,,Drag and Drop? library action name
+GMStdIfFirstRoom_Desc,Check if the current room is the first room or not.,检测当前房间是否为第一个房间。,,Drag and Drop? library action description
+GMStdIfLastRoom_Name,If Room Is Last,如果房间是最后一个,,Drag and Drop? library action name
+GMStdIfLastRoom_Desc,Check if the current room is the last room or not.,检测当前房间是否为最后一个房间。,,Drag and Drop? library action description
+GMStdRestartGame_Name,Restart Game,重启游戏,,Drag and Drop? library action name
+GMStdRestartGame_Desc,Restart the game.,重新启动游戏,,Drag and Drop? library action description
+GMStdEndGame_Name,Exit Game,退出游戏,,Drag and Drop? library action name
+GMStdEndGame_Desc,Exit the game application.,退出游戏程序,,Drag and Drop? library action description
+GMStdSaveGame_Name,Save Game,保存游戏,,Drag and Drop? library action name
+GMStdSaveGame_Desc,Save the current progress.,保存当前进度,,Drag and Drop? library action description
+GMStdLoadGame_Name,Load Game,载入游戏,,Drag and Drop? library action name
+GMStdLoadGame_Desc,Load the game from a save file.,从一个存档文件中载入游戏,,Drag and Drop? library action description
+GMStdOpenIni_Name,Open Ini File,打开INI文件,,Drag and Drop? library action name
+GMStdOpenIni_Desc,Open an ini file for reading and writing. You can only have 1 ini file open at a time.,打开一个INI文件以供读写，你只能同时打开一个INI文件。,,Drag and Drop? library action description
+GMStdCloseIni_Name,Close Ini File,关闭INI文件,,Drag and Drop? library action name
+GMStdCloseIni_Desc,Close the currently open ini file.,关闭当前已开启的INI文件,,Drag and Drop? library action description
 GMStdInit,Initialise,初值,,DnD label
 GMStdCondition,Condition,条件,,DnD label
 GMStdIncrement,Increment,步进,,DnD label
 GMStdView,View,视野,,DnD label
-GMStdIniWrite_Name,Write To Ini File,写入INI文件,,Drag and Drop™ library action name
-GMStdIniWrite_Desc,Write a string or numeric value to an ini file.,将一个字符串或数值写入一个INI文件中,,Drag and Drop™ library action description
-GMStdIniRead_Name,Read Ini File,读取INI文件,,Drag and Drop™ library action name
-GMStdIniRead_Desc,Read a string or numeric value from an ini file.,从一个INI文件中读取一个字符串或数值,,Drag and Drop™ library action description
-GMStdSetTimeline_Name,Set Instance Timeline,设置实例时间轴,,Drag and Drop™ library action name
-GMStdSetTimeline_Desc,Attach a timeline to an instance.,将一个时间轴附加到实例上,,Drag and Drop™ library action description
-GMStdPositionTimeline_Name,Set Timeline Moment,设置时间轴时刻,,Drag and Drop™ library action name
-GMStdPositionTimeline_Desc,Set the current moment of an instance's timeline.,设置实例时间轴的当前时刻,,Drag and Drop™ library action description
-GMStdSpeedTimeline_Name,Set Timeline Speed,设置时间轴速度,,Drag and Drop™ library action name
-GMStdSpeedTimeline_Desc,Set the speed of an instance's timeline.,设置实例时间轴的速度,,Drag and Drop™ library action description
-GMStdSetTimelineState_Name,Set Timeline State,设置时间轴状态,,Drag and Drop™ library action name
-GMStdSetTimelineState_Desc,Set the state of an instance's timeline.,设置实例时间轴的状态,,Drag and Drop™ library action description
-GMStdStartPath_Name,Start Following Path,开始跟随路径,,Drag and Drop™ library action name
-GMStdStartPath_Desc,Start following a path with an instance.,开始用实例跟随路径,,Drag and Drop™ library action description
-GMStdStopPath_Name,Stop Following Path,停止跟随路径,,Drag and Drop™ library action name
-GMStdStopPath_Desc,Stop an instance from following a path.,停止实例跟随路径,,Drag and Drop™ library action description
-GMStdPathPosition_Name,Set Position Along Path,设置路径沿线位置,,Drag and Drop™ library action name
-GMStdPathPosition_Desc,Set the position of the instance along the path it is following.,设置实例在所跟随路径上的沿线位置。,,Drag and Drop™ library action description
-GMStdPathSpeed_Name,Set Path Follow Speed,设置路径跟随速度,,Drag and Drop™ library action name
-GMStdPathSpeed_Desc,Set the speed of the instance following a path.,设置实例跟随路径的速度,,Drag and Drop™ library action description
-GMStdDebugShowMessage_Name,Show Debug Message,显示调试消息,,Drag and Drop™ library action name
-GMStdDebugShowMessage_Desc,Display a debug message in the output console.,在输出控制台中显示一个调试消息,,Drag and Drop™ library action description
-GMStdSetWindowState_Name,Set Window State,设置窗口状态,,Drag and Drop™ library action name
-GMStdSetWindowState_Desc,Set the window state of the game.,设置游戏窗口状态,,Drag and Drop™ library action description
-GMStdPartTypeDestroy_Name,Destroy Particle Type,销毁粒子类型,,Drag and Drop™ library action name
-GMStdPartTypeDestroy_Desc,Destroy the particle type.,销毁粒子类型,,Drag and Drop™ library action description
-GMStdPartTypeOrientation_Name,Set Particle Orientation,设置粒子方向,,Drag and Drop™ library action name
-GMStdPartTypeOrientation_Desc,Set the orientation of a particle type.,设置一个粒子类型的方向.,,Drag and Drop™ library action description
-GMStdPartCreateBurst_Name,Burst Particles,爆发粒子,,Drag and Drop™ library action name
-GMStdPartCreateBurst_Desc,Create a burst of particles without an emitter.,在无发射器的情况下爆发一股粒子。,,Drag and Drop™ library action description
-GMStdPartSystCreate_Name,Create Particle System,创建粒子系统,,Drag and Drop™ library action name
-GMStdPartSystCreate_Desc,Create a new particle system.,创建一个新的粒子系统,,Drag and Drop™ library action description
-GMStdPartSystDestroy_Name,Destroy Particle System,销毁粒子系统,,Drag and Drop™ library action name
-GMStdPartSystDestroy_Desc,Destroy the particle system.,销毁一个粒子系统,,Drag and Drop™ library action description
-GMStdPartSystClear_Name,Clear Particle System,清空粒子系统,,Drag and Drop™ library action name
-GMStdPartSystClear_Desc,Clear the particle system.,清空该粒子系统,,Drag and Drop™ library action description
-GMStdPauseParticles_Name,Pause Particle System,暂停粒子系统,,Drag and Drop™ library action name
-GMStdPauseParticles_Desc,Pause or resume the particle system.,暂停或继续粒子系统。,,Drag and Drop™ library action description
-GMStdRefreshParticles_Name,Update Particle System,更新粒子系统,,Drag and Drop™ library action name
-GMStdRefreshParticles_Desc,"Update the particle system, advancing it another step.",更新该粒子系统，并前进到下一步,,Drag and Drop™ library action description
-GMStdPartTypeCreate_Name,Create Particle Type,创建粒子类型,,Drag and Drop™ library action name
-GMStdPartTypeCreate_Desc,Create a new particle type.,创建一个新的粒子类型,,Drag and Drop™ library action description
-GMStdPartTypeColor_Name,Set Particle Colour,设置粒子颜色,,Drag and Drop™ library action name
-GMStdPartTypeColor_Desc,Set the color of a particle type.,设置一个粒子类型的颜色,,Drag and Drop™ library action description
-GMStdPartTypeLife_Name,Set Particle Life,设置粒子生命周期,,Drag and Drop™ library action name
-GMStdPartTypeLife_Desc,Set the life of a particle type.,设置一个粒子类型的生命周期,,Drag and Drop™ library action description
-GMStdPartTypeGravity_Name,Set Particle Gravity,设置粒子重力,,Drag and Drop™ library action name
-GMStdPartTypeGravity_Desc,Set the gravity of a particle type.,设置一个例子类型的重力,,Drag and Drop™ library action description
-GMStdPartTypeSecondary_Name,Set Secondary Particles,设置次级粒子,,Drag and Drop™ library action name
-GMStdPartTypeSecondary_Desc,Add secondary particle emissions to a particle type.,对一个粒子类型添加次级发射粒子。,,Drag and Drop™ library action description
-GMStdPartEmitCreate_Name,Create Particle Emitter,创建粒子发射器,,Drag and Drop™ library action name
-GMStdPartEmitCreate_Desc,Create a new particle emitter.,创建一个新的粒子发射器,,Drag and Drop™ library action description
-GMStdPartEmitDestroy_Name,Destroy Particle Emitter,销毁粒子发射器,,Drag and Drop™ library action name
-GMStdPartEmitDestroy_Desc,Destroy a particle emitter.,销毁一个粒子发射器,,Drag and Drop™ library action description
-GMStdPartEmitterEmit_Name,Emit Particles,发射粒子,,Drag and Drop™ library action name
-GMStdPartEmitterEmit_Desc,Emit particles from a particle system.,从一个粒子系统发射粒子,,Drag and Drop™ library action description
-GMStdEffect_Name,Do Effect,产生特效,,Drag and Drop™ library action name
-GMStdEffect_Desc,Show an effect at the specified position.,在指定位置显示一个特效,,Drag and Drop™ library action description
-GMStdScript,Script,脚本,,Drag and Drop™ library argument label
+GMStdIniWrite_Name,Write To Ini File,写入INI文件,,Drag and Drop? library action name
+GMStdIniWrite_Desc,Write a string or numeric value to an ini file.,将一个字符串或数值写入一个INI文件中,,Drag and Drop? library action description
+GMStdIniRead_Name,Read Ini File,读取INI文件,,Drag and Drop? library action name
+GMStdIniRead_Desc,Read a string or numeric value from an ini file.,从一个INI文件中读取一个字符串或数值,,Drag and Drop? library action description
+GMStdSetTimeline_Name,Set Instance Timeline,设置实例时间轴,,Drag and Drop? library action name
+GMStdSetTimeline_Desc,Attach a timeline to an instance.,将一个时间轴附加到实例上,,Drag and Drop? library action description
+GMStdPositionTimeline_Name,Set Timeline Moment,设置时间轴时刻,,Drag and Drop? library action name
+GMStdPositionTimeline_Desc,Set the current moment of an instance's timeline.,设置实例时间轴的当前时刻,,Drag and Drop? library action description
+GMStdSpeedTimeline_Name,Set Timeline Speed,设置时间轴速度,,Drag and Drop? library action name
+GMStdSpeedTimeline_Desc,Set the speed of an instance's timeline.,设置实例时间轴的速度,,Drag and Drop? library action description
+GMStdSetTimelineState_Name,Set Timeline State,设置时间轴状态,,Drag and Drop? library action name
+GMStdSetTimelineState_Desc,Set the state of an instance's timeline.,设置实例时间轴的状态,,Drag and Drop? library action description
+GMStdStartPath_Name,Start Following Path,开始跟随路径,,Drag and Drop? library action name
+GMStdStartPath_Desc,Start following a path with an instance.,开始用实例跟随路径,,Drag and Drop? library action description
+GMStdStopPath_Name,Stop Following Path,停止跟随路径,,Drag and Drop? library action name
+GMStdStopPath_Desc,Stop an instance from following a path.,停止实例跟随路径,,Drag and Drop? library action description
+GMStdPathPosition_Name,Set Position Along Path,设置路径沿线位置,,Drag and Drop? library action name
+GMStdPathPosition_Desc,Set the position of the instance along the path it is following.,设置实例在所跟随路径上的沿线位置。,,Drag and Drop? library action description
+GMStdPathSpeed_Name,Set Path Follow Speed,设置路径跟随速度,,Drag and Drop? library action name
+GMStdPathSpeed_Desc,Set the speed of the instance following a path.,设置实例跟随路径的速度,,Drag and Drop? library action description
+GMStdDebugShowMessage_Name,Show Debug Message,显示调试消息,,Drag and Drop? library action name
+GMStdDebugShowMessage_Desc,Display a debug message in the output console.,在输出控制台中显示一个调试消息,,Drag and Drop? library action description
+GMStdSetWindowState_Name,Set Window State,设置窗口状态,,Drag and Drop? library action name
+GMStdSetWindowState_Desc,Set the window state of the game.,设置游戏窗口状态,,Drag and Drop? library action description
+GMStdPartTypeDestroy_Name,Destroy Particle Type,销毁粒子类型,,Drag and Drop? library action name
+GMStdPartTypeDestroy_Desc,Destroy the particle type.,销毁粒子类型,,Drag and Drop? library action description
+GMStdPartTypeOrientation_Name,Set Particle Orientation,设置粒子方向,,Drag and Drop? library action name
+GMStdPartTypeOrientation_Desc,Set the orientation of a particle type.,设置一个粒子类型的方向.,,Drag and Drop? library action description
+GMStdPartCreateBurst_Name,Burst Particles,爆发粒子,,Drag and Drop? library action name
+GMStdPartCreateBurst_Desc,Create a burst of particles without an emitter.,在无发射器的情况下爆发一股粒子。,,Drag and Drop? library action description
+GMStdPartSystCreate_Name,Create Particle System,创建粒子系统,,Drag and Drop? library action name
+GMStdPartSystCreate_Desc,Create a new particle system.,创建一个新的粒子系统,,Drag and Drop? library action description
+GMStdPartSystDestroy_Name,Destroy Particle System,销毁粒子系统,,Drag and Drop? library action name
+GMStdPartSystDestroy_Desc,Destroy the particle system.,销毁一个粒子系统,,Drag and Drop? library action description
+GMStdPartSystClear_Name,Clear Particle System,清空粒子系统,,Drag and Drop? library action name
+GMStdPartSystClear_Desc,Clear the particle system.,清空该粒子系统,,Drag and Drop? library action description
+GMStdPauseParticles_Name,Pause Particle System,暂停粒子系统,,Drag and Drop? library action name
+GMStdPauseParticles_Desc,Pause or resume the particle system.,暂停或继续粒子系统。,,Drag and Drop? library action description
+GMStdRefreshParticles_Name,Update Particle System,更新粒子系统,,Drag and Drop? library action name
+GMStdRefreshParticles_Desc,"Update the particle system, advancing it another step.",更新该粒子系统，并前进到下一步,,Drag and Drop? library action description
+GMStdPartTypeCreate_Name,Create Particle Type,创建粒子类型,,Drag and Drop? library action name
+GMStdPartTypeCreate_Desc,Create a new particle type.,创建一个新的粒子类型,,Drag and Drop? library action description
+GMStdPartTypeColor_Name,Set Particle Colour,设置粒子颜色,,Drag and Drop? library action name
+GMStdPartTypeColor_Desc,Set the color of a particle type.,设置一个粒子类型的颜色,,Drag and Drop? library action description
+GMStdPartTypeLife_Name,Set Particle Life,设置粒子生命周期,,Drag and Drop? library action name
+GMStdPartTypeLife_Desc,Set the life of a particle type.,设置一个粒子类型的生命周期,,Drag and Drop? library action description
+GMStdPartTypeGravity_Name,Set Particle Gravity,设置粒子重力,,Drag and Drop? library action name
+GMStdPartTypeGravity_Desc,Set the gravity of a particle type.,设置一个例子类型的重力,,Drag and Drop? library action description
+GMStdPartTypeSecondary_Name,Set Secondary Particles,设置次级粒子,,Drag and Drop? library action name
+GMStdPartTypeSecondary_Desc,Add secondary particle emissions to a particle type.,对一个粒子类型添加次级发射粒子。,,Drag and Drop? library action description
+GMStdPartEmitCreate_Name,Create Particle Emitter,创建粒子发射器,,Drag and Drop? library action name
+GMStdPartEmitCreate_Desc,Create a new particle emitter.,创建一个新的粒子发射器,,Drag and Drop? library action description
+GMStdPartEmitDestroy_Name,Destroy Particle Emitter,销毁粒子发射器,,Drag and Drop? library action name
+GMStdPartEmitDestroy_Desc,Destroy a particle emitter.,销毁一个粒子发射器,,Drag and Drop? library action description
+GMStdPartEmitterEmit_Name,Emit Particles,发射粒子,,Drag and Drop? library action name
+GMStdPartEmitterEmit_Desc,Emit particles from a particle system.,从一个粒子系统发射粒子,,Drag and Drop? library action description
+GMStdEffect_Name,Do Effect,产生特效,,Drag and Drop? library action name
+GMStdEffect_Desc,Show an effect at the specified position.,在指定位置显示一个特效,,Drag and Drop? library action description
+GMStdScript,Script,脚本,,Drag and Drop? library argument label
 GMStdArgument,Argument,参数,,DnD argument label
-GMStdTarget,Target,目标,,Drag and Drop™ library argument label
-GMStdObject,Object,物体,,Drag and Drop™ library argument label
-GMStdX,X,X,,Drag and Drop™ library argument label
-GMStdY,Y,Y,,Drag and Drop™ library argument label
-GMStdLayer,Layer,层,,Drag and Drop™ library argument label
-GMStdAlarm,Alarm,计时器,,Drag and Drop™ library argument label
-GMStdCountdown,Countdown,倒计时,,Drag and Drop™ library argument label
-GMStdNot,Not,非,,Drag and Drop™ library argument label
+GMStdTarget,Target,目标,,Drag and Drop? library argument label
+GMStdObject,Object,物体,,Drag and Drop? library argument label
+GMStdX,X,X,,Drag and Drop? library argument label
+GMStdY,Y,Y,,Drag and Drop? library argument label
+GMStdLayer,Layer,层,,Drag and Drop? library argument label
+GMStdAlarm,Alarm,计时器,,Drag and Drop? library argument label
+GMStdCountdown,Countdown,倒计时,,Drag and Drop? library argument label
+GMStdNot,Not,非,,Drag and Drop? library argument label
 GMStdExcludeSelf,Exclude Self,排除自身,,DnD argument label
-GMStdGamepad,Gamepad,游戏手柄,,Drag and Drop™ library argument label
-GMStdAxis,Axis,轴向,,Drag and Drop™ library argument label
-GMStdTrigger,Trigger,触发器,,Drag and Drop™ library argument label
-GMStdButton,Button,按钮,,Drag and Drop™ library argument label
-GMStdDeadzone,Deadzone,盲区,,Drag and Drop™ library argument label
-GMStdAdditiveBlend,Blend,混合,,DnD™
-GMStdDirection,Direction,方向,,Drag and Drop™ library argument label
-GMStdType,Type,类型,,Drag and Drop™ library argument label
-GMStdSpeed,Speed,速度,,Drag and Drop™ library argument label
-GMStdMinSpeed,Min Speed,最小速度,,Drag and Drop™ library argument label
-GMStdMaxSpeed,Max Speed,最大速度,,Drag and Drop™ library argument label
-GMStdForce,Force,力,,Drag and Drop™ library argument label
-GMStdX2,X2,X2,,Drag and Drop™ library argument label
-GMStdY2,Y2,Y2,,Drag and Drop™ library argument label
-GMStdSprite,Sprite,精灵,,Drag and Drop™ library argument label
-GMStdFrameIndex,Frame,帧,,Drag and Drop™ library argument label
-GMStdStackOrder,Stack Order,堆叠顺序,,Drag and Drop™ library argument label
-GMStdNumber,Number,数字,,Drag and Drop™ library argument label
-GMStdLeft,Left,左部,,Drag and Drop™ library argument label
-GMStdTop,Top,顶部,,Drag and Drop™ library argument label
-GMStdRight,Right,右部,,Drag and Drop™ library argument label
-GMStdBottom,Bottom,底部,,Drag and Drop™ library argument label
-GMStdFill,Fill,填充,,Drag and Drop™ library argument label
-GMStdBackground,Background,背景,,Drag and Drop™ library argument label
-GMStdMinCol,Min Color,最小颜色,,Drag and Drop™ library argument label
-GMStdMaxCol,Max Color,最大颜色,,Drag and Drop™ library argument label
-GMStdFont,Font,字体,,Drag and Drop™ library argument label
-GMStdHAlign,HAlign,水平对齐,,Drag and Drop™ library argument label
-GMStdVAlign,VAlign,垂直对齐,,Drag and Drop™ library argument label
-GMStdLayerName,Layer,层,,Drag and Drop™ library argument label
-GMStdTileIndex,Tile,图块,,Drag and Drop™ library argument label
+GMStdGamepad,Gamepad,游戏手柄,,Drag and Drop? library argument label
+GMStdAxis,Axis,轴向,,Drag and Drop? library argument label
+GMStdTrigger,Trigger,触发器,,Drag and Drop? library argument label
+GMStdButton,Button,按钮,,Drag and Drop? library argument label
+GMStdDeadzone,Deadzone,盲区,,Drag and Drop? library argument label
+GMStdAdditiveBlend,Blend,混合,,DnD?
+GMStdDirection,Direction,方向,,Drag and Drop? library argument label
+GMStdType,Type,类型,,Drag and Drop? library argument label
+GMStdSpeed,Speed,速度,,Drag and Drop? library argument label
+GMStdMinSpeed,Min Speed,最小速度,,Drag and Drop? library argument label
+GMStdMaxSpeed,Max Speed,最大速度,,Drag and Drop? library argument label
+GMStdForce,Force,力,,Drag and Drop? library argument label
+GMStdX2,X2,X2,,Drag and Drop? library argument label
+GMStdY2,Y2,Y2,,Drag and Drop? library argument label
+GMStdSprite,Sprite,精灵,,Drag and Drop? library argument label
+GMStdFrameIndex,Frame,帧,,Drag and Drop? library argument label
+GMStdStackOrder,Stack Order,堆叠顺序,,Drag and Drop? library argument label
+GMStdNumber,Number,数字,,Drag and Drop? library argument label
+GMStdLeft,Left,左部,,Drag and Drop? library argument label
+GMStdTop,Top,顶部,,Drag and Drop? library argument label
+GMStdRight,Right,右部,,Drag and Drop? library argument label
+GMStdBottom,Bottom,底部,,Drag and Drop? library argument label
+GMStdFill,Fill,填充,,Drag and Drop? library argument label
+GMStdBackground,Background,背景,,Drag and Drop? library argument label
+GMStdMinCol,Min Color,最小颜色,,Drag and Drop? library argument label
+GMStdMaxCol,Max Color,最大颜色,,Drag and Drop? library argument label
+GMStdFont,Font,字体,,Drag and Drop? library argument label
+GMStdHAlign,HAlign,水平对齐,,Drag and Drop? library argument label
+GMStdVAlign,VAlign,垂直对齐,,Drag and Drop? library argument label
+GMStdLayerName,Layer,层,,Drag and Drop? library argument label
+GMStdTileIndex,Tile,图块,,Drag and Drop? library argument label
 GMStdData,Data,数据,,DnD label
-GMStdColumn,Column,列,,Drag and Drop™ library argument label
-GMStdRow,Row,行,,Drag and Drop™ library argument label
-GMStdScore,Score,分数,,Drag and Drop™ library argument label
-GMStdLives,Lives,生命数,,Drag and Drop™ library argument label
-GMStdHealth,Health,生命值,,Drag and Drop™ library argument label
-GMStdGlobal,Global,全局,,Drag and Drop™ library argument label
-GMStdMin,Minimum,最小值,,Drag and Drop™ library argument label
-GMStdMax,Maximum,最大值,,Drag and Drop™ library argument label
-GMStdTimes,Times,次数,,Drag and Drop™ library argument label
-GMStdVariable,Variable,变量,,Drag and Drop™ library argument label
-GMStdTransformation,Transform,变形,,DnD™ argument label
-GMStdIs,Is,是,,Drag and Drop™ library argument label
-GMStdValue,Value,值,,Drag and Drop™ library argument label
-GMStdValue100,Value (0-100),值 (0-100),,DnD™
-GMStdConstant,Constant,常量,,Drag and Drop™ library argument label
-GMStdRounding,Rounding,取整,,Drag and Drop™ library argument label
-GMStdWidth,Width,宽度,,Drag and Drop™ library argument label
-GMStdHeight,Height,高度,,Drag and Drop™ library argument label
-GMStdStructure,Structure,结构,,Drag and Drop™ library argument label
-GMStdList,List,列表,,Drag and Drop™ library argument label
-GMStdIndex,Index,索引,,Drag and Drop™ library argument label
-GMStdGrid,Grid,栅格,,Drag and Drop™ library argument label
-GMStdStack,Stack,堆栈,,Drag and Drop™ library argument label
-GMStdSound,Sound,声音,,Drag and Drop™ library argument label
-GMStdLoop,Loop,循环,,Drag and Drop™ library argument label
-GMStdTimeInSecs,Time In Seconds,时间（秒为单位）,,Drag and Drop™ library argument label
-GMStdPitch,Pitch,音调,,Drag and Drop™ library argument label
-GMStdVolume,Volume,音量,,Drag and Drop™ library argument label
-GMStdRoom,Room,房间,,Drag and Drop™ library argument label
-GMStdFilename,Filename,文件名,,Drag and Drop™ library argument label
-GMStdSection,Section,节,,Drag and Drop™ library argument label
-GMStdDefault,Default,默认,,Drag and Drop™ library argument label
-GMStdTimeline,Timeline,时间轴,,Drag and Drop™ library argument label
-GMStdMoment,Moment,时刻,,Drag and Drop™ library argument label
-GMStdState,State,状态,,Drag and Drop™ library argument label
-GMStdMessage,Message,消息,,Drag and Drop™ library argument label
-GMStdMap,Map,映射,,Drag and Drop™ library argument label
-GMStdKey,Key,键,,Drag and Drop™ library argument label
-GMStdColorMix,Colour Mix,混色,,Drag and Drop™ library argument label
-GMStdStart,Start,开始,,Drag and Drop™ library argument label
-GMStdEnd,End,结束,,Drag and Drop™ library argument label
-GMStdMinLife,Min Life,最小生命周期,,Drag and Drop™ library argument label
-GMStdMaxLife,Max Life,最大生命周期,,Drag and Drop™ library argument label
-GMStdRenderDepth,Depth,深度,,Drag and Drop™ library argument label
-GMStdShape,Shape,形状,,Drag and Drop™ library argument label
-GMStdMinSize,Min Size,最小尺寸,,Drag and Drop™ library argument label
-GMStdMaxSize,Max Size,最大尺寸,,Drag and Drop™ library argument label
-GMStdIncrease,Increase,增量,,Drag and Drop™ library argument label
-GMStdWiggle,Wiggle,摆动,,DnD™ lib argument label
-GMStdCount,Count,数量,,Drag and Drop™ library argument label
-GMStdSecondaryType,Secondary,次级,,DnD™ lib argument label
-GMStdEmitter,Emitter,发射器,,Drag and Drop™ library argument label
-GMStdBurst,Burst,爆发,,Drag and Drop™ library argument label
-GMStdStream,Stream,流发,,Drag and Drop™ library argument label
-GMStdWhere,Where,位置,,Drag and Drop™ library argument label
-GMStdMinDir,Min Dir,最小方向,,Drag and Drop™ library argument label
-GMStdMaxDir,Max Dir,最大方向,,Drag and Drop™ library argument label
-GMStdFriction,Friction,阻力,,Drag and Drop™ library argument label
-GMStdPositionNorm,Position (0-1),位置 (0-1),,Drag and Drop™ library argument label
-GMStdColor,Colour,颜色,,Drag and Drop™ library argument label
-GMStdHor,Horizontal,水平,,Drag and Drop™ library argument label
-GMStdVer,Vertical,垂直,,Drag and Drop™ library argument label
-GMStdExpr,Expression,表达式,,Drag and Drop™ library argument label
-GMStdMargin,Margin,边距,,Drag and Drop™ library argument label
-GMStdOutline,Outline,轮廓,,Drag and Drop™ library argument label
-GMStdCaption,Caption,标签,,Drag and Drop™ library argument label
+GMStdColumn,Column,列,,Drag and Drop? library argument label
+GMStdRow,Row,行,,Drag and Drop? library argument label
+GMStdScore,Score,分数,,Drag and Drop? library argument label
+GMStdLives,Lives,生命数,,Drag and Drop? library argument label
+GMStdHealth,Health,生命值,,Drag and Drop? library argument label
+GMStdGlobal,Global,全局,,Drag and Drop? library argument label
+GMStdMin,Minimum,最小值,,Drag and Drop? library argument label
+GMStdMax,Maximum,最大值,,Drag and Drop? library argument label
+GMStdTimes,Times,次数,,Drag and Drop? library argument label
+GMStdVariable,Variable,变量,,Drag and Drop? library argument label
+GMStdTransformation,Transform,变形,,DnD? argument label
+GMStdIs,Is,是,,Drag and Drop? library argument label
+GMStdValue,Value,值,,Drag and Drop? library argument label
+GMStdValue100,Value (0-100),值 (0-100),,DnD?
+GMStdConstant,Constant,常量,,Drag and Drop? library argument label
+GMStdRounding,Rounding,取整,,Drag and Drop? library argument label
+GMStdWidth,Width,宽度,,Drag and Drop? library argument label
+GMStdHeight,Height,高度,,Drag and Drop? library argument label
+GMStdStructure,Structure,结构,,Drag and Drop? library argument label
+GMStdList,List,列表,,Drag and Drop? library argument label
+GMStdIndex,Index,索引,,Drag and Drop? library argument label
+GMStdGrid,Grid,栅格,,Drag and Drop? library argument label
+GMStdStack,Stack,堆栈,,Drag and Drop? library argument label
+GMStdSound,Sound,声音,,Drag and Drop? library argument label
+GMStdLoop,Loop,循环,,Drag and Drop? library argument label
+GMStdTimeInSecs,Time In Seconds,时间（秒为单位）,,Drag and Drop? library argument label
+GMStdPitch,Pitch,音调,,Drag and Drop? library argument label
+GMStdVolume,Volume,音量,,Drag and Drop? library argument label
+GMStdRoom,Room,房间,,Drag and Drop? library argument label
+GMStdFilename,Filename,文件名,,Drag and Drop? library argument label
+GMStdSection,Section,节,,Drag and Drop? library argument label
+GMStdDefault,Default,默认,,Drag and Drop? library argument label
+GMStdTimeline,Timeline,时间轴,,Drag and Drop? library argument label
+GMStdMoment,Moment,时刻,,Drag and Drop? library argument label
+GMStdState,State,状态,,Drag and Drop? library argument label
+GMStdMessage,Message,消息,,Drag and Drop? library argument label
+GMStdMap,Map,映射,,Drag and Drop? library argument label
+GMStdKey,Key,键,,Drag and Drop? library argument label
+GMStdColorMix,Colour Mix,混色,,Drag and Drop? library argument label
+GMStdStart,Start,开始,,Drag and Drop? library argument label
+GMStdEnd,End,结束,,Drag and Drop? library argument label
+GMStdMinLife,Min Life,最小生命周期,,Drag and Drop? library argument label
+GMStdMaxLife,Max Life,最大生命周期,,Drag and Drop? library argument label
+GMStdRenderDepth,Depth,深度,,Drag and Drop? library argument label
+GMStdShape,Shape,形状,,Drag and Drop? library argument label
+GMStdMinSize,Min Size,最小尺寸,,Drag and Drop? library argument label
+GMStdMaxSize,Max Size,最大尺寸,,Drag and Drop? library argument label
+GMStdIncrease,Increase,增量,,Drag and Drop? library argument label
+GMStdWiggle,Wiggle,摆动,,DnD? lib argument label
+GMStdCount,Count,数量,,Drag and Drop? library argument label
+GMStdSecondaryType,Secondary,次级,,DnD? lib argument label
+GMStdEmitter,Emitter,发射器,,Drag and Drop? library argument label
+GMStdBurst,Burst,爆发,,Drag and Drop? library argument label
+GMStdStream,Stream,流发,,Drag and Drop? library argument label
+GMStdWhere,Where,位置,,Drag and Drop? library argument label
+GMStdMinDir,Min Dir,最小方向,,Drag and Drop? library argument label
+GMStdMaxDir,Max Dir,最大方向,,Drag and Drop? library argument label
+GMStdFriction,Friction,阻力,,Drag and Drop? library argument label
+GMStdPositionNorm,Position (0-1),位置 (0-1),,Drag and Drop? library argument label
+GMStdColor,Colour,颜色,,Drag and Drop? library argument label
+GMStdHor,Horizontal,水平,,Drag and Drop? library argument label
+GMStdVer,Vertical,垂直,,Drag and Drop? library argument label
+GMStdExpr,Expression,表达式,,Drag and Drop? library argument label
+GMStdMargin,Margin,边距,,Drag and Drop? library argument label
+GMStdOutline,Outline,轮廓,,Drag and Drop? library argument label
+GMStdCaption,Caption,标签,,Drag and Drop? library argument label
 GMStdCamera,Camera,摄像机,,DnD label
 GMStdVisibility,Visibility,可见性,,DnD label
 GMStdParticleSystem,System,粒子系统,,Dnd library argument label
-GMStdParticleType,Type,类型,,DnD™ library argument label
-GMStdFrame,Frame,帧,,Drag and Drop™ library argument label
-GMStdAngle,Angle,角度,,Drag and Drop™ library argument label
-GMStdMinAngle,Min Angle,最小角度,,DnD™
-GMStdMaxAngle,Max Angle,最大角度,,DnD™
-GMStdDistribution,Distribution,分布,,DnD™
-GMStdAlpha,Alpha,透明度,,Drag and Drop™ library argument label
-GMStdReturn,Return,返回,,Drag and Drop™ library argument label
-GMStdRelativeToDir,Relative To Direction,相对于位置,,DnD™
-GMStdMacro,Macro,宏,,Drag and Drop™ library argument label
-GMStdDirs,Directions,方向,,Drag and Drop™ library argument label
-GMStdPath,Path,路径,,Drag and Drop™ library argument label
-GMStdOnEnd,On End,在终点处,,Drag and Drop™ library argument label
-GMStdMouseButton,Button,按钮,,Drag and Drop™ library argument label
-GMStdTopLeft,Top Left,左上,,Drag and Drop™ library argument label
-GMStdTopRight,Top Right,右上,,Drag and Drop™ library argument label
-GMStdBottomLeft,Bottom Left,左下,,Drag and Drop™ library argument label
-GMStdBottomRight,Bottom Right,右下,,Drag and Drop™ library argument label
-GMStdCenter,Center,中心,,Drag and Drop™ library argument label
-GMStdEdge,Edge,边缘,,Drag and Drop™ library argument label
-GMStdScaleX,Scale X,X尺度,,Drag and Drop™ library argument label
-GMStdScaleY,Scale Y,Y尺度,,Drag and Drop™ library argument label
-GMStdRotation,Rotation,旋转,,Drag and Drop™ library argument label
-GMStdName,Name,名称,,Drag and Drop™ library argument label
-GMStdVertically,Vertical,垂直,,Drag and Drop™ library argument label
-GMStdHorizontally,Horizontal,水平,,Drag and Drop™ library argument label
-GMStdEqual,Equal,等于,,DnD™
-GMStdLess,Less,小于,,DnD™
-GMStdGreater,Greater,大于,,DnD™
-GMStdLessorEqual,Less or Equal,小于或等于,,DnD™
-GMStdGreaterorEqual,Greater or Equal,大于或等于,,DnD™
-GMStdString,String,字符串,,DnD™
-GMStdResume,Resume,恢复,,DnD™
-GMStdPaused,Paused,被暂停,,DnD™
-GMStdPause,Pause,暂停,,DnD™
-GMStdToggle,Toggle,切换,,DnD™
-GMStdWindow,Window,窗口,,DnD™
-GMStdFullscreen,Fullscreen,全屏,,DnD™
-GMStdSnow,Snow,雪,,DnD™
-GMStdRain,Rain,雨,,DnD™
-GMStdCloud,Cloud,云,,DnD™
-GMStdFlare,Flare,闪光,,DnD™
-GMStdSpark,Spark,火花,,DnD™
-GMStdStar,Star,星星,,DnD™
-GMStdSmokeUp,Smoke Up,上升烟雾,,DnD™
-GMStdSmoke,Smoke,烟雾,,DnD™
-GMStdFirework,Firework,烟花,,DnD™
-GMStdEllipse,Ellipse,椭圆,,DnD™
-GMStdRing,Ring,圆环,,DnD™
-GMStdExplosion,Explosion,爆炸,,DnD™
-GMStdSphere,Sphere,球,,DnD™
-GMStdCircle,Circle,圆形,,DnD™
-GMStdSquare,Square,正方形,,DnD™
-GMStdDisk,Disk,圆盘,,DnD™
-GMStdPixel,Pixel,像素,,DnD™
-GMStdSmall,Small,小,,DnD™
-GMStdMedium,Medium,中,,DnD™
-GMStdLarge,Large,大,,DnD™
-GMStdBelowObjects,Below Objects,物体下方,,DnD™
-GMStdAboveObjects,Above Objects,物体上方,,DnD™
-GMStdAlarm0,Alarm 0,计时器 0,,DnD™
-GMStdAlarm1,Alarm 1,计时器 1,,DnD™
-GMStdAlarm2,Alarm 2,计时器 2,,DnD™
-GMStdAlarm3,Alarm 3,计时器 3,,DnD™
-GMStdAlarm4,Alarm 4,计时器 4,,DnD™
-GMStdAlarm5,Alarm 5,计时器 5,,DnD™
-GMStdAlarm6,Alarm 6,计时器 6,,DnD™
-GMStdAlarm7,Alarm 7,计时器 7,,DnD™
-GMStdAlarm8,Alarm 8,计时器 8,,DnD™
-GMStdAlarm9,Alarm 9,计时器 9,,DnD™
-GMStdAlarm10,Alarm 10,计时器 10,,DnD™
-GMStdAlarm11,Alarm 11,计时器 11,,DnD™
-GMStdMiddle,Middle,中键,,DnD™
-GMStdAny,Any,任意键,,DnD™
-GMStdNone,None,无,,DnD™
-GMStdLeftTrigger,Left Trigger,左触发器,,DnD™
-GMStdRightTrigger,Right Trigger,右触发器,,DnD™
-GMStdActionTop,Action Top,顶部动作键,,DnD™
-GMStdActionLeft,Action Left,左边动作键,,DnD™
-GMStdActionBottom,Action Bottom,底部动作键,,DnD™
-GMStdActionRight,Action Right,右部动作键,,DnD™
-GMStdShoulderLeft,Shoulder Left,左肩键,,DnD™
-GMStdShoulderRight,Shoulder Right,右肩键,,DnD™
-GMStdDPadUp,D-Pad Up,十字键 上,,DnD™
-GMStdDPadLeft,D-Pad Left,十字键 左,,DnD™
-GMStdDPadDown,D-Pad Down,十字键 下,,DnD™
-GMStdDPadRight,D-Pad Right,十字键 右,,DnD™
-GMStdLeftStick,Left Stick,左摇杆,,DnD™
-GMStdRightStick,Right Stick,右摇杆,,DnD™
-GMStdSelect,Select,选择键,,DnD™
-GMStdGravity,Gravity,重力,,DnD™
-GMStdSize,Size,大小,,DnD™
-GMStdXAndY,X And Y,X 和 Y,,DnD™
-GMStdXOnly,X Only,仅X,,DnD™
-GMStdYOnly,Y Only,仅Y,,DnD™
-GMStdRectangle,Rectangle,矩形,,DnD™
-GMStdLine,Line,直线,,DnD™
-GMStdLeftStickHor,Left Stick (Horizontal),左摇杆 (水平),,DnD™
-GMStdLeftStickVer,Left Stick (Vertical),左摇杆 (垂直),,DnD™
-GMStdRightStickHor,Right Stick (Horizontal),右摇杆 (水平),,DnD™
-GMStdRightStickVer,Right Stick (Vertical),右摇杆 (垂直),,DnD™
-GMStdDecimal,Decimal,小数,,DnD™
-GMStdInteger,Integer,整数,,DnD™
-GMStdRound,Round,就近取整,,DnD™
-GMStdCeil,Ceil,向上取整,,DnD™
-GMStdFloor,Floor,向下取整,,DnD™
-GMStdStop,Stop,停止,,DnD™
-GMStdLinear,Linear,线性,,DnD™
-GMStdGaussian,Gaussian,高斯,,DnD™
-GMStdInverseGaussian,Inverse Gaussian,逆高斯,,DnD™
-GMStdRestart,Restart,重新开始,,DnD™
-GMStdReverse,Reverse,反转,,DnD™
-GMStdDiamond,Diamond,菱形,,DnD™
-GMStdMixed,Mixed,混合,,DnD™
-GMStdChanging,Changing,改变,,DnD™
-GMStdFileMode,Mode,模式,,DnD™
-GMStdFileMode_Read,Read,读,,DnD™
-GMStdFileMode_Write,Write,写,,DnD™
-GMStdFileType,Type,类型,,DnD™
-GMStdFileType_Bin,Binary,二进制,,DnD™
-GMStdFileType_Text,Text,文本,,DnD™
-GMStdCopyTo,Copy To,复制到,,DnD™
-GMStdNewFilename,New Name,新名称,,DnD™
-GMStdFile,File,文件,,DnD™
-GMStdBuffer,Buffer,缓冲区,,DnD™
-GMStdSeek,Seek,寻找,,DnD™
+GMStdParticleType,Type,类型,,DnD? library argument label
+GMStdFrame,Frame,帧,,Drag and Drop? library argument label
+GMStdAngle,Angle,角度,,Drag and Drop? library argument label
+GMStdMinAngle,Min Angle,最小角度,,DnD?
+GMStdMaxAngle,Max Angle,最大角度,,DnD?
+GMStdDistribution,Distribution,分布,,DnD?
+GMStdAlpha,Alpha,透明度,,Drag and Drop? library argument label
+GMStdReturn,Return,返回,,Drag and Drop? library argument label
+GMStdRelativeToDir,Relative To Direction,相对于位置,,DnD?
+GMStdMacro,Macro,宏,,Drag and Drop? library argument label
+GMStdDirs,Directions,方向,,Drag and Drop? library argument label
+GMStdPath,Path,路径,,Drag and Drop? library argument label
+GMStdOnEnd,On End,在终点处,,Drag and Drop? library argument label
+GMStdMouseButton,Button,按钮,,Drag and Drop? library argument label
+GMStdTopLeft,Top Left,左上,,Drag and Drop? library argument label
+GMStdTopRight,Top Right,右上,,Drag and Drop? library argument label
+GMStdBottomLeft,Bottom Left,左下,,Drag and Drop? library argument label
+GMStdBottomRight,Bottom Right,右下,,Drag and Drop? library argument label
+GMStdCenter,Center,中心,,Drag and Drop? library argument label
+GMStdEdge,Edge,边缘,,Drag and Drop? library argument label
+GMStdScaleX,Scale X,X尺度,,Drag and Drop? library argument label
+GMStdScaleY,Scale Y,Y尺度,,Drag and Drop? library argument label
+GMStdRotation,Rotation,旋转,,Drag and Drop? library argument label
+GMStdName,Name,名称,,Drag and Drop? library argument label
+GMStdVertically,Vertical,垂直,,Drag and Drop? library argument label
+GMStdHorizontally,Horizontal,水平,,Drag and Drop? library argument label
+GMStdEqual,Equal,等于,,DnD?
+GMStdLess,Less,小于,,DnD?
+GMStdGreater,Greater,大于,,DnD?
+GMStdLessorEqual,Less or Equal,小于或等于,,DnD?
+GMStdGreaterorEqual,Greater or Equal,大于或等于,,DnD?
+GMStdString,String,字符串,,DnD?
+GMStdResume,Resume,恢复,,DnD?
+GMStdPaused,Paused,被暂停,,DnD?
+GMStdPause,Pause,暂停,,DnD?
+GMStdToggle,Toggle,切换,,DnD?
+GMStdWindow,Window,窗口,,DnD?
+GMStdFullscreen,Fullscreen,全屏,,DnD?
+GMStdSnow,Snow,雪,,DnD?
+GMStdRain,Rain,雨,,DnD?
+GMStdCloud,Cloud,云,,DnD?
+GMStdFlare,Flare,闪光,,DnD?
+GMStdSpark,Spark,火花,,DnD?
+GMStdStar,Star,星星,,DnD?
+GMStdSmokeUp,Smoke Up,上升烟雾,,DnD?
+GMStdSmoke,Smoke,烟雾,,DnD?
+GMStdFirework,Firework,烟花,,DnD?
+GMStdEllipse,Ellipse,椭圆,,DnD?
+GMStdRing,Ring,圆环,,DnD?
+GMStdExplosion,Explosion,爆炸,,DnD?
+GMStdSphere,Sphere,球,,DnD?
+GMStdCircle,Circle,圆形,,DnD?
+GMStdSquare,Square,正方形,,DnD?
+GMStdDisk,Disk,圆盘,,DnD?
+GMStdPixel,Pixel,像素,,DnD?
+GMStdSmall,Small,小,,DnD?
+GMStdMedium,Medium,中,,DnD?
+GMStdLarge,Large,大,,DnD?
+GMStdBelowObjects,Below Objects,物体下方,,DnD?
+GMStdAboveObjects,Above Objects,物体上方,,DnD?
+GMStdAlarm0,Alarm 0,计时器 0,,DnD?
+GMStdAlarm1,Alarm 1,计时器 1,,DnD?
+GMStdAlarm2,Alarm 2,计时器 2,,DnD?
+GMStdAlarm3,Alarm 3,计时器 3,,DnD?
+GMStdAlarm4,Alarm 4,计时器 4,,DnD?
+GMStdAlarm5,Alarm 5,计时器 5,,DnD?
+GMStdAlarm6,Alarm 6,计时器 6,,DnD?
+GMStdAlarm7,Alarm 7,计时器 7,,DnD?
+GMStdAlarm8,Alarm 8,计时器 8,,DnD?
+GMStdAlarm9,Alarm 9,计时器 9,,DnD?
+GMStdAlarm10,Alarm 10,计时器 10,,DnD?
+GMStdAlarm11,Alarm 11,计时器 11,,DnD?
+GMStdMiddle,Middle,中键,,DnD?
+GMStdAny,Any,任意键,,DnD?
+GMStdNone,None,无,,DnD?
+GMStdLeftTrigger,Left Trigger,左触发器,,DnD?
+GMStdRightTrigger,Right Trigger,右触发器,,DnD?
+GMStdActionTop,Action Top,顶部动作键,,DnD?
+GMStdActionLeft,Action Left,左边动作键,,DnD?
+GMStdActionBottom,Action Bottom,底部动作键,,DnD?
+GMStdActionRight,Action Right,右部动作键,,DnD?
+GMStdShoulderLeft,Shoulder Left,左肩键,,DnD?
+GMStdShoulderRight,Shoulder Right,右肩键,,DnD?
+GMStdDPadUp,D-Pad Up,十字键 上,,DnD?
+GMStdDPadLeft,D-Pad Left,十字键 左,,DnD?
+GMStdDPadDown,D-Pad Down,十字键 下,,DnD?
+GMStdDPadRight,D-Pad Right,十字键 右,,DnD?
+GMStdLeftStick,Left Stick,左摇杆,,DnD?
+GMStdRightStick,Right Stick,右摇杆,,DnD?
+GMStdSelect,Select,选择键,,DnD?
+GMStdGravity,Gravity,重力,,DnD?
+GMStdSize,Size,大小,,DnD?
+GMStdXAndY,X And Y,X 和 Y,,DnD?
+GMStdXOnly,X Only,仅X,,DnD?
+GMStdYOnly,Y Only,仅Y,,DnD?
+GMStdRectangle,Rectangle,矩形,,DnD?
+GMStdLine,Line,直线,,DnD?
+GMStdLeftStickHor,Left Stick (Horizontal),左摇杆 (水平),,DnD?
+GMStdLeftStickVer,Left Stick (Vertical),左摇杆 (垂直),,DnD?
+GMStdRightStickHor,Right Stick (Horizontal),右摇杆 (水平),,DnD?
+GMStdRightStickVer,Right Stick (Vertical),右摇杆 (垂直),,DnD?
+GMStdDecimal,Decimal,小数,,DnD?
+GMStdInteger,Integer,整数,,DnD?
+GMStdRound,Round,就近取整,,DnD?
+GMStdCeil,Ceil,向上取整,,DnD?
+GMStdFloor,Floor,向下取整,,DnD?
+GMStdStop,Stop,停止,,DnD?
+GMStdLinear,Linear,线性,,DnD?
+GMStdGaussian,Gaussian,高斯,,DnD?
+GMStdInverseGaussian,Inverse Gaussian,逆高斯,,DnD?
+GMStdRestart,Restart,重新开始,,DnD?
+GMStdReverse,Reverse,反转,,DnD?
+GMStdDiamond,Diamond,菱形,,DnD?
+GMStdMixed,Mixed,混合,,DnD?
+GMStdChanging,Changing,改变,,DnD?
+GMStdFileMode,Mode,模式,,DnD?
+GMStdFileMode_Read,Read,读,,DnD?
+GMStdFileMode_Write,Write,写,,DnD?
+GMStdFileType,Type,类型,,DnD?
+GMStdFileType_Bin,Binary,二进制,,DnD?
+GMStdFileType_Text,Text,文本,,DnD?
+GMStdCopyTo,Copy To,复制到,,DnD?
+GMStdNewFilename,New Name,新名称,,DnD?
+GMStdFile,File,文件,,DnD?
+GMStdBuffer,Buffer,缓冲区,,DnD?
+GMStdSeek,Seek,寻找,,DnD?
 GMStdRelative,Relative,相对,,DnD argument label
-GMStdOffset,Offset,偏移,,DnD™
-GMStdVar_mirror,Mirror,镜像,,Mirror DnD™
-GMStdVar_flip,Flip,翻转,,Flip DnD™
-GMStdVar_bboxleft,Bounding Box Left,边界框左边Bounding Box Left,,DnD label
+GMStdOffset,Offset,偏移,,DnD?
+GMStdVar_mirror,Mirror,镜像,,Mirror DnD?
+GMStdVar_flip,Flip,翻转,,Flip DnD?
+GMStdVar_bboxleft,Bounding Box Left,边界框左边,,DnD label
 GMStdVar_bboxtop,Bounding Box Top,边界框顶部,,DnD label
 GMStdVar_bboxright,Bounding Box Right,边界框右边,,DnD label
 GMStdVar_bboxbottom,Bounding Box Bottom,边界框底部,,DnD label
 GMStdVar_xoffset,Sprite Origin X,精灵原点 X,,DnD label
 GMStdVar_yoffset,Sprite Origin Y,精灵原点 Y,,DnD label
-GMStdVar_rotate,Rotate,旋转,,Rotate DnD™
-GMStdVar_xstart,Initial X Coordinate,初始X坐标,,DnD™
-GMStdVar_ystart,Initial Y Coordinate,初始Y坐标,,DnD™
-GMStdVar_xprevious,Previous X Coordinate,之前的X坐标,,DnD™
-GMStdVar_yprevious,Previous Y Coordinate,之前的Y坐标,,DnD™
-GMStdVar_x,X Coordinate,X坐标,,DnD™
-GMStdVar_y,Y Coordinate,Y坐标,,DnD™
-GMStdVar_width,Width,宽度,,DnD™
-GMStdVar_height,Height,高度,,DnD™
-GMStdVar_rows,Rows,行,,DnD™
-GMStdVar_columns,Columns,列,,DnD™
-GMStdVar_tilewidth,Tile Width,图块宽度,,DnD™
-GMStdVar_tileheight,Tile Height,图块高度,,DnD™
-GMStdVar_tileset,Tile Set Resource,图块集资源,,DnD™
-GMStdVar_frame,Current Frame,当前帧,,DnD™
-GMStdVar_tilemask,Mask,遮罩,,DnD™
-GMStdVar_tileglobalmask,Global Mask,全局遮罩,,DnD™
-GMStdVar_hspeed,Horizontal Speed,水平速度,,DnD™
-GMStdVar_vspeed,Vertical Speed,垂直速度,,DnD™
-GMStdVar_direction,Direction,方向,,DnD™
-GMStdVar_speed,Speed,速度,,DnD™
-GMStdVar_friction,Friction,阻力,,DnD™
-GMStdVar_gravity,Gravity,重力,,DnD™
-GMStdVar_gravity_direction,Gravity Direction,重力方向,,DnD™
-GMStdVar_visible,Visible,可见,,DnD™
-GMStdVar_sprite_index,Sprite,精灵,,DnD™
-GMStdVar_image_index,Image Index,图像索引,,DnD™
-GMStdVar_layer,Layer,层,,DnD™
-GMStdVar_persistent,Persistent,保持,,DnD™
-GMStdVar_mask_index,Mask,遮罩,,DnD™
-GMStdVar_score,Score,得分,,DnD™
-GMStdVar_lives,Lives,生命数,,DnD™
-GMStdVar_health,Health,生命值,,DnD™
-GMStdVar_depth,Depth,深度,,DnD™
-GMStdVar_image_xscale,Horizontal Scale,水平缩放,,DnD™
-GMStdVar_image_yscale,Vertical Scale,垂直缩放,,DnD™
-GMStdVar_image_angle,Image Rotation,图像旋转,,DnD™
-GMStdVar_image_alpha,Image Alpha,图像透明度,,DnD™
-GMStdVar_image_blend,Image Blend Colour,图像混合颜色,,DnD™
+GMStdVar_rotate,Rotate,旋转,,Rotate DnD?
+GMStdVar_xstart,Initial X Coordinate,初始X坐标,,DnD?
+GMStdVar_ystart,Initial Y Coordinate,初始Y坐标,,DnD?
+GMStdVar_xprevious,Previous X Coordinate,之前的X坐标,,DnD?
+GMStdVar_yprevious,Previous Y Coordinate,之前的Y坐标,,DnD?
+GMStdVar_x,X Coordinate,X坐标,,DnD?
+GMStdVar_y,Y Coordinate,Y坐标,,DnD?
+GMStdVar_width,Width,宽度,,DnD?
+GMStdVar_height,Height,高度,,DnD?
+GMStdVar_rows,Rows,行,,DnD?
+GMStdVar_columns,Columns,列,,DnD?
+GMStdVar_tilewidth,Tile Width,图块宽度,,DnD?
+GMStdVar_tileheight,Tile Height,图块高度,,DnD?
+GMStdVar_tileset,Tile Set Resource,图块集资源,,DnD?
+GMStdVar_frame,Current Frame,当前帧,,DnD?
+GMStdVar_tilemask,Mask,遮罩,,DnD?
+GMStdVar_tileglobalmask,Global Mask,全局遮罩,,DnD?
+GMStdVar_hspeed,Horizontal Speed,水平速度,,DnD?
+GMStdVar_vspeed,Vertical Speed,垂直速度,,DnD?
+GMStdVar_direction,Direction,方向,,DnD?
+GMStdVar_speed,Speed,速度,,DnD?
+GMStdVar_friction,Friction,阻力,,DnD?
+GMStdVar_gravity,Gravity,重力,,DnD?
+GMStdVar_gravity_direction,Gravity Direction,重力方向,,DnD?
+GMStdVar_visible,Visible,可见,,DnD?
+GMStdVar_sprite_index,Sprite,精灵,,DnD?
+GMStdVar_image_index,Image Index,图像索引,,DnD?
+GMStdVar_layer,Layer,层,,DnD?
+GMStdVar_persistent,Persistent,保持,,DnD?
+GMStdVar_mask_index,Mask,遮罩,,DnD?
+GMStdVar_score,Score,得分,,DnD?
+GMStdVar_lives,Lives,生命数,,DnD?
+GMStdVar_health,Health,生命值,,DnD?
+GMStdVar_depth,Depth,深度,,DnD?
+GMStdVar_image_xscale,Horizontal Scale,水平缩放,,DnD?
+GMStdVar_image_yscale,Vertical Scale,垂直缩放,,DnD?
+GMStdVar_image_angle,Image Rotation,图像旋转,,DnD?
+GMStdVar_image_alpha,Image Alpha,图像透明度,,DnD?
+GMStdVar_image_blend,Image Blend Colour,图像混合颜色,,DnD?
 GMStdVar_xport,Viewport X Coordinate,视口X坐标,,DnD label
 GMStdVar_yport,Viewport Y Coordinate,视口Y坐标,,DnD label
 GMStdVar_wport,Viewport Width,视口宽度,,DnD label
 GMStdVar_hport,Viewport Height,视口高度,,DnD label
 GMStdVar_surfaceid,Viewport Surface Id,视口表面 Id,,DnD label
-GMStdCatBuffers,Buffers,缓冲区,,DnD™
-GMStdEvent,Event,事件,,DnD™
-GMStdPerStep,Per Step,每步,,DnD™
-GMStdOnDeath,On Death,死亡时,,DnD™
-GMStdCallUserEvent_Name,Call User Event,调用用户事件,,DnD™ action name
-GMStdCallUserEvent_Desc,Call a user event on an instance.,调用实例的用户事件,,DnD™ action description
-GMStdInstExists_Name,If Instance Exists,如果实例存在,,DnD™ action name
-GMStdInstExists_Desc,Checks if an instance exists.,检测是否存在一个实例.,,DnD™ action description
-GMStdIfFileExists_Name,If File Exists,如果文件存在,,DnD™ action name
-GMStdIfFileExists_Desc,Checks if a file exists.,检测文件是否存在.,,DnD™ action description
-GMStdFileCopy_Name,Copy File,复制文件,,DnD™ action name
-GMStdFileCopy_Desc,Copy a file to a new location.,将文件复制到新的位置.,,DnD™ action description
-GMStdFileDelete_Name,Delete File,删除文件,,DnD™ action name
-GMStdFileDelete_Desc,Delete a file.,删除一个文件.,,DnD™ action description
-GMStdFileRename_Name,Rename File,重命名文件,,DnD™ action name
-GMStdFileRename_Desc,Rename a file.,重命名一个文件.,,DnD™ action description
-GMStdBufferCreate_Name,Create Buffer,创建缓冲区,,DnD™ action name
-GMStdBufferCreate_Desc,Create a buffer.,创建一个缓冲区.,,DnD™ action description
-GMStdBufferCopy_Name,Copy Buffer,复制缓冲区,,DnD™ action name
-GMStdBufferCopy_Desc,Copy a buffer.,复制一个缓冲区.,,DnD™ action description
-GMStdBufferDelete_Name,Delete Buffer,删除缓冲区,,DnD™ action name
-GMStdBufferDelete_Desc,Delete a buffer.,删除一个缓冲区.,,DnD™ action description
-GMStdBufferGetSize_Name,Get Buffer Size,获取缓冲区大小,,DnD™ action name
-GMStdBufferGetSize_Desc,Get the size of a buffer.,获取一个缓冲区的大小.,,DnD™ action description
-GMStdBufferSeek_Name,Seek Buffer,搜查缓冲区,,DnD™ action name
-GMStdBufferSeek_Desc,Seek to a position in a buffer.,搜寻一个缓冲区内的位置,,DnD™ action description
-GMStdBufferGetPosition_Name,Get Buffer Position,获取缓冲区位置,,DnD™ action name
-GMStdBufferGetPosition_Desc,Get current position in a buffer.,获取缓冲区内的当前位置.,,DnD™ action description
-GMStdBufferLoad_Name,Load Buffer,载入缓冲区,,DnD™ action name
-GMStdBufferLoad_Desc,Load a file into a buffer.,文件加载到一个缓冲区.,,DnD™ action description
-GMStdBufferSave_Name,Save Buffer,保存缓冲区,,DnD™ action name
-GMStdBufferSave_Desc,Save a buffer to a file.,将缓冲区保存到一个文件.,,DnD™ action description
-GMStdBufferRead_Name,Read Buffer,读取缓冲区,,DnD™ action name
-GMStdBufferRead_Desc,Read from a buffer.,从缓冲区中读取.,,DnD™ action description
-GMStdBufferWrite_Name,Write Buffer,写入缓冲区,,DnD™ action name
-GMStdBufferWrite_Desc,Write to a buffer.,向缓冲区中写入.,,DnD™ action description
-GMStdPartTypeSize_Name,Set Particle Size,设置粒子大小,,DnD™ action name
-GMStdPartTypeSize_Desc,Set the size of a particle type.,设置粒子类型的大小.,,DnD™ action description
-GMStdPartTypeShape_Name,Set Particle Shape,设置粒子形状,,DnD™ action name
-GMStdPartTypeShape_Desc,Set the shape of a particle type.,设置一个粒子类型的形状.,,DnD™ action description
-GMStdPartTypeAlpha_Name,Set Particle Alpha,设置粒子透明度,,DnD™ action name
-GMStdPartTypeAlpha_Desc,Set the alpha channel of a particle type.,设置粒子类型的 alpha 通道.,,DnD™ action description
-GMStdPartTypeSprite_Name,Set Particle Sprite,设置粒子的精灵,,DnD™ action name
-GMStdPartTypeSprite_Desc,Set the sprite of a particle type.,设置粒子类型的精灵图片.,,DnD™ action description
-GMStdPartTypeSpeed_Name,Set Particle Speed,设置粒子速度,,DnD™ action name
-GMStdPartTypeSpeed_Desc,Set the speed of a particle type.,设置粒子类型的速度.,,DnD™ action description
-GMStdPartTypeDirection_Name,Set Particle Direction,设置的粒子方向,,DnD™ action name
-GMStdPartTypeDirection_Desc,Set the direction of a particle type.,设置一个粒子类型的方向.,,DnD™ action description
-GMStdPartEmitRegion_Name,Set Emitter Region,设置发射器区域,,DnD™ action name
-GMStdPartEmitRegion_Desc,Set the region of an emitter.,设置一个发射器的区域.,,DnD™ action description
-GMStdBufferEOS_Name,If End Of Buffer,如果是缓冲区的结束点,,DnD™ action name
-GMStdBufferEOS_Desc,Checks if the end of a buffer has been reached.,检查是否已到达缓冲区的末尾.,,DnD™ action description
-GMStdBufferExists_Name,If Buffer Exists,如果存在缓冲区,,DnD™ action name
-GMStdBufferExists_Desc,Checks if a buffer exists.,检查一个缓冲区是否存在.,,DnD™ action description
-GMStdDefault_Name,Default,默认情形（Default）,,DnD™ action name
-GMStdDefault_Desc,A default switch case for when no other case is matched.,当没有其他情形匹配时的默认执行情形,,DnD™ action description
-GMStdLoop_Name,Loop,无条件循环,,DnD™ action name
-GMStdLoop_Desc,A generic loop that continues until a Break action is hit.,遇到跳出动作（Break）之前会持续执行的常规循环.,,DnD™ action description
-GMStdGetInstanceVar_Name,Get Instance Variable,获取实例变量,,DnD™ action name
-GMStdGetInstanceVar_Desc,Get the value of an instance variable.,获取实例变量的值.,,DnD™ action description
-GMStdSetInstanceVar_Name,Set Instance Variable,设置实例变量,,DnD™ action name
-GMStdSetInstanceVar_Desc,Set the value of an instance variable.,设置实例变量的值.,,DnD™ action description
-GMStdPathGetSpeed_Name,Get Path Follow Speed,获取路径跟随的速度,,DnD™ action name
-GMStdPathGetSpeed_Desc,Get the speed of the instance following a path.,获取一个实例在路径上移动的速度.,,DnD™ action description
-GMStdPathGetPosition_Name,Get Position Along Path,获取沿着路径上的位置,,DnD™ action name
-GMStdPathGetPosition_Desc,Get the position of the instance along the path it is following.,获取沿着路径移动的实例的位置.,,DnD™ action description
-DnDManager_UnknownAction,Unknown Action,未知动作,,DnD™ Manager action name returned for action that doesnt exist
+GMStdCatBuffers,Buffers,缓冲区,,DnD?
+GMStdEvent,Event,事件,,DnD?
+GMStdPerStep,Per Step,每步,,DnD?
+GMStdOnDeath,On Death,死亡时,,DnD?
+GMStdCallUserEvent_Name,Call User Event,调用用户事件,,DnD? action name
+GMStdCallUserEvent_Desc,Call a user event on an instance.,调用实例的用户事件,,DnD? action description
+GMStdInstExists_Name,If Instance Exists,如果实例存在,,DnD? action name
+GMStdInstExists_Desc,Checks if an instance exists.,检测是否存在一个实例.,,DnD? action description
+GMStdIfFileExists_Name,If File Exists,如果文件存在,,DnD? action name
+GMStdIfFileExists_Desc,Checks if a file exists.,检测文件是否存在.,,DnD? action description
+GMStdFileCopy_Name,Copy File,复制文件,,DnD? action name
+GMStdFileCopy_Desc,Copy a file to a new location.,将文件复制到新的位置.,,DnD? action description
+GMStdFileDelete_Name,Delete File,删除文件,,DnD? action name
+GMStdFileDelete_Desc,Delete a file.,删除一个文件.,,DnD? action description
+GMStdFileRename_Name,Rename File,重命名文件,,DnD? action name
+GMStdFileRename_Desc,Rename a file.,重命名一个文件.,,DnD? action description
+GMStdBufferCreate_Name,Create Buffer,创建缓冲区,,DnD? action name
+GMStdBufferCreate_Desc,Create a buffer.,创建一个缓冲区.,,DnD? action description
+GMStdBufferCopy_Name,Copy Buffer,复制缓冲区,,DnD? action name
+GMStdBufferCopy_Desc,Copy a buffer.,复制一个缓冲区.,,DnD? action description
+GMStdBufferDelete_Name,Delete Buffer,删除缓冲区,,DnD? action name
+GMStdBufferDelete_Desc,Delete a buffer.,删除一个缓冲区.,,DnD? action description
+GMStdBufferGetSize_Name,Get Buffer Size,获取缓冲区大小,,DnD? action name
+GMStdBufferGetSize_Desc,Get the size of a buffer.,获取一个缓冲区的大小.,,DnD? action description
+GMStdBufferSeek_Name,Seek Buffer,搜查缓冲区,,DnD? action name
+GMStdBufferSeek_Desc,Seek to a position in a buffer.,搜寻一个缓冲区内的位置,,DnD? action description
+GMStdBufferGetPosition_Name,Get Buffer Position,获取缓冲区位置,,DnD? action name
+GMStdBufferGetPosition_Desc,Get current position in a buffer.,获取缓冲区内的当前位置.,,DnD? action description
+GMStdBufferLoad_Name,Load Buffer,载入缓冲区,,DnD? action name
+GMStdBufferLoad_Desc,Load a file into a buffer.,文件加载到一个缓冲区.,,DnD? action description
+GMStdBufferSave_Name,Save Buffer,保存缓冲区,,DnD? action name
+GMStdBufferSave_Desc,Save a buffer to a file.,将缓冲区保存到一个文件.,,DnD? action description
+GMStdBufferRead_Name,Read Buffer,读取缓冲区,,DnD? action name
+GMStdBufferRead_Desc,Read from a buffer.,从缓冲区中读取.,,DnD? action description
+GMStdBufferWrite_Name,Write Buffer,写入缓冲区,,DnD? action name
+GMStdBufferWrite_Desc,Write to a buffer.,向缓冲区中写入.,,DnD? action description
+GMStdPartTypeSize_Name,Set Particle Size,设置粒子大小,,DnD? action name
+GMStdPartTypeSize_Desc,Set the size of a particle type.,设置粒子类型的大小.,,DnD? action description
+GMStdPartTypeShape_Name,Set Particle Shape,设置粒子形状,,DnD? action name
+GMStdPartTypeShape_Desc,Set the shape of a particle type.,设置一个粒子类型的形状.,,DnD? action description
+GMStdPartTypeAlpha_Name,Set Particle Alpha,设置粒子透明度,,DnD? action name
+GMStdPartTypeAlpha_Desc,Set the alpha channel of a particle type.,设置粒子类型的 alpha 通道.,,DnD? action description
+GMStdPartTypeSprite_Name,Set Particle Sprite,设置粒子的精灵,,DnD? action name
+GMStdPartTypeSprite_Desc,Set the sprite of a particle type.,设置粒子类型的精灵图片.,,DnD? action description
+GMStdPartTypeSpeed_Name,Set Particle Speed,设置粒子速度,,DnD? action name
+GMStdPartTypeSpeed_Desc,Set the speed of a particle type.,设置粒子类型的速度.,,DnD? action description
+GMStdPartTypeDirection_Name,Set Particle Direction,设置的粒子方向,,DnD? action name
+GMStdPartTypeDirection_Desc,Set the direction of a particle type.,设置一个粒子类型的方向.,,DnD? action description
+GMStdPartEmitRegion_Name,Set Emitter Region,设置发射器区域,,DnD? action name
+GMStdPartEmitRegion_Desc,Set the region of an emitter.,设置一个发射器的区域.,,DnD? action description
+GMStdBufferEOS_Name,If End Of Buffer,如果是缓冲区的结束点,,DnD? action name
+GMStdBufferEOS_Desc,Checks if the end of a buffer has been reached.,检查是否已到达缓冲区的末尾.,,DnD? action description
+GMStdBufferExists_Name,If Buffer Exists,如果存在缓冲区,,DnD? action name
+GMStdBufferExists_Desc,Checks if a buffer exists.,检查一个缓冲区是否存在.,,DnD? action description
+GMStdDefault_Name,Default,默认情形（Default）,,DnD? action name
+GMStdDefault_Desc,A default switch case for when no other case is matched.,当没有其他情形匹配时的默认执行情形,,DnD? action description
+GMStdLoop_Name,Loop,无条件循环,,DnD? action name
+GMStdLoop_Desc,A generic loop that continues until a Break action is hit.,遇到跳出动作（Break）之前会持续执行的常规循环.,,DnD? action description
+GMStdGetInstanceVar_Name,Get Instance Variable,获取实例变量,,DnD? action name
+GMStdGetInstanceVar_Desc,Get the value of an instance variable.,获取实例变量的值.,,DnD? action description
+GMStdSetInstanceVar_Name,Set Instance Variable,设置实例变量,,DnD? action name
+GMStdSetInstanceVar_Desc,Set the value of an instance variable.,设置实例变量的值.,,DnD? action description
+GMStdPathGetSpeed_Name,Get Path Follow Speed,获取路径跟随的速度,,DnD? action name
+GMStdPathGetSpeed_Desc,Get the speed of the instance following a path.,获取一个实例在路径上移动的速度.,,DnD? action description
+GMStdPathGetPosition_Name,Get Position Along Path,获取沿着路径上的位置,,DnD? action name
+GMStdPathGetPosition_Desc,Get the position of the instance along the path it is following.,获取沿着路径移动的实例的位置.,,DnD? action description
+DnDManager_UnknownAction,Unknown Action,未知动作,,DnD? Manager action name returned for action that doesnt exist
 DnDEditor_EmptyChain,Empty,空,,DnD empty chain notice
 SplineEditor_InvalidConvex,Shape is not convex!,形状不是凸多边形！,,Spline editor non convex shape
 Validation_Error,Validation Error,验证错误,,title used for validation error windows
@@ -3793,7 +3793,7 @@ RoomEditor_InstanceLayerStatus_Laptop,LMB + Right ALT to paint with selected obj
 RoomEditor_AssetLayerStatus_Laptop,LMB + Right ALT to paint with selected sprite resources,鼠标左键 + 右ALT 使用选定的精灵资源涂沫,,status bar information for painting in an asset layer when laptop compatibility is enabled
 SPINE_ATLAS_NOT_FOUND,Spine: unable to find .atlas file for {0},Spine: 无法为{0}找到 .atlas 文件 ,,spine atlas not found message
 SPINE_TEXTURE_NOT_FOUND,Spine: unable to find texture file: {0},Spine: 无法找到纹理文件: {0},,spine texture not found message
-SPINE_JSON_NOT_FOUND,Spine: json file not found: {0},Spine: json 文件未发现: {0},,spine json not found message
+SPINE_JSON_NOT_FOUND,Spine: json file not found: {0},Spine: 未找到 json 文件: {0},,spine json not found message
 RoomEditor_BrushEditingModeToolTip,Switch between selection and editing modes in brush builder page (${room_editor_tools_keyboard_shortcut22}),画笔生成器页面中选区和编辑模式间切换 (${room_editor_tools_keyboard_shortcut22}),,the tooltip for the editing mode button in the brush builder page
 RoomEditor_DuplicateLayer,Duplicate Layer,复制层,,context menu option to duplicate a layer
 TileSetEditor_DeleteAnimation_ToolTip,Delete Animation,删除动画,,delete animation button tooltip
@@ -3805,8 +3805,8 @@ WelcomePage_WelcomeTitle,Welcome,欢迎,,title to be used if not installing.
 Welcome_ShowOnStartup,Show on startup,在启动时显示,,do not show again label
 WelcomePage_Close,Close,关闭,,close label
 WelcomePage_Page1Text,...why not check out our all new {0}'Getting Started'{1} video,...为什么不看看我们全部新的{0}'入门'{1} 视频,, {0} and {1} are used to include bold text - must be maintained in translation
-WelcomePage_Page2Text,"Sit back, relax, and let us introduce you to some of our cool {0}'New Features'{1}",坐好,放轻松,让我们向您介绍我们的一些酷炫的{0}“新特性”{1},, {0} and {1} are used to include bold text - must be maintained in translation,,,
-WelcomePage_Page3Text,{0}'Access All Areas'{1}. Find everything you need in one place.,{0}“面面俱到”{1}.无需踏破铁鞋即可得来全不费功夫.教程、市场、支持……还远不止这些.教程、市场,帮助支持或更多,, {0} and {1} are used to include bold text - must be maintained in translation,,,,
+WelcomePage_Page2Text,"Sit back, relax, and let us introduce you to some of our cool {0}'New Features'{1}",坐好，放轻松，来让我向你介绍我们酷炫的{0}“新特性”{1},放轻松,让我们向您介绍我们的一些酷炫的{0}“新特性”{1},, {0} and {1} are used to include bold text - must be maintained in translation,,,
+WelcomePage_Page3Text,{0}'Access All Areas'{1}. Find everything you need in one place.,{0}“面面俱到”{1}.无需踏破铁鞋即可得来全不费功夫.教程、市场、支持……还远不止这些。,帮助支持或更多,, {0} and {1} are used to include bold text - must be maintained in translation,,,,
 WelcomePage_ShowOnStartup,Show welcome screen on startup,在启动时显示欢迎页面,,preference text
 WelcomePage_Learn,Learn,学习,,welcome page external link text
 WelcomePage_Marketplace,Marketplace,市场,,welcome page external link text
@@ -3831,7 +3831,7 @@ StartPage_Web_RecentProjects,Recent Projects,最近的项目,,Start page localis
 StartPage_Web_RecentTutorials,Recent Tutorials,最近的教程,,Start page localised web content
 StartPage_Web_Licenses,Licenses,许可证,,Start page localised web content
 StartPage_Web_ReleaseNotes,Release Notes,发行说明,,Start page localised web content
-StartPage_Web_OwnedTutorials,Owned,拥有,,Start page localised web content
+StartPage_Web_OwnedTutorials,Owned,已拥有,,Start page localised web content
 StartPage_Web_FilterByInstalled,Filter by installed,过滤器的安装,,Start page localised web content
 StartPage_Web_OfficialTutorials,Official,官方的,,Start page localised web content
 StartPage_Web_ExpandOrCollapse,Expand or collapse,展开或折叠,,Start page localised web content
@@ -3842,8 +3842,8 @@ StartPage_Web_Installed,Installed,安装,,Start page status label
 StartPage_Web_Downloading,Downloading...,下载中...,,Start page status label
 StartPage_Web_InProgress,Not Completed,未完成,,Start page status label
 StartPage_Web_Completed,Completed,完成,,Start page status label
-StartPage_Web_Available,Available,适合的,,Start page status label
-StartPage_Web_ViewOnMarketplace,View On Marketplace,市场看法,,Start page tooltip
+StartPage_Web_Available,Available,可获取,,Start page status label
+StartPage_Web_ViewOnMarketplace,View On Marketplace,在市场上查看,,Start page tooltip
 StartPage_Web_Download,Download,下载,,Start page tooltip
 StartPage_Web_Open,Open,打开,,Start page tooltip
 StartPage_Web_Remove,Remove Local Files,删除本地文件,,Start page remove tooltip
@@ -3855,7 +3855,7 @@ remote_worker_output_path,Output Path,输出路径,,Remote worker output path
 remote_worker_project_cache_path,Project Cache Path,项目缓存路径,,Remote worker project cache path
 default_audio_setting,Default Audio Device,默认音频设备,,Default Audio Device setting
 Validate_NameLength,Resource name must be between {2} and {1} characters long,资源名称必须是{2}和{1}字符之间,,validation error message for resource name
-DnD_ResourceSelection_DropLabel,Drop here to assign resource,拖拽到此处以分配资源,,DnD™ Resource Input label
+DnD_ResourceSelection_DropLabel,Drop here to assign resource,拖拽到此处以分配资源,,DnD? Resource Input label
 TextureGroups_OpenResource,Open,打开,,Open Resource
 RemoteWorker_WindowTitle,Settings for {0},设置 {0},,Remote worker window title
 RemoteWorker_PlatformNotSupportedTitle,Remote Worker - Platform Not Supported,远程工作者 – 平台不支持,,Platform is not supported on this remote worker title
@@ -3873,7 +3873,7 @@ GMStdAlpha_Desc,Set the alpha channel (0 to 1) used for drawing.,设置用于绘
 GMStdGetAlpha_Name,Get Draw Alpha,获取绘制透明度,,dnd set draw alpha node
 GMStdGetAlpha_Desc,Get the alpha channel (0 to 1) used for drawing.,获取绘制的透明度通道 (0 to 1) .,,dnd set draw alpha node
 GMStdUseAlpha,Use Alpha,使用透明度,,dnd node label
-TextEditorPanel_ConvertToDnD,Convert to DnD™,转换成DnD™,,Convert the current script to DnD™
+TextEditorPanel_ConvertToDnD,Convert to DnD?,转换成DnD?,,Convert the current script to DnD?
 Marketplace_CreatePackageDetails,Package Details:,程序包的详情:,,package details heading
 Marketplace_InactiveTutorialSettings,Tutorial Content Settings will appear here when 'Tutorial' Package Type has been selected,当“教程”包被选中时,教程内容设置将出现在这里,,the message displayed when the tutorial settings are inactive,,,,
 CloseNonEmptyWorkspaceTabMessage,"Closing this workspace will also close the contained editors, are you sure?",关闭此工作区也将关闭所包含的编辑器,你确定吗？,,confirmation dialog message when closing a workspace tab with open editors,,,,
@@ -3940,7 +3940,7 @@ ObjectEditor_DropParentHere,Drop here to assign parent,拖到此处以分配父�
 ObjectEditor_DropChildHere,Drop here to add child,拖到此处以添加子级,,Drop message for object child list
 ObjectEditor_AddChildTooltip,Add child,添加子项,,Object editor child list add child tooltip
 ObjectEditor_RemoveChildTooltip,Remove child,移除子项,,Object editor child list remove child tooltip
-INVALID_FILEPATH_TITLE,Invalid Path,Invalid Path,,Invalid File path title
+INVALID_FILEPATH_TITLE,Invalid Path,无效路径,,Invalid File path title
 INVALID_FILEPATH_PATHTOOLONG,File path is too long: {0},文件路径太长: {0},,File at x has a path which is too long to handle
 INVALID_INCLUDEDFILE_NAME_TITLE,Included File has invalid name,包含文件名称无效,,Invalid included file name dialog box title
 INVALID_INCLUDEDFILE_NAME_MSG,"One or more included files has an invalid filename, should only contain a-z, A_Z, 0-9, _ or .\nSee the output panel for a list.",一个或多个项目包含文件包含无效的文件名,应该只能包含 a-z、 A_Z、 0-9, 或者“_ ”.\n查看输出面板中的列表.,,Invalid included file name dialog box message,,,
@@ -3976,13 +3976,13 @@ PhysicsShapeEditor_CurrentFrameTooltip,Set the displayed sprite frame,设置显�
 PhysicsShapeEditor_SnapX,Set the horizontal grid alignment.,设置水平网格对齐.,,Snap x tooltip
 PhysicsShapeEditor_SnapY,Set the vertical grid alignment.,设置垂直网格对齐.,,Snap y tooltip
 GeneralSettings_ChainSoftness,How many segments should rendered chains have?,连接线需要渲染成多少段？,,Chain softness preference
-DnDModule_ToggleBreakpoint,Toggle Breakpoint,开/关断点,,Toggle breakpoint on a DnD™ node
+DnDModule_ToggleBreakpoint,Toggle Breakpoint,开/关断点,,Toggle breakpoint on a DnD? node
 DnDModule_DisableNode,Disable,禁用,,Disable node output
 DnDModule_EnableNode,Enable,启用,,Enable node output
 DnDModule_ToggleDisabled,Toggle Enabled,切换启用,,Toggle node output
 DnDModule_NodeDisabled,(Disabled),(禁用),,Node disabled story entry
-DnDModule_DeleteAllBreakpoints,Delete All Breakpoints,删除所有的断点,,Delete breakpoints on selected DnD™ nodes
-DnDModule_DeleteNode,Delete,删除,,DnD™ module delete selected
+DnDModule_DeleteAllBreakpoints,Delete All Breakpoints,删除所有的断点,,Delete breakpoints on selected DnD? nodes
+DnDModule_DeleteNode,Delete,删除,,DnD? module delete selected
 IDETooltip_LaptopMode_Title,Laptop Mode ({0}),笔记本模式 ({0}),,IDE toolbar laptop mode title
 IDETooltip_LaptopMode_On,On,开,,On text
 IDETooltip_LaptopMode_Off,Off,关,,Off text
@@ -4102,19 +4102,19 @@ Debugger_DataGrid_Step,Step %,Step %,,Debugger step % column
 Debugger_Graph_Help,This graph shows frames per second and memory usage over time.\nHold Control and scroll to expand and contract the graph.,该图线显示帧秒速率（FPS）及随时间的内存使用量。\n按住Ctrl并滚动滑轮可以伸展或收缩图线。,,Debugger graph help icon
 Debugger_Graph_Help_Mac,This graph shows frames per second and memory usage over time.\nHold ? and scroll to expand and contract the graph.,该图线显示帧秒速率（FPS）及随时间的内存使用量。\n按住?并滚动滑轮可以伸展或收缩图线。,,Debugger graph help icon
 Debugger_FailedToEvaluate,Failed to evaluate expression,表达式求值失败,,Debugger failed to evaluate expression
-Debugger_Connection_Active,Active connection to game,Active connection to game,,Debugger active connection
+Debugger_Connection_Active,Active connection to game,与游戏的活动连接,,Debugger active connection
 Debugger_Connection_Pending,Connecting to game...,正在连接到游戏……,,Debugger pending connection
 Debugger_Connection_Closed,No connection to game,没有与游戏连接,,Debugger no connection
 Debugger_GraphView_ShowWindow,Click to open in a window.,点击打开窗口,,Debugger open in window label
-Debugger_GraphView_Tags_WindowTitle,Debug Events - Tick {0},Debug Events - Tick {0},,Debug events window title
+Debugger_GraphView_Tags_WindowTitle,Debug Events - Tick {0},调试事件 - Tick {0},,Debug events window title
 Debugger_IPDialog_Title,Device IP Required,请提供设备IP,,Debugger IP Address dialog title
-Debugger_IPDialog_Message,Target Device IP is required to connect the debugger,Target Device IP is required to connect the debugger,,Debugger IP Address dialog message
-Debugger_IPDialog_Button,Open Device Settings,Open Device Settings,,Debugger IP Address button caption
-Debugger_Watches_AddNewWatch,Add new watch...,Add new watch...,,Watches add new text
-Debugger_OnlyAvailableWindows,Only available with Windows target,Only available with Windows target,,selected instance windows only message
-Debugger_CloseMessage_NoGame,This will close the debugger and permanently discard all collected data.,This will close the debugger and permanently discard all collected data.,,Close debugger without a running game
-Debugger_CloseMessage_Game,This will close the game and the debugger and permanently discard all collected data.,This will close the game and the debugger and permanently discard all collected data.,,Close debugger with a running game
-Debugger_Pref_AutomaticCloseChoice,Automatic choice on closing the debugger,Automatic choice on closing the debugger,,Close automatic choice message
+Debugger_IPDialog_Message,Target Device IP is required to connect the debugger,需要提供连接到调试器的目标设备IP,,Debugger IP Address dialog message
+Debugger_IPDialog_Button,Open Device Settings,打开设备设置,,Debugger IP Address button caption
+Debugger_Watches_AddNewWatch,Add new watch...,添加新的监视内容,,Watches add new text
+Debugger_OnlyAvailableWindows,Only available with Windows target,只在Windows目标上可用,,selected instance windows only message
+Debugger_CloseMessage_NoGame,This will close the debugger and permanently discard all collected data.,这会关闭调试器并永久丢弃所有已收集的数据This will close the debugger and permanently discard all collected data.,,Close debugger without a running game
+Debugger_CloseMessage_Game,This will close the game and the debugger and permanently discard all collected data.,这会关闭游戏和调试器并永久丢弃所有已收集的数据This will close the debugger and permanently discard all collected data.,,Close debugger with a running game
+Debugger_Pref_AutomaticCloseChoice,Automatic choice on closing the debugger,关闭调试器时自动选择,,Close automatic choice message
 Debugger_CodeError,Code Error,代码错误,,debugger code error dialog title
 Help_BufferId,The buffer id is an integer value starting at zero and increments when a new buffer is created.\nView the contents of the buffer with a given id.," 缓冲区id是一个从零开始的整数值,在创建新的缓冲区时递增.\n使用给定的id查看缓冲区的内容.",,Help tip
 Help_eProfileFilterType_eGML,"Show only samples for my code, excluding the underlying engine code."," 只显示代码的样本,不包括底层引擎代码.",,Help tip
@@ -4348,7 +4348,7 @@ FindReplace_FindPrevious,Find Previous,查找上一个,,Find Previous
 FindReplace_FindNext,Find Next,查找下一个,,Find Next
 FindReplace_ReplaceNext,Replace Next,替换下一个,,Replace Next
 FindReplace_ReplaceAll,Replace All,全部替换,,Replace All
-Preferences_iOS_suppress,Suppress build and run (just create Xcode project on macOS),禁止创建和运行 (只需在macOS 创建 Xcode 项目),,Preferences/Platform Settings/iOS
+Preferences_iOS_suppress,Suppress build and run (just create Xcode project on macOS),阻止创建和运行 (只需在macOS 创建 Xcode 项目),,Preferences/Platform Settings/iOS
 Preferences_iOS_install_path,macOS Install Path,macOS 安装路径,,Preferences/Platform Settings/iOS
 Preferences_iOS_default_team_id,Default Team Identifier,默认团队标识符,,Preferences/Platform Settings/iOS
 Preferences_android_sdk_location,Android SDK Location,Android SDK 位置,,Preferences/Platform Settings/Android
@@ -4374,9 +4374,9 @@ ResourceTree_Views_Clone,Clone,复制,,Clone resource tree view label
 ResourceTree_Views_Delete,Delete Current,删除当前,,Delete Current Resource Tree View Label
 ResourceTree_HorizontalSeparators,Show Horizontal Separators,显示水平分割线,,Show Horizontal Separators in Resource Tree
 ResourceTree_HorizontalSeparatorColour,Horizontal Separator Colour,水平分割线,,Choose colour for Horizontal Separators in Resource Tree
-ResourceTree_TreeLineColour,Tree Line Colour,Tree Line Colour,,Choose colour for the Tree Lines
-ResourceTree_DefaultBackgroundColour,Default Background Colour,Default Background Colour,,Default Background Colour
-ResourceTree_BackgroundColourHelp,"To see the node highlight, please choose an alpha colour","To see the node highlight, please choose an alpha colour",,Help label for the Resource Tree background colours
+ResourceTree_TreeLineColour,Tree Line Colour,树状线颜色,,Choose colour for the Tree Lines
+ResourceTree_DefaultBackgroundColour,Default Background Colour,默认背景色,,Default Background Colour
+ResourceTree_BackgroundColourHelp,"To see the node highlight, please choose an alpha colour",要查看高亮节点，请选择一个alpha颜色,,Help label for the Resource Tree background colours
 ResourceTree_SpriteBackgroundColour,Sprite Background Colour,精灵背景颜色,,Background Colour for Sprites
 ResourceTree_TileSetsBackgroundColour,Tile Sets Background Colour,图块集背景颜色,,Background Colour for Tile Sets
 ResourceTree_SoundsBackgroundColour,Sounds Background Colour,声音背景颜色,,Background Colour for sounds
@@ -4429,7 +4429,7 @@ ResourceTree_ExtensionsIconColour,Extensions Icon Colour,扩展图标颜色,,Ico
 ResourceTree_OptionsIconColour,Options Icon Colour,选项图标颜色,,Icon Colour for Options
 ResourceTree_ConfigsIconColour,Configurations Icon Colour,配置图标颜色,,Icon Colour for Configurations
 ResourceTree_NotesIconColour,Notes Icon Colour,便签图标颜色,,Icon Colour for Notes
-ResourceTree_NodeSelectHighlight,Node Selection Highlight,Node Selection Highlight,,Node Selection Highlight colour
+ResourceTree_NodeSelectHighlight,Node Selection Highlight,节点选择高亮,,Node Selection Highlight colour
 ProjectLoad_BadPathMessage,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,该项目位于非安全位置：{0}\n请将其存储到新位置以防工作发生损失。,,Project is in an unsafe location message
 recentwindows_title,Recent Windows,最近窗口,,Recently activated windows title
 Views_Menu_Recent_Windows,Recent Windows,最近窗口,,Recent activated windows menu option
@@ -4447,7 +4447,7 @@ RecentWindows_MoveToTop,Move to Top,置顶,,Move the selected items to the top o
 RecentWindows_ShowByDefault,Show by default on project load,在项目载入时默认显示,,Show the Recent Windows list by default on project load
 Project_Error_Invalid_Shaders,The shader '{0}' has an invalid type.,着色器 '{0}' 具有无效类型,,Invalid shader error message
 AVDVersion_Error,Cannot run AVD directly with version '{0}' of the Android SDK.\nPlease launch 'Android Studio' and select 'Tools > Android > AVD Manager'.,无法直接运行Android SDK版本为 '{0}' 的AVD虚拟机。\n请启动“Android Studio”并选择'工具(Tool) > Android > AVD管理器(AVD Manager)'。,,error message for later versions of Android Studio
-ggs_windowsuap_enable_xbox_live,Enable Xbox Live,Enable Xbox Live,,Enable Xbox Live
+ggs_windowsuap_enable_xbox_live,Enable Xbox Live,启用 Xbox Live,,Enable Xbox Live
 ggs_windowsuap_xbox_live_creators_program,Creators Program App,Creators Program App,,Specifies that this is a Creators Program app
 ggs_windowsuap_xbox_live_title_id,Title ID,标题 ID,,The Title ID of the app
 ggs_windowsuap_xbox_live_scid,Service Configuration ID,服务配置 ID,,The Service Configuration ID of the app
