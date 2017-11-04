@@ -1,5 +1,3 @@
-#gms2translation
+# GameMaker Studio 2 Translation.
 
-现已支持外链，地址：http://liaronce.coding.me/gms2translation
-
-最新汉化文件请上传到coding-pages分支。
+国内用户可以前往：[https://coding.net/u/liaronce/p/gms2translation/git/tree/coding-pages/](https://coding.net/u/liaronce/p/gms2translation/git/tree/coding-pages/)下载最新版汉化文件。
