@@ -2074,8 +2074,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="EN-US">
         <seg>An image that is to be tiled will have the edges (horizontal or vertical)\nadded to by the edges from the opposite side.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T050109Z" creationid="deciia" creationdate="20170104T024711Z">
-        <seg>平铺的图像（水平或者垂直）边缘挨着另一侧边缘添加(?)。</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T150602Z" creationid="deciia" creationdate="20170104T024711Z">
+        <seg>平铺的图像（水平或者垂直）边缘挨着另一侧边缘添加。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3103,8 +3103,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="EN-US">
         <seg>Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T043719Z" creationid="deciia" creationdate="20170103T125101Z">
-        <seg>尝试从父房间里删除项目（注：创建实例的代码将会不可挽回的失去）。\n删除全部：删除子房间的匹配项目\n全部保留：保留所有子房间的项目\n保留更改：保持其中已经覆盖父房间的子房间的项目\n直接子房间(?)： {0}</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T150309Z" creationid="deciia" creationdate="20170103T125101Z">
+        <seg>尝试从父房间里删除项目（注：创建实例的代码将会不可挽回的失去）。\n删除全部：同时删除子房间匹配（继承）的项目\n全部保留：保留子房间匹配（继承）的项目\n保留更改：保留子房间匹配的项目中更改过的项目不删除\n直接的子房间(?)： {0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -5164,32 +5164,32 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="EN-US">
         <seg>Chain fade out start distance (px)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T031407Z" creationid="deciia" creationdate="20180922T031407Z">
-        <seg>链条淡出开始距离(px)</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T152955Z" creationid="deciia" creationdate="20180922T031407Z">
+        <seg>连接线淡出开始距离(px)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Chain fade out stop distance (px)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T031431Z" creationid="deciia" creationdate="20180922T031431Z">
-        <seg>链条淡出停止距离 (px)</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T153004Z" creationid="deciia" creationdate="20180922T031431Z">
+        <seg>连接线淡出停止距离 (px)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Chain link colour</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T031344Z" creationid="deciia" creationdate="20180922T031257Z">
-        <seg>链条连接（Chain link）颜色</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T152937Z" creationid="deciia" creationdate="20180922T031257Z">
+        <seg>连接线颜色(?)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Chain minimum alpha</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180925T081854Z" creationid="deciia" creationdate="20180922T031440Z">
-        <seg>链条最小alpha值</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T153020Z" creationid="deciia" creationdate="20180922T031440Z">
+        <seg>连接线最小alpha值</seg>
       </tuv>
     </tu>
     <tu>
@@ -6569,8 +6569,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="EN-US">
         <seg>Commit Tool Changes?</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T032933Z" creationid="deciia" creationdate="20170102T090107Z">
-        <seg>提交工具的更改吗(?)？</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T144851Z" creationid="deciia" creationdate="20170102T090107Z">
+        <seg>提交工具的更改吗？</seg>
       </tuv>
     </tu>
     <tu>
@@ -13084,8 +13084,8 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="EN-US">
         <seg>Force Software Vertex Processing</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T071317Z" creationid="deciia" creationdate="20170105T025316Z">
-        <seg>强制使用软件的顶点处理(?)</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T151041Z" creationid="deciia" creationdate="20170105T025316Z">
+        <seg>强制使用软件模拟的顶点处理</seg>
       </tuv>
     </tu>
     <tu>
@@ -21496,8 +21496,8 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       <tuv lang="EN-US">
         <seg>Open new resources for edit on creation</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T101555Z" creationid="deciia" creationdate="20180922T023951Z">
-        <seg>创建时总是打开新的资源进行编辑(?)</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T151758Z" creationid="deciia" creationdate="20180922T023951Z">
+        <seg>创建时总是打开新资源的编辑窗口</seg>
       </tuv>
     </tu>
     <tu>
@@ -28902,8 +28902,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="EN-US">
         <seg>Show whitespace</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T032640Z" creationid="deciia" creationdate="20180922T032640Z">
-        <seg>显示空白区域</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T152448Z" creationid="deciia" creationdate="20180922T032640Z">
+        <seg>显示空白区域（彩色连续的英文句号）</seg>
       </tuv>
     </tu>
     <tu>
@@ -31692,8 +31692,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="EN-US">
         <seg>The smoothness of the chain.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180925T102649Z" creationid="deciia" creationdate="20170105T072525Z">
-        <seg>链条连线的平滑度</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T153050Z" creationid="deciia" creationdate="20170105T072525Z">
+        <seg>连接线的平滑度</seg>
       </tuv>
     </tu>
     <tu>
@@ -34569,8 +34569,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="EN-US">
         <seg>White space text style</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T123208Z" creationid="deciia" creationdate="20170105T060611Z">
-        <seg>空白区文本样式(?)</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T152047Z" creationid="deciia" creationdate="20170105T060611Z">
+        <seg>空白区文本样式</seg>
       </tuv>
     </tu>
     <tu>
@@ -34833,24 +34833,24 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="EN-US">
         <seg>Workspace chain column padding (px)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T201936Z" creationid="deciia" creationdate="20180922T041816Z">
-        <seg>工作区链条连接的面板之间的列间隔量 (px)</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T153153Z" creationid="deciia" creationdate="20180922T041816Z">
+        <seg>工作区连接线的面板之间的列间隔量 (px)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Workspace chain link colour</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T041712Z" creationid="deciia" creationdate="20180922T041712Z">
-        <seg>工作区链条连接颜色</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T153139Z" creationid="deciia" creationdate="20180922T041712Z">
+        <seg>工作区连接线颜色(?)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Workspace chain rendering segment count</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T053740Z" creationid="deciia" creationdate="20180922T053740Z">
-        <seg>工作区链条渲染段计数</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T153209Z" creationid="deciia" creationdate="20180922T053740Z">
+        <seg>工作区连接线渲染段计数</seg>
       </tuv>
     </tu>
     <tu>
@@ -34859,16 +34859,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="EN-US">
         <seg>Workspace chain row padding (px)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T201912Z" creationid="deciia" creationdate="20180922T041608Z">
-        <seg>工作区链条连接的面板之间的行间隔量(px)</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T153105Z" creationid="deciia" creationdate="20180922T041608Z">
+        <seg>工作区连接线的面板之间的行间隔量(px)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Workspace chains can overlap</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180926T201124Z" creationid="deciia" creationdate="20180922T075803Z">
-        <seg>允许工作区链条连接交叉</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T153322Z" creationid="deciia" creationdate="20180922T075803Z">
+        <seg>允许工作区连接线交叉</seg>
       </tuv>
     </tu>
     <tu>
