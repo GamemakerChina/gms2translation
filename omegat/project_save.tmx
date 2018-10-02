@@ -6,6 +6,22 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>!!!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020954Z" creationid="deciia" creationdate="20181002T020954Z">
+        <seg>!!!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>!\"#$%&amp;'()*+,-./00300123456789:;&lt;=&gt;?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022217Z" creationid="deciia" creationdate="20181002T022217Z">
+        <seg>!\"#$%&amp;'()*+,-./00300123456789:;&lt;=&gt;?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#NAME?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="36011" changedate="20170318T083734Z" creationid="36011" creationdate="20170318T082008Z">
@@ -38,10 +54,66 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>${FileMenuExit}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022211Z" creationid="deciia" creationdate="20181002T022211Z">
+        <seg>${FileMenuExit}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${IDEMenuHelpAbout}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022300Z" creationid="deciia" creationdate="20181002T022300Z">
+        <seg>${IDEMenuHelpAbout}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${IDEMenuViews}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022254Z" creationid="deciia" creationdate="20181002T022254Z">
+        <seg>${IDEMenuViews}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${OpenInExplorer}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022525Z" creationid="deciia" creationdate="20181002T022525Z">
+        <seg>${OpenInExplorer}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${OpenProjectInExplorer}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022303Z" creationid="deciia" creationdate="20181002T022303Z">
+        <seg>${OpenProjectInExplorer}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>${ShowLogFileInExplorer}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022306Z" creationid="deciia" creationdate="20181002T022306Z">
+        <seg>${ShowLogFileInExplorer}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>${ctrl}+MMB to open the inherited event instead of the manual.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T052612Z" creationid="deciia" creationdate="20180922T052612Z">
         <seg>${ctrl}+MMB 打开继续事件，以代替手动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>%</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022551Z" creationid="deciia" creationdate="20181002T022551Z">
+        <seg>%</seg>
       </tuv>
     </tu>
     <tu>
@@ -134,6 +206,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>({0}, {1})</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T015521Z" creationid="deciia" creationdate="20181002T015521Z">
+        <seg>({0}, {1})</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>({0}, {1}),</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022728Z" creationid="deciia" creationdate="20181002T022728Z">
+        <seg>({0}, {1}),</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>- Must be between 5 and 30 characters long</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="36011" changedate="20170316T113127Z" creationid="deciia" creationdate="20170103T091426Z">
@@ -178,6 +266,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170104T065320Z" creationid="deciia" creationdate="20170104T065320Z">
         <seg>0 秒</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022518Z" creationid="deciia" creationdate="20181002T022518Z">
+        <seg>1</seg>
       </tuv>
     </tu>
     <tu>
@@ -262,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>16</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022458Z" creationid="deciia" creationdate="20181002T022458Z">
+        <seg>16</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>16 bit</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170103T074234Z" creationid="deciia" creationdate="20170103T074234Z">
@@ -282,6 +386,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170104T065627Z" creationid="deciia" creationdate="20170104T065627Z">
         <seg>16位</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1899-12-31T01:01:00.000</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022312Z" creationid="deciia" creationdate="20181002T022312Z">
+        <seg>1899-12-31T01:01:00.000</seg>
       </tuv>
     </tu>
     <tu>
@@ -350,10 +462,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>32</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022502Z" creationid="deciia" creationdate="20181002T022502Z">
+        <seg>32</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>32-bit Floating Point</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T071337Z" creationid="deciia" creationdate="20180922T071337Z">
         <seg>32位浮点数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>3D</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022452Z" creationid="deciia" creationdate="20181002T022452Z">
+        <seg>3D</seg>
       </tuv>
     </tu>
     <tu>
@@ -406,6 +534,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>47</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022557Z" creationid="deciia" creationdate="20181002T022557Z">
+        <seg>47</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>480x800 Splash Screen</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170105T032546Z" creationid="deciia" creationdate="20170105T032546Z">
@@ -442,6 +578,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170104T065334Z" creationid="deciia" creationdate="20170104T065334Z">
         <seg>6 秒</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>64</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022505Z" creationid="deciia" creationdate="20181002T022505Z">
+        <seg>64</seg>
       </tuv>
     </tu>
     <tu>
@@ -682,6 +826,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170105T083310Z" creationid="deciia" creationdate="20170105T083310Z">
         <seg>Mac 上的 ADB 路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ARM</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022648Z" creationid="deciia" creationdate="20181002T022648Z">
+        <seg>ARM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ASCII</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022224Z" creationid="deciia" creationdate="20181002T022224Z">
+        <seg>ASCII</seg>
       </tuv>
     </tu>
     <tu>
@@ -1958,6 +2118,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022204Z" creationid="deciia" creationdate="20181002T022204Z">
+        <seg>Alt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternate synchronization method</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180925T055731Z" creationid="deciia" creationdate="20170105T032234Z">
@@ -1982,10 +2150,26 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Amazon</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021256Z" creationid="deciia" creationdate="20181002T020830Z">
+        <seg>亚马逊</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Amazon APIs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T010805Z" creationid="deciia" creationdate="20180927T010805Z">
         <seg>亚马逊 APIs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Amazon Fire</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021023Z" creationid="deciia" creationdate="20181002T021023Z">
+        <seg>Amazon Fire</seg>
       </tuv>
     </tu>
     <tu>
@@ -2144,6 +2328,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Android</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020635Z" creationid="deciia" creationdate="20181002T020635Z">
+        <seg>Android</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android (YYC)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022331Z" creationid="deciia" creationdate="20181002T022331Z">
+        <seg>Android (YYC)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Android Devices</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180926T022812Z" creationid="deciia" creationdate="20170106T160606Z">
@@ -2268,6 +2468,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180926T022816Z" creationid="deciia" creationdate="20170106T160631Z">
         <seg>Android 设置错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android TV</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020824Z" creationid="deciia" creationdate="20181002T020824Z">
+        <seg>Android TV</seg>
       </tuv>
     </tu>
     <tu>
@@ -5180,8 +5388,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="EN-US">
         <seg>Chain link colour</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T152937Z" creationid="deciia" creationdate="20180922T031257Z">
-        <seg>连接线颜色(?)</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T014451Z" creationid="deciia" creationdate="20180922T031257Z">
+        <seg>连接线颜色</seg>
       </tuv>
     </tu>
     <tu>
@@ -6467,20 +6675,21 @@ Add-ons应该怎么翻译？</note>
       </tuv>
     </tu>
     <tu>
-      <note>不确定</note>
+      <note>备注：SoundMixer_ToolTip_ColumnVolume：Sound mixer tool tip for the column volume
+不确定，音量列?</note>
       <tuv lang="EN-US">
         <seg>Column Volume</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180923T222544Z" creationid="deciia" creationdate="20170103T140109Z">
-        <seg>音量列?</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T012338Z" creationid="deciia" creationdate="20170103T140109Z">
+        <seg>列音量(?)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Column volume</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="36011" changedate="20170315T144816Z" creationid="deciia" creationdate="20170107T051346Z">
-        <seg>音频列音量</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T012354Z" creationid="deciia" creationdate="20170107T051346Z">
+        <seg>列音量(?)</seg>
       </tuv>
     </tu>
     <tu>
@@ -8194,6 +8403,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Ctrl</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022146Z" creationid="deciia" creationdate="20181002T022146Z">
+        <seg>Ctrl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Cubic</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="36011" changedate="20170114T034145Z" creationid="deciia" creationdate="20170103T074932Z">
@@ -9739,6 +9956,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>DnD™</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022511Z" creationid="deciia" creationdate="20181002T022511Z">
+        <seg>DnD™</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>DnD™ Maker</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="36011" changedate="20170312T020712Z" creationid="deciia" creationdate="20170104T052710Z">
@@ -10980,8 +11205,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="EN-US">
         <seg>Enable Amazon APIs</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180925T040325Z" creationid="deciia" creationdate="20170104T072045Z">
-        <seg>启用亚马逊 API</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021158Z" creationid="deciia" creationdate="20170104T072045Z">
+        <seg>启用亚马逊 APIs API</seg>
       </tuv>
     </tu>
     <tu>
@@ -11036,8 +11261,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="EN-US">
         <seg>Enable Flurry Analytics</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20170105T100552Z" creationid="deciia" creationdate="20170105T100552Z">
-        <seg>开启 Flurry 分析</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T014725Z" creationid="deciia" creationdate="20170105T100552Z">
+        <seg>开启 Flurry Analytics</seg>
       </tuv>
     </tu>
     <tu>
@@ -11052,15 +11277,15 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="EN-US">
         <seg>Enable Google Analytics</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20170105T100613Z" creationid="deciia" creationdate="20170105T100602Z">
-        <seg>开启谷歌分析</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T014650Z" creationid="deciia" creationdate="20170105T100602Z">
+        <seg>开启 Google Analytics</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Enable Google Cloud saving</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T021413Z" creationid="deciia" creationdate="20180922T021413Z">
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021421Z" creationid="deciia" creationdate="20180922T021413Z">
         <seg>启用谷歌云保存</seg>
       </tuv>
     </tu>
@@ -11068,15 +11293,15 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="EN-US">
         <seg>Enable Google Services</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20170104T071946Z" creationid="deciia" creationdate="20170104T071946Z">
-        <seg>启用谷歌服务</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021411Z" creationid="deciia" creationdate="20170104T071946Z">
+        <seg>启用谷歌 Services</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Enable Google licensing</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T021506Z" creationid="deciia" creationdate="20180922T021506Z">
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021504Z" creationid="deciia" creationdate="20180922T021506Z">
         <seg>启用谷歌许可证</seg>
       </tuv>
     </tu>
@@ -11334,6 +11559,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T075245Z" creationid="deciia" creationdate="20180922T075245Z">
         <seg>引擎代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>English</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022607Z" creationid="deciia" creationdate="20181002T022607Z">
+        <seg>English</seg>
       </tuv>
     </tu>
     <tu>
@@ -12190,6 +12423,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Facebook</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020753Z" creationid="deciia" creationdate="20181002T020753Z">
+        <seg>Facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Facebook App ID</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T021314Z" creationid="deciia" creationdate="20180922T021314Z">
@@ -12872,10 +13113,18 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flurry</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020833Z" creationid="deciia" creationdate="20181002T020833Z">
+        <seg>Flurry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Flurry Analytics ID</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180926T013857Z" creationid="deciia" creationdate="20180926T013857Z">
-        <seg>Flurry 分析 ID</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022715Z" creationid="deciia" creationdate="20181002T022715Z">
+        <seg>Flurry Analytics ID</seg>
       </tuv>
     </tu>
     <tu>
@@ -13206,16 +13455,16 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="EN-US">
         <seg>Frames per game frame</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T233017Z" creationid="deciia" creationdate="20170107T052621Z">
-        <seg>每秒游戏帧数（game steps）</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T015727Z" creationid="deciia" creationdate="20170107T052621Z">
+        <seg>游戏FPS（game steps）</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Frames per second</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T233027Z" creationid="deciia" creationdate="20170107T052550Z">
-        <seg>每秒帧数（fps，cpu steps）</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T015631Z" creationid="deciia" creationdate="20170107T052550Z">
+        <seg>FPS（cpu steps）</seg>
       </tuv>
     </tu>
     <tu>
@@ -13372,10 +13621,50 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>GLSL</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T015344Z" creationid="deciia" creationdate="20181002T015344Z">
+        <seg>GLSL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>GLSL ES</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T015315Z" creationid="deciia" creationdate="20181002T015315Z">
+        <seg>GLSL ES</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>GML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020626Z" creationid="deciia" creationdate="20181002T020626Z">
+        <seg>GML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>GML functions can support variable arguments</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="36011" changedate="20170316T095328Z" creationid="deciia" creationdate="20170311T144530Z">
         <seg>GML函数可以支持可变数量参数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>GMS 1.x</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020538Z" creationid="deciia" creationdate="20181002T020538Z">
+        <seg>GMS 1.x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>GMS 2.x</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020535Z" creationid="deciia" creationdate="20181002T020535Z">
+        <seg>GMS 2.x</seg>
       </tuv>
     </tu>
     <tu>
@@ -13534,6 +13823,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>GameMaker Studio 2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022120Z" creationid="deciia" creationdate="20181002T022120Z">
+        <seg>GameMaker Studio 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>GameMaker Studio 2 Certificate</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T194008Z" creationid="deciia" creationdate="20180922T194008Z">
@@ -13570,6 +13867,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180926T020935Z" creationid="deciia" creationdate="20170105T110542Z">
         <seg>GameMaker Studio 2 变得不稳定。\n请保存更改并退出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>GameMaker:Player</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022336Z" creationid="deciia" creationdate="20181002T022336Z">
+        <seg>GameMaker:Player</seg>
       </tuv>
     </tu>
     <tu>
@@ -14642,17 +14947,25 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Google</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021315Z" creationid="deciia" creationdate="20181002T020826Z">
+        <seg>谷歌</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Google Analytics ID</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180926T013848Z" creationid="deciia" creationdate="20180926T013848Z">
-        <seg>谷歌分析 ID</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022712Z" creationid="deciia" creationdate="20181002T022712Z">
+        <seg>Google Analytics ID</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Google Licensing Public Key</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20170104T072802Z" creationid="deciia" creationdate="20170104T072802Z">
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021458Z" creationid="deciia" creationdate="20170104T072802Z">
         <seg>谷歌许可证公钥</seg>
       </tuv>
     </tu>
@@ -14668,7 +14981,7 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="EN-US">
         <seg>Google Services ID</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T021425Z" creationid="deciia" creationdate="20180922T021425Z">
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021437Z" creationid="deciia" creationdate="20181002T021437Z">
         <seg>谷歌服务 ID</seg>
       </tuv>
     </tu>
@@ -14946,10 +15259,34 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>H: {0}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022546Z" creationid="deciia" creationdate="20181002T022546Z">
+        <seg>H: {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>HAlign</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="36011" changedate="20170316T123024Z" creationid="deciia" creationdate="20170215T151914Z">
         <seg>水平对齐</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HLSL 11</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T015352Z" creationid="deciia" creationdate="20181002T015352Z">
+        <seg>HLSL 11</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HLSL 9</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T015348Z" creationid="deciia" creationdate="20181002T015348Z">
+        <seg>HLSL 9</seg>
       </tuv>
     </tu>
     <tu>
@@ -14982,6 +15319,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T194035Z" creationid="deciia" creationdate="20180922T194035Z">
         <seg>HTML Zip 压缩存档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTML5</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020639Z" creationid="deciia" creationdate="20181002T020639Z">
+        <seg>HTML5</seg>
       </tuv>
     </tu>
     <tu>
@@ -15029,8 +15374,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="EN-US">
         <seg>Hello World!!</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T141918Z" creationid="deciia" creationdate="20180922T234952Z">
-        <seg>你好，代码世界！你好，人类，这里是上帝星球235271204号。不要回答！</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T005804Z" creationid="deciia" creationdate="20180922T234952Z">
+        <seg>你好，代码世界！你好，人类，这里是企鹅星球235271204号。不要回答！</seg>
       </tuv>
     </tu>
     <tu>
@@ -15323,6 +15668,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>IDE</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022846Z" creationid="deciia" creationdate="20181002T022846Z">
+        <seg>IDE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>IDE Environment Variables</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170105T055144Z" creationid="deciia" creationdate="20170105T055144Z">
@@ -15375,6 +15728,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T074438Z" creationid="deciia" creationdate="20180922T074438Z">
         <seg>IDE版本和当前运行库版本与调试不兼容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IDE v{0}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020908Z" creationid="deciia" creationdate="20181002T020908Z">
+        <seg>IDE v{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IDE v{0} Steam</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020913Z" creationid="deciia" creationdate="20181002T020913Z">
+        <seg>IDE v{0} Steam</seg>
       </tuv>
     </tu>
     <tu>
@@ -16265,8 +16634,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="EN-US">
         <seg>In order to use this functionality, you will need to have the Amazon API Extension installed.\nWould you like to download it now from the Marketplace?</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20170311T154953Z" creationid="deciia" creationdate="20170311T154953Z">
-        <seg>为使用这个功能，你将需要安装 Amazon API 扩展。\n现在你想从市场上下载它吗？</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021232Z" creationid="deciia" creationdate="20170311T154953Z">
+        <seg>为使用这个功能，你将需要安装亚马逊 API 扩展。\n现在你想从市场上下载它吗？</seg>
       </tuv>
     </tu>
     <tu>
@@ -17508,6 +17877,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>JavaScript</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022703Z" creationid="deciia" creationdate="20181002T022703Z">
+        <seg>JavaScript</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Join</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T020446Z" creationid="deciia" creationdate="20180922T020446Z">
@@ -18407,8 +18784,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="EN-US">
         <seg>Link to Amazon Submission Guide</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20170510T022757Z" creationid="deciia" creationdate="20170510T022757Z">
-        <seg>链接到Amazon提交指南</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021248Z" creationid="deciia" creationdate="20170510T022757Z">
+        <seg>链接到亚马逊提交指南</seg>
       </tuv>
     </tu>
     <tu>
@@ -18417,6 +18794,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T073425Z" creationid="deciia" creationdate="20170107T022806Z">
         <seg>连接器标志（Flags）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Linux</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020946Z" creationid="deciia" creationdate="20181002T020946Z">
+        <seg>Linux</seg>
       </tuv>
     </tu>
     <tu>
@@ -18774,6 +19159,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Logo</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020838Z" creationid="deciia" creationdate="20181002T020838Z">
+        <seg>Logo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Logo Foreground Text Colour</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180925T044823Z" creationid="deciia" creationdate="20170104T084123Z">
@@ -18794,6 +19187,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T022706Z" creationid="deciia" creationdate="20180922T022706Z">
         <seg>Logo 背景颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Logos</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020741Z" creationid="deciia" creationdate="20181002T020741Z">
+        <seg>Logos</seg>
       </tuv>
     </tu>
     <tu>
@@ -18858,6 +19259,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170107T054034Z" creationid="deciia" creationdate="20170107T054034Z">
         <seg>循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Mac</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020943Z" creationid="deciia" creationdate="20181002T020943Z">
+        <seg>Mac</seg>
       </tuv>
     </tu>
     <tu>
@@ -20094,6 +20503,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170103T085809Z" creationid="deciia" creationdate="20170103T085809Z">
         <seg>我的购买历史</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NPTITLE.DAT</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022629Z" creationid="deciia" creationdate="20181002T022629Z">
+        <seg>NPTITLE.DAT</seg>
       </tuv>
     </tu>
     <tu>
@@ -21920,6 +22337,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PARAM.SFO</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022624Z" creationid="deciia" creationdate="20181002T022624Z">
+        <seg>PARAM.SFO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PARAM.SFO editor not available on Mac.\nPlease edit on Windows and copy to {0}/options/ps4/sce_sys/PARAM.SFO</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170629T025827Z" creationid="deciia" creationdate="20170629T025827Z">
@@ -21932,6 +22357,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="ZH-CN" changeid="36011" changedate="20170315T141614Z" creationid="36011" creationdate="20170315T141614Z">
         <seg>PIN：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PS4 (PSSL)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T015356Z" creationid="deciia" creationdate="20181002T015356Z">
+        <seg>PS4 (PSSL)</seg>
       </tuv>
     </tu>
     <tu>
@@ -22954,6 +23387,22 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PlayStation 4</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020653Z" creationid="deciia" creationdate="20181002T020653Z">
+        <seg>PlayStation 4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PlayStation 4 (YYC)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022350Z" creationid="deciia" creationdate="20181002T022350Z">
+        <seg>PlayStation 4 (YYC)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>PlayStation 4 Tools Missing</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T093556Z" creationid="deciia" creationdate="20180922T093556Z">
@@ -23372,8 +23821,8 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       <tuv lang="EN-US">
         <seg>Preferences</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="36011" changedate="20170316T113242Z" creationid="deciia" creationdate="20170102T070444Z">
-        <seg>偏好设定</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T005618Z" creationid="deciia" creationdate="20170102T070444Z">
+        <seg>偏好设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -28950,8 +29399,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="EN-US">
         <seg>Signing identities can be easily created\nin Xcode-&gt;Preferences-&gt;Accounts-&gt;Team-&gt;View Details-&gt;Developer ID\nApplication-&gt;Create.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180925T042850Z" creationid="deciia" creationdate="20180922T022425Z">
-        <seg>在Xcode-&gt; Preferences-&gt; Accounts-&gt; Team-&gt; View Details-&gt; Developer ID \n Application-&gt; Create 中，可以轻松创建签名身份。</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T014321Z" creationid="deciia" creationdate="20180922T022425Z">
+        <seg>在 Xcode-&gt; Preferences-&gt; Accounts-&gt; Team-&gt; View Details-&gt; Developer ID \n Application-&gt; Create 中，可以轻松创建签名身份。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30260,6 +30709,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T193458Z" creationid="deciia" creationdate="20180922T193458Z">
         <seg>状态：{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Steam</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020700Z" creationid="deciia" creationdate="20181002T020700Z">
+        <seg>Steam</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Steam ID</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022653Z" creationid="deciia" creationdate="20181002T022653Z">
+        <seg>Steam ID</seg>
       </tuv>
     </tu>
     <tu>
@@ -32024,8 +32489,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="EN-US">
         <seg>This is a non-bare repository which we do not support direct cloning from.\nHowever we have found its origin so we will push to that and clone from the origin instead.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T211622Z" creationid="deciia" creationdate="20170107T053248Z">
-        <seg>这是一个非公开存储库，我们不支持从中直接克隆。\n但是，我们已经找到它的源点（origin），所以我们将推送到那并从源点克隆。</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181001T153817Z" creationid="deciia" creationdate="20170107T053248Z">
+        <seg>这是一个非公开存储库，我们不支持从中直接克隆。\n但是，我们已经找到它的远程版本库（origin），所以我们将推送到origin并从那里克隆。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32600,8 +33065,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="EN-US">
         <seg>To distribute your title outside of the Mac App Store macOS requires that your\npackage is codesigned.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T022145Z" creationid="deciia" creationdate="20180922T022145Z">
-        <seg>要在Mac App Store之外分发您的标题，macOS要求您的\n程序包已经过编码。</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T014310Z" creationid="deciia" creationdate="20180922T022145Z">
+        <seg>要在 Mac App Store 之外分发您的标题，macOS要求您的\n程序包已经过编码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33152,6 +33617,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>U0:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022237Z" creationid="deciia" creationdate="20181002T022237Z">
+        <seg>U0:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>U1:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022241Z" creationid="deciia" creationdate="20181002T022241Z">
+        <seg>U1:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>URL</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022615Z" creationid="deciia" creationdate="20181002T022615Z">
+        <seg>URL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>URL must be unique and not empty</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170105T104441Z" creationid="deciia" creationdate="20170105T104441Z">
@@ -33164,6 +33653,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180921T155041Z" creationid="deciia" creationdate="20180921T155041Z">
         <seg>要克隆的存储库的URL：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ubuntu</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020727Z" creationid="deciia" creationdate="20181002T020727Z">
+        <seg>Ubuntu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ubuntu (YYC)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022355Z" creationid="deciia" creationdate="20181002T022355Z">
+        <seg>Ubuntu (YYC)</seg>
       </tuv>
     </tu>
     <tu>
@@ -33690,7 +34195,7 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="EN-US">
         <seg>Use Google APK expansion</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T021547Z" creationid="deciia" creationdate="20180922T021547Z">
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021515Z" creationid="deciia" creationdate="20180922T021547Z">
         <seg>使用谷歌 APK 扩展</seg>
       </tuv>
     </tu>
@@ -33908,6 +34413,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T093158Z" creationid="deciia" creationdate="20180922T093158Z">
         <seg>通常留空</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>V0:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022244Z" creationid="deciia" creationdate="20181002T022244Z">
+        <seg>V0:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>V1:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022248Z" creationid="deciia" creationdate="20181002T022248Z">
+        <seg>V1:</seg>
       </tuv>
     </tu>
     <tu>
@@ -34405,6 +34926,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Visual C++ Redistributable</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021809Z" creationid="deciia" creationdate="20181002T021809Z">
+        <seg>Visual C++ Redistributable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Visual Studio Path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170629T030549Z" creationid="deciia" creationdate="20170629T030549Z">
@@ -34445,6 +34974,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>W: {0}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022542Z" creationid="deciia" creationdate="20181002T022542Z">
+        <seg>W: {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Warning</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20161223T081152Z" creationid="deciia" creationdate="20161223T081152Z">
@@ -34473,6 +35010,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T064146Z" creationid="deciia" creationdate="20180922T064146Z">
         <seg>监视</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>WebGL</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022635Z" creationid="deciia" creationdate="20181002T022635Z">
+        <seg>WebGL</seg>
       </tuv>
     </tu>
     <tu>
@@ -34519,8 +35064,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="EN-US">
         <seg>What are you looking for?</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="36011" changedate="20170315T143755Z" creationid="deciia" creationdate="20170107T045302Z">
-        <seg>您想找什么？</seg>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T015215Z" creationid="deciia" creationdate="20170107T045302Z">
+        <seg>你想找什么？</seg>
       </tuv>
     </tu>
     <tu>
@@ -34775,10 +35320,58 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Windows (YYC)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022414Z" creationid="deciia" creationdate="20181002T022414Z">
+        <seg>Windows (YYC)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Windows 8 (Javascript)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022417Z" creationid="deciia" creationdate="20181002T022417Z">
+        <seg>Windows 8 (Javascript)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Windows 8 (Native)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022422Z" creationid="deciia" creationdate="20181002T022422Z">
+        <seg>Windows 8 (Native)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Windows 8 (YYC)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022400Z" creationid="deciia" creationdate="20181002T022400Z">
+        <seg>Windows 8 (YYC)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T005140Z" creationid="deciia" creationdate="20180922T191242Z">
         <seg>由于 GameMaker Studio 2 中的更改，Windows NSIS 安装程序脚本已设置为默认值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Windows Phone 8</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022405Z" creationid="deciia" creationdate="20181002T022405Z">
+        <seg>Windows Phone 8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Windows Phone 8 (YYC)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022410Z" creationid="deciia" creationdate="20181002T022410Z">
+        <seg>Windows Phone 8 (YYC)</seg>
       </tuv>
     </tu>
     <tu>
@@ -34795,6 +35388,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170311T170637Z" creationid="deciia" creationdate="20170311T170637Z">
         <seg>Windows 目标平台版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Windows UWP</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020716Z" creationid="deciia" creationdate="20181002T020716Z">
+        <seg>Windows UWP</seg>
       </tuv>
     </tu>
     <tu>
@@ -35046,6 +35647,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>X</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022734Z" creationid="deciia" creationdate="20181002T022734Z">
+        <seg>X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>X And Y</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170303T150616Z" creationid="deciia" creationdate="20170303T150616Z">
@@ -35094,6 +35703,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>X2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022748Z" creationid="deciia" creationdate="20181002T022748Z">
+        <seg>X2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>X:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022230Z" creationid="deciia" creationdate="20181002T022230Z">
+        <seg>X:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>XBox One tools not available on Mac.\nPlease edit on Windows</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T093941Z" creationid="deciia" creationdate="20180922T093941Z">
@@ -35106,6 +35731,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T081916Z" creationid="deciia" creationdate="20180922T081916Z">
         <seg>XDK 位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Xbox Live</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020730Z" creationid="deciia" creationdate="20181002T020730Z">
+        <seg>Xbox Live</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Xbox One</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020720Z" creationid="deciia" creationdate="20181002T020720Z">
+        <seg>Xbox One</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Xbox One (YYC)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022433Z" creationid="deciia" creationdate="20181002T022433Z">
+        <seg>Xbox One (YYC)</seg>
       </tuv>
     </tu>
     <tu>
@@ -35140,6 +35789,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180927T021951Z" creationid="deciia" creationdate="20180922T202024Z">
         <seg>Xbox One X 内存使用(GB)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Y</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022740Z" creationid="deciia" creationdate="20181002T022740Z">
+        <seg>Y</seg>
       </tuv>
     </tu>
     <tu>
@@ -35180,6 +35837,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170102T092431Z" creationid="deciia" creationdate="20170102T092431Z">
         <seg>Y 间距</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Y2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022751Z" creationid="deciia" creationdate="20181002T022751Z">
+        <seg>Y2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Y:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022234Z" creationid="deciia" creationdate="20181002T022234Z">
+        <seg>Y:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>YYC</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022700Z" creationid="deciia" creationdate="20181002T022700Z">
+        <seg>YYC</seg>
       </tuv>
     </tu>
     <tu>
@@ -35656,6 +36337,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compatibility_report_</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021008Z" creationid="deciia" creationdate="20181002T021008Z">
+        <seg>compatibility_report_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>d' Days 'h' Hours 'm' Minutes 's' Seconds'</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T083727Z" creationid="deciia" creationdate="20180922T083727Z">
@@ -35668,6 +36357,54 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T084608Z" creationid="deciia" creationdate="20180922T084608Z">
         <seg>调试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ds_grid</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022822Z" creationid="deciia" creationdate="20181002T022822Z">
+        <seg>ds_grid</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ds_list</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022803Z" creationid="deciia" creationdate="20181002T022803Z">
+        <seg>ds_list</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ds_map</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022808Z" creationid="deciia" creationdate="20181002T022808Z">
+        <seg>ds_map</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ds_priority</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022818Z" creationid="deciia" creationdate="20181002T022818Z">
+        <seg>ds_priority</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ds_queue</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022814Z" creationid="deciia" creationdate="20181002T022814Z">
+        <seg>ds_queue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ds_stack</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022811Z" creationid="deciia" creationdate="20181002T022811Z">
+        <seg>ds_stack</seg>
       </tuv>
     </tu>
     <tu>
@@ -35760,10 +36497,138 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://esotericsoftware.com</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022756Z" creationid="deciia" creationdate="20181002T022756Z">
+        <seg>http://esotericsoftware.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://zeus.yoyogames.com/GMS2_English-master.zip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022124Z" creationid="deciia" creationdate="20181002T022124Z">
+        <seg>http://zeus.yoyogames.com/GMS2_English-master.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iOS</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020642Z" creationid="deciia" creationdate="20181002T020642Z">
+        <seg>iOS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iOS (YYC)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022344Z" creationid="deciia" creationdate="20181002T022344Z">
+        <seg>iOS (YYC)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iOS 5/6</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021823Z" creationid="deciia" creationdate="20181002T021823Z">
+        <seg>iOS 5/6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iOS 7</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021826Z" creationid="deciia" creationdate="20181002T021826Z">
+        <seg>iOS 7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iOS 8</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021829Z" creationid="deciia" creationdate="20181002T021829Z">
+        <seg>iOS 8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>iOS Icons Require Updating</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T201229Z" creationid="deciia" creationdate="20180922T201229Z">
         <seg>iOS图标需要更新</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPad</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020813Z" creationid="deciia" creationdate="20181002T020813Z">
+        <seg>iPad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPad 20pt (iOS 7+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021713Z" creationid="deciia" creationdate="20181002T021713Z">
+        <seg>iPad 20pt (iOS 7+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPad 20pt 2x (iOS 7+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021717Z" creationid="deciia" creationdate="20181002T021717Z">
+        <seg>iPad 20pt 2x (iOS 7+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPad 29pt (iOS 5+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021742Z" creationid="deciia" creationdate="20181002T021742Z">
+        <seg>iPad 29pt (iOS 5+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPad 29pt 2x (iOS 5+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021746Z" creationid="deciia" creationdate="20181002T021746Z">
+        <seg>iPad 29pt 2x (iOS 5+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPad 40pt (iOS 7+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021728Z" creationid="deciia" creationdate="20181002T021728Z">
+        <seg>iPad 40pt (iOS 7+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPad 40pt 2x (iOS 7+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021731Z" creationid="deciia" creationdate="20181002T021731Z">
+        <seg>iPad 40pt 2x (iOS 7+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPad 76pt (iOS 7+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021652Z" creationid="deciia" creationdate="20181002T021652Z">
+        <seg>iPad 76pt (iOS 7+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPad 76pt 2x (iOS 7+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021659Z" creationid="deciia" creationdate="20181002T021659Z">
+        <seg>iPad 76pt 2x (iOS 7+)</seg>
       </tuv>
     </tu>
     <tu>
@@ -35780,6 +36645,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170104T074309Z" creationid="deciia" creationdate="20170104T074309Z">
         <seg>iPad 纵向</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPad Pro</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021638Z" creationid="deciia" creationdate="20181002T021638Z">
+        <seg>iPad Pro</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPad Pro 83.5pt 2x (iOS 9+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021703Z" creationid="deciia" creationdate="20181002T021703Z">
+        <seg>iPad Pro 83.5pt 2x (iOS 9+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPad Retina</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020816Z" creationid="deciia" creationdate="20181002T020816Z">
+        <seg>iPad Retina</seg>
       </tuv>
     </tu>
     <tu>
@@ -35864,6 +36753,70 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>iPhone</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020757Z" creationid="deciia" creationdate="20181002T020757Z">
+        <seg>iPhone</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPhone 20pt 2x (iOS 7+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021706Z" creationid="deciia" creationdate="20181002T021706Z">
+        <seg>iPhone 20pt 2x (iOS 7+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPhone 20pt 3x (iOS 7+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021710Z" creationid="deciia" creationdate="20181002T021710Z">
+        <seg>iPhone 20pt 3x (iOS 7+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPhone 29pt 2x (iOS 5+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021735Z" creationid="deciia" creationdate="20181002T021735Z">
+        <seg>iPhone 29pt 2x (iOS 5+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPhone 29pt 3x (iOS 5+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021739Z" creationid="deciia" creationdate="20181002T021739Z">
+        <seg>iPhone 29pt 3x (iOS 5+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPhone 40pt 2x (iOS 7+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021720Z" creationid="deciia" creationdate="20181002T021720Z">
+        <seg>iPhone 40pt 2x (iOS 7+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPhone 40pt 3x (iOS 7+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021724Z" creationid="deciia" creationdate="20181002T021724Z">
+        <seg>iPhone 40pt 3x (iOS 7+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPhone 5</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020803Z" creationid="deciia" creationdate="20181002T020803Z">
+        <seg>iPhone 5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>iPhone 5 Landscape</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170104T074231Z" creationid="deciia" creationdate="20170104T074231Z">
@@ -35904,6 +36857,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>iPhone 6</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020807Z" creationid="deciia" creationdate="20181002T020807Z">
+        <seg>iPhone 6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>iPhone 6 Landscape</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170104T074243Z" creationid="deciia" creationdate="20170104T074243Z">
@@ -35916,6 +36877,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170104T074248Z" creationid="deciia" creationdate="20170104T074248Z">
         <seg>iPhone 6 纵向</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPhone 6+</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020810Z" creationid="deciia" creationdate="20181002T020810Z">
+        <seg>iPhone 6+</seg>
       </tuv>
     </tu>
     <tu>
@@ -35936,6 +36905,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>iPhone 60pt 2x (iOS 7+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021646Z" creationid="deciia" creationdate="20181002T021646Z">
+        <seg>iPhone 60pt 2x (iOS 7+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPhone 60pt 3x (iOS 7+)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021649Z" creationid="deciia" creationdate="20181002T021649Z">
+        <seg>iPhone 60pt 3x (iOS 7+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPhone 7</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021839Z" creationid="deciia" creationdate="20181002T021839Z">
+        <seg>iPhone 7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>iPhone 7 2x Portrait</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T205049Z" creationid="deciia" creationdate="20180922T205049Z">
@@ -35948,6 +36941,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T205043Z" creationid="deciia" creationdate="20180922T205043Z">
         <seg>iPhone 7 Retina4 纵向</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPhone 7+</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021841Z" creationid="deciia" creationdate="20181002T021841Z">
+        <seg>iPhone 7+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPhone 8</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021845Z" creationid="deciia" creationdate="20181002T021845Z">
+        <seg>iPhone 8</seg>
       </tuv>
     </tu>
     <tu>
@@ -35976,6 +36985,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>iPhone 8+</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021848Z" creationid="deciia" creationdate="20181002T021848Z">
+        <seg>iPhone 8+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>iPhone Landscape</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170104T073833Z" creationid="deciia" creationdate="20170104T073833Z">
@@ -35992,6 +37009,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>iPhone Retina</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020800Z" creationid="deciia" creationdate="20181002T020800Z">
+        <seg>iPhone Retina</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>iPhone Retina Landscape</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170104T074220Z" creationid="deciia" creationdate="20170104T074220Z">
@@ -36004,6 +37029,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170104T074226Z" creationid="deciia" creationdate="20170104T074226Z">
         <seg>iPhone Retina 纵向</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPhone SE</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021851Z" creationid="deciia" creationdate="20181002T021851Z">
+        <seg>iPhone SE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iPhone X</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021854Z" creationid="deciia" creationdate="20181002T021854Z">
+        <seg>iPhone X</seg>
       </tuv>
     </tu>
     <tu>
@@ -36028,6 +37069,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="36011" changedate="20170316T114912Z" creationid="deciia" creationdate="20170104T065914Z">
         <seg>iPhone 或 iPod Touch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iTunes Artwork</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021643Z" creationid="deciia" creationdate="20181002T021643Z">
+        <seg>iTunes Artwork</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iTunes Artwork 1024pt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T021750Z" creationid="deciia" creationdate="20181002T021750Z">
+        <seg>iTunes Artwork 1024pt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>macOS</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T020646Z" creationid="deciia" creationdate="20181002T020646Z">
+        <seg>macOS</seg>
       </tuv>
     </tu>
     <tu>
@@ -36244,6 +37309,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>tvOS</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022442Z" creationid="deciia" creationdate="20181002T022442Z">
+        <seg>tvOS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>tvOS persistent storage space is currently limited to 500k via NSUserDefaults.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T102124Z" creationid="deciia" creationdate="20180922T102124Z">
@@ -36344,6 +37417,46 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180926T225748Z" creationid="deciia" creationdate="20180922T095410Z">
         <seg>在 GameMaker Studio 2 试用版中不能使用{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x64</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022645Z" creationid="deciia" creationdate="20181002T022645Z">
+        <seg>x64</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x86</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022641Z" creationid="deciia" creationdate="20181002T022641Z">
+        <seg>x86</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>yydebug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022829Z" creationid="deciia" creationdate="20181002T022829Z">
+        <seg>yydebug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{0}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022114Z" creationid="deciia" creationdate="20181002T022114Z">
+        <seg>{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{0} ({1}, {2})</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022531Z" creationid="deciia" creationdate="20181002T022531Z">
+        <seg>{0} ({1}, {2})</seg>
       </tuv>
     </tu>
     <tu>
@@ -36492,6 +37605,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>{0} KB</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022318Z" creationid="deciia" creationdate="20181002T022318Z">
+        <seg>{0} KB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>{0} Key Event: {1}</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T101231Z" creationid="deciia" creationdate="20180922T101231Z">
@@ -36512,6 +37633,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T101340Z" creationid="deciia" creationdate="20180922T101340Z">
         <seg>{0} 键释放事件：{1}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{0} MB</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022322Z" creationid="deciia" creationdate="20181002T022322Z">
+        <seg>{0} MB</seg>
       </tuv>
     </tu>
     <tu>
@@ -36612,10 +37741,26 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>{0} x {1}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022722Z" creationid="deciia" creationdate="20181002T022722Z">
+        <seg>{0} x {1}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>{0} x {1} pixels</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170102T100447Z" creationid="deciia" creationdate="20170102T100447Z">
         <seg>{0} x {1} 像素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{0}%</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022537Z" creationid="deciia" creationdate="20181002T022537Z">
+        <seg>{0}%</seg>
       </tuv>
     </tu>
     <tu>
@@ -36644,6 +37789,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>{0}: ({1}, {2})</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T015525Z" creationid="deciia" creationdate="20181002T015525Z">
+        <seg>{0}: ({1}, {2})</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>{0}: Events</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170311T162412Z" creationid="deciia" creationdate="20170311T162412Z">
@@ -36664,6 +37817,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170311T162436Z" creationid="deciia" creationdate="20170311T162436Z">
         <seg>{0}: 时刻</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{0}: {1}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022837Z" creationid="deciia" creationdate="20181002T022837Z">
+        <seg>{0}: {1}</seg>
       </tuv>
     </tu>
     <tu>
@@ -36796,6 +37957,7 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <prop type="file">english.xml</prop>
       <prop type="prev">English</prop>
       <prop type="next">en</prop>
+      <note>本地化语言的中文版本</note>
       <tuv lang="EN-US">
         <seg>English</seg>
       </tuv>
@@ -36807,6 +37969,7 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <prop type="file">english.xml</prop>
       <prop type="prev">Error: {0}</prop>
       <prop type="next">English</prop>
+      <note>本地化语言的英文版本</note>
       <tuv lang="EN-US">
         <seg>English</seg>
       </tuv>
@@ -37165,6 +38328,18 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <prop type="file">english.xml</prop>
+      <prop type="prev"></prop>
+      <prop type="next">{0}</prop>
+      <note>这个是表格字段，不要翻译。</note>
+      <tuv lang="EN-US">
+        <seg>Translation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181002T022109Z" creationid="deciia" creationdate="20181002T004614Z">
+        <seg>Translation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">english.xml</prop>
       <prop type="prev">Space</prop>
       <prop type="next">Key Down</prop>
       <tuv lang="EN-US">
@@ -37246,6 +38421,7 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <prop type="file">english.xml</prop>
       <prop type="prev">English</prop>
       <prop type="next">GameMaker Studio 2</prop>
+      <note>本地化语言的简称</note>
       <tuv lang="EN-US">
         <seg>en</seg>
       </tuv>
