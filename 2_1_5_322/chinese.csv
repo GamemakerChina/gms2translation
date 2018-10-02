@@ -3,7 +3,7 @@ __Priority,0,0,,Order of language importance. Allows other packs to supplement o
 _Argument0,{0},{0},,single unlocalised argument
 _Error,Error: {0},错误: {0},,General error prefix
 _Language,English,Chinese,,Language name - in English
-_LanguageNative,English,中文,,Language name in the native language
+_LanguageNative,English,简体中文,,Language name in the native language
 _LanguageCode,en,zh,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
 _GameMaker2016,GameMaker Studio 2,GameMaker Studio 2,,IDE title
 _MANUAL_LOCATION,http://zeus.yoyogames.com/GMS2_English-master.zip,http://zeus.yoyogames.com/GMS2_English-master.zip,,Location of language manual
@@ -21,7 +21,7 @@ $win_FileMenuExit,Exit,退出,,Windows version of the Exit main menu entry
 $mac_FileMenuExit,Quit,放弃,,Mac version of the Exit main menu entry
 $win_IDEMenuHelpAbout,About,关于,,Windows version of the About main menu entry
 $mac_IDEMenuHelpAbout,About GameMaker Studio 2,关于GameMaker Studio 2,,Windows version of the About main menu entry
-$win_IDEMenuViews,Windows,窗口(?),,Windows version of the views menu entry
+$win_IDEMenuViews,Windows,窗口,,Windows version of the views menu entry
 $mac_IDEMenuViews,Window,窗口,,Mac version of the views menu entry
 $win_LaptopRHSKeys,Right Control and Right Alt,右 Ctrl 和右 Alt,,Windows version of laptop mode keys
 $mac_LaptopRHSKeys,Right Command and Right Alt,右 Command 和右 Alt,,Mac version of laptop mode keys
@@ -175,7 +175,7 @@ DialogEditor_GUIStyle,Style,样式,,Gadget properties heading for the guistyle c
 DialogEditor_Hierarchy,Layout Hierarchy,布局层级,,the title for the layout hierarchy window
 DialogEditor_HighlightedGadgetInfo,"relative position: ({0}px, {1}px) dimension: ({2}px, {3}px)","相对位置： ({0}px, {1}px) 尺寸： ({2}px, {3}px)",,display position and dimension of the currently highlighted gadget
 DialogEditor_HSVTextEntry,HSV Input,HSV 输入,,layout hierarchy label for the HSV input boxes
-DialogEditor_InvalidJSON,The style '{0}' is not a valid json primitive. Please amend or revert the style. No changes will be saved.,样式'{0}'不是有效的json基元(?)。请改正或修复样式。不会保存任何更改。,,Error message when the user attempts to save a broken json style
+DialogEditor_InvalidJSON,The style '{0}' is not a valid json primitive. Please amend or revert the style. No changes will be saved.,样式'{0}'不是有效的json。请改正或修复样式。不会保存任何更改。,,Error message when the user attempts to save a broken json style
 DialogEditor_LabelAndIconCollection,Name And Icon,名称和图标,,Gadget properties heading for the LabelAndIcon class properties
 DialogEditor_Layout,Layout,布局,,Gadget properties heading for the basic layout properties group
 DialogEditor_LayoutName,Layout name:,布局名称：,,layout name
@@ -413,7 +413,7 @@ File_Menu_ExportProject,Export Project,导出项目,,The Export Project menu ite
 File_Menu_ImportProject,Import Project,导入项目,,The Import project menu item
 File_Menu_NewProject,New Project,新建项目,,The New Project menu item
 File_Menu_OpenProject,Open Project,打开项目,,The Open Project menu item
-File_Menu_Preferences,Preferences,偏好设定,,The Preferences menu item
+File_Menu_Preferences,Preferences,偏好设置,,The Preferences menu item
 File_Menu_RecentProjects,Recent Projects,最近项目,,The Recent Projects menu item
 File_Menu_Save,Save Project,保存项目,,The Save menu item
 File_Menu_SaveAs,Save Project As,另存项目,,The Save As menu item
@@ -436,7 +436,7 @@ fonteditor_add_range_desc,Add new range,添加新的范围,,Adding a new font ra
 fonteditor_bold,Bold,粗体,,Font editor Bold caption 
 fonteditor_del_range,Delete,删除,,Delete the currently selected font range - button
 fonteditor_del_range_desc,Delete selected range,删除选定的范围,,Delete the currently selected font range - description
-fonteditor_helloworld,Hello World!!,你好，世界！,,Inital text window in the Font Editor
+fonteditor_helloworld,Hello World!!,你好，代码世界！你好，人类，这里是企鹅星球235271204号。不要回答！,,Inital text window in the Font Editor
 FontEditor_InvalidChars_BtnNo,No,否,,Font editor invalid chars No button
 FontEditor_InvalidChars_BtnYes,Yes,是,,Font editor invalid chars Yes button
 FontEditor_InvalidChars_NotFoundMessage,These characters are not in this font:,这些字符不在这个字体中：,,Font editor invalid chars message label
@@ -635,7 +635,7 @@ ImageEditor_UnableToLoadFrame,Unable to load,无法加载,,Unable to load frame 
 ImageEditor_InvalidSpriteFrame,Sprite {0} contains {1} image(s) that failed to load. Affected frames have been removed from the sprite.,精灵 {0}包含无法加载的{1}图像。已从精灵中删除受影响的帧。,,Failed to load image
 IE_ColourPanel_MenuToolTip,Colour Options,颜色选项,,image editor colours panel menu button tooltip
 ImageEditor_ColourRightLabel,Right:,右：,,right brush label
-ImageEditor_CommitToolChanges,Commit Tool Changes?,提交工具的更改吗(?)？,,Commit tool changes
+ImageEditor_CommitToolChanges,Commit Tool Changes?,提交工具的更改吗？,,Commit tool changes
 ImageEditor_CropToSelection,Crop All Frames To Selection,裁剪所有帧保留选区内容,,Image editor - crop to selection menu option
 ImageEditor_AutoTrim,Auto Trim All Frames,自动裁切所有帧,,Image editor - auto trim all frames
 ImageEditor_ReverseFrames,Reverse Frames,帧逆序,,Image Editor - reverse frames menu entry
@@ -1178,7 +1178,7 @@ PathEditor_ToolTip_ZoomReset,Reset Zoom,重置缩放,,Path editor tool tip
 PathEditor_VerticalShift,Vertical Shift:,垂直偏移：,,Path shift dialog label
 PathEditor_WindowTitle,Path: {0},路径： {0},,Path editor window title
 PathLayer_AddNewPath,<new path>,<新建路径>,,context menu entry for creating a new path within the path layer properties
-PrefsTree_Title,Preferences,偏好设定,,Preferences tree title
+PrefsTree_Title,Preferences,偏好设置,,Preferences tree title
 DebugInfo_Title,Debug Info,调试信息,,Debug info window title
 DebugInfo_DumpMemory,Memory Usage,内存占用量,,Dump memory button label
 OutputPanel_Title,Output,输出,,Output panel window title
@@ -1264,7 +1264,7 @@ RoomEditor_AddRootLayer,Add Layer,添加层,,context sub menu heading for adding
 RoomEditor_AllLayers,All,所有,,Layers label next to the set all layers locked/visible checkboxes
 RoomEditor_ConfirmDeleteInstances,Are you sure you want to delete the following items (Note: Instance creation code will be irrevocably lost): {0},您确定要删除以下项目吗（注意：实例创建代码将不可避免地丢失）：{0},,Confirm delete instances
 RoomEditor_ConfirmDeleteLayers,Are you sure you want to delete the following layers (Note: Instance creation code will be irrevocably lost): {0},你确定删除以下层吗（注：实例创建代码将不可避免地丢失）： {0},,Confirm delete layers
-RoomEditor_ConfirmDeleteParentItems,Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0},尝试从父房间里删除项目（注：创建实例的代码将会不可挽回的失去）。\n删除全部：删除子房间的匹配项目\n全部保留：保留所有子房间的项目\n保留更改：保持其中已经覆盖父房间的子房间的项目\n直接子房间(?)： {0},,layer delete confirm dialog message explaining the child layer deletion options
+RoomEditor_ConfirmDeleteParentItems,Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0},尝试从父房间里删除项目（注：创建实例的代码将会不可挽回的失去）。\n删除全部：同时删除子房间匹配（继承）的项目\n全部保留：保留子房间匹配（继承）的项目\n保留更改：保留子房间匹配的项目中更改过的项目不删除\n直接的子房间(?)： {0},,layer delete confirm dialog message explaining the child layer deletion options
 RoomEditor_ConfirmDeleteParentLayers,Attempting to delete layers from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching layers from child rooms\nKeep All: Keep all child room layers\nKeep Changed: Keep child room layers which have overridden the parent\nImmediate Children: {0},尝试从父房间里删除层（注：创建实例的代码将会不可挽回的失去）。\n删除全部：删除子房间的匹配的层\n全部保留：保留所有子房间的层不变\n保持更改：保留其中已经覆盖父房间的子房间层\n直接子房间(?)： {0},,layer delete confirm dialog message explaining the child layer deletion options
 RoomEditor_DeleteAllChildLayers,Delete All,删除全部,,layer delete confirm dialog message for the delete all button
 RoomEditor_DeleteLayer,Delete Layer,删除层,,context menu option for deleting a layer
@@ -1436,7 +1436,7 @@ SoundEditor_NoDeviceWarningTitle,No Audio Device,没有音频设置,,No audio de
 SoundEditor_NoDeviceWarning,No audio device is available for previewing sounds.,没有可以预览声音的音频设备,,No audio device is available for previewing sounds warning message
 SoundEditor_StreamedAudioGroupWarning,Streaming sounds cannot be used in AudioGroups. Are you sure you want to set this to streaming? It will reset the AudioGroup back to Default.,声音流不能在音频组中使用。您确定要将其设置为流式传输吗？它会将音频组重置回默认。,,warning message for streamed sound in audio group
 SoundMixer_Title,Sound Mixer,混音器,,Title of SoundMixer window
-SoundMixer_ColumnVolume,Column Volume,音量列?,,Column Volume Label
+SoundMixer_ColumnVolume,Column Volume,列音量(?),,Column Volume Label
 SoundMixer_UntitledGroup,Untitled Group,无标题组,,Label of Untitled Group
 SoundMixer_TooManyGroupsTitle,Too Many Sound Mixer Groups,混音器组过多,,There are Too Many Sound Mixer Groups title
 SoundMixer_TooManyGroups,There are too many Sound Mixer Groups on this window. You could open another Sound Mixer or close unused groups in this window.,窗口中混音器组过多。您可以在此窗口中打开另一个混音器或关闭未使用的组。,,There are too many Sound Mixer Groups on this window. You could open another Sound Mixer or close unused groups in this window.t
@@ -1585,7 +1585,7 @@ SpriteEditor_ShowingColMask,Showing Collision Mask,显示碰撞遮罩,,Sprite ed
 SpriteEditor_TextureGroup,Group:,组：,,Sprite editor texture group label
 SpriteEditor_TextureSettings,Texture Settings:,纹理设置：,,Sprite editor texture settings label
 SpriteEditor_TileHor,Tile Horizontally,水平平铺,,Sprite editor tile hor label
-SpriteEditor_Tile_Tooltip,Tile Horizontally and Tile Vertically relate to how the edges of the image will be\ncreated when placed on the texture page. An image that is to be tiled will have the edges (horizontal or vertical)\nadded to by the edges from the opposite side.,水平平铺或垂直平铺关系到图像放置在纹理页中时如何创建边缘。平铺的图像（水平或者垂直）边缘挨着另一侧边缘添加(?)。,,Tiling tooltip
+SpriteEditor_Tile_Tooltip,Tile Horizontally and Tile Vertically relate to how the edges of the image will be\ncreated when placed on the texture page. An image that is to be tiled will have the edges (horizontal or vertical)\nadded to by the edges from the opposite side.,水平平铺或垂直平铺关系到图像放置在纹理页中时如何创建边缘。平铺的图像（水平或者垂直）边缘挨着另一侧边缘添加。,,Tiling tooltip
 SpriteEditor_TileVer,Tile Vertically,垂直平铺,,Sprite editor tile ver label
 SpriteEditor_Tolerance,Tolerance,容差,,Sprite editor alpha tolerance slider label
 SpriteEditor_Use3D,Separate Texture Page,独立的纹理页,,Sprite editor use for 3D label
@@ -1946,7 +1946,7 @@ kbv_type_phone,Phone,电话,,Phone virtual keyboard type
 kbv_type_phone_name,Alphanumeric,字符,,Phone name virtual keyboard type
 kbv_returnkey_default,Default,默认,,Return key type of virtual keyboard
 kbv_returnkey_go,Go,转到,,Return key type of virtual keyboard
-kbv_returnkey_google,Google,Google,,Return key type of virtual keyboard
+kbv_returnkey_google,Google,谷歌,,Return key type of virtual keyboard
 kbv_returnkey_join,Join,加入,,Return key type of virtual keyboardG
 kbv_returnkey_next,Next,下一个,,Return key type of virtual keyboard
 kbv_returnkey_route,Route,路线,,Return key type of virtual keyboard
@@ -2121,10 +2121,10 @@ ggs_facebook_id,Facebook App ID,Facebook 应用 ID,,Facebook App Id
 ggs_facebook_app_name,Facebook App Name,Facebook 应用名称,,Facebook App Name
 ggs_enable_push_notifications,Enable push notifications,启用推送通知,,Enable Push Notifications
 ggs_gcm_sender_id,GCM Sender ID,GCM 发送者 ID,,GCM Sender Id
-ggs_enable_google_services,Enable Google Services,启用谷歌服务,,Enable Google Services
+ggs_enable_google_services,Enable Google Services,启用谷歌 Services,,Enable Google Services
 ggs_enable_google_cloud_saving,Enable Google Cloud saving,启用谷歌云保存,,Enable Google Cloud Saving
 ggs_google_services_id,Google Services ID,谷歌服务 ID,,Google Services Id
-ggs_enable_amazon_apis,Enable Amazon APIs,启用亚马逊 API,,Enable Amazon APIs
+ggs_enable_amazon_apis,Enable Amazon APIs,启用亚马逊 APIs API,,Enable Amazon APIs
 ggs_enable_WRITE_EXTERNAL_STORAGE_permission,Enable WRITE_EXTERNAL_STORAGE permission,启用 WRITE_EXTERNAL_STORAGE（写入外部存储） 权限,,Enable WRITE_EXTERNAL_STORAGE permission
 ggs_enable_READ_PHONE_STATE_permission,Enable READ_PHONE_STATE permission,启用 READ_PHONE_STATE（读取通话状态） 权限,,Enable READ_PHONE_STATE permission
 ggs_enable_ACCESS_NETWORK_STATE_permission,Enable ACCESS_NETWORK_STATE permission,启用 ACCESS_NETWORK_STATE（访问网络状态） 权限,,Enable ACCESS_NETWORK_STATE permission
@@ -2195,7 +2195,7 @@ ggs_app_output,App Output,应用输出,,App Output
 ggs_team_id,Team Identifier,团队标识符,,the macOS Option for team identifier
 ggs_team_id_tooltip,10 digit alpha-numeric identifier taken from your developer.apple.com/#/overview URL. If blank this will inherit the value set in Platform Options,取自您的developer.apple.com/#/overview 网址的10位字母数字标识符。如果为空则将继承平台选项中设置的值。,,Tooltip for signing identity
 ggs_signing_id,Signing Identifier,签名标识符,,Signing Identifier Label
-ggs_signing_id_tooltip,To distribute your title outside of the Mac App Store macOS requires that your\npackage is codesigned. Please provide the signing identity that you wish to use\nhere: this should be a Developer ID Application identity and should be present\nin your Mac's login keychain certificates. Signing identities can be easily created\nin Xcode->Preferences->Accounts->Team->View Details->Developer ID\nApplication->Create. Signing identities will be matched so the default value\nshould be sufficient if you are only the member of one development team.,要在Mac App Store之外分发您的标题，macOS要求您的\n程序包已经过编码。请在这提供您希望使用的签名身份\n：这应该是开发者ID应用程序标识，并且应该出现在您的Mac登录钥匙串证书中。在Xcode-> Preferences-> Accounts-> Team-> View Details-> Developer ID \n Application-> Create 中，可以轻松创建签名身份。如果您是开发团队唯一的成员，那么签名身份也会匹配，因此默认值应该足够。,,Tooltip for signing identity
+ggs_signing_id_tooltip,To distribute your title outside of the Mac App Store macOS requires that your\npackage is codesigned. Please provide the signing identity that you wish to use\nhere: this should be a Developer ID Application identity and should be present\nin your Mac's login keychain certificates. Signing identities can be easily created\nin Xcode->Preferences->Accounts->Team->View Details->Developer ID\nApplication->Create. Signing identities will be matched so the default value\nshould be sufficient if you are only the member of one development team.,要在 Mac App Store 之外分发您的标题，macOS要求您的\n程序包已经过编码。请在这提供您希望使用的签名身份\n：这应该是开发者ID应用程序标识，并且应该出现在您的Mac登录钥匙串证书中。在 Xcode-> Preferences-> Accounts-> Team-> View Details-> Developer ID \n Application-> Create 中，可以轻松创建签名身份。如果您是开发团队唯一的成员，那么签名身份也会匹配，因此默认值应该足够。,,Tooltip for signing identity
 ggs_copyright,Copyright,版权,,Copyright
 ggs_allow_menu_dock_fullscreen,Allow menu and dock in fullscreen,全屏时允许菜单和停靠栏,,Allow Menu and Dock in Fullscreen
 ggs_enable_retina,Enable Retina,启用Retina,,Enable Retina
@@ -2245,7 +2245,7 @@ ggs_splash_background_colour,Splash background colour,启动画面背景颜色,,
 ggs_certificate_js,Certificate (JS),证书 (JS),,Certificate (JS)
 ggs_certificate_native,Certificate (Native),证书 (本地),,Certificate (Native)
 ggs_save_location,Save Location,保存位置,,Save Location
-ggs_software_vertex_processing,Force Software Vertex Processing,强制使用软件的顶点处理(?),,Force Software Vertex Processing
+ggs_software_vertex_processing,Force Software Vertex Processing,强制使用软件模拟的顶点处理,,Force Software Vertex Processing
 ggs_borderless,Borderless window,无边框窗口,,Borderless Window
 ggs_textures_on_demand,Create Textures on Demand,按需创建纹理,,Create Textures on Demand
 ggs_sleep_margin,Sleep margin (ms),睡眠余量 (ms),,Sleep Margin in ms
@@ -2272,13 +2272,13 @@ ggs_wide_front_flip_image,Wide Front Flip Image,向前翻转的宽幅图片,,Wid
 ggs_wide_back_flip_image,Wide Back Flip Image,向后翻转的宽幅图片,,Wide Back Flip Image
 ggs_front_flip_content,Front Flip Content,向前翻转的内容,,Front Flip Content
 ggs_back_flip_content,Back Flip Content,向后翻转的内容,,Back Flip Content
-ggs_small_iconic,Small Iconic,小图标型,,Small Iconic
-ggs_wide_iconic,Wide Iconic,宽图标型,,Wide Iconic
-ggs_iconic_wide_content1,Iconic Wide 1 Content,宽图标1的内容,,Iconic Wide 1 Content
-ggs_iconic_wide_content2,Iconic Wide 2 Content,宽图标2的内容,,Iconic Wide 2 Content
-ggs_iconic_wide_content3,Iconic Wide 3 Content,宽图标3的内容,,Iconic Wide 3 Content
-ggs_iconic_background_colour,Iconic Background Colour,图标的背景色,,Iconic Background Colour
-ggs_iconic_message,Iconic Message,图标的信息,,Iconic Message
+ggs_small_iconic,Small Iconic,小标志,,Small Iconic
+ggs_wide_iconic,Wide Iconic,宽标志,,Wide Iconic
+ggs_iconic_wide_content1,Iconic Wide 1 Content,宽标志1的内容,,Iconic Wide 1 Content
+ggs_iconic_wide_content2,Iconic Wide 2 Content,宽标志2的内容,,Iconic Wide 2 Content
+ggs_iconic_wide_content3,Iconic Wide 3 Content,宽标志3的内容,,Iconic Wide 3 Content
+ggs_iconic_background_colour,Iconic Background Colour,标志背景色,,Iconic Background Colour
+ggs_iconic_message,Iconic Message,标志信息,,Iconic Message
 ggs_ratings_xml,Ratings XML,评级 XML,,Ratings XML
 ggs_languages_xml,Languages XML,语言 XML,,Languages XML
 ggs_title_id,Title ID,标题 ID,,Title Id
@@ -2331,7 +2331,7 @@ autoreloadchangedfiles,Automatically reload changed files,自动重新加载更�
 deleteassetcache,Delete Asset Cache,删除资产缓存,,Delete the asset cache now
 deleteassetcacheonquit,Automatically delete asset cache directory on close,关闭时自动删除资产缓存目录,,Delete the asset cache on quit setting
 deletetemponquit,Delete temp folder on quit,退出时删除临时文件夹,,Delete the temp folder on quit setting
-opennewresources,Open new resources for edit on creation,创建时总是打开新的资源进行编辑(?),,Open new resources setting
+opennewresources,Open new resources for edit on creation,创建时总是打开新资源的编辑窗口,,Open new resources setting
 alwaysopendroppedresources,Open new resources for edit on dragging files into IDE,在将文件拖入IDE时打开新资源进行编辑,,Setting to stop the IDE from opening new resources via drag/drop
 externalswfeditor,SWF files,SWF文件,,Path to external swf editor
 externalspineeditor,Spine files,Spine文件,,Path to external spine editor
@@ -2401,10 +2401,10 @@ roomeditor_automaticlayerdeltion,Automatic response to room layer deletion,自�
 roomeditor_automaticacceptitemdrag,Automatic response to invalid resource drag error,自动响应无效资源拖动错误,,Automatic drag acceptance on invalid items in room editor
 roomeditor_automaticacceptlayerdrag,Automatic response to invalid layer selection drag error,自动响应无效层选区拖动错误,,Automatic layer drag acceptance in room editor
 roomeditor_automaticacceptlockedinvisiblelayerdrag,Automatic response to locked/invisible layer drag error,自动响应锁定/隐藏层拖动错误,,Automatic layer drag acceptance for locked or invisible layer in room editor
-roomeditor_linkcolour,Chain link colour,链条连接（Chain link）颜色,,Link Colour in Room Editor
-roomeditor_chainalphafalloff,Chain fade out start distance (px),链条淡出开始距离(px),,Alpha Fall Off of chain in Room Editor
-roomeditor_chainalphadistance,Chain fade out stop distance (px),链条淡出停止距离 (px),,Distance of chain alpha fall off in Room Editor
-roomeditor_minfalloffalpha,Chain minimum alpha,链条最小alpha值,,Minimum Alpha fall off in Room Editor
+roomeditor_linkcolour,Chain link colour,连接线颜色,,Link Colour in Room Editor
+roomeditor_chainalphafalloff,Chain fade out start distance (px),连接线淡出开始距离(px),,Alpha Fall Off of chain in Room Editor
+roomeditor_chainalphadistance,Chain fade out stop distance (px),连接线淡出停止距离 (px),,Distance of chain alpha fall off in Room Editor
+roomeditor_minfalloffalpha,Chain minimum alpha,连接线最小alpha值,,Minimum Alpha fall off in Room Editor
 roomeditor_multiselectcolour,Area select highlight colour,区域选择高亮颜色,,Colour of the multi select area in Room Editor
 roomeditor_tileselectcolour,Selected tile highlight colour,选定的图块高亮颜色,,Tile Select colour in Room Editor
 roomeditor_tilehighlightcolour,Mouseover tile highlight colour,鼠标悬停图块高亮颜色,,Tile Highlight Colour in Room Editor
@@ -2444,10 +2444,10 @@ codeeditor_bracketmatchsuccess,Bracket/quote match colour,括号或引号成功�
 codeeditor_bracketmatchfail,Failed bracket/quote match colour,括号引号匹配失败的颜色,,Colour of failed bracket matches in code editor
 codeeditor_statusbarselected,Pre cursor intellisense colour,光标前面智能提示文本的颜色（状态栏中）,,Status Bar selection colour in code editor
 codeeditor_intellisenseleft,Post cursor intellisense colour,光标后面智能提示文本的颜色（状态栏中）,,Colour of intellisense left in Code Editor
-codeeditor_whitespacestyle,White space text style,空白区文本样式(?),,White space style in Code Editor
+codeeditor_whitespacestyle,White space text style,空白区文本样式,,White space style in Code Editor
 codeeditor_keeptabs,Keep tabs,保持tab键缩进对齐,,Keep Tabs in Code Editor
 codeeditor_tabsize,Tab size,单次Tab大小,,Tab Size in Code Editor
-codeeditor_showwhitespace,Show whitespace,显示空白区域,,Show Whitespace in Code Editor
+codeeditor_showwhitespace,Show whitespace,显示空白区域（彩色连续的英文句号）,,Show Whitespace in Code Editor
 codeeditor_showlinenumbers,Show line numbers,显示行号,,Show Line Numbers in Code Editor
 codeeditor_showtablines,Show tab lines,显示tab对齐纵线,,Show Tab Lines in Code Editor
 codeeditor_colourcoding,Enable colour coding,启用彩色代码（语法高亮）,,Enable Colour Coding in Code Editor
@@ -2507,7 +2507,7 @@ ggs_steam_id,Steam ID,Steam ID,,Steam Id
 ggs_enable_iap_sandbox,Enable IAP sandbox,应用 IAP 沙盒,,Enable IAP Sandbox
 ggs_tile_type,Type of Tiles to display,显示的图块类型,,Type of Tiles to display
 ggs_tiles_flip,Flip tiles,翻转图块,,Flip tiles
-ggs_tiles_iconic,Iconic tiles,图标块,,Iconic tiles
+ggs_tiles_iconic,Iconic tiles,标志图块,,Iconic tiles
 ggs_tiles_cycle,Cycle tiles,循环图块,,Cycle tiles
 ggs_new_guid,Create New GUID,创建新的GUID,,Create New GUID
 ggs_short_circuit_evaluations,Enable Short Circuit Evaluations,启用短路求值,,Enable Short Circuit Evaluations
@@ -2585,7 +2585,7 @@ DnD_Pref_MaxThumbSize,Maximum size for DnD™ toolbox action thumbnails,DnD™�
 DnD_Pref_MinThumbSize,Minimum size for DnD™ toolbox action thumbnails,DnD™工具栏动作缩略图的最小尺寸,,DnD™ pref
 DnD_Pref_ThumbSize,Default size for DnD™ toolbox action thumbnails,DnD™工具栏动作缩略图的默认尺寸,,DnD™ pref
 DnD_Pref_RecentlyUsed,Maximum number of recently used actions to display,最近使用动作的最大显示数目,,DnD™ pref
-DnD_Pref_ChainSmoothness,The smoothness of the chain.,链条连线的平滑度,,DnD™ pref
+DnD_Pref_ChainSmoothness,The smoothness of the chain.,连接线的平滑度,,DnD™ pref
 DnD_Pref_DragTime,Mouse down time to start dragging node (ms),鼠标按下到开始拖动节点所需的时间(毫秒),,DnD™ pref
 DnD_Message_Error_Prefix,ERROR:,错误：,,DnD™ message prefix
 DnD_Message_InvalidSyntaxError,"The ""{0}"" node is causing an invalid program flow. Move it to a correct location.","节点 ""{0}"" 正导致无效的程序流。请将它移动到正确的位置。",,DnD™ message syntax error
@@ -2729,10 +2729,10 @@ keystore_show_error,Could not process Keystore; may be corrupt or have incorrect
 keystore_small_alias,Alias password must be longer than 5 characters,别名密码必须长于5个字符,,Alias password must be longer than 5 characters
 keystore_invalid_alias_password,Invalid characters in alias password,别名密码中的字符无效,,Invalid characters in alias password
 GMXTextureGroup_BadId,The Texture Group for sprite '{0}' is invalid - setting to Default Texture Group instead,精灵纹理组 '{0}' 无效 - 使用默认纹理组代替,,Error message on importing that a sprite texture group is wrong
-ggs_enable_flurry,Enable Flurry Analytics,开启 Flurry 分析,,Enable Flurry Analytics
-ggs_enable_google_analytics,Enable Google Analytics,开启谷歌分析,,Enable Google Analytics
-ggs_google_analytics_id,Google Analytics ID,谷歌分析 ID,,Google Analytics Id
-ggs_flurry_id,Flurry Analytics ID,Flurry 分析 ID,,Flurry Analytics Id
+ggs_enable_flurry,Enable Flurry Analytics,开启 Flurry Analytics,,Enable Flurry Analytics
+ggs_enable_google_analytics,Enable Google Analytics,开启 Google Analytics,,Enable Google Analytics
+ggs_google_analytics_id,Google Analytics ID,Google Analytics ID,,Google Analytics Id
+ggs_flurry_id,Flurry Analytics ID,Flurry Analytics ID,,Flurry Analytics Id
 ggs_advertising_type,Advertising Type,广告类型,,Advertising Type
 ggs_use_test_ads,Use Test Ads,使用测试广告,,Use Test Ads
 ggs_enable_advertising,Enable Advertising,启用广告,,Enable Advertising
@@ -2916,8 +2916,8 @@ Dialog_ImportFailed_Msg,Failed to import the chosen files.,选中的文件导入
 Texture_BoundsInvalid_Title,Texture Size Not Supported,纹理大小不支持,,VerifyTextureSizeGPU check failed
 Texture_BoundsInvalid_File,The texture at path '{0}' ({1}x{2}) exceeds the maximum supported dimension ({3}x{3}) and cannot be loaded.,路径 '{0}' 的纹理 ({1}x{2}) 超过最大支持的尺寸 ({3}x{3}) ，不能加载。,,VerifyTextureSizeGPU check failed
 Texture_BoundsInvalid,A texture ({1}x{2}) exceeds the maximum supported dimension ({3}x{3}) and cannot be loaded.,纹理 ({1}x{2}) 超过最大支持的尺寸 ({3}x{3}) ，不能加载。,,VerifyTextureSizeGPU check failed
-rowpadding_description,Workspace chain row padding (px),工作区链条连接的面板之间的行间隔量(px),,the prefernces label for workspace row padding
-linkcolour_description,Workspace chain link colour,工作区链条连接颜色,,Link Colour in Workspaces
+rowpadding_description,Workspace chain row padding (px),工作区连接线的面板之间的行间隔量(px),,the prefernces label for workspace row padding
+linkcolour_description,Workspace chain link colour,工作区连接线颜色(?),,Link Colour in Workspaces
 TileSet_BrushSize,Size,大小,,the brush size slider caption
 TileSetEditor_Brush,Brush,笔刷,,the brush panel heading
 display_argument_types,Display argument types in status bar,在状态栏中显示参数类型,,preference message in language.gml
@@ -2930,7 +2930,7 @@ TileSetEditor_Frames,Frames,帧,,the tile animation frames panel heading
 TileSetEditor_Library,Library,库,,the tile animation/autotile library panel heading
 TileSetEditor_Tools,Tools,工具,,the tile editing tools panel heading
 TileSetEditor_Brushes,Brushes,笔刷,,the tile editing brush scratchpad panel heading
-columnpadding_description,Workspace chain column padding (px),工作区链条连接的面板之间的列间隔量 (px),,the prefernces label for workspace column padding
+columnpadding_description,Workspace chain column padding (px),工作区连接线的面板之间的列间隔量 (px),,the prefernces label for workspace column padding
 TileSetEditor_SelectedTiles,Selected Tiles:,选中的图块：,,the selected tiles label in the tile set sub editor status bars
 TileSetEditor_AnimationsLibrary,Animations Library,动画库,,the window panel title for the animations library
 TileSetEditor_AutoTileLibrary,Auto Tile Library,自动图块库,,the window panel title for the auto tile library
@@ -3026,7 +3026,7 @@ ExtensionEditor_ButtonChoiceOnIosSystemFrameworkDeletion,Automatic button choice
 ExtensionEditor_RemoveIos3rdPartyFrameworkAreYouSure,Are you sure you want to delete the iOS 3rd party framework?,你确定要删除 iOS 第三方框架吗？,,confirm message
 ExtensionEditor_ButtonChoiceOnIos3rdPartyFrameworkDeletion,Automatic button choice on iOS 3rd Party Framework deletion,删除 iOS 第三方框架时自动按钮选择,,Automatic button choice on iOS 3rd Party Framework deletion setting
 GoToType_WindowTitle,Search resource name:,搜索资源名称：,,Go To Type window title
-GoToType_FieldCaption,What are you looking for?,您想找什么？,,Go To Type default search field caption
+GoToType_FieldCaption,What are you looking for?,你想找什么？,,Go To Type default search field caption
 GoToType_MaxItemPref,Maximum number of search results to display,要显示的最大搜索结果数,,Go To max number pref
 ExtensionEditor_ExportPropertiesTitle,Extension Properties - Export,扩展属性 - 导出,,export dialog title
 ExtensionEditor_ImportPropertiesTitle,Extension Properties - Import,扩展属性 - 导入,,import dialog title
@@ -3068,7 +3068,7 @@ SoundMixer_ToolTip_AddGroup,Add sound group,添加音频组,,Sound mixer tool ti
 SoundMixer_ToolTip_CloseGroup,Close sound group,关闭音频组,,Sound mixer tool tip for adding a sound group to the mixer
 SoundMixer_ToolTip_SoundGroup,Sound group,音频组,,Sound mixer tool tip for the sound group
 SoundMixer_ToolTip_MuteGroup,Mute all sounds in group,组中所有声音静音,,Sound mixer tool tip
-SoundMixer_ToolTip_ColumnVolume,Column volume,音频列音量,,Sound mixer tool tip for the column volume
+SoundMixer_ToolTip_ColumnVolume,Column volume,列音量(?),,Sound mixer tool tip for the column volume
 SoundMixer_ToolTip_PlayGroup,Play all sounds in group,播放组中所有声音,,Sound mixer tool tip
 SoundMixer_ToolTip_LoopGroup,Loop playback for all sounds in group,循环播放组中所有声音,,Sound mixer tool tip
 SoundMixer_ToolTip_RewindGroup,Rewind all sounds in group to start,组中所有声音快退至起点,,Sound mixer tool tip
@@ -3116,8 +3116,8 @@ RoomEditor_TileLayerStatus_BrushIndices,Brush tiles: ({0}),图块笔刷： ({0})
 RoomEditor_TileLayerStatus_Full,"Tile map coordinate: ({0}, {1}) Brush tiles: ({2})","图块地图坐标：({0}, {1}) 笔刷图块：({2})",,the current tile map coordinate and tile brush indices status in the room editor status bar
 RoomEditor_PathLayerStatus,Selected control point(s): {0},所选控制点：{0},,the selected control points status for the path layer shown in the room editor status bar
 RoomEditor_PathLayerPointStatus,"({0}, {1}),","({0}, {1}),",,the an individual control point status for the path layer shown in the room editor status bar
-ListBoxEnum_eAnimSpeedType_FramesPerSecond,Frames per second,每秒帧数（fps，cpu steps）,,the playback type comboxbox entry for fps
-ListBoxEnum_eAnimSpeedType_FramesPerGameFrame,Frames per game frame,每秒游戏帧数（game steps）,,the playback type comboxbox entry for game frame locked playback
+ListBoxEnum_eAnimSpeedType_FramesPerSecond,Frames per second,FPS（cpu steps）,,the playback type comboxbox entry for fps
+ListBoxEnum_eAnimSpeedType_FramesPerGameFrame,Frames per game frame,游戏FPS（game steps）,,the playback type comboxbox entry for game frame locked playback
 ListBoxEnum_eObjectPropertyType_Real,Real,实数,,Real value type
 ListBoxEnum_eObjectPropertyType_Integer,Integer,整数,,Integer value type
 ListBoxEnum_eObjectPropertyType_String,String,字符串,,String value type
@@ -3148,7 +3148,7 @@ SourceControlGit_ServerNotFound,Server '{0}' has not been found,未找到服务�
 SourceControlGit_NotEmptyDirectory,The chosen directory must be empty,所选目录必须为空,,The chosen directory must be empty
 SourceControlGit_InvalidPath,The URL is invalid,URL无效,,The URL is invalid
 SourceControlGit_Clone,Source Control (Git) Clone,源码控制 (Git) 克隆,,Source Control (Git) Clone Title
-SourceControlGit_CloneNonBareOrigin,This is a non-bare repository which we do not support direct cloning from.\nHowever we have found its origin so we will push to that and clone from the origin instead.,这是一个非公开存储库，我们不支持从中直接克隆。\n但是，我们已经找到它的源点（origin），所以我们将推送到那并从源点克隆。,,Message for when a clone is done on a non-bare repository but an origin has been found.
+SourceControlGit_CloneNonBareOrigin,This is a non-bare repository which we do not support direct cloning from.\nHowever we have found its origin so we will push to that and clone from the origin instead.,这是一个非公开存储库，我们不支持从中直接克隆。\n但是，我们已经找到它的远程版本库（origin），所以我们将推送到origin并从那里克隆。,,Message for when a clone is done on a non-bare repository but an origin has been found.
 SourceControlGit_CloneNonBareNoOrigin,This is a non-bare repository which we do not support direct cloning from.\nThere is no Origin marked on this repository so we will ask you to create one so both old and new repositories will be linked via the new bare repository,这不是一个公开库，不支持直接克隆。\n这个库里也没有源点(origin)标记，所以我们要求你创建一个，旧的和新的库都将链接到这个新的公开库。,,Message for when a clone is done on a non-bare repository and an origin has not been found.
 Survey_Title,Feedback Survey,反馈调查,,Feedback Survey Window Title
 TileSetEditor_Add47AutoTileSet,Add 47 Tile Set,添加47块类型图块集,,Tooltip for adding a new 47 tile auto tile set
@@ -4191,7 +4191,7 @@ PhysicsShapeEditor_PlayAnimation,Play or pause the sprite animation.,播放或�
 PhysicsShapeEditor_CurrentFrameTooltip,Set the displayed sprite frame,设置显示的精灵帧,,Current frame tooltip
 PhysicsShapeEditor_SnapX,Set the horizontal grid alignment.,设置水平网格对齐。,,Snap x tooltip
 PhysicsShapeEditor_SnapY,Set the vertical grid alignment.,设置垂直网格对齐。,,Snap y tooltip
-GeneralSettings_ChainSoftness,Workspace chain rendering segment count,工作区链条渲染段计数,,Chain softness preference
+GeneralSettings_ChainSoftness,Workspace chain rendering segment count,工作区连接线渲染段计数,,Chain softness preference
 DnDModule_ToggleBreakpoint,Toggle Breakpoint,开/关断点,,Toggle breakpoint on a DnD™ node
 DnDModule_DisableNode,Disable,禁用,,Disable node output
 DnDModule_EnableNode,Enable,启用,,Enable node output
@@ -4414,7 +4414,7 @@ ExtEditor_Tooltip_FrameworkPathOnMac,Full path on Mac to import framework from,M
 ExtEditor_Tooltip_AddFrameworkFromMac,Import from Mac,从Mac导入,,tooltip
 ExtEditor_Tooltip_iOS_AddSource,Add local source folder,添加本地源文件的文件夹,,tooltip
 DnD_StoryPanel_Empty,An overview will appear here when you add an action,当你增加一个动作，这里将出现一个概述,,Empty panel text
-allowoverlappingchains_description,Workspace chains can overlap,允许工作区链条连接交叉,,preference description for whether we allow overlapping chains
+allowoverlappingchains_description,Workspace chains can overlap,允许工作区连接线交叉,,preference description for whether we allow overlapping chains
 IcoFailedLoad,An image in the {0} file failed to load., {0} 文件中的一个图像加载失败。,,Ico image failed to load
 desktop_windowlockzoomlevel,Minimum zoom level for interacting with window contents (%),与窗口内容交互的最小缩放级别（％）,,preference description for when a window is locked and only responds to mouse interaction for dragging
 PlatformImage_Generate,Generate,生成,,button caption for the generate images button
@@ -4427,7 +4427,7 @@ ListBoxEnum_eImageGenerationType_KeepAspectRatio,Keep Aspect Ratio,保持长宽�
 ListBoxEnum_eImageGenerationType_CropToFit,Crop To Fit,裁剪以适应,,image generation type keep aspect ratio by cropping option
 ggs_use_facebook_extension,"In order to use this functionality, you will need to have the Facebook Extension installed.\nWould you like to download it now from the Marketplace?",为使用这个功能，你需要安装 Facebook 的扩展。\n现在你想从市场下载它吗？,,Facebook extension not installed need to download it
 ggs_use_googleplayservices_extension,"In order to use this functionality, you will need to have the Google Play Services Extension installed.\nWould you like to download it now?",为使用该功能你需要安装Google Play服务扩展。\n你想马上通过市场下载吗？,,Google Play Services extension not installed and need to download it
-ggs_use_amazonapi_extension,"In order to use this functionality, you will need to have the Amazon API Extension installed.\nWould you like to download it now from the Marketplace?",为使用这个功能，你将需要安装 Amazon API 扩展。\n现在你想从市场上下载它吗？,,Amazon API extension not installed and need to download it
+ggs_use_amazonapi_extension,"In order to use this functionality, you will need to have the Amazon API Extension installed.\nWould you like to download it now from the Marketplace?",为使用这个功能，你将需要安装亚马逊 API 扩展。\n现在你想从市场上下载它吗？,,Amazon API extension not installed and need to download it
 ggs_use_google_apkexpansion_extension,"In order to use this functionality, you will need to have the Google Play APK Expansion Extension installed.\nWould you like to download it now from the Marketplace?",为使用这个功能，你将需要安装 Google Play APK 扩展。\n现在你想从市场上下载它吗？,,Google Play APK Expansion extension not installed and need to download it
 ggs_use_google_licensing_extension,"In order to use this functionality, you will need to have the Google Play Licensing Expansion Extension installed.\nWould you like to download it now from the Marketplace?",为使用这个功能，你将需要安装 Google Play Licensing 扩展。\n现在你想从市场上下载它吗？,,Google Play APK Expansion extension not installed and need to download it
 ListBoxEnum_eImageGenerationType_Stretch,Stretch,拉伸,,image generation type stretch option
@@ -4550,7 +4550,7 @@ Event_Gesture_DoubleTap,Double Tap,双击,,Double tap gesture event name
 Event_Gesture_DragStart,Drag Start,拖动开始,,Drag start gesture event name
 Event_Gesture_DragMove,Dragging,拖动,,Dragging gesture event name
 Event_Gesture_DragEnd,Drag End,拖动结束,,Drag end gesture event name
-Event_Gesture_Flick,Flick,划过,,Flick gesture event name
+Event_Gesture_Flick,Flick,轻抚,,Flick gesture event name
 Event_Gesture_PinchStart,Pinch Start,捏合开始,,Pinch start gesture event name
 Event_Gesture_PinchIn,Pinch In,捏合放大,,Pinch in gesture event name
 Event_Gesture_PinchOut,Pinch Out,捏合缩小,,Pinch out gesture event name
@@ -4563,7 +4563,7 @@ Event_Gesture_Global_DoubleTap,Global Double Tap,全局双击,,Global double tap
 Event_Gesture_Global_DragStart,Global Drag Start,全局拖拽开始,,Global drag start gesture event name
 Event_Gesture_Global_DragMove,Global Dragging,全局拖拽,,Global dragging gesture event name
 Event_Gesture_Global_DragEnd,Global Drag End,全局拖拽结束,,Global drag end gesture event name
-Event_Gesture_Global_Flick,Global Flick,全局划过,,Global flick gesture event name
+Event_Gesture_Global_Flick,Global Flick,全局轻抚,,Global flick gesture event name
 Event_Gesture_Global_PinchStart,Global Pinch Start,全局捏合开始,,Global Pinch Start gesture event name
 Event_Gesture_Global_PinchIn,Global Pinch In,全局捏合放大,,Global Pinch In gesture event name
 Event_Gesture_Global_PinchOut,Global Pinch Out,全局捏合缩小,,Global Pinch Out gesture event name
@@ -4577,7 +4577,7 @@ MarketplaceFilter_GMS1Only,GMS 1.x,GMS 1.x,,Studio 1 assets filter name for mark
 ide_language_description,IDE language,IDE 语言,,Label beside the IDE language selection
 notification_popups,Enable notifications,启用消息通知,,Enable Notification messages
 notification_timeout,Notification timeout (ms),通知超时（毫秒）,,Notification timeout in ms
-android_linktoamazonsubmit,Link to Amazon Submission Guide,链接到Amazon提交指南,,Link to Amazon Submission Guide
+android_linktoamazonsubmit,Link to Amazon Submission Guide,链接到亚马逊提交指南,,Link to Amazon Submission Guide
 RemoteWorker_AddWorker,Add Worker,添加工作者,,Add Worker Dialog Title
 RemoteWorker_DeleteDialogMessage,Are you sure you wish to delete this remote?,你确定想要删除这个远程库吗（remote）？,,the message when a user tries to delete a remote
 RemoteWorker_DeleteDialogTitle,Delete Remote,删除远程库（remote）,,message title when the user wants to delete a remote
@@ -4791,8 +4791,8 @@ iPad Retina,iPad Retina,iPad Retina,DO NOT TRANSLATE iPad,iPad Retina option gro
 Permissions,Permissions,权限,,Permissions option group subheading
 Architecture,Architecture,架构,,Architecture option group subheading
 Android TV,Android TV,Android TV,DO NOT TRANSLATE,Android TV option group subheading
-Google,Google,Google,DO NOT TRANSLATE,Google option group subheading
-Amazon,Amazon,Amazon,DO NOT TRANSLATE,Amazon option group subheading
+Google,Google,谷歌,DO NOT TRANSLATE,Google option group subheading
+Amazon,Amazon,亚马逊,DO NOT TRANSLATE,Amazon option group subheading
 Analytics,Analytics,分析,,Analytics option group subheading
 Flurry,Flurry,Flurry,DO NOT TRANSLATE,Flurry option group subheading
 Logo,Logo,Logo,,Logo option group subheading
@@ -5266,7 +5266,7 @@ ConfigurationProblem_XboxOneSDK,Configuration Problem : Xbox One SDK Directory n
 ConfigurationProblem_XboxOneSDKVersion,Configuration Problem : Xbox One SDK Version does not match {0}. Check your Preferences.,配置问题：Xbox One SDK 版本与{0}不匹配。检查你的偏好设置。,,Configuration Problem : Xbox One SDK Version does not match
 ConfigurationProblem_XboxOneSDKDir,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.,配置问题：找不到 Microsoft Xbox One 目录。检查你的偏好设置。,,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.
 ConfigurationProblem_XboxOneVSPath,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,配置问题：需要将 Xbox One Visual Studio 的路径设置为指向 Visual Studio（.bat）的批处理文件。,,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
-Provisioning,Provisioning,Provisioning,DO NOT TRANSLATE,tvOS provisioning preference group subheading
+Provisioning,Provisioning,供应(?),DO NOT TRANSLATE,tvOS provisioning preference group subheading
 Base_Unit_Memory,PS4 Base Memory,PS4 基础内存,,title for options related to memory pool sizes
 Neo_Memory,PS4 Pro Memory,PS4 Pro 内存,,title for options related to memory pool sizes
 ggs_onion,CPU/GPU 'onion' memory pool size (MB),CPU/GPU 'onion' 内存池大小 (MB),DO NOT TRANSLATE onion, memory pool size for 'onion' memory
