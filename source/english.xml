@@ -38,7 +38,7 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="english">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="5295" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="5299" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54"
    ss:DefaultRowHeight="14.25">
    <Column/>
@@ -7558,6 +7558,9 @@
     <Cell><Data ss:Type="String">Laptop file watcher frequency (ms)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Logout on exit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Enable steam</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -7607,6 +7610,9 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Requires Worker</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Requires Windows PC</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Worker:</Data></Cell>
@@ -15930,6 +15936,12 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">There is no SLIM data configured. Visit https://slim.mng.nintendo.net/slim/home to create it?</Data></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Missing FFmpegWrapper</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">The FFmpegWrapper.dll - or it's dependencies - appear to be missing. This could be from a bad install or an overly aggressive virus scanner. Please check your virus scanner or reinstall.</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
@@ -15945,6 +15957,7 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
+   <TopRowVisible>5276</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
