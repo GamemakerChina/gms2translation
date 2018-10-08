@@ -6,6 +6,7 @@ _Language,English,English,,Language name - in English
 _LanguageNative,English,English,,Language name in the native language
 _LanguageCode,en,en,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
 _GameMaker2016,GameMaker Studio 2,GameMaker Studio 2,,IDE title
+_MANUAL_LOCATION,"http://zeus.yoyogames.com/GMS2_English-master.zip","http://zeus.yoyogames.com/GMS2_English-master.zip",,Location of language manual
 $win_OpenInExplorer,Open In Explorer,Open In Explorer,,Windows version of Open In Explorer
 $win_OpenProjectInExplorer,Open Project In Explorer,Open Project In Explorer,,Windows version of Open Project In Explorer
 $win_ShowLogFileInExplorer,Open Log In Explorer,Open Log In Explorer,,Windows version of Show Log In Explorer
@@ -69,7 +70,7 @@ Certificate_FileMissing,Unable to find certificate file '{0}',Unable to find cer
 Certificate_Test_Title,Certificate Check,Certificate Check,,certificate test title
 Certificate_PasswordFail,Password is NOT valid for certificate,Password is NOT valid for certificate,,certificate password fail
 Certificate_PasswordOK,Password is valid for certificate,Password is valid for certificate,,certificate password ok
-CertProperties_Heading,Set .pem certificate file and password,"Set .pem certificate file and password",,certificate properties heading
+CertProperties_Heading,Set .pem certificate file and password,Set .pem certificate file and password,,certificate properties heading
 CertProperties_Heading2,(you can use an existing GameMaker:Studio marketplace certificate),(you can use an existing GameMaker:Studio marketplace certificate),,certificate properties heading 2
 CertProperties_CertificateFile,Certificate File:,Certificate File:,,certificate file label
 CertProperties_CertificatePassword,Certificate Password:,Certificate Password:,,certificate password label
@@ -88,7 +89,7 @@ CodeWindow_Menu_Help,Keyword help,Keyword help,,Code window help menu option
 CodeWindow_Menu_ShowResource,Show resource,Show resource,,Code window show resource menu option
 CodeWindow_SingleColumn,Single pane,Single pane,,Document window layout menu option - 1 column
 CodeWindow_Title,Code,Code,,fullscreen code editor workspace tab title
-CodeWindow_RestoreToWorkspace,Restore to workspace,Restore to workspace,,code editor restore to workspace context menu option
+CodeWindow_RestoreToWorkspace,Restore to Workspace,Restore to Workspace,,code editor restore to workspace context menu option
 CodeWindow_GotoObject,Go to Object,Go to Object,,code editor go to object context menu option
 CodeWindow_AddEvent,Add/Open Event,Add/Open Event,,code editor event script add event context menu option
 CodeWindow_OpenInheritedEvent,Open Inherited Event,Open Inherited Event,,open inherited event context menu option
@@ -229,6 +230,7 @@ Error_CursorManagerLoadingInfoMissing,Attempting to load cursor {0} but can't fi
 Error_GadgetToolboxFailedLoad,Attempted to load gadget toolbox info but received error '{0}' - '{1}',Attempted to load gadget toolbox info but received error '{0}' - '{1}',,Failed to load the gadget toolbox list
 Error_GadgetToolboxInvalidGadget,Attempted to add gadget '{0}' to toolbox but it isn't registered with the layout manager ,Attempted to add gadget '{0}' to toolbox but it isn't registered with the layout manager ,,Invalid gadget specified in gadget toolbox list
 Error_GlobalInputBinding,You can not bind global inputs to a function that takes paramaters.,You can not bind global inputs to a function that takes paramaters.,,Plugins can not use the global autobinding if the bound function takes a paramater
+Error_Cursors,Cursor Error,Cursor Error,,Cursor error warning title
 Error_GridColumnIndexInvalid,Attempting to access invalid column index {0} for grid with {1} columns,Attempting to access invalid column index {0} for grid with {1} columns,,Attempted to access an invalid column index
 Error_GridRowIndexInvalid,Attempting to access invalid row index {0} for grid with {1} rows,Attempting to access invalid row index {0} for grid with {1} rows,,Attempted to access an invalid row index
 Error_GUILayout_AnchorRequiresParentPos,"A parent reliant anchor (bottom or right) has been set with no parent gadget, try setting the dimension instead","A parent reliant anchor (bottom or right) has been set with no parent gadget, try setting the dimension instead",,Attempted to use an bottom or right anchor when there is no parent gadget to base the position upon
@@ -446,7 +448,8 @@ fonteditor_style,Presets,Presets,,Font Editor style group name
 fonteditor_stylename,Style,Style,,Font editor style name
 fonteditor_toggle,Toggle,Toggle,,Font editor AA radio group header
 fonteditor_window,Font: {0},Font: {0},,Font editor title
-fonteditor_inludettf,Include Font in Marketplace Asset,Include Font in Marketplace Asset,,Font editor include TTF checkbox
+fonteditor_includettf,Copy to project,Copy to project,,Font editor include TTF checkbox
+fonteditor_includettf_tooltip,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,,tooltip for the 'includettf' copy to project checkbox 
 fonteditor_ttfpath,{0},{0},,Font editor included TTF path
 fonteditor_selectttf,Select Font to Include,Select Font to Include,,Font editor include Font dialog title
 FontManager_MissingDefaultFont,"Font Manager: Default font '{0}' has not been loaded, text rendering will fail","Font Manager: Default font '{0}' has not been loaded, text rendering will fail",,Error message for when the default font has not been loaded
@@ -580,7 +583,7 @@ IDEMenu_Help_StartPage,Start Page,Start Page,,Help menu item for reopening the s
 IDEMenu_Help_WelcomePage,Welcome Page,Welcome Page,,Help menu item for reopening the welcome page
 IDEMenu_Help_Help,Open Manual,Open Manual,,Help menu item for actual help
 IDEMenu_Help_About,${IDEMenuHelpAbout},${IDEMenuHelpAbout},,Help menu item for actual About
-IDEMenu_Help_Licenses,Licenses,Licenses,,Help menu item for licenses
+IDEMenu_Help_Licenses,Licences,Licences,,Help menu item for licences
 IDEMenu_Help_OpenInExplorer,${OpenProjectInExplorer},${OpenProjectInExplorer},,Help menu item for opening the explorer window at the current project's location
 IDEMenu_Help_LogFile,${ShowLogFileInExplorer},${ShowLogFileInExplorer},,Help menu item for taking the user to the log file location
 IDEMenu_Marketplace,Marketplace,Marketplace,,Main menu entry for marketplace
@@ -751,24 +754,24 @@ ImageEditor_Menu_RotateImageACW,Rotate All Frames (anti-clockwise 90),Rotate All
 ImageEditor_Undo,Undo,Undo,,Image editor menu option -Undo
 ImageEditor_VisibleLayers,Visible Layers,Visible Layers,,effect visible layers option
 ImageEditor_WidthLabel,Width:,Width:,,image editor resize width label
-ImageEditor_ArcTool_Info,"Click to add a point, drag to move (Ctrl - move control point; Shift - snap; Enter - commit)","Click to add a point, drag to move (Ctrl - move control point; Shift - snap; Enter - commit)",,image editor tool info
+ImageEditor_ArcTool_Info,"Click to add a point, drag to move (${ctrl} - move control point; Shift - snap; Enter - commit)","Click to add a point, drag to move (${ctrl} - move control point; Shift - snap; Enter - commit)",,image editor tool info
 ImageEditor_ColourPicker_Info,Left/right click to pick a colour,Left/right click to pick a colour,,image editor tool info
 ImageEditor_EllipseTool_Info,Click and drag to draw an ellipse (Shift for a circle),Click and drag to draw an ellipse (Shift for a circle),,image editor tool info
-ImageEditor_PaintSelectTool_Info,"Paint selection (Ctrl to add, Alt/right click to subtract)","Paint selection (Ctrl to add, Alt/right click to subtract)",,image editor tool info
+ImageEditor_PaintSelectTool_Info,"Paint selection (${ctrl} to add, Alt/right click to subtract)","Paint selection (${ctrl} to add, Alt/right click to subtract)",,image editor tool info
 ImageEditor_EraseTool_Info,Click to erase,Click to erase,,image editor tool info
 ImageEditor_FillTool_Info,Click to fill (Alt to tile with brush),Click to fill (Alt to tile with brush),,image editor tool info
 ImageEditor_ColourReplaceTool_Info,Click to swap colours (Alt to replace alpha also),Click to swap colours (Alt to replace alpha also),,image editor tool info
 ImageEditor_ColourRemoveTool_Info,Click to remove a colour,Click to remove a colour,,image editor tool info
 ImageEditor_LineTool_Info,Click and drag to draw a line (Shift for a straight line),Click and drag to draw a line (Shift for a straight line),,image editor tool info
-ImageEditor_MagicWand_Info,"Click to replace selection (Ctrl to add to selection, Alt to subtract from selection)","Click to replace selection (Ctrl to add to selection, Alt to subtract from selection)",,image editor tool info
-ImageEditor_Paintbrush_Info,"Click to paint (Shift for a straight line, Ctrl to pick a colour)","Click to paint (Shift for a straight line, Ctrl to pick a colour)",,image editor tool info
+ImageEditor_MagicWand_Info,"Click to replace selection (${ctrl} to add to selection, Alt to subtract from selection)","Click to replace selection (${ctrl} to add to selection, Alt to subtract from selection)",,image editor tool info
+ImageEditor_Paintbrush_Info,"Click to paint (Shift for a straight line, ${ctrl} to pick a colour)","Click to paint (Shift for a straight line, ${ctrl} to pick a colour)",,image editor tool info
 ImageEditor_PanTool_Info,Click and drag to pan,Click and drag to pan,,image editor tool info
 ImageEditor_PolyTool_Info,Click to add points (Enter to commit),Click to add points (Enter to commit),,image editor tool info
 ImageEditor_RectangleTool_Info,Click and drag to draw a rectangle (Shift for a square),Click and drag to draw a rectangle (Shift for a square),,image editor tool info
 ImageEditor_RotateTool_Info,Click button to rotate clockwise (Shift for anti-clockwise),Click button to rotate clockwise (Shift for anti-clockwise),,image editor tool info
 ImageEditor_FreeRotateTool_Info,Click and drag to rotate current brush,Click and drag to rotate current brush,,image editor free rotate tool info
-ImageEditor_SelectEllipseTool_Info,"Click and drag to replace selection (Ctrl to add to selection, Alt to subtract from selection)","Click and drag to replace selection (Ctrl to add to selection, Alt to subtract from selection)",,image editor tool info
-ImageEditor_SelectRectTool_Info,"Click and drag to replace selection (Ctrl to add to selection, Alt to subtract from selection)","Click and drag to replace selection (Ctrl to add to selection, Alt to subtract from selection)",,image editor tool info
+ImageEditor_SelectEllipseTool_Info,"Click and drag to replace selection (${ctrl} to add to selection, Alt to subtract from selection)","Click and drag to replace selection (${ctrl} to add to selection, Alt to subtract from selection)",,image editor tool info
+ImageEditor_SelectRectTool_Info,"Click and drag to replace selection (${ctrl} to add to selection, Alt to subtract from selection)","Click and drag to replace selection (${ctrl} to add to selection, Alt to subtract from selection)",,image editor tool info
 ImageEditor_TextTool_Info,Click to insert text,Click to insert text,,image editor tool info
 ImageEditor_Warning_GroupSelected,Cannot paint on layer groups,Cannot paint on layer groups,,image editor: group paint warning
 ImageEditor_Warning_GroupSelected_Dialog,Cannot paint on layer groups; select a non-group layer,Cannot paint on layer groups; select a non-group layer,,image editor: group paint warning dialog
@@ -828,33 +831,27 @@ IncludedFile_Title,Included File: {0},Included File: {0},,Included file editor w
 IncludedFilesPlatform_Android,Android,Android,,included files platform list entry
 IncludedFilesPlatform_Android_YYC,Android (YYC),Android (YYC),,included files platform list entry
 IncludedFilesPlatform_GameMaker_Player,GameMaker:Player,GameMaker:Player,,included files platform list entry
-IncludedFilesPlatform_HTML5,HTML5,HTML5,,included files platform list entry
-IncludedFilesPlatform_iOS,iOS,iOS,,included files platform list entry
-IncludedFilesPlatform_iOS_YYC,iOS (YYC),iOS (YYC),,included files platform list entry
-IncludedFilesPlatform_Mac_OS_X,macOS,macOS,,included files platform list entry
-IncludedFilesPlatform_PlayStation_3,PlayStation 3,PlayStation 3,,included files platform list entry
-IncludedFilesPlatform_PlayStation_3_YYC,PlayStation 3 (YYC),PlayStation 3 (YYC),,included files platform list entry
-IncludedFilesPlatform_PlayStation_4,PlayStation 4,PlayStation 4,,included files platform list entry
-IncludedFilesPlatform_PlayStation_4_YYC,PlayStation 4 (YYC),PlayStation 4 (YYC),,included files platform list entry
-IncludedFilesPlatform_PlayStation_Vita,PlayStation Vita,PlayStation Vita,,included files platform list entry
-IncludedFilesPlatform_PlayStation_Vita_YYC,PlayStation Vita (YYC),PlayStation Vita (YYC),,included files platform list entry
-IncludedFilesPlatform_Tizen_Javascript,Tizen (Javascript),Tizen (Javascript),,included files platform list entry
-IncludedFilesPlatform_Tizen_Native,Tizen (Native),Tizen (Native),,included files platform list entry
-IncludedFilesPlatform_Ubuntu_Linux,Ubuntu,Ubuntu,,included files platform list entry
-IncludedFilesPlatform_Ubuntu_Linux_YYC,Ubuntu (YYC),Ubuntu (YYC),,included files platform list entry
-IncludedFilesPlatform_Windows,Windows,Windows,,included files platform list entry
-IncludedFilesPlatform_Windows_8_YYC,Windows 8 (YYC),Windows 8 (YYC),,included files platform list entry
-IncludedFilesPlatform_Windows_Phone_8,Windows Phone 8,Windows Phone 8,,included files platform list entry
-IncludedFilesPlatform_Windows_Phone_8_YYC,Windows Phone 8 (YYC),Windows Phone 8 (YYC),,included files platform list entry
-IncludedFilesPlatform_Windows_YYC,Windows (YYC),Windows (YYC),,included files platform list entry
-IncludedFilesPlatform_Windows8_Javascript,Windows 8 (Javascript),Windows 8 (Javascript),,included files platform list entry
-IncludedFilesPlatform_Windows8_Native,Windows 8 (Native),Windows 8 (Native),,included files platform list entry
-IncludedFilesPlatform_XBox_One,Xbox One,Xbox One,,included files platform list entry
-IncludedFilesPlatform_XBox_One_YYC,Xbox One (YYC),Xbox One (YYC),,included files platform list entry
-IncludedFilesPlatform_Windows_UWP,Windows UWP,Windows UWP,,included files platform list entry
-IncludedFilesPlatform_Android_TV,Android TV,Android TV,,included files platform list entry
-IncludedFilesPlatform_TV_OS,tvOS,tvOS,,included files platform list entry
-IncludedFilesPlatform_AmazonFire,Amazon Fire,Amazon Fire,,Amazon Fire platform list entry
+IncludedFilesPlatform_HTML5,HTML5,HTML5,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_iOS,iOS,iOS,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_iOS_YYC,iOS (YYC),iOS (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Mac_OS_X,macOS,macOS,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_PlayStation_4,PlayStation 4,PlayStation 4,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_PlayStation_4_YYC,PlayStation 4 (YYC),PlayStation 4 (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Ubuntu_Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Ubuntu_Linux_YYC,Ubuntu (YYC),Ubuntu (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Windows,Windows,Windows,DO NOT TRANSLATE - refers to the Windows OS,included files platform list entry
+IncludedFilesPlatform_Windows_8_YYC,Windows 8 (YYC),Windows 8 (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Windows_Phone_8,Windows Phone 8,Windows Phone 8,DO NOT TRANSLATE 'windows',included files platform list entry
+IncludedFilesPlatform_Windows_Phone_8_YYC,Windows Phone 8 (YYC),Windows Phone 8 (YYC),DO NOT TRANSLATE 'windows',included files platform list entry
+IncludedFilesPlatform_Windows_YYC,Windows (YYC),Windows (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Windows8_Javascript,Windows 8 (Javascript),Windows 8 (Javascript),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Windows8_Native,Windows 8 (Native),Windows 8 (Native),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_XBox_One,Xbox One,Xbox One,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_XBox_One_YYC,Xbox One (YYC),Xbox One (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Windows_UWP,Windows UWP,Windows UWP,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Android_TV,Android TV,Android TV,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_TV_OS,tvOS,tvOS,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_AmazonFire,Amazon Fire,Amazon Fire,DO NOT TRANSLATE,Amazon Fire platform list entry
 InstanceProperties_CreationCode,Creation Code,Creation Code,,instance properties button caption for opening the creation code
 InstanceProperties_EditObject,Edit Object,Edit Object,,instance properties button caption for opening the object for edit
 InstanceProperties_FlipX,Flip X:,Flip X:,,instance properties checkbox label for flip x
@@ -949,6 +946,8 @@ Marketplace_Register,Register,Register,,Register marketplace account
 Marketplace_StoreCredentials,Save Username/Password,Save Username/Password,,Store credentials
 Marketplace_Username,Username,Username,,Username
 Marketplace_Offline,Cannot access Marketplace: User is offline,Cannot access Marketplace: User is offline,,Marketplace is offline error message
+Marketplace_TryAgainLater,Cannot access Marketplace. Try again later.,Cannot access Marketplace. Try again later.,,Marketplace cannot be accessed try again later
+Marketplace_WaitForServer,Marketplace will open when a connection has been established.,Marketplace will open when a connection has been established.,,Marketplace wait for server result message
 Marketplace_CreateNewPackage,Create Package,Create Package,,marketplace menu create package
 Marketplace_UpdatePackage,Update Existing Package,Update Existing Package,,marketplace menu update existing package
 Marketplace_CreatePackage,Create Package,Create Package,,marketplace menu create package
@@ -985,6 +984,8 @@ Marketplace_Package_ImportNoProject,You must first open a project to import reso
 Marketplace_Package_ExportNoResources,You must include at least one resource,You must include at least one resource,,package export no resources selected message
 Marketplace_Package_ImportToNewProject,Import all resources to a new project,Import all resources to a new project,,package import new project
 Marketplace_Package_ResourceImportError,Some resources failed to import - see output window for details,Some resources failed to import - see output window for details,,resource import error message
+Marketplace_Package_PackageResources,Package Resources:,Package Resources:,,package import- package resources caption
+Marketplace_Package_ImportResources,Resources to Import:,Resources to Import:,,package import - resource to import caption
 Marketplace_CheckForUpdates,Check For Updates,Check For Updates,,check for updates button label
 Marketplace_Updating,Updating...,Updating...,,marketplace updating label
 Marketplace_WindowTitle,Marketplace,Marketplace,,Marketplace webview window title
@@ -1034,6 +1035,7 @@ Object_Mask,Collision Mask:,Collision Mask:,,"object ""mask"" property"
 Object_Parent,Parent,Parent,,"object ""parent"" property"
 ObjectEditor_ParentChildren,Parent & Children,Parent & Children,,Object editor parent and children caption
 Object_Persistent,Persistent,Persistent,,"Object Model ""persistent"" property"
+Object_Persistent_Tooltip,Instances of this object will persist between rooms,Instances of this object will persist between rooms,,object editor persistent property tooltip
 Object_PhysicsAngularDamping,Angular Damping,Angular Damping,,"object ""physicsAngularDamping"" property label"
 Object_PhysicsDensity,Density,Density,,"object ""physicsDensity"" property label"
 Object_PhysicsFriction,Friction,Friction,,"object ""physicsFriction"" property label"
@@ -1044,8 +1046,11 @@ Object_PhysicsRestitution,Restitution,Restitution,,"object ""physicsRestitution"
 Object_PhysicsSensor,Sensor,Sensor,,"object ""physicsSensor"" property label"
 Object_PhysicsStartAwake,Start Awake,Start Awake,,"object ""physicsStartAwake"" property label"
 Object_Solid,Solid,Solid,,"Object Model ""solid"" property"
+Object_Solid_Tooltip,Solid instances will automatically be placed back in their previous position when in collision,Solid instances will automatically be placed back in their previous position when in collision,,object editor solid property tooltip
 Object_UsesPhysics,Uses Physics,Uses Physics,,"Object Model ""uses physics"" property"
+Object_UsesPhysics_Tooltip,Instances use physics processing when in a room with 'Enable Physics' checked,Instances use physics processing when in a room with 'Enable Physics' checked,,object editor uses physics tooltip
 Object_Visible,Visible,Visible,,"Object Model ""visible"" property"
+Object_Visible_Tooltip,"When unchecked, instances of this object will still be processed, but will not be drawn","When unchecked, instances of this object will still be processed, but will not be drawn",,object editor visible property tooltip
 ObjectEdior_PhysicsShape_ZoomIn,Zoom in,Zoom in,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomOut,Zoom out,Zoom out,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomReset,Reset zoom,Reset zoom,,Object editor physics window label
@@ -1116,7 +1121,12 @@ ObjectEditor_MaskSameAsSprite,Same As Sprite,Same As Sprite,,Object editor same 
 ObjectEditor_Shape,Convex Shape,Convex Shape,,"Object editor collision shape ""shape"""
 ObjectEditor_WindowTitle,Object: {0},Object: {0},,Object properties window title
 ObjectEditor_Prop_RemoveTooltip,Remove this variable,Remove this variable,,Remove variable row tooltip
+ObjectEditor_Prop_RemoveOverrideTooltip,Reset to default,Reset to default,,remove variable override tooltip
 ObjectEditor_Prop_OptionsTooltip,Open options...,Open options...,,Open variable options tooltip
+ObjectEditor_EventReplaceMessage,"Replace the existing {0} event, or paste as a new event?","Replace the existing {0} event, or paste as a new event?",,event paste replace dialog message
+ObjectEditor_EventReplaceTitle,Replace existing event?,Replace existing event?,,event paste replace dialog title
+ObjectEditor_EventReplaceLabel,Replace,Replace,,replace button label
+ObjectEditor_EventNewLabel,New Event,New Event,,new event button label
 InstanceEditor_Prop_OverrideTooltip,Override this variable,Override this variable,,Override variable tooltip
 OutputPanel_Output,Output,Output,,Output panel output tab name
 OutputPanel_SearchResults,Search Results,Search Results,,Output panel search results tab name
@@ -1496,6 +1506,7 @@ Splash_LoadingDevices,Loading Devices...,Loading Devices...,,Loading the devices
 Splash_UserLogin,User Login,User Login,,User Login has been started
 Splash_InitDnD,Drag and Drop...,Drag and Drop...,,Initialising Drag and Drop™
 Splash_CheckingRSS,Checking RSS...,Checking RSS...,,Checking RSS...
+Splash_DownloadingManual,Downloading Manual...,Downloading Manual...,,Downloading Manual...
 SplineEditor_DeletePoints,Delete Points,Delete Points,,Path spline editor context menu entry
 SpriteEditor_LockOrigin,Lock sprite origin,Lock sprite origin,,Lock sprite origin from editing
 SpriteEditor_Manual,Manual,Manual,,Sprite editor manual bounding box label
@@ -1741,6 +1752,9 @@ UserLogin_Error48,Login successful,Login successful,,User Login Error response 4
 UserLogin_Error54,No beta access,No beta access,,User Login Error response 48
 UserLogin_Error58,Session has expired,Session has expired,,User Login Error response 58
 UserLogin_Error99,Errors creating session,Errors creating session,,User Login Error response 99
+UserLogin_Error88,Please complete your profile to continue.,Please complete your profile to continue.,,User Login Error response 88 (profile incomplete)
+UserLogin_EditProfile,Update Profile,Update Profile,,user login edit profile button
+UserLogin_ProfileIncomplete,Profile Incomplete,Profile Incomplete,,user login incomplete profile title
 Validate_MaxLength,{0} - Length should be less than {1},{0} - Length should be less than {1},,Failed validation by passing an object whose length is too long
 Validate_MinLength,{0} - Length should be greater than {1},{0} - Length should be greater than {1},,Failed validation by passing an object whose length is too short
 Validate_MVCType,{0} - Object should be of type {2}{1},{0} - Object should be of type {2}{1},,Failed validation by passing an object of the wrong type
@@ -1773,7 +1787,7 @@ TimeLine_MergeWarningTitle,Merge Moments,Merge Moments,,Merge moments warning di
 TimeLine_DeleteWarning,Deleting moments is a permanent action that cannot be undone. Are you sure you want to continue?,Deleting moments is a permanent action that cannot be undone. Are you sure you want to continue?,,Delete warning for time lines
 TimeLine_DeleteWarningTitle,Delete Moments,Delete Moments,,Delete moments warning dialog title
 Workspace_TabTitle,Workspace {0},Workspace {0},,The default tab name for workspace tabs
-Dock_TabTitle,DockTab{0},DockTab{0},,the default tab name for dock tabs
+Dock_TabTitle,Dock Tab{0},Dock Tab{0},,the default tab name for dock tabs
 RoomEditor_InvalidDragGadget,"The selected layer does not accept the dragged resources, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer","The selected layer does not accept the dragged resources, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer",, Information warning for dropping resource gadgets on a layer which won't accept them 
 Dock_FloatingDock_Title,Floating Dock,Floating Dock,,floating dock window title
 RoomEditor_InvalidDragLayers,"Unable to drag resources into room, ensure one layer is selected","Unable to drag resources into room, ensure one layer is selected",, Information warning for dropping resource gadgets on the room but layer selection is invalid
@@ -1970,6 +1984,7 @@ ImagePath_ImageError,Error Selecting Image,Error Selecting Image,,Error when usi
 ImagePath_NotExpectedDimensions,The image is expected to be of {0}x{1} but received {2}x{3},The image is expected to be of {0}x{1} but received {2}x{3},,Image wrong size with 0x1 being expected size and 2x3 being the image size
 ImagePath_NotExpectedAlpha,The image is expected to have an alpha channel (i.e. be 32-bit),The image is expected to have an alpha channel (i.e. be 32-bit),,The image needs to have an alpha channel but the selected one does not
 ImagePath_FileError,Cannot access file: {0},Cannot access file: {0},,Error when trying to access file where 0 is the filename
+ImagePath_NotExpectedFormat,Selected image is not a valid '{0}' format.,Selected image is not a valid '{0}' format.,,invalid image format message
 ggs_windows_save_localappdata,%localappdata%\<Game Name>,%localappdata%\<Game Name>,,Save Path to Local App Data
 ggs_windows_save_appdata,%appdata%\<Game Name>,%appdata%\<Game Name>,,Save Path to Local App Data
 ggs_vertex_buffer_method,Vertex Buffer Method,Vertex Buffer Method,,Vertex Buffer Method
@@ -2366,6 +2381,7 @@ roomeditor_showviews,Show room views,Show room views,,Show Views in Room Editor
 timeline_noundoactions,Automatic response to permanent action warning,Automatic response to permanent action warning,,No Undo Actions in Timeline Editor
 timeline_opennewmoments,Open new moments for edit on creation,Open new moments for edit on creation,,Open newly created moments for editing preference
 CMenu_CloseAllButThis,Close All But This,Close All But This,,Close all but this context menu
+CMenu_Restore,Restore,Restore,,Restore context menu
 codeeditor_textcolour,Colour of text,Colour of text,,Text Colour in Code Editor
 codeeditor_font,Font to use,Font to use,,Font to use in Code Editor
 codeeditor_fontstyle,Font Style,Font Style,,Font Style to use in Code Editor
@@ -2422,6 +2438,7 @@ codeeditor_obsolete_style,Obsolete functions etc,Obsolete functions etc,,code ed
 codeeditor_braces,Braces,Braces,,code editor text style for braces
 codeeditor_folded_region,Folded region,Folded region,,text style for folded #region
 codeeditor_folded_region_tag,Folded region name,Folded region name,,text style for folded region tag
+codeeditor_tab_lines_colour,Tab lines colour,Tab lines colour,,code editor tab lines colour
 dialogeditor_textcolours,Text colours and style,Text colours and style,,Text colours and style in Dialog Editor
 dialogeditor_options,Options,Options,,Options in Dialog Editor
 sourcecontrolgit_username,Commit username,Commit username,,Username to commit as for source control git
@@ -2443,12 +2460,14 @@ ProgressBar_sourcecontrolgit_checkout,Checking Out...,Checking Out...,,Checkout 
 ProgressBar_sourcecontrolgit_revert_files,Reverting Files...,Reverting Files...,,Revert Files progress label
 ProgressBar_sourcecontrolgit_revert_revision,Reverting Revision...,Reverting Revision...,,Revert Revision progress label
 ProgressBar_sourcecontrolgit_clone,Cloning...,Cloning...,,Clone progress label
+ExternalEditor_FailedToOpen,Failed to open external editor {0}.,Failed to open external editor {0}.,,Failed to open external editor message
 desktop_slowclicktime,Slow double-click time (ms),Slow double-click time (ms),,Slow double-click time in milliseconds
 desktop_scrolllocktime,Scroll lock time (ms),Scroll lock time (ms),,The time in milliseconds to lock scrolling to the gadget scrolling started on as long as the mouse is still over it
 desktop_acpowerspeed,AC power framerate (%),AC power framerate (%),,Speed of IDE while running on AC power
 desktop_batterypowerspeed,Battery power framerate (%),Battery power framerate (%),,Speed of IDE while running on battery power
 desktop_focuspowerspeed,Background framerate (%),Background framerate (%),,% when application is not in focus
 desktop_scrollspeed,Scroll speed,Scroll speed,,scroll speed preference
+desktop_textselectionbias,Add bias to text selection to prevent line jumping,Add bias to text selection to prevent line jumping,,Text selection bias
 folderwatcher_frequency,File watcher frequency (ms),File watcher frequency (ms),,File watcher frequency in milliseconds
 folderwatcher_laptopfrequency,Laptop file watcher frequency (ms),Laptop file watcher frequency (ms),,File watcher frequency in milliseconds on laptops
 ggs_enable_steam,Enable steam,Enable steam,,Enable Steam
@@ -2474,23 +2493,21 @@ TargetSelection_Config,Config:,Config:,,the list title for target selecting conf
 TargetSelection_Device,Device:,Device:,,the list title for target selecting device
 TargetSelection_Runtime,Output:,Output:,,the list title for target selecting runtime
 TargetSelection_Platform_Test,Test,Test,,the teset platform title in the platform selection list
-TargetSelection_Platform_Windows,Windows,Windows,,the windows platform title in the platform selection list
-TargetSelection_Platform_windowsuap,Windows UWP,Windows UWP,,the windows uwp platform title in the platform selection list
-TargetSelection_Platform_WinPhone8,Windows Phone 8,Windows Phone 8,,the windows phone platform title in the platform selection list
-TargetSelection_Platform_Mac,macOS,macOS,,the mac platform title in the platform selection list
-TargetSelection_Platform_Linux,Ubuntu,Ubuntu,,the linux platform title in the platform selection list
-TargetSelection_Platform_HTML5,HTML5,HTML5,,the html5 platform title in the platform selection list
-TargetSelection_Platform_android,Android,Android,,the android platform title in the platform selection list
-TargetSelection_Platform_AmazonFire,Amazon Fire,Amazon Fire,,the Amazon Fire platform title in the platform selection list
-TargetSelection_Platform_ios,iOS,iOS,,the apple iOS platform title in the platform selection list
-TargetSelection_Platform_AppleTV,tvOS,tvOS,,the apple tvOS platform title in the platform selection list
-TargetSelection_Platform_ps3,PlayStation 3,PlayStation 3,,the ps3 platform title in the platform selection list
+TargetSelection_Platform_Windows,Windows,Windows,DO NOT TRANSLATE,the windows platform title in the platform selection list
+TargetSelection_Platform_windowsuap,Windows UWP,Windows UWP,DO NOT TRANSLATE,the windows uwp platform title in the platform selection list
+TargetSelection_Platform_WinPhone8,Windows Phone 8,Windows Phone 8,DO NOT TRANSLATE,the windows phone platform title in the platform selection list
+TargetSelection_Platform_Mac,macOS,macOS,DO NOT TRANSLATE,the mac platform title in the platform selection list
+TargetSelection_Platform_Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,the linux platform title in the platform selection list
+TargetSelection_Platform_HTML5,HTML5,HTML5,DO NOT TRANSLATE,the html5 platform title in the platform selection list
+TargetSelection_Platform_android,Android,Android,DO NOT TRANSLATE,the android platform title in the platform selection list
+TargetSelection_Platform_AmazonFire,Amazon Fire,Amazon Fire,DO NOT TRANSLATE,the Amazon Fire platform title in the platform selection list
+TargetSelection_Platform_ios,iOS,iOS,DO NOT TRANSLATE,the apple iOS platform title in the platform selection list
+TargetSelection_Platform_tvos,tvOS,tvOS,DO NOT TRANSLATE,the apple tvOS platform title in the platform selection list
 TargetSelection_Platform_ps4,PlayStation 4,PlayStation 4,,the ps4 platform title in the platform selection list
-TargetSelection_Platform_psvita,PlayStation Vita,PlayStation Vita,,the ps vita platform title in the platform selection list
-TargetSelection_Platform_xboxone,Xbox One,Xbox One,,the xbox one platform title in the platform selection list
-TargetSelection_Runtime_VM,VM,VM,, the vm title in the runtime selection list
-TargetSelection_Runtime_YYC,YYC,YYC,, the yyc title in the runtime selection list
-TargetSelection_Runtime_Javascript,JavaScript,JavaScript,, the javascript title in the runtime selection list
+TargetSelection_Platform_xboxone,Xbox One,Xbox One,DO NOT TRANSLATE,the xbox one platform title in the platform selection list
+TargetSelection_Runtime_VM,VM,VM,, the VM (Virtual Machine) title in the runtime selection list
+TargetSelection_Runtime_YYC,YYC,YYC,DO NOT TRANSLATE, the yyc title in the runtime selection list
+TargetSelection_Runtime_Javascript,JavaScript,JavaScript,DO NOT TRANSLATE, the javascript title in the runtime selection list
 TargetSelection_Device_Local,Local,Local,, the local device title in the device selection list
 TargetSelection_Device_Default,Default,Default,, the default device title in the device selection list
 TargetSelection_Device_Device,Device,Device,, the 'device' device title in the device selection list
@@ -2527,7 +2544,7 @@ SplashScreen_PluginLoadFailedTitle,Failed to load a required plug-in,Failed to l
 SplashScreen_LaunchProjectNotFound,Project '{0}' does not exist,Project '{0}' does not exist,,Message dialog when the program was launched with a file command argument but the file was not found
 SplashScreen_LaunchProjectInvalid,'{0}' is not a valid GameMaker Studio 2 project,'{0}' is not a valid GameMaker Studio 2 project,,Message dialog when the program was launched with a file command argument of a non .yyp file
 SplashScreen_LaunchProjectFailed,Launch Project Failed,Launch Project Failed,,Message dialog title when the program was launched with a file command argument but it has failed
-LicensedModulesError,Your license does not have this module enabled,Your license does not have this module enabled,,Message Dialog for when a user tries to build/run a target their license doesn't have
+LicensedModulesError,Your licence does not have this module enabled,Your licence does not have this module enabled,,Message Dialog for when a user tries to build/run a target their licence doesn't have
 DnD_Pref_ToolboxLocation,DnD™ toolbox default location,DnD™ toolbox default location,,DnD™ pref
 DnD_Pref_StoryMode,DnD™ node overview visibility mode,DnD™ node overview visibility mode,,DnD™ pref
 DnD_Pref_CollapseToolbox,Hide docked DnD™ toolboxes if floating DnD™ toolbox is open,Hide docked DnD™ toolboxes if floating DnD™ toolbox is open,,DnD™ pref
@@ -2609,7 +2626,7 @@ android_keystorepath,Path to Keystore,Path to Keystore,,Path to Keystore
 android_keystore_warning1,IMPORTANT! Backup keystore files and info above!,IMPORTANT! Backup keystore files and info above!,,IMPORTANT! Backup keystore files and info above!
 android_keystore_warning2,"If lost, you cannot submit app updates to Google Play or Amazon","If lost, you cannot submit app updates to Google Play or Amazon",,If lost you cannot submit app updates to Google Play or Amazon
 android_package_name_invalid_title,Package name is invalid,Package name is invalid,,Android package name is invalid
-android_package_name_invalid,Individual package name parts may only start with a letter,Individual package name parts may only start with a letter,,Android package name is invalid message and why
+android_package_name_invalid,Individual package name parts may only start with a letter and cannot be a reserved Java keyword,Individual package name parts may only start with a letter and cannot be a reserved Java keyword,,Android package name is invalid message and why
 clearoutputwindowoncompile,Clear output window on compile start,Clear output window on compile start,,Option to clear the output window on each compile
 openpackagesinexplorer,Show package in ${explorer} on build completion,Show package in ${explorer} on build completion,,Setting in Preferences General Compiling
 Build_StopBeforeRun,Stop the current running project before running again?,Stop the current running project before running again?,,Stop the current running project before running again?
@@ -2627,10 +2644,14 @@ maxparalleljobscompiling,Maximum parallel compile jobs,Maximum parallel compile 
 debugyycwarning,Automatic response to warning when attempting to debug YYC,Automatic response to warning when attempting to debug YYC,,Preference to turn off the dialog warning the user that this run action will be completed in the VM not YYC
 UseDefaultLicenseAgreement,Use Default License Agreement,Use Default License Agreement,,Use Default License Agreement
 UseDefaultNSISScript,Use Default NSIS Script,Use Default NSIS Script,,Use Default NSIS Script
-ObjectEditor_DefaultCodeComment,/// @description Insert description here\n// You can write your code in this editor,/// @description Insert description here\n// You can write your code in this editor,,Object editor module default text for new events
+ObjectEditor_DefaultCodeComment,/// @description Insert description here\n// You can write your code in this editor,/// @description Insert description here\n// You can write your code in this editor,Do not translate @description and leave in /// and // at the start of each line,Object editor module default text for new events
 ObjectEditor_DefaultEventComment,Default event content,Default event content,,Default Code Event Comment to use
 ObjectEditor_ShowDefaultHelpPref,Add default event content,Add default event content,,Object editor module default text preference
 ObjectEditor_InheritedEventAlpha,Inherited Events Alpha,Inherited Events Alpha,,object editor ghosted events alpha setting
+ObjectEditor_EventFormatPref,Event label format (unchecked items are shown in the tooltip),Event label format (unchecked items are shown in the tooltip),,event label format preference title
+EventLabelFormat_Name,Event Name,Event Name,,event label format name item
+EventLabelFormat_Description,Event Description,Event Description,,event label format description item
+EventLabelFormat_ParentObject,Parent Object,Parent Object,,event label format parent object item
 DnD_ReservedTagName,The tag name {0} is reserved and cannot be used.,The tag name {0} is reserved and cannot be used.,,DnDGadget reserved tag name warning
 DnD_ReservedTagName_Title,Reserved Tag Name,Reserved Tag Name,,DnDGadget reserved tag name warning message title
 Room_InvalidDepthsImportedLog,"Imported layer depths for room(s) '{0}' were not adequately spaced. Unless updated this will have undefined results in game.","Imported layer depths for room(s) '{0}' were not adequately spaced. Unless updated this will have undefined results in game.",,conversion log message where layer depths are invalid and have not been adjusted
@@ -3087,7 +3108,7 @@ DnDToolbox_Menu_Favorite,Make Favourite,Make Favourite,,DnD™ Toolbox make favo
 DnDToolbox_Menu_RemoveFav,Remove Favourite,Remove Favourite,,DnD™ Toolbox remove favourite
 DnDToolbox_Menu_ClearRecentlyUsed,Clear Recently Used,Clear Recently Used,,DnD™ Toolbox clear recently used
 DnDToolbox_Menu_ClearFavs,Clear Favourites,Clear Favourites,,DnD™ Toolbox clear favourites
-SourceControlGit_FileLock,One or more files are locked. Please check that none of the files are open in external programs. Do you want to try again?,One or more files are locked. Please check that none of the files are open in external programs. Do you want to try again?,,Files locked and need to try again
+SourceControlGit_FileLock,One or more files may be locked. Please check that none of the files are open in external programs. Do you want to try again?,One or more files may be locked. Please check that none of the files are open in external programs. Do you want to try again?,,Files potentially locked and need to try again
 SourceControlGit_Error,Source Control (Git) Error,Source Control (Git) Error,,Error with Source Control (Git)
 SourceControlGit_ProjectBreakRetry,"Be aware that this may have broken your project, as the command was not successful and you have chosen not to retry it.","Be aware that this may have broken your project, as the command was not successful and you have chosen not to retry it.",,Project may be broken warning due to command failing and choosing not to retry
 SourceControlGit_ServerNotFound,Server '{0}' has not been found,Server '{0}' has not been found,,Server has not been found error
@@ -3961,7 +3982,7 @@ StartPage_Web_InheritFromProject,Inherit Project,Inherit Project,,Start page loc
 StartPage_Web_ViewReleaseNotes,To view release notes for this and previous versions,To view release notes for this and previous versions,,Start page localised web content
 StartPage_Web_RecentProjects,Recent Projects,Recent Projects,,Start page localised web content
 StartPage_Web_RecentTutorials,Recent Tutorials,Recent Tutorials,,Start page localised web content
-StartPage_Web_Licenses,Licenses,Licenses,,Start page localised web content
+StartPage_Web_Licenses,Licences,Licences,,Start page localised web content
 StartPage_Web_ReleaseNotes,Release Notes,Release Notes,,Start page localised web content
 StartPage_Web_OwnedTutorials,Owned,Owned,,Start page localised web content
 StartPage_Web_FilterByInstalled,Filter by installed,Filter by installed,,Start page localised web content
@@ -4067,7 +4088,7 @@ room_frozenlayerchoice,Automatic response to layer locked warning,Automatic resp
 room_frozenownerlayerchoice,Automatic response to item owner layer locked warning,Automatic response to item owner layer locked warning,,preference acceptance or show dialog message for editing items within locked layers
 TextureAudioGroups_NoneParent,None,None,,No parent
 SettingsVertexLimit,Automatic response to exceeding physics vertex limit,Automatic response to exceeding physics vertex limit,,Settings box2d vertex limit
-EventInherited_RequireModifierLookup,Ctrl+MMB to open the inherited event instead of the manual.,Ctrl+MMB to open the inherited event instead of the manual.,,event_inherited lookup modifier on/off
+EventInherited_RequireModifierLookup,${ctrl}+MMB to open the inherited event instead of the manual.,${ctrl}+MMB to open the inherited event instead of the manual.,,event_inherited lookup modifier on/off
 VertexLimitWarning,A physics shape cannot have more than 8 points.,A physics shape cannot have more than 8 points.,,Vertex limit physics warning message
 VertexLimitWarning_Title,Warning,Warning,,Above message title
 ObjectEditor_DropParentHere,Drop here to assign parent,Drop here to assign parent,,Drop message for object parent
@@ -4246,6 +4267,20 @@ Debugger_GraphView_Tags_WindowTitle,Debug Events - Tick {0},Debug Events - Tick 
 Debugger_IPDialog_Title,Device IP Required,Device IP Required,,Debugger IP Address dialog title
 Debugger_IPDialog_Message,Target Device IP is required to connect the debugger,Target Device IP is required to connect the debugger,,Debugger IP Address dialog message
 Debugger_IPDialog_Button,Open Device Settings,Open Device Settings,,Debugger IP Address button caption
+Debugger_AttachToProgramDialog_Title,Enter Debugger Connection String,Enter Debugger Connection String,,Debugger Connection dialog title
+Debugger_AttachToProgramDialog_Message,Debugger Connection String,Debugger Connection String,,Debugger Connection String
+Debugger_AttachToProgramDialog_Button,Connect,Connect,,Debugger Attach to Program button caption
+Debugger_AttachToProgram_YYDebugFile,.yydebug File,.yydebug File,,yydebug file caption
+Debugger_AttachToProgram_YYDebugFile_Tooltip,The location of the yydebug file for the program to connect to,The location of the yydebug file for the program to connect to,,yydebug file location tooltop
+Debugger_AttachToProgram_YYDebugFile_Extension,yydebug,yydebug,,yydebug file extension
+Debugger_AttachToProgram_Host,Name/IP,Name/IP,,hostname or IP of machine the program is running on
+Debugger_AttachToProgram_Host_Tooltip,The host name or IP address the program is running on,The host name or IP address the program is running on,,Tool tip for Name/IP
+Debugger_AttachToProgram_Port,Port,Port,,Port the debugger is listening on
+Debugger_AttachToProgram_Port_Tooltip,The port the debugger should connect to,The port the debugger should connect to,,Port the debugger should connect on tooltip
+Debugger_AttachToProgram_Error_Title,Error,Error,,Title for the error dialog shown when the attach to program dialog is filled out incorrectly
+Debugger_AttachToProgram_Error_YYDebugFile,Cannot find yydebug file specified.  Cancelling debugger connection.,Cannot find yydebug file specified.  Cancelling debugger connection.,,Error shown when the yydebug file is not correct
+Debugger_AttachToProgram_Error_Host,Name/IP is invalid.  Cancelling debugger connection.,Name/IP is invalid.  Cancelling debugger connection.,,Error shown when the IP/Name is not correct
+Debugger_AttachToProgram_Error_Port,Port is invalid.  Cancelling debugger connection.,Port is invalid.  Cancelling debugger connection.,,Error shown when the port number is invalid
 Debugger_Watches_AddNewWatch,Add new watch...,Add new watch...,,Watches add new text
 Debugger_OnlyAvailableWindows,Only available with Windows target,Only available with Windows target,,selected instance windows only message
 Debugger_CloseMessage_NoGame,This will close the debugger and permanently discard all collected data.,This will close the debugger and permanently discard all collected data.,,Close debugger without a running game
@@ -4254,6 +4289,10 @@ Debugger_Pref_AutomaticCloseChoice,Automatic response to closing the debugger,Au
 Debugger_CodeError,Code Error,Code Error,,debugger code error dialog title
 Debugger_FetchingTextures,Fetching images...,Fetching images...,,debugger texture image fetch label
 Debugger_RefreshTextures_Tooltip,Load texture/surface images from the target,Load texture/surface images from the target,,debugger texture refresh button tooltip
+Textview_Title,Text Viewer,Text Viewer,,text view window title
+Textview_Expression,Expression:,Expression:,,text viewer expression label
+Textview_Value,Value:,Value:,,text viewer value label
+Textview_Wrap,Wrap,Wrap,,wrap checkbox label
 Help_BufferId,"The buffer id is an integer value starting at zero and increments when a new buffer is created.\nView the contents of the buffer with a given id.","The buffer id is an integer value starting at zero and increments when a new buffer is created.\nView the contents of the buffer with a given id.",,Help tip
 Help_eProfileFilterType_eGML,"Show only samples for my code, excluding the underlying engine code.","Show only samples for my code, excluding the underlying engine code.",,Help tip
 Help_eProfileFilterType_eEngine,"Show only samples for the underlying engine code, excluding my code.","Show only samples for the underlying engine code, excluding my code.",,Help tip
@@ -4366,6 +4405,7 @@ Marketplace_MyLibrary_Empty,Your library is empty.,Your library is empty.,,Empty
 Marketplace_MyLibrary_ClickToBrowse,Click here to browse the marketplace.,Click here to browse the marketplace.,,Click to browse marketplace
 StartPage_Offline,This link cannot be opened as you are currently offline.,This link cannot be opened as you are currently offline.,,User is offline and trying to open an external url
 debuggerporttouse,Debugger port,Debugger port,,Port for Debugger to use label in Settings
+debuggershoweventicons,Show event icons in Debugger Resource View,Show event icons in Debugger Resource View,,debugger show event icons pref
 realtimedebugging,Enable real-time debugging,Enable real-time debugging,,Enable real-time debugging label in Settings
 syntaxcheckingdelay,Syntax Checking delay (ms),Syntax Checking delay (ms),,Syntax Checking delay (ms) setting label
 codecompletiondelay,Code Completion delay (ms),Code Completion delay (ms),,Code Completion delay (ms) setting label
@@ -4651,19 +4691,20 @@ Graphics,Graphics,Graphics,,Graphics options group heading
 Images,Images,Images,,Images options group heading
 Installer,Installer,Installer,,Installer options group heading
 Packaging,Packaging,Packaging,,Packaging options group heading
-Android,Android,Android,,Android preference group subheading
-HTML5,HTML5,HTML5,,HTML5 preference group subheading
-iOS,iOS,iOS,,iOS preference group subheading
-macOS,macOS,macOS,,macOS preference group subheading
-PS4,PlayStation 4,PlayStation 4,,PlayStation 4 preference group subheading
-PlayStation 4,PlayStation 4,PlayStation 4,,PlayStation 4 preference group subheading
-Steam,Steam,Steam,,Steam preference group subheading
-Windows,Windows,Windows,,Windows preference group subheading
-Windows UWP,Windows UWP,Windows UWP,,Windows UWP preference group subheading
-Xbox One,Xbox One,Xbox One,,Xbox One preference group subheading
-XBox One,Xbox One,Xbox One,,Xbox One preference group subheading
-Linux,Ubuntu,Ubuntu,,Ubuntu preference group subheading
-Xbox Live,Xbox Live,Xbox Live,,Xbox Live options group subheading
+Android,Android,Android,DO NOT TRANSLATE,Android preference group subheading
+HTML5,HTML5,HTML5,DO NOT TRANSLATE,HTML5 preference group subheading
+iOS,iOS,iOS,DO NOT TRANSLATE,iOS preference group subheading
+macOS,macOS,macOS,DO NOT TRANSLATE,macOS preference group subheading
+Mac,macOS,macOS,DO NOT TRANSLATE,macOS preference group subheading for the old version where it was called Mac
+PS4,PlayStation 4,PlayStation 4,DO NOT TRANSLATE,PlayStation 4 preference group subheading
+PlayStation 4,PlayStation 4,PlayStation 4,DO NOT TRANSLATE,PlayStation 4 preference group subheading
+Steam,Steam,Steam,DO NOT TRANSLATE,Steam preference group subheading
+Windows,Windows,Windows,DO NOT TRANSLATE,Windows preference group subheading
+Windows UWP,Windows UWP,Windows UWP,DO NOT TRANSLATE,Windows UWP preference group subheading
+Xbox One,Xbox One,Xbox One,DO NOT TRANSLATE,Xbox One preference group subheading
+XBox One,Xbox One,Xbox One,DO NOT TRANSLATE,Xbox One preference group subheading
+Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,Ubuntu preference group subheading
+Xbox Live,Xbox Live,Xbox Live,DO NOT TRANSLATE,Xbox Live options group subheading
 Dialogue Editor,Dialog Editor,Dialog Editor,,Dialog Editor preference group subheading
 Options,Options,Options,,Options preference group subheading
 Ratings,Ratings,Ratings,,Ratings option group subheading
@@ -4678,19 +4719,19 @@ Icons,Icons,Icons,,Icons option group subheading
 Social,Social,Social,,Social option group subheading
 Facebook,Facebook,Facebook,,Facebook option group subheading
 iPhone,iPhone,iPhone,,iPhone option group subheading
-iPhone Retina,iPhone Retina,iPhone Retina,,iPhone Retina option group subheading
-iPhone 5,iPhone 5,iPhone 5,,iPhone 5 option group subheading
-iPhone 6,iPhone 6,iPhone 6,,iPhone 6 option group subheading
-iPhone 6+,iPhone 6+,iPhone 6+,,iPhone 6+ option group subheading
-iPad,iPad,iPad,,iPad option group subheading
-iPad Retina,iPad Retina,iPad Retina,,iPad Retina option group subheading
+iPhone Retina,iPhone Retina,iPhone Retina,DO NOT TRANSLATE iPhone,iPhone Retina option group subheading
+iPhone 5,iPhone 5,iPhone 5,DO NOT TRANSLATE,iPhone 5 option group subheading
+iPhone 6,iPhone 6,iPhone 6,DO NOT TRANSLATE,iPhone 6 option group subheading
+iPhone 6+,iPhone 6+,iPhone 6+,DO NOT TRANSLATE,iPhone 6+ option group subheading
+iPad,iPad,iPad,DO NOT TRANSLATE,iPad option group subheading
+iPad Retina,iPad Retina,iPad Retina,DO NOT TRANSLATE iPad,iPad Retina option group subheading
 Permissions,Permissions,Permissions,,Permissions option group subheading
 Architecture,Architecture,Architecture,,Architecture option group subheading
-Android TV,Android TV,Android TV,,Android TV option group subheading
-Google,Google,Google,,Google option group subheading
-Amazon,Amazon,Amazon,,Amazon option group subheading
+Android TV,Android TV,Android TV,DO NOT TRANSLATE,Android TV option group subheading
+Google,Google,Google,DO NOT TRANSLATE,Google option group subheading
+Amazon,Amazon,Amazon,DO NOT TRANSLATE,Amazon option group subheading
 Analytics,Analytics,Analytics,,Analytics option group subheading
-Flurry,Flurry,Flurry,,Flurry option group subheading
+Flurry,Flurry,Flurry,DO NOT TRANSLATE,Flurry option group subheading
 Logo,Logo,Logo,,Logo option group subheading
 App Store,App Store,App Store,,App Store option group subheading
 Advanced,Advanced,Advanced,,Advanced option group subheading
@@ -4706,7 +4747,7 @@ Pref_Visual_Studio_Path,Visual Studio Path,Visual Studio Path,,Visual Studio Pat
 ggs_share_overlay,"Share Overlay (128x128, 64x64, 256x128, 256x64)","Share Overlay (128x128, 64x64, 256x128, 256x64)",,Share Overlay image for playstation 4 caption
 Button_Preview,Preview,Preview,,Preview button caption
 Main,Main,Main,,Main option group subheading
-Run_Timer_Format,d' Days 'h' Hours 'm' Minutes 's' Seconds',d' Days 'h' Hours 'm' Minutes 's' Seconds',,time format to display in run timer
+Run_Timer_Format,d' Days 'h' Hours 'm' Minutes 's' Seconds',d' Days 'h' Hours 'm' Minutes 's' Seconds',"Do not change d,h,m or s as these are formatting tags",time format to display in run timer
 Device_Manager_Platform,Platform,Platform,,Platform selector title for device manager
 Server,Server,Server,,Server preference group subheading
 Console,Console,Console,,Console preference group subheading
@@ -4827,6 +4868,8 @@ SyntaxError_MalformedVarRef,malformed variable reference got {0},malformed varia
 SyntaxError_MultiAssignment,assignment to multi-relational-equality expression - GML does not support multiple assignments in an expression,assignment to multi-relational-equality expression - GML does not support multiple assignments in an expression,,syntax error
 SyntaxError_Info,"{0} at line {1}, {2} : {3}","{0} at line {1}, {2} : {3}",,"syntax error displayed to user (0 - source, 1 - line num, 2 - character num, 3 - error description)"
 CompileError_Info,"{0} at line {1} : {2}","{0} at line {1} : {2}",,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
+CompileError_ObjVar_WrongType,Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),,Object variable wrong type error
+CompileError_ObjVar_WrongTypeRoom,Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),,Object variable wrong type error in room instances
 CompileError_ObjVar,Undefined variable '{0}' referenced in {1}'s variable '{2}',Undefined variable '{0}' referenced in {1}'s variable '{2}',,Object variable undefined reference error
 CompileError_InstVar,Undefined variable '{0}' referenced in room {3} in instance {1}'s variable '{2}',Undefined variable '{0}' referenced in room {3} in instance {1}'s variable '{2}',,Instance variable undefined reference error
 CompileError_Script,Script: {0},Script: {0},,script error
@@ -4888,20 +4931,23 @@ UserLogin_LicenceInvalidLocalDetail,"Licence local id doesn't match expected for
 UserLogin_LicenceInvalidDetail,"Licence doesn't match expected format - please login again.\nIf you keep seeing this message contact the helpdesk at account.yoyogames.com/report-bug","Licence doesn't match expected format - please login again.\nIf you keep seeing this message contact the helpdesk at account.yoyogames.com/report-bug",,licence invalid error
 UserLogin_InvalidExpiryDetail,Cannot parse the expiry date,Cannot parse the expiry date,,licence expiry error
 UserLogin_Expired,Licence has expired,Licence has expired,,licence expired error
+UserLogin_ExpiredDetail,Re-login to update local licence,Re-login to update local licence,,local licence has expired and user needs to re-login to server for new licence
 UserLogin_SessionIDDetail,Session id differs,Session id differs,,session id error
 UserLogin_DeviceIDDetail,Device id differs,Device id differs,,device id error
 UserLogin_SignatureDetail,Signature is invalid,Signature is invalid,,signature error
 UserLogin_ServerError,Error ({0}) - {1},Error ({0}) - {1},,server response error
 UserLogin_Exception,Exception - {0},Exception - {0},,exception error
-UserLogin_MachineIDMismatchDetail,local Machine ID mismatch,local Machine ID mismatch,,machine id mismatch error
-UserLogin_MachineIDMissingDetail,local Machine ID missing,local Machine ID missing,,machine id missing error
+UserLogin_MachineIDMismatchDetail,Local Machine ID mismatch,Local Machine ID mismatch,,machine id mismatch error
+UserLogin_MachineIDMissingDetail,Local Machine ID missing,Local Machine ID missing,,machine id missing error
+UserLogin_LicenceNoBuildAccessDetail,Licence does not have permission to access this build,Licence does not have permission to access this build,,message when user licence is not allowed to access a particular build
 UserLogin_OfflineError,Unable to take user offline,Unable to take user offline,,offline error
 UserLogin_NoConnection,Unable to login - no network connection,Unable to login - no network connection,,connection error
 UserLogin_SteamError,Unable to login - failed to get a Steam session ticket,Unable to login - failed to get a Steam session ticket,,steam error
 UserLogin_ServerConnectionError,"Unable to login - server error, allowing offline","Unable to login - server error, allowing offline",,server connection error
-UserLogin_SaveFailed,Failed to save license file {0} - result {1}({2}),Failed to save license file {0} - result {1}({2}),,save failed error
-UserLogin_SaveFailedNoResult,Failed to save license file {0} - no result,Failed to save license file {0} - no result,,save failed error
+UserLogin_SaveFailed,Failed to save licence file {0} - result {1}({2}),Failed to save licence file {0} - result {1}({2}),,save failed error
+UserLogin_SaveFailedNoResult,Failed to save licence file {0} - no result,Failed to save licence file {0} - no result,,save failed error
 UserLogin_LicenceStatus,Status: {0},Status: {0},,licence status error
+UserLogin_RestartForCustomFeed,You have a new IDE update feed available. \nWould you like to restart and check for updates?,You have a new IDE update feed available. \nWould you like to restart and check for updates?,,message when a user has a custom ide feed available
 SearchResult_Info,{0} at line {1}: \t{2},{0} at line {1}: \t{2},,search result information
 UserLogin_ManageDevices,My Account,My Account,,ok button caption for too many devices error
 Amazon Fire,Amazon Fire,Amazon Fire,,Amazon Fire label
@@ -4935,8 +4981,8 @@ amazonfire_nodevices_messages,There were no Amazon Fire devices detected.,There 
 device_manager_error,Device Manager Error,Device Manager Error,,Error message title for Device Manager
 device_manager_devicesjson_locked,The devices.json is locked.\nPlease ensure no other application is trying to read or write to this and try again.,The devices.json is locked.\nPlease ensure no other application is trying to read or write to this and try again.,,devices.json is locked and we can't access it
 platformdevice_authorisation_required,The device with serial id: {0} requires authorisation.\nPlease check the device.,The device with serial id: {0} requires authorisation.\nPlease check the device.,,Authorisation required on device so prompt the user to check it
-Addon_FailedPlatformCheckTitle,Addon requires additional licenses,Addon requires additional licenses,,Title for the failed platform check when attempting to download an addon
-Addon_DefaultFailedPlatformCheckMessage,"Unfortunately, this addon is not available for the licenses you currently own.\nDo you want to go to your account to view your licenses?","Unfortunately, this addon is not available for the licenses you currently own.\nDo you want to go to your account to view your licenses?",,Message to display by default when the platform check fails
+Addon_FailedPlatformCheckTitle,Addon requires additional licences,Addon requires additional licences,,Title for the failed platform check when attempting to download an addon
+Addon_DefaultFailedPlatformCheckMessage,"Unfortunately, this addon is not available for the licences you currently own.\nDo you want to go to your account to view your licences?","Unfortunately, this addon is not available for the licences you currently own.\nDo you want to go to your account to view your licences?",,Message to display by default when the platform check fails
 RoomEditor_InheritLayerDepthToolTip,Inherit Layer Depth,Inherit Layer Depth,,tooltip for inherit layer depth
 RoomEditor_InheritCreationOrderToolTip,Inherit Creation Order,Inherit Creation Order,,tooltip for inherit creation order
 RoomEditor_InheritGraphicToolTip,Inherit Graphic Properties,Inherit Graphic Properties,,tooltip for inherit graphic properties
@@ -4948,7 +4994,7 @@ RoomEditor_InheritTileLayerToolTip,Inherit Tile Properties,Inherit Tile Properti
 RoomEditor_InheritPathToolTip,Inherit Path Properties,Inherit Path Properties,,tooltip for inherit path properties
 RoomEditor_InheritLayersToolTip,Inherit Layers,Inherit Layers,,tooltip for inherit layers
 Error_InvalidProjectName,The project name '{0}' contains the following unsupported characters: '{1}'.\nPlease try a different name.,The project name '{0}' contains the following unsupported characters: '{1}'.\nPlease try a different name.,,Error that the user has chosen a project name that won't work on Windows
-Addon_AmazonFireFailedPlatformCheckMessage,"This addon requires the Amazon Fire or Mobile licenses.\nDo you want to go to your account to check your availability of these?","This addon requires the Amazon Fire or Mobile licenses.\nDo you want to go to your account to check your availability of these?",,Message to display when the Amazon Fire addon fails the platform check
+Addon_AmazonFireFailedPlatformCheckMessage,"This addon requires the Amazon Fire or Mobile licences.\nDo you want to go to your account to check your availability of these?","This addon requires the Amazon Fire or Mobile licences.\nDo you want to go to your account to check your availability of these?",,Message to display when the Amazon Fire addon fails the platform check
 RuntimeTarget_Error,Error with Runtime,Error with Runtime,,Error about the current active Runtime
 RuntimeTarget_LowerThanBaseline,The current runtime ({0}) is lower than the baseline required ({1}).\nPlease update your runtime to {1} or higher.,The current runtime ({0}) is lower than the baseline required ({1}).\nPlease update your runtime to {1} or higher.,,Message to tell user to update their runtime
 Notification_Renewals,Licence Renewal,Licence Renewal,,the notification category for licence renewals
@@ -4994,3 +5040,143 @@ sourcecontrolgit_auth_ssh_failed_import,No Valid SSH KeyPair Authentication deta
 sourcecontrolgit_import_project_success,Successfully imported project,Successfully imported project,,Success message for importing a project
 iosiconupdate_title,iOS Icons Require Updating,iOS Icons Require Updating,,Title for iOS Icons requiring an update
 iosiconupdate_message,"Due to iOS submission requirement changes, Options > iOS > Icons image sizes are now different and your current icons need to be recreated at the correct sizes. Tools > Generate Project Images can help quickly fix this.","Due to iOS submission requirement changes, Options > iOS > Icons image sizes are now different and your current icons need to be recreated at the correct sizes. Tools > Generate Project Images can help quickly fix this.",,iOS Icon update message
+Import_BadYYP_Title,External Project File Error,External Project File Error,,The external project file has errors
+Import_BadYYP_Message,The external project file cannot be read to import this resource,The external project file cannot be read to import this resource,,External project file cannot be read
+ggs_xboxone_x_title_memory,Xbox One X title memory (GB),Xbox One X title memory (GB),,the xbox one option for how much memory to dedicate to this app
+ggs_xboxone_x_title_memory_tooltip,The amount of memory in gigabytes to dedicate to this game on XBox One X \nAllows games to take advantage of full xbox one x available memory or request less to improve load times,The amount of memory in gigabytes to dedicate to this game on XBox One X \nAllows games to take advantage of full xbox one x available memory or request less to improve load times,,tooltip for xbox one x dedicated memory
+DESC_SEC_INSTALL,"Install ${APP_NAME}.","Install ${APP_NAME}.",,Installer Text
+DESC_SEC_SHORTCUTS,"Setup Start Menu shortcuts for All Users.","Setup Start Menu shortcuts for All Users.",,Installer Text
+DESC_SEC_DESKTOP_SHORTCUT,"Setup Desktop shortcut for All Users.","Setup Desktop shortcut for All Users.",,Installer Text
+DESC_SEC_FILE_ASSOCIATIONS,"Setup file associations for Project Files (.yyp) and Compressed Project Files (.yyz).","Setup file associations for Project Files (.yyp) and Compressed Project Files (.yyz).",,Installer Text
+DESC_SEC_DOTNET,"Install Microsoft Dot NET 3.5sp1 and 4.5 Frameworks.","Install Microsoft Dot NET 3.5sp1 and 4.5 Frameworks.",,Installer Text
+DESC_SEC_VCREDIST,"Install Microsoft Visual Studio 2012 and 2015 C++ x64 runtimes.","Install Microsoft Visual Studio 2012 and 2015 C++ x64 runtimes.",,Installer Text
+DESC_SEC_NGEN,"Optimise the executable and add to the Global Assembly Cache.","Optimise the executable and add to the Global Assembly Cache.",,Installer Text
+DESC_DESKTOPSHORTCUT,"Desktop Shortcuts","Desktop Shortcuts",,Installer Tick box install menu
+DESC_OPTIMISEEXE,"Optimise Executable","Optimise Executable",,Installer Tick box install menu
+DESC_STARTMENU,"Start Menu Shortcuts","Start Menu Shortcuts",,Installer Tick box install menu
+DESC_FILEASS,"File associations","File associations",,Installer Tick box install menu
+DESC_DOTNET_INSTALL,"DotNet Install","DotNet Install",,Installer Tick box install menu
+DESC_VCDIST,"Visual C++ Redistributable","Visual C++ Redistributable",,Installer Tick box install menu
+DESC_FINISHED_FILES,"Finished files","Finished files",,Installer messages
+DESC_REG_FILE_ASC,"Register File Associations","Register File Associations",,Installer messages
+DESC_UNINSTALL_GAC,"uninstall from GAC... this may take some time","uninstall from GAC... this may take some time",,Installer messages
+DESC_FINISHED,"Finished","Finished",,Installer messages
+DESC_RUNDOTNET35,"Running Dot Net 3.5 sp1 Framework Setup...","Running Dot Net 3.5 sp1 Framework Setup...",,Installer messages
+DESC_ENDDOTNET35,"end .NET 3.5 sp1","end .NET 3.5 sp1",,Installer messages
+DESC_RUNDOTNET45,"Running Dot Net 4.5.2 Framework Setup...","Running Dot Net 4.5.2 Framework Setup...",,Installer messages
+DESC_ENDDOTNET45,"end .NET 4.5.2","end .NET 4.5.2",,Installer messages
+DESC_VS2012x86,"Running Visual Studio 2012 x86 Redistributable Setup...","Running Visual Studio 2012 x86 Redistributable Setup...",,Installer messages
+DESC_VS2012x86END,"end VS2012 x86","end VS2012 x86",,Installer messages
+DESC_VS2012x64,"Running Visual Studio 2012 x64 Redistributable Setup...","Running Visual Studio 2012 x64 Redistributable Setup...",,Installer messages
+DESC_VS2012x64END,"end VS2012 x64","end VS2012 x64",,Installer messages
+DESC_VS2015x86,"Running Visual Studio 2015 x86 Redistributable Setup...","Running Visual Studio 2015 x86 Redistributable Setup...",,Installer messages
+DESC_VS2015x86END,"end VS2015 x86","end VS2015 x86",,Installer messages
+DESC_VS2015x64,"Running Visual Studio 2015 x64 Redistributable Setup...","Running Visual Studio 2015 x64 Redistributable Setup...",,Installer messages
+DESC_VS2015x64END,"end VS2015 x64","end VS2015 x64",,Installer messages
+DESC_OPTIMISING,"Optimising executable... this may take some time","Optimising executable... this may take some time",,Installer messages
+DESC_INSTBEGIN,"runInstaller Begin","runInstaller Begin",,Installer messages
+DESC_ALLREADYINST,"${APP_NAME} is already installed. $\n$\nClick 'OK' to remove the previous version or 'Cancel' to cancel this upgrade." ,"${APP_NAME} is already installed. $\n$\nClick 'OK' to remove the previous version or 'Cancel' to cancel this upgrade." ,,Installer prompt to uninstall first
+DESC_ERRORSFOUND,"errors found in uninstall","errors found in uninstall",,Installer - Uninstaller errors found
+DESC_IDERUNNING,"Check IDE still running (i.e. cancelled from Uninstall)","Check IDE still running (i.e. cancelled from Uninstall)",,Installer messages
+DESC_IDERUNABORT,"IDE still running aborting...","IDE still running aborting...",,Installer messages
+DESC_UNINSTALLDONE,"runUnInstaller Done","runUnInstaller Done",,Installer messages
+DESC_32BITOS,"Sorry, but ${APP_NAME} is only available for 64bit Windows this is a 32bit version of Windows","Sorry, but ${APP_NAME} is only available for 64bit Windows this is a 32bit version of Windows",,Installer messages
+DESC_APPRUNNING,"${EXEFILENAME} is running. Please close it first","${EXEFILENAME} is running. Please close it first",,Installer messages
+iOS 5/6,iOS 5/6,iOS 5/6,,iOS 5/6 heading
+iOS 7,iOS 7,iOS 7,,iOS 7 heading
+iOS 8,iOS 8,iOS 8,,iOS 8 heading
+ggs_iphone_8_55_landscape,iPhone 8 HD 5.5 Landscape,iPhone 8 HD 5.5 Landscape,,iPhone 8 HD 5.5 Landscape
+ggs_iphone_8_47_portrait,iPhone 8 HD 4.7 Portrait,iPhone 8 HD 4.7 Portrait,,iPhone 8 HD 4.7 Portrait
+ggs_iphone_8_55_portrait,iPhone 8 HD 5.5 Portrait,iPhone 8 HD 5.5 Portrait,,iPhone 8 HD 5.5 Portrait
+ggs_iphone_7_retina4_portrait,iPhone 7 Retina4 Portrait,iPhone 7 Retina4 Portrait,,iPhone 7 Retina4 Portrait
+ggs_iphone_7_2x_portrait,iPhone 7 2x Portrait,iPhone 7 2x Portrait,,iPhone 7 2x Portrait
+ggs_iphone_56_retina4_portrait,iPhone 5/6 Retina4 Portrait,iPhone 5/6 Retina4 Portrait,,iPhone 5/6 Retina4 Portrait
+ggs_iphone_56_2x_portrait,iPhone 5/6 2x Portrait,iPhone 5/6 2x Portrait,,iPhone 5/6 2x Portrait
+ggs_iphone_56_portrait,iPhone 5/6 Portrait,iPhone 5/6 Portrait,,iPhone 5/6 Portrait
+ggs_ipad_retina_7_portrait,iPad Retina iOS 7 Portrait,iPad Retina iOS 7 Portrait,,iPad Retina iOS 7 Portrait
+ggs_ipad_retina_7_landscape,iPad Retina iOS 7 Landscape,iPad Retina iOS 7 Landscape,,iPad Retina iOS 7 Landscape
+ggs_ipad_7_portrait,iPad iOS 7 Portrait,iPad iOS 7 Portrait,,iPad iOS 7 Portrait
+ggs_ipad_7_landscape,iPad iOS 7 Landscape,iPad iOS 7 Landscape,,iPad iOS 7 Landscape
+ggs_ipad_retina_56_portrait,iPad Retina iOS 5/6 Portrait,iPad Retina iOS 5/6 Portrait,,iPad Retina iOS 5/6 Portrait
+ggs_ipad_retina_56_landscape,iPad Retina iOS 5/6 Landscape,iPad Retina iOS 5/6 Landscape,,iPad Retina iOS 5/6 Landscape
+ggs_ipad_56_portrait,iPad iOS 5/6 Portrait,iPad iOS 5/6 Portrait,,iPad iOS 5/6 Portrait
+ggs_ipad_56_landscape,iPad iOS 5/6 Landscape,iPad iOS 5/6 Landscape,,iPad iOS 5/6 Landscape
+ggs_iphone_x_landscape,iPhone X Landscape,iPhone X Landscape,,iPhone X Landscape
+ggs_iphone_x_portrait,iPhone X Portrait,iPhone X Portrait,,iPhone X Portrait
+iPhone 7,iPhone 7,iPhone 7,,iPhone 7 option group subheading
+iPhone 7+,iPhone 7+,iPhone 7+,,iPhone 7+ option group subheading
+iPhone 8,iPhone 8,iPhone 8,,iPhone 8 option group subheading
+iPhone 8+,iPhone 8+,iPhone 8+,,iPhone 8+ option group subheading
+iPhone SE,iPhone SE,iPhone SE,,iPhone SE option group subheading
+iPhone X,iPhone X,iPhone X,,iPhone X option group subheading
+ResourceNode_Edit,Edit,Edit,,Edit resource from resource tree
+ResourceNode_EditAll,Edit All,Edit All,,Edit All resource from a resource tree group
+preferences_updateandroidtoolsversion,Pre-populate SDK values to chosen API Level,Pre-populate SDK values to chosen API Level,,Pre-populate SDK values to chosen API Level
+ProgressBar_DownloadManual,Downloading Manual,Downloading Manual,MAX of 18 characters,Progress bar info
+Manual_Language_Selection,Manual Language,Manual Language,,Manual Language Selection label
+LocalisedManual_NotInstalled,Would you like to download this manual?,Would you like to download this manual?,,Localised manual not installed text
+LocalisedManual_NotInstalledTitle,Localised manual not installed,Localised manual not installed,,Localised manual not installed title
+LocalisedManual_NotLocalisedTitle,Manual not localised,Manual not localised,,Manual no localised title
+LocalisedManual_NotLocalised,The manual is not currently localised for this language,The manual is not currently localised for this language,,Manual not localised message
+LocalisedManual_DownloadFailedTitle,Manual download failed,Manual download failed,,The download of the manual failed
+LocalisedManual_DownloadFailed,An error occurred while trying to download the manual,An error occurred while trying to download the manual,,Error while downloading the manual
+RuntimeDownload_FailedTitle,Runtime install incomplete,Runtime install incomplete,,Runtime download failed title
+RuntimeDownload_Failed,The selected runtime could not fully install,The selected runtime could not fully install,,Runtime download failed message
+sourcecontrolgit_noauthfound,No User/Pass authentication details found for {0},No User/Pass authentication details found for {0},,No User/Pass authentication details found for the given url
+sourcecontrolgit_nosshfound,No SSH Keypair authentication details found for {0},No SSH Keypair authentication details found for {0},,No SSH authentication details found for the given url
+sourcecontrolgit_projecthasrepository,Project already has repository!,Project already has repository!,,This project already has a repository
+sourcecontrolgit_creatingrepo,Creating Repository at {0},Creating Repository at {0},,Creating repository at the given url
+sourcecontrolgit_importingrepo,Importing Project to {0},Importing Project to {0},,Importing project to the given url
+sourcecontrolgit_nocommitsinrepoonpull,There are no commits to pull. Please commit and push first,There are no commits to pull. Please commit and push first,,There are no commits when trying to pull
+sourcecontrolgit_pull_uptodate,Up to date,Up to date,,Repostory is up to date
+sourcecontrolgit_pull_complete,Pull Complete,Pull Complete,,Pull Competed
+sourcecontrolgit_nothingtopush,There are no commits to push,There are no commits to push,,There are no commits to push
+sourcecontrolgit_push_complete,Push Complete,Push Complete,,Push Completed
+keystore_alias_password,Alias Password,Alias Password,,Alias Password Label
+ConfigurationProblem_MacDevice,Configuration Problem : No Mac device found. Check your target settings.,Configuration Problem : No Mac device found. Check your target settings.,,Configuration Problem : No Mac device found. Check your target settings.
+ConfigurationProblem_MacID,Configuration Problem : Game Options - Mac / General / App Id is not set.,Configuration Problem : Game Options - Mac / General / App Id is not set.,,Configuration problem when no mac app id set
+ConfigurationProblem_MacAppOutput,Configuration Problem : Game Options - Mac / General / App Output is not set.,Configuration Problem : Game Options - Mac / General / App Output is not set.,,Configuration Problem : Game Options - Mac / General / App Output is not set.
+ConfigurationProblem_MacSteamworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,,Configuration Problem : Steamworks SDK install not found. Check your Preferences.
+ConfigurationProblem_MacAppStoreSteam,Configuration Problem : Cannot build for Mac App Store and Steam at the same time.,Configuration Problem : Cannot build for Mac App Store and Steam at the same time.,,Configuration Problem : Cannot build for Mac App Store and Steam at the same time.
+ConfigurationProblem_MacSteamIDMissing,Configuration Problem : Mac Build for Steam selected but Steam App Id is not set.,Configuration Problem : Mac Build for Steam selected but Steam App Id is not set.,,Configuration Problem : Mac Build for Steam selected but Steam App Id is not set.
+ConfigurationProblem_MacSteamIDInvalid,Configuration Problem : Mac Build for Steam has invalid Steam App Id.,Configuration Problem : Mac Build for Steam has invalid Steam App Id.,,Configuration Problem : Mac Build for Steam has invalid Steam App Id.
+ConfigurationProblem_iOSInstallPath,Configuration Problem : iOS install path not set. Check your Preferences.,Configuration Problem : iOS install path not set. Check your Preferences.,,Configuration Problem : iOS install path not set. Check your Preferences.
+ConfigurationProblem_iOSDevice,Configuration Problem : No iOS device found. Check your target settings.,Configuration Problem : No iOS device found. Check your target settings.,,Configuration Problem : No iOS device found. Check your target settings.
+ConfigurationProblem_LinuxDevice,Configuration Problem : No Linux device found. Check your target settings.,Configuration Problem : No Linux device found. Check your target settings.,,Configuration Problem : No Linux device found. Check your target settings.
+ConfigurationProblem_LinuxSteamsworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,,Configuration Problem : Steamworks SDK install not found. Check your Preferences.
+ConfigurationProblem_LinuxSteamIDMissing,Configuration Problem : Linux Build for Steam selected but Steam App Id is not set.,Configuration Problem : Linux Build for Steam selected but Steam App Id is not set.,,Configuration Problem : Linux Build for Steam selected but Steam App Id is not set.
+ConfigurationProblem_LinuxSteamIDInvalid,Configuration Problem : Linux Build for Steam has invalid Steam App Id.,Configuration Problem : Linux Build for Steam has invalid Steam App Id.,,Configuration Problem : Linux Build for Steam has invalid Steam App Id.
+ConfigurationProblem_LinuxIcon,Configuration Problem : Icon file is not a valid PNG format image.,Configuration Problem : Icon file is not a valid PNG format image.,,Configuration Problem : Linux icon file invalid
+ConfigurationProblem_WindowsPackageName,Configuration Problem : Windows Package requires a valid Display Name.,Configuration Problem : Windows Package requires a valid Display Name.,,Configuration Problem : Windows Package requires a valid Display Name.
+ConfigurationProblem_WindowsExeName,Configuration Problem : Windows Package requires a valid Executable Name.,Configuration Problem : Windows Package requires a valid Executable Name.,,Configuration Problem : Windows Package requires a valid Executable Name.
+ConfigurationProblem_WindowsIcon,Configuration Problem : Icon file is not a valid '.ico' format image.,Configuration Problem : Icon file is not a valid '.ico' format image.,,Configuration Problem : Icon file is not a valid '.ico' format image.
+ConfigurationProblem_WindowsVSPath,Configuration Problem : Windows Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,Configuration Problem : Windows Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : Windows Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+ConfigurationProblem_WindowsSteamworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,,Configuration Problem : Steamworks SDK install not found. check your Preferences.
+ConfigurationProblem_WindowsSteamIDMissing,Configuration Problem : Windows Build for Steam selected but Steam App Id is not set.,Configuration Problem : Windows Build for Steam selected but Steam App Id is not set.,,Configuration Problem : Windows Build for Steam selected but Steam App Id is not set.
+ConfigurationProblem_WindowsSteamIDInvalid,Configuration Problem : Windows Build for Steam has invalid Steam App Id.,Configuration Problem : Windows Build for Steam has invalid Steam App Id.,,Configuration Problem : Windows Build for Steam has invalid Steam App Id.
+ConfigurationProblem_PS4SDK,Configuration Problem : PS4 SDK not found. Check your Preferences.,Configuration Problem : PS4 SDK not found. Check your Preferences.,,Configuration Problem : PS4 SDK not found. Check your Preferences.
+ConfigurationProblem_PS4Tools,Configuration Problem : PS4 Tools directory not found. Check your Preferences.,Configuration Problem : PS4 Tools directory not found. Check your Preferences.,,Configuration Problem : PS4 Tools directory not found. Check your Preferences.
+ConfigurationProblem_PS4VSPath,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+ConfigurationProblem_tvOSDevice,Configuration Problem : No tvOS device found. Check your target settings.,Configuration Problem : No tvOS device found. Check your target settings.,,Configuration Problem : No tvOS device found. Check your target settings.
+ConfigurationProblem_tvOSPath,Configuration Problem : tvOS install path not set. Check your Preferences.,Configuration Problem : tvOS install path not set. Check your Preferences.,,Configuration Problem : tvOS install path not set. Check your Preferences.
+ConfigurationProblem_WindowsUWPDevice,Configuration Problem : No Windows UWP device found. Check your target settings.,Configuration Problem : No Windows UWP device found. Check your target settings.,,Configuration Problem : No Windows UWP device found. Check your target settings.
+ConfigurationProblem_WindowsUWPSDK,Configuration Problem : Windows 10 SDK not found at path given in Windows UWP Preferences.,Configuration Problem : Windows 10 SDK not found at path given in Windows UWP Preferences.,,Configuration Problem : Windows 10 SDK not found at path given in Windows UWP Preferences.
+ConfigurationProblem_WindowsUWPVSPath,Configuration Problem : Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,Configuration Problem : Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+ConfigurationProblem_WindowsUWPMinVersion,Configuration Problem : Windows Target Platform Minimum Version has not been filled out.,Configuration Problem : Windows Target Platform Minimum Version has not been filled out.,,Configuration Problem : Windows Target Platform Minimum Version has not been filled out.
+ConfigurationProblem_WindowsUWPPlatformVersion,Configuration Problem : Windows Target Platform Version has not been filled out.,Configuration Problem : Windows Target Platform Version has not been filled out.,,Configuration Problem : Windows Target Platform Version has not been filled out.
+ConfigurationProblem_XboxOneTools,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.,,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.
+ConfigurationProblem_XboxOneSDK,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.,,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.
+ConfigurationProblem_XboxOneSDKVersion,Configuration Problem : Xbox One SDK Version does not match {0}. Check your Preferences.,Configuration Problem : Xbox One SDK Version does not match {0}. Check your Preferences.,,Configuration Problem : Xbox One SDK Version does not match
+ConfigurationProblem_XboxOneSDKDir,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.,,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.
+ConfigurationProblem_XboxOneVSPath,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+Provisioning,Provisioning,Provisioning,DO NOT TRANSLATE,tvOS provisioning preference group subheading
+Base_Unit_Memory,PS4 Base Memory,PS4 Base Memory,,title for options related to memory pool sizes
+Neo_Memory,PS4 Pro Memory,PS4 Pro Memory,,title for options related to memory pool sizes
+ggs_onion,CPU/GPU 'onion' memory pool size (MB),CPU/GPU 'onion' memory pool size (MB),DO NOT TRANSLATE onion, memory pool size for 'onion' memory
+ggs_garlic,GPU 'garlic' memory pool size (MB),GPU 'garlic' memory pool size (MB),DO NOT TRANSLATE garlic,memory pool size for 'garlic' memory
+ggs_ps4_garlic_memory_tooltip,"The amount of memory in megabytes to dedicate to the shared GPU memory pool \nMaximum allocation must be shared between both pools","The amount of memory in megabytes to dedicate to the shared GPU memory pool \nMaximum allocation must be shared between both pools",,tooltip for garlic memory pool
+ggs_ps4_onion_memory_tooltip,"The amount of memory in megabytes to dedicate to the shared CPU/GPU memory pool \nMaximum allocation must be shared between both pools","The amount of memory in megabytes to dedicate to the shared CPU/GPU memory pool \nMaximum allocation must be shared between both pools",,tooltip for garlic memory pool
+ggs_xboxone_stats_system,Microsoft Stats System,Microsoft Stats System,,Microsoft Stats System
+ggs_xboxone_stats_2017,Stats 2017,Stats 2017,,the radio group option for 2017 stats
+ggs_xboxone_stats_2013,Stats 2013,Stats 2013,,the radio group option for 2013 stats
+ggs_xboxone_stats_system_tooltip,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,,tooltip for the stats sytem radio group
