@@ -7,8 +7,10 @@ _LanguageNative,English,English,,Language name in the native language
 _GameMaker2016,GameMaker Studio 2,GameMaker Studio 2,,IDE title
 $win_OpenInExplorer,Open In Explorer,Open In Explorer,,Windows version of Open In Explorer
 $win_OpenProjectInExplorer,Open Project In Explorer,Open Project In Explorer,,Windows version of Open Project In Explorer
+$win_ShowLogFileInExplorer,Open Log In Explorer,Open Log In Explorer,,Windows version of Show Log In Explorer
 $mac_OpenInExplorer,Show In Finder,Show In Finder,,Mac version of Open In Explorer
-$mac_OpenProjectInExplorer,Show Project In Finder,Show Project In Finder,,Windows version of Open Project In Explorer
+$mac_OpenProjectInExplorer,Show Project In Finder,Show Project In Finder,,Mac version of Open Project In Explorer
+$mac_ShowLogFileInExplorer,Reveal Log In Finder,Reveal Log In Finder,,Mac version of Show Log In Explorer
 Account_Menu_Login,Login,Login,,"Account menu ""Login"""
 Account_Menu_Logout,Logout,Logout,,"Acount menu ""Logout"""
 Account_Menu_ManageAccount,Manage Account,Manage Account,,"Account menu ""Account"""
@@ -385,6 +387,7 @@ Extension_Import_Resources_Title,Import resources: {0},Import resources: {0},,ex
 Extension_Import_Legacy_Resources_Title,Import legacy resources: {0},Import legacy resources: {0},,legacy extension(1.x) import resource title
 Logout_Query,Logout user '{0}'?\nThis will save any changes and restart the IDE.,Logout user '{0}'?\nThis will save any changes and restart the IDE.,,Query if the user really wants to logout
 Restored_Default_Settings_Restart,Are you sure you want to restore default settings?\nThis will restart the application for the changes to take effect.,Are you sure you want to restore default settings?\nThis will restart the application for the changes to take effect.,,Restore default settings restart prompt
+File_Menu_NewIDE,New IDE,New IDE,,Start a new instance of the IDE from the file menu
 File_Menu_Logout,Logout,Logout,,The Logout program menu item
 File_Menu_MyAccount,My Account,My Account,,Launches my account web page menu item
 File_Menu_Exit,Exit,Exit,,The Exit program menu item
@@ -562,6 +565,7 @@ IDEMenu_Help_Help,Open Manual,Open Manual,,Help menu item for actual help
 IDEMenu_Help_About,About,About,,Help menu item for actual About
 IDEMenu_Help_Licenses,Licenses,Licenses,,Help menu item for licenses
 IDEMenu_Help_OpenInExplorer,Open Project In Explorer,${OpenProjectInExplorer},,Help menu item for opening the explorer window at the current project's location
+IDEMenu_Help_LogFile,Show Log File In Explorer,${ShowLogFileInExplorer},,Help menu item for taking the user to the log file location
 IDEMenu_Marketplace,Marketplace,Marketplace,,Main menu entry for marketplace
 IDEMenu_Texturepage,Texture groups,Texture Groups,,Texture group manager
 IDEMenu_Audiogroups,Audio Groups,Audio Groups,,Audio group manager
@@ -604,6 +608,8 @@ ImageEditor_CentreUnitScale,1:1,1:1,,Image editor view menu - centre unit scale
 ImageEditor_ColourLeftLabel,Left:,Left:,,left brush label
 ImageEditor_ColourOnly,Colour only,Colour only,,Image editor magic wand colour only checkbox
 ImageEditor_ColourPanelTitle,Colours,Colours,,colours panel title
+ImageEditor_UnableToLoadFrame,Unable to load,Unable to load,,Unable to load frame dialog title
+ImageEditor_InvalidSpriteFrame,Sprite {0} contains {1} image(s) that failed to load. Affected frames have been removed from the sprite.,Sprite {0} contains {1} image(s) that failed to load. Affected frames have been removed from the sprite.,,Failed to load image
 IE_ColourPanel_MenuToolTip,Colour Options,Colour Options,,image editor colours panel menu button tooltip
 ImageEditor_ColourRightLabel,Right:,Right:,,right brush label
 ImageEditor_CommitToolChanges,Commit Tool Changes?,Commit Tool Changes?,,Commit tool changes
@@ -628,6 +634,7 @@ ImageEditor_EffectApply,Apply,Apply,,effect apply button
 ImageEditor_EffectApplyToLabel,Apply To:,Apply To:,,effect apply to heading
 ImageEditor_EffectCancel,Cancel,Cancel,,effect cancel button
 ImageEditor_Effects,Effects,Effects,,Image editor menu heading -Effects
+ImageEditor_EffectAllFrames,Apply to All Frames,Apply to All Frames,,apply to all frames label
 ImageEditor_Flip,Flip,Flip,,Image editor menu option -Flip
 ImageEditor_GridColour,Colour,Colour,,Image editor grid colour label
 ImageEditor_GridSettings,Grid Settings,Grid Settings,,Image editor grid settings label
@@ -721,7 +728,7 @@ ImageEditor_Transform,Animation,Animation,,Image editor menu - animation transfo
 ImageEditor_Menu_Flip,Flip,Flip,,Image editor menu flip
 ImageEditor_Menu_Mirror,Mirror,Mirror,,Image editor menu mirror
 ImageEditor_Menu_AllFrames,All Frames,All Frames,,Image editor menu flip animation
-ImageEditor_Menu_CurrentFrame,Current Frame,Current Frame,,Image editor menu flip current frame
+ImageEditor_Menu_CurrentFrame,Selected Frames,Selected Frames,,Image editor menu flip current frame
 ImageEditor_Menu_RotateImageCW,Rotate All Frames(clockwise 90),Rotate All Frames (clockwise 90),,Image editor rotate clockwise menu entry
 ImageEditor_Menu_RotateImageACW,Rotate All Frames(anti-clockwise 90),Rotate All Frames(anti-clockwise 90),,Image editor rotate anti-clockwise menu entry
 ImageEditor_Undo,Undo,Undo,,Image editor menu option -Undo
@@ -1185,8 +1192,10 @@ ResourceTree_LotsOfResourcesTitle,Opening Lots of Resources,Opening Lots of Reso
 ResourceTree_CloneViewToolTip,Clone current view,Clone current view,,clone view tooltip
 ResourceTree_AddViewToolTip,Add new view,Add new view,,add new view tooltip
 ResourceTree_DeleteViewToolTip,Delete current view,Delete current view,,delete view tooltip
-ResourceTree_CollapseAllToolTip,Collapse All,Collapse All,,collapse all elements of the resource tree tooltip
-ResourceTree_CollapseAll,Collapse All,Collapse All,,collapse all elements of the resource tree tooltip
+ResourceTree_ExpandCollapseAllToolTip,Expand/Collapse All,Expand/Collapse All,,expand/collapse all elements of the resource tree tooltip
+ResourceTree_ExpandCollapseAll,Expand/Collapse All,Expand/Collapse All,,expand/collapse all elements of the resource tree tooltip
+ResourceTree_ExpandAll,Expand All,Expand All,,Expand all elements of the resource tree
+ResourceTree_CollapseAll,Collapse All,Collapse All,,Collapse all elements of the resource tree
 RoomEditor_AddSubLayer,Add Sub Layer,Add Sub Layer,,context sub menu heading for adding sub layers in the room editor layer view
 RoomEditor_AddRootLayer,Add Layer,Add Layer,,context sub menu heading for adding layers at the same level as the selected layer in the room editor layer view
 RoomEditor_AllLayers,All,All,,Layers label next to the set all layers locked/visible checkboxes
@@ -1292,7 +1301,7 @@ RoomProperties_VSpeed,Vertical Speed,Vertical Speed,,numeric text box label for 
 RoomProperties_Width,Width,Width,,numeric textbox caption for room width
 Run_Menu_Clean,Clean,Clean,,"Run menu ""Clean"""
 Run_Menu_CreateExecutable,Create Executable,Create Executable,,The Create Executable menu item
-Run_Menu_RevealRemote,Show Remote Worker Intaller,Show Remote Worker Intaller,,Reveal worker menu item
+Run_Menu_RevealRemote,Show Remote Worker Installer,Show Remote Worker Installer,,Reveal worker menu item
 Run_Menu_Run,Run,Run,,"Run menu ""Run"""
 Run_Menu_RunDebug,Debug,Debug,,"Run menu ""Debug"""
 remote_worker_error,Error,Error,,Error Connecting to Remote Worker Dialog Title
@@ -1411,6 +1420,7 @@ sourcecontrolgit_auth_missing_password,Password field cannot be empty,Password f
 sourcecontrolgit_auth_missing_publickey,Cannot find Public key - please ensure path is valid,Cannot find Public key - please ensure path is valid,,Warning that the public key field is invalid
 sourcecontrolgit_auth_missing_privatekey,Cannot find Private key - please ensure path is valid,Cannot find Private key - please ensure path is valid,,Warning that the private key field is invalid
 sourcecontrolgit_auth_repo_exists,Authentication details for repository already exist,Authentication details for repository already exist,,Authentication details for repository already exist
+SourceControlGit_UnlocalisedError,{0},{0},,For when Git dies for some reason that we dont know why - display the exception directly
 Splash_Done,Done.,Done.,,Finished loading
 Splash_Loading,Loading....,Loading....,,Generic loading text
 Splash_LoadingLanguages,Loading Languages...,Loading Languages...,,Loading the languages prefix
@@ -1422,6 +1432,7 @@ Splash_InitDnD,Drag and Drop...,Drag and Drop...,,Initialising Drag and Drop™
 Splash_CheckingRSS,Checking RSS...,Checking RSS...,,Checking RSS...
 SplineEditor_DeletePoints,Delete Points,Delete Points,,Path spline editor context menu entry
 SpriteEditor_Manual,Manual,Manual,,Sprite editor manual bounding box label
+SpriteEditor_Premultiply,Premultiply Alpha,Premultiply Alpha,,Premultiply alpha channel of sprite composite
 SpriteEditor_FullImage,Full Image,Full Image,,Sprite editor full image bounding box label
 SpriteEditor_Image,Image:,Image:,,Image label
 SpriteEditor_BBBottom,Bottom:,Bottom:,,Sprite editor bounding box label
@@ -1527,6 +1538,8 @@ TextEditor_UncommentSelection,Uncomment Selection,Uncomment Selection,,text edit
 TextEditor_TabIn,Tab In,Tab In,,text editor context menu tab in selection
 TextEditor_TabOut,Tab Out,Tab Out,,text editor context tab out selection
 TextEditor_StatusText,"{0}/{1} Col:{2} Ch:{3}","{0}/{1} Col:{2} Ch:{3}",,text editor status bar column character
+TextEditor_FoldAllRegions,Fold All Regions,Fold All Regions,,fold all regions context menu entry
+TextEditor_UnfoldAllRegions,Unfold All Regions,Unfold All Regions,,unfold all regions context menu entry
 TextureGroups_ActiveGroup,Current Group:,Current Group:,,Texture group current group
 TextureGroups_AddNew,Add New,Add New,,Texture group add new button
 TextureGroups_AllowScaling,Allow Scaling,Allow Scaling,,Texture group allow scaling checkbox
@@ -1631,9 +1644,10 @@ UpdateDialogTitle,New Version,New Version,,Update new version dialog title
 User_Login,Login,Login,,Login button
 User_Register,Register,Register,,User Login dialog - Register button
 User_Login_Title,YoYo Account Login,YoYo Account Login,,User Login dialog
-UserLogin_Email,E-mail,E-mail,,User Login dialog - e-mail label
+UserLogin_Email,Email/Username,Email/Username,,User Login dialog - e-mail label
 UserLogin_Password,Password,Password,,User Login dialog - password label
 UserLogin_RememberMe,Remember Me,Remember Me,,User Login dialog - Remember Me checkbox
+User_ProxySettings,Proxy settings,Proxy settings,,Proxy setting tool-tip
 User_Authentication,Two Step Authentication,Two Step Authentication,,User Login - two step authentication title
 User_OK,OK,OK,,User Login - two step authentication ok button
 User_AuthenticationCode,Authentication Code,Authentication Code,,User Login - two step authentication label for the authentication code
@@ -1692,9 +1706,9 @@ RoomEditor_InvalidDragLayerFrozenOrInvisible,"Unable to drag resources into room
 RoomEditor_InvalidTileSet,The selected tile set has no associated sprite please select a valid tile set,The selected tile set has no associated sprite please select a valid tile set,,message to be shown when the user has selected a tileset that is not valid (ie. no sprite selected)
 RoomEditor_NoTilesetMessage,Your tile set preview will appear here when you select a tile set,Your tile set preview will appear here when you select a tile set,,message to be shown when the user has not selected a tile set
 RoomEditor_NoLayer,No Tile Layer Selected,No Tile Layer Selected,, message to be shown when the user has not selected a tile layer
-InvalidName_NameInUse,"Invalid Name, already in use: {0}. Names must be unique.","Invalid Name, already in use: {0}. Names must be unique.",,Name not unique message
-InvalidName_KeywordReserved,"Invalid Name, reserved keyword: {0}.","Invalid Name, reserved keyword: {0}.",,Name is a reserved keyword message
-InvalidName_InvalidCharacters,"Invalid Name, contains invalid characters: {0}. Should only contain 0-9, a-z, A-Z or _ and not start with 0-9.","Invalid Name, contains invalid characters: {0}. Should only contain 0-9, a-z, A-Z or _ and not start with 0-9.",,Name contains invalid characters message
+InvalidName_NameInUse,"Invalid name, already in use: {0}. Names must be unique.","Invalid name, already in use: {0}. Names must be unique.",,Name not unique message
+InvalidName_KeywordReserved,"Invalid name, reserved keyword: {0}.","Invalid name, reserved keyword: {0}.",,Name is a reserved keyword message
+InvalidName_InvalidCharacters,"Invalid name, contains invalid characters: {0}. Should only contain 0-9, a-z, A-Z or _ and not start with 0-9.","Invalid name, contains invalid characters: {0}. Should only contain 0-9, a-z, A-Z or _ and not start with 0-9.",,Name contains invalid characters message
 InvalidName_InvalidModel,Invalid model.,Invalid model.,,Invalid model message
 ResourceTree_View,View,View,View,View
 ResourceTree_View_Add,Add New View,Add New View,,Add New View Prompt
@@ -1707,8 +1721,10 @@ ResourceTree_WholeWord, Whole Word, Whole Word,, 'Whole Word' checkbox label
 ResourceTree_FindNext, Find Next, Find Next,, 'Find Next' button label
 ResourceTree_FindPrevious, Find Previous, Find Previous,, 'Find Previous' button label
 ResourceTree_SearchResources,Search...,Search...,, default contents of the resource tree search resources box
+ResourceTree_SearchOptions,Search Options,Search Options,,Additional Search Options
 SearchInScript_Search,Find...,Find...,,Search in Script Search default box text
 SearchInScript_Replace,Replace...,Replace...,,Search in Script Replace default box text
+SearchInScript_SelectionOnly,Selection Only,Selection Only,,Search in Script Selection Only
 DnD_Gadget_DirectionalInput,Directional Input,Directional Input,,DnD™ gadget for directional input
 DnD_Gadget_NumericInput,Numeric Input,Numeric Input,,DnD™ gadget for numeric input
 DnD_Gadget_ApplyTo,Apply To,Apply To,,DnD™ gadget for applying to a specific object or instance
@@ -2186,6 +2202,10 @@ openobjecteventsfullscreen,Open object events in a full screen editor,Open objec
 openeventtabsinsamewindow,Open event scripts as tabs in same window,Open event scripts as tabs in same window,,Open the event tabs in the same window
 openscripttabsinsamewindow,Open linked scripts as tabs in same window,Open linked scripts as tabs in same window,,Open script tabs in the same window
 focuspantexteditor,Pan text editor into view on focus,Pan text editor into view on focus,,auto pan text editor on focus
+texteditor_defaultwidth,Default code window width,Default code window width,,default code window width
+texteditor_defaultheight,Default code window height,Default code window height,,default code window height
+texteditor_minwidth,Minimum code window width,Minimum code window width,,min code window width
+texteditor_minheight,Minimum code window height,Minimum code window height,,min code window height
 webserverport,The port number to use for the help web server,The port number to use for the help web server,,The port number to use for the help web server setting
 externalbrowserforhelp,Use an external browser for help,Use an external browser for help,,Use an external browser for help setting
 imageeditor_buttonchoiceonframedelete,Default for deleting frames,Default for deleting frames,,Automatic button choice on frame deletion setting
@@ -2277,6 +2297,7 @@ codeeditor_selection,Selection Colour,Selection Colour,,Colour of Selections in 
 codeeditor_currentline,Current line colour,Current line colour,,Colour of current line in Code Editor
 codeeditor_errorline,Error line colour,Error line colour,,Colour of Error line in Code Editor
 codeeditor_highlight,Highlight colour,Highlight colour,,Colour of higlighted text in code editor
+codeeditor_debugger,Debugger colour,Debugger colour,,Colour of line the debugger is on
 codeeditor_bracketmatchsuccess,Colour of successful bracket/quote matches.,Colour of successful bracket/quote matches.,,Colour of Successful bracket matches in code editor
 codeeditor_bracketmatchfail,Colour of failed bracket/quote matches.,Colour of failed bracket/quote matches.,,Colour of failed bracket matches in code editor
 codeeditor_statusbarselected,The colour of the inteliesense text up to the current point,The colour of the inteliesense text up to the current point,,Status Bar selection colour in code editor
@@ -2304,6 +2325,8 @@ codeeditor_show_obsoletes,Colour coding/code completion for obsolete content,Col
 codeeditor_highlight_pairs,Highlight symbol pairs,Highlight symbol pairs,,code editor highlight matching symbol pairs pref
 codeeditor_obsolete_style,Obsolete functions etc,Obsolete functions etc,,code editor text style for obsolete symbols
 codeeditor_braces,Braces,Braces,,code editor text style for braces
+codeeditor_folded_region,Folded #region,Folded #region,,text style for folded #region
+codeeditor_folded_region_tag,Folded region name,Folded region name,,text style for folded region tag
 dialogeditor_textcolours,Text colours and style,Text colours and style,,Text colours and style in Dialog Editor
 dialogeditor_options,Options,Options,,Options in Dialog Editor
 sourcecontrolgit_username,Username to commit as,Username to commit as,,Username to commit as for source control git
@@ -2316,6 +2339,9 @@ sourcecontrolgit_externaltoolerror,Source Control (Git) External Tool Error,Sour
 sourcecontrolgit_nomergetool,Merge Tool path is invalid,Merge Tool path is invalid,,Merge Tool path is invalid
 sourcecontrolgit_nodifftool,Diff Tool path is invalid,Diff Tool path is invalid,,Diff Tool path is invalid
 sourcecontrolgit_automatically_start,Automatically enable Source Control,Automatically enable Source Control,,Automatically enable Source Control
+ProgressBar_checking_device,Checking Device...,Checking Device...,,Checking Device Connection Progress Bar Label
+ProgressBar_detecting_devices,Detecting Devices...,Detecting Devices...,,Detecting Devices Progress Bar label
+ProgressBar_runtime_delete,Deleting Runtime...,Deleting Runtime...,,Deleting Runtime Progress Bar Label
 ProgressBar_sourcecontrolgit_push,Pushing...,Pushing...,,Push progress label
 ProgressBar_sourcecontrolgit_pull,Pulling...,Pulling...,,Pull progress label
 ProgressBar_sourcecontrolgit_checkout,Checking Out...,Checking Out...,,Checkout progress label
@@ -2344,7 +2370,9 @@ ggs_use_fast_collisions,Enable Fast Collisions,Enable Fast Collisions,,Enable Fa
 ggs_game_speed,Game Frames Per Second,Game Frames Per Second,,Game Frames Per Second
 ggs_game_identifier,Game Identifier,Game Identifier,,Game Identifier
 ggs_game_guid,Game GUID,Game GUID,,Game GUID
-ggs_mips_for_3d_textures,Generate mipmaps for seperate texture pages,Generate mipmaps for seperate texture pages,,Generate mipmaps for seperate texture pages
+ggs_isdnd,Use DnD™ as default code choice,Use DnD™ as default code choice,,Project code type
+ggs_mips_for_3d_textures,Generate mipmaps for separate texture pages,Generate mipmaps for separate texture pages,,Generate mipmaps for separate texture pages
+TargetSelection_RequiresWorker,Requires Worker,Requires Worker,,label for when a selected platform requires a worker
 TargetSelection_Worker,Worker:,Worker:,,the list title for target selecting worker
 TargetSelection_Platform,Platform:,Platform:,,the list title for target selecting platform
 TargetSelection_Config,Config:,Config:,,the list title for target selecting config
@@ -2588,7 +2616,11 @@ ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_X86,Create X86 Pac
 ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_X64,Create X64 Package,Create X64 Package,,Create X64 Package
 ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_ARM,Create Arm Package,Create Arm Package,,Create Arm Package
 AddWorker_Name,Name,Name,,Worker name
-AddWorker_Host,Host Name,Host Name,,Worker host name
+AddWorker_NameTooltip,The name assigned to this worker,The name assigned to this worker,,Worker name
+AddWorker_Host,Name/IP,Name/IP,,Worker host name
+AddWorker_Host_Tooltip,The host name or IP address,The host name or IP address,,Tool tip for Name/IP
+AddWorker_Port,Port,Port,,Port of remote worker
+AddWorker_Port_Tooltip,The port to connect to,The port to connect to,,Port of remote worker tooltip
 platformdevice_add,Add New Device,Add New Device,,Add New Platform Device
 platformdevice_add_browser,Add New Browser,Add New Browser,,Add New Browser
 platformdevice_remove,Remove Device,Remove Device,,Remove Platform Device
@@ -2599,6 +2631,7 @@ platformdevice_browserpath,Path to Browser:,Path to Browser:,,Path to Browser
 platformdevice_webserver_port,Webserver Port:,Webserver Port:,,Webserver Port
 platformdevice_webserver_ips,Allowed Webserver IPs/Hostnames/CIDR IP Ranges,Allowed Webserver IPs/Hostnames/CIDR IP Ranges,,Allowed IPs/Hostnames to connect to the debug webserver
 platformdevice_hostname,Host Name:,Host Name:,,Platform Device Host Name
+platformdevice_ipaddress,IP Address:,IP Address:,,Platform Device IP Address
 platformdevice_pin,PIN:,PIN:,,Platform Device PIN
 platformdevice_username,User Name:,User Name:,,Platform Device User Name
 platformdevice_password,Password:,Password:,,Platform Device Password
@@ -2693,10 +2726,10 @@ ColourPicker_Sat,Sat,Sat,,Saturation Colour Picker Channel
 ColourPicker_Val,Val,Val,,Value Colour Picker Channel
 ColourPicker_NewColour,New Colour,New Colour,,New Colour Picker label
 ColourPicker_Hex,Hex,Hex,,Colour Picker Hex label
-ColourPicker_SaveNewColour,Save New Colour,Save New Colour,,Save new Colour button
+ColourPicker_SaveNewColour,Store Colour,Store Colour,,Save new Custom Colour button
 ColourPicker_PickColour,Select Colour:,Select Colour:,,Select Colour Label
 ColourPicker_BasicColours,Basic Colours:,Basic Colours:,,Basic Colours Label
-ColourPicker_SavedColours,Saved Colours:,Saved Colours:,,Saved Colours Label
+ColourPicker_SavedColours,Custom Colours:,Custom Colours:,,Custom Colours Label
 SpriteSelector_Source,Sprite:,Sprite:,,The sprite selector button heading
 SpriteSelector_SelectSprite,Select Sprite,Select Sprite,,The sprite selector button heading
 SpriteSelector_EditSprite,Edit Sprite,Edit Sprite,,The edit sprite button tooltip
@@ -2719,6 +2752,7 @@ TileSetEditor_SelectSprite,Select Sprite,Select Sprite,,the select sprite button
 SpriteEditor_ImportImagesTitle,Import Files,Import Files,,Sprite editor confirm dialog for importing files
 SpriteEditor_ImportImages,Importing files to a sprite is not an undoable action. Do you want to continue?,Importing files to a sprite is not an undoable action. Do you want to continue?,,Sprite editor confirm dialog for importing files
 SpriteEditorPref_ImportImages,Default for file import,Default for file import,,Automatic choice for importing files into the sprite editor
+SpriteEditorPref_FailedToLoadImages,Automatic choice for images that failed to load,Automatic choice for images that failed to load,,Automatic choice for images that failed to load
 Texture_BoundsInvalid_Title,Texture Size Not Supported,Texture Size Not Supported,,VerifyTextureSizeGPU check failed
 Texture_BoundsInvalid_File,The texture at path '{0}' ({1}x{2}) exceeds the maximum supported dimension ({3}x{3}) and cannot be loaded.,The texture at path '{0}' ({1}x{2}) exceeds the maximum supported dimension ({3}x{3}) and cannot be loaded.,,VerifyTextureSizeGPU check failed
 Texture_BoundsInvalid,A texture ({1}x{2}) exceeds the maximum supported dimension ({3}x{3}) and cannot be loaded.,A texture ({1}x{2}) exceeds the maximum supported dimension ({3}x{3}) and cannot be loaded.,,VerifyTextureSizeGPU check failed
@@ -2851,6 +2885,9 @@ ExtensionEditor_AddSource,Add Source,Add Source,,main properties context menu en
 ExtensionEditor_AddIosFrameworkFromMac,Enter framework path on Mac,Enter framework path on Mac,,main properties context menu entry
 ExtensionEditor_AddPlaceholder,Add Placeholder,Add Placeholder,,main properties context menu entry
 ExtensionEditor_AddArgument,Add Argument,Add Argument,,function properties context menu entry
+Extension_Error,Extension Error,Extension Error,,Error with Extension setup
+ExtensionFunction_4DiffArgs,Extensions with more than 4 arguments on DLL  types must all have the same argument type.\n{0},Extensions with more than 4 arguments on DLL types must all have the same argument type.\n{0},,Extensions with more than 4 arguments on DLL types must all have the same argument type warning
+ExtensionFunction_ConfigIssue,The DLL {0} on extension {1} with function {2} has more than 4 arguments and are not all the same type.,The DLL {0} on extension {1} with function {2} has more than 4 arguments and are not all the same type.,,The DLL extension with function has more than 4 arguments and are not all the same type.
 animations_settings,Disable IDE transition animations,Disable IDE transition animations,,Transition animation preference
 Survey_Later,Close,Close,,Choose to answer survey questions later
 Survey_SubmitAll,Send Now,Send Now,,Choose to submit all questions now
@@ -2898,7 +2935,7 @@ ResourceTree_CompactPref,Use compact resource tree (re-open resource tree),Use c
 ResourceTree_AllowLabelBelowHundred,Allow label font to scale below 100%,Allow label font to scale below 100%,,resource tree pref
 ResourceTree_AllowLabelAboveHundred,Allow label font to scale above 100%,Allow label font to scale above 100%,,resource tree pref
 ResourceTree_ItemSizeLabel,Resource item size:,Resource item size:,,Label
-ResourceTree_ItemSize,Resource item size in percentage,Resource item size in percentage,,resource tree pref
+ResourceTree_ItemSize,Default Zoom on Resource Tree,Default Zoom on Resource Tree (Percentage),,resource tree pref
 ResourceTree_ItemMinSize,Resource item minimum size,Resource item minimum size,,resource tree pref
 ResourceTree_ItemMaxSize,Resource item maximum size,Resource item maximum size,,resource tree pref
 Settings_ShowPassword,Show Password,Show Password,,Show Password
@@ -3809,10 +3846,23 @@ StartPage_Web_ViewOnMarketplace,View On Marketplace,View On Marketplace,,Start p
 StartPage_Web_Download,Download,Download,,Start page tooltip
 StartPage_Web_Open,Open,Open,,Start page tooltip
 StartPage_Web_Remove,Remove Local Files,Remove Local Files,,Start page remove tooltip
+RemoteWorker_Submit,Submit,Submit,,Submit remote worker changes
+remote_worker_cache_path,Cache Path,Cache Path,,Remote worker cache path
+remote_worker_folder_sync_path,Path to FolderSync Tool,Path to FolderSync Tool,,Remote worker foldersync path
+remote_worker_fronkensteen_runtime_path,Path to Remote Runtime,Path to Remote Runtime,,Remote worker runtime path
+remote_worker_output_path,Output Path,Output Path,,Remote worker output path
+remote_worker_project_cache_path,Project Cache Path,Project Cache Path,,Remote worker project cache path
 default_audio_setting,Default Audio Device,Default Audio Device,,Default Audio Device setting
 Validate_NameLength,Resource name must be between {2} and {1} characters long,Resource name must be between {2} and {1} characters long,,validation error message for resource name
 DnD_ResourceSelection_DropLabel,Drop here to assign resource,Drop here to assign resource,,DnD™ Resource Input label
 TextureGroups_OpenResource,Open,Open,,Open Resource
+RemoteWorker_WindowTitle,Settings for {0},Settings for {0},,Remote worker window title
+RemoteWorker_PlatformNotSupportedTitle,Remote Worker - Platform Not Supported,Remote Worker - Platform Not Supported,,Platform is not supported on this remote worker title
+RemoteWorker_ErrorTitle,Remote Worker Error,Remote Worker Error,,Remote worker error
+RemoteWorker_Error_Connect,Failed to connect to the remote worker.\nVerify the host name and try again.,Failed to connect to the remote worker.\nVerify the host name and try again.,,Failed to connect error
+RemoteWorker_NameErrorTitle,Remote Worker Name Error,Remote Worker Name Error,,Error with Remote Worker Name
+RemoteWorker_NameError,A Remote Worker with this name already exists.,A Remote Worker with this name already exists.,,Remote Worker Name error message
+RemoteWorker_PlatformNotSupported,The current platform is not supported on this Remote Worker.,The current platform is not supported on this Remote Worker.,,Platform is not supported on this remote worker
 SearchOutput_Default,Press ${open_search_replace} to open the Search and Replace window.,Press ${open_search_replace} to open the Search and Replace window.,,Default text for the Search Output Window
 SourceControl_Default,"Source Control Output will go here. If you have not turned on Source Control, you can find it in Main Options.","Source Control Output will go here. If you have not turned on Source Control, you can find it in Main Options.",,Default text for the Source Control Window
 SourceControl_Trial,"Source Control Output would go here, but you are currently using a Trial version.\nPlease upgrade to a paid version to enable the Source Control features!\nVisit https://www.yoyogames.com/get2 to view our pricing.","Source Control Output would go here, but you are currently using a Trial version.\nPlease upgrade to a paid version to enable the Source Control features!\nVisit https://www.yoyogames.com/get2 to view our pricing.",,Default text for source control window when in trial mode.
@@ -3889,6 +3939,8 @@ ObjectEditor_DropParentHere,Drop here to assign parent,Drop here to assign paren
 ObjectEditor_DropChildHere,Drop here to add child,Drop here to add child,,Drop message for object child list
 ObjectEditor_AddChildTooltip,Add child,Add child,,Object editor child list add child tooltip
 ObjectEditor_RemoveChildTooltip,Remove child,Remove child,,Object editor child list remove child tooltip
+INVALID_FILEPATH_TITLE,Invalid Path,Invalid Path,,Invalid File path title
+INVALID_FILEPATH_PATHTOOLONG,File path is too long: {0},File path is too long: {0},,File at x has a path which is too long to handle
 INVALID_INCLUDEDFILE_NAME_TITLE,Included File has invalid name,Included File has invalid name,,Invalid included file name dialog box title
 INVALID_INCLUDEDFILE_NAME_MSG,"One or more included files has an invalid filename, should only contain a-z, A_Z, 0-9, _ or .\nSee the output panel for a list.","One or more included files has an invalid filename, should only contain a-z, A_Z, 0-9, _ or .\nSee the output panel for a list.",,Invalid included file name dialog box message
 INVALID_INCLUDEDFILE_NAME,"Included file with invalid filename: '{0}'","Included file with invalid filename: '{0}'",,Invalid Included file name output message
@@ -3929,6 +3981,7 @@ DnDModule_EnableNode,Enable,Enable,,Enable node output
 DnDModule_ToggleDisabled,Toggle Enabled,Toggle Enabled,,Toggle node output
 DnDModule_NodeDisabled,(Disabled),(Disabled),,Node disabled story entry
 DnDModule_DeleteAllBreakpoints,Delete All Breakpoints,Delete All Breakpoints,,Delete breakpoints on selected DnD™ nodes
+DnDModule_DeleteNode,Delete,Delete,,DnD™ module delete selected
 IDETooltip_LaptopMode_Title,Laptop Mode ({0}),Laptop Mode ({0}),,IDE toolbar laptop mode title
 IDETooltip_LaptopMode_On,On,On,,On text
 IDETooltip_LaptopMode_Off,Off,Off,,Off text
@@ -3941,11 +3994,140 @@ StartPage_ProjectNotExistsTitle,Project Missing,Project Missing,,Project does no
 StartPage_ProjectNotExists,This project may have been moved or deleted.\nPlease verify the project location and try again.,This project may have been moved or deleted.\nPlease verify the project location and try again.,,Project does not exist
 TileSet_Libraries,Libraries,Libraries,,the tile selection window libraries tab title
 TileSet_Brushes,Brushes,Brushes,,the tile selection window brushes tab title
-Validate_MaintainFileExtension,"Invalid Name, cannot change extension from '{0}' to '{1}'.","Invalid Name, cannot change extension from '{0}' to '{1}'.",,extension placeholder message
+Validate_MaintainFileExtension,"Invalid name, cannot change extension from '{0}' to '{1}'.","Invalid name, cannot change extension from '{0}' to '{1}'.",,extension placeholder message
 ObjectEditor_EditParent,Edit Parent,Edit Parent,,Edit parent object tooltip
 ObjectEditor_EditMask,Edit Mask,Edit Mask,,Edit mask tooltip
 StartPage_Web_RefreshTutorials,Refresh owned tutorials.,Refresh owned tutorials.,,Refresh tutorials tooltip
 Tooltip_ResizeSprite,Resize Sprite,Resize Sprite,,Sprite resize button tooltip
+Debugger_ErrorMsg,An error has occurred in the game. See error message below.,An error has occurred in the game. See error message below.,,Debugger game error label
+Debugger_TabTitle,Debugger,Debugger,,Debugger tab title
+Debugger_Window_ResourceView,Resource View,Resource View,,Debugger resource view window title
+Debugger_Window_SourceView,Source View,Source View,,Debugger source view window title
+Debugger_Window_LocalsView,Locals,Locals,,Debugger locals window title
+Debugger_Window_GlobalsView,Globals,Globals,,Debugger globals window title
+Debugger_Window_WatchView,Watch,Watch,,Debugger watch window title
+Debugger_Window_InstanceView,Instance,Instance,,Debugger instance window title
+Debugger_Window_AllInstancesView,All Instances,All Instances,,Debugger all instances window title
+Debugger_Window_SelectedInstanceView,Selected Instance,Selected Instance,,Debugger selected instance window title
+Debugger_Window_Callstack,Call Stack,Call Stack,,Debugger call stack window title
+Debugger_Window_Surfaces,Surfaces & Textures,Surfaces & Textures,,Debugger surfaces window title
+Debugger_Window_Graph,Graph,Graph,,Debugger graph window title
+Debugger_Window_Profile,Profile,Profile,,Debugger profile window title
+Debugger_Window_Buffers,Buffers,Buffers,,Debugger buffers window title
+Debugger_Window_RenderState,Render States,Render States,,Debugger render states window title
+Debugger_TimelineMoment,Moment {0},Moment {0},,Debugger timeline moment label
+Debugger_Toltip_Run,Continue (${debugger_continue}),Continue (${debugger_continue}),,Debugger tooltip
+Debugger_Toltip_Break,Break,Break,,Debugger tooltip
+Debugger_Toltip_Restart,Restart game,Restart game,,Debugger tooltip
+Debugger_Toltip_Stop,Close the game,Close the game,,Debugger tooltip
+Debugger_Tooltip_Close,Discard the collected data and end the debugging session.,Discard the collected data and end the debugging session.,,Toltip lol
+Debugger_Toltip_StepInto,Step into function call (${debugger_step_into}),Step into function call (${debugger_step_into}),,Debugger tooltip
+Debugger_Toltip_StepOver,Step over function call (${debugger_step_over}),Step over function call (${debugger_step_over}),,Debugger tooltip
+Debugger_Toltip_StepOut,Step out of function (${debugger_step_out}),Step out of function (${debugger_step_out}),,Debugger tooltip
+Debugger_Toltip_Realtime,Enable real-time debugging,Enable real-time debugging,,Debugger tooltip
+Debugger_SourceModified,Source Modified,Source Modified,,Debugger source modified window title
+Debugger_SourceModified_Msg,The source code in {0} has been modified and cannot be debugged.,The source code in {0} has been modified and cannot be debugged.,,Debugger source modified window message
+Debugger_MenuBar_Debugger,Debugger,Debugger,,Debugger menu bar
+Debugger_RoomNoCode,This room has no creation code,This room has no creation code,,Debugger no code label
+Debugger_ObjectNoCode,This object has no source code,This object has no source code,,Debugger no code label
+Debugger_ScriptNoCode,This script has no source code,This script has no source code,,Debugger no code label
+Debugger_TimeLineNoCode,This time line has no moments with source code,This time line has no moments with source code,,Debugger no code label
+Debugger_ExtensionNoCode,This extension has no exported functions,This extension has no exported functions,,Debugger no code label
+Debugger_CallStack_Name,Name,Name,,Debugger call stack name column
+Debugger_Surfaces_Type,Type,Type,,Debugger surfaces type column
+Debugger_Surfaces_Texture,Thumbnail,Thumbnail,,Debugger surfaces texture column
+Debugger_Surfaces_Size,Size,Size,,Debugger surfaces size column
+Debugger_SurfaceView_NoneSelected,Double-click a resource in the Resource View to view its source code here,Double-click a resource in the Resource View to view its source code here,,Debugger no source code selected
+Debugger_CallStack_Empty,The call stack is empty.,The call stack is empty.,,The call stack is empty label
+Debugger_StackFrame_Tooltip,Double-click to go to this stack frame,Double-click to go to this stack frame,,Debugger stack frame tooltip
+Debugger_MemoryUsage,Memory: ,Memory: ,,Debugger memory usage label
+Debugger_Fps,FPS: ,FPS: ,,Debugger fps label
+Debugger_DataGrid_Name,Name,Name,,Debugger data grid name column
+Debugger_DataGrid_Value,Value,Value,,Debugger data grid value column
+Debugger_Dock_Variables,Variables,Variables,,Debugger variables dock
+Debugger_Dock_Graphics,Graphics,Graphics,,Debugger graphics dock
+Debugger_Dock_Instance,Instances,Instances,,Debugger instance dock
+Debugger_Dock_Misc,Others,Others,,Debugger miscellaneous dock
+Debugger_Dock_Debugger,Debugger,Debugger,,Debugger dock
+Debugger_Buffer_textOnly,Show Text Only,Show Text Only,,Buffer view type
+Debugger_Buffer_numbersOnly,Show Numbers Only,Show Numbers Only,,Buffer view type
+Debugger_Buffer_byte1,1-byte Integer,1-byte Integer,,Buffer view type
+Debugger_Buffer_byte2,2-byte Integer,2-byte Integer,,Buffer view type
+Debugger_Buffer_byte4,4-byte Integer,4-byte Integer,,Buffer view type
+Debugger_Buffer_float32,32-bit Floating Point,32-bit Floating Point,,Buffer view type
+Debugger_Buffer_float64,64-bit Floating Point,64-bit Floating Point,,Buffer view type
+Debugger_Buffer_hex,Hex,Hex,,Buffer view type
+Debugger_Buffer_signed,Signed,Signed,,Buffer view type
+Debugger_Buffer_unsigned,Unsigned,Unsigned,,Buffer view type
+Debugger_Buffer_Id,Buffer Id,Buffer Id,,Buffer id label
+Debugger_Buffer_Columns,Columns,Columns,,Buffer columns label
+Debugger_Buffer_Type,Type: {0},Type: {0},,Buffer type label
+Debugger_Buffer_Size,Size: {0},Size: {0},,Buffer size label
+Debugger_Buffer_Tell,Tell: {0},Tell: {0},,Buffer tell label
+Debugger_Buffer_Alignment,Alignment: {0},Alignment: {0},,Buffer alignment label
+Debugger_Buffer_ColumnsAuto,Auto,Auto,,Debugger auto columns label
+Debugger_Buffer_NoneSelected,There is no buffer associated with identifier {0},There is no buffer associated with identifier {0},,Debugger buffer none selected label
+Debugger_ViewType_Real,Real,Real,,debugger view type real
+Debugger_ViewType_DSList,ds_list,ds_list,,debugger view type ds_list
+Debugger_ViewType_DSMap,ds_map,ds_map,,debugger view type ds_map
+Debugger_ViewType_DSStack,ds_stack,ds_stack,,debugger view type ds_stack
+Debugger_ViewType_DSQueue,ds_queue,ds_queue,,debugger view type ds_queue
+Debugger_ViewType_DSPriority,ds_priority,ds_priority,,debugger view type ds_priority
+Debugger_ViewType_DSGrid,ds_grid,ds_grid,,debugger view type ds_grid
+Debugger_ViewType_Instance,Instance,Instance,,debugger view type Instance
+Debugger_Surface,Surface {0},Surface {0},,Debugger surface label
+Debugger_Texture,Texture {0},Texture {0},,Debugger texture label
+Debugger_Surface_View,Surface,Surface,,Debugger surface label
+Debugger_Texture_View,Texture,Texture,,Debugger texture label
+Debugger_Menu_Windows,Windows,Windows,,Debugger menu item
+Debugger_ResetLayout,Reset Window Layout,Reset Window Layout,,Debugger reset window layout menu item
+Debugger_Graph_Mem,"Mem {0}","Mem {0}",,Debugger graph memory
+Debugger_Graph_Fps,"Fps {0}","Fps {0}",,Debugger graph fps
+Debugger_Graph_GameFps,"Game Fps {0}","Game Fps {0}",,Debugger graph game fps
+Debugger_Graph_Avg,Avg {0},Avg {0},,Debugger graph average label
+Debugger_Graph_FpsAvg,Fps Avg {0},Fps Avg {0},,Debugger graph average label
+Debugger_Graph_MemAvg,Mem Avg {0},Mem Avg {0},,Debugger graph average label
+Debugger_ViewAs,View As...,View As...,,watch contect menu view as
+Debugger_DeleteWatch,Delete Watch,Delete Watch,,watch contect menu delete watch
+Debugger_ClearWatches,Clear All,Clear All,,watch contect menu delete all watches
+Debugger_Profiler_Start,Start Profiling,Start Profiling,,debugger start profiling
+Debugger_Profiler_Stop,Stop Profiling,Stop Profiling,,debugger start profiling
+Debugger_Profiler_Running,Profiling...,Profiling...,,debugger profiling
+Debugger_Profiler_Averages,Average Values,Average Values,,Debugger show average values
+Debugger_Profiler_Averages_Tooltip,Tick this to display all values as averages.\nUntick it to display accumulated values.,Tick this to display all values as averages.\nUntick it to display accumulated values.,,Debugger averages tooltip
+Debugger_DataGrid_CallCount,Call Count,Call Count,,Debugger call count
+Debugger_DataGrid_Time,Time (Ms),Time (Ms),,Debugger time count
+Debugger_DataGrid_Step,Step %,Step %,,Debugger step % column
+Debugger_Graph_Help,This graph shows frames per second and memory usage over time.\nHold Control and scroll to expand and contract the graph.,This graph shows frames per second and memory usage over time.\nHold Control and scroll to expand and contract the graph.,,Debugger graph help icon
+Debugger_Graph_Help_Mac,This graph shows frames per second and memory usage over time.\nHold ⌘ and scroll to expand and contract the graph.,This graph shows frames per second and memory usage over time.\nHold ⌘ and scroll to expand and contract the graph.,,Debugger graph help icon
+Debugger_FailedToEvaluate,Failed to evaluate expression,Failed to evaluate expression,,Debugger failed to evaluate expression
+Debugger_Connection_Active,Active connection to game,Active connection to game,,Debugger active connection
+Debugger_Connection_Pending,Connecting to game...,Connecting to game...,,Debugger pending connection
+Debugger_Connection_Closed,No connection to game,No connection to game,,Debugger no connection
+Debugger_GraphView_ShowWindow,Click to open in a window.,Click to open in a window.,,Debugger open in window label
+Debugger_GraphView_Tags_WindowTitle,Debug Events - Tick {0},Debug Events - Tick {0},,Debug events window title
+Debugger_IPDialog_Title,Device IP Required,Device IP Required,,Debugger IP Address dialog title
+Debugger_IPDialog_Message,Target Device IP is required to connect the debugger,Target Device IP is required to connect the debugger,,Debugger IP Address dialog message
+Debugger_IPDialog_Button,Open Device Settings,Open Device Settings,,Debugger IP Address button caption
+Debugger_Watches_AddNewWatch,Add new watch...,Add new watch...,,Watches add new text
+Debugger_OnlyAvailableWindows,Only available with Windows target,Only available with Windows target,,selected instance windows only message
+Debugger_CloseMessage_NoGame,This will close the debugger and permanently discard all collected data.,This will close the debugger and permanently discard all collected data.,,Close debugger without a running game
+Debugger_CloseMessage_Game,This will close the game and the debugger and permanently discard all collected data.,This will close the game and the debugger and permanently discard all collected data.,,Close debugger with a running game
+Debugger_Pref_AutomaticCloseChoice,Automatic choice on closing the debugger,Automatic choice on closing the debugger,,Close automatic choice message
+Debugger_CodeError,Code Error,Code Error,,debugger code error dialog title
+Help_BufferId,"The buffer id is an integer value starting at zero and increments when a new buffer is created.\nView the contents of the buffer with a given id.","The buffer id is an integer value starting at zero and increments when a new buffer is created.\nView the contents of the buffer with a given id.",,Help tip
+Help_eProfileFilterType_eGML,"Show only samples for my code, excluding the underlying engine code.","Show only samples for my code, excluding the underlying engine code.",,Help tip
+Help_eProfileFilterType_eEngine,"Show only samples for the underlying engine code, excluding my code.","Show only samples for the underlying engine code, excluding my code.",,Help tip
+Help_eProfileFilterType_eCombined,Show samples for my code and the underlying engine code.,Show samples for my code and the underlying engine code.,,Help tip
+Help_eProfileViewType_eTree,"Show samples in a top-down hierarchy, with the most detailed parts at the bottom of the tree.","Show samples in a top-down hierarchy, with the most detailed parts at the bottom of the tree.",,Help tip
+Help_eProfileViewType_eBottomUp,"Show samples in a bottom-up hierarchy, with the most detailed parts at the top of the tree.","Show samples in a bottom-up hierarchy, with the most detailed parts at the top of the tree.",,Help tip
+Help_TextureView,"Show all textures in use by the game, including surface textures.","Show all textures in use by the game, including surface textures.",,Help tip
+Help_SurfaceView,Show all dynamically created surfaces currently in memory.,Show all dynamically created surfaces currently in memory.,,help tip
+ListBoxEnum_eProfileFilterType_eGML,My Code,My Code,,User code filter
+ListBoxEnum_eProfileFilterType_eEngine,Engine Code,Engine Code,,Engine code filter
+ListBoxEnum_eProfileFilterType_eCombined,Combined,Combined,,Combined code filter
+ListBoxEnum_eProfileViewType_eTree,Top-down,Top-down,,Debugger profiler view
+ListBoxEnum_eProfileViewType_eBottomUp,Bottom-up,Bottom-up,,Debugger profiler view
 Marketplace_MyLibrary_NoAvgRatingTooltip,This asset hasn't received enough reviews yet.,This asset hasn't received enough reviews yet.,,Not enough reviews tooltip
 Marketplace_MyLibrary_AvgRatingTooltip,Average rating.,Average rating.,,Not enough reviews tooltip
 LinkLabel_Browser,Browser,Browser,,Link label default localisation title
@@ -4045,6 +4227,7 @@ Marketplace_MyLibrary_Empty,Your library is empty.,Your library is empty.,,Empty
 Marketplace_MyLibrary_ClickToBrowse,Click here to browse the marketplace.,Click here to browse the marketplace.,,Click to browse marketplace
 StartPage_Offline,This link cannot be opened as you are currently offline.,This link cannot be opened as you are currently offline.,,User is offline and trying to open an external url
 debuggerporttouse,Port for Debugger to use,Port for Debugger to use,,Port for Debugger to use label in Settings
+realtimedebugging,Enable real-time debugging,Enable real-time debugging,,Enable real-time debugging label in Settings
 syntaxcheckingdelay,Syntax Checking delay (ms),Syntax Checking delay (ms),,Syntax Checking delay (ms) setting label
 codecompletiondelay,Code Completion delay (ms),Code Completion delay (ms),,Code Completion delay (ms) setting label
 ggs_draw_colour,Default draw colour,Default draw colour,,the option for the default draw colour
@@ -4110,6 +4293,7 @@ platformdevice_detect_browsers,Detect Browsers,Detect Browsers,,Button to auto-d
 RoomEditor_GenerateTileMapFromImage,Convert Image to Tilemap,Convert Image to Tilemap,,menu entry for taking an image and building a tileset/tilemap from it
 ResourceTree_SetRoomParent,Are you sure you want to set '{0}' as the room inheritance parent of '{1}'?,Are you sure you want to set '{0}' as the room inheritance parent of '{1}'?,,message displayed when attempting to drag a room onto another in the resource tre
 resourcetree_automaticsetparentroom,Default for setting a room parent by dragging underneath,Default for setting a room parent by dragging underneath,,the automatic response for dragging rooms to become child rooms in the resource tree
+resourcetree_automaticviewdeletion,Default for deleting custom views,Default for deleting custom views,,the automatic response when deleting a custom view
 RoomEditor_InstanceLockToolTip,Lock Instance,Lock Instance,,tooltip for instance lock
 RoomEditor_GraphicLockToolTip,Lock Graphic,Lock Graphic,,tooltip for graphic lock
 FontEditor_ReplacementGlyphError,Using symbols nott found in font (?),Using symbols not found in font (?),,Font glyph error
@@ -4181,10 +4365,99 @@ Preferences_xbone_tools_dir,Xbox One Tools Directory,Xbox One Tools Directory,,P
 Preferences_xbone_xbone_dir,Microsoft Xbox One Directory,Microsoft Xbox One Directory,,Preferences/Platform Settings/Xbone
 Preferences_xbone_vs_path,Visual Studio Path,Visual Studio Path,,Preferences/Platform Settings/Xbone
 ProjectLoad_BadPathTitle,Unsafe Path,Unsafe Path,,Bad Path message title when failing badpath check on load
+ResourceTree_Search_Filters,Filters:,Filters:,,Filter label on Resource Tree search
+ResourceTree_Search_Go,Go,Go,,Go Button Label
+ResourceTree_Search_Reset,Reset,Reset,,Reset Button Label
+ResourceTree_Views_Views,Views,Views,,Views label
+ResourceTree_Views_Clone,Clone,Clone,,Clone resource tree view label
+ResourceTree_Views_Delete,Delete Current,Delete Current,,Delete Current Resource Tree View Label
+ResourceTree_HorizontalSeparators,Show Horizontal Separators,Show Horizontal Separators,,Show Horizontal Separators in Resource Tree
+ResourceTree_HorizontalSeparatorColour,Horizontal Separator Colour,Horizontal Separator Colour,,Choose colour for Horizontal Separators in Resource Tree
+ResourceTree_TreeLineColour,Tree Line Colour,Tree Line Colour,,Choose colour for the Tree Lines
+ResourceTree_DefaultBackgroundColour,Default Background Colour,Default Background Colour,,Default Background Colour
+ResourceTree_BackgroundColourHelp,"To see the node highlight, please choose an alpha colour","To see the node highlight, please choose an alpha colour",,Help label for the Resource Tree background colours
+ResourceTree_SpriteBackgroundColour,Sprite Background Colour,Sprite Background Colour,,Background Colour for Sprites
+ResourceTree_TileSetsBackgroundColour,Tile Sets Background Colour,Tile Sets Background Colour,,Background Colour for Tile Sets
+ResourceTree_SoundsBackgroundColour,Sounds Background Colour,Sounds Background Colour,,Background Colour for sounds
+ResourceTree_PathsBackgroundColour,Paths Background Colour,Paths Background Colour,,Backgound Colour for Paths
+ResourceTree_ScriptsBackgroundColour,Scripts Background Colour,Scripts Background Colour,,Background Colour for Scripts
+ResourceTree_ShadersBackgroundColour,Shaders Background Colour,Shaders Background Colour,,Background Colour for Shaders
+ResourceTree_FontsBackgroundColour,Fonts Background Colour,Fonts Background Colour,,Background Colour for Fonts
+ResourceTree_TimelinesBackgroundColour,Timelines Background Colour,Timelines Background Colour,,Background Colour for Timelines
+ResourceTree_ObjectsBackgroundColour,Objects Background Colour,Objects Background Colour,,Background Colour for Objects
+ResourceTree_RoomBackgroundColour,Room Background Colour,Room Background Colour,,Background Colour for Rooms
+ResourceTree_IncludedFilesBackgroundColour,Included Files Background Colour,Included Files Background Colour,,Background Colour for Included Files
+ResourceTree_ExtensionsBackgroundColour,Extensions Background Colour,Extensions Background Colour,,Background Colour for Extensions
+ResourceTree_OptionsBackgroundColour,Options Background Colour,Options Background Colour,,Background Colour for Options
+ResourceTree_ConfigsBackgroundColour,Configurations Background Colour,Configurations Background Colour,,Background Colour for Configurations
+ResourceTree_NotesBackgroundColour,Notes Background Colour,Notes Background Colour,,Background Colour for Notes
+ResourceTree_MinItemSize,Minimum Zoom on Resource Tree (Percentage),Minimum Zoom on Resource Tree (Percentage),,Minimum Zoom on Resource Tree
+ResourceTree_MaxItemSize,Maximum Zoom on Resource Tree (Percentage),Maximum Zoom on Resource Tree (Percentage),,Maximum Zoom on Resource Tree
+ResourceTree_DefaultLabelColour,Default Label Colour,Default Label Colour,,Default Label Colour
+ResourceTree_SpriteLabelColour,Sprite Label Colour,Sprite Label Colour,,Label Colour for Sprites
+ResourceTree_TileSetsLabelColour,Tile Sets Label Colour,Tile Sets Label Colour,,Label Colour for Tile Sets
+ResourceTree_SoundsLabelColour,Sounds Label Colour,Sounds Label Colour,,Label Colour for sounds
+ResourceTree_PathsLabelColour,Paths Label Colour,Paths Label Colour,,Backgound Colour for Paths
+ResourceTree_ScriptsLabelColour,Scripts Label Colour,Scripts Label Colour,,Label Colour for Scripts
+ResourceTree_ShadersLabelColour,Shaders Label Colour,Shaders Label Colour,,Label Colour for Shaders
+ResourceTree_FontsLabelColour,Fonts Label Colour,Fonts Label Colour,,Label Colour for Fonts
+ResourceTree_TimelinesLabelColour,Timelines Label Colour,Timelines Label Colour,,Label Colour for Timelines
+ResourceTree_ObjectsLabelColour,Objects Label Colour,Objects Label Colour,,Label Colour for Objects
+ResourceTree_RoomLabelColour,Room Label Colour,Room Label Colour,,Label Colour for Rooms
+ResourceTree_IncludedFilesLabelColour,Included Files Label Colour,Included Files Label Colour,,Label Colour for Included Files
+ResourceTree_ExtensionsLabelColour,Extensions Label Colour,Extensions Label Colour,,Label Colour for Extensions
+ResourceTree_OptionsLabelColour,Options Label Colour,Options Label Colour,,Label Colour for Options
+ResourceTree_ConfigsLabelColour,Configurations Label Colour,Configurations Label Colour,,Label Colour for Configurations
+ResourceTree_NotesLabelColour,Notes Label Colour,Notes Label Colour,,Label Colour for Notes
+ResourceTree_DeleteView_Confirm,Delete the selected view: {0}?,Delete the selected view: {0}?,,Delete the currently selected view.
+ResourceTree_ShowTreeLines,Show Tree Lines,Show Tree Lines,,Show Tree Lines in Resource Tree
+ResourceTree_ShowGroupIcons,Show Group Node Icons,Show Group Node Icons,,Show the Group Node Icons in the Resource Tree
+ResourceTree_DefaultIconColour,Default Icon Colour,Default Icon Colour,,Default Icon Colour
+ResourceTree_SpriteIconColour,Sprite Icon Colour,Sprite Icon Colour,,Icon Colour for Sprites
+ResourceTree_TileSetsIconColour,Tile Sets Icon Colour,Tile Sets Icon Colour,,Icon Colour for Tile Sets
+ResourceTree_SoundsIconColour,Sounds Icon Colour,Sounds Icon Colour,,Icon Colour for sounds
+ResourceTree_PathsIconColour,Paths Icon Colour,Paths Icon Colour,,Backgound Colour for Paths
+ResourceTree_ScriptsIconColour,Scripts Icon Colour,Scripts Icon Colour,,Icon Colour for Scripts
+ResourceTree_ShadersIconColour,Shaders Icon Colour,Shaders Icon Colour,,Icon Colour for Shaders
+ResourceTree_FontsIconColour,Fonts Icon Colour,Fonts Icon Colour,,Icon Colour for Fonts
+ResourceTree_TimelinesIconColour,Timelines Icon Colour,Timelines Icon Colour,,Icon Colour for Timelines
+ResourceTree_ObjectsIconColour,Objects Icon Colour,Objects Icon Colour,,Icon Colour for Objects
+ResourceTree_RoomIconColour,Room Icon Colour,Room Icon Colour,,Icon Colour for Rooms
+ResourceTree_IncludedFilesIconColour,Included Files Icon Colour,Included Files Icon Colour,,Icon Colour for Included Files
+ResourceTree_ExtensionsIconColour,Extensions Icon Colour,Extensions Icon Colour,,Icon Colour for Extensions
+ResourceTree_OptionsIconColour,Options Icon Colour,Options Icon Colour,,Icon Colour for Options
+ResourceTree_ConfigsIconColour,Configurations Icon Colour,Configurations Icon Colour,,Icon Colour for Configurations
+ResourceTree_NotesIconColour,Notes Icon Colour,Notes Icon Colour,,Icon Colour for Notes
+ResourceTree_NodeSelectHighlight,Node Selection Highlight,Node Selection Highlight,,Node Selection Highlight colour
 ProjectLoad_BadPathMessage,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,,Project is in an unsafe location message
+recentwindows_title,Recent Windows,Recent Windows,,Recently activated windows title
+Views_Menu_Recent_Windows,Recent Windows,Recent Windows,,Recent activated windows menu option
 Developer_Menu_Title,Developer,Developer,,Title of the main Developer menu
 HideGameMaker_Menu_Title,Hide GameMaker Studio 2,Hide GameMaker Studio 2,,Hide GameMaker menu entry for Mac
 HideOthers_Menu_Title,Hide Others,Hide Others,,Hide others menu entry for Mac
 Project_Error,Project Error,Project Error,,Error in Project
 Project_Error_No_Rooms,No rooms found - you need at least one room to run.,No rooms found - you need at least one room to run.,,No rooms error message
+RecentWindows_ActiveWindowsOnly,Only show Active Windows,Only show Active Windows,,Only show active windows preference
+RecentWindows_ShuffleItemsOnClick,Shuffle focused windows to top,Shuffle focused windows to top,,Shuffle the newly focused window to the top of the recent windows list
+RecentWindows_MaxNumberOfItems,Maximum number of windows to show,Maximum number of windows to show,,Maximum number of windows to show
+RecentWindows_RemoveItem,Remove Item(s),Remove Item(s),,Remove Items from the recent windows list
+RecentWindows_ClearAll,Clear All Items,Clear All Items,,Clear All Items from the recent windows list
+RecentWindows_MoveToTop,Move to Top,Move to Top,,Move the selected items to the top of the recent windows list
+RecentWindows_ShowByDefault,Show by default on project load,Show by default on project load,,Show the Recent Windows list by default on project load
 Project_Error_Invalid_Shaders,The shader '{0}' has an invalid type.,The shader '{0}' has an invalid type.,,Invalid shader error message
+AVDVersion_Error,Cannot run AVD directly with version '{0}' of the Android SDK.\nPlease launch 'Android Studio' and select 'Tools > Android > AVD Manager'.,Cannot run AVD directly with version '{0}' of the Android SDK.\nPlease launch 'Android Studio' and select 'Tools > Android > AVD Manager'.,,error message for later versions of Android Studio
+ggs_windowsuap_enable_xbox_live,Enable Xbox Live,Enable Xbox Live,,Enable Xbox Live
+ggs_windowsuap_xbox_live_creators_program,Creators Program App,Creators Program App,,Specifies that this is a Creators Program app
+ggs_windowsuap_xbox_live_title_id,Title ID,Title ID,,The Title ID of the app
+ggs_windowsuap_xbox_live_scid,Service Configuration ID,Service Configuration ID,,The Service Configuration ID of the app
+Proxy_Settings,Proxy Settings,Proxy Settings,,Proxy settings window title
+Proxy_Address,Proxy,Proxy,,proxy address label
+Proxy_Address_Tooltip,Proxy address and port (http://address:port),Proxy address and port (http://address:port),,proxy address tooltip
+Proxy_Address_Error,Error proxy must using "http://address:port" format,Error proxy must using "http://address:port" format,,proxy format error message
+Proxy_Error_Title,Error: Invalid proxy setting,Error: Invalid proxy setting,,proxy error window title
+Proxy_Username,Username,Username,,proxy username label
+Proxy_Username_Tooltip,Proxy username,Proxy username,,proxy username tooltip
+Proxy_Password,Password,Password,,proxy password label
+Proxy_Password_Tooltip,Proxy password,Proxy password,,proxy password tooltip
+Proxy_Domain,Domain,Domain,,proxy domain label
+Proxy_Domain_Tooltip,Proxy Domain. Usually left blank,Proxy Domain. Usually left blank,,proxy domain tooltip
