@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.6.0" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.5" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -38155,6 +38155,18 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="36011" changedate="20170315T073618Z" creationid="36011" creationdate="20170315T073618Z">
         <seg>无条件循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">english.xml</prop>
+      <prop type="prev">Lock sprite origin</prop>
+      <prop type="next">Premultiply Alpha</prop>
+      <note>位于精灵 - 碰撞遮罩 - 模式的下拉列表内，表示手动操作的意思</note>
+      <tuv lang="EN-US">
+        <seg>Manual</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="deciia" changedate="20181008T072549Z" creationid="deciia" creationdate="20181008T072549Z">
+        <seg>手动</seg>
       </tuv>
     </tu>
     <tu>
