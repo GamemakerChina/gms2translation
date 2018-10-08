@@ -91,6 +91,7 @@ CodeWindow_Title,Code,Code,,fullscreen code editor workspace tab title
 CodeWindow_RestoreToWorkspace,Restore to workspace,Restore to workspace,,code editor restore to workspace context menu option
 CodeWindow_GotoObject,Go to Object,Go to Object,,code editor go to object context menu option
 CodeWindow_AddEvent,Add/Open Event,Add/Open Event,,code editor event script add event context menu option
+CodeWindow_OpenInheritedEvent,Open Inherited Event,Open Inherited Event,,open inherited event context menu option
 GotoLine_Title,Go To Line,Go To Line,,goto line dialog title
 GotoLine_Label,Line Number ({0} - {1}),Line Number ({0} - {1}),,goto line label
 CompileErrors,Compile Errors,Compile Errors,,Compile Errors tab title
@@ -1070,6 +1071,10 @@ ObjectEditor_CutEvent,Cut Event,Cut Event,,Object editor cut event menu option
 ObjectEditor_CopyEvent,Copy Event,Copy Event,,Object editor copy event menu option
 ObjectEditor_PasteEvent,Paste Event,Paste Event,,Object editor paste event menu option
 ObjectEditor_DuplicateEvent,Duplicate Event,Duplicate Event,,Object editor duplicate event menu option
+ObjectEditor_OpenParentObject,Open Parent Event,Open Parent Event,,Object editor open parent object menu option
+ObjectEditor_OverrideParentEvent,Override Event,Override Event,,Object editor override parent event menu option
+ObjectEditor_InheritParentEvent,Inherit Event,Inherit Event,,Object editor inherit parent event menu option
+ObjectEditor_ViewParentEvent,Show Parent Event,Show Parent Event,,Object editor show parent event menu option
 ObjectEditor_SelectSprite,Select Sprite,Select Sprite,,Object editor select sprite caption
 ObjectEditor_SelectMask,Select Mask,Select Mask,,Object editor select mask caption
 ObjectEditor_SelectParent,Select Parent,Select Parent,,Object editor select parent caption
@@ -1082,6 +1087,27 @@ ObjectEditor_NoParent,No Parent,No Parent,,"Object editor ""no parent"" setting"
 ObjectEditor_NoSprite,No Sprite,No Sprite,,"Object editor ""no sprite"" setting"
 ObjectEditor_ObjectProperties,Object Properties,Object Properties,,Object properties window title
 ObjectEditor_Physics,Physics,Physics,,Physics label in Object Editor
+ObjectEditor_InstProps,Variables,Variables,,Object Variables label in Object Editor
+ObjectEditor_InstPropsDefs,Variable Definitions,Variable Definitions,,Object Variables definitions label in Object Editor
+ObjectEditor_Multiselect,Multi-select,Multi-select,,Object editor list option multiselect
+ObjectEditor_PropAddButton_Tooltip,Add a new variable,Add a new variable,,Add variable tooltip
+ObjectEditor_ListAddButton_Tooltip,Add a new list item,Add a new list item,,Add list item tooltip
+ObjectEditor_PropInherited_Tooltip,This variable has been inherited from the parent object {0}.,This variable has been inherited from the parent object {0}.,,Inherited variable tooltip
+ObjectEditor_PropName,Name,Name,,Variable name
+ObjectEditor_PropName_Tooltip,This is how you will reference it in code.,This is how you will reference it in code.,,Tooltip property name
+InstanceEditor_PropValue,Value,Value,,Variable value
+InstanceEditor_PropValue_Tooltip,Set the variable to a value for this instance only.,Set the variable to a value for this instance only.,,Set variable tooltip
+ObjectEditor_PropType,Type,Type,,Variable type
+ObjectEditor_PropDefault,Default,Default,,Variable default value
+ObjectEditor_PropParams,Options,Options,,Variable attributes aka parameters
+InstanceEditor_PropBoolean_Label,True,True,,Boolean label
+ObjectEditor_WindowOptions,Options: {0},Options: {0},,Options window title
+ObjectEditor_RangeEnabled,Use Range,Use Range,,Use ranged parameter
+ObjectEditor_RangeMin,Min,Min,,Min ranged parameter
+ObjectEditor_RangeMax,Max,Max,,Max ranged parameter
+ObjectEditor_ListItems,List items,List items,,List items label
+ObjectEditor_ResourceFilter,Resource filter,Resource filter,,Resource filter label
+ObjectEditor_RemoveListItem,Remove this item,Remove this item,,Remove this item label
 ObjectEditor_PhysicsProperties,Physics Properties,Physics Properties,,Object editor physics properties label
 ObjectEditor_PhysicsShape_WindowTitle,Physics Collision Shape,Physics Collision Shape,,Object editor physics shape window title
 ObjectEditor_Properties,Properties,Properties,,Object editor properties heading
@@ -1089,6 +1115,9 @@ ObjectEditor_SameMask,Same As Sprite,Same As Sprite,,"Object editor ""same as sp
 ObjectEditor_MaskSameAsSprite,Same As Sprite,Same As Sprite,,Object editor same mask caption
 ObjectEditor_Shape,Convex Shape,Convex Shape,,"Object editor collision shape ""shape"""
 ObjectEditor_WindowTitle,Object: {0},Object: {0},,Object properties window title
+ObjectEditor_Prop_RemoveTooltip,Remove this variable,Remove this variable,,Remove variable row tooltip
+ObjectEditor_Prop_OptionsTooltip,Open options...,Open options...,,Open variable options tooltip
+InstanceEditor_Prop_OverrideTooltip,Override this variable,Override this variable,,Override variable tooltip
 OutputPanel_Output,Output,Output,,Output panel output tab name
 OutputPanel_SearchResults,Search Results,Search Results,,Output panel search results tab name
 OutputPanel_SourceControl,Source Control,Source Control,,Output panel source control tab name
@@ -1785,8 +1814,8 @@ DnD_Gadget_ResourceSelection,Resource Selection,Resource Selection,,DnD™ gadge
 DnD_Gadget_ResourceSelection_SelectResource,Select Resource,Select Resource,,DnD™ gadget list view explorer title
 DnD_Gadget_BooleanInput,Boolean Input,Boolean Input,,DnD™ gadget for boolean input
 DnD_Gadget_BooleanExprInput,Boolean Expression Input,Boolean Expression Input,,DnD™ gadget for boolean input
-DnD_Gadget_ColorPicker,Color Picker,Color Picker,,DnD™ gadget for picking a color
-DnD_Gadget_ColorPalette,Color Palette,Color Palette,,DnD™ gadget for picking a color
+DnD_Gadget_ColorPicker,Colour Picker,Colour Picker,,DnD™ gadget for picking a color
+DnD_Gadget_ColorPalette,Colour Palette,Colour Palette,,DnD™ gadget for picking a color
 DnD_Gadget_MultiLineTextInput,Text Input (MultiLine),Text Input (MultiLine),,DnD™ gadget for multiline text input
 DnD_Gadget_CodeInput,Code Input,Code Input,,DnD™ gadget for code input
 DnD_Gadget_Caption_GroupSelector,Options,Options,,DnD™ label caption for the group selector gadget
@@ -1930,7 +1959,8 @@ DnDNodeWindow_CMenu_Copy,Copy,Copy,,DnD™ node window context menu
 DnDNodeWindow_CMenu_Cut,Cut,Cut,,DnD™ node window context menu
 DnDNodeWindow_CMenu_Help,Show Help...,Show Help...,,DnD node window context menu
 DnDNodeWindow_CMenu_Paste,Paste,Paste,,DnD™ node window context menu
-DnDNodeWindow_CMenu_CollapseAll,Collapse All,Collapse All,,DnD node window context menu
+DnDNodeWindow_CMenu_CollapseAll,Collapse All,Collapse All,,DnD node window context menu collapse all nodes
+DnDNodeWindow_CMenu_ExpandAll,Expand All,Expand All,,DnD node window context menu expand all nodes
 DnDNodeWindow_CMenu_Evaluate,Evaluate...,Evaluate...,,DnD™ node window context menu
 ggs_graphics_scale,Scaling,Scaling,,Game Settings Graphics Scale title
 ggs_graphics_scale_keepaspectratio,Keep aspect ratio,Keep aspect ratio,,Game Settings Graphics Scale - Keep Aspect Ratio option
@@ -2024,7 +2054,9 @@ ggs_android_lint,Run Lint code analysis,Run Lint code analysis,,Run Lint Code An
 ggs_landscape_splash_screen,Landscape Splash Screen,Landscape Splash Screen,,Landscape Splash Screen
 ggs_portrait_splash_screen,Portrait Splash Screen,Portrait Splash Screen,,Portrait Splash Screen
 ggs_splash_screen,Splash Screen Image,Splash Screen Image,,Splash Screen Image
+LicenceExcluded_ggs_splash_screen,Splash screen image cannot be changed on 'Creator' platforms,Splash screen image cannot be changed on 'Creator' platforms,Do not localise 'Creator' it's a product name,forced splash screen image tooltip
 ggs_use_splash_screen,Use splash screen,Use splash screen,,Use Splash Screen
+LicenceExcluded_ggs_use_splash_screen,Splash screen cannot be disabled on 'Creator' platforms,Splash screen cannot be disabled on 'Creator' platforms,Do not localise 'Creator' it's a product name,use splash force enabled tooltip
 ggs_minimum_display_time,Minimum time to display,Minimum time to display,,Minimum time to display
 ggs_interpolate_pixels,Interpolate colours between pixels,Interpolate colours between pixels,,Interpolate colours between pixels
 ggs_screen_colour_depth,Screen Colour Depth,Screen Colour Depth,,Screen Colour Depth
@@ -2116,9 +2148,10 @@ ggs_app_output,App Output,App Output,,App Output
 ggs_team_id,Team Identifier,Team Identifier,,the macOS Option for team identifier
 ggs_team_id_tooltip,10 digit alpha-numeric identifier taken from your developer.apple.com/#/overview URL. If blank this will inherit the value set in Platform Options,10 digit alpha-numeric identifier taken from your developer.apple.com/#/overview URL. If blank this will inherit the value set in Platform Options,,Tooltip for signing identity
 ggs_signing_id,Signing Identifier,Signing Identifier,,Signing Identifier Label
-ggs_signing_id_tooltip,"To distribute your game outside of the Mac App Store El Capitan requires that\nyour game package is codesigned. Please provide the signing identity that you\nwish to use here, this should be a Developer ID Application identity and should\nbe present in your Mac's login keychain certificates. Signing identities can be\neasily created in Xcode->Preferences->Accounts->Team->View Details->Developer ID\nApplication->Create. Signing identities will be matched so the default value\nshould be sufficient if you are only the member of one development team. Leave\nthis field blank to skip codesigning.","To distribute your game outside of the Mac App Store El Capitan requires that\nyour game package is codesigned. Please provide the signing identity that you\nwish to use here, this should be a Developer ID Application identity and should\nbe present in your Mac's login keychain certificates. Signing identities can be\neasily created in Xcode->Preferences->Accounts->Team->View Details->Developer ID\nApplication->Create. Signing identities will be matched so the default value\nshould be sufficient if you are only the member of one development team. Leave\nthis field blank to skip codesigning.",,Tooltip for signing identity
+ggs_signing_id_tooltip,"To distribute your title outside of the Mac App Store macOS requires that your\npackage is codesigned. Please provide the signing identity that you wish to use\nhere: this should be a Developer ID Application identity and should be present\nin your Mac's login keychain certificates. Signing identities can be easily created\nin Xcode->Preferences->Accounts->Team->View Details->Developer ID\nApplication->Create. Signing identities will be matched so the default value\nshould be sufficient if you are only the member of one development team.\nLeave this field blank to skip codesigning.","To distribute your title outside of the Mac App Store macOS requires that your\npackage is codesigned. Please provide the signing identity that you wish to use\nhere: this should be a Developer ID Application identity and should be present\nin your Mac's login keychain certificates. Signing identities can be easily created\nin Xcode->Preferences->Accounts->Team->View Details->Developer ID\nApplication->Create. Signing identities will be matched so the default value\nshould be sufficient if you are only the member of one development team.\nLeave this field blank to skip codesigning.",,Tooltip for signing identity
 ggs_copyright,Copyright,Copyright,,Copyright
 ggs_allow_menu_dock_fullscreen,Allow menu and dock in fullscreen,Allow menu and dock in fullscreen,,Allow Menu and Dock in Fullscreen
+ggs_enable_retina,Enable Retina,Enable Retina,,Enable Retina
 ggs_build_mac_app_store,Build for Mac App Store,Build for Mac App Store,,Build for Mac App Store
 ggs_allow_incoming_network_connections,Allow incoming network connections,Allow incoming network connections,,Allow Incoming Network Connections
 ggs_allow_outgoing_network_connections,Allow outgoing network connections,Allow outgoing network connections,,Allow Outgoing Network Connections
@@ -2177,6 +2210,7 @@ ggs_installer_header_image,Installer Header Image,Installer Header Image,,Instal
 ggs_license_agreement,License Agreement,License Agreement,,License Agreement
 ggs_installer_nsi_script,Installer NSI Script,Installer NSI Script,,Installer NSI Script
 ggs_certificate_location,Store certificate location,Store certificate location,,Store Certificate Location
+ggs_certificate_publisher,Publisher Name,Publisher Name,,certificate issuer name
 ggs_wvga_resolution,Support WVGA Resolution,Support WVGA Resolution,,Support WVGA Resolution
 ggs_wxga_resolution,Support WXGA Resolution,Support WXGA Resolution,,Support WXGA Resolution
 ggs_720p_resolution,Support 720p Resolution,Support 720p Resolution,,Support 720p Resolution
@@ -2596,6 +2630,7 @@ UseDefaultNSISScript,Use Default NSIS Script,Use Default NSIS Script,,Use Defaul
 ObjectEditor_DefaultCodeComment,/// @description Insert description here\n// You can write your code in this editor,/// @description Insert description here\n// You can write your code in this editor,,Object editor module default text for new events
 ObjectEditor_DefaultEventComment,Default event content,Default event content,,Default Code Event Comment to use
 ObjectEditor_ShowDefaultHelpPref,Add default event content,Add default event content,,Object editor module default text preference
+ObjectEditor_InheritedEventAlpha,Inherited Events Alpha,Inherited Events Alpha,,object editor ghosted events alpha setting
 DnD_ReservedTagName,The tag name {0} is reserved and cannot be used.,The tag name {0} is reserved and cannot be used.,,DnDGadget reserved tag name warning
 DnD_ReservedTagName_Title,Reserved Tag Name,Reserved Tag Name,,DnDGadget reserved tag name warning message title
 Room_InvalidDepthsImportedLog,"Imported layer depths for room(s) '{0}' were not adequately spaced. Unless updated this will have undefined results in game.","Imported layer depths for room(s) '{0}' were not adequately spaced. Unless updated this will have undefined results in game.",,conversion log message where layer depths are invalid and have not been adjusted
@@ -2783,6 +2818,8 @@ IDE_OpenProject_NotExists_Title,Invalid Project,Invalid Project,,Title for IDE_O
 SpriteEditor_InvalidFileFormat,"The file(s) you attempted to load are not supported by the sprite editor.","The file(s) you attempted to load are not supported by the sprite editor.",,Sprite editor invalid file format dropped
 ImageEditor_InvalidFileFormat,"The file(s) you attempted to load are not supported by the image editor.","The file(s) you attempted to load are not supported by the image editor.",,Image editor invalid file format dropped
 SpriteEditor_InvalidFileFormat_Title,Invalid File Format,Invalid File Format,,Invalid file format dialog title
+ImageEditor_InvalidFileSingle,The file that you tried to import is not supported in this editor.,The file that you tried to import is not supported in this editor.,,image invalid file format dropped
+ImageEditor_InvalidFileGroup,One or more of the files that you tried to import is not supported in this editor.,One or more of the files that you tried to import is not supported in this editor.,,image invalid file format multiple dropped
 steam_sdk_path,Steam SDK location,Steam SDK location,,Path to Steam SDK
 ColourPicker_Title,Colour Picker,Colour Picker,,Title for Colour Picker
 ColourPicker_Red,Red,Red,,Red Colour Picker Channel
@@ -2973,7 +3010,6 @@ Survey_Rating_1,Terrible,Terrible,,Really Bad Rating
 Survey_Rating_0,Not Applicable,Not Applicable,,Rating Not Applicable
 Surveys_OptIn,Opt-in to feedback surveys,Opt-in to feedback surveys,,feedback survey opt-in checkbox text
 Notifications_Hub,Notification Hub,Notification Hub,,Notification Hub string
-stats_trial,Statistics cannot be turned off in GameMaker Studio 2 Trial,Statistics cannot be turned off in GameMaker Studio 2 Trial,,Trial stats tooltip on checkbox
 SoundMixer_ToolTip_AddGroup,Add sound group,Add sound group,,Sound mixer tool tip for adding a sound group to the mixer
 SoundMixer_ToolTip_CloseGroup,Close sound group,Close sound group,,Sound mixer tool tip for adding a sound group to the mixer
 SoundMixer_ToolTip_SoundGroup,Sound group,Sound group,,Sound mixer tool tip for the sound group
@@ -3028,6 +3064,23 @@ RoomEditor_PathLayerStatus,"Selected control point(s): {0}","Selected control po
 RoomEditor_PathLayerPointStatus,"({0}, {1}),","({0}, {1}),",,the an individual control point status for the path layer shown in the room editor status bar
 ListBoxEnum_eAnimSpeedType_FramesPerSecond,Frames per second,Frames per second,,the playback type comboxbox entry for fps
 ListBoxEnum_eAnimSpeedType_FramesPerGameFrame,Frames per game frame,Frames per game frame,,the playback type comboxbox entry for game frame locked playback
+ListBoxEnum_eObjectPropertyType_Real,Real,Real,,Real value type
+ListBoxEnum_eObjectPropertyType_Integer,Integer,Integer,,Integer value type
+ListBoxEnum_eObjectPropertyType_String,String,String,,String value type
+ListBoxEnum_eObjectPropertyType_Boolean,Boolean,Boolean,,Boolean value type
+ListBoxEnum_eObjectPropertyType_Expression,Expression,Expression,,Expression value type
+ListBoxEnum_eObjectPropertyType_Resource,Resource,Resource,,Resource value type
+ListBoxEnum_eObjectPropertyType_Color,Colour,Colour,,Color value type
+ListBoxEnum_eObjectPropertyType_List,List,List,,List value type
+ResourcePickerButton_ToolTip,Select a resource,Select a resource,,Resource picker button tooltip
+Help_eObjectPropertyType_Real,The value is a real number and accepts decimal places (allows expressions),The value is a real number and accepts decimal places (allows expressions),,Real value type help tip
+Help_eObjectPropertyType_Integer,The value is a whole number (allows expressions),The value is a whole number (allows expressions),,Integer value type help tip
+Help_eObjectPropertyType_String,The value is a string (quotes are optional),The value is a string (quotes are optional),,String value type help tip
+Help_eObjectPropertyType_Boolean,The value is either true or false,The value is either true or false,,Boolean value type help tip
+Help_eObjectPropertyType_Expression,The value is any code expression,The value is any code expression,,Expression value type help tip
+Help_eObjectPropertyType_Resource,The value is a resource (allows expressions),The value is a resource (allows expressions),,Resource value type help tip
+Help_eObjectPropertyType_Color,The value is a colour (allows expressions),The value is a colour (allows expressions),,Color value type help tip
+Help_eObjectPropertyType_List,The value is one or more expressions from a list (if multi-select is on then\nthis is an array of expressions),The value is one or more expressions from a list (if multi-select is on then\nthis is an array of expressions),,List value type help tip
 DnDToolbox_Menu_AddToWorkspace,Use {0},Use {0},,DnD™ Toolbox use action
 DnDToolbox_Menu_CollapseAll,Collapse All,Collapse All,,DnD toolbox collapse all
 DnDToolbox_Menu_Favorite,Make Favourite,Make Favourite,,DnD™ Toolbox make favourite
@@ -3241,9 +3294,9 @@ GMStdDrawInstanceHealth_Desc,"Draw an instance's health with a healthbar.","Draw
 GMStdDrawInstanceLives_Name,"Draw Instance Lives","Draw Instance Lives",,Drag and Drop™ library action name
 GMStdDrawInstanceLives_Desc,"Draw an instance's lives with stacked sprites.","Draw an instance's lives with stacked sprites.",,Drag and Drop™ library action description
 GMStdSetColor_Name,"Set Draw Colour","Set Draw Colour",,Drag and Drop™ library action name
-GMStdSetColor_Desc,"Set the color to blend all drawing with.","Set the color to blend all drawing with.",,Drag and Drop™ library action description
+GMStdSetColor_Desc,"Set the colour to blend all drawing with.","Set the colour to blend all drawing with.",,Drag and Drop™ library action description
 GMStdGetColor_Name,"Get Draw Colour","Get Draw Colour",,Drag and Drop™ library action name
-GMStdGetColor_Desc,"Get the color used to blend all drawing with.","Get the color used to blend all drawing with.",,Drag and Drop™ library action description
+GMStdGetColor_Desc,"Get the colour used to blend all drawing with.","Get the colour used to blend all drawing with.",,Drag and Drop™ library action description
 GMStdSetFont_Name,"Set Font","Set Font",,Drag and Drop™ library action name
 GMStdSetFont_Desc,"Set the font to use for all text drawing.","Set the font to use for all text drawing.",,Drag and Drop™ library action description
 GMStdSetAlignment_Name,"Set Text Alignment","Set Text Alignment",,Drag and Drop™ library action name
@@ -3468,7 +3521,7 @@ GMStdRefreshParticles_Desc,"Update the particle system, advancing it another ste
 GMStdPartTypeCreate_Name,"Create Particle Type","Create Particle Type",,Drag and Drop™ library action name
 GMStdPartTypeCreate_Desc,"Create a new particle type.","Create a new particle type.",,Drag and Drop™ library action description
 GMStdPartTypeColor_Name,"Set Particle Colour","Set Particle Colour",,Drag and Drop™ library action name
-GMStdPartTypeColor_Desc,"Set the color of a particle type.","Set the color of a particle type.",,Drag and Drop™ library action description
+GMStdPartTypeColor_Desc,"Set the colour of a particle type.","Set the colour of a particle type.",,Drag and Drop™ library action description
 GMStdPartTypeLife_Name,"Set Particle Life","Set Particle Life",,Drag and Drop™ library action name
 GMStdPartTypeLife_Desc,"Set the life of a particle type.","Set the life of a particle type.",,Drag and Drop™ library action description
 GMStdPartTypeGravity_Name,"Set Particle Gravity","Set Particle Gravity",,Drag and Drop™ library action name
@@ -3519,8 +3572,8 @@ GMStdRight,"Right","Right",,Drag and Drop™ library argument label
 GMStdBottom,"Bottom","Bottom",,Drag and Drop™ library argument label
 GMStdFill,"Fill","Fill",,Drag and Drop™ library argument label
 GMStdBackground,"Background","Background",,Drag and Drop™ library argument label
-GMStdMinCol,"Min Color","Min Color",,Drag and Drop™ library argument label
-GMStdMaxCol,"Max Color","Max Color",,Drag and Drop™ library argument label
+GMStdMinCol,"Min Colour","Min Colour",,Drag and Drop™ library argument label
+GMStdMaxCol,"Max Colour","Max Colour",,Drag and Drop™ library argument label
 GMStdFont,"Font","Font",,Drag and Drop™ library argument label
 GMStdHAlign,"HAlign","HAlign",,Drag and Drop™ library argument label
 GMStdVAlign,"VAlign","VAlign",,Drag and Drop™ library argument label
@@ -3855,6 +3908,7 @@ ProgressBar_Export,Exporting...,Exporting...,,the progress bar caption while exp
 ProgressBar_Process,Processing...,Processing...,,the progress bar caption while processing
 ProgressBar_BuildProgress,Building... {0},Building... {0},,The progress bar caption while compiling
 ProgressBar_SpritePreview,Sprite Preview...,Sprite Preview...,,The progress bar caption while generating sprite preview
+ProgressBar_Archiving,Archiving...,Archiving...,,Compressing to a .zip/.yyz/etc...
 TileSetEditor_SpriteNoExport,Disable Source Sprite Export,Disable Source Sprite Export,,checkbox caption to disable the export on the source sprite
 TileSetEditor_AutoTileLibrary_Tooltip,Edit Autotiling,Edit Autotiling,,autotile tooltip
 TileSetEditor_AnimationsLibrary_Tooltip,Edit Tile Animation,Edit Tile Animation,,animation library tooltip
@@ -4013,6 +4067,7 @@ room_frozenlayerchoice,Automatic response to layer locked warning,Automatic resp
 room_frozenownerlayerchoice,Automatic response to item owner layer locked warning,Automatic response to item owner layer locked warning,,preference acceptance or show dialog message for editing items within locked layers
 TextureAudioGroups_NoneParent,None,None,,No parent
 SettingsVertexLimit,Automatic response to exceeding physics vertex limit,Automatic response to exceeding physics vertex limit,,Settings box2d vertex limit
+EventInherited_RequireModifierLookup,Ctrl+MMB to open the inherited event instead of the manual.,Ctrl+MMB to open the inherited event instead of the manual.,,event_inherited lookup modifier on/off
 VertexLimitWarning,A physics shape cannot have more than 8 points.,A physics shape cannot have more than 8 points.,,Vertex limit physics warning message
 VertexLimitWarning_Title,Warning,Warning,,Above message title
 ObjectEditor_DropParentHere,Drop here to assign parent,Drop here to assign parent,,Drop message for object parent
@@ -4171,6 +4226,7 @@ Debugger_Graph_MemAvg,Mem Avg {0},Mem Avg {0},,Debugger graph average label
 Debugger_ViewAs,View As...,View As...,,watch contect menu view as
 Debugger_DeleteWatch,Delete Watch,Delete Watch,,watch contect menu delete watch
 Debugger_ClearWatches,Clear All,Clear All,,watch contect menu delete all watches
+Debugger_AddWatch,Add Watch,Add Watch,,debugger context menu add watch
 Debugger_Profiler_Start,Start Profiling,Start Profiling,,debugger start profiling
 Debugger_Profiler_Stop,Stop Profiling,Stop Profiling,,debugger start profiling
 Debugger_Profiler_Running,Profiling...,Profiling...,,debugger profiling
@@ -4268,7 +4324,7 @@ PlatformImage_GenerationType,Generation Mode,Generation Mode,,combobox caption f
 ListBoxEnum_eImageGenerationType_KeepAspectRatio,Keep Aspect Ratio,Keep Aspect Ratio,,image generation type keep aspect ratio option
 ListBoxEnum_eImageGenerationType_CropToFit,Crop To Fit,Crop To Fit,,image generation type keep aspect ratio by cropping option
 ggs_use_facebook_extension,"In order to use this functionality, you will need to have the Facebook Extension installed.\nWould you like to download it now from the Marketplace?","In order to use this functionality, you will need to have the Facebook Extension installed.\nWould you like to download it now from the Marketplace?",,Facebook extension not installed need to download it
-ggs_use_googleplayservices_extension,"In order to use this functionality, you will need to have the Google Play Services Extension installed.\nWould you like to download it now from the Marketplace?","In order to use this functionality, you will need to have the Google Play Services Extension installed.\nWould you like to download it now from the Marketplace?",,Google Play Services extension not installed and need to download it
+ggs_use_googleplayservices_extension,"In order to use this functionality, you will need to have the Google Play Services Extension installed.\nWould you like to download it now?","In order to use this functionality, you will need to have the Google Play Services Extension installed.\nWould you like to download it now?",,Google Play Services extension not installed and need to download it
 ggs_use_amazonapi_extension,"In order to use this functionality, you will need to have the Amazon API Extension installed.\nWould you like to download it now from the Marketplace?","In order to use this functionality, you will need to have the Amazon API Extension installed.\nWould you like to download it now from the Marketplace?",,Amazon API extension not installed and need to download it
 ggs_use_google_apkexpansion_extension,"In order to use this functionality, you will need to have the Google Play APK Expansion Extension installed.\nWould you like to download it now from the Marketplace?","In order to use this functionality, you will need to have the Google Play APK Expansion Extension installed.\nWould you like to download it now from the Marketplace?",,Google Play APK Expansion extension not installed and need to download it
 ggs_use_google_licensing_extension,"In order to use this functionality, you will need to have the Google Play Licensing Expansion Extension installed.\nWould you like to download it now from the Marketplace?","In order to use this functionality, you will need to have the Google Play Licensing Expansion Extension installed.\nWould you like to download it now from the Marketplace?",,Google Play APK Expansion extension not installed and need to download it
@@ -4351,6 +4407,8 @@ desktop_ctrlmousewheelzoom,Mouse wheel zoom requires ${ctrl} key,Mouse wheel zoo
 dpi_setting_change,DPI override changes requires a restart of the IDE. Do you want to restart now?,DPI override changes requires a restart of the IDE. Do you want to restart now?,,Restart IDE after a DPI change
 dpi_override,Enable DPI override,Enable DPI override,,DPI Override
 ggs_allow_game_statistics,Allow anonymous game statistics,Allow anonymous game statistics,,Allow anonymous game statistics
+LicenceExcluded_ggs_allow_game_statistics,Statistics cannot be turned off on 'Creator' platforms,Statistics cannot be turned off on 'Creator' platforms,Do not localise 'Creator' it's a product name,Trial stats tooltip on checkbox
+LicenceFree_ggs_allow_game_statistics,Statistics cannot be turned off in GameMaker Studio 2 Trial,Statistics cannot be turned off in GameMaker Studio 2 Trial,,Trial stats tooltip on checkbox
 ggs_statistics_off,Are you sure you want to turn statistics off?\n\nAnonymous statistics allow us to provide developers with info about their target audience and focus development in key areas,Are you sure you want to turn statistics off?\n\nAnonymous statistics allow us to provide developers with info about their target audience and focus development in key areas,,Message when turning off anonymous statistics
 ggs_statistics_choice,Automatic response to turning off anonymous statistics,Automatic response to turning off anonymous statistics,,Confirm dialog option
 ResourceTree_DataFileAlreadyExists,Included file '{0}' already exists.\nOperation cancelled.,Included file '{0}' already exists.\nOperation cancelled.,,Warn the user that an included file already exists and therefore the operation has been cancelled
@@ -4449,6 +4507,7 @@ Preferences_xbone_tools_dir,Xbox One Tools location,Xbox One Tools location,,Pre
 Preferences_xbone_xbone_dir,Xbox One SDK location,Xbox One SDK location,,Preferences/Platform Settings/Xbone
 Preferences_xbone_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/Xbone
 ProjectLoad_BadPathTitle,Unsafe Path,Unsafe Path,,Bad Path message title when failing badpath check on load
+ProjectLoad_BadPathMessage,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,,Project is in an unsafe location message
 ResourceTree_Search_Filters,Filters:,Filters:,,Filter label on Resource Tree search
 ResourceTree_Search_Go,Go,Go,,Go Button Label
 ResourceTree_Search_Reset,Reset,Reset,,Reset Button Label
@@ -4513,7 +4572,6 @@ ResourceTree_OptionsIconColour,Options icon colour,Options icon colour,,Icon Col
 ResourceTree_ConfigsIconColour,Configurations icon colour,Configurations icon colour,,Icon Colour for Configurations
 ResourceTree_NotesIconColour,Notes icon colour,Notes icon colour,,Icon Colour for Notes
 ResourceTree_NodeSelectHighlight,Node selection highlight,Node selection highlight,,Node Selection Highlight colour
-ProjectLoad_BadPathMessage,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,,Project is in an unsafe location message
 recentwindows_title,Recent Windows,Recent Windows,,Recently activated windows title
 Views_Menu_Recent_Windows,Recent Windows,Recent Windows,,Recent activated windows menu option
 Developer_Menu_Title,Developer,Developer,,Title of the main Developer menu
@@ -4769,6 +4827,8 @@ SyntaxError_MalformedVarRef,malformed variable reference got {0},malformed varia
 SyntaxError_MultiAssignment,assignment to multi-relational-equality expression - GML does not support multiple assignments in an expression,assignment to multi-relational-equality expression - GML does not support multiple assignments in an expression,,syntax error
 SyntaxError_Info,"{0} at line {1}, {2} : {3}","{0} at line {1}, {2} : {3}",,"syntax error displayed to user (0 - source, 1 - line num, 2 - character num, 3 - error description)"
 CompileError_Info,"{0} at line {1} : {2}","{0} at line {1} : {2}",,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
+CompileError_ObjVar,Undefined variable '{0}' referenced in {1}'s variable '{2}',Undefined variable '{0}' referenced in {1}'s variable '{2}',,Object variable undefined reference error
+CompileError_InstVar,Undefined variable '{0}' referenced in room {3} in instance {1}'s variable '{2}',Undefined variable '{0}' referenced in room {3} in instance {1}'s variable '{2}',,Instance variable undefined reference error
 CompileError_Script,Script: {0},Script: {0},,script error
 CompileError_Object,Object: {0},Object: {0},,object event error
 CompileError_RoomCode,Creation Code in Room: {0},Creation Code in Room: {0},,room creation code error
@@ -4800,6 +4860,7 @@ ConversionLog_UnknownShader,Unknown Shader Type '{0}' for shader '{1}',Unknown S
 ConversionLog_MacIcon,macOS icon {0} written out as 32-bit,macOS icon {0} written out as 32-bit,,conversion log
 ConversionLog_ExtensionError,"Error - function '{0}' in extension '{1}' has more than 4 arguments, and they are not all of the same type","Error - function '{0}' in extension '{1}' has more than 4 arguments, and they are not all of the same type",,conversion log
 ConversionLog_ConvertingScript,Converting GML script: {0},Converting GML script: {0},,conversion log
+ConversionLog_ConvertingEvent,Converting object event to GML script: {0},Converting object event to GML script: {0},,conversion log
 ConversionLog_DefaultInstaller,Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2,Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2,,conversion log
 ConversionLog_ConversionException,Exception while converting {0} : {1},Exception while converting {0} : {1},,conversion log
 ConversionLog_ConvertingOriginal,Original was,Original was,,conversion log
@@ -4816,6 +4877,8 @@ ConversionLog_ConvertedDesc,Converted description {0},Converted description {0},
 ConversionLog_RemoveInstRef,Removing instance reference from builtin - line {0} : {1},Removing instance reference from builtin - line {0} : {1},,conversion log
 ConversionLog_ConvertedBuiltin,Converted builtin - line {0}: {1} -> {2},Converted builtin - line {0}: {1} -> {2},,conversion log
 ConversionLog_FilenamePrefix,compatibility_report_,compatibility_report_,must be usable as a standard windows/mac filename,used to prefix the output filename
+ConversionLog_AppliesToUndefined,Skipped action {0} as it applies to <undefined>,Skipped action {0} as it applies to <undefined>,do not localise <undefined>,conversion log when the applies to is undefined
+ConversionLog_AppliesToUndefinedIF,Skipped action(s) {0} because parent 'if' action was skipped,Skipped action(s) {0} because parent 'if' action was skipped,do not localise 'if',conversion log for skipping actions because if was skipped
 UserLogin_None,None State,None State,,error message for being in login 'none' state
 UserLogin_NoneMessage,Managed to enter none state,Managed to enter none state,,detailed error message for being in login 'none' state
 UserLogin_LicenceMissing,Licence file missing,Licence file missing,,licence missing error
@@ -4843,6 +4906,7 @@ SearchResult_Info,{0} at line {1}: \t{2},{0} at line {1}: \t{2},,search result i
 UserLogin_ManageDevices,My Account,My Account,,ok button caption for too many devices error
 Amazon Fire,Amazon Fire,Amazon Fire,,Amazon Fire label
 addon_amazon_apis,Amazon APIs,Amazon APIs,,Amazon APIs label for addon download
+addon_google_play_services,Google Play Services,Google Play Services,,Google play services label for addon download
 addon_error,Error with addon,Error with addon,,Generic error with addon title
 addon_verify_failed,Addon verification failed. Please check your project and try again.,Addon verification failed. Please check your project and try again.,,Addon verification failed
 addon_not_found,The addon could not be found on the marketplace,The addon could not be found on the marketplace,,Message for when the addon could not be found on the marketplace
@@ -4891,9 +4955,6 @@ Notification_Renewals,Licence Renewal,Licence Renewal,,the notification category
 Notification_RenewalDays,Your {0} licence is due to expire in under {1} days\nRenew now for uninterrupted access to your product,Your {0} licence is due to expire in under {1} days\nRenew now for uninterrupted access to your product,,one week message
 Notification_RenewalWeeks,Your {0} licence is due to expire in under {1} weeks\nRenew now for uninterrupted access to your product,Your {0} licence is due to expire in under {1} weeks\nRenew now for uninterrupted access to your product,,several weeks message
 RenewalNotification_Renew,Renew,Renew,,renew button label
-FileFilters_Pronunciation,Pronunciation Files,Pronunciation Files,,pronunciation.xml file dialog
-Error_PS4PronunciationMissingSig,Unable to find matching pronunciation.sig file \nVoice recognition files will not be imported,Unable to find matching pronunciation.sig file \nVoice recognition files will not be imported,,error message when the prnunciation.sig is missing
-
 ide_cache_location,IDE cache directory,IDE cache directory,,IDE cache directory path
 deleteidecacheonquit,Automatically delete ide cache directory on close,Automatically delete ide cache directory on close,,Automatically delete the ide cache directory on close
 deleteidecache,Delete IDE Cache,Delete IDE Cache,,Delete the IDE cache now
@@ -4902,3 +4963,34 @@ preferences_copyfromandroid,Sync from Android,Sync from Android,,Sync settings f
 preferences_copyfromamazon,Sync from Amazon Fire,Sync from Amazon Fire,,Sync settings from Amazon
 preferences_copyfromandroid_label,Copy settings from Android,Copy settings from Android,,Copy settings from Android
 preferences_copyfromamazon_label,Copy settings from Amazon Fire,Copy settings from Amazon Fire,,Copy settings from Amazon Fire
+FileFilters_Pronunciation,Pronunciation Files,Pronunciation Files,,pronunciation.xml file dialog
+Error_PS4PronunciationMissingSig,Unable to find matching pronunciation.sig file \nVoice recognition files will not be imported,Unable to find matching pronunciation.sig file \nVoice recognition files will not be imported,,error message when the prnunciation.sig is missing
+App Icon,App Icon,App Icon,,App Icon settings namespace
+iPad Pro,iPad Pro,iPad Pro,,iPad Pro settings namespace
+Notification,Notification,Notification,,Notification settings namespace
+Spotlight,Spotlight,Spotlight,,Spotlight settings namespace
+Settings,Settings,Settings,,Settings settings namespace
+iTunes Artwork,iTunes Artwork,iTunes Artwork,,iTunes Artwork settings namespace
+ggs_icon_iphone_app_120,iPhone 60pt 2x (iOS 7+),iPhone 60pt 2x (iOS 7+),,iPhone 60pt 2x (iOS 7+)
+ggs_icon_iphone_app_180,iPhone 60pt 3x (iOS 7+),iPhone 60pt 3x (iOS 7+),,iPhone 60pt 3x (iOS 7+)
+ggs_icon_ipad_app_76,iPad 76pt (iOS 7+),iPad 76pt (iOS 7+),,iPad 76pt (iOS 7+)
+ggs_icon_ipad_app_152,iPad 76pt 2x (iOS 7+),iPad 76pt 2x (iOS 7+),,iPad 76pt 2x (iOS 7+)
+ggs_icon_ipad_pro_app_167,iPad Pro 83.5pt 2x (iOS 9+),iPad Pro 83.5pt 2x (iOS 9+),,iPad Pro 83.5pt 2x (iOS 9+)
+ggs_icon_iphone_notification_40,iPhone 20pt 2x (iOS 7+),iPhone 20pt 2x (iOS 7+),,iPhone 20pt 2x (iOS 7+)
+ggs_icon_iphone_notification_60,iPhone 20pt 3x (iOS 7+),iPhone 20pt 3x (iOS 7+),,iPhone 20pt 3x (iOS 7+)
+ggs_icon_ipad_notification_20,iPad 20pt (iOS 7+),iPad 20pt (iOS 7+),,iPad 20pt (iOS 7+)
+ggs_icon_ipad_notification_40,iPad 20pt 2x (iOS 7+),iPad 20pt 2x (iOS 7+),,iPad 20pt 2x (iOS 7+)
+ggs_icon_iphone_spotlight_80,iPhone 40pt 2x (iOS 7+),iPhone 40pt 2x (iOS 7+),,iPhone 40pt 2x (iOS 7+)
+ggs_icon_iphone_spotlight_120,iPhone 40pt 3x (iOS 7+),iPhone 40pt 3x (iOS 7+),,iPhone 40pt 3x (iOS 7+)
+ggs_icon_ipad_spotlight_40,iPad 40pt (iOS 7+),iPad 40pt (iOS 7+),,iPad 40pt (iOS 7+)
+ggs_icon_ipad_spotlight_80,iPad 40pt 2x (iOS 7+),iPad 40pt 2x (iOS 7+),,iPad 40pt 2x (iOS 7+)
+ggs_icon_iphone_settings_58,iPhone 29pt 2x (iOS 5+),iPhone 29pt 2x (iOS 5+),,iPhone 29pt 2x (iOS 5+)
+ggs_icon_iphone_settings_87,iPhone 29pt 3x (iOS 5+),iPhone 29pt 3x (iOS 5+),,iPhone 29pt 3x (iOS 5+)
+ggs_icon_ipad_settings_29,iPad 29pt (iOS 5+),iPad 29pt (iOS 5+),,iPad 29pt (iOS 5+)
+ggs_icon_ipad_settings_58,iPad 29pt 2x (iOS 5+),iPad 29pt 2x (iOS 5+),,iPad 29pt 2x (iOS 5+)
+ggs_icon_itunes_artwork_1024,iTunes Artwork 1024pt,iTunes Artwork 1024pt,,iTunes Artwork 1024pt
+sourcecontrolgit_auth_userpass_failed_import,No Valid User/Pass Authentication details found for {0}\nThe repository has been successfully linked and will be able to push once valid details have been entered.,No Valid User/Pass Authentication details found for {0}\nThe repository has been successfully linked and will be able to push once valid details have been entered.,,No Valid User/Pass found for repository error message
+sourcecontrolgit_auth_ssh_failed_import,No Valid SSH KeyPair Authentication details found for {0}\nThe repository has been successfully linked and will be able to push once valid details have been entered.,No Valid SSH KeyPair Authentication details found for {0}\nThe repository has been successfully linked and will be able to push once valid details have been entered.,,No Valid SSH KeyPair found for repository error message
+sourcecontrolgit_import_project_success,Successfully imported project,Successfully imported project,,Success message for importing a project
+iosiconupdate_title,iOS Icons Require Updating,iOS Icons Require Updating,,Title for iOS Icons requiring an update
+iosiconupdate_message,"Due to iOS submission requirement changes, Options > iOS > Icons image sizes are now different and your current icons need to be recreated at the correct sizes. Tools > Generate Project Images can help quickly fix this.","Due to iOS submission requirement changes, Options > iOS > Icons image sizes are now different and your current icons need to be recreated at the correct sizes. Tools > Generate Project Images can help quickly fix this.",,iOS Icon update message
