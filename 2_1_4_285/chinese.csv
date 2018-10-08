@@ -1,11 +1,12 @@
 ﻿Name,English,Translation,Restrictions,Comment
 __Priority,0,0,,Order of language importance. Allows other packs to supplement or replace sections
 _Argument0,{0},{0},,single unlocalised argument
-_Error,Error: {0},Error: {0},,General error prefix
+_Error,Error: {0},错误: {0},,General error prefix
 _Language,English,Chinese,,Language name - in English
 _LanguageNative,English,中文,,Language name in the native language
 _LanguageCode,en,zh-CN,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
 _GameMaker2016,GameMaker Studio 2,GameMaker Studio 2,,IDE title
+_MANUAL_LOCATION,http://zeus.yoyogames.com/GMS2_English-master.zip,http://zeus.yoyogames.com/GMS2_English-master.zip,,Location of language manual
 $win_OpenInExplorer,Open In Explorer,在资源管理器中打开,,Windows version of Open In Explorer
 $win_OpenProjectInExplorer,Open Project In Explorer,在资源管理器中打开项目,,Windows version of Open Project In Explorer
 $win_ShowLogFileInExplorer,Open Log In Explorer,在资源管理器中打开日志,,Windows version of Show Log In Explorer
@@ -16,6 +17,12 @@ $mac_OpenProjectInExplorer,Show Project In Finder,在Finder中显示项目,,Mac 
 $mac_ShowLogFileInExplorer,Reveal Log In Finder,在Finder中显示日志,,Mac version of Show Log In Explorer
 $win_ctrl,Ctrl,Ctrl,,Windows version of ctrl key
 $mac_ctrl,Command,Command,,Mac version of ctrl key
+$win_FileMenuExit,Exit,退出,,Windows version of the Exit main menu entry
+$mac_FileMenuExit,Quit,退出,,Mac version of the Exit main menu entry
+$win_IDEMenuHelpAbout,About,关于,,Windows version of the About main menu entry
+$mac_IDEMenuHelpAbout,About GameMaker Studio 2,关于GameMaker Studio 2,,Windows version of the About main menu entry
+$win_IDEMenuViews,Windows,窗口,,Windows version of the views menu entry
+$mac_IDEMenuViews,Window,窗口,,Mac version of the views menu entry
 Account_Menu_Login,Login,登录,,"Account menu ""Login"""
 Account_Menu_Logout,Logout,注销,,"Acount menu ""Logout"""
 Account_Menu_ManageAccount,Manage Account,管理账户,,"Account menu ""Account"""
@@ -82,9 +89,10 @@ CodeWindow_Menu_Help,Keyword help,关键字帮助,,Code window help menu option
 CodeWindow_Menu_ShowResource,Show resource,显示资源,,Code window show resource menu option
 CodeWindow_SingleColumn,Single pane,单一面板,,Document window layout menu option - 1 column
 CodeWindow_Title,Code,代码,,fullscreen code editor workspace tab title
-CodeWindow_RestoreToWorkspace,Restore to workspace,恢复到工作区,,code editor restore to workspace context menu option
+CodeWindow_RestoreToWorkspace,Restore to Workspace,恢复到工作区,,code editor restore to workspace context menu option
 CodeWindow_GotoObject,Go to Object,转到物体,,code editor go to object context menu option
 CodeWindow_AddEvent,Add/Open Event,添加/打开事件,,code editor event script add event context menu option
+CodeWindow_OpenInheritedEvent,Open Inherited Event,打开继承事件,,open inherited event context menu option
 GotoLine_Title,Go To Line,转到行,,goto line dialog title
 GotoLine_Label,Line Number ({0} - {1}),行号({0} - {1}),,goto line label
 CompileErrors,Compile Errors,编译错误,,Compile Errors tab title
@@ -192,7 +200,7 @@ DialogEditor_RevertStyleToOriginal,Revert Style To Original State,还原最初�
 DialogEditor_RGBATextEntry,RGBA Input,RGBA 输入,,layout hierarchy label for the RGBA input boxes
 DialogEditor_RowSplitter,Grid Row Splitter,网格行分隔线,,Layout Heirarchy heading for a grid row splitter
 DialogEditor_SaveAllStyles,Save All Styles,保存所有样式,,Menu option to save all open styles to file
-DialogEditor_SaveAsLayout,Save Layout As...,布局另存为...,,Dialog editor save as layout menu entry
+DialogEditor_SaveAsLayout,Save Layout As...,布局另存为……,,Dialog editor save as layout menu entry
 DialogEditor_SaveFailed,Dialog Editor: Save failed due to error: {0} - {1},对话框编辑器:由于错误而保存失败:{0} - {1},,lop propmt for user to indicate the save failed
 DialogEditor_SaveLayout,Save Layout,保存布局,,Dialog editor save layout menu entry
 DialogEditor_SaveStyle,Save Style,保存样式,,Menu option to save a style to file
@@ -222,6 +230,7 @@ Error_CursorManagerLoadingInfoMissing,Attempting to load cursor {0} but can't fi
 Error_GadgetToolboxFailedLoad,Attempted to load gadget toolbox info but received error '{0}' - '{1}',尝试载入小工具的工具栏信息,,Failed to load the gadget toolbox list
 Error_GadgetToolboxInvalidGadget,Attempted to add gadget '{0}' to toolbox but it isn't registered with the layout manager ,尝试添加一个小工具 '{0}' 到工具栏中,,Invalid gadget specified in gadget toolbox list
 Error_GlobalInputBinding,You can not bind global inputs to a function that takes paramaters.,你不能绑定一个全局输入至一个带参数的函数上.,,Plugins can not use the global autobinding if the bound function takes a paramater
+Error_Cursors,Cursor Error,光标错误,,Cursor error warning title
 Error_GridColumnIndexInvalid,Attempting to access invalid column index {0} for grid with {1} columns,尝试访问无效的列索引 {0},,Attempted to access an invalid column index
 Error_GridRowIndexInvalid,Attempting to access invalid row index {0} for grid with {1} rows,尝试访问无效的行索引 {0},,Attempted to access an invalid row index
 Error_GUILayout_AnchorRequiresParentPos,"A parent reliant anchor (bottom or right) has been set with no parent gadget, try setting the dimension instead",一个父依赖锚点 (底部或右部) 已被设置为没有父部件,,Attempted to use an bottom or right anchor when there is no parent gadget to base the position upon
@@ -397,7 +406,7 @@ Restored_Default_Settings_Restart,Are you sure you want to restore default setti
 File_Menu_NewIDE,New IDE,另开IDE,,Start a new instance of the IDE from the file menu
 File_Menu_Logout,Logout,注销,,The Logout program menu item
 File_Menu_MyAccount,My Account,我的帐户,,Launches my account web page menu item
-File_Menu_Exit,Exit,退出,,The Exit program menu item
+File_Menu_Exit,${FileMenuExit},退出,,The Exit program menu item
 File_Menu_ExportProject,Export Project,导出项目,,The Export Project menu item
 File_Menu_ImportProject,Import Project,导入项目,,The Import project menu item
 File_Menu_NewProject,New Project,新建项目,,The New Project menu item
@@ -415,7 +424,7 @@ FileError_NotFound,File Not Found,文件未找到,,File Not Found
 FileError_PathTooLong,File Path Too Long,文件路径过长,,File Path Too Long
 FileError_Timeout,File Load Timeout,文件载入超时,,File Load Timeout
 Font_TTF_BaseAlphabet,"!\""#$%&'()*+,-./00300123456789:;<=>?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~","!\""#$%&'()*+,-./00300123456789:;<=>?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~",,FontTTF standard English alphabet
-fonteditor_toomanyglyphs,and more (too many glyphs),以及更多（字形太多了）,,Too many glyphs for the font editor to cope with label
+fonteditor_toomanyglyphs,and more (too many glyphs),以及更多（字形过多）,,Too many glyphs for the font editor to cope with label
 fonteditor_aa_off,Off,关,,Font Editor aa off
 fonteditor_font,Select Font,选择字体,,TTF font name
 fonteditor_or,Or,或,,Font editor select font OR include in build
@@ -439,7 +448,8 @@ fonteditor_style,Presets,预设,,Font Editor style group name
 fonteditor_stylename,Style,样式,,Font editor style name
 fonteditor_toggle,Toggle,切换,,Font editor AA radio group header
 fonteditor_window,Font: {0},字体: {0},,Font editor title
-fonteditor_inludettf,Include Font in Marketplace Asset,将字体包含到市场资源中,,Font editor include TTF checkbox
+fonteditor_includettf,Copy to project,复制到工程中,,Font editor include TTF checkbox
+fonteditor_includettf_tooltip,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,将字体包含到市场资源中,,tooltip for the 'includettf' copy to project checkbox 
 fonteditor_ttfpath,{0},{0},,Font editor included TTF path
 fonteditor_selectttf,Select Font to Include,选择要包含的字体,,Font editor include Font dialog title
 FontManager_MissingDefaultFont,"Font Manager: Default font '{0}' has not been loaded, text rendering will fail",字体管理器:默认字体 '{0}' 未被载入,,Error message for when the default font has not been loaded
@@ -557,7 +567,7 @@ IDEMenu_Account,Account,帐户,,"IDE menu ""Account"""
 IDEMenu_Build,Build,构建,,"File menu ""Build"""
 IDEMenu_Edit,Edit,编辑,,The Edit menu item name
 IDEMenu_File,File,文件,,The File menu item name
-IDEMenu_Views,Windows,窗口,,Main menu entry for views
+IDEMenu_Views,${IDEMenuViews},窗口,,Main menu entry for views
 IDEMenu_Tools,Tools,工具,,Main menu entry for tools
 IDEMenu_Help,Help,帮助,,Main menu entry for HELP
 IDEMenu_Help_SupportForum,Support Forums,论坛,,Help menu item for support forums
@@ -572,8 +582,8 @@ IDEMenu_Help_RuntimeReleaseNotes,Current Runtime Release Notes,当前运行库�
 IDEMenu_Help_StartPage,Start Page,起始页,,Help menu item for reopening the start page
 IDEMenu_Help_WelcomePage,Welcome Page,欢迎页,,Help menu item for reopening the welcome page
 IDEMenu_Help_Help,Open Manual,打开帮助文档,,Help menu item for actual help
-IDEMenu_Help_About,About,关于,,Help menu item for actual About
-IDEMenu_Help_Licenses,Licenses,许可证,,Help menu item for licenses
+IDEMenu_Help_About,${IDEMenuHelpAbout},关于,,Help menu item for actual About
+IDEMenu_Help_Licenses,Licences,许可证,,Help menu item for licences
 IDEMenu_Help_OpenInExplorer,${OpenProjectInExplorer},${OpenProjectInExplorer},,Help menu item for opening the explorer window at the current project's location
 IDEMenu_Help_LogFile,${ShowLogFileInExplorer},${ShowLogFileInExplorer},,Help menu item for taking the user to the log file location
 IDEMenu_Marketplace,Marketplace,市场,,Main menu entry for marketplace
@@ -614,7 +624,7 @@ ImageEditor_BrushPanelTitle,Brushes,笔刷,,brushes panel title
 ImageEditor_CancelSelection,Cancel Selection,取消选择,,Image editor menu option -Cancel selection
 ImageEditor_NewCanvasSize,New Canvas Size:,新的画布大小,,image editor new canvas size
 ImageEditor_CentreFit,Fit Screen,适应屏幕,,"Image editor view menu - centre, scale to fit"
-ImageEditor_CentreUnitScale,1:01,1:01,,Image editor view menu - centre unit scale
+ImageEditor_CentreUnitScale,1:1,1:01,,Image editor view menu - centre unit scale
 ImageEditor_ColourLeftLabel,Left:,左:,,left brush label
 ImageEditor_ColourOnly,Colour only,仅颜色,,Image editor magic wand colour only checkbox
 ImageEditor_ColourPanelTitle,Colours,颜色,,colours panel title
@@ -744,24 +754,24 @@ ImageEditor_Menu_RotateImageACW,Rotate All Frames (anti-clockwise 90),旋转所�
 ImageEditor_Undo,Undo,撤消,,Image editor menu option -Undo
 ImageEditor_VisibleLayers,Visible Layers,可见图层,,effect visible layers option
 ImageEditor_WidthLabel,Width:,宽:,,image editor resize width label
-ImageEditor_ArcTool_Info,"Click to add a point, drag to move (Ctrl - move control point; Shift - snap; Enter - commit)",点击添加一个点,,image editor tool info
+ImageEditor_ArcTool_Info,"Click to add a point, drag to move (${ctrl} - move control point; Shift - snap; Enter - commit)",点击添加一个点,,image editor tool info
 ImageEditor_ColourPicker_Info,Left/right click to pick a colour,左/右点击选取一个颜色,,image editor tool info
 ImageEditor_EllipseTool_Info,Click and drag to draw an ellipse (Shift for a circle),点击并拖拽绘制一个椭圆 (按住Shift为正圆),,image editor tool info
-ImageEditor_PaintSelectTool_Info,"Paint selection (Ctrl to add, Alt/right click to subtract)",选区笔 (Ctrl添加,,image editor tool info
+ImageEditor_PaintSelectTool_Info,"Paint selection (${ctrl} to add, Alt/right click to subtract)",选区笔 (Ctrl添加,,image editor tool info
 ImageEditor_EraseTool_Info,Click to erase,点击擦除,,image editor tool info
 ImageEditor_FillTool_Info,Click to fill (Alt to tile with brush),点击填充 (按住Alt使用笔刷平铺填充),,image editor tool info
 ImageEditor_ColourReplaceTool_Info,Click to swap colours (Alt to replace alpha also),点击交换颜色 (按住Alt会同时替换透明度),,image editor tool info
 ImageEditor_ColourRemoveTool_Info,Click to remove a colour,单击删除一个颜色,,image editor tool info
 ImageEditor_LineTool_Info,Click and drag to draw a line (Shift for a straight line),点击拖拽绘制一条直线(按住Shift为特殊角度),,image editor tool info
-ImageEditor_MagicWand_Info,"Click to replace selection (Ctrl to add to selection, Alt to subtract from selection)",点击替换选区(Ctrl添加选区,,image editor tool info
-ImageEditor_Paintbrush_Info,"Click to paint (Shift for a straight line, Ctrl to pick a colour)",点击绘制(按住Shift绘制直线,,image editor tool info
+ImageEditor_MagicWand_Info,"Click to replace selection (${ctrl} to add to selection, Alt to subtract from selection)",点击替换选区(Ctrl添加选区,,image editor tool info
+ImageEditor_Paintbrush_Info,"Click to paint (Shift for a straight line, ${ctrl} to pick a colour)",点击绘制(按住Shift绘制直线,,image editor tool info
 ImageEditor_PanTool_Info,Click and drag to pan,点击拖动以游动,,image editor tool info
 ImageEditor_PolyTool_Info,Click to add points (Enter to commit),点击添加点 (Enter确认),,image editor tool info
 ImageEditor_RectangleTool_Info,Click and drag to draw a rectangle (Shift for a square),点击拖拽并绘制一个矩形 (按住Shift为正方形),,image editor tool info
 ImageEditor_RotateTool_Info,Click button to rotate clockwise (Shift for anti-clockwise),点击按钮以进行顺时针旋转(按住Shift逆时针),,image editor tool info
 ImageEditor_FreeRotateTool_Info,Click and drag to rotate current brush,点击拖拽以旋转当前画笔,,image editor free rotate tool info
-ImageEditor_SelectEllipseTool_Info,"Click and drag to replace selection (Ctrl to add to selection, Alt to subtract from selection)",点击并拖拽替换选区(Ctrl添加到选区,,image editor tool info
-ImageEditor_SelectRectTool_Info,"Click and drag to replace selection (Ctrl to add to selection, Alt to subtract from selection)",点击并拖拽替换选区(Ctrl添加到选区,,image editor tool info
+ImageEditor_SelectEllipseTool_Info,"Click and drag to replace selection (${ctrl} to add to selection, Alt to subtract from selection)",点击并拖拽替换选区(Ctrl添加到选区,,image editor tool info
+ImageEditor_SelectRectTool_Info,"Click and drag to replace selection (${ctrl} to add to selection, Alt to subtract from selection)",点击并拖拽替换选区(Ctrl添加到选区,,image editor tool info
 ImageEditor_TextTool_Info,Click to insert text,点击插入文本,,image editor tool info
 ImageEditor_Warning_GroupSelected,Cannot paint on layer groups,不能绘制在图层组上,,image editor: group paint warning
 ImageEditor_Warning_GroupSelected_Dialog,Cannot paint on layer groups; select a non-group layer,不能绘制在图层组上；请选择一个图层,,image editor: group paint warning dialog
@@ -821,33 +831,27 @@ IncludedFile_Title,Included File: {0},内含文件:{0},,Included file editor win
 IncludedFilesPlatform_Android,Android,Android,,included files platform list entry
 IncludedFilesPlatform_Android_YYC,Android (YYC),Android (YYC),,included files platform list entry
 IncludedFilesPlatform_GameMaker_Player,GameMaker:Player,GameMaker:Player,,included files platform list entry
-IncludedFilesPlatform_HTML5,HTML5,HTML5,,included files platform list entry
-IncludedFilesPlatform_iOS,iOS,iOS,,included files platform list entry
-IncludedFilesPlatform_iOS_YYC,iOS (YYC),iOS (YYC),,included files platform list entry
-IncludedFilesPlatform_Mac_OS_X,macOS,macOS,,included files platform list entry
-IncludedFilesPlatform_PlayStation_3,PlayStation 3,PlayStation 3,,included files platform list entry
-IncludedFilesPlatform_PlayStation_3_YYC,PlayStation 3 (YYC),PlayStation 3 (YYC),,included files platform list entry
-IncludedFilesPlatform_PlayStation_4,PlayStation 4,PlayStation 4,,included files platform list entry
-IncludedFilesPlatform_PlayStation_4_YYC,PlayStation 4 (YYC),PlayStation 4 (YYC),,included files platform list entry
-IncludedFilesPlatform_PlayStation_Vita,PlayStation Vita,PlayStation Vita,,included files platform list entry
-IncludedFilesPlatform_PlayStation_Vita_YYC,PlayStation Vita (YYC),PlayStation Vita (YYC),,included files platform list entry
-IncludedFilesPlatform_Tizen_Javascript,Tizen (Javascript),Tizen (Javascript),,included files platform list entry
-IncludedFilesPlatform_Tizen_Native,Tizen (Native),Tizen (Native),,included files platform list entry
-IncludedFilesPlatform_Ubuntu_Linux,Ubuntu,Ubuntu,,included files platform list entry
-IncludedFilesPlatform_Ubuntu_Linux_YYC,Ubuntu (YYC),Ubuntu (YYC),,included files platform list entry
-IncludedFilesPlatform_Windows,Windows,Windows,,included files platform list entry
-IncludedFilesPlatform_Windows_8_YYC,Windows 8 (YYC),Windows 8 (YYC),,included files platform list entry
-IncludedFilesPlatform_Windows_Phone_8,Windows Phone 8,Windows Phone 8,,included files platform list entry
-IncludedFilesPlatform_Windows_Phone_8_YYC,Windows Phone 8 (YYC),Windows Phone 8 (YYC),,included files platform list entry
-IncludedFilesPlatform_Windows_YYC,Windows (YYC),Windows (YYC),,included files platform list entry
-IncludedFilesPlatform_Windows8_Javascript,Windows 8 (Javascript),Windows 8 (Javascript),,included files platform list entry
-IncludedFilesPlatform_Windows8_Native,Windows 8 (Native),Windows 8 (Native),,included files platform list entry
-IncludedFilesPlatform_XBox_One,Xbox One,Xbox One,,included files platform list entry
-IncludedFilesPlatform_XBox_One_YYC,Xbox One (YYC),Xbox One (YYC),,included files platform list entry
-IncludedFilesPlatform_Windows_UWP,Windows UWP,Windows UWP,,included files platform list entry
-IncludedFilesPlatform_Android_TV,Android TV,Android TV,,included files platform list entry
-IncludedFilesPlatform_TV_OS,tvOS,tvOS,,included files platform list entry
-IncludedFilesPlatform_AmazonFire,Amazon Fire,Amazon Fire,,Amazon Fire platform list entry
+IncludedFilesPlatform_HTML5,HTML5,HTML5,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_iOS,iOS,iOS,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_iOS_YYC,iOS (YYC),iOS (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Mac_OS_X,macOS,macOS,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_PlayStation_4,PlayStation 4,PlayStation 4,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_PlayStation_4_YYC,PlayStation 4 (YYC),PlayStation 4 (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Ubuntu_Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Ubuntu_Linux_YYC,Ubuntu (YYC),Ubuntu (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Windows,Windows,Windows,DO NOT TRANSLATE - refers to the Windows OS,included files platform list entry
+IncludedFilesPlatform_Windows_8_YYC,Windows 8 (YYC),Windows 8 (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Windows_Phone_8,Windows Phone 8,Windows Phone 8,DO NOT TRANSLATE 'windows',included files platform list entry
+IncludedFilesPlatform_Windows_Phone_8_YYC,Windows Phone 8 (YYC),Windows Phone 8 (YYC),DO NOT TRANSLATE 'windows',included files platform list entry
+IncludedFilesPlatform_Windows_YYC,Windows (YYC),Windows (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Windows8_Javascript,Windows 8 (Javascript),Windows 8 (Javascript),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Windows8_Native,Windows 8 (Native),Windows 8 (Native),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_XBox_One,Xbox One,Xbox One,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_XBox_One_YYC,Xbox One (YYC),Xbox One (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Windows_UWP,Windows UWP,Windows UWP,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Android_TV,Android TV,Android TV,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_TV_OS,tvOS,tvOS,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_AmazonFire,Amazon Fire,Amazon Fire,DO NOT TRANSLATE,Amazon Fire platform list entry
 InstanceProperties_CreationCode,Creation Code,创建时代码,,instance properties button caption for opening the creation code
 InstanceProperties_EditObject,Edit Object,编辑物体,,instance properties button caption for opening the object for edit
 InstanceProperties_FlipX,Flip X:,翻转 X:,,instance properties checkbox label for flip x
@@ -941,7 +945,9 @@ Marketplace_Password,Password,密码,,Password
 Marketplace_Register,Register,注册,,Register marketplace account
 Marketplace_StoreCredentials,Save Username/Password,保存用户名/密码,,Store credentials
 Marketplace_Username,Username,用户名,,Username
-Marketplace_Offline,Cannot access Marketplace: User is offline,不能访问市场:用户离线,,Marketplace is offline error message
+Marketplace_Offline,Cannot access Marketplace: User is offline,无法访问市场：用户离线,,Marketplace is offline error message
+Marketplace_TryAgainLater,Cannot access Marketplace. Try again later.,无法访问市场：请稍后重试,,Marketplace cannot be accessed try again later
+Marketplace_WaitForServer,Marketplace will open when a connection has been established.,市场会在建立网络连接后打开,,Marketplace wait for server result message
 Marketplace_CreateNewPackage,Create Package,创建包,,marketplace menu create package
 Marketplace_UpdatePackage,Update Existing Package,更新现有程序包,,marketplace menu update existing package
 Marketplace_CreatePackage,Create Package,创建包,,marketplace menu create package
@@ -973,10 +979,13 @@ Marketplace_Package_GenericError,Failed with error:\n'{0}',因为错误:\n'{0}'\
 Marketplace_Package_SigningError,Package signing error,程序包签名错误,,marketplace package signing error
 Marketplace_Package_ExtractFailed,Error extracting package archive: {0},提取程序包文档错误: {0},,marketplace package extract fail
 Marketplace_Package_ImportCompleted,Import Completed!,导入完成！,,marketplace package import completed
-Marketplace_Package_ImportDesc,Select resources from the asset package and add them to your project:,物品程序包中选择资源并添加到项止中:,,package import description
+Marketplace_Package_ImportDesc,Select resources from the asset package and add them to your project:,从物品程序包中选择资源并添加到项止中:,,package import description
 Marketplace_Package_ImportNoProject,You must first open a project to import resources into,你必须先打开一个项目以入导入资源,,marketplace package import no project open message
 Marketplace_Package_ExportNoResources,You must include at least one resource,你必须添加至少一个资源,,package export no resources selected message
 Marketplace_Package_ImportToNewProject,Import all resources to a new project,将所有资源导入到一个新项目,,package import new project
+Marketplace_Package_ResourceImportError,Some resources failed to import - see output window for details,部分资源导入失败，详情参见输出窗口,,resource import error message
+Marketplace_Package_PackageResources,Package Resources:,程序包资源,,package import- package resources caption
+Marketplace_Package_ImportResources,Resources to Import:,待导入资源：,,package import - resource to import caption
 Marketplace_CheckForUpdates,Check For Updates,检查更新,,check for updates button label
 Marketplace_Updating,Updating...,更新...,,marketplace updating label
 Marketplace_WindowTitle,Marketplace,市场,,Marketplace webview window title
@@ -993,12 +1002,12 @@ MPackage_AssetDisplayName,Display name,显示名称,,marketplace asset display n
 MPackage_DisplayNameInvalid,Display name is invalid,显示名称无效,,marketplace package display name error
 MPackage_DisplayNameRestrictions,Display name restrictions,显示名称限制,,package display name restrictions label
 MPackage_DisplayNameRule1,- Must be between 5 and 30 characters long,- 必须在5-30字符之间,,asset create restriction label
-MPackage_DisplayNameRule2,#NAME?,=- 必须以字母打头,,asset create restriction label
-MPackage_DisplayNameRule3,#NAME?,=- 只能包含字母、数字、连字符及下划线,,asset create restriction label
+MPackage_DisplayNameRule2,- Must start with a letter,#NAME?,,asset create restriction label
+MPackage_DisplayNameRule3,"- May only contain letters, numbers, dashes and underscores",#NAME?,,asset create restriction label
 MPackage_PackageIdRestrictions,Package ID Restrictions,程序包ID限制,,asset create restriction label
-MPackage_PackageIdRule1,=- Must be in the format com.companyname.assetname,=- 必须按照com.companyname.assetname的格式,,asset create restriction label
-MPackage_PackageIdRule2,=- Cannot contain spaces,=- 不能包含空格,,asset create restriction label
-MPackage_PackageIdRule3,=- Company and asset names May contain letters and numbers,=- 公司和资源名称只能包含字母和数字,,asset create restriction label
+MPackage_PackageIdRule1,- Must be in the format com.companyname.assetname,#NAME?,,asset create restriction label
+MPackage_PackageIdRule2,- Cannot contain spaces,#NAME?,,asset create restriction label
+MPackage_PackageIdRule3,- Company and asset names may contain letters and numbers,#NAME?,,asset create restriction label
 MPackage_NewPackageInfo_Other,IMPORTANT: The package ID cannot be changed once your asset has been created.,重要:一旦你的物品创建了程序包的ID便不能更改.,,create asset warning label
 MPackage_UploadedMessage,Uploaded package '{0}' version {1}\nGo to the asset listing page?,上传程序包 '{0}' 版本 {1}\n 转到物品清单页面？,,mplace package uploaded message
 MPackage_UploadFailed,Package upload failed: {0},程序包上传失败:{0},,mplace package upload failed message
@@ -1026,6 +1035,7 @@ Object_Mask,Collision Mask:,碰撞遮罩:,,"object ""mask"" property"
 Object_Parent,Parent,父对象,,"object ""parent"" property"
 ObjectEditor_ParentChildren,Parent & Children,父子关系,,Object editor parent and children caption
 Object_Persistent,Persistent,保持,,"Object Model ""persistent"" property"
+Object_Persistent_Tooltip,Instances of this object will persist between rooms,该物体的实例会在房间之间保持,,object editor persistent property tooltip
 Object_PhysicsAngularDamping,Angular Damping,角度阻尼,,"object ""physicsAngularDamping"" property label"
 Object_PhysicsDensity,Density,密度,,"object ""physicsDensity"" property label"
 Object_PhysicsFriction,Friction,动摩擦因数,,"object ""physicsFriction"" property label"
@@ -1036,8 +1046,11 @@ Object_PhysicsRestitution,Restitution,恢复系数,,"object ""physicsRestitution
 Object_PhysicsSensor,Sensor,感应器,,"object ""physicsSensor"" property label"
 Object_PhysicsStartAwake,Start Awake,初始唤醒,,"object ""physicsStartAwake"" property label"
 Object_Solid,Solid,固体,,"Object Model ""solid"" property"
+Object_Solid_Tooltip,Solid instances will automatically be placed back in their previous position when in collision,固体实例会在发生碰撞时自动回退到上一个位点,,object editor solid property tooltip
 Object_UsesPhysics,Uses Physics,使用物理,,"Object Model ""uses physics"" property"
+Object_UsesPhysics_Tooltip,Instances use physics processing when in a room with 'Enable Physics' checked,实例会在勾选“启用物理”的房间里进行物理计算,,object editor uses physics tooltip
 Object_Visible,Visible,可见,,"Object Model ""visible"" property"
+Object_Visible_Tooltip,"When unchecked, instances of this object will still be processed, but will not be drawn",不勾选时该物体的实例依然会执行但不会被绘制出来,,object editor visible property tooltip
 ObjectEdior_PhysicsShape_ZoomIn,Zoom in,放大,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomOut,Zoom out,缩小,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomReset,Reset zoom,重置缩放,,Object editor physics window label
@@ -1063,6 +1076,10 @@ ObjectEditor_CutEvent,Cut Event,剪切事件,,Object editor cut event menu optio
 ObjectEditor_CopyEvent,Copy Event,拷贝事件,,Object editor copy event menu option
 ObjectEditor_PasteEvent,Paste Event,粘贴事件,,Object editor paste event menu option
 ObjectEditor_DuplicateEvent,Duplicate Event,复制事件,,Object editor duplicate event menu option
+ObjectEditor_OpenParentObject,Open Parent Event,打开父事件,,Object editor open parent object menu option
+ObjectEditor_OverrideParentEvent,Override Event,重写事件,,Object editor override parent event menu option
+ObjectEditor_InheritParentEvent,Inherit Event,继承事件,,Object editor inherit parent event menu option
+ObjectEditor_ViewParentEvent,Show Parent Event,显示父事件,,Object editor show parent event menu option
 ObjectEditor_SelectSprite,Select Sprite,选择精灵,,Object editor select sprite caption
 ObjectEditor_SelectMask,Select Mask,选择遮罩,,Object editor select mask caption
 ObjectEditor_SelectParent,Select Parent,选择父物体,,Object editor select parent caption
@@ -1075,6 +1092,27 @@ ObjectEditor_NoParent,No Parent,没有父物体,,"Object editor ""no parent"" se
 ObjectEditor_NoSprite,No Sprite,没有精灵,,"Object editor ""no sprite"" setting"
 ObjectEditor_ObjectProperties,Object Properties,物体属性,,Object properties window title
 ObjectEditor_Physics,Physics,物理,,Physics label in Object Editor
+ObjectEditor_InstProps,Variables,变量,,Object Variables label in Object Editor
+ObjectEditor_InstPropsDefs,Variable Definitions,变量定义,,Object Variables definitions label in Object Editor
+ObjectEditor_Multiselect,Multi-select,多选,,Object editor list option multiselect
+ObjectEditor_PropAddButton_Tooltip,Add a new variable,新增一个变量,,Add variable tooltip
+ObjectEditor_ListAddButton_Tooltip,Add a new list item,新增一个列表项,,Add list item tooltip
+ObjectEditor_PropInherited_Tooltip,This variable has been inherited from the parent object {0}.,该变量继承自父物体{0}。,,Inherited variable tooltip
+ObjectEditor_PropName,Name,变量名,,Variable name
+ObjectEditor_PropName_Tooltip,This is how you will reference it in code.,这即是你在代码中引用它的方式。,,Tooltip property name
+InstanceEditor_PropValue,Value,值,,Variable value
+InstanceEditor_PropValue_Tooltip,Set the variable to a value for this instance only.,仅为该实例设置变量的值。,,Set variable tooltip
+ObjectEditor_PropType,Type,类型,,Variable type
+ObjectEditor_PropDefault,Default,默认,,Variable default value
+ObjectEditor_PropParams,Options,选项,,Variable attributes aka parameters
+InstanceEditor_PropBoolean_Label,True,真（true）,,Boolean label
+ObjectEditor_WindowOptions,Options: {0},选项：{0},,Options window title
+ObjectEditor_RangeEnabled,Use Range,使用范围,,Use ranged parameter
+ObjectEditor_RangeMin,Min,最小值,,Min ranged parameter
+ObjectEditor_RangeMax,Max,最大值,,Max ranged parameter
+ObjectEditor_ListItems,List items,列表项,,List items label
+ObjectEditor_ResourceFilter,Resource filter,资源过滤器,,Resource filter label
+ObjectEditor_RemoveListItem,Remove this item,移除该项,,Remove this item label
 ObjectEditor_PhysicsProperties,Physics Properties,物理属性,,Object editor physics properties label
 ObjectEditor_PhysicsShape_WindowTitle,Physics Collision Shape,物理碰撞盒形状,,Object editor physics shape window title
 ObjectEditor_Properties,Properties,属性,,Object editor properties heading
@@ -1082,6 +1120,14 @@ ObjectEditor_SameMask,Same As Sprite,与精灵相同,,"Object editor ""same as s
 ObjectEditor_MaskSameAsSprite,Same As Sprite,与精灵相同,,Object editor same mask caption
 ObjectEditor_Shape,Convex Shape,凸多边形,,"Object editor collision shape ""shape"""
 ObjectEditor_WindowTitle,Object: {0},物体：{0},,Object properties window title
+ObjectEditor_Prop_RemoveTooltip,Remove this variable,移除该变量,,Remove variable row tooltip
+ObjectEditor_Prop_RemoveOverrideTooltip,Reset to default,重置为默认,,remove variable override tooltip
+ObjectEditor_Prop_OptionsTooltip,Open options...,打开选项……,,Open variable options tooltip
+ObjectEditor_EventReplaceMessage,"Replace the existing {0} event, or paste as a new event?",替换已存在的{0}事件还是粘贴为一个新事件？,,event paste replace dialog message
+ObjectEditor_EventReplaceTitle,Replace existing event?,替换已有事件？》,,event paste replace dialog title
+ObjectEditor_EventReplaceLabel,Replace,替换,,replace button label
+ObjectEditor_EventNewLabel,New Event,新建事件,,new event button label
+InstanceEditor_Prop_OverrideTooltip,Override this variable,改写该变量,,Override variable tooltip
 OutputPanel_Output,Output,输出,,Output panel output tab name
 OutputPanel_SearchResults,Search Results,搜索结果,,Output panel search results tab name
 OutputPanel_SourceControl,Source Control,源码控制,,Output panel source control tab name
@@ -1141,7 +1187,7 @@ ResourceNode_AddExistingFromLibrary,Add Existing From My Library,从我的库中
 ResourceNode_AddGroup,Add Group,添加组,,Add a group
 ResourceNode_AddFromDefault,Add From Default View,从默认的视野中添加,,submenu heading to allow users to select a resource from the default view to add to their user view.
 ResourceNode_RemoveFromView,Remove From Current View,从当前视野中移除,,Resource Tree - remove a resource from the current view
-ResourceNode_RemoveFromView_Confirm,"You are about to remove """"{0}"""" from view """"{1}"""". Continue?","您正要从视野 """"{1}""""中删除""""{0}"""".继续？",,Resource Tree - confirmation of removal from the current view
+ResourceNode_RemoveFromView_Confirm,You are about to remove {0} from view {1}. Continue?,"您正要从视野 """"{1}""""中删除""""{0}"""".继续？",,Resource Tree - confirmation of removal from the current view
 ResourceNode_Create,Create,创建,,Resource Tree node menu - create resource
 ResourceNode_DndToScript,Convert to GML,转换成GML,,Resource Tree node menu - Dnd To GML
 ResourceNode_ScriptToDnd,Convert to DnD™,转换成DnD™ ,,Resource Tree node menu - Script To Dnd
@@ -1215,8 +1261,8 @@ RoomEditor_AddRootLayer,Add Layer,添加层,,context sub menu heading for adding
 RoomEditor_AllLayers,All,所有,,Layers label next to the set all layers locked/visible checkboxes
 RoomEditor_ConfirmDeleteInstances,Are you sure you want to delete the following items (Note: Instance creation code will be irrevocably lost): {0},你确定要删除下面的项目吗（注意:创建实例的代码将会不可挽回的失去）: {0},,Confirm delete instances
 RoomEditor_ConfirmDeleteLayers,Are you sure you want to delete the following layers (Note: Instance creation code will be irrevocably lost): {0},你确定删除以下层吗（注:创建实例的代码将会不可挽回的失去）: {0},,Confirm delete layers
-RoomEditor_ConfirmDeleteParentItems,Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0},尝试从父房间里删除项目（注:创建实例的代码将会不可挽回的失去）.\n删除全部:删除子房间的匹配项目\n保持全部:保持所有子房间的项目不变\n保持更好:保持子房间其中重写父房间的项目不变\n直接子房间?: {0},,layer delete confirm dialog message explaining the child layer deletion options
-RoomEditor_ConfirmDeleteParentLayers,Attempting to delete layers from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching layers from child rooms\nKeep All: Keep all child room layers\nKeep Changed: Keep child room layers which have overridden the parent\nImmediate Children: {0},尝试从父房间里删除层（注:创建实例的代码将会不可挽回的失去）.\n删除全部:删除子房间的匹配的层\n保持全部:保持所有子房间的层不变\n保持更改:保持子房间其中重写父房间的层不变\n直接子房间?: {0},,layer delete confirm dialog message explaining the child layer deletion options
+RoomEditor_ConfirmDeleteParentItems,Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0},尝试从父房间里删除项目（注:创建实例的代码将会不可挽回的失去）.\n删除全部:删除子房间的匹配项目\n保持全部:保持所有子房间的项目不变\n保持更好:保持子房间其中重写父房间的项目不变\n直系子房间: {0},,layer delete confirm dialog message explaining the child layer deletion options
+RoomEditor_ConfirmDeleteParentLayers,Attempting to delete layers from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching layers from child rooms\nKeep All: Keep all child room layers\nKeep Changed: Keep child room layers which have overridden the parent\nImmediate Children: {0},尝试从父房间里删除层（注:创建实例的代码将会不可挽回的失去）.\n删除全部:删除子房间的匹配的层\n保持全部:保持所有子房间的层不变\n保持更改:保持子房间其中重写父房间的层不变\n直系子房间: {0},,layer delete confirm dialog message explaining the child layer deletion options
 RoomEditor_DeleteAllChildLayers,Delete All,删除全部,,layer delete confirm dialog message for the delete all button
 RoomEditor_DeleteLayer,Delete Layer,删除层,,context menu option for deleting a layer
 RoomEditor_RenameLayer,Rename Layer,重命名层,,context menu option for renaming a layer
@@ -1227,12 +1273,12 @@ RoomEditor_GridSnapX,Snap X:,吸附 X:,,room editor toolbar grid horizontal snap
 RoomEditor_GridSnapY,Snap Y:,吸附 Y:,,room editor toolbar grid vertical snap numeric textbox caption
 RoomEditor_Inherit,Inherit,继承,,Inherit button caption
 RoomEditor_InheritCode,Inherit Creation Code,继承创建时代码,,Tooltip for the button which sets if this room inherits its creation code from the parent
-RoomEditor_InheritEditorSettings,Inherit Editor Settings,继承编辑器设置,,Inherit button tool tip caption for editor settings
-RoomEditor_InheritPhysicsSettings,Inherit Physics Settings,继承物理设定,,Inherit button tool tip caption for physics settings
+RoomEditor_InheritEditorSettings,Inherit Editor Properties,继承编辑器设置,,Inherit button tool tip caption for editor settings
+RoomEditor_InheritPhysicsSettings,Inherit Physics Properties,继承物理设定,,Inherit button tool tip caption for physics settings
 RoomEditor_InheritRoomSettings,Inherit Room Settings,继承房间设置,,Inherit button tool tip caption for room settings
 RoomEditor_InheritSubLayers,Inherit Sub Layers,继承子层,,Context menu option for inheriting sub layers from the parent layer
 RoomEditor_InheritView,Inherit View,继承视野,,inherit toggle button caption for a single view entry
-RoomEditor_InheritViewSettings,Inherit View Settings,继承视野设置,,Inherit button tool tip caption for view settings
+RoomEditor_InheritViewSettings,Inherit View Properties,继承视野设置,,Inherit button tool tip caption for view settings
 RoomEditor_InheritVisibility,Inherit Layer Visibility,继承图层可见设置,,Context menu entry for whether a layer should inherit visibility state
 RoomEditor_InstanceProperties,Instance: {0},实例:{0},,Instance properties window title
 RoomEditor_KeepAllChildLayers,Keep All,保留全部,,layer delete confirm dialog message for the keep all button
@@ -1460,6 +1506,7 @@ Splash_LoadingDevices,Loading Devices...,载入设备……,,Loading the devices
 Splash_UserLogin,User Login,用户登录,,User Login has been started
 Splash_InitDnD,Drag and Drop...,拖拽按钮……,,Initialising Drag and Drop™
 Splash_CheckingRSS,Checking RSS...,检查RSS……,,Checking RSS...
+Splash_DownloadingManual,Downloading Manual...,下载手册……,,Downloading Manual...
 SplineEditor_DeletePoints,Delete Points,删除点,,Path spline editor context menu entry
 SpriteEditor_LockOrigin,Lock sprite origin,锁定精灵原点,,Lock sprite origin from editing
 SpriteEditor_Manual,Manual,手动,,Sprite editor manual bounding box label
@@ -1705,6 +1752,9 @@ UserLogin_Error48,Login successful,登录成功,,User Login Error response 48
 UserLogin_Error54,No beta access,没有测试权限,,User Login Error response 48
 UserLogin_Error58,Session has expired,会话已过期,,User Login Error response 58
 UserLogin_Error99,Errors creating session,创建会话错误,,User Login Error response 99
+UserLogin_Error88,Please complete your profile to continue.,请完善您的资料以继续,,User Login Error response 88 (profile incomplete)
+UserLogin_EditProfile,Update Profile,更新资料,,user login edit profile button
+UserLogin_ProfileIncomplete,Profile Incomplete,资料不完整,,user login incomplete profile title
 Validate_MaxLength,{0} - Length should be less than {1},{0} - 长度应小于 {1},,Failed validation by passing an object whose length is too long
 Validate_MinLength,{0} - Length should be greater than {1},{0} - 长度应大于 {1},,Failed validation by passing an object whose length is too short
 Validate_MVCType,{0} - Object should be of type {2}{1},{0} - 对象应该是类型 {2}{1},,Failed validation by passing an object of the wrong type
@@ -1737,7 +1787,7 @@ TimeLine_MergeWarningTitle,Merge Moments,合并时刻点,,Merge moments warning 
 TimeLine_DeleteWarning,Deleting moments is a permanent action that cannot be undone. Are you sure you want to continue?,删除时刻点是一个不能撤消的永久性操作.无论如何也要这样做吗？,,Delete warning for time lines
 TimeLine_DeleteWarningTitle,Delete Moments,删除时刻点,,Delete moments warning dialog title
 Workspace_TabTitle,Workspace {0},工作区 {0},,The default tab name for workspace tabs
-Dock_TabTitle,DockTab{0},停靠栏{0},,the default tab name for dock tabs
+Dock_TabTitle,Dock Tab{0},停靠栏{0},,the default tab name for dock tabs
 RoomEditor_InvalidDragGadget,"The selected layer does not accept the dragged resources, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer",选中的层不能持拖拽过来的资源,, Information warning for dropping resource gadgets on a layer which won't accept them 
 Dock_FloatingDock_Title,Floating Dock,浮动停靠栏,,floating dock window title
 RoomEditor_InvalidDragLayers,"Unable to drag resources into room, ensure one layer is selected",无法将资源拖拽到房间,, Information warning for dropping resource gadgets on the room but layer selection is invalid
@@ -1760,11 +1810,11 @@ ResourceTree_Filter, Filter Tree,树状图筛选器,, 'Filter Tree' checkbox lab
 ResourceTree_WholeWord, Whole Word,全词匹配,, 'Whole Word' checkbox label
 ResourceTree_FindNext, Find Next,查找下一个,, 'Find Next' button label
 ResourceTree_FindPrevious, Find Previous,查找上一个,, 'Find Previous' button label
-ResourceTree_SearchResources,Search...,搜索...,, default contents of the resource tree search resources box
+ResourceTree_SearchResources,Search...,搜索……,, default contents of the resource tree search resources box
 ResourceTree_SearchOptions,Search Options,搜索选项,,Additional Search Options
-SearchInScript_Search,Find...,查找...,,Search in Script Search default box text
-SearchInScript_Replace,Replace...,替换...,,Search in Script Replace default box text
-SearchInScript_SelectionOnly,Selection Only,选择仅有,,Search in Script Selection Only
+SearchInScript_Search,Find...,查找……,,Search in Script Search default box text
+SearchInScript_Replace,Replace...,替换……,,Search in Script Replace default box text
+SearchInScript_SelectionOnly,Selection Only,仅所选部分,,Search in Script Selection Only
 DnD_Gadget_DirectionalInput,Directional Input,方向输入,,DnD™ gadget for directional input
 DnD_Gadget_NumericInput,Numeric Input,数字输入,,DnD™ gadget for numeric input
 DnD_Gadget_ApplyTo,Apply To,应用于,,DnD™ gadget for applying to a specific object or instance
@@ -1778,8 +1828,8 @@ DnD_Gadget_ResourceSelection,Resource Selection,资源选择,,DnD™ gadget for 
 DnD_Gadget_ResourceSelection_SelectResource,Select Resource,选择资源,,DnD™ gadget list view explorer title
 DnD_Gadget_BooleanInput,Boolean Input,布尔输入,,DnD™ gadget for boolean input
 DnD_Gadget_BooleanExprInput,Boolean Expression Input,布尔表达式输入,,DnD™ gadget for boolean input
-DnD_Gadget_ColorPicker,Color Picker,吸管,,DnD™ gadget for picking a color
-DnD_Gadget_ColorPalette,Color Palette,调色板,,DnD™ gadget for picking a color
+DnD_Gadget_ColorPicker,Colour Picker,吸管,,DnD™ gadget for picking a color
+DnD_Gadget_ColorPalette,Colour Palette,调色板,,DnD™ gadget for picking a color
 DnD_Gadget_MultiLineTextInput,Text Input (MultiLine),文本输入(多行),,DnD™ gadget for multiline text input
 DnD_Gadget_CodeInput,Code Input,代码输入,,DnD™ gadget for code input
 DnD_Gadget_Caption_GroupSelector,Options,选项,,DnD™ label caption for the group selector gadget
@@ -1826,7 +1876,7 @@ DnDMaker_LibWizard_Cancel,Cancel,取消,,DnD™ Maker library wizard Cancel butt
 DnDMaker_Menu_Sections,Sections,节,,DnD™ Maker sections menu item
 DnDMaker_Menu_AddSection,Add Section,添加节,,DnD™ Maker add section menu item
 DnDMaker_Menu_LayoutWizard,Open Layout Wizard...,打开布局向导...,,DnD™ Maker Open Layout Wizard menu item
-DnDMaker_Menu_ExpandLocalisation,Expand Localisation,Expand Localisation,,DnD™ Maker Open Layout Wizard menu item
+DnDMaker_Menu_ExpandLocalisation,Expand Localisation,展开本地化文件,,DnD™ Maker Open Layout Wizard menu item
 DnDMaker_Menu_AddGroup,Add Layout Group,添加布局组,,DnD™ Maker add layout group menu item
 DnDMaker_Menu_RenameGroup,Rename Layout Group,重命名布局组,,DnD™ Maker rename layout group menu item
 DnDMaker_Menu_RemoveGroup,Remove Layout Group,删除布局组,,DnD™ Maker remove layout group menu item
@@ -1876,7 +1926,7 @@ DnDMaker_LayoutWizardProperties,Properties,属性,,DnD™ Maker layout wizard pr
 DnDMaker_LayoutWizardIsTemp,Can Be Temp?,可以是临时的吗？,,DnD™ Maker layout wizard can be temp label
 DnDMaker_NoLayoutWizardLayout,Layout wizard layout is missing.,布局向导的布局丢失。,,DnD™ Maker layout wizard error
 DnD_Loading,Loading...,载入中……,,Loading dnd script
-DnDMaker_ExpandLocalisationFailed,Failed to expand localisation,未能Expand Localization,,expand localisation error message
+DnDMaker_ExpandLocalisationFailed,Failed to expand localisation,未能展开本地化文件,,expand localisation error message
 DnD_Gadget_Label,Label,标签,,DnD™ Label gadget localised name
 DnD_Gadget_StackPanel,Stack Panel,层叠面板,,DnD™ Stack Panel gadget localised name
 DnD_Gadget_Grid,Grid,网格,,DnD™ Grid gadget localised name
@@ -1903,8 +1953,8 @@ Tutorial_Dock_Title,Tutorial,教程,,tutorial dock tab title
 Tutorial_FileMissing,Could not find {0},找不到 {0}',,tutorial missing file message
 Tutorial_DisplayNameMissing,Display name must be set,显示名称必须设置.,,tutorial missing display name message
 Tutorial_PurchaseFailed,Error acquiring tutorial: {0},获取教程出错:{0},,tutorial purchase error message
-Tutorial_CreateInfo,"Add content to Included Files ""TutorialContent"" folder","添加内容至内含文件的""TutorialContent"" 文件夹",,tutorial package create info label
-Tutorial_CreateInfo2,"Add files for the user to import to Included Files ""TutorialResources"" folder","为用户添加文件,这些文件将被导入内含文件的""TutorialResources""文件夹?",,tutorial package create info label
+Tutorial_CreateInfo,Add content to Included Files TutorialContent folder,"添加内容至内含文件的""TutorialContent"" 文件夹",,tutorial package create info label
+Tutorial_CreateInfo2,Add files for the user to import to Included Files TutorialResources folder,"为用户添加文件,这些文件将被导入内含文件的""TutorialResources""文件夹?",,tutorial package create info label
 Tutorial_UpdateAvailableNotification,Update Available: {0},有可用更新: {0},,tutorial package update available notification
 Demo_PurchaseFailed,Error Acquiring Demo: {0},获取Demo出错:{0},,demo purchase error message
 yyzimporter_message,YYZ Importer,YYZ 导入器,,YYZ Importer Message Title
@@ -1923,7 +1973,8 @@ DnDNodeWindow_CMenu_Copy,Copy,复制,,DnD™ node window context menu
 DnDNodeWindow_CMenu_Cut,Cut,剪切,,DnD™ node window context menu
 DnDNodeWindow_CMenu_Help,Show Help...,显示帮助...,,DnD node window context menu
 DnDNodeWindow_CMenu_Paste,Paste,粘贴,,DnD™ node window context menu
-DnDNodeWindow_CMenu_CollapseAll,Collapse All,全部折叠,,DnD node window context menu
+DnDNodeWindow_CMenu_CollapseAll,Collapse All,全部折叠,,DnD node window context menu collapse all nodes
+DnDNodeWindow_CMenu_ExpandAll,Expand All,全部展开,,DnD node window context menu expand all nodes
 DnDNodeWindow_CMenu_Evaluate,Evaluate...,求值,,DnD™ node window context menu
 ggs_graphics_scale,Scaling,放大,,Game Settings Graphics Scale title
 ggs_graphics_scale_keepaspectratio,Keep aspect ratio,保持长宽比,,Game Settings Graphics Scale - Keep Aspect Ratio option
@@ -1933,6 +1984,7 @@ ImagePath_ImageError,Error Selecting Image,选择图像出错,,Error when using 
 ImagePath_NotExpectedDimensions,The image is expected to be of {0}x{1} but received {2}x{3},该图像预计是{0}x{1},,Image wrong size with 0x1 being expected size and 2x3 being the image size
 ImagePath_NotExpectedAlpha,The image is expected to have an alpha channel (i.e. be 32-bit),该图像预计有一个透明度通道 (换言之,,The image needs to have an alpha channel but the selected one does not
 ImagePath_FileError,Cannot access file: {0},无法访问文件 {0},,Error when trying to access file where 0 is the filename
+ImagePath_NotExpectedFormat,Selected image is not a valid '{0}' format.,所选图像并非合法的'{0}'格式,,invalid image format message
 ggs_windows_save_localappdata,%localappdata%\<Game Name>,%localappdata%\<游戏名称>,,Save Path to Local App Data
 ggs_windows_save_appdata,%appdata%\<Game Name>,%appdata%\<游戏名称>,,Save Path to Local App Data
 ggs_vertex_buffer_method,Vertex Buffer Method,顶点缓冲区方法(VBM),,Vertex Buffer Method
@@ -1949,11 +2001,14 @@ ggs_certificate_install,Install,安装,,Install Certificate
 ggs_win8_logo_foreground_light,Light,明,,Light foreground text on Windows 8 logo
 ggs_win8_logo_foreground_dark,Dark,暗,,Dark foreground text on Windows 8 logo
 Edit,Edit,编辑,,Edit label
-ggs_ps_package_id,Package Content Id,程序包内容 Id,,Package Content Id
+ggs_ps_package_id,Package Content ID,程序包内容 Id,,Package Content Id
 ggs_ps_passcode,Package Passcode,程序包密码,,Package Passcode
 ggs_mac_provision_refresh,Refresh from Mac,从Mac获取刷新,,Refresh provisioning list from Mac
 ggs_ps4_param_sfo,PARAM.SFO,PARAM.SFO,,Run Sony PARAM.SFO Editor
+ggs_ps4_np_title_dat,NPTITLE.DAT,NPTITLE.DAT,,Import nptitle.dat
 ggs_ps4_trophy_edit,Trophy Editor,奖杯编辑器,,Run Sony Trophy Editor
+ggs_ps4_share_param,Share Editor,转发修改器,,Run Sony Share File Editor
+ggs_ps4_voice_recognition,Voice Recognition,声音识别,,import pronunciation
 ggs_build_tools,Build Tools,构建工具,,Build Tools
 ggs_package_name,Package Name,程序包名称,,Package Name
 ggs_target_sdk,Target SDK,目标平台 SDK,,Target SDK
@@ -2010,11 +2065,13 @@ ggs_flipped_portrait_orientation,Allow flipped portrait orientation,允许设备
 ggs_team_identifier,Team Identifier,团队标识符,,Team Identifier
 ggs_install_location,Install location,安装位置,,Install Location
 ggs_moga_gamepad_support,Enable MOGA gamepad support,启用MOGA游戏手柄,,Enable MOGA Gamepad Support
-ggs_android_lint,Run Lint code analysis,运行Lint Code 分析,,Run Lint Code Analysis
+ggs_android_lint,Run Lint code analysis,运行Lint代码分析,,Run Lint Code Analysis
 ggs_landscape_splash_screen,Landscape Splash Screen,横向启动画面,,Landscape Splash Screen
 ggs_portrait_splash_screen,Portrait Splash Screen,纵向启动画面,,Portrait Splash Screen
 ggs_splash_screen,Splash Screen Image,启动画面图像,,Splash Screen Image
+LicenceExcluded_ggs_splash_screen,Splash screen image cannot be changed on 'Creator' platforms,在“创意者”平台中，不能修改启动画面图像,Do not localise 'Creator' it's a product name,forced splash screen image tooltip
 ggs_use_splash_screen,Use splash screen,使用启动画面,,Use Splash Screen
+LicenceExcluded_ggs_use_splash_screen,Splash screen cannot be disabled on 'Creator' platforms,在“创意者”平台中，不能禁用启动画面,Do not localise 'Creator' it's a product name,use splash force enabled tooltip
 ggs_minimum_display_time,Minimum time to display,最小显示时间,,Minimum time to display
 ggs_interpolate_pixels,Interpolate colours between pixels,对像素间颜色进行插值,,Interpolate colours between pixels
 ggs_screen_colour_depth,Screen Colour Depth,屏幕色深,,Screen Colour Depth
@@ -2059,7 +2116,7 @@ ggs_foldername,Folder Name,文件夹名称,,Name of Folder
 ggs_outputname,Output Name,输出名称,,Output Name
 ggs_output_debug_to_console,Output debug to console,输出调试至控制台,,Output Debug to Console
 ggs_generate_spotify_app,Generate Spotify App,生成Spotify应用,,Generate Spotify App
-ggs_display_outside_server_alert,"Display ""Running outside server"" alert","显示 ""运行外部服务器"" 警报",,Display the running outside of server alert
+ggs_display_outside_server_alert,Display Running outside server alert,"显示 ""运行外部服务器"" 警报",,Display the running outside of server alert
 ggs_prepend_js,Prepend output .js with,对输出的.js文件开头插入下列内容,,Prepend output .js with
 ggs_icon,Icon,图标,,Icon
 ggs_icon_57,57x57 Icon,57x57 图标,,57x57 Icon
@@ -2090,7 +2147,7 @@ ggs_allow_fullscreen,Allow fullscreen switching,允许全屏切换,,Allow Fullsc
 ggs_centre_game_in_browser,Centre game in browser window,浏览器窗口游戏居中,,Centre game in Browser window
 ggs_use_builtin_particles,Use built-in particles,使用内置粒子,,Use Built-in Particles
 ggs_bundlename,Bundle Name,捆绑包名称,,Bundle Name
-ggs_bundle_id,Bundle Id,捆绑包 Id,,Bundle Id
+ggs_bundle_id,Bundle ID,捆绑包 Id,,Bundle Id
 ggs_provisioning_certificate,Provisioning Certificate,开发证书,,Provisioning Certificate
 ggs_maintainer_email,Maintainer Email,维护人员邮箱,,Maintainer Email
 ggs_half_ipad1_textures,Halve iPad 1 texture sizes,iPad 1 纹理一半大小,,Half iPad 1 Texture Sizes
@@ -2106,9 +2163,10 @@ ggs_app_output,App Output,应用输出,,App Output
 ggs_team_id,Team Identifier,团队标识符,,the macOS Option for team identifier
 ggs_team_id_tooltip,10 digit alpha-numeric identifier taken from your developer.apple.com/#/overview URL. If blank this will inherit the value set in Platform Options,取自您的 developer.apple.com/#/overview 网址的10位字母数字标识符,,Tooltip for signing identity
 ggs_signing_id,Signing Identifier,签名标识符,,Signing Identifier Label
-ggs_signing_id_tooltip,"To distribute your game outside of the Mac App Store El Capitan requires that\nyour game package is codesigned. Please provide the signing identity that you\nwish to use here, this should be a Developer ID Application identity and should\nbe present in your Mac's login keychain certificates. Signing identities can be\neasily created in Xcode->Preferences->Accounts->Team->View Details->Developer ID\nApplication->Create. Signing identities will be matched so the default value\nshould be sufficient if you are only the member of one development team. Leave\nthis field blank to skip codesigning.",在EI Capitan 的苹果应用商店（Mac App Store）外面发布你的游戏需要数字签名.请提供在这里使用的签名身份,,Tooltip for signing identity
+ggs_signing_id_tooltip,To distribute your title outside of the Mac App Store macOS requires that your\npackage is codesigned. Please provide the signing identity that you wish to use\nhere: this should be a Developer ID Application identity and should be present\nin your Mac's login keychain certificates. Signing identities can be easily created\nin Xcode->Preferences->Accounts->Team->View Details->Developer ID\nApplication->Create. Signing identities will be matched so the default value\nshould be sufficient if you are only the member of one development team.\nLeave this field blank to skip codesigning.,在EI Capitan 的苹果应用商店（Mac App Store）外面发布你的游戏需要数字签名.请提供在这里使用的签名身份,,Tooltip for signing identity
 ggs_copyright,Copyright,版权,,Copyright
 ggs_allow_menu_dock_fullscreen,Allow menu and dock in fullscreen,允许菜单和停靠栏全屏化,,Allow Menu and Dock in Fullscreen
+ggs_enable_retina,Enable Retina,启用Retina,,Enable Retina
 ggs_build_mac_app_store,Build for Mac App Store,为苹果应用商店输出,,Build for Mac App Store
 ggs_allow_incoming_network_connections,Allow incoming network connections,允许网络连入,,Allow Incoming Network Connections
 ggs_allow_outgoing_network_connections,Allow outgoing network connections,允许网络传出,,Allow Outgoing Network Connections
@@ -2122,23 +2180,23 @@ ggs_author,Author,作者,,Author
 ggs_lastchanged,Last Changed,最近更改,,Last Changed
 ggs_information,Information,信息,,Information
 ggs_enable_source_control,Enable source control,启用源码控制,,Enable Source Control
-ggs_content_id,Package Content Id,程序包内容 Id,,Package Content Id
+ggs_content_id,Package Content ID,程序包内容 Id,,Package Content Id
 ggs_passcode,Passcode,密码,,Passcode
 ggs_save_data_icon,Save Data Icon,保存数据图标,,Save Data Icon
 ggs_trophy_screen,Trophy Screen,奖杯界面,,Trophy Screen
 ggs_display_cursor_when_touchpad_active,Display cursor when touchpad is active,触摸板激活时显示鼠标,,Display Cusor when Touchpad Active
 ggs_product,Product,产品,,Product
-ggs_product_id,Product Id,产品 Id,,Product Id
+ggs_product_id,Product ID,产品 Id,,Product Id
 ggs_company,Company,公司,,Company
 ggs_description,Description,描述,,Description
 ggs_enable_front_touch,Enable Front Touch,允许前部触摸,,Enable Front Touch
 ggs_enable_rear_touch,Enable Rear Touch,允许后部触摸,,Enable Rear Touch
 ggs_network_urls,Network URLs,网络地址,,Network URLs
 ggs_use_sandbox,Use Sandbox,使用沙箱,,Use Sandbox
-ggs_item_group_id,Item Group Id,项目组Id,,Item Group Id
+ggs_item_group_id,Item Group ID,项目组Id,,Item Group Id
 ggs_publisher,Publisher,发布者,,Publisher
 ggs_publisher_display_name,Publisher Display Name,发布者显示名称,,Publisher Display Name
-ggs_publisher_id,Publisher Id,发布者 Id,,Publisher Id
+ggs_publisher_id,Publisher ID,发布者 Id,,Publisher Id
 ggs_package_display_name,Package Display Name,程序包显示名称,,Package Display Name
 ggs_native_target,Native CPU Target,Native应用CPU目标,,Native CPU Target
 ggs_windows_target_platform_version,Windows Target Platform Version,Windows 目标平台版本,,Windows Target Platform Version
@@ -2167,6 +2225,7 @@ ggs_installer_header_image,Installer Header Image,安装程序顶部图片,,Inst
 ggs_license_agreement,License Agreement,许可协议,,License Agreement
 ggs_installer_nsi_script,Installer NSI Script,安装程序 NSI 脚本,,Installer NSI Script
 ggs_certificate_location,Store certificate location,证书储存位置,,Store Certificate Location
+ggs_certificate_publisher,Publisher Name,发布者名称,,certificate issuer name
 ggs_wvga_resolution,Support WVGA Resolution,支持WVGA分辨率,,Support WVGA Resolution
 ggs_wxga_resolution,Support WXGA Resolution,支持WXGA分辨率,,Support WXGA Resolution
 ggs_720p_resolution,Support 720p Resolution,支持720p分辨率,,Support 720p Resolution
@@ -2190,8 +2249,8 @@ ggs_iconic_background_colour,Iconic Background Colour,图标的背景色,,Iconic
 ggs_iconic_message,Iconic Message,图标的信息,,Iconic Message
 ggs_ratings_xml,Ratings XML,评级 XML,,Ratings XML
 ggs_languages_xml,Languages XML,语言 XML,,Languages XML
-ggs_title_id,Title Id,标题 Id,,Title Id
-ggs_service_configuration_id,Service Configuration Id,服务配置Id,,Service Configuration Id
+ggs_title_id,Title ID,标题 Id,,Title Id
+ggs_service_configuration_id,Service Configuration ID,服务配置Id,,Service Configuration Id
 ggs_require_xbox_live,Require Xbox Live,需要Xbox在线,,Require Xbox Live
 ggs_require_game_chat,Require game chat,需要游戏聊天,,Require Game Chat
 ggs_require_audio_recording,Require audio recording,需要录音,,Require Audio Recording
@@ -2211,12 +2270,13 @@ ggs_wide6_cycle_image,Wide Cycle Image 6,宽的循环图片 6,,Wide Cycle Image 
 ggs_wide7_cycle_image,Wide Cycle Image 7,宽的循环图片 7,,Wide Cycle Image 7
 ggs_wide8_cycle_image,Wide Cycle Image 8,宽的循环图片 8,,Wide Cycle Image 8
 ggs_wide9_cycle_image,Wide Cycle Image 9,宽的循环图片 9,,Wide Cycle Image 9
+ggs_copy_runner_to_dest,Copy exe to output folder,复制exe到输出文件夹,,Copy exe to output folder
 Import,Import,导入,,Import
 Convert,Convert,转换,,Convert
 movedegreerange_description,Workspace keyboard navigation degree range,使用键盘浏览窗口时的角度范围,,Description for degree range of moving a window
 resetzoomonmoving_description,Workspace keyboard navigation resets zoom,使用快捷键在窗口间移动时,,Description for reset zoom
 background_image,Background Image,背景图,,Background Image
-workspacebackground_skin_description,IDE skin,选择使用的IDE皮肤,,Label to use to prompt the user to pick a new skin for the IDE
+workspacebackground_skin_description,IDE skin,IDE皮肤,,Label to use to prompt the user to pick a new skin for the IDE
 workspacebackgroundfit_description,Image Scaling,图像放大,,Description for workspace background fit
 showworkspacebackground_description,Show background image on workspaces,是否在工作区中显示背景图片？,,Description for showing workspace background
 adddefaultlayers_description,Add default room layers,创建新房间时添加默认的层吗？,,Description for adding default layers
@@ -2297,22 +2357,22 @@ patheditor_rotatesensitivity,The path rotation sensitivity,路径旋转敏感度
 patheditor_scalesensitivity,The path scale sensitivity,路径缩放敏感度,,Scale Sensitivity in Path Editor
 patheditor_anchorwidth,Anchor point width,锚点的宽度,,Anchor width in Path Editor
 patheditor_anchorheight,Anchor point height,锚点的高度,,Anchor Height in Path Editor
-patheditor_maskoverlay,Enable mask overlay for point insertion,为点插入启用蒙版覆盖,,Mask Overlay in Path Editor
-patheditor_maskcolour,Mask overlay colour,颜色应用到蒙版覆盖,,Mask colour in Path editor
-resourcetree_automaticdeletion,Automatic response to resource deletion,默认删除资源,,Automatic deletion on resource tree
-resourcetree_automaticopenall,Automatic response to opening multiple resources,默认打开多个资源,,Automatic button choice on opening multiple resources
+patheditor_maskoverlay,Enable mask overlay for point insertion,为插入点启用蒙版覆盖,,Mask Overlay in Path Editor
+patheditor_maskcolour,Mask overlay colour,蒙板覆盖色,,Mask colour in Path editor
+resourcetree_automaticdeletion,Automatic response to resource deletion,删除资源时的默认选择,,Automatic deletion on resource tree
+resourcetree_automaticopenall,Automatic response to opening multiple resources,打开多个资源时的默认选择,,Automatic button choice on opening multiple resources
 resourcetree_maxresourcesbeforewarning,Maximum number of resources to open simultaneously without warning,发出警告前同时打开资源的最大数目,,Max resources to open before showing a warning
-roomeditor_automaticparentitemdeletion,Automatic response to parent room item deletion,默认删除父房间项目,,Automatic parent item deletion in room editor
-roomeditor_automaticparentlayerdeletion,Automatic response to parent room layer deletion,默认删除父房间层,,Automatic parent layer deletion in room editor
-roomeditor_automaticitemdeletion,Automatic response to room item deletion,默认删除房间项目,,Automatic item deletion in room editor
-roomeditor_automaticlayerdeltion,Automatic response to room layer deletion,默认删除房间层,,Automatic layer deletion in room editor
+roomeditor_automaticparentitemdeletion,Automatic response to parent room item deletion,删除父房间项目时的默认选择,,Automatic parent item deletion in room editor
+roomeditor_automaticparentlayerdeletion,Automatic response to parent room layer deletion,删除父房间层时的默认选择,,Automatic parent layer deletion in room editor
+roomeditor_automaticitemdeletion,Automatic response to room item deletion,删除房间项目时的默认选择,,Automatic item deletion in room editor
+roomeditor_automaticlayerdeltion,Automatic response to room layer deletion,删除房间层时的默认选择,,Automatic layer deletion in room editor
 roomeditor_automaticacceptitemdrag,Automatic response to invalid resource drag error,忽略无效资源拖拽到房间的错误,,Automatic drag acceptance on invalid items in room editor
 roomeditor_automaticacceptlayerdrag,Automatic response to invalid layer selection drag error,忽略拖拽多个资源或未选中层的错误,,Automatic layer drag acceptance in room editor
 roomeditor_automaticacceptlockedinvisiblelayerdrag,Automatic response to locked/invisible layer drag error,忽略拖拽资源到锁定或不可层的错误,,Automatic layer drag acceptance for locked or invisible layer in room editor
-roomeditor_linkcolour,Chain link colour,房间编辑器中浮动链的连接颜色,,Link Colour in Room Editor
+roomeditor_linkcolour,Chain link colour,链条颜色,,Link Colour in Room Editor
 roomeditor_chainalphafalloff,Chain fade out start distance (px),链条透明度开始淡出的像素距离,,Alpha Fall Off of chain in Room Editor
 roomeditor_chainalphadistance,Chain fade out stop distance (px),链条透明度停止淡出的像素距离,,Distance of chain alpha fall off in Room Editor
-roomeditor_minfalloffalpha,Chain minimum alpha,在衰减停止距离的链条连杆透明度,,Minimum Alpha fall off in Room Editor
+roomeditor_minfalloffalpha,Chain minimum alpha,链条最小透明度,,Minimum Alpha fall off in Room Editor
 roomeditor_multiselectcolour,Area select highlight colour,当前多选区域的高亮颜色,,Colour of the multi select area in Room Editor
 roomeditor_tileselectcolour,Selected tile highlight colour,图块编辑器中选中的图块的高亮颜色,,Tile Select colour in Room Editor
 roomeditor_tilehighlightcolour,Mouseover tile highlight colour,图块编辑器中鼠标悬浮图块的高亮颜色,,Tile Highlight Colour in Room Editor
@@ -2320,13 +2380,14 @@ roomeditor_tileinheritcolour,Inherited tile highlight colour,图块编辑器中�
 roomeditor_showviews,Show room views,在打开的房间中显示视野按钮的初始设置,,Show Views in Room Editor
 timeline_noundoactions,Automatic response to permanent action warning,无法撤消的动作显示警告按钮,,No Undo Actions in Timeline Editor
 timeline_opennewmoments,Open new moments for edit on creation,立即打开新的时刻点开始编辑,,Open newly created moments for editing preference
-CMenu_CloseAllButThis,Close All But This,关闭除此的所有,,Close all but this context menu
+CMenu_CloseAllButThis,Close All But This,关闭其他所有,,Close all but this context menu
+CMenu_Restore,Restore,恢复,,Restore context menu
 codeeditor_textcolour,Colour of text,文本颜色,,Text Colour in Code Editor
 codeeditor_font,Font to use,使用的字体,,Font to use in Code Editor
 codeeditor_fontstyle,Font Style,字体样式,,Font Style to use in Code Editor
 codeeditor_fontaa,Font AA,字体抗锯齿,,Anti-Alias Font in Code Editor
 codeeditor_textsize,Size of text,字体大小,,Size of Text in Code Editor
-codeeditor_normaltext,Normal Text,通常文本,,Colour of Normal Text in Code Editor
+codeeditor_normaltext,Normal Text,普通文本,,Colour of Normal Text in Code Editor
 codeeditor_keywords,Keywords,关键字,,Colour of Keywords in Code Editor
 codeeditor_values,Values,值,,Colour of Values in Code Editor
 codeeditor_strings,Strings,字符串,,Colour of Strings in Code Editor
@@ -2336,7 +2397,7 @@ codeeditor_builtinvariables,Built-in Variables,内置变量,,Colour of Built-in 
 codeeditor_builtinfunctions,Built-in Functions,内置函数,,Colour of Built-in Functions in Code Editor
 codeeditor_scriptnames,Script names,脚本名,,Colour of Script names in Code Editor
 codeeditor_resourcenames,Resource names,资源名,,Colour of Resource names in Code Editor
-codeeditor_linenumbers,Line numbers,行数,,Colour of Line Numbers in Code Editor
+codeeditor_linenumbers,Line numbers,行号,,Colour of Line Numbers in Code Editor
 codeeditor_readonlylines,Read only line style,只读行样式,,Style of read only lines in Code Editor
 codeeditor_bookmarklines,Bookmark line style,书签行样式,,Style of bookmark lines in Code Editor
 codeeditor_selectedline,Selected line colour,选中行,,Selected line colour in Code Editor
@@ -2352,7 +2413,7 @@ codeeditor_bracketmatchfail,Failed bracket/quote match colour,括号引号匹配
 codeeditor_statusbarselected,Pre cursor intellisense colour,智能提示文本中到当前点的颜色（状态栏中）,,Status Bar selection colour in code editor
 codeeditor_intellisenseleft,Post cursor intellisense colour,智能提示文本左边的颜色（状态栏中）,,Colour of intellisense left in Code Editor
 codeeditor_whitespacestyle,White space text style,空白区文本样式,,White space style in Code Editor
-codeeditor_keeptabs,Keep tabs,保持选项卡,,Keep Tabs in Code Editor
+codeeditor_keeptabs,Keep tabs,保留制表位,,Keep Tabs in Code Editor
 codeeditor_tabsize,Tab size,选项卡大小,,Tab Size in Code Editor
 codeeditor_showwhitespace,Show whitespace,显示空白,,Show Whitespace in Code Editor
 codeeditor_showlinenumbers,Show line numbers,显示行号,,Show Line Numbers in Code Editor
@@ -2377,6 +2438,7 @@ codeeditor_obsolete_style,Obsolete functions etc,弃用函数等,,code editor te
 codeeditor_braces,Braces,花括号,,code editor text style for braces
 codeeditor_folded_region,Folded region,已折叠区块,,text style for folded #region
 codeeditor_folded_region_tag,Folded region name,已折叠区块名称,,text style for folded region tag
+codeeditor_tab_lines_colour,Tab lines colour,制表行颜色,,code editor tab lines colour
 dialogeditor_textcolours,Text colours and style,文字颜色和样式,,Text colours and style in Dialog Editor
 dialogeditor_options,Options,选项,,Options in Dialog Editor
 sourcecontrolgit_username,Commit username,用于提交的用户名,,Username to commit as for source control git
@@ -2398,54 +2460,54 @@ ProgressBar_sourcecontrolgit_checkout,Checking Out...,签出……,,Checkout pro
 ProgressBar_sourcecontrolgit_revert_files,Reverting Files...,正在还原文件...,,Revert Files progress label
 ProgressBar_sourcecontrolgit_revert_revision,Reverting Revision...,正在还原更改……,,Revert Revision progress label
 ProgressBar_sourcecontrolgit_clone,Cloning...,克隆中...,,Clone progress label
-desktop_slowclicktime,Slow double-click time (ms),双击延迟事件（毫秒）,,Slow double-click time in milliseconds
-desktop_scrolllocktime,Scroll lock time (ms),锁定部件滚动状态的时间（毫秒）,,The time in milliseconds to lock scrolling to the gadget scrolling started on as long as the mouse is still over it
-desktop_acpowerspeed,AC power framerate (%),% 在使用交流电源时,,Speed of IDE while running on AC power
-desktop_batterypowerspeed,Battery power framerate (%),% 在使用电池电源时,,Speed of IDE while running on battery power
-desktop_focuspowerspeed,Background framerate (%),% 在应用失去焦点时,,% when application is not in focus
-desktop_scrollspeed,Scroll speed,滚动速度,,scroll speed preference
-folderwatcher_frequency,File watcher frequency (ms),文件监视频率（毫秒）,,File watcher frequency in milliseconds
-folderwatcher_laptopfrequency,Laptop file watcher frequency (ms),笔记本上的文件监视频率（毫秒）,,File watcher frequency in milliseconds on laptops
-ggs_enable_steam,Enable steam,启用 Steam,,Enable Steam
-ggs_steam_id,Steam ID,Steam Id,,Steam Id
-ggs_enable_iap_sandbox,Enable IAP sandbox,启用IAP沙箱,,Enable IAP Sandbox
-ggs_tile_type,Type of Tiles to display,显示的图块类型,,Type of Tiles to display
-ggs_tiles_flip,Flip tiles,翻转图块,,Flip tiles
-ggs_tiles_iconic,Iconic tiles,图标块,,Iconic tiles
-ggs_tiles_cycle,Cycle tiles,循环图块,,Cycle tiles
-ggs_new_guid,Create New GUID,创建新的 GUID,,Create New GUID
-ggs_short_circuit_evaluations,Enable Short Circuit Evaluations,启用短路求值,,Enable Short Circuit Evaluations
-ggs_delete_event_on_room_change,Delete Event on Room Changes,房间更改时删除事件,,Delete Event on Room Changes
-ggs_use_fast_collisions,Enable Fast Collisions,启用快速碰撞,,Enable Fast Collisions
-ggs_game_speed,Game frames per second,每秒游戏帧数(FPS),,Game Frames Per Second
-ggs_game_identifier,Game Identifier,游戏标识号,,Game Identifier
-ggs_game_guid,Game GUID,游戏 GUID,,Game GUID
-ggs_isdnd,Use DnD™ as default script type,默认使用 DnD™ 代码,,Project code type
-ggs_mips_for_3d_textures,Generate mipmaps for separate texture pages,为单独的纹理页生成多级渐进纹理（mipmap）,,Generate mipmaps for separate texture pages
-TargetSelection_RequiresWorker,Requires Worker,需要工作者,,label for when a selected platform requires a worker
-TargetSelection_Worker,Worker:,工作者:,,the list title for target selecting worker
-TargetSelection_Platform,Platform:,平台:,,the list title for target selecting platform
-TargetSelection_Config,Config:,配置:,,the list title for target selecting config
-TargetSelection_Device,Device:,设备:,,the list title for target selecting device
-TargetSelection_Runtime,Output:,输出:,,the list title for target selecting runtime
-TargetSelection_Platform_Test,Test,测试,,the teset platform title in the platform selection list
-TargetSelection_Platform_Windows,Windows,Windows,,the windows platform title in the platform selection list
-TargetSelection_Platform_windowsuap,Windows UWP,Windows UWP,,the windows uwp platform title in the platform selection list
-TargetSelection_Platform_WinPhone8,Windows Phone 8,Windows Phone 8,,the windows phone platform title in the platform selection list
-TargetSelection_Platform_Mac,macOS,macOS,,the mac platform title in the platform selection list
-TargetSelection_Platform_Linux,Ubuntu,Ubuntu,,the linux platform title in the platform selection list
-TargetSelection_Platform_HTML5,HTML5,HTML5,,the html5 platform title in the platform selection list
-TargetSelection_Platform_android,Android,Android,,the android platform title in the platform selection list
-TargetSelection_Platform_AmazonFire,Amazon Fire,Amazon Fire,,the Amazon Fire platform title in the platform selection list
-TargetSelection_Platform_ios,iOS,iOS,,the apple iOS platform title in the platform selection list
-TargetSelection_Platform_AppleTV,tvOS,tvOS,,the apple tvOS platform title in the platform selection list
-TargetSelection_Platform_ps3,PlayStation 3,PlayStation 3,,the ps3 platform title in the platform selection list
-TargetSelection_Platform_ps4,PlayStation 4,PlayStation 4,,the ps4 platform title in the platform selection list
-TargetSelection_Platform_psvita,PlayStation Vita,PlayStation Vita,,the ps vita platform title in the platform selection list
-TargetSelection_Platform_xboxone,Xbox One,Xbox One,,the xbox one platform title in the platform selection list
-TargetSelection_Runtime_VM,VM,虚拟机,, the vm title in the runtime selection list
-TargetSelection_Runtime_YYC,YYC,YYC,, the yyc title in the runtime selection list
-TargetSelection_Runtime_Javascript,JavaScript,JavaScript,, the javascript title in the runtime selection list
+ExternalEditor_FailedToOpen,Failed to open external editor {0}.,双击延迟事件（毫秒）,,Failed to open external editor message
+desktop_slowclicktime,Slow double-click time (ms),锁定部件滚动状态的时间（毫秒）,,Slow double-click time in milliseconds
+desktop_scrolllocktime,Scroll lock time (ms),% 在使用交流电源时,,The time in milliseconds to lock scrolling to the gadget scrolling started on as long as the mouse is still over it
+desktop_acpowerspeed,AC power framerate (%),% 在使用电池电源时,,Speed of IDE while running on AC power
+desktop_batterypowerspeed,Battery power framerate (%),% 在应用失去焦点时,,Speed of IDE while running on battery power
+desktop_focuspowerspeed,Background framerate (%),滚动速度,,% when application is not in focus
+desktop_scrollspeed,Scroll speed,文件监视频率（毫秒）,,scroll speed preference
+desktop_textselectionbias,Add bias to text selection to prevent line jumping,笔记本上的文件监视频率（毫秒）,,Text selection bias
+folderwatcher_frequency,File watcher frequency (ms),启用 Steam,,File watcher frequency in milliseconds
+folderwatcher_laptopfrequency,Laptop file watcher frequency (ms),Steam Id,,File watcher frequency in milliseconds on laptops
+ggs_enable_steam,Enable steam,启用IAP沙箱,,Enable Steam
+ggs_steam_id,Steam ID,显示的图块类型,,Steam Id
+ggs_enable_iap_sandbox,Enable IAP sandbox,翻转图块,,Enable IAP Sandbox
+ggs_tile_type,Type of Tiles to display,图标块,,Type of Tiles to display
+ggs_tiles_flip,Flip tiles,循环图块,,Flip tiles
+ggs_tiles_iconic,Iconic tiles,创建新的 GUID,,Iconic tiles
+ggs_tiles_cycle,Cycle tiles,启用短路求值,,Cycle tiles
+ggs_new_guid,Create New GUID,房间更改时删除事件,,Create New GUID
+ggs_short_circuit_evaluations,Enable Short Circuit Evaluations,启用快速碰撞,,Enable Short Circuit Evaluations
+ggs_delete_event_on_room_change,Delete Event on Room Changes,每秒游戏帧数(FPS),,Delete Event on Room Changes
+ggs_use_fast_collisions,Enable Fast Collisions,游戏标识号,,Enable Fast Collisions
+ggs_game_speed,Game frames per second,游戏 GUID,,Game Frames Per Second
+ggs_game_identifier,Game Identifier,默认使用 DnD™ 代码,,Game Identifier
+ggs_game_guid,Game GUID,为单独的纹理页生成多级渐进纹理（mipmap）,,Game GUID
+ggs_isdnd,Use DnD™ as default script type,需要工作者,,Project code type
+ggs_mips_for_3d_textures,Generate mipmaps for separate texture pages,工作者:,,Generate mipmaps for separate texture pages
+TargetSelection_RequiresWorker,Requires Worker,平台:,,label for when a selected platform requires a worker
+TargetSelection_Worker,Worker:,配置:,,the list title for target selecting worker
+TargetSelection_Platform,Platform:,设备:,,the list title for target selecting platform
+TargetSelection_Config,Config:,输出:,,the list title for target selecting config
+TargetSelection_Device,Device:,测试,,the list title for target selecting device
+TargetSelection_Runtime,Output:,Windows,,the list title for target selecting runtime
+TargetSelection_Platform_Test,Test,Windows UWP,,the teset platform title in the platform selection list
+TargetSelection_Platform_Windows,Windows,Windows,DO NOT TRANSLATE,the windows platform title in the platform selection list
+TargetSelection_Platform_windowsuap,Windows UWP,macOS,DO NOT TRANSLATE,the windows uwp platform title in the platform selection list
+TargetSelection_Platform_WinPhone8,Windows Phone 8,Ubuntu,DO NOT TRANSLATE,the windows phone platform title in the platform selection list
+TargetSelection_Platform_Mac,macOS,HTML5,DO NOT TRANSLATE,the mac platform title in the platform selection list
+TargetSelection_Platform_Linux,Ubuntu,Android,DO NOT TRANSLATE,the linux platform title in the platform selection list
+TargetSelection_Platform_HTML5,HTML5,Amazon Fire,DO NOT TRANSLATE,the html5 platform title in the platform selection list
+TargetSelection_Platform_android,Android,iOS,DO NOT TRANSLATE,the android platform title in the platform selection list
+TargetSelection_Platform_AmazonFire,Amazon Fire,tvOS,DO NOT TRANSLATE,the Amazon Fire platform title in the platform selection list
+TargetSelection_Platform_ios,iOS,PlayStation 3,DO NOT TRANSLATE,the apple iOS platform title in the platform selection list
+TargetSelection_Platform_tvos,tvOS,PlayStation 4,DO NOT TRANSLATE,the apple tvOS platform title in the platform selection list
+TargetSelection_Platform_ps4,PlayStation 4,PlayStation Vita,,the ps4 platform title in the platform selection list
+TargetSelection_Platform_xboxone,Xbox One,Xbox One,DO NOT TRANSLATE,the xbox one platform title in the platform selection list
+TargetSelection_Runtime_VM,VM,虚拟机,, the VM (Virtual Machine) title in the runtime selection list
+TargetSelection_Runtime_YYC,YYC,YYC,DO NOT TRANSLATE, the yyc title in the runtime selection list
+TargetSelection_Runtime_Javascript,JavaScript,JavaScript,DO NOT TRANSLATE, the javascript title in the runtime selection list
 TargetSelection_Device_Local,Local,本地,, the local device title in the device selection list
 TargetSelection_Device_Default,Default,默认,, the default device title in the device selection list
 TargetSelection_Device_Device,Device,设备,, the 'device' device title in the device selection list
@@ -2465,6 +2527,7 @@ TargetSelection_Device_Simulator_iPhone6SPlus,Simulator - iPhone 6 Plus,模拟�
 TargetSelection_Device_Editor,Device Editor,设备编辑器,,the device editor window title
 TargetSelection_Device_Editor_Tooltop,Open Device Editor,打开设备编辑器,,the device editor button tooltip
 TargetSelection_Device_Editor_Cancel,This will lose any unapplied changes you have made - do you want to continue?,这将会丢失所有未应用的更改 - 你想要继续吗？,,Cancelling the device manager does this
+TargetSelection_Worker_Local,Local,本地,,Local worker target
 DnDModule_ToolboxWindow,Toolbox,工具箱,,The Drag and Drop™ toolbox when in a standalone window
 DnDModule_CodeOutputWindow,Equivalent Code,等价代码,,The Drag and Drop™ equivalent code window for nodes
 DnDModule_Toolbox_Title,Toolbox,工具箱,,The toolbox title when docked
@@ -2481,7 +2544,7 @@ SplashScreen_PluginLoadFailedTitle,Failed to load a required plug-in,加载所�
 SplashScreen_LaunchProjectNotFound,Project '{0}' does not exist,项目 '{0}' 不存在,,Message dialog when the program was launched with a file command argument but the file was not found
 SplashScreen_LaunchProjectInvalid,'{0}' is not a valid GameMaker Studio 2 project,'{0}' 不是有效的 GameMaker Studio 2 项目,,Message dialog when the program was launched with a file command argument of a non .yyp file
 SplashScreen_LaunchProjectFailed,Launch Project Failed,启动项目失败,,Message dialog title when the program was launched with a file command argument but it has failed
-LicensedModulesError,Your license does not have this module enabled,你的许可证中没有这个模块.,,Message Dialog for when a user tries to build/run a target their license doesn't have
+LicensedModulesError,Your licence does not have this module enabled,你的许可证中没有这个模块.,,Message Dialog for when a user tries to build/run a target their licence doesn't have
 DnD_Pref_ToolboxLocation,DnD™ toolbox default location,默认的工具栏位置是？,,DnD™ pref
 DnD_Pref_StoryMode,DnD™ node overview visibility mode,这个概述什么时候出现在节点旁边？,,DnD™ pref
 DnD_Pref_CollapseToolbox,Hide docked DnD™ toolboxes if floating DnD™ toolbox is open,如果有一个浮动工具栏,,DnD™ pref
@@ -2493,7 +2556,7 @@ DnD_Pref_RecentlyUsed,Maximum number of recently used actions to display,最近�
 DnD_Pref_ChainSmoothness,The smoothness of the chain.,连线的平滑度,,DnD™ pref
 DnD_Pref_DragTime,Mouse down time to start dragging node (ms),按住鼠标到拖动节点所需的时间(毫秒).,,DnD™ pref
 DnD_Message_Error_Prefix,ERROR:,错误:,,DnD™ message prefix
-DnD_Message_InvalidSyntaxError,"The ""{0}"" node is causing an invalid program flow. Move it to a correct location.","节点 ""{0}"" 正导致无效的程序流.请将它移动到正确的位置.",,DnD™ message syntax error
+DnD_Message_InvalidSyntaxError,The {0} node is causing an invalid program flow. Move it to a correct location.,"节点 ""{0}"" 正导致无效的程序流.请将它移动到正确的位置.",,DnD™ message syntax error
 DnD_Message_InvalidSyntaxInsertionTitle,Invalid Insertion,无效插入,,DnD™ pop up title for below message
 DnD_Message_InvalidSyntaxInsertion,Inserting {0} at this location would result in an invalid program.,在这个位置插入 {0} 将会导致程序无效.,,DnD™ pop up message for invalid syntax insertion
 ggs_webserver_port,Webserver Port,Web服务器端口,,Webserver Port
@@ -2502,7 +2565,7 @@ ggs_browser_path,Path to Browser,浏览器地址,,Path to Browser to use for tes
 Views_Menu_SyntaxErrors,Syntax Errors,语法错误,,Open Syntax Errors Window
 SyntaxErrors,Syntax Errors,语法错误,,Syntax Errors
 SyntaxErrors_NoErrors,There are no syntax errors detected!,没有监测到语法错误！,,No Syntax Errors found message
-Project_DirectoryLost_Message,Project directory '{0}' is no longer available you will be unable to save progress until the directory is reconnected,项目目 '{0}' 不再可用,,message box contents when the project directory has been unavailable for a few minutes
+Project_DirectoryLost_Message,Project directory '{0}' is no longer available you will be unable to save progress until the directory is reconnected,项目目录'{0}'不再可用，在该目录重连之前您都无法保存进度,,message box contents when the project directory has been unavailable for a few minutes
 Project_DirectoryLost_Title,Project Directory Unavailable,项目目录不可用,,message box title when the project directory has been unavailable for a few minutes
 Project_InheritedDirectoryLost_Message,Base project directory '{0}' is no longer available you will not receive notifications for changes,基础项目目录 '{0}' 不可用,,message box contents when the project directory has been unavailable for a few minutes
 Project_InheritedDirectoryLost_Title,Base Project Directory Unavailable,基础项目目录不可用,,message box title when the inherited project directory has been unavailable for a few minutes
@@ -2563,7 +2626,7 @@ android_keystorepath,Path to Keystore,密钥库的路径,,Path to Keystore
 android_keystore_warning1,IMPORTANT! Backup keystore files and info above!,重要！备份上面的密钥文件和信息！,,IMPORTANT! Backup keystore files and info above!
 android_keystore_warning2,"If lost, you cannot submit app updates to Google Play or Amazon",如果失败，您将无法向Google Play或Amazon Fire提交应用更新,,If lost you cannot submit app updates to Google Play or Amazon
 android_package_name_invalid_title,Package name is invalid,包名不合法,,Android package name is invalid
-android_package_name_invalid,Individual package name parts may only start with a letter,独立包名部分只能以字母打头,,Android package name is invalid message and why
+android_package_name_invalid,Individual package name parts may only start with a letter and cannot be a reserved Java keyword,独立包名部分只能以字母打头,,Android package name is invalid message and why
 clearoutputwindowoncompile,Clear output window on compile start,编译开始时清空输出窗口,,Option to clear the output window on each compile
 openpackagesinexplorer,Show package in ${explorer} on build completion,创建包后在资源管理器窗口中高亮显示.,,Setting in Preferences General Compiling
 Build_StopBeforeRun,Stop the current running project before running again?,再次运行前是否停止当前运行的项目？,,Stop the current running project before running again?
@@ -2574,16 +2637,21 @@ Build_AndroidNDK_NotFound,The path to the Android NDK cannot be found. Please en
 Build_AndroidJDK_NotFound,The path to the Java JDK cannot be found. Please ensure it is set correctly,路径下无法找到Java JDK.请确认它被正确的设置.,,The path to the Java JDK is wrong
 Build_Android_NoArchs,No Architectures have been specified in the Android Options,在Android选项中没有指定架构,,No Architectures were selected in the Android options
 Build_Android_NoKeystore,No Keystore has been set in the Android Preferences,在Android首选项中没有设置密钥库,,No Keystore has been set in the Android Preferences
-Build_AmazonFire_NoKeystore,No Keystore has been set in the Amazon Fire Preferences,,,No Keystore has been set in the Amazon Fire Preferences
+Build_AmazonFire_NoKeystore,No Keystore has been set in the Amazon Fire Preferences,"Changes detected in base project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files",,No Keystore has been set in the Amazon Fire Preferences
 Layer_Depth,Depth,深度,,the layer depth property caption
 stopbeforerun,Automatic response to restarting a running build,重新运行生成项时的默认处理,,Automatic choice for stopping a current running build before running again.
 maxparalleljobscompiling,Maximum parallel compile jobs,编译时使用最大的并行数。,,Maximum amount of jobs to use when compiling
 debugyycwarning,Automatic response to warning when attempting to debug YYC,当使用 YYC 调试时警告,,Preference to turn off the dialog warning the user that this run action will be completed in the VM not YYC
 UseDefaultLicenseAgreement,Use Default License Agreement,使用默认许可协议,,Use Default License Agreement
 UseDefaultNSISScript,Use Default NSIS Script,使用默认 NSIS 安装脚本,,Use Default NSIS Script
-ObjectEditor_DefaultCodeComment,/// @description Insert description here\n// You can write your code in this editor,/// @description 在这里插入描述\n// 你可以在此编辑器中写入代码,,Object editor module default text for new events
+ObjectEditor_DefaultCodeComment,/// @description Insert description here\n// You can write your code in this editor,/// @description 在这里插入描述\n// 你可以在此编辑器中写入代码,Do not translate @description and leave in /// and // at the start of each line,Object editor module default text for new events
 ObjectEditor_DefaultEventComment,Default event content,默认事件内容,,Default Code Event Comment to use
 ObjectEditor_ShowDefaultHelpPref,Add default event content,是否默认在新的事件中显示默认帮助注释？,,Object editor module default text preference
+ObjectEditor_InheritedEventAlpha,Inherited Events Alpha,继承事件Alpha,,object editor ghosted events alpha setting
+ObjectEditor_EventFormatPref,Event label format (unchecked items are shown in the tooltip),事件标签格式（未勾选项会在工具提示中显示）,,event label format preference title
+EventLabelFormat_Name,Event Name,时间名,,event label format name item
+EventLabelFormat_Description,Event Description,事件描述,,event label format description item
+EventLabelFormat_ParentObject,Parent Object,父物体,,event label format parent object item
 DnD_ReservedTagName,The tag name {0} is reserved and cannot be used.,标签名 {0} 是预留的且不能使用.,,DnDGadget reserved tag name warning
 DnD_ReservedTagName_Title,Reserved Tag Name,预留的标签名称,,DnDGadget reserved tag name warning message title
 Room_InvalidDepthsImportedLog,Imported layer depths for room(s) '{0}' were not adequately spaced. Unless updated this will have undefined results in game.,没有足够空间容纳导入到房间 '{0}' 的层深度，请更改深度，否则将会在游戏中引发未定义的结果。,,conversion log message where layer depths are invalid and have not been adjusted
@@ -2626,7 +2694,8 @@ keystore_invalid_country,Invalid characters in country,国家中有无效字符,
 keystore_small_pass,Password must be longer than 5 characters,密码必须超过5个字符,,Password must be longer than 5 characters
 keystore_jdk_error,JDK not installed correctly at location entered in Android Platform Settings,安卓平台设置中JDK安装位置不正确,,JDK install error
 keystore_show_error,Could not process Keystore; may be corrupt or have incorrect password,无法生成Keystore，可能被中途打断或密码不正确,,Keystore error during processing
-keystore_small_alias,Alias must be longer than 5 characters,别名必须超过5个字符,,Alias must be longer than 5 characters
+keystore_small_alias,Alias password must be longer than 5 characters,别名必须超过5个字符,,Alias password must be longer than 5 characters
+keystore_invalid_alias_password,Invalid characters in alias password,别名密码中存在非法字符,,Invalid characters in alias password
 GMXTextureGroup_BadId,The Texture Group for sprite '{0}' is invalid - setting to Default Texture Group instead,精灵纹理组 '{0}' 无效 - 使用默认纹理组代替,,Error message on importing that a sprite texture group is wrong
 ggs_enable_flurry,Enable Flurry Analytics,开启 Flurry 分析,,Enable Flurry Analytics
 ggs_enable_google_analytics,Enable Google Analytics,开启谷歌分析,,Enable Google Analytics
@@ -2770,6 +2839,8 @@ IDE_OpenProject_NotExists_Title,Invalid Project,无效项目,,Title for IDE_Open
 SpriteEditor_InvalidFileFormat,The file(s) you attempted to load are not supported by the sprite editor.,您尝试载入的文件不被精灵编辑器支持.,,Sprite editor invalid file format dropped
 ImageEditor_InvalidFileFormat,The file(s) you attempted to load are not supported by the image editor.,您尝试载入的文件不被图像编辑器支持.,,Image editor invalid file format dropped
 SpriteEditor_InvalidFileFormat_Title,Invalid File Format,文件格式无效,,Invalid file format dialog title
+ImageEditor_InvalidFileSingle,The file that you tried to import is not supported in this editor.,您尝试导入的文件并不被该编辑器所支持,,image invalid file format dropped
+ImageEditor_InvalidFileGroup,One or more of the files that you tried to import is not supported in this editor.,你所尝试导入的一个或多个文件并不被该编辑器所支持,,image invalid file format multiple dropped
 steam_sdk_path,Steam SDK location,Steam SDK路径,,Path to Steam SDK
 ColourPicker_Title,Colour Picker,取色器,,Title for Colour Picker
 ColourPicker_Red,Red,红,,Red Colour Picker Channel
@@ -2843,12 +2914,12 @@ YoYoImage_BmpRleNotSupported,Runlength encoded not supported for .bmp formatted 
 PhysicsShapeEditor_Radius,Radius {0},半径 {0},,Physics shape editor circle radius
 IMPORT_FAILED_UNKNOWN_FILETYPE,Cannot import incompatible resource: {0} (unknown file type),无法导入不兼容的资源: {0} （未知文件类型）,,Add Existing failed
 IMPORT_FAILED_DISALLOWED_FILETYPE,Cannot add existing {0} resources,不能添加现有的 {0} 资源,,Add Existing failed due to disallowed resources
-platformdevice_android_title,Android Devices,Android设备,,"Title for window that says ""No devices detected"""
+platformdevice_android_title,Android Devices,Android设备,,Title for window that says No devices detected
 platformdevice_androidsettings_title,Android Settings Error,Android设置错误,,Error in Android Settings
 platformdevice_androidsettings_sdk_misconfigured,The Android SDK path is misconfigured,Android SDK 路径配置错误,,The Android SDK path is misconfigured
-platformdevice_amazonfire_title,Amazon Fire Devices,Amazon Fire设备,,"Title for the window that says ""No devices detected"""
+platformdevice_amazonfire_title,Amazon Fire Devices,Amazon Fire设备,,Title for the window that says No devices detected
 platformdevice_amazonfiresettings_title,Amazon Fire Settings Error,Amazon Fire设置错误,,Error in Amazon Fire Settings
-platformdevice_amazonfiresettings_sdk_misconfigured,The Amazon Fire Android SDK path is misconfigured,,,The Amazon Fire Android SDK path is misconfigured
+platformdevice_amazonfiresettings_sdk_misconfigured,The Amazon Fire Android SDK path is misconfigured,Custom Colours:,,The Amazon Fire Android SDK path is misconfigured
 SourceControlGit_PullError_Title,Source Control (Git) Pull Error,源码控制 (Git) 拉取错误,,Source Control (Git) Pull Error
 SourceControlGit_NeedToCommitChanges,You need to commit changes before pulling.,在拉取之前你需要提交更改.,,You need to commit your changes before pulling
 skin_selection_change,You have selected to use a new skin but this change requires a restart.\nDo you wish to restart the IDE now?,你选择使用一个新皮肤,,User has changed the skin and we need to restart the IDE.
@@ -2960,7 +3031,6 @@ Survey_Rating_1,Terrible,很差,,Really Bad Rating
 Survey_Rating_0,Not Applicable,不适用,,Rating Not Applicable
 Surveys_OptIn,Opt-in to feedback surveys,选择性反馈调查,,feedback survey opt-in checkbox text
 Notifications_Hub,Notification Hub,通知中心,,Notification Hub string
-stats_trial,Statistics cannot be turned off in GameMaker Studio 2 Trial,只有付费用户可以关闭统计,,Trial stats tooltip on checkbox
 SoundMixer_ToolTip_AddGroup,Add sound group,添加音频组,,Sound mixer tool tip for adding a sound group to the mixer
 SoundMixer_ToolTip_CloseGroup,Close sound group,关闭音频组,,Sound mixer tool tip for adding a sound group to the mixer
 SoundMixer_ToolTip_SoundGroup,Sound group,音频组,,Sound mixer tool tip for the sound group
@@ -3015,13 +3085,30 @@ RoomEditor_PathLayerStatus,Selected control point(s): {0},所选控制点:{0},,t
 RoomEditor_PathLayerPointStatus,"({0}, {1}),","({0}, {1}),",,the an individual control point status for the path layer shown in the room editor status bar
 ListBoxEnum_eAnimSpeedType_FramesPerSecond,Frames per second,帧每秒(FPS),,the playback type comboxbox entry for fps
 ListBoxEnum_eAnimSpeedType_FramesPerGameFrame,Frames per game frame,帧每游戏帧,,the playback type comboxbox entry for game frame locked playback
+ListBoxEnum_eObjectPropertyType_Real,Real,实数,,Real value type
+ListBoxEnum_eObjectPropertyType_Integer,Integer,整数,,Integer value type
+ListBoxEnum_eObjectPropertyType_String,String,字符串,,String value type
+ListBoxEnum_eObjectPropertyType_Boolean,Boolean,布尔值,,Boolean value type
+ListBoxEnum_eObjectPropertyType_Expression,Expression,表达式,,Expression value type
+ListBoxEnum_eObjectPropertyType_Resource,Resource,资源,,Resource value type
+ListBoxEnum_eObjectPropertyType_Color,Colour,颜色,,Color value type
+ListBoxEnum_eObjectPropertyType_List,List,列表,,List value type
+ResourcePickerButton_ToolTip,Select a resource,选择一个资源,,Resource picker button tooltip
+Help_eObjectPropertyType_Real,The value is a real number and accepts decimal places (allows expressions),该值是一个实数并接受小数位（允许表达式）,,Real value type help tip
+Help_eObjectPropertyType_Integer,The value is a whole number (allows expressions),该值是一个整数（允许表达式）,,Integer value type help tip
+Help_eObjectPropertyType_String,The value is a string (quotes are optional),该值是一个字符串（引号可省略）,,String value type help tip
+Help_eObjectPropertyType_Boolean,The value is either true or false,该值为true或false,,Boolean value type help tip
+Help_eObjectPropertyType_Expression,The value is any code expression,该值是任意一个代码表达式,,Expression value type help tip
+Help_eObjectPropertyType_Resource,The value is a resource (allows expressions),该值是一个资源（允许表达式）,,Resource value type help tip
+Help_eObjectPropertyType_Color,The value is a colour (allows expressions),该值是一个颜色（允许表达式）,,Color value type help tip
+Help_eObjectPropertyType_List,The value is one or more expressions from a list (if multi-select is on then\nthis is an array of expressions),该值是列表的一个或多个表达式,,List value type help tip
 DnDToolbox_Menu_AddToWorkspace,Use {0},使用 {0},,DnD™ Toolbox use action
 DnDToolbox_Menu_CollapseAll,Collapse All,全部折叠,,DnD toolbox collapse all
 DnDToolbox_Menu_Favorite,Make Favourite,设置最喜爱,,DnD™ Toolbox make favourite
 DnDToolbox_Menu_RemoveFav,Remove Favourite,删除最喜爱,,DnD™ Toolbox remove favourite
 DnDToolbox_Menu_ClearRecentlyUsed,Clear Recently Used,清除最近使用,,DnD™ Toolbox clear recently used
 DnDToolbox_Menu_ClearFavs,Clear Favourites,清除最喜爱,,DnD™ Toolbox clear favourites
-SourceControlGit_FileLock,One or more files are locked. Please check that none of the files are open in external programs. Do you want to try again?,一个或多个文件被锁定.请检查没有文件是通过外部程序打开的.你想要重试吗？,,Files locked and need to try again
+SourceControlGit_FileLock,One or more files may be locked. Please check that none of the files are open in external programs. Do you want to try again?,一个或多个文件被锁定.请检查没有文件是通过外部程序打开的.你想要重试吗？,,Files potentially locked and need to try again
 SourceControlGit_Error,Source Control (Git) Error,源控制 (Git) 错误,,Error with Source Control (Git)
 SourceControlGit_ProjectBreakRetry,"Be aware that this may have broken your project, as the command was not successful and you have chosen not to retry it.",请注意这可能已经破坏了你的项目,,Project may be broken warning due to command failing and choosing not to retry
 SourceControlGit_ServerNotFound,Server '{0}' has not been found,未找到服务器 '{0}',,Server has not been found error
@@ -3228,9 +3315,9 @@ GMStdDrawInstanceHealth_Desc,Draw an instance's health with a healthbar.,绘制�
 GMStdDrawInstanceLives_Name,Draw Instance Lives,绘制实例生命数,,Drag and Drop™ library action name
 GMStdDrawInstanceLives_Desc,Draw an instance's lives with stacked sprites.,用一组堆叠精灵绘制实例的生命数,,Drag and Drop™ library action description
 GMStdSetColor_Name,Set Draw Colour,设置绘制颜色,,Drag and Drop™ library action name
-GMStdSetColor_Desc,Set the color to blend all drawing with.,设置用于之后所有绘制所混合的颜色。,,Drag and Drop™ library action description
+GMStdSetColor_Desc,Set the colour to blend all drawing with.,设置用于之后所有绘制所混合的颜色。,,Drag and Drop™ library action description
 GMStdGetColor_Name,Get Draw Colour,获取绘制颜色,,Drag and Drop™ library action name
-GMStdGetColor_Desc,Get the color used to blend all drawing with.,获取当前用于混合绘制的颜色。,,Drag and Drop™ library action description
+GMStdGetColor_Desc,Get the colour used to blend all drawing with.,获取当前用于混合绘制的颜色。,,Drag and Drop™ library action description
 GMStdSetFont_Name,Set Font,设置字体,,Drag and Drop™ library action name
 GMStdSetFont_Desc,Set the font to use for all text drawing.,设置用于之后所有文本绘制的字体,,Drag and Drop™ library action description
 GMStdSetAlignment_Name,Set Text Alignment,设置文本对齐,,Drag and Drop™ library action name
@@ -3455,7 +3542,7 @@ GMStdRefreshParticles_Desc,"Update the particle system, advancing it another ste
 GMStdPartTypeCreate_Name,Create Particle Type,创建粒子类型,,Drag and Drop™ library action name
 GMStdPartTypeCreate_Desc,Create a new particle type.,创建一个新的粒子类型,,Drag and Drop™ library action description
 GMStdPartTypeColor_Name,Set Particle Colour,设置粒子颜色,,Drag and Drop™ library action name
-GMStdPartTypeColor_Desc,Set the color of a particle type.,设置一个粒子类型的颜色,,Drag and Drop™ library action description
+GMStdPartTypeColor_Desc,Set the colour of a particle type.,设置一个粒子类型的颜色,,Drag and Drop™ library action description
 GMStdPartTypeLife_Name,Set Particle Life,设置粒子生命周期,,Drag and Drop™ library action name
 GMStdPartTypeLife_Desc,Set the life of a particle type.,设置一个粒子类型的生命周期,,Drag and Drop™ library action description
 GMStdPartTypeGravity_Name,Set Particle Gravity,设置粒子重力,,Drag and Drop™ library action name
@@ -3506,8 +3593,8 @@ GMStdRight,Right,右部,,Drag and Drop™ library argument label
 GMStdBottom,Bottom,底部,,Drag and Drop™ library argument label
 GMStdFill,Fill,填充,,Drag and Drop™ library argument label
 GMStdBackground,Background,背景,,Drag and Drop™ library argument label
-GMStdMinCol,Min Color,最小颜色,,Drag and Drop™ library argument label
-GMStdMaxCol,Max Color,最大颜色,,Drag and Drop™ library argument label
+GMStdMinCol,Min Colour,最小颜色,,Drag and Drop™ library argument label
+GMStdMaxCol,Max Colour,最大颜色,,Drag and Drop™ library argument label
 GMStdFont,Font,字体,,Drag and Drop™ library argument label
 GMStdHAlign,HAlign,水平对齐,,Drag and Drop™ library argument label
 GMStdVAlign,VAlign,垂直对齐,,Drag and Drop™ library argument label
@@ -3762,7 +3849,7 @@ GMStdVar_xport,Viewport X Coordinate,视口X坐标,,DnD label
 GMStdVar_yport,Viewport Y Coordinate,视口Y坐标,,DnD label
 GMStdVar_wport,Viewport Width,视口宽度,,DnD label
 GMStdVar_hport,Viewport Height,视口高度,,DnD label
-GMStdVar_surfaceid,Viewport Surface Id,视口表面 Id,,DnD label
+GMStdVar_surfaceid,Viewport Surface ID,视口表面 Id,,DnD label
 GMStdCatBuffers,Buffers,缓冲区,,DnD™
 GMStdEvent,Event,事件,,DnD™
 GMStdPerStep,Per Step,每步,,DnD™
@@ -3842,6 +3929,7 @@ ProgressBar_Export,Exporting...,导出中……,,the progress bar caption while 
 ProgressBar_Process,Processing...,处理中...,,the progress bar caption while processing
 ProgressBar_BuildProgress,Building... {0},构建中…… {0},,The progress bar caption while compiling
 ProgressBar_SpritePreview,Sprite Preview...,精灵预览...,,The progress bar caption while generating sprite preview
+ProgressBar_Archiving,Archiving...,归档中……,,Compressing to a .zip/.yyz/etc...
 TileSetEditor_SpriteNoExport,Disable Source Sprite Export,禁止源精灵导出,,checkbox caption to disable the export on the source sprite
 TileSetEditor_AutoTileLibrary_Tooltip,Edit Autotiling,编辑自动图块,,autotile tooltip
 TileSetEditor_AnimationsLibrary_Tooltip,Edit Tile Animation,编辑图块动画,,animation library tooltip
@@ -3869,7 +3957,7 @@ WelcomePage_InstallingTitle,While we finish up your installation...,当我们完
 WelcomePage_WelcomeTitle,Welcome,欢迎,,title to be used if not installing.
 Welcome_ShowOnStartup,Show on startup,在启动时显示,,do not show again label
 WelcomePage_Close,Close,关闭,,close label
-WelcomePage_Page1Text,...why not check out our all new {0}'Getting Started'{1} video,...为什么不看看我们全部新的{0}'入门'{1} 视频,, {0} and {1} are used to include bold text - must be maintained in translation
+WelcomePage_Page1Text,...why not check out our all new {0}'Getting Started'{1} video,……为什么不看看我们全部新的{0}'入门'{1} 视频,, {0} and {1} are used to include bold text - must be maintained in translation
 WelcomePage_Page2Text,"Sit back, relax, and let us introduce you to some of our cool {0}'New Features'{1}",坐好，放轻松，来让我向你介绍我们酷炫的{0}“新特性”{1},, {0} and {1} are used to include bold text - must be maintained in translation
 WelcomePage_Page3Text,"{0}'Access All Areas'{1}. Find everything you need in one place. Tutorials, marketplace, support and much more",{0}“面面俱到”{1}。无需踏破铁鞋即可得来全不费功夫。教程、市场、支持……还远不止这些。,, {0} and {1} are used to include bold text - must be maintained in translation
 WelcomePage_ShowOnStartup,Show welcome screen on startup,在启动时显示欢迎页面,,preference text
@@ -3894,7 +3982,7 @@ StartPage_Web_InheritFromProject,Inherit Project,继承项目,,Start page locali
 StartPage_Web_ViewReleaseNotes,To view release notes for this and previous versions,查看此版本和之前版本的发行说明,,Start page localised web content
 StartPage_Web_RecentProjects,Recent Projects,最近的项目,,Start page localised web content
 StartPage_Web_RecentTutorials,Recent Tutorials,最近的教程,,Start page localised web content
-StartPage_Web_Licenses,Licenses,许可证,,Start page localised web content
+StartPage_Web_Licenses,Licences,许可证,,Start page localised web content
 StartPage_Web_ReleaseNotes,Release Notes,发行说明,,Start page localised web content
 StartPage_Web_OwnedTutorials,Owned,已拥有,,Start page localised web content
 StartPage_Web_FilterByInstalled,Filter by installed,按已安装过滤,,Start page localised web content
@@ -3999,7 +4087,8 @@ room_frozenitemchoice,Automatic response to item locked warning,解除项目锁�
 room_frozenlayerchoice,Automatic response to layer locked warning,解除层锁定警告,,preference acceptance or show dialog message for editing locked layers
 room_frozenownerlayerchoice,Automatic response to item owner layer locked warning,解除项所属层锁定警告,,preference acceptance or show dialog message for editing items within locked layers
 TextureAudioGroups_NoneParent,None,无,,No parent
-SettingsVertexLimit,Automatic response to exceeding physics vertex limit,超过物理顶点数量限制时显示一个消息对话框,,Settings box2d vertex limit
+SettingsVertexLimit,Automatic response to exceeding physics vertex limit,超过物理顶点数量限制时的自动回应,,Settings box2d vertex limit
+EventInherited_RequireModifierLookup,${ctrl}+MMB to open the inherited event instead of the manual.,${ctrl}+鼠标中键打开继承事件而不是帮助文档,,event_inherited lookup modifier on/off
 VertexLimitWarning,A physics shape cannot have more than 8 points.,物理形体不能超过8个点.,,Vertex limit physics warning message
 VertexLimitWarning_Title,Warning,警告,,Above message title
 ObjectEditor_DropParentHere,Drop here to assign parent,拖到此处以分配父级,,Drop message for object parent
@@ -4127,7 +4216,7 @@ Debugger_Buffer_float64,64-bit Floating Point,64位浮点数,,Buffer view type
 Debugger_Buffer_hex,Hex,十六进制,,Buffer view type
 Debugger_Buffer_signed,Signed,有符号,,Buffer view type
 Debugger_Buffer_unsigned,Unsigned,无符号,,Buffer view type
-Debugger_Buffer_Id,Buffer Id,缓冲区ID,,Buffer id label
+Debugger_Buffer_Id,Buffer ID,缓冲区ID,,Buffer id label
 Debugger_Buffer_Columns,Columns,列,,Buffer columns label
 Debugger_Buffer_Type,Type: {0},类型： {0},,Buffer type label
 Debugger_Buffer_Size,Size: {0},大小：{0},,Buffer size label
@@ -4158,16 +4247,17 @@ Debugger_Graph_MemAvg,Mem Avg {0},内存平均使用量 {0},,Debugger graph aver
 Debugger_ViewAs,View As...,视为……,,watch contect menu view as
 Debugger_DeleteWatch,Delete Watch,删除监视变量,,watch contect menu delete watch
 Debugger_ClearWatches,Clear All,清空全部,,watch contect menu delete all watches
+Debugger_AddWatch,Add Watch,添加监视变量,,debugger context menu add watch
 Debugger_Profiler_Start,Start Profiling,开始分析,,debugger start profiling
 Debugger_Profiler_Stop,Stop Profiling,停止分析,,debugger start profiling
 Debugger_Profiler_Running,Profiling...,分析中……,,debugger profiling
 Debugger_Profiler_Averages,Average Values,平均值,,Debugger show average values
-Debugger_Profiler_Averages_Tooltip,Tick this to display all values as averages.\nUntick it to display accumulated values.,Tick this to display all values as averages.\nUntick it to display accumulated values.,,Debugger averages tooltip
+Debugger_Profiler_Averages_Tooltip,Tick this to display all values as averages.\nUntick it to display accumulated values.,勾选该项将显示所有值的平均值\n解除该项显示累计值。,,Debugger averages tooltip
 Debugger_DataGrid_CallCount,Call Count,调用次数,,Debugger call count
 Debugger_DataGrid_Time,Time (Ms),时间（毫秒）,,Debugger time count
 Debugger_DataGrid_Step,Step %,Step %,,Debugger step % column
 Debugger_Graph_Help,This graph shows frames per second and memory usage over time.\nHold Control and scroll to expand and contract the graph.,该图线显示帧秒速率（FPS）及随时间的内存使用量。\n按住Ctrl并滚动滑轮可以伸展或收缩图线。,,Debugger graph help icon
-Debugger_Graph_Help_Mac,This graph shows frames per second and memory usage over time.\nHold ? and scroll to expand and contract the graph.,该图线显示帧秒速率（FPS）及随时间的内存使用量。\n按住?并滚动滑轮可以伸展或收缩图线。,,Debugger graph help icon
+Debugger_Graph_Help_Mac,This graph shows frames per second and memory usage over time.\nHold ⌘ and scroll to expand and contract the graph.,该图线显示帧秒速率（FPS）及随时间的内存使用量。\n按住?并滚动滑轮可以伸展或收缩图线。,,Debugger graph help icon
 Debugger_FailedToEvaluate,Failed to evaluate expression,表达式求值失败,,Debugger failed to evaluate expression
 Debugger_Connection_Active,Active connection to game,与游戏的活动连接,,Debugger active connection
 Debugger_Connection_Pending,Connecting to game...,正在连接到游戏……,,Debugger pending connection
@@ -4177,6 +4267,20 @@ Debugger_GraphView_Tags_WindowTitle,Debug Events - Tick {0},调试事件 - Tick 
 Debugger_IPDialog_Title,Device IP Required,请提供设备IP,,Debugger IP Address dialog title
 Debugger_IPDialog_Message,Target Device IP is required to connect the debugger,需要提供连接到调试器的目标设备IP,,Debugger IP Address dialog message
 Debugger_IPDialog_Button,Open Device Settings,打开设备设置,,Debugger IP Address button caption
+Debugger_AttachToProgramDialog_Title,Enter Debugger Connection String,输入调试连接字符串,,Debugger Connection dialog title
+Debugger_AttachToProgramDialog_Message,Debugger Connection String,调试连接字符串,,Debugger Connection String
+Debugger_AttachToProgramDialog_Button,Connect,连接,,Debugger Attach to Program button caption
+Debugger_AttachToProgram_YYDebugFile,.yydebug File,.yydebug文件,,yydebug file caption
+Debugger_AttachToProgram_YYDebugFile_Tooltip,The location of the yydebug file for the program to connect to,程序要连接的yydebug文件位置,,yydebug file location tooltop
+Debugger_AttachToProgram_YYDebugFile_Extension,yydebug,yydebug,,yydebug file extension
+Debugger_AttachToProgram_Host,Name/IP,名称/IP,,hostname or IP of machine the program is running on
+Debugger_AttachToProgram_Host_Tooltip,The host name or IP address the program is running on,运行程序的主机名或IP地址,,Tool tip for Name/IP
+Debugger_AttachToProgram_Port,Port,端口,,Port the debugger is listening on
+Debugger_AttachToProgram_Port_Tooltip,The port the debugger should connect to,调试器应该连接的端口,,Port the debugger should connect on tooltip
+Debugger_AttachToProgram_Error_Title,Error,错误,,Title for the error dialog shown when the attach to program dialog is filled out incorrectly
+Debugger_AttachToProgram_Error_YYDebugFile,Cannot find yydebug file specified.  Cancelling debugger connection.,找不到指定yydebug文件，终止调试连接,,Error shown when the yydebug file is not correct
+Debugger_AttachToProgram_Error_Host,Name/IP is invalid.  Cancelling debugger connection.,名称/IP无效，终止调试连接,,Error shown when the IP/Name is not correct
+Debugger_AttachToProgram_Error_Port,Port is invalid.  Cancelling debugger connection.,端口无效。终止调试连接,,Error shown when the port number is invalid
 Debugger_Watches_AddNewWatch,Add new watch...,添加新的监视内容,,Watches add new text
 Debugger_OnlyAvailableWindows,Only available with Windows target,只在Windows目标上可用,,selected instance windows only message
 Debugger_CloseMessage_NoGame,This will close the debugger and permanently discard all collected data.,这会关闭调试器并永久丢弃所有已收集的数据This will close the debugger and permanently discard all collected data.,,Close debugger without a running game
@@ -4185,6 +4289,10 @@ Debugger_Pref_AutomaticCloseChoice,Automatic response to closing the debugger,�
 Debugger_CodeError,Code Error,代码错误,,debugger code error dialog title
 Debugger_FetchingTextures,Fetching images...,正在取得图像……,,debugger texture image fetch label
 Debugger_RefreshTextures_Tooltip,Load texture/surface images from the target,从目标载入表面/纹理图像,,debugger texture refresh button tooltip
+Textview_Title,Text Viewer,文本查看器,,text view window title
+Textview_Expression,Expression:,表达式：,,text viewer expression label
+Textview_Value,Value:,值：,,text viewer value label
+Textview_Wrap,Wrap,Wrap,,wrap checkbox label
 Help_BufferId,The buffer id is an integer value starting at zero and increments when a new buffer is created.\nView the contents of the buffer with a given id.,"缓冲区id是一个从零开始的整数值,在创建新的缓冲区时递增.\n使用给定的id查看缓冲区的内容.",,Help tip
 Help_eProfileFilterType_eGML,"Show only samples for my code, excluding the underlying engine code.","只显示代码的样本,不包括底层引擎代码.",,Help tip
 Help_eProfileFilterType_eEngine,"Show only samples for the underlying engine code, excluding my code.","只显示底层引擎代码的样本,不包括我编写的代码.",,Help tip
@@ -4255,7 +4363,7 @@ PlatformImage_GenerationType,Generation Mode,生成模式,,combobox caption for 
 ListBoxEnum_eImageGenerationType_KeepAspectRatio,Keep Aspect Ratio,保持长宽比例,,image generation type keep aspect ratio option
 ListBoxEnum_eImageGenerationType_CropToFit,Crop To Fit,裁剪以适应,,image generation type keep aspect ratio by cropping option
 ggs_use_facebook_extension,"In order to use this functionality, you will need to have the Facebook Extension installed.\nWould you like to download it now from the Marketplace?",欲使用该功能，你需要安装Facebook扩展。\n你想马上通过市场下载吗？,,Facebook extension not installed need to download it
-ggs_use_googleplayservices_extension,"In order to use this functionality, you will need to have the Google Play Services Extension installed.\nWould you like to download it now from the Marketplace?",欲使用该功能你需要安装Google Play服务扩展。\n你想马上通过市场下载吗？,,Google Play Services extension not installed and need to download it
+ggs_use_googleplayservices_extension,"In order to use this functionality, you will need to have the Google Play Services Extension installed.\nWould you like to download it now?",欲使用该功能你需要安装Google Play服务扩展。\n你想马上通过市场下载吗？,,Google Play Services extension not installed and need to download it
 ggs_use_amazonapi_extension,"In order to use this functionality, you will need to have the Amazon API Extension installed.\nWould you like to download it now from the Marketplace?",欲使用该功能，你需要安装Amazon API扩展。\n你想马上通过市场下载吗？,,Amazon API extension not installed and need to download it
 ggs_use_google_apkexpansion_extension,"In order to use this functionality, you will need to have the Google Play APK Expansion Extension installed.\nWould you like to download it now from the Marketplace?",欲使用该功能，你需要安装Google Play APK展开服务扩展。\n你想马上通过市场下载吗？,,Google Play APK Expansion extension not installed and need to download it
 ggs_use_google_licensing_extension,"In order to use this functionality, you will need to have the Google Play Licensing Expansion Extension installed.\nWould you like to download it now from the Marketplace?",欲使用该功能，你需要安装Google Play许可认证服务扩展。\n你想马上通过市场下载吗？,,Google Play APK Expansion extension not installed and need to download it
@@ -4297,15 +4405,16 @@ Marketplace_MyLibrary_Empty,Your library is empty.,你的库是空的.,,Empty li
 Marketplace_MyLibrary_ClickToBrowse,Click here to browse the marketplace.,单击此处以浏览市场.,,Click to browse marketplace
 StartPage_Offline,This link cannot be opened as you are currently offline.,由于您目前离线，无法打开该链接,,User is offline and trying to open an external url
 debuggerporttouse,Debugger port,调试器使用的端口,,Port for Debugger to use label in Settings
+debuggershoweventicons,Show event icons in Debugger Resource View,调试资源视图中显示事件图标,,debugger show event icons pref
 realtimedebugging,Enable real-time debugging,启用实时调试,,Enable real-time debugging label in Settings
 syntaxcheckingdelay,Syntax Checking delay (ms),语法检查延迟 （毫秒）,,Syntax Checking delay (ms) setting label
 codecompletiondelay,Code Completion delay (ms),代码补全延迟 （毫秒）,,Code Completion delay (ms) setting label
 ggs_draw_colour,Default draw colour,默认绘制颜色,,the option for the default draw colour
 defaultprojectdrawcolour_description,Initial default draw colour for new projects,新项目的初始默认绘制颜色,,the preference for setting the default draw colour option on project creation
 macroeditor_title,IDE Environment Variables,IDE环境变量,,MacroEditor title
-DnDModule_LivePreview_Text,Preview (Read-Only),预览 （只读）,,DnD module live preview top comment text
+DnDModule_LivePreview_Text,Preview (Read-Only),预览（只读）,,DnD module live preview top comment text
 No_Resources_To_Add,No resources to add,没有要添加的资源,,Add from Default View status message
-FreeVersion_ProjectInvalid,The project '{0}' cannot be loaded with GameMaker Studio 2 Trial,试用版许可证下,,Error message when the user tries to load a project that exceeds free limits
+FreeVersion_ProjectInvalid,The project '{0}' cannot be loaded with GameMaker Studio 2 Trial,试用版许可下无法载入项目'{0}',,Error message when the user tries to load a project that exceeds free limits
 FreeVersion_ResourceLimitReached,You have reached the limits of GameMaker Studio 2 Trial for '{0}'.,你已经达到'{0}'试用版许可证的限制条件,,Error message when the user tries to create more resources than the Trial version allows
 FreeVersion_SpineNotSupported,Spine files are not supported in GameMaker Studio 2 Trial,GameMaker Studio 2的试用版不支持Spine文件。,,Spine files are not supported in the Trial version of GameMaker Studio 2 error message
 FreeVersion_SWFNotSupported,SWF files are not supported in GameMaker Studio 2 Trial,GameMaker Studio 2的试用版不支持SWF文件。,,SWF files are not supported in the Trial version of GameMaker Studio 2 error message
@@ -4338,6 +4447,8 @@ desktop_ctrlmousewheelzoom,Mouse wheel zoom requires ${ctrl} key,必须按下Ctr
 dpi_setting_change,DPI override changes requires a restart of the IDE. Do you want to restart now?,DPI 改写的变动需要重新启动 IDE是否要马上重启？,,Restart IDE after a DPI change
 dpi_override,Enable DPI override,启用DPI改写,,DPI Override
 ggs_allow_game_statistics,Allow anonymous game statistics,允许匿名游戏统计,,Allow anonymous game statistics
+LicenceExcluded_ggs_allow_game_statistics,Statistics cannot be turned off on 'Creator' platforms,在“创意者”平台下无法关闭统计,Do not localise 'Creator' it's a product name,Trial stats tooltip on checkbox
+LicenceFree_ggs_allow_game_statistics,Statistics cannot be turned off in GameMaker Studio 2 Trial,在试用版下无法关闭统计,,Trial stats tooltip on checkbox
 ggs_statistics_off,Are you sure you want to turn statistics off?\n\nAnonymous statistics allow us to provide developers with info about their target audience and focus development in key areas,匿名统计使我们能够得到一个我们所需要关注目标的处理(handle),,Message when turning off anonymous statistics
 ggs_statistics_choice,Automatic response to turning off anonymous statistics,关闭匿名统计时的自动选择,,Confirm dialog option
 ResourceTree_DataFileAlreadyExists,Included file '{0}' already exists.\nOperation cancelled.,项目内含文件 '{0}' 已经存在.\n操作被取消.,,Warn the user that an included file already exists and therefore the operation has been cancelled
@@ -4368,7 +4479,7 @@ RoomEditor_InstanceLockToolTip,Lock Instance,锁定实例,,tooltip for instance 
 RoomEditor_GraphicLockToolTip,Lock Graphic,锁定图形,,tooltip for graphic lock
 FontEditor_ReplacementGlyphError,Using symbols not found in font (?),使用这个字体没有的字符 (?),,Font glyph error
 FontEditor_ReplacementGlyphError_Tooltip,This font is missing one or more symbols and will get replacements from other fonts.,这个字符缺少一个或更多的符号,,Tooltip
-Font_TooLargeTexPage,"Font """"{0}"""" packs more characters than can fit on the texture page. Some characters will not be visible.","字体 """"{0}"""" 打包了更多的字符,超出了纹理的容纳.某些字符将不可见.",,Font too large for texture page warning dialog
+Font_TooLargeTexPage,Font {0} packs more characters than can fit on the texture page. Some characters will not be visible.,"字体 """"{0}"""" 打包了更多的字符,超出了纹理的容纳.某些字符将不可见.",,Font too large for texture page warning dialog
 Event_Gesture,Gesture,手势,,Gesture event name
 Event_Gesture_Global,Global,全局,,Gesture event subtype
 Event_Gesture_Tap,Tap,点按,,Tap gesture event name
@@ -4408,7 +4519,7 @@ RemoteWorker_AddWorker,Add Worker,添加工作者,,Add Worker Dialog Title
 RemoteWorker_DeleteDialogMessage,Are you sure you wish to delete this remote?,你确定想要删除这个远程库吗？,,the message when a user tries to delete a remote
 RemoteWorker_DeleteDialogTitle,Delete Remote,删除远程库,,message title when the user wants to delete a remote
 Settings_VCVARS32,You must specifiy the full path to the VCVARS32.BAT file,你必须指定 VCVARS32.BAT 文件的完整路径,,Shown when you don't specify the vcvars32.bat file
-Error_PS4ParamEditor,PARAM.SFO editor not available on Mac.\nPlease edit on Windows and copy to {0}/options/ps4/sce_sys/PARAM.SFO,参数.SFO 编辑器不能在 Mac 上使用.\n请在 Windows 上编辑并复制到 {0}/options/ps4/sce_sys/PARAM.SFO,,Shown when trying to edit PARAM.SFO on the Mac
+Error_PS4ParamEditor,PARAM.SFO editor not available on Mac.\nPlease edit on Windows and copy to {0}/options/ps4/sce_sys/PARAM.SFO,PARAM.SFO 编辑器不能在 Mac 上使用.\n请在 Windows 上编辑并复制到 {0}/options/ps4/sce_sys/PARAM.SFO,,Shown when trying to edit PARAM.SFO on the Mac
 Error_PS4TrophyEditor,Trophy editor not available on Mac.\nPlease edit on Windows and copy to {0}/options/ps4/sce_sys/trophy/trophy00.trp, Mac 未提供 Trophy 编辑器.\n请在 Windows 上编辑并复制到 {0}/options/ps4/sce_sys/trophy/trophy00.trp,,Shown when trying to edit PS4 trophies on the Mac
 FindReplace_Title,Find and Replace,查找和替换,,Find and Replace title
 FindReplace_ToggleReplace,Toggle Replace,切换替换,,Toggle Replace Options
@@ -4436,6 +4547,7 @@ Preferences_xbone_tools_dir,Xbox One Tools location,Xbox One Tools位置,,Prefer
 Preferences_xbone_xbone_dir,Xbox One SDK location,Microsoft Xbox One位置,,Preferences/Platform Settings/Xbone
 Preferences_xbone_vs_path,Visual Studio location,Visual Studio位置,,Preferences/Platform Settings/Xbone
 ProjectLoad_BadPathTitle,Unsafe Path,非安全路径,,Bad Path message title when failing badpath check on load
+ProjectLoad_BadPathMessage,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,该项目所在位置是不安全的：{0}\n请将其保存到一个新的位置以防止进度丢失,,Project is in an unsafe location message
 ResourceTree_Search_Filters,Filters:,过滤器：,,Filter label on Resource Tree search
 ResourceTree_Search_Go,Go,转到,,Go Button Label
 ResourceTree_Search_Reset,Reset,重置,,Reset Button Label
@@ -4499,17 +4611,18 @@ ResourceTree_ExtensionsIconColour,Extensions icon colour,扩展图标颜色,,Ico
 ResourceTree_OptionsIconColour,Options icon colour,选项图标颜色,,Icon Colour for Options
 ResourceTree_ConfigsIconColour,Configurations icon colour,配置图标颜色,,Icon Colour for Configurations
 ResourceTree_NotesIconColour,Notes icon colour,便签图标颜色,,Icon Colour for Notes
-ResourceTree_NodeSelectHighlight,Node selection highlight,节点选秀红高亮色,,Node Selection Highlight colour
-ProjectLoad_BadPathMessage,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,该项目位于非安全位置：{0}\n请将其存储到新位置以防工作发生损失。,,Project is in an unsafe location message
+ResourceTree_NodeSelectHighlight,Node selection highlight,节点选择高亮色,,Node Selection Highlight colour
 recentwindows_title,Recent Windows,最近窗口,,Recently activated windows title
 Views_Menu_Recent_Windows,Recent Windows,最近窗口,,Recent activated windows menu option
 Developer_Menu_Title,Developer,开发者,,Title of the main Developer menu
 HideGameMaker_Menu_Title,Hide GameMaker Studio 2,隐藏 GameMaker Studio 2,,Hide GameMaker menu entry for Mac
 HideOthers_Menu_Title,Hide Others,隐藏其他,,Hide others menu entry for Mac
+ShowAll_Menu_Title,Show All,显示全部,,Show all windows menu entry for Mac
+BringAllToFront_Menu_Title,Bring All To Front,将全部移至前面,,Bring all windows to front menu entry for Mac
 Project_Error,Project Error,项目错误,,Error in Project
 Project_Error_No_Rooms,No rooms found - you need at least one room to run.,未找到房间 - 你至少需要一个房间来运行。,,No rooms error message
 RecentWindows_ActiveWindowsOnly,Display only currently open windows,只显示活动窗口,,Only show active windows preference
-RecentWindows_ShuffleItemsOnClick,Move focused window to top,将焦点窗口洗到顶端,,Shuffle the newly focused window to the top of the recent windows list
+RecentWindows_ShuffleItemsOnClick,Move focused window to top,将焦点窗口移到顶端,,Shuffle the newly focused window to the top of the recent windows list
 RecentWindows_MaxNumberOfItems,Maximum windows to display,显示窗口的最大数量,,Maximum number of windows to show
 RecentWindows_RemoveItem,Remove Item(s),移除项目,,Remove Items from the recent windows list
 RecentWindows_ClearAll,Clear All Items,清除所有项,,Clear All Items from the recent windows list
@@ -4524,7 +4637,7 @@ ggs_windowsuap_xbox_live_scid,Service Configuration ID,服务配置 ID,,The Serv
 Proxy_Settings,Proxy Settings,代理设置,,Proxy settings window title
 Proxy_Address,Proxy,代理,,proxy address label
 Proxy_Address_Tooltip,Proxy address and port (http://address:port),代理地址和端口(http://address:port),,proxy address tooltip
-Proxy_Address_Error,"Error proxy must using ""http://address:port"" format","错误：代理必须为""http://address:port""的格式",,proxy format error message
+Proxy_Address_Error,Error proxy must using http://address:port format,"错误：代理必须为""http://address:port""的格式",,proxy format error message
 Proxy_Error_Title,Error: Invalid proxy setting,错误：代理设置不合法,,proxy error window title
 Proxy_Username,Username,用户名,,proxy username label
 Proxy_Username_Tooltip,Proxy username,代理用户名,,proxy username tooltip
@@ -4578,19 +4691,20 @@ Graphics,Graphics,图形,,Graphics options group heading
 Images,Images,图像,,Images options group heading
 Installer,Installer,安装程序,,Installer options group heading
 Packaging,Packaging,打包,,Packaging options group heading
-Android,Android,Android,,Android preference group subheading
-HTML5,HTML5,HTML5,,HTML5 preference group subheading
-iOS,iOS,iOS,,iOS preference group subheading
-macOS,macOS,macOS,,macOS preference group subheading
-PS4,PlayStation 4,PlayStation 4,,PlayStation 4 preference group subheading
-PlayStation 4,PlayStation 4,PlayStation 4,,PlayStation 4 preference group subheading
-Steam,Steam,Steam,,Steam preference group subheading
-Windows,Windows,Windows,,Windows preference group subheading
-Windows UWP,Windows UWP,Windows UWP,,Windows UWP preference group subheading
-Xbox One,Xbox One,Xbox One,,Xbox One preference group subheading
-XBox One,Xbox One,Xbox One,,Xbox One preference group subheading
-Linux,Ubuntu,Ubuntu,,Ubuntu preference group subheading
-Xbox Live,Xbox Live,Xbox Live,,Xbox Live options group subheading
+Android,Android,Android,DO NOT TRANSLATE,Android preference group subheading
+HTML5,HTML5,HTML5,DO NOT TRANSLATE,HTML5 preference group subheading
+iOS,iOS,iOS,DO NOT TRANSLATE,iOS preference group subheading
+macOS,macOS,macOS,DO NOT TRANSLATE,macOS preference group subheading
+Mac,macOS,macOS,DO NOT TRANSLATE,macOS preference group subheading for the old version where it was called Mac
+PS4,PlayStation 4,PlayStation 4,DO NOT TRANSLATE,PlayStation 4 preference group subheading
+PlayStation 4,PlayStation 4,PlayStation 4,DO NOT TRANSLATE,PlayStation 4 preference group subheading
+Steam,Steam,Steam,DO NOT TRANSLATE,Steam preference group subheading
+Windows,Windows,Windows,DO NOT TRANSLATE,Windows preference group subheading
+Windows UWP,Windows UWP,Windows UWP,DO NOT TRANSLATE,Windows UWP preference group subheading
+Xbox One,Xbox One,Xbox One,DO NOT TRANSLATE,Xbox One preference group subheading
+XBox One,Xbox One,Xbox One,DO NOT TRANSLATE,Xbox One preference group subheading
+Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,Ubuntu preference group subheading
+Xbox Live,Xbox Live,Xbox Live,DO NOT TRANSLATE,Xbox Live options group subheading
 Dialogue Editor,Dialog Editor,对话框编辑器,,Dialog Editor preference group subheading
 Options,Options,选项,,Options preference group subheading
 Ratings,Ratings,评分,,Ratings option group subheading
@@ -4605,35 +4719,35 @@ Icons,Icons,图标,,Icons option group subheading
 Social,Social,社交,,Social option group subheading
 Facebook,Facebook,Facebook,,Facebook option group subheading
 iPhone,iPhone,iPhone,,iPhone option group subheading
-iPhone Retina,iPhone Retina,iPhone Retina,,iPhone Retina option group subheading
-iPhone 5,iPhone 5,iPhone 5,,iPhone 5 option group subheading
-iPhone 6,iPhone 6,iPhone 6,,iPhone 6 option group subheading
-iPhone 6+,iPhone 6+,iPhone 6+,,iPhone 6+ option group subheading
-iPad,iPad,iPad,,iPad option group subheading
-iPad Retina,iPad Retina,iPad Retina,,iPad Retina option group subheading
+iPhone Retina,iPhone Retina,iPhone Retina,DO NOT TRANSLATE iPhone,iPhone Retina option group subheading
+iPhone 5,iPhone 5,iPhone 5,DO NOT TRANSLATE,iPhone 5 option group subheading
+iPhone 6,iPhone 6,iPhone 6,DO NOT TRANSLATE,iPhone 6 option group subheading
+iPhone 6+,iPhone 6+,iPhone 6+,DO NOT TRANSLATE,iPhone 6+ option group subheading
+iPad,iPad,iPad,DO NOT TRANSLATE,iPad option group subheading
+iPad Retina,iPad Retina,iPad Retina,DO NOT TRANSLATE iPad,iPad Retina option group subheading
 Permissions,Permissions,权限,,Permissions option group subheading
 Architecture,Architecture,架构,,Architecture option group subheading
-Android TV,Android TV,Android TV,,Android TV option group subheading
-Google,Google,Google,,Google option group subheading
-Amazon,Amazon,Amazon,,Amazon option group subheading
+Android TV,Android TV,Android TV,DO NOT TRANSLATE,Android TV option group subheading
+Google,Google,Google,DO NOT TRANSLATE,Google option group subheading
+Amazon,Amazon,Amazon,DO NOT TRANSLATE,Amazon option group subheading
 Analytics,Analytics,Analytics,,Analytics option group subheading
-Flurry,Flurry,Flurry,,Flurry option group subheading
+Flurry,Flurry,Flurry,DO NOT TRANSLATE,Flurry option group subheading
 Logo,Logo,Logo,,Logo option group subheading
 App Store,App Store,应用商店,,App Store option group subheading
 Advanced,Advanced,高级,,Advanced option group subheading
 Misc,Misc,杂项,,Misc option group subheading
 Option_Texture_Page_Size,Texture page size,纹理页大小,,Texture Page Size option selector caption
-Option_Project_Last_Changed,Project Last Changed,,,Project Last Changed option display caption
+Option_Project_Last_Changed,Project Last Changed,Enable Xbox Live,,Project Last Changed option display caption
 Option_Project_Use_Time,Project Use Time,项目用时,,Project Use Time option display caption
 Option_Project_Start_Date,Project Start Date,项目起始日期,,Project Start Date option display caption
 Option_Project_GUID,Project GUID,项目GUID,,Project GUID option display caption 
 Option_License_Agreement,License Agreement,许可协议,,License Agreement file path option location caption
 Option_NSIS_Script,NSIS Script,NSIS脚本,,NSIS Script file path option location caption
 Pref_Visual_Studio_Path,Visual Studio Path,Visual Studio路径,,Visual Studio Path preference location caption
-ggs_share_overlay,"Share Overlay (128x128, 64x64, 256x128, 256x64)",,,Share Overlay image for playstation 4 caption
+ggs_share_overlay,"Share Overlay (128x128, 64x64, 256x128, 256x64)",Error proxy must using http://address:port format,,Share Overlay image for playstation 4 caption
 Button_Preview,Preview,预览,,Preview button caption
 Main,Main,主要,,Main option group subheading
-Run_Timer_Format,d' Days 'h' Hours 'm' Minutes 's' Seconds',d'天'h'时'm'分's'秒',,time format to display in run timer
+Run_Timer_Format,d' Days 'h' Hours 'm' Minutes 's' Seconds',d'天'h'时'm'分's'秒',"Do not change d,h,m or s as these are formatting tags",time format to display in run timer
 Device_Manager_Platform,Platform,平台,,Platform selector title for device manager
 Server,Server,服务器,,Server preference group subheading
 Console,Console,控制台,,Console preference group subheading
@@ -4713,13 +4827,14 @@ Options_PS4ToolsSetupError,PlayStation 4 Tools Missing,PlayStation 4 工具丢�
 Options_PS4ToolsSetupTrophyMessage,"Unable to find PlayStation 4 trophy editor, please update your tools directory",找不到PlayStation 4奖杯编辑器，请更新您的工具目录,,error message when failed to find the trophy editor
 Options_PS4ToolsPreference,Go to PlayStation 4 settings,前往PlayStation 4设置,,button message to take user to PS4 preferences
 Options_PS4ToolsSetupParamSFOMessage,"Unable to find PlayStation 4 param.sfo editor, please update your tools directory",无法找到PlayStation 4的param.sfo编辑器，请更新您的工具目录,,error message when failed to find the param.sfo editor
+Options_PS4ToolsSetupShareParamMessage,"Unable to find PlayStation 4 share file editor, please update your tools directory",无法找到PlayStation 4的转发文件编辑器，请更新您的工具目录,,error message when failed to find the param.sfo editor
 BreakpointManager_Script,Script: {0},脚本：{0},,breakpoint manager caption for a script
 BreakpointManager_Object,Object: {0}: {1},物体： {0}: {1},,breakpoint manager caption for an object event
 BreakpointManager_Timeline,Timeline: {0}: moment {1},时间轴：{0}: 时刻 {1},,breakpoint manager caption for a timeline moment
 BreakpointManager_RoomCode,Room Creation Code: {0},房间创建时代码：{0},,breakpoint manager caption for a room's creation code
 BreakpointManager_RoomInstance,Room Instance: {0}: {1},房间实例：{0}: {1},,breakpoint manager caption for a room instance's creation code
 BreakpointManager_UnknownEvent,Unknown event,未知事件,,breakpoint manager caption for an unknown object event
-BreakpointManager_UnknownMoment,Unknown moment,位置时刻,,breakpoint manager caption for an unknown timeline moment
+BreakpointManager_UnknownMoment,Unknown moment,未知时刻,,breakpoint manager caption for an unknown timeline moment
 BreakpointManager_Info,"{0}, line {1}","{0}, 第{1}行",,breakpoint manager caption for a breakpoint at a given line number
 SyntaxError_UnterminatedRegEx,unterminated regular expression literal,未收束正则表达式字面值,,syntax error
 SyntaxError_MalformedRef,malformed reference {0},错误的引用{0},,syntax error
@@ -4753,6 +4868,10 @@ SyntaxError_MalformedVarRef,malformed variable reference got {0},错误的变量
 SyntaxError_MultiAssignment,assignment to multi-relational-equality expression - GML does not support multiple assignments in an expression,向多个等于关系表达式赋值——GML不支持在一个表达式中进行多重赋值,,syntax error
 SyntaxError_Info,"{0} at line {1}, {2} : {3}","{0} 位于第{1}行, {2} : {3}",,"syntax error displayed to user (0 - source, 1 - line num, 2 - character num, 3 - error description)"
 CompileError_Info,{0} at line {1} : {2},{0}位于第{1}行 : {2},,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
+CompileError_ObjVar_WrongType,Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),,Object variable wrong type error
+CompileError_ObjVar_WrongTypeRoom,Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),,Object variable wrong type error in room instances
+CompileError_ObjVar,Undefined variable '{0}' referenced in {1}'s variable '{2}',Undefined variable '{0}' referenced in {1}'s variable '{2}',,Object variable undefined reference error
+CompileError_InstVar,Undefined variable '{0}' referenced in room {3} in instance {1}'s variable '{2}',Undefined variable '{0}' referenced in room {3} in instance {1}'s variable '{2}',,Instance variable undefined reference error
 CompileError_Script,Script: {0},脚本：{0},,script error
 CompileError_Object,Object: {0},物体： {0},,object event error
 CompileError_RoomCode,Creation Code in Room: {0},房间创建时代码：{0},,room creation code error
@@ -4772,7 +4891,7 @@ Notification_Runtimes,Runtimes,运行库,,notification title
 Notification_Surveys,Surveys,调查,,notification title
 Notification_Tutorials,Tutorials,教程,,notification title
 Notification_Demos,Demos,演示项目,,notification title
-ConversionLog_SteamID,"Detected a {0} Steam App Id: The Steam App ID is now in one place - Main Options, please ensure it is correct",检测到{0} Steam App Id：这个Steam App ID现在在这个地方——主要设置，请确定其正确性,,conversion log for steam app - param 0 platform (windows/mac/linux)
+ConversionLog_SteamID,"Detected a {0} Steam App ID: The Steam App ID is now in one place - Main Options, please ensure it is correct",检测到{0} Steam App Id：这个Steam App ID现在在这个地方——主要设置，请确定其正确性,,conversion log for steam app - param 0 platform (windows/mac/linux)
 ConversionLog_Windows,Windows,Windows,,conversion log windows platform
 ConversionLog_Mac,Mac,Mac,,conversion log mac platform
 ConversionLog_Linux,Linux,Linux,,conversion log linux platform
@@ -4784,6 +4903,7 @@ ConversionLog_UnknownShader,Unknown Shader Type '{0}' for shader '{1}',着色器
 ConversionLog_MacIcon,macOS icon {0} written out as 32-bit,macOS图标{0}被写出为32位,,conversion log
 ConversionLog_ExtensionError,"Error - function '{0}' in extension '{1}' has more than 4 arguments, and they are not all of the same type",错误 - 扩展'{1}'中的函数'{0}'具有4个以上的参数，而它们的类型不一致,,conversion log
 ConversionLog_ConvertingScript,Converting GML script: {0},转换GML脚本: {0},,conversion log
+ConversionLog_ConvertingEvent,Converting object event to GML script: {0},将物体事件转换为GML脚本：{0},,conversion log
 ConversionLog_DefaultInstaller,Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2,由于GameMaker Studio 2的改动，Windows NSIS 安装程序脚本被设为默认,,conversion log
 ConversionLog_ConversionException,Exception while converting {0} : {1},转换{0}时发生异常：{1},,conversion log
 ConversionLog_ConvertingOriginal,Original was,原来为,,conversion log
@@ -4800,6 +4920,8 @@ ConversionLog_ConvertedDesc,Converted description {0},已转换描述 {0},,conve
 ConversionLog_RemoveInstRef,Removing instance reference from builtin - line {0} : {1},从内建移除实例引用 - 第{0}行 : {1},,conversion log
 ConversionLog_ConvertedBuiltin,Converted builtin - line {0}: {1} -> {2},转换内建 - 第 {0} 行 : {1}→{2},,conversion log
 ConversionLog_FilenamePrefix,compatibility_report_,compatibility_report_,must be usable as a standard windows/mac filename,used to prefix the output filename
+ConversionLog_AppliesToUndefined,Skipped action {0} as it applies to <undefined>,跳过动作{0}因为被应用于<undefined>,do not localise <undefined>,conversion log when the applies to is undefined
+ConversionLog_AppliesToUndefinedIF,Skipped action(s) {0} because parent 'if' action was skipped,跳过动作{0}因为上级'if'动作被跳过,do not localise 'if',conversion log for skipping actions because if was skipped
 UserLogin_None,None State,无状态,,error message for being in login 'none' state
 UserLogin_NoneMessage,Managed to enter none state,已登录为无状态,,detailed error message for being in login 'none' state
 UserLogin_LicenceMissing,Licence file missing,证书文件丢失,,licence missing error
@@ -4809,24 +4931,28 @@ UserLogin_LicenceInvalidLocalDetail,Licence local id doesn't match expected form
 UserLogin_LicenceInvalidDetail,Licence doesn't match expected format - please login again.\nIf you keep seeing this message contact the helpdesk at account.yoyogames.com/report-bug,证书与预期格式不匹配 - 请重新登录。\n如果你还会看到这条消息请前往account.yoyogames.com/report-bug联系客服,,licence invalid error
 UserLogin_InvalidExpiryDetail,Cannot parse the expiry date,无法解析截止日期,,licence expiry error
 UserLogin_Expired,Licence has expired,证书已过期,,licence expired error
+UserLogin_ExpiredDetail,Re-login to update local licence,重新登录以更新本地许可信息,,local licence has expired and user needs to re-login to server for new licence
 UserLogin_SessionIDDetail,Session id differs,会话id不符,,session id error
 UserLogin_DeviceIDDetail,Device id differs,设备id不符,,device id error
 UserLogin_SignatureDetail,Signature is invalid,签名无效,,signature error
 UserLogin_ServerError,Error ({0}) - {1},错误({0}) - {1},,server response error
 UserLogin_Exception,Exception - {0},异常 - {0},,exception error
-UserLogin_MachineIDMismatchDetail,local Machine ID mismatch,本地机器ID不符,,machine id mismatch error
-UserLogin_MachineIDMissingDetail,local Machine ID missing,本地机器ID丢失,,machine id missing error
+UserLogin_MachineIDMismatchDetail,Local Machine ID mismatch,本地机器ID不符,,machine id mismatch error
+UserLogin_MachineIDMissingDetail,Local Machine ID missing,本地机器ID丢失,,machine id missing error
+UserLogin_LicenceNoBuildAccessDetail,Licence does not have permission to access this build,许可不允许访问该生成版本,,message when user licence is not allowed to access a particular build
 UserLogin_OfflineError,Unable to take user offline,无法让用户离线,,offline error
 UserLogin_NoConnection,Unable to login - no network connection,无法登录 - 没有网络连接,,connection error
 UserLogin_SteamError,Unable to login - failed to get a Steam session ticket,无法登录 - 没能获得Steam会话通知,,steam error
 UserLogin_ServerConnectionError,"Unable to login - server error, allowing offline",无法登录 - 服务器错误，允许离线使用,,server connection error
-UserLogin_SaveFailed,Failed to save license file {0} - result {1}({2}),无法保存证书文件 {0} - 结果值 {1}({2}),,save failed error
-UserLogin_SaveFailedNoResult,Failed to save license file {0} - no result,无法保存证书文件 {0} - 无结果值,,save failed error
+UserLogin_SaveFailed,Failed to save licence file {0} - result {1}({2}),无法保存证书文件 {0} - 结果值 {1}({2}),,save failed error
+UserLogin_SaveFailedNoResult,Failed to save licence file {0} - no result,无法保存证书文件 {0} - 无结果值,,save failed error
 UserLogin_LicenceStatus,Status: {0},状态：{0},,licence status error
+UserLogin_RestartForCustomFeed,You have a new IDE update feed available. \nWould you like to restart and check for updates?,有一个IDE更新推送可用。\n您愿意重启并查看更新吗？,,message when a user has a custom ide feed available
 SearchResult_Info,{0} at line {1}: \t{2},{0}位于第{1}行: \t{2},,search result information
 UserLogin_ManageDevices,My Account,我的帐户,,ok button caption for too many devices error
 Amazon Fire,Amazon Fire,Amazon Fire,,Amazon Fire label
 addon_amazon_apis,Amazon APIs,Amazon API,,Amazon APIs label for addon download
+addon_google_play_services,Google Play Services,Google Play服务,,Google play services label for addon download
 addon_error,Error with addon,插件错误,,Generic error with addon title
 addon_verify_failed,Addon verification failed. Please check your project and try again.,插件校验失败。请检查你的项目并重试。,,Addon verification failed
 addon_not_found,The addon could not be found on the marketplace,无法在市场上找到该插件,,Message for when the addon could not be found on the marketplace
@@ -4855,8 +4981,8 @@ amazonfire_nodevices_messages,There were no Amazon Fire devices detected.,未检
 device_manager_error,Device Manager Error,设备管理器错误,,Error message title for Device Manager
 device_manager_devicesjson_locked,The devices.json is locked.\nPlease ensure no other application is trying to read or write to this and try again.,devices.json被锁住了。\n请确保没有其他应用程序在尝试读写这个文件并重试。,,devices.json is locked and we can't access it
 platformdevice_authorisation_required,The device with serial id: {0} requires authorisation.\nPlease check the device.,序列id为：{0}的设备需要认证。\n请检查设备。,,Authorisation required on device so prompt the user to check it
-Addon_FailedPlatformCheckTitle,Addon requires additional licenses,插件要求附加许可证,,Title for the failed platform check when attempting to download an addon
-Addon_DefaultFailedPlatformCheckMessage,"Unfortunately, this addon is not available for the licenses you currently own.\nDo you want to go to your account to view your licenses?",很抱歉，这个插件不适用于您当前拥有的许可。\n您要前往您的账户来查看您的许可吗？,,Message to display by default when the platform check fails
+Addon_FailedPlatformCheckTitle,Addon requires additional licences,插件要求附加许可证,,Title for the failed platform check when attempting to download an addon
+Addon_DefaultFailedPlatformCheckMessage,"Unfortunately, this addon is not available for the licences you currently own.\nDo you want to go to your account to view your licences?",很抱歉，这个插件不适用于您当前拥有的许可。\n您要前往您的账户来查看您的许可吗？,,Message to display by default when the platform check fails
 RoomEditor_InheritLayerDepthToolTip,Inherit Layer Depth,继承层深度,,tooltip for inherit layer depth
 RoomEditor_InheritCreationOrderToolTip,Inherit Creation Order,继承创建顺序,,tooltip for inherit creation order
 RoomEditor_InheritGraphicToolTip,Inherit Graphic Properties,继承图像属性,,tooltip for inherit graphic properties
@@ -4868,6 +4994,189 @@ RoomEditor_InheritTileLayerToolTip,Inherit Tile Properties,继承图块属性,,t
 RoomEditor_InheritPathToolTip,Inherit Path Properties,继承路径属性,,tooltip for inherit path properties
 RoomEditor_InheritLayersToolTip,Inherit Layers,继承层,,tooltip for inherit layers
 Error_InvalidProjectName,The project name '{0}' contains the following unsupported characters: '{1}'.\nPlease try a different name.,项目名称'{0}'包含如下无效的字符：'{1}'。\n请尝试其他命名。.,,Error that the user has chosen a project name that won't work on Windows
+Addon_AmazonFireFailedPlatformCheckMessage,This addon requires the Amazon Fire or Mobile licences.\nDo you want to go to your account to check your availability of these?,这个插件需要AmazonFire或移动版许可。\n您要前往您的账户来查看您的许可吗？,,Message to display when the Amazon Fire addon fails the platform check
 RuntimeTarget_Error,Error with Runtime,运行库错误,,Error about the current active Runtime
 RuntimeTarget_LowerThanBaseline,The current runtime ({0}) is lower than the baseline required ({1}).\nPlease update your runtime to {1} or higher.,当前运行库 ({0})版本低于所要求的基准版本({1})。\n请将您的运行库更新为{1}或更高版本。,,Message to tell user to update their runtime
-Addon_AmazonFireFailedPlatformCheckMessage,This addon requires the Mobile license.\nDo you want to go to your account to view your licenses?,这个插件需要移动版许可。\n您要前往您的账户来查看您的许可吗？,,Message to display when the Amazon Fire addon fails the platform check
+Notification_Renewals,Licence Renewal,许可翻新,,the notification category for licence renewals
+Notification_RenewalDays,Your {0} licence is due to expire in under {1} days\nRenew now for uninterrupted access to your product,Your {0} licence is due to expire in under {1} days\nRenew now for uninterrupted access to your product,,one week message
+Notification_RenewalWeeks,Your {0} licence is due to expire in under {1} weeks\nRenew now for uninterrupted access to your product,Your {0} licence is due to expire in under {1} weeks\nRenew now for uninterrupted access to your product,,several weeks message
+RenewalNotification_Renew,Renew,翻新,,renew button label
+ide_cache_location,IDE cache directory,IDE缓存目录,,IDE cache directory path
+deleteidecacheonquit,Automatically delete ide cache directory on close,Automatically delete ide cache directory on close,,Automatically delete the ide cache directory on close
+deleteidecache,Delete IDE Cache,删除IDE缓存,,Delete the IDE cache now
+sync_preferences,Synchronise Preferences,同步设置,,Synchronise preferences label
+preferences_copyfromandroid,Sync from Android,从Android同步,,Sync settings from Android
+preferences_copyfromamazon,Sync from Amazon Fire,从Amazon Fire同步,,Sync settings from Amazon
+preferences_copyfromandroid_label,Copy settings from Android,从Android复制设置,,Copy settings from Android
+preferences_copyfromamazon_label,Copy settings from Amazon Fire,从Amazon Fire复制设置,,Copy settings from Amazon Fire
+FileFilters_Pronunciation,Pronunciation Files,发音文件,,pronunciation.xml file dialog
+Error_PS4PronunciationMissingSig,Unable to find matching pronunciation.sig file \nVoice recognition files will not be imported,Unable to find matching pronunciation.sig file \nVoice recognition files will not be imported,,error message when the prnunciation.sig is missing
+App Icon,App Icon,App图标,,App Icon settings namespace
+iPad Pro,iPad Pro,iPad Pro,,iPad Pro settings namespace
+Notification,Notification,通知,,Notification settings namespace
+Spotlight,Spotlight,亮点,,Spotlight settings namespace
+Settings,Settings,设置,,Settings settings namespace
+iTunes Artwork,iTunes Artwork,iTunes Artwork,,iTunes Artwork settings namespace
+ggs_icon_iphone_app_120,iPhone 60pt 2x (iOS 7+),iPhone 60pt 2x (iOS 7+),,iPhone 60pt 2x (iOS 7+)
+ggs_icon_iphone_app_180,iPhone 60pt 3x (iOS 7+),iPhone 60pt 3x (iOS 7+),,iPhone 60pt 3x (iOS 7+)
+ggs_icon_ipad_app_76,iPad 76pt (iOS 7+),iPad 76pt (iOS 7+),,iPad 76pt (iOS 7+)
+ggs_icon_ipad_app_152,iPad 76pt 2x (iOS 7+),iPad 76pt 2x (iOS 7+),,iPad 76pt 2x (iOS 7+)
+ggs_icon_ipad_pro_app_167,iPad Pro 83.5pt 2x (iOS 9+),iPad Pro 83.5pt 2x (iOS 9+),,iPad Pro 83.5pt 2x (iOS 9+)
+ggs_icon_iphone_notification_40,iPhone 20pt 2x (iOS 7+),iPhone 20pt 2x (iOS 7+),,iPhone 20pt 2x (iOS 7+)
+ggs_icon_iphone_notification_60,iPhone 20pt 3x (iOS 7+),iPhone 20pt 3x (iOS 7+),,iPhone 20pt 3x (iOS 7+)
+ggs_icon_ipad_notification_20,iPad 20pt (iOS 7+),iPad 20pt (iOS 7+),,iPad 20pt (iOS 7+)
+ggs_icon_ipad_notification_40,iPad 20pt 2x (iOS 7+),iPad 20pt 2x (iOS 7+),,iPad 20pt 2x (iOS 7+)
+ggs_icon_iphone_spotlight_80,iPhone 40pt 2x (iOS 7+),iPhone 40pt 2x (iOS 7+),,iPhone 40pt 2x (iOS 7+)
+ggs_icon_iphone_spotlight_120,iPhone 40pt 3x (iOS 7+),iPhone 40pt 3x (iOS 7+),,iPhone 40pt 3x (iOS 7+)
+ggs_icon_ipad_spotlight_40,iPad 40pt (iOS 7+),iPad 40pt (iOS 7+),,iPad 40pt (iOS 7+)
+ggs_icon_ipad_spotlight_80,iPad 40pt 2x (iOS 7+),iPad 40pt 2x (iOS 7+),,iPad 40pt 2x (iOS 7+)
+ggs_icon_iphone_settings_58,iPhone 29pt 2x (iOS 5+),iPhone 29pt 2x (iOS 5+),,iPhone 29pt 2x (iOS 5+)
+ggs_icon_iphone_settings_87,iPhone 29pt 3x (iOS 5+),iPhone 29pt 3x (iOS 5+),,iPhone 29pt 3x (iOS 5+)
+ggs_icon_ipad_settings_29,iPad 29pt (iOS 5+),iPad 29pt (iOS 5+),,iPad 29pt (iOS 5+)
+ggs_icon_ipad_settings_58,iPad 29pt 2x (iOS 5+),iPad 29pt 2x (iOS 5+),,iPad 29pt 2x (iOS 5+)
+ggs_icon_itunes_artwork_1024,iTunes Artwork 1024pt,iTunes Artwork 1024pt,,iTunes Artwork 1024pt
+sourcecontrolgit_auth_userpass_failed_import,No Valid User/Pass Authentication details found for {0}\nThe repository has been successfully linked and will be able to push once valid details have been entered.,No Valid User/Pass Authentication details found for {0}\nThe repository has been successfully linked and will be able to push once valid details have been entered.,,No Valid User/Pass found for repository error message
+sourcecontrolgit_auth_ssh_failed_import,No Valid SSH KeyPair Authentication details found for {0}\nThe repository has been successfully linked and will be able to push once valid details have been entered.,No Valid SSH KeyPair Authentication details found for {0}\nThe repository has been successfully linked and will be able to push once valid details have been entered.,,No Valid SSH KeyPair found for repository error message
+sourcecontrolgit_import_project_success,Successfully imported project,Successfully imported project,,Success message for importing a project
+iosiconupdate_title,iOS Icons Require Updating,iOS Icons Require Updating,,Title for iOS Icons requiring an update
+iosiconupdate_message,"Due to iOS submission requirement changes, Options > iOS > Icons image sizes are now different and your current icons need to be recreated at the correct sizes. Tools > Generate Project Images can help quickly fix this.","Due to iOS submission requirement changes, Options > iOS > Icons image sizes are now different and your current icons need to be recreated at the correct sizes. Tools > Generate Project Images can help quickly fix this.",,iOS Icon update message
+Import_BadYYP_Title,External Project File Error,外部项目文件错误,,The external project file has errors
+Import_BadYYP_Message,The external project file cannot be read to import this resource,The external project file cannot be read to import this resource,,External project file cannot be read
+ggs_xboxone_x_title_memory,Xbox One X title memory (GB),Xbox One X title memory (GB),,the xbox one option for how much memory to dedicate to this app
+ggs_xboxone_x_title_memory_tooltip,The amount of memory in gigabytes to dedicate to this game on XBox One X \nAllows games to take advantage of full xbox one x available memory or request less to improve load times,The amount of memory in gigabytes to dedicate to this game on XBox One X \nAllows games to take advantage of full xbox one x available memory or request less to improve load times,,tooltip for xbox one x dedicated memory
+DESC_SEC_INSTALL,Install ${APP_NAME}.,安装 ${APP_NAME}.,,Installer Text
+DESC_SEC_SHORTCUTS,Setup Start Menu shortcuts for All Users.,为所有用户创建开始菜单快捷方式。,,Installer Text
+DESC_SEC_DESKTOP_SHORTCUT,Setup Desktop shortcut for All Users.,为所有用户创建桌面快捷方式。,,Installer Text
+DESC_SEC_FILE_ASSOCIATIONS,Setup file associations for Project Files (.yyp) and Compressed Project Files (.yyz).,创建项目文件(.yyp)和压缩项目文件(.yyz)的文件关联。,,Installer Text
+DESC_SEC_DOTNET,Install Microsoft Dot NET 3.5sp1 and 4.5 Frameworks.,安装 Microsoft Dot NET 3.5sp1 and 4.5 Frameworks.,,Installer Text
+DESC_SEC_VCREDIST,Install Microsoft Visual Studio 2012 and 2015 C++ x64 runtimes.,安装 Microsoft Visual Studio 2012 and 2015 C++ x64 运行库,,Installer Text
+DESC_SEC_NGEN,Optimise the executable and add to the Global Assembly Cache.,优化可执行文件并加入到全局程序集缓存中。,,Installer Text
+DESC_DESKTOPSHORTCUT,Desktop Shortcuts,桌面快捷方式,,Installer Tick box install menu
+DESC_OPTIMISEEXE,Optimise Executable,优化可执行程序,,Installer Tick box install menu
+DESC_STARTMENU,Start Menu Shortcuts,开始菜单快捷方式,,Installer Tick box install menu
+DESC_FILEASS,File associations,文件关联,,Installer Tick box install menu
+DESC_DOTNET_INSTALL,DotNet Install,DotNet安装,,Installer Tick box install menu
+DESC_VCDIST,Visual C++ Redistributable,Visual C++ Redistributable,,Installer Tick box install menu
+DESC_FINISHED_FILES,Finished files,已完成文件,,Installer messages
+DESC_REG_FILE_ASC,Register File Associations,注册文件关联,,Installer messages
+DESC_UNINSTALL_GAC,uninstall from GAC... this may take some time,从GAC卸载中……这可能要花点时间,,Installer messages
+DESC_FINISHED,Finished,已完成,,Installer messages
+DESC_RUNDOTNET35,Running Dot Net 3.5 sp1 Framework Setup...,正在运行 Dot Net 3.5 sp1 Framework 的安装,,Installer messages
+DESC_ENDDOTNET35,end .NET 3.5 sp1,安装结束.NET 3.5 sp1,,Installer messages
+DESC_RUNDOTNET45,Running Dot Net 4.5.2 Framework Setup...,正在运行 Dot Net 4.5.2 Framework 的安装,,Installer messages
+DESC_ENDDOTNET45,end .NET 4.5.2,安装结束.NET 4.5.2,,Installer messages
+DESC_VS2012x86,Running Visual Studio 2012 x86 Redistributable Setup...,正在运行Visual Studio 2012 x86 Redistributable安装……,,Installer messages
+DESC_VS2012x86END,end VS2012 x86,安装结束VS2012 x86,,Installer messages
+DESC_VS2012x64,Running Visual Studio 2012 x64 Redistributable Setup...,正在运行 Visual Studio 2012 x64 Redistributable 的安装,,Installer messages
+DESC_VS2012x64END,end VS2012 x64,安装结束VS2012 x64,,Installer messages
+DESC_VS2015x86,Running Visual Studio 2015 x86 Redistributable Setup...,正在运行 Visual Studio 2015 x86 Redistributable 的安装,,Installer messages
+DESC_VS2015x86END,end VS2015 x86,安装结束VS2015 x86,,Installer messages
+DESC_VS2015x64,Running Visual Studio 2015 x64 Redistributable Setup...,正在运行 Visual Studio 2015 x64 Redistributable 的安装,,Installer messages
+DESC_VS2015x64END,end VS2015 x64,安装结束VS2015 x64,,Installer messages
+DESC_OPTIMISING,Optimising executable... this may take some time,正在优化可执行程序...这可能要花点时间,,Installer messages
+DESC_INSTBEGIN,runInstaller Begin,runInstaller开始,,Installer messages
+DESC_ALLREADYINST,${APP_NAME} is already installed. $\n$\nClick 'OK' to remove the previous version or 'Cancel' to cancel this upgrade. ,${APP_NAME} is already installed. $\n$\nClick 'OK' to remove the previous version or 'Cancel' to cancel this upgrade. ,,Installer prompt to uninstall first
+DESC_ERRORSFOUND,errors found in uninstall,errors found in uninstall,,Installer - Uninstaller errors found
+DESC_IDERUNNING,Check IDE still running (i.e. cancelled from Uninstall),检测IDE是否仍然在运行(i.e. cancelled from Uninstall),,Installer messages
+DESC_IDERUNABORT,IDE still running aborting...,IDE still running aborting...,,Installer messages
+DESC_UNINSTALLDONE,runUnInstaller Done,runUnInstaller 完成,,Installer messages
+DESC_32BITOS,"Sorry, but ${APP_NAME} is only available for 64bit Windows this is a 32bit version of Windows","Sorry, but ${APP_NAME} is only available for 64bit Windows this is a 32bit version of Windows",,Installer messages
+DESC_APPRUNNING,${EXEFILENAME} is running. Please close it first,${EXEFILENAME} is running. Please close it first,,Installer messages
+iOS 5/6,iOS 5/6,iOS 5/6,,iOS 5/6 heading
+iOS 7,iOS 7,iOS 7,,iOS 7 heading
+iOS 8,iOS 8,iOS 8,,iOS 8 heading
+ggs_iphone_8_55_landscape,iPhone 8 HD 5.5 Landscape,iPhone 8 HD 5.5 Landscape,,iPhone 8 HD 5.5 Landscape
+ggs_iphone_8_47_portrait,iPhone 8 HD 4.7 Portrait,iPhone 8 HD 4.7 Portrait,,iPhone 8 HD 4.7 Portrait
+ggs_iphone_8_55_portrait,iPhone 8 HD 5.5 Portrait,iPhone 8 HD 5.5 Portrait,,iPhone 8 HD 5.5 Portrait
+ggs_iphone_7_retina4_portrait,iPhone 7 Retina4 Portrait,iPhone 7 Retina4 Portrait,,iPhone 7 Retina4 Portrait
+ggs_iphone_7_2x_portrait,iPhone 7 2x Portrait,iPhone 7 2x Portrait,,iPhone 7 2x Portrait
+ggs_iphone_56_retina4_portrait,iPhone 5/6 Retina4 Portrait,iPhone 5/6 Retina4 Portrait,,iPhone 5/6 Retina4 Portrait
+ggs_iphone_56_2x_portrait,iPhone 5/6 2x Portrait,iPhone 5/6 2x Portrait,,iPhone 5/6 2x Portrait
+ggs_iphone_56_portrait,iPhone 5/6 Portrait,iPhone 5/6 Portrait,,iPhone 5/6 Portrait
+ggs_ipad_retina_7_portrait,iPad Retina iOS 7 Portrait,iPad Retina iOS 7 Portrait,,iPad Retina iOS 7 Portrait
+ggs_ipad_retina_7_landscape,iPad Retina iOS 7 Landscape,iPad Retina iOS 7 Landscape,,iPad Retina iOS 7 Landscape
+ggs_ipad_7_portrait,iPad iOS 7 Portrait,iPad iOS 7 Portrait,,iPad iOS 7 Portrait
+ggs_ipad_7_landscape,iPad iOS 7 Landscape,iPad iOS 7 Landscape,,iPad iOS 7 Landscape
+ggs_ipad_retina_56_portrait,iPad Retina iOS 5/6 Portrait,iPad Retina iOS 5/6 Portrait,,iPad Retina iOS 5/6 Portrait
+ggs_ipad_retina_56_landscape,iPad Retina iOS 5/6 Landscape,iPad Retina iOS 5/6 Landscape,,iPad Retina iOS 5/6 Landscape
+ggs_ipad_56_portrait,iPad iOS 5/6 Portrait,iPad iOS 5/6 Portrait,,iPad iOS 5/6 Portrait
+ggs_ipad_56_landscape,iPad iOS 5/6 Landscape,iPad iOS 5/6 Landscape,,iPad iOS 5/6 Landscape
+ggs_iphone_x_landscape,iPhone X Landscape,iPhone X Landscape,,iPhone X Landscape
+ggs_iphone_x_portrait,iPhone X Portrait,iPhone X Portrait,,iPhone X Portrait
+iPhone 7,iPhone 7,iPhone 7,,iPhone 7 option group subheading
+iPhone 7+,iPhone 7+,iPhone 7+,,iPhone 7+ option group subheading
+iPhone 8,iPhone 8,iPhone 8,,iPhone 8 option group subheading
+iPhone 8+,iPhone 8+,iPhone 8+,,iPhone 8+ option group subheading
+iPhone SE,iPhone SE,iPhone SE,,iPhone SE option group subheading
+iPhone X,iPhone X,iPhone X,,iPhone X option group subheading
+ResourceNode_Edit,Edit,编辑,,Edit resource from resource tree
+ResourceNode_EditAll,Edit All,全部编辑,,Edit All resource from a resource tree group
+preferences_updateandroidtoolsversion,Pre-populate SDK values to chosen API Level,预生成SDK值选择API等级,,Pre-populate SDK values to chosen API Level
+ProgressBar_DownloadManual,Downloading Manual,下载手册,MAX of 18 characters,Progress bar info
+Manual_Language_Selection,Manual Language,手册语言,,Manual Language Selection label
+LocalisedManual_NotInstalled,Would you like to download this manual?,您要下载该手册吗？,,Localised manual not installed text
+LocalisedManual_NotInstalledTitle,Localised manual not installed,本地手册未安装,,Localised manual not installed title
+LocalisedManual_NotLocalisedTitle,Manual not localised,手册未被本地化,,Manual no localised title
+LocalisedManual_NotLocalised,The manual is not currently localised for this language,本手册尚未本地化为该语言,,Manual not localised message
+LocalisedManual_DownloadFailedTitle,Manual download failed,手册下载失败,,The download of the manual failed
+LocalisedManual_DownloadFailed,An error occurred while trying to download the manual,尝试下载手册时出错,,Error while downloading the manual
+RuntimeDownload_FailedTitle,Runtime install incomplete,运行库安装未完成,,Runtime download failed title
+RuntimeDownload_Failed,The selected runtime could not fully install,所选运行库未被完整安装,,Runtime download failed message
+sourcecontrolgit_noauthfound,No User/Pass authentication details found for {0},No User/Pass authentication details found for {0},,No User/Pass authentication details found for the given url
+sourcecontrolgit_nosshfound,No SSH Keypair authentication details found for {0},No SSH Keypair authentication details found for {0},,No SSH authentication details found for the given url
+sourcecontrolgit_projecthasrepository,Project already has repository!,Project already has repository!,,This project already has a repository
+sourcecontrolgit_creatingrepo,Creating Repository at {0},Creating Repository at {0},,Creating repository at the given url
+sourcecontrolgit_importingrepo,Importing Project to {0},Importing Project to {0},,Importing project to the given url
+sourcecontrolgit_nocommitsinrepoonpull,There are no commits to pull. Please commit and push first,There are no commits to pull. Please commit and push first,,There are no commits when trying to pull
+sourcecontrolgit_pull_uptodate,Up to date,更新,,Repostory is up to date
+sourcecontrolgit_pull_complete,Pull Complete,拉取完成,,Pull Competed
+sourcecontrolgit_nothingtopush,There are no commits to push,无可推送提交,,There are no commits to push
+sourcecontrolgit_push_complete,Push Complete,推送完成,,Push Completed
+keystore_alias_password,Alias Password,别名密码,,Alias Password Label
+ConfigurationProblem_MacDevice,Configuration Problem : No Mac device found. Check your target settings.,配置问题：No Mac device found. Check your target settings.,,Configuration Problem : No Mac device found. Check your target settings.
+ConfigurationProblem_MacID,Configuration Problem : Game Options - Mac / General / App Id is not set.,配置问题：Game Options - Mac / General / App Id is not set.,,Configuration problem when no mac app id set
+ConfigurationProblem_MacAppOutput,Configuration Problem : Game Options - Mac / General / App Output is not set.,配置问题：Game Options - Mac / General / App Output is not set.,,Configuration Problem : Game Options - Mac / General / App Output is not set.
+ConfigurationProblem_MacSteamworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,配置问题：Steamworks SDK install not found. Check your Preferences.,,Configuration Problem : Steamworks SDK install not found. Check your Preferences.
+ConfigurationProblem_MacAppStoreSteam,Configuration Problem : Cannot build for Mac App Store and Steam at the same time.,配置问题：Cannot build for Mac App Store and Steam at the same time.,,Configuration Problem : Cannot build for Mac App Store and Steam at the same time.
+ConfigurationProblem_MacSteamIDMissing,Configuration Problem : Mac Build for Steam selected but Steam App Id is not set.,配置问题：Mac Build for Steam selected but Steam App Id is not set.,,Configuration Problem : Mac Build for Steam selected but Steam App Id is not set.
+ConfigurationProblem_MacSteamIDInvalid,Configuration Problem : Mac Build for Steam has invalid Steam App Id.,配置问题：Mac Build for Steam has invalid Steam App Id.,,Configuration Problem : Mac Build for Steam has invalid Steam App Id.
+ConfigurationProblem_iOSInstallPath,Configuration Problem : iOS install path not set. Check your Preferences.,配置问题：iOS install path not set. Check your Preferences.,,Configuration Problem : iOS install path not set. Check your Preferences.
+ConfigurationProblem_iOSDevice,Configuration Problem : No iOS device found. Check your target settings.,配置问题：No iOS device found. Check your target settings.,,Configuration Problem : No iOS device found. Check your target settings.
+ConfigurationProblem_LinuxDevice,Configuration Problem : No Linux device found. Check your target settings.,配置问题：No Linux device found. Check your target settings.,,Configuration Problem : No Linux device found. Check your target settings.
+ConfigurationProblem_LinuxSteamsworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,配置问题：Steamworks SDK install not found. Check your Preferences.,,Configuration Problem : Steamworks SDK install not found. Check your Preferences.
+ConfigurationProblem_LinuxSteamIDMissing,Configuration Problem : Linux Build for Steam selected but Steam App Id is not set.,配置问题：Linux Build for Steam selected but Steam App Id is not set.,,Configuration Problem : Linux Build for Steam selected but Steam App Id is not set.
+ConfigurationProblem_LinuxSteamIDInvalid,Configuration Problem : Linux Build for Steam has invalid Steam App Id.,配置问题：Linux Build for Steam has invalid Steam App Id.,,Configuration Problem : Linux Build for Steam has invalid Steam App Id.
+ConfigurationProblem_LinuxIcon,Configuration Problem : Icon file is not a valid PNG format image.,配置问题：Icon file is not a valid PNG format image.,,Configuration Problem : Linux icon file invalid
+ConfigurationProblem_WindowsPackageName,Configuration Problem : Windows Package requires a valid Display Name.,配置问题：Windows Package requires a valid Display Name.,,Configuration Problem : Windows Package requires a valid Display Name.
+ConfigurationProblem_WindowsExeName,Configuration Problem : Windows Package requires a valid Executable Name.,配置问题：Windows Package requires a valid Executable Name.,,Configuration Problem : Windows Package requires a valid Executable Name.
+ConfigurationProblem_WindowsIcon,Configuration Problem : Icon file is not a valid '.ico' format image.,配置问题：Icon file is not a valid '.ico' format image.,,Configuration Problem : Icon file is not a valid '.ico' format image.
+ConfigurationProblem_WindowsVSPath,Configuration Problem : Windows Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,配置问题：Windows Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : Windows Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+ConfigurationProblem_WindowsSteamworksSDK,Configuration Problem : Steamworks SDK install not found. Check your Preferences.,配置问题：Steamworks SDK install not found. Check your Preferences.,,Configuration Problem : Steamworks SDK install not found. check your Preferences.
+ConfigurationProblem_WindowsSteamIDMissing,Configuration Problem : Windows Build for Steam selected but Steam App Id is not set.,配置问题：Windows Build for Steam selected but Steam App Id is not set.,,Configuration Problem : Windows Build for Steam selected but Steam App Id is not set.
+ConfigurationProblem_WindowsSteamIDInvalid,Configuration Problem : Windows Build for Steam has invalid Steam App Id.,配置问题：Windows Build for Steam has invalid Steam App Id.,,Configuration Problem : Windows Build for Steam has invalid Steam App Id.
+ConfigurationProblem_PS4SDK,Configuration Problem : PS4 SDK not found. Check your Preferences.,配置问题：PS4 SDK not found. Check your Preferences.,,Configuration Problem : PS4 SDK not found. Check your Preferences.
+ConfigurationProblem_PS4Tools,Configuration Problem : PS4 Tools directory not found. Check your Preferences.,配置问题：PS4 Tools directory not found. Check your Preferences.,,Configuration Problem : PS4 Tools directory not found. Check your Preferences.
+ConfigurationProblem_PS4VSPath,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,配置问题：PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+ConfigurationProblem_tvOSDevice,Configuration Problem : No tvOS device found. Check your target settings.,配置问题：No tvOS device found. Check your target settings.,,Configuration Problem : No tvOS device found. Check your target settings.
+ConfigurationProblem_tvOSPath,Configuration Problem : tvOS install path not set. Check your Preferences.,配置问题：tvOS install path not set. Check your Preferences.,,Configuration Problem : tvOS install path not set. Check your Preferences.
+ConfigurationProblem_WindowsUWPDevice,Configuration Problem : No Windows UWP device found. Check your target settings.,配置问题：No Windows UWP device found. Check your target settings.,,Configuration Problem : No Windows UWP device found. Check your target settings.
+ConfigurationProblem_WindowsUWPSDK,Configuration Problem : Windows 10 SDK not found at path given in Windows UWP Preferences.,配置问题：Windows 10 SDK not found at path given in Windows UWP Preferences.,,Configuration Problem : Windows 10 SDK not found at path given in Windows UWP Preferences.
+ConfigurationProblem_WindowsUWPVSPath,Configuration Problem : Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,配置问题：Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+ConfigurationProblem_WindowsUWPMinVersion,Configuration Problem : Windows Target Platform Minimum Version has not been filled out.,配置问题：Windows Target Platform Minimum Version has not been filled out.,,Configuration Problem : Windows Target Platform Minimum Version has not been filled out.
+ConfigurationProblem_WindowsUWPPlatformVersion,Configuration Problem : Windows Target Platform Version has not been filled out.,配置问题：Windows Target Platform Version has not been filled out.,,Configuration Problem : Windows Target Platform Version has not been filled out.
+ConfigurationProblem_XboxOneTools,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.,配置问题：Xbox One Tools Directory not found. Check your Preferences.,,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.
+ConfigurationProblem_XboxOneSDK,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.,配置问题：Xbox One SDK Directory not found. Check your Preferences.,,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.
+ConfigurationProblem_XboxOneSDKVersion,Configuration Problem : Xbox One SDK Version does not match {0}. Check your Preferences.,配置问题：Xbox One SDK Version does not match {0}. Check your Preferences.,,Configuration Problem : Xbox One SDK Version does not match
+ConfigurationProblem_XboxOneSDKDir,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.,配置问题：Microsoft Xbox One Directory not found. Check your Preferences.,,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.
+ConfigurationProblem_XboxOneVSPath,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,配置问题：Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+Provisioning,Provisioning,Provisioning,DO NOT TRANSLATE,tvOS provisioning preference group subheading
+Base_Unit_Memory,PS4 Base Memory,PS4基础版内存,,title for options related to memory pool sizes
+Neo_Memory,PS4 Pro Memory,PS4专业版内存,,title for options related to memory pool sizes
+ggs_onion,CPU/GPU 'onion' memory pool size (MB),CPU/GPU 'onion'内存池大小(MB),DO NOT TRANSLATE onion, memory pool size for 'onion' memory
+ggs_garlic,GPU 'garlic' memory pool size (MB),GPU 'garlic'内存池大小(MB),DO NOT TRANSLATE garlic,memory pool size for 'garlic' memory
+ggs_ps4_garlic_memory_tooltip,The amount of memory in megabytes to dedicate to the shared GPU memory pool \nMaximum allocation must be shared between both pools,The amount of memory in megabytes to dedicate to the shared GPU memory pool \nMaximum allocation must be shared between both pools,,tooltip for garlic memory pool
+ggs_ps4_onion_memory_tooltip,The amount of memory in megabytes to dedicate to the shared CPU/GPU memory pool \nMaximum allocation must be shared between both pools,The amount of memory in megabytes to dedicate to the shared CPU/GPU memory pool \nMaximum allocation must be shared between both pools,,tooltip for garlic memory pool
+ggs_xboxone_stats_system,Microsoft Stats System,微软统计系统,,Microsoft Stats System
+ggs_xboxone_stats_2017,Stats 2017,Stats 2017,,the radio group option for 2017 stats
+ggs_xboxone_stats_2013,Stats 2013,Stats 2013,,the radio group option for 2013 stats
+ggs_xboxone_stats_system_tooltip,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,,tooltip for the stats sytem radio group
