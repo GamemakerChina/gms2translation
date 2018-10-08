@@ -5,6 +5,10 @@ _Error,Error: {0},Error: {0},,General error prefix
 _Language,English,English,,Language name - in English
 _LanguageNative,English,English,,Language name in the native language
 _GameMaker2016,GameMaker Studio 2,GameMaker Studio 2,,IDE title
+$win_OpenInExplorer,Open In Explorer,Open In Explorer,,Windows version of Open In Explorer
+$win_OpenProjectInExplorer,Open Project In Explorer,Open Project In Explorer,,Windows version of Open Project In Explorer
+$mac_OpenInExplorer,Show In Finder,Show In Finder,,Mac version of Open In Explorer
+$mac_OpenProjectInExplorer,Show Project In Finder,Show Project In Finder,,Windows version of Open Project In Explorer
 Account_Menu_Login,Login,Login,,"Account menu ""Login"""
 Account_Menu_Logout,Logout,Logout,,"Acount menu ""Logout"""
 Account_Menu_ManageAccount,Manage Account,Manage Account,,"Account menu ""Account"""
@@ -73,6 +77,7 @@ CodeWindow_SingleColumn,Single pane,Single pane,,Document window layout menu opt
 CodeWindow_Title,Code,Code,,fullscreen code editor workspace tab title
 CodeWindow_RestoreToWorkspace,Restore to workspace,Restore to workspace,,code editor restore to workspace context menu option
 CodeWindow_GotoObject,Go to Object,Go to Object,,code editor go to object context menu option
+CodeWindow_AddEvent,Add/Open Event,Add/Open Event,,code editor event script add event context menu option
 CompileErrors,Compile Errors,Compile Errors,,Compile Errors tab title
 CompileErrors_NoErrors,There are no compile errors to show!,There are no compile errors to show!,,No compile errors message
 Configuration,Configuration,Configuration,,Configuration
@@ -436,6 +441,8 @@ fontrange_from_file,From File,From File,,Front range dialog - From File button
 fontrange_letters,Letters,Letters,,Font range dialog - English letters only button
 fontrange_normal,Normal,Normal,,Font range dialog - Normal only button
 fontrange_till,till,till,,Font range dialog - TILL text label
+ComboBox_FlagMode_NoneSelected,None,None,,No items selected in combobox flag mode
+ComboBox_FlagMode_AllSelected,Everything,Everything,,All items selected in combobox flag mode
 GadgetToolbox_Button,Button,Button,,Gadget toolbox display name for button
 GadgetToolbox_BrowseButton,Browse Button,Browse Button,,Gadget toolbox display name for the browse button
 GadgetToolbox_Buttons,Buttons,Buttons,,Gadget toolbox display name for the buttons group
@@ -554,7 +561,7 @@ IDEMenu_Help_WelcomePage,Welcome Page,Welcome Page,,Help menu item for reopening
 IDEMenu_Help_Help,Open Manual,Open Manual,,Help menu item for actual help
 IDEMenu_Help_About,About,About,,Help menu item for actual About
 IDEMenu_Help_Licenses,Licenses,Licenses,,Help menu item for licenses
-IDEMenu_Help_OpenInExplorer,Open Project In Explorer,Open Project In Explorer,,Help menu item for opening the explorer window at the current project's location
+IDEMenu_Help_OpenInExplorer,Open Project In Explorer,${OpenProjectInExplorer},,Help menu item for opening the explorer window at the current project's location
 IDEMenu_Marketplace,Marketplace,Marketplace,,Main menu entry for marketplace
 IDEMenu_Texturepage,Texture groups,Texture Groups,,Texture group manager
 IDEMenu_Audiogroups,Audio Groups,Audio Groups,,Audio group manager
@@ -766,6 +773,15 @@ ImageEditor_DeleteLayer_TT,Delete Layer/Group For All Frames,Delete Layer/Group 
 ImageEditor_EraseColour_TT,Left Or Right Click To Set Eraser,Left Or Right Click To Set Eraser,,erase colour button tooltip
 ImageEditor_LastLayerDeleteTitle,Can't Delete Last Layer,Can't Delete Last Layer,,can't delete last layer title
 ImageEditor_LayerLayerDeleteMessage,Can't delete layer - image must have at least one layer,Can't delete layer - image must have at least one layer,,last layer delete message
+ImageEditor_SwapColours_TT,Swap left and right colours,Swap left and right colours,,image editor swap colours tool tip
+ImageEditor_Greyscale,Greyscale,Greyscale,,ie greyscale label
+ImageEditor_Blur,Blur,Blur,,ie blur label
+ImageEditor_BlurType,Blur Type:,Blur Type:,,ie blur type label
+ImageEditor_Horizontal,Horizontal,Horizontal,,ie horizontal label
+ImageEditor_Vertical,Vertical,Vertical,,ie vertical label
+ImageEditor_Both,Both,Both,,ie both label
+ListBoxEnum_eBlurType_Box,Box,Box,,blur type enum
+ListBoxEnum_eBlurType_Gaussian,Gaussian,Gaussian,,blur type enum
 GridWidgetSettings_Colour,Grid Colour:,Grid Colour:,,zoom widget grid settings colour label
 GridWidgetSettings_Alpha,Alpha:,Alpha:,,zoom widget grid settings alpha label
 GridWidgetSettings_GridX,Grid X,Grid X,,grid settings grid x
@@ -1117,7 +1133,7 @@ ResourceNode_ImportExtension,Import Extension,Import Extension,,resource node me
 ResourceNode_InsertDataFile,Insert Included File,Insert Included File,,Resource Tree node menu - insert included file
 ResourceNode_OpenExternally,Open Externally,Open Externally,,Resource Tree node menu - open externally
 ResourceTree_ErrorOpeningExternally,Error Opening Externally,Error Opening Externally,,Resource Tree node menu - error open externally
-ResourceNode_OpenInExplorer,Open In Explorer,Open In Explorer,,Resource Tree node menu - open in explorer
+ResourceNode_OpenInExplorer,Open In Explorer,${OpenInExplorer},,Resource Tree node menu - open in explorer
 ResourceNode_OpenAll,Open All,Open All,,Resource Tree node menu - open all
 ResourceNode_OpenProperties,Open Properties,Open Properties,,Resource Tree node menu - open properties
 ResourceNode_OpenInMixer,Open In Sound Mixer,Open In Sound Mixer,,Resource Tree node menu - open in sound mixer
@@ -1345,6 +1361,7 @@ SoundEditor_Volume,Volume:,Volume:,,Sound Editor Volume label
 SoundEditor_Output,Output:,Output:,,Sound Editor Output label
 SoundEditor_NoDeviceWarningTitle,No Audio Device,No Audio Device,,No audio device is available for previewing sounds warning dialog title
 SoundEditor_NoDeviceWarning,No audio device is available for previewing sounds.,No audio device is available for previewing sounds.,,No audio device is available for previewing sounds warning message
+SoundEditor_StreamedAudioGroupWarning,Streaming sounds cannot be used in AudioGroups. Are you sure you want to set this to streaming? It will reset the AudioGroup back to Default.,Streaming sounds cannot be used in AudioGroups. Are you sure you want to set this to streaming? It will reset the AudioGroup back to Default.,,warning message for streamed sound in audio group
 SoundMixer_Title,Sound Mixer,Sound Mixer,,Title of SoundMixer window
 SoundMixer_ColumnVolume,Column volume,Column Volume,,Column Volume Label
 SoundMixer_UntitledGroup,Untitled Group,Untitled Group,,Label of Untitled Group
@@ -1598,7 +1615,6 @@ TimeLine_Name,Name:,Name:,,Time line editor name label
 TimeLine_Names,Description,Description,,Time line editor names caption
 TimeLine_WindowTitle,Timeline: {0},Timeline: {0},,Time line editor window caption
 TimeLine_WindowTitle_CodeEditor,"Timeline Moments: {0}","Timeline Moments: {0}",,Time line code editor window title
-TimeLine_ContextMenu_EditDescription,Change Description,Change Description,,Change time line description menu entry
 TimeLine_ConvertType,Convert to {0},Convert to {0},,Change the event from DnD™ to script or from script to DnD™
 TreeView_AddChildNode,Add Child Node,Add Child Node,,context menu option to add a child node
 TreeView_AddNode,Add Node,Add Node,,context menu option to add a node
@@ -1691,7 +1707,7 @@ ResourceTree_WholeWord, Whole Word, Whole Word,, 'Whole Word' checkbox label
 ResourceTree_FindNext, Find Next, Find Next,, 'Find Next' button label
 ResourceTree_FindPrevious, Find Previous, Find Previous,, 'Find Previous' button label
 ResourceTree_SearchResources,Search...,Search...,, default contents of the resource tree search resources box
-SearchInScript_Search,Search...,Search...,,Search in Script Search default box text
+SearchInScript_Search,Find...,Find...,,Search in Script Search default box text
 SearchInScript_Replace,Replace...,Replace...,,Search in Script Replace default box text
 DnD_Gadget_DirectionalInput,Directional Input,Directional Input,,DnD™ gadget for directional input
 DnD_Gadget_NumericInput,Numeric Input,Numeric Input,,DnD™ gadget for numeric input
@@ -2023,7 +2039,7 @@ ggs_player_resize_window,Allow player to resize window,Allow player to resize wi
 ggs_app_id,App Id,App Id,,App Id
 ggs_app_output,App Output,App Output,,App Output
 ggs_team_id,Team Identifier,Team Identifier,,the macOS Option for team identifier
-ggs_team_id_tooltip,10 digit alpha-numeric identifier taken from your developer.apple.com/#/overview URL,10 digit alpha-numeric identifier taken from your developer.apple.com/#/overview URL,,Tooltip for signing identity
+ggs_team_id_tooltip,10 digit alpha-numeric identifier taken from your developer.apple.com/#/overview URL. If blank this will inherit the value set in Platform Options,10 digit alpha-numeric identifier taken from your developer.apple.com/#/overview URL. If blank this will inherit the value set in Platform Options,,Tooltip for signing identity
 ggs_signing_id,Signing Identifier,Signing Identifier,,Signing Identifier Label
 ggs_signing_id_tooltip,"To distribute your game outside of the Mac App Store El Capitan requires that\nyour game package is codesigned. Please provide the signing identity that you\nwish to use here, this should be a Developer ID Application identity and should\nbe present in your Mac's login keychain certificates. Signing identities can be\neasily created in Xcode->Preferences->Accounts->Team->View Details->Developer ID\nApplication->Create. Signing identities will be matched so the default value\nshould be sufficient if you are only the member of one development team. Leave\nthis field blank to skip codesigning.","To distribute your game outside of the Mac App Store El Capitan requires that\nyour game package is codesigned. Please provide the signing identity that you\nwish to use here, this should be a Developer ID Application identity and should\nbe present in your Mac's login keychain certificates. Signing identities can be\neasily created in Xcode->Preferences->Accounts->Team->View Details->Developer ID\nApplication->Create. Signing identities will be matched so the default value\nshould be sufficient if you are only the member of one development team. Leave\nthis field blank to skip codesigning.",,Tooltip for signing identity
 ggs_copyright,Copyright,Copyright,,Copyright
@@ -2500,6 +2516,8 @@ DnDConvert_WarningTitle,Convert DnD™,Convert DnD™,,object editor dnd convert
 TimelineEditor_ConvertMerge,Merging the selected moments will result in conversion from DnD™ to GameMaker Language. Do you want to continue?,Merging the selected moments will result in conversion from DnD™ to GameMaker Language. Do you want to continue?,,Merge warning
 TimelineDnD_ConvertOpposite,Opposite,Opposite,,Convert dnd or script to opposite type
 Settings_DnDConvert,Default for DnD™ conversion to GameMaker Language,Default for DnD™ conversion to GameMaker Language,,DnD™ convert pref
+Settings_DnDDeleteNode,Default for DnD™ node deletion,Default for DnD™ node deletion,,DnD™ deletion pref
+DnDModule_DeleteNodeMsg,Are you sure you want to delete this DnD™ action?,Are you sure you want to delete this DnD™ action?,,DnD delete message
 DnDModule_ConvertToScript,Convert to GML,Convert to GML,,DnD™ module convert to gml context menu
 dpi_percentage,% of Native DPI,% of Native DPI,,Slider to control percentage of DPI
 dpi_raw,Raw DPI value,Raw DPI value,,Raw value of DPI to override with
@@ -2526,6 +2544,7 @@ keystore_invalid_location,Invalid characters in location,Invalid characters in l
 keystore_invalid_country,Invalid characters in country,Invalid characters in country,,Invalid characters in country
 keystore_small_pass,Password must be longer than 5 characters,Password must be longer than 5 characters,,Password must be longer than 5 characters
 keystore_jdk_error,JDK not installed correctly at location entered in Android Platform Settings,JDK not installed correctly at location entered in Android Platform Settings,,JDK install error
+keystore_show_error,Could not process Keystore; may be corrupt or have incorrect password,Could not process Keystore; may be corrupt or have incorrect password,,Keystore error during processing
 keystore_small_alias,Alias must be longer than 5 characters,Alias must be longer than 5 characters,,Alias must be longer than 5 characters
 GMXTextureGroup_BadId,The Texture Group for sprite '{0}' is invalid - setting to Default Texture Group instead,The Texture Group for sprite '{0}' is invalid - setting to Default Texture Group instead,,Error message on importing that a sprite texture group is wrong
 ggs_enable_flurry,Enable Flurry Analytics,Enable Flurry Analytics,,Enable Flurry Analytics
@@ -2568,6 +2587,8 @@ ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_Show,Show Dialog,S
 ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_X86,Create X86 Package,Create X86 Package,,Create X86 Package
 ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_X64,Create X64 Package,Create X64 Package,,Create X64 Package
 ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_ARM,Create Arm Package,Create Arm Package,,Create Arm Package
+AddWorker_Name,Name,Name,,Worker name
+AddWorker_Host,Host Name,Host Name,,Worker host name
 platformdevice_add,Add New Device,Add New Device,,Add New Platform Device
 platformdevice_add_browser,Add New Browser,Add New Browser,,Add New Browser
 platformdevice_remove,Remove Device,Remove Device,,Remove Platform Device
@@ -2875,6 +2896,7 @@ resourcetree_editimageondoubleclick,Open the image editor when double clicking o
 ResourceTree_OpenObjectEventsDoubleClick,Open all object events when double clicking on an object resource node,Open all object events when double clicking on an object resource node,,double click object resource preference
 ResourceTree_CompactPref,Use compact resource tree (re-open resource tree),Use compact resource tree (re-open resource tree),,resource tree pref
 ResourceTree_AllowLabelBelowHundred,Allow label font to scale below 100%,Allow label font to scale below 100%,,resource tree pref
+ResourceTree_AllowLabelAboveHundred,Allow label font to scale above 100%,Allow label font to scale above 100%,,resource tree pref
 ResourceTree_ItemSizeLabel,Resource item size:,Resource item size:,,Label
 ResourceTree_ItemSize,Resource item size in percentage,Resource item size in percentage,,resource tree pref
 ResourceTree_ItemMinSize,Resource item minimum size,Resource item minimum size,,resource tree pref
@@ -3767,31 +3789,26 @@ StartPage_Web_NewGml,GameMaker Language,GameMaker Language,,Start page localised
 StartPage_Web_NewJS,JavaScript,JavaScript,,Start page localised web content
 StartPage_Web_InheritFromProject,Inherit Project,Inherit Project,,Start page localised web content
 StartPage_Web_ViewReleaseNotes,To view the release notes for this and previous versions,To view release notes for this and previous versions,,Start page localised web content
-StartPage_Web_ClickHere,click here,click here,,Start page localised web content
 StartPage_Web_RecentProjects,Recent Projects,Recent Projects,,Start page localised web content
 StartPage_Web_RecentTutorials,Recent Tutorials,Recent Tutorials,,Start page localised web content
 StartPage_Web_Licenses,Licenses,Licenses,,Start page localised web content
 StartPage_Web_ReleaseNotes,Release Notes,Release Notes,,Start page localised web content
-StartPage_Web_TextOwned,NOT INSTALLED,NOT INSTALLED,,Start page localised web content
-StartPage_Web_TextNotOwned,AVAILABLE,AVAILABLE,,Start page localised web content
-StartPage_Web_TextInstalled,INSTALLED,INSTALLED,,Start page localised web content
-StartPage_Web_TextDownloading,DOWNLOADING,DOWNLOADING,,Start page localised web content
-StartPage_Web_TextInProgress,IN PROGRESS,IN PROGRESS,,Start page localised web content
-StartPage_Web_TextComplete,COMPLETED,COMPLETED,,Start page localised web content
-StartPage_Web_TooltipInstallTutorial,Install,Install,,Start page localised web content
-StartPage_Web_TooltipDownloading,Downloading...,Downloading...,,Start page localised web content
-StartPage_Web_TooltipOpenTutorial,Open tutorial,Open tutorial,,Start page localised web content
-StartPage_Web_TooltipOpenDemo,Open demo,Open demo,,Start page localised web content
-StartPage_Web_TooltipInstallDemo,Download,Download,,Start page localised web content
-StartPage_Web_TooltipViewMarketplace,View on Marketplace,View on Marketplace,,Start page localised web content
-StartPage_Web_TooltipUninstall,Uninstall,Uninstall,,Start page localised web content
-StartPage_Web_TooltipBack,Back,Back,,Start page localised web content
 StartPage_Web_OwnedTutorials,Owned,Owned,,Start page localised web content
+StartPage_Web_FilterByInstalled,Filter by installed,Filter by installed,,Start page localised web content
 StartPage_Web_OfficialTutorials,Official,Official,,Start page localised web content
 StartPage_Web_ExpandOrCollapse,Expand or collapse,Expand or collapse,,Start page localised web content
-StartPage_Web_FilterByInstalled,Filter by installed,Filter by installed,,Start page localised web content
 StartPage_Web_GettingStarted,Getting Started,Getting Started,,Start page localised web content
 StartPage_Web_Explore,Explore,Explore,,Start page localised web content
+StartPage_Web_Owned,Owned,Owned,,Start page status label
+StartPage_Web_Installed,Installed,Installed,,Start page status label
+StartPage_Web_Downloading,Downloading...,Downloading...,,Start page status label
+StartPage_Web_InProgress,Not Completed,Not Completed,,Start page status label
+StartPage_Web_Completed,Completed,Completed,,Start page status label
+StartPage_Web_Available,Available,Available,,Start page status label
+StartPage_Web_ViewOnMarketplace,View On Marketplace,View On Marketplace,,Start page tooltip
+StartPage_Web_Download,Download,Download,,Start page tooltip
+StartPage_Web_Open,Open,Open,,Start page tooltip
+StartPage_Web_Remove,Remove Local Files,Remove Local Files,,Start page remove tooltip
 default_audio_setting,Default Audio Device,Default Audio Device,,Default Audio Device setting
 Validate_NameLength,Resource name must be between {2} and {1} characters long,Resource name must be between {2} and {1} characters long,,validation error message for resource name
 DnD_ResourceSelection_DropLabel,Drop here to assign resource,Drop here to assign resource,,DnD™ Resource Input label
@@ -4021,7 +4038,7 @@ ListBoxEnum_eSymbolType_eFunction,Function,Function,,Symbol type
 ListBoxEnum_eSymbolType_eScript,Script,Script,,Symbol type
 ListBoxEnum_eSymbolType_eResource,Resource,Resource,,Symbol type
 ListBoxEnum_eSymbolType_eObsolete,Obsolete,Obsolete,,Symbol type
-Sprite_PreviewErrorMsg,The file '{0}' is not supported.,The file '{0}' is not supported.,,Generate preview error message
+Sprite_PreviewErrorMsg,The file '{0}' is not supported. See Compile Errors window.,The file '{0}' is not supported. See Compile Errors window.,,Generate preview error message
 serverportunavailable_title,Webserver Port Unavailable,Webserver Port Unavailable,,Webserver Port Unavailable title message
 serverportunavailable_message,Port {0} is unavailable for spawning help!\nPlease change this in Preferences,Port {0} is unavailable for spawning help!\nPlease change this in Preferences,,Webserver port is unavailable message content
 Marketplace_MyLibrary_Empty,Your library is empty.,Your library is empty.,,Empty library
@@ -4127,6 +4144,7 @@ Event_Gesture_Global_RotateStart,Global Rotate Start,Global Rotate Start,,Global
 Event_Gesture_Global_Rotating,Global Rotating,Global Rotating,,Global Rotating gesture event name
 Event_Gesture_Global_RotateEnd,Global Rotate End,Global Rotate End,,Global Rotate End gesture event name
 MarketplaceFilter_Downloaded,Downloaded Only,Downloaded Only,,Downloaded filter name for marketplace library
+MarketplaceFilter_GMS2Only,Studio 2 Assets,Studio 2 Assets,,Studio 2 assets only filter name for marketplace library
 ide_language_description,Select the language for the IDE to use,Select the language for the IDE to use,,Label beside the IDE language selection
 notification_popups,Enable Notification messages,Enable Notification messages,,Enable Notification messages
 notification_timeout,Notification timeout (ms),Notification timeout (ms),,Notification timeout in ms
@@ -4135,5 +4153,38 @@ RemoteWorker_AddWorker,Add Worker,Add Worker,,Add Worker Dialog Title
 RemoteWorker_DeleteDialogMessage,"Are you sure you wish to delete this remote?","Are you sure you wish to delete this remote?",,the message when a user tries to delete a remote
 RemoteWorker_DeleteDialogTitle,Delete Remote,Delete Remote,,message title when the user wants to delete a remote
 Settings_VCVARS32,You must specifiy the full path to the VCVARS32.BAT file,You must specifiy the full path to the VCVARS32.BAT file,,Shown when you don't specify the vcvars32.bat file
+Error_PS4ParamEditor,PARAM.SFO editor not available on Mac.\nPlease edit on Windows and copy to {0}/options/ps4/sce_sys/PARAM.SFO,PARAM.SFO editor not available on Mac.\nPlease edit on Windows and copy to {0}/options/ps4/sce_sys/PARAM.SFO,,Shown when trying to edit PARAM.SFO on the Mac
+Error_PS4TrophyEditor,Trophy editor not available on Mac.\nPlease edit on Windows and copy to {0}/options/ps4/sce_sys/trophy/trophy00.trp,Trophy editor not available on Mac.\nPlease edit on Windows and copy to {0}/options/ps4/sce_sys/trophy/trophy00.trp,,Shown when trying to edit PS4 trophies on the Mac
+FindReplace_Title,Find and Replace,Find and Replace,,Find and Replace title
+FindReplace_ToggleReplace,Toggle Replace,Toggle Replace,,Toggle Replace Options
+FindReplace_WholeWord,Whole Word Only,Whole Word Only,,Whole Word Only Option
+FindReplace_CaseSensitive,Case Sensitive,Case Sensitive,,Case Sensitive Option
+FindReplace_FindPrevious,Find Previous,Find Previous,,Find Previous
+FindReplace_FindNext,Find Next,Find Next,,Find Next
+FindReplace_ReplaceNext,Replace Next,Replace Next,,Replace Next
+FindReplace_ReplaceAll,Replace All,Replace All,,Replace All
+Preferences_iOS_suppress,Suppress build and run (just create Xcode project on macOS),Suppress build and run (just create Xcode project on macOS),,Preferences/Platform Settings/iOS
+Preferences_iOS_install_path,macOS Install Path,macOS Install Path,,Preferences/Platform Settings/iOS
+Preferences_iOS_default_team_id,Default Team Identifier,Default Team Identifier,,Preferences/Platform Settings/iOS
+Preferences_android_sdk_location,Android SDK Location,Android SDK Location,,Preferences/Platform Settings/Android
+Preferences_android_ndk_location,Android NDK Location,Android NDK Location,,Preferences/Platform Settings/Android
+Preferences_android_jdk_location,Java JDK location,Java JDK location,,Preferences/Platform Settings/Android
+Preferences_windows_vs_path,Visual Studio Path,Visual Studio Path,,Preferences/Platform Settings/Windows
+Preferences_winuwp_vs_path,Visual Studio Path,Visual Studio Path,,Preferences/Platform Settings/WinUWP
+Preferences_winuwp_tools_folder,Win UWP Tools Folder,Win UWP Tools Folder,,Preferences/Platform Settings/WinUWP
+Preferences_macos_default_team_id,Default Team Identifier,Default Team Identifier,,Preferences/Platform Settings/macOS
+Preferences_ps4_sdk_dir,PS4 SDK Directory,PS4 SDK Directory,,Preferences/Platform Settings/PS4
+Preferences_ps4_tools_dir,PS4 Tools Directory,PS4 Tools Directory,,Preferences/Platform Settings/PS4
+Preferences_ps4_vs_path,Visual Studio Path,Visual Studio Path,,Preferences/Platform Settings/PS4
+Preferences_xbone_xdk_dir,XDK Directory,XDK Directory,,Preferences/Platform Settings/Xbone
+Preferences_xbone_tools_dir,Xbox One Tools Directory,Xbox One Tools Directory,,Preferences/Platform Settings/Xbone
+Preferences_xbone_xbone_dir,Microsoft Xbox One Directory,Microsoft Xbox One Directory,,Preferences/Platform Settings/Xbone
+Preferences_xbone_vs_path,Visual Studio Path,Visual Studio Path,,Preferences/Platform Settings/Xbone
 ProjectLoad_BadPathTitle,Unsafe Path,Unsafe Path,,Bad Path message title when failing badpath check on load
 ProjectLoad_BadPathMessage,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,,Project is in an unsafe location message
+Developer_Menu_Title,Developer,Developer,,Title of the main Developer menu
+HideGameMaker_Menu_Title,Hide GameMaker Studio 2,Hide GameMaker Studio 2,,Hide GameMaker menu entry for Mac
+HideOthers_Menu_Title,Hide Others,Hide Others,,Hide others menu entry for Mac
+Project_Error,Project Error,Project Error,,Error in Project
+Project_Error_No_Rooms,No rooms found - you need at least one room to run.,No rooms found - you need at least one room to run.,,No rooms error message
+Project_Error_Invalid_Shaders,The shader '{0}' has an invalid type.,The shader '{0}' has an invalid type.,,Invalid shader error message
