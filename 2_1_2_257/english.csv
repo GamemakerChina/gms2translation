@@ -16,6 +16,12 @@ $mac_OpenProjectInExplorer,Show Project In Finder,Show Project In Finder,,Mac ve
 $mac_ShowLogFileInExplorer,Reveal Log In Finder,Reveal Log In Finder,,Mac version of Show Log In Explorer
 $win_ctrl,Ctrl,Ctrl,,Windows version of ctrl key
 $mac_ctrl,Command,Command,,Mac version of ctrl key
+$win_FileMenuExit,Exit,Exit,,Windows version of the Exit main menu entry
+$mac_FileMenuExit,Quit,Quit,,Mac version of the Exit main menu entry
+$win_IDEMenuHelpAbout,About,About,,Windows version of the About main menu entry
+$mac_IDEMenuHelpAbout,About GameMaker Studio 2,About GameMaker Studio 2,,Windows version of the About main menu entry
+$win_IDEMenuViews,Windows,Windows,,Windows version of the views menu entry
+$mac_IDEMenuViews,Window,Window,,Mac version of the views menu entry
 Account_Menu_Login,Login,Login,,"Account menu ""Login"""
 Account_Menu_Logout,Logout,Logout,,"Acount menu ""Logout"""
 Account_Menu_ManageAccount,Manage Account,Manage Account,,"Account menu ""Account"""
@@ -397,7 +403,7 @@ Restored_Default_Settings_Restart,Are you sure you want to restore default setti
 File_Menu_NewIDE,New IDE,New IDE,,Start a new instance of the IDE from the file menu
 File_Menu_Logout,Logout,Logout,,The Logout program menu item
 File_Menu_MyAccount,My Account,My Account,,Launches my account web page menu item
-File_Menu_Exit,Exit,Exit,,The Exit program menu item
+File_Menu_Exit,${FileMenuExit},${FileMenuExit},,The Exit program menu item
 File_Menu_ExportProject,Export Project,Export Project,,The Export Project menu item
 File_Menu_ImportProject,Import Project,Import Project,,The Import project menu item
 File_Menu_NewProject,New Project,New Project,,The New Project menu item
@@ -557,7 +563,7 @@ IDEMenu_Account,Account,Account,,"IDE menu ""Account"""
 IDEMenu_Build,Build,Build,,"File menu ""Build"""
 IDEMenu_Edit,Edit,Edit,,The Edit menu item name
 IDEMenu_File,File,File,,The File menu item name
-IDEMenu_Views,Windows,Windows,,Main menu entry for views
+IDEMenu_Views,${IDEMenuViews},${IDEMenuViews},,Main menu entry for views
 IDEMenu_Tools,Tools,Tools,,Main menu entry for tools
 IDEMenu_Help,Help,Help,,Main menu entry for HELP
 IDEMenu_Help_SupportForum,Support Forums,Support Forums,,Help menu item for support forums
@@ -572,7 +578,7 @@ IDEMenu_Help_RuntimeReleaseNotes,Current Runtime Release Notes,Current Runtime R
 IDEMenu_Help_StartPage,Start Page,Start Page,,Help menu item for reopening the start page
 IDEMenu_Help_WelcomePage,Welcome Page,Welcome Page,,Help menu item for reopening the welcome page
 IDEMenu_Help_Help,Open Manual,Open Manual,,Help menu item for actual help
-IDEMenu_Help_About,About,About,,Help menu item for actual About
+IDEMenu_Help_About,${IDEMenuHelpAbout},${IDEMenuHelpAbout},,Help menu item for actual About
 IDEMenu_Help_Licenses,Licenses,Licenses,,Help menu item for licenses
 IDEMenu_Help_OpenInExplorer,${OpenProjectInExplorer},${OpenProjectInExplorer},,Help menu item for opening the explorer window at the current project's location
 IDEMenu_Help_LogFile,${ShowLogFileInExplorer},${ShowLogFileInExplorer},,Help menu item for taking the user to the log file location
@@ -977,6 +983,7 @@ Marketplace_Package_ImportDesc,Select resources from the asset package and add t
 Marketplace_Package_ImportNoProject,You must first open a project to import resources into,You must first open a project to import resources into,,marketplace package import no project open message
 Marketplace_Package_ExportNoResources,You must include at least one resource,You must include at least one resource,,package export no resources selected message
 Marketplace_Package_ImportToNewProject,Import all resources to a new project,Import all resources to a new project,,package import new project
+Marketplace_Package_ResourceImportError,Some resources failed to import - see output window for details,Some resources failed to import - see output window for details,,resource import error message
 Marketplace_CheckForUpdates,Check For Updates,Check For Updates,,check for updates button label
 Marketplace_Updating,Updating...,Updating...,,marketplace updating label
 Marketplace_WindowTitle,Marketplace,Marketplace,,Marketplace webview window title
@@ -1227,12 +1234,12 @@ RoomEditor_GridSnapX,Snap X:,Snap X:,,room editor toolbar grid horizontal snap n
 RoomEditor_GridSnapY,Snap Y:,Snap Y:,,room editor toolbar grid vertical snap numeric textbox caption
 RoomEditor_Inherit,Inherit,Inherit,,Inherit button caption
 RoomEditor_InheritCode,Inherit Creation Code,Inherit Creation Code,,Tooltip for the button which sets if this room inherits its creation code from the parent
-RoomEditor_InheritEditorSettings,Inherit Editor Settings,Inherit Editor Settings,,Inherit button tool tip caption for editor settings
-RoomEditor_InheritPhysicsSettings,Inherit Physics Settings,Inherit Physics Settings,,Inherit button tool tip caption for physics settings
+RoomEditor_InheritEditorSettings,Inherit Editor Properties,Inherit Editor Properties,,Inherit button tool tip caption for editor settings
+RoomEditor_InheritPhysicsSettings,Inherit Physics Properties,Inherit Physics Properties,,Inherit button tool tip caption for physics settings
 RoomEditor_InheritRoomSettings,Inherit Room Settings,Inherit Room Settings,,Inherit button tool tip caption for room settings
 RoomEditor_InheritSubLayers,Inherit Sub Layers,Inherit Sub Layers,,Context menu option for inheriting sub layers from the parent layer
 RoomEditor_InheritView,Inherit View,Inherit View,,inherit toggle button caption for a single view entry
-RoomEditor_InheritViewSettings,Inherit View Settings,Inherit View Settings,,Inherit button tool tip caption for view settings
+RoomEditor_InheritViewSettings,Inherit View Properties,Inherit View Properties,,Inherit button tool tip caption for view settings
 RoomEditor_InheritVisibility,Inherit Layer Visibility,Inherit Layer Visibility,,Context menu entry for whether a layer should inherit visibility state
 RoomEditor_InstanceProperties,Instance: {0},Instance: {0},,Instance properties window title
 RoomEditor_KeepAllChildLayers,Keep All,Keep All,,layer delete confirm dialog message for the keep all button
@@ -1949,11 +1956,14 @@ ggs_certificate_install,Install,Install,,Install Certificate
 ggs_win8_logo_foreground_light,Light,Light,,Light foreground text on Windows 8 logo
 ggs_win8_logo_foreground_dark,Dark,Dark,,Dark foreground text on Windows 8 logo
 Edit,Edit,Edit,,Edit label
-ggs_ps_package_id,Package Content Id,Package Content Id,,Package Content Id
+ggs_ps_package_id,Package Content ID,Package Content ID,,Package Content Id
 ggs_ps_passcode,Package Passcode,Package Passcode,,Package Passcode
 ggs_mac_provision_refresh,Refresh from Mac,Refresh from Mac,,Refresh provisioning list from Mac
 ggs_ps4_param_sfo,PARAM.SFO,PARAM.SFO,,Run Sony PARAM.SFO Editor
+ggs_ps4_np_title_dat,NPTITLE.DAT,NPTITLE.DAT,,Import nptitle.dat
 ggs_ps4_trophy_edit,Trophy Editor,Trophy Editor,,Run Sony Trophy Editor
+ggs_ps4_share_param,Share Editor,Share Editor,,Run Sony Share File Editor
+ggs_ps4_voice_recognition,Voice Recognition,Voice Recognition,,import pronunciation
 ggs_build_tools,Build Tools,Build Tools,,Build Tools
 ggs_package_name,Package Name,Package Name,,Package Name
 ggs_target_sdk,Target SDK,Target SDK,,Target SDK
@@ -2090,7 +2100,7 @@ ggs_allow_fullscreen,Allow fullscreen switching,Allow fullscreen switching,,Allo
 ggs_centre_game_in_browser,Centre game in browser window,Centre game in browser window,,Centre game in Browser window
 ggs_use_builtin_particles,Use built-in particles,Use built-in particles,,Use Built-in Particles
 ggs_bundlename,Bundle Name,Bundle Name,,Bundle Name
-ggs_bundle_id,Bundle Id,Bundle Id,,Bundle Id
+ggs_bundle_id,Bundle ID,Bundle ID,,Bundle Id
 ggs_provisioning_certificate,Provisioning Certificate,Provisioning Certificate,,Provisioning Certificate
 ggs_maintainer_email,Maintainer Email,Maintainer Email,,Maintainer Email
 ggs_half_ipad1_textures,Halve iPad 1 texture sizes,Halve iPad 1 texture sizes,,Half iPad 1 Texture Sizes
@@ -2122,23 +2132,23 @@ ggs_author,Author,Author,,Author
 ggs_lastchanged,Last Changed,Last Changed,,Last Changed
 ggs_information,Information,Information,,Information
 ggs_enable_source_control,Enable source control,Enable source control,,Enable Source Control
-ggs_content_id,Package Content Id,Package Content Id,,Package Content Id
+ggs_content_id,Package Content ID,Package Content ID,,Package Content Id
 ggs_passcode,Passcode,Passcode,,Passcode
 ggs_save_data_icon,Save Data Icon,Save Data Icon,,Save Data Icon
 ggs_trophy_screen,Trophy Screen,Trophy Screen,,Trophy Screen
 ggs_display_cursor_when_touchpad_active,Display cursor when touchpad is active,Display cursor when touchpad is active,,Display Cusor when Touchpad Active
 ggs_product,Product,Product,,Product
-ggs_product_id,Product Id,Product Id,,Product Id
+ggs_product_id,Product ID,Product ID,,Product Id
 ggs_company,Company,Company,,Company
 ggs_description,Description,Description,,Description
 ggs_enable_front_touch,Enable Front Touch,Enable Front Touch,,Enable Front Touch
 ggs_enable_rear_touch,Enable Rear Touch,Enable Rear Touch,,Enable Rear Touch
 ggs_network_urls,Network URLs,Network URLs,,Network URLs
 ggs_use_sandbox,Use Sandbox,Use Sandbox,,Use Sandbox
-ggs_item_group_id,Item Group Id,Item Group Id,,Item Group Id
+ggs_item_group_id,Item Group ID,Item Group ID,,Item Group Id
 ggs_publisher,Publisher,Publisher,,Publisher
 ggs_publisher_display_name,Publisher Display Name,Publisher Display Name,,Publisher Display Name
-ggs_publisher_id,Publisher Id,Publisher Id,,Publisher Id
+ggs_publisher_id,Publisher ID,Publisher ID,,Publisher Id
 ggs_package_display_name,Package Display Name,Package Display Name,,Package Display Name
 ggs_native_target,Native CPU Target,Native CPU Target,,Native CPU Target
 ggs_windows_target_platform_version,Windows Target Platform Version,Windows Target Platform Version,,Windows Target Platform Version
@@ -2190,8 +2200,8 @@ ggs_iconic_background_colour,Iconic Background Colour,Iconic Background Colour,,
 ggs_iconic_message,Iconic Message,Iconic Message,,Iconic Message
 ggs_ratings_xml,Ratings XML,Ratings XML,,Ratings XML
 ggs_languages_xml,Languages XML,Languages XML,,Languages XML
-ggs_title_id,Title Id,Title Id,,Title Id
-ggs_service_configuration_id,Service Configuration Id,Service Configuration Id,,Service Configuration Id
+ggs_title_id,Title ID,Title ID,,Title Id
+ggs_service_configuration_id,Service Configuration ID,Service Configuration ID,,Service Configuration Id
 ggs_require_xbox_live,Require Xbox Live,Require Xbox Live,,Require Xbox Live
 ggs_require_game_chat,Require game chat,Require game chat,,Require Game Chat
 ggs_require_audio_recording,Require audio recording,Require audio recording,,Require Audio Recording
@@ -2211,6 +2221,7 @@ ggs_wide6_cycle_image,Wide Cycle Image 6,Wide Cycle Image 6,,Wide Cycle Image 6
 ggs_wide7_cycle_image,Wide Cycle Image 7,Wide Cycle Image 7,,Wide Cycle Image 7
 ggs_wide8_cycle_image,Wide Cycle Image 8,Wide Cycle Image 8,,Wide Cycle Image 8
 ggs_wide9_cycle_image,Wide Cycle Image 9,Wide Cycle Image 9,,Wide Cycle Image 9
+ggs_copy_runner_to_dest,Copy exe to output folder,Copy exe to output folder,,Copy exe to output folder
 Import,Import,Import,,Import
 Convert,Convert,Convert,,Convert
 movedegreerange_description,Workspace keyboard navigation degree range,Workspace keyboard navigation degree range,,Description for degree range of moving a window
@@ -2465,6 +2476,7 @@ TargetSelection_Device_Simulator_iPhone6SPlus,Simulator - iPhone 6 Plus,Simulato
 TargetSelection_Device_Editor,Device Editor,Device Editor,,the device editor window title
 TargetSelection_Device_Editor_Tooltop,Open Device Editor,Open Device Editor,,the device editor button tooltip
 TargetSelection_Device_Editor_Cancel,"This will lose any unapplied changes you have made - do you want to continue?","This will lose any unapplied changes you have made - do you want to continue?",,Cancelling the device manager does this
+TargetSelection_Worker_Local,Local,Local,,Local worker target
 DnDModule_ToolboxWindow,Toolbox,Toolbox,,The Drag and Drop™ toolbox when in a standalone window
 DnDModule_CodeOutputWindow,Equivalent Code,Equivalent Code,,The Drag and Drop™ equivalent code window for nodes
 DnDModule_Toolbox_Title,Toolbox,Toolbox,,The toolbox title when docked
@@ -2626,7 +2638,8 @@ keystore_invalid_country,Invalid characters in country,Invalid characters in cou
 keystore_small_pass,Password must be longer than 5 characters,Password must be longer than 5 characters,,Password must be longer than 5 characters
 keystore_jdk_error,JDK not installed correctly at location entered in Android Platform Settings,JDK not installed correctly at location entered in Android Platform Settings,,JDK install error
 keystore_show_error,Could not process Keystore; may be corrupt or have incorrect password,Could not process Keystore; may be corrupt or have incorrect password,,Keystore error during processing
-keystore_small_alias,Alias must be longer than 5 characters,Alias must be longer than 5 characters,,Alias must be longer than 5 characters
+keystore_small_alias,Alias password must be longer than 5 characters,Alias password must be longer than 5 characters,,Alias password must be longer than 5 characters
+keystore_invalid_alias_password,Invalid characters in alias password,Invalid characters in alias password,,Invalid characters in alias password
 GMXTextureGroup_BadId,The Texture Group for sprite '{0}' is invalid - setting to Default Texture Group instead,The Texture Group for sprite '{0}' is invalid - setting to Default Texture Group instead,,Error message on importing that a sprite texture group is wrong
 ggs_enable_flurry,Enable Flurry Analytics,Enable Flurry Analytics,,Enable Flurry Analytics
 ggs_enable_google_analytics,Enable Google Analytics,Enable Google Analytics,,Enable Google Analytics
@@ -3762,7 +3775,7 @@ GMStdVar_xport,Viewport X Coordinate,Viewport X Coordinate,,DnD label
 GMStdVar_yport,Viewport Y Coordinate,Viewport Y Coordinate,,DnD label
 GMStdVar_wport,Viewport Width,Viewport Width,,DnD label
 GMStdVar_hport,Viewport Height,Viewport Height,,DnD label
-GMStdVar_surfaceid,Viewport Surface Id,Viewport Surface Id,,DnD label
+GMStdVar_surfaceid,Viewport Surface ID,Viewport Surface ID,,DnD label
 GMStdCatBuffers,Buffers,Buffers,,DnD™
 GMStdEvent,Event,Event,,DnD™
 GMStdPerStep,Per Step,Per Step,,DnD™
@@ -4127,7 +4140,7 @@ Debugger_Buffer_float64,64-bit Floating Point,64-bit Floating Point,,Buffer view
 Debugger_Buffer_hex,Hex,Hex,,Buffer view type
 Debugger_Buffer_signed,Signed,Signed,,Buffer view type
 Debugger_Buffer_unsigned,Unsigned,Unsigned,,Buffer view type
-Debugger_Buffer_Id,Buffer Id,Buffer Id,,Buffer id label
+Debugger_Buffer_Id,Buffer ID,Buffer ID,,Buffer id label
 Debugger_Buffer_Columns,Columns,Columns,,Buffer columns label
 Debugger_Buffer_Type,Type: {0},Type: {0},,Buffer type label
 Debugger_Buffer_Size,Size: {0},Size: {0},,Buffer size label
@@ -4506,6 +4519,8 @@ Views_Menu_Recent_Windows,Recent Windows,Recent Windows,,Recent activated window
 Developer_Menu_Title,Developer,Developer,,Title of the main Developer menu
 HideGameMaker_Menu_Title,Hide GameMaker Studio 2,Hide GameMaker Studio 2,,Hide GameMaker menu entry for Mac
 HideOthers_Menu_Title,Hide Others,Hide Others,,Hide others menu entry for Mac
+ShowAll_Menu_Title,Show All,Show All,,Show all windows menu entry for Mac
+BringAllToFront_Menu_Title,Bring All To Front,Bring All To Front,,Bring all windows to front menu entry for Mac
 Project_Error,Project Error,Project Error,,Error in Project
 Project_Error_No_Rooms,No rooms found - you need at least one room to run.,No rooms found - you need at least one room to run.,,No rooms error message
 RecentWindows_ActiveWindowsOnly,Display only currently open windows,Display only currently open windows,,Only show active windows preference
@@ -4713,6 +4728,7 @@ Options_PS4ToolsSetupError,PlayStation 4 Tools Missing,PlayStation 4 Tools Missi
 Options_PS4ToolsSetupTrophyMessage,"Unable to find PlayStation 4 trophy editor, please update your tools directory","Unable to find PlayStation 4 trophy editor, please update your tools directory",,error message when failed to find the trophy editor
 Options_PS4ToolsPreference,Go to PlayStation 4 settings,Go to PlayStation 4 settings,,button message to take user to PS4 preferences
 Options_PS4ToolsSetupParamSFOMessage,"Unable to find PlayStation 4 param.sfo editor, please update your tools directory","Unable to find PlayStation 4 param.sfo editor, please update your tools directory",,error message when failed to find the param.sfo editor
+Options_PS4ToolsSetupShareParamMessage,"Unable to find PlayStation 4 share file editor, please update your tools directory","Unable to find PlayStation 4 share file editor, please update your tools directory",,error message when failed to find the param.sfo editor
 BreakpointManager_Script,Script: {0},Script: {0},,breakpoint manager caption for a script
 BreakpointManager_Object,Object: {0}: {1},Object: {0}: {1},,breakpoint manager caption for an object event
 BreakpointManager_Timeline,Timeline: {0}: moment {1},Timeline: {0}: moment {1},,breakpoint manager caption for a timeline moment
@@ -4772,7 +4788,7 @@ Notification_Runtimes,Runtimes,Runtimes,,notification title
 Notification_Surveys,Surveys,Surveys,,notification title
 Notification_Tutorials,Tutorials,Tutorials,,notification title
 Notification_Demos,Demos,Demos,,notification title
-ConversionLog_SteamID,"Detected a {0} Steam App Id: The Steam App ID is now in one place - Main Options, please ensure it is correct","Detected a {0} Steam App Id: The Steam App ID is now in one place - Main Options, please ensure it is correct",,conversion log for steam app - param 0 platform (windows/mac/linux)
+ConversionLog_SteamID,"Detected a {0} Steam App ID: The Steam App ID is now in one place - Main Options, please ensure it is correct","Detected a {0} Steam App ID: The Steam App ID is now in one place - Main Options, please ensure it is correct",,conversion log for steam app - param 0 platform (windows/mac/linux)
 ConversionLog_Windows,Windows,Windows,,conversion log windows platform
 ConversionLog_Mac,Mac,Mac,,conversion log mac platform
 ConversionLog_Linux,Linux,Linux,,conversion log linux platform
@@ -4868,6 +4884,21 @@ RoomEditor_InheritTileLayerToolTip,Inherit Tile Properties,Inherit Tile Properti
 RoomEditor_InheritPathToolTip,Inherit Path Properties,Inherit Path Properties,,tooltip for inherit path properties
 RoomEditor_InheritLayersToolTip,Inherit Layers,Inherit Layers,,tooltip for inherit layers
 Error_InvalidProjectName,The project name '{0}' contains the following unsupported characters: '{1}'.\nPlease try a different name.,The project name '{0}' contains the following unsupported characters: '{1}'.\nPlease try a different name.,,Error that the user has chosen a project name that won't work on Windows
+Addon_AmazonFireFailedPlatformCheckMessage,"This addon requires the Amazon Fire or Mobile licenses.\nDo you want to go to your account to check your availability of these?","This addon requires the Amazon Fire or Mobile licenses.\nDo you want to go to your account to check your availability of these?",,Message to display when the Amazon Fire addon fails the platform check
 RuntimeTarget_Error,Error with Runtime,Error with Runtime,,Error about the current active Runtime
 RuntimeTarget_LowerThanBaseline,The current runtime ({0}) is lower than the baseline required ({1}).\nPlease update your runtime to {1} or higher.,The current runtime ({0}) is lower than the baseline required ({1}).\nPlease update your runtime to {1} or higher.,,Message to tell user to update their runtime
-Addon_AmazonFireFailedPlatformCheckMessage,"This addon requires the Mobile license.\nDo you want to go to your account to view your licenses?","This addon requires the Mobile license.\nDo you want to go to your account to view your licenses?",,Message to display when the Amazon Fire addon fails the platform check
+Notification_Renewals,Licence Renewal,Licence Renewal,,the notification category for licence renewals
+Notification_RenewalDays,Your {0} licence is due to expire in under {1} days\nRenew now for uninterrupted access to your product,Your {0} licence is due to expire in under {1} days\nRenew now for uninterrupted access to your product,,one week message
+Notification_RenewalWeeks,Your {0} licence is due to expire in under {1} weeks\nRenew now for uninterrupted access to your product,Your {0} licence is due to expire in under {1} weeks\nRenew now for uninterrupted access to your product,,several weeks message
+RenewalNotification_Renew,Renew,Renew,,renew button label
+FileFilters_Pronunciation,Pronunciation Files,Pronunciation Files,,pronunciation.xml file dialog
+Error_PS4PronunciationMissingSig,Unable to find matching pronunciation.sig file \nVoice recognition files will not be imported,Unable to find matching pronunciation.sig file \nVoice recognition files will not be imported,,error message when the prnunciation.sig is missing
+
+ide_cache_location,IDE cache directory,IDE cache directory,,IDE cache directory path
+deleteidecacheonquit,Automatically delete ide cache directory on close,Automatically delete ide cache directory on close,,Automatically delete the ide cache directory on close
+deleteidecache,Delete IDE Cache,Delete IDE Cache,,Delete the IDE cache now
+sync_preferences,Synchronise Preferences,Synchronise Preferences,,Synchronise preferences label
+preferences_copyfromandroid,Sync from Android,Sync from Android,,Sync settings from Android
+preferences_copyfromamazon,Sync from Amazon Fire,Sync from Amazon Fire,,Sync settings from Amazon
+preferences_copyfromandroid_label,Copy settings from Android,Copy settings from Android,,Copy settings from Android
+preferences_copyfromamazon_label,Copy settings from Amazon Fire,Copy settings from Amazon Fire,,Copy settings from Amazon Fire

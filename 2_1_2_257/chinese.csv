@@ -1,7 +1,7 @@
-﻿Name,English,Translation,Restrictions,Comment
+Name,English,Translation,Restrictions,Comment
 __Priority,0,0,,Order of language importance. Allows other packs to supplement or replace sections
 _Argument0,{0},{0},,single unlocalised argument
-_Error,Error: {0},Error: {0},,General error prefix
+_Error,Error: {0},错误: {0},,General error prefix
 _Language,English,Chinese,,Language name - in English
 _LanguageNative,English,中文,,Language name in the native language
 _LanguageCode,en,zh-CN,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
@@ -192,7 +192,7 @@ DialogEditor_RevertStyleToOriginal,Revert Style To Original State,还原最初�
 DialogEditor_RGBATextEntry,RGBA Input,RGBA 输入,,layout hierarchy label for the RGBA input boxes
 DialogEditor_RowSplitter,Grid Row Splitter,网格行分隔线,,Layout Heirarchy heading for a grid row splitter
 DialogEditor_SaveAllStyles,Save All Styles,保存所有样式,,Menu option to save all open styles to file
-DialogEditor_SaveAsLayout,Save Layout As...,布局另存为...,,Dialog editor save as layout menu entry
+DialogEditor_SaveAsLayout,Save Layout As...,布局另存为……,,Dialog editor save as layout menu entry
 DialogEditor_SaveFailed,Dialog Editor: Save failed due to error: {0} - {1},对话框编辑器:由于错误而保存失败:{0} - {1},,lop propmt for user to indicate the save failed
 DialogEditor_SaveLayout,Save Layout,保存布局,,Dialog editor save layout menu entry
 DialogEditor_SaveStyle,Save Style,保存样式,,Menu option to save a style to file
@@ -993,12 +993,12 @@ MPackage_AssetDisplayName,Display name,显示名称,,marketplace asset display n
 MPackage_DisplayNameInvalid,Display name is invalid,显示名称无效,,marketplace package display name error
 MPackage_DisplayNameRestrictions,Display name restrictions,显示名称限制,,package display name restrictions label
 MPackage_DisplayNameRule1,- Must be between 5 and 30 characters long,- 必须在5-30字符之间,,asset create restriction label
-MPackage_DisplayNameRule2,#NAME?,=- 必须以字母打头,,asset create restriction label
-MPackage_DisplayNameRule3,#NAME?,=- 只能包含字母、数字、连字符及下划线,,asset create restriction label
+MPackage_DisplayNameRule2,#NAME?,#NAME?,,asset create restriction label
+MPackage_DisplayNameRule3,#NAME?,#NAME?,,asset create restriction label
 MPackage_PackageIdRestrictions,Package ID Restrictions,程序包ID限制,,asset create restriction label
-MPackage_PackageIdRule1,=- Must be in the format com.companyname.assetname,=- 必须按照com.companyname.assetname的格式,,asset create restriction label
-MPackage_PackageIdRule2,=- Cannot contain spaces,=- 不能包含空格,,asset create restriction label
-MPackage_PackageIdRule3,=- Company and asset names May contain letters and numbers,=- 公司和资源名称只能包含字母和数字,,asset create restriction label
+MPackage_PackageIdRule1,#NAME?,#NAME?,,asset create restriction label
+MPackage_PackageIdRule2,#NAME?,#NAME?,,asset create restriction label
+MPackage_PackageIdRule3,#NAME?,#NAME?,,asset create restriction label
 MPackage_NewPackageInfo_Other,IMPORTANT: The package ID cannot be changed once your asset has been created.,重要:一旦你的物品创建了程序包的ID便不能更改.,,create asset warning label
 MPackage_UploadedMessage,Uploaded package '{0}' version {1}\nGo to the asset listing page?,上传程序包 '{0}' 版本 {1}\n 转到物品清单页面？,,mplace package uploaded message
 MPackage_UploadFailed,Package upload failed: {0},程序包上传失败:{0},,mplace package upload failed message
@@ -1215,8 +1215,8 @@ RoomEditor_AddRootLayer,Add Layer,添加层,,context sub menu heading for adding
 RoomEditor_AllLayers,All,所有,,Layers label next to the set all layers locked/visible checkboxes
 RoomEditor_ConfirmDeleteInstances,Are you sure you want to delete the following items (Note: Instance creation code will be irrevocably lost): {0},你确定要删除下面的项目吗（注意:创建实例的代码将会不可挽回的失去）: {0},,Confirm delete instances
 RoomEditor_ConfirmDeleteLayers,Are you sure you want to delete the following layers (Note: Instance creation code will be irrevocably lost): {0},你确定删除以下层吗（注:创建实例的代码将会不可挽回的失去）: {0},,Confirm delete layers
-RoomEditor_ConfirmDeleteParentItems,Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0},尝试从父房间里删除项目（注:创建实例的代码将会不可挽回的失去）.\n删除全部:删除子房间的匹配项目\n保持全部:保持所有子房间的项目不变\n保持更好:保持子房间其中重写父房间的项目不变\n直接子房间?: {0},,layer delete confirm dialog message explaining the child layer deletion options
-RoomEditor_ConfirmDeleteParentLayers,Attempting to delete layers from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching layers from child rooms\nKeep All: Keep all child room layers\nKeep Changed: Keep child room layers which have overridden the parent\nImmediate Children: {0},尝试从父房间里删除层（注:创建实例的代码将会不可挽回的失去）.\n删除全部:删除子房间的匹配的层\n保持全部:保持所有子房间的层不变\n保持更改:保持子房间其中重写父房间的层不变\n直接子房间?: {0},,layer delete confirm dialog message explaining the child layer deletion options
+RoomEditor_ConfirmDeleteParentItems,Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0},尝试从父房间里删除项目（注:创建实例的代码将会不可挽回的失去）.\n删除全部:删除子房间的匹配项目\n保持全部:保持所有子房间的项目不变\n保持更好:保持子房间其中重写父房间的项目不变\n直系子房间: {0},,layer delete confirm dialog message explaining the child layer deletion options
+RoomEditor_ConfirmDeleteParentLayers,Attempting to delete layers from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching layers from child rooms\nKeep All: Keep all child room layers\nKeep Changed: Keep child room layers which have overridden the parent\nImmediate Children: {0},尝试从父房间里删除层（注:创建实例的代码将会不可挽回的失去）.\n删除全部:删除子房间的匹配的层\n保持全部:保持所有子房间的层不变\n保持更改:保持子房间其中重写父房间的层不变\n直系子房间: {0},,layer delete confirm dialog message explaining the child layer deletion options
 RoomEditor_DeleteAllChildLayers,Delete All,删除全部,,layer delete confirm dialog message for the delete all button
 RoomEditor_DeleteLayer,Delete Layer,删除层,,context menu option for deleting a layer
 RoomEditor_RenameLayer,Rename Layer,重命名层,,context menu option for renaming a layer
@@ -1760,11 +1760,11 @@ ResourceTree_Filter, Filter Tree,树状图筛选器,, 'Filter Tree' checkbox lab
 ResourceTree_WholeWord, Whole Word,全词匹配,, 'Whole Word' checkbox label
 ResourceTree_FindNext, Find Next,查找下一个,, 'Find Next' button label
 ResourceTree_FindPrevious, Find Previous,查找上一个,, 'Find Previous' button label
-ResourceTree_SearchResources,Search...,搜索...,, default contents of the resource tree search resources box
+ResourceTree_SearchResources,Search...,搜索……,, default contents of the resource tree search resources box
 ResourceTree_SearchOptions,Search Options,搜索选项,,Additional Search Options
-SearchInScript_Search,Find...,查找...,,Search in Script Search default box text
-SearchInScript_Replace,Replace...,替换...,,Search in Script Replace default box text
-SearchInScript_SelectionOnly,Selection Only,选择仅有,,Search in Script Selection Only
+SearchInScript_Search,Find...,查找……,,Search in Script Search default box text
+SearchInScript_Replace,Replace...,替换……,,Search in Script Replace default box text
+SearchInScript_SelectionOnly,Selection Only,仅所选部分,,Search in Script Selection Only
 DnD_Gadget_DirectionalInput,Directional Input,方向输入,,DnD™ gadget for directional input
 DnD_Gadget_NumericInput,Numeric Input,数字输入,,DnD™ gadget for numeric input
 DnD_Gadget_ApplyTo,Apply To,应用于,,DnD™ gadget for applying to a specific object or instance
