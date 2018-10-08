@@ -23,6 +23,8 @@ $win_IDEMenuHelpAbout,About,About,,Windows version of the About main menu entry
 $mac_IDEMenuHelpAbout,About GameMaker Studio 2,About GameMaker Studio 2,,Windows version of the About main menu entry
 $win_IDEMenuViews,Windows,Windows,,Windows version of the views menu entry
 $mac_IDEMenuViews,Window,Window,,Mac version of the views menu entry
+$win_LaptopRHSKeys,Right Control and Right Alt,Right Control and Right Alt,,Windows version of laptop mode keys
+$mac_LaptopRHSKeys,Right Command and Right Alt,Right Command and Right Alt,,Mac version of laptop mode keys
 Account_Menu_Login,Login,Login,,"Account menu ""Login"""
 Account_Menu_Logout,Logout,Logout,,"Acount menu ""Logout"""
 Account_Menu_ManageAccount,Manage Account,Manage Account,,"Account menu ""Account"""
@@ -599,6 +601,7 @@ IDETooltip_NewProject,New Project (${show_new_projects_page}),New Project (${sho
 IDETooltip_OpenProject,Open Project (${load_project_dialog}),Open Project (${load_project_dialog}),,IDE toolbar tooltip
 IDETooltip_Save,Save Project (${menu_save_project_incremental}),Save Project (${menu_save_project_incremental}),,IDE toolbar tooltip
 IDETooltip_Package,Create Executable (${package_program}),Create Executable (${package_program}),,IDE toolbar tooltip
+IDETooltip_Package_FreeDisabled,Create Executable (not available with Trial Licence),Create Executable (not available with Trial Licence),,IDE toolbar tooltip
 IDETooltip_Debug,Debug (F6),Debug (F6),,IDE toolbar tooltip
 IDETooltip_Run,Run (F5),Run (F5),,IDE toolbar tooltip
 IDETooltip_Stop,Stop,Stop,,IDE toolbar tooltip
@@ -1367,6 +1370,7 @@ Run_Menu_RunDebug,Debug,Debug,,"Run menu ""Debug"""
 remote_worker_error,Error,Error,,Error Connecting to Remote Worker Dialog Title
 remote_worker_error_connecting,Could not connect to Remote Worker.  Please check your setup and try again.,Could not connect to Remote Worker.  Please check your setup and try again.,,Error Connecting to Remote Worker Dialog Contents
 remote_worker_error_no_name,Remote Worker was left blank.  Please name your Remote Worker and try again.,Remote Worker was left blank.  Please name your Remote Worker and try again.,,Error Connecting to Remote Worker Dialog Contents
+remote_worker_error_invalid_name,'{0}' cannot be used as a name for the Remote Worker. Please enter a new name and try again.,'{0}' cannot be used as a name for the Remote Worker. Please enter a new name and try again.,,Remote worker invalid name
 Saving,Saving...,Saving...,,Saving
 SCM_Add_Path,Add Path,Add Path,,Add a path to the SCM
 SCM_Clone,Clone Repository,Clone Repository,,Clone a Source Control Repository
@@ -1528,7 +1532,8 @@ SpriteEditor_CollisionMask,Collision Mask,Collision Mask,,Sprite editor collisio
 SpriteEditor_CollisionMaskTimeline,Collision Mask:,Collision Mask:,,Sprite editor collision mask caption in timeline
 SpriteEditor_ColPrecise,Precise (Slow),Precise (Slow),,Sprite editor collision type
 SpriteEditor_ColPrecise_Separate,Precise Per Frame (Slow),Precise Per Frame (Slow),,Sprite editor collision mask type
-SpriteEditor_ColRectangle,Rectangle (Fast),Rectangle (Fast),,Sprite editor collision type
+SpriteEditor_ColRectangle,Rectangle,Rectangle,,Sprite editor collision type
+SpriteEditor_ColRectangleRotation,Rectangle with rotation,Rectangle with rotation,,Sprite editor collision type
 SpriteEditor_ColMaskAutomatic,Automatic,Automatic,,Sprite editor automatic collision mask
 SpriteEditor_ContextMenu_AddFrame,Add Frame,Add Frame,,Sprite editor frame context menu
 SpriteEditor_ContextMenu_Copy,Copy,Copy,,Sprite editor frame context menu
@@ -1738,7 +1743,7 @@ User_Authentication,Two Step Authentication,Two Step Authentication,,User Login 
 User_OK,OK,OK,,User Login - two step authentication ok button
 User_AuthenticationCode,Authentication Code,Authentication Code,,User Login - two step authentication label for the authentication code
 UserLogin_Retry,Retry,Retry,,User Login - Error Retry
-UserLogin_MaxDevice,Maximum logins exceeded \nYou can manage your account sessions at account.yoyogames.com,Maximum logins exceeded \nYou can manage your account sessions at account.yoyogames.com,,User Login Error response 29
+UserLogin_MaxDevice,Maximum logins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,Maximum logins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,,User Login Error response 29
 UserLogin_Error34,Invalid session (User),Invalid session (User),,User Login Error response 34
 UserLogin_Error36,Two-step login required,Two-step login required,,User Login Error response 36
 UserLogin_Error37,Required fields missing,Required fields missing,,User Login Error response 37
@@ -1755,6 +1760,7 @@ UserLogin_Error99,Errors creating session,Errors creating session,,User Login Er
 UserLogin_Error88,Please complete your profile to continue.,Please complete your profile to continue.,,User Login Error response 88 (profile incomplete)
 UserLogin_EditProfile,Update Profile,Update Profile,,user login edit profile button
 UserLogin_ProfileIncomplete,Profile Incomplete,Profile Incomplete,,user login incomplete profile title
+UserLogin_NoRuntime,"Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker Studio 2 again.","Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker Studio 2 again.",,user login no runtime message
 Validate_MaxLength,{0} - Length should be less than {1},{0} - Length should be less than {1},,Failed validation by passing an object whose length is too long
 Validate_MinLength,{0} - Length should be greater than {1},{0} - Length should be greater than {1},,Failed validation by passing an object whose length is too short
 Validate_MVCType,{0} - Object should be of type {2}{1},{0} - Object should be of type {2}{1},,Failed validation by passing an object of the wrong type
@@ -1931,6 +1937,29 @@ DnD_Gadget_Label,Label,Label,,DnD™ Label gadget localised name
 DnD_Gadget_StackPanel,Stack Panel,Stack Panel,,DnD™ Stack Panel gadget localised name
 DnD_Gadget_Grid,Grid,Grid,,DnD™ Grid gadget localised name
 DnD_Gadget_MKConstantSelector,Mouse & Key Selector,Mouse & Key Selector,,DnD™ gadget localised name
+kbv_type_default,Default,Default,,Default virtual keyboard type
+kbv_type_ascii,ASCII,ASCII,,ASCII virtual keyboard type
+kbv_type_url,URL,URL,,URL virtual keyboard type
+kbv_type_email,Email,Email,,Email virtual keyboard type
+kbv_type_numbers,Numbers,Numbers,,Numbers virtual keyboard type
+kbv_type_phone,Phone,Phone,,Phone virtual keyboard type
+kbv_type_phone_name,Alphanumeric,Alphanumeric,,Phone name virtual keyboard type
+kbv_returnkey_default,Default,Default,,Return key type of virtual keyboard
+kbv_returnkey_go,Go,Go,,Return key type of virtual keyboard
+kbv_returnkey_google,Google,Google,,Return key type of virtual keyboard
+kbv_returnkey_join,Join,Join,,Return key type of virtual keyboardG
+kbv_returnkey_next,Next,Next,,Return key type of virtual keyboard
+kbv_returnkey_route,Route,Route,,Return key type of virtual keyboard
+kbv_returnkey_search,Search,Search,,Return key type of virtual keyboard
+kbv_returnkey_send,Send,Send,,Return key type of virtual keyboard
+kbv_returnkey_yahoo,Yahoo,Yahoo,,Return key type of virtual keyboard
+kbv_returnkey_done,Done,Done,,Return key type of virtual keyboard
+kbv_returnkey_continue,Continue,Continue,,Return key type of virtual keyboard
+kbv_returnkey_emergency,Emergency,Emergency,,Return key type of virtual keyboard
+kbv_autocapitalize_none,None,None,,No autocapitalization
+kbv_autocapitalize_words,Words,Words,,Words autocapitalization
+kbv_autocapitalize_sentences,Sentences,Sentences,,Sentence autocapitalization
+kbv_autocapitalize_characters,Characters,Characters,,Character autocapitalization
 Tutorial_Install_NoTutorials,Failed to find any tutorials in the installed package,Failed to find any tutorials in the installed package,,tutorial install error message
 Tutorial_Install_Complete,Tutorial install complete!,Tutorial install complete!,,tutorial install complete message
 Tutorial_Menu_OpenInBrowser,Open in browser,Open in browser,,tutorial context menu entry
@@ -2058,6 +2087,9 @@ ggs_build_armv5,Build for Armv5,Build for Armv5,,Build for Armv5
 ggs_build_armv7,Build for Armv7,Build for Armv7,,Build for Armv7
 ggs_build_x86,Build for x86,Build for x86,,Build for x86
 ggs_build_mips,Build for Mips,Build for Mips,,Build for Mips
+ggs_build_mips64,Build for Mips64,Build for Mips64,,Build for Mips64
+ggs_build_x86_64,Build for x86_64,Build for x86_64,,Build for x86_64
+ggs_build_arm64,Build for Arm64,Build for Arm64,,Build for Arm64
 ggs_landscape_orientation,Allow landscape orientation,Allow landscape orientation,,Allow Landscape Orientation
 ggs_portrait_orientation,Allow portrait orientation,Allow portrait orientation,,Allow Portrait Orientation
 ggs_flipped_landscape_orientation,Allow flipped landscape orientation,Allow flipped landscape orientation,,Allow Flipped Landscape Orientation
@@ -2163,7 +2195,7 @@ ggs_app_output,App Output,App Output,,App Output
 ggs_team_id,Team Identifier,Team Identifier,,the macOS Option for team identifier
 ggs_team_id_tooltip,10 digit alpha-numeric identifier taken from your developer.apple.com/#/overview URL. If blank this will inherit the value set in Platform Options,10 digit alpha-numeric identifier taken from your developer.apple.com/#/overview URL. If blank this will inherit the value set in Platform Options,,Tooltip for signing identity
 ggs_signing_id,Signing Identifier,Signing Identifier,,Signing Identifier Label
-ggs_signing_id_tooltip,"To distribute your title outside of the Mac App Store macOS requires that your\npackage is codesigned. Please provide the signing identity that you wish to use\nhere: this should be a Developer ID Application identity and should be present\nin your Mac's login keychain certificates. Signing identities can be easily created\nin Xcode->Preferences->Accounts->Team->View Details->Developer ID\nApplication->Create. Signing identities will be matched so the default value\nshould be sufficient if you are only the member of one development team.\nLeave this field blank to skip codesigning.","To distribute your title outside of the Mac App Store macOS requires that your\npackage is codesigned. Please provide the signing identity that you wish to use\nhere: this should be a Developer ID Application identity and should be present\nin your Mac's login keychain certificates. Signing identities can be easily created\nin Xcode->Preferences->Accounts->Team->View Details->Developer ID\nApplication->Create. Signing identities will be matched so the default value\nshould be sufficient if you are only the member of one development team.\nLeave this field blank to skip codesigning.",,Tooltip for signing identity
+ggs_signing_id_tooltip,"To distribute your title outside of the Mac App Store macOS requires that your\npackage is codesigned. Please provide the signing identity that you wish to use\nhere: this should be a Developer ID Application identity and should be present\nin your Mac's login keychain certificates. Signing identities can be easily created\nin Xcode->Preferences->Accounts->Team->View Details->Developer ID\nApplication->Create. Signing identities will be matched so the default value\nshould be sufficient if you are only the member of one development team.","To distribute your title outside of the Mac App Store macOS requires that your\npackage is codesigned. Please provide the signing identity that you wish to use\nhere: this should be a Developer ID Application identity and should be present\nin your Mac's login keychain certificates. Signing identities can be easily created\nin Xcode->Preferences->Accounts->Team->View Details->Developer ID\nApplication->Create. Signing identities will be matched so the default value\nshould be sufficient if you are only the member of one development team.",,Tooltip for signing identity
 ggs_copyright,Copyright,Copyright,,Copyright
 ggs_allow_menu_dock_fullscreen,Allow menu and dock in fullscreen,Allow menu and dock in fullscreen,,Allow Menu and Dock in Fullscreen
 ggs_enable_retina,Enable Retina,Enable Retina,,Enable Retina
@@ -2183,7 +2215,7 @@ ggs_enable_source_control,Enable source control,Enable source control,,Enable So
 ggs_content_id,Package Content ID,Package Content ID,,Package Content Id
 ggs_passcode,Passcode,Passcode,,Passcode
 ggs_save_data_icon,Save Data Icon,Save Data Icon,,Save Data Icon
-ggs_trophy_screen,Trophy Screen,Trophy Screen,,Trophy Screen
+ggs_trophy_screen,Background Image,Background Image,,Trophy Screen
 ggs_display_cursor_when_touchpad_active,Display cursor when touchpad is active,Display cursor when touchpad is active,,Display Cusor when Touchpad Active
 ggs_product,Product,Product,,Product
 ggs_product_id,Product ID,Product ID,,Product Id
@@ -2954,6 +2986,7 @@ ExtensionEditor_ReturnType,ReturnType:,ReturnType:,,return type label
 ExtensionEditor_Arguments,Arguments:,Arguments:,,heading label
 ExtensionEditor_ExternalName,External Name:,External Name:,,external name label
 ExtensionEditor_IosProperties,Extension iOS Properties,Extension iOS Properties,,window title
+ExtensionEditor_TvosProperties,Extension tvOS Properties,Extension tvOS Properties,,window title
 ExtensionEditor_CompilerFlags,Compiler Flags:,Compiler Flags:,,compiler flags label
 ExtensionEditor_LinkerFlags,Linker Flags:,Linker Flags:,,linker flags label
 ExtensionEditor_ClassName,Class Name:,Class Name:,,class name label
@@ -3268,24 +3301,34 @@ GMStdGravDir_Name,"Set Gravity Direction","Set Gravity Direction",,Drag and Drop
 GMStdGravDir_Desc,"Set the gravitational direction.","Set the gravitational direction.",,Drag and Drop™ library action description
 GMStdGravForce_Name,"Set Gravity Force","Set Gravity Force",,Drag and Drop™ library action name
 GMStdGravForce_Desc,"Set the gravitational force.","Set the gravitational force.",,Drag and Drop™ library action description
+GMStdVKeyShow_Name,"Show Virtual Keyboard","Show Virtual Keyboard",,Drag and Drop™ library action name
+GMStdVKeyShow_Desc,"Display the virtual keyboard. Once the keyboard is shown, a System event of type ""keyboard status"" is raised.","Display the virtual keyboard. Once the keyboard is shown, a System event of type ""keyboard status"" is raised.",,Drag and Drop™ library action description
+GMStdVKeyHide_Name,"Hide Virtual Keyboard","Hide Virtual Keyboard",,Drag and Drop™ library action name
+GMStdVKeyHide_Desc,"Hide the virtual keyboard. Once the keyboard is hidden, a System event of type ""keyboard status"" is raised.","Hide the virtual keyboard. Once the keyboard is hidden, a System event of type ""keyboard status"" is raised.",,Drag and Drop™ library action description
+GMStdVKeyStatus_Name,"If Virtual Keyboard Showing","If Virtual Keyboard Showing",,Drag and Drop™ library action name
+GMStdVKeyStatus_Desc,"Check if the virtual keyboard is showing. If querying the status, a System event of type ""keyboard status"" is raised.","Check if the virtual keyboard is showing. If querying the status, a System event of type ""keyboard status"" is raised.",,Drag and Drop™ library action description
+GMStdVKeyHeight_Name,"Get Virtual Keyboard Height","Get Virtual Keyboard Height",,Drag and Drop™ library action name
+GMStdVKeyHeight_Desc,"Get the current pixel height of the virtual keyboard if it is visible.","Get the current pixel height of the virtual keyboard if it is visible.",,Drag and Drop™ library action description
 GMStdReverse_Name,"Reverse","Reverse",,Drag and Drop™ library action name
 GMStdReverse_Desc,"Reverse a direction from a list of presets.","Reverse a direction from a list of presets.",,Drag and Drop™ library action description
 GMStdFriction_Name,"Set Friction","Set Friction",,Drag and Drop™ library action name
 GMStdFriction_Desc,"Apply friction to the instance's movement.","Apply friction to the instance's movement.",,Drag and Drop™ library action description
 GMStdJumpPoint_Name,"Jump To Point","Jump To Point",,Drag and Drop™ library action name
 GMStdJumpPoint_Desc,"Jump to the specified position.","Jump to the specified position.",,Drag and Drop™ library action description
-GMStdJumpStart_Name,"Jump To Start","Jump To Start",,Drag and Drop™ library action name
+GMStdJumpStart_Name,"Jump To Start","Jump To Start",,Drag and Drop™ library action nameGM
 GMStdJumpStart_Desc,"Jump to the instance's start position.","Jump to the instance's start position.",,Drag and Drop™ library action description
 GMStdSnapPos_Name,"Snap Position","Snap Position",,Drag and Drop™ library action name
 GMStdSnapPos_Desc,"Snap an instance's position to a grid.","Snap an instance's position to a grid.",,Drag and Drop™ library action description
 GMStdWrapRoom_Name,"Wrap Around Room","Wrap Around Room",,Drag and Drop™ library action name
 GMStdWrapRoom_Desc,"Wrap around room.","Wrap around room.",,Drag and Drop™ library action description
-GMStdIfAnyObjAt_Name,"If Any Object At","If Any Object At",,Drag and Drop™ library action name
-GMStdIfAnyObjAt_Desc,"Check if an instance intersects any other instances at a position.","Check if an instance intersects any other instances at a position.",,Drag and Drop™ library action description
-GMStdIfObjAt_Name,"If Object At","If Object At",,Drag and Drop™ library action name
-GMStdIfObjAt_Desc,"Check if an instance intersects another instance at a position.","Check if an instance intersects another instance at a position.",,Drag and Drop™ library action description
+GMStdIfAnyObjAt_Name,"If Any Object At Place","If Any Object At Place",,Drag and Drop™ library action name
+GMStdIfAnyObjAt_Desc,"Check if an instance overlaps any object instances at a position.","Check if an instance overlaps any object instances at a position.",,Drag and Drop™ library action description
+GMStdIfObjAt_Name,"If Object At Place","If Object At Place",,Drag and Drop™ library action name
+GMStdIfObjAt_Desc,"Check if an instance overlaps one or more instances of a specific object at a position.","Check if an instance overlaps one or more instances of a specific object at a position.",,Drag and Drop™ library action description
 GMStdIfColShape_Name,"If Collision Shape","If Collision Shape",,Drag and Drop™ library action name
-GMStdIfColShape_Desc,"Check if an instance is intersecting a shape.","Check if an instance is intersecting a shape.",,Drag and Drop™ library action description
+GMStdIfColShape_Desc,"Check if one or more instances intersect a shape.","Check if one or more instances intersect a shape.",,Drag and Drop™ library action description
+GMStdIfColPoint_Name,"If Collision Point","If Collision Point",,Drag and Drop™ library action name
+GMStdIfColPoint_Desc,"Check if one or more instances intersect a point.","Check if one or more instances intersect a point.",,Drag and Drop™ library action description
 GMStdDrawSelf_Name,"Draw Self","Draw Self",,Drag and Drop™ library action name
 GMStdDrawSelf_Desc,"Draw this instance's sprite.","Draw this instance's sprite.",,Drag and Drop™ library action description
 GMStdDrawValue_Name,"Draw Value","Draw Value",,Drag and Drop™ library action name
@@ -3560,6 +3603,8 @@ GMStdEffect_Desc,"Show an effect at the specified position.","Show an effect at 
 GMStdScript,"Script","Script",,Drag and Drop™ library argument label
 GMStdArgument,"Argument","Argument",,DnD argument label
 GMStdTarget,"Target","Target",,Drag and Drop™ library argument label
+GMStdReturnList,"Return List","Return List",,Drag and Drop™ library argument label
+GMStdFreeTarget,"Free Target","Free Target",,Drag and Drop™ library argument label
 GMStdObject,"Object","Object",,Drag and Drop™ library argument label
 GMStdX,X,X,,Drag and Drop™ library argument label
 GMStdY,Y,Y,,Drag and Drop™ library argument label
@@ -3577,7 +3622,7 @@ GMStdDeadzone,"Deadzone","Deadzone",,Drag and Drop™ library argument label
 GMStdAdditiveBlend,Blend,Blend,,DnD™
 GMStdDirection,"Direction","Direction",,Drag and Drop™ library argument label
 GMStdType,"Type","Type",,Drag and Drop™ library argument label
-GMStdSpeed,"Speed","Speed",,Drag and Drop™ library argument label
+GMStdSpeed,"Speed","Speed",,Drag and Drop™ library argument labelG
 GMStdMinSpeed,"Min Speed","Min Speed",,Drag and Drop™ library argument label
 GMStdMaxSpeed,"Max Speed","Max Speed",,Drag and Drop™ library argument label
 GMStdForce,"Force","Force",,Drag and Drop™ library argument label
@@ -3672,12 +3717,15 @@ GMStdVisibility,Visibility,Visibility,,DnD label
 GMStdParticleSystem,System,System,,Dnd library argument label
 GMStdParticleType,Type,Type,,DnD™ library argument label
 GMStdFrame,"Frame","Frame",,Drag and Drop™ library argument label
-GMStdAngle,"Angle","Angle",,Drag and Drop™ library argument label
+GMStdAngle,"Angle","Angle",,Drag and Drop™ library argument labelG
 GMStdMinAngle,Min Angle,Min Angle,,DnD™
 GMStdMaxAngle,Max Angle,Max Angle,,DnD™
 GMStdDistribution,Distribution,Distribution,,DnD™
 GMStdAlpha,"Alpha","Alpha",,Drag and Drop™ library argument label
 GMStdReturn,"Return","Return",,Drag and Drop™ library argument label
+GMStdReturnKey,"Return Key","Return Key",,Drag and Drop™ library argument label
+GMStdAutoCapitalization,"Capitalization","Capitalization",,Drag and Drop™ library argument label
+GMStdPredictiveText,"Text Prediction","Text Prediction",,Drag and Drop™ library argument label
 GMStdRelativeToDir,Relative To Direction,Relative To Direction,,DnD™
 GMStdMacro,"Macro","Macro",,Drag and Drop™ library argument label
 GMStdDirs,"Directions","Directions",,Drag and Drop™ library argument label
@@ -3947,6 +3995,15 @@ RoomEditor_AssetLayerStatus_Laptop,LMB + Right ALT to paint with selected sprite
 SPINE_ATLAS_NOT_FOUND,Spine: unable to find .atlas file for {0},Spine: unable to find .atlas file for {0},,spine atlas not found message
 SPINE_TEXTURE_NOT_FOUND,Spine: unable to find texture file: {0},Spine: unable to find texture file: {0},,spine texture not found message
 SPINE_JSON_NOT_FOUND,Spine: json file not found: {0},Spine: json file not found: {0},,spine json not found message
+Spine_License_Title,Spine Agreement,Spine Agreement,,spine license dialog title
+Spine_License_Label1,Purchasing Spine from Esoteric Software grants permission to create and distribute GameMaker applications using Spine animations,Purchasing Spine from Esoteric Software grants permission to create and distribute GameMaker applications using Spine animations,,spine license label
+Spine_License_Label2,"To purchase Spine, please visit","To purchase Spine, please visit",,spine license label
+Spine_License_Link,http://esotericsoftware.com,http://esotericsoftware.com,,spine link
+Spine_License_Label3,"To use Spine animations with GameMaker, please agree to the license above.","To use Spine animations with GameMaker, please agree to the license above.",,spine license label
+Spine_License_Agree,I agree to the terms listed,I agree to the terms listed,,spine license agreement
+Spine_License_AcceptLabel,Accept Spine licence,Accept Spine licence,,spine licence option
+Spine_License_Show,Show Licence,Show Licence,,spine license button
+Spine_NeedLicenceAcceptance,Project contains Spine assets - please accept the Spine licence agreement to proceed,Project contains Spine assets - please accept the Spine licence agreement to proceed,,spine licence requirement message
 RoomEditor_BrushEditingModeToolTip,Switch between selection and editing modes in brush builder page (${room_editor_tools_keyboard_shortcut22}),Switch between selection and editing modes in brush builder page (${room_editor_tools_keyboard_shortcut22}),,the tooltip for the editing mode button in the brush builder page
 RoomEditor_DuplicateLayer,Duplicate Layer,Duplicate Layer,,context menu option to duplicate a layer
 TileSetEditor_DeleteAnimation_ToolTip,Delete Animation,Delete Animation,,delete animation button tooltip
@@ -4071,6 +4128,9 @@ Marketplace_MyLibrary_UpdateCategory,New Version ({0}),New Version ({0}),,Catego
 Marketplace_MyLibrary_ViewAuthor,Visit this author's page.,Visit this author's page.,,Author link text
 Marketplace_MyLibrary_ViewReviews,View this asset's reviews.,View this asset's reviews.,,Review link text
 Marketplace_MyLibrary_Offline,Offline,Offline,,Offline label
+Marketplace_MyLibrary_DeleteContentTitle,Delete Local Content?,Delete Local Content?,,marketplace delete asset warning title
+Marketplace_MyLibrary_OfflineDelete,Are you sure you want to delete local content for '{0}'?\nYou will need to be online to download it again.,Are you sure you want to delete local content for '{0}'?\nYou will need to be online to download it again.,,marketplace asset delete offline warning
+Marketplace_OfflineDeleteConfirmChoice,Automatic response to offline content delete,Automatic response to offline content delete,,preference choice for marketplace offline local content delete
 TileSetEditor_OpenClosedEdge_ToolTip,Open Or Closed Edges,Open Or Closed Edges,,tooltip for the auto tile set option to have open or closed edges
 Marketplace_MyLibrary_SearchCaption,Search Results ({0}),Search Results ({0}),,Search caption
 StartPage_Web_TooltipNotOwned,Acquire this tutorial,Acquire this tutorial,,Acquire tutorial tooltip
@@ -4110,6 +4170,7 @@ roomeditor_selectionboundslockedcolour,Locked selection bounds colour,Locked sel
 GridSettings_SnapToGridToolTip,Snap To Grid (${toggle_grid_snap}),Snap To Grid (${toggle_grid_snap}),,the tooltip for the snap to grid checkbox
 PhysicsShapeEditor_FrameOf,of,of,,Frame x of y label
 ResourcePrefs_DefaultSpriteOrigin,Default sprite origin,Default sprite origin,,Default sprite origin preference
+ResourcePrefs_DefaultSpriteCollisionMaskKind,Default sprite collision mask kind,Default sprite collision mask kind,,Preferences / Sprite Editor / Default sprite collision mask kind
 ListBoxEnum_eLVEDisplayMode_TreeView,Tree View,Tree View,,enum name
 ListBoxEnum_eLVEDisplayMode_ListView,List View,List View,,enum name
 ListBoxEnum_eLVEDisplayMode_Both,Both,Both,,enum name
@@ -4141,7 +4202,7 @@ DnDModule_DeleteNode,Delete,Delete,,DnD™ module delete selected
 IDETooltip_LaptopMode_Title,Laptop Mode ({0}),Laptop Mode ({0}),,IDE toolbar laptop mode title
 IDETooltip_LaptopMode_On,On,On,,On text
 IDETooltip_LaptopMode_Off,Off,Off,,Off text
-IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding Left Control to zoom and Left Alt to pan and scroll.\nUse Right Control and Right Alt for non-mouse interactions while Laptop Mode is enabled.","In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding Left Control to zoom and Left Alt to pan and scroll.\nUse Right Control and Right Alt for non-mouse interactions while Laptop Mode is enabled.",,IDE toolbar laptop mode description
+IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding Left Control to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.","In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding Left Control to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.",,IDE toolbar laptop mode description
 MyAccount_Offline,Cannot access account management: User is offline,Cannot access account management: User is offline,,User is offline and trying to access My Account
 UserOffline_NeedsInternet,Please make sure you have a working internet connection and try again.,Please make sure you have a working internet connection and try again.,,User is offline
 MyAccount_WorkspaceTitle,My Account,My Account,,My account workspace title
@@ -4289,6 +4350,8 @@ Debugger_Pref_AutomaticCloseChoice,Automatic response to closing the debugger,Au
 Debugger_CodeError,Code Error,Code Error,,debugger code error dialog title
 Debugger_FetchingTextures,Fetching images...,Fetching images...,,debugger texture image fetch label
 Debugger_RefreshTextures_Tooltip,Load texture/surface images from the target,Load texture/surface images from the target,,debugger texture refresh button tooltip
+Debugger_VersionError_Title,Debugger Version Error,Debugger Version Error,,debugger version error title
+Debugger_VersionError,IDE version and current runtime version are not compatible for debugging.,IDE version and current runtime version are not compatible for debugging.,,debugger version error message
 Textview_Title,Text Viewer,Text Viewer,,text view window title
 Textview_Expression,Expression:,Expression:,,text viewer expression label
 Textview_Value,Value:,Value:,,text viewer value label
@@ -4371,7 +4434,7 @@ ListBoxEnum_eImageGenerationType_Stretch,Stretch,Stretch,,image generation type 
 aboutbox_ide_version,IDE Version:,IDE Version:,,IDE Version in About Box
 aboutbox_runtime_version,Current Runtime:,Current Runtime:,,Current Runtime in About Box
 aboutbox_time_in_ide,Time in IDE,Time in IDE,,Overall Time spent in IDE
-aboutbox_onlinestatus,Online Status,Online Status,,Online Status in About Box
+aboutbox_onlinestatus,Online Status:,Online Status:,,Online Status in About Box
 aboutbox_onlinestatus_isonline,Online,Online,,Is Online status
 aboutbox_onlinestatus_isoffline,Offline,Offline,,Is Offline status
 aboutbox_username,Username:,Username:,,Username in About Box
@@ -4464,7 +4527,7 @@ PNG2Tileset_ImageRight,Right Edge,Right Edge,,Pixel offset to right edge of imag
 PNG2Tileset_ImageBottom,Bottom Edge,Bottom Edge,,Pixel offset to bottom of image
 PNG2Tileset_TilesetSpriteWidth,Destination Width,Destination Width,,Target width of the new tileset sprite
 PNG2Tileset_ImportOptions,Import options,Import options,,Options for importing an imate and converting to tilesets
-PNG2Tileset_GenerateButton,Generate Map!,Generate Map!,,Button to create the tileset and map!
+PNG2Tileset_GenerateButton,Generate Map,Generate Map,,Button to create the tileset and map!
 PNG2Tileset_SpriteName,Sprite Name,Sprite Name,,Text for sprite name label
 PNG2Tileset_TilemapName,Tilemap Name,Tilemap Name,,Text for tilemap name label
 PNG2Tileset_LayerName,Layer Name,Layer Name,,Text for layer name label
@@ -4828,6 +4891,10 @@ Options_PS4ToolsSetupTrophyMessage,"Unable to find PlayStation 4 trophy editor, 
 Options_PS4ToolsPreference,Go to PlayStation 4 settings,Go to PlayStation 4 settings,,button message to take user to PS4 preferences
 Options_PS4ToolsSetupParamSFOMessage,"Unable to find PlayStation 4 param.sfo editor, please update your tools directory","Unable to find PlayStation 4 param.sfo editor, please update your tools directory",,error message when failed to find the param.sfo editor
 Options_PS4ToolsSetupShareParamMessage,"Unable to find PlayStation 4 share file editor, please update your tools directory","Unable to find PlayStation 4 share file editor, please update your tools directory",,error message when failed to find the param.sfo editor
+Options_XBoxToolsSetupServiceConfigMessage,"Unable to find Xbox One tool: xce.exe \nPlease update your tools directory","Unable to find Xbox One tool: xce.exe \nPlease update your tools directory",,error message when failed to find the xce.exe
+Options_XBoxToolsSetupError,Xbox One Tools Missing,Xbox One Tools Missing,,error dialog title when unable to find a xbox tool
+Options_XBoxToolsPreference,Go to Xbox One settings,Go to Xbox One settings,,button message to take user to xbox preferences
+Error_XBoxTools,XBox One tools not available on Mac.\nPlease edit on Windows,XBox One tools not available on Mac.\nPlease edit on Windows,,Shown when trying to copy the xbox service manifest on mac
 BreakpointManager_Script,Script: {0},Script: {0},,breakpoint manager caption for a script
 BreakpointManager_Object,Object: {0}: {1},Object: {0}: {1},,breakpoint manager caption for an object event
 BreakpointManager_Timeline,Timeline: {0}: moment {1},Timeline: {0}: moment {1},,breakpoint manager caption for a timeline moment
@@ -4854,6 +4921,7 @@ SyntaxError_ExpectedExp,expected expression,expected expression,,syntax error
 SyntaxError_NestedCalls,nested function calls are not allowed,nested function calls are not allowed,,syntax error
 SyntaxError_TrialLimit,use of {0} is not allowed in GameMaker Studio 2 Trial,use of {0} is not allowed in GameMaker Studio 2 Trial,,syntax error
 SyntaxError_ArgCount,number of arguments expected {0} got {1},number of arguments expected {0} got {1},,syntax error
+SyntaxError_ArgCountRange,number of arguments expected {0} - {1} got {2},number of arguments expected {0} - {1} got {2},,syntax error
 SyntaxError_DuplicateEnum,duplicate enum entry found,duplicate enum entry found,,syntax error
 SyntaxError_MissingGlobalVarName,missing variable name in globalvar,missing variable name in globalvar,,syntax error
 SyntaxError_MissingVarName,missing variable name in var,missing variable name in var,,syntax error
@@ -4927,8 +4995,8 @@ UserLogin_NoneMessage,Managed to enter none state,Managed to enter none state,,d
 UserLogin_LicenceMissing,Licence file missing,Licence file missing,,licence missing error
 UserLogin_LicenceMissingDetail,Licence file is not there,Licence file is not there,,licence missing detail
 UserLogin_LicenceInvalid,Licence is invalid,Licence is invalid,,licence invalid error
-UserLogin_LicenceInvalidLocalDetail,"Licence local id doesn't match expected format - please login again.\nIf you keep seeing this message contact the helpdesk at account.yoyogames.com/report-bug","Licence local id doesn't match expected format - please login again.\nIf you keep seeing this message contact the helpdesk at account.yoyogames.com/report-bug",,licence invalid error
-UserLogin_LicenceInvalidDetail,"Licence doesn't match expected format - please login again.\nIf you keep seeing this message contact the helpdesk at account.yoyogames.com/report-bug","Licence doesn't match expected format - please login again.\nIf you keep seeing this message contact the helpdesk at account.yoyogames.com/report-bug",,licence invalid error
+UserLogin_LicenceInvalidLocalDetail,"Licence local id doesn't match expected format - please login again.\nIf you keep seeing this message contact the helpdesk at accounts.yoyogames.com/contact-us","Licence local id doesn't match expected format - please login again.\nIf you keep seeing this message contact the helpdesk at accounts.yoyogames.com/contact-us",,licence invalid error
+UserLogin_LicenceInvalidDetail,"Licence doesn't match expected format - please login again.\nIf you keep seeing this message contact the helpdesk at accounts.yoyogames.com/contact-us","Licence doesn't match expected format - please login again.\nIf you keep seeing this message contact the helpdesk at accounts.yoyogames.com/contact-us",,licence invalid error
 UserLogin_InvalidExpiryDetail,Cannot parse the expiry date,Cannot parse the expiry date,,licence expiry error
 UserLogin_Expired,Licence has expired,Licence has expired,,licence expired error
 UserLogin_ExpiredDetail,Re-login to update local licence,Re-login to update local licence,,local licence has expired and user needs to re-login to server for new licence
@@ -4942,6 +5010,7 @@ UserLogin_MachineIDMissingDetail,Local Machine ID missing,Local Machine ID missi
 UserLogin_LicenceNoBuildAccessDetail,Licence does not have permission to access this build,Licence does not have permission to access this build,,message when user licence is not allowed to access a particular build
 UserLogin_OfflineError,Unable to take user offline,Unable to take user offline,,offline error
 UserLogin_NoConnection,Unable to login - no network connection,Unable to login - no network connection,,connection error
+UserLogin_NoAccountsServer,Unable to Login - Cannot reach https://accounts.yoyogames.com,Unable to Login - Cannot reach https://accounts.yoyogames.com,,accounts server connection error
 UserLogin_SteamError,Unable to login - failed to get a Steam session ticket,Unable to login - failed to get a Steam session ticket,,steam error
 UserLogin_ServerConnectionError,"Unable to login - server error, allowing offline","Unable to login - server error, allowing offline",,server connection error
 UserLogin_SaveFailed,Failed to save licence file {0} - result {1}({2}),Failed to save licence file {0} - result {1}({2}),,save failed error
@@ -5011,6 +5080,16 @@ preferences_copyfromandroid_label,Copy settings from Android,Copy settings from 
 preferences_copyfromamazon_label,Copy settings from Amazon Fire,Copy settings from Amazon Fire,,Copy settings from Amazon Fire
 FileFilters_Pronunciation,Pronunciation Files,Pronunciation Files,,pronunciation.xml file dialog
 Error_PS4PronunciationMissingSig,Unable to find matching pronunciation.sig file \nVoice recognition files will not be imported,Unable to find matching pronunciation.sig file \nVoice recognition files will not be imported,,error message when the prnunciation.sig is missing
+TargetSelection_Platform_switch,Switch,Switch,,Switch
+Switch,Switch,Switch,,Switch
+Preferences_switch_sdk_dir,NintendoSDK Directory,NintendoSDK Directory,,Path to NintendoSDK Directory
+Preferences_switch_vs_path,Path to VS2015 (14.0),Path to VS2015 (14.0),,Path to VS2015 (14.0)
+platformdevice_targetip,Target IP,Target IP,,Target IP
+preferences_import_nmeta,Import nmeta file,Import nmeta file,,Import an nmeta file into the project
+preferences_open_authoring,Open Authoring Editor,Open Authoring Editor,,Open the Authoring Editor
+IncludedFilesPlatform_Switch,Switch,Switch,,Switch platform include name
+FileFilters_NMeta,Switch nmeta file,Switch nmeta file,,Switch nmeta file filter description
+FileFilters_NSP,Switch Package,Switch Package,,Switch Package file filter
 App Icon,App Icon,App Icon,,App Icon settings namespace
 iPad Pro,iPad Pro,iPad Pro,,iPad Pro settings namespace
 Notification,Notification,Notification,,Notification settings namespace
@@ -5040,10 +5119,28 @@ sourcecontrolgit_auth_ssh_failed_import,No Valid SSH KeyPair Authentication deta
 sourcecontrolgit_import_project_success,Successfully imported project,Successfully imported project,,Success message for importing a project
 iosiconupdate_title,iOS Icons Require Updating,iOS Icons Require Updating,,Title for iOS Icons requiring an update
 iosiconupdate_message,"Due to iOS submission requirement changes, Options > iOS > Icons image sizes are now different and your current icons need to be recreated at the correct sizes. Tools > Generate Project Images can help quickly fix this.","Due to iOS submission requirement changes, Options > iOS > Icons image sizes are now different and your current icons need to be recreated at the correct sizes. Tools > Generate Project Images can help quickly fix this.",,iOS Icon update message
+preferences_patch_original_package,Original Submitted Package,Original Submitted Package,,Label for Original Submitted Package
+preferences_patch_current_package,Current Package,Current Package,,Label for Current Package
+preferences_patch_previous_patch,Previous Patch,Previous Patch,,Label for Previous Patch
+preferences_patch_package,Patch Package,Patch Package,,Label for Patch Package
 Import_BadYYP_Title,External Project File Error,External Project File Error,,The external project file has errors
 Import_BadYYP_Message,The external project file cannot be read to import this resource,The external project file cannot be read to import this resource,,External project file cannot be read
 ggs_xboxone_x_title_memory,Xbox One X title memory (GB),Xbox One X title memory (GB),,the xbox one option for how much memory to dedicate to this app
-ggs_xboxone_x_title_memory_tooltip,The amount of memory in gigabytes to dedicate to this game on XBox One X \nAllows games to take advantage of full xbox one x available memory or request less to improve load times,The amount of memory in gigabytes to dedicate to this game on XBox One X \nAllows games to take advantage of full xbox one x available memory or request less to improve load times,,tooltip for xbox one x dedicated memory
+ggs_xboxone_x_title_memory_tooltip,The amount of memory in gigabytes to dedicate to this game on Xbox One X \nAllows games to take advantage of full xbox one x available memory or request less to improve load times,The amount of memory in gigabytes to dedicate to this game on Xbox One X \nAllows games to take advantage of full xbox one x available memory or request less to improve load times,,tooltip for xbox one x dedicated memory
+preferences_generate_patch,Generate Patch,Generate Patch,,Label for generating new patch
+preferences_install_patch,Install Patch,Install Patch,,Label for installing a patch
+Patching,Patching,Patching,,Patching
+preferences_patch_error,Patching Error,Patching Error,,Patching Error Title
+preferences_patch_original_file_missing,The Original Package is missing. Please check the path.,The Original Package is missing. Please check the path.,,Missing original package file
+preferences_patch_current_file_missing,The Current Package is missing. Please check the path.,The Current Package is missing. Please check the path.,,Missing current package file
+preferences_patch_file_missing,The Patch file is missing. Please check the path.,The Patch file is missing. Please check the path.,,Patch file is missing.
+ggs_check_publishing_errors,Check for publishing errors,Check for publishing errors,,Check package file for publishing errors
+Build_Switch_NoSDK,The path for the Nintendo Switch SDK is misconfigured,The path for the Nintendo Switch SDK is misconfigured,,Path to Nintendo Switch SDK is wrong
+Build_Switch_NoNMeta,No NMeta file has been found for this project. Please open the Authoring Editor to create one,No NMeta file has been found for this project. Please open the Authoring Editor to create one,,No NMeta file has been found
+ggs_enable_file_access_checking,Enable File Access Logging to SD Card,Enable File Access Logging to SD Card,,Enable File Access Logging to SD Card
+ggs_use_nx_cpu_profiler,Enable NX CPU Profiler for YYC Builds,Enable NX CPU Profiler for YYC Builds,,Enable NX CPU Profiler for YYC Builds
+Build_Switch_VM_CPU_Profiler,"The NX CPU Profiler can only be used on YYC builds. However, you may use the GMS2 Profiler on VM builds.","The NX CPU Profiler can only be used on YYC builds. However, you may use the GMS2 Profiler on VM builds.",,The NX CPU Profiler can only be used on YYC Builds
+Build_Switch_Package_CPU_Profiler,The NX CPU Profiler should not be enabled for Packaged builds,The NX CPU Profiler should not be enabled for Packaged builds,,The NX CPU Profiler should not be enabled for Packaged builds
 DESC_SEC_INSTALL,"Install ${APP_NAME}.","Install ${APP_NAME}.",,Installer Text
 DESC_SEC_SHORTCUTS,"Setup Start Menu shortcuts for All Users.","Setup Start Menu shortcuts for All Users.",,Installer Text
 DESC_SEC_DESKTOP_SHORTCUT,"Setup Desktop shortcut for All Users.","Setup Desktop shortcut for All Users.",,Installer Text
@@ -5176,7 +5273,23 @@ ggs_onion,CPU/GPU 'onion' memory pool size (MB),CPU/GPU 'onion' memory pool size
 ggs_garlic,GPU 'garlic' memory pool size (MB),GPU 'garlic' memory pool size (MB),DO NOT TRANSLATE garlic,memory pool size for 'garlic' memory
 ggs_ps4_garlic_memory_tooltip,"The amount of memory in megabytes to dedicate to the shared GPU memory pool \nMaximum allocation must be shared between both pools","The amount of memory in megabytes to dedicate to the shared GPU memory pool \nMaximum allocation must be shared between both pools",,tooltip for garlic memory pool
 ggs_ps4_onion_memory_tooltip,"The amount of memory in megabytes to dedicate to the shared CPU/GPU memory pool \nMaximum allocation must be shared between both pools","The amount of memory in megabytes to dedicate to the shared CPU/GPU memory pool \nMaximum allocation must be shared between both pools",,tooltip for garlic memory pool
+Top Shelf,Top Shelf,Top Shelf,,Top Shelf images group subheading for tvOS
+ggs_top_shelf,Top Shelf Image,Top Shelf Image,,Top Shelf Image
+ggs_top_shelf_2x,Top Shelf Image 2x,Top Shelf Image 2x,,Top Shelf Image 2x
+ggs_top_shelf_wide,Top Shelf Image Wide,Top Shelf Image Wide,,Splash Screen Image Wide
+ggs_top_shelf_wide_2x,Top Shelf Image Wide 2x,Top Shelf Image Wide 2x,,Splash Screen Image Wide 2x
+ggs_icon_400_2x,400x240 Icon 2x,400x240 Icon 2x,,400x240 Icon 2x
+ggs_splash_screen_2x,Splash Screen Image 2x,Splash Screen Image 2x,,Splash Screen Image 2x
 ggs_xboxone_stats_system,Microsoft Stats System,Microsoft Stats System,,Microsoft Stats System
 ggs_xboxone_stats_2017,Stats 2017,Stats 2017,,the radio group option for 2017 stats
 ggs_xboxone_stats_2013,Stats 2013,Stats 2013,,the radio group option for 2013 stats
 ggs_xboxone_stats_system_tooltip,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,,tooltip for the stats sytem radio group
+Error_ResourceLoadFailures_Message,Resource load failures encountered...,Resource load failures encountered...,,non-blocking errors have occurred message
+android_build_settings_invalid,The SDK Build Settings are invalid,The SDK Build Settings are invalid,,Android/Amazon Fire SDK Build Settings are invalid
+clean_runtimes_now,Clean Runtimes Now,Clean Runtimes Now,,Clean out older runtimes now
+clean_all_runtimes,Do you want to delete older runtimes from all feeds?,Do you want to delete older runtimes from all feeds?,,Clean out all runtimes from runtime folder
+runtime_clean_title,Runtime Deletion,Runtime Deletion,,Runtime Deletion title
+tvos_show_file_warning,Automatic response to tvOS persistent storage limitation warning,Automatic response to tvOS persistent storage limitation warning,,Show tvOS file system warning preference setting
+tvos_file_warning,tvOS persistent storage space is currently limited to 500k via NSUserDefaults. Please consider using cloud storage for this target.,tvOS persistent storage space is currently limited to 500k via NSUserDefaults. Please consider using cloud storage for this target.,,Warning message for the tvos file system limitations
+ggs_requires_nex,Enable support for NEX libraries,Enable support for NEX libraries,,Enable support for NEX libraries
+Build_Switch_NoNMetaSlim_Message,There is no SLIM data configured. Visit https://slim.mng.nintendo.net/slim/home to create it?,There is no SLIM data configured. Visit https://slim.mng.nintendo.net/slim/home to create it?,,No SLIM data message box
