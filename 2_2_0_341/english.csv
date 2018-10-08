@@ -189,7 +189,7 @@ DialogEditor_NoJSONSelected,Dialog Editor: No JSON File Selected,Dialog Editor: 
 DialogEditor_NoLayoutSelected,Dialog Editor: No Layout Selected,Dialog Editor: No Layout Selected,,log prompt for user to indicate no layout was selected
 DialogEditor_NoXMLSelected,Dialog Editor: No XML File Selected,Dialog Editor: No XML File Selected,,log prompt for user to indicate no xml file was selected
 DialogEditor_OpenLayout,Open Layout,Open Layout,,Dialog editor open layout menu entry
-DialogEditor_OverridingStyleFile,The style name '{0}' is currently registered to\n'{2}'\nbut will now be saved to\n'{1}',The style name '{0}' is currently registered to\n'{2}'\nbut will now be saved to\n'{1}',,Message when the user overrides a styles save file 
+DialogEditor_OverridingStyleFile,The style name '{0}' is currently registered to\n'{2}'\nbut will now be saved to\n'{1}',The style name '{0}' is currently registered to\n'{2}'\nbut will now be saved to\n'{1}',,Message when the user overrides a styles save file
 DialogEditor_PasteGadget,Paste Gadget,Paste Gadget,,menu entry for pasting a gadget from clipboard
 DialogEditor_Properties,Gadget Layout Properties,Gadget Layout Properties,,the title for the layout properties window
 DialogEditor_RadioGroup,Radio Button Group,Radio Button Group,,Layout hierarchy display name for radio button group
@@ -433,7 +433,7 @@ fonteditor_or,Or,Or,,Font editor select font OR include in build
 fonteditor_aa_on,On,On,,Font Editor aa on
 fonteditor_add_range,Add,Add,,Adding a new font range - button
 fonteditor_add_range_desc,Add new range,Add new range,,Adding a new font range - description
-fonteditor_bold,Bold,Bold,,Font editor Bold caption 
+fonteditor_bold,Bold,Bold,,Font editor Bold caption
 fonteditor_del_range,Delete,Delete,,Delete the currently selected font range - button
 fonteditor_del_range_desc,Delete selected range,Delete selected range,,Delete the currently selected font range - description
 fonteditor_helloworld,Hello World!!,Hello World!!,,Inital text window in the Font Editor
@@ -451,7 +451,7 @@ fonteditor_stylename,Style,Style,,Font editor style name
 fonteditor_toggle,Toggle,Toggle,,Font editor AA radio group header
 fonteditor_window,Font: {0},Font: {0},,Font editor title
 fonteditor_includettf,Copy to project,Copy to project,,Font editor include TTF checkbox
-fonteditor_includettf_tooltip,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,,tooltip for the 'includettf' copy to project checkbox 
+fonteditor_includettf_tooltip,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,,tooltip for the 'includettf' copy to project checkbox
 fonteditor_ttfpath,{0},{0},,Font editor included TTF path
 fonteditor_selectttf,Select Font to Include,Select Font to Include,,Font editor include Font dialog title
 FontManager_MissingDefaultFont,"Font Manager: Default font '{0}' has not been loaded, text rendering will fail","Font Manager: Default font '{0}' has not been loaded, text rendering will fail",,Error message for when the default font has not been loaded
@@ -668,11 +668,11 @@ ImageEditor_ImportCrop,Crop / pad,Crop / pad,,Image editor import dialog crop op
 ImageEditor_ImportImageTitle,Import image(s),Import image(s),,Image editor import images title
 ImageEditor_PasteImageResizeTitle,Resize Canvas,Resize Canvas,,canvas resize dialog on paste
 ImageEditor_ImportResizeLabel,Imported image is a different size from the canvas,Imported image is a different size from the canvas,,Image editor import dialog resize required description
-ImageEditor_PasteResizeLabel,Pasted image is larger than the canvas,Pasted image is larger than the canvas,,Image editor import dialog paste resize label 
-ImageEditor_Import_ResizeImported,Resize imported image to canvas size,Resize imported image to canvas size,,Image editor import resize imported image 
+ImageEditor_PasteResizeLabel,Pasted image is larger than the canvas,Pasted image is larger than the canvas,,Image editor import dialog paste resize label
+ImageEditor_Import_ResizeImported,Resize imported image to canvas size,Resize imported image to canvas size,,Image editor import resize imported image
 ImageEditor_Import_ResizeCanvas,Resize canvas to imported image size ({0} x {1}),Resize canvas to imported image size ({0} x {1}),,Image editor import resize canvas
 ImageEditor_Paste_ResizeCanvas,Resize canvas to pasted image size ({0} x {1})?,Resize canvas to pasted image size ({0} x {1})?,,Image editor import resize canvas pasted image
-ImageEditor_ImportCrop_Canvas,Crop/pad canvas,Crop/pad canvas,,image editor import - crop canvas 
+ImageEditor_ImportCrop_Canvas,Crop/pad canvas,Crop/pad canvas,,image editor import - crop canvas
 ImageEditor_ImportScale_Canvas,Scale canvas,Scale canvas,,image editor import - scale canvas
 ImageEditor_ImportCrop_Import,Crop/pad imported image,Crop/pad imported image,,image editor import- crop imported image
 ImageEditor_ImportScale_Import,Scale imported image,Scale imported image,,image editor import- scale imported image
@@ -718,12 +718,12 @@ ImageEditor_ToggleGrid,Toggle Grid,Toggle Grid,,Image editor toggle grid menu en
 ImageEditor_ToleranceLabel,Tolerance:,Tolerance:,,Image editor magic wand tolerance label
 ImageEditor_RotationLabel,Rotation:,Rotation:,,Image editor rotation label
 ImageEditor_RotationInterpolateLabel,Interpolate,Interpolate,,Image editor rotation interpolate label
-ImageEditor_Tool_Arc,Arc tool,Arc tool,,ImageEditor Arc tool 
+ImageEditor_Tool_Arc,Arc tool,Arc tool,,ImageEditor Arc tool
 ImageEditor_Tool_Brush,Paintbrush tool,Paintbrush tool,,ImageEditor paint brush tool
-ImageEditor_Tool_ColourPicker,Colour Picker,Colour Picker,,ImageEditor Colour Picker 
-ImageEditor_Tool_Ellipse,Ellipse tool,Ellipse tool,,ImageEditor Ellipse tool 
+ImageEditor_Tool_ColourPicker,Colour Picker,Colour Picker,,ImageEditor Colour Picker
+ImageEditor_Tool_Ellipse,Ellipse tool,Ellipse tool,,ImageEditor Ellipse tool
 ImageEditor_Tool_EllipseOutline,Ellipse tool - outline,Ellipse tool - outline,,ImageEditor Ellipse tool(outline)
-ImageEditor_Tool_EllipseFilled,Ellipse tool - filled,Ellipse tool - filled,,ImageEditor Ellipse tool(filled) 
+ImageEditor_Tool_EllipseFilled,Ellipse tool - filled,Ellipse tool - filled,,ImageEditor Ellipse tool(filled)
 ImageEditor_Tool_EllipseSelect,Ellipse select tool,Ellipse select tool,,ImageEditor Ellipse select tool
 ImageEditor_Tool_PaintSelect,Paint selection tool,Paint selection tool,,ImageEditor paint selection tool
 ImageEditor_Tool_Erase,Erase tool,Erase tool,,ImageEditor Erase tool
@@ -791,7 +791,7 @@ ImageEditor_ContiguousLabel,Contiguous mode:,Contiguous mode:,,magic wand contig
 ImageEditor_FillStyle_Stroke,Stroke,Stroke,,shape tool stroke style
 ImageEditor_FillStyle_Fill,Fill,Fill,,shape tool fill style
 ImageEditor_FillStyle_Both,Both,Both,,shape tool both style
-ImageEditor_SwatchMenu_Copy,Copy colours to sprite:,Copy colours to sprite:,,swatch panel menu copy colours 
+ImageEditor_SwatchMenu_Copy,Copy colours to sprite:,Copy colours to sprite:,,swatch panel menu copy colours
 ImageEditor_SwatchMenu_Import,Import colours from sprite:,Import colours from sprite:,,swatch panel menu import colours
 ImageEditor_OnionBurger_Tooltip,Onion skin,Onion skin,,burger button tooltip
 ImageEditor_LoopBurger_Tooltip,Loop mode,Loop mode,,burger button tooltip
@@ -817,7 +817,7 @@ GridWidgetSettings_Colour,Grid Colour:,Grid Colour:,,zoom widget grid settings c
 GridWidgetSettings_Alpha,Alpha:,Alpha:,,zoom widget grid settings alpha label
 GridWidgetSettings_GridX,Grid X,Grid X,,grid settings grid x
 GridWidgetSettings_GridY,Grid Y,Grid Y,,grid settings grid y
-GridWidgetSettings_Snap,Snap,Snap,,grid settings grid snap to grid 
+GridWidgetSettings_Snap,Snap,Snap,,grid settings grid snap to grid
 SplitWidgetSettings_NoSplit,No Split,No Split,,split settings no split
 SplitWidgetSettings_Horizontal,Split Horizontal,Split Horizontal,,split settings horizontal split
 SplitWidgetSettings_Vertical,Split Vertical,Split Vertical,,split settings vertical split
@@ -1212,7 +1212,7 @@ ResourceNode_Rename,Rename,Rename,,Resource Tree node menu - rename resource
 ResourceTree_Configs,Configurations,Configurations,,
 ResourceTree_DirectoryDelete_Confirm,"You are about to delete the directory ""{0}"" and all the items it contains. Continue?","You are about to delete the directory ""{0}"" and all the items it contains. Continue?",,Resource tree directory delete user confirmation
 ResourceTree_Extensions,Extensions,Extensions,,"Resource tree ""Extensions"" label"
-ResourceTree_FileDelete_Confirm,"You are about to delete the file ""{0}"". Continue?","You are about to delete the file ""{0}"". Continue?",,Resource tree file delete user confirmation 
+ResourceTree_FileDelete_Confirm,"You are about to delete the file ""{0}"". Continue?","You are about to delete the file ""{0}"". Continue?",,Resource tree file delete user confirmation
 ResourceTree_Fonts,Fonts,Fonts,,"Resource tree ""Fonts"" label"
 ResourceTree_IncludedFiles,Included Files,Included Files,,"Resource tree ""Included Files"" label"
 ResourceTree_NoResourceFound,No results found,No results found,,message when nothing found when searching resource tree
@@ -1270,7 +1270,7 @@ RoomEditor_DeleteAllChildLayers,Delete All,Delete All,,layer delete confirm dial
 RoomEditor_DeleteLayer,Delete Layer,Delete Layer,,context menu option for deleting a layer
 RoomEditor_RenameLayer,Rename Layer,Rename Layer,,context menu option for renaming a layer
 RoomEditor_DeleteSelectedLayer,Delete Selected Layers,Delete Selected Layers,,tooltip for the delete selected layers button
-RoomEditor_GraphicProperties,Graphic: {0},Graphic: {0},,graphic properties window 
+RoomEditor_GraphicProperties,Graphic: {0},Graphic: {0},,graphic properties window
 RoomEditor_GridColour,Colour:,Colour:,,room editor toolbar grid colour select button caption
 RoomEditor_GridSnapX,Snap X:,Snap X:,,room editor toolbar grid horizontal snap numeric textbox caption
 RoomEditor_GridSnapY,Snap Y:,Snap Y:,,room editor toolbar grid vertical snap numeric textbox caption
@@ -1286,7 +1286,7 @@ RoomEditor_InheritVisibility,Inherit Layer Visibility,Inherit Layer Visibility,,
 RoomEditor_InstanceProperties,Instance: {0},Instance: {0},,Instance properties window title
 RoomEditor_KeepAllChildLayers,Keep All,Keep All,,layer delete confirm dialog message for the keep all button
 RoomEditor_KeepBrokenChildLayers,Keep Changed,Keep Changed,,layer delete confirm dialog message for the keep changed button
-RoomEditor_LayerProperties,{1} Layer Properties - {0},{1} Layer Properties - {0},,Window title for the layer properties 
+RoomEditor_LayerProperties,{1} Layer Properties - {0},{1} Layer Properties - {0},,Window title for the layer properties
 RoomEditor_Layers,Layers - {0},Layers - {0},,Window heading for the room editor layers view
 RoomEditor_NewAssetLayer,Create New Asset Layer,Create New Asset Layer,,Tool tip for the new asset layer button
 RoomEditor_NewBackgroundLayer,Create New Background Layer,Create New Background Layer,,Tool tip for the new background layer button
@@ -1794,7 +1794,7 @@ TimeLine_DeleteWarning,Deleting moments is a permanent action that cannot be und
 TimeLine_DeleteWarningTitle,Delete Moments,Delete Moments,,Delete moments warning dialog title
 Workspace_TabTitle,Workspace {0},Workspace {0},,The default tab name for workspace tabs
 Dock_TabTitle,Dock Tab{0},Dock Tab{0},,the default tab name for dock tabs
-RoomEditor_InvalidDragGadget,"The selected layer does not accept the dragged resources, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer","The selected layer does not accept the dragged resources, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer",, Information warning for dropping resource gadgets on a layer which won't accept them 
+RoomEditor_InvalidDragGadget,"The selected layer does not accept the dragged resources, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer","The selected layer does not accept the dragged resources, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer",, Information warning for dropping resource gadgets on a layer which won't accept them
 Dock_FloatingDock_Title,Floating Dock,Floating Dock,,floating dock window title
 RoomEditor_InvalidDragLayers,"Unable to drag resources into room, ensure one layer is selected","Unable to drag resources into room, ensure one layer is selected",, Information warning for dropping resource gadgets on the room but layer selection is invalid
 RoomEditor_InvalidDragLayerFrozenOrInvisible,"Unable to drag resources into room, ensure selected layer '{0}' is unlocked and visible","Unable to drag resources into room, ensure selected layer '{0}' is unlocked and visible",,Information warning for dropping resource gadgets on a locked or invisible selected layer
@@ -1971,7 +1971,7 @@ Tutorial_Installing_Label,Installing:{0},Installing:{0},,tutorial install window
 Tutorial_Install_ErrorTitle,Error installing tutorial,Error installing tutorial,,turorial install error
 Tutorial_Install_ErrorMessage,Failed to install tutorial package '{0}',Failed to install tutorial package '{0}',,tutorial install fail message
 Tutorial_Create_DisplayNameMissing,Display name must be set,Display name must be set,,tutorial create error
-Tutorial_DisplayNameLabel,Display Name:,Display Name:,,tutorial settings display name 
+Tutorial_DisplayNameLabel,Display Name:,Display Name:,,tutorial settings display name
 Tutorial_IconFileLabel,Icon File:,Icon File:,,tutorial setting icon file label
 Tutorial_VideoSettingsLabel,Optional video settings,Optional video settings,,tutorial settings optional video label
 Tutorial_VideoUrlLabel,Video URL:,Video URL:,,tutorial setting label
@@ -2502,6 +2502,7 @@ desktop_scrollspeed,Scroll speed,Scroll speed,,scroll speed preference
 desktop_textselectionbias,Add bias to text selection to prevent line jumping,Add bias to text selection to prevent line jumping,,Text selection bias
 folderwatcher_frequency,File watcher frequency (ms),File watcher frequency (ms),,File watcher frequency in milliseconds
 folderwatcher_laptopfrequency,Laptop file watcher frequency (ms),Laptop file watcher frequency (ms),,File watcher frequency in milliseconds on laptops
+prefs_logout_on_exit,Logout on exit,Logout on exit,,logout on exit pref
 ggs_enable_steam,Enable steam,Enable steam,,Enable Steam
 ggs_steam_id,Steam ID,Steam ID,,Steam Id
 ggs_enable_iap_sandbox,Enable IAP sandbox,Enable IAP sandbox,,Enable IAP Sandbox
@@ -2519,6 +2520,7 @@ ggs_game_guid,Game GUID,Game GUID,,Game GUID
 ggs_isdnd,Use DnD™ as default script type,Use DnD™ as default script type,,Project code type
 ggs_mips_for_3d_textures,Generate mipmaps for separate texture pages,Generate mipmaps for separate texture pages,,Generate mipmaps for separate texture pages
 TargetSelection_RequiresWorker,Requires Worker,Requires Worker,,label for when a selected platform requires a worker
+TargetSelection_RequiresWindowsPC,Requires Windows PC,Requires Windows PC,,remote worker not available on mac
 TargetSelection_Worker,Worker:,Worker:,,the list title for target selecting worker
 TargetSelection_Platform,Platform:,Platform:,,the list title for target selecting platform
 TargetSelection_Config,Config:,Config:,,the list title for target selecting config
@@ -4098,7 +4100,7 @@ TextureAudioGroups_CyclicParent,A group cannot be a child of itself.,A group can
 TextureAudioGroups_CyclicParent_Title,Invalid Parent,Invalid Parent,,Title for above warning
 workspace_background_pref,Restore Default,Restore Default,,Restore default background
 IDETooltip_CurrentTarget,Current Build Target,Current Build Target,,tooltip for the current build target info
-spriteanimmode,Default sprite animation mode,Default sprite animation mode,,The default animation mode type for new sprites 
+spriteanimmode,Default sprite animation mode,Default sprite animation mode,,The default animation mode type for new sprites
 NewSpriteWidth,Default sprite width,Default sprite width,,pref label
 NewSpriteHeight,Default sprite height,Default sprite height,,pref label
 TileSetEditorMenu_Delete,Delete,Delete,,the delete animation or auto tile set context menu option
@@ -4803,7 +4805,7 @@ Option_Texture_Page_Size,Texture page size,Texture page size,,Texture Page Size 
 Option_Project_Last_Changed,Project Last Changed,Project Last Changed,,Project Last Changed option display caption
 Option_Project_Use_Time,Project Use Time,Project Use Time,,Project Use Time option display caption
 Option_Project_Start_Date,Project Start Date,Project Start Date,,Project Start Date option display caption
-Option_Project_GUID,Project GUID,Project GUID,,Project GUID option display caption 
+Option_Project_GUID,Project GUID,Project GUID,,Project GUID option display caption
 Option_License_Agreement,License Agreement,License Agreement,,License Agreement file path option location caption
 Option_NSIS_Script,NSIS Script,NSIS Script,,NSIS Script file path option location caption
 Pref_Visual_Studio_Path,Visual Studio Path,Visual Studio Path,,Visual Studio Path preference location caption
@@ -4947,11 +4949,11 @@ CompileError_RoomInstance,Instance Code in Room: {0},Instance Code in Room: {0},
 CompileError_Vertex,Vertex Shader: {0},Vertex Shader: {0},,vertex shader error
 CompileError_Fragment,Fragment Shader: {0},Fragment Shader: {0},,fragment shader error
 CompileError_Timeline,Timeline: {0},Timeline: {0},,timeline error
-CompileError_Collision,{0} Collision Event With {1},{0} Collision Event With {1},,event error 
-CompileError_KeyEvent,{0} Key Event: {1},{0} Key Event: {1},,event error 
-CompileError_KeyPressed,{0} Key Pressed: {1},{0} Key Pressed: {1},,event error 
-CompileError_KeyReleased,{0} Key Released: {1},{0} Key Released: {1},,event error  
-CompileError_Event,{0} Event: {1},{0} Event: {1},,event error 
+CompileError_Collision,{0} Collision Event With {1},{0} Collision Event With {1},,event error
+CompileError_KeyEvent,{0} Key Event: {1},{0} Key Event: {1},,event error
+CompileError_KeyPressed,{0} Key Pressed: {1},{0} Key Pressed: {1},,event error
+CompileError_KeyReleased,{0} Key Released: {1},{0} Key Released: {1},,event error
+CompileError_Event,{0} Event: {1},{0} Event: {1},,event error
 CompileError_RoomInstanceName,{0} instance {1}: ,{0} instance {1}: ,,room instance error
 SyntaxError_RoomCode,{0} Creation Code,{0} Creation Code,,room creation code syntax error
 Notification_UpdatedRuntime,An updated runtime is available in {0}!,An updated runtime is available in {0}!,,notification when a new runtime is available
@@ -5038,7 +5040,7 @@ FileFilters_Certificate,GameMaker Studio 2 Certificate,GameMaker Studio 2 Certif
 FileFilters_HTMLArchive,HTML Zip Archive,HTML Zip Archive,,html archive filter
 FileFilters_CompressedApp,Compressed Application Zip,Compressed Application Zip,,compressed application filter
 FileFilters_MacCompressedApp,macOS Application Zip,macOS Application Zip,,mac application as a zip filter
-FileFilters_Package,{0} Package,{0} Package,,package filter 
+FileFilters_Package,{0} Package,{0} Package,,package filter
 FileFilters_Installer,{0} Installer,{0} Installer,,installer filter
 FileFilters_Application,{0} Application,{0} Application,,application filter
 FileFilters_Export,{0} Export,{0} Export,,export filter
@@ -5293,3 +5295,5 @@ tvos_show_file_warning,Automatic response to tvOS persistent storage limitation 
 tvos_file_warning,tvOS persistent storage space is currently limited to 500k via NSUserDefaults. Please consider using cloud storage for this target.,tvOS persistent storage space is currently limited to 500k via NSUserDefaults. Please consider using cloud storage for this target.,,Warning message for the tvos file system limitations
 ggs_requires_nex,Enable support for NEX libraries,Enable support for NEX libraries,,Enable support for NEX libraries
 Build_Switch_NoNMetaSlim_Message,There is no SLIM data configured. Visit https://slim.mng.nintendo.net/slim/home to create it?,There is no SLIM data configured. Visit https://slim.mng.nintendo.net/slim/home to create it?,,No SLIM data message box
+IDE_MissingFFmpegWrapperTitle,Missing FFmpegWrapper,Missing FFmpegWrapper,,Missing FFmpegWrapper Title
+IDE_MissingFFmpegWrapper,The FFmpegWrapper.dll - or it's dependencies - appear to be missing. This could be from a bad install or an overly aggressive virus scanner. Please check your virus scanner or reinstall.,The FFmpegWrapper.dll - or it's dependencies - appear to be missing. This could be from a bad install or an overly aggressive virus scanner. Please check your virus scanner or reinstall.,,Missing FFmpegWrapper dll message
