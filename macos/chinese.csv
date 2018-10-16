@@ -921,7 +921,7 @@ Marketplace_MyLibrary_Description,Description:,描述：,,Description label
 Marketplace_MyLibrary_AgeRating,Age Rating:,年龄评级：,,Age Rating Label
 Marketplace_MyLibrary_Version,Version:,版本：,,Version Label
 Marketplace_MyLibrary_VersionLabel,Version {0}. Published {1}.,版本 {0}. 发布 {1}.,,Version label
-Marketplace_MyLibrary_PackageContains,Package Contains:,程序包内容：,,Package Contains Label
+Marketplace_MyLibrary_PackageContains,Package Contains:,资源包内容：,,Package Contains Label
 Marketplace_MyLibrary_EULA,End User License Agreement: (EULA),最终用户许可协议：(EULA),,EULA Label
 Marketplace_MyLibrary_Categories,Categories,目录,,Marketplace Categories title
 Marketplace_MyLibary_AssetVerifying,Verifying...,验证中……,,Marketplace my library asset being verified label
@@ -951,43 +951,43 @@ Marketplace_Username,Username,用户名,,Username
 Marketplace_Offline,Cannot access Marketplace: User is offline,无法访问市场：用户处于离线状态,,Marketplace is offline error message
 Marketplace_TryAgainLater,Cannot access Marketplace. Try again later.,无法访问市场。稍后重试。,,Marketplace cannot be accessed try again later
 Marketplace_WaitForServer,Marketplace will open when a connection has been established.,市场将在建立连接后打开。,,Marketplace wait for server result message
-Marketplace_CreateNewPackage,Create Package,创建程序包,,marketplace menu create package
-Marketplace_UpdatePackage,Update Existing Package,更新现有程序包,,marketplace menu update existing package
-Marketplace_CreatePackage,Create Package,创建程序包,,marketplace menu create package
-Marketplace_CreatePackageDescription,Select publisher and enter a new package name and ID,选择一个发布者并输入新的程序包名称和ID,,marketplace create new package instructions
-Marketplace_ChooseAssetTitle,Choose an Asset,选择一个资产,,marketplace choose publisher package title
-Marketplace_ChoosePackageId,Please select the name and package ID of your asset from the marketplace,请从市场中选择资产的名称和程序包ID,,marketplace choose publisher package id
+Marketplace_CreateNewPackage,Create Package,创建资源包,,marketplace menu create package
+Marketplace_UpdatePackage,Update Existing Package,更新现有资源包,,marketplace menu update existing package
+Marketplace_CreatePackage,Create Package,创建资源包,,marketplace menu create package
+Marketplace_CreatePackageDescription,Select publisher and enter a new package name and ID,选择一个发布者并输入新的资源包名称和ID,,marketplace create new package instructions
+Marketplace_ChooseAssetTitle,Choose an Asset,选择一个资源,,marketplace choose publisher package title
+Marketplace_ChoosePackageId,Please select the name and package ID of your asset from the marketplace,请从市场中选择资产的名称和资源包ID,,marketplace choose publisher package id
 Marketplace_PackageName,Name:,名称：,,marketplace package name label
 Marketplace_PublisherSelectionRequired,No Publisher selected,没有选中发布者,,marketplace package no publisher selected error
 Marketplace_PublisherName,Publisher Name:,发布者名称︰,,marketplace packge publisher name label
-Marketplace_PackageId,Package ID:,程序包 ID:,,marketplace package id label
+Marketplace_PackageId,Package ID:,资源包 ID:,,marketplace package id label
 Marketplace_PackageVersion,Version:,版本：,,marketplace version label
-Marketplace_PackageIdRequired,Package ID required,请提供程序包ID,,create asset package missing package id
-Marketplace_CreatingPackage,Creating package...,创建程序包...,,create package progress title
-Marketplace_CreatePackageDesc,Select resources from your project and add them to your package:,从项目中选择资源并添加到你的程序包中：,,marketplace create package description
+Marketplace_PackageIdRequired,Package ID required,请提供资源包ID,,create asset package missing package id
+Marketplace_CreatingPackage,Creating package...,创建资源包...,,create package progress title
+Marketplace_CreatePackageDesc,Select resources from your project and add them to your package:,从项目中选择资源并添加到你的资源包中：,,marketplace create package description
 Marketplace_ProjectLabel,Project:,项目：,,create package project label
-Marketplace_AssetPackageLabel,Asset Package:,资产资源包：,,create package asset package label
+Marketplace_AssetPackageLabel,Asset Package:,资源资源包：,,create package asset package label
 Marketplace_Package_AddLabel,Add,添加,,create package add resource button
 Marketplace_Package_AddAllLabel,Add All,全部添加,,create package add all resources button
 Marketplace_Package_RemoveLabel,Remove,移除,,create package remove resource button
 Marketplace_Package_CertSettingsMissing,Certificate file has not been set - please check Marketplace certificate settings,证书文件尚未设置 - 请检查市场证书设置,,create package certificate settings error
 Marketplace_Package_CertFileMissing,Certificate file '{0}' could not be found - please check Marketplace certificate settings,没有找到证书文件 '{0}' - 请检查市场证书设置,,create package missing certificate file error
-Marketplace_Package_CertFileSetupMessage,You will need to set up a signing certificate before you can create and publish packages.,在创建和发布程序包之前，你将需要设置一个签名证书。,,mplace need certificate message
+Marketplace_Package_CertFileSetupMessage,You will need to set up a signing certificate before you can create and publish packages.,在创建和发布资源包之前，你将需要设置一个签名证书。,,mplace need certificate message
 Marketplace_Package_CertFileSettingsButton,Go to Certificate Settings,转到证书设置,,mplace go to certificate settings button
-Marketplace_Package_CreateError,Error creating package,创建程序包时出错,,create package error title
-Marketplace_Package_ImportError,Error importing package,导入程序包时出错,,package import error title
-Marketplace_Package_Verifying,Verifying package...,验证程序包...,,marketplace pacakge verifying progress title
-Marketplace_Package_VerifyError,Failed to verify the package,验证程序包失败,,marketplace package verification error
+Marketplace_Package_CreateError,Error creating package,创建资源包时出错,,create package error title
+Marketplace_Package_ImportError,Error importing package,导入资源包时出错,,package import error title
+Marketplace_Package_Verifying,Verifying package...,验证资源包...,,marketplace pacakge verifying progress title
+Marketplace_Package_VerifyError,Failed to verify the package,验证资源包失败,,marketplace package verification error
 Marketplace_Package_GenericError,Failed with error:\n'{0}',失败因为错误：\n'{0}',,generic marketplace package error
-Marketplace_Package_SigningError,Package signing error,程序包签名错误,,marketplace package signing error
-Marketplace_Package_ExtractFailed,Error extracting package archive: {0},提取程序包文档错误： {0},,marketplace package extract fail
+Marketplace_Package_SigningError,Package signing error,资源包签名错误,,marketplace package signing error
+Marketplace_Package_ExtractFailed,Error extracting package archive: {0},提取资源包文档错误： {0},,marketplace package extract fail
 Marketplace_Package_ImportCompleted,Import Completed!,导入完成！,,marketplace package import completed
-Marketplace_Package_ImportDesc,Select resources from the asset package and add them to your project:,从资产程序包中选择资源并将其添加到项目中：,,package import description
+Marketplace_Package_ImportDesc,Select resources from the asset package and add them to your project:,从资源资源包中选择资源并将其添加到项目中：,,package import description
 Marketplace_Package_ImportNoProject,You must first open a project to import resources into,您必须先打开一个项目才能将资源导入,,marketplace package import no project open message
 Marketplace_Package_ExportNoResources,You must include at least one resource,你必须添加至少一个资源,,package export no resources selected message
 Marketplace_Package_ImportToNewProject,Import all resources to a new project,将所有资源导入到一个新项目,,package import new project
 Marketplace_Package_ResourceImportError,Some resources failed to import - see output window for details,一些资源导入失败 - 详情查看输出面板,,resource import error message
-Marketplace_Package_PackageResources,Package Resources:,程序包资源：,,package import- package resources caption
+Marketplace_Package_PackageResources,Package Resources:,资源包资源：,,package import- package resources caption
 Marketplace_Package_ImportResources,Resources to Import:,要导入的资源：,,package import - resource to import caption
 Marketplace_CheckForUpdates,Check For Updates,检查更新,,check for updates button label
 Marketplace_Updating,Updating...,更新...,,marketplace updating label
@@ -997,29 +997,29 @@ Marketplace_NoPublisherTitle,Publisher Account Required,发布者帐户要求,,m
 Marketplace_NoPublisherMessage,You do not have a Publisher attached to this account. Do you want to add one now?,你的帐户没有绑定发布者帐号。你现在想添加一个吗？,,marketplace no publisher account message
 Marketplace_ProjectRequiredDialogTitle,Project Required,项目要求,,marketplace import project required dialog title
 Marketplace_ProjectRequiredDialogMessage,An open project is required to import assets.\nDo you want to create a new project or open an existing project now?,导入资产需要一个打开的项目。\n 现在你想创建一个新项目或者打开一个已存在的项目吗？,,marketplace import project required dialog message
-MPackage_PackageUploadTitle,Package Upload,程序包上传,,package upload dialog title
-MPackage_PackageCreated,Created package '{0}' version {1},创建程序包 '{0}' 版本 {1},,package create success message
+MPackage_PackageUploadTitle,Package Upload,资源包上传,,package upload dialog title
+MPackage_PackageCreated,Created package '{0}' version {1},创建资源包 '{0}' 版本 {1},,package create success message
 MPackage_PackageUploading,Uploading to Marketplace...,上传到市场...,,package uploading message
-MPackage_PackageIDInvalid,Package ID is invalid,程序包ID无效,,mplace create package package id error
+MPackage_PackageIDInvalid,Package ID is invalid,资源包ID无效,,mplace create package package id error
 MPackage_AssetDisplayName,Display name,显示名称,,marketplace asset display name label
 MPackage_DisplayNameInvalid,Display name is invalid,显示名称无效,,marketplace package display name error
 MPackage_DisplayNameRestrictions,Display name restrictions,显示名称限制,,package display name restrictions label
 MPackage_DisplayNameRule1,- Must be between 5 and 30 characters long,- 必须在5-30字符之间,,asset create restriction label
 MPackage_DisplayNameRule2,#NAME?,#NAME?,,asset create restriction label
 MPackage_DisplayNameRule3,#NAME?,#NAME?,,asset create restriction label
-MPackage_PackageIdRestrictions,Package ID Restrictions,程序包ID限制,,asset create restriction label
+MPackage_PackageIdRestrictions,Package ID Restrictions,资源包ID限制,,asset create restriction label
 MPackage_PackageIdRule1,#NAME?,#NAME?,,asset create restriction label
 MPackage_PackageIdRule2,#NAME?,#NAME?,,asset create restriction label
 MPackage_PackageIdRule3,#NAME?,#NAME?,,asset create restriction label
-MPackage_NewPackageInfo_Other,IMPORTANT: The package ID cannot be changed once your asset has been created.,重要提示：创建资产后，无法更改程序包ID。,,create asset warning label
-MPackage_UploadedMessage,Uploaded package '{0}' version {1}\nGo to the asset listing page?,已上传程序包 '{0}' 版本 {1}\n 转到资产列表页面？,,mplace package uploaded message
-MPackage_UploadFailed,Package upload failed: {0},程序包上传失败：{0},,mplace package upload failed message
-MPackage_UploadCancelled,Package upload cancelled,程序包取消上传,,mplace package upload cancelled message
-MPackage_PackageType,Package Type:,程序包类型：,,mplace package type label
-MPackage_CategorySetting_Demo,IMPORTANT: The asset category will be set to 'Demo' on upload,重要提示：资产类别将在上传时设置为“Demo”,,mplace category setting message
-MPackage_CategorySetting_Tutorial,IMPORTANT: The asset category will be set to 'Tutorial' on upload,重要提示：资产类别将在上传时设置为“教程”,,mplace category setting message
-MPackage_NewPackageInfo_Demo,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Demo' on upload,重要提示：创建资产后，无法更改程序包ID。上传时物品类别将设置为“Demo”,,mplace category setting message
-MPackage_NewPackageInfo_Tutorial,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Tutorial' on upload,重要提示：创建资产后，无法更改程序包ID。上传时物品类别将设置为“教程”,,mplace category setting message
+MPackage_NewPackageInfo_Other,IMPORTANT: The package ID cannot be changed once your asset has been created.,重要提示：创建资源后，无法更改资源包ID。,,create asset warning label
+MPackage_UploadedMessage,Uploaded package '{0}' version {1}\nGo to the asset listing page?,已上传资源包 '{0}' 版本 {1}\n 转到资产清单页面,,mplace package uploaded message
+MPackage_UploadFailed,Package upload failed: {0},资源包上传失败：{0},,mplace package upload failed message
+MPackage_UploadCancelled,Package upload cancelled,资源包取消上传,,mplace package upload cancelled message
+MPackage_PackageType,Package Type:,资源包类型：,,mplace package type label
+MPackage_CategorySetting_Demo,IMPORTANT: The asset category will be set to 'Demo' on upload,重要提示：资源类别将在上传时设置为“Demo”,,mplace category setting message
+MPackage_CategorySetting_Tutorial,IMPORTANT: The asset category will be set to 'Tutorial' on upload,重要提示：资源类别将在上传时设置为“教程”,,mplace category setting message
+MPackage_NewPackageInfo_Demo,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Demo' on upload,重要提示：创建资源后，无法更改资源包ID。上传时物品类别将设置为“Demo”,,mplace category setting message
+MPackage_NewPackageInfo_Tutorial,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Tutorial' on upload,重要提示：创建资源后，无法更改资源包ID。上传时物品类别将设置为“教程”,,mplace category setting message
 MenuBar_AddMenuBarEntry,Add Menu Bar Entry,添加菜单栏项目,,Add a new menu bar entry at the end of the bar
 MenuBar_AddMenuBarEntryAfter,Add Menu Bar Entry After '{0}',在'{0}'后面添加菜单栏项目,,Add a new menu bar entry after the selected entry
 MenuBar_AddMenuBarEntryBefore,Add Menu Bar Entry Before '{0}',在'{0}'前面添加菜单栏项目,,Add a new menu bar entry before the selected entry
