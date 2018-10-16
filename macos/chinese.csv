@@ -25,9 +25,9 @@ $win_IDEMenuViews,Windows,窗口,,Windows version of the views menu entry
 $mac_IDEMenuViews,Window,窗口,,Mac version of the views menu entry
 $win_LaptopRHSKeys,Right Control and Right Alt,右 Ctrl 和右 Alt,,Windows version of laptop mode keys
 $mac_LaptopRHSKeys,Right Command and Right Alt,右 Command 和右 Alt,,Mac version of laptop mode keys
-Account_Menu_Login,Login,登录,,"Account menu ""Login"""
-Account_Menu_Logout,Logout,登出,,"Acount menu ""Logout"""
-Account_Menu_ManageAccount,Manage Account,管理账户,,"Account menu ""Account"""
+Account_Menu_Login,Login,登录,,Account menu "Login"
+Account_Menu_Logout,Logout,登出,,Acount menu "Logout"
+Account_Menu_ManageAccount,Manage Account,管理账户,,Account menu "Account"
 AnimationManager_InvalidTransition,The transition specified '{0}' is not valid,指定转换 '{0}' 无效,,The transition specified in the animation json is not a valid value
 BackgroundLayer_HSpeed,Horizontal Speed,水平速度,,Numeric textbox label for horizontal scroll speed
 BackgroundLayer_HTile,Horizontal Tile,图块水平平铺,,Checkbox label for horizontal tiling
@@ -127,8 +127,8 @@ ContextMenu_AddSubMenuEntryAfter,Add Sub Menu Entry Below,在下方添加子菜�
 ContextMenu_AddSubMenuEntryBefore,Add Sub Menu Entry Above,在上方添加子菜单,,Context menu option to add a sub menu entry after the selected entry
 ContextMenu_MoveEntryDown,Move Menu Item Down,下移菜单项,,Context menu option to move a menu entry or separator down
 ContextMenu_MoveEntryUp,Move Menu Item Up,上移菜单项,,Context menu option to move a menu entry or separator up
-Dialog_AreYouSure,Are you sure?,您确定吗？,,"Generic ""Are you sure?"" dialog message"
-Dialog_Confirm,Confirm,确认,,"Dialog ""confirm"" heading"
+Dialog_AreYouSure,Are you sure?,您确定吗？,,Generic "Are you sure?" dialog message
+Dialog_Confirm,Confirm,确认,,Dialog "confirm" heading
 Dialog_DeleteEvent_Query,Are you sure you want to remove the event with all its actions?,确定要移除这个事件，包括它所有的动作吗？,,Delete event dialog confirmation query
 Dialog_CutEvent_Query,Are you sure you want to cut the selected event?,确定要剪切选中的事件吗？,,Cut event dialog confirmation query
 Dialog_DeleteEvent_Query_Multiple,Are you sure you want to remove {0} events with all their actions?,确定要移除 {0} 事件，包括它所有的动作吗？,,Delete multiple event dialog confirmation query
@@ -141,7 +141,7 @@ Dialog_Success,Success,成功,,success dialog title
 Dialog_Invalid,Invalid,无效,,Dialog caption text for invalid input
 Dialog_InvalidInput,Invalid input. Please provide the required information.,无效的输入。请提供所需信息。,,A dialog message for invalid input in dialogs
 Dialog_SaveChangesToX,Save the changes to {0}?,保存更改到 {0}？,,Save changes to X query
-Dialog_Warning,Warning,警告,,"Dialog ""Warning"" title"
+Dialog_Warning,Warning,警告,,Dialog "Warning" title
 DialogEditor_AddContextMenu,Add Context Menu,添加右键菜单项,,Context menu option to add a context menu to the selected gadget
 DialogEditor_Cell,Grid Cell,网格单元格,,Layout Hierarchy heading for a grid cell group
 DialogEditor_ChildGadgets,Child Gadgets,子级部件,,Layout Hierarchy heading for a child gadgets group
@@ -221,9 +221,9 @@ DialogEditor_Title,Dialog Editor,对话框编辑器,,title for the dialog editor
 DialogEditor_Toolbox,Gadget Toolbox,部件工具栏,,title for the gadget toolbox window
 DialogEditor_TreeViewNode,TreeViewNode,树形视图节点,,Dialog editor TreeViewNode
 DialogEditor_Warning,Warning,警告,,warning message box title
-Edit_Menu_FindResource,Find Resource,查找资源,,"Edit menu ""FindResource"""
+Edit_Menu_FindResource,Find Resource,查找资源,,Edit menu "FindResource"
 Edit_Menu_Redo,Redo,重做,,Redo menu entry
-Edit_Menu_Search,Search & Replace,查找和替换,,"Edit menu ""Search & Replace"""
+Edit_Menu_Search,Search & Replace,查找和替换,,Edit menu "Search & Replace"
 Edit_Menu_Undo,Undo,撤消,,Undo menu entry
 Error_AnimBlendClone,{0} does not implement ICloneable,{0} 没有实现ICloneable接口,,Any class that is used in the animation system must implement ICloneable
 Error_CursorManagerDuplicateName,Attempting to add a cursor using image {1} with duplicated id {0} please assign a different name,尝试添加存在重复id {0}的图片{1}作为光标。请指定一个不同的名称。,,Multiple cursors have been added with the same reference name
@@ -285,18 +285,18 @@ Event_Draw_PreDraw,Pre-Draw,绘制预处理,,Draw event subtype
 Event_Draw_Resize,Window Resize,窗口大小调整,,Draw event subtype
 Event_Key_Alt,Alt,Alt,,Key event subtype
 Event_Key_AnyKey,Any,任意键,,Key event subtype
-Event_Key_Backspace,Backspace,退格键（Backspace）,,"Key event ""others"" subtype"
+Event_Key_Backspace,Backspace,退格键（Backspace）,,Key event "others" subtype
 Event_Key_Ctrl,Control,Control键（Ctrl）,,Key event subtype
-Event_Key_Delete,Delete,删除键,,"Key event ""others"" subtype"
+Event_Key_Delete,Delete,删除键,,Key event "others" subtype
 Event_Key_DigitN,{0},{0},,event key digit N
 Event_Key_Digits,Digits,数字键,,Key event subtype
 Event_Key_Down,Down,下方向键,,Key event subtype
-Event_Key_End,End,结束键,,"Key event ""others"" subtype"
+Event_Key_End,End,结束键,,Key event "others" subtype
 Event_Key_Enter,Enter,回车键,,Key event subtype
-Event_Key_Escape,Escape,退出键,,"Key event ""others"" subtype"
+Event_Key_Escape,Escape,退出键,,Key event "others" subtype
 Event_Key_FunctionKeys,Function Keys,功能键,,Key event subtype
-Event_Key_Home,Home,Home键,,"Key event ""others"" subtype"
-Event_Key_Insert,Insert,插入键,,"Key event ""others"" subtype"
+Event_Key_Home,Home,Home键,,Key event "others" subtype
+Event_Key_Insert,Insert,插入键,,Key event "others" subtype
 Event_Key_Keypad,Keypad,小键盘,,Key event subtype
 Event_Key_KeypadN,Keypad {0},小键盘 {0},,Keypad event N
 Event_Keyboard_Modifiers,Modifiers,修饰符键,,Modifiers keyboard group title
@@ -306,8 +306,8 @@ Event_Key_Left,Left,左方向键,,Key event subtype
 Event_Key_Letters,Letters,字母键,,Key event subtype
 Event_Key_NoKey,No Key,无键位,,Key event subtype
 Event_Key_Others,Others,其它,,Key event subtype
-Event_Key_PageDown,Page Down,向下翻页键,,"Key event ""others"" subtype"
-Event_Key_PageUp,Page Up,向上翻页键,,"Key event ""others"" subtype"
+Event_Key_PageDown,Page Down,向下翻页键,,Key event "others" subtype
+Event_Key_PageUp,Page Up,向上翻页键,,Key event "others" subtype
 Event_Key_Right,Right,右方向键,,Key event subtype
 Event_Key_Shift,Shift,Shift 键,,Key event subtype
 Event_Key_Space,Space,空格键,,Key event subtype
@@ -326,15 +326,15 @@ Event_MouseClick,Mouse Click,鼠标单击,,Mouse Click event name
 Event_MouseDown,Mouse Down,压住鼠标,,Mouse Down event name
 Event_MouseUp,Mouse Up,松开鼠标,,Mouse Up event name
 Event_Mouse_GlobalMouse,Global,全局,,Mouse event subtype
-Event_Mouse_GlobalMouse_LeftButton,Global Left Down,全局键压住,,"Mouseevent ""global"" subtype"
-Event_Mouse_GlobalMouse_LeftPressed,Global Left Pressed,全局左键按下,,"Mouseevent ""global"" subtype"
-Event_Mouse_GlobalMouse_LeftReleased,Global Left Released,全局左键松开,,"Mouseevent ""global"" subtype"
-Event_Mouse_GlobalMouse_MiddleButton,Global Middle Down,全局中键压住,,"Mouseevent ""global"" subtype"
-Event_Mouse_GlobalMouse_MiddlePressed,Global Middle Pressed,全局中键按下,,"Mouseevent ""global"" subtype"
-Event_Mouse_GlobalMouse_MiddleReleased,Global Middle Released,全局中键松开,,"Mouseevent ""global"" subtype"
-Event_Mouse_GlobalMouse_RightButton,Global Right Down,全局右键压住,,"Mouseevent ""global"" subtype"
-Event_Mouse_GlobalMouse_RightPressed,Global Right Pressed,全局右键按下,,"Mouseevent ""global"" subtype"
-Event_Mouse_GlobalMouse_RightReleased,Global Right Released,全局右键放开,,"Mouseevent ""global"" subtype"
+Event_Mouse_GlobalMouse_LeftButton,Global Left Down,全局键压住,,Mouseevent "global" subtype
+Event_Mouse_GlobalMouse_LeftPressed,Global Left Pressed,全局左键按下,,Mouseevent "global" subtype
+Event_Mouse_GlobalMouse_LeftReleased,Global Left Released,全局左键松开,,Mouseevent "global" subtype
+Event_Mouse_GlobalMouse_MiddleButton,Global Middle Down,全局中键压住,,Mouseevent "global" subtype
+Event_Mouse_GlobalMouse_MiddlePressed,Global Middle Pressed,全局中键按下,,Mouseevent "global" subtype
+Event_Mouse_GlobalMouse_MiddleReleased,Global Middle Released,全局中键松开,,Mouseevent "global" subtype
+Event_Mouse_GlobalMouse_RightButton,Global Right Down,全局右键压住,,Mouseevent "global" subtype
+Event_Mouse_GlobalMouse_RightPressed,Global Right Pressed,全局右键按下,,Mouseevent "global" subtype
+Event_Mouse_GlobalMouse_RightReleased,Global Right Released,全局右键放开,,Mouseevent "global" subtype
 Event_Mouse_LeftButton,Left Down,左键压住,,Mouse event subtype
 Event_Mouse_LeftPressed,Left Pressed,左键按下,,Mouse event subtype
 Event_Mouse_LeftReleased,Left Released,左键放开,,Mouse event subtype
@@ -368,8 +368,8 @@ Event_Other_RoomStart,Room Start,房间开始事件,,Other event subtype
 Event_Other_UserDefined,User Events,用户事件,,Other event subtype
 Event_Other_UserN,User Event {0},用户事件 {0},,event other user N
 Event_Other_Views,Views,视野,,Other event subtype
-Event_Other_Views_BoundaryViewN,Intersect View {0} Boundary,接触视野 {0} 边界,,"Other-Views ""Boundary view"" event numberN"
-Event_Other_Views_OutsideViewN,Outside View {0},视野 {0} 外面,,"Other-Views ""Outside view"" event numberN"
+Event_Other_Views_BoundaryViewN,Intersect View {0} Boundary,接触视野 {0} 边界,,Other-Views "Boundary view" event numberN
+Event_Other_Views_OutsideViewN,Outside View {0},视野 {0} 外面,,Other-Views "Outside view" event numberN
 Event_Other_Views_Boundary,Intersect Boundary,相交边界,,Intersect boundary view group title
 Event_Other_Views_Outside,Outside View,离开视野,,Outside view group title
 Event_Step,Step,步,,Step event name
@@ -565,8 +565,8 @@ Grid_MoveToSpanRows,Span All Rows,横跨所有行,,Context menu option to make a
 Grid_RemoveColumn,Remove Column(s),删除列,,Context menu option to remove a column or columns
 Grid_RemoveRow,Remove Row(s),删除行,,Context menu option to remove a row or rows
 History_Title,History,历史记录,,History window title
-IDEMenu_Account,Account,帐户,,"IDE menu ""Account"""
-IDEMenu_Build,Build,构建,,"File menu ""Build"""
+IDEMenu_Account,Account,帐户,,IDE menu "Account"
+IDEMenu_Build,Build,构建,,File menu "Build"
 IDEMenu_Edit,Edit,编辑,,The Edit menu item name
 IDEMenu_File,File,文件,,The File menu item name
 IDEMenu_Views,${IDEMenuViews},${IDEMenuViews},,Main menu entry for views
@@ -1034,25 +1034,25 @@ Navigation_Back,Back,返回,,Back
 Navigation_Forward,Forward,前进,,Forward
 Navigation_Reload,Reload,重新载入,,Reload webpage
 News_ReleaseNotes,Release Notes,版本说明,,Release notes window caption
-Object_Mask,Collision Mask:,碰撞遮罩：,,"object ""mask"" property"
-Object_Parent,Parent,父物体,,"object ""parent"" property"
+Object_Mask,Collision Mask:,碰撞遮罩：,,object "mask" property
+Object_Parent,Parent,父物体,,object "parent" property
 ObjectEditor_ParentChildren,Parent & Children,父和子,,Object editor parent and children caption
-Object_Persistent,Persistent,保持,,"Object Model ""persistent"" property"
+Object_Persistent,Persistent,保持,,Object Model "persistent" property
 Object_Persistent_Tooltip,Instances of this object will persist between rooms,这个物体的实例将在不同房间中一直保持存在,,object editor persistent property tooltip
-Object_PhysicsAngularDamping,Angular Damping,角度阻尼,,"object ""physicsAngularDamping"" property label"
-Object_PhysicsDensity,Density,密度,,"object ""physicsDensity"" property label"
-Object_PhysicsFriction,Friction,阻力,,"object ""physicsFriction"" property label"
-Object_PhysicsGroup,Collision Group,碰撞组,,"object ""physicsGroup"" property label"
-Object_PhysicsKinematic,Kinematic,运动的,,"object ""physicsKinematic"" property label"
-Object_PhysicsLinearDamping,Linear Damping,线性阻尼,,"object ""physicsLinearDamping"" property label"
-Object_PhysicsRestitution,Restitution,恢复系数,,"object ""physicsRestitution"" property label"
-Object_PhysicsSensor,Sensor,感应器,,"object ""physicsSensor"" property label"
-Object_PhysicsStartAwake,Start Awake,初始唤醒,,"object ""physicsStartAwake"" property label"
-Object_Solid,Solid,固体,,"Object Model ""solid"" property"
+Object_PhysicsAngularDamping,Angular Damping,角度阻尼,,object "physicsAngularDamping" property label
+Object_PhysicsDensity,Density,密度,,object "physicsDensity" property label
+Object_PhysicsFriction,Friction,阻力,,object "physicsFriction" property label
+Object_PhysicsGroup,Collision Group,碰撞组,,object "physicsGroup" property label
+Object_PhysicsKinematic,Kinematic,运动的,,object "physicsKinematic" property label
+Object_PhysicsLinearDamping,Linear Damping,线性阻尼,,object "physicsLinearDamping" property label
+Object_PhysicsRestitution,Restitution,恢复系数,,object "physicsRestitution" property label
+Object_PhysicsSensor,Sensor,感应器,,object "physicsSensor" property label
+Object_PhysicsStartAwake,Start Awake,初始唤醒,,object "physicsStartAwake" property label
+Object_Solid,Solid,固体,,Object Model "solid" property
 Object_Solid_Tooltip,Solid instances will automatically be placed back in their previous position when in collision,在碰撞时，固体实例将自动放回到先前的位置。,,object editor solid property tooltip
-Object_UsesPhysics,Uses Physics,使用物理,,"Object Model ""uses physics"" property"
+Object_UsesPhysics,Uses Physics,使用物理,,Object Model "uses physics" property
 Object_UsesPhysics_Tooltip,Instances use physics processing when in a room with 'Enable Physics' checked,在选中“启用物理”的房间中，实例使用物理处理,,object editor uses physics tooltip
-Object_Visible,Visible,可见,,"Object Model ""visible"" property"
+Object_Visible,Visible,可见,,Object Model "visible" property
 Object_Visible_Tooltip,"When unchecked, instances of this object will still be processed, but will not be drawn",取消选中时，仍将处理此物体的实例，但不会绘制,,object editor visible property tooltip
 ObjectEdior_PhysicsShape_ZoomIn,Zoom in,放大,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomOut,Zoom out,缩小,,Object editor physics window label
@@ -1088,11 +1088,11 @@ ObjectEditor_SelectMask,Select Mask,选择遮罩,,Object editor select mask capt
 ObjectEditor_SelectParent,Select Parent,选择父物体,,Object editor select parent caption
 ObjectEditor_Event,Event,事件,,Event button
 ObjectEditor_Events,Events,事件,,object editor events heading
-ObjectEditor_ModifyCollisionShape,Modify Collision Shape,修改碰撞形状,,"Object editor ""modify collision shape"" button label"
+ObjectEditor_ModifyCollisionShape,Modify Collision Shape,修改碰撞形状,,Object editor "modify collision shape" button label
 ObjectEditor_Name,Name:,名称：,,Name label in obejct editor
 ObjectEditor_NewSprite,New,新建,,object editor new sprite button
-ObjectEditor_NoParent,No Parent,没有父物体,,"Object editor ""no parent"" setting"
-ObjectEditor_NoSprite,No Sprite,没有精灵,,"Object editor ""no sprite"" setting"
+ObjectEditor_NoParent,No Parent,没有父物体,,Object editor "no parent" setting
+ObjectEditor_NoSprite,No Sprite,没有精灵,,Object editor "no sprite" setting
 ObjectEditor_ObjectProperties,Object Properties,物体属性,,Object properties window title
 ObjectEditor_Physics,Physics,物理,,Physics label in Object Editor
 ObjectEditor_InstProps,Variables,变量,,Object Variables label in Object Editor
@@ -1119,9 +1119,9 @@ ObjectEditor_RemoveListItem,Remove this item,删除此项,,Remove this item labe
 ObjectEditor_PhysicsProperties,Physics Properties,物理属性,,Object editor physics properties label
 ObjectEditor_PhysicsShape_WindowTitle,Physics Collision Shape,物理碰撞盒形状,,Object editor physics shape window title
 ObjectEditor_Properties,Properties,属性,,Object editor properties heading
-ObjectEditor_SameMask,Same As Sprite,与精灵相同,,"Object editor ""same as sprite"" mask setting"
+ObjectEditor_SameMask,Same As Sprite,与精灵相同,,Object editor "same as sprite" mask setting
 ObjectEditor_MaskSameAsSprite,Same As Sprite,与精灵相同,,Object editor same mask caption
-ObjectEditor_Shape,Convex Shape,凸多边形,,"Object editor collision shape ""shape"""
+ObjectEditor_Shape,Convex Shape,凸多边形,,Object editor collision shape "shape"
 ObjectEditor_WindowTitle,Object: {0},物体： {0},,Object properties window title
 ObjectEditor_Prop_RemoveTooltip,Remove this variable,删除此变量,,Remove variable row tooltip
 ObjectEditor_Prop_RemoveOverrideTooltip,Reset to default,重置为默认,,remove variable override tooltip
@@ -1190,7 +1190,7 @@ ResourceNode_AddExistingFromLibrary,Add Existing From My Library,从我的库中
 ResourceNode_AddGroup,Add Group,添加组,,Add a group
 ResourceNode_AddFromDefault,Add From Default View,从默认的视野中添加,,submenu heading to allow users to select a resource from the default view to add to their user view.
 ResourceNode_RemoveFromView,Remove From Current View,从当前视野中移除,,Resource Tree - remove a resource from the current view
-ResourceNode_RemoveFromView_Confirm,"You are about to remove """"{0}"""" from view """"{1}"""". Continue?","您正要从视野 """"{1}""""中删除""""{0}""""。继续？",,Resource Tree - confirmation of removal from the current view
+ResourceNode_RemoveFromView_Confirm,You are about to remove ""{0}"" from view ""{1}"". Continue?,您正要从视野 ""{1}""中删除""{0}""。继续？,,Resource Tree - confirmation of removal from the current view
 ResourceNode_Create,Create,创建,,Resource Tree node menu - create resource
 ResourceNode_DndToScript,Convert to GML,转换成GML,,Resource Tree node menu - Dnd To GML
 ResourceNode_ScriptToDnd,Convert to DnD?,转换成DnD?,,Resource Tree node menu - Script To Dnd
@@ -1210,43 +1210,43 @@ ResourceNode_OpenObjectEvents,Open All Event Scripts,打开所有事件脚本,,R
 ResourceNode_ImageAsSprite,Create Sprite From Image(s),从图片创建精灵,,Resource Tree node menu - create a new sprite from image files
 ResourceNode_Rename,Rename,重命名,,Resource Tree node menu - rename resource
 ResourceTree_Configs,Configurations,配置,,
-ResourceTree_DirectoryDelete_Confirm,"You are about to delete the directory ""{0}"" and all the items it contains. Continue?","您将要删除目录""{0}""以及它所包含的所有项目。继续？",,Resource tree directory delete user confirmation
-ResourceTree_Extensions,Extensions,扩展,,"Resource tree ""Extensions"" label"
-ResourceTree_FileDelete_Confirm,"You are about to delete the file ""{0}"". Continue?","你将要删除文件""{0}""。继续？",,Resource tree file delete user confirmation
-ResourceTree_Fonts,Fonts,字体,,"Resource tree ""Fonts"" label"
-ResourceTree_IncludedFiles,Included Files,内含文件,,"Resource tree ""Included Files"" label"
+ResourceTree_DirectoryDelete_Confirm,You are about to delete the directory "{0}" and all the items it contains. Continue?,您将要删除目录"{0}"以及它所包含的所有项目。继续？,,Resource tree directory delete user confirmation
+ResourceTree_Extensions,Extensions,扩展,,Resource tree "Extensions" label
+ResourceTree_FileDelete_Confirm,You are about to delete the file "{0}". Continue?,你将要删除文件"{0}"。继续？,,Resource tree file delete user confirmation
+ResourceTree_Fonts,Fonts,字体,,Resource tree "Fonts" label
+ResourceTree_IncludedFiles,Included Files,内含文件,,Resource tree "Included Files" label
 ResourceTree_NoResourceFound,No results found,未找到结果,,message when nothing found when searching resource tree
-ResourceMenu_CreateExtension,Create Extension,创建扩展,,"Resource menu ""Create Extension"" entry"
-ResourceMenu_CreateFont,Create Font,创建字体,,"Resource menu ""Create Font"" entry"
-ResourceMenu_CreateIncludedFile,Create Included File,创建内含文件,,"Resource menu ""Create Included File"" entry"
-ResourceMenu_CreateObject,Create Object,创建物体,,"Resource menu ""Create Object"" entry"
-ResourceMenu_CreatePath,Create Path,创建路径,,"Resource menu ""Create Path"" entry"
-ResourceMenu_CreateRoom,Create Room,创建房间,,"Resource menu ""Create Room"" entry"
-ResourceMenu_CreateScript,Create Script,创建脚本,,"Resource menu ""Create Script"" entry"
-ResourceMenu_CreateShader,Create Shader,创建着色器,,"Resource menu ""Create Shader"" entry"
-ResourceMenu_CreateSound,Create Sound,创建声音,,"Resource menu ""Create Sound"" entry"
-ResourceMenu_CreateSprite,Create Sprite,创建精灵,,"Resource menu ""Create Sprite"" entry"
-ResourceMenu_CreateTileset,Create Tile Set,创建图块集,,"Resource menu ""Create Tile Set"" entry"
-ResourceMenu_CreateNote,Create Note,创建便签,,"Resource menu ""Create Note"" entry"
-ResourceMenu_CreateTimeline,Create Timeline,创建时间轴,,"Resource menu ""Create Timeline"" entry"
+ResourceMenu_CreateExtension,Create Extension,创建扩展,,Resource menu "Create Extension" entry
+ResourceMenu_CreateFont,Create Font,创建字体,,Resource menu "Create Font" entry
+ResourceMenu_CreateIncludedFile,Create Included File,创建内含文件,,Resource menu "Create Included File" entry
+ResourceMenu_CreateObject,Create Object,创建物体,,Resource menu "Create Object" entry
+ResourceMenu_CreatePath,Create Path,创建路径,,Resource menu "Create Path" entry
+ResourceMenu_CreateRoom,Create Room,创建房间,,Resource menu "Create Room" entry
+ResourceMenu_CreateScript,Create Script,创建脚本,,Resource menu "Create Script" entry
+ResourceMenu_CreateShader,Create Shader,创建着色器,,Resource menu "Create Shader" entry
+ResourceMenu_CreateSound,Create Sound,创建声音,,Resource menu "Create Sound" entry
+ResourceMenu_CreateSprite,Create Sprite,创建精灵,,Resource menu "Create Sprite" entry
+ResourceMenu_CreateTileset,Create Tile Set,创建图块集,,Resource menu "Create Tile Set" entry
+ResourceMenu_CreateNote,Create Note,创建便签,,Resource menu "Create Note" entry
+ResourceMenu_CreateTimeline,Create Timeline,创建时间轴,,Resource menu "Create Timeline" entry
 ResourceMenu_Resources,Resources,资源,,Main resources menu entry
 ResourceTree_MultipleResourceDelete_Confirm,Are you sure you want to delete these resources: {0}?,你确定要删除这些资源吗： {0}？,,Resource tree delete confirmation label
 ResourceTree_MultipleResourceDelete_IncludedFiles_Confirm,Are you sure you want to delete these resources: {0}?\nIncluded files/folders on disk will be deleted,你确定要删除这些资源： {0}？\n硬盘上的文件/文件夹也会被删除,,Resource tree delete confirmation label
 ResourceTree_MultipleResourceDelete_Events_Confirm,Are you sure you want to delete these resources: {0}?\nCollision events with deleted objects will also be deleted,您确定要删除这些资源 {0}吗？\n与所删除物体的碰撞事件也将一起被删除,,Resource tree delete confirmation label
-ResourceTree_Notes,Notes,便签,,"Resource tree ""Notes"" label"
-ResourceTree_Objects,Objects,物体,,"Resource tree ""Objects"" label"
+ResourceTree_Notes,Notes,便签,,Resource tree "Notes" label
+ResourceTree_Objects,Objects,物体,,Resource tree "Objects" label
 ResourceTree_Options,Options,选项,,options
-ResourceTree_Paths,Paths,路径,,"Resource tree ""Paths"" label"
+ResourceTree_Paths,Paths,路径,,Resource tree "Paths" label
 ResourceTree_ResourceDelete_Confirm,Are you sure you want to delete {0}?,你确定要删除{0}吗？,,Resource tree delete confirmation label
 ResourceTree_ResourceDelete_IncludedFiles_Confirm,Are you sure you want to delete {0}?\nIncluded files/folders on disk will be deleted,你确定要删除{0}吗？\n在硬盘上的内含文件/文件夹也将一起被删除,,Resource tree folder delete confirmation label
 ResourceTree_ResourceDelete_Events_Confirm,Are you sure you want to delete {0}?\nCollision events with deleted objects will also be deleted,是否确定要删除 {0}？\n与所删除物体的碰撞事件也将一起被删除,,Resource tree delete events confirmation label
-ResourceTree_Rooms,Rooms,房间,,"Resource tree ""Rooms"" label"
-ResourceTree_Scripts,Scripts,脚本,,"Resource tree ""Scripts"" label"
-ResourceTree_Shaders,Shaders,着色器,,"Resource tree ""Shaders"" label"
-ResourceTree_Sounds,Sounds,声音,,"Resource tree ""Sounds"" label"
-ResourceTree_Sprites,Sprites,精灵,,"Resource tree ""Sprites"" label"
-ResourceTree_Tilesets,Tile Sets,图块集,,"Resource tree ""Tile Sets"" label"
-ResourceTree_Timelines,Timelines,时间轴,,"Resource tree ""Timelines"" label"
+ResourceTree_Rooms,Rooms,房间,,Resource tree "Rooms" label
+ResourceTree_Scripts,Scripts,脚本,,Resource tree "Scripts" label
+ResourceTree_Shaders,Shaders,着色器,,Resource tree "Shaders" label
+ResourceTree_Sounds,Sounds,声音,,Resource tree "Sounds" label
+ResourceTree_Sprites,Sprites,精灵,,Resource tree "Sprites" label
+ResourceTree_Tilesets,Tile Sets,图块集,,Resource tree "Tile Sets" label
+ResourceTree_Timelines,Timelines,时间轴,,Resource tree "Timelines" label
 ResourceTree_Title,Resources,资源,,Resource tree title
 ResourceTree_ViewNameInUse,View Name Already In Use,视图名称已经被使用了。,,label to show view name is already in use when renaming
 ResourceTree_CannotRenameDefaultView,Cannot rename Default View,无法重命名默认视图。,,label to show that you cannot rename default view
@@ -1362,11 +1362,11 @@ RoomProperties_ViewX,X Pos,X 位置,,numeric text box label for view or view por
 RoomProperties_ViewY,Y Pos,Y 位置,,numeric text box label for view or view port y pos
 RoomProperties_VSpeed,Vertical Speed,垂直速度,,numeric text box label for view for vertical speed
 RoomProperties_Width,Width,宽度,,numeric textbox caption for room width
-Run_Menu_Clean,Clean,清理,,"Run menu ""Clean"""
+Run_Menu_Clean,Clean,清理,,Run menu "Clean"
 Run_Menu_CreateExecutable,Create Executable,创建可执行文件,,The Create Executable menu item
 Run_Menu_RevealRemote,Show Remote Worker Installer,显示远程工作者（Remote Worker）安装程序,,Reveal worker menu item
-Run_Menu_Run,Run,运行,,"Run menu ""Run"""
-Run_Menu_RunDebug,Debug,调试,,"Run menu ""Debug"""
+Run_Menu_Run,Run,运行,,Run menu "Run"
+Run_Menu_RunDebug,Debug,调试,,Run menu "Debug"
 remote_worker_error,Error,错误,,Error Connecting to Remote Worker Dialog Title
 remote_worker_error_connecting,Could not connect to Remote Worker.  Please check your setup and try again.,无法连接远程工作者（Remote Worker）。请检查你的安装，然后重试。,,Error Connecting to Remote Worker Dialog Contents
 remote_worker_error_no_name,Remote Worker was left blank.  Please name your Remote Worker and try again.,远程工作者（Remote Worker）留空。请重命名远程工作者（Remote Worker），然后重试。,,Error Connecting to Remote Worker Dialog Contents
@@ -1376,10 +1376,10 @@ SCM_Add_Path,Add Path,添加路径,,Add a path to the SCM
 SCM_Clone,Clone Repository,克隆存储库,,Clone a Source Control Repository
 SCM_Commit,Commit Changes,提交更改,,Commit local changes to Repository
 SCM_Conflicts,Show Conflicts,显示冲突,,Show Conflicts within Repository
-SCM_Create,Create Project Repository,创建项目库,,Create a local Source Control Repository for this project
+SCM_Create,Create Project Repository,创建项目存储库,,Create a local Source Control Repository for this project
 SCM_Delete_Path,Delete Path,删除路径,,Delete a path from Source Control
 SCM_History,View History,查看历史,,View Source Control Repository History
-SCM_Import,Import Project into Repository,将项目导入库中,,Import a Game Maker Project to a Source Control Repository
+SCM_Import,Import Project into Repository,将项目导入存储库中,,Import a Game Maker Project to a Source Control Repository
 SCM_Menu,Source Control,源码控制,,Source Control Menu title
 SCM_Pull,Pull Changes,拉取变动,,Pull Changes from Source Control Repository
 SCM_Push,Push Changes,推送变动,,Push Changes to Source Control Repository
@@ -1387,23 +1387,23 @@ SCM_Revert_All,Revert All,还原全部,,Revert all changes from Source Control
 SCM_Revert_Path,Revert Path,还原路径,,Revert an item from Source Control
 SCM_Revert_Revision,Revert To This Revision,还原到这次修订,,Revert to the selected revision in SCM
 SCM_Conflict_Title,Source Control Conflicts,源码控制冲突,,Source Control Conflicts window title
-SCM_Conflict_Theirs,Use Theirs,使用他们的,,"Use ""Their"" version to resolve conflict"
+SCM_Conflict_Theirs,Use Theirs,使用他们的,,Use "Their" version to resolve conflict
 SCM_Conflict_Merge,Merge,合并,,Open Merge Tool
 SCM_Conflict_MergeTool,Choose Merge Tool,选择合并工具,,Choose which merge tool to use
 SCM_Conflict_MergeTool_Path,Tool location,工具位置,,The Path to the Tool to use
 SCM_Conflict_MergeTool_Options,Tool options,工具选项,,The Options to send to the Tool
-SCM_Conflict_Mine,Use Mine,使用我的,,"Use ""Mine"" to resolve conflict"
+SCM_Conflict_Mine,Use Mine,使用我的,,Use "Mine" to resolve conflict
 SCM_Successful_Merge,Was the Merge operation successful?,合并操作是否成功？,,Wait for the Merge Tool to finish and ask the user if the operation has been a success
 SearchReplace_Cancelled,Search Cancelled,搜索已被取消,,Search and Replace - Search Cancelled
 SearchReplace_CaseSensitive,Case Sensitive,区分大小写,,Search and Replace - Case Sensitive
 SearchReplace_Complete,Search Complete ({0} results),搜索完成 ({0} 结果),,Search and Replace - Search Complete
-SearchReplace_ContentHeader,Content,内容,,"Search & Replace - Output window ""content"" header"
+SearchReplace_ContentHeader,Content,内容,,Search & Replace - Output window "content" header
 SearchReplace_EndOfResults,"End of search results reached, should we loop?",搜索结果到达末尾，我们应该循环吗？,,"End of Search and Replace results, loop to beginning or end?"
 SearchReplace_FindAll,Find All,查找全部,,Search and Replace - Find All
 SearchReplace_FindNext,Find Next,查找下一个,,Search and Replace - Find Next
 SearchReplace_FindPrevious,Find Previous,查找上一个,,Search and Replace - Find Previous
-SearchReplace_ItemHeader,Item,项,,"Search & Replace - Output window ""item"" header"
-SearchReplace_LineHeader,Line,行,,"Search & Replace - Output window ""line"" header"
+SearchReplace_ItemHeader,Item,项,,Search & Replace - Output window "item" header
+SearchReplace_LineHeader,Line,行,,Search & Replace - Output window "line" header
 SearchReplace_NoResults,No results were found.,查无结果,,Search and Replace - No results found.
 SearchReplace_Replace,Replace:,替换：,,Search and Replace - Replace
 SearchReplace_ReplaceAll,Replace All,替换全部,,Search and Replace - Replace All
@@ -1436,7 +1436,7 @@ SoundEditor_NoDeviceWarningTitle,No Audio Device,没有音频设置,,No audio de
 SoundEditor_NoDeviceWarning,No audio device is available for previewing sounds.,没有可以预览声音的音频设备,,No audio device is available for previewing sounds warning message
 SoundEditor_StreamedAudioGroupWarning,Streaming sounds cannot be used in AudioGroups. Are you sure you want to set this to streaming? It will reset the AudioGroup back to Default.,声音流不能在音频组中使用。您确定要将其设置为流式传输吗？它会将音频组重置回默认。,,warning message for streamed sound in audio group
 SoundMixer_Title,Sound Mixer,混音器,,Title of SoundMixer window
-SoundMixer_ColumnVolume,Column Volume,列音量(?),,Column Volume Label
+SoundMixer_ColumnVolume,Column Volume,列音量,,Column Volume Label
 SoundMixer_UntitledGroup,Untitled Group,无标题组,,Label of Untitled Group
 SoundMixer_TooManyGroupsTitle,Too Many Sound Mixer Groups,混音器组过多,,There are Too Many Sound Mixer Groups title
 SoundMixer_TooManyGroups,There are too many Sound Mixer Groups on this window. You could open another Sound Mixer or close unused groups in this window.,窗口中混音器组过多。您可以在此窗口中打开另一个混音器或关闭未使用的组。,,There are too many Sound Mixer Groups on this window. You could open another Sound Mixer or close unused groups in this window.t
@@ -1489,12 +1489,12 @@ sourcecontrolgit_clone_repository,Source Control (Git) Clone Repository,源码�
 sourcecontrolgit_clone_urltoclone,URL of repository to clone:,要克隆的存储库的URL：,,URL of the repository to clone
 sourcecontrolgit_clone_path,Path to clone to:,克隆到的路径：,,Path to clone repository into
 sourcecontrolgit_commit,Source Control (Git) Commit,源码控制 (Git) 提交,,Commit to repository title
-sourcecontrolgit_commit_stagedchanges,Stage Changes,加载变化,,Staged Changes label
-sourcecontrolgit_commit_unstageall,Unstage All,不加载所有,,Unstage All changes label
-sourcecontrolgit_commit_unstageselected,Unstage Selected,不加载所选,,Unstage Selected changes label
-sourcecontrolgit_commit_unstagedchanges,Unstaged Changes,不加载变化,,Unstaged Changes label
-sourcecontrolgit_commit_stageall,Stage All,加载所有,,Stage All changes label
-sourcecontrolgit_commit_stageselected,Stage Selected,加载所选,,Stage Selected changes label
+sourcecontrolgit_commit_stagedchanges,Stage Changes,提交变动,,Staged Changes label
+sourcecontrolgit_commit_unstageall,Unstage All,不提交所有,,Unstage All changes label
+sourcecontrolgit_commit_unstageselected,Unstage Selected,不提交所选,,Unstage Selected changes label
+sourcecontrolgit_commit_unstagedchanges,Unstaged Changes,不提交变动,,Unstaged Changes label
+sourcecontrolgit_commit_stageall,Stage All,提交所有,,Stage All changes label
+sourcecontrolgit_commit_stageselected,Stage Selected,提交所选,,Stage Selected changes label
 sourcecontrolgit_commit_message,Commit Message,提交消息,,Commit Message label
 sourcecontrolgit_commit_button,Commit,提交,,Commit button label
 sourcecontrolgit_import_project,Source Control (Git) Import Project,源码控制 (Git) 导入项目,,Import Project title
@@ -1982,8 +1982,8 @@ Tutorial_Dock_Title,Tutorial,教程,,tutorial dock tab title
 Tutorial_FileMissing,Could not find {0},无法找到{0},,tutorial missing file message
 Tutorial_DisplayNameMissing,Display name must be set,显示名称必须设置。,,tutorial missing display name message
 Tutorial_PurchaseFailed,Error acquiring tutorial: {0},获取教程时出错：{0},,tutorial purchase error message
-Tutorial_CreateInfo,"Add content to Included Files ""TutorialContent"" folder","添加内容至内含文件的""TutorialContent"" 文件夹",,tutorial package create info label
-Tutorial_CreateInfo2,"Add files for the user to import to Included Files ""TutorialResources"" folder","添加用户要导入的文件到内含文件的""TutorialResources""文件夹",,tutorial package create info label
+Tutorial_CreateInfo,Add content to Included Files "TutorialContent" folder,添加内容至内含文件的"TutorialContent" 文件夹,,tutorial package create info label
+Tutorial_CreateInfo2,Add files for the user to import to Included Files "TutorialResources" folder,添加用户要导入的文件到内含文件的"TutorialResources"文件夹,,tutorial package create info label
 Tutorial_UpdateAvailableNotification,Update Available: {0},有可用更新： {0},,tutorial package update available notification
 Demo_PurchaseFailed,Error Acquiring Demo: {0},获取Demo出错：{0},,demo purchase error message
 yyzimporter_message,YYZ Importer,YYZ 导入器,,YYZ Importer Message Title
@@ -2148,7 +2148,7 @@ ggs_foldername,Folder Name,文件夹名称,,Name of Folder
 ggs_outputname,Output Name,输出名称,,Output Name
 ggs_output_debug_to_console,Output debug to console,输出调试到控制台,,Output Debug to Console
 ggs_generate_spotify_app,Generate Spotify App,生成Spotify应用,,Generate Spotify App
-ggs_display_outside_server_alert,"Display ""Running outside server"" alert","显示 ""运行外部服务器"" 警报",,Display the running outside of server alert
+ggs_display_outside_server_alert,Display "Running outside server" alert,显示 "运行外部服务器" 警报,,Display the running outside of server alert
 ggs_prepend_js,Prepend output .js with,对输出的.js文件开头插入下列内容,,Prepend output .js with
 ggs_icon,Icon,图标,,Icon
 ggs_icon_57,57x57 Icon,57x57 图标,,57x57 Icon
@@ -2590,7 +2590,7 @@ DnD_Pref_RecentlyUsed,Maximum number of recently used actions to display,最近�
 DnD_Pref_ChainSmoothness,The smoothness of the chain.,连接线的平滑度,,DnD? pref
 DnD_Pref_DragTime,Mouse down time to start dragging node (ms),鼠标按下到开始拖动节点所需的时间(毫秒),,DnD? pref
 DnD_Message_Error_Prefix,ERROR:,错误：,,DnD? message prefix
-DnD_Message_InvalidSyntaxError,"The ""{0}"" node is causing an invalid program flow. Move it to a correct location.","节点 ""{0}"" 正导致无效的程序流。请将它移动到正确的位置。",,DnD? message syntax error
+DnD_Message_InvalidSyntaxError,The "{0}" node is causing an invalid program flow. Move it to a correct location.,节点 "{0}" 正导致无效的程序流。请将它移动到正确的位置。,,DnD? message syntax error
 DnD_Message_InvalidSyntaxInsertionTitle,Invalid Insertion,无效插入,,DnD? pop up title for below message
 DnD_Message_InvalidSyntaxInsertion,Inserting {0} at this location would result in an invalid program.,在这个位置插入 {0} 将会导致程序无效。,,DnD? pop up message for invalid syntax insertion
 ggs_webserver_port,Webserver Port,Web服务器端口,,Webserver Port
@@ -2902,7 +2902,7 @@ TileSet_AutoTile,Auto Tiling,自动图块,,the tile set auto tile window title
 TileSetEditor_Editors,Editors:,编辑器：,,the tile set heading for the various sub editor buttons
 IDE_FatalErrorWarning,GameMaker Studio 2 has become unstable.\nPlease save changes and exit.,GameMaker Studio 2 变得不稳定。\n请保存更改并退出。,,Warn the user they should try saving changes and exit
 IDE_FatalErrorTitle,Fatal Error,严重错误,,Title for the fatal error warning dialog
-SpriteSelector_NoSprite,No Sprite,没有精灵,,"Sprite selector ""no sprite"" setting"
+SpriteSelector_NoSprite,No Sprite,没有精灵,,Sprite selector "no sprite" setting
 SpriteSelector_Dimensions,{0} x {1},{0} x {1},,Sprite selector dimensions label ie. width x height
 SpriteSelector_DragMessage,Drop here to assign sprite,拖拽到这里指定精灵,,message displayed while dragging a sprite resource
 TileSetEditor_TileProperties,Tile Properties,图块属性,,the tileset properties window heading for the tile properties
@@ -2948,10 +2948,10 @@ YoYoImage_BmpRleNotSupported,Runlength encoded not supported for .bmp formatted 
 PhysicsShapeEditor_Radius,Radius {0},半径 {0},,Physics shape editor circle radius
 IMPORT_FAILED_UNKNOWN_FILETYPE,Cannot import incompatible resource: {0} (unknown file type),无法导入不兼容的资源： {0} （未知文件类型）,,Add Existing failed
 IMPORT_FAILED_DISALLOWED_FILETYPE,Cannot add existing {0} resources,不能添加现有的 {0} 资源,,Add Existing failed due to disallowed resources
-platformdevice_android_title,Android Devices,Android 设备,,"Title for window that says ""No devices detected"""
+platformdevice_android_title,Android Devices,Android 设备,,Title for window that says "No devices detected"
 platformdevice_androidsettings_title,Android Settings Error,Android 设置错误,,Error in Android Settings
 platformdevice_androidsettings_sdk_misconfigured,The Android SDK path is misconfigured,Android SDK 路径配置错误,,The Android SDK path is misconfigured
-platformdevice_amazonfire_title,Amazon Fire Devices,Amazon Fire 设备,,"Title for the window that says ""No devices detected"""
+platformdevice_amazonfire_title,Amazon Fire Devices,Amazon Fire 设备,,Title for the window that says "No devices detected"
 platformdevice_amazonfiresettings_title,Amazon Fire Settings Error,Amazon Fire 设置错误,,Error in Amazon Fire Settings
 platformdevice_amazonfiresettings_sdk_misconfigured,The Amazon Fire Android SDK path is misconfigured,Amazon Fire Android SDK 路径配置错误,,The Amazon Fire Android SDK path is misconfigured
 SourceControlGit_PullError_Title,Source Control (Git) Pull Error,源码控制 (Git) 拉取错误,,Source Control (Git) Pull Error
@@ -3070,7 +3070,7 @@ SoundMixer_ToolTip_AddGroup,Add sound group,添加音频组,,Sound mixer tool ti
 SoundMixer_ToolTip_CloseGroup,Close sound group,关闭音频组,,Sound mixer tool tip for adding a sound group to the mixer
 SoundMixer_ToolTip_SoundGroup,Sound group,音频组,,Sound mixer tool tip for the sound group
 SoundMixer_ToolTip_MuteGroup,Mute all sounds in group,组中所有声音静音,,Sound mixer tool tip
-SoundMixer_ToolTip_ColumnVolume,Column volume,列音量(?),,Sound mixer tool tip for the column volume
+SoundMixer_ToolTip_ColumnVolume,Column volume,列音量,,Sound mixer tool tip for the column volume
 SoundMixer_ToolTip_PlayGroup,Play all sounds in group,播放组中所有声音,,Sound mixer tool tip
 SoundMixer_ToolTip_LoopGroup,Loop playback for all sounds in group,循环播放组中所有声音,,Sound mixer tool tip
 SoundMixer_ToolTip_RewindGroup,Rewind all sounds in group to start,组中所有声音快退至起点,,Sound mixer tool tip
@@ -4544,7 +4544,7 @@ RoomEditor_InstanceLockToolTip,Lock Instance,锁定实例,,tooltip for instance 
 RoomEditor_GraphicLockToolTip,Lock Graphic,锁定图形,,tooltip for graphic lock
 FontEditor_ReplacementGlyphError,Using symbols not found in font (?),使用这个字体没有的字符（？）,,Font glyph error
 FontEditor_ReplacementGlyphError_Tooltip,This font is missing one or more symbols and will get replacements from other fonts.,此字体缺少一个或多个符号，将从其他字体中获取替换。,,Tooltip
-Font_TooLargeTexPage,"Font """"{0}"""" packs more characters than can fit on the texture page. Some characters will not be visible.","字体""""{0}""""包含的字符数超出纹理页面上可容纳的字符数。某些字符将不可见。",,Font too large for texture page warning dialog
+Font_TooLargeTexPage,Font ""{0}"" packs more characters than can fit on the texture page. Some characters will not be visible.,字体""{0}""包含的字符数超出纹理页面上可容纳的字符数。某些字符将不可见。,,Font too large for texture page warning dialog
 Event_Gesture,Gesture,手势,,Gesture event name
 Event_Gesture_Global,Global,全局,,Gesture event subtype
 Event_Gesture_Tap,Tap,点按,,Tap gesture event name
@@ -4702,7 +4702,7 @@ ggs_windowsuap_xbox_live_scid,Service Configuration ID,服务配置 ID,,The Serv
 Proxy_Settings,Proxy Settings,代理设置,,Proxy settings window title
 Proxy_Address,Proxy,代理,,proxy address label
 Proxy_Address_Tooltip,Proxy address and port (http://address:port),代理地址和端口 (http://address:port),,proxy address tooltip
-Proxy_Address_Error,"Error proxy must using ""http://address:port"" format","错误代理：必须使用 ""http://address:port"" 格式",,proxy format error message
+Proxy_Address_Error,Error proxy must using "http://address:port" format,错误代理：必须使用 "http://address:port" 格式,,proxy format error message
 Proxy_Error_Title,Error: Invalid proxy setting,错误： 代理设置无效,,proxy error window title
 Proxy_Username,Username,用户名,,proxy username label
 Proxy_Username_Tooltip,Proxy username,代理用户名,,proxy username tooltip
