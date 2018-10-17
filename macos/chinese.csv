@@ -921,7 +921,7 @@ Marketplace_MyLibrary_Description,Description:,描述：,,Description label
 Marketplace_MyLibrary_AgeRating,Age Rating:,年龄评级：,,Age Rating Label
 Marketplace_MyLibrary_Version,Version:,版本：,,Version Label
 Marketplace_MyLibrary_VersionLabel,Version {0}. Published {1}.,版本 {0}. 发布 {1}.,,Version label
-Marketplace_MyLibrary_PackageContains,Package Contains:,资源包内容：,,Package Contains Label
+Marketplace_MyLibrary_PackageContains,Package Contains:,资产包内容：,,Package Contains Label
 Marketplace_MyLibrary_EULA,End User License Agreement: (EULA),最终用户许可协议：(EULA),,EULA Label
 Marketplace_MyLibrary_Categories,Categories,目录,,Marketplace Categories title
 Marketplace_MyLibary_AssetVerifying,Verifying...,验证中……,,Marketplace my library asset being verified label
@@ -951,43 +951,43 @@ Marketplace_Username,Username,用户名,,Username
 Marketplace_Offline,Cannot access Marketplace: User is offline,无法访问市场：用户处于离线状态,,Marketplace is offline error message
 Marketplace_TryAgainLater,Cannot access Marketplace. Try again later.,无法访问市场。稍后重试。,,Marketplace cannot be accessed try again later
 Marketplace_WaitForServer,Marketplace will open when a connection has been established.,市场将在建立连接后打开。,,Marketplace wait for server result message
-Marketplace_CreateNewPackage,Create Package,创建资源包,,marketplace menu create package
-Marketplace_UpdatePackage,Update Existing Package,更新现有资源包,,marketplace menu update existing package
-Marketplace_CreatePackage,Create Package,创建资源包,,marketplace menu create package
-Marketplace_CreatePackageDescription,Select publisher and enter a new package name and ID,选择一个发布者并输入新的资源包名称和ID,,marketplace create new package instructions
-Marketplace_ChooseAssetTitle,Choose an Asset,选择一个资源,,marketplace choose publisher package title
-Marketplace_ChoosePackageId,Please select the name and package ID of your asset from the marketplace,请从市场中选择资产的名称和资源包ID,,marketplace choose publisher package id
+Marketplace_CreateNewPackage,Create Package,创建资产包,,marketplace menu create package
+Marketplace_UpdatePackage,Update Existing Package,更新现有资产包,,marketplace menu update existing package
+Marketplace_CreatePackage,Create Package,创建资产包,,marketplace menu create package
+Marketplace_CreatePackageDescription,Select publisher and enter a new package name and ID,选择一个发布者并输入新的资产包名称和 ID,,marketplace create new package instructions
+Marketplace_ChooseAssetTitle,Choose an Asset,选择一个资产,,marketplace choose publisher package title
+Marketplace_ChoosePackageId,Please select the name and package ID of your asset from the marketplace,请从市场中选择资产的名称和资产包 ID,,marketplace choose publisher package id
 Marketplace_PackageName,Name:,名称：,,marketplace package name label
 Marketplace_PublisherSelectionRequired,No Publisher selected,没有选中发布者,,marketplace package no publisher selected error
 Marketplace_PublisherName,Publisher Name:,发布者名称︰,,marketplace packge publisher name label
-Marketplace_PackageId,Package ID:,资源包 ID:,,marketplace package id label
+Marketplace_PackageId,Package ID:,资产包 ID:,,marketplace package id label
 Marketplace_PackageVersion,Version:,版本：,,marketplace version label
-Marketplace_PackageIdRequired,Package ID required,请提供资源包ID,,create asset package missing package id
-Marketplace_CreatingPackage,Creating package...,创建资源包...,,create package progress title
-Marketplace_CreatePackageDesc,Select resources from your project and add them to your package:,从项目中选择资源并添加到你的资源包中：,,marketplace create package description
+Marketplace_PackageIdRequired,Package ID required,请提供资产包 ID,,create asset package missing package id
+Marketplace_CreatingPackage,Creating package...,创建资产包...,,create package progress title
+Marketplace_CreatePackageDesc,Select resources from your project and add them to your package:,从项目中选择资源并添加到你的资产包中：,,marketplace create package description
 Marketplace_ProjectLabel,Project:,项目：,,create package project label
-Marketplace_AssetPackageLabel,Asset Package:,资源资源包：,,create package asset package label
+Marketplace_AssetPackageLabel,Asset Package:,资产资产包：,,create package asset package label
 Marketplace_Package_AddLabel,Add,添加,,create package add resource button
 Marketplace_Package_AddAllLabel,Add All,全部添加,,create package add all resources button
 Marketplace_Package_RemoveLabel,Remove,移除,,create package remove resource button
 Marketplace_Package_CertSettingsMissing,Certificate file has not been set - please check Marketplace certificate settings,证书文件尚未设置 - 请检查市场证书设置,,create package certificate settings error
 Marketplace_Package_CertFileMissing,Certificate file '{0}' could not be found - please check Marketplace certificate settings,没有找到证书文件 '{0}' - 请检查市场证书设置,,create package missing certificate file error
-Marketplace_Package_CertFileSetupMessage,You will need to set up a signing certificate before you can create and publish packages.,在创建和发布资源包之前，你将需要设置一个签名证书。,,mplace need certificate message
+Marketplace_Package_CertFileSetupMessage,You will need to set up a signing certificate before you can create and publish packages.,在创建和发布资产包之前，你将需要设置一个签名证书。,,mplace need certificate message
 Marketplace_Package_CertFileSettingsButton,Go to Certificate Settings,转到证书设置,,mplace go to certificate settings button
-Marketplace_Package_CreateError,Error creating package,创建资源包时出错,,create package error title
-Marketplace_Package_ImportError,Error importing package,导入资源包时出错,,package import error title
-Marketplace_Package_Verifying,Verifying package...,验证资源包...,,marketplace pacakge verifying progress title
-Marketplace_Package_VerifyError,Failed to verify the package,验证资源包失败,,marketplace package verification error
+Marketplace_Package_CreateError,Error creating package,创建资产包时出错,,create package error title
+Marketplace_Package_ImportError,Error importing package,导入资产包时出错,,package import error title
+Marketplace_Package_Verifying,Verifying package...,验证资产包...,,marketplace pacakge verifying progress title
+Marketplace_Package_VerifyError,Failed to verify the package,验证资产包失败,,marketplace package verification error
 Marketplace_Package_GenericError,Failed with error:\n'{0}',失败因为错误：\n'{0}',,generic marketplace package error
-Marketplace_Package_SigningError,Package signing error,资源包签名错误,,marketplace package signing error
-Marketplace_Package_ExtractFailed,Error extracting package archive: {0},提取资源包文档错误： {0},,marketplace package extract fail
+Marketplace_Package_SigningError,Package signing error,资产包签名错误,,marketplace package signing error
+Marketplace_Package_ExtractFailed,Error extracting package archive: {0},提取资产包文档错误： {0},,marketplace package extract fail
 Marketplace_Package_ImportCompleted,Import Completed!,导入完成！,,marketplace package import completed
-Marketplace_Package_ImportDesc,Select resources from the asset package and add them to your project:,从资源资源包中选择资源并将其添加到项目中：,,package import description
+Marketplace_Package_ImportDesc,Select resources from the asset package and add them to your project:,从资产资产包中选择资源并将其添加到项目中：,,package import description
 Marketplace_Package_ImportNoProject,You must first open a project to import resources into,您必须先打开一个项目才能将资源导入,,marketplace package import no project open message
 Marketplace_Package_ExportNoResources,You must include at least one resource,你必须添加至少一个资源,,package export no resources selected message
 Marketplace_Package_ImportToNewProject,Import all resources to a new project,将所有资源导入到一个新项目,,package import new project
 Marketplace_Package_ResourceImportError,Some resources failed to import - see output window for details,一些资源导入失败 - 详情查看输出面板,,resource import error message
-Marketplace_Package_PackageResources,Package Resources:,资源包资源：,,package import- package resources caption
+Marketplace_Package_PackageResources,Package Resources:,资产包资源：,,package import- package resources caption
 Marketplace_Package_ImportResources,Resources to Import:,要导入的资源：,,package import - resource to import caption
 Marketplace_CheckForUpdates,Check For Updates,检查更新,,check for updates button label
 Marketplace_Updating,Updating...,更新...,,marketplace updating label
@@ -997,29 +997,29 @@ Marketplace_NoPublisherTitle,Publisher Account Required,发布者帐户要求,,m
 Marketplace_NoPublisherMessage,You do not have a Publisher attached to this account. Do you want to add one now?,你的帐户没有绑定发布者帐号。你现在想添加一个吗？,,marketplace no publisher account message
 Marketplace_ProjectRequiredDialogTitle,Project Required,项目要求,,marketplace import project required dialog title
 Marketplace_ProjectRequiredDialogMessage,An open project is required to import assets.\nDo you want to create a new project or open an existing project now?,导入资产需要一个打开的项目。\n 现在你想创建一个新项目或者打开一个已存在的项目吗？,,marketplace import project required dialog message
-MPackage_PackageUploadTitle,Package Upload,资源包上传,,package upload dialog title
-MPackage_PackageCreated,Created package '{0}' version {1},创建资源包 '{0}' 版本 {1},,package create success message
+MPackage_PackageUploadTitle,Package Upload,资产包上传,,package upload dialog title
+MPackage_PackageCreated,Created package '{0}' version {1},创建资产包 '{0}' 版本 {1},,package create success message
 MPackage_PackageUploading,Uploading to Marketplace...,上传到市场...,,package uploading message
-MPackage_PackageIDInvalid,Package ID is invalid,资源包ID无效,,mplace create package package id error
+MPackage_PackageIDInvalid,Package ID is invalid,资产包 ID 无效,,mplace create package package id error
 MPackage_AssetDisplayName,Display name,显示名称,,marketplace asset display name label
 MPackage_DisplayNameInvalid,Display name is invalid,显示名称无效,,marketplace package display name error
 MPackage_DisplayNameRestrictions,Display name restrictions,显示名称限制,,package display name restrictions label
 MPackage_DisplayNameRule1,- Must be between 5 and 30 characters long,- 必须在5-30字符之间,,asset create restriction label
 MPackage_DisplayNameRule2,#NAME?,#NAME?,,asset create restriction label
 MPackage_DisplayNameRule3,#NAME?,#NAME?,,asset create restriction label
-MPackage_PackageIdRestrictions,Package ID Restrictions,资源包ID限制,,asset create restriction label
+MPackage_PackageIdRestrictions,Package ID Restrictions,资产包ID限制,,asset create restriction label
 MPackage_PackageIdRule1,#NAME?,#NAME?,,asset create restriction label
 MPackage_PackageIdRule2,#NAME?,#NAME?,,asset create restriction label
 MPackage_PackageIdRule3,#NAME?,#NAME?,,asset create restriction label
-MPackage_NewPackageInfo_Other,IMPORTANT: The package ID cannot be changed once your asset has been created.,重要提示：创建资源后，无法更改资源包ID。,,create asset warning label
-MPackage_UploadedMessage,Uploaded package '{0}' version {1}\nGo to the asset listing page?,已上传资源包 '{0}' 版本 {1}\n 转到资产清单页面,,mplace package uploaded message
-MPackage_UploadFailed,Package upload failed: {0},资源包上传失败：{0},,mplace package upload failed message
-MPackage_UploadCancelled,Package upload cancelled,资源包取消上传,,mplace package upload cancelled message
-MPackage_PackageType,Package Type:,资源包类型：,,mplace package type label
-MPackage_CategorySetting_Demo,IMPORTANT: The asset category will be set to 'Demo' on upload,重要提示：资源类别将在上传时设置为“Demo”,,mplace category setting message
-MPackage_CategorySetting_Tutorial,IMPORTANT: The asset category will be set to 'Tutorial' on upload,重要提示：资源类别将在上传时设置为“教程”,,mplace category setting message
-MPackage_NewPackageInfo_Demo,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Demo' on upload,重要提示：创建资源后，无法更改资源包ID。上传时物品类别将设置为“Demo”,,mplace category setting message
-MPackage_NewPackageInfo_Tutorial,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Tutorial' on upload,重要提示：创建资源后，无法更改资源包ID。上传时物品类别将设置为“教程”,,mplace category setting message
+MPackage_NewPackageInfo_Other,IMPORTANT: The package ID cannot be changed once your asset has been created.,重要提示：创建资产后，无法更改资产包 ID。,,create asset warning label
+MPackage_UploadedMessage,Uploaded package '{0}' version {1}\nGo to the asset listing page?,已上传资产包 '{0}' 版本 {1}\n 转到资产清单页面,,mplace package uploaded message
+MPackage_UploadFailed,Package upload failed: {0},资产包上传失败：{0},,mplace package upload failed message
+MPackage_UploadCancelled,Package upload cancelled,资产包取消上传,,mplace package upload cancelled message
+MPackage_PackageType,Package Type:,资产包类型：,,mplace package type label
+MPackage_CategorySetting_Demo,IMPORTANT: The asset category will be set to 'Demo' on upload,重要提示：资产类别将在上传时设置为“Demo”,,mplace category setting message
+MPackage_CategorySetting_Tutorial,IMPORTANT: The asset category will be set to 'Tutorial' on upload,重要提示：资产类别将在上传时设置为“教程”,,mplace category setting message
+MPackage_NewPackageInfo_Demo,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Demo' on upload,重要提示：创建资产后，无法更改资产包 ID。上传时物品类别将设置为 “Demo”,,mplace category setting message
+MPackage_NewPackageInfo_Tutorial,IMPORTANT: The package ID cannot be changed once your asset has been created. The asset category will be set to 'Tutorial' on upload,重要提示：创建资产后，无法更改资产包 ID。上传时物品类别将设置为 “教程”,,mplace category setting message
 MenuBar_AddMenuBarEntry,Add Menu Bar Entry,添加菜单栏项目,,Add a new menu bar entry at the end of the bar
 MenuBar_AddMenuBarEntryAfter,Add Menu Bar Entry After '{0}',在'{0}'后面添加菜单栏项目,,Add a new menu bar entry after the selected entry
 MenuBar_AddMenuBarEntryBefore,Add Menu Bar Entry Before '{0}',在'{0}'前面添加菜单栏项目,,Add a new menu bar entry before the selected entry
@@ -1133,7 +1133,7 @@ ObjectEditor_EventNewLabel,New Event,新事件,,new event button label
 InstanceEditor_Prop_OverrideTooltip,Override this variable,覆盖此变量,,Override variable tooltip
 OutputPanel_Output,Output,输出,,Output panel output tab name
 OutputPanel_SearchResults,Search Results,搜索结果,,Output panel search results tab name
-OutputPanel_SourceControl,Source Control,源码控制,,Output panel source control tab name
+OutputPanel_SourceControl,Source Control,源代码管理,,Output panel source control tab name
 PathEditor_Increment,Increment:,增量：,,Increment path label
 PathEditor_Add,Add,添加,,Path editor add button name
 PathEditor_Closed,Closed,闭合,,Path editor closed path checkbox
@@ -1380,13 +1380,13 @@ SCM_Create,Create Project Repository,创建项目存储库,,Create a local Sourc
 SCM_Delete_Path,Delete Path,删除路径,,Delete a path from Source Control
 SCM_History,View History,查看历史,,View Source Control Repository History
 SCM_Import,Import Project into Repository,将项目导入存储库中,,Import a Game Maker Project to a Source Control Repository
-SCM_Menu,Source Control,源码控制,,Source Control Menu title
-SCM_Pull,Pull Changes,拉取变动,,Pull Changes from Source Control Repository
-SCM_Push,Push Changes,推送变动,,Push Changes to Source Control Repository
+SCM_Menu,Source Control,源代码管理,,Source Control Menu title
+SCM_Pull,Pull Changes,拉取更改,,Pull Changes from Source Control Repository
+SCM_Push,Push Changes,推送更改,,Push Changes to Source Control Repository
 SCM_Revert_All,Revert All,还原全部,,Revert all changes from Source Control
 SCM_Revert_Path,Revert Path,还原路径,,Revert an item from Source Control
 SCM_Revert_Revision,Revert To This Revision,还原到这次修订,,Revert to the selected revision in SCM
-SCM_Conflict_Title,Source Control Conflicts,源码控制冲突,,Source Control Conflicts window title
+SCM_Conflict_Title,Source Control Conflicts,源代码管理冲突,,Source Control Conflicts window title
 SCM_Conflict_Theirs,Use Theirs,使用他们的,,Use "Their" version to resolve conflict
 SCM_Conflict_Merge,Merge,合并,,Open Merge Tool
 SCM_Conflict_MergeTool,Choose Merge Tool,选择合并工具,,Choose which merge tool to use
@@ -1440,14 +1440,14 @@ SoundMixer_ColumnVolume,Column Volume,列音量,,Column Volume Label
 SoundMixer_UntitledGroup,Untitled Group,无标题组,,Label of Untitled Group
 SoundMixer_TooManyGroupsTitle,Too Many Sound Mixer Groups,混音器组过多,,There are Too Many Sound Mixer Groups title
 SoundMixer_TooManyGroups,There are too many Sound Mixer Groups on this window. You could open another Sound Mixer or close unused groups in this window.,窗口中混音器组过多。您可以在此窗口中打开另一个混音器或关闭未使用的组。,,There are too many Sound Mixer Groups on this window. You could open another Sound Mixer or close unused groups in this window.t
-SourceControl_ActionEnded,"Attempting to request further source control actions on '{0}' after end has been called, create a new sourcecontrolaction class or use WaitForPrevious to insert blocking sections between requests",在end调用后尝试在'{0}'上请求进一步的源码控制操作，创建新的sourcecontrolaction类或使用WaitForPrevious在请求之间插入阻塞部分,,exception message for when the code has attempted to request an action after End() has been called
-SourceControl_ActionIncomplete,Source Control Action '{0}' has not successfully completed,源码控制动作'{0}'尚未成功完成,,error message for a source control action End() returning from a blocking wait when the action hasn't fully completed
-SourceControl_InvalidAction,Source Control Action '{0}' has an invalid action in the request queue,源码控制动作'{0}'在请求队列中有一个无效的动作,,exception message for when we have hit an invalid action request
-SourceControlGit_NeedIdentity,Source Control (Git) Invalid Credentials,源码控制(Git)凭据无效,,Require Credentials Dialog Title
+SourceControl_ActionEnded,"Attempting to request further source control actions on '{0}' after end has been called, create a new sourcecontrolaction class or use WaitForPrevious to insert blocking sections between requests",在end调用后尝试在'{0}'上请求进一步的源代码管理操作，创建新的sourcecontrolaction类或使用WaitForPrevious在请求之间插入阻塞部分,,exception message for when the code has attempted to request an action after End() has been called
+SourceControl_ActionIncomplete,Source Control Action '{0}' has not successfully completed,源代码管理动作'{0}'尚未成功完成,,error message for a source control action End() returning from a blocking wait when the action hasn't fully completed
+SourceControl_InvalidAction,Source Control Action '{0}' has an invalid action in the request queue,源代码管理动作'{0}'在请求队列中有一个无效的动作,,exception message for when we have hit an invalid action request
+SourceControlGit_NeedIdentity,Source Control (Git) Invalid Credentials,源代码管理(Git)凭据无效,,Require Credentials Dialog Title
 SourceControlGit_NeedIdentityMessage,The Repository '{0}' is expecting a different Username/Password than is set under the Identity preferences.,存储库 '{0}' 期望一个与身份偏好设置不同的用户名/密码。,,The Git repository is expecting a different username and password message.
-SourceControlGit_NoRepoTitle,Source Control (Git) No Repository,源码控制(Git)中没有存储库,,There is no Git Repository (Title)
+SourceControlGit_NoRepoTitle,Source Control (Git) No Repository,源代码管理(Git)中没有存储库,,There is no Git Repository (Title)
 SourceControlGit_NoRepoMessage,"There is no Git repository configured with this Project.\nTry Create if you want a local repository, or Import into an existing one.",这个项目没有配置Git库。\n如果你想要要一个本地存储库，请尝试创建或者导入一个现有的库。,,"There is no Git Repository (Message) There is no repository at the project directory, perhaps try Create or Import."
-SourceControlGit_NoIdentity,Source Control (Git) No Identity,源码控制(Git)没有身份标识,,There is no Git Identity set (Title)
+SourceControlGit_NoIdentity,Source Control (Git) No Identity,源代码管理(Git)没有身份标识,,There is no Git Identity set (Title)
 SourceControlGit_NoIdentityMessage,There is no Git identity set under Preferences.\nPlease set one so that commits are correctly attributed!,在“偏好设置”下没有设置Git标识。\n请设置一个以便正确归属提交！,,"There is no Git Identity set (Message) No identity credentials found in preferences, please set them."
 SourceControlGit_Select_All,Select/Deselect All,全部选择/取消选择,,Select/Deselect all items to commit
 SourceControlGit_Merging,Merge in Progress,合并进行中,,Merge in Progress Status Message for Commit window
@@ -1457,7 +1457,7 @@ SourceControlGit_History_Commits,Commit History,提交历史,,Commit History
 SourceControlGit_PageLeft,Previous Page,上一页,,Previous Page of Results
 SourceControlGit_PageRight,Next Page,下一页,,Next Page of Results
 SourceControlGit_SelectCommit,Select a Commit,选择一个提交,,Select a Commit message
-SourceControlGit_AutoPopup,Automatically open source control output window,自动打开源码控制输出窗口,,Preference title for automatically popping up the source control output window
+SourceControlGit_AutoPopup,Automatically open source control output window,自动打开源代码管理输出窗口,,Preference title for automatically popping up the source control output window
 SourceControlGit_NoCommitMessage,"You have not specified a commit message, are you sure you want to continue?",你尚未指定一个提交信息，你确定要继续吗？,,No commit message specified warning
 SourceControlConflictsDetected,"There are conflicts within this project. If the project is closed or reloaded, it may be broken until manually resolved. Are you sure you want to continue?",这个项目中存在冲突。如果项目已关闭或重新加载，则可能会在手动解决之前将其中断。你确定要继续吗？,,Conflicts Detected message
 sourcecontrolgit_auth_type,Authorisation Type,授权类型,,Type of Authorisation to use
@@ -1468,16 +1468,16 @@ sourcecontrolgit_auth_public,Path to Public Key,公共密钥路径,,Path to Publ
 sourcecontrolgit_auth_private,Path to Private Key,私钥路径,,Path to Private Key for authentication
 sourcecontrolgit_auth_userpass,Username/Password,用户名/密码,,Username and Password combination for authentication
 sourcecontrolgit_auth_sshkeys,SSH Keys,SSH 密钥,,SSH Keypair combination for authentication
-sourcecontrolgit_authentication_settings,Source Control (Git) Authentication Settings,源码控制 (Git) 身份认证设置,,Source Control (Git) Authentication Settings Window Title
+sourcecontrolgit_authentication_settings,Source Control (Git) Authentication Settings,源代码管理 (Git) 身份认证设置,,Source Control (Git) Authentication Settings Window Title
 sourcecontrolgit_difftool_path,Path to Diff tool,差异工具（Diff Tool）路径,,Path to Diff tool
 sourcecontrolgit_difftool_options,Diff Tool Options,差异工具（Diff Tool）选项,,Options to pass to Diff tool
 sourcecontrolgit_auth_add_userpass,Add User/Pass Authentication,添加用户/密码身份验证,,Add new User/Pass Authentication
 sourcecontrolgit_auth_add_ssh,Add SSH Keypair Authentication,添加SSH密钥对身份验证,,Add new SSH Keypair Authentication
-sourcecontrolgit_auth_failed,Source Control (Git) Authentication Failed,源码控制 (Git) 身份验证失败,,Authentication failed in Source Control (Git) error title
+sourcecontrolgit_auth_failed,Source Control (Git) Authentication Failed,源代码管理 (Git) 身份验证失败,,Authentication failed in Source Control (Git) error title
 sourcecontrolgit_auth_userpass_failed,No Valid User/Pass Authentication details found for {0},找不到 {0} 的有效的用户名/密码身份验证详细信息,,No Valid User/Pass found for repository error message
 sourcecontrolgit_auth_ssh_failed,No Valid SSH KeyPair Authentication details found for {0},找不到 {0} 的有效的SSH密码对身份验证详细信息,,No Valid SSH KeyPair found for repository error message
 sourcecontrolgit_auth_create_keypair,Create KeyPair,创建密钥对,,Create SSH KeyPair button
-sourcecontrolgit_auth_missingfield_title,Source Control (Git) Invalid Authentication,源码控制 (Git) 无效的身份验证,,Source Control (Git) Invalid Authentication title
+sourcecontrolgit_auth_missingfield_title,Source Control (Git) Invalid Authentication,源代码管理 (Git) 无效的身份验证,,Source Control (Git) Invalid Authentication title
 sourcecontrolgit_auth_missing_repo,Repository field cannot be empty,库字段不能为空,,Warning that the repository field cannot be empty
 sourcecontrolgit_auth_missing_username,Username field cannot be empty,用户名字段不能为空,,Warning that the username field cannot be empty
 sourcecontrolgit_auth_missing_password,Password field cannot be empty,密码字段不能为空,,Warning that the password field cannot be empty
@@ -1485,21 +1485,21 @@ sourcecontrolgit_auth_missing_publickey,Cannot find Public key - please ensure p
 sourcecontrolgit_auth_missing_privatekey,Cannot find Private key - please ensure path is valid,不能找到私钥 - 请确保路径有效,,Warning that the private key field is invalid
 sourcecontrolgit_auth_repo_exists,Authentication details for repository already exist,库的身份验证详细信息已经存在,,Authentication details for repository already exist
 SourceControlGit_UnlocalisedError,{0},{0},,For when Git dies for some reason that we dont know why - display the exception directly
-sourcecontrolgit_clone_repository,Source Control (Git) Clone Repository,源码控制(Git) 克隆库,,Clone Repository in source control git plugin
+sourcecontrolgit_clone_repository,Source Control (Git) Clone Repository,源代码管理(Git) 克隆库,,Clone Repository in source control git plugin
 sourcecontrolgit_clone_urltoclone,URL of repository to clone:,要克隆的存储库的URL：,,URL of the repository to clone
 sourcecontrolgit_clone_path,Path to clone to:,克隆到的路径：,,Path to clone repository into
-sourcecontrolgit_commit,Source Control (Git) Commit,源码控制 (Git) 提交,,Commit to repository title
-sourcecontrolgit_commit_stagedchanges,Stage Changes,提交变动,,Staged Changes label
+sourcecontrolgit_commit,Source Control (Git) Commit,源代码管理 (Git) 提交,,Commit to repository title
+sourcecontrolgit_commit_stagedchanges,Stage Changes,提交更改,,Staged Changes label
 sourcecontrolgit_commit_unstageall,Unstage All,不提交所有,,Unstage All changes label
 sourcecontrolgit_commit_unstageselected,Unstage Selected,不提交所选,,Unstage Selected changes label
-sourcecontrolgit_commit_unstagedchanges,Unstaged Changes,不提交变动,,Unstaged Changes label
+sourcecontrolgit_commit_unstagedchanges,Unstaged Changes,不提交更改,,Unstaged Changes label
 sourcecontrolgit_commit_stageall,Stage All,提交所有,,Stage All changes label
 sourcecontrolgit_commit_stageselected,Stage Selected,提交所选,,Stage Selected changes label
 sourcecontrolgit_commit_message,Commit Message,提交消息,,Commit Message label
 sourcecontrolgit_commit_button,Commit,提交,,Commit button label
-sourcecontrolgit_import_project,Source Control (Git) Import Project,源码控制 (Git) 导入项目,,Import Project title
+sourcecontrolgit_import_project,Source Control (Git) Import Project,源代码管理 (Git) 导入项目,,Import Project title
 sourcecontrolgit_import_repository,Repository to import project into:,将项目导入的存储库：,,Repository to import project into label
-sourcecontrolgit_log,Source Control (Git) Log,源码控制 (Git) 日志,,Revision log for source control title
+sourcecontrolgit_log,Source Control (Git) Log,源代码管理 (Git) 日志,,Revision log for source control title
 Splash_Done,Done.,完成。,,Finished loading
 Splash_Loading,Loading....,载入....,,Generic loading text
 Splash_LoadingLanguages,Loading Languages...,载入语言...,,Loading the languages prefix
@@ -1782,7 +1782,7 @@ Views_Menu_Worker,Build Worker,构建工作者（Build Worker）,,Views menu ent
 Views_Menu_Resources,Resources,资源,,Views menu entry for resources
 Views_Menu_Tutorial,Tutorial Windows,教程窗口,,Views menu entry for tutorial windows
 Views_Menu_SearchResults,Search Results,搜索结果,,Views menu entry for the search results panel
-Views_Menu_SourceControl,Source Control Output,源码控制输出,,Views menu entry for the source control output window
+Views_Menu_SourceControl,Source Control Output,源代码管理输出,,Views menu entry for the source control output window
 Views_Menu_Breakpoints,Breakpoints,断点,,Views menu entry for the breakpoints window
 Views_Menu_CompileErrors,Compile Errors,编译错误,,Views menu entry for the compile errors window
 Views_Menu_Macros,IDE Environment Variables,IDE环境变量,,View Macros window
@@ -2211,7 +2211,7 @@ ggs_argument_errors,Argument Errors,参数错误,,Argument Errors
 ggs_author,Author,作者,,Author
 ggs_lastchanged,Last Changed,最后更改,,Last Changed
 ggs_information,Information,信息,,Information
-ggs_enable_source_control,Enable source control,启用源码控制,,Enable Source Control
+ggs_enable_source_control,Enable source control,启用源代码管理,,Enable Source Control
 ggs_content_id,Package Content ID,程序包内容ID,,Package Content Id
 ggs_passcode,Passcode,密码,,Passcode
 ggs_save_data_icon,Save Data Icon,保存数据图标,,Save Data Icon
@@ -2479,10 +2479,10 @@ sourcecontrolgit_email,Commit email address,提交的邮箱地址,,Email for use
 sourcecontrolgit_mergetoolpath,Tool location,工具位置,,Path to Tool for source control git
 sourcecontrolgit_mergetooloptions,Options for Tool,工具选项,,Options for Tool for Source Control Git
 sourcecontrolgit_logging_verbose,Verbose logging,详细日志记录,,Verbose Logging for Source Control Git
-sourcecontrolgit_externaltoolerror,Source Control (Git) External Tool Error,源码控制 (Git) 外部工具错误,,Source Control (Git) External Tool Error message title
+sourcecontrolgit_externaltoolerror,Source Control (Git) External Tool Error,源代码管理 (Git) 外部工具错误,,Source Control (Git) External Tool Error message title
 sourcecontrolgit_nomergetool,Merge Tool path is invalid,合并工具路径无效,,Merge Tool path is invalid
 sourcecontrolgit_nodifftool,Diff Tool path is invalid,差异工具路径无效,,Diff Tool path is invalid
-sourcecontrolgit_automatically_start,Automatically enable source control,自动启用源码控制,,Automatically enable Source Control
+sourcecontrolgit_automatically_start,Automatically enable source control,自动启用源代码管理,,Automatically enable Source Control
 ProgressBar_checking_device,Checking Device...,正在检查设备...,,Checking Device Connection Progress Bar Label
 ProgressBar_detecting_devices,Detecting Devices...,正在检测设备......,,Detecting Devices Progress Bar label
 ProgressBar_runtime_delete,Deleting Runtime...,正在删除运行库...,,Deleting Runtime Progress Bar Label
@@ -2954,7 +2954,7 @@ platformdevice_androidsettings_sdk_misconfigured,The Android SDK path is misconf
 platformdevice_amazonfire_title,Amazon Fire Devices,Amazon Fire 设备,,Title for the window that says "No devices detected"
 platformdevice_amazonfiresettings_title,Amazon Fire Settings Error,Amazon Fire 设置错误,,Error in Amazon Fire Settings
 platformdevice_amazonfiresettings_sdk_misconfigured,The Amazon Fire Android SDK path is misconfigured,Amazon Fire Android SDK 路径配置错误,,The Amazon Fire Android SDK path is misconfigured
-SourceControlGit_PullError_Title,Source Control (Git) Pull Error,源码控制 (Git) 拉取错误,,Source Control (Git) Pull Error
+SourceControlGit_PullError_Title,Source Control (Git) Pull Error,源代码管理 (Git) 拉取错误,,Source Control (Git) Pull Error
 SourceControlGit_NeedToCommitChanges,You need to commit changes before pulling.,在拉取之前你需要提交更改。,,You need to commit your changes before pulling
 skin_selection_change,You have selected to use a new skin but this change requires a restart.\nDo you wish to restart the IDE now?,你选择使用一个新皮肤，但是这个更改需要重启。\n现在你希望重启IDE吗？,,User has changed the skin and we need to restart the IDE.
 FILTERED,Filtered,滤过,,suffix used in filtered resource tree view
@@ -3104,7 +3104,7 @@ ResourceTree_ItemSize,Default zoom (%),默认缩放 (%),,resource tree pref
 ResourceTree_ItemMinSize,Resource item minimum size,资源项的最小大小,,resource tree pref
 ResourceTree_ItemMaxSize,Resource item maximum size,资源项的最大大小,,resource tree pref
 Settings_ShowPassword,Show Password,显示密码,,Show Password
-SourceControlGit_CreateRepoTitle,Source Control (Git) Create,源码控制 (Git) 创建,,Source Control (Git) Create Title
+SourceControlGit_CreateRepoTitle,Source Control (Git) Create,源代码管理 (Git) 创建,,Source Control (Git) Create Title
 SourceControlGit_CreateRepoMessage,This will create a bare (server) repository and bind your project to it,这将创建一个公开（服务器）存储库并将项目绑定到它,,Create Repository message
 SourceControlGit_CreateRepoSuccess,Repository created successfully,成功创建存储库,,Create repository success message
 WorkspaceMenu_Windows_CloseAll,Close All,全部关闭,,Workspace context menu close all windows
@@ -3144,12 +3144,12 @@ DnDToolbox_Menu_RemoveFav,Remove Favourite,删除最喜爱,,DnD? Toolbox remove 
 DnDToolbox_Menu_ClearRecentlyUsed,Clear Recently Used,清除最近使用,,DnD? Toolbox clear recently used
 DnDToolbox_Menu_ClearFavs,Clear Favourites,清除最喜爱,,DnD? Toolbox clear favourites
 SourceControlGit_FileLock,One or more files may be locked. Please check that none of the files are open in external programs. Do you want to try again?,一个或多个文件可能被锁定。请检查没有文件是通过外部程序打开的。你想要重试吗？,,Files potentially locked and need to try again
-SourceControlGit_Error,Source Control (Git) Error,源码控制 (Git) 错误,,Error with Source Control (Git)
+SourceControlGit_Error,Source Control (Git) Error,源代码管理 (Git) 错误,,Error with Source Control (Git)
 SourceControlGit_ProjectBreakRetry,"Be aware that this may have broken your project, as the command was not successful and you have chosen not to retry it.",请注意，这可能会破坏您的项目，因为命令不成功并且您已选择不重试它。,,Project may be broken warning due to command failing and choosing not to retry
 SourceControlGit_ServerNotFound,Server '{0}' has not been found,未找到服务器 '{0}',,Server has not been found error
 SourceControlGit_NotEmptyDirectory,The chosen directory must be empty,所选目录必须为空,,The chosen directory must be empty
 SourceControlGit_InvalidPath,The URL is invalid,URL无效,,The URL is invalid
-SourceControlGit_Clone,Source Control (Git) Clone,源码控制 (Git) 克隆,,Source Control (Git) Clone Title
+SourceControlGit_Clone,Source Control (Git) Clone,源代码管理 (Git) 克隆,,Source Control (Git) Clone Title
 SourceControlGit_CloneNonBareOrigin,This is a non-bare repository which we do not support direct cloning from.\nHowever we have found its origin so we will push to that and clone from the origin instead.,这是一个非公开存储库，我们不支持从中直接克隆。\n但是，我们已经找到它的远程版本库（origin），所以我们将推送到origin并从那里克隆。,,Message for when a clone is done on a non-bare repository but an origin has been found.
 SourceControlGit_CloneNonBareNoOrigin,This is a non-bare repository which we do not support direct cloning from.\nThere is no Origin marked on this repository so we will ask you to create one so both old and new repositories will be linked via the new bare repository,这不是一个公开库，不支持直接克隆。\n这个库里也没有源点(origin)标记，所以我们要求你创建一个，旧的和新的库都将链接到这个新的公开库。,,Message for when a clone is done on a non-bare repository and an origin has not been found.
 Survey_Title,Feedback Survey,反馈调查,,Feedback Survey Window Title
@@ -4078,8 +4078,8 @@ RemoteWorker_NameErrorTitle,Remote Worker Name Error,远程工作者命名错误
 RemoteWorker_NameError,A Remote Worker with this name already exists.,已存在具有此名称的远程工作者。,,Remote Worker Name error message
 RemoteWorker_PlatformNotSupported,The current platform is not supported on this Remote Worker.,此远程工作者不支持当前平台。,,Platform is not supported on this remote worker
 SearchOutput_Default,Press ${open_search_replace} to open the Search and Replace window.,按下 ${open_search_replace} 打开查找和替换窗口,,Default text for the Search Output Window
-SourceControl_Default,"Source Control Output will go here. If you have not turned on Source Control, you can find it in Main Options.",源码控制输出将出现在这里。如果尚未打开“源码管理”，则可以在“主选项”中找到它。,,Default text for the Source Control Window
-SourceControl_Trial,"Source Control Output would go here, but you are currently using a Trial version.\nPlease upgrade to a paid version to enable the Source Control features!\nVisit https://www.yoyogames.com/get2 to view our pricing.",源码控制输出将出现在这里，但当前你正在使用试用版。\n请升级到付费版本启用源码控制！\n访问 https://www.yoyogames.com/get2 查看我们的定价。,,Default text for source control window when in trial mode.
+SourceControl_Default,"Source Control Output will go here. If you have not turned on Source Control, you can find it in Main Options.",源代码管理输出将出现在这里。如果尚未打开“源码管理”，则可以在“主选项”中找到它。,,Default text for the Source Control Window
+SourceControl_Trial,"Source Control Output would go here, but you are currently using a Trial version.\nPlease upgrade to a paid version to enable the Source Control features!\nVisit https://www.yoyogames.com/get2 to view our pricing.",源代码管理输出将出现在这里，但当前你正在使用试用版。\n请升级到付费版本启用源代码管理！\n访问 https://www.yoyogames.com/get2 查看我们的定价。,,Default text for source control window when in trial mode.
 TileSetEditor_WarningRoomTileLayersAffected,"Tile size increase will cause rooms to lose some tile layer data, are you sure you want to make this change?\n\nTo avoid data loss press cancel and increase room size of the affected rooms: {0}",图块尺寸增加将导致房间丢失一些图块层数据，你确定要进行此更改吗？\n\n为避免数据丢失请按取消，并扩大受影响的房间的大小： {0},,warning for user when increasing tile width/height which would cause a room tile layer to be truncated and lose painted tiles
 GMStdAlpha_Name,Set Draw Alpha,设置绘制Alpha值,,dnd set draw alpha node
 GMStdAlpha_Desc,Set the alpha channel (0 to 1) used for drawing.,设置用于绘制的透明度通道 (0 to 1)。,,dnd set draw alpha node
@@ -4503,7 +4503,7 @@ DocumentWindow_Title_TimelineMultipleMoments,{0}: Moments,{0}: 时刻,,Single Ti
 DocumentWindow_Title_RoomCreationCode,{0} Creation Code,{0} 创建时代码,,Room Creation Code
 DocumentWindow_Title_RoomInstanceCreationCode,{0}:{1} - Creation Code,{0}:{1} - 创建时代码,,Single Room Single Instance Creation Code
 OutputWindowTextSettings,Output Window Font Settings,输出窗口字体设置,,Output Window Font Settings
-SourceControlTextSettings,Source Control Window Font Settings,源码控制窗口字体设置,,Source Control Window Font Settings
+SourceControlTextSettings,Source Control Window Font Settings,源代码管理窗口字体设置,,Source Control Window Font Settings
 BreakpointTextSettings,Breakpoint Window Font Settings,断点窗口字体设置,,Breakpoint Window Font Settings
 SearchReplaceTextSettings,Search Result Window Font Settings,搜索结果窗口字体设置,,Search Result Window Font Settings
 SyntaxErrorsTextSettings,Syntax Error Window Font Settings,语法错误窗口字体设置,,Syntax Error Window Font Settings
@@ -4748,7 +4748,7 @@ Auto Tiling,Auto Tiling,自动图块,,Auto Tiling preference group subheading
 Colours,Colours,颜色,,Colours preference group subheading
 Code Editor,Code Editor,代码编辑器,,Code Editor preference group subheading
 GML,GML,GML,,GML preference group subheading
-Source Control (Git),Source Control (Git),源码控制(Git),,Source Control (Git) preference group subheading
+Source Control (Git),Source Control (Git),源代码管理(Git),,Source Control (Git) preference group subheading
 Master,Master,主干,,Master preference group subheading
 Main Options,Main Options,主要设置,,Main Options options group heading
 General,General,全局,,General options group heading
@@ -4819,7 +4819,7 @@ Console,Console,控制台,,Console preference group subheading
 Surveys,Surveys,调查,,Surveys preference group subheading
 IDE,IDE,IDE,,IDE preference group subheading
 External Editors,External Editors,外部编辑器,,External Editors preference group subheading
-Source Control,Source Control,源码控制,,Source Control preference group subheading
+Source Control,Source Control,源代码管理,,Source Control preference group subheading
 Search Results,Search Results,搜索结果,,Search Results preference group subheading
 Output,Output,输出,,Output preference group subheading
 Compile Errors,Compile Errors,编译错误,,Compile Errors preference group subheading
