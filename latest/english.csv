@@ -25,6 +25,8 @@ $win_IDEMenuViews,Windows,Windows,,Windows version of the views menu entry
 $mac_IDEMenuViews,Window,Window,,Mac version of the views menu entry
 $win_LaptopRHSKeys,Right Control and Right Alt,Right Control and Right Alt,,Windows version of laptop mode keys
 $mac_LaptopRHSKeys,Right Command and Right Alt,Right Command and Right Alt,,Mac version of laptop mode keys
+$win_LaptopLZoomKey,Left Control,Left Control,,Windows laptop mode zoom key
+$mac_LaptopLZoomKey,Left Command,Left Command,,Mac laptop mode zoom key
 Account_Menu_Login,Login,Login,,"Account menu ""Login"""
 Account_Menu_Logout,Logout,Logout,,"Acount menu ""Logout"""
 Account_Menu_ManageAccount,Manage Account,Manage Account,,"Account menu ""Account"""
@@ -297,6 +299,7 @@ Event_Key_Escape,Escape,Escape,,"Key event ""others"" subtype"
 Event_Key_FunctionKeys,Function Keys,Function Keys,,Key event subtype
 Event_Key_Home,Home,Home,,"Key event ""others"" subtype"
 Event_Key_Insert,Insert,Insert,,"Key event ""others"" subtype"
+Event_Key_Tab,Tab,Tab,,Key event others subtype
 Event_Key_Keypad,Keypad,Keypad,,Key event subtype
 Event_Key_KeypadN,Keypad {0},Keypad {0},,Keypad event N
 Event_Keyboard_Modifiers,Modifiers,Modifiers,,Modifiers keyboard group title
@@ -904,6 +907,7 @@ ListBoxEnum_eImageFit_Stretch,Stretch,Stretch,,Stretch Image Scaling option
 ListBoxEnum_eImageFit_Tile,Tile,Tile,,Tile Image Scaling option
 ListBoxEnum_eImageFit_BestFit,Best Fit,Best Fit,,Best Fit Image Scaling option
 ListBoxEnum_eImageFit_DesktopStretch,Desktop Stretch,Desktop Stretch,,Desktop Stretch Image Scaling option
+ListBoxEnum_eImageFit_ScreenStretch,Screen Stretch,Screen Stretch,,Screen Stretch Image Scaling option
 Loading,Loading...,Loading...,,Loading
 Marketplace_Go,Open Marketplace,Open Marketplace,,Open Marketplace
 Marketplace_Assets,My Library,My Library,,Downloaded assets
@@ -1396,6 +1400,8 @@ SCM_Conflict_Mine,Use Mine,Use Mine,,"Use ""Mine"" to resolve conflict"
 SCM_Successful_Merge,Was the Merge operation successful?,Was the Merge operation successful?,,Wait for the Merge Tool to finish and ask the user if the operation has been a success
 SearchReplace_Cancelled,Search Cancelled,Search Cancelled,,Search and Replace - Search Cancelled
 SearchReplace_CaseSensitive,Case Sensitive,Case Sensitive,,Search and Replace - Case Sensitive
+SearchReplace_SearchStart,Searching for '{0}'...,Searching for '{0}'...,,search started message
+SearchReplace_ReplaceAllStart,Replacing '{0}' with '{1}',Replacing '{0}' with '{1}',,replace all start message
 SearchReplace_Complete,Search Complete ({0} results),Search Complete ({0} results),,Search and Replace - Search Complete
 SearchReplace_ContentHeader,Content,Content,,"Search & Replace - Output window ""content"" header"
 SearchReplace_EndOfResults,"End of search results reached, should we loop?","End of search results reached, should we loop?",,"End of Search and Replace results, loop to beginning or end?"
@@ -1413,6 +1419,7 @@ SearchReplace_Search,Search:,Search:,,Search and Replace - Search
 SearchReplace_Title,Search & Replace,Search & Replace,,Search and Replace title
 SearchReplace_WholeWordOnly,Whole Word Only,Whole Word Only,,Search and Replace - Whole Word Only
 SearchReplace_MoreResults,There are more results available...,There are more results available...,,There are too many results to display
+SearchReplace_StopSearch,Stop Search,Stop Search,,Search And Replace - stop search
 SoundEditor_Attributes,Attributes:,Attributes:,,Sound Editor Attributes - for choosing uncompressed/streaming options
 SoundEditor_AudioGroup,Audio Group:,Audio Group:,,Sound Editor Audio Group labal
 SoundEditor_BitRate,Bit Rate (kbps):,Bit Rate (kbps):,,Sound Editor Target Bit Rate ( in kbps )
@@ -1502,6 +1509,7 @@ sourcecontrolgit_import_repository,Repository to import project into:,Repository
 sourcecontrolgit_log,Source Control (Git) Log,Source Control (Git) Log,,Revision log for source control title
 Splash_Done,Done.,Done.,,Finished loading
 Splash_Loading,Loading....,Loading....,,Generic loading text
+Splash_WaitingNetwork,Checking Network...,Checking Network...,,Network step
 Splash_LoadingLanguages,Loading Languages...,Loading Languages...,,Loading the languages prefix
 Splash_LoadingUserLanguages,Loading Custom Languages...,Loading Custom Languages...,,Loading the user supplied languages prefix
 Splash_LoadingPlugins,Loading Plugins...,Loading Plugins...,,Loading the plugins
@@ -1761,6 +1769,9 @@ UserLogin_Error88,Please complete your profile to continue.,Please complete your
 UserLogin_EditProfile,Update Profile,Update Profile,,user login edit profile button
 UserLogin_ProfileIncomplete,Profile Incomplete,Profile Incomplete,,user login incomplete profile title
 UserLogin_NoRuntime,"Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker Studio 2 again.","Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker Studio 2 again.",,user login no runtime message
+UserLogin_InstallRuntimeTitle,Install Runtime {0},Install Runtime {0},,install runtime title
+UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,,runtime free space warning message
+UserLogin_Continue,Continue,Continue,,continue label
 Validate_MaxLength,{0} - Length should be less than {1},{0} - Length should be less than {1},,Failed validation by passing an object whose length is too long
 Validate_MinLength,{0} - Length should be greater than {1},{0} - Length should be greater than {1},,Failed validation by passing an object whose length is too short
 Validate_MVCType,{0} - Object should be of type {2}{1},{0} - Object should be of type {2}{1},,Failed validation by passing an object of the wrong type
@@ -2065,6 +2076,7 @@ ggs_webgl_disabled,Disabled,Disabled,,WebGL Disabled
 ggs_webgl_required,Required,Required,,WebGL Required
 ggs_webgl_autodetect,Auto Detect,Auto Detect,,Auto Detect WebGL
 ggs_ios_devices_iphone_and_touch,iPhone or iPod Touch,iPhone or iPod Touch,,iPhone or iPod Touch device selection
+ggs_ios_defer_home_indicator,Defer Home Indicator Input,Defer Home Indicator Input,,Defer Home Indicator Input for iPhone X
 ggs_ios_devices_ipad,iPad,iPad,,iPad device selection
 ggs_both,Both,Both,,Both selections
 ggs_orientation,Orientation,Orientation,,Orientation
@@ -2116,6 +2128,18 @@ ggs_hdpi_icon,Icon for hdpi,Icon for hdpi,,Icon for hdpi
 ggs_xhdpi_icon,Icon for xhdpi,Icon for xhdpi,,Icon for xhdpi
 ggs_xxhdpi_icon,Icon for xxhdpi,Icon for xxhdpi,,Icon for xxhdpi
 ggs_xxxhdpi_icon,Icon for xxxhdpi,Icon for xxxhdpi,,Icon for xxxhdpi
+ggs_ldpi_adaptive_icon,LDPI,LDPI,,LDPI
+ggs_mdpi_adaptive_icon,MDPI,MDPI,,MDPI
+ggs_hdpi_adaptive_icon,HDPI,HDPI,,HDPI
+ggs_xhdpi_adaptive_icon,XHDPI,XHDPI,,XHDPI
+ggs_xxhdpi_adaptive_icon,XXHDPI,XXHDPI,,XXHDPI
+ggs_xxxhdpi_adaptive_icon,XXXHDPI,XXXHDPI,,XXXHDPI
+ggs_ldpi_adaptivebg_icon,LDPI,LDPI,,LDPI
+ggs_mdpi_adaptivebg_icon,MDPI,MDPI,,MDPI
+ggs_hdpi_adaptivebg_icon,HDPI,HDPI,,HDPI
+ggs_xhdpi_adaptivebg_icon,XHDPI,XHDPI,,XHDPI
+ggs_xxhdpi_adaptivebg_icon,XXHDPI,XXHDPI,,XXHDPI
+ggs_xxxhdpi_adaptivebg_icon,XXXHDPI,XXXHDPI,,XXXHDPI
 ggs_use_facebook,Use Facebook,Use Facebook,,Use Facebook
 ggs_facebook_id,Facebook App ID,Facebook App ID,,Facebook App Id
 ggs_facebook_app_name,Facebook App Name,Facebook App Name,,Facebook App Name
@@ -2177,6 +2201,7 @@ ggs_ipad_retina_landscape,iPad Retina Landscape,iPad Retina Landscape,,iPad Reti
 ggs_ipad_retina_portrait,iPad Retina Portrait,iPad Retina Portrait,,iPad Retina Portrait
 ggs_allow_fullscreen,Allow fullscreen switching,Allow fullscreen switching,,Allow Fullscreen Switching
 ggs_centre_game_in_browser,Centre game in browser window,Centre game in browser window,,Centre game in Browser window
+ggs_use_builtin_font,Use built-in font,Use built-in font,,Use built-in font
 ggs_use_builtin_particles,Use built-in particles,Use built-in particles,,Use Built-in Particles
 ggs_bundlename,Bundle Name,Bundle Name,,Bundle Name
 ggs_bundle_id,Bundle ID,Bundle ID,,Bundle Id
@@ -2283,6 +2308,7 @@ ggs_ratings_xml,Ratings XML,Ratings XML,,Ratings XML
 ggs_languages_xml,Languages XML,Languages XML,,Languages XML
 ggs_title_id,Title ID,Title ID,,Title Id
 ggs_service_configuration_id,Service Configuration ID,Service Configuration ID,,Service Configuration Id
+ggs_xbox_program_id,Program ID,Program ID,,Program Id
 ggs_require_xbox_live,Require Xbox Live,Require Xbox Live,,Require Xbox Live
 ggs_require_game_chat,Require game chat,Require game chat,,Require Game Chat
 ggs_require_audio_recording,Require audio recording,Require audio recording,,Require Audio Recording
@@ -2578,6 +2604,7 @@ SplashScreen_PluginLoadFailedTitle,Failed to load a required plug-in,Failed to l
 SplashScreen_LaunchProjectNotFound,Project '{0}' does not exist,Project '{0}' does not exist,,Message dialog when the program was launched with a file command argument but the file was not found
 SplashScreen_LaunchProjectInvalid,'{0}' is not a valid GameMaker Studio 2 project,'{0}' is not a valid GameMaker Studio 2 project,,Message dialog when the program was launched with a file command argument of a non .yyp file
 SplashScreen_LaunchProjectFailed,Launch Project Failed,Launch Project Failed,,Message dialog title when the program was launched with a file command argument but it has failed
+SplashScreen_LaunchImportTrialDenied,Cannot import project '{0}' with a Trial Licence,Cannot import project '{0}' with a Trial Licence,,launch yyz project import blocked by free licence msg
 LicensedModulesError,Your licence does not have this module enabled,Your licence does not have this module enabled,,Message Dialog for when a user tries to build/run a target their licence doesn't have
 DnD_Pref_ToolboxLocation,DnD™ toolbox default location,DnD™ toolbox default location,,DnD™ pref
 DnD_Pref_StoryMode,DnD™ node overview visibility mode,DnD™ node overview visibility mode,,DnD™ pref
@@ -2683,6 +2710,9 @@ ObjectEditor_DefaultEventComment,Default event content,Default event content,,De
 ObjectEditor_ShowDefaultHelpPref,Add default event content,Add default event content,,Object editor module default text preference
 ObjectEditor_InheritedEventAlpha,Inherited Events Alpha,Inherited Events Alpha,,object editor ghosted events alpha setting
 ObjectEditor_EventFormatPref,Event label format (unchecked items are shown in the tooltip),Event label format (unchecked items are shown in the tooltip),,event label format preference title
+ObjectEditor_EventOpenPref,Click to open Event method,Click to open Event method,,event open click preference
+ListBoxEnum_eEventClickType_SingleClick,Single-Click,Single-Click,,single click enum
+ListBoxEnum_eEventClickType_DoubleClick,Double-Click,Double-Click,,double click enum
 EventLabelFormat_Name,Event Name,Event Name,,event label format name item
 EventLabelFormat_Description,Event Description,Event Description,,event label format description item
 EventLabelFormat_ParentObject,Parent Object,Parent Object,,event label format parent object item
@@ -2902,6 +2932,7 @@ TileSet_AutoTile,Auto Tiling,Auto Tiling,,the tile set auto tile window title
 TileSetEditor_Editors,Editors:,Editors:,,the tile set heading for the various sub editor buttons
 IDE_FatalErrorWarning,GameMaker Studio 2 has become unstable.\nPlease save changes and exit.,GameMaker Studio 2 has become unstable.\nPlease save changes and exit.,,Warn the user they should try saving changes and exit
 IDE_FatalErrorTitle,Fatal Error,Fatal Error,,Title for the fatal error warning dialog
+IDE_ShutdownBlocked,GameMaker Studio 2 is running...,"GameMaker Studio 2 is running...",,shutdown blocked message
 SpriteSelector_NoSprite,No Sprite,No Sprite,,"Sprite selector ""no sprite"" setting"
 SpriteSelector_Dimensions,{0} x {1},{0} x {1},,"Sprite selector dimensions label ie. width x height"
 SpriteSelector_DragMessage,Drop here to assign sprite,Drop here to assign sprite,,message displayed while dragging a sprite resource
@@ -2911,6 +2942,7 @@ TileSetEditor_NoSpriteMessage,Your tile set preview will appear here when you se
 TileSetEditor_SelectSprite,Select Sprite,Select Sprite,,the select sprite button message when no sprite is selected
 SpriteEditor_ImportImagesTitle,Import Files,Import Files,,Sprite editor confirm dialog for importing files
 SpriteEditor_ImportImages,Importing files to a sprite is not an undoable action. Do you want to continue?,Importing files to a sprite is not an undoable action. Do you want to continue?,,Sprite editor confirm dialog for importing files
+SpriteEditor_ImportSpineSwfBlocked,Sprite is currently assigned to Tileset '{0}' which does not support use of Spine or SWF sprites,Sprite is currently assigned to Tileset '{0}' which does not support use of Spine or SWF sprites,,sprite editor spine/swf tileset sprite import
 SpriteEditorPref_ImportImages,Automatic response to file import,Automatic response to file import,,Automatic choice for importing files into the sprite editor
 SpriteEditorPref_FailedToLoadImages,Automatic response to image load failure,Automatic response to image load failure,,Default response for images that failed to load
 Dialog_ImportFailed_Title,Import Failed,Import Failed,,Import failed dialog title
@@ -2992,6 +3024,7 @@ ExtensionEditor_TvosProperties,Extension tvOS Properties,Extension tvOS Properti
 ExtensionEditor_CompilerFlags,Compiler Flags:,Compiler Flags:,,compiler flags label
 ExtensionEditor_LinkerFlags,Linker Flags:,Linker Flags:,,linker flags label
 ExtensionEditor_ClassName,Class Name:,Class Name:,,class name label
+ExtensionEditor_DelegateName,App Delegate Class Name:,App Delegate Class Name:,,app delegate class name label
 ExtensionEditor_SystemFrameworks,System Frameworks,System Frameworks,,system frameworks label
 ExtensionEditor_3rdPartyFrameworks,3rd Party Frameworks + Bundles,3rd Party Frameworks + Bundles,,3rd party framwork label
 ExtensionEditor_CheckForWeakRef,Check for weak reference,Check for weak reference,,weak reference label
@@ -3363,6 +3396,10 @@ GMStdSetColor_Name,"Set Draw Colour","Set Draw Colour",,Drag and Drop™ library
 GMStdSetColor_Desc,"Set the colour to blend all drawing with.","Set the colour to blend all drawing with.",,Drag and Drop™ library action description
 GMStdGetColor_Name,"Get Draw Colour","Get Draw Colour",,Drag and Drop™ library action name
 GMStdGetColor_Desc,"Get the colour used to blend all drawing with.","Get the colour used to blend all drawing with.",,Drag and Drop™ library action description
+GMStdGetFont_Name,"Get Draw Font","Get Draw Font",,Drag and Drop™ library action name
+GMStdGetFont_Desc,"Get the font used for all text drawing.","Get the font used for all text drawing.",,Drag and Drop™ library action description
+GMStdGetTextAlign_Name,"Get Text Alignment","Get Text Alignment",,Drag and Drop™ library action name
+GMStdGetTextAlign_Desc,"Get the horizontal or vertical alignment of text drawing.","Get the horizontal or vertical alignment of text drawing.",,Drag and Drop™ library action description
 GMStdSetFont_Name,"Set Font","Set Font",,Drag and Drop™ library action name
 GMStdSetFont_Desc,"Set the font to use for all text drawing.","Set the font to use for all text drawing.",,Drag and Drop™ library action description
 GMStdSetAlignment_Name,"Set Text Alignment","Set Text Alignment",,Drag and Drop™ library action name
@@ -3617,7 +3654,7 @@ GMStdNot,"Not","Not",,Drag and Drop™ library argument label
 GMStdExcludeSelf,"Exclude Self","Exclude Self",,DnD argument label
 GMStdGamepad,"Gamepad","Gamepad",,Drag and Drop™ library argument label
 GMStdThreshold,"Threshold","Threshold",,Drag and Drop™ library argument label
-GMStdAxis,"Axis","Axis",,Drag and Drop™ library argument label
+GMStdAxis,"Axis","Axis",,Drag and Drop™ library argument labelf
 GMStdTrigger,"Trigger","Trigger",,Drag and Drop™ library argument label
 GMStdButton,"Button","Button",,Drag and Drop™ library argument label
 GMStdDeadzone,"Deadzone","Deadzone",,Drag and Drop™ library argument label
@@ -3724,6 +3761,7 @@ GMStdMinAngle,Min Angle,Min Angle,,DnD™
 GMStdMaxAngle,Max Angle,Max Angle,,DnD™
 GMStdDistribution,Distribution,Distribution,,DnD™
 GMStdAlpha,"Alpha","Alpha",,Drag and Drop™ library argument label
+GMStdAlignment,"Alignment","Alignment",,Drag and Drop™ library argument label
 GMStdReturn,"Return","Return",,Drag and Drop™ library argument label
 GMStdReturnKey,"Return Key","Return Key",,Drag and Drop™ library argument label
 GMStdAutoCapitalization,"Capitalization","Capitalization",,Drag and Drop™ library argument label
@@ -4204,7 +4242,7 @@ DnDModule_DeleteNode,Delete,Delete,,DnD™ module delete selected
 IDETooltip_LaptopMode_Title,Laptop Mode ({0}),Laptop Mode ({0}),,IDE toolbar laptop mode title
 IDETooltip_LaptopMode_On,On,On,,On text
 IDETooltip_LaptopMode_Off,Off,Off,,Off text
-IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding Left Control to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.","In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding Left Control to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.",,IDE toolbar laptop mode description
+IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.","In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.",,IDE toolbar laptop mode description
 MyAccount_Offline,Cannot access account management: User is offline,Cannot access account management: User is offline,,User is offline and trying to access My Account
 UserOffline_NeedsInternet,Please make sure you have a working internet connection and try again.,Please make sure you have a working internet connection and try again.,,User is offline
 MyAccount_WorkspaceTitle,My Account,My Account,,My account workspace title
@@ -4398,6 +4436,7 @@ ExtEditor_ToolTip_VarArgs,GML functions can support variable arguments,GML funct
 ExtEditor_ToolTip_SetMacroName,Set Macro Name,Set Macro Name,,tooltip
 ExtEditor_ToolTip_SetMacroValue,Set Macro Value,Set Macro Value,,tooltip
 ExtEditor_Tooltip_SetClassName,Set Class Name,Set Class Name,,tooltip
+ExtEditor_Tooltip_SetDelegateName,Set App Delegate Class Name,Set App Delegate Class Name,,tooltip
 ExtEditor_Tooltip_GradleDependancies,Entries for injecting into the Gradle build system,Entries for injecting into the Gradle build system,,tooltip
 ExtEditor_Tooltip_ManifestAdditions,Entries for injecting into the Android Manifest file,Entries for injecting into the Android Manifest file,,tooltip
 ExtEditor_Tooltip_ManifestApplicationAdditions,Entries for injecting into the Android Manifest Application,Entries for injecting into the Android Manifest Application,,tooltip
@@ -4521,6 +4560,7 @@ RestoreResourceName_DirectoryFailure,Renaming failed: unable to restore director
 RestoreResourceName_FilesFailure,Renaming failed: unable to restore files to their correct state. Please see the output panel for more details.,Renaming failed: unable to restore files to their correct state. Please see the output panel for more details.,,Error message when attempting to restore a bad resource rename fails
 SaveFailures_Title,Save Project Failed,Save Project Failed,,Save project failed dialog title
 SaveFailures_Message,Unable to save the following files (please see the output panel for more details).,Unable to save the following files (please see the output panel for more details).,,Save project failed dialog message
+SaveFailures_Message_LongPath,Unable to save the following files (please see the output panel for more details).\nOne or more file paths exceed the system-defined maximum length.,Unable to save the following files (please see the output panel for more details).\nOne or more file paths exceed the system-defined maximum length.,,Save project failed dialog message(long path exception)
 DnDMaker_CantRegenerateAction,Cannot regenerate this action.,Cannot regenerate this action.,,Cant regenerate
 PNG2Tileset_ImportDialog,Import image and convert to Tilemap,Import image and convert to Tilemap,,Import an image and convert to a tilemap dilog
 PNG2Tileset_ImageLeft,Left Edge,Left Edge,,Pixel offset to left edge of image
@@ -4801,6 +4841,10 @@ Logo,Logo,Logo,,Logo option group subheading
 App Store,App Store,App Store,,App Store option group subheading
 Advanced,Advanced,Advanced,,Advanced option group subheading
 Misc,Misc,Misc,,Misc option group subheading
+AdaptiveIcons,Adaptive Icons,Adaptive Icons,,Adaptive Icons group subheading
+AndroidAdaptiveBackgrounds,Adaptive Icon Backgrounds,Adaptive Icon Backgrounds,,Adaptive Icon Backgrounds subheading
+AndroidAdaptiveIcons,Adaptive Icon Foregrounds,Adaptive Icon Foregrounds,,Adaptive Icons subheading
+AndroidAdaptiveIconsGen,Icon Generator and Preview,Icon Generator and Preview,,Adaptive Icons Generator and Preview subheading
 Option_Texture_Page_Size,Texture page size,Texture page size,,Texture Page Size option selector caption
 Option_Project_Last_Changed,Project Last Changed,Project Last Changed,,Project Last Changed option display caption
 Option_Project_Use_Time,Project Use Time,Project Use Time,,Project Use Time option display caption
@@ -4883,9 +4927,9 @@ platformdevice_nomac,No mac found,No mac found,,message for when no mac has been
 ImageEditor_ChooseResize,Choose a resize option,Choose a resize option,,radio group label for resize options
 ImageEditor_StatusSize,Size: {0} x {1},Size: {0} x {1},,dimensions of image displayed in status bar
 SoundMixer_Duration,{0} / {1}s,{0} / {1}s,,the current time and overall duration of a sound clip information
-IDE_RuntimeVersionInfo,Runtime v{0},Runtime v{0},,the runtime version information string
-IDE_VersionInfo,IDE v{0},IDE v{0},,the ide version information string
-IDE_SteamVersionInfo,IDE v{0} Steam,IDE v{0} Steam,,the ide version information string when running from steam
+IDE_RuntimeVersionInfo,{1} Runtime v{0},{1} Runtime v{0},,the runtime version information string
+IDE_VersionInfo,{1} IDE v{0},{1} IDE v{0},,the ide version information string
+IDE_SteamVersionInfo,{1} IDE v{0} Steam,{1} IDE v{0} Steam,,the ide version information string when running from steam
 TileSetEditor_OutputError,Output size unsupported!,Output size unsupported!,,message displayed when the output texture for a tileset will be too large
 TileSetEditor_OutputErrorTooltip,"Output texture size is too large, some tiles may be missing. \nReduce source image or output border sizes","Output texture size is too large, some tiles may be missing. \nReduce source image or output border sizes",,tooltip for the ouptut size unsupported error
 Options_PS4ToolsSetupError,PlayStation 4 Tools Missing,PlayStation 4 Tools Missing,,error dialog title when unable to find a ps4 tool
@@ -5129,6 +5173,8 @@ Import_BadYYP_Title,External Project File Error,External Project File Error,,The
 Import_BadYYP_Message,The external project file cannot be read to import this resource,The external project file cannot be read to import this resource,,External project file cannot be read
 ggs_xboxone_x_title_memory,Xbox One X title memory (GB),Xbox One X title memory (GB),,the xbox one option for how much memory to dedicate to this app
 ggs_xboxone_x_title_memory_tooltip,The amount of memory in gigabytes to dedicate to this game on Xbox One X \nAllows games to take advantage of full xbox one x available memory or request less to improve load times,The amount of memory in gigabytes to dedicate to this game on Xbox One X \nAllows games to take advantage of full xbox one x available memory or request less to improve load times,,tooltip for xbox one x dedicated memory
+ggs_xboxone_support_4k_one_x,Support 4k on Xbox One X,Support 4k on Xbox One X,,Support 4k output resolution on Xbox One X
+ggs_xboxone_support_4k_one_s,Support 4k on Xbox One S,Support 4k on Xbox One S,,Support 4k output resolution on Xbox One S
 preferences_generate_patch,Generate Patch,Generate Patch,,Label for generating new patch
 preferences_install_patch,Install Patch,Install Patch,,Label for installing a patch
 Patching,Patching,Patching,,Patching
@@ -5139,6 +5185,7 @@ preferences_patch_file_missing,The Patch file is missing. Please check the path.
 ggs_check_publishing_errors,Check for publishing errors,Check for publishing errors,,Check package file for publishing errors
 Build_Switch_NoSDK,The path for the Nintendo Switch SDK is misconfigured,The path for the Nintendo Switch SDK is misconfigured,,Path to Nintendo Switch SDK is wrong
 Build_Switch_NoNMeta,No NMeta file has been found for this project. Please open the Authoring Editor to create one,No NMeta file has been found for this project. Please open the Authoring Editor to create one,,No NMeta file has been found
+Build_Switch_NoNEXSDK,The path for the Nintendo Switch NEX SDK does not exist. Please ensure the NEX plugin has been correctly installed in NDI.,The path for the Nintendo Switch NEX SDK does not exist. Please ensure the NEX plugin has been correctly installed in NDI.,,No NEX SDK installed
 ggs_enable_file_access_checking,Enable File Access Logging to SD Card,Enable File Access Logging to SD Card,,Enable File Access Logging to SD Card
 ggs_use_nx_cpu_profiler,Enable NX CPU Profiler for YYC Builds,Enable NX CPU Profiler for YYC Builds,,Enable NX CPU Profiler for YYC Builds
 Build_Switch_VM_CPU_Profiler,"The NX CPU Profiler can only be used on YYC builds. However, you may use the GMS2 Profiler on VM builds.","The NX CPU Profiler can only be used on YYC builds. However, you may use the GMS2 Profiler on VM builds.",,The NX CPU Profiler can only be used on YYC Builds
@@ -5211,6 +5258,18 @@ iPhone X,iPhone X,iPhone X,,iPhone X option group subheading
 ResourceNode_Edit,Edit,Edit,,Edit resource from resource tree
 ResourceNode_EditAll,Edit All,Edit All,,Edit All resource from a resource tree group
 preferences_updateandroidtoolsversion,Pre-populate SDK values to chosen API Level,Pre-populate SDK values to chosen API Level,,Pre-populate SDK values to chosen API Level
+preferences_android_genadaptive_icon,Generate Foregrounds From File:,Generate Foregrounds From File:,,generate adaptive icons widget foreground file label
+preferences_android_genadaptive_bg,Generate Backgrounds From File:,Generate Backgrounds From File:,,generate adaptive icons widget background file label
+preferences_android_genadaptive_btn,Generate,Generate,,generate adaptive icons widget icon file button
+preferences_android_genadaptive_preview,Preview Adaptive Icons:,Preview Adaptive Icons:,,generate adaptive icons widget preview label
+preferences_android_genadaptive_mask,Preview Icon Shape:,Preview Icon Shape:,,generate adaptive icons widget mask label
+preferences_android_genadaptive_mask_caption,Select a mask..,Select a mask..,,generate adaptive icons widget mask selection default caption
+preferences_android_genadaptive_mask_none,No mask,No mask,,generate adaptive icons widget mask selection no mask
+preferences_android_genadaptive_mask_square,Square mask,Square mask,,generate adaptive icons widget mask selection square mask
+preferences_android_genadaptive_mask_circle,Circle mask,Circle mask,,generate adaptive icons widget mask selection circle mask
+preferences_android_genadaptive_mask_roundedsquare,Rounded square mask,Rounded square mask,,generate adaptive icons widget mask selection rounded square mask
+preferences_android_genadaptive_mask_squircle,Squircle mask,Squircle mask,,generate adaptive icons widget mask selection squircle mask
+preferences_android_genadaptive_mask_teardrop,Teardrop mask,Teardrop mask,,generate adaptive icons widget mask selection teardrop mask
 ProgressBar_DownloadManual,Downloading Manual,Downloading Manual,MAX of 18 characters,Progress bar info
 Manual_Language_Selection,Manual Language,Manual Language,,Manual Language Selection label
 LocalisedManual_NotInstalled,Would you like to download this manual?,Would you like to download this manual?,,Localised manual not installed text
@@ -5275,6 +5334,9 @@ ggs_onion,CPU/GPU 'onion' memory pool size (MB),CPU/GPU 'onion' memory pool size
 ggs_garlic,GPU 'garlic' memory pool size (MB),GPU 'garlic' memory pool size (MB),DO NOT TRANSLATE garlic,memory pool size for 'garlic' memory
 ggs_ps4_garlic_memory_tooltip,"The amount of memory in megabytes to dedicate to the shared GPU memory pool \nMaximum allocation must be shared between both pools","The amount of memory in megabytes to dedicate to the shared GPU memory pool \nMaximum allocation must be shared between both pools",,tooltip for garlic memory pool
 ggs_ps4_onion_memory_tooltip,"The amount of memory in megabytes to dedicate to the shared CPU/GPU memory pool \nMaximum allocation must be shared between both pools","The amount of memory in megabytes to dedicate to the shared CPU/GPU memory pool \nMaximum allocation must be shared between both pools",,tooltip for garlic memory pool
+ggs_ps4_max_display_width,Maximum display width,Maximum display width,,title for options relating to display resolution
+ggs_ps4_max_display_height,Maximum display height,Maximum display height,,title for options relating to display resolution
+ggs_ps4_max_display_tooltip,"Maximum display dimensions to allow on PS4, subject to system constraints\n-1 indicates unlimited.","Maximum display dimensions to allow on PS4, subject to system constraints\n-1 indicates unlimited.",,tooltip for display resolution options
 Top Shelf,Top Shelf,Top Shelf,,Top Shelf images group subheading for tvOS
 ggs_top_shelf,Top Shelf Image,Top Shelf Image,,Top Shelf Image
 ggs_top_shelf_2x,Top Shelf Image 2x,Top Shelf Image 2x,,Top Shelf Image 2x
@@ -5295,5 +5357,41 @@ tvos_show_file_warning,Automatic response to tvOS persistent storage limitation 
 tvos_file_warning,tvOS persistent storage space is currently limited to 500k via NSUserDefaults. Please consider using cloud storage for this target.,tvOS persistent storage space is currently limited to 500k via NSUserDefaults. Please consider using cloud storage for this target.,,Warning message for the tvos file system limitations
 ggs_requires_nex,Enable support for NEX libraries,Enable support for NEX libraries,,Enable support for NEX libraries
 Build_Switch_NoNMetaSlim_Message,There is no SLIM data configured. Visit https://slim.mng.nintendo.net/slim/home to create it?,There is no SLIM data configured. Visit https://slim.mng.nintendo.net/slim/home to create it?,,No SLIM data message box
+Error_AppleDeviceNotPaired,ERROR: Device '{0}' has not been paired. Does it have a valid provisioning profile?,ERROR: Device '{0}' has not been paired. Does it have a valid provisioning profile?,,!AMDeviceIsPaired has been returned for an iOS/tvOS device type and is probably just missing its provisioning profile
+Error_AppleDevicesNotPaired,The following devices have not been paired. Please ensure they have valid provisioning profiles.,The following devices have not been paired. Please ensure they have valid provisioning profiles.,,The following devices have not been paired. Please ensure they have valid provisioning profiles
+codecomp_rinstance,Room Instance,Room Instance,,Room Instance Code Completion label
+codecomp_audiogroup,Audio Group,Audio Group,,Audio Group Code Completion label
+codecomp_texturegroup,Texture Group,Texture Group,,Texture Group Code Completion label
+codecomp_sprite,Sprite,Sprite,,Sprite resource Code Completion label
+codecomp_tileset,Tile Set,Tile Set,,Tile Set resource Code Completion label
+codecomp_sound,Sound,Sound,,Sound resource Code Completion label
+codecomp_path,Path,Path,,Path resource Code Completion label
+codecomp_script,Script,Script,,Script resource Code Completion label
+codecomp_shader,Shader,Shader,,Shader resource Code Completion label
+codecomp_font,Font,Font,,Font resource Code Completion label
+codecomp_timeline,Timeline,Timeline,,Timeline resource Code Completion label
+codecomp_object,Object,Object,,Object resource Code Completion label
+codecomp_room,Room,Room,,Room resource Code Completion label
 IDE_MissingFFmpegWrapperTitle,Missing FFmpegWrapper,Missing FFmpegWrapper,,Missing FFmpegWrapper Title
-IDE_MissingFFmpegWrapper,The FFmpegWrapper.dll - or it's dependencies - appear to be missing. This could be from a bad install or an overly aggressive virus scanner. Please check your virus scanner or reinstall.,The FFmpegWrapper.dll - or it's dependencies - appear to be missing. This could be from a bad install or an overly aggressive virus scanner. Please check your virus scanner or reinstall.,,Missing FFmpegWrapper dll message
+IDE_MissingFFmpegWrapper,The FFmpegWrapper.dll - or its dependencies - appear to be missing. This could be from a bad install or an overly aggressive virus scanner. Please check your virus scanner or reinstall.,The FFmpegWrapper.dll - or its dependencies - appear to be missing. This could be from a bad install or an overly aggressive virus scanner. Please check your virus scanner or reinstall.,,Missing FFmpegWrapper dll message
+ProjectLoad_VerificationErrorTitle,Project Verification Error,Project Verification Error,,Project Verification Error Title
+ProjectLoad_MultipleRootsMessage,This project has multiple root views and is unstable. Select Yes to attempt a repair or No to continue in an unstable state.,This project has multiple root views and is unstable. Select Yes to attempt a repair or No to continue in an unstable state.,,Multiple roots in project message
+switch_tools_invalid_platform,The Switch tools are only available on Windows.,The Switch tools are only available on Windows.,,Switch tools not available on this platform
+switch_tool_error,Switch Tools Error,Switch Tools Error,,Switch Tools Error title
+switch_auth_editor_not_exist,The Switch Authoring Editor cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,The Switch Authoring Editor cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,,Switch Authoring Editor not found. Please check Nintendo SDK install
+switch_auth_tool_not_exist,The Switch Authoring Tool cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,The Switch Authoring Tool cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,,Switch Patch Tool cannot be found. Please check Nintendo SDK install
+switch_runontarget_tool_not_exist,The Switch RunOnTarget Tool cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,The Switch RunOnTarget Tool cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,,Switch RunOnTarget Tool cannot be found. Please check Nintendo SDK install
+Beta Channel,Beta Channel,Beta Channel,,Beta Channel preferences tag
+beta_1,Here you can opt in or out of the GameMaker Studio 2 Beta.,Here you can opt in or out of the GameMaker Studio 2 Beta.,,beta_1 caption
+beta_2,This will grant you access to upcoming versions of GameMaker Studio 2 before they are released to production.,This will grant you access to upcoming versions of GameMaker Studio 2 before they are released to production.,,beta_2 caption
+beta_3,This product is covered by Section 2 of our ,This product is covered by Section 2 of our ,,beta_3 caption
+beta_4,"Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.","Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.",,beta_4 caption
+beta_5,If you do not back up your project and it is corrupted by a beta build there may be no way to recover it.,If you do not back up your project and it is corrupted by a beta build there may be no way to recover it.,,beta_5 caption
+beta_6,You can revert back to a non-beta build by clicking the button below.,You can revert back to a non-beta build by clicking the button below.,,beta_6 caption
+beta_7,End User Licence Agreement,End User Licence Agreement,,beta_7 caption
+beta_check_1,I am aware that GameMaker Studio 2 Beta may corrupt my projects,I am aware that GameMaker Studio 2 Beta may corrupt my projects,,beta_check_1 caption
+beta_check_2,I have backed up my projects or am using source control,I have backed up my projects or am using source control,,beta_check_2 caption
+beta_check_opt-in,Opt-in to GameMaker Studio 2 Beta,Opt-in to GameMaker Studio 2 Beta,,beta_check_opt-in caption
+beta_check_opt-out,Opt out of GameMaker Studio 2 Beta,Opt out of GameMaker Studio 2 Beta,,beta_check_opt-out caption
+beta_channel_warning,Apply the Beta channel opt-in and restart GMS2 now?,Apply the Beta channel opt-in and restart GMS2 now?,,beta channel warning
+beta_channel_downgrade,"After clicking OK, you should manually install a stable IDE to complete the opt-out process. See the release notes for an installer download link.","After clicking OK, you should manually install a stable IDE to complete the opt-out process. See the release notes for an installer download link.",,beta channel downgrade info
