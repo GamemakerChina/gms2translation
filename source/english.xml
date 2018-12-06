@@ -33,15 +33,15 @@
   <Style ss:ID="s62">
    <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
   </Style>
-  <Style ss:ID="s63">
-   <NumberFormat ss:Format="Short Time"/>
+  <Style ss:ID="s64">
+   <NumberFormat ss:Format="@"/>
   </Style>
  </Styles>
  <Worksheet ss:Name="english">
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="5397" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="54"
    ss:DefaultRowHeight="14.25">
-   <Column ss:AutoFitWidth="0" ss:Width="204"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="204"/>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Translation</Data></Cell>
    </Row>
@@ -1939,7 +1939,7 @@
     <Cell><Data ss:Type="String">Fit Screen</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s63"><Data ss:Type="DateTime">1899-12-31T01:01:00.000</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">1:01</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Left:</Data></Cell>
@@ -16251,10 +16251,11 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
+   <TopRowVisible>620</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>9</ActiveRow>
+     <ActiveRow>632</ActiveRow>
      <ActiveCol>5</ActiveCol>
     </Pane>
    </Panes>
