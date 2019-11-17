@@ -2950,6 +2950,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Allowed IPs to connect to the debug webserver</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124654Z" creationid="liaronce" creationdate="20191117T124654Z">
+        <seg>Allowed IPs to connect to the debug webserver</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Allowed IPs/Hostnames to connect to the debug webserver</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T120457Z" creationid="liaronce" creationdate="20191117T120457Z">
@@ -9271,6 +9279,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T121514Z" creationid="liaronce" creationdate="20191117T121514Z">
         <seg>Close window context menu entry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>CloseNonEmptyWorkspaceTabMessage</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124554Z" creationid="liaronce" creationdate="20191117T124554Z">
+        <seg>CloseNonEmptyWorkspaceTabMessage</seg>
       </tuv>
     </tu>
     <tu>
@@ -23332,6 +23348,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Error Connecting to Remote Worker Dialog Contents</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124617Z" creationid="liaronce" creationdate="20191117T124617Z">
+        <seg>Error Connecting to Remote Worker Dialog Contents</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Error Connecting to Remote Worker Dialog Title</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114121Z" creationid="liaronce" creationdate="20191117T114121Z">
@@ -23596,6 +23620,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Error with Extension setup</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124701Z" creationid="liaronce" creationdate="20191117T124701Z">
+        <seg>Error with Extension setup</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Error with Keystore</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T013018Z" creationid="deciia" creationdate="20170105T100156Z">
@@ -23604,10 +23636,26 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Error with Remote Worker Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124712Z" creationid="liaronce" creationdate="20191117T124712Z">
+        <seg>Error with Remote Worker Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Error with Runtime</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T195319Z" creationid="deciia" creationdate="20180922T195319Z">
         <seg>运行库错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Error with Source Control (Git)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124704Z" creationid="liaronce" creationdate="20191117T124704Z">
+        <seg>Error with Source Control (Git)</seg>
       </tuv>
     </tu>
     <tu>
@@ -27861,6 +27909,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T151127Z" creationid="deciia" creationdate="20170103T151127Z">
         <seg>选定的提交中被修改的文件?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Files potentially locked and need to try again</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124705Z" creationid="liaronce" creationdate="20191117T124705Z">
+        <seg>Files potentially locked and need to try again</seg>
       </tuv>
     </tu>
     <tu>
@@ -45717,6 +45773,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Installer Text</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124516Z" creationid="liaronce" creationdate="20191117T124516Z">
+        <seg>Installer Text</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Installer Tick box install menu</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T121854Z" creationid="liaronce" creationdate="20191117T121854Z">
@@ -52295,6 +52359,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Message for when a clone is done on a non-bare repository and an origin has not been found.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124552Z" creationid="liaronce" creationdate="20191117T124552Z">
+        <seg>Message for when a clone is done on a non-bare repository and an origin has not been found.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Message for when a clone is done on a non-bare repository but an origin has been found.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124550Z" creationid="liaronce" creationdate="20191117T124550Z">
+        <seg>Message for when a clone is done on a non-bare repository but an origin has been found.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Message for when the addon could not be download from the marketplace</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124600Z" creationid="liaronce" creationdate="20191117T124600Z">
+        <seg>Message for when the addon could not be download from the marketplace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Message for when the addon could not be found on the marketplace</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124558Z" creationid="liaronce" creationdate="20191117T124558Z">
+        <seg>Message for when the addon could not be found on the marketplace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Message next to checkbox to allow the user to choose not to see this popup in future</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115616Z" creationid="liaronce" creationdate="20191117T115616Z">
@@ -52307,6 +52403,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T123312Z" creationid="liaronce" creationdate="20191117T123312Z">
         <seg>Message to display by default when the platform check fails</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Message to display when the Amazon Fire addon fails the platform check</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124602Z" creationid="liaronce" creationdate="20191117T124602Z">
+        <seg>Message to display when the Amazon Fire addon fails the platform check</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Message to tell user to update their runtime</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124604Z" creationid="liaronce" creationdate="20191117T124604Z">
+        <seg>Message to tell user to update their runtime</seg>
       </tuv>
     </tu>
     <tu>
@@ -52655,6 +52767,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T191501Z" creationid="deciia" creationdate="20180922T191501Z">
         <seg>缺少声音的音频组：“{0}” - 设置为默认音频组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Missing current package file</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124503Z" creationid="liaronce" creationdate="20191117T124503Z">
+        <seg>Missing current package file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Missing original package file</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124501Z" creationid="liaronce" creationdate="20191117T124501Z">
+        <seg>Missing original package file</seg>
       </tuv>
     </tu>
     <tu>
@@ -53811,6 +53939,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170114T033344Z" creationid="deciia" creationdate="20170102T061852Z">
         <seg>无鼠标输入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>No NEX SDK installed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124512Z" creationid="liaronce" creationdate="20191117T124512Z">
+        <seg>No NEX SDK installed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>No NMeta file has been found</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124511Z" creationid="liaronce" creationdate="20191117T124511Z">
+        <seg>No NMeta file has been found</seg>
       </tuv>
     </tu>
     <tu>
@@ -56430,6 +56574,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open Syntax Errors Window</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124647Z" creationid="liaronce" creationdate="20191117T124647Z">
+        <seg>Open Syntax Errors Window</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open an ini file for reading and writing.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T075358Z" creationid="deciia" creationdate="20170212T100545Z">
@@ -57271,6 +57423,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113216Z" creationid="liaronce" creationdate="20191117T113216Z">
         <seg>Overview title</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OverwriteFramesMessage</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124556Z" creationid="liaronce" creationdate="20191117T124556Z">
+        <seg>OverwriteFramesMessage</seg>
       </tuv>
     </tu>
     <tu>
@@ -58117,6 +58277,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Patch file is missing.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124507Z" creationid="liaronce" creationdate="20191117T124507Z">
+        <seg>Patch file is missing.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Patching</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T202307Z" creationid="deciia" creationdate="20180922T202307Z">
@@ -58365,6 +58533,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Path to Browser to use for testing HTML5</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124655Z" creationid="liaronce" creationdate="20191117T124655Z">
+        <seg>Path to Browser to use for testing HTML5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Path to Browser:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T101247Z" creationid="deciia" creationdate="20170105T101247Z">
@@ -58393,6 +58569,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T171800Z" creationid="deciia" creationdate="20170105T083347Z">
         <seg>密钥库的路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Path to Nintendo Switch SDK is wrong</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124508Z" creationid="liaronce" creationdate="20191117T124508Z">
+        <seg>Path to Nintendo Switch SDK is wrong</seg>
       </tuv>
     </tu>
     <tu>
@@ -61073,6 +61257,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115720Z" creationid="liaronce" creationdate="20191117T115720Z">
         <seg>Project load failure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Project may be broken warning due to command failing and choosing not to retry</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124707Z" creationid="liaronce" creationdate="20191117T124707Z">
+        <seg>Project may be broken warning due to command failing and choosing not to retry</seg>
       </tuv>
     </tu>
     <tu>
@@ -77477,6 +77669,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>SyntaxErrors</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124648Z" creationid="liaronce" creationdate="20191117T124648Z">
+        <seg>SyntaxErrors</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>SyntaxErrorsTextSettings</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T122653Z" creationid="liaronce" creationdate="20191117T122653Z">
@@ -79220,6 +79420,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The NX CPU Profiler can only be used on YYC Builds</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124515Z" creationid="liaronce" creationdate="20191117T124515Z">
+        <seg>The NX CPU Profiler can only be used on YYC Builds</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The NX CPU Profiler can only be used on YYC builds.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T202933Z" creationid="deciia" creationdate="20180922T202933Z">
@@ -80255,10 +80463,26 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There is no Git Identity set (Message) No identity credentials found in preferences, please set them.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124548Z" creationid="liaronce" creationdate="20191117T124548Z">
+        <seg>There is no Git Identity set (Message) No identity credentials found in preferences, please set them.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There is no Git Identity set (Title)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114122Z" creationid="liaronce" creationdate="20191117T114122Z">
         <seg>There is no Git Identity set (Title)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There is no Git Repository (Message) There is no repository at the project directory, perhaps try Create or Import.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124546Z" creationid="liaronce" creationdate="20191117T124546Z">
+        <seg>There is no Git Repository (Message) There is no repository at the project directory, perhaps try Create or Import.</seg>
       </tuv>
     </tu>
     <tu>
@@ -84387,6 +84611,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>User Login - Error Retry</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124630Z" creationid="liaronce" creationdate="20191117T124630Z">
+        <seg>User Login - Error Retry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>User Login - two step authentication label for the authentication code</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T112634Z" creationid="liaronce" creationdate="20191117T112634Z">
@@ -84407,6 +84639,118 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113232Z" creationid="liaronce" creationdate="20191117T113232Z">
         <seg>User Login - two step authentication title</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Login Error response 29</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124633Z" creationid="liaronce" creationdate="20191117T124633Z">
+        <seg>User Login Error response 29</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Login Error response 34</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124630Z" creationid="liaronce" creationdate="20191117T124630Z">
+        <seg>User Login Error response 34</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Login Error response 36</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124631Z" creationid="liaronce" creationdate="20191117T124631Z">
+        <seg>User Login Error response 36</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Login Error response 37</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124634Z" creationid="liaronce" creationdate="20191117T124634Z">
+        <seg>User Login Error response 37</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Login Error response 38</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124635Z" creationid="liaronce" creationdate="20191117T124635Z">
+        <seg>User Login Error response 38</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Login Error response 39</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124635Z" creationid="liaronce" creationdate="20191117T124635Z">
+        <seg>User Login Error response 39</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Login Error response 40</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124635Z" creationid="liaronce" creationdate="20191117T124635Z">
+        <seg>User Login Error response 40</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Login Error response 44</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124636Z" creationid="liaronce" creationdate="20191117T124636Z">
+        <seg>User Login Error response 44</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Login Error response 45</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124636Z" creationid="liaronce" creationdate="20191117T124636Z">
+        <seg>User Login Error response 45</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Login Error response 47</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124636Z" creationid="liaronce" creationdate="20191117T124636Z">
+        <seg>User Login Error response 47</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Login Error response 48</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124637Z" creationid="liaronce" creationdate="20191117T124637Z">
+        <seg>User Login Error response 48</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Login Error response 58</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124637Z" creationid="liaronce" creationdate="20191117T124637Z">
+        <seg>User Login Error response 58</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Login Error response 88 (profile incomplete)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124638Z" creationid="liaronce" creationdate="20191117T124638Z">
+        <seg>User Login Error response 88 (profile incomplete)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Login Error response 99</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124637Z" creationid="liaronce" creationdate="20191117T124637Z">
+        <seg>User Login Error response 99</seg>
       </tuv>
     </tu>
     <tu>
@@ -88843,6 +89187,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>application filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124452Z" creationid="liaronce" creationdate="20191117T124452Z">
+        <seg>application filter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>apply button label</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112043Z" creationid="qq106" creationdate="20191117T112043Z">
@@ -91171,6 +91523,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>directory filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124455Z" creationid="liaronce" creationdate="20191117T124455Z">
+        <seg>directory filter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>display for file size in kilobytes</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124207Z" creationid="liaronce" creationdate="20191117T124207Z">
@@ -91983,6 +92343,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113301Z" creationid="liaronce" creationdate="20191117T113301Z">
         <seg>export dialog title</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>export filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124454Z" creationid="liaronce" creationdate="20191117T124454Z">
+        <seg>export filter</seg>
       </tuv>
     </tu>
     <tu>
@@ -97987,6 +98355,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>installer filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124452Z" creationid="liaronce" creationdate="20191117T124452Z">
+        <seg>installer filter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>instance creation code error</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114429Z" creationid="liaronce" creationdate="20191117T114429Z">
@@ -100211,6 +100587,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>openpackagesinexplorer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124444Z" creationid="liaronce" creationdate="20191117T124444Z">
+        <seg>openpackagesinexplorer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>openscriptsfullscreen</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T122447Z" creationid="liaronce" creationdate="20191117T122447Z">
@@ -100283,6 +100667,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>package filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124450Z" creationid="liaronce" creationdate="20191117T124450Z">
+        <seg>package filter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>package import - resource to import caption</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124417Z" creationid="liaronce" creationdate="20191117T124417Z">
+        <seg>package import - resource to import caption</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>package import description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T120741Z" creationid="liaronce" creationdate="20191117T120741Z">
@@ -100295,6 +100695,54 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113219Z" creationid="liaronce" creationdate="20191117T113219Z">
         <seg>package import error title</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>package import keep</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124438Z" creationid="liaronce" creationdate="20191117T124438Z">
+        <seg>package import keep</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>package import keep all existing resources</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124426Z" creationid="liaronce" creationdate="20191117T124426Z">
+        <seg>package import keep all existing resources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>package import new project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124413Z" creationid="liaronce" creationdate="20191117T124413Z">
+        <seg>package import new project</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>package import replace</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124439Z" creationid="liaronce" creationdate="20191117T124439Z">
+        <seg>package import replace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>package import- package resources caption</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124415Z" creationid="liaronce" creationdate="20191117T124415Z">
+        <seg>package import- package resources caption</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>package replace all existing resources</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124428Z" creationid="liaronce" creationdate="20191117T124428Z">
+        <seg>package replace all existing resources</seg>
       </tuv>
     </tu>
     <tu>
@@ -102435,6 +102883,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>sign local package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124524Z" creationid="liaronce" creationdate="20191117T124524Z">
+        <seg>sign local package</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>signature error</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T121041Z" creationid="liaronce" creationdate="20191117T121041Z">
@@ -103079,6 +103535,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T123221Z" creationid="liaronce" creationdate="20191117T123221Z">
         <seg>spriteanimspeed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ssh key filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124456Z" creationid="liaronce" creationdate="20191117T124456Z">
+        <seg>ssh key filter</seg>
       </tuv>
     </tu>
     <tu>
@@ -104919,6 +105383,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>tutorial package update available notification</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124442Z" creationid="liaronce" creationdate="20191117T124442Z">
+        <seg>tutorial package update available notification</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>tutorial purchase error message</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113615Z" creationid="liaronce" creationdate="20191117T113615Z">
@@ -105595,6 +106067,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20181002T022829Z" creationid="deciia" creationdate="20181002T022829Z">
         <seg>yydebug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>yymp filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124457Z" creationid="liaronce" creationdate="20191117T124457Z">
+        <seg>yymp filter</seg>
       </tuv>
     </tu>
     <tu>
