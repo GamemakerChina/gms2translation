@@ -5547,6 +5547,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>CMenu_CloseAllButThis</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092627Z" creationid="liaronce" creationdate="20191117T092627Z">
+        <seg>CMenu_CloseAllButThis</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>CMenu_Restore</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092627Z" creationid="liaronce" creationdate="20191117T092627Z">
+        <seg>CMenu_Restore</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>CPU Vendor:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T201731Z" creationid="deciia" creationdate="20170311T155416Z">
@@ -10760,6 +10776,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T075457Z" creationid="deciia" creationdate="20170103T075457Z">
         <seg>桌面拉伸</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Desktop_EnableLaptopMode</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092648Z" creationid="liaronce" creationdate="20191117T092648Z">
+        <seg>Desktop_EnableLaptopMode</seg>
       </tuv>
     </tu>
     <tu>
@@ -17083,6 +17107,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T201809Z" creationid="deciia" creationdate="20180922T201809Z">
         <seg>外部项目文件错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ExternalEditor_FailedToOpen</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092646Z" creationid="liaronce" creationdate="20191117T092646Z">
+        <seg>ExternalEditor_FailedToOpen</seg>
       </tuv>
     </tu>
     <tu>
@@ -35597,6 +35629,78 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ProgressBar_checking_device</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092644Z" creationid="liaronce" creationdate="20191117T092644Z">
+        <seg>ProgressBar_checking_device</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_detecting_devices</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092644Z" creationid="liaronce" creationdate="20191117T092644Z">
+        <seg>ProgressBar_detecting_devices</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_runtime_delete</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092644Z" creationid="liaronce" creationdate="20191117T092644Z">
+        <seg>ProgressBar_runtime_delete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_sourcecontrolgit_checkout</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092645Z" creationid="liaronce" creationdate="20191117T092645Z">
+        <seg>ProgressBar_sourcecontrolgit_checkout</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_sourcecontrolgit_clone</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092646Z" creationid="liaronce" creationdate="20191117T092646Z">
+        <seg>ProgressBar_sourcecontrolgit_clone</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_sourcecontrolgit_pull</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092645Z" creationid="liaronce" creationdate="20191117T092645Z">
+        <seg>ProgressBar_sourcecontrolgit_pull</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_sourcecontrolgit_push</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092645Z" creationid="liaronce" creationdate="20191117T092645Z">
+        <seg>ProgressBar_sourcecontrolgit_push</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_sourcecontrolgit_revert_files</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092645Z" creationid="liaronce" creationdate="20191117T092645Z">
+        <seg>ProgressBar_sourcecontrolgit_revert_files</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_sourcecontrolgit_revert_revision</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092645Z" creationid="liaronce" creationdate="20191117T092645Z">
+        <seg>ProgressBar_sourcecontrolgit_revert_revision</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Project '{0}' does not exist</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T071706Z" creationid="deciia" creationdate="20170105T071706Z">
@@ -46509,6 +46613,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>SystemFontChanged_Message</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092610Z" creationid="liaronce" creationdate="20191117T092610Z">
+        <seg>SystemFontChanged_Message</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SystemFontChanged_Title</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092610Z" creationid="liaronce" creationdate="20191117T092610Z">
+        <seg>SystemFontChanged_Title</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>T+LMB: Translate, R+LMB: Rotate, S+LMB: Scale</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170317T135640Z" creationid="deciia" creationdate="20170103T105141Z">
@@ -46681,6 +46801,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T065300Z" creationid="deciia" creationdate="20170104T065300Z">
         <seg>目标平台 SDK</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>TargetSelection_RequiresWindowsPC</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092652Z" creationid="liaronce" creationdate="20191117T092652Z">
+        <seg>TargetSelection_RequiresWindowsPC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>TargetSelection_RequiresWorker</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092652Z" creationid="liaronce" creationdate="20191117T092652Z">
+        <seg>TargetSelection_RequiresWorker</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>TargetSelection_Worker</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092652Z" creationid="liaronce" creationdate="20191117T092652Z">
+        <seg>TargetSelection_Worker</seg>
       </tuv>
     </tu>
     <tu>
@@ -49835,6 +49979,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Tutorial_DisplayNameMissing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092458Z" creationid="liaronce" creationdate="20191117T092458Z">
+        <seg>Tutorial_DisplayNameMissing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Tutorial_Dock_Title</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092255Z" creationid="liaronce" creationdate="20191117T092255Z">
@@ -49991,6 +50143,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092253Z" creationid="liaronce" creationdate="20191117T092253Z">
         <seg>Tutorial_VideoSettingsLabel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Tutorial_VideoUrlLabel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092456Z" creationid="liaronce" creationdate="20191117T092456Z">
+        <seg>Tutorial_VideoUrlLabel</seg>
       </tuv>
     </tu>
     <tu>
@@ -50583,6 +50743,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T081540Z" creationid="deciia" creationdate="20170212T151737Z">
         <seg>更新粒子系统，并前进到下一步。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>UpdateSystemFonts_Message</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092610Z" creationid="liaronce" creationdate="20191117T092610Z">
+        <seg>UpdateSystemFonts_Message</seg>
       </tuv>
     </tu>
     <tu>
@@ -53427,6 +53595,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>adddefaultlayers_description</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092609Z" creationid="liaronce" creationdate="20191117T092609Z">
+        <seg>adddefaultlayers_description</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>and more (too many glyphs)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T150041Z" creationid="deciia" creationdate="20180921T150041Z">
@@ -53435,10 +53611,506 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>arctool_colourofcontrollines</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092617Z" creationid="liaronce" creationdate="20191117T092617Z">
+        <seg>arctool_colourofcontrollines</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>arctool_colourofcontrolpoints</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092617Z" creationid="liaronce" creationdate="20191117T092617Z">
+        <seg>arctool_colourofcontrolpoints</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>arctool_colourofknots</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092616Z" creationid="liaronce" creationdate="20191117T092616Z">
+        <seg>arctool_colourofknots</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>arctool_colourofselectedpoints</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092617Z" creationid="liaronce" creationdate="20191117T092617Z">
+        <seg>arctool_colourofselectedpoints</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>arctool_sizeofpoints</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092617Z" creationid="liaronce" creationdate="20191117T092617Z">
+        <seg>arctool_sizeofpoints</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>assignment to multi-relational-equality expression - GML does not support multiple assignments in an expression</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T230519Z" creationid="deciia" creationdate="20180922T100126Z">
         <seg>赋值给多关系等式（multi-relational-equality）表达式 - GML不支持在一个表达式中进行多重赋值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>background_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092608Z" creationid="liaronce" creationdate="20191117T092608Z">
+        <seg>background_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_backgroundcolour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092632Z" creationid="liaronce" creationdate="20191117T092632Z">
+        <seg>codeeditor_backgroundcolour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_blockcomment</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092638Z" creationid="liaronce" creationdate="20191117T092638Z">
+        <seg>codeeditor_blockcomment</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_bookmarklines</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092632Z" creationid="liaronce" creationdate="20191117T092632Z">
+        <seg>codeeditor_bookmarklines</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_braceindent</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092637Z" creationid="liaronce" creationdate="20191117T092637Z">
+        <seg>codeeditor_braceindent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_braces</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092640Z" creationid="liaronce" creationdate="20191117T092640Z">
+        <seg>codeeditor_braces</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_bracketmatchfail</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092634Z" creationid="liaronce" creationdate="20191117T092634Z">
+        <seg>codeeditor_bracketmatchfail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_bracketmatchsuccess</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092634Z" creationid="liaronce" creationdate="20191117T092634Z">
+        <seg>codeeditor_bracketmatchsuccess</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_breakpoints</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092638Z" creationid="liaronce" creationdate="20191117T092638Z">
+        <seg>codeeditor_breakpoints</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_builtinfunctions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092630Z" creationid="liaronce" creationdate="20191117T092630Z">
+        <seg>codeeditor_builtinfunctions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_builtinvariables</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092630Z" creationid="liaronce" creationdate="20191117T092630Z">
+        <seg>codeeditor_builtinvariables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_changedline</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092632Z" creationid="liaronce" creationdate="20191117T092632Z">
+        <seg>codeeditor_changedline</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_codecompletion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092637Z" creationid="liaronce" creationdate="20191117T092637Z">
+        <seg>codeeditor_codecompletion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_colourcoding</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092636Z" creationid="liaronce" creationdate="20191117T092636Z">
+        <seg>codeeditor_colourcoding</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_columnselect</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092638Z" creationid="liaronce" creationdate="20191117T092638Z">
+        <seg>codeeditor_columnselect</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_comments</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092630Z" creationid="liaronce" creationdate="20191117T092630Z">
+        <seg>codeeditor_comments</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_constants</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092630Z" creationid="liaronce" creationdate="20191117T092630Z">
+        <seg>codeeditor_constants</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_contextmenu</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092637Z" creationid="liaronce" creationdate="20191117T092637Z">
+        <seg>codeeditor_contextmenu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_currentline</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092633Z" creationid="liaronce" creationdate="20191117T092633Z">
+        <seg>codeeditor_currentline</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_debugger</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092634Z" creationid="liaronce" creationdate="20191117T092634Z">
+        <seg>codeeditor_debugger</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_enablebrackets</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092637Z" creationid="liaronce" creationdate="20191117T092637Z">
+        <seg>codeeditor_enablebrackets</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_errorline</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092633Z" creationid="liaronce" creationdate="20191117T092633Z">
+        <seg>codeeditor_errorline</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_folded_region</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092640Z" creationid="liaronce" creationdate="20191117T092640Z">
+        <seg>codeeditor_folded_region</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_folded_region_tag</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092641Z" creationid="liaronce" creationdate="20191117T092641Z">
+        <seg>codeeditor_folded_region_tag</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_fontaa</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092628Z" creationid="liaronce" creationdate="20191117T092628Z">
+        <seg>codeeditor_fontaa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_fontstyle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092628Z" creationid="liaronce" creationdate="20191117T092628Z">
+        <seg>codeeditor_fontstyle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_highlight</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092633Z" creationid="liaronce" creationdate="20191117T092633Z">
+        <seg>codeeditor_highlight</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_highlight_pairs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092640Z" creationid="liaronce" creationdate="20191117T092640Z">
+        <seg>codeeditor_highlight_pairs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_highlightmatches</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092639Z" creationid="liaronce" creationdate="20191117T092639Z">
+        <seg>codeeditor_highlightmatches</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_intellisenseleft</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092634Z" creationid="liaronce" creationdate="20191117T092634Z">
+        <seg>codeeditor_intellisenseleft</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_keeptabs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092635Z" creationid="liaronce" creationdate="20191117T092635Z">
+        <seg>codeeditor_keeptabs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_keywords</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092629Z" creationid="liaronce" creationdate="20191117T092629Z">
+        <seg>codeeditor_keywords</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_linenumbers</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092631Z" creationid="liaronce" creationdate="20191117T092631Z">
+        <seg>codeeditor_linenumbers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_matchindent</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092637Z" creationid="liaronce" creationdate="20191117T092637Z">
+        <seg>codeeditor_matchindent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_maxlinecount</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092636Z" creationid="liaronce" creationdate="20191117T092636Z">
+        <seg>codeeditor_maxlinecount</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_normaltext</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092629Z" creationid="liaronce" creationdate="20191117T092629Z">
+        <seg>codeeditor_normaltext</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_obsolete_style</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092640Z" creationid="liaronce" creationdate="20191117T092640Z">
+        <seg>codeeditor_obsolete_style</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_options</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092639Z" creationid="liaronce" creationdate="20191117T092639Z">
+        <seg>codeeditor_options</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_readonlylines</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092631Z" creationid="liaronce" creationdate="20191117T092631Z">
+        <seg>codeeditor_readonlylines</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_resourcenames</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092631Z" creationid="liaronce" creationdate="20191117T092631Z">
+        <seg>codeeditor_resourcenames</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_scriptnames</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092631Z" creationid="liaronce" creationdate="20191117T092631Z">
+        <seg>codeeditor_scriptnames</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_selectedline</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092632Z" creationid="liaronce" creationdate="20191117T092632Z">
+        <seg>codeeditor_selectedline</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_selection</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092633Z" creationid="liaronce" creationdate="20191117T092633Z">
+        <seg>codeeditor_selection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_show_obsoletes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092639Z" creationid="liaronce" creationdate="20191117T092639Z">
+        <seg>codeeditor_show_obsoletes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_showlinenumbers</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092636Z" creationid="liaronce" creationdate="20191117T092636Z">
+        <seg>codeeditor_showlinenumbers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_showtablines</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092636Z" creationid="liaronce" creationdate="20191117T092636Z">
+        <seg>codeeditor_showtablines</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_showwhitespace</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092635Z" creationid="liaronce" creationdate="20191117T092635Z">
+        <seg>codeeditor_showwhitespace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_statusbarselected</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092634Z" creationid="liaronce" creationdate="20191117T092634Z">
+        <seg>codeeditor_statusbarselected</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_strings</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092630Z" creationid="liaronce" creationdate="20191117T092630Z">
+        <seg>codeeditor_strings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_tab_lines_colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092641Z" creationid="liaronce" creationdate="20191117T092641Z">
+        <seg>codeeditor_tab_lines_colour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_tabsize</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092635Z" creationid="liaronce" creationdate="20191117T092635Z">
+        <seg>codeeditor_tabsize</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_textcolour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092628Z" creationid="liaronce" creationdate="20191117T092628Z">
+        <seg>codeeditor_textcolour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_textcolours</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092639Z" creationid="liaronce" creationdate="20191117T092639Z">
+        <seg>codeeditor_textcolours</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_textsize</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092629Z" creationid="liaronce" creationdate="20191117T092629Z">
+        <seg>codeeditor_textsize</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_undostacksize</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092639Z" creationid="liaronce" creationdate="20191117T092639Z">
+        <seg>codeeditor_undostacksize</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_values</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092629Z" creationid="liaronce" creationdate="20191117T092629Z">
+        <seg>codeeditor_values</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>codeeditor_whitespacestyle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092635Z" creationid="liaronce" creationdate="20191117T092635Z">
+        <seg>codeeditor_whitespacestyle</seg>
       </tuv>
     </tu>
     <tu>
@@ -53463,6 +54135,86 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T084608Z" creationid="deciia" creationdate="20180922T084608Z">
         <seg>调试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>defaultbackgroundroomcolour_description</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092609Z" creationid="liaronce" creationdate="20191117T092609Z">
+        <seg>defaultbackgroundroomcolour_description</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>desktop_acpowerspeed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092647Z" creationid="liaronce" creationdate="20191117T092647Z">
+        <seg>desktop_acpowerspeed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>desktop_batterypowerspeed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092647Z" creationid="liaronce" creationdate="20191117T092647Z">
+        <seg>desktop_batterypowerspeed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>desktop_focuspowerspeed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092647Z" creationid="liaronce" creationdate="20191117T092647Z">
+        <seg>desktop_focuspowerspeed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>desktop_scrolllocktime</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092647Z" creationid="liaronce" creationdate="20191117T092647Z">
+        <seg>desktop_scrolllocktime</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>desktop_scrollspeed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092647Z" creationid="liaronce" creationdate="20191117T092647Z">
+        <seg>desktop_scrollspeed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>desktop_slowclicktime</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092646Z" creationid="liaronce" creationdate="20191117T092646Z">
+        <seg>desktop_slowclicktime</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>desktop_textselectionbias</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092648Z" creationid="liaronce" creationdate="20191117T092648Z">
+        <seg>desktop_textselectionbias</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>dialogeditor_options</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092641Z" creationid="liaronce" creationdate="20191117T092641Z">
+        <seg>dialogeditor_options</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>dialogeditor_textcolours</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092641Z" creationid="liaronce" creationdate="20191117T092641Z">
+        <seg>dialogeditor_textcolours</seg>
       </tuv>
     </tu>
     <tu>
@@ -53615,6 +54367,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T144307Z" creationid="deciia" creationdate="20180921T144307Z">
         <seg>查找器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>folderwatcher_laptopfrequency</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092648Z" creationid="liaronce" creationdate="20191117T092648Z">
+        <seg>folderwatcher_laptopfrequency</seg>
       </tuv>
     </tu>
     <tu>
@@ -54163,6 +54923,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_480_splash</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092557Z" creationid="liaronce" creationdate="20191117T092557Z">
+        <seg>ggs_480_splash</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_4_seconds</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092317Z" creationid="liaronce" creationdate="20191117T092317Z">
@@ -54187,6 +54955,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_720_splash</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092557Z" creationid="liaronce" creationdate="20191117T092557Z">
+        <seg>ggs_720_splash</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_720p_resolution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092557Z" creationid="liaronce" creationdate="20191117T092557Z">
+        <seg>ggs_720p_resolution</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_768_splash</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092558Z" creationid="liaronce" creationdate="20191117T092558Z">
+        <seg>ggs_768_splash</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_7_seconds</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092318Z" creationid="liaronce" creationdate="20191117T092318Z">
@@ -54207,6 +54999,62 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092319Z" creationid="liaronce" creationdate="20191117T092319Z">
         <seg>ggs_9_seconds</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_abort_errors</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092427Z" creationid="liaronce" creationdate="20191117T092427Z">
+        <seg>ggs_abort_errors</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_allow_fullscreen</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092419Z" creationid="liaronce" creationdate="20191117T092419Z">
+        <seg>ggs_allow_fullscreen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_allow_incoming_network_connections</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092426Z" creationid="liaronce" creationdate="20191117T092426Z">
+        <seg>ggs_allow_incoming_network_connections</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_allow_menu_dock_fullscreen</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092425Z" creationid="liaronce" creationdate="20191117T092425Z">
+        <seg>ggs_allow_menu_dock_fullscreen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_allow_outgoing_network_connections</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092426Z" creationid="liaronce" creationdate="20191117T092426Z">
+        <seg>ggs_allow_outgoing_network_connections</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_alt_sync</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092554Z" creationid="liaronce" creationdate="20191117T092554Z">
+        <seg>ggs_alt_sync</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_android_application_tag_inject</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092402Z" creationid="liaronce" creationdate="20191117T092402Z">
+        <seg>ggs_android_application_tag_inject</seg>
       </tuv>
     </tu>
     <tu>
@@ -54251,10 +55099,82 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_app_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092423Z" creationid="liaronce" creationdate="20191117T092423Z">
+        <seg>ggs_app_id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_app_output</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092423Z" creationid="liaronce" creationdate="20191117T092423Z">
+        <seg>ggs_app_output</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_application</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092324Z" creationid="liaronce" creationdate="20191117T092324Z">
         <seg>ggs_application</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_argument_errors</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092428Z" creationid="liaronce" creationdate="20191117T092428Z">
+        <seg>ggs_argument_errors</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_arm</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092503Z" creationid="liaronce" creationdate="20191117T092503Z">
+        <seg>ggs_arm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_author</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092428Z" creationid="liaronce" creationdate="20191117T092428Z">
+        <seg>ggs_author</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_back_flip_content</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092559Z" creationid="liaronce" creationdate="20191117T092559Z">
+        <seg>ggs_back_flip_content</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_banner</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092402Z" creationid="liaronce" creationdate="20191117T092402Z">
+        <seg>ggs_banner</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_bluetooth_icade_support</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092401Z" creationid="liaronce" creationdate="20191117T092401Z">
+        <seg>ggs_bluetooth_icade_support</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_borderless</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092437Z" creationid="liaronce" creationdate="20191117T092437Z">
+        <seg>ggs_borderless</seg>
       </tuv>
     </tu>
     <tu>
@@ -54287,6 +55207,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092328Z" creationid="liaronce" creationdate="20191117T092328Z">
         <seg>ggs_build_armv7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_build_mac_app_store</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092426Z" creationid="liaronce" creationdate="20191117T092426Z">
+        <seg>ggs_build_mac_app_store</seg>
       </tuv>
     </tu>
     <tu>
@@ -54331,10 +55259,74 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_bundle_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092420Z" creationid="liaronce" creationdate="20191117T092420Z">
+        <seg>ggs_bundle_id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_bundlename</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092420Z" creationid="liaronce" creationdate="20191117T092420Z">
+        <seg>ggs_bundlename</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_centre_game_in_browser</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092419Z" creationid="liaronce" creationdate="20191117T092419Z">
+        <seg>ggs_centre_game_in_browser</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_certificate_install</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092311Z" creationid="liaronce" creationdate="20191117T092311Z">
         <seg>ggs_certificate_install</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_certificate_js</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092537Z" creationid="liaronce" creationdate="20191117T092537Z">
+        <seg>ggs_certificate_js</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_certificate_location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092556Z" creationid="liaronce" creationdate="20191117T092556Z">
+        <seg>ggs_certificate_location</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_certificate_native</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092436Z" creationid="liaronce" creationdate="20191117T092436Z">
+        <seg>ggs_certificate_native</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_certificate_publisher</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092556Z" creationid="liaronce" creationdate="20191117T092556Z">
+        <seg>ggs_certificate_publisher</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_company</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092431Z" creationid="liaronce" creationdate="20191117T092431Z">
+        <seg>ggs_company</seg>
       </tuv>
     </tu>
     <tu>
@@ -54347,6 +55339,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_content_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092429Z" creationid="liaronce" creationdate="20191117T092429Z">
+        <seg>ggs_content_id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_copy_runner_to_dest</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092607Z" creationid="liaronce" creationdate="20191117T092607Z">
+        <seg>ggs_copy_runner_to_dest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_copyright</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092424Z" creationid="liaronce" creationdate="20191117T092424Z">
+        <seg>ggs_copyright</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_dark</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092325Z" creationid="liaronce" creationdate="20191117T092325Z">
@@ -54355,10 +55371,66 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_delete_event_on_room_change</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092650Z" creationid="liaronce" creationdate="20191117T092650Z">
+        <seg>ggs_delete_event_on_room_change</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_description</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092431Z" creationid="liaronce" creationdate="20191117T092431Z">
+        <seg>ggs_description</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_device_support</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092508Z" creationid="liaronce" creationdate="20191117T092508Z">
+        <seg>ggs_device_support</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_disable_sandbox</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092649Z" creationid="liaronce" creationdate="20191117T092649Z">
+        <seg>ggs_disable_sandbox</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_display_cursor</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092327Z" creationid="liaronce" creationdate="20191117T092327Z">
         <seg>ggs_display_cursor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_display_cursor_when_touchpad_active</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092430Z" creationid="liaronce" creationdate="20191117T092430Z">
+        <seg>ggs_display_cursor_when_touchpad_active</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_display_errors</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092427Z" creationid="liaronce" creationdate="20191117T092427Z">
+        <seg>ggs_display_errors</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_display_outside_server_alert</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092404Z" creationid="liaronce" creationdate="20191117T092404Z">
+        <seg>ggs_display_outside_server_alert</seg>
       </tuv>
     </tu>
     <tu>
@@ -54371,6 +55443,174 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_enable_ACCESS_NETWORK_STATE_permission</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092359Z" creationid="liaronce" creationdate="20191117T092359Z">
+        <seg>ggs_enable_ACCESS_NETWORK_STATE_permission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_BLUETOOTH_permission</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092400Z" creationid="liaronce" creationdate="20191117T092400Z">
+        <seg>ggs_enable_BLUETOOTH_permission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_ID_CAP_MICROPHONE_permission</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092401Z" creationid="liaronce" creationdate="20191117T092401Z">
+        <seg>ggs_enable_ID_CAP_MICROPHONE_permission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_INTERNET_permission</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092400Z" creationid="liaronce" creationdate="20191117T092400Z">
+        <seg>ggs_enable_INTERNET_permission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_MICROPHONE_permission</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092400Z" creationid="liaronce" creationdate="20191117T092400Z">
+        <seg>ggs_enable_MICROPHONE_permission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_READ_PHONE_STATE_permission</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092517Z" creationid="liaronce" creationdate="20191117T092517Z">
+        <seg>ggs_enable_READ_PHONE_STATE_permission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_RECORD_AUDIO_permission</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092400Z" creationid="liaronce" creationdate="20191117T092400Z">
+        <seg>ggs_enable_RECORD_AUDIO_permission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_SEARCH_permission</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092401Z" creationid="liaronce" creationdate="20191117T092401Z">
+        <seg>ggs_enable_SEARCH_permission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_WRITE_EXTERNAL_STORAGE_permission</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092359Z" creationid="liaronce" creationdate="20191117T092359Z">
+        <seg>ggs_enable_WRITE_EXTERNAL_STORAGE_permission</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_amazon_apis</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092359Z" creationid="liaronce" creationdate="20191117T092359Z">
+        <seg>ggs_enable_amazon_apis</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_apple_sign_in</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092357Z" creationid="liaronce" creationdate="20191117T092357Z">
+        <seg>ggs_enable_apple_sign_in</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_front_touch</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092431Z" creationid="liaronce" creationdate="20191117T092431Z">
+        <seg>ggs_enable_front_touch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_google_cloud_saving</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092358Z" creationid="liaronce" creationdate="20191117T092358Z">
+        <seg>ggs_enable_google_cloud_saving</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_google_licensing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092401Z" creationid="liaronce" creationdate="20191117T092401Z">
+        <seg>ggs_enable_google_licensing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_google_services</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092358Z" creationid="liaronce" creationdate="20191117T092358Z">
+        <seg>ggs_enable_google_services</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_iap_sandbox</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092649Z" creationid="liaronce" creationdate="20191117T092649Z">
+        <seg>ggs_enable_iap_sandbox</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_push_notifications</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092357Z" creationid="liaronce" creationdate="20191117T092357Z">
+        <seg>ggs_enable_push_notifications</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_rear_touch</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092431Z" creationid="liaronce" creationdate="20191117T092431Z">
+        <seg>ggs_enable_rear_touch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_retina</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092425Z" creationid="liaronce" creationdate="20191117T092425Z">
+        <seg>ggs_enable_retina</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_source_control</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092429Z" creationid="liaronce" creationdate="20191117T092429Z">
+        <seg>ggs_enable_source_control</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_enable_steam</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092648Z" creationid="liaronce" creationdate="20191117T092648Z">
+        <seg>ggs_enable_steam</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_exename</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092327Z" creationid="liaronce" creationdate="20191117T092327Z">
@@ -54379,6 +55619,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_facebook_app_name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092357Z" creationid="liaronce" creationdate="20191117T092357Z">
+        <seg>ggs_facebook_app_name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_facebook_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092356Z" creationid="liaronce" creationdate="20191117T092356Z">
+        <seg>ggs_facebook_id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_flipped_landscape_orientation</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092330Z" creationid="liaronce" creationdate="20191117T092330Z">
@@ -54391,6 +55647,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092330Z" creationid="liaronce" creationdate="20191117T092330Z">
         <seg>ggs_flipped_portrait_orientation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_foldername</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092403Z" creationid="liaronce" creationdate="20191117T092403Z">
+        <seg>ggs_foldername</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_front_flip_content</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092559Z" creationid="liaronce" creationdate="20191117T092559Z">
+        <seg>ggs_front_flip_content</seg>
       </tuv>
     </tu>
     <tu>
@@ -54399,6 +55671,78 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092325Z" creationid="liaronce" creationdate="20191117T092325Z">
         <seg>ggs_game</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_game_chat_slots</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092603Z" creationid="liaronce" creationdate="20191117T092603Z">
+        <seg>ggs_game_chat_slots</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_game_guid</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092651Z" creationid="liaronce" creationdate="20191117T092651Z">
+        <seg>ggs_game_guid</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_game_identifier</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092651Z" creationid="liaronce" creationdate="20191117T092651Z">
+        <seg>ggs_game_identifier</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_game_speed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092651Z" creationid="liaronce" creationdate="20191117T092651Z">
+        <seg>ggs_game_speed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_gcm_sender_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092357Z" creationid="liaronce" creationdate="20191117T092357Z">
+        <seg>ggs_gcm_sender_id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_generate_spotify_app</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092521Z" creationid="liaronce" creationdate="20191117T092521Z">
+        <seg>ggs_generate_spotify_app</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_genre</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092557Z" creationid="liaronce" creationdate="20191117T092557Z">
+        <seg>ggs_genre</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_google_licensing_public_key</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092402Z" creationid="liaronce" creationdate="20191117T092402Z">
+        <seg>ggs_google_licensing_public_key</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_google_services_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092358Z" creationid="liaronce" creationdate="20191117T092358Z">
+        <seg>ggs_google_services_id</seg>
       </tuv>
     </tu>
     <tu>
@@ -54451,6 +55795,38 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_half_ipad1_textures</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092421Z" creationid="liaronce" creationdate="20191117T092421Z">
+        <seg>ggs_half_ipad1_textures</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_haptic_effects</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092401Z" creationid="liaronce" creationdate="20191117T092401Z">
+        <seg>ggs_haptic_effects</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_hdpi_adaptive_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092350Z" creationid="liaronce" creationdate="20191117T092350Z">
+        <seg>ggs_hdpi_adaptive_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_hdpi_adaptivebg_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092355Z" creationid="liaronce" creationdate="20191117T092355Z">
+        <seg>ggs_hdpi_adaptivebg_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_hdpi_icon</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092348Z" creationid="liaronce" creationdate="20191117T092348Z">
@@ -54459,10 +55835,194 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_homepage</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092421Z" creationid="liaronce" creationdate="20191117T092421Z">
+        <seg>ggs_homepage</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_html5_browser_title</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092403Z" creationid="liaronce" creationdate="20191117T092403Z">
+        <seg>ggs_html5_browser_title</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092404Z" creationid="liaronce" creationdate="20191117T092404Z">
+        <seg>ggs_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_icon_114</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092528Z" creationid="liaronce" creationdate="20191117T092528Z">
+        <seg>ggs_icon_114</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_icon_120</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092528Z" creationid="liaronce" creationdate="20191117T092528Z">
+        <seg>ggs_icon_120</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_icon_1280</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092406Z" creationid="liaronce" creationdate="20191117T092406Z">
+        <seg>ggs_icon_1280</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_icon_144</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092529Z" creationid="liaronce" creationdate="20191117T092529Z">
+        <seg>ggs_icon_144</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_icon_152</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092405Z" creationid="liaronce" creationdate="20191117T092405Z">
+        <seg>ggs_icon_152</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_icon_167</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092405Z" creationid="liaronce" creationdate="20191117T092405Z">
+        <seg>ggs_icon_167</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_icon_400</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092405Z" creationid="liaronce" creationdate="20191117T092405Z">
+        <seg>ggs_icon_400</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_icon_57</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092523Z" creationid="liaronce" creationdate="20191117T092523Z">
+        <seg>ggs_icon_57</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_icon_72</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092404Z" creationid="liaronce" creationdate="20191117T092404Z">
+        <seg>ggs_icon_72</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_icon_76</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092527Z" creationid="liaronce" creationdate="20191117T092527Z">
+        <seg>ggs_icon_76</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iconic_background_colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092601Z" creationid="liaronce" creationdate="20191117T092601Z">
+        <seg>ggs_iconic_background_colour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iconic_message</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092601Z" creationid="liaronce" creationdate="20191117T092601Z">
+        <seg>ggs_iconic_message</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iconic_wide_content1</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092600Z" creationid="liaronce" creationdate="20191117T092600Z">
+        <seg>ggs_iconic_wide_content1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iconic_wide_content2</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092600Z" creationid="liaronce" creationdate="20191117T092600Z">
+        <seg>ggs_iconic_wide_content2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iconic_wide_content3</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092600Z" creationid="liaronce" creationdate="20191117T092600Z">
+        <seg>ggs_iconic_wide_content3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_included_file_as_index.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092402Z" creationid="liaronce" creationdate="20191117T092402Z">
+        <seg>ggs_included_file_as_index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_information</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092428Z" creationid="liaronce" creationdate="20191117T092428Z">
+        <seg>ggs_information</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_install_location</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092331Z" creationid="liaronce" creationdate="20191117T092331Z">
         <seg>ggs_install_location</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_installer_finished_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092554Z" creationid="liaronce" creationdate="20191117T092554Z">
+        <seg>ggs_installer_finished_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_installer_header_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092555Z" creationid="liaronce" creationdate="20191117T092555Z">
+        <seg>ggs_installer_header_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_installer_nsi_script</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092555Z" creationid="liaronce" creationdate="20191117T092555Z">
+        <seg>ggs_installer_nsi_script</seg>
       </tuv>
     </tu>
     <tu>
@@ -54499,6 +56059,142 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_ipad_landscape</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092407Z" creationid="liaronce" creationdate="20191117T092407Z">
+        <seg>ggs_ipad_landscape</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_ipad_portrait</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092408Z" creationid="liaronce" creationdate="20191117T092408Z">
+        <seg>ggs_ipad_portrait</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_ipad_retina_landscape</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092408Z" creationid="liaronce" creationdate="20191117T092408Z">
+        <seg>ggs_ipad_retina_landscape</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_ipad_retina_portrait</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092419Z" creationid="liaronce" creationdate="20191117T092419Z">
+        <seg>ggs_ipad_retina_portrait</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iphone_5_landscape</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092406Z" creationid="liaronce" creationdate="20191117T092406Z">
+        <seg>ggs_iphone_5_landscape</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iphone_5_portrait</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092407Z" creationid="liaronce" creationdate="20191117T092407Z">
+        <seg>ggs_iphone_5_portrait</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iphone_6_landscape</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092407Z" creationid="liaronce" creationdate="20191117T092407Z">
+        <seg>ggs_iphone_6_landscape</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iphone_6_plus_landscape</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092407Z" creationid="liaronce" creationdate="20191117T092407Z">
+        <seg>ggs_iphone_6_plus_landscape</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iphone_6_plus_portrait</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092407Z" creationid="liaronce" creationdate="20191117T092407Z">
+        <seg>ggs_iphone_6_plus_portrait</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iphone_6_portrait</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092407Z" creationid="liaronce" creationdate="20191117T092407Z">
+        <seg>ggs_iphone_6_portrait</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iphone_landscape</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092406Z" creationid="liaronce" creationdate="20191117T092406Z">
+        <seg>ggs_iphone_landscape</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iphone_portrait</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092406Z" creationid="liaronce" creationdate="20191117T092406Z">
+        <seg>ggs_iphone_portrait</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iphone_retina_landscape</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092530Z" creationid="liaronce" creationdate="20191117T092530Z">
+        <seg>ggs_iphone_retina_landscape</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_iphone_retina_portrait</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092406Z" creationid="liaronce" creationdate="20191117T092406Z">
+        <seg>ggs_iphone_retina_portrait</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_isdnd</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092651Z" creationid="liaronce" creationdate="20191117T092651Z">
+        <seg>ggs_isdnd</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_isgame</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092402Z" creationid="liaronce" creationdate="20191117T092402Z">
+        <seg>ggs_isgame</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_item_group_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092432Z" creationid="liaronce" creationdate="20191117T092432Z">
+        <seg>ggs_item_group_id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_landscape</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092324Z" creationid="liaronce" creationdate="20191117T092324Z">
@@ -54523,10 +56219,122 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_languages_xml</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092601Z" creationid="liaronce" creationdate="20191117T092601Z">
+        <seg>ggs_languages_xml</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_large_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092434Z" creationid="liaronce" creationdate="20191117T092434Z">
+        <seg>ggs_large_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_large_logo</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092604Z" creationid="liaronce" creationdate="20191117T092604Z">
+        <seg>ggs_large_logo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_lastchanged</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092428Z" creationid="liaronce" creationdate="20191117T092428Z">
+        <seg>ggs_lastchanged</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_ldpi_adaptive_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092350Z" creationid="liaronce" creationdate="20191117T092350Z">
+        <seg>ggs_ldpi_adaptive_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_ldpi_adaptivebg_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092354Z" creationid="liaronce" creationdate="20191117T092354Z">
+        <seg>ggs_ldpi_adaptivebg_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_ldpi_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092509Z" creationid="liaronce" creationdate="20191117T092509Z">
+        <seg>ggs_ldpi_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_license_agreement</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092555Z" creationid="liaronce" creationdate="20191117T092555Z">
+        <seg>ggs_license_agreement</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_light</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092325Z" creationid="liaronce" creationdate="20191117T092325Z">
         <seg>ggs_light</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_loading_bar_extension</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092403Z" creationid="liaronce" creationdate="20191117T092403Z">
+        <seg>ggs_loading_bar_extension</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_logo_background_colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092435Z" creationid="liaronce" creationdate="20191117T092435Z">
+        <seg>ggs_logo_background_colour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_logo_foreground_colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092435Z" creationid="liaronce" creationdate="20191117T092435Z">
+        <seg>ggs_logo_foreground_colour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_logo_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092435Z" creationid="liaronce" creationdate="20191117T092435Z">
+        <seg>ggs_logo_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_long_description</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092422Z" creationid="liaronce" creationdate="20191117T092422Z">
+        <seg>ggs_long_description</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_mac_app_category</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092426Z" creationid="liaronce" creationdate="20191117T092426Z">
+        <seg>ggs_mac_app_category</seg>
       </tuv>
     </tu>
     <tu>
@@ -54539,10 +56347,50 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_maintainer_email</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092421Z" creationid="liaronce" creationdate="20191117T092421Z">
+        <seg>ggs_maintainer_email</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_mdpi_adaptive_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092350Z" creationid="liaronce" creationdate="20191117T092350Z">
+        <seg>ggs_mdpi_adaptive_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_mdpi_adaptivebg_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092355Z" creationid="liaronce" creationdate="20191117T092355Z">
+        <seg>ggs_mdpi_adaptivebg_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_mdpi_icon</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092348Z" creationid="liaronce" creationdate="20191117T092348Z">
         <seg>ggs_mdpi_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_medium_back_flip_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092558Z" creationid="liaronce" creationdate="20191117T092558Z">
+        <seg>ggs_medium_back_flip_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_medium_front_flip_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092558Z" creationid="liaronce" creationdate="20191117T092558Z">
+        <seg>ggs_medium_front_flip_image</seg>
       </tuv>
     </tu>
     <tu>
@@ -54563,10 +56411,42 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_mips_for_3d_textures</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092651Z" creationid="liaronce" creationdate="20191117T092651Z">
+        <seg>ggs_mips_for_3d_textures</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_moga_gamepad_support</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092331Z" creationid="liaronce" creationdate="20191117T092331Z">
         <seg>ggs_moga_gamepad_support</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_native_target</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092433Z" creationid="liaronce" creationdate="20191117T092433Z">
+        <seg>ggs_native_target</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_network_config_manifest</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092603Z" creationid="liaronce" creationdate="20191117T092603Z">
+        <seg>ggs_network_config_manifest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_network_urls</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092432Z" creationid="liaronce" creationdate="20191117T092432Z">
+        <seg>ggs_network_urls</seg>
       </tuv>
     </tu>
     <tu>
@@ -54579,10 +56459,34 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_output_debug_to_console</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092403Z" creationid="liaronce" creationdate="20191117T092403Z">
+        <seg>ggs_output_debug_to_console</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_outputname</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092403Z" creationid="liaronce" creationdate="20191117T092403Z">
+        <seg>ggs_outputname</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_package_company</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092327Z" creationid="liaronce" creationdate="20191117T092327Z">
         <seg>ggs_package_company</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_package_display_name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092433Z" creationid="liaronce" creationdate="20191117T092433Z">
+        <seg>ggs_package_display_name</seg>
       </tuv>
     </tu>
     <tu>
@@ -54611,6 +56515,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_passcode</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092429Z" creationid="liaronce" creationdate="20191117T092429Z">
+        <seg>ggs_passcode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_player_resize_window</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092423Z" creationid="liaronce" creationdate="20191117T092423Z">
+        <seg>ggs_player_resize_window</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_portrait</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092324Z" creationid="liaronce" creationdate="20191117T092324Z">
@@ -54635,6 +56555,38 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_prepend_js</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092404Z" creationid="liaronce" creationdate="20191117T092404Z">
+        <seg>ggs_prepend_js</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_product</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092430Z" creationid="liaronce" creationdate="20191117T092430Z">
+        <seg>ggs_product</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_product_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092430Z" creationid="liaronce" creationdate="20191117T092430Z">
+        <seg>ggs_product_id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_provisioning_certificate</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092421Z" creationid="liaronce" creationdate="20191117T092421Z">
+        <seg>ggs_provisioning_certificate</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_ps4_np_title_dat</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092313Z" creationid="liaronce" creationdate="20191117T092313Z">
@@ -54687,6 +56639,78 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092312Z" creationid="liaronce" creationdate="20191117T092312Z">
         <seg>ggs_ps_passcode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_publisher</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092432Z" creationid="liaronce" creationdate="20191117T092432Z">
+        <seg>ggs_publisher</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_publisher_display_name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092433Z" creationid="liaronce" creationdate="20191117T092433Z">
+        <seg>ggs_publisher_display_name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_publisher_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092433Z" creationid="liaronce" creationdate="20191117T092433Z">
+        <seg>ggs_publisher_id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_ratings_xml</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092601Z" creationid="liaronce" creationdate="20191117T092601Z">
+        <seg>ggs_ratings_xml</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_require_audio_recording</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092603Z" creationid="liaronce" creationdate="20191117T092603Z">
+        <seg>ggs_require_audio_recording</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_require_game_chat</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092603Z" creationid="liaronce" creationdate="20191117T092603Z">
+        <seg>ggs_require_game_chat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_require_xbox_live</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092602Z" creationid="liaronce" creationdate="20191117T092602Z">
+        <seg>ggs_require_xbox_live</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_save_data_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092429Z" creationid="liaronce" creationdate="20191117T092429Z">
+        <seg>ggs_save_data_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_save_location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092437Z" creationid="liaronce" creationdate="20191117T092437Z">
+        <seg>ggs_save_location</seg>
       </tuv>
     </tu>
     <tu>
@@ -54707,6 +56731,142 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_service_config_manifest</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092603Z" creationid="liaronce" creationdate="20191117T092603Z">
+        <seg>ggs_service_config_manifest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_service_configuration_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092602Z" creationid="liaronce" creationdate="20191117T092602Z">
+        <seg>ggs_service_configuration_id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_short_circuit_evaluations</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092650Z" creationid="liaronce" creationdate="20191117T092650Z">
+        <seg>ggs_short_circuit_evaluations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_short_description</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092422Z" creationid="liaronce" creationdate="20191117T092422Z">
+        <seg>ggs_short_description</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_signing_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092424Z" creationid="liaronce" creationdate="20191117T092424Z">
+        <seg>ggs_signing_id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_signing_id_tooltip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092424Z" creationid="liaronce" creationdate="20191117T092424Z">
+        <seg>ggs_signing_id_tooltip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_sleep_margin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092438Z" creationid="liaronce" creationdate="20191117T092438Z">
+        <seg>ggs_sleep_margin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_sleep_margin_android</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092438Z" creationid="liaronce" creationdate="20191117T092438Z">
+        <seg>ggs_sleep_margin_android</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_sleep_margin_windows</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092438Z" creationid="liaronce" creationdate="20191117T092438Z">
+        <seg>ggs_sleep_margin_windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_small_cycle_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092605Z" creationid="liaronce" creationdate="20191117T092605Z">
+        <seg>ggs_small_cycle_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_small_front_flip_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092558Z" creationid="liaronce" creationdate="20191117T092558Z">
+        <seg>ggs_small_front_flip_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_small_iconic</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092600Z" creationid="liaronce" creationdate="20191117T092600Z">
+        <seg>ggs_small_iconic</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_small_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092434Z" creationid="liaronce" creationdate="20191117T092434Z">
+        <seg>ggs_small_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_small_logo</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092604Z" creationid="liaronce" creationdate="20191117T092604Z">
+        <seg>ggs_small_logo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_smallish_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092434Z" creationid="liaronce" creationdate="20191117T092434Z">
+        <seg>ggs_smallish_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_software_vertex_processing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092437Z" creationid="liaronce" creationdate="20191117T092437Z">
+        <seg>ggs_software_vertex_processing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_splash_background_colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092436Z" creationid="liaronce" creationdate="20191117T092436Z">
+        <seg>ggs_splash_background_colour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_splash_screen</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092335Z" creationid="liaronce" creationdate="20191117T092335Z">
@@ -54715,10 +56875,66 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_start_fullscreen</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092422Z" creationid="liaronce" creationdate="20191117T092422Z">
+        <seg>ggs_start_fullscreen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_steam_alternative_launcher</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092649Z" creationid="liaronce" creationdate="20191117T092649Z">
+        <seg>ggs_steam_alternative_launcher</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_steam_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092649Z" creationid="liaronce" creationdate="20191117T092649Z">
+        <seg>ggs_steam_id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_store_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092435Z" creationid="liaronce" creationdate="20191117T092435Z">
+        <seg>ggs_store_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_store_logo</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092604Z" creationid="liaronce" creationdate="20191117T092604Z">
+        <seg>ggs_store_logo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_target_sdk</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092315Z" creationid="liaronce" creationdate="20191117T092315Z">
         <seg>ggs_target_sdk</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_team_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092423Z" creationid="liaronce" creationdate="20191117T092423Z">
+        <seg>ggs_team_id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_team_id_tooltip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092424Z" creationid="liaronce" creationdate="20191117T092424Z">
+        <seg>ggs_team_id_tooltip</seg>
       </tuv>
     </tu>
     <tu>
@@ -54787,10 +57003,122 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_textures_on_demand</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092437Z" creationid="liaronce" creationdate="20191117T092437Z">
+        <seg>ggs_textures_on_demand</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_tile_type</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092650Z" creationid="liaronce" creationdate="20191117T092650Z">
+        <seg>ggs_tile_type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_tiles_cycle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092650Z" creationid="liaronce" creationdate="20191117T092650Z">
+        <seg>ggs_tiles_cycle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_tiles_flip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092650Z" creationid="liaronce" creationdate="20191117T092650Z">
+        <seg>ggs_tiles_flip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_tiles_iconic</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092650Z" creationid="liaronce" creationdate="20191117T092650Z">
+        <seg>ggs_tiles_iconic</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_title_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092602Z" creationid="liaronce" creationdate="20191117T092602Z">
+        <seg>ggs_title_id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_trophy_screen</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092430Z" creationid="liaronce" creationdate="20191117T092430Z">
+        <seg>ggs_trophy_screen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_use_builtin_font</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092420Z" creationid="liaronce" creationdate="20191117T092420Z">
+        <seg>ggs_use_builtin_font</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_use_builtin_particles</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092420Z" creationid="liaronce" creationdate="20191117T092420Z">
+        <seg>ggs_use_builtin_particles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_use_facebook</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092356Z" creationid="liaronce" creationdate="20191117T092356Z">
+        <seg>ggs_use_facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_use_fast_collisions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092651Z" creationid="liaronce" creationdate="20191117T092651Z">
+        <seg>ggs_use_fast_collisions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_use_google_apk_expansion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092402Z" creationid="liaronce" creationdate="20191117T092402Z">
+        <seg>ggs_use_google_apk_expansion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_use_sandbox</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092432Z" creationid="liaronce" creationdate="20191117T092432Z">
+        <seg>ggs_use_sandbox</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_use_splash_screen</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092342Z" creationid="liaronce" creationdate="20191117T092342Z">
         <seg>ggs_use_splash_screen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_variable_errors</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092427Z" creationid="liaronce" creationdate="20191117T092427Z">
+        <seg>ggs_variable_errors</seg>
       </tuv>
     </tu>
     <tu>
@@ -54811,6 +57139,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_vsync</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092422Z" creationid="liaronce" creationdate="20191117T092422Z">
+        <seg>ggs_vsync</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_vsync_winuwp_tooltip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092422Z" creationid="liaronce" creationdate="20191117T092422Z">
+        <seg>ggs_vsync_winuwp_tooltip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_webgl</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092321Z" creationid="liaronce" creationdate="20191117T092321Z">
@@ -54839,6 +57183,118 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092322Z" creationid="liaronce" creationdate="20191117T092322Z">
         <seg>ggs_webgl_required</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wide1_cycle_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092605Z" creationid="liaronce" creationdate="20191117T092605Z">
+        <seg>ggs_wide1_cycle_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wide2_cycle_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092605Z" creationid="liaronce" creationdate="20191117T092605Z">
+        <seg>ggs_wide2_cycle_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wide3_cycle_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092605Z" creationid="liaronce" creationdate="20191117T092605Z">
+        <seg>ggs_wide3_cycle_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wide4_cycle_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092606Z" creationid="liaronce" creationdate="20191117T092606Z">
+        <seg>ggs_wide4_cycle_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wide5_cycle_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092606Z" creationid="liaronce" creationdate="20191117T092606Z">
+        <seg>ggs_wide5_cycle_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wide6_cycle_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092606Z" creationid="liaronce" creationdate="20191117T092606Z">
+        <seg>ggs_wide6_cycle_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wide7_cycle_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092606Z" creationid="liaronce" creationdate="20191117T092606Z">
+        <seg>ggs_wide7_cycle_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wide8_cycle_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092607Z" creationid="liaronce" creationdate="20191117T092607Z">
+        <seg>ggs_wide8_cycle_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wide9_cycle_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092607Z" creationid="liaronce" creationdate="20191117T092607Z">
+        <seg>ggs_wide9_cycle_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wide_back_flip_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092559Z" creationid="liaronce" creationdate="20191117T092559Z">
+        <seg>ggs_wide_back_flip_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wide_front_flip_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092559Z" creationid="liaronce" creationdate="20191117T092559Z">
+        <seg>ggs_wide_front_flip_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wide_iconic</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092600Z" creationid="liaronce" creationdate="20191117T092600Z">
+        <seg>ggs_wide_iconic</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wide_image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092435Z" creationid="liaronce" creationdate="20191117T092435Z">
+        <seg>ggs_wide_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wide_logo</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092604Z" creationid="liaronce" creationdate="20191117T092604Z">
+        <seg>ggs_wide_logo</seg>
       </tuv>
     </tu>
     <tu>
@@ -54875,6 +57331,46 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_windows_target_platform_min_version</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092434Z" creationid="liaronce" creationdate="20191117T092434Z">
+        <seg>ggs_windows_target_platform_min_version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_windows_target_platform_version</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092434Z" creationid="liaronce" creationdate="20191117T092434Z">
+        <seg>ggs_windows_target_platform_version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_write_errors</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092427Z" creationid="liaronce" creationdate="20191117T092427Z">
+        <seg>ggs_write_errors</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wvga_resolution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092556Z" creationid="liaronce" creationdate="20191117T092556Z">
+        <seg>ggs_wvga_resolution</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_wxga_resolution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092556Z" creationid="liaronce" creationdate="20191117T092556Z">
+        <seg>ggs_wxga_resolution</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_x64</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092326Z" creationid="liaronce" creationdate="20191117T092326Z">
@@ -54891,6 +57387,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_xbox_program_id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092602Z" creationid="liaronce" creationdate="20191117T092602Z">
+        <seg>ggs_xbox_program_id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_xhdpi_adaptive_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092351Z" creationid="liaronce" creationdate="20191117T092351Z">
+        <seg>ggs_xhdpi_adaptive_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_xhdpi_adaptivebg_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092355Z" creationid="liaronce" creationdate="20191117T092355Z">
+        <seg>ggs_xhdpi_adaptivebg_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_xhdpi_icon</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092349Z" creationid="liaronce" creationdate="20191117T092349Z">
@@ -54899,10 +57419,90 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ggs_xxhdpi_adaptive_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092351Z" creationid="liaronce" creationdate="20191117T092351Z">
+        <seg>ggs_xxhdpi_adaptive_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_xxhdpi_adaptivebg_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092513Z" creationid="liaronce" creationdate="20191117T092513Z">
+        <seg>ggs_xxhdpi_adaptivebg_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ggs_xxhdpi_icon</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092349Z" creationid="liaronce" creationdate="20191117T092349Z">
         <seg>ggs_xxhdpi_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_xxxhdpi_adaptive_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092512Z" creationid="liaronce" creationdate="20191117T092512Z">
+        <seg>ggs_xxxhdpi_adaptive_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_xxxhdpi_adaptivebg_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092356Z" creationid="liaronce" creationdate="20191117T092356Z">
+        <seg>ggs_xxxhdpi_adaptivebg_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ggs_xxxhdpi_icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092511Z" creationid="liaronce" creationdate="20191117T092511Z">
+        <seg>ggs_xxxhdpi_icon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gridsettings_colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092616Z" creationid="liaronce" creationdate="20191117T092616Z">
+        <seg>gridsettings_colour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gridsettings_displaygrid</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092615Z" creationid="liaronce" creationdate="20191117T092615Z">
+        <seg>gridsettings_displaygrid</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gridsettings_snaptogrid</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092616Z" creationid="liaronce" creationdate="20191117T092616Z">
+        <seg>gridsettings_snaptogrid</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gridsettings_xspacing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092616Z" creationid="liaronce" creationdate="20191117T092616Z">
+        <seg>gridsettings_xspacing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gridsettings_yspacing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092616Z" creationid="liaronce" creationdate="20191117T092616Z">
+        <seg>gridsettings_yspacing</seg>
       </tuv>
     </tu>
     <tu>
@@ -55499,6 +58099,126 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>imageeditor_backgroundcolour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092613Z" creationid="liaronce" creationdate="20191117T092613Z">
+        <seg>imageeditor_backgroundcolour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>imageeditor_buttonchoiceonframedelete</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092611Z" creationid="liaronce" creationdate="20191117T092611Z">
+        <seg>imageeditor_buttonchoiceonframedelete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>imageeditor_choicefortoolchanges</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092612Z" creationid="liaronce" creationdate="20191117T092612Z">
+        <seg>imageeditor_choicefortoolchanges</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>imageeditor_createFromStripConfirm</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092612Z" creationid="liaronce" creationdate="20191117T092612Z">
+        <seg>imageeditor_createFromStripConfirm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>imageeditor_defaultloopmode</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092615Z" creationid="liaronce" creationdate="20191117T092615Z">
+        <seg>imageeditor_defaultloopmode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>imageeditor_drawthinselection</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092613Z" creationid="liaronce" creationdate="20191117T092613Z">
+        <seg>imageeditor_drawthinselection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>imageeditor_expandoverlay</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092614Z" creationid="liaronce" creationdate="20191117T092614Z">
+        <seg>imageeditor_expandoverlay</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>imageeditor_gridsettings</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092615Z" creationid="liaronce" creationdate="20191117T092615Z">
+        <seg>imageeditor_gridsettings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>imageeditor_layerlockeddisplay</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092612Z" creationid="liaronce" creationdate="20191117T092612Z">
+        <seg>imageeditor_layerlockeddisplay</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>imageeditor_selectioncolour1</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092613Z" creationid="liaronce" creationdate="20191117T092613Z">
+        <seg>imageeditor_selectioncolour1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>imageeditor_selectioncolour2</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092613Z" creationid="liaronce" creationdate="20191117T092613Z">
+        <seg>imageeditor_selectioncolour2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>imageeditor_transparentbackgroundstyle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092614Z" creationid="liaronce" creationdate="20191117T092614Z">
+        <seg>imageeditor_transparentbackgroundstyle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>imageeditor_transparentblocksize</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092615Z" creationid="liaronce" creationdate="20191117T092615Z">
+        <seg>imageeditor_transparentblocksize</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>imageeditor_transparentcolour1</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092614Z" creationid="liaronce" creationdate="20191117T092614Z">
+        <seg>imageeditor_transparentcolour1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>imageeditor_transparentcolour2</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092614Z" creationid="liaronce" creationdate="20191117T092614Z">
+        <seg>imageeditor_transparentcolour2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>kbv_autocapitalize_characters</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092247Z" creationid="liaronce" creationdate="20191117T092247Z">
@@ -55779,6 +58499,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>movedegreerange_description</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092607Z" creationid="liaronce" creationdate="20191117T092607Z">
+        <seg>movedegreerange_description</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>nested function calls are not allowed</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T095344Z" creationid="deciia" creationdate="20180922T095344Z">
@@ -55819,6 +58547,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>objecteditor_buttonchoiceondeletion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092618Z" creationid="liaronce" creationdate="20191117T092618Z">
+        <seg>objecteditor_buttonchoiceondeletion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>of</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T134207Z" creationid="deciia" creationdate="20170311T134207Z">
@@ -55835,10 +58571,146 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>patheditor_anchoractive</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092620Z" creationid="liaronce" creationdate="20191117T092620Z">
+        <seg>patheditor_anchoractive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_anchorcolour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092619Z" creationid="liaronce" creationdate="20191117T092619Z">
+        <seg>patheditor_anchorcolour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_anchorerroractive</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092620Z" creationid="liaronce" creationdate="20191117T092620Z">
+        <seg>patheditor_anchorerroractive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_anchorerrorcolour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092618Z" creationid="liaronce" creationdate="20191117T092618Z">
+        <seg>patheditor_anchorerrorcolour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_anchorerrorhighlight</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092619Z" creationid="liaronce" creationdate="20191117T092619Z">
+        <seg>patheditor_anchorerrorhighlight</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_anchorheight</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092621Z" creationid="liaronce" creationdate="20191117T092621Z">
+        <seg>patheditor_anchorheight</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_anchorhighlight</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092619Z" creationid="liaronce" creationdate="20191117T092619Z">
+        <seg>patheditor_anchorhighlight</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_anchorwidth</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092621Z" creationid="liaronce" creationdate="20191117T092621Z">
+        <seg>patheditor_anchorwidth</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_insertionprecision</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092620Z" creationid="liaronce" creationdate="20191117T092620Z">
+        <seg>patheditor_insertionprecision</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_linecolour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092618Z" creationid="liaronce" creationdate="20191117T092618Z">
+        <seg>patheditor_linecolour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_lineerrorcolour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092618Z" creationid="liaronce" creationdate="20191117T092618Z">
+        <seg>patheditor_lineerrorcolour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_linehighlight</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092619Z" creationid="liaronce" creationdate="20191117T092619Z">
+        <seg>patheditor_linehighlight</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_maskcolour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092622Z" creationid="liaronce" creationdate="20191117T092622Z">
+        <seg>patheditor_maskcolour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_maskoverlay</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092621Z" creationid="liaronce" creationdate="20191117T092621Z">
+        <seg>patheditor_maskoverlay</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_rotatesensitivity</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092620Z" creationid="liaronce" creationdate="20191117T092620Z">
+        <seg>patheditor_rotatesensitivity</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>patheditor_scalesensitivity</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092621Z" creationid="liaronce" creationdate="20191117T092621Z">
+        <seg>patheditor_scalesensitivity</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>pixels</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T022320Z" creationid="deciia" creationdate="20170104T022320Z">
         <seg>像素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>prefs_logout_on_exit</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092648Z" creationid="liaronce" creationdate="20191117T092648Z">
+        <seg>prefs_logout_on_exit</seg>
       </tuv>
     </tu>
     <tu>
@@ -55883,6 +58755,166 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>resetzoomonmoving_description</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092608Z" creationid="liaronce" creationdate="20191117T092608Z">
+        <seg>resetzoomonmoving_description</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>resourcetree_automaticdeletion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092622Z" creationid="liaronce" creationdate="20191117T092622Z">
+        <seg>resourcetree_automaticdeletion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>resourcetree_automaticopenall</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092622Z" creationid="liaronce" creationdate="20191117T092622Z">
+        <seg>resourcetree_automaticopenall</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>resourcetree_duplicatefoldermove</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092622Z" creationid="liaronce" creationdate="20191117T092622Z">
+        <seg>resourcetree_duplicatefoldermove</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>resourcetree_maxresourcesbeforewarning</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092623Z" creationid="liaronce" creationdate="20191117T092623Z">
+        <seg>resourcetree_maxresourcesbeforewarning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_automaticacceptitemdrag</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092624Z" creationid="liaronce" creationdate="20191117T092624Z">
+        <seg>roomeditor_automaticacceptitemdrag</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_automaticacceptlayerdrag</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092624Z" creationid="liaronce" creationdate="20191117T092624Z">
+        <seg>roomeditor_automaticacceptlayerdrag</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_automaticacceptlockedinvisiblelayerdrag</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092624Z" creationid="liaronce" creationdate="20191117T092624Z">
+        <seg>roomeditor_automaticacceptlockedinvisiblelayerdrag</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_automaticitemdeletion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092623Z" creationid="liaronce" creationdate="20191117T092623Z">
+        <seg>roomeditor_automaticitemdeletion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_automaticlayerdeltion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092624Z" creationid="liaronce" creationdate="20191117T092624Z">
+        <seg>roomeditor_automaticlayerdeltion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_automaticparentitemdeletion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092623Z" creationid="liaronce" creationdate="20191117T092623Z">
+        <seg>roomeditor_automaticparentitemdeletion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_automaticparentlayerdeletion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092623Z" creationid="liaronce" creationdate="20191117T092623Z">
+        <seg>roomeditor_automaticparentlayerdeletion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_chainalphadistance</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092625Z" creationid="liaronce" creationdate="20191117T092625Z">
+        <seg>roomeditor_chainalphadistance</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_chainalphafalloff</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092625Z" creationid="liaronce" creationdate="20191117T092625Z">
+        <seg>roomeditor_chainalphafalloff</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_linkcolour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092625Z" creationid="liaronce" creationdate="20191117T092625Z">
+        <seg>roomeditor_linkcolour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_minfalloffalpha</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092625Z" creationid="liaronce" creationdate="20191117T092625Z">
+        <seg>roomeditor_minfalloffalpha</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_multiselectcolour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092626Z" creationid="liaronce" creationdate="20191117T092626Z">
+        <seg>roomeditor_multiselectcolour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_showviews</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092626Z" creationid="liaronce" creationdate="20191117T092626Z">
+        <seg>roomeditor_showviews</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_tilehighlightcolour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092626Z" creationid="liaronce" creationdate="20191117T092626Z">
+        <seg>roomeditor_tilehighlightcolour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>roomeditor_tileselectcolour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092626Z" creationid="liaronce" creationdate="20191117T092626Z">
+        <seg>roomeditor_tileselectcolour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>runInstaller Begin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T204439Z" creationid="deciia" creationdate="20180922T204439Z">
@@ -55895,6 +58927,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T204821Z" creationid="deciia" creationdate="20180922T204821Z">
         <seg>卸载结束</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>showworkspacebackground_description</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092608Z" creationid="liaronce" creationdate="20191117T092608Z">
+        <seg>showworkspacebackground_description</seg>
       </tuv>
     </tu>
     <tu>
@@ -56083,6 +59123,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>sourcecontrolgit_automatically_start</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092644Z" creationid="liaronce" creationdate="20191117T092644Z">
+        <seg>sourcecontrolgit_automatically_start</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>sourcecontrolgit_clone_path</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090525Z" creationid="liaronce" creationdate="20191117T090525Z">
@@ -56195,6 +59243,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>sourcecontrolgit_email</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092642Z" creationid="liaronce" creationdate="20191117T092642Z">
+        <seg>sourcecontrolgit_email</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sourcecontrolgit_externaltoolerror</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092643Z" creationid="liaronce" creationdate="20191117T092643Z">
+        <seg>sourcecontrolgit_externaltoolerror</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>sourcecontrolgit_import_project</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090546Z" creationid="liaronce" creationdate="20191117T090546Z">
@@ -56219,10 +59283,130 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>sourcecontrolgit_logging_verbose</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092643Z" creationid="liaronce" creationdate="20191117T092643Z">
+        <seg>sourcecontrolgit_logging_verbose</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sourcecontrolgit_mergetooloptions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092643Z" creationid="liaronce" creationdate="20191117T092643Z">
+        <seg>sourcecontrolgit_mergetooloptions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sourcecontrolgit_mergetoolpath</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092642Z" creationid="liaronce" creationdate="20191117T092642Z">
+        <seg>sourcecontrolgit_mergetoolpath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sourcecontrolgit_nodifftool</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092643Z" creationid="liaronce" creationdate="20191117T092643Z">
+        <seg>sourcecontrolgit_nodifftool</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sourcecontrolgit_nomergetool</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092643Z" creationid="liaronce" creationdate="20191117T092643Z">
+        <seg>sourcecontrolgit_nomergetool</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sourcecontrolgit_password</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092642Z" creationid="liaronce" creationdate="20191117T092642Z">
+        <seg>sourcecontrolgit_password</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sourcecontrolgit_username</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092641Z" creationid="liaronce" creationdate="20191117T092641Z">
+        <seg>sourcecontrolgit_username</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>synchronization must be enabled for this platform</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T022018Z" creationid="deciia" creationdate="20180922T022018Z">
         <seg>必须为此平台启用垂直同步</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>system_font_changed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092609Z" creationid="liaronce" creationdate="20191117T092609Z">
+        <seg>system_font_changed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>temp_location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092609Z" creationid="liaronce" creationdate="20191117T092609Z">
+        <seg>temp_location</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>texteditor_defaultheight</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092611Z" creationid="liaronce" creationdate="20191117T092611Z">
+        <seg>texteditor_defaultheight</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>texteditor_defaultwidth</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092610Z" creationid="liaronce" creationdate="20191117T092610Z">
+        <seg>texteditor_defaultwidth</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>texteditor_minheight</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092611Z" creationid="liaronce" creationdate="20191117T092611Z">
+        <seg>texteditor_minheight</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>texteditor_minwidth</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092611Z" creationid="liaronce" creationdate="20191117T092611Z">
+        <seg>texteditor_minwidth</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>timeline_noundoactions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092627Z" creationid="liaronce" creationdate="20191117T092627Z">
+        <seg>timeline_noundoactions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>timeline_opennewmoments</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092627Z" creationid="liaronce" creationdate="20191117T092627Z">
+        <seg>timeline_opennewmoments</seg>
       </tuv>
     </tu>
     <tu>
@@ -56355,6 +59539,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T225748Z" creationid="deciia" creationdate="20180922T095410Z">
         <seg>在 GameMaker Studio 2 试用版中不能使用{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>workspacebackground_skin_description</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092608Z" creationid="liaronce" creationdate="20191117T092608Z">
+        <seg>workspacebackground_skin_description</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>workspacebackgroundfit_description</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092608Z" creationid="liaronce" creationdate="20191117T092608Z">
+        <seg>workspacebackgroundfit_description</seg>
       </tuv>
     </tu>
     <tu>
