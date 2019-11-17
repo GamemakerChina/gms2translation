@@ -1,0 +1,1224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.1.0_0_54fc30ee" segtype="sentence" srclang="en-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="en-US">
+        <seg>Alt</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T134353Z" creationid="qq106" creationdate="20191117T134353Z">
+        <seg>Alt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Always do full install of APK</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T200201Z" creationid="deciia" creationdate="20170105T081956Z">
+        <seg>始终安全安装 APK</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>备注：SpriteEditor_Tile_Tooltip：Tiling tooltip
+平铺？图块？工具提示？精灵编辑器与图块相关的是什么呢？精灵有平铺这功能吗？</note>
+      <tuv lang="en-US">
+        <seg>An image that is to be tiled will have the edges (horizontal or vertical)\nadded to by the edges from the opposite side.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T050109Z" creationid="deciia" creationdate="20170104T024711Z">
+        <seg>平铺的图像（水平或者垂直）边缘挨着另一侧边缘添加(?)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Asset Package:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T075620Z" creationid="deciia" creationdate="20170103T083951Z">
+        <seg>资产资源包：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>备注：RoomEditor_ConfirmDeleteParentItems：layer delete confirm dialog message explaining the child layer deletion options
+直接删除子房间？</note>
+      <tuv lang="en-US">
+        <seg>Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T043719Z" creationid="deciia" creationdate="20170103T125101Z">
+        <seg>尝试从父房间里删除项目（注：创建实例的代码将会不可挽回的失去）。\n删除全部：删除子房间的匹配项目\n全部保留：保留所有子房间的项目\n保留更改：保持其中已经覆盖父房间的子房间的项目\n直接子房间(?)： {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Attempting to request further source control actions on '{0}' after end has been called, create a new sourcecontrolaction class or use WaitForPrevious to insert blocking sections between requests</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T223132Z" creationid="deciia" creationdate="20170103T143955Z">
+        <seg>在end调用后尝试在'{0}'上请求进一步的源码控制操作，创建新的sourcecontrolaction类或使用WaitForPrevious在请求之间插入阻塞部分</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatically enable source control</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T091626Z" creationid="deciia" creationdate="20180922T033421Z">
+        <seg>自动启用源码控制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatically open source control output window</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T224837Z" creationid="deciia" creationdate="20180921T154755Z">
+        <seg>自动打开源码控制输出窗口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Chain fade out start distance (px)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T031407Z" creationid="deciia" creationdate="20180922T031407Z">
+        <seg>链条淡出开始距离(px)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Chain fade out stop distance (px)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T031431Z" creationid="deciia" creationdate="20180922T031431Z">
+        <seg>链条淡出停止距离 (px)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Chain link colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T031344Z" creationid="deciia" creationdate="20180922T031257Z">
+        <seg>链条连接（Chain link）颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Chain minimum alpha</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T081854Z" creationid="deciia" creationdate="20180922T031440Z">
+        <seg>链条最小alpha值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Choose an Asset</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T075409Z" creationid="deciia" creationdate="20170103T083110Z">
+        <seg>选择一个资产</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colour Picker</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170315T142207Z" creationid="deciia" creationdate="20170102T073706Z">
+        <seg>取色器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>不确定</note>
+      <tuv lang="en-US">
+        <seg>Column Volume</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T222544Z" creationid="deciia" creationdate="20170103T140109Z">
+        <seg>音量列?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Column volume</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170315T144816Z" creationid="deciia" creationdate="20170107T051346Z">
+        <seg>音频列音量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>备注：图片编辑器 ImageEditor_CommitToolChanges：Commit tool changes
+工具的更改？没找到呢。</note>
+      <tuv lang="en-US">
+        <seg>Commit Tool Changes?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T032933Z" creationid="deciia" creationdate="20170102T090107Z">
+        <seg>提交工具的更改吗(?)？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T075325Z" creationid="deciia" creationdate="20170103T082633Z">
+        <seg>创建程序包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create Project Repository</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T132149Z" creationid="deciia" creationdate="20170103T132149Z">
+        <seg>创建项目库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Created package '{0}' version {1}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T090330Z" creationid="deciia" creationdate="20170103T090330Z">
+        <seg>创建程序包 '{0}' 版本 {1}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Creating package...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T083631Z" creationid="deciia" creationdate="20170103T083631Z">
+        <seg>创建程序包...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Ctrl</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T134303Z" creationid="qq106" creationdate="20191117T134303Z">
+        <seg>Ctrl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Default room height</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T023402Z" creationid="deciia" creationdate="20180922T023402Z">
+        <seg>默认房间高度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable Amazon APIs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T040325Z" creationid="deciia" creationdate="20170104T072045Z">
+        <seg>启用亚马逊 API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable Flurry Analytics</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170105T100552Z" creationid="deciia" creationdate="20170105T100552Z">
+        <seg>开启 Flurry 分析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable Google Analytics</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170105T100613Z" creationid="deciia" creationdate="20170105T100602Z">
+        <seg>开启谷歌分析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable Google Cloud saving</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T021413Z" creationid="deciia" creationdate="20180922T021413Z">
+        <seg>启用谷歌云保存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable Google Services</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T071946Z" creationid="deciia" creationdate="20170104T071946Z">
+        <seg>启用谷歌服务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable Google licensing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T021506Z" creationid="deciia" creationdate="20180922T021506Z">
+        <seg>启用谷歌许可证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable source control</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T022606Z" creationid="deciia" creationdate="20180922T022606Z">
+        <seg>启用源码控制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>English</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T134244Z" creationid="qq106" creationdate="20191117T134244Z">
+        <seg>Chinese</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Error creating package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T075811Z" creationid="deciia" creationdate="20170103T085149Z">
+        <seg>创建程序包时出错</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Error importing package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T075827Z" creationid="deciia" creationdate="20170103T085203Z">
+        <seg>导入程序包时出错</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Failed to verify the package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T085242Z" creationid="deciia" creationdate="20170103T085242Z">
+        <seg>验证程序包失败</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Favourites</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170105T071003Z" creationid="deciia" creationdate="20170105T071003Z">
+        <seg>喜爱</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>File watcher frequency (ms)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T093407Z" creationid="deciia" creationdate="20180922T034318Z">
+        <seg>文件观察频率(毫秒)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>划过或轻扫，哪个更适合呢？不重要，都可以理解。
+情境：手势操作。该笔记可以删除。</note>
+      <tuv lang="en-US">
+        <seg>Flick</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T203928Z" creationid="deciia" creationdate="20170311T130851Z">
+        <seg>划过</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Flurry Analytics ID</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T013857Z" creationid="deciia" creationdate="20180926T013857Z">
+        <seg>Flurry 分析 ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>备注：ggs_software_vertex_processing
+强制软件顶点处理，也就是软件模拟的图形处理吗？</note>
+      <tuv lang="en-US">
+        <seg>Force Software Vertex Processing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T071317Z" creationid="deciia" creationdate="20170105T025316Z">
+        <seg>强制使用软件的顶点处理(?)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Frames per game frame</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T233017Z" creationid="deciia" creationdate="20170107T052621Z">
+        <seg>每秒游戏帧数（game steps）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Frames per second</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T233027Z" creationid="deciia" creationdate="20170107T052550Z">
+        <seg>每秒帧数（fps，cpu steps）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Free Target</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T083346Z" creationid="deciia" creationdate="20180922T050645Z">
+        <seg>释放目标列表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GameMaker Studio 2</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T134300Z" creationid="qq106" creationdate="20191117T134300Z">
+        <seg>GameMaker Studio 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Global Flick</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170319T022357Z" creationid="deciia" creationdate="20170311T130705Z">
+        <seg>全局划过</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Google Analytics ID</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T013848Z" creationid="deciia" creationdate="20180926T013848Z">
+        <seg>谷歌分析 ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Google Licensing Public Key</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T072802Z" creationid="deciia" creationdate="20170104T072802Z">
+        <seg>谷歌许可证公钥</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Google Services ID</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T021425Z" creationid="deciia" creationdate="20180922T021425Z">
+        <seg>谷歌服务 ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>选择一个有个性的翻译，记念一件事物。</note>
+      <tuv lang="en-US">
+        <seg>Hello World!!</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T032402Z" creationid="deciia" creationdate="20180922T234952Z">
+        <seg>你好，世界！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IMPORTANT: The asset category will be set to 'Demo' on upload</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T082203Z" creationid="deciia" creationdate="20170103T094019Z">
+        <seg>重要提示：资产类别将在上传时设置为“Demo”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IMPORTANT: The asset category will be set to 'Tutorial' on upload</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T082251Z" creationid="deciia" creationdate="20170103T095631Z">
+        <seg>重要提示：资产类别将在上传时设置为“教程”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IMPORTANT: The package ID cannot be changed once your asset has been created.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T082210Z" creationid="deciia" creationdate="20170103T093640Z">
+        <seg>重要提示：创建资产后，无法更改程序包ID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Iconic Background Colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T062628Z" creationid="deciia" creationdate="20170105T034936Z">
+        <seg>图标的背景色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Iconic Message</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T062636Z" creationid="deciia" creationdate="20170105T035003Z">
+        <seg>图标的信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>备注：ggs_iconic_wide_content1
+图标大小的，宽度类型1的内容，还是一种标志性的醒目的宽度1的内容？生成的游戏安装包里的情境。</note>
+      <tuv lang="en-US">
+        <seg>Iconic Wide 1 Content</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T062523Z" creationid="deciia" creationdate="20170105T034829Z">
+        <seg>宽图标1的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Iconic Wide 2 Content</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T062532Z" creationid="deciia" creationdate="20170105T034840Z">
+        <seg>宽图标2的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Iconic Wide 3 Content</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T062541Z" creationid="deciia" creationdate="20170105T034847Z">
+        <seg>宽图标3的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>备注：ggs_tiles_iconic   全局游戏设定中
+怎么理解，标志图块，图标图块？</note>
+      <tuv lang="en-US">
+        <seg>Iconic tiles</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T124602Z" creationid="deciia" creationdate="20170105T070023Z">
+        <seg>图标块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Import Project into Repository</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T132351Z" creationid="deciia" creationdate="20170103T132351Z">
+        <seg>将项目导入库中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In order to use this functionality, you will need to have the Amazon API Extension installed.\nWould you like to download it now from the Marketplace?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170311T154953Z" creationid="deciia" creationdate="20170311T154953Z">
+        <seg>为使用这个功能，你将需要安装 Amazon API 扩展。\n现在你想从市场上下载它吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>代码编辑器情境，这里的tab指一个tab的缩进操作。此条笔记可以删除。</note>
+      <tuv lang="en-US">
+        <seg>Keep tabs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T085427Z" creationid="deciia" creationdate="20180922T032616Z">
+        <seg>保持tab键缩进对齐</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Laptop file watcher frequency (ms)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T093417Z" creationid="deciia" creationdate="20180922T034336Z">
+        <seg>笔记本电脑文件观察频率 (毫秒)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Left Command</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T134345Z" creationid="qq106" creationdate="20191117T134345Z">
+        <seg>左 Command</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Left Control</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T134327Z" creationid="qq106" creationdate="20191117T134327Z">
+        <seg>左 Ctrl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Link to Amazon Submission Guide</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170510T022757Z" creationid="deciia" creationdate="20170510T022757Z">
+        <seg>链接到Amazon提交指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>备注：opennewresources：Open new resources setting
+打开新资源以便在创建时进行编辑？总是立即打开新创建的资源？
+</note>
+      <tuv lang="en-US">
+        <seg>Open new resources for edit on creation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T101555Z" creationid="deciia" creationdate="20180922T023951Z">
+        <seg>创建时总是打开新的资源进行编辑(?)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Package Contains:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T083058Z" creationid="deciia" creationdate="20170103T080226Z">
+        <seg>程序包内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Package ID Restrictions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T092809Z" creationid="deciia" creationdate="20170103T092809Z">
+        <seg>程序包ID限制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Package ID is invalid</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T090402Z" creationid="deciia" creationdate="20170103T090402Z">
+        <seg>程序包ID无效</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Package ID required</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170114T034349Z" creationid="deciia" creationdate="20170103T083622Z">
+        <seg>请提供程序包ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Package ID:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T083522Z" creationid="deciia" creationdate="20170103T083522Z">
+        <seg>程序包 ID:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Package Resources:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180921T152725Z" creationid="deciia" creationdate="20180921T152725Z">
+        <seg>程序包资源：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Package Type:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T093857Z" creationid="deciia" creationdate="20170103T093857Z">
+        <seg>程序包类型：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Package Upload</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T081615Z" creationid="deciia" creationdate="20170103T090306Z">
+        <seg>程序包上传</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Package signing error</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T085348Z" creationid="deciia" creationdate="20170103T085348Z">
+        <seg>程序包签名错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Package upload cancelled</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T093849Z" creationid="deciia" creationdate="20170103T093849Z">
+        <seg>程序包取消上传</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Package upload failed: {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T093840Z" creationid="deciia" creationdate="20170103T093802Z">
+        <seg>程序包上传失败：{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Please select the name and package ID of your asset from the marketplace</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T075529Z" creationid="deciia" creationdate="20170103T083459Z">
+        <seg>请从市场中选择资产的名称和程序包ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Preferences</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170316T113242Z" creationid="deciia" creationdate="20170102T070444Z">
+        <seg>偏好设定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Pull Changes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170315T071432Z" creationid="deciia" creationdate="20170103T132407Z">
+        <seg>拉取变动</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Push Changes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170315T071424Z" creationid="deciia" creationdate="20170103T132416Z">
+        <seg>推送变动</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Push Complete</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T210530Z" creationid="deciia" creationdate="20180922T210530Z">
+        <seg>推送完成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Search Cancelled</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170315T071521Z" creationid="deciia" creationdate="20170103T132922Z">
+        <seg>搜索已被取消</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select publisher and enter a new package name and ID</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T083017Z" creationid="deciia" creationdate="20170103T083017Z">
+        <seg>选择一个发布者并输入新的程序包名称和ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select resources from the asset package and add them to your project:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T080003Z" creationid="deciia" creationdate="20170103T085536Z">
+        <seg>从资产程序包中选择资源并将其添加到项目中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select resources from your project and add them to your package:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T083933Z" creationid="deciia" creationdate="20170103T083933Z">
+        <seg>从项目中选择资源并添加到你的程序包中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Show tab lines</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T090449Z" creationid="deciia" creationdate="20180922T032708Z">
+        <seg>显示tab对齐纵线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Show whitespace</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T032640Z" creationid="deciia" creationdate="20180922T032640Z">
+        <seg>显示空白区域</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Signing identities can be easily created\nin Xcode-&gt;Preferences-&gt;Accounts-&gt;Team-&gt;View Details-&gt;Developer ID\nApplication-&gt;Create.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T042850Z" creationid="deciia" creationdate="20180922T022425Z">
+        <seg>在Xcode-&gt; Preferences-&gt; Accounts-&gt; Team-&gt; View Details-&gt; Developer ID \n Application-&gt; Create 中，可以轻松创建签名身份。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Small Iconic</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T062508Z" creationid="deciia" creationdate="20170105T034407Z">
+        <seg>小图标型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T103723Z" creationid="deciia" creationdate="20170103T103713Z">
+        <seg>源码控制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T222940Z" creationid="deciia" creationdate="20170329T020119Z">
+        <seg>源码控制(Git)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) Authentication Failed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170510T013732Z" creationid="deciia" creationdate="20170510T013732Z">
+        <seg>源码控制 (Git) 身份验证失败</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) Authentication Settings</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170510T013441Z" creationid="deciia" creationdate="20170510T013441Z">
+        <seg>源码控制 (Git) 身份认证设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) Clone</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170329T020406Z" creationid="deciia" creationdate="20170107T052826Z">
+        <seg>源码控制 (Git) 克隆</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) Clone Repository</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T225331Z" creationid="deciia" creationdate="20180921T155009Z">
+        <seg>源码控制(Git) 克隆库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) Commit</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180921T155158Z" creationid="deciia" creationdate="20180921T155158Z">
+        <seg>源码控制 (Git) 提交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) Create</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170329T020401Z" creationid="deciia" creationdate="20170107T051849Z">
+        <seg>源码控制 (Git) 创建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) Error</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T033136Z" creationid="deciia" creationdate="20170107T052731Z">
+        <seg>源码控制 (Git) 错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) External Tool Error</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170510T015334Z" creationid="deciia" creationdate="20170510T015334Z">
+        <seg>源码控制 (Git) 外部工具错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) Import Project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T013236Z" creationid="deciia" creationdate="20180922T013236Z">
+        <seg>源码控制 (Git) 导入项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) Invalid Authentication</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170510T014006Z" creationid="deciia" creationdate="20170510T014006Z">
+        <seg>源码控制 (Git) 无效的身份验证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) Invalid Credentials</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T223221Z" creationid="deciia" creationdate="20170103T144223Z">
+        <seg>源码控制(Git)凭据无效</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) Log</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T013341Z" creationid="deciia" creationdate="20180922T013341Z">
+        <seg>源码控制 (Git) 日志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) No Identity</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T224515Z" creationid="deciia" creationdate="20170103T150134Z">
+        <seg>源码控制(Git)没有身份标识</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) No Repository</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T223859Z" creationid="deciia" creationdate="20170103T145753Z">
+        <seg>源码控制(Git)中没有存储库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control (Git) Pull Error</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170329T020355Z" creationid="deciia" creationdate="20170106T160727Z">
+        <seg>源码控制 (Git) 拉取错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control Action '{0}' has an invalid action in the request queue</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170329T020303Z" creationid="deciia" creationdate="20170103T144135Z">
+        <seg>源码控制动作'{0}'在请求队列中有一个无效的动作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control Action '{0}' has not successfully completed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170329T020255Z" creationid="deciia" creationdate="20170103T144043Z">
+        <seg>源码控制动作'{0}'尚未成功完成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control Conflicts</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170329T020247Z" creationid="deciia" creationdate="20170103T132615Z">
+        <seg>源码控制冲突</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control Output</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170329T020349Z" creationid="deciia" creationdate="20170104T045715Z">
+        <seg>源码控制输出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control Output will go here.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170311T120313Z" creationid="deciia" creationdate="20170311T115938Z">
+        <seg>源码控制输出将出现在这里。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control Output would go here, but you are currently using a Trial version.\nPlease upgrade to a paid version to enable the Source Control features!\nVisit https://www.yoyogames.com/get2 to view our pricing.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170311T120535Z" creationid="deciia" creationdate="20170311T120302Z">
+        <seg>源码控制输出将出现在这里，但当前你正在使用试用版。\n请升级到付费版本启用源码控制！\n访问 https://www.yoyogames.com/get2 查看我们的定价。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Control Window Font Settings</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T202620Z" creationid="deciia" creationdate="20170311T162544Z">
+        <seg>源码控制窗口字体设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Stage All</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180921T155754Z" creationid="deciia" creationdate="20180921T155754Z">
+        <seg>加载所有</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Stage Changes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180921T155702Z" creationid="deciia" creationdate="20180921T155218Z">
+        <seg>加载变化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Stage Selected</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180921T155820Z" creationid="deciia" creationdate="20180921T155802Z">
+        <seg>加载所选</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Tab size</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T090411Z" creationid="deciia" creationdate="20180922T032625Z">
+        <seg>单次Tab大小</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The asset category will be set to 'Demo' on upload</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T095735Z" creationid="deciia" creationdate="20170103T095735Z">
+        <seg>上传时物品类别将设置为“Demo”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The asset category will be set to 'Tutorial' on upload</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T095745Z" creationid="deciia" creationdate="20170103T095745Z">
+        <seg>上传时物品类别将设置为“教程”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>chain = 链条 or 连线？</note>
+      <tuv lang="en-US">
+        <seg>The smoothness of the chain.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T102649Z" creationid="deciia" creationdate="20170105T072525Z">
+        <seg>链条连线的平滑度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>备注：DialogEditor_InvalidJSON：Error message when the user attempts to save a broken json style
+原始的json?json基元？
+</note>
+      <tuv lang="en-US">
+        <seg>The style '{0}' is not a valid json primitive.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T031719Z" creationid="deciia" creationdate="20161224T065931Z">
+        <seg>样式'{0}'不是有效的json基元(?)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>备注：SourceControlGit_CloneNonBareOrigin：Message for when a clone is done on a non-bare repository but an origin has been found.
+应该有更好的翻译。</note>
+      <tuv lang="en-US">
+        <seg>This is a non-bare repository which we do not support direct cloning from.\nHowever we have found its origin so we will push to that and clone from the origin instead.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T211622Z" creationid="deciia" creationdate="20170107T053248Z">
+        <seg>这是一个非公开存储库，我们不支持从中直接克隆。\n但是，我们已经找到它的源点（origin），所以我们将推送到那并从源点克隆。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To distribute your title outside of the Mac App Store macOS requires that your\npackage is codesigned.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T022145Z" creationid="deciia" creationdate="20180922T022145Z">
+        <seg>要在Mac App Store之外分发您的标题，macOS要求您的\n程序包已经过编码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Translation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T134221Z" creationid="deciia" creationdate="20180922T020251Z">
+        <seg>Translation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unstage All</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180921T155711Z" creationid="deciia" creationdate="20180921T155507Z">
+        <seg>不加载所有</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unstage Selected</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180921T155829Z" creationid="deciia" creationdate="20180921T155722Z">
+        <seg>不加载所选</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unstaged Changes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180921T155745Z" creationid="deciia" creationdate="20180921T155745Z">
+        <seg>不加载变化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Update Existing Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T083044Z" creationid="deciia" creationdate="20170103T082819Z">
+        <seg>更新现有程序包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Uploaded package '{0}' version {1}\nGo to the asset listing page?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T082025Z" creationid="deciia" creationdate="20170103T093745Z">
+        <seg>已上传程序包 '{0}' 版本 {1}\n 转到资产列表页面？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use Default NSIS Script</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T202953Z" creationid="deciia" creationdate="20170510T020000Z">
+        <seg>使用默认NSIS安装脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use Google APK expansion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T021547Z" creationid="deciia" creationdate="20180922T021547Z">
+        <seg>使用谷歌 APK 扩展</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Verifying package...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T085224Z" creationid="deciia" creationdate="20170103T085224Z">
+        <seg>验证程序包...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>What are you looking for?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170315T143755Z" creationid="deciia" creationdate="20170107T045302Z">
+        <seg>您想找什么？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>备注：codeeditor_whitespacestyle：White space style in Code Editor
+代码编辑器中的白色空间的样式。什么文本样式，偏好设置里只找到一个复选框。</note>
+      <tuv lang="en-US">
+        <seg>White space text style</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T123208Z" creationid="deciia" creationdate="20170105T060611Z">
+        <seg>空白区文本样式(?)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Wide Iconic</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T062515Z" creationid="deciia" creationdate="20170105T034426Z">
+        <seg>宽图标型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Workspace chain column padding (px)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T201936Z" creationid="deciia" creationdate="20180922T041816Z">
+        <seg>工作区链条连接的面板之间的列间隔量 (px)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Workspace chain link colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T041712Z" creationid="deciia" creationdate="20180922T041712Z">
+        <seg>工作区链条连接颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Workspace chain rendering segment count</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T053740Z" creationid="deciia" creationdate="20180922T053740Z">
+        <seg>工作区链条渲染段计数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>备注：rowpadding_description：the prefernces label for workspace row padding
+一条工作链中两行的间隔量？是两个连接块的间隔量？chain row 和 chain column 分别指的是什么？工作区是由许多面板通过链条连接构成的，一个工作链（源于一个面板连在一起没有中断的工作流）两个面板之间有一定的行和列的间隔。</note>
+      <tuv lang="en-US">
+        <seg>Workspace chain row padding (px)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T201912Z" creationid="deciia" creationdate="20180922T041608Z">
+        <seg>工作区链条连接的面板之间的行间隔量(px)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Workspace chains can overlap</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T201124Z" creationid="deciia" creationdate="20180922T075803Z">
+        <seg>允许工作区链条连接交叉</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Workspace keyboard navigation resets zoom</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T023301Z" creationid="deciia" creationdate="20180922T023301Z">
+        <seg>工作区键盘导航会重置缩放</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will need to set up a signing certificate before you can create and publish packages.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T085058Z" creationid="deciia" creationdate="20170103T085058Z">
+        <seg>在创建和发布程序包之前，你将需要设置一个签名证书。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>en</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T134258Z" creationid="qq106" creationdate="20191117T134258Z">
+        <seg>zh</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>http://zeus.yoyogames.com/GMS2_English-master.zip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T134301Z" creationid="qq106" creationdate="20191117T134301Z">
+        <seg>http://zeus.yoyogames.com/GMS2_English-master.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T134222Z" creationid="qq106" creationdate="20191117T134222Z">
+        <seg>{0}</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+    <tu>
+      <prop type="file">english.xml</prop>
+      <prop type="prev">English</prop>
+      <prop type="next">en</prop>
+      <tuv lang="en-US">
+        <seg>English</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T134253Z" creationid="qq106" creationdate="20191117T134253Z">
+        <seg>中文简体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">english.xml</prop>
+      <prop type="prev">Argument</prop>
+      <prop type="next">Return List</prop>
+      <note>备注：GMStdTarget：Drag and Drop™ library argument label
+位于DnD - 动作列表 - if Collision Point 
+这是一组返回值，包含与点发生碰撞的实例列表。</note>
+      <tuv lang="en-US">
+        <seg>Target</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T202646Z" creationid="deciia" creationdate="20180927T202646Z">
+        <seg>目标列表</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
