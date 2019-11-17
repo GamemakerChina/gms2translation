@@ -12452,6 +12452,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>DnDEditor_EmptyChain</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093545Z" creationid="liaronce" creationdate="20191117T093545Z">
+        <seg>DnDEditor_EmptyChain</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>DnDEditor_LivePreviewTitle</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092301Z" creationid="liaronce" creationdate="20191117T092301Z">
@@ -13208,6 +13216,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092217Z" creationid="liaronce" creationdate="20191117T092217Z">
         <seg>DnDMaker_UnsavedLibrary</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DnDManager_UnknownAction</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093545Z" creationid="liaronce" creationdate="20191117T093545Z">
+        <seg>DnDManager_UnknownAction</seg>
       </tuv>
     </tu>
     <tu>
@@ -19009,6 +19025,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>FileFilters_AllSupported</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093549Z" creationid="liaronce" creationdate="20191117T093549Z">
+        <seg>FileFilters_AllSupported</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>FileFilters_ImageFiles</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093550Z" creationid="liaronce" creationdate="20191117T093550Z">
+        <seg>FileFilters_ImageFiles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>File_Menu_Exit</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071809Z" creationid="qq106" creationdate="20191117T071809Z">
@@ -20039,6 +20071,342 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GMStdAudioGetLength_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093421Z" creationid="liaronce" creationdate="20191117T093421Z">
+        <seg>GMStdAudioGetLength_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudioGetLength_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093421Z" creationid="liaronce" creationdate="20191117T093421Z">
+        <seg>GMStdAudioGetLength_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudioGetMasterVolume_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093424Z" creationid="liaronce" creationdate="20191117T093424Z">
+        <seg>GMStdAudioGetMasterVolume_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudioGetMasterVolume_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093424Z" creationid="liaronce" creationdate="20191117T093424Z">
+        <seg>GMStdAudioGetMasterVolume_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudioGetPitch_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093422Z" creationid="liaronce" creationdate="20191117T093422Z">
+        <seg>GMStdAudioGetPitch_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudioGetPitch_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093422Z" creationid="liaronce" creationdate="20191117T093422Z">
+        <seg>GMStdAudioGetPitch_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudioGetVolume_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093423Z" creationid="liaronce" creationdate="20191117T093423Z">
+        <seg>GMStdAudioGetVolume_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudioGetVolume_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093423Z" creationid="liaronce" creationdate="20191117T093423Z">
+        <seg>GMStdAudioGetVolume_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudioSetPitch_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093422Z" creationid="liaronce" creationdate="20191117T093422Z">
+        <seg>GMStdAudioSetPitch_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudioSetPitch_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093421Z" creationid="liaronce" creationdate="20191117T093421Z">
+        <seg>GMStdAudioSetPitch_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudioSetPosition_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093421Z" creationid="liaronce" creationdate="20191117T093421Z">
+        <seg>GMStdAudioSetPosition_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudioSetPosition_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093420Z" creationid="liaronce" creationdate="20191117T093420Z">
+        <seg>GMStdAudioSetPosition_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudioSetVolume_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093423Z" creationid="liaronce" creationdate="20191117T093423Z">
+        <seg>GMStdAudioSetVolume_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudioSetVolume_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093422Z" creationid="liaronce" creationdate="20191117T093422Z">
+        <seg>GMStdAudioSetVolume_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudoSetMasterVolume_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093424Z" creationid="liaronce" creationdate="20191117T093424Z">
+        <seg>GMStdAudoSetMasterVolume_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdAudoSetMasterVolume_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093423Z" creationid="liaronce" creationdate="20191117T093423Z">
+        <seg>GMStdAudoSetMasterVolume_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBreak_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093357Z" creationid="liaronce" creationdate="20191117T093357Z">
+        <seg>GMStdBreak_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBreak_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093356Z" creationid="liaronce" creationdate="20191117T093356Z">
+        <seg>GMStdBreak_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferCopy_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093531Z" creationid="liaronce" creationdate="20191117T093531Z">
+        <seg>GMStdBufferCopy_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferCopy_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093531Z" creationid="liaronce" creationdate="20191117T093531Z">
+        <seg>GMStdBufferCopy_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferCreate_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093531Z" creationid="liaronce" creationdate="20191117T093531Z">
+        <seg>GMStdBufferCreate_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferCreate_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093531Z" creationid="liaronce" creationdate="20191117T093531Z">
+        <seg>GMStdBufferCreate_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferDelete_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093532Z" creationid="liaronce" creationdate="20191117T093532Z">
+        <seg>GMStdBufferDelete_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferDelete_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093532Z" creationid="liaronce" creationdate="20191117T093532Z">
+        <seg>GMStdBufferDelete_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferEOS_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093540Z" creationid="liaronce" creationdate="20191117T093540Z">
+        <seg>GMStdBufferEOS_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferEOS_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093540Z" creationid="liaronce" creationdate="20191117T093540Z">
+        <seg>GMStdBufferEOS_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferExists_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093541Z" creationid="liaronce" creationdate="20191117T093541Z">
+        <seg>GMStdBufferExists_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferExists_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093540Z" creationid="liaronce" creationdate="20191117T093540Z">
+        <seg>GMStdBufferExists_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferGetPosition_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093533Z" creationid="liaronce" creationdate="20191117T093533Z">
+        <seg>GMStdBufferGetPosition_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferGetPosition_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093533Z" creationid="liaronce" creationdate="20191117T093533Z">
+        <seg>GMStdBufferGetPosition_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferGetSize_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093532Z" creationid="liaronce" creationdate="20191117T093532Z">
+        <seg>GMStdBufferGetSize_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferGetSize_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093532Z" creationid="liaronce" creationdate="20191117T093532Z">
+        <seg>GMStdBufferGetSize_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferLoad_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093534Z" creationid="liaronce" creationdate="20191117T093534Z">
+        <seg>GMStdBufferLoad_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferLoad_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093534Z" creationid="liaronce" creationdate="20191117T093534Z">
+        <seg>GMStdBufferLoad_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferRead_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093535Z" creationid="liaronce" creationdate="20191117T093535Z">
+        <seg>GMStdBufferRead_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferRead_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093535Z" creationid="liaronce" creationdate="20191117T093535Z">
+        <seg>GMStdBufferRead_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferSave_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093535Z" creationid="liaronce" creationdate="20191117T093535Z">
+        <seg>GMStdBufferSave_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferSave_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093534Z" creationid="liaronce" creationdate="20191117T093534Z">
+        <seg>GMStdBufferSave_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferSeek_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093533Z" creationid="liaronce" creationdate="20191117T093533Z">
+        <seg>GMStdBufferSeek_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferSeek_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093533Z" creationid="liaronce" creationdate="20191117T093533Z">
+        <seg>GMStdBufferSeek_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferWrite_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093536Z" creationid="liaronce" creationdate="20191117T093536Z">
+        <seg>GMStdBufferWrite_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdBufferWrite_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093536Z" creationid="liaronce" creationdate="20191117T093536Z">
+        <seg>GMStdBufferWrite_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GMStdCallFunction_Desc</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093218Z" creationid="liaronce" creationdate="20191117T093218Z">
@@ -20055,6 +20423,38 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GMStdCallUserEvent_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093527Z" creationid="liaronce" creationdate="20191117T093527Z">
+        <seg>GMStdCallUserEvent_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdCallUserEvent_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093527Z" creationid="liaronce" creationdate="20191117T093527Z">
+        <seg>GMStdCallUserEvent_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdCase_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093358Z" creationid="liaronce" creationdate="20191117T093358Z">
+        <seg>GMStdCase_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdCase_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093357Z" creationid="liaronce" creationdate="20191117T093357Z">
+        <seg>GMStdCase_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GMStdChoose_Desc</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093217Z" creationid="liaronce" creationdate="20191117T093217Z">
@@ -20067,6 +20467,166 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093217Z" creationid="liaronce" creationdate="20191117T093217Z">
         <seg>GMStdChoose_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdCloseIni_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093431Z" creationid="liaronce" creationdate="20191117T093431Z">
+        <seg>GMStdCloseIni_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdCloseIni_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093430Z" creationid="liaronce" creationdate="20191117T093430Z">
+        <seg>GMStdCloseIni_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdCreateGrid_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093406Z" creationid="liaronce" creationdate="20191117T093406Z">
+        <seg>GMStdCreateGrid_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdCreateGrid_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093406Z" creationid="liaronce" creationdate="20191117T093406Z">
+        <seg>GMStdCreateGrid_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdCreateList_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093403Z" creationid="liaronce" creationdate="20191117T093403Z">
+        <seg>GMStdCreateList_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdCreateList_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093403Z" creationid="liaronce" creationdate="20191117T093403Z">
+        <seg>GMStdCreateList_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdCreateMap_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093403Z" creationid="liaronce" creationdate="20191117T093403Z">
+        <seg>GMStdCreateMap_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdCreateMap_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093403Z" creationid="liaronce" creationdate="20191117T093403Z">
+        <seg>GMStdCreateMap_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdCreateStack_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093406Z" creationid="liaronce" creationdate="20191117T093406Z">
+        <seg>GMStdCreateStack_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdCreateStack_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093406Z" creationid="liaronce" creationdate="20191117T093406Z">
+        <seg>GMStdCreateStack_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDSClear_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093408Z" creationid="liaronce" creationdate="20191117T093408Z">
+        <seg>GMStdDSClear_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDSClear_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093408Z" creationid="liaronce" creationdate="20191117T093408Z">
+        <seg>GMStdDSClear_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDSFree_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093408Z" creationid="liaronce" creationdate="20191117T093408Z">
+        <seg>GMStdDSFree_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDSFree_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093408Z" creationid="liaronce" creationdate="20191117T093408Z">
+        <seg>GMStdDSFree_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDebugShowMessage_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093458Z" creationid="liaronce" creationdate="20191117T093458Z">
+        <seg>GMStdDebugShowMessage_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDebugShowMessage_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093458Z" creationid="liaronce" creationdate="20191117T093458Z">
+        <seg>GMStdDebugShowMessage_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDecimalToInteger_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093358Z" creationid="liaronce" creationdate="20191117T093358Z">
+        <seg>GMStdDecimalToInteger_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDecimalToInteger_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093358Z" creationid="liaronce" creationdate="20191117T093358Z">
+        <seg>GMStdDecimalToInteger_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDefault_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093541Z" creationid="liaronce" creationdate="20191117T093541Z">
+        <seg>GMStdDefault_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDefault_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093541Z" creationid="liaronce" creationdate="20191117T093541Z">
+        <seg>GMStdDefault_Name</seg>
       </tuv>
     </tu>
     <tu>
@@ -20103,6 +20663,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GMStdDirFree_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093321Z" creationid="liaronce" creationdate="20191117T093321Z">
+        <seg>GMStdDirFree_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GMStdDirFree_Name</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093250Z" creationid="liaronce" creationdate="20191117T093250Z">
@@ -20111,6 +20679,294 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GMStdDirPoint_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093322Z" creationid="liaronce" creationdate="20191117T093322Z">
+        <seg>GMStdDirPoint_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDirPoint_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093321Z" creationid="liaronce" creationdate="20191117T093321Z">
+        <seg>GMStdDirPoint_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDirRandom_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093322Z" creationid="liaronce" creationdate="20191117T093322Z">
+        <seg>GMStdDirRandom_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDirRandom_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093322Z" creationid="liaronce" creationdate="20191117T093322Z">
+        <seg>GMStdDirRandom_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawEllipse_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093336Z" creationid="liaronce" creationdate="20191117T093336Z">
+        <seg>GMStdDrawEllipse_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawEllipse_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093336Z" creationid="liaronce" creationdate="20191117T093336Z">
+        <seg>GMStdDrawEllipse_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawGradientEllipse_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093337Z" creationid="liaronce" creationdate="20191117T093337Z">
+        <seg>GMStdDrawGradientEllipse_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawGradientEllipse_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093336Z" creationid="liaronce" creationdate="20191117T093336Z">
+        <seg>GMStdDrawGradientEllipse_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawGradientRect_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093336Z" creationid="liaronce" creationdate="20191117T093336Z">
+        <seg>GMStdDrawGradientRect_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawGradientRect_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093335Z" creationid="liaronce" creationdate="20191117T093335Z">
+        <seg>GMStdDrawGradientRect_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawHealthbar_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093338Z" creationid="liaronce" creationdate="20191117T093338Z">
+        <seg>GMStdDrawHealthbar_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawHealthbar_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093337Z" creationid="liaronce" creationdate="20191117T093337Z">
+        <seg>GMStdDrawHealthbar_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawInstanceHealth_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093339Z" creationid="liaronce" creationdate="20191117T093339Z">
+        <seg>GMStdDrawInstanceHealth_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawInstanceHealth_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093339Z" creationid="liaronce" creationdate="20191117T093339Z">
+        <seg>GMStdDrawInstanceHealth_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawInstanceLives_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093340Z" creationid="liaronce" creationdate="20191117T093340Z">
+        <seg>GMStdDrawInstanceLives_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawInstanceLives_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093339Z" creationid="liaronce" creationdate="20191117T093339Z">
+        <seg>GMStdDrawInstanceLives_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawInstanceScore_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093338Z" creationid="liaronce" creationdate="20191117T093338Z">
+        <seg>GMStdDrawInstanceScore_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawInstanceScore_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093338Z" creationid="liaronce" creationdate="20191117T093338Z">
+        <seg>GMStdDrawInstanceScore_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawLine_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093337Z" creationid="liaronce" creationdate="20191117T093337Z">
+        <seg>GMStdDrawLine_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawLine_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093337Z" creationid="liaronce" creationdate="20191117T093337Z">
+        <seg>GMStdDrawLine_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawRectangle_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093335Z" creationid="liaronce" creationdate="20191117T093335Z">
+        <seg>GMStdDrawRectangle_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawRectangle_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093335Z" creationid="liaronce" creationdate="20191117T093335Z">
+        <seg>GMStdDrawRectangle_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawSelf_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093332Z" creationid="liaronce" creationdate="20191117T093332Z">
+        <seg>GMStdDrawSelf_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawSelf_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093332Z" creationid="liaronce" creationdate="20191117T093332Z">
+        <seg>GMStdDrawSelf_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawSpriteExt_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093404Z" creationid="liaronce" creationdate="20191117T093404Z">
+        <seg>GMStdDrawSpriteExt_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawSpriteExt_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093404Z" creationid="liaronce" creationdate="20191117T093404Z">
+        <seg>GMStdDrawSpriteExt_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawSprite_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093334Z" creationid="liaronce" creationdate="20191117T093334Z">
+        <seg>GMStdDrawSprite_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawSprite_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093334Z" creationid="liaronce" creationdate="20191117T093334Z">
+        <seg>GMStdDrawSprite_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawSpritesStacked_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093334Z" creationid="liaronce" creationdate="20191117T093334Z">
+        <seg>GMStdDrawSpritesStacked_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawSpritesStacked_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093334Z" creationid="liaronce" creationdate="20191117T093334Z">
+        <seg>GMStdDrawSpritesStacked_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawValueTransformed_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093333Z" creationid="liaronce" creationdate="20191117T093333Z">
+        <seg>GMStdDrawValueTransformed_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawValueTransformed_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093333Z" creationid="liaronce" creationdate="20191117T093333Z">
+        <seg>GMStdDrawValueTransformed_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawValue_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093333Z" creationid="liaronce" creationdate="20191117T093333Z">
+        <seg>GMStdDrawValue_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdDrawValue_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093333Z" creationid="liaronce" creationdate="20191117T093333Z">
+        <seg>GMStdDrawValue_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdEffect_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093512Z" creationid="liaronce" creationdate="20191117T093512Z">
+        <seg>GMStdEffect_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdEffect_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093512Z" creationid="liaronce" creationdate="20191117T093512Z">
+        <seg>GMStdEffect_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GMStdElse_Desc</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093223Z" creationid="liaronce" creationdate="20191117T093223Z">
@@ -20123,6 +20979,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093223Z" creationid="liaronce" creationdate="20191117T093223Z">
         <seg>GMStdElse_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdEndGame_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093429Z" creationid="liaronce" creationdate="20191117T093429Z">
+        <seg>GMStdEndGame_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdEndGame_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093428Z" creationid="liaronce" creationdate="20191117T093428Z">
+        <seg>GMStdEndGame_Name</seg>
       </tuv>
     </tu>
     <tu>
@@ -20171,6 +21043,118 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093226Z" creationid="liaronce" creationdate="20191117T093226Z">
         <seg>GMStdExit_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdFileCopy_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093529Z" creationid="liaronce" creationdate="20191117T093529Z">
+        <seg>GMStdFileCopy_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdFileCopy_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093529Z" creationid="liaronce" creationdate="20191117T093529Z">
+        <seg>GMStdFileCopy_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdFileDelete_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093530Z" creationid="liaronce" creationdate="20191117T093530Z">
+        <seg>GMStdFileDelete_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdFileDelete_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093529Z" creationid="liaronce" creationdate="20191117T093529Z">
+        <seg>GMStdFileDelete_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdFileMode_Read</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093512Z" creationid="liaronce" creationdate="20191117T093512Z">
+        <seg>GMStdFileMode_Read</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdFileMode_Write</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093512Z" creationid="liaronce" creationdate="20191117T093512Z">
+        <seg>GMStdFileMode_Write</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdFileRename_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093530Z" creationid="liaronce" creationdate="20191117T093530Z">
+        <seg>GMStdFileRename_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdFileRename_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093530Z" creationid="liaronce" creationdate="20191117T093530Z">
+        <seg>GMStdFileRename_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdFileType_Bin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093513Z" creationid="liaronce" creationdate="20191117T093513Z">
+        <seg>GMStdFileType_Bin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdFileType_Text</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093513Z" creationid="liaronce" creationdate="20191117T093513Z">
+        <seg>GMStdFileType_Text</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdForLoop_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093404Z" creationid="liaronce" creationdate="20191117T093404Z">
+        <seg>GMStdForLoop_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdForLoop_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093404Z" creationid="liaronce" creationdate="20191117T093404Z">
+        <seg>GMStdForLoop_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdFriction_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093327Z" creationid="liaronce" creationdate="20191117T093327Z">
+        <seg>GMStdFriction_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdFriction_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093327Z" creationid="liaronce" creationdate="20191117T093327Z">
+        <seg>GMStdFriction_Name</seg>
       </tuv>
     </tu>
     <tu>
@@ -20271,6 +21255,198 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GMStdGetColor_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093341Z" creationid="liaronce" creationdate="20191117T093341Z">
+        <seg>GMStdGetColor_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetColor_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093340Z" creationid="liaronce" creationdate="20191117T093340Z">
+        <seg>GMStdGetColor_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetCurrentRoom_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093425Z" creationid="liaronce" creationdate="20191117T093425Z">
+        <seg>GMStdGetCurrentRoom_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetCurrentRoom_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093424Z" creationid="liaronce" creationdate="20191117T093424Z">
+        <seg>GMStdGetCurrentRoom_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetFont_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093341Z" creationid="liaronce" creationdate="20191117T093341Z">
+        <seg>GMStdGetFont_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetFont_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093341Z" creationid="liaronce" creationdate="20191117T093341Z">
+        <seg>GMStdGetFont_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetGlobal_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093354Z" creationid="liaronce" creationdate="20191117T093354Z">
+        <seg>GMStdGetGlobal_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetGlobal_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093354Z" creationid="liaronce" creationdate="20191117T093354Z">
+        <seg>GMStdGetGlobal_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetHealth_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093353Z" creationid="liaronce" creationdate="20191117T093353Z">
+        <seg>GMStdGetHealth_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetHealth_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093353Z" creationid="liaronce" creationdate="20191117T093353Z">
+        <seg>GMStdGetHealth_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetInstanceVar_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093542Z" creationid="liaronce" creationdate="20191117T093542Z">
+        <seg>GMStdGetInstanceVar_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetInstanceVar_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093542Z" creationid="liaronce" creationdate="20191117T093542Z">
+        <seg>GMStdGetInstanceVar_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetLives_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093352Z" creationid="liaronce" creationdate="20191117T093352Z">
+        <seg>GMStdGetLives_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetLives_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093352Z" creationid="liaronce" creationdate="20191117T093352Z">
+        <seg>GMStdGetLives_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetRandomNumber_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093355Z" creationid="liaronce" creationdate="20191117T093355Z">
+        <seg>GMStdGetRandomNumber_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetRandomNumber_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093354Z" creationid="liaronce" creationdate="20191117T093354Z">
+        <seg>GMStdGetRandomNumber_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetScore_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093351Z" creationid="liaronce" creationdate="20191117T093351Z">
+        <seg>GMStdGetScore_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetScore_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093351Z" creationid="liaronce" creationdate="20191117T093351Z">
+        <seg>GMStdGetScore_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetTextAlign_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093342Z" creationid="liaronce" creationdate="20191117T093342Z">
+        <seg>GMStdGetTextAlign_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetTextAlign_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093341Z" creationid="liaronce" creationdate="20191117T093341Z">
+        <seg>GMStdGetTextAlign_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetViewVar_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093405Z" creationid="liaronce" creationdate="20191117T093405Z">
+        <seg>GMStdGetViewVar_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGetViewVar_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093405Z" creationid="liaronce" creationdate="20191117T093405Z">
+        <seg>GMStdGetViewVar_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGoToRoom_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093426Z" creationid="liaronce" creationdate="20191117T093426Z">
+        <seg>GMStdGoToRoom_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGoToRoom_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093426Z" creationid="liaronce" creationdate="20191117T093426Z">
+        <seg>GMStdGoToRoom_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GMStdGpDeviceC_Desc</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093238Z" creationid="liaronce" creationdate="20191117T093238Z">
@@ -20287,6 +21463,198 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GMStdGravDir_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093324Z" creationid="liaronce" creationdate="20191117T093324Z">
+        <seg>GMStdGravDir_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGravDir_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093323Z" creationid="liaronce" creationdate="20191117T093323Z">
+        <seg>GMStdGravDir_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGravForce_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093324Z" creationid="liaronce" creationdate="20191117T093324Z">
+        <seg>GMStdGravForce_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGravForce_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093324Z" creationid="liaronce" creationdate="20191117T093324Z">
+        <seg>GMStdGravForce_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGridClear_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093415Z" creationid="liaronce" creationdate="20191117T093415Z">
+        <seg>GMStdGridClear_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGridClear_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093414Z" creationid="liaronce" creationdate="20191117T093414Z">
+        <seg>GMStdGridClear_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGridGetValue_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093414Z" creationid="liaronce" creationdate="20191117T093414Z">
+        <seg>GMStdGridGetValue_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGridGetValue_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093414Z" creationid="liaronce" creationdate="20191117T093414Z">
+        <seg>GMStdGridGetValue_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGridSetValue_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093414Z" creationid="liaronce" creationdate="20191117T093414Z">
+        <seg>GMStdGridSetValue_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdGridSetValue_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093413Z" creationid="liaronce" creationdate="20191117T093413Z">
+        <seg>GMStdGridSetValue_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfAnyObjAt_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093330Z" creationid="liaronce" creationdate="20191117T093330Z">
+        <seg>GMStdIfAnyObjAt_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfAnyObjAt_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093330Z" creationid="liaronce" creationdate="20191117T093330Z">
+        <seg>GMStdIfAnyObjAt_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfAudioPaused_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093420Z" creationid="liaronce" creationdate="20191117T093420Z">
+        <seg>GMStdIfAudioPaused_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfAudioPaused_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093420Z" creationid="liaronce" creationdate="20191117T093420Z">
+        <seg>GMStdIfAudioPaused_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfAudioPlaying_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093420Z" creationid="liaronce" creationdate="20191117T093420Z">
+        <seg>GMStdIfAudioPlaying_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfAudioPlaying_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093452Z" creationid="liaronce" creationdate="20191117T093452Z">
+        <seg>GMStdIfAudioPlaying_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfColPoint_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093332Z" creationid="liaronce" creationdate="20191117T093332Z">
+        <seg>GMStdIfColPoint_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfColPoint_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093331Z" creationid="liaronce" creationdate="20191117T093331Z">
+        <seg>GMStdIfColPoint_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfColShape_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093331Z" creationid="liaronce" creationdate="20191117T093331Z">
+        <seg>GMStdIfColShape_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfColShape_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093331Z" creationid="liaronce" creationdate="20191117T093331Z">
+        <seg>GMStdIfColShape_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfDSEmpty_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093407Z" creationid="liaronce" creationdate="20191117T093407Z">
+        <seg>GMStdIfDSEmpty_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfDSEmpty_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093407Z" creationid="liaronce" creationdate="20191117T093407Z">
+        <seg>GMStdIfDSEmpty_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfDSExists_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093407Z" creationid="liaronce" creationdate="20191117T093407Z">
+        <seg>GMStdIfDSExists_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfDSExists_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093407Z" creationid="liaronce" creationdate="20191117T093407Z">
+        <seg>GMStdIfDSExists_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GMStdIfExpr_Desc</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093222Z" creationid="liaronce" creationdate="20191117T093222Z">
@@ -20299,6 +21667,38 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093222Z" creationid="liaronce" creationdate="20191117T093222Z">
         <seg>GMStdIfExpr_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfFileExists_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093529Z" creationid="liaronce" creationdate="20191117T093529Z">
+        <seg>GMStdIfFileExists_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfFileExists_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093528Z" creationid="liaronce" creationdate="20191117T093528Z">
+        <seg>GMStdIfFileExists_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfFirstRoom_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093427Z" creationid="liaronce" creationdate="20191117T093427Z">
+        <seg>GMStdIfFirstRoom_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfFirstRoom_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093427Z" creationid="liaronce" creationdate="20191117T093427Z">
+        <seg>GMStdIfFirstRoom_Name</seg>
       </tuv>
     </tu>
     <tu>
@@ -20415,6 +21815,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GMStdIfLastRoom_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093427Z" creationid="liaronce" creationdate="20191117T093427Z">
+        <seg>GMStdIfLastRoom_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfLastRoom_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093427Z" creationid="liaronce" creationdate="20191117T093427Z">
+        <seg>GMStdIfLastRoom_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GMStdIfLives_Desc</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093221Z" creationid="liaronce" creationdate="20191117T093221Z">
@@ -20475,6 +21891,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093234Z" creationid="liaronce" creationdate="20191117T093234Z">
         <seg>GMStdIfMouseUp_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfObjAt_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093331Z" creationid="liaronce" creationdate="20191117T093331Z">
+        <seg>GMStdIfObjAt_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIfObjAt_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093330Z" creationid="liaronce" creationdate="20191117T093330Z">
+        <seg>GMStdIfObjAt_Name</seg>
       </tuv>
     </tu>
     <tu>
@@ -20543,6 +21975,38 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GMStdIniRead_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093432Z" creationid="liaronce" creationdate="20191117T093432Z">
+        <seg>GMStdIniRead_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIniRead_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093431Z" creationid="liaronce" creationdate="20191117T093431Z">
+        <seg>GMStdIniRead_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIniWrite_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093431Z" creationid="liaronce" creationdate="20191117T093431Z">
+        <seg>GMStdIniWrite_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdIniWrite_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093431Z" creationid="liaronce" creationdate="20191117T093431Z">
+        <seg>GMStdIniWrite_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GMStdInstChange_Desc</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093228Z" creationid="liaronce" creationdate="20191117T093228Z">
@@ -20603,6 +22067,182 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093228Z" creationid="liaronce" creationdate="20191117T093228Z">
         <seg>GMStdInstDestroy_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdInstExists_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093528Z" creationid="liaronce" creationdate="20191117T093528Z">
+        <seg>GMStdInstExists_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdInstExists_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093528Z" creationid="liaronce" creationdate="20191117T093528Z">
+        <seg>GMStdInstExists_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdJumpPoint_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093328Z" creationid="liaronce" creationdate="20191117T093328Z">
+        <seg>GMStdJumpPoint_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdJumpPoint_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093328Z" creationid="liaronce" creationdate="20191117T093328Z">
+        <seg>GMStdJumpPoint_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdJumpStart_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093329Z" creationid="liaronce" creationdate="20191117T093329Z">
+        <seg>GMStdJumpStart_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdJumpStart_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093328Z" creationid="liaronce" creationdate="20191117T093328Z">
+        <seg>GMStdJumpStart_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdListAdd_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093409Z" creationid="liaronce" creationdate="20191117T093409Z">
+        <seg>GMStdListAdd_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdListAdd_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093408Z" creationid="liaronce" creationdate="20191117T093408Z">
+        <seg>GMStdListAdd_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdListCount_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093411Z" creationid="liaronce" creationdate="20191117T093411Z">
+        <seg>GMStdListCount_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdListCount_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093411Z" creationid="liaronce" creationdate="20191117T093411Z">
+        <seg>GMStdListCount_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdListGetAt_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093409Z" creationid="liaronce" creationdate="20191117T093409Z">
+        <seg>GMStdListGetAt_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdListGetAt_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093409Z" creationid="liaronce" creationdate="20191117T093409Z">
+        <seg>GMStdListGetAt_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdListIndexOf_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093410Z" creationid="liaronce" creationdate="20191117T093410Z">
+        <seg>GMStdListIndexOf_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdListIndexOf_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093410Z" creationid="liaronce" creationdate="20191117T093410Z">
+        <seg>GMStdListIndexOf_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdListInsert_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093410Z" creationid="liaronce" creationdate="20191117T093410Z">
+        <seg>GMStdListInsert_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdListInsert_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093448Z" creationid="liaronce" creationdate="20191117T093448Z">
+        <seg>GMStdListInsert_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdListRemove_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093409Z" creationid="liaronce" creationdate="20191117T093409Z">
+        <seg>GMStdListRemove_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdListRemove_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093409Z" creationid="liaronce" creationdate="20191117T093409Z">
+        <seg>GMStdListRemove_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdLoadGame_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093430Z" creationid="liaronce" creationdate="20191117T093430Z">
+        <seg>GMStdLoadGame_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdLoadGame_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093429Z" creationid="liaronce" creationdate="20191117T093429Z">
+        <seg>GMStdLoadGame_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdLoop_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093542Z" creationid="liaronce" creationdate="20191117T093542Z">
+        <seg>GMStdLoop_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdLoop_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093542Z" creationid="liaronce" creationdate="20191117T093542Z">
+        <seg>GMStdLoop_Name</seg>
       </tuv>
     </tu>
     <tu>
@@ -20623,6 +22263,710 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GMStdMapGetValue_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093412Z" creationid="liaronce" creationdate="20191117T093412Z">
+        <seg>GMStdMapGetValue_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdMapGetValue_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093412Z" creationid="liaronce" creationdate="20191117T093412Z">
+        <seg>GMStdMapGetValue_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdMapRemove_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093413Z" creationid="liaronce" creationdate="20191117T093413Z">
+        <seg>GMStdMapRemove_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdMapRemove_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093413Z" creationid="liaronce" creationdate="20191117T093413Z">
+        <seg>GMStdMapRemove_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdMapSetValue_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093412Z" creationid="liaronce" creationdate="20191117T093412Z">
+        <seg>GMStdMapSetValue_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdMapSetValue_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093412Z" creationid="liaronce" creationdate="20191117T093412Z">
+        <seg>GMStdMapSetValue_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdNextRoom_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093425Z" creationid="liaronce" creationdate="20191117T093425Z">
+        <seg>GMStdNextRoom_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdNextRoom_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093425Z" creationid="liaronce" creationdate="20191117T093425Z">
+        <seg>GMStdNextRoom_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdNumberToString_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093402Z" creationid="liaronce" creationdate="20191117T093402Z">
+        <seg>GMStdNumberToString_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdNumberToString_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093402Z" creationid="liaronce" creationdate="20191117T093402Z">
+        <seg>GMStdNumberToString_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdOpenIni_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093430Z" creationid="liaronce" creationdate="20191117T093430Z">
+        <seg>GMStdOpenIni_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdOpenIni_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093430Z" creationid="liaronce" creationdate="20191117T093430Z">
+        <seg>GMStdOpenIni_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartCreateBurst_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093504Z" creationid="liaronce" creationdate="20191117T093504Z">
+        <seg>GMStdPartCreateBurst_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartCreateBurst_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093504Z" creationid="liaronce" creationdate="20191117T093504Z">
+        <seg>GMStdPartCreateBurst_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartEmitCreate_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093510Z" creationid="liaronce" creationdate="20191117T093510Z">
+        <seg>GMStdPartEmitCreate_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartEmitCreate_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093510Z" creationid="liaronce" creationdate="20191117T093510Z">
+        <seg>GMStdPartEmitCreate_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartEmitDestroy_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093511Z" creationid="liaronce" creationdate="20191117T093511Z">
+        <seg>GMStdPartEmitDestroy_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartEmitDestroy_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093510Z" creationid="liaronce" creationdate="20191117T093510Z">
+        <seg>GMStdPartEmitDestroy_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartEmitRegion_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093540Z" creationid="liaronce" creationdate="20191117T093540Z">
+        <seg>GMStdPartEmitRegion_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartEmitRegion_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093539Z" creationid="liaronce" creationdate="20191117T093539Z">
+        <seg>GMStdPartEmitRegion_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartEmitterEmit_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093511Z" creationid="liaronce" creationdate="20191117T093511Z">
+        <seg>GMStdPartEmitterEmit_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartEmitterEmit_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093511Z" creationid="liaronce" creationdate="20191117T093511Z">
+        <seg>GMStdPartEmitterEmit_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartSystClear_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093506Z" creationid="liaronce" creationdate="20191117T093506Z">
+        <seg>GMStdPartSystClear_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartSystClear_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093506Z" creationid="liaronce" creationdate="20191117T093506Z">
+        <seg>GMStdPartSystClear_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartSystCreate_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093505Z" creationid="liaronce" creationdate="20191117T093505Z">
+        <seg>GMStdPartSystCreate_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartSystCreate_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093505Z" creationid="liaronce" creationdate="20191117T093505Z">
+        <seg>GMStdPartSystCreate_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartSystDestroy_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093506Z" creationid="liaronce" creationdate="20191117T093506Z">
+        <seg>GMStdPartSystDestroy_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartSystDestroy_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093505Z" creationid="liaronce" creationdate="20191117T093505Z">
+        <seg>GMStdPartSystDestroy_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeAlpha_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093537Z" creationid="liaronce" creationdate="20191117T093537Z">
+        <seg>GMStdPartTypeAlpha_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeAlpha_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093537Z" creationid="liaronce" creationdate="20191117T093537Z">
+        <seg>GMStdPartTypeAlpha_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeColor_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093508Z" creationid="liaronce" creationdate="20191117T093508Z">
+        <seg>GMStdPartTypeColor_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeColor_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093508Z" creationid="liaronce" creationdate="20191117T093508Z">
+        <seg>GMStdPartTypeColor_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeCreate_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093508Z" creationid="liaronce" creationdate="20191117T093508Z">
+        <seg>GMStdPartTypeCreate_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeCreate_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093507Z" creationid="liaronce" creationdate="20191117T093507Z">
+        <seg>GMStdPartTypeCreate_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeDestroy_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093503Z" creationid="liaronce" creationdate="20191117T093503Z">
+        <seg>GMStdPartTypeDestroy_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeDestroy_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093503Z" creationid="liaronce" creationdate="20191117T093503Z">
+        <seg>GMStdPartTypeDestroy_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeDirection_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093539Z" creationid="liaronce" creationdate="20191117T093539Z">
+        <seg>GMStdPartTypeDirection_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeDirection_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093539Z" creationid="liaronce" creationdate="20191117T093539Z">
+        <seg>GMStdPartTypeDirection_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeGravity_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093509Z" creationid="liaronce" creationdate="20191117T093509Z">
+        <seg>GMStdPartTypeGravity_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeGravity_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093509Z" creationid="liaronce" creationdate="20191117T093509Z">
+        <seg>GMStdPartTypeGravity_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeLife_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093509Z" creationid="liaronce" creationdate="20191117T093509Z">
+        <seg>GMStdPartTypeLife_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeLife_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093508Z" creationid="liaronce" creationdate="20191117T093508Z">
+        <seg>GMStdPartTypeLife_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeOrientation_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093503Z" creationid="liaronce" creationdate="20191117T093503Z">
+        <seg>GMStdPartTypeOrientation_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeOrientation_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093503Z" creationid="liaronce" creationdate="20191117T093503Z">
+        <seg>GMStdPartTypeOrientation_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeSecondary_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093510Z" creationid="liaronce" creationdate="20191117T093510Z">
+        <seg>GMStdPartTypeSecondary_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeSecondary_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093509Z" creationid="liaronce" creationdate="20191117T093509Z">
+        <seg>GMStdPartTypeSecondary_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeShape_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093537Z" creationid="liaronce" creationdate="20191117T093537Z">
+        <seg>GMStdPartTypeShape_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeShape_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093537Z" creationid="liaronce" creationdate="20191117T093537Z">
+        <seg>GMStdPartTypeShape_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeSize_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093536Z" creationid="liaronce" creationdate="20191117T093536Z">
+        <seg>GMStdPartTypeSize_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeSize_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093536Z" creationid="liaronce" creationdate="20191117T093536Z">
+        <seg>GMStdPartTypeSize_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeSpeed_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093539Z" creationid="liaronce" creationdate="20191117T093539Z">
+        <seg>GMStdPartTypeSpeed_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeSpeed_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093538Z" creationid="liaronce" creationdate="20191117T093538Z">
+        <seg>GMStdPartTypeSpeed_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeSprite_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093538Z" creationid="liaronce" creationdate="20191117T093538Z">
+        <seg>GMStdPartTypeSprite_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPartTypeSprite_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093538Z" creationid="liaronce" creationdate="20191117T093538Z">
+        <seg>GMStdPartTypeSprite_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPathGetPosition_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093544Z" creationid="liaronce" creationdate="20191117T093544Z">
+        <seg>GMStdPathGetPosition_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPathGetPosition_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093544Z" creationid="liaronce" creationdate="20191117T093544Z">
+        <seg>GMStdPathGetPosition_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPathGetSpeed_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093544Z" creationid="liaronce" creationdate="20191117T093544Z">
+        <seg>GMStdPathGetSpeed_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPathGetSpeed_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093543Z" creationid="liaronce" creationdate="20191117T093543Z">
+        <seg>GMStdPathGetSpeed_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPathPosition_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093435Z" creationid="liaronce" creationdate="20191117T093435Z">
+        <seg>GMStdPathPosition_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPathPosition_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093435Z" creationid="liaronce" creationdate="20191117T093435Z">
+        <seg>GMStdPathPosition_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPathSpeed_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093501Z" creationid="liaronce" creationdate="20191117T093501Z">
+        <seg>GMStdPathSpeed_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPathSpeed_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093457Z" creationid="liaronce" creationdate="20191117T093457Z">
+        <seg>GMStdPathSpeed_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPauseAllAudio_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093418Z" creationid="liaronce" creationdate="20191117T093418Z">
+        <seg>GMStdPauseAllAudio_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPauseAllAudio_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093418Z" creationid="liaronce" creationdate="20191117T093418Z">
+        <seg>GMStdPauseAllAudio_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPauseAudio_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093418Z" creationid="liaronce" creationdate="20191117T093418Z">
+        <seg>GMStdPauseAudio_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPauseAudio_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093417Z" creationid="liaronce" creationdate="20191117T093417Z">
+        <seg>GMStdPauseAudio_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPauseParticles_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093507Z" creationid="liaronce" creationdate="20191117T093507Z">
+        <seg>GMStdPauseParticles_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPauseParticles_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093506Z" creationid="liaronce" creationdate="20191117T093506Z">
+        <seg>GMStdPauseParticles_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPlayAudio_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093416Z" creationid="liaronce" creationdate="20191117T093416Z">
+        <seg>GMStdPlayAudio_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPlayAudio_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093416Z" creationid="liaronce" creationdate="20191117T093416Z">
+        <seg>GMStdPlayAudio_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPositionTimeline_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093433Z" creationid="liaronce" creationdate="20191117T093433Z">
+        <seg>GMStdPositionTimeline_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPositionTimeline_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093432Z" creationid="liaronce" creationdate="20191117T093432Z">
+        <seg>GMStdPositionTimeline_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPreviousRoom_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093425Z" creationid="liaronce" creationdate="20191117T093425Z">
+        <seg>GMStdPreviousRoom_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdPreviousRoom_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093425Z" creationid="liaronce" creationdate="20191117T093425Z">
+        <seg>GMStdPreviousRoom_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdRandomize_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093355Z" creationid="liaronce" creationdate="20191117T093355Z">
+        <seg>GMStdRandomize_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdRandomize_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093355Z" creationid="liaronce" creationdate="20191117T093355Z">
+        <seg>GMStdRandomize_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdRefreshParticles_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093507Z" creationid="liaronce" creationdate="20191117T093507Z">
+        <seg>GMStdRefreshParticles_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdRefreshParticles_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093507Z" creationid="liaronce" creationdate="20191117T093507Z">
+        <seg>GMStdRefreshParticles_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdRepeat_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093356Z" creationid="liaronce" creationdate="20191117T093356Z">
+        <seg>GMStdRepeat_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdRepeat_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093355Z" creationid="liaronce" creationdate="20191117T093355Z">
+        <seg>GMStdRepeat_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdRestartGame_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093428Z" creationid="liaronce" creationdate="20191117T093428Z">
+        <seg>GMStdRestartGame_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdRestartGame_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093428Z" creationid="liaronce" creationdate="20191117T093428Z">
+        <seg>GMStdRestartGame_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdRestartRoom_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093426Z" creationid="liaronce" creationdate="20191117T093426Z">
+        <seg>GMStdRestartRoom_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdRestartRoom_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093426Z" creationid="liaronce" creationdate="20191117T093426Z">
+        <seg>GMStdRestartRoom_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdResumeAllAudio_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093419Z" creationid="liaronce" creationdate="20191117T093419Z">
+        <seg>GMStdResumeAllAudio_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdResumeAllAudio_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093419Z" creationid="liaronce" creationdate="20191117T093419Z">
+        <seg>GMStdResumeAllAudio_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdResumeAudio_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093419Z" creationid="liaronce" creationdate="20191117T093419Z">
+        <seg>GMStdResumeAudio_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdResumeAudio_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093418Z" creationid="liaronce" creationdate="20191117T093418Z">
+        <seg>GMStdResumeAudio_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GMStdRet_Desc</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093225Z" creationid="liaronce" creationdate="20191117T093225Z">
@@ -20635,6 +22979,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093225Z" creationid="liaronce" creationdate="20191117T093225Z">
         <seg>GMStdRet_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdReverse_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093327Z" creationid="liaronce" creationdate="20191117T093327Z">
+        <seg>GMStdReverse_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdReverse_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093327Z" creationid="liaronce" creationdate="20191117T093327Z">
+        <seg>GMStdReverse_Name</seg>
       </tuv>
     </tu>
     <tu>
@@ -20655,6 +23015,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GMStdSaveGame_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093429Z" creationid="liaronce" creationdate="20191117T093429Z">
+        <seg>GMStdSaveGame_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSaveGame_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093429Z" creationid="liaronce" creationdate="20191117T093429Z">
+        <seg>GMStdSaveGame_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GMStdSetAlarm_Desc</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093232Z" creationid="liaronce" creationdate="20191117T093232Z">
@@ -20671,6 +23047,134 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GMStdSetAlignment_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093343Z" creationid="liaronce" creationdate="20191117T093343Z">
+        <seg>GMStdSetAlignment_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetAlignment_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093343Z" creationid="liaronce" creationdate="20191117T093343Z">
+        <seg>GMStdSetAlignment_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetColor_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093340Z" creationid="liaronce" creationdate="20191117T093340Z">
+        <seg>GMStdSetColor_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetColor_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093340Z" creationid="liaronce" creationdate="20191117T093340Z">
+        <seg>GMStdSetColor_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetFont_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093342Z" creationid="liaronce" creationdate="20191117T093342Z">
+        <seg>GMStdSetFont_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetFont_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093342Z" creationid="liaronce" creationdate="20191117T093342Z">
+        <seg>GMStdSetFont_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetGlobal_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093354Z" creationid="liaronce" creationdate="20191117T093354Z">
+        <seg>GMStdSetGlobal_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetGlobal_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093353Z" creationid="liaronce" creationdate="20191117T093353Z">
+        <seg>GMStdSetGlobal_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetHealth_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093352Z" creationid="liaronce" creationdate="20191117T093352Z">
+        <seg>GMStdSetHealth_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetHealth_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093352Z" creationid="liaronce" creationdate="20191117T093352Z">
+        <seg>GMStdSetHealth_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetInstanceVar_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093543Z" creationid="liaronce" creationdate="20191117T093543Z">
+        <seg>GMStdSetInstanceVar_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetInstanceVar_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093543Z" creationid="liaronce" creationdate="20191117T093543Z">
+        <seg>GMStdSetInstanceVar_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetLives_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093351Z" creationid="liaronce" creationdate="20191117T093351Z">
+        <seg>GMStdSetLives_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetLives_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093351Z" creationid="liaronce" creationdate="20191117T093351Z">
+        <seg>GMStdSetLives_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetScore_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093350Z" creationid="liaronce" creationdate="20191117T093350Z">
+        <seg>GMStdSetScore_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetScore_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093350Z" creationid="liaronce" creationdate="20191117T093350Z">
+        <seg>GMStdSetScore_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GMStdSetSprite_Desc</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093229Z" creationid="liaronce" creationdate="20191117T093229Z">
@@ -20683,6 +23187,118 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093229Z" creationid="liaronce" creationdate="20191117T093229Z">
         <seg>GMStdSetSprite_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetTimelineState_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093434Z" creationid="liaronce" creationdate="20191117T093434Z">
+        <seg>GMStdSetTimelineState_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetTimelineState_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093433Z" creationid="liaronce" creationdate="20191117T093433Z">
+        <seg>GMStdSetTimelineState_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetTimeline_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093432Z" creationid="liaronce" creationdate="20191117T093432Z">
+        <seg>GMStdSetTimeline_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetTimeline_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093432Z" creationid="liaronce" creationdate="20191117T093432Z">
+        <seg>GMStdSetTimeline_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetViewVar_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093405Z" creationid="liaronce" creationdate="20191117T093405Z">
+        <seg>GMStdSetViewVar_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetViewVar_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093405Z" creationid="liaronce" creationdate="20191117T093405Z">
+        <seg>GMStdSetViewVar_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetWindowState_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093502Z" creationid="liaronce" creationdate="20191117T093502Z">
+        <seg>GMStdSetWindowState_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSetWindowState_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093459Z" creationid="liaronce" creationdate="20191117T093459Z">
+        <seg>GMStdSetWindowState_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSnapPos_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093329Z" creationid="liaronce" creationdate="20191117T093329Z">
+        <seg>GMStdSnapPos_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSnapPos_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093329Z" creationid="liaronce" creationdate="20191117T093329Z">
+        <seg>GMStdSnapPos_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSpeedTimeline_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093433Z" creationid="liaronce" creationdate="20191117T093433Z">
+        <seg>GMStdSpeedTimeline_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSpeedTimeline_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093433Z" creationid="liaronce" creationdate="20191117T093433Z">
+        <seg>GMStdSpeedTimeline_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSpeed_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093323Z" creationid="liaronce" creationdate="20191117T093323Z">
+        <seg>GMStdSpeed_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSpeed_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093323Z" creationid="liaronce" creationdate="20191117T093323Z">
+        <seg>GMStdSpeed_Name</seg>
       </tuv>
     </tu>
     <tu>
@@ -20751,6 +23367,134 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GMStdStackPop_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093416Z" creationid="liaronce" creationdate="20191117T093416Z">
+        <seg>GMStdStackPop_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdStackPop_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093415Z" creationid="liaronce" creationdate="20191117T093415Z">
+        <seg>GMStdStackPop_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdStackPush_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093415Z" creationid="liaronce" creationdate="20191117T093415Z">
+        <seg>GMStdStackPush_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdStackPush_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093415Z" creationid="liaronce" creationdate="20191117T093415Z">
+        <seg>GMStdStackPush_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdStartPath_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093434Z" creationid="liaronce" creationdate="20191117T093434Z">
+        <seg>GMStdStartPath_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdStartPath_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093434Z" creationid="liaronce" creationdate="20191117T093434Z">
+        <seg>GMStdStartPath_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdStopAllAudio_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093417Z" creationid="liaronce" creationdate="20191117T093417Z">
+        <seg>GMStdStopAllAudio_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdStopAllAudio_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093417Z" creationid="liaronce" creationdate="20191117T093417Z">
+        <seg>GMStdStopAllAudio_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdStopAudio_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093417Z" creationid="liaronce" creationdate="20191117T093417Z">
+        <seg>GMStdStopAudio_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdStopAudio_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093416Z" creationid="liaronce" creationdate="20191117T093416Z">
+        <seg>GMStdStopAudio_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdStopPath_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093434Z" creationid="liaronce" creationdate="20191117T093434Z">
+        <seg>GMStdStopPath_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdStopPath_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093434Z" creationid="liaronce" creationdate="20191117T093434Z">
+        <seg>GMStdStopPath_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdStringToNumber_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093359Z" creationid="liaronce" creationdate="20191117T093359Z">
+        <seg>GMStdStringToNumber_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdStringToNumber_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093358Z" creationid="liaronce" creationdate="20191117T093358Z">
+        <seg>GMStdStringToNumber_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSwitch_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093357Z" creationid="liaronce" creationdate="20191117T093357Z">
+        <seg>GMStdSwitch_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdSwitch_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093357Z" creationid="liaronce" creationdate="20191117T093357Z">
+        <seg>GMStdSwitch_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GMStdTempVar_Desc</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093219Z" creationid="liaronce" creationdate="20191117T093219Z">
@@ -20767,6 +23511,262 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GMStdTileGetAtPixel_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093344Z" creationid="liaronce" creationdate="20191117T093344Z">
+        <seg>GMStdTileGetAtPixel_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileGetAtPixel_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093344Z" creationid="liaronce" creationdate="20191117T093344Z">
+        <seg>GMStdTileGetAtPixel_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileGetElmPixel_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093346Z" creationid="liaronce" creationdate="20191117T093346Z">
+        <seg>GMStdTileGetElmPixel_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileGetElmPixel_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093346Z" creationid="liaronce" creationdate="20191117T093346Z">
+        <seg>GMStdTileGetElmPixel_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileGetElm_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093346Z" creationid="liaronce" creationdate="20191117T093346Z">
+        <seg>GMStdTileGetElm_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileGetElm_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093346Z" creationid="liaronce" creationdate="20191117T093346Z">
+        <seg>GMStdTileGetElm_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileGetInCell_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093345Z" creationid="liaronce" creationdate="20191117T093345Z">
+        <seg>GMStdTileGetInCell_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileGetInCell_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093345Z" creationid="liaronce" creationdate="20191117T093345Z">
+        <seg>GMStdTileGetInCell_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileGetTransform_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093350Z" creationid="liaronce" creationdate="20191117T093350Z">
+        <seg>GMStdTileGetTransform_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileGetTransform_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093349Z" creationid="liaronce" creationdate="20191117T093349Z">
+        <seg>GMStdTileGetTransform_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileGetVar_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093348Z" creationid="liaronce" creationdate="20191117T093348Z">
+        <seg>GMStdTileGetVar_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileGetVar_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093348Z" creationid="liaronce" creationdate="20191117T093348Z">
+        <seg>GMStdTileGetVar_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileSetAtPixel_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093343Z" creationid="liaronce" creationdate="20191117T093343Z">
+        <seg>GMStdTileSetAtPixel_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileSetAtPixel_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093343Z" creationid="liaronce" creationdate="20191117T093343Z">
+        <seg>GMStdTileSetAtPixel_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileSetElmPixel_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093347Z" creationid="liaronce" creationdate="20191117T093347Z">
+        <seg>GMStdTileSetElmPixel_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileSetElmPixel_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093347Z" creationid="liaronce" creationdate="20191117T093347Z">
+        <seg>GMStdTileSetElmPixel_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileSetElm_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093347Z" creationid="liaronce" creationdate="20191117T093347Z">
+        <seg>GMStdTileSetElm_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileSetElm_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093347Z" creationid="liaronce" creationdate="20191117T093347Z">
+        <seg>GMStdTileSetElm_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileSetInCell_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093345Z" creationid="liaronce" creationdate="20191117T093345Z">
+        <seg>GMStdTileSetInCell_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileSetInCell_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093344Z" creationid="liaronce" creationdate="20191117T093344Z">
+        <seg>GMStdTileSetInCell_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileSetTileSet_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093348Z" creationid="liaronce" creationdate="20191117T093348Z">
+        <seg>GMStdTileSetTileSet_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileSetTileSet_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093348Z" creationid="liaronce" creationdate="20191117T093348Z">
+        <seg>GMStdTileSetTileSet_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileTransform_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093349Z" creationid="liaronce" creationdate="20191117T093349Z">
+        <seg>GMStdTileTransform_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdTileTransform_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093349Z" creationid="liaronce" creationdate="20191117T093349Z">
+        <seg>GMStdTileTransform_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVKeyHeight_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093326Z" creationid="liaronce" creationdate="20191117T093326Z">
+        <seg>GMStdVKeyHeight_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVKeyHeight_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093326Z" creationid="liaronce" creationdate="20191117T093326Z">
+        <seg>GMStdVKeyHeight_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVKeyHide_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093325Z" creationid="liaronce" creationdate="20191117T093325Z">
+        <seg>GMStdVKeyHide_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVKeyHide_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093325Z" creationid="liaronce" creationdate="20191117T093325Z">
+        <seg>GMStdVKeyHide_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVKeyShow_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093325Z" creationid="liaronce" creationdate="20191117T093325Z">
+        <seg>GMStdVKeyShow_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVKeyShow_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093324Z" creationid="liaronce" creationdate="20191117T093324Z">
+        <seg>GMStdVKeyShow_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVKeyStatus_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093326Z" creationid="liaronce" creationdate="20191117T093326Z">
+        <seg>GMStdVKeyStatus_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVKeyStatus_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093325Z" creationid="liaronce" creationdate="20191117T093325Z">
+        <seg>GMStdVKeyStatus_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GMStdVar_Desc</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093218Z" creationid="liaronce" creationdate="20191117T093218Z">
@@ -20779,6 +23779,454 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093218Z" creationid="liaronce" creationdate="20191117T093218Z">
         <seg>GMStdVar_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_bboxbottom</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093514Z" creationid="liaronce" creationdate="20191117T093514Z">
+        <seg>GMStdVar_bboxbottom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_bboxleft</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093514Z" creationid="liaronce" creationdate="20191117T093514Z">
+        <seg>GMStdVar_bboxleft</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_bboxright</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093514Z" creationid="liaronce" creationdate="20191117T093514Z">
+        <seg>GMStdVar_bboxright</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_bboxtop</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093514Z" creationid="liaronce" creationdate="20191117T093514Z">
+        <seg>GMStdVar_bboxtop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_columns</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093518Z" creationid="liaronce" creationdate="20191117T093518Z">
+        <seg>GMStdVar_columns</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_depth</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093523Z" creationid="liaronce" creationdate="20191117T093523Z">
+        <seg>GMStdVar_depth</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_direction</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093520Z" creationid="liaronce" creationdate="20191117T093520Z">
+        <seg>GMStdVar_direction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_flip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093513Z" creationid="liaronce" creationdate="20191117T093513Z">
+        <seg>GMStdVar_flip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_frame</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093519Z" creationid="liaronce" creationdate="20191117T093519Z">
+        <seg>GMStdVar_frame</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_friction</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093521Z" creationid="liaronce" creationdate="20191117T093521Z">
+        <seg>GMStdVar_friction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_gravity</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093521Z" creationid="liaronce" creationdate="20191117T093521Z">
+        <seg>GMStdVar_gravity</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_gravity_direction</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093521Z" creationid="liaronce" creationdate="20191117T093521Z">
+        <seg>GMStdVar_gravity_direction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_health</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093523Z" creationid="liaronce" creationdate="20191117T093523Z">
+        <seg>GMStdVar_health</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_height</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093517Z" creationid="liaronce" creationdate="20191117T093517Z">
+        <seg>GMStdVar_height</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_hport</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093526Z" creationid="liaronce" creationdate="20191117T093526Z">
+        <seg>GMStdVar_hport</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_hspeed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093520Z" creationid="liaronce" creationdate="20191117T093520Z">
+        <seg>GMStdVar_hspeed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_image_alpha</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093525Z" creationid="liaronce" creationdate="20191117T093525Z">
+        <seg>GMStdVar_image_alpha</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_image_angle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093524Z" creationid="liaronce" creationdate="20191117T093524Z">
+        <seg>GMStdVar_image_angle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_image_blend</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093525Z" creationid="liaronce" creationdate="20191117T093525Z">
+        <seg>GMStdVar_image_blend</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_image_index</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093522Z" creationid="liaronce" creationdate="20191117T093522Z">
+        <seg>GMStdVar_image_index</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_image_xscale</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093524Z" creationid="liaronce" creationdate="20191117T093524Z">
+        <seg>GMStdVar_image_xscale</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_image_yscale</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093524Z" creationid="liaronce" creationdate="20191117T093524Z">
+        <seg>GMStdVar_image_yscale</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_layer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093522Z" creationid="liaronce" creationdate="20191117T093522Z">
+        <seg>GMStdVar_layer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_lives</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093523Z" creationid="liaronce" creationdate="20191117T093523Z">
+        <seg>GMStdVar_lives</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_mask_index</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093523Z" creationid="liaronce" creationdate="20191117T093523Z">
+        <seg>GMStdVar_mask_index</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_mirror</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093513Z" creationid="liaronce" creationdate="20191117T093513Z">
+        <seg>GMStdVar_mirror</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_persistent</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093522Z" creationid="liaronce" creationdate="20191117T093522Z">
+        <seg>GMStdVar_persistent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_rotate</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093515Z" creationid="liaronce" creationdate="20191117T093515Z">
+        <seg>GMStdVar_rotate</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_rows</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093517Z" creationid="liaronce" creationdate="20191117T093517Z">
+        <seg>GMStdVar_rows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_score</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093523Z" creationid="liaronce" creationdate="20191117T093523Z">
+        <seg>GMStdVar_score</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_speed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093520Z" creationid="liaronce" creationdate="20191117T093520Z">
+        <seg>GMStdVar_speed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_sprite_index</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093522Z" creationid="liaronce" creationdate="20191117T093522Z">
+        <seg>GMStdVar_sprite_index</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_surfaceid</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093527Z" creationid="liaronce" creationdate="20191117T093527Z">
+        <seg>GMStdVar_surfaceid</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_tileglobalmask</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093519Z" creationid="liaronce" creationdate="20191117T093519Z">
+        <seg>GMStdVar_tileglobalmask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_tileheight</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093518Z" creationid="liaronce" creationdate="20191117T093518Z">
+        <seg>GMStdVar_tileheight</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_tilemask</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093519Z" creationid="liaronce" creationdate="20191117T093519Z">
+        <seg>GMStdVar_tilemask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_tileset</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093518Z" creationid="liaronce" creationdate="20191117T093518Z">
+        <seg>GMStdVar_tileset</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_tilewidth</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093518Z" creationid="liaronce" creationdate="20191117T093518Z">
+        <seg>GMStdVar_tilewidth</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_visible</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093521Z" creationid="liaronce" creationdate="20191117T093521Z">
+        <seg>GMStdVar_visible</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_vspeed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093520Z" creationid="liaronce" creationdate="20191117T093520Z">
+        <seg>GMStdVar_vspeed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_width</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093517Z" creationid="liaronce" creationdate="20191117T093517Z">
+        <seg>GMStdVar_width</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_wport</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093526Z" creationid="liaronce" creationdate="20191117T093526Z">
+        <seg>GMStdVar_wport</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_x</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093516Z" creationid="liaronce" creationdate="20191117T093516Z">
+        <seg>GMStdVar_x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_xoffset</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093515Z" creationid="liaronce" creationdate="20191117T093515Z">
+        <seg>GMStdVar_xoffset</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_xport</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093526Z" creationid="liaronce" creationdate="20191117T093526Z">
+        <seg>GMStdVar_xport</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_xprevious</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093516Z" creationid="liaronce" creationdate="20191117T093516Z">
+        <seg>GMStdVar_xprevious</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_xstart</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093515Z" creationid="liaronce" creationdate="20191117T093515Z">
+        <seg>GMStdVar_xstart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_y</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093517Z" creationid="liaronce" creationdate="20191117T093517Z">
+        <seg>GMStdVar_y</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_yoffset</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093515Z" creationid="liaronce" creationdate="20191117T093515Z">
+        <seg>GMStdVar_yoffset</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_yport</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093526Z" creationid="liaronce" creationdate="20191117T093526Z">
+        <seg>GMStdVar_yport</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_yprevious</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093516Z" creationid="liaronce" creationdate="20191117T093516Z">
+        <seg>GMStdVar_yprevious</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdVar_ystart</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093516Z" creationid="liaronce" creationdate="20191117T093516Z">
+        <seg>GMStdVar_ystart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdWhileLoop_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093356Z" creationid="liaronce" creationdate="20191117T093356Z">
+        <seg>GMStdWhileLoop_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdWhileLoop_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093356Z" creationid="liaronce" creationdate="20191117T093356Z">
+        <seg>GMStdWhileLoop_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdWrapRoom_Desc</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093330Z" creationid="liaronce" creationdate="20191117T093330Z">
+        <seg>GMStdWrapRoom_Desc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMStdWrapRoom_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093329Z" creationid="liaronce" creationdate="20191117T093329Z">
+        <seg>GMStdWrapRoom_Name</seg>
       </tuv>
     </tu>
     <tu>
@@ -38293,6 +41741,86 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ProgressBar_Archiving</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093548Z" creationid="liaronce" creationdate="20191117T093548Z">
+        <seg>ProgressBar_Archiving</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_BuildProgress</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093548Z" creationid="liaronce" creationdate="20191117T093548Z">
+        <seg>ProgressBar_BuildProgress</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_Export</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093547Z" creationid="liaronce" creationdate="20191117T093547Z">
+        <seg>ProgressBar_Export</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_Extract</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093546Z" creationid="liaronce" creationdate="20191117T093546Z">
+        <seg>ProgressBar_Extract</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_Import</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093546Z" creationid="liaronce" creationdate="20191117T093546Z">
+        <seg>ProgressBar_Import</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_Install</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093546Z" creationid="liaronce" creationdate="20191117T093546Z">
+        <seg>ProgressBar_Install</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_Load</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093546Z" creationid="liaronce" creationdate="20191117T093546Z">
+        <seg>ProgressBar_Load</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_Process</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093547Z" creationid="liaronce" creationdate="20191117T093547Z">
+        <seg>ProgressBar_Process</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_Save</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093547Z" creationid="liaronce" creationdate="20191117T093547Z">
+        <seg>ProgressBar_Save</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ProgressBar_SpritePreview</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093548Z" creationid="liaronce" creationdate="20191117T093548Z">
+        <seg>ProgressBar_SpritePreview</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ProgressBar_checking_device</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092644Z" creationid="liaronce" creationdate="20191117T092644Z">
@@ -42045,6 +45573,30 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>RoomEditor_AssetLayerStatus</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093552Z" creationid="liaronce" creationdate="20191117T093552Z">
+        <seg>RoomEditor_AssetLayerStatus</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>RoomEditor_AssetLayerStatus_Laptop</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093553Z" creationid="liaronce" creationdate="20191117T093553Z">
+        <seg>RoomEditor_AssetLayerStatus_Laptop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>RoomEditor_BrushEditingModeToolTip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093556Z" creationid="liaronce" creationdate="20191117T093556Z">
+        <seg>RoomEditor_BrushEditingModeToolTip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>RoomEditor_ConfirmDeleteInstances</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T085611Z" creationid="liaronce" creationdate="20191117T085611Z">
@@ -42105,6 +45657,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092837Z" creationid="liaronce" creationdate="20191117T092837Z">
         <seg>RoomEditor_DockTab</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>RoomEditor_DuplicateLayer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093557Z" creationid="liaronce" creationdate="20191117T093557Z">
+        <seg>RoomEditor_DuplicateLayer</seg>
       </tuv>
     </tu>
     <tu>
@@ -42225,6 +45785,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T085658Z" creationid="liaronce" creationdate="20191117T085658Z">
         <seg>RoomEditor_InstanceCreationOrder</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>RoomEditor_InstanceLayerStatus</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093552Z" creationid="liaronce" creationdate="20191117T093552Z">
+        <seg>RoomEditor_InstanceLayerStatus</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>RoomEditor_InstanceLayerStatus_Laptop</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093552Z" creationid="liaronce" creationdate="20191117T093552Z">
+        <seg>RoomEditor_InstanceLayerStatus_Laptop</seg>
       </tuv>
     </tu>
     <tu>
@@ -42425,6 +46001,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T085657Z" creationid="liaronce" creationdate="20191117T085657Z">
         <seg>RoomEditor_RoomProperties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>RoomEditor_SelectFromAnyLayer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093551Z" creationid="liaronce" creationdate="20191117T093551Z">
+        <seg>RoomEditor_SelectFromAnyLayer</seg>
       </tuv>
     </tu>
     <tu>
@@ -43173,6 +46757,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Runtime_Installing_Version</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093603Z" creationid="liaronce" creationdate="20191117T093603Z">
+        <seg>Runtime_Installing_Version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Runtimes</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T101504Z" creationid="deciia" creationdate="20180922T101504Z">
@@ -43361,6 +46953,30 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T085916Z" creationid="liaronce" creationdate="20191117T085916Z">
         <seg>SCM_Successful_Merge</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SPINE_ATLAS_NOT_FOUND</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093553Z" creationid="liaronce" creationdate="20191117T093553Z">
+        <seg>SPINE_ATLAS_NOT_FOUND</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SPINE_JSON_NOT_FOUND</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093553Z" creationid="liaronce" creationdate="20191117T093553Z">
+        <seg>SPINE_JSON_NOT_FOUND</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SPINE_TEXTURE_NOT_FOUND</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093553Z" creationid="liaronce" creationdate="20191117T093553Z">
+        <seg>SPINE_TEXTURE_NOT_FOUND</seg>
       </tuv>
     </tu>
     <tu>
@@ -48049,6 +51665,78 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Spine_License_AcceptLabel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093555Z" creationid="liaronce" creationdate="20191117T093555Z">
+        <seg>Spine_License_AcceptLabel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spine_License_Agree</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093555Z" creationid="liaronce" creationdate="20191117T093555Z">
+        <seg>Spine_License_Agree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spine_License_Label1</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093554Z" creationid="liaronce" creationdate="20191117T093554Z">
+        <seg>Spine_License_Label1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spine_License_Label2</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093554Z" creationid="liaronce" creationdate="20191117T093554Z">
+        <seg>Spine_License_Label2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spine_License_Label3</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093555Z" creationid="liaronce" creationdate="20191117T093555Z">
+        <seg>Spine_License_Label3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spine_License_Link</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093555Z" creationid="liaronce" creationdate="20191117T093555Z">
+        <seg>Spine_License_Link</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spine_License_Show</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093556Z" creationid="liaronce" creationdate="20191117T093556Z">
+        <seg>Spine_License_Show</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spine_License_Title</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093554Z" creationid="liaronce" creationdate="20191117T093554Z">
+        <seg>Spine_License_Title</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spine_NeedLicenceAcceptance</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093556Z" creationid="liaronce" creationdate="20191117T093556Z">
+        <seg>Spine_NeedLicenceAcceptance</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Splash Background Colour</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170312T024524Z" creationid="deciia" creationdate="20170104T084157Z">
@@ -48261,6 +51949,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090603Z" creationid="liaronce" creationdate="20191117T090603Z">
         <seg>SplineEditor_DeletePoints</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SplineEditor_InvalidConvex</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093545Z" creationid="liaronce" creationdate="20191117T093545Z">
+        <seg>SplineEditor_InvalidConvex</seg>
       </tuv>
     </tu>
     <tu>
@@ -48806,6 +52502,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>SpriteEditor_NoExport</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093550Z" creationid="liaronce" creationdate="20191117T093550Z">
+        <seg>SpriteEditor_NoExport</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>SpriteEditor_Origin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090733Z" creationid="liaronce" creationdate="20191117T090733Z">
@@ -49006,6 +52710,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>SpriteEditor_ToolTip_NoExport</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093551Z" creationid="liaronce" creationdate="20191117T093551Z">
+        <seg>SpriteEditor_ToolTip_NoExport</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ToolTip_WillExport</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093551Z" creationid="liaronce" creationdate="20191117T093551Z">
+        <seg>SpriteEditor_ToolTip_WillExport</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>SpriteEditor_Use3D</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090857Z" creationid="liaronce" creationdate="20191117T090857Z">
@@ -49122,6 +52842,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092925Z" creationid="liaronce" creationdate="20191117T092925Z">
         <seg>SpriteSelector_Source</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_FileFilters_SwfFiles</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093550Z" creationid="liaronce" creationdate="20191117T093550Z">
+        <seg>Sprite_FileFilters_SwfFiles</seg>
       </tuv>
     </tu>
     <tu>
@@ -49445,6 +53173,62 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090901Z" creationid="liaronce" creationdate="20191117T090901Z">
         <seg>StartPage_Title</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>StartPage_Web_Demos</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093604Z" creationid="liaronce" creationdate="20191117T093604Z">
+        <seg>StartPage_Web_Demos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>StartPage_Web_ImportProject</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093604Z" creationid="liaronce" creationdate="20191117T093604Z">
+        <seg>StartPage_Web_ImportProject</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>StartPage_Web_Marketplace</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093605Z" creationid="liaronce" creationdate="20191117T093605Z">
+        <seg>StartPage_Web_Marketplace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>StartPage_Web_MyAccount</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093603Z" creationid="liaronce" creationdate="20191117T093603Z">
+        <seg>StartPage_Web_MyAccount</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>StartPage_Web_NewProject</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093603Z" creationid="liaronce" creationdate="20191117T093603Z">
+        <seg>StartPage_Web_NewProject</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>StartPage_Web_OpenProject</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093604Z" creationid="liaronce" creationdate="20191117T093604Z">
+        <seg>StartPage_Web_OpenProject</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>StartPage_Web_Tutorials</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093605Z" creationid="liaronce" creationdate="20191117T093605Z">
+        <seg>StartPage_Web_Tutorials</seg>
       </tuv>
     </tu>
     <tu>
@@ -52921,10 +56705,26 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>TileSetEditor_AnimationsLibrary_Tooltip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093549Z" creationid="liaronce" creationdate="20191117T093549Z">
+        <seg>TileSetEditor_AnimationsLibrary_Tooltip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>TileSetEditor_AutoTileLibrary</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092935Z" creationid="liaronce" creationdate="20191117T092935Z">
         <seg>TileSetEditor_AutoTileLibrary</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>TileSetEditor_AutoTileLibrary_Tooltip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093549Z" creationid="liaronce" creationdate="20191117T093549Z">
+        <seg>TileSetEditor_AutoTileLibrary_Tooltip</seg>
       </tuv>
     </tu>
     <tu>
@@ -52961,6 +56761,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>TileSetEditor_DeleteAnimation_ToolTip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093557Z" creationid="liaronce" creationdate="20191117T093557Z">
+        <seg>TileSetEditor_DeleteAnimation_ToolTip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>TileSetEditor_DeleteAutoTileSetButton</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T091224Z" creationid="liaronce" creationdate="20191117T091224Z">
@@ -52989,6 +56797,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092928Z" creationid="liaronce" creationdate="20191117T092928Z">
         <seg>TileSetEditor_Editors</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>TileSetEditor_FrameCount_ToolTip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093558Z" creationid="liaronce" creationdate="20191117T093558Z">
+        <seg>TileSetEditor_FrameCount_ToolTip</seg>
       </tuv>
     </tu>
     <tu>
@@ -53061,6 +56877,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T091222Z" creationid="liaronce" creationdate="20191117T091222Z">
         <seg>TileSetEditor_OutBorderY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>TileSetEditor_PlayAnimation_ToolTip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093557Z" creationid="liaronce" creationdate="20191117T093557Z">
+        <seg>TileSetEditor_PlayAnimation_ToolTip</seg>
       </tuv>
     </tu>
     <tu>
@@ -53149,6 +56973,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T091225Z" creationid="liaronce" creationdate="20191117T091225Z">
         <seg>TileSetEditor_ShowAutoTileGuideButton</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>TileSetEditor_SpriteNoExport</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093549Z" creationid="liaronce" creationdate="20191117T093549Z">
+        <seg>TileSetEditor_SpriteNoExport</seg>
       </tuv>
     </tu>
     <tu>
@@ -55787,6 +59619,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Validation_Error</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093545Z" creationid="liaronce" creationdate="20191117T093545Z">
+        <seg>Validation_Error</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Value</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T152024Z" creationid="deciia" creationdate="20170215T152024Z">
@@ -56508,6 +60348,110 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T084200Z" creationid="deciia" creationdate="20170102T084200Z">
         <seg>欢迎页</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WelcomePage_Close</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093600Z" creationid="liaronce" creationdate="20191117T093600Z">
+        <seg>WelcomePage_Close</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WelcomePage_Community</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093603Z" creationid="liaronce" creationdate="20191117T093603Z">
+        <seg>WelcomePage_Community</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WelcomePage_InstallingTitle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093559Z" creationid="liaronce" creationdate="20191117T093559Z">
+        <seg>WelcomePage_InstallingTitle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WelcomePage_Learn</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093602Z" creationid="liaronce" creationdate="20191117T093602Z">
+        <seg>WelcomePage_Learn</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WelcomePage_Marketplace</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093602Z" creationid="liaronce" creationdate="20191117T093602Z">
+        <seg>WelcomePage_Marketplace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WelcomePage_Page1Text</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093601Z" creationid="liaronce" creationdate="20191117T093601Z">
+        <seg>WelcomePage_Page1Text</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WelcomePage_Page2Text</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093601Z" creationid="liaronce" creationdate="20191117T093601Z">
+        <seg>WelcomePage_Page2Text</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WelcomePage_Page3Text</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093601Z" creationid="liaronce" creationdate="20191117T093601Z">
+        <seg>WelcomePage_Page3Text</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WelcomePage_ShowOnStartup</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093601Z" creationid="liaronce" creationdate="20191117T093601Z">
+        <seg>WelcomePage_ShowOnStartup</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WelcomePage_Support</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093602Z" creationid="liaronce" creationdate="20191117T093602Z">
+        <seg>WelcomePage_Support</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WelcomePage_Title</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093558Z" creationid="liaronce" creationdate="20191117T093558Z">
+        <seg>WelcomePage_Title</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WelcomePage_WelcomeTitle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093600Z" creationid="liaronce" creationdate="20191117T093600Z">
+        <seg>WelcomePage_WelcomeTitle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Welcome_ShowOnStartup</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T093600Z" creationid="liaronce" creationdate="20191117T093600Z">
+        <seg>Welcome_ShowOnStartup</seg>
       </tuv>
     </tu>
     <tu>
