@@ -598,6 +598,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>16 bit depth</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125936Z" creationid="liaronce" creationdate="20191117T125936Z">
+        <seg>16 bit depth</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>167x167 Icon</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T073630Z" creationid="deciia" creationdate="20170104T073630Z">
@@ -666,6 +674,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125312Z" creationid="liaronce" creationdate="20191117T125312Z">
         <seg>2048x2048 Texture Page Size</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>24 bit depth</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125937Z" creationid="liaronce" creationdate="20191117T125937Z">
+        <seg>24 bit depth</seg>
       </tuv>
     </tu>
     <tu>
@@ -3070,6 +3086,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Alpha Colour Picker Channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130143Z" creationid="liaronce" creationdate="20191117T130143Z">
+        <seg>Alpha Colour Picker Channel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Alpha Fall Off of chain in Room Editor</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T123045Z" creationid="liaronce" creationdate="20191117T123045Z">
@@ -5071,6 +5095,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Auto Detect WebGL</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125946Z" creationid="liaronce" creationdate="20191117T125946Z">
+        <seg>Auto Detect WebGL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Auto Tile (A)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T130834Z" creationid="deciia" creationdate="20170103T130834Z">
@@ -5291,6 +5323,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115934Z" creationid="liaronce" creationdate="20191117T115934Z">
         <seg>Automatic drag acceptance on invalid items in room editor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatic install location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125931Z" creationid="liaronce" creationdate="20191117T125931Z">
+        <seg>Automatic install location</seg>
       </tuv>
     </tu>
     <tu>
@@ -5841,10 +5881,34 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Backgound Colour for Paths</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130146Z" creationid="liaronce" creationdate="20191117T130146Z">
+        <seg>Backgound Colour for Paths</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Background</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T151835Z" creationid="deciia" creationdate="20170215T151835Z">
         <seg>背景</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Background Colour for Configurations</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130148Z" creationid="liaronce" creationdate="20191117T130148Z">
+        <seg>Background Colour for Configurations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Background Colour for Extensions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130147Z" creationid="liaronce" creationdate="20191117T130147Z">
+        <seg>Background Colour for Extensions</seg>
       </tuv>
     </tu>
     <tu>
@@ -5857,10 +5921,90 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Background Colour for Included Files</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130147Z" creationid="liaronce" creationdate="20191117T130147Z">
+        <seg>Background Colour for Included Files</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Background Colour for Notes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130148Z" creationid="liaronce" creationdate="20191117T130148Z">
+        <seg>Background Colour for Notes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Background Colour for Objects</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T121310Z" creationid="liaronce" creationdate="20191117T121310Z">
         <seg>Background Colour for Objects</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Background Colour for Options</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130148Z" creationid="liaronce" creationdate="20191117T130148Z">
+        <seg>Background Colour for Options</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Background Colour for Rooms</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130147Z" creationid="liaronce" creationdate="20191117T130147Z">
+        <seg>Background Colour for Rooms</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Background Colour for Scripts</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130146Z" creationid="liaronce" creationdate="20191117T130146Z">
+        <seg>Background Colour for Scripts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Background Colour for Shaders</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130146Z" creationid="liaronce" creationdate="20191117T130146Z">
+        <seg>Background Colour for Shaders</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Background Colour for Sprites</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130145Z" creationid="liaronce" creationdate="20191117T130145Z">
+        <seg>Background Colour for Sprites</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Background Colour for Tile Sets</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130146Z" creationid="liaronce" creationdate="20191117T130146Z">
+        <seg>Background Colour for Tile Sets</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Background Colour for Timelines</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130147Z" creationid="liaronce" creationdate="20191117T130147Z">
+        <seg>Background Colour for Timelines</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Background Colour for sounds</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130146Z" creationid="liaronce" creationdate="20191117T130146Z">
+        <seg>Background Colour for sounds</seg>
       </tuv>
     </tu>
     <tu>
@@ -6067,6 +6211,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Basic Colours Label</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130144Z" creationid="liaronce" creationdate="20191117T130144Z">
+        <seg>Basic Colours Label</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Basic Colours:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T110303Z" creationid="deciia" creationdate="20170105T110303Z">
@@ -6207,6 +6359,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T105134Z" creationid="deciia" creationdate="20170105T105134Z">
         <seg>蓝</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Blue Colour Picker Channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130143Z" creationid="liaronce" creationdate="20191117T130143Z">
+        <seg>Blue Colour Picker Channel</seg>
       </tuv>
     </tu>
     <tu>
@@ -6367,6 +6527,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T093414Z" creationid="deciia" creationdate="20170103T071327Z">
         <seg>两者都选</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Both selections</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125954Z" creationid="liaronce" creationdate="20191117T125954Z">
+        <seg>Both selections</seg>
       </tuv>
     </tu>
     <tu>
@@ -8819,6 +8987,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Choose colour for Horizontal Separators in Resource Tree</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130206Z" creationid="liaronce" creationdate="20191117T130206Z">
+        <seg>Choose colour for Horizontal Separators in Resource Tree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Choose colour for the Tree Lines</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130208Z" creationid="liaronce" creationdate="20191117T130208Z">
+        <seg>Choose colour for the Tree Lines</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Choose parent configuration label</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112242Z" creationid="qq106" creationdate="20191117T112242Z">
@@ -9939,6 +10123,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Colour of Control Lines in Arc Tool</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130142Z" creationid="liaronce" creationdate="20191117T130142Z">
+        <seg>Colour of Control Lines in Arc Tool</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colour of Control Points in Arc Tool</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130141Z" creationid="liaronce" creationdate="20191117T130141Z">
+        <seg>Colour of Control Points in Arc Tool</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Colour of Error line in Code Editor</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T123052Z" creationid="liaronce" creationdate="20191117T123052Z">
@@ -9951,6 +10151,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T123048Z" creationid="liaronce" creationdate="20191117T123048Z">
         <seg>Colour of Keywords in Code Editor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colour of Knots in Arc Tool</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130113Z" creationid="liaronce" creationdate="20191117T130113Z">
+        <seg>Colour of Knots in Arc Tool</seg>
       </tuv>
     </tu>
     <tu>
@@ -9983,6 +10191,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T120325Z" creationid="liaronce" creationdate="20191117T120325Z">
         <seg>Colour of Script names in Code Editor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colour of Selected Points in Arc Tool</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130142Z" creationid="liaronce" creationdate="20191117T130142Z">
+        <seg>Colour of Selected Points in Arc Tool</seg>
       </tuv>
     </tu>
     <tu>
@@ -10051,6 +10267,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Colour of line the debugger is on</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130142Z" creationid="liaronce" creationdate="20191117T130142Z">
+        <seg>Colour of line the debugger is on</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Colour of text</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T054645Z" creationid="deciia" creationdate="20170105T054645Z">
@@ -10097,6 +10321,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T110351Z" creationid="deciia" creationdate="20170102T110351Z">
         <seg>颜色替换工具</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colour to remove on import</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130145Z" creationid="liaronce" creationdate="20191117T130145Z">
+        <seg>Colour to remove on import</seg>
       </tuv>
     </tu>
     <tu>
@@ -13818,6 +14050,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Custom Colours Label</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130144Z" creationid="liaronce" creationdate="20191117T130144Z">
+        <seg>Custom Colours Label</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Custom Colours:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T041232Z" creationid="deciia" creationdate="20180922T041232Z">
@@ -14310,6 +14550,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T064915Z" creationid="deciia" creationdate="20170104T064915Z">
         <seg>暗</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Dark foreground text on Windows 8 logo</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125928Z" creationid="liaronce" creationdate="20191117T125928Z">
+        <seg>Dark foreground text on Windows 8 logo</seg>
       </tuv>
     </tu>
     <tu>
@@ -15994,6 +16242,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Default Background Colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130145Z" creationid="liaronce" creationdate="20191117T130145Z">
+        <seg>Default Background Colour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Default Icon Colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130151Z" creationid="liaronce" creationdate="20191117T130151Z">
+        <seg>Default Icon Colour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Default Label Colour</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T085958Z" creationid="deciia" creationdate="20180922T085958Z">
@@ -16299,6 +16563,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Defer Home Indicator Input for iPhone X</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125949Z" creationid="liaronce" creationdate="20191117T125949Z">
+        <seg>Defer Home Indicator Input for iPhone X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Define a global compile-time macro.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T220004Z" creationid="deciia" creationdate="20170107T060112Z">
@@ -16375,6 +16647,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T085344Z" creationid="deciia" creationdate="20180922T085344Z">
         <seg>删除当前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Delete Current Resource Tree View Label</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130211Z" creationid="liaronce" creationdate="20191117T130211Z">
+        <seg>Delete Current Resource Tree View Label</seg>
       </tuv>
     </tu>
     <tu>
@@ -18372,6 +18652,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Display Cusor when Touchpad Active</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130017Z" creationid="liaronce" creationdate="20191117T130017Z">
+        <seg>Display Cusor when Touchpad Active</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Display Errors</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T082302Z" creationid="deciia" creationdate="20170104T082302Z">
@@ -18488,6 +18776,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T092223Z" creationid="deciia" creationdate="20180922T092223Z">
         <seg>仅显示当前打开的窗口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Display the running outside of server alert</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130008Z" creationid="liaronce" creationdate="20191117T130008Z">
+        <seg>Display the running outside of server alert</seg>
       </tuv>
     </tu>
     <tu>
@@ -21240,6 +21536,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T123001Z" creationid="deciia" creationdate="20170215T151424Z">
         <seg>产生特效</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do not localise 'Creator' it's a product name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130002Z" creationid="liaronce" creationdate="20191117T130002Z">
+        <seg>Do not localise 'Creator' it's a product name</seg>
       </tuv>
     </tu>
     <tu>
@@ -39525,6 +39829,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Green Colour Picker Channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130143Z" creationid="liaronce" creationdate="20191117T130143Z">
+        <seg>Green Colour Picker Channel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Greyscale</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170629T024422Z" creationid="deciia" creationdate="20170629T024422Z">
@@ -40846,6 +41158,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Hue Colour Picker Channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130143Z" creationid="liaronce" creationdate="20191117T130143Z">
+        <seg>Hue Colour Picker Channel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>I agree to the terms listed</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T051302Z" creationid="deciia" creationdate="20180922T051302Z">
@@ -41694,10 +42014,98 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Icon Colour for Configurations</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130153Z" creationid="liaronce" creationdate="20191117T130153Z">
+        <seg>Icon Colour for Configurations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Icon Colour for Extensions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130153Z" creationid="liaronce" creationdate="20191117T130153Z">
+        <seg>Icon Colour for Extensions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Icon Colour for Included Files</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130153Z" creationid="liaronce" creationdate="20191117T130153Z">
+        <seg>Icon Colour for Included Files</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Icon Colour for Notes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130154Z" creationid="liaronce" creationdate="20191117T130154Z">
+        <seg>Icon Colour for Notes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Icon Colour for Objects</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T121310Z" creationid="liaronce" creationdate="20191117T121310Z">
         <seg>Icon Colour for Objects</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Icon Colour for Options</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130153Z" creationid="liaronce" creationdate="20191117T130153Z">
+        <seg>Icon Colour for Options</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Icon Colour for Scripts</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130152Z" creationid="liaronce" creationdate="20191117T130152Z">
+        <seg>Icon Colour for Scripts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Icon Colour for Shaders</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130152Z" creationid="liaronce" creationdate="20191117T130152Z">
+        <seg>Icon Colour for Shaders</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Icon Colour for Sprites</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130151Z" creationid="liaronce" creationdate="20191117T130151Z">
+        <seg>Icon Colour for Sprites</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Icon Colour for Tile Sets</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130152Z" creationid="liaronce" creationdate="20191117T130152Z">
+        <seg>Icon Colour for Tile Sets</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Icon Colour for Timelines</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130153Z" creationid="liaronce" creationdate="20191117T130153Z">
+        <seg>Icon Colour for Timelines</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Icon Colour for sounds</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130152Z" creationid="liaronce" creationdate="20191117T130152Z">
+        <seg>Icon Colour for sounds</seg>
       </tuv>
     </tu>
     <tu>
@@ -46325,6 +46733,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Install on any Android Device</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125940Z" creationid="liaronce" creationdate="20191117T125940Z">
+        <seg>Install on any Android Device</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Install on any supported Android device</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T020842Z" creationid="deciia" creationdate="20180922T020842Z">
@@ -47784,6 +48200,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Label Colour for Configurations</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130150Z" creationid="liaronce" creationdate="20191117T130150Z">
+        <seg>Label Colour for Configurations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label Colour for Extensions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130150Z" creationid="liaronce" creationdate="20191117T130150Z">
+        <seg>Label Colour for Extensions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Label Colour for Fonts</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T122121Z" creationid="liaronce" creationdate="20191117T122121Z">
@@ -47792,10 +48224,90 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Label Colour for Included Files</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130150Z" creationid="liaronce" creationdate="20191117T130150Z">
+        <seg>Label Colour for Included Files</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label Colour for Notes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130151Z" creationid="liaronce" creationdate="20191117T130151Z">
+        <seg>Label Colour for Notes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Label Colour for Objects</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T121310Z" creationid="liaronce" creationdate="20191117T121310Z">
         <seg>Label Colour for Objects</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label Colour for Options</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130150Z" creationid="liaronce" creationdate="20191117T130150Z">
+        <seg>Label Colour for Options</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label Colour for Rooms</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130150Z" creationid="liaronce" creationdate="20191117T130150Z">
+        <seg>Label Colour for Rooms</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label Colour for Scripts</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130149Z" creationid="liaronce" creationdate="20191117T130149Z">
+        <seg>Label Colour for Scripts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label Colour for Shaders</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130149Z" creationid="liaronce" creationdate="20191117T130149Z">
+        <seg>Label Colour for Shaders</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label Colour for Sprites</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130148Z" creationid="liaronce" creationdate="20191117T130148Z">
+        <seg>Label Colour for Sprites</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label Colour for Tile Sets</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130149Z" creationid="liaronce" creationdate="20191117T130149Z">
+        <seg>Label Colour for Tile Sets</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label Colour for Timelines</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130149Z" creationid="liaronce" creationdate="20191117T130149Z">
+        <seg>Label Colour for Timelines</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label Colour for sounds</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130149Z" creationid="liaronce" creationdate="20191117T130149Z">
+        <seg>Label Colour for sounds</seg>
       </tuv>
     </tu>
     <tu>
@@ -47884,6 +48396,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T070022Z" creationid="deciia" creationdate="20170104T070022Z">
         <seg>横向</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Landscape Orientation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125957Z" creationid="liaronce" creationdate="20191117T125957Z">
+        <seg>Landscape Orientation</seg>
       </tuv>
     </tu>
     <tu>
@@ -48844,6 +49364,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T123044Z" creationid="liaronce" creationdate="20191117T123044Z">
         <seg>Link Colour in Room Editor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Link Colour in Workspaces</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130145Z" creationid="liaronce" creationdate="20191117T130145Z">
+        <seg>Link Colour in Workspaces</seg>
       </tuv>
     </tu>
     <tu>
@@ -54293,6 +54821,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Network Config Manifest</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130056Z" creationid="liaronce" creationdate="20191117T130056Z">
+        <seg>Network Config Manifest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Network Manifest</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T035312Z" creationid="deciia" creationdate="20170105T035312Z">
@@ -55125,6 +55661,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T052753Z" creationid="deciia" creationdate="20170104T052753Z">
         <seg>节点设计器({0})</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Node Selection Highlight colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130214Z" creationid="liaronce" creationdate="20191117T130214Z">
+        <seg>Node Selection Highlight colour</seg>
       </tuv>
     </tu>
     <tu>
@@ -57185,6 +57729,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Only install on Android devices with a GPU</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125939Z" creationid="liaronce" creationdate="20191117T125939Z">
+        <seg>Only install on Android devices with a GPU</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Only show active windows preference</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T121534Z" creationid="liaronce" creationdate="20191117T121534Z">
@@ -58537,6 +59089,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T114944Z" creationid="deciia" creationdate="20170104T070423Z">
         <seg>程序包 - 域名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Package Domain (.com)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125959Z" creationid="liaronce" creationdate="20191117T125959Z">
+        <seg>Package Domain (.com)</seg>
       </tuv>
     </tu>
     <tu>
@@ -61077,6 +61637,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Portrait Orientation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125956Z" creationid="liaronce" creationdate="20191117T125956Z">
+        <seg>Portrait Orientation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Portrait Splash Screen</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T071422Z" creationid="deciia" creationdate="20170104T071422Z">
@@ -61201,6 +61769,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T093219Z" creationid="deciia" creationdate="20170104T065619Z">
         <seg>首选外部</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Prefer External install location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125933Z" creationid="liaronce" creationdate="20191117T125933Z">
+        <seg>Prefer External install location</seg>
       </tuv>
     </tu>
     <tu>
@@ -61761,6 +62337,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20181206T010718Z" creationid="deciia" creationdate="20181206T010718Z">
         <seg>程序 ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Program Id</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130023Z" creationid="liaronce" creationdate="20191117T130023Z">
+        <seg>Program Id</seg>
       </tuv>
     </tu>
     <tu>
@@ -63343,6 +63927,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T105132Z" creationid="deciia" creationdate="20170105T105132Z">
         <seg>红</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Red Colour Picker Channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130142Z" creationid="liaronce" creationdate="20191117T130142Z">
+        <seg>Red Colour Picker Channel</seg>
       </tuv>
     </tu>
     <tu>
@@ -69589,6 +70181,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Saturation Colour Picker Channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130143Z" creationid="liaronce" creationdate="20191117T130143Z">
+        <seg>Saturation Colour Picker Channel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Save</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T100240Z" creationid="deciia" creationdate="20170102T100240Z">
@@ -70773,6 +71373,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Select Colour Label</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130144Z" creationid="liaronce" creationdate="20191117T130144Z">
+        <seg>Select Colour Label</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Select Colour:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T110224Z" creationid="deciia" creationdate="20170105T110224Z">
@@ -71196,6 +71804,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>Selection colour 1</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130109Z" creationid="liaronce" creationdate="20191117T130109Z">
+        <seg>Selection colour 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Selection colour 2</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130110Z" creationid="liaronce" creationdate="20191117T130110Z">
+        <seg>Selection colour 2</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>根据备注翻译，因为已经在房间编辑器的偏好设置中，省略“房间编辑器”。</note>
       <tuv lang="en-US">
         <seg>Selection frame colour</seg>
@@ -71341,6 +71965,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113952Z" creationid="liaronce" creationdate="20191117T113952Z">
         <seg>Server preference group subheading</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Service Config Manifest</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130055Z" creationid="liaronce" creationdate="20191117T130055Z">
+        <seg>Service Config Manifest</seg>
       </tuv>
     </tu>
     <tu>
@@ -72863,6 +73495,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Show Horizontal Separators in Resource Tree</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130210Z" creationid="liaronce" creationdate="20191117T130210Z">
+        <seg>Show Horizontal Separators in Resource Tree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Show In Finder</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T144430Z" creationid="deciia" creationdate="20170628T080209Z">
@@ -73311,6 +73951,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Signing Identifier Label</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130015Z" creationid="liaronce" creationdate="20191117T130015Z">
+        <seg>Signing Identifier Label</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Signing identities can be easily created\nin Xcode-&gt;Preferences-&gt;Accounts-&gt;Team-&gt;View Details-&gt;Developer ID\nApplication-&gt;Create.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20181002T014321Z" creationid="deciia" creationdate="20180922T022425Z">
@@ -73555,6 +74203,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170510T015015Z" creationid="deciia" creationdate="20170105T032157Z">
         <seg>睡眠延迟（毫秒）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sleep Margin in ms with default of 10ms</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130019Z" creationid="liaronce" creationdate="20191117T130019Z">
+        <seg>Sleep Margin in ms with default of 10ms</seg>
       </tuv>
     </tu>
     <tu>
@@ -84273,6 +84929,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Tooltip for signing identity</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130012Z" creationid="liaronce" creationdate="20191117T130012Z">
+        <seg>Tooltip for signing identity</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Tooltip for the button which sets if this room inherits its creation code from the parent</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T121708Z" creationid="liaronce" creationdate="20191117T121708Z">
@@ -87227,6 +87891,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Value Colour Picker Channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130144Z" creationid="liaronce" creationdate="20191117T130144Z">
+        <seg>Value Colour Picker Channel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Value:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170106T161623Z" creationid="deciia" creationdate="20170106T161623Z">
@@ -88268,6 +88940,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20181002T022635Z" creationid="deciia" creationdate="20181002T022635Z">
         <seg>WebGL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WebGL Disabled</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125942Z" creationid="liaronce" creationdate="20191117T125942Z">
+        <seg>WebGL Disabled</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WebGL Required</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125944Z" creationid="liaronce" creationdate="20191117T125944Z">
+        <seg>WebGL Required</seg>
       </tuv>
     </tu>
     <tu>
@@ -99019,6 +99707,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>iPad device selection</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125953Z" creationid="liaronce" creationdate="20191117T125953Z">
+        <seg>iPad device selection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>iPad iOS 5/6 Landscape</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T205207Z" creationid="deciia" creationdate="20180922T205207Z">
@@ -99483,6 +100179,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>iPhone or iPod Touch device selection</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125947Z" creationid="liaronce" creationdate="20191117T125947Z">
+        <seg>iPhone or iPod Touch device selection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>iTunes Artwork</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20181002T021643Z" creationid="deciia" creationdate="20181002T021643Z">
@@ -99511,6 +100215,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T122122Z" creationid="liaronce" creationdate="20191117T122122Z">
         <seg>icon colour for Fonts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>icon colour for Rooms</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130217Z" creationid="liaronce" creationdate="20191117T130217Z">
+        <seg>icon colour for Rooms</seg>
       </tuv>
     </tu>
     <tu>
@@ -100031,6 +100743,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T121829Z" creationid="liaronce" creationdate="20191117T121829Z">
         <seg>import local package menu entry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>import pronunciation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T125930Z" creationid="liaronce" creationdate="20191117T125930Z">
+        <seg>import pronunciation</seg>
       </tuv>
     </tu>
     <tu>
@@ -106067,6 +106787,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>the macOS Option for team identifier</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130009Z" creationid="liaronce" creationdate="20191117T130009Z">
+        <seg>the macOS Option for team identifier</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>the main props filelist title</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113256Z" creationid="liaronce" creationdate="20191117T113256Z">
@@ -108821,6 +109549,17 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20181008T072549Z" creationid="deciia" creationdate="20181008T072549Z">
         <seg>手动</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">english.xml</prop>
+      <prop type="prev">ggs_game_chat_slots</prop>
+      <prop type="next">Max game chat slots</prop>
+      <tuv lang="en-US">
+        <seg>Max game chat slots</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T130045Z" creationid="liaronce" creationdate="20191117T130045Z">
+        <seg>Max game chat slots</seg>
       </tuv>
     </tu>
     <tu>
