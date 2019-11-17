@@ -7227,6 +7227,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>CloseProject_Save</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071156Z" creationid="qq106" creationdate="20191117T071156Z">
+        <seg>CloseProject_Save</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Closed</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T062720Z" creationid="deciia" creationdate="20170103T103746Z">
@@ -11092,6 +11100,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>DialogEditor_Hierarchy</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071213Z" creationid="qq106" creationdate="20191117T071213Z">
+        <seg>DialogEditor_Hierarchy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>DialogEditor_HighlightedGadgetInfo</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T070810Z" creationid="qq106" creationdate="20191117T070810Z">
@@ -11904,6 +11920,46 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170219T005737Z" creationid="deciia" creationdate="20170219T005737Z">
         <seg>分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DnD_Event_Mouse_Any</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071124Z" creationid="qq106" creationdate="20191117T071124Z">
+        <seg>DnD_Event_Mouse_Any</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DnD_Event_Mouse_Left</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071126Z" creationid="qq106" creationdate="20191117T071126Z">
+        <seg>DnD_Event_Mouse_Left</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DnD_Event_Mouse_Middle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071128Z" creationid="qq106" creationdate="20191117T071128Z">
+        <seg>DnD_Event_Mouse_Middle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DnD_Event_Mouse_None</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071125Z" creationid="qq106" creationdate="20191117T071125Z">
+        <seg>DnD_Event_Mouse_None</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DnD_Event_Mouse_Right</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071127Z" creationid="qq106" creationdate="20191117T071127Z">
+        <seg>DnD_Event_Mouse_Right</seg>
       </tuv>
     </tu>
     <tu>
@@ -14767,6 +14823,294 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Event_Mouse_LeftButton</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071108Z" creationid="qq106" creationdate="20191117T071108Z">
+        <seg>Event_Mouse_LeftButton</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_LeftPressed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071109Z" creationid="qq106" creationdate="20191117T071109Z">
+        <seg>Event_Mouse_LeftPressed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_LeftReleased</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071110Z" creationid="qq106" creationdate="20191117T071110Z">
+        <seg>Event_Mouse_LeftReleased</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_MiddleButton</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071112Z" creationid="qq106" creationdate="20191117T071112Z">
+        <seg>Event_Mouse_MiddleButton</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_MiddlePressed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071115Z" creationid="qq106" creationdate="20191117T071115Z">
+        <seg>Event_Mouse_MiddlePressed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_MiddleReleased</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071116Z" creationid="qq106" creationdate="20191117T071116Z">
+        <seg>Event_Mouse_MiddleReleased</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_MouseEnter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071117Z" creationid="qq106" creationdate="20191117T071117Z">
+        <seg>Event_Mouse_MouseEnter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_MouseLeave</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071120Z" creationid="qq106" creationdate="20191117T071120Z">
+        <seg>Event_Mouse_MouseLeave</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_MouseWheelDown</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071121Z" creationid="qq106" creationdate="20191117T071121Z">
+        <seg>Event_Mouse_MouseWheelDown</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_MouseWheelUp</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071122Z" creationid="qq106" creationdate="20191117T071122Z">
+        <seg>Event_Mouse_MouseWheelUp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_NoButton</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071123Z" creationid="qq106" creationdate="20191117T071123Z">
+        <seg>Event_Mouse_NoButton</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_RightButton</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071129Z" creationid="qq106" creationdate="20191117T071129Z">
+        <seg>Event_Mouse_RightButton</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_RightPressed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071129Z" creationid="qq106" creationdate="20191117T071129Z">
+        <seg>Event_Mouse_RightPressed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_RightReleased</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071131Z" creationid="qq106" creationdate="20191117T071131Z">
+        <seg>Event_Mouse_RightReleased</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071132Z" creationid="qq106" creationdate="20191117T071132Z">
+        <seg>Event_Other</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_AnimationEnd</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071132Z" creationid="qq106" creationdate="20191117T071132Z">
+        <seg>Event_Other_AnimationEnd</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_AnimationEvent</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071134Z" creationid="qq106" creationdate="20191117T071134Z">
+        <seg>Event_Other_AnimationEvent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_AnimationUpdate</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071135Z" creationid="qq106" creationdate="20191117T071135Z">
+        <seg>Event_Other_AnimationUpdate</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_EndOfPath</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071136Z" creationid="qq106" creationdate="20191117T071136Z">
+        <seg>Event_Other_EndOfPath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_GameEnd</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071137Z" creationid="qq106" creationdate="20191117T071137Z">
+        <seg>Event_Other_GameEnd</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_GameStart</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071138Z" creationid="qq106" creationdate="20191117T071138Z">
+        <seg>Event_Other_GameStart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_IntersectBoundary</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071139Z" creationid="qq106" creationdate="20191117T071139Z">
+        <seg>Event_Other_IntersectBoundary</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_OutsideRoom</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071140Z" creationid="qq106" creationdate="20191117T071140Z">
+        <seg>Event_Other_OutsideRoom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_RoomEnd</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071141Z" creationid="qq106" creationdate="20191117T071141Z">
+        <seg>Event_Other_RoomEnd</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_RoomStart</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071142Z" creationid="qq106" creationdate="20191117T071142Z">
+        <seg>Event_Other_RoomStart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_UserDefined</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071143Z" creationid="qq106" creationdate="20191117T071143Z">
+        <seg>Event_Other_UserDefined</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_UserN</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071144Z" creationid="qq106" creationdate="20191117T071144Z">
+        <seg>Event_Other_UserN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_Views</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071145Z" creationid="qq106" creationdate="20191117T071145Z">
+        <seg>Event_Other_Views</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_Views_Boundary</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071148Z" creationid="qq106" creationdate="20191117T071148Z">
+        <seg>Event_Other_Views_Boundary</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_Views_BoundaryViewN</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071146Z" creationid="qq106" creationdate="20191117T071146Z">
+        <seg>Event_Other_Views_BoundaryViewN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_Views_Outside</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071149Z" creationid="qq106" creationdate="20191117T071149Z">
+        <seg>Event_Other_Views_Outside</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Other_Views_OutsideViewN</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071147Z" creationid="qq106" creationdate="20191117T071147Z">
+        <seg>Event_Other_Views_OutsideViewN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Step</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071150Z" creationid="qq106" creationdate="20191117T071150Z">
+        <seg>Event_Step</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_StepBegin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071151Z" creationid="qq106" creationdate="20191117T071151Z">
+        <seg>Event_StepBegin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_StepEnd</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071152Z" creationid="qq106" creationdate="20191117T071152Z">
+        <seg>Event_StepEnd</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Unknown</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071153Z" creationid="qq106" creationdate="20191117T071153Z">
+        <seg>Event_Unknown</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Events</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T102716Z" creationid="deciia" creationdate="20170103T102716Z">
@@ -14915,6 +15259,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T075312Z" creationid="deciia" creationdate="20170212T094110Z">
         <seg>退出游戏程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Exit_AreYouSure</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071154Z" creationid="qq106" creationdate="20191117T071154Z">
+        <seg>Exit_AreYouSure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Exit_SaveProject</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071155Z" creationid="qq106" creationdate="20191117T071155Z">
+        <seg>Exit_SaveProject</seg>
       </tuv>
     </tu>
     <tu>
@@ -15147,6 +15507,54 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170106T161016Z" creationid="deciia" creationdate="20170106T161016Z">
         <seg>扩展：{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Extension_Export</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071157Z" creationid="qq106" creationdate="20191117T071157Z">
+        <seg>Extension_Export</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Extension_Import</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071158Z" creationid="qq106" creationdate="20191117T071158Z">
+        <seg>Extension_Import</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Extension_Import_Button_Add</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071159Z" creationid="qq106" creationdate="20191117T071159Z">
+        <seg>Extension_Import_Button_Add</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Extension_Import_Button_ImportAll</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071200Z" creationid="qq106" creationdate="20191117T071200Z">
+        <seg>Extension_Import_Button_ImportAll</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Extension_Import_Button_Remove</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071201Z" creationid="qq106" creationdate="20191117T071201Z">
+        <seg>Extension_Import_Button_Remove</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Extension_Import_Complete</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071203Z" creationid="qq106" creationdate="20191117T071203Z">
+        <seg>Extension_Import_Complete</seg>
       </tuv>
     </tu>
     <tu>
