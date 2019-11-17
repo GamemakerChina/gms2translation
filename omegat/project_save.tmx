@@ -2486,6 +2486,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Alarm event name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115802Z" creationid="liaronce" creationdate="20191117T115802Z">
+        <seg>Alarm event name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Alarm {0}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170114T032851Z" creationid="36011" creationdate="20170114T032851Z">
@@ -3407,6 +3415,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>Any class that is used in the animation system must implement ICloneable</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115642Z" creationid="liaronce" creationdate="20191117T115642Z">
+        <seg>Any class that is used in the animation system must implement ICloneable</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>App Delegate 是个专有名词</note>
       <tuv lang="en-US">
         <seg>App Delegate Class Name:</seg>
@@ -4212,6 +4228,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Asynchronous event subtype</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115811Z" creationid="liaronce" creationdate="20191117T115811Z">
+        <seg>Asynchronous event subtype</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Attach a timeline to an instance.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T080238Z" creationid="deciia" creationdate="20170212T100830Z">
@@ -4256,6 +4280,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114415Z" creationid="liaronce" creationdate="20191117T114415Z">
         <seg>Attempted to use an bottom or right anchor when there is no parent gadget to base the position upon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Attempted to use percentage style values when there is no parent gadget to base it upon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115725Z" creationid="liaronce" creationdate="20191117T115725Z">
+        <seg>Attempted to use percentage style values when there is no parent gadget to base it upon</seg>
       </tuv>
     </tu>
     <tu>
@@ -4307,6 +4339,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T043725Z" creationid="deciia" creationdate="20170103T125404Z">
         <seg>尝试从父房间里删除层（注：创建实例的代码将会不可挽回的失去）。\n删除全部：删除子房间的匹配的层\n全部保留：保留所有子房间的层不变\n保持更改：保留其中已经覆盖父房间的子房间层\n直接子房间(?)： {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Attempting to invoke a method from within a weak delegate with incorrect arguments</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115756Z" creationid="liaronce" creationdate="20191117T115756Z">
+        <seg>Attempting to invoke a method from within a weak delegate with incorrect arguments</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Attempting to invoke a method from within a weak delegate with incorrect parameter count</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115801Z" creationid="liaronce" creationdate="20191117T115801Z">
+        <seg>Attempting to invoke a method from within a weak delegate with incorrect parameter count</seg>
       </tuv>
     </tu>
     <tu>
@@ -6443,6 +6491,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Button prompt for loading a layout xml file</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115624Z" creationid="liaronce" creationdate="20191117T115624Z">
+        <seg>Button prompt for loading a layout xml file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Button tooltip for the tile brush tool</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113000Z" creationid="liaronce" creationdate="20191117T113000Z">
@@ -7775,6 +7831,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161223T070835Z" creationid="deciia" creationdate="20161223T070835Z">
         <seg>检测密码对于证书是否有效</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Check the user really wants to delete the layout</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115620Z" creationid="liaronce" creationdate="20191117T115620Z">
+        <seg>Check the user really wants to delete the layout</seg>
       </tuv>
     </tu>
     <tu>
@@ -9922,6 +9986,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Configuration name provided is invalid</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115614Z" creationid="liaronce" creationdate="20191117T115614Z">
+        <seg>Configuration name provided is invalid</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ConfigurationProblem_LinuxDevice</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T094624Z" creationid="liaronce" creationdate="20191117T094624Z">
@@ -10418,6 +10490,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Confirm for deleting a configuration</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115601Z" creationid="liaronce" creationdate="20191117T115601Z">
+        <seg>Confirm for deleting a configuration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Confirm the user really wants to promote a config</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115615Z" creationid="liaronce" creationdate="20191117T115615Z">
+        <seg>Confirm the user really wants to promote a config</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Conflicts Detected message</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113602Z" creationid="liaronce" creationdate="20191117T113602Z">
@@ -10854,6 +10942,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113931Z" creationid="liaronce" creationdate="20191117T113931Z">
         <seg>Context menu sub menu heading for choosing the shader type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Context menu/menu bar entry for flattening a sub layout within a layout hierarchy</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115623Z" creationid="liaronce" creationdate="20191117T115623Z">
+        <seg>Context menu/menu bar entry for flattening a sub layout within a layout hierarchy</seg>
       </tuv>
     </tu>
     <tu>
@@ -15564,6 +15660,70 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Dialog caption text for invalid input</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115616Z" creationid="liaronce" creationdate="20191117T115616Z">
+        <seg>Dialog caption text for invalid input</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Dialog editor TreeViewNode</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115636Z" creationid="liaronce" creationdate="20191117T115636Z">
+        <seg>Dialog editor TreeViewNode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Dialog editor delete layout menu entry</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115620Z" creationid="liaronce" creationdate="20191117T115620Z">
+        <seg>Dialog editor delete layout menu entry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Dialog editor new layout menu entry</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115624Z" creationid="liaronce" creationdate="20191117T115624Z">
+        <seg>Dialog editor new layout menu entry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Dialog editor open layout menu entry</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115626Z" creationid="liaronce" creationdate="20191117T115626Z">
+        <seg>Dialog editor open layout menu entry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Dialog editor save as layout menu entry</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115629Z" creationid="liaronce" creationdate="20191117T115629Z">
+        <seg>Dialog editor save as layout menu entry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Dialog editor save layout menu entry</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115630Z" creationid="liaronce" creationdate="20191117T115630Z">
+        <seg>Dialog editor save layout menu entry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Dialog editor test layout menu entry</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115636Z" creationid="liaronce" creationdate="20191117T115636Z">
+        <seg>Dialog editor test layout menu entry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Dialog message reset layout</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112048Z" creationid="qq106" creationdate="20191117T112048Z">
@@ -20200,6 +20360,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Edit menu "FindResource"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115637Z" creationid="liaronce" creationdate="20191117T115637Z">
+        <seg>Edit menu "FindResource"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Edit menu "Search &amp; Replace"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115637Z" creationid="liaronce" creationdate="20191117T115637Z">
+        <seg>Edit menu "Search &amp; Replace"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Edit parent object tooltip</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113015Z" creationid="liaronce" creationdate="20191117T113015Z">
@@ -24759,6 +24935,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Failed to load the gadget toolbox list</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115644Z" creationid="liaronce" creationdate="20191117T115644Z">
+        <seg>Failed to load the gadget toolbox list</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Failed to open document for edit: {0} - {1}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T031953Z" creationid="deciia" creationdate="20170104T031953Z">
@@ -25021,6 +25205,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T203519Z" creationid="deciia" creationdate="20180922T203519Z">
         <seg>文件关联</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>File load failed for cursor image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115643Z" creationid="liaronce" creationdate="20191117T115643Z">
+        <seg>File load failed for cursor image</seg>
       </tuv>
     </tu>
     <tu>
@@ -33321,6 +33513,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Gadget requires at least one anchor or the dimension to be set for each direction</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115645Z" creationid="liaronce" creationdate="20191117T115645Z">
+        <seg>Gadget requires at least one anchor or the dimension to be set for each direction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Gadget toolbox display name for label</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112257Z" creationid="qq106" creationdate="20191117T112257Z">
@@ -33333,6 +33533,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112258Z" creationid="qq106" creationdate="20191117T112258Z">
         <seg>Gadget toolbox display name for link label</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Gadget toolbox display name for tab control</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115632Z" creationid="liaronce" creationdate="20191117T115632Z">
+        <seg>Gadget toolbox display name for tab control</seg>
       </tuv>
     </tu>
     <tu>
@@ -41058,6 +41266,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Information about selecting a save file.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115631Z" creationid="liaronce" creationdate="20191117T115631Z">
+        <seg>Information about selecting a save file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Informs the user that if the file they have chosen doesn't already include the stylename it will search for the file that does inside the parent folder</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115634Z" creationid="liaronce" creationdate="20191117T115634Z">
+        <seg>Informs the user that if the file they have chosen doesn't already include the stylename it will search for the file that does inside the parent folder</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Inherit</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T104442Z" creationid="deciia" creationdate="20170103T104442Z">
@@ -42167,6 +42391,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Invalid gadget specified in gadget toolbox list</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115644Z" creationid="liaronce" creationdate="20191117T115644Z">
+        <seg>Invalid gadget specified in gadget toolbox list</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Invalid included file name dialog box message</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113639Z" creationid="liaronce" creationdate="20191117T113639Z">
@@ -42660,6 +42892,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T232205Z" creationid="deciia" creationdate="20180922T230137Z">
         <seg>压住键 -</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Key Event Alarm N</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115803Z" creationid="liaronce" creationdate="20191117T115803Z">
+        <seg>Key Event Alarm N</seg>
       </tuv>
     </tu>
     <tu>
@@ -43236,6 +43476,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T055227Z" creationid="deciia" creationdate="20170104T055227Z">
         <seg>布局向导</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Layout hierarchy display name for radio button group</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115627Z" creationid="liaronce" creationdate="20191117T115627Z">
+        <seg>Layout hierarchy display name for radio button group</seg>
       </tuv>
     </tu>
     <tu>
@@ -47662,6 +47910,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>Message next to checkbox to allow the user to choose not to see this popup in future</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115616Z" creationid="liaronce" creationdate="20191117T115616Z">
+        <seg>Message next to checkbox to allow the user to choose not to see this popup in future</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Message when the user overrides a styles save file</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115626Z" creationid="liaronce" creationdate="20191117T115626Z">
+        <seg>Message when the user overrides a styles save file</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>备注：Error_WeakDelegateArgument：Attempting to invoke a method from within a weak delegate with incorrect arguments
 对象还是物体？</note>
       <tuv lang="en-US">
@@ -48327,6 +48591,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T074840Z" creationid="deciia" creationdate="20170102T074840Z">
         <seg>多行文本框</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Multiple cursors have been added with the same reference name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115642Z" creationid="liaronce" creationdate="20191117T115642Z">
+        <seg>Multiple cursors have been added with the same reference name</seg>
       </tuv>
     </tu>
     <tu>
@@ -55405,6 +55677,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Project load failure</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115720Z" creationid="liaronce" creationdate="20191117T115720Z">
+        <seg>Project load failure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Project:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T083955Z" creationid="deciia" creationdate="20170103T083940Z">
@@ -55665,6 +55945,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T022742Z" creationid="deciia" creationdate="20161223T074427Z">
         <seg>提升一个配置的操作不能撤消</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Promotion of a config up the config hierarchy</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115615Z" creationid="liaronce" creationdate="20191117T115615Z">
+        <seg>Promotion of a config up the config hierarchy</seg>
       </tuv>
     </tu>
     <tu>
@@ -56467,6 +56755,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Redo menu entry</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115637Z" creationid="liaronce" creationdate="20191117T115637Z">
+        <seg>Redo menu entry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Refresh assets button tooltip</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T112954Z" creationid="liaronce" creationdate="20191117T112954Z">
@@ -57151,6 +57447,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112037Z" creationid="qq106" creationdate="20191117T112037Z">
         <seg>Rename button</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Rename configuration</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115615Z" creationid="liaronce" creationdate="20191117T115615Z">
+        <seg>Rename configuration</seg>
       </tuv>
     </tu>
     <tu>
@@ -59713,6 +60017,38 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T071447Z" creationid="deciia" creationdate="20170103T132549Z">
         <seg>还原到这次修订</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Revert the all the currently open styles to version of unmodified file on disk</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115628Z" creationid="liaronce" creationdate="20191117T115628Z">
+        <seg>Revert the all the currently open styles to version of unmodified file on disk</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Revert the all the currently open styles to version on disk</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115628Z" creationid="liaronce" creationdate="20191117T115628Z">
+        <seg>Revert the all the currently open styles to version on disk</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Revert the currently active style to version of unmodified file on disk</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115629Z" creationid="liaronce" creationdate="20191117T115629Z">
+        <seg>Revert the currently active style to version of unmodified file on disk</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Revert the currently active style to version on disk</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115629Z" creationid="liaronce" creationdate="20191117T115629Z">
+        <seg>Revert the currently active style to version on disk</seg>
       </tuv>
     </tu>
     <tu>
@@ -71857,6 +72193,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>The .json file selected failed to load</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115621Z" creationid="liaronce" creationdate="20191117T115621Z">
+        <seg>The .json file selected failed to load</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>备注：ggs_xboxone_stats_system_tooltip：tooltip for the stats sytem radio group
 已在开发的标题怎么理解？课题？</note>
       <tuv lang="en-US">
@@ -72304,6 +72648,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112246Z" creationid="qq106" creationdate="20191117T112246Z">
         <seg>The layout hierarchy label for the list items</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The loading callback for a cursor can't find the loading hotspot info</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115643Z" creationid="liaronce" creationdate="20191117T115643Z">
+        <seg>The loading callback for a cursor can't find the loading hotspot info</seg>
       </tuv>
     </tu>
     <tu>
@@ -72835,6 +73187,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T075939Z" creationid="deciia" creationdate="20170105T075939Z">
         <seg>可能有未被发现的更改，你想要重新加载项目吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There was no .json file selected by the user</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115625Z" creationid="liaronce" creationdate="20191117T115625Z">
+        <seg>There was no .json file selected by the user</seg>
       </tuv>
     </tu>
     <tu>
@@ -75259,6 +75619,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Trying to set a style when it hasn't been loaded/found</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115755Z" creationid="liaronce" creationdate="20191117T115755Z">
+        <seg>Trying to set a style when it hasn't been loaded/found</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Tutorial</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T061027Z" creationid="deciia" creationdate="20170104T061027Z">
@@ -75903,6 +76271,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161224T080215Z" creationid="deciia" creationdate="20161224T080215Z">
         <seg>撤消</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Undo menu entry</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115641Z" creationid="liaronce" creationdate="20191117T115641Z">
+        <seg>Undo menu entry</seg>
       </tuv>
     </tu>
     <tu>
@@ -78076,6 +78452,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161223T081152Z" creationid="deciia" creationdate="20161223T081152Z">
         <seg>警告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Warning about deleting a configuration deleting child configs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115602Z" creationid="liaronce" creationdate="20191117T115602Z">
+        <seg>Warning about deleting a configuration deleting child configs</seg>
       </tuv>
     </tu>
     <tu>
@@ -80795,6 +81179,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>browse for filepath</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115622Z" creationid="liaronce" creationdate="20191117T115622Z">
+        <seg>browse for filepath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>brush size label</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112314Z" creationid="qq106" creationdate="20191117T112314Z">
@@ -80907,6 +81299,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>cert properties author name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115601Z" creationid="liaronce" creationdate="20191117T115601Z">
+        <seg>cert properties author name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>certificate create failed</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112122Z" creationid="qq106" creationdate="20191117T112122Z">
@@ -80995,10 +81395,26 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>certificate properties create info</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115600Z" creationid="liaronce" creationdate="20191117T115600Z">
+        <seg>certificate properties create info</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>certificate properties create new certificate button label</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112239Z" creationid="qq106" creationdate="20191117T112239Z">
         <seg>certificate properties create new certificate button label</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>certificate properties enter certificate details</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115603Z" creationid="liaronce" creationdate="20191117T115603Z">
+        <seg>certificate properties enter certificate details</seg>
       </tuv>
     </tu>
     <tu>
@@ -82327,6 +82743,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092641Z" creationid="liaronce" creationdate="20191117T092641Z">
         <seg>dialogeditor_textcolours</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display position and dimension of the currently highlighted gadget</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115623Z" creationid="liaronce" creationdate="20191117T115623Z">
+        <seg>display position and dimension of the currently highlighted gadget</seg>
       </tuv>
     </tu>
     <tu>
@@ -89179,6 +89603,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>layout file name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115622Z" creationid="liaronce" creationdate="20191117T115622Z">
+        <seg>layout file name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>layout hierarchy display name for scroll panel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115630Z" creationid="liaronce" creationdate="20191117T115630Z">
+        <seg>layout hierarchy display name for scroll panel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>layout hierarchy label for a colour dialog window</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112245Z" creationid="qq106" creationdate="20191117T112245Z">
@@ -89215,6 +89655,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112245Z" creationid="qq106" creationdate="20191117T112245Z">
         <seg>layout hierarchy label for the selected colour display</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>layout name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115623Z" creationid="liaronce" creationdate="20191117T115623Z">
+        <seg>layout name</seg>
       </tuv>
     </tu>
     <tu>
@@ -89287,6 +89735,38 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113558Z" creationid="liaronce" creationdate="20191117T113558Z">
         <seg>local package create validation message</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>log prompt for user to indicate no layout was selected</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115625Z" creationid="liaronce" creationdate="20191117T115625Z">
+        <seg>log prompt for user to indicate no layout was selected</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>log prompt for user to indicate no xml file was selected</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115625Z" creationid="liaronce" creationdate="20191117T115625Z">
+        <seg>log prompt for user to indicate no xml file was selected</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>log prompt for user to indicate the layout name is already in use</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115621Z" creationid="liaronce" creationdate="20191117T115621Z">
+        <seg>log prompt for user to indicate the layout name is already in use</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>lop propmt for user to indicate the save failed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115630Z" creationid="liaronce" creationdate="20191117T115630Z">
+        <seg>lop propmt for user to indicate the save failed</seg>
       </tuv>
     </tu>
     <tu>
@@ -89603,6 +90083,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>menu bar entry for reloading all images in the dialog editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115627Z" creationid="liaronce" creationdate="20191117T115627Z">
+        <seg>menu bar entry for reloading all images in the dialog editor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>menu bar heading: Image</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113918Z" creationid="liaronce" creationdate="20191117T113918Z">
@@ -89611,10 +90099,42 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>menu entry for copying a gadget to clipboard</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115619Z" creationid="liaronce" creationdate="20191117T115619Z">
+        <seg>menu entry for copying a gadget to clipboard</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>menu entry for cutting a gadget to clipboard</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115617Z" creationid="liaronce" creationdate="20191117T115617Z">
+        <seg>menu entry for cutting a gadget to clipboard</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>menu entry for deleting the currently highlighted gadget</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115617Z" creationid="liaronce" creationdate="20191117T115617Z">
+        <seg>menu entry for deleting the currently highlighted gadget</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>menu entry for instance creation order window</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114427Z" creationid="liaronce" creationdate="20191117T114427Z">
         <seg>menu entry for instance creation order window</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>menu entry for pasting a gadget from clipboard</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115627Z" creationid="liaronce" creationdate="20191117T115627Z">
+        <seg>menu entry for pasting a gadget from clipboard</seg>
       </tuv>
     </tu>
     <tu>
@@ -92807,6 +93327,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113230Z" creationid="liaronce" creationdate="20191117T113230Z">
         <seg>strip image import dialog title</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>style name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115631Z" creationid="liaronce" creationdate="20191117T115631Z">
+        <seg>style name</seg>
       </tuv>
     </tu>
     <tu>
