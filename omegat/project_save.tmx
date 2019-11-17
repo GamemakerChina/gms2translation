@@ -81910,6 +81910,28 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     <tu>
       <prop type="file">english.xml</prop>
       <prop type="prev">English</prop>
+      <prop type="next">Language name - in English</prop>
+      <tuv lang="en-US">
+        <seg>English</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T110833Z" creationid="qq106" creationdate="20191117T110833Z">
+        <seg>Chinese (Simplified)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">english.xml</prop>
+      <prop type="prev">English</prop>
+      <prop type="next">Language name in the native language</prop>
+      <tuv lang="en-US">
+        <seg>English</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T110901Z" creationid="qq106" creationdate="20191117T110901Z">
+        <seg>中文（简体）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">english.xml</prop>
+      <prop type="prev">English</prop>
       <prop type="next">en</prop>
       <note>本地化语言的中文版本</note>
       <tuv lang="en-US">
@@ -81940,6 +81962,17 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T110819Z" creationid="qq106" creationdate="20191117T110819Z">
         <seg>Chinese (Simplified)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">english.xml</prop>
+      <prop type="prev">_LanguageNative</prop>
+      <prop type="next">English</prop>
+      <tuv lang="en-US">
+        <seg>English</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T110856Z" creationid="qq106" creationdate="20191117T110856Z">
+        <seg>中文（简体）</seg>
       </tuv>
     </tu>
     <tu>
