@@ -4236,6 +4236,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Attempted to use an bottom or right anchor when there is no parent gadget to base the position upon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114415Z" creationid="liaronce" creationdate="20191117T114415Z">
+        <seg>Attempted to use an bottom or right anchor when there is no parent gadget to base the position upon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Attempting to access invalid column index {0} for grid with {1} columns</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T220650Z" creationid="deciia" creationdate="20161224T121611Z">
@@ -5631,6 +5639,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T093414Z" creationid="deciia" creationdate="20170103T071327Z">
         <seg>两者都选</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Both the dimension and the associated anchors have been set (for instance width, top and bottom) the dimension will be calculated from the anchors not the dimension input</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114425Z" creationid="liaronce" creationdate="20191117T114425Z">
+        <seg>Both the dimension and the associated anchors have been set (for instance width, top and bottom) the dimension will be calculated from the anchors not the dimension input</seg>
       </tuv>
     </tu>
     <tu>
@@ -10370,6 +10386,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Confirm delete instances</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114426Z" creationid="liaronce" creationdate="20191117T114426Z">
+        <seg>Confirm delete instances</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Confirm dialog option</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113452Z" creationid="liaronce" creationdate="20191117T113452Z">
@@ -13122,6 +13146,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Debugger instance dock</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114428Z" creationid="liaronce" creationdate="20191117T114428Z">
+        <seg>Debugger instance dock</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Debugger instance window title</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113310Z" creationid="liaronce" creationdate="20191117T113310Z">
@@ -14944,6 +14976,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T115536Z" creationid="deciia" creationdate="20170103T115536Z">
         <seg>删除当前视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Delete event dialog confirmation query</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114608Z" creationid="liaronce" creationdate="20191117T114608Z">
+        <seg>Delete event dialog confirmation query</seg>
       </tuv>
     </tu>
     <tu>
@@ -18400,6 +18440,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T112657Z" creationid="liaronce" creationdate="20191117T112657Z">
         <seg>DnD™ argument label</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DnD™ gadget for applying to a specific object or instance</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114427Z" creationid="liaronce" creationdate="20191117T114427Z">
+        <seg>DnD™ gadget for applying to a specific object or instance</seg>
       </tuv>
     </tu>
     <tu>
@@ -41349,6 +41397,30 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Instance property initial image index</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114351Z" creationid="liaronce" creationdate="20191117T114351Z">
+        <seg>Instance property initial image index</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Instance property initial image speed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114352Z" creationid="liaronce" creationdate="20191117T114352Z">
+        <seg>Instance property initial image speed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Instance variable undefined reference error</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114356Z" creationid="liaronce" creationdate="20191117T114356Z">
+        <seg>Instance variable undefined reference error</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Instance: {0}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T125927Z" creationid="deciia" creationdate="20170103T125927Z">
@@ -49573,6 +49645,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T112719Z" creationid="liaronce" creationdate="20191117T112719Z">
         <seg>Object resource Code Completion label</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Object variable wrong type error in room instances</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114429Z" creationid="liaronce" creationdate="20191117T114429Z">
+        <seg>Object variable wrong type error in room instances</seg>
       </tuv>
     </tu>
     <tu>
@@ -64943,6 +65023,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Single Room Single Instance Creation Code</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114355Z" creationid="liaronce" creationdate="20191117T114355Z">
+        <seg>Single Room Single Instance Creation Code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Single pane</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170317T134821Z" creationid="deciia" creationdate="20161223T071855Z">
@@ -68293,6 +68381,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T072303Z" creationid="deciia" creationdate="20180922T072303Z">
         <seg>开始分析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Start a new instance of the IDE from the file menu</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114425Z" creationid="liaronce" creationdate="20191117T114425Z">
+        <seg>Start a new instance of the IDE from the file menu</seg>
       </tuv>
     </tu>
     <tu>
@@ -74361,6 +74457,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Tool tip for the new instance layer button</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114427Z" creationid="liaronce" creationdate="20191117T114427Z">
+        <seg>Tool tip for the new instance layer button</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Tool:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T130228Z" creationid="deciia" creationdate="20170103T130228Z">
@@ -80259,6 +80363,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>breakpoint manager caption for a room instance's creation code</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114428Z" creationid="liaronce" creationdate="20191117T114428Z">
+        <seg>breakpoint manager caption for a room instance's creation code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>breakpoint show code menu option</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112023Z" creationid="qq106" creationdate="20191117T112023Z">
@@ -80311,6 +80423,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T112952Z" creationid="liaronce" creationdate="20191117T112952Z">
         <seg>burger button tooltip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>button caption for opening the instance creation order window</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114427Z" creationid="liaronce" creationdate="20191117T114427Z">
+        <seg>button caption for opening the instance creation order window</seg>
       </tuv>
     </tu>
     <tu>
@@ -81519,6 +81639,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113314Z" creationid="liaronce" creationdate="20191117T113314Z">
         <seg>debugger version error title</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>debugger view type Instance</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114354Z" creationid="liaronce" creationdate="20191117T114354Z">
+        <seg>debugger view type Instance</seg>
       </tuv>
     </tu>
     <tu>
@@ -87971,6 +88099,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>instance creation code error</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114429Z" creationid="liaronce" creationdate="20191117T114429Z">
+        <seg>instance creation code error</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>instance properties button caption for opening the creation code</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114425Z" creationid="liaronce" creationdate="20191117T114425Z">
+        <seg>instance properties button caption for opening the creation code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>instance properties button caption for opening the object for edit</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114426Z" creationid="liaronce" creationdate="20191117T114426Z">
+        <seg>instance properties button caption for opening the object for edit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>instance properties checkbox label for flip x</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112321Z" creationid="qq106" creationdate="20191117T112321Z">
@@ -88015,6 +88167,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112323Z" creationid="qq106" creationdate="20191117T112323Z">
         <seg>instance properties numeric box label for y pos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>instance properties numeric textbox caption for rotation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114426Z" creationid="liaronce" creationdate="20191117T114426Z">
+        <seg>instance properties numeric textbox caption for rotation</seg>
       </tuv>
     </tu>
     <tu>
@@ -89007,6 +89167,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113918Z" creationid="liaronce" creationdate="20191117T113918Z">
         <seg>menu bar heading: Image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>menu entry for instance creation order window</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114427Z" creationid="liaronce" creationdate="20191117T114427Z">
+        <seg>menu entry for instance creation order window</seg>
       </tuv>
     </tu>
     <tu>
@@ -91035,6 +91203,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>room instance error</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114429Z" creationid="liaronce" creationdate="20191117T114429Z">
+        <seg>room instance error</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>room properties section heading for background colour</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113925Z" creationid="liaronce" creationdate="20191117T113925Z">
@@ -92159,6 +92335,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T111807Z" creationid="qq106" creationdate="20191117T111807Z">
         <seg>standard windows os language code this pack represents (can be primary code only ie.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>status bar information for painting in an instance layer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114428Z" creationid="liaronce" creationdate="20191117T114428Z">
+        <seg>status bar information for painting in an instance layer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>status bar information for painting in an instance layer when laptop compatibility is enabled</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114428Z" creationid="liaronce" creationdate="20191117T114428Z">
+        <seg>status bar information for painting in an instance layer when laptop compatibility is enabled</seg>
       </tuv>
     </tu>
     <tu>
