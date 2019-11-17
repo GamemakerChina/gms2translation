@@ -2594,8 +2594,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>An image that is to be tiled will have the edges (horizontal or vertical)\nadded to by the edges from the opposite side.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20181001T150602Z" creationid="deciia" creationdate="20170104T024711Z">
-        <seg>平铺的图像（水平或者垂直）边缘挨着另一侧边缘添加。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090850Z" creationid="deciia" creationdate="20170104T024711Z">
+        <seg>平铺的图像（水平或者垂直）边缘挨着另一侧边缘添加(?)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -43129,10 +43129,114 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Splash_CheckingRSS</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090601Z" creationid="liaronce" creationdate="20191117T090601Z">
+        <seg>Splash_CheckingRSS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Splash_Done</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090550Z" creationid="liaronce" creationdate="20191117T090550Z">
+        <seg>Splash_Done</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Splash_DownloadingManual</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090602Z" creationid="liaronce" creationdate="20191117T090602Z">
+        <seg>Splash_DownloadingManual</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Splash_InitDnD</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090600Z" creationid="liaronce" creationdate="20191117T090600Z">
+        <seg>Splash_InitDnD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Splash_Loading</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090551Z" creationid="liaronce" creationdate="20191117T090551Z">
+        <seg>Splash_Loading</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Splash_LoadingDevices</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090558Z" creationid="liaronce" creationdate="20191117T090558Z">
+        <seg>Splash_LoadingDevices</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Splash_LoadingLanguages</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090554Z" creationid="liaronce" creationdate="20191117T090554Z">
+        <seg>Splash_LoadingLanguages</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Splash_LoadingPlugins</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090556Z" creationid="liaronce" creationdate="20191117T090556Z">
+        <seg>Splash_LoadingPlugins</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Splash_LoadingPrefs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090557Z" creationid="liaronce" creationdate="20191117T090557Z">
+        <seg>Splash_LoadingPrefs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Splash_LoadingUserLanguages</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090555Z" creationid="liaronce" creationdate="20191117T090555Z">
+        <seg>Splash_LoadingUserLanguages</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Splash_UserLogin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090559Z" creationid="liaronce" creationdate="20191117T090559Z">
+        <seg>Splash_UserLogin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Splash_WaitingNetwork</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090553Z" creationid="liaronce" creationdate="20191117T090553Z">
+        <seg>Splash_WaitingNetwork</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Spline Editor</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T222452Z" creationid="36011" creationdate="20170112T032049Z">
         <seg>样条曲线编辑器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SplineEditor_DeletePoints</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090603Z" creationid="liaronce" creationdate="20191117T090603Z">
+        <seg>SplineEditor_DeletePoints</seg>
       </tuv>
     </tu>
     <tu>
@@ -43338,6 +43442,622 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T024928Z" creationid="deciia" creationdate="20170104T024928Z">
         <seg>精灵： {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_BBBottom</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090615Z" creationid="liaronce" creationdate="20191117T090615Z">
+        <seg>SpriteEditor_BBBottom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_BBLeft</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090617Z" creationid="liaronce" creationdate="20191117T090617Z">
+        <seg>SpriteEditor_BBLeft</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_BBRight</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090618Z" creationid="liaronce" creationdate="20191117T090618Z">
+        <seg>SpriteEditor_BBRight</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_BBTop</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090618Z" creationid="liaronce" creationdate="20191117T090618Z">
+        <seg>SpriteEditor_BBTop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_BoundingBox</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090620Z" creationid="liaronce" creationdate="20191117T090620Z">
+        <seg>SpriteEditor_BoundingBox</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ColDiamond</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090620Z" creationid="liaronce" creationdate="20191117T090620Z">
+        <seg>SpriteEditor_ColDiamond</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ColEllipse</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090622Z" creationid="liaronce" creationdate="20191117T090622Z">
+        <seg>SpriteEditor_ColEllipse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ColMaskAutomatic</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090637Z" creationid="liaronce" creationdate="20191117T090637Z">
+        <seg>SpriteEditor_ColMaskAutomatic</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ColPrecise</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090625Z" creationid="liaronce" creationdate="20191117T090625Z">
+        <seg>SpriteEditor_ColPrecise</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ColPrecise_Separate</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090633Z" creationid="liaronce" creationdate="20191117T090633Z">
+        <seg>SpriteEditor_ColPrecise_Separate</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ColRectangle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090634Z" creationid="liaronce" creationdate="20191117T090634Z">
+        <seg>SpriteEditor_ColRectangle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ColRectangleRotation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090636Z" creationid="liaronce" creationdate="20191117T090636Z">
+        <seg>SpriteEditor_ColRectangleRotation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_CollisionMask</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090623Z" creationid="liaronce" creationdate="20191117T090623Z">
+        <seg>SpriteEditor_CollisionMask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_CollisionMaskTimeline</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090624Z" creationid="liaronce" creationdate="20191117T090624Z">
+        <seg>SpriteEditor_CollisionMaskTimeline</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ContextMenu_AddFrame</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090638Z" creationid="liaronce" creationdate="20191117T090638Z">
+        <seg>SpriteEditor_ContextMenu_AddFrame</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ContextMenu_Copy</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090639Z" creationid="liaronce" creationdate="20191117T090639Z">
+        <seg>SpriteEditor_ContextMenu_Copy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ContextMenu_Delete</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090640Z" creationid="liaronce" creationdate="20191117T090640Z">
+        <seg>SpriteEditor_ContextMenu_Delete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ContextMenu_Paste</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090641Z" creationid="liaronce" creationdate="20191117T090641Z">
+        <seg>SpriteEditor_ContextMenu_Paste</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ContextMenu_SelectAll</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090642Z" creationid="liaronce" creationdate="20191117T090642Z">
+        <seg>SpriteEditor_ContextMenu_SelectAll</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_EdgeFiltering</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090607Z" creationid="liaronce" creationdate="20191117T090607Z">
+        <seg>SpriteEditor_EdgeFiltering</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_EdgeFiltering_Tooltip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090611Z" creationid="liaronce" creationdate="20191117T090611Z">
+        <seg>SpriteEditor_EdgeFiltering_Tooltip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_EditImages</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090643Z" creationid="liaronce" creationdate="20191117T090643Z">
+        <seg>SpriteEditor_EditImages</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_EditMask</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090644Z" creationid="liaronce" creationdate="20191117T090644Z">
+        <seg>SpriteEditor_EditMask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_EnableWrap</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090645Z" creationid="liaronce" creationdate="20191117T090645Z">
+        <seg>SpriteEditor_EnableWrap</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_FPS</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090646Z" creationid="liaronce" creationdate="20191117T090646Z">
+        <seg>SpriteEditor_FPS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_FullImage</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090612Z" creationid="liaronce" creationdate="20191117T090612Z">
+        <seg>SpriteEditor_FullImage</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_H</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090651Z" creationid="liaronce" creationdate="20191117T090651Z">
+        <seg>SpriteEditor_H</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Image</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090613Z" creationid="liaronce" creationdate="20191117T090613Z">
+        <seg>SpriteEditor_Image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Import</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090647Z" creationid="liaronce" creationdate="20191117T090647Z">
+        <seg>SpriteEditor_Import</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_LabelFrameCount</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090648Z" creationid="liaronce" creationdate="20191117T090648Z">
+        <seg>SpriteEditor_LabelFrameCount</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_LabelOrigin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090648Z" creationid="liaronce" creationdate="20191117T090648Z">
+        <seg>SpriteEditor_LabelOrigin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_LabelSize</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090649Z" creationid="liaronce" creationdate="20191117T090649Z">
+        <seg>SpriteEditor_LabelSize</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_LockOrigin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090604Z" creationid="liaronce" creationdate="20191117T090604Z">
+        <seg>SpriteEditor_LockOrigin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Manual</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090605Z" creationid="liaronce" creationdate="20191117T090605Z">
+        <seg>SpriteEditor_Manual</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090732Z" creationid="liaronce" creationdate="20191117T090732Z">
+        <seg>SpriteEditor_Name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Origin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090733Z" creationid="liaronce" creationdate="20191117T090733Z">
+        <seg>SpriteEditor_Origin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Origin_BottomLeft</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090734Z" creationid="liaronce" creationdate="20191117T090734Z">
+        <seg>SpriteEditor_Origin_BottomLeft</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Origin_BottomMiddle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090735Z" creationid="liaronce" creationdate="20191117T090735Z">
+        <seg>SpriteEditor_Origin_BottomMiddle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Origin_BottomRight</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090736Z" creationid="liaronce" creationdate="20191117T090736Z">
+        <seg>SpriteEditor_Origin_BottomRight</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Origin_CentreLeft</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090737Z" creationid="liaronce" creationdate="20191117T090737Z">
+        <seg>SpriteEditor_Origin_CentreLeft</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Origin_CentreMiddle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090737Z" creationid="liaronce" creationdate="20191117T090737Z">
+        <seg>SpriteEditor_Origin_CentreMiddle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Origin_CentreRight</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090738Z" creationid="liaronce" creationdate="20191117T090738Z">
+        <seg>SpriteEditor_Origin_CentreRight</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Origin_Custom</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090740Z" creationid="liaronce" creationdate="20191117T090740Z">
+        <seg>SpriteEditor_Origin_Custom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Origin_TopLeft</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090741Z" creationid="liaronce" creationdate="20191117T090741Z">
+        <seg>SpriteEditor_Origin_TopLeft</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Origin_TopMiddle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090741Z" creationid="liaronce" creationdate="20191117T090741Z">
+        <seg>SpriteEditor_Origin_TopMiddle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Origin_TopRight</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090750Z" creationid="liaronce" creationdate="20191117T090750Z">
+        <seg>SpriteEditor_Origin_TopRight</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Play</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090751Z" creationid="liaronce" creationdate="20191117T090751Z">
+        <seg>SpriteEditor_Play</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_PlaybackOptions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090752Z" creationid="liaronce" creationdate="20191117T090752Z">
+        <seg>SpriteEditor_PlaybackOptions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Premultiply</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090606Z" creationid="liaronce" creationdate="20191117T090606Z">
+        <seg>SpriteEditor_Premultiply</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Premultiply_Tooltip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090609Z" creationid="liaronce" creationdate="20191117T090609Z">
+        <seg>SpriteEditor_Premultiply_Tooltip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_PreviewColMask</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090658Z" creationid="liaronce" creationdate="20191117T090658Z">
+        <seg>SpriteEditor_PreviewColMask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_PreviewFrameRanges</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090753Z" creationid="liaronce" creationdate="20191117T090753Z">
+        <seg>SpriteEditor_PreviewFrameRanges</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_SWFPrecisionLabel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090652Z" creationid="liaronce" creationdate="20191117T090652Z">
+        <seg>SpriteEditor_SWFPrecisionLabel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ShowingColMask</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090754Z" creationid="liaronce" creationdate="20191117T090754Z">
+        <seg>SpriteEditor_ShowingColMask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_TextureGroup</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090754Z" creationid="liaronce" creationdate="20191117T090754Z">
+        <seg>SpriteEditor_TextureGroup</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_TextureSettings</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090755Z" creationid="liaronce" creationdate="20191117T090755Z">
+        <seg>SpriteEditor_TextureSettings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_TileHor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090756Z" creationid="liaronce" creationdate="20191117T090756Z">
+        <seg>SpriteEditor_TileHor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_Tile_Tooltip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090757Z" creationid="liaronce" creationdate="20191117T090757Z">
+        <seg>SpriteEditor_Tile_Tooltip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_W</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090650Z" creationid="liaronce" creationdate="20191117T090650Z">
+        <seg>SpriteEditor_W</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteEditor_ZoomLabel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090616Z" creationid="liaronce" creationdate="20191117T090616Z">
+        <seg>SpriteEditor_ZoomLabel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpritePref_ResizeOrigin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090710Z" creationid="liaronce" creationdate="20191117T090710Z">
+        <seg>SpritePref_ResizeOrigin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteResizeTilesetWarning</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090714Z" creationid="liaronce" creationdate="20191117T090714Z">
+        <seg>SpriteResizeTilesetWarning</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SpriteResizeTilesetWarning_Label</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090713Z" creationid="liaronce" creationdate="20191117T090713Z">
+        <seg>SpriteResizeTilesetWarning_Label</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_Resize_CurrentSize</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090656Z" creationid="liaronce" creationdate="20191117T090656Z">
+        <seg>Sprite_Resize_CurrentSize</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_Resize_Height</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090702Z" creationid="liaronce" creationdate="20191117T090702Z">
+        <seg>Sprite_Resize_Height</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_Resize_MaintainAspect</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090703Z" creationid="liaronce" creationdate="20191117T090703Z">
+        <seg>Sprite_Resize_MaintainAspect</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_Resize_Origin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090706Z" creationid="liaronce" creationdate="20191117T090706Z">
+        <seg>Sprite_Resize_Origin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_Resize_Origin_Tooltip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090708Z" creationid="liaronce" creationdate="20191117T090708Z">
+        <seg>Sprite_Resize_Origin_Tooltip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_Resize_Percentage</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090727Z" creationid="liaronce" creationdate="20191117T090727Z">
+        <seg>Sprite_Resize_Percentage</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_Resize_Pixels</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090712Z" creationid="liaronce" creationdate="20191117T090712Z">
+        <seg>Sprite_Resize_Pixels</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_Resize_Preview</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090657Z" creationid="liaronce" creationdate="20191117T090657Z">
+        <seg>Sprite_Resize_Preview</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_Resize_ResizeCanvas</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090700Z" creationid="liaronce" creationdate="20191117T090700Z">
+        <seg>Sprite_Resize_ResizeCanvas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_Resize_ResizeIn</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090731Z" creationid="liaronce" creationdate="20191117T090731Z">
+        <seg>Sprite_Resize_ResizeIn</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_Resize_ScaleImage</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090659Z" creationid="liaronce" creationdate="20191117T090659Z">
+        <seg>Sprite_Resize_ScaleImage</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_Resize_ScaleIn</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090729Z" creationid="liaronce" creationdate="20191117T090729Z">
+        <seg>Sprite_Resize_ScaleIn</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_Resize_Title</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090654Z" creationid="liaronce" creationdate="20191117T090654Z">
+        <seg>Sprite_Resize_Title</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite_Resize_Width</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090701Z" creationid="liaronce" creationdate="20191117T090701Z">
+        <seg>Sprite_Resize_Width</seg>
       </tuv>
     </tu>
     <tu>
@@ -51227,6 +51947,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>sourcecontrolgit_commit_button</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090535Z" creationid="liaronce" creationdate="20191117T090535Z">
+        <seg>sourcecontrolgit_commit_button</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>sourcecontrolgit_commit_message</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090534Z" creationid="liaronce" creationdate="20191117T090534Z">
@@ -51295,6 +52023,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090500Z" creationid="liaronce" creationdate="20191117T090500Z">
         <seg>sourcecontrolgit_difftool_path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sourcecontrolgit_import_project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090546Z" creationid="liaronce" creationdate="20191117T090546Z">
+        <seg>sourcecontrolgit_import_project</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sourcecontrolgit_import_repository</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090548Z" creationid="liaronce" creationdate="20191117T090548Z">
+        <seg>sourcecontrolgit_import_repository</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sourcecontrolgit_log</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T090549Z" creationid="liaronce" creationdate="20191117T090549Z">
+        <seg>sourcecontrolgit_log</seg>
       </tuv>
     </tu>
     <tu>
