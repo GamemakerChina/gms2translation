@@ -14407,6 +14407,70 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Event_KeyDown</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071052Z" creationid="qq106" creationdate="20191117T071052Z">
+        <seg>Event_KeyDown</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_KeyDown_Short</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071047Z" creationid="qq106" creationdate="20191117T071047Z">
+        <seg>Event_KeyDown_Short</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_KeyPress</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071045Z" creationid="qq106" creationdate="20191117T071045Z">
+        <seg>Event_KeyPress</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_KeyPressN</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071048Z" creationid="qq106" creationdate="20191117T071048Z">
+        <seg>Event_KeyPressN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_KeyPress_Short</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071046Z" creationid="qq106" creationdate="20191117T071046Z">
+        <seg>Event_KeyPress_Short</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_KeyRelease</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071050Z" creationid="qq106" creationdate="20191117T071050Z">
+        <seg>Event_KeyRelease</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_KeyRelease_Short</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071051Z" creationid="qq106" creationdate="20191117T071051Z">
+        <seg>Event_KeyRelease_Short</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_KeyUp</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071053Z" creationid="qq106" creationdate="20191117T071053Z">
+        <seg>Event_KeyUp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Event_Key_Alt</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071013Z" creationid="qq106" creationdate="20191117T071013Z">
@@ -14423,10 +14487,26 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Event_Key_ArrowKeys</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071031Z" creationid="qq106" creationdate="20191117T071031Z">
+        <seg>Event_Key_ArrowKeys</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Event_Key_Backspace</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071015Z" creationid="qq106" creationdate="20191117T071015Z">
         <seg>Event_Key_Backspace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Key_ControlKeys</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071033Z" creationid="qq106" creationdate="20191117T071033Z">
+        <seg>Event_Key_ControlKeys</seg>
       </tuv>
     </tu>
     <tu>
@@ -14535,6 +14615,78 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Event_Key_Left</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071034Z" creationid="qq106" creationdate="20191117T071034Z">
+        <seg>Event_Key_Left</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Key_Letters</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071036Z" creationid="qq106" creationdate="20191117T071036Z">
+        <seg>Event_Key_Letters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Key_NoKey</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071037Z" creationid="qq106" creationdate="20191117T071037Z">
+        <seg>Event_Key_NoKey</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Key_Others</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071038Z" creationid="qq106" creationdate="20191117T071038Z">
+        <seg>Event_Key_Others</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Key_PageDown</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071039Z" creationid="qq106" creationdate="20191117T071039Z">
+        <seg>Event_Key_PageDown</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Key_PageUp</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071040Z" creationid="qq106" creationdate="20191117T071040Z">
+        <seg>Event_Key_PageUp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Key_Right</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071041Z" creationid="qq106" creationdate="20191117T071041Z">
+        <seg>Event_Key_Right</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Key_Shift</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071042Z" creationid="qq106" creationdate="20191117T071042Z">
+        <seg>Event_Key_Shift</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Key_Space</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071043Z" creationid="qq106" creationdate="20191117T071043Z">
+        <seg>Event_Key_Space</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Event_Key_Tab</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071027Z" creationid="qq106" creationdate="20191117T071027Z">
@@ -14543,10 +14695,74 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Event_Key_Up</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071044Z" creationid="qq106" creationdate="20191117T071044Z">
+        <seg>Event_Key_Up</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Keyboard</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071045Z" creationid="qq106" creationdate="20191117T071045Z">
+        <seg>Event_Keyboard</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Event_Keyboard_Modifiers</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071030Z" creationid="qq106" creationdate="20191117T071030Z">
         <seg>Event_Keyboard_Modifiers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071053Z" creationid="qq106" creationdate="20191117T071053Z">
+        <seg>Event_Mouse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_MouseClick</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071054Z" creationid="qq106" creationdate="20191117T071054Z">
+        <seg>Event_MouseClick</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_MouseDown</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071055Z" creationid="qq106" creationdate="20191117T071055Z">
+        <seg>Event_MouseDown</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_MouseUp</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071056Z" creationid="qq106" creationdate="20191117T071056Z">
+        <seg>Event_MouseUp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_GlobalMouse</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071057Z" creationid="qq106" creationdate="20191117T071057Z">
+        <seg>Event_Mouse_GlobalMouse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Event_Mouse_GlobalMouse_LeftButton</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T071058Z" creationid="qq106" creationdate="20191117T071058Z">
+        <seg>Event_Mouse_GlobalMouse_LeftButton</seg>
       </tuv>
     </tu>
     <tu>
