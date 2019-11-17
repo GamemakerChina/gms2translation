@@ -2518,6 +2518,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Addon verification failed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131752Z" creationid="liaronce" creationdate="20191117T131752Z">
+        <seg>Addon verification failed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Addon verification failed.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180928T001657Z" creationid="deciia" creationdate="20180922T193753Z">
@@ -5909,6 +5917,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T023656Z" creationid="deciia" creationdate="20180922T023656Z">
         <seg>关闭时自动删除临时目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatically delete the ide cache directory on close</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131833Z" creationid="liaronce" creationdate="20191117T131833Z">
+        <seg>Automatically delete the ide cache directory on close</seg>
       </tuv>
     </tu>
     <tu>
@@ -17508,6 +17524,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Delete the IDE cache now</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131835Z" creationid="liaronce" creationdate="20191117T131835Z">
+        <seg>Delete the IDE cache now</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Delete the asset cache now</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T122751Z" creationid="liaronce" creationdate="20191117T122751Z">
@@ -28363,6 +28387,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T201809Z" creationid="deciia" creationdate="20180922T201809Z">
         <seg>外部项目文件错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>External project file cannot be read</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131854Z" creationid="liaronce" creationdate="20191117T131854Z">
+        <seg>External project file cannot be read</seg>
       </tuv>
     </tu>
     <tu>
@@ -41966,6 +41998,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>IDE cache directory path</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131831Z" creationid="liaronce" creationdate="20191117T131831Z">
+        <seg>IDE cache directory path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>IDE language</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T081552Z" creationid="deciia" creationdate="20180922T081552Z">
@@ -46098,6 +46138,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Import an nmeta file into the project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131845Z" creationid="liaronce" creationdate="20191117T131845Z">
+        <seg>Import an nmeta file into the project</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Import asset button</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T121703Z" creationid="liaronce" creationdate="20191117T121703Z">
@@ -49204,6 +49252,54 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131521Z" creationid="liaronce" creationdate="20191117T131521Z">
         <seg>Label beside the IDE language selection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label for Current Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131852Z" creationid="liaronce" creationdate="20191117T131852Z">
+        <seg>Label for Current Package</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label for Original Submitted Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131851Z" creationid="liaronce" creationdate="20191117T131851Z">
+        <seg>Label for Original Submitted Package</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label for Patch Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131853Z" creationid="liaronce" creationdate="20191117T131853Z">
+        <seg>Label for Patch Package</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label for Previous Patch</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131852Z" creationid="liaronce" creationdate="20191117T131852Z">
+        <seg>Label for Previous Patch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label for generating new patch</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131900Z" creationid="liaronce" creationdate="20191117T131900Z">
+        <seg>Label for generating new patch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label for installing a patch</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131900Z" creationid="liaronce" creationdate="20191117T131900Z">
+        <seg>Label for installing a patch</seg>
       </tuv>
     </tu>
     <tu>
@@ -59185,6 +59281,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open the Authoring Editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131846Z" creationid="liaronce" creationdate="20191117T131846Z">
+        <seg>Open the Authoring Editor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open the event tabs in the same window</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T121516Z" creationid="liaronce" creationdate="20191117T121516Z">
@@ -61113,6 +61217,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124508Z" creationid="liaronce" creationdate="20191117T124508Z">
         <seg>Path to Nintendo Switch SDK is wrong</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Path to NintendoSDK Directory</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131843Z" creationid="liaronce" creationdate="20191117T131843Z">
+        <seg>Path to NintendoSDK Directory</seg>
       </tuv>
     </tu>
     <tu>
@@ -80475,6 +80587,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Support 4k output resolution on Xbox One S</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131859Z" creationid="liaronce" creationdate="20191117T131859Z">
+        <seg>Support 4k output resolution on Xbox One S</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Support 4k output resolution on Xbox One X</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131857Z" creationid="liaronce" creationdate="20191117T131857Z">
+        <seg>Support 4k output resolution on Xbox One X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Support 720p Resolution</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T032507Z" creationid="deciia" creationdate="20170105T032507Z">
@@ -80681,6 +80809,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T215113Z" creationid="deciia" creationdate="20180922T200728Z">
         <seg>Switch(NS) 程序包文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Switch Package file filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131849Z" creationid="liaronce" creationdate="20191117T131849Z">
+        <seg>Switch Package file filter</seg>
       </tuv>
     </tu>
     <tu>
@@ -93107,6 +93243,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>all file filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131757Z" creationid="liaronce" creationdate="20191117T131757Z">
+        <seg>all file filter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>all label</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T112652Z" creationid="liaronce" creationdate="20191117T112652Z">
@@ -93539,6 +93683,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>audio file filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131756Z" creationid="liaronce" creationdate="20191117T131756Z">
+        <seg>audio file filter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>auto close tab label</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T112700Z" creationid="liaronce" creationdate="20191117T112700Z">
@@ -93591,6 +93743,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092608Z" creationid="liaronce" creationdate="20191117T092608Z">
         <seg>background_image</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>basic filter info eg XML Files</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131754Z" creationid="liaronce" creationdate="20191117T131754Z">
+        <seg>basic filter info eg XML Files</seg>
       </tuv>
     </tu>
     <tu>
@@ -94119,6 +94279,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T112124Z" creationid="qq106" creationdate="20191117T112124Z">
         <seg>certificate file missing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>certificate filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131802Z" creationid="liaronce" creationdate="20191117T131802Z">
+        <seg>certificate filter</seg>
       </tuv>
     </tu>
     <tu>
@@ -95075,6 +95243,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>compressed application filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131803Z" creationid="liaronce" creationdate="20191117T131803Z">
+        <seg>compressed application filter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>confirm message</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113632Z" creationid="liaronce" creationdate="20191117T113632Z">
@@ -95759,6 +95935,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T122259Z" creationid="liaronce" creationdate="20191117T122259Z">
         <seg>deleteassetcacheonquit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>deleteidecache</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131834Z" creationid="liaronce" creationdate="20191117T131834Z">
+        <seg>deleteidecache</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>deleteidecacheonquit</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131832Z" creationid="liaronce" creationdate="20191117T131832Z">
+        <seg>deleteidecacheonquit</seg>
       </tuv>
     </tu>
     <tu>
@@ -101483,6 +101675,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>html archive filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131803Z" creationid="liaronce" creationdate="20191117T131803Z">
+        <seg>html archive filter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>html5_default_allowed_ips</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T092852Z" creationid="liaronce" creationdate="20191117T092852Z">
@@ -101827,6 +102027,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>iPad iOS 5/6 2x landscape without status</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131939Z" creationid="liaronce" creationdate="20191117T131939Z">
+        <seg>iPad iOS 5/6 2x landscape without status</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>iPad iOS 5/6 Landscape</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T205207Z" creationid="deciia" creationdate="20180922T205207Z">
@@ -101839,6 +102047,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T205201Z" creationid="deciia" creationdate="20180922T205201Z">
         <seg>iPad iOS 5/6 纵向</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>iPad iOS 5/6 landscape without status</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131937Z" creationid="liaronce" creationdate="20191117T131937Z">
+        <seg>iPad iOS 5/6 landscape without status</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>iPad iOS 5/6 portrait without status</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131938Z" creationid="liaronce" creationdate="20191117T131938Z">
+        <seg>iPad iOS 5/6 portrait without status</seg>
       </tuv>
     </tu>
     <tu>
@@ -102251,6 +102475,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>iPhone X/Xs Landscape</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T132003Z" creationid="liaronce" creationdate="20191117T131930Z">
+        <seg>iPhone X/Xs 横向</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>iPhone X/Xs Portrait</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T132054Z" creationid="liaronce" creationdate="20191117T131932Z">
+        <seg>iPhone X/Xs 纵向</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>iPhone X/Xs option group subheading</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113507Z" creationid="liaronce" creationdate="20191117T113507Z">
@@ -102259,10 +102499,42 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>iPhone Xr Landscape</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131934Z" creationid="liaronce" creationdate="20191117T131934Z">
+        <seg>iPhone Xr Landscape</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>iPhone Xr Portrait</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131933Z" creationid="liaronce" creationdate="20191117T131933Z">
+        <seg>iPhone Xr Portrait</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>iPhone Xr option group subheading</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T113507Z" creationid="liaronce" creationdate="20191117T113507Z">
         <seg>iPhone Xr option group subheading</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>iPhone Xs Max Landscape</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131936Z" creationid="liaronce" creationdate="20191117T131936Z">
+        <seg>iPhone Xs Max Landscape</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>iPhone Xs Max Portrait</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131935Z" creationid="liaronce" creationdate="20191117T131935Z">
+        <seg>iPhone Xs Max Portrait</seg>
       </tuv>
     </tu>
     <tu>
@@ -103579,6 +103851,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>layout file filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131800Z" creationid="liaronce" creationdate="20191117T131800Z">
+        <seg>layout file filter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>layout file name</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115622Z" creationid="liaronce" creationdate="20191117T115622Z">
@@ -103771,6 +104051,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>localisation filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131801Z" creationid="liaronce" creationdate="20191117T131801Z">
+        <seg>localisation filter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>log prompt for user to indicate no layout was selected</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115625Z" creationid="liaronce" creationdate="20191117T115625Z">
@@ -103807,6 +104095,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T115630Z" creationid="liaronce" creationdate="20191117T115630Z">
         <seg>lop propmt for user to indicate the save failed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>mac application as a zip filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131804Z" creationid="liaronce" creationdate="20191117T131804Z">
+        <seg>mac application as a zip filter</seg>
       </tuv>
     </tu>
     <tu>
@@ -106459,10 +106755,26 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>project filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131759Z" creationid="liaronce" creationdate="20191117T131759Z">
+        <seg>project filter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>project label</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T112652Z" creationid="liaronce" creationdate="20191117T112652Z">
         <seg>project label</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>pronunciation.xml file dialog</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131841Z" creationid="liaronce" creationdate="20191117T131841Z">
+        <seg>pronunciation.xml file dialog</seg>
       </tuv>
     </tu>
     <tu>
@@ -110975,6 +111287,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>without status</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131919Z" creationid="liaronce" creationdate="20191117T131919Z">
+        <seg>without status</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>without status heading</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T114015Z" creationid="liaronce" creationdate="20191117T114015Z">
@@ -111087,6 +111407,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>yy filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131800Z" creationid="liaronce" creationdate="20191117T131800Z">
+        <seg>yy filter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>yydebug</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20181002T022829Z" creationid="deciia" creationdate="20181002T022829Z">
@@ -111123,6 +111451,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T124457Z" creationid="liaronce" creationdate="20191117T124457Z">
         <seg>yymp filter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>yyp filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131758Z" creationid="liaronce" creationdate="20191117T131758Z">
+        <seg>yyp filter</seg>
       </tuv>
     </tu>
     <tu>
@@ -112065,6 +112401,17 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T222727Z" creationid="deciia" creationdate="20180922T222727Z">
         <seg>右方向键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">english.xml</prop>
+      <prop type="prev">Save as .aab or .apk</prop>
+      <prop type="next">tvOS</prop>
+      <tuv lang="en-US">
+        <seg>Save as .aab or .apk</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T131820Z" creationid="liaronce" creationdate="20191117T131820Z">
+        <seg>Save as .aab or .apk</seg>
       </tuv>
     </tu>
     <tu>
