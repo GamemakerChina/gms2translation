@@ -806,6 +806,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A system font has changed.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141540Z" creationid="liaronce" creationdate="20191118T141540Z">
+        <seg>系统字体已更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A texture ({1}x{2}) exceeds the maximum supported dimension ({3}x{3}) and cannot be loaded.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170106T154139Z" creationid="deciia" creationdate="20170106T154139Z">
@@ -9002,6 +9010,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Defer Home Indicator Input</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141410Z" creationid="liaronce" creationdate="20191118T141410Z">
+        <seg>推迟 Home横条 输入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Define a global compile-time macro.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T220004Z" creationid="deciia" creationdate="20170107T060112Z">
@@ -10051,6 +10067,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Do you want to apply the changes?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141553Z" creationid="liaronce" creationdate="20191118T141541Z">
+        <seg>您要应用这个更改吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Do you want to change your current runtime to version {0}?\nThis will require a restart of the IDE.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T103935Z" creationid="deciia" creationdate="20170105T103935Z">
@@ -10095,6 +10119,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T091616Z" creationid="deciia" creationdate="20170105T091616Z">
         <seg>你想要重新分配深度吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do you want to refresh system fonts?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141558Z" creationid="liaronce" creationdate="20191118T141558Z">
+        <seg>您要刷新系统字体吗？</seg>
       </tuv>
     </tu>
     <tu>
@@ -11458,6 +11490,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Enable Sign In with Apple</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141435Z" creationid="liaronce" creationdate="20191118T141435Z">
+        <seg>启用Apple登录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Enable Viewports</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T220957Z" creationid="deciia" creationdate="20170103T131524Z">
@@ -11783,6 +11823,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T114526Z" creationid="deciia" creationdate="20170104T061711Z">
         <seg>获取Demo出错：{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Error Downloading Demo: '{0}'</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141334Z" creationid="liaronce" creationdate="20191118T141334Z">
+        <seg>下载演示时出错：“{0}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -13292,6 +13340,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T122218Z" creationid="deciia" creationdate="20170311T122218Z">
         <seg>字体系列 '{0}' 不可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Font resources must be regenerated for the changes to take effect.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141555Z" creationid="liaronce" creationdate="20191118T141555Z">
+        <seg>必须重新生成字体资源，才能使更改生效。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17106,6 +17162,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Inject to Android Application Tag</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141439Z" creationid="liaronce" creationdate="20191118T141439Z">
+        <seg>注入Android应用标签</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Inject to AndroidManifest.xml Application:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T034002Z" creationid="deciia" creationdate="20170107T034002Z">
@@ -18749,6 +18813,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Licence Agreement</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141445Z" creationid="liaronce" creationdate="20191118T141445Z">
+        <seg>许可协议</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Licence Renewal</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T195458Z" creationid="deciia" creationdate="20180922T195458Z">
@@ -19688,6 +19760,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T151723Z" creationid="deciia" creationdate="20170215T151723Z">
         <seg>最大速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Max game chat slots</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141530Z" creationid="liaronce" creationdate="20191118T141530Z">
+        <seg>最多游戏聊天窗口</seg>
       </tuv>
     </tu>
     <tu>
@@ -24204,6 +24284,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T072319Z" creationid="deciia" creationdate="20180922T072319Z">
         <seg>分析中...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Program ID</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141457Z" creationid="liaronce" creationdate="20191118T141457Z">
+        <seg>程序 ID</seg>
       </tuv>
     </tu>
     <tu>
@@ -31560,6 +31648,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>System fonts</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141538Z" creationid="liaronce" creationdate="20191118T141538Z">
+        <seg>系统字体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>T+LMB: Translate, R+LMB: Rotate, S+LMB: Scale</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170317T135640Z" creationid="deciia" creationdate="20170103T105141Z">
@@ -33831,6 +33927,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Tutorial Install Failed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141327Z" creationid="liaronce" creationdate="20191118T141327Z">
+        <seg>教程安装失败</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Tutorial Windows</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170318T040306Z" creationid="deciia" creationdate="20170104T045638Z">
@@ -34555,6 +34659,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T074459Z" creationid="deciia" creationdate="20170105T043434Z">
         <seg>使用外部浏览器获取帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use built-in font</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141443Z" creationid="liaronce" creationdate="20191118T141443Z">
+        <seg>使用内置字体</seg>
       </tuv>
     </tu>
     <tu>
