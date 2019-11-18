@@ -3107,6 +3107,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Assign Audio Group</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140912Z" creationid="liaronce" creationdate="20191118T140912Z">
+        <seg>分配音频组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Assign Texture Group</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140859Z" creationid="liaronce" creationdate="20191118T140859Z">
+        <seg>分配纹理组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Assign Variable</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T040328Z" creationid="deciia" creationdate="20170107T054327Z">
@@ -7981,6 +7997,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create New...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140907Z" creationid="liaronce" creationdate="20191118T140907Z">
+        <seg>新建...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create Note</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T064602Z" creationid="deciia" creationdate="20170103T113723Z">
@@ -8590,6 +8614,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T123344Z" creationid="deciia" creationdate="20170224T003215Z">
         <seg>十字键 上</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DIE DIE DIE (Crash)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140848Z" creationid="liaronce" creationdate="20191118T140848Z">
+        <seg>DIE DIE DIE (崩溃)</seg>
       </tuv>
     </tu>
     <tu>
@@ -11763,6 +11795,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Error extracting package archive: '{0}'</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140815Z" creationid="liaronce" creationdate="20191118T140815Z">
+        <seg>提取软件包归档文件时出错：'{0}'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Error importing package</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T075827Z" creationid="deciia" creationdate="20170103T085203Z">
@@ -13008,6 +13048,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Flip X</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140750Z" creationid="liaronce" creationdate="20191118T140750Z">
+        <seg>翻转 X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Flip Y</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140755Z" creationid="liaronce" creationdate="20191118T140755Z">
+        <seg>翻转 Y</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Flip brush tool</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T092223Z" creationid="deciia" creationdate="20170102T110742Z">
@@ -13914,6 +13970,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T094202Z" creationid="deciia" creationdate="20180922T034508Z">
         <seg>为单独的纹理页生成多级渐进纹理（mipmap）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Generated font texture for '{0}'</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140926Z" creationid="liaronce" creationdate="20191118T140921Z">
+        <seg>为 “{0}” 生成的字体纹理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Generated font texture for '{0}' because non existed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140937Z" creationid="liaronce" creationdate="20191118T140937Z">
+        <seg>为 “{0}” 生成了字体纹理，因为不存在</seg>
       </tuv>
     </tu>
     <tu>
@@ -16255,6 +16327,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Image Speed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140803Z" creationid="liaronce" creationdate="20191118T140803Z">
+        <seg>图像速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Image:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T151439Z" creationid="deciia" creationdate="20170103T151439Z">
@@ -17864,6 +17944,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T050514Z" creationid="deciia" creationdate="20170107T072120Z">
         <seg>跳转到指定位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Keep</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140833Z" creationid="liaronce" creationdate="20191118T140833Z">
+        <seg>保留</seg>
       </tuv>
     </tu>
     <tu>
@@ -21064,6 +21152,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T073219Z" creationid="deciia" creationdate="20180922T073219Z">
         <seg>没有与游戏连接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>No fonts were regenerated.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140940Z" creationid="liaronce" creationdate="20191118T140940Z">
+        <seg>没有字体被重新生成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24822,6 +24918,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Regenerate Font</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140854Z" creationid="liaronce" creationdate="20191118T140854Z">
+        <seg>重新生成字体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Regenerate Fonts</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140856Z" creationid="liaronce" creationdate="20191118T140856Z">
+        <seg>重新生成字体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Regenerate Layouts</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T103150Z" creationid="deciia" creationdate="20170105T103150Z">
@@ -26964,6 +27076,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T035755Z" creationid="deciia" creationdate="20170104T071639Z">
         <seg>屏幕颜色深度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Screen Stretch</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140809Z" creationid="liaronce" creationdate="20191118T140809Z">
+        <seg>屏幕拉伸</seg>
       </tuv>
     </tu>
     <tu>
@@ -31046,6 +31166,38 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Successfully regenerated {0} fonts.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140945Z" creationid="liaronce" creationdate="20191118T140945Z">
+        <seg>成功地重新生成了 {0} 字体。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Successfully regenerated {0} fonts.\n{1} legacy fonts were excluded.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140957Z" creationid="liaronce" creationdate="20191118T140957Z">
+        <seg>成功重新生成了 {0} 个字体。\n{1}个旧字体已排除在外。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Successfully regenerated {0} fonts.\n{1} legacy fonts were excluded.\n{2} fonts were unavailable.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141028Z" creationid="liaronce" creationdate="20191118T141028Z">
+        <seg>成功重新生成了 {0} 个字体。\n{1} 个旧字体已排除在外。\ n {2}个字体不可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Successfully regenerated {0} fonts.\n{2} fonts were unavailable.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141011Z" creationid="liaronce" creationdate="20191118T141011Z">
+        <seg>已成功重新生成 {0} 个字体。\n{2}个字体不可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Successfully updated Runtime Feeds</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170427T091207Z" creationid="deciia" creationdate="20170105T104614Z">
@@ -35000,6 +35152,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T071507Z" creationid="deciia" creationdate="20170102T071507Z">
         <seg>警告！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Warping</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140733Z" creationid="liaronce" creationdate="20191118T140733Z">
+        <seg>变形</seg>
       </tuv>
     </tu>
     <tu>
