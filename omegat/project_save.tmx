@@ -2094,6 +2094,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Allowed Web Server IPs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141802Z" creationid="liaronce" creationdate="20191118T141802Z">
+        <seg>允许的 Web 服务器 IP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Allowed Web Server IPs/Hostnames/CIDR IP Ranges:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141938Z" creationid="liaronce" creationdate="20191118T141927Z">
+        <seg>允许的 Web 服务器 IP/主机名/CIDR IP 范围：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Alpha</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T020654Z" creationid="deciia" creationdate="20180926T020654Z">
@@ -4554,6 +4570,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Browser Command Line Arguments:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141918Z" creationid="liaronce" creationdate="20191118T141918Z">
+        <seg>浏览器命令行参数：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Browser Title</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T021629Z" creationid="deciia" creationdate="20180922T021629Z">
@@ -5118,6 +5142,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170106T160559Z" creationid="deciia" creationdate="20170106T160559Z">
         <seg>无法导入不兼容的资源： {0} （未知文件类型）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Cannot import project '{0}' with a Trial Licence</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141738Z" creationid="liaronce" creationdate="20191118T141738Z">
+        <seg>无法使用试用许可证导入项目 “{0}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -6737,6 +6769,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T032436Z" creationid="deciia" creationdate="20170104T032010Z">
         <seg>注释所选内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Comment text style</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141750Z" creationid="liaronce" creationdate="20191118T141750Z">
+        <seg>注释文字样式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Comment...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141833Z" creationid="liaronce" creationdate="20191118T141833Z">
+        <seg>注释...</seg>
       </tuv>
     </tu>
     <tu>
@@ -8834,6 +8882,30 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Default Web Server Address</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141905Z" creationid="liaronce" creationdate="20191118T141905Z">
+        <seg>默认 Web 服务器地址</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Default Web Server Allowed IPs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141912Z" creationid="liaronce" creationdate="20191118T141912Z">
+        <seg>默认 Web 服务器允许的 IP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Default Web Server Port</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141859Z" creationid="liaronce" creationdate="20191118T141859Z">
+        <seg>默认 Web 服务器端口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Default background colour</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T085437Z" creationid="deciia" creationdate="20180922T085437Z">
@@ -9843,6 +9915,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Disable file system sandbox</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141721Z" creationid="liaronce" creationdate="20191118T141721Z">
+        <seg>禁用文件系统沙箱</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Disabled</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T065842Z" creationid="deciia" creationdate="20170104T065830Z">
@@ -10246,6 +10326,14 @@ Add-ons应该怎么翻译？</note>
         <seg>Double Tap</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T203907Z" creationid="deciia" creationdate="20170311T130942Z">
+        <seg>双击</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Double-Click</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141827Z" creationid="liaronce" creationdate="20191118T141827Z">
         <seg>双击</seg>
       </tuv>
     </tu>
@@ -11406,6 +11494,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170312T020922Z" creationid="deciia" creationdate="20170104T072231Z">
         <seg>启用 INTERNET （互联网）权限</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable Laptop Mode on all devices</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141659Z" creationid="liaronce" creationdate="20191118T141659Z">
+        <seg>在所有设备上启用笔记本电脑模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -19406,6 +19502,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Logout on exit</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141710Z" creationid="liaronce" creationdate="20191118T141710Z">
+        <seg>退出时登出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Logout user '{0}'?\nThis will save any changes and restart the IDE.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T092438Z" creationid="deciia" creationdate="20170102T070157Z">
@@ -25318,6 +25422,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Remove Comment</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141837Z" creationid="liaronce" creationdate="20191118T141837Z">
+        <seg>删除注释</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Remove Comments</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141852Z" creationid="liaronce" creationdate="20191118T141852Z">
+        <seg>删除所有注释</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Remove Device</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T141549Z" creationid="deciia" creationdate="20170105T101212Z">
@@ -25763,6 +25883,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T082325Z" creationid="deciia" creationdate="20180922T082325Z">
         <seg>要求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Requires Windows PC</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141727Z" creationid="liaronce" creationdate="20191118T141727Z">
+        <seg>需要 Windows PC</seg>
       </tuv>
     </tu>
     <tu>
@@ -29838,6 +29966,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170317T134821Z" creationid="deciia" creationdate="20161223T071855Z">
         <seg>单一窗格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Single-Click</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141823Z" creationid="liaronce" creationdate="20191118T141823Z">
+        <seg>单击</seg>
       </tuv>
     </tu>
     <tu>
@@ -34567,6 +34703,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use Default Licence Agreement</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141805Z" creationid="liaronce" creationdate="20191118T141805Z">
+        <seg>使用默认许可协议</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use Default NSIS Script</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T202953Z" creationid="deciia" creationdate="20170510T020000Z">
@@ -34651,6 +34795,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T132640Z" creationid="deciia" creationdate="20170103T132640Z">
         <seg>使用他们的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use alternative launcher for Steam application</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141718Z" creationid="liaronce" creationdate="20191118T141718Z">
+        <seg>对 Steam 应用程序使用替代启动器</seg>
       </tuv>
     </tu>
     <tu>
@@ -35416,6 +35568,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T064146Z" creationid="deciia" creationdate="20180922T064146Z">
         <seg>监视</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Web Server Port</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141754Z" creationid="liaronce" creationdate="20191118T141754Z">
+        <seg>Web 服务器端口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Web Server Port:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141928Z" creationid="liaronce" creationdate="20191118T141922Z">
+        <seg>Web 服务器端口：</seg>
       </tuv>
     </tu>
     <tu>
