@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>'{0}' starts with a number.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142241Z" creationid="liaronce" creationdate="20191118T142241Z">
+        <seg>“{0}” 以数字开头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>(${input_count} inputs)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T084820Z" creationid="deciia" creationdate="20180922T084820Z">
@@ -1910,6 +1918,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Alignment</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142113Z" creationid="liaronce" creationdate="20191118T142113Z">
+        <seg>对齐</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Alignment: {0}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T071515Z" creationid="deciia" creationdate="20180922T071515Z">
@@ -2616,6 +2632,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>App Delegate Class Name:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142036Z" creationid="liaronce" creationdate="20191118T142036Z">
+        <seg>应用代表类名：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>App ID</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T022037Z" creationid="deciia" creationdate="20180922T022037Z">
@@ -3111,6 +3135,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T222606Z" creationid="36011" creationdate="20170316T142441Z">
         <seg>资产浏览器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Asset Package Detected</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142230Z" creationid="liaronce" creationdate="20191118T142230Z">
+        <seg>检测到资源包</seg>
       </tuv>
     </tu>
     <tu>
@@ -9034,6 +9066,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Default sprite animation speed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142136Z" creationid="liaronce" creationdate="20191118T142136Z">
+        <seg>默认精灵动画速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Default sprite collision mask kind</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T053238Z" creationid="deciia" creationdate="20180922T053238Z">
@@ -11698,6 +11738,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Enable variable reference warnings</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142045Z" creationid="liaronce" creationdate="20191118T142045Z">
+        <seg>启用变量参考警告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>End</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T152345Z" creationid="deciia" creationdate="20170215T152345Z">
@@ -12434,6 +12482,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T042032Z" creationid="deciia" creationdate="20180922T042032Z">
         <seg>扩展错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Extension Option Files</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142026Z" creationid="liaronce" creationdate="20191118T142026Z">
+        <seg>扩展选项文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -13360,6 +13416,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Folder name contains invalid characters: {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142127Z" creationid="liaronce" creationdate="20191118T142127Z">
+        <seg>文件夹名称包含无效字符：{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Font</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T151850Z" creationid="deciia" creationdate="20170215T151850Z">
@@ -14086,6 +14150,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GameMaker Studio 2 is running...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141947Z" creationid="liaronce" creationdate="20191118T141947Z">
+        <seg>GameMaker Studio 2正在运行...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GameMaker:Player</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135309Z" creationid="liaronce" creationdate="20191117T135309Z">
@@ -14306,6 +14378,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Get Draw Font</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142052Z" creationid="liaronce" creationdate="20191118T142052Z">
+        <seg>获取绘制字体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Get Gamepad Axis</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T043841Z" creationid="deciia" creationdate="20170107T064711Z">
@@ -14454,6 +14534,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T040746Z" creationid="deciia" creationdate="20170212T040746Z">
         <seg>获取得分</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get Text Alignment</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142102Z" creationid="liaronce" creationdate="20191118T142102Z">
+        <seg>获取文本对齐</seg>
       </tuv>
     </tu>
     <tu>
@@ -14618,10 +14706,26 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Get the font used for all text drawing.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142100Z" creationid="liaronce" creationdate="20191118T142100Z">
+        <seg>获取用于所有文本绘制的字体。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Get the health of the instance.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T065618Z" creationid="deciia" creationdate="20170212T041314Z">
         <seg>获取实例中的健康值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get the horizontal or vertical alignment of text drawing.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142104Z" creationid="liaronce" creationdate="20191118T142104Z">
+        <seg>获取文本绘图的水平或垂直对齐方式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16679,6 +16783,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Import asset package?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142221Z" creationid="liaronce" creationdate="20191118T142221Z">
+        <seg>导入资源包？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Import colours from sprite:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T042319Z" creationid="deciia" creationdate="20170103T071742Z">
@@ -16755,6 +16867,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170221T034812Z" creationid="36011" creationdate="20170221T034812Z">
         <seg>导入选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Import package assets instead of adding a datafile?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142213Z" creationid="liaronce" creationdate="20191118T142202Z">
+        <seg>导入扩展包资源而不是添加数据文件？</seg>
       </tuv>
     </tu>
     <tu>
@@ -19892,6 +20012,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Maximum number of Syntax Errors to display</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142042Z" creationid="liaronce" creationdate="20191118T142042Z">
+        <seg>显示的最大语法错误数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Maximum number of recently used actions to display</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T102455Z" creationid="deciia" creationdate="20180922T035746Z">
@@ -20412,6 +20540,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T074756Z" creationid="deciia" creationdate="20170102T074756Z">
         <seg>杂项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Missing '{0}'</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142134Z" creationid="liaronce" creationdate="20191118T142134Z">
+        <seg>缺少 “{0}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -30921,6 +31057,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sprite is currently assigned to Tileset '{0}' which does not support use of Spine or SWF sprites</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142000Z" creationid="liaronce" creationdate="20191118T142000Z">
+        <seg>当前将精灵指定给 Tileset '{0}'，它不支持使用 Spine 或 SWF 精灵</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sprite will export</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170303T153636Z" creationid="deciia" creationdate="20170303T153636Z">
@@ -31618,6 +31762,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T055850Z" creationid="deciia" creationdate="20170105T032457Z">
         <seg>支持 WXGA 分辨率</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Supports</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142010Z" creationid="liaronce" creationdate="20191118T142010Z">
+        <seg>支持</seg>
       </tuv>
     </tu>
     <tu>
@@ -33645,6 +33797,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To use Spine animations with GameMaker, please agree to the licence above.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142123Z" creationid="liaronce" creationdate="20191118T142123Z">
+        <seg>要在 GameMaker 中使用 Spine 动画，请同意上面的许可。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To view release notes for this and previous versions</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T114752Z" creationid="deciia" creationdate="20170311T114752Z">
@@ -35568,6 +35728,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T064146Z" creationid="deciia" creationdate="20180922T064146Z">
         <seg>监视</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Web Server Address:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141942Z" creationid="liaronce" creationdate="20191118T141942Z">
+        <seg>Web 服务器地址：</seg>
       </tuv>
     </tu>
     <tu>
