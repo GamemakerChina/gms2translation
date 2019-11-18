@@ -150,6 +150,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>'Sample' shows the font's sample text\n'Game Preview' shows the font's generated texture that is used in the game</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140455Z" creationid="liaronce" creationdate="20191118T140455Z">
+        <seg>“示例”显示字体的示例文本\ n“游戏预览”显示字体在游戏中使用的生成纹理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>'{0}' cannot be used as a name for the Remote Worker.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T221257Z" creationid="deciia" creationdate="20180921T154629Z">
@@ -3964,6 +3972,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T093547Z" creationid="deciia" creationdate="20170105T034346Z">
         <seg>向后翻转的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Back Up and Upgrade</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140239Z" creationid="liaronce" creationdate="20191118T140239Z">
+        <seg>备份和升级</seg>
       </tuv>
     </tu>
     <tu>
@@ -13136,6 +13152,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Font {0} texture generation skipped (font is not available on this machine)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140159Z" creationid="liaronce" creationdate="20191118T140159Z">
+        <seg>字体 {0} 的纹理生成已跳过（字体在此机器上不可用）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Font {0} uses a font ({1}) not installed on this system - Font has NOT been regenerated</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T233750Z" creationid="deciia" creationdate="20180922T190859Z">
@@ -13650,6 +13674,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T075653Z" creationid="deciia" creationdate="20170102T075653Z">
         <seg>游戏选项 - {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Game Preview</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140403Z" creationid="liaronce" creationdate="20191118T140403Z">
+        <seg>游戏预览</seg>
       </tuv>
     </tu>
     <tu>
@@ -18137,6 +18169,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T043724Z" creationid="deciia" creationdate="20170104T083311Z">
         <seg>最后更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Last generated on {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140341Z" creationid="liaronce" creationdate="20191118T140341Z">
+        <seg>上次更改于 {0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -26528,6 +26568,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sample</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140400Z" creationid="liaronce" creationdate="20191118T140400Z">
+        <seg>示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sample Rate:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T134429Z" creationid="deciia" creationdate="20170103T134429Z">
@@ -32291,6 +32339,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This font has no texture yet.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140353Z" creationid="liaronce" creationdate="20191118T140353Z">
+        <seg>该字体还没有纹理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This graph shows frames per second and memory usage over time.\nHold Control and scroll to expand and contract the graph.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T072955Z" creationid="deciia" creationdate="20180922T072955Z">
@@ -32337,6 +32393,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T153804Z" creationid="deciia" creationdate="20180921T153804Z">
         <seg>这是您在代码中引用它的方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This legacy font was not upgraded automatically.\n\nUpgrading the font may show inconsistencies but the font will be backed up in its folder.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140237Z" creationid="liaronce" creationdate="20191118T140237Z">
+        <seg>此旧字体未自动升级。\n\n升级该字体显示可能会不一致，但该字体将备份在其文件夹中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32897,6 +32961,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T023054Z" creationid="deciia" creationdate="20180922T023054Z">
         <seg>标题 ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To achieve better monochrome font results, go to Options and set Hinting to 'Monochrome'</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140331Z" creationid="liaronce" creationdate="20191118T140331Z">
+        <seg>为了获得更好的单色字体效果，请转到“选项”并将“提示”设置为“单色”</seg>
       </tuv>
     </tu>
     <tu>
@@ -33923,6 +33995,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T085751Z" creationid="deciia" creationdate="20170103T085751Z">
         <seg>更新...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Upgrade Font</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140244Z" creationid="liaronce" creationdate="20191118T140244Z">
+        <seg>升级字体</seg>
       </tuv>
     </tu>
     <tu>
@@ -35755,6 +35835,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T012522Z" creationid="deciia" creationdate="20170105T095626Z">
         <seg>你正在执行一个 从DnD™  到 GML的单向转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You are upgrading this legacy font to a GameMaker Studio 2 font and there may be inconsistencies.\nThe original font is safely backed up.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140259Z" creationid="liaronce" creationdate="20191118T140259Z">
+        <seg>您正在将该旧字体升级为GameMaker Studio 2字体，可能存在不同之处。\n已安全备份了原始字体。</seg>
       </tuv>
     </tu>
     <tu>
