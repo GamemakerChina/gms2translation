@@ -3446,6 +3446,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Audio Group</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143306Z" creationid="liaronce" creationdate="20191118T143306Z">
+        <seg>音频组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Audio Group:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T134155Z" creationid="deciia" creationdate="20170103T134155Z">
@@ -4254,6 +4262,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T075449Z" creationid="deciia" creationdate="20170103T075449Z">
         <seg>最适合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Beta Channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143356Z" creationid="liaronce" creationdate="20191118T143356Z">
+        <seg>Beta 通道</seg>
       </tuv>
     </tu>
     <tu>
@@ -10387,10 +10403,26 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Does it have a valid provisioning profile?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143253Z" creationid="liaronce" creationdate="20191118T143253Z">
+        <seg>它具有有效的预置描述文件吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Domain</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T093113Z" creationid="deciia" creationdate="20180922T093113Z">
         <seg>域名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Don't Send</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143404Z" creationid="liaronce" creationdate="20191118T143404Z">
+        <seg>不发送</seg>
       </tuv>
     </tu>
     <tu>
@@ -10979,6 +11011,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T073051Z" creationid="deciia" creationdate="20170105T073051Z">
         <seg>错误：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ERROR: Device '{0}' has not been paired.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143222Z" creationid="liaronce" creationdate="20191118T143222Z">
+        <seg>错误：设备 “{0}” 尚未配对。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20188,6 +20228,30 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Maximum display dimensions to allow on PS4, subject to system constraints\n-1 indicates unlimited.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143213Z" creationid="liaronce" creationdate="20191118T143213Z">
+        <seg>受系统限制，PS4上允许的最大显示尺寸\n-1表示无限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Maximum display height</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143204Z" creationid="liaronce" creationdate="20191118T143204Z">
+        <seg>最大显示高度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Maximum display width</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143203Z" creationid="liaronce" creationdate="20191118T143203Z">
+        <seg>最大显示宽度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Maximum framerate of the GameMaker Studio 2 editor</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142518Z" creationid="liaronce" creationdate="20191118T142518Z">
@@ -20740,6 +20804,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142134Z" creationid="liaronce" creationdate="20191118T142134Z">
         <seg>缺少 “{0}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Missing FFmpegWrapper</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143315Z" creationid="liaronce" creationdate="20191118T143315Z">
+        <seg>缺少 FFmpegWrapper</seg>
       </tuv>
     </tu>
     <tu>
@@ -24224,6 +24296,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Please ensure they have valid provisioning profiles.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143302Z" creationid="liaronce" creationdate="20191118T143302Z">
+        <seg>请确保他们具有有效的预置描述文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Please enter a new name and try again.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T221303Z" creationid="deciia" creationdate="20180921T154649Z">
@@ -24712,6 +24792,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Privacy Policy</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143429Z" creationid="liaronce" creationdate="20191118T143429Z">
+        <seg>隐私政策</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Processing...</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170303T153300Z" creationid="deciia" creationdate="20170303T153300Z">
@@ -24900,6 +24988,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T082720Z" creationid="deciia" creationdate="20180922T082720Z">
         <seg>项目用时</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Project Verification Error</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143323Z" creationid="liaronce" creationdate="20191118T143323Z">
+        <seg>项目验证错误</seg>
       </tuv>
     </tu>
     <tu>
@@ -27092,6 +27188,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T062544Z" creationid="deciia" creationdate="20170102T062544Z">
         <seg>房间结束事件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Room Instance</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143304Z" creationid="liaronce" creationdate="20191118T143304Z">
+        <seg>房间实例</seg>
       </tuv>
     </tu>
     <tu>
@@ -29702,6 +29806,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Shader</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143310Z" creationid="liaronce" creationdate="20191118T143310Z">
+        <seg>着色器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Shader Type</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T051749Z" creationid="deciia" creationdate="20170107T051749Z">
@@ -32152,6 +32264,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Switch Tools Error</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143336Z" creationid="liaronce" creationdate="20191118T143336Z">
+        <seg>Switch 工具错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Switch between selection and editing modes in brush builder page (${room_editor_tools_keyboard_shortcut22})</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170510T021434Z" creationid="deciia" creationdate="20170510T021434Z">
@@ -32407,6 +32527,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>Teardrop mask</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143201Z" creationid="liaronce" creationdate="20191118T143201Z">
+        <seg>泪珠遮罩</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>备注：Debugger_Buffer_Tell：Buffer tell label
 获取buffer的当前seek的位置，怎么简洁的翻译？有什么术语？</note>
       <tuv lang="en-US">
@@ -32553,6 +32681,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T071827Z" creationid="deciia" creationdate="20180922T071827Z">
         <seg>纹理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Texture Group</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143307Z" creationid="liaronce" creationdate="20191118T143307Z">
+        <seg>纹理组</seg>
       </tuv>
     </tu>
     <tu>
@@ -32915,6 +33051,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T020532Z" creationid="deciia" creationdate="20170105T105101Z">
         <seg>精灵编辑器不支持您尝试加载的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The following devices have not been paired.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143255Z" creationid="liaronce" creationdate="20191118T143255Z">
+        <seg>以下设备尚未配对。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35179,6 +35323,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140244Z" creationid="liaronce" creationdate="20191118T140244Z">
         <seg>升级字体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Upload Status</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143431Z" creationid="liaronce" creationdate="20191118T143431Z">
+        <seg>上传状态</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Upload Successful.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143434Z" creationid="liaronce" creationdate="20191118T143434Z">
+        <seg>上传成功。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38547,6 +38707,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T225616Z" creationid="deciia" creationdate="20180922T094902Z">
         <seg>单引号不再允许用于字符串</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>store and process your data.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143407Z" creationid="liaronce" creationdate="20191118T143407Z">
+        <seg>存储和处理您的数据。</seg>
       </tuv>
     </tu>
     <tu>
