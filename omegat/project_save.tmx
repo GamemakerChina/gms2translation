@@ -13568,6 +13568,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Font has maintained its texture from GameMaker Studio 1 and will not be regenerated automatically</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142659Z" creationid="liaronce" creationdate="20191118T142638Z">
+        <seg>字体已从 GameMaker Studio 1 中保持其纹理，并且不会自动重新生成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Font has no texture in GameMaker Studio 1 project, forced to regenerate</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142707Z" creationid="liaronce" creationdate="20191118T142642Z">
+        <seg>GameMaker Studio 1 项目中的字体没有纹理，强制重新生成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Font is not available on this machine (?)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142507Z" creationid="liaronce" creationdate="20191118T142507Z">
@@ -13584,6 +13600,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Font texture has been regenerated - inconsistencies may occur</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142640Z" creationid="liaronce" creationdate="20191118T142640Z">
+        <seg>字体纹理已重新生成-可能会发生不一致</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Font to use</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T054700Z" creationid="deciia" creationdate="20170105T054700Z">
@@ -13596,6 +13620,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T105500Z" creationid="deciia" creationdate="20180922T105500Z">
         <seg>已安装字体{0}字体系列{1}但无法匹配样式 - 尚未重新生成字体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Font {0} has been converted to font family {1} ({2})</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142635Z" creationid="liaronce" creationdate="20191118T142635Z">
+        <seg>字体 {0} 已转换为字体系列 {1}（{2}）</seg>
       </tuv>
     </tu>
     <tu>
@@ -14174,10 +14206,26 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GameMaker Studio 1 font texture has been backed up at {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142653Z" creationid="liaronce" creationdate="20191118T142649Z">
+        <seg>GameMaker Studio 1 字体纹理已备份到 {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GameMaker Studio 2</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="qq106" changedate="20191117T134300Z" creationid="qq106" creationdate="20191117T134300Z">
         <seg>GameMaker Studio 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GameMaker Studio 2 Asset Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142731Z" creationid="liaronce" creationdate="20191118T142731Z">
+        <seg>GameMaker Studio 2 资源包</seg>
       </tuv>
     </tu>
     <tu>
@@ -19125,10 +19173,26 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Licence</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142750Z" creationid="liaronce" creationdate="20191118T142750Z">
+        <seg>许可证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Licence Agreement</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141445Z" creationid="liaronce" creationdate="20191118T141445Z">
         <seg>许可协议</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Licence Expired</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142721Z" creationid="liaronce" creationdate="20191118T142721Z">
+        <seg>许可证已过期</seg>
       </tuv>
     </tu>
     <tu>
@@ -24120,6 +24184,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Please ensure the NEX plugin has been correctly installed in NDI.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142836Z" creationid="liaronce" creationdate="20191118T142836Z">
+        <seg>请确保已在 NDI 中正确安装了 NEX 插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Please enter a new name and try again.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T221303Z" creationid="deciia" creationdate="20180921T154649Z">
@@ -27548,6 +27620,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170224T005757Z" creationid="deciia" creationdate="20170224T005757Z">
         <seg>将缓冲区保存到一个文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save as .aab or .apk</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142742Z" creationid="liaronce" creationdate="20191118T142737Z">
+        <seg>另存为 .aab 或 .apk</seg>
       </tuv>
     </tu>
     <tu>
@@ -32839,6 +32919,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The path for the Nintendo Switch NEX SDK does not exist.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142829Z" creationid="liaronce" creationdate="20191118T142829Z">
+        <seg>Nintendo Switch NEX SDK 的路径不存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The path for the Nintendo Switch SDK is misconfigured</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T202536Z" creationid="deciia" creationdate="20180922T202536Z">
@@ -34303,6 +34391,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Trial Licence</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142744Z" creationid="liaronce" creationdate="20191118T142744Z">
+        <seg>试用许可证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Trial Period Ended</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142719Z" creationid="liaronce" creationdate="20191118T142719Z">
+        <seg>试用期结束</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Tried to load an image that was too large.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170106T160040Z" creationid="deciia" creationdate="20170106T160040Z">
@@ -34947,6 +35051,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T014356Z" creationid="deciia" creationdate="20180922T014356Z">
         <seg>更新个人资料</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Update fonts imported from GameMaker Studio 1 projects</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142627Z" creationid="liaronce" creationdate="20191118T142627Z">
+        <seg>更新从GameMaker Studio 1项目导入的字体</seg>
       </tuv>
     </tu>
     <tu>
@@ -36967,6 +37079,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You have no notifications.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142825Z" creationid="liaronce" creationdate="20191118T142825Z">
+        <seg>您没有通知。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You have not copied a gadget.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T114359Z" creationid="deciia" creationdate="20170104T055219Z">
@@ -37079,6 +37199,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Your licence is due to expire in under {1} days\nRenew now for uninterrupted access to your product</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142801Z" creationid="liaronce" creationdate="20191118T142801Z">
+        <seg>您的许可证将在 {1} 天之内到期\n立即续订，以确保不间断地访问您的产品</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your licence is due to expire in under {1} weeks\nRenew now for uninterrupted access to your product</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142821Z" creationid="liaronce" creationdate="20191118T142821Z">
+        <seg>您的许可证将在 {1} 周内到期\n立即续订，以确保不间断地访问您的产品</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Your licence is due to expire in {0} days</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T134519Z" creationid="liaronce" creationdate="20191118T134519Z">
@@ -37121,8 +37257,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Your {0} licence is due to expire in under {1} days\nRenew now for uninterrupted access to your product</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T195612Z" creationid="deciia" creationdate="20180922T195612Z">
-        <seg>您的{0}许可证将在{1}天后过期\n请及时续订，以便不间断地访问您的产品</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142814Z" creationid="deciia" creationdate="20180922T195612Z">
+        <seg>您的 {0} 许可将于 {1} 天之内到期\n立即续订，以确保不间断地访问您的产品</seg>
       </tuv>
     </tu>
     <tu>
@@ -37363,6 +37499,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T095605Z" creationid="deciia" creationdate="20180922T095605Z">
         <seg>枚举项重复</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>duplicate enum found</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142610Z" creationid="liaronce" creationdate="20191118T142610Z">
+        <seg>找到重复的枚举项</seg>
       </tuv>
     </tu>
     <tu>
@@ -38079,6 +38223,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>macro {0} is unused</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142615Z" creationid="liaronce" creationdate="20191118T142615Z">
+        <seg>宏 {0} 未使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>malformed array reference {0}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T094706Z" creationid="deciia" creationdate="20180922T094706Z">
@@ -38275,6 +38427,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>unassigned variable {0} referenced</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142624Z" creationid="liaronce" creationdate="20191118T142624Z">
+        <seg>引用了未分配的变量 {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>unclosed #region found at End of Script</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T225925Z" creationid="deciia" creationdate="20180922T095735Z">
@@ -38367,6 +38527,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T225748Z" creationid="deciia" creationdate="20180922T095410Z">
         <seg>在 GameMaker Studio 2 试用版中不能使用{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>variable {0} only referenced once</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142619Z" creationid="liaronce" creationdate="20191118T142619Z">
+        <seg>变量 {0} 仅被引用一次</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>without status</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142906Z" creationid="liaronce" creationdate="20191118T142906Z">
+        <seg>无状态</seg>
       </tuv>
     </tu>
     <tu>
@@ -38783,6 +38959,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170313T144733Z" creationid="deciia" creationdate="20170311T162511Z">
         <seg>{0}:{1} - 创建时代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{1} IDE v{0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142541Z" creationid="liaronce" creationdate="20191118T142541Z">
+        <seg>{1} IDE v{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{1} IDE v{0} Steam</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142542Z" creationid="liaronce" creationdate="20191118T142542Z">
+        <seg>{1} IDE v{0} Steam</seg>
       </tuv>
     </tu>
     <tu>
