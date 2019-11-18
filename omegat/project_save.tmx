@@ -3398,6 +3398,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Authentication failed.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141212Z" creationid="liaronce" creationdate="20191118T141212Z">
+        <seg>验证失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Author</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T083256Z" creationid="deciia" creationdate="20170104T083256Z">
@@ -5782,6 +5790,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T091727Z" creationid="deciia" creationdate="20180922T033554Z">
         <seg>正在检查设备...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Checking Network...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141202Z" creationid="liaronce" creationdate="20191118T141202Z">
+        <seg>正在检查网络...</seg>
       </tuv>
     </tu>
     <tu>
@@ -9395,6 +9411,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141301Z" creationid="liaronce" creationdate="20191118T141301Z">
+        <seg>目标驱动器 {0} 仅有 {1} GB可用空间。\ n建议至少 2 GB 的可用空间-请确保在继续操作之前有足够的可用空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Destroy</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T044141Z" creationid="deciia" creationdate="20170102T044141Z">
@@ -11763,6 +11787,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Error Downloading Tutorial: '{0}'</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141324Z" creationid="liaronce" creationdate="20191118T141324Z">
+        <seg>下载教程错误：“{0}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Error Opening Externally</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T141126Z" creationid="deciia" creationdate="20170103T112759Z">
@@ -12570,6 +12602,38 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T033934Z" creationid="deciia" creationdate="20180922T033934Z">
         <seg>无法打开外部编辑器：{0}。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Failed to regenerate one or more fonts.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141042Z" creationid="liaronce" creationdate="20191118T141042Z">
+        <seg>无法重新生成一种或多种字体。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Failed to regenerate one or more fonts.\n{1} legacy fonts were excluded.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141053Z" creationid="liaronce" creationdate="20191118T141053Z">
+        <seg>无法重新生成一种或多种字体。\n{1} 旧字体被排除在外。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Failed to regenerate one or more fonts.\n{1} legacy fonts were excluded.\n{2} fonts were unavailable.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141133Z" creationid="liaronce" creationdate="20191118T141120Z">
+        <seg>无法重新生成一种或多种字体。\n{1} 旧字体已排除在外。\n{2} 字体不可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Failed to regenerate one or more fonts.\n{2} fonts were unavailable.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141104Z" creationid="liaronce" creationdate="20191118T141104Z">
+        <seg>无法重新生成一种或多种字体。\n{2} 字体不可用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17298,6 +17362,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Install Runtime {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141239Z" creationid="liaronce" creationdate="20191118T141239Z">
+        <seg>安装运行时 {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Install location</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T021102Z" creationid="deciia" creationdate="20180922T021102Z">
@@ -21172,6 +21244,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>No licence found.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141219Z" creationid="liaronce" creationdate="20191118T141219Z">
+        <seg>找不到许可证。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>No mac found</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T084910Z" creationid="deciia" creationdate="20180922T084910Z">
@@ -22848,6 +22928,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Parent folder '{0}' already has a child folder with name '{1}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141314Z" creationid="liaronce" creationdate="20191118T141314Z">
+        <seg>父文件夹 “{0}” 已经具有名为 “{1}” 的子文件夹。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Particles</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T054319Z" creationid="deciia" creationdate="20170107T054319Z">
@@ -23672,6 +23760,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Please try again later or contact the helpdesk.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141233Z" creationid="liaronce" creationdate="20191118T141233Z">
+        <seg>请稍后重试或联系客服。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Please try pasting again in a few seconds.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170209T083049Z" creationid="deciia" creationdate="20170209T083049Z">
@@ -23692,6 +23788,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140130Z" creationid="liaronce" creationdate="20191118T140130Z">
         <seg>请将 IDE 更新到创建该项目时所使用的版本，然后尝试再次打开它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Please verify your username and password and try again.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141217Z" creationid="liaronce" creationdate="20191118T141217Z">
+        <seg>请验证您的用户名和密码，然后重试。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25466,6 +25570,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T133739Z" creationid="deciia" creationdate="20170103T133739Z">
         <seg>替换：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Replacing '{0}' with '{1}'</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141151Z" creationid="liaronce" creationdate="20191118T141151Z">
+        <seg>用 “{1}” 替换 “{0}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -27276,6 +27388,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T133903Z" creationid="deciia" creationdate="20170103T133903Z">
         <seg>查找：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Searching for '{0}'...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141141Z" creationid="liaronce" creationdate="20191118T141141Z">
+        <seg>正在搜索 “{0}” ...</seg>
       </tuv>
     </tu>
     <tu>
@@ -30942,6 +31062,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Stop Search</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141158Z" creationid="liaronce" creationdate="20191118T141158Z">
+        <seg>停止搜索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Stop all audio.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T092327Z" creationid="deciia" creationdate="20170212T092327Z">
@@ -31176,24 +31304,24 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Successfully regenerated {0} fonts.\n{1} legacy fonts were excluded.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140957Z" creationid="liaronce" creationdate="20191118T140957Z">
-        <seg>成功重新生成了 {0} 个字体。\n{1}个旧字体已排除在外。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141032Z" creationid="liaronce" creationdate="20191118T140957Z">
+        <seg>成功重新生成了 {0} 个字体。\n{1} 个旧字体已排除在外。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Successfully regenerated {0} fonts.\n{1} legacy fonts were excluded.\n{2} fonts were unavailable.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141028Z" creationid="liaronce" creationdate="20191118T141028Z">
-        <seg>成功重新生成了 {0} 个字体。\n{1} 个旧字体已排除在外。\ n {2}个字体不可用。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141039Z" creationid="liaronce" creationdate="20191118T141028Z">
+        <seg>成功重新生成了 {0} 个字体。\n{1} 个旧字体已排除在外。\n{2} 个字体不可用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Successfully regenerated {0} fonts.\n{2} fonts were unavailable.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141011Z" creationid="liaronce" creationdate="20191118T141011Z">
-        <seg>已成功重新生成 {0} 个字体。\n{2}个字体不可用。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141030Z" creationid="liaronce" creationdate="20191118T141011Z">
+        <seg>已成功重新生成 {0} 个字体。\n{2} 个字体不可用。</seg>
       </tuv>
     </tu>
     <tu>
