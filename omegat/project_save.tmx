@@ -24304,6 +24304,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Please choose if you want to replace with the imported files, or keep the existing project resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T081317Z" creationid="lazyeo" creationdate="20191120T081317Z">
+        <seg>请选择是否要用导入的文件进行替换，或保留现有项目中的资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Please close it first</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T204950Z" creationid="deciia" creationdate="20180922T204950Z">
@@ -26608,6 +26616,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Resolve Import Conflicts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T081206Z" creationid="lazyeo" creationdate="20191120T081206Z">
+        <seg>解决导入冲突</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Resource</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170311T160154Z" creationid="deciia" creationdate="20170311T160154Z">
@@ -26636,6 +26652,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T083947Z" creationid="deciia" creationdate="20180922T083947Z">
         <seg>资源标签</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Resource Name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T081344Z" creationid="lazyeo" creationdate="20191120T081344Z">
+        <seg>资源名称</seg>
       </tuv>
     </tu>
     <tu>
@@ -33159,6 +33183,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following package resource(s) have the same names as existing project resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T081338Z" creationid="lazyeo" creationdate="20191120T081251Z">
+        <seg>以下包内资源与当前项目中资源名称相同</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The font {0} does not contain any character maps and cannot be loaded.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="36011" changedate="20170315T145326Z" creationid="deciia" creationdate="20170107T052342Z">
@@ -33849,6 +33881,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180926T192935Z" creationid="deciia" creationdate="20180922T070505Z">
         <seg>该房间无创建时代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This rounds the value down to the previous integer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T081108Z" creationid="lazyeo" creationdate="20191120T081108Z">
+        <seg>这将默认去掉小数点后的数字进行取整</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This rounds the value to the nearest integer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T081049Z" creationid="lazyeo" creationdate="20191120T081049Z">
+        <seg>这将四舍五入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This rounds the value up to the next integer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T081133Z" creationid="lazyeo" creationdate="20191120T081133Z">
+        <seg>这将默认向上取整</seg>
       </tuv>
     </tu>
     <tu>
