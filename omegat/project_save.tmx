@@ -10083,6 +10083,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Disable the auto-hinter and prefer the font's native hinter if it has one\nThis overrides 'Prefer Auto-hinter'</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T080158Z" creationid="lazyeo" creationdate="20191120T080158Z">
+        <seg>禁用自动微调，如果字体自带微调则优先采用。 \n 本选项会覆盖""</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Disabled</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170104T065842Z" creationid="deciia" creationdate="20170104T065830Z">
@@ -24658,8 +24666,8 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       <tuv lang="EN-US">
         <seg>Prefer Auto-hinter</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20191118T140709Z" creationid="liaronce" creationdate="20191118T140709Z">
-        <seg>首选自动提示</seg>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T080206Z" creationid="liaronce" creationdate="20191118T140709Z">
+        <seg>首选自动微调</seg>
       </tuv>
     </tu>
     <tu>
