@@ -10085,8 +10085,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="EN-US">
         <seg>Disable the auto-hinter and prefer the font's native hinter if it has one\nThis overrides 'Prefer Auto-hinter'</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T080158Z" creationid="lazyeo" creationdate="20191120T080158Z">
-        <seg>禁用自动微调，如果字体自带微调则优先采用。 \n 本选项会覆盖""</seg>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T080227Z" creationid="lazyeo" creationdate="20191120T080158Z">
+        <seg>禁用自动微调，如果字体自带微调则优先采用。 \n 本选项会覆盖"首选自动微调"</seg>
       </tuv>
     </tu>
     <tu>
@@ -24680,6 +24680,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Prefer using the auto-hinter over the font's native hinter\nThis is overridden by 'Disable Auto-hinter' and 'Disable Hinting'</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T080413Z" creationid="lazyeo" creationdate="20191120T080413Z">
+        <seg>优先采用自动微调算法而非字体自带的微调机制 \n 这选项将被"禁用自动微调"和"禁用微调"选项覆盖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Preferences</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="36011" changedate="20170316T113242Z" creationid="deciia" creationdate="20170102T070444Z">
@@ -28410,8 +28418,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="EN-US">
         <seg>Select a specific hinting algorithm to use by the hinter</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20191118T140511Z" creationid="liaronce" creationdate="20191118T140511Z">
-        <seg>选择特定的提示算法以供提示使用</seg>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T080307Z" creationid="liaronce" creationdate="20191118T140511Z">
+        <seg>选择特定的微调算法以供微调使用</seg>
       </tuv>
     </tu>
     <tu>
