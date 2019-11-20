@@ -18595,6 +18595,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
     </tu>
     <tu>
+      <tuv lang="EN-US">
+        <seg>Keep glyphs in font units and ignore requested size\nThis implies 'Disable Hinting'</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T080531Z" creationid="lazyeo" creationdate="20191120T080531Z">
+        <seg>将字形保持为字体单位并无视请求的尺寸 \n 这个选项将"禁用微调"</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>代码编辑器情境，这里的tab指一个tab的缩进操作。此条笔记可以删除。</note>
       <tuv lang="EN-US">
         <seg>Keep tabs</seg>
@@ -30682,6 +30690,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Slightly warp glyphs to improve their grid alignment\nThis requires the auto-hinter and 'Normal' hinting mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T080625Z" creationid="lazyeo" creationdate="20191120T080625Z">
+        <seg>稍微扭曲字形以优化网格对齐 \n 这功能依赖"自动微调"和"普通"微调模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Slow double-click time (ms)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180925T092006Z" creationid="deciia" creationdate="20180922T034114Z">
@@ -33719,6 +33735,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="36011" changedate="20170316T114045Z" creationid="deciia" creationdate="20170104T033359Z">
         <seg>该组为空。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This interpreter imitates subpixel hinting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T080714Z" creationid="lazyeo" creationdate="20191120T080659Z">
+        <seg>模拟子像素微调机制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This interpreter is based on the TrueType specification and produces black-and-white bitmaps</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T080735Z" creationid="lazyeo" creationdate="20191120T080735Z">
+        <seg>基于TrueType规范，生成黑白位图</seg>
       </tuv>
     </tu>
     <tu>
