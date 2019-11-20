@@ -2784,6 +2784,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Apply the same transformation to the sprite's origin\nThis is only optional if the sprite origin is custom and unlocked</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T084206Z" creationid="lazyeo" creationdate="20191120T084206Z">
+        <seg>允许所有子图基于原点位置进行相同的变换 \n 仅在精灵原点是自定义且未锁定时才可启用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Apply to All Frames</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180921T151643Z" creationid="deciia" creationdate="20180921T151643Z">
@@ -8140,6 +8148,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create Local Package</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T084252Z" creationid="lazyeo" creationdate="20191120T084252Z">
+        <seg>创建本地包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create Map</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180926T070534Z" creationid="deciia" creationdate="20170212T043659Z">
@@ -8513,6 +8529,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170103T090330Z" creationid="deciia" creationdate="20170103T090330Z">
         <seg>创建程序包 '{0}' 版本 {1}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Created package file: {0}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T084312Z" creationid="lazyeo" creationdate="20191120T084312Z">
+        <seg>创建包文件: {0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -11983,6 +12007,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20180922T073537Z" creationid="deciia" creationdate="20180922T073537Z">
         <seg>输入调试器连接字符串</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enter a package name and ID</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T084241Z" creationid="lazyeo" creationdate="20191120T084241Z">
+        <seg>输入一个包名和ID</seg>
       </tuv>
     </tu>
     <tu>
@@ -17003,6 +17035,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170102T084841Z" creationid="deciia" creationdate="20170102T084826Z">
         <seg>导入图像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Import Local Package</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T084258Z" creationid="lazyeo" creationdate="20191120T084258Z">
+        <seg>导入本地包</seg>
       </tuv>
     </tu>
     <tu>
@@ -30470,6 +30510,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="ZH-CN" changeid="deciia" changedate="20170105T102221Z" creationid="deciia" creationdate="20170105T102221Z">
         <seg>关机</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sign Package</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="lazyeo" changedate="20191120T084227Z" creationid="lazyeo" creationdate="20191120T084227Z">
+        <seg>包签名</seg>
       </tuv>
     </tu>
     <tu>
