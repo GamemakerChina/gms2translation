@@ -8,7 +8,7 @@
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>Mark Shi</Author>
   <LastAuthor>Mark Shi</LastAuthor>
-  <Created>2019-11-17T13:23:56Z</Created>
+  <Created>2020-08-19T07:28:23Z</Created>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -36,10 +36,10 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="5580" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="6420" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="14.25">
    <Row>
-    <Cell><Data ss:Type="String">Translation</Data></Cell>
+    <Cell><Data ss:Type="String">English</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -259,6 +259,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Your trial is due to expire in {0} days</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Marketplace Certificate Settings</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Successfully created certificate file: {0}</Data></Cell>
@@ -1110,6 +1113,9 @@
     <Cell><Data ss:Type="String">Animation Update</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Broadcast Message</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Path Ended</Data></Cell>
    </Row>
    <Row>
@@ -1162,6 +1168,27 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Unknown Event</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequence Events</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Type Function Name Here</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This will override the following functions:\n{0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Would you like to create new functions?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequence Events - Create New Functions</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Type Broadcast Message Here</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Frame</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Are you sure you want to exit?</Data></Cell>
@@ -1312,6 +1339,159 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">!\&quot;#$%&amp;'()*+,-./00300123456789:;&lt;=&gt;?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Inspector</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Inspector</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Inspector: {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Inspector Window: Multiple Items</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Inspector Error</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Lock inspector to current selection</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Unlock inspector to allow new selections</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">(List is empty)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">(Array is empty)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">(Object is not inspectable)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">'{0}' is not supported by the inspector</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Element did not return a value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">An exception was thrown by this element</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This field does not support bulk editing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">An error occurred in retrieving this value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The selected elements have different values for this field</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Element {0} - {1}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Element {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This is an entry in the array</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Failed to add new element to the array list.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Failed to remove element from the array list.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add another element</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Remove this element</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Size:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">An error occurred while getting this value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Selected elements have different values for this field</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This list does not support bulk editing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">An error occurred while getting this value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Selected elements have different values for this field</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This object does not support bulk editing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">An error occurred while getting this value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Events do not support bulk editing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add event</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">An error occurred while attempting to undo a change.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">An error occurred while attempting to redo a change.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Physics</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Permissions</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Icons</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Logo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Splash Screen</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Software Development Kit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Orientation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Xbox Live</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Viewport</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">View</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Texture Settings</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Collision Mask</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tiles</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Advanced Options</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Open Editor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ruler Value</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">{0} x {1}</Data></Cell>
@@ -1695,6 +1875,9 @@
     <Cell><Data ss:Type="String">Pan Area</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Sequence Canvas</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Radio Button</Data></Cell>
    </Row>
    <Row>
@@ -1719,6 +1902,9 @@
     <Cell><Data ss:Type="String">Thumbnail Slider</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Angular Select</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Stack Panel</Data></Cell>
    </Row>
    <Row>
@@ -1726,6 +1912,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Textbox</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Function Textbox</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Text Input</Data></Cell>
@@ -1782,6 +1971,9 @@
     <Cell><Data ss:Type="String">Resources</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Drag and Drop</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Game Options - {0}</Data></Cell>
    </Row>
    <Row>
@@ -1807,6 +1999,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Frame</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Head</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Height</Data></Cell>
@@ -3111,6 +3306,9 @@
     <Cell><Data ss:Type="String">Asset Package:</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Changelog:</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Add</Data></Cell>
    </Row>
    <Row>
@@ -3256,6 +3454,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Package upload cancelled</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Package upload successful!</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Package Type:</Data></Cell>
@@ -3804,13 +4005,28 @@
     <Cell><Data ss:Type="String">Output</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">No {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">No Resource</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">No Object</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">No Sprite</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">No Sequence</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">No Tileset</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">No Particle Type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">No Particle System</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Add Existing</Data></Cell>
@@ -3903,6 +4119,9 @@
     <Cell><Data ss:Type="String">Rename</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Open in Image Editor</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Generated font texture for '{0}'</Data></Cell>
    </Row>
    <Row>
@@ -3951,6 +4170,9 @@
     <Cell><Data ss:Type="String">Fonts</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Folders</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Included Files</Data></Cell>
    </Row>
    <Row>
@@ -3988,6 +4210,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Create Tile Set</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create Nine Slice</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Create Note</Data></Cell>
@@ -4050,7 +4275,7 @@
     <Cell><Data ss:Type="String">Timelines</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Resources</Data></Cell>
+    <Cell><Data ss:Type="String">Assets</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">View Name Already In Use</Data></Cell>
@@ -4120,6 +4345,18 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Graphic: {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Particle System: {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequence: {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Nine Slice: {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sprite: {0}</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Colour:</Data></Cell>
@@ -4557,6 +4794,33 @@
     <Cell><Data ss:Type="String">Stop Search</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Ignore Comments</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scripts</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Objects</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequences</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rooms</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Notes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Timelines</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Shaders</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Extensions</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Attributes:</Data></Cell>
    </Row>
    <Row>
@@ -4842,6 +5106,12 @@
     <Cell><Data ss:Type="String">Loading Devices...</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Loading Plugin Resources...</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Loading Plugin Languages...</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">User Login</Data></Cell>
    </Row>
    <Row>
@@ -5031,7 +5301,7 @@
     <Cell><Data ss:Type="String">Name:</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Origin:</Data></Cell>
+    <Cell><Data ss:Type="String">Origin</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Bottom Left</Data></Cell>
@@ -5098,6 +5368,333 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Sprite: {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">New_Particle_Type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">New_Emitter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Particle Types</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Appearance</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Properties</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Textures</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Use a preset texture as a particle type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Use a Sprite from the project as a particle type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Colour</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sets how this particle type changes colour over time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Size</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sets the size this particle type can spawn as relative to the Sprite or texture used to display it</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sets the scale of this particle type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Minimum</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Maximum</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Increment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sets how much this property changes over time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Wiggle</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sets how much this property can randomly change over time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Blending</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Enable additive blending for this particle type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gravity</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sets the gravity force and direction applied to this particle type over time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Force</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Direction</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Direction</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sets the direction of this particle type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Orientation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sets the rotation of this particle type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Relative</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sets whether this particle type's rotation is relative to its direction</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Speed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sets the speed of this particle type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Life</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Subparticles</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">On Death</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Spawn another particle when this dies</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">On Update</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Spawn another particle each update</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Head</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Use the sprite frame at the given head position</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Incompatible Runtime</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The active runtime does not support editor particle systems. Upgrade to a newer runtime to use this feature.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Particle System: {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">System</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Particles</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emitters</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw Order</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a new particle type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete selected particle type(s)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a new particle emitter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete particle emitter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Edit this particle type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Edit this particle emitter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Name</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mode</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Particle Type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Particle Count</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Shape</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Distribution</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Enabled</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Editor Colour</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Left</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Top</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Width</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Height</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rotation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Change the preview background</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Toggle preview background</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Start the particle system</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pause the particle system</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Select particle type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Display a sprite or a local image as the background of the Particle System preview.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sprite</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Local image</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Automatic Update</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Automatic Draw</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Time Offset</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Particles: {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Update: {0}ms</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Drawing: {0}ms</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw older particles below newer particles (default)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw newer particles below older particles</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Default</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">New Below Old</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Linear</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gaussian</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Inverse Gaussian</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rectangle</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Line</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ellipse</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Diamond</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pixel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Disk</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Circle</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ring</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Line</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Square</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Star</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Spark</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Flare</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sphere</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Smoke</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Explosion</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cloud</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Snow</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stream</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Burst</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Start page failed to load.\nYou can create new projects from the File menu.</Data></Cell>
@@ -5619,6 +6216,9 @@
     <Cell><Data ss:Type="String">Continue</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Failed to acquire access token</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">{0} - Length should be less than {1}</Data></Cell>
    </Row>
    <Row>
@@ -5676,6 +6276,12 @@
     <Cell><Data ss:Type="String">Resources</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Asset Browser</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Inspector</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Tutorial Windows</Data></Cell>
    </Row>
    <Row>
@@ -5718,7 +6324,13 @@
     <Cell><Data ss:Type="String">Dock Tab{0}</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">The selected layer does not accept the dragged resources, please select an appropriate layer type, ie. object -&gt; instance layer, sprite -&gt; asset or background layer, path -&gt; path layer</Data></Cell>
+    <Cell><Data ss:Type="String">The selected layer does not accept the dragged assets, please select an appropriate layer type, ie. object -&gt; instance layer, sprite -&gt; asset or background layer, path -&gt; path layer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This asset can only be applied to an Instance Layer and you do not currently have one selected.\n\nWould you like to create a new Instance Layer?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This asset can only be applied to an Asset Layer and you do not currently have one selected.\n\nWould you like to create a new Asset Layer?</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Floating Dock</Data></Cell>
@@ -5751,7 +6363,10 @@
     <Cell><Data ss:Type="String">Invalid model.</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Parent folder '{0}' already has a child folder with name '{1}'.</Data></Cell>
+    <Cell><Data ss:Type="String">Group name '{0}' is already in use</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A group with name '{0}' already exists at this location</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">View</Data></Cell>
@@ -6240,9 +6855,6 @@
     <Cell><Data ss:Type="String">Error loading tutorial file: {0}</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Could not find tutorial template project: {0}</Data></Cell>
-   </Row>
-   <Row>
     <Cell><Data ss:Type="String">Installing Tutorial</Data></Cell>
    </Row>
    <Row>
@@ -6252,7 +6864,10 @@
     <Cell><Data ss:Type="String">Error installing tutorial</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Failed to install tutorial package '{0}'</Data></Cell>
+    <Cell><Data ss:Type="String">Failed to install tutorial package: {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Unable to locate tutorial project file: {0}</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Display name must be set</Data></Cell>
@@ -6367,6 +6982,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Keep aspect ratio</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Launchscreen fill</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Full scale</Data></Cell>
@@ -7464,6 +8082,9 @@
     <Cell><Data ss:Type="String">Use an external browser for help</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Use RoboHelp</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Automatic response to deleting frames</Data></Cell>
    </Row>
    <Row>
@@ -7596,13 +8217,13 @@
     <Cell><Data ss:Type="String">Automatically dismiss duplicate folder error</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Automatic response to resource deletion</Data></Cell>
+    <Cell><Data ss:Type="String">Automatic response to Asset deletion</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Automatic response to opening multiple resources</Data></Cell>
+    <Cell><Data ss:Type="String">Automatic response to opening multiple Assets</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Maximum number of resources to open simultaneously without warning</Data></Cell>
+    <Cell><Data ss:Type="String">Maximum number of Assets to open simultaneously without warning</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Automatic response to parent room item deletion</Data></Cell>
@@ -7617,7 +8238,13 @@
     <Cell><Data ss:Type="String">Automatic response to room layer deletion</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Automatic response to invalid resource drag error</Data></Cell>
+    <Cell><Data ss:Type="String">Hide warnings when dragging unusable assets onto room layers</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create new Instance layers when dragging objects onto unsuitable layers</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create new Asset layers when dragging sequences/sprites onto unsuitable layers</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Automatic response to invalid layer selection drag error</Data></Cell>
@@ -7651,6 +8278,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Show room views</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Volume</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Automatic response to permanent action warning</Data></Cell>
@@ -7824,6 +8454,9 @@
     <Cell><Data ss:Type="String">Obsolete functions etc</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Struct members (built in)</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Braces</Data></Cell>
    </Row>
    <Row>
@@ -7899,6 +8532,9 @@
     <Cell><Data ss:Type="String">Cloning...</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Converting...</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Failed to open external editor {0}.</Data></Cell>
    </Row>
    <Row>
@@ -7930,6 +8566,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Laptop file watcher frequency (ms)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Enable File Watcher</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Logout on exit</Data></Cell>
@@ -8118,6 +8757,9 @@
     <Cell><Data ss:Type="String">Local</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Edit Configs</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Toolbox</Data></Cell>
    </Row>
    <Row>
@@ -8179,6 +8821,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Hide docked DnD™ toolboxes if floating DnD™ toolbox is open</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Thickness of the chain that connects DnD™ actions</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Hide DnD™ node overview panel</Data></Cell>
@@ -8277,10 +8922,19 @@
     <Cell><Data ss:Type="String">Save</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Delete</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Changes detected in project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Project Directory Modified</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Resources have been deleted</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Resources have been deleted from disk in '{0}'. You can re-save these, or delete the resources from the project.\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Changes detected in base project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files</Data></Cell>
@@ -8592,7 +9246,10 @@
     <Cell><Data ss:Type="String">Back</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Search</Data></Cell>
+    <Cell><Data ss:Type="String">{0} item</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">{0} items</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Cancel</Data></Cell>
@@ -8979,6 +9636,9 @@
     <Cell><Data ss:Type="String">Select Resource</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Showing {0}/{1} filtered items</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">{0} in DnD™ action {1}</Data></Cell>
    </Row>
    <Row>
@@ -9265,6 +9925,12 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Add Existing Failed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Would you like to add these files as Included Files?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Import As Included Files</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Tiles</Data></Cell>
@@ -9576,13 +10242,49 @@
     <Cell><Data ss:Type="String">Automatic button choice on iOS 3rd Party Framework deletion</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Search resource name:</Data></Cell>
+    <Cell><Data ss:Type="String">Search for Assets, Options, Preferences:</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">What are you looking for?</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Maximum number of search results to display</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Enable styling on search results (turn off for better performance)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Search in Resources</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Search in Preferences</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Search in Game Options</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Project Resources</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This driver exposes the project resources to Go To</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Preferences</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This driver exposes preferences to Go To</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Game Options</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This driver exposes game options to Go To</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">{0} - Preference</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">{0} - Game Options</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Extension Properties - Export</Data></Cell>
@@ -9627,7 +10329,7 @@
     <Cell><Data ss:Type="String">Windows</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Resources</Data></Cell>
+    <Cell><Data ss:Type="String">Assets</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Go To...</Data></Cell>
@@ -9649,6 +10351,12 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Extension Error</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Runtime Error</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The current runtime is too old for this project version. Please select one beginning with at least 2.3</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Extensions with more than 4 arguments on DLL types must all have the same argument type.\n{0}</Data></Cell>
@@ -9870,7 +10578,7 @@
     <Cell><Data ss:Type="String">Expression</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Resource</Data></Cell>
+    <Cell><Data ss:Type="String">Asset</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Colour</Data></Cell>
@@ -9897,7 +10605,7 @@
     <Cell><Data ss:Type="String">The value is any code expression</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">The value is a resource (allows expressions)</Data></Cell>
+    <Cell><Data ss:Type="String">The value is an asset (allows expressions)</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">The value is a colour (allows expressions)</Data></Cell>
@@ -10026,6 +10734,12 @@
     <Cell><Data ss:Type="String">Call any function with optional arguments and get the return value of the function.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">New</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a new struct with optional arguments and assign it to a variable.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Common</Data></Cell>
    </Row>
    <Row>
@@ -10033,6 +10747,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Instances</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequences</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Mouse &amp; Keyboard</Data></Cell>
@@ -10179,7 +10896,7 @@
     <Cell><Data ss:Type="String">Return</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Return a value from a script.</Data></Cell>
+    <Cell><Data ss:Type="String">Return a value from a function.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Macro</Data></Cell>
@@ -10216,6 +10933,48 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Destroy an instance and remove it from the room.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create Sequence</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Creates an instance of a sequence.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Destroy Sequence</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Destroys an instance of a sequence and remove it from the room.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get Sequence Position</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sets the values of the x and y variables to the position of the sequence.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set Sequence Position</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sets the position of the sequence.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play Sequence</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Plays the sequence.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pause Sequence</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pauses the sequence.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If Sequence Exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Check if a sequence exists.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Destroy At Position</Data></Cell>
@@ -11337,10 +12096,19 @@
     <Cell><Data ss:Type="String">Object</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Sequence</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">X</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Target X</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Target Y</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Layer</Data></Cell>
@@ -12456,6 +13224,9 @@
     <Cell><Data ss:Type="String">Archiving...</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Converting GMX...</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Disable Source Sprite Export</Data></Cell>
    </Row>
    <Row>
@@ -13117,6 +13888,42 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Workspace chain rendering segment count</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Canvas chain rendering segment count</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Translation path point insertion margin</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Automatic button choice on Add Action</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Automatically create default parameter tracks</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Automatically stretch newly added assets</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Enable Smart Guides</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Enable Rulers</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Snap Distance</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Snap Rulers to edges</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pick whip chain rendering segment count</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pick whip chain thickness</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pick whip colour</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Toggle Breakpoint</Data></Cell>
@@ -13905,6 +14712,9 @@
     <Cell><Data ss:Type="String">Local Variable</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Static Variable</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Variable</Data></Cell>
    </Row>
    <Row>
@@ -13936,6 +14746,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">The file '{0}' is not supported. See Compile Errors window.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The file '{0}' is not supported. See Compile Errors window for further information and try re-exporting using a supported version of Spine.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Webserver Port Unavailable</Data></Cell>
@@ -14079,6 +14892,9 @@
     <Cell><Data ss:Type="String">Mouse wheel zoom requires ${ctrl} key</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Wrap cursor around screen when panning</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">DPI override changes requires a restart of the IDE. Do you want to restart now?</Data></Cell>
    </Row>
    <Row>
@@ -14178,6 +14994,9 @@
     <Cell><Data ss:Type="String">Are you sure you want to set '{0}' as the room inheritance parent of '{1}'?</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Are you sure you want to remove the room inheritance parent from '{0}'?</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Automatic response to setting a room parent via node drag</Data></Cell>
    </Row>
    <Row>
@@ -14188,6 +15007,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Lock Graphic</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Lock Sequence</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Using symbols not found in font (?)</Data></Cell>
@@ -14298,10 +15120,19 @@
     <Cell><Data ss:Type="String">GMS 1.x</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">GMS 2.3</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">IDE language</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Maximum framerate of the GameMaker Studio 2 editor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set File Watcher tolerance in ms after saving from within IDE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">File Watcher</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Enable notifications</Data></Cell>
@@ -14448,13 +15279,25 @@
     <Cell><Data ss:Type="String">Sprites background colour</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Nine Slices background colour</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Tile Sets background colour</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Sounds background colour</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Audio Emitters background colour</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Paths background colour</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Animation Curves background colour</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Animation Curves</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Scripts background colour</Data></Cell>
@@ -14463,10 +15306,16 @@
     <Cell><Data ss:Type="String">Shaders background colour</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Particle Systems background colour</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Fonts background colour</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Timelines background colour</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequences background colour</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Objects background colour</Data></Cell>
@@ -14559,13 +15408,22 @@
     <Cell><Data ss:Type="String">Sprites icon colour</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Nine Slices icon colour</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Tile Sets icon colour</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Sounds icon colour</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Audio Emitters icon colour</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Paths icon colour</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Animation Curves icon colour</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Scripts icon colour</Data></Cell>
@@ -14574,10 +15432,16 @@
     <Cell><Data ss:Type="String">Shaders icon colour</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Particle Systems icon colour</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Fonts icon colour</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Timelines icon colour</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequences icon colour</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Objects icon colour</Data></Cell>
@@ -14602,6 +15466,66 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Node selection highlight</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Note</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Object</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Path</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Room</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Script</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Shader</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sprite</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tile Set</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Timeline</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Font</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequence</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Animation Curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Extension</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Included File</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Resource</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Room Instances</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Room Instance</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Room Graphics</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Room Graphic</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Recent Windows</Data></Cell>
@@ -14727,6 +15651,9 @@
     <Cell><Data ss:Type="String">Spline Editor</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Sequences</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Tile Sets Editor</Data></Cell>
    </Row>
    <Row>
@@ -14796,10 +15723,16 @@
     <Cell><Data ss:Type="String">Paths</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Animation Curves</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Power Saving</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Recent Windows</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pick Whip</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Resources</Data></Cell>
@@ -14809,6 +15742,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Grid Settings</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Smart Guides</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Tools</Data></Cell>
@@ -15078,16 +16014,25 @@
     <Cell><Data ss:Type="String">Sprites</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Nine Slices</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Tile Sets</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Sounds</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Audio Emitters</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Scripts</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Shaders</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Particle Systems</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Fonts</Data></Cell>
@@ -15163,6 +16108,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Global Variables</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Static Variables</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Line Number Text</Data></Cell>
@@ -15366,10 +16314,10 @@
     <Cell><Data ss:Type="String">use of {0} is not allowed in GameMaker Studio 2 Trial</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">number of arguments expected {0} got {1}</Data></Cell>
+    <Cell><Data ss:Type="String">number of arguments for function {2} expected {0} got {1}</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">number of arguments expected {0} - {1} got {2}</Data></Cell>
+    <Cell><Data ss:Type="String">number of arguments for function {3} expected {0} - {1} got {2}</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">duplicate enum entry found</Data></Cell>
@@ -15421,6 +16369,18 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">unassigned variable {0} referenced</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">only functions that are declared as constructors can use inheritance.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">unknown function atribute {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Inherited argument &quot;{0}&quot; is not in function arguments</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">only 16 named arguments supported in a function declaration</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">{0} at line {1} : {2}</Data></Cell>
@@ -15654,10 +16614,10 @@
     <Cell><Data ss:Type="String">Local Machine ID missing</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Your GameMaker Studio 2 - 30 Day Trial has expired.\n\nIf you enjoyed using GameMaker Studio 2, and want to pick up where you left off, you can get a licence from only $39.\n\nBUY NOW and Get CREATIVE!</Data></Cell>
+    <Cell><Data ss:Type="String">Your GameMaker Studio 2 trial has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Your GameMaker Studio 2 Licence has expired.\n\nIf you enjoyed using GameMaker Studio 2, and want to pick up where you left off, you can get a licence from only $39.\n\nBUY NOW and Get CREATIVE!</Data></Cell>
+    <Cell><Data ss:Type="String">Your GameMaker Studio 2 Licence has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Trial Period Ended</Data></Cell>
@@ -16278,6 +17238,12 @@
     <Cell><Data ss:Type="String">iPhone X/Xs Landscape</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Launch Screen</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Launch Screen Landscape</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">iPhone X/Xs Portrait</Data></Cell>
    </Row>
    <Row>
@@ -16329,10 +17295,1438 @@
     <Cell><Data ss:Type="String">iPhone Xs Max</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Create Sequence</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create Particle System</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create Animation Curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create Audio Emitter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequences</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Particle Systems</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Animation Curves</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Audio Emitters</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create Vector Sprite</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Open in Shape Viewer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequence: {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Automatically record changes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pause when clicking on canvas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Overlap selection delay in milliseconds</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Show canvas frame on newly created sequences</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Canvas frame width on newly created sequences</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Canvas frame height on newly created sequences</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Design</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Code</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Split</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Animation Curve: {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Shape Viewer: {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Audio Emitter: {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tracks</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Track Panel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Click or drag an asset here to create an asset track. Organise &amp; order your tracks in this panel.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Dope Sheet</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">'Tracks' appear here when assets have been added to the project. Click or drag assets here.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">fps</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Frames (f)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Time (h:m:s)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">f</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Frames</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">h:m:s</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Timestamp</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Playhead position ({0})</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequence length ({0})</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Change time units</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Go To Function</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add Function</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete Moment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete Broadcast Message</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Transform</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rasterize as Sprite</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Disable</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Disable a track</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Invisible</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Make a track invisible by disabling all rendering</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Locked</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Prevent editing a track by locking it</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Link</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Link a track to another to use its keyframes instead</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This track is not compatible with the selected track</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This would create a cyclic link</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Track Information</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Name</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Graphic</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Particles</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Frames</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Text</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Instance</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequence</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Code</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Real</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">String</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Resource</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Colour</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Boolean</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Width</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Height</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Group</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clipping Mask</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mask</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Subject</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Position</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Unnamed Variable</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rotation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Volume</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pitch</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Falloff</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Colour Multiply</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Colour Add</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Origin</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Image Speed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Image Index</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Image Angle</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Image Blend</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">x</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">angle</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">colour</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">alpha</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">red</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">green</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">blue</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">volume</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">pitch</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">falloff</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">index</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">speed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">channel {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Double-click to edit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Linear</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Centripetal Catmull-Rom</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Single channel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Dual channel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Color channels</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A single channel animation curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A dual channel animation curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A color channel animation curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The default curve channel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The red color channel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The green color channel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The blue color channel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The alpha color channel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Zoom In</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Zoom Out</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Centre Fit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">point {0}:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set Range</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Upper</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Lower</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Insert Point</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Edit Colour</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete Point</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete Points</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Are you sure you want to delete {0}?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Are you sure you want to delete all curves?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Anim Curve Editor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Automatic response to curve deletion</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Use compact layout</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stretch Parameter Key</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stretch Asset Key</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete Parameter Key</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete Asset Key</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Copy to End</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Copy to Start</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Copy Key</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cut Key</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Paste Key</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Paste Key In Place</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Disabled</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set Key Asset</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Select Track</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Group</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Select</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rename</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Group</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Find in Sheet</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Find Other</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The selected items cannot be grouped together because they do not have the same parent</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Record</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Record Position</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Record Scale</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Record Rotation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Open Editor...</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Remove Key</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Remove Track</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Toggle Gizmos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Toggle specific gizmos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Toggle Transform Gizmo Mode</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Select Transform Gizmo Mode</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Translate</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rotate</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Origin</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Toggle canvas frame</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Canvas frame settings</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Canvas frame enabled</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Image reference enabled</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Width</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Height</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Origin X</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Origin Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Events</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add action</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Edit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Multiselect</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Multiple targets</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Edit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Are you sure you want to delete {0}?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Are you sure you want to delete the selected items?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Events</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Select {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">({0}, {1})</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">{0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Select Event</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Select Target</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Select Action</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add Action</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Action Properties</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This action has no properties</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Search...</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add Action</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Event</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Target</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Action</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Properties</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Are you sure you want to add this action?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Action added!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">On {0}: {1}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Continue</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Position</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The selected items cannot be edited in bulk.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Flip</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Horizontal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Vertical</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Arrange</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Volume</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">'???'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Missing Resource</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Audio Emitter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clipping Mask</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequence</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Group</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delta Ghosting</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Origin</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Zero zero</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Transform</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Show Axes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Translation Path</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add tag</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Remove selected tags</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Record a new key</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Automatically record changes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Split the selected keys</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete the selected keys</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Broadcast message</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Global space</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Local space</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Toggle between local and global space</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Options</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tags</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Link to another track</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Root</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add code</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Interpolation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Off</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Linear</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cut</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Copy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Paste</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">New Resource</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">New Component</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">New Parameter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete track(s)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Edit Broadcast Message</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Remove Broadcast Message</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Edit Moment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Remove Moment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Edit code</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set Value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set Asset</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Swap Asset</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Copy key(s)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cut key(s)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Paste key(s)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Paste key(s) in place</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add key in place</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Split key in place</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Duplicate Track</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete key(s)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Some copied keys were not pasted successfully due to target track types not matching up</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Convert to embedded anim curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set to external anim curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Export embedded anim curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Convert to keys</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Select animation curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Compatible curves: {0} of {1}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Parameter '{0}' already exists in this track as '{1}'.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tag '{0}' already exists on this track.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Added parameter '{0}' to the track.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Do you want to delete tag(s) {0} from the track?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This tag is already on the track</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Whether a confirmation dialog should be shown when a new track parameter is added</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Whether a confirmation dialog should be shown when a new track tag is added</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Whether a confirmation dialog should be shown when trying to delete a tag</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Canvas chain thickness</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Canvas chain colour</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rename</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tags</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Parameters</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Default</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Track</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">All</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Hidden</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Locked</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Number</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">String</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Boolean</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Resource</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Colour</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Broadcast messages</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Moment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Assign Value at Key {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Assign Base Value for Track {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Channel {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Resource</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Edit embedded curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Enter the base value of this track:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Numeric Value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Animation Curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Embed Animation Curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Value Error</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The value was not entered or it was not in the correct format.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Key</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Channel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Length</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Audio Emitter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Fps</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Length</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Head</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Volume</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Master volume for IDE playback</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play sequence from head marker</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pause sequence</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Change playback mode</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Show Menu</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Jump to start</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Jump to end</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add Broadcast Message</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add Moment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Search</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Lock\Unlock All Tracks</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Show\Hide All Tracks</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Expand\Collapse all</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Components</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tracks</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Select Resource</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Select Component</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">{0} of {1} results</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">No results found</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Zoom Bar</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add New Group</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add New Clip Mask</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add Track</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Duplicate Track</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete Track</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Jump to previous key</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Jump to next key</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Toggle key on</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Toggle key off</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add parameter track</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Link values</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Toggle visiblity</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Toggle lock</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Change track colour</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Loop</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ping Pong</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Normal playback of the indicated range</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Looped playback of the indicated range</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ping pong between start and end of indicated range</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Events raised:\n{0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Script missing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Script resource has been deleted.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequence Keyframe</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Open Editor...</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Toggle channel visibility</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Edit</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Edit All</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Asset Browser</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Asset Browser: {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create Asset</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Import Asset</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filter/Sort</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">No results found</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A-Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z-A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Folders First</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Custom Order</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Quick Access</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Recent</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Favourites</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Room Order</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Room Inheritance</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Room Manager</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Saved Searches</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Edit Tags</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create Group</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Favourite</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Unfavourite</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">group</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Open in new Asset Browser</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear Favourites</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear Recent Items</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Save Current Filter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Reset Filter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Any Types</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Any Tags</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Apply Filter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filter by Tag</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Remove from Filter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rename</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Edit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Edit All</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tags</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Asset Browser</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Are you sure you want to delete {0}?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Are you sure you want to delete {0}?\nIt is referenced by {1}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Are you sure you want to delete {0} Assets: {1}?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Are you sure you want to delete {0}?\nCollision events with deleted objects will also be deleted</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Are you sure you want to delete these Assets: {0}?\nCollision events with deleted objects will also be deleted</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Assign Sprite to Object</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create Child Room</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;Multiple Assets&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Right-click to edit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Colour Picker</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">No Assets</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">No Search Results</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Expand Children</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Config Editor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">{0} item</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">{0} items</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">{0} selected</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filters</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear Filters</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Asset Type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Save Search</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">List View</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Grid View</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Show Tree Location</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Game Options</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Included Files</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sort/Filter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Menu</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Are you sure you want to delete selected Tags? Deleted Tags will be removed from all Assets.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Grid</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">List</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add Config</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rename</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set Config</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Curve Type:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Interpolation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Graph</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Curves</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add Curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Toggle Visibility</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete all curves</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;Multiple Curves&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Copy Curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Paste Curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Curve Type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ease</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Linear</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ease-In</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ease-Out</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ease-In-Out</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Smooth</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rename</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">curve{0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Embedded Curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create default folders in new project</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Maximum recently edited items</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Colour palette size</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Apply Asset colours in Quick Access</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Group colours override child colours</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create Asset dialogue style</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Default sort order for new Asset Browsers</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Default sort folders first</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Automatic response to duplicate group name error</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Show Quick Access</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Automatic response to delete tag confirmation</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Pre-populate SDK values to chosen API Level</Data></Cell>
@@ -16611,6 +19005,12 @@
     <Cell><Data ss:Type="String">Resource load failures encountered...</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Failed to load {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Missing Resource {0}</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">The SDK Build Settings are invalid</Data></Cell>
    </Row>
    <Row>
@@ -16639,45 +19039,6 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">The following devices have not been paired. Please ensure they have valid provisioning profiles.</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Room Instance</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Audio Group</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Texture Group</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Sprite</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Tile Set</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Sound</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Path</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Script</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Shader</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Font</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Timeline</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Object</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Room</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Missing FFmpegWrapper</Data></Cell>
@@ -16749,6 +19110,27 @@
     <Cell><Data ss:Type="String">After clicking OK, you should manually install a stable IDE to complete the opt-out process. See the release notes for an installer download link.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This project is of an older format and will need to be converted. Proceed?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Conversion Success</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The Project has successfully converted</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Conversion Failed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The Project conversion has failed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">You cannot save the converted project to the same folder as the original. Please select a new location.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">To see what data this report contains, &lt;a href=https://help.yoyogames.com/hc/en-us/articles/360028120992&quot;&gt;click here&lt;/a&gt;&quot;</Data></Cell>
    </Row>
    <Row>
@@ -16767,7 +19149,7 @@
     <Cell><Data ss:Type="String">Don't Send</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String"> store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent</Data></Cell>
+    <Cell><Data ss:Type="String">Our &lt;a href=https://www.yoyogames.com/legal/privacy&quot;&gt;Privacy Policy&lt;/a&gt; and &lt;a href=&quot;https://www.yoyogames.com/legal/cookies&quot;&gt;Cookie Policy&lt;/a&gt; governs the way we collect</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Privacy Policy</Data></Cell>
@@ -16781,6 +19163,144 @@
    <Row>
     <Cell><Data ss:Type="String">Upload Successful.</Data></Cell>
    </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Old Project Format</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Project was created in an older IDE which may have format changes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Importing Resources</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Could not find a project for the resource file at {0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The project at {0} requires upgrading before you can import the requested resource(s). Do you want to do this now?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">There no resources found that we can import</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Project has missing Resources</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This project has {0} missing Resource(s). Please check the Output log for more information.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">{0} is missing and has {1} reference(s).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">{0} was lost and moved to root of project.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequence Events</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Async Event</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Broadcast Message</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create Event Definitions</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Track Name</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">X</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Position</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Origin</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale X</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Origin X</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Origin Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sprite</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Object</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sprite Information</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Basic Information</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sound Information</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Instance Information</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequence Information</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information\nfunction ${funcName}(){\n\n}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : Script assets have changed$(13_10)for v2.3.0 see $(13_10)https://help.yoyogames.com/hc/en-us/articles/360005277377 $(13_10)for more information\n/// @DnDArgument : &quot;funcName&quot; &quot;${funcName}&quot;\nfunction ${funcName}(){\n\n}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : &quot;funcName&quot; &quot;${funcName}&quot;\nfunction ${funcName}(){\n\n}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Do you want to create {0} Assets?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Creating Lots of Assets</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Image format not recognised</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The image '{0}' cannot be loaded.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Warning</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GameMaker Studio 2 is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BuiltIn {0} Member</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Error Creating Project</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Could not create project at specified path. You may not have permission to save here.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Error Saving Import Project</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Could not save imported project at specified path. You may not have permission to save here.</Data></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
@@ -16789,7 +19309,6 @@
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
    <Selected/>
-   <TopRowVisible>514</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
