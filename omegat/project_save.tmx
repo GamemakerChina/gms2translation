@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.1.0_0_54fc30ee" segtype="sentence" srclang="en-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.3.0_0_2fd7a9ec" segtype="sentence" srclang="en-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -33125,6 +33125,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Texture Settings</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170322T045824Z" creationid="36011" creationdate="20170322T045824Z">
+        <seg>纹理设定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Texture Settings:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T022931Z" creationid="deciia" creationdate="20170104T022931Z">
@@ -38505,8 +38513,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>http://zeus.yoyogames.com/GMS2_English-master.zip</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="qq106" changedate="20191117T134301Z" creationid="qq106" creationdate="20191117T134301Z">
-        <seg>http://zeus.yoyogames.com/GMS2_English-master.zip</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200819T074415Z" creationid="qq106" creationdate="20191117T134301Z">
+        <seg>"http://zeus.yoyogames.com/GMS2_English-master.zip"</seg>
       </tuv>
     </tu>
     <tu>
