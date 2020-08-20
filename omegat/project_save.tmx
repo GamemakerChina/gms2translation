@@ -1513,16 +1513,16 @@
       <tuv lang="en-US">
         <seg>Add ${steps} to alarm ${alarm} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144138Z">
-        <seg>将${step}添加到${applyto}${show_input_count}上的警报${alarm}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160329Z" creationid="liaronce" creationdate="20200820T144138Z">
+        <seg>将${step}添加到${applyto}${show_input_count}上的计时器${alarm}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${steps} to alarm ${alarm}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155127Z" creationid="liaronce" creationdate="20200820T144137Z">
-        <seg>将${steps}添加到警报${alarm}${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160329Z" creationid="liaronce" creationdate="20200820T144137Z">
+        <seg>将${steps}添加到计时器${alarm}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -12878,7 +12878,7 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Display "Running outside server" alert</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20170316T115352Z" creationid="deciia" creationdate="20170104T073258Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160342Z" creationid="deciia" creationdate="20170104T073258Z">
         <seg>显示 "运行外部服务器" 警报</seg>
       </tuv>
     </tu>
@@ -19293,32 +19293,32 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get alarm ${alarm} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144139Z">
-        <seg>将警报${alarm}获取到${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160329Z" creationid="liaronce" creationdate="20200820T144139Z">
+        <seg>将计时器${alarm}获取到${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get alarm ${alarm} into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144140Z">
-        <seg>将警报${alarm}置于${applyto}上的${var}中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160329Z" creationid="liaronce" creationdate="20200820T144140Z">
+        <seg>将计时器${alarm}置于${applyto}上的${var}中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get alarm ${alarm} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144141Z">
-        <seg>将警报${alarm}放入临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160329Z" creationid="liaronce" creationdate="20200820T144141Z">
+        <seg>将计时器${alarm}放入临时${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get alarm ${alarm} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144142Z">
-        <seg>将警报${alarm}置于${applyto}上的临时${var}中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160329Z" creationid="liaronce" creationdate="20200820T144142Z">
+        <seg>将计时器${alarm}置于${applyto}上的临时${var}中</seg>
       </tuv>
     </tu>
     <tu>
@@ -40610,8 +40610,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set alarm ${alarm} to ${steps} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144135Z">
-        <seg>在${applyto}${show_input_count}上将警报${alarm}设置为${step}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160329Z" creationid="liaronce" creationdate="20200820T144135Z">
+        <seg>在${applyto}${show_input_count}上将计时器${alarm}设置为${step}</seg>
       </tuv>
     </tu>
     <tu>
