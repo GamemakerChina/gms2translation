@@ -310,10 +310,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information\nfunction ${funcName}(){\n\n}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142833Z" creationid="liaronce" creationdate="20200820T142833Z">
+        <seg>//v2.3.0的脚本资源已更改\n//有关详细信息，请参阅\n//https://help.yoyogames.com/hc/en-us/articles/360005277377函数${funcName}(){\n\n}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>// Your code here</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170312T020710Z" creationid="deciia" creationdate="20170104T054804Z">
         <seg>// 在这里撰写你的代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142851Z" creationid="liaronce" creationdate="20200820T142851Z">
+        <seg>/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : Script assets have changed$(13_10)for v2.3.0 see $(13_10)https://help.yoyogames.com/hc/en-us/articles/360005277377 $(13_10)for more information\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143118Z" creationid="liaronce" creationdate="20200820T142840Z">
+        <seg>/// @DnDAction：Yoyo Games.Common.Function\n/// @DnDVersion：1\n/// @DnDHash：${HASH}\n/// @DnDComment：v2.3.0的脚本资产已更改$(13_10)有关详细信息，请参阅$(13_10)https://help.yoyogames.com/hc/en-us/articles/360005277377$(13_10)\n/// @DnDArgument：“funcname”${funcname}“\n函数${FuncName}</seg>
       </tuv>
     </tu>
     <tu>
@@ -3931,6 +3955,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Async Event</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142757Z" creationid="liaronce" creationdate="20200820T142757Z">
+        <seg>异步事件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Asynchronous</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T044058Z" creationid="deciia" creationdate="20170102T044038Z">
@@ -4998,6 +5030,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T110303Z" creationid="deciia" creationdate="20170105T110303Z">
         <seg>基础颜色：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Basic Information</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142816Z" creationid="liaronce" creationdate="20200820T142816Z">
+        <seg>基本信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -9036,6 +9076,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Could not find a project for the resource file at {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142716Z" creationid="liaronce" creationdate="20200820T142716Z">
+        <seg>在 {0} 处找不到资源文件的项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Could not find tutorial template project: {0}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T015124Z" creationid="deciia" creationdate="20170104T060235Z">
@@ -9168,6 +9216,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142227Z" creationid="liaronce" creationdate="20200820T142227Z">
         <seg>创建子房间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create Event Definitions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142759Z" creationid="liaronce" creationdate="20200820T142759Z">
+        <seg>创建事件定义</seg>
       </tuv>
     </tu>
     <tu>
@@ -11832,6 +11888,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141558Z" creationid="liaronce" creationdate="20200820T141558Z">
         <seg>是否要从轨道中删除 {0} 标记？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do you want to do this now?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142725Z" creationid="liaronce" creationdate="20200820T142725Z">
+        <seg>您想现在就这样做吗？</seg>
       </tuv>
     </tu>
     <tu>
@@ -19352,6 +19416,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Importing Resources</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142705Z" creationid="liaronce" creationdate="20200820T142705Z">
+        <seg>正在导入资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Importing files to a sprite is not an undoable action.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170106T153702Z" creationid="deciia" creationdate="20170106T153702Z">
@@ -20263,6 +20335,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170209T083156Z" creationid="deciia" creationdate="20170209T083156Z">
         <seg>实例创建顺序 - {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Instance Information</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142818Z" creationid="liaronce" creationdate="20200820T142818Z">
+        <seg>实例信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -27338,6 +27418,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Please check the Output log for more information.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142740Z" creationid="liaronce" creationdate="20200820T142740Z">
+        <seg>有关详细信息，请查看输出日志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Please check the path.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T202418Z" creationid="deciia" creationdate="20180922T202418Z">
@@ -28278,6 +28366,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170313T144901Z" creationid="deciia" creationdate="20170311T123127Z">
         <seg>检测到项目文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Project has missing Resources</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142733Z" creationid="liaronce" creationdate="20200820T142733Z">
+        <seg>项目缺少资源</seg>
       </tuv>
     </tu>
     <tu>
@@ -32366,6 +32462,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sequence Information</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142819Z" creationid="liaronce" creationdate="20200820T142819Z">
+        <seg>序列信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sequence Keyframe</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141933Z" creationid="liaronce" creationdate="20200820T141933Z">
@@ -34884,6 +34988,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sound Information</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142817Z" creationid="liaronce" creationdate="20200820T142817Z">
+        <seg>声音信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sound Loaded</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T091221Z" creationid="deciia" creationdate="20170103T134452Z">
@@ -35463,6 +35575,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T075602Z" creationid="deciia" creationdate="20170102T075602Z">
         <seg>精灵图标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite Information</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142815Z" creationid="liaronce" creationdate="20200820T142815Z">
+        <seg>精灵信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -37561,6 +37681,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The project at {0} requires upgrading before you can import the requested resource(s).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142722Z" creationid="liaronce" creationdate="20200820T142722Z">
+        <seg>{0} 处的项目需要升级，然后才能导入请求的资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The project file '{0}' was deleted.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T195720Z" creationid="deciia" creationdate="20170105T080725Z">
@@ -37941,6 +38069,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There no resources found that we can import</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142731Z" creationid="liaronce" creationdate="20200820T142731Z">
+        <seg>没有找到我们可以导入的资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There were no Amazon Fire devices detected.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T011537Z" creationid="deciia" creationdate="20180922T194251Z">
@@ -38235,6 +38371,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T101620Z" creationid="lazyeo" creationdate="20191120T101620Z">
         <seg>该项目具有多个根视图且不稳定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This project has {0} missing Resource(s).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142739Z" creationid="liaronce" creationdate="20200820T142739Z">
+        <seg>此项目缺少 {0} 个资源。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39317,6 +39461,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140154Z" creationid="liaronce" creationdate="20200820T140154Z">
         <seg>跟踪信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Track Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142806Z" creationid="liaronce" creationdate="20200820T142806Z">
+        <seg>轨道名称</seg>
       </tuv>
     </tu>
     <tu>
@@ -44525,6 +44677,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>{0} is missing and has {1} reference(s).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142751Z" creationid="liaronce" creationdate="20200820T142751Z">
+        <seg>缺少 {0}，并且具有 {1} 个引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>{0} item</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133843Z" creationid="liaronce" creationdate="20200820T133843Z">
@@ -44569,6 +44729,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142250Z" creationid="liaronce" creationdate="20200820T142250Z">
         <seg>已选择 {0} 个1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0} was lost and moved to root of project.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142756Z" creationid="liaronce" creationdate="20200820T142756Z">
+        <seg>{0 }已丢失并移动到项目的根目录。</seg>
       </tuv>
     </tu>
     <tu>
