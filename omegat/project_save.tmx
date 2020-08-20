@@ -32364,8 +32364,48 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Scale ${applyto} to ${xscale},${yscale} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151109Z" creationid="liaronce" creationdate="20200820T151109Z">
-        <seg>h和暗索【Run【Win Activate【Send安定【ClickScale ${applyto} to ${xscale},${yscale} on ${applyto}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151145Z" creationid="liaronce" creationdate="20200820T151109Z">
+        <seg>在${applyto}上将${applyto}缩放到${XScale}、${yscale}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale ${applyto} to ${xscale},image_yscale on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151146Z" creationid="liaronce" creationdate="20200820T151111Z">
+        <seg>将${applyto}缩放到${XScale}，${applyto}上的image_yscale</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale ${applyto} to ${xscale},image_yscale+${yscale} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151149Z" creationid="liaronce" creationdate="20200820T151149Z">
+        <seg>在${applyto}上将${applyto}缩放到${XScale}，image_yscale+${yscale}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale ${applyto} to image_xscale,${yscale} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151157Z" creationid="liaronce" creationdate="20200820T151157Z">
+        <seg>将${applyto}缩放到${applyto}上的image_XScale，${yscale}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale ${applyto} to image_xscale,image_yscale on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151231Z" creationid="liaronce" creationdate="20200820T151231Z">
+        <seg>将${applyto}缩放到${applyto}上的image_xscale、image_yscale</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale ${applyto} to image_xscale,image_yscale+${yscale} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151532Z" creationid="liaronce" creationdate="20200820T151532Z">
+        <seg>将${applyto}缩放到${applyto}上的image_xscale、image_yscale+${yscale}</seg>
       </tuv>
     </tu>
     <tu>
