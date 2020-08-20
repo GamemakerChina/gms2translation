@@ -1335,6 +1335,86 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Add ${health} to health</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152616Z" creationid="liaronce" creationdate="20200820T152616Z">
+        <seg>将${Health}添加到健康中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${health} to health on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152617Z" creationid="liaronce" creationdate="20200820T152617Z">
+        <seg>将${Health}添加到${applyto}上的运行状况</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${lives} to lives</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152609Z" creationid="liaronce" creationdate="20200820T152609Z">
+        <seg>将${Lives}添加到Lives</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${lives} to lives on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152609Z" creationid="liaronce" creationdate="20200820T152609Z">
+        <seg>将${Lives}添加到${applyto}上的Lives</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${position} to path position</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152520Z" creationid="liaronce" creationdate="20200820T152520Z">
+        <seg>将${position}添加到路径位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${position} to path position on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152521Z" creationid="liaronce" creationdate="20200820T152521Z">
+        <seg>将${position}添加到${applyto}上的路径位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${position} to timeline position</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152542Z" creationid="liaronce" creationdate="20200820T152542Z">
+        <seg>将${position}添加到时间线位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${position} to timeline position on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152542Z" creationid="liaronce" creationdate="20200820T152542Z">
+        <seg>将${position}添加到${applyto}上的时间线位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${score} to score</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152601Z" creationid="liaronce" creationdate="20200820T152601Z">
+        <seg>将${SCORE}添加到分数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${score} to score on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152602Z" creationid="liaronce" creationdate="20200820T152602Z">
+        <seg>将${Score}添加到${applyto}上进行评分</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Add ${speed} to animation speed</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144202Z" creationid="liaronce" creationdate="20200820T144202Z">
@@ -1367,6 +1447,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Add ${speed} to path speed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152527Z" creationid="liaronce" creationdate="20200820T152527Z">
+        <seg>将${SPEED}添加到路径速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${speed} to path speed on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152528Z" creationid="liaronce" creationdate="20200820T152528Z">
+        <seg>将${SPEED}添加到${applyto}上的路径速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Add ${speed} to speed</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151645Z" creationid="liaronce" creationdate="20200820T151645Z">
@@ -1379,6 +1475,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151646Z" creationid="liaronce" creationdate="20200820T151646Z">
         <seg>在${applyto}上添加${SPEED}以提高速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${speed} to timeline speed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152545Z" creationid="liaronce" creationdate="20200820T152545Z">
+        <seg>将${SPEED}添加到时间线速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${speed} to timeline speed on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152546Z" creationid="liaronce" creationdate="20200820T152546Z">
+        <seg>将${SPEED}添加到${applyto}上的时间线速度</seg>
       </tuv>
     </tu>
     <tu>
@@ -6642,6 +6754,38 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Ceil ${n} and assign it to ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152405Z" creationid="liaronce" creationdate="20200820T152405Z">
+        <seg>ceil${n}并将其分配给${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Ceil ${n} and assign it to ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152406Z" creationid="liaronce" creationdate="20200820T152406Z">
+        <seg>Ceil${n}并将其分配给${applyto}上的${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Ceil ${n} and assign it to temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152407Z" creationid="liaronce" creationdate="20200820T152407Z">
+        <seg>存储${n}并将其分配给临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Ceil ${n} and assign it to temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152408Z" creationid="liaronce" creationdate="20200820T152408Z">
+        <seg>存储${n}并将其分配给${applyto}上的临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Center</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170219T005827Z" creationid="deciia" creationdate="20170219T005827Z">
@@ -7978,6 +8122,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Close ini file</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152351Z" creationid="liaronce" creationdate="20200820T152351Z">
+        <seg>关闭ini文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Close ini file on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152352Z" creationid="liaronce" creationdate="20200820T152352Z">
+        <seg>关闭${applyto}上的ini文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Close sound</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T051523Z" creationid="deciia" creationdate="20170107T051523Z">
@@ -9178,6 +9338,70 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Convert ${value} to a number and assign it to ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152416Z" creationid="liaronce" creationdate="20200820T152416Z">
+        <seg>将${value}转换为数字并将其分配给${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Convert ${value} to a number and assign it to ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152417Z" creationid="liaronce" creationdate="20200820T152417Z">
+        <seg>将${value}转换为数字并将其分配给${applyto}上的${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Convert ${value} to a number and assign it to temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152418Z" creationid="liaronce" creationdate="20200820T152418Z">
+        <seg>将${value}转换为数字并将其分配给临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Convert ${value} to a number and assign it to temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152419Z" creationid="liaronce" creationdate="20200820T152419Z">
+        <seg>将${value}转换为数字并将其分配给${applyto}上的临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Convert ${value} to a string and assign it to ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152413Z" creationid="liaronce" creationdate="20200820T152413Z">
+        <seg>将${value}转换为字符串并将其分配给${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Convert ${value} to a string and assign it to ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152414Z" creationid="liaronce" creationdate="20200820T152414Z">
+        <seg>将${value}转换为字符串，并将其分配给${applyto}上的${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Convert ${value} to a string and assign it to temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152414Z" creationid="liaronce" creationdate="20200820T152414Z">
+        <seg>将${value}转换为字符串并将其分配给临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Convert ${value} to a string and assign it to temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152415Z" creationid="liaronce" creationdate="20200820T152415Z">
+        <seg>将${value}转换为字符串，并将其分配给${applyto}上的临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Convert DnD™</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T095723Z" creationid="deciia" creationdate="20170105T095723Z">
@@ -9456,6 +9680,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T023211Z" creationid="deciia" creationdate="20180922T023211Z">
         <seg>将exe复制到输出文件夹</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Copy file ${file1} to ${file2}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152346Z" creationid="liaronce" creationdate="20200820T152346Z">
+        <seg>将文件${file1}复制到${file2}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Copy file ${file1} to ${file2} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152347Z" creationid="liaronce" creationdate="20200820T152347Z">
+        <seg>将文件${file1}复制到${applyto}上的${file2}</seg>
       </tuv>
     </tu>
     <tu>
@@ -11584,6 +11824,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T115536Z" creationid="deciia" creationdate="20170103T115536Z">
         <seg>删除当前视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Delete file ${file}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152348Z" creationid="liaronce" creationdate="20200820T152348Z">
+        <seg>删除文件${file}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Delete file ${file} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152349Z" creationid="liaronce" creationdate="20200820T152349Z">
+        <seg>删除${applyto}上的文件${file}</seg>
       </tuv>
     </tu>
     <tu>
@@ -15591,6 +15847,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Exit game</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152557Z" creationid="liaronce" creationdate="20200820T152557Z">
+        <seg>退出博弈</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Exit the current event</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144100Z" creationid="liaronce" creationdate="20200820T144100Z">
@@ -16797,6 +17061,38 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T085138Z" creationid="deciia" creationdate="20170224T003605Z">
         <seg>向下取整(Floor)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Floor ${n} and assign it to ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152409Z" creationid="liaronce" creationdate="20200820T152409Z">
+        <seg>楼层${n}并将其分配给${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Floor ${n} and assign it to ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152410Z" creationid="liaronce" creationdate="20200820T152410Z">
+        <seg>楼层${n}并将其分配给${applyto}上的${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Floor ${n} and assign it to temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152411Z" creationid="liaronce" creationdate="20200820T152411Z">
+        <seg>楼层${n}并将其分配给临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Floor ${n} and assign it to temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152412Z" creationid="liaronce" creationdate="20200820T152412Z">
+        <seg>楼层${n}并将其分配给${applyto}上的临时${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -18379,10 +18675,74 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Get a random element from a list into ${var} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152425Z" creationid="liaronce" creationdate="20200820T152425Z">
+        <seg>将列表中的随机元素获取到${applyto}${show_input_count}上的${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get a random element from a list into ${var}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152424Z" creationid="liaronce" creationdate="20200820T152424Z">
+        <seg>将列表中的随机元素获取到${var}${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get a random element from a list into temp ${var} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152427Z" creationid="liaronce" creationdate="20200820T152427Z">
+        <seg>将列表中的随机元素获取到${applyto}${show_input_count}上的临时${var}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get a random element from a list into temp ${var}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152426Z" creationid="liaronce" creationdate="20200820T152426Z">
+        <seg>将列表中的随机元素获取到临时${var}${show_input_count}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Get a random inclusive number.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T122019Z" creationid="deciia" creationdate="20170212T041614Z">
         <seg>获取一个随机数（包括该数）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get a random number between ${min} and ${max} into ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152420Z" creationid="liaronce" creationdate="20200820T152420Z">
+        <seg>获取${var}中${min}和${max}之间的随机数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get a random number between ${min} and ${max} into ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152421Z" creationid="liaronce" creationdate="20200820T152421Z">
+        <seg>在${applyto}上获取${var}中${min}到${max}之间的随机数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get a random number between ${min} and ${max} into temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152422Z" creationid="liaronce" creationdate="20200820T152422Z">
+        <seg>将${min}到${max}之间的随机数放入临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get a random number between ${min} and ${max} into temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152422Z" creationid="liaronce" creationdate="20200820T152422Z">
+        <seg>获取${applyto}上的临时${var}中${min}到${max}之间的随机数</seg>
       </tuv>
     </tu>
     <tu>
@@ -18447,6 +18807,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170318T072744Z" creationid="deciia" creationdate="20170224T005653Z">
         <seg>获取缓冲区内的当前位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get current room into ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152513Z" creationid="liaronce" creationdate="20200820T152513Z">
+        <seg>将当前房间放入${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get current room into ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152514Z" creationid="liaronce" creationdate="20200820T152514Z">
+        <seg>将当前房间放入${applyto}上的${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get current room into temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152515Z" creationid="liaronce" creationdate="20200820T152515Z">
+        <seg>将当前房间设置为临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get current room into temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152516Z" creationid="liaronce" creationdate="20200820T152516Z">
+        <seg>将当前房间放入${applyto}上的临时${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -18575,6 +18967,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143914Z" creationid="liaronce" creationdate="20200820T143914Z">
         <seg>将全局变量${var}获取到临时${output}${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get health into ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152619Z" creationid="liaronce" creationdate="20200820T152619Z">
+        <seg>让健康进入${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get health into ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152620Z" creationid="liaronce" creationdate="20200820T152620Z">
+        <seg>在${applyto}上获取${var}的健康</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get health into temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152621Z" creationid="liaronce" creationdate="20200820T152621Z">
+        <seg>让临时值${var}保持健康</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get health into temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152622Z" creationid="liaronce" creationdate="20200820T152622Z">
+        <seg>使${applyto}上的临时${var}保持健康</seg>
       </tuv>
     </tu>
     <tu>
@@ -18739,6 +19163,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Get lives into ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152612Z" creationid="liaronce" creationdate="20200820T152612Z">
+        <seg>让生活进入${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get lives into ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152613Z" creationid="liaronce" creationdate="20200820T152613Z">
+        <seg>让生命在${applyto}上进入${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get lives into temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152614Z" creationid="liaronce" creationdate="20200820T152614Z">
+        <seg>让生命进入临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get lives into temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152615Z" creationid="liaronce" creationdate="20200820T152615Z">
+        <seg>将生命置于${applyto}上的临时${var}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Get master volume into ${var}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152055Z" creationid="liaronce" creationdate="20200820T152055Z">
@@ -18803,6 +19259,70 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Get path position into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152524Z" creationid="liaronce" creationdate="20200820T152524Z">
+        <seg>获取进入${target}的路径位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get path position into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152525Z" creationid="liaronce" creationdate="20200820T152525Z">
+        <seg>在${applyto}上获取进入${target}的路径位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get path position into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152526Z" creationid="liaronce" creationdate="20200820T152526Z">
+        <seg>获取进入临时${target}的路径位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get path position into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152527Z" creationid="liaronce" creationdate="20200820T152527Z">
+        <seg>在${applyto}上获取进入临时${target}的路径位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get path speed into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152531Z" creationid="liaronce" creationdate="20200820T152531Z">
+        <seg>获取进入${target}的路径速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get path speed into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152532Z" creationid="liaronce" creationdate="20200820T152532Z">
+        <seg>在${applyto}上获取进入${target}的路径速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get path speed into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152533Z" creationid="liaronce" creationdate="20200820T152533Z">
+        <seg>获取进入临时${target}的路径速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get path speed into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152534Z" creationid="liaronce" creationdate="20200820T152534Z">
+        <seg>获取进入${applyto}上的临时${target}的路径速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Get pitch of audio ${sound} into ${var}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152045Z" creationid="liaronce" creationdate="20200820T152045Z">
@@ -18831,6 +19351,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152047Z" creationid="liaronce" creationdate="20200820T152047Z">
         <seg>在${applyto}上获取音频${ound}到临时${var}的音调</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get position in buffer ${buffer} into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152328Z" creationid="liaronce" creationdate="20200820T152328Z">
+        <seg>将缓冲区${buffer}中的位置获取到${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get position in buffer ${buffer} into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152329Z" creationid="liaronce" creationdate="20200820T152329Z">
+        <seg>将缓冲区${buffer}中的位置获取到${applyto}上的${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get position in buffer ${buffer} into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152330Z" creationid="liaronce" creationdate="20200820T152330Z">
+        <seg>将缓冲区${buffer}中的位置获取到临时${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get position in buffer ${buffer} into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152331Z" creationid="liaronce" creationdate="20200820T152331Z">
+        <seg>将缓冲区${buffer}中的位置获取到${applyto}上的临时${target}</seg>
       </tuv>
     </tu>
     <tu>
@@ -18867,6 +19419,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Get score into ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152605Z" creationid="liaronce" creationdate="20200820T152605Z">
+        <seg>获得${var}的分数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get score into ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152606Z" creationid="liaronce" creationdate="20200820T152606Z">
+        <seg>在${applyto}上获得${var}分数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get score into temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152607Z" creationid="liaronce" creationdate="20200820T152607Z">
+        <seg>获取临时${var}的分数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get score into temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152608Z" creationid="liaronce" creationdate="20200820T152608Z">
+        <seg>在${applyto}上获取临时${var}的分数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Get size of buffer ${buffer} into ${target}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152325Z" creationid="liaronce" creationdate="20200820T152325Z">
@@ -18879,6 +19463,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152326Z" creationid="liaronce" creationdate="20200820T152326Z">
         <seg>将缓冲区${buffer}的大小获取到${applyto}上的${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get size of buffer ${buffer} into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152327Z" creationid="liaronce" creationdate="20200820T152327Z">
+        <seg>将缓冲区${buffer}的大小获取到${applyto}上的临时${target}中</seg>
       </tuv>
     </tu>
     <tu>
@@ -19483,6 +20075,214 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Get view camera of view ${view} into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152441Z" creationid="liaronce" creationdate="20200820T152441Z">
+        <seg>将视图${view}的视图摄像机放入${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view camera of view ${view} into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152441Z" creationid="liaronce" creationdate="20200820T152441Z">
+        <seg>将视图${view}的视图摄像机获取到${applyto}上的${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view camera of view ${view} into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152442Z" creationid="liaronce" creationdate="20200820T152442Z">
+        <seg>将视图${view}的视图摄像机获取到温度${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view camera of view ${view} into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152443Z" creationid="liaronce" creationdate="20200820T152443Z">
+        <seg>将视图${view}的视图摄像机获取到${applyto}上的临时${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view port X of view ${view} into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152448Z" creationid="liaronce" creationdate="20200820T152448Z">
+        <seg>将视图${view}的视口X获取到${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view port X of view ${view} into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152448Z" creationid="liaronce" creationdate="20200820T152448Z">
+        <seg>将视图${view}的视图端口X获取到${applyto}上的${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view port X of view ${view} into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152449Z" creationid="liaronce" creationdate="20200820T152449Z">
+        <seg>将视图${view}的视口X获取到临时${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view port Y of view ${view} into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152451Z" creationid="liaronce" creationdate="20200820T152451Z">
+        <seg>将视图${view}的视口Y获取到${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view port Y of view ${view} into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152452Z" creationid="liaronce" creationdate="20200820T152452Z">
+        <seg>将视图${view}的视图端口Y获取到${applyto}上的${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view port Y of view ${view} into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152453Z" creationid="liaronce" creationdate="20200820T152453Z">
+        <seg>将视图${view}的视口Y获取到临时${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view port Y of view ${view} into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152454Z" creationid="liaronce" creationdate="20200820T152454Z">
+        <seg>将视图${view}的视图端口Y获取到${applyto}上的临时${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view port height of view ${view} into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152458Z" creationid="liaronce" creationdate="20200820T152458Z">
+        <seg>将视图${view}的视口高度获取到${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view port height of view ${view} into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152459Z" creationid="liaronce" creationdate="20200820T152459Z">
+        <seg>将视图${view}的视口高度获取到${applyto}上的${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view port height of view ${view} into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152500Z" creationid="liaronce" creationdate="20200820T152500Z">
+        <seg>将视图${view}的视口高度获取到温度${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view port height of view ${view} into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152501Z" creationid="liaronce" creationdate="20200820T152501Z">
+        <seg>将视图${view}的视口高度获取到${applyto}上的临时${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view port width of view ${view} into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152455Z" creationid="liaronce" creationdate="20200820T152455Z">
+        <seg>将视图${view}的视口宽度获取到${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view port width of view ${view} into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152456Z" creationid="liaronce" creationdate="20200820T152456Z">
+        <seg>将视图${view}的视图端口宽度获取到${applyto}上的${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view port width of view ${view} into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152457Z" creationid="liaronce" creationdate="20200820T152457Z">
+        <seg>将视图${view}的视图端口宽度获取到${applyto}上的临时${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view surface id of view ${view} into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152502Z" creationid="liaronce" creationdate="20200820T152502Z">
+        <seg>将视图${view}的视图表面ID获取到${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view surface id of view ${view} into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152502Z" creationid="liaronce" creationdate="20200820T152502Z">
+        <seg>将视图${view}的视图图面ID获取到${applyto}上的${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view surface id of view ${view} into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152503Z" creationid="liaronce" creationdate="20200820T152503Z">
+        <seg>将视图${view}的视图图面ID获取到临时${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view surface id of view ${view} into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152504Z" creationid="liaronce" creationdate="20200820T152504Z">
+        <seg>将视图${view}的视图图面ID获取到${applyto}上的临时${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view visibility of view ${view} into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152444Z" creationid="liaronce" creationdate="20200820T152444Z">
+        <seg>获取视图${view}到${target}的视图可见性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view visibility of view ${view} into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152445Z" creationid="liaronce" creationdate="20200820T152445Z">
+        <seg>获取视图${view}在${applyto}上进入${target}的视图可见性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view visibility of view ${view} into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152446Z" creationid="liaronce" creationdate="20200820T152446Z">
+        <seg>获取视图${view}到临时${target}的视图可见性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get view visibility of view ${view} into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152447Z" creationid="liaronce" creationdate="20200820T152447Z">
+        <seg>获取${applyto}上临时${target}视图${view}的视图可见性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Get volume of audio ${sound} into ${var}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152050Z" creationid="liaronce" creationdate="20200820T152050Z">
@@ -19927,6 +20727,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T093934Z" creationid="deciia" creationdate="20170212T093934Z">
         <seg>前往指定房间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Go to next room</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152507Z" creationid="liaronce" creationdate="20200820T152507Z">
+        <seg>去隔壁房间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Go to previous room</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152508Z" creationid="liaronce" creationdate="20200820T152508Z">
+        <seg>去前一个房间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Go to room ${room}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152505Z" creationid="liaronce" creationdate="20200820T152505Z">
+        <seg>转到${room}房间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Go to room ${room} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152506Z" creationid="liaronce" creationdate="20200820T152506Z">
+        <seg>转到${applyto}上的${room}房间</seg>
       </tuv>
     </tu>
     <tu>
@@ -22032,6 +22864,102 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If buffer ${buffer} does not exist</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152332Z" creationid="liaronce" creationdate="20200820T152332Z">
+        <seg>如果缓冲区${buffer}不存在</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If buffer ${buffer} does not exist on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152333Z" creationid="liaronce" creationdate="20200820T152333Z">
+        <seg>如果${applyto}上不存在缓冲区${buffer}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If buffer ${buffer} exists</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152334Z" creationid="liaronce" creationdate="20200820T152334Z">
+        <seg>如果缓冲区${buffer}存在</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If buffer ${buffer} exists on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152335Z" creationid="liaronce" creationdate="20200820T152335Z">
+        <seg>如果${applyto}上存在缓冲区${buffer}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If end of buffer ${buffer} not reached</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152335Z" creationid="liaronce" creationdate="20200820T152335Z">
+        <seg>如果未到达缓冲区${buffer}的末尾</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If end of buffer ${buffer} not reached on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152336Z" creationid="liaronce" creationdate="20200820T152336Z">
+        <seg>如果在${applyto}上未到达缓冲区${buffer}的末尾</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If end of buffer ${buffer} reached</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152337Z" creationid="liaronce" creationdate="20200820T152337Z">
+        <seg>如果达到缓冲区${buffer}的末尾</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If end of buffer ${buffer} reached on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152338Z" creationid="liaronce" creationdate="20200820T152338Z">
+        <seg>如果在${applyto}上到达缓冲区${buffer}的末尾</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If file ${file} does not exist</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152358Z" creationid="liaronce" creationdate="20200820T152358Z">
+        <seg>如果文件${file}不存在</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If file ${file} does not exist on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152359Z" creationid="liaronce" creationdate="20200820T152359Z">
+        <seg>如果${applyto}上不存在文件${file}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If file ${file} exists</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152400Z" creationid="liaronce" creationdate="20200820T152400Z">
+        <seg>如果文件${file}存在</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If file ${file} exists on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152401Z" creationid="liaronce" creationdate="20200820T152401Z">
+        <seg>如果${applyto}上存在文件${file}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If grid ${var} does not exists</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152244Z" creationid="liaronce" creationdate="20200820T152244Z">
@@ -22092,6 +23020,102 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152259Z" creationid="liaronce" creationdate="20200820T152259Z">
         <seg>如果${applyto}上的格网${var}不为空</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152632Z" creationid="liaronce" creationdate="20200820T152632Z">
+        <seg>如果实例分数等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152633Z" creationid="liaronce" creationdate="20200820T152633Z">
+        <seg>如果${applyto}上的实例分数等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is not equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152623Z" creationid="liaronce" creationdate="20200820T152623Z">
+        <seg>如果实例分数不等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is not equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152624Z" creationid="liaronce" creationdate="20200820T152624Z">
+        <seg>如果${applyto}上的实例分数不等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is not greater than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152627Z" creationid="liaronce" creationdate="20200820T152627Z">
+        <seg>如果实例分数不大于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is not greater than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152628Z" creationid="liaronce" creationdate="20200820T152628Z">
+        <seg>如果${applyto}上的实例分数不大于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is not greater than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152630Z" creationid="liaronce" creationdate="20200820T152630Z">
+        <seg>如果实例分数不大于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is not greater than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152631Z" creationid="liaronce" creationdate="20200820T152631Z">
+        <seg>如果${applyto}上的实例分数不大于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is not less than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152625Z" creationid="liaronce" creationdate="20200820T152625Z">
+        <seg>如果实例得分不小于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is not less than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152626Z" creationid="liaronce" creationdate="20200820T152626Z">
+        <seg>如果${applyto}上的实例分数不小于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is not less than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152629Z" creationid="liaronce" creationdate="20200820T152629Z">
+        <seg>如果实例分数不小于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is not less than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152630Z" creationid="liaronce" creationdate="20200820T152630Z">
+        <seg>如果${applyto}上的实例分数不小于或等于${value}</seg>
       </tuv>
     </tu>
     <tu>
@@ -22476,6 +23500,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T093506Z" creationid="lazyeo" creationdate="20191120T093506Z">
         <seg>如果一个出现这个问题，请尝试以下操作：\ n确认所以防火墙有没有阻止GameMaker Studio 2的访问。\ n确认所有防病毒软件有没有阻止GameMaker Studio 2的访问。\ n确认所有代理或VPN都没有阻止GameMaker Studio 2的访问。 \ n如果所有这些方法都不行，请提交帮助工单并附带您的ui.log：\ n在Mac上的路径-/ Users / Shared / GameMakerStudio2 \ n在PC上的路径-C：\ ProgramData \ GameMakerStudio2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If this is not the first room</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152510Z" creationid="liaronce" creationdate="20200820T152510Z">
+        <seg>如果这不是第一个房间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If this is not the last room</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152512Z" creationid="liaronce" creationdate="20200820T152512Z">
+        <seg>如果这不是最后一个房间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If this is the first room</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152511Z" creationid="liaronce" creationdate="20200820T152511Z">
+        <seg>如果这是第一个房间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If this is the last room</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152513Z" creationid="liaronce" creationdate="20200820T152513Z">
+        <seg>如果这是最后一个房间</seg>
       </tuv>
     </tu>
     <tu>
@@ -25610,6 +26666,54 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170224T005734Z" creationid="deciia" creationdate="20170224T005734Z">
         <seg>文件加载到一个缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Load file ${filename} into buffer ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152339Z" creationid="liaronce" creationdate="20200820T152339Z">
+        <seg>将文件${fileName}加载到缓冲区${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Load file ${filename} into buffer ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152340Z" creationid="liaronce" creationdate="20200820T152340Z">
+        <seg>将文件${fileName}加载到${applyto}上的缓冲区${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Load file ${filename} into buffer temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152341Z" creationid="liaronce" creationdate="20200820T152341Z">
+        <seg>将文件${fileName}加载到缓冲区临时${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Load file ${filename} into buffer temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152342Z" creationid="liaronce" creationdate="20200820T152342Z">
+        <seg>将文件${fileName}加载到${applyto}上的缓冲区临时${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Load game from file ${filename}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152600Z" creationid="liaronce" creationdate="20200820T152600Z">
+        <seg>从文件${fileName}加载游戏</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Load game from file ${filename} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152600Z" creationid="liaronce" creationdate="20200820T152600Z">
+        <seg>从${applyto}上的文件${fileName}加载游戏</seg>
       </tuv>
     </tu>
     <tu>
@@ -29098,6 +30202,22 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open ini file ${filename}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152350Z" creationid="liaronce" creationdate="20200820T152350Z">
+        <seg>打开ini文件${fileName}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open ini file ${filename} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152350Z" creationid="liaronce" creationdate="20200820T152350Z">
+        <seg>在${applyto}上打开ini文件${filename}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open linked scripts as tabs in same window</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T074233Z" creationid="deciia" creationdate="20170105T043225Z">
@@ -30597,6 +31717,22 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133133Z" creationid="liaronce" creationdate="20200820T133133Z">
         <seg>暂停粒子系统</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Pause timeline</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152552Z" creationid="liaronce" creationdate="20200820T152552Z">
+        <seg>暂停时间线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Pause timeline on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152553Z" creationid="liaronce" creationdate="20200820T152553Z">
+        <seg>在${applyto}上暂停时间线</seg>
       </tuv>
     </tu>
     <tu>
@@ -32496,6 +33632,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Randomize seed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152423Z" creationid="liaronce" creationdate="20200820T152423Z">
+        <seg>随机化种子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Randomly chooses one of the supplied arguments.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T040057Z" creationid="deciia" creationdate="20170311T173643Z">
@@ -32644,6 +33788,38 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152313Z" creationid="liaronce" creationdate="20200820T152313Z">
         <seg>从${applyto}上的缓冲区${buffer}读取</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Read key ${key} in section ${section} and assign it to ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152355Z" creationid="liaronce" creationdate="20200820T152355Z">
+        <seg>读取节${Section}中的密钥${key}并将其分配给${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Read key ${key} in section ${section} and assign it to ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152356Z" creationid="liaronce" creationdate="20200820T152356Z">
+        <seg>读取${Section}部分中的密钥${key}，并将其分配给${applyto}上的${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Read key ${key} in section ${section} and assign it to temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152356Z" creationid="liaronce" creationdate="20200820T152356Z">
+        <seg>读取部分${Section}中的密钥${key}，并将其分配给临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Read key ${key} in section ${section} and assign it to temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152358Z" creationid="liaronce" creationdate="20200820T152358Z">
+        <seg>读取${Section}部分中的密钥${key}，并将其分配给${applyto}上的临时${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -33424,6 +34600,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Rename file ${file1} to ${file2}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152344Z" creationid="liaronce" creationdate="20200820T152344Z">
+        <seg>将文件${file1}重命名为${file2}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Rename file ${file1} to ${file2} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152345Z" creationid="liaronce" creationdate="20200820T152345Z">
+        <seg>将${applyto}上的文件${file1}重命名为${file2}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Renaming failed: unable to restore directory '{0}' to its original name.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T163824Z" creationid="deciia" creationdate="20170311T163824Z">
@@ -34082,6 +35274,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Restart current room</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152509Z" creationid="liaronce" creationdate="20200820T152509Z">
+        <seg>重新启动当前房间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Restart game</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T064537Z" creationid="deciia" creationdate="20180922T064537Z">
@@ -34222,6 +35422,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T092516Z" creationid="deciia" creationdate="20170212T092516Z">
         <seg>恢复所有的暂停音频的播放。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Resume timeline</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152551Z" creationid="liaronce" creationdate="20200820T152551Z">
+        <seg>恢复时间表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Resume timeline on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152551Z" creationid="liaronce" creationdate="20200820T152551Z">
+        <seg>恢复${applyto}的时间表</seg>
       </tuv>
     </tu>
     <tu>
@@ -34874,6 +36090,38 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Round ${n} and assign it to ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152402Z" creationid="liaronce" creationdate="20200820T152402Z">
+        <seg>舍入${n}并将其分配给${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Round ${n} and assign it to ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152403Z" creationid="liaronce" creationdate="20200820T152403Z">
+        <seg>对${n}进行取整并将其分配给${applyto}上的${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Round ${n} and assign it to temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152404Z" creationid="liaronce" creationdate="20200820T152404Z">
+        <seg>舍入${n}并将其分配给临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Round ${n} and assign it to temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152405Z" creationid="liaronce" creationdate="20200820T152405Z">
+        <seg>对${n}进行取整并将其分配给${applyto}上的临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Round a decimal value to an integer value by rounding, ceiling or flooring it.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T070354Z" creationid="deciia" creationdate="20170212T043422Z">
@@ -35334,6 +36582,38 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142742Z" creationid="liaronce" creationdate="20191118T142737Z">
         <seg>另存为 .aab 或 .apk</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save buffer ${buffer} to file ${filename}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152343Z" creationid="liaronce" creationdate="20200820T152343Z">
+        <seg>将缓冲区${buffer}保存到文件${fileName}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save buffer ${buffer} to file ${filename} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152343Z" creationid="liaronce" creationdate="20200820T152343Z">
+        <seg>将缓冲区${buffer}保存到${applyto}上的文件${fileName}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save game to file ${filename}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152558Z" creationid="liaronce" creationdate="20200820T152558Z">
+        <seg>将游戏保存到文件${fileName}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save game to file ${filename} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152559Z" creationid="liaronce" creationdate="20200820T152559Z">
+        <seg>将游戏保存到${applyto}上的文件${fileName}</seg>
       </tuv>
     </tu>
     <tu>
@@ -37816,6 +39096,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set health to ${health}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152617Z" creationid="liaronce" creationdate="20200820T152617Z">
+        <seg>将健康设置为${Health}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set health to ${health} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152618Z" creationid="liaronce" creationdate="20200820T152618Z">
+        <seg>在${applyto}上将运行状况设置为${Health}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set help text</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T144059Z" creationid="deciia" creationdate="20170311T144059Z">
@@ -37872,6 +39168,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set lives to ${lives}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152610Z" creationid="liaronce" creationdate="20200820T152610Z">
+        <seg>将Lives设置为${Lives}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set lives to ${lives} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152611Z" creationid="liaronce" creationdate="20200820T152611Z">
+        <seg>在${applyto}上将Lives设置为${Lives}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set master volume to ${volume}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152053Z" creationid="liaronce" creationdate="20200820T152053Z">
@@ -37892,6 +39204,38 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170106T155901Z" creationid="deciia" creationdate="20170106T155901Z">
         <seg>设置帧数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set path position to ${position}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152522Z" creationid="liaronce" creationdate="20200820T152522Z">
+        <seg>将路径位置设置为${position}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set path position to ${position} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152523Z" creationid="liaronce" creationdate="20200820T152523Z">
+        <seg>在${applyto}上将路径位置设置为${position}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set path speed to ${speed}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152529Z" creationid="liaronce" creationdate="20200820T152529Z">
+        <seg>将路径速度设置为${SPEED}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set path speed to ${speed} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152530Z" creationid="liaronce" creationdate="20200820T152530Z">
+        <seg>在${applyto}上将路径速度设置为${SPEED}</seg>
       </tuv>
     </tu>
     <tu>
@@ -37940,6 +39284,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144157Z" creationid="liaronce" creationdate="20200820T144157Z">
         <seg>在${applyto}上将旋转设置为${angle}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set score to ${score}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152603Z" creationid="liaronce" creationdate="20200820T152603Z">
+        <seg>将分数设置为${Score}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set score to ${score} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152604Z" creationid="liaronce" creationdate="20200820T152604Z">
+        <seg>将${applyto}上的分数设置为${core}</seg>
       </tuv>
     </tu>
     <tu>
@@ -38496,6 +39856,70 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set timeline ${timeline}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152540Z" creationid="liaronce" creationdate="20200820T152540Z">
+        <seg>设置时间线${timeline}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set timeline ${timeline} and loop it</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152538Z" creationid="liaronce" creationdate="20200820T152538Z">
+        <seg>设置时间线${timeline}并循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set timeline ${timeline} and loop it on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152539Z" creationid="liaronce" creationdate="20200820T152539Z">
+        <seg>设置时间线${timeline}并在${applyto}上循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set timeline ${timeline} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152541Z" creationid="liaronce" creationdate="20200820T152541Z">
+        <seg>在${applyto}上设置时间线${timeline}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set timeline position to ${position}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152543Z" creationid="liaronce" creationdate="20200820T152543Z">
+        <seg>将时间线位置设置为${position}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set timeline position to ${position} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152544Z" creationid="liaronce" creationdate="20200820T152544Z">
+        <seg>在${applyto}上将时间线位置设置为${position}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set timeline speed to ${speed}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152547Z" creationid="liaronce" creationdate="20200820T152547Z">
+        <seg>将时间线速度设置为${SPEED}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set timeline speed to ${speed} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152548Z" creationid="liaronce" creationdate="20200820T152548Z">
+        <seg>在${applyto}上将时间线速度设置为${SPEED}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set to external anim curve</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141448Z" creationid="liaronce" creationdate="20200820T141448Z">
@@ -38516,6 +39940,110 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151654Z" creationid="liaronce" creationdate="20200820T151654Z">
         <seg>在${applyto}上将垂直速度设置为${SPEED}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set view camera of view ${view} to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152428Z" creationid="liaronce" creationdate="20200820T152428Z">
+        <seg>将视图${view}的视图摄像机设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set view port X of view ${view} to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152431Z" creationid="liaronce" creationdate="20200820T152431Z">
+        <seg>将视图${view}的视口X设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set view port X of view ${view} to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152432Z" creationid="liaronce" creationdate="20200820T152432Z">
+        <seg>在${applyto}上将视图${view}的视图端口X设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set view port Y of view ${view} to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152433Z" creationid="liaronce" creationdate="20200820T152433Z">
+        <seg>将视图${view}的视口Y设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set view port Y of view ${view} to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152434Z" creationid="liaronce" creationdate="20200820T152434Z">
+        <seg>在${applyto}上将视图${view}的视图端口Y设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set view port height of view ${view} to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152437Z" creationid="liaronce" creationdate="20200820T152437Z">
+        <seg>将视图${view}的视口高度设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set view port height of view ${view} to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152438Z" creationid="liaronce" creationdate="20200820T152438Z">
+        <seg>在${applyto}上将视图${view}的视口高度设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set view port width of view ${view} to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152435Z" creationid="liaronce" creationdate="20200820T152435Z">
+        <seg>将视图${view}的视口宽度设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set view port width of view ${view} to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152436Z" creationid="liaronce" creationdate="20200820T152436Z">
+        <seg>在${applyto}上将视图${view}的视口宽度设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set view surface id of view ${view} to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152439Z" creationid="liaronce" creationdate="20200820T152439Z">
+        <seg>将视图${view}的视图表面ID设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set view surface id of view ${view} to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152440Z" creationid="liaronce" creationdate="20200820T152440Z">
+        <seg>在${applyto}上将视图${view}的视图图面ID设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set view visibility of view ${view} to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152430Z" creationid="liaronce" creationdate="20200820T152430Z">
+        <seg>将视图${view}的视图可见性设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set view visibility of view ${view} to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152431Z" creationid="liaronce" creationdate="20200820T152431Z">
+        <seg>在${applyto}上将视图${view}的视图可见性设置为${value}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40742,10 +42270,74 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Start path ${path} with speed ${speed} and ${atend} on end</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152517Z" creationid="liaronce" creationdate="20200820T152517Z">
+        <seg>开始路径${path}，结束速度为${Speed}和${atend}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Start path ${path} with speed ${speed} and ${atend} on end on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152518Z" creationid="liaronce" creationdate="20200820T152518Z">
+        <seg>在${applyto}上开始路径${path}，结束速度为${Speed}和${atend}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Start the particle system</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133131Z" creationid="liaronce" creationdate="20200820T133131Z">
         <seg>启动粒子系统</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Start timeline</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152549Z" creationid="liaronce" creationdate="20200820T152549Z">
+        <seg>开始时间线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Start timeline ${timeline}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152536Z" creationid="liaronce" creationdate="20200820T152536Z">
+        <seg>开始时间线${timeline}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Start timeline ${timeline} and loop it</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152535Z" creationid="liaronce" creationdate="20200820T152535Z">
+        <seg>启动时间线${timeline}并循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Start timeline ${timeline} and loop it on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152535Z" creationid="liaronce" creationdate="20200820T152535Z">
+        <seg>启动时间线${timeline}并在${applyto}上循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Start timeline ${timeline} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152537Z" creationid="liaronce" creationdate="20200820T152537Z">
+        <seg>在${applyto}上开始时间线${timeline}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Start timeline on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152550Z" creationid="liaronce" creationdate="20200820T152550Z">
+        <seg>在${applyto}上开始时间线</seg>
       </tuv>
     </tu>
     <tu>
@@ -40992,6 +42584,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Stop following a path</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152519Z" creationid="liaronce" creationdate="20200820T152519Z">
+        <seg>停止走一条小路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Stop following a path on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152520Z" creationid="liaronce" creationdate="20200820T152520Z">
+        <seg>停止跟踪${applyto}上的路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Stop movement</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151636Z" creationid="liaronce" creationdate="20200820T151636Z">
@@ -41020,6 +42628,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T201930Z" creationid="deciia" creationdate="20170105T083903Z">
         <seg>在再次运行之前停止当前运行的项目？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Stop timeline</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152554Z" creationid="liaronce" creationdate="20200820T152554Z">
+        <seg>停止时间线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Stop timeline on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152555Z" creationid="liaronce" creationdate="20200820T152555Z">
+        <seg>${applyto}上的停止时间线</seg>
       </tuv>
     </tu>
     <tu>
@@ -47179,6 +48803,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152319Z" creationid="liaronce" creationdate="20200820T152319Z">
         <seg>将${value}写入${applyto}上的缓冲区${buffer}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Write ${value} under key ${key} in section ${section} to ini file</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152353Z" creationid="liaronce" creationdate="20200820T152353Z">
+        <seg>将${Section}节中密钥${key}下的${value}写入ini文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Write ${value} under key ${key} in section ${section} to ini file on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152354Z" creationid="liaronce" creationdate="20200820T152354Z">
+        <seg>将${Section}节中密钥${key}下的${value}写入${applyto}上的ini文件</seg>
       </tuv>
     </tu>
     <tu>
