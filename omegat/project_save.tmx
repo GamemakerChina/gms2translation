@@ -734,6 +734,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&lt;Multiple Assets&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142231Z" creationid="liaronce" creationdate="20200820T142231Z">
+        <seg>&lt;多个资产&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;No path&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T104449Z" creationid="deciia" creationdate="20170103T104449Z">
@@ -3024,6 +3032,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Any Tags</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142113Z" creationid="liaronce" creationdate="20200820T142113Z">
+        <seg>任何标签</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Any Types</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142112Z" creationid="liaronce" creationdate="20200820T142112Z">
+        <seg>任何类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>App Delegate Class Name:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142036Z" creationid="liaronce" creationdate="20191118T142036Z">
@@ -3100,6 +3124,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161223T065017Z" creationid="deciia" creationdate="20161223T065017Z">
         <seg>应用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Apply Filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142114Z" creationid="liaronce" creationdate="20200820T142114Z">
+        <seg>应用过滤器</seg>
       </tuv>
     </tu>
     <tu>
@@ -3283,6 +3315,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Are you sure you want to delete selected Tags?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142308Z" creationid="liaronce" creationdate="20200820T142308Z">
+        <seg>是否确实要删除选定的标签？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Are you sure you want to delete the argument?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T143622Z" creationid="deciia" creationdate="20170107T035344Z">
@@ -3363,6 +3403,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Are you sure you want to delete these Assets: {0}?\nCollision events with deleted objects will also be deleted</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142212Z" creationid="liaronce" creationdate="20200820T142212Z">
+        <seg>是否确实要删除这些资产：{0}？\n与已删除对象的冲突事件也将被删除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Are you sure you want to delete these resources: {0}?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T114232Z" creationid="deciia" creationdate="20170103T113818Z">
@@ -3411,10 +3459,18 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Are you sure you want to delete {0} Assets: {1}?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142205Z" creationid="liaronce" creationdate="20200820T142205Z">
+        <seg>是否确实要删除 {0} 的资产：{1}？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Are you sure you want to delete {0}?</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20170315T064614Z" creationid="deciia" creationdate="20170103T114159Z">
-        <seg>你确定要删除{0}吗？</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142142Z" creationid="deciia" creationdate="20170103T114159Z">
+        <seg>是否确实要删除 {0} ？</seg>
       </tuv>
     </tu>
     <tu>
@@ -3431,6 +3487,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T153120Z" creationid="deciia" creationdate="20170103T114226Z">
         <seg>你确定要删除{0}吗？\n在硬盘上的内含文件/文件夹也将一起被删除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Are you sure you want to delete {0}?\nIt is referenced by {1}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142152Z" creationid="liaronce" creationdate="20200820T142152Z">
+        <seg>是否确实要删除 {0} ？\n它被 {1} 引用</seg>
       </tuv>
     </tu>
     <tu>
@@ -3659,6 +3723,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Asset Type</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142256Z" creationid="liaronce" creationdate="20200820T142256Z">
+        <seg>资产类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Asset cache directory</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T023820Z" creationid="deciia" creationdate="20180922T023820Z">
@@ -3679,6 +3751,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140912Z" creationid="liaronce" creationdate="20191118T140912Z">
         <seg>分配音频组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Assign Sprite to Object</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142214Z" creationid="liaronce" creationdate="20200820T142214Z">
+        <seg>将精灵指定给对象</seg>
       </tuv>
     </tu>
     <tu>
@@ -6946,6 +7026,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Clear Filters</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142253Z" creationid="liaronce" creationdate="20200820T142253Z">
+        <seg>清除过滤器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Clear Grid</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T122259Z" creationid="deciia" creationdate="20170212T050140Z">
@@ -6966,6 +7054,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T122857Z" creationid="deciia" creationdate="20170212T151232Z">
         <seg>清空粒子系统</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Clear Recent Items</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142102Z" creationid="liaronce" creationdate="20200820T142102Z">
+        <seg>清除最近的项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -7955,6 +8051,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T100629Z" creationid="deciia" creationdate="20170212T100629Z">
         <seg>条件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Config Editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142244Z" creationid="liaronce" creationdate="20200820T142244Z">
+        <seg>配置编辑器</seg>
       </tuv>
     </tu>
     <tu>
@@ -8972,6 +9076,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create Child Room</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142227Z" creationid="liaronce" creationdate="20200820T142227Z">
+        <seg>创建子房间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create Executable</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T132053Z" creationid="deciia" creationdate="20170103T132053Z">
@@ -9016,6 +9128,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170318T072255Z" creationid="deciia" creationdate="20170212T044702Z">
         <seg>创建栅格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create Group</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142043Z" creationid="liaronce" creationdate="20200820T142043Z">
+        <seg>创建组</seg>
       </tuv>
     </tu>
     <tu>
@@ -9498,6 +9618,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161223T070919Z" creationid="deciia" creationdate="20161223T070919Z">
         <seg>创建新的证书</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142048Z" creationid="liaronce" creationdate="20200820T142048Z">
+        <seg>创建 {0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -12608,6 +12736,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Edit Tags</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142041Z" creationid="liaronce" creationdate="20200820T142041Z">
+        <seg>编辑标签</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Edit Tile Animation</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170303T153603Z" creationid="deciia" creationdate="20170303T153603Z">
@@ -13959,6 +14095,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Expand Children</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142242Z" creationid="liaronce" creationdate="20200820T142242Z">
+        <seg>展开子项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Expand Localisation</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T020318Z" creationid="deciia" creationdate="20180922T020318Z">
@@ -14599,6 +14743,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Favourite</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142050Z" creationid="liaronce" creationdate="20200820T142050Z">
+        <seg>最受欢迎</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Favourites</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T071003Z" creationid="deciia" creationdate="20170105T071003Z">
@@ -14831,6 +14983,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Filter by Tag</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142130Z" creationid="liaronce" creationdate="20200820T142130Z">
+        <seg>按标签过滤</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Filter by installed</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T094517Z" creationid="deciia" creationdate="20170311T115118Z">
@@ -14851,6 +15011,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T022950Z" creationid="deciia" creationdate="20170106T160957Z">
         <seg>滤过</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Filters</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142251Z" creationid="liaronce" creationdate="20200820T142251Z">
+        <seg>过滤 器</seg>
       </tuv>
     </tu>
     <tu>
@@ -17407,6 +17575,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170114T035712Z" creationid="deciia" creationdate="20170103T022955Z">
         <seg>网格分割线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Grid View</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142300Z" creationid="liaronce" creationdate="20200820T142300Z">
+        <seg>网格视图</seg>
       </tuv>
     </tu>
     <tu>
@@ -22541,6 +22717,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Menu</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142305Z" creationid="liaronce" creationdate="20200820T142305Z">
+        <seg>菜单</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Menu Bar</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170319T015445Z" creationid="deciia" creationdate="20170102T074738Z">
@@ -23835,6 +24019,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>No Assets</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142238Z" creationid="liaronce" creationdate="20200820T142235Z">
+        <seg>没有资产</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>No Audio Device</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T134828Z" creationid="deciia" creationdate="20170103T134828Z">
@@ -23967,6 +24159,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140717Z" creationid="liaronce" creationdate="20191118T140717Z">
         <seg>无缩放</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>No Search Results</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142240Z" creationid="liaronce" creationdate="20200820T142240Z">
+        <seg>没有搜索结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -24998,6 +25198,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T060025Z" creationid="deciia" creationdate="20170104T060025Z">
         <seg>在浏览器中打开</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open in new Asset Browser</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142100Z" creationid="liaronce" creationdate="20200820T142100Z">
+        <seg>在新的资源浏览器中打开</seg>
       </tuv>
     </tu>
     <tu>
@@ -28096,6 +28304,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Quick Access</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142006Z" creationid="liaronce" creationdate="20200820T142006Z">
+        <seg>快速访问</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Quit</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T144716Z" creationid="deciia" creationdate="20180921T144657Z">
@@ -28292,6 +28508,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T161807Z" creationid="deciia" creationdate="20170311T161807Z">
         <seg>重置大小后重新计算图块集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Recent</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142008Z" creationid="liaronce" creationdate="20200820T142008Z">
+        <seg>最近</seg>
       </tuv>
     </tu>
     <tu>
@@ -28896,6 +29120,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Remove from Filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142133Z" creationid="liaronce" creationdate="20200820T142133Z">
+        <seg>从过滤器中删除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Remove selected framework</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T200956Z" creationid="deciia" creationdate="20170311T150518Z">
@@ -29245,6 +29477,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T085305Z" creationid="deciia" creationdate="20180922T085305Z">
         <seg>重置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Reset Filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142104Z" creationid="liaronce" creationdate="20200820T142104Z">
+        <seg>重置过滤器</seg>
       </tuv>
     </tu>
     <tu>
@@ -30026,6 +30266,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Right-click to edit</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142234Z" creationid="liaronce" creationdate="20200820T142234Z">
+        <seg>右键单击以进行编辑</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Right:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T090048Z" creationid="deciia" creationdate="20170102T090048Z">
@@ -30098,6 +30346,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Room Inheritance</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142017Z" creationid="liaronce" creationdate="20200820T142017Z">
+        <seg>房间继承</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Room Instance</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143304Z" creationid="liaronce" creationdate="20191118T143304Z">
@@ -30126,6 +30382,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T090137Z" creationid="deciia" creationdate="20180922T090137Z">
         <seg>房间标签颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Room Manager</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142034Z" creationid="liaronce" creationdate="20200820T142018Z">
+        <seg>房间管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Room Order</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142016Z" creationid="liaronce" creationdate="20200820T142016Z">
+        <seg>房间顺序</seg>
       </tuv>
     </tu>
     <tu>
@@ -30602,6 +30874,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Save Current Filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142110Z" creationid="liaronce" creationdate="20200820T142103Z">
+        <seg>保存当前过滤器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Save Data Icon</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170312T024632Z" creationid="deciia" creationdate="20170104T083436Z">
@@ -30690,6 +30970,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Save Search</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142257Z" creationid="liaronce" creationdate="20200820T142257Z">
+        <seg>保存搜索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Save Style</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161224T071833Z" creationid="deciia" creationdate="20161224T071833Z">
@@ -30742,6 +31030,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T094124Z" creationid="deciia" creationdate="20170212T094124Z">
         <seg>保存当前进度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Saved Searches</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142037Z" creationid="liaronce" creationdate="20200820T142037Z">
+        <seg>已保存的搜索</seg>
       </tuv>
     </tu>
     <tu>
@@ -33476,6 +33772,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Show Tree Location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142302Z" creationid="liaronce" creationdate="20200820T142302Z">
+        <seg>显示树位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Show US Spelling for system functions</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T145644Z" creationid="deciia" creationdate="20170107T053929Z">
@@ -34272,6 +34576,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T204924Z" creationid="deciia" creationdate="20180922T204924Z">
         <seg>抱歉，${APP_NAME} 仅适用于64位Windows，这是32位版本的Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sort/Filter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142304Z" creationid="liaronce" creationdate="20200820T142304Z">
+        <seg>排序/筛选</seg>
       </tuv>
     </tu>
     <tu>
@@ -39313,6 +39625,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Unfavourite</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142052Z" creationid="liaronce" creationdate="20200820T142052Z">
+        <seg>不受欢迎</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Unfold All Regions</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T013823Z" creationid="deciia" creationdate="20180922T013823Z">
@@ -42385,6 +42705,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>group</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142056Z" creationid="liaronce" creationdate="20200820T142056Z">
+        <seg>组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>h:m:s</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140023Z" creationid="liaronce" creationdate="20200820T140023Z">
@@ -43897,6 +44225,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T145820Z" creationid="deciia" creationdate="20170311T123748Z">
         <seg>{0} 条评论</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0} selected</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142250Z" creationid="liaronce" creationdate="20200820T142250Z">
+        <seg>已选择 {0} 个1</seg>
       </tuv>
     </tu>
     <tu>
