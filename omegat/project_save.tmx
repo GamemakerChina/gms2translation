@@ -6114,6 +6114,38 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Burst ${number} particles of type ${type} from emitter ${emitter} in system ${system}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152818Z" creationid="liaronce" creationdate="20200820T152818Z">
+        <seg>从系统${system}中的发射器${emitter}爆发${type}类型的${number}粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Burst ${number} particles of type ${type} from emitter ${emitter} in system ${system} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152819Z" creationid="liaronce" creationdate="20200820T152819Z">
+        <seg>从${applyto}上系统${system}中的发射器${emitter}爆发${type}类型的${number}粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Burst ${number} particles of type ${type} in system ${system} at ${dnd_position}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152812Z" creationid="liaronce" creationdate="20200820T152812Z">
+        <seg>在系统${system}的${DND_POSITION}处爆发${number}个${type}类型的粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Burst ${number} particles of type ${type} in system ${system} at ${dnd_position} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152812Z" creationid="liaronce" creationdate="20200820T152812Z">
+        <seg>在${applyto}上的${DND_POSITION}处爆发系统${system}中${type}类型的${number}个粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Burst Particles</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T122833Z" creationid="deciia" creationdate="20170212T150916Z">
@@ -7798,6 +7830,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T040028Z" creationid="deciia" creationdate="20180922T040028Z">
         <seg>编译开始时清除输出窗口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Clear particle system ${system}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152730Z" creationid="liaronce" creationdate="20200820T152730Z">
+        <seg>清除粒子系统${system}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Clear particle system ${system} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152731Z" creationid="liaronce" creationdate="20200820T152731Z">
+        <seg>清除${applyto}上的粒子系统${system}</seg>
       </tuv>
     </tu>
     <tu>
@@ -9884,6 +9932,38 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create ${count} secondary particles from type ${type} of type ${secondary} on death</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152810Z" creationid="liaronce" creationdate="20200820T152810Z">
+        <seg>从类型${type}的${Second}在死亡时创建${count}个次级粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create ${count} secondary particles from type ${type} of type ${secondary} on death on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152811Z" creationid="liaronce" creationdate="20200820T152811Z">
+        <seg>在${applyto}上死亡时，从${type}类型${Second}创建${count}次级粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create ${count} secondary particles from type ${type} of type ${secondary} per step</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152808Z" creationid="liaronce" creationdate="20200820T152808Z">
+        <seg>每步从类型${type}的${Second}创建${count}个次级粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create ${count} secondary particles from type ${type} of type ${secondary} per step on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152809Z" creationid="liaronce" creationdate="20200820T152809Z">
+        <seg>在${applyto}上的每个步骤中，从${type}类型${Second}创建${count}个次级粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create ${objectid} at ${dnd_pos}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144101Z" creationid="liaronce" creationdate="20200820T144101Z">
@@ -10446,6 +10526,38 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create a new blending particle type into ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152737Z" creationid="liaronce" creationdate="20200820T152737Z">
+        <seg>将新的混合粒子类型创建到${var}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a new blending particle type into ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152738Z" creationid="liaronce" creationdate="20200820T152738Z">
+        <seg>在${applyto}上的${var}中创建新的混合粒子类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a new blending particle type into temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152739Z" creationid="liaronce" creationdate="20200820T152739Z">
+        <seg>在Temp${var}中创建新的混合粒子类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a new blending particle type into temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152740Z" creationid="liaronce" creationdate="20200820T152740Z">
+        <seg>在${applyto}上的Temp${var}中创建新的混合粒子类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create a new grid data structure.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170318T072258Z" creationid="deciia" creationdate="20170212T044717Z">
@@ -10486,6 +10598,38 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create a new particle type into ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152741Z" creationid="liaronce" creationdate="20200820T152741Z">
+        <seg>在${var}中创建新的粒子类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a new particle type into ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152742Z" creationid="liaronce" creationdate="20200820T152742Z">
+        <seg>在${applyto}上的${var}中创建新粒子类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a new particle type into temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152743Z" creationid="liaronce" creationdate="20200820T152743Z">
+        <seg>在临时${var}中创建新的粒子类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a new particle type into temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152744Z" creationid="liaronce" creationdate="20200820T152744Z">
+        <seg>在${applyto}上的Temp${var}中创建新的粒子类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create a new particle type.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T151905Z" creationid="deciia" creationdate="20170212T151905Z">
@@ -10506,6 +10650,102 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134202Z" creationid="liaronce" creationdate="20200820T134202Z">
         <seg>创建一个带有可选参数的新结构，并将其赋给变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a particle emitter in system ${system} into ${emitter}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152813Z" creationid="liaronce" creationdate="20200820T152813Z">
+        <seg>在系统${system}中将粒子发射器创建到${emitter}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a particle emitter in system ${system} into ${emitter} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152814Z" creationid="liaronce" creationdate="20200820T152814Z">
+        <seg>将系统${system}中的粒子发射器创建到${applyto}上的${emitter}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a particle emitter in system ${system} into temp ${emitter}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152815Z" creationid="liaronce" creationdate="20200820T152815Z">
+        <seg>在系统${system}中将粒子发射器创建到临时${emitter}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a particle emitter in system ${system} into temp ${emitter} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152816Z" creationid="liaronce" creationdate="20200820T152816Z">
+        <seg>将系统${system}中的粒子发射器创建到${applyto}上的临时${emitter}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a particle system on layer ${layer} into ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152725Z" creationid="liaronce" creationdate="20200820T152725Z">
+        <seg>将图层${layer}上的粒子系统创建到${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a particle system on layer ${layer} into ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152726Z" creationid="liaronce" creationdate="20200820T152726Z">
+        <seg>将图层${layer}上的粒子系统创建到${applyto}上的${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a particle system on layer ${layer} into temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152727Z" creationid="liaronce" creationdate="20200820T152727Z">
+        <seg>将图层${layer}上的粒子系统创建到临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a particle system on layer ${layer} into temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152728Z" creationid="liaronce" creationdate="20200820T152728Z">
+        <seg>将图层${layer}上的粒子系统创建到${applyto}上的临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a persistent particle system on layer ${layer} into ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152721Z" creationid="liaronce" creationdate="20200820T152721Z">
+        <seg>将图层${layer}上的永久粒子系统创建到${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a persistent particle system on layer ${layer} into ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152722Z" creationid="liaronce" creationdate="20200820T152722Z">
+        <seg>将图层${layer}上的永久粒子系统创建到${applyto}上的${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a persistent particle system on layer ${layer} into temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152723Z" creationid="liaronce" creationdate="20200820T152723Z">
+        <seg>在图层${layer}上将永久粒子系统创建到临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a persistent particle system on layer ${layer} into temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152724Z" creationid="liaronce" creationdate="20200820T152724Z">
+        <seg>将图层${layer}上的永久粒子系统创建到${applyto}上的临时${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -12160,6 +12400,54 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144110Z" creationid="liaronce" creationdate="20200820T144110Z">
         <seg>销毁${applyto}上${dnd_pos}处的实例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Destroy particle emitter ${emitter} in system ${system}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152817Z" creationid="liaronce" creationdate="20200820T152817Z">
+        <seg>销毁系统${system}中的粒子发射器${emitter}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Destroy particle emitter ${emitter} in system ${system} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152818Z" creationid="liaronce" creationdate="20200820T152818Z">
+        <seg>销毁${applyto}上系统${system}中的粒子发射器${emitter}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Destroy particle system ${system}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152728Z" creationid="liaronce" creationdate="20200820T152728Z">
+        <seg>销毁粒子系统${system}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Destroy particle system ${system} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152729Z" creationid="liaronce" creationdate="20200820T152729Z">
+        <seg>销毁${applyto}上的粒子系统${system}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Destroy particle type ${type}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152745Z" creationid="liaronce" creationdate="20200820T152745Z">
+        <seg>销毁粒子类型${type}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Destroy particle type ${type} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152746Z" creationid="liaronce" creationdate="20200820T152746Z">
+        <seg>销毁${applyto}上的粒子类型${type}</seg>
       </tuv>
     </tu>
     <tu>
@@ -14607,6 +14895,198 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T151332Z" creationid="deciia" creationdate="20170215T151332Z">
         <seg>发射粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a diamond shape with gaussian distribution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152834Z" creationid="liaronce" creationdate="20200820T152834Z">
+        <seg>从系统${system}中的${emitter}发射，呈高斯分布的菱形</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a diamond shape with gaussian distribution on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152835Z" creationid="liaronce" creationdate="20200820T152835Z">
+        <seg>从系统${system}中的${emitter}发射，呈菱形，在${applyto}上呈高斯分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a diamond shape with inverse gaussian distribution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152836Z" creationid="liaronce" creationdate="20200820T152836Z">
+        <seg>从系统${system}中的${emitter}发射，呈菱形，呈逆高斯分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a diamond shape with inverse gaussian distribution on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152837Z" creationid="liaronce" creationdate="20200820T152837Z">
+        <seg>从系统${system}中的${emitter}发射，呈菱形，在${applyto}上呈逆高斯分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a diamond shape with linear distribution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152833Z" creationid="liaronce" creationdate="20200820T152833Z">
+        <seg>从系统${system}中的${emitter}发射，呈菱形，呈线性分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a diamond shape with linear distribution on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152833Z" creationid="liaronce" creationdate="20200820T152833Z">
+        <seg>从系统${system}中的${emitter}发射，呈菱形，在${applyto}上呈线性分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a elliptical shape with gaussian distribution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152829Z" creationid="liaronce" creationdate="20200820T152829Z">
+        <seg>从系统${system}中的${emitter}发射，呈椭圆形，呈高斯分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a elliptical shape with gaussian distribution on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152830Z" creationid="liaronce" creationdate="20200820T152830Z">
+        <seg>从系统${system}中的${emitter}发射，呈椭圆形，在${applyto}上呈高斯分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a elliptical shape with inverse gaussian distribution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152831Z" creationid="liaronce" creationdate="20200820T152831Z">
+        <seg>从系统${system}中的${emitter}发射，呈椭圆形，呈逆高斯分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a elliptical shape with inverse gaussian distribution on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152832Z" creationid="liaronce" creationdate="20200820T152832Z">
+        <seg>从系统${system}中的${emitter}发射，呈椭圆形，在${applyto}上呈逆高斯分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a elliptical shape with linear distribution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152827Z" creationid="liaronce" creationdate="20200820T152827Z">
+        <seg>从系统${system}中的${emitter}发射呈线性分布的椭圆形</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a elliptical shape with linear distribution on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152828Z" creationid="liaronce" creationdate="20200820T152828Z">
+        <seg>从系统${system}中的${emitter}发射，呈椭圆形，在${applyto}上呈线性分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a rectangular shape with gaussian distribution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152824Z" creationid="liaronce" creationdate="20200820T152824Z">
+        <seg>从系统${system}中的${emitter}发射，呈高斯分布的矩形</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a rectangular shape with gaussian distribution on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152825Z" creationid="liaronce" creationdate="20200820T152825Z">
+        <seg>从系统${system}中的${emitter}发射，呈矩形，在${applyto}上呈高斯分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a rectangular shape with inverse gaussian distribution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152826Z" creationid="liaronce" creationdate="20200820T152826Z">
+        <seg>从系统${system}中的${emitter}发射，呈矩形，呈逆高斯分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a rectangular shape with inverse gaussian distribution on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152826Z" creationid="liaronce" creationdate="20200820T152826Z">
+        <seg>从系统${system}中的${emitter}发射，呈矩形，在${applyto}上呈逆高斯分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a rectangular shape with linear distribution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152822Z" creationid="liaronce" creationdate="20200820T152822Z">
+        <seg>从系统${system}中的${emitter}发射呈线性分布的矩形</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a rectangular shape with linear distribution on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152823Z" creationid="liaronce" creationdate="20200820T152823Z">
+        <seg>从系统${system}中的${emitter}发射，呈矩形，在${applyto}上呈线性分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a straight line with gaussian distribution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152840Z" creationid="liaronce" creationdate="20200820T152840Z">
+        <seg>从系统${system}中的${emitter}以高斯分布直线发射</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a straight line with gaussian distribution on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152841Z" creationid="liaronce" creationdate="20200820T152841Z">
+        <seg>从系统${system}中的${emitter}以直线发射，在${applyto}上呈高斯分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a straight line with inverse gaussian distribution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152841Z" creationid="liaronce" creationdate="20200820T152841Z">
+        <seg>从系统${system}中的${emitter}以反高斯分布直线发射</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a straight line with inverse gaussian distribution on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152842Z" creationid="liaronce" creationdate="20200820T152842Z">
+        <seg>从系统${system}中的${emitter}以直线发射，在${applyto}上呈逆高斯分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a straight line with linear distribution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152838Z" creationid="liaronce" creationdate="20200820T152838Z">
+        <seg>从系统${system}中的${emitter}以线性分布的直线发射</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emit from ${emitter} in system ${system} in a straight line with linear distribution on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152839Z" creationid="liaronce" creationdate="20200820T152839Z">
+        <seg>从系统${system}中的${emitter}以直线形式发射，在${applyto}上呈线性分布</seg>
       </tuv>
     </tu>
     <tu>
@@ -20283,6 +20763,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Get virtual keyboard height into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152848Z" creationid="liaronce" creationdate="20200820T152848Z">
+        <seg>将虚拟键盘高度设置为${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get virtual keyboard height into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152849Z" creationid="liaronce" creationdate="20200820T152849Z">
+        <seg>将虚拟键盘高度获取到温度${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Get volume of audio ${sound} into ${var}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152050Z" creationid="liaronce" creationdate="20200820T152050Z">
@@ -21364,6 +21860,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Hide virtual keyboard</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152847Z" creationid="liaronce" creationdate="20200820T152847Z">
+        <seg>隐藏虚拟键盘</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Hide warnings when dragging unusable assets onto room layers</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133622Z" creationid="liaronce" creationdate="20200820T133622Z">
@@ -22264,6 +22768,86 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If ${obj} intersects point ${dnd_position}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152922Z" creationid="liaronce" creationdate="20200820T152922Z">
+        <seg>如果${obj}与点${dnd_position}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${obj} intersects point ${dnd_position} into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152927Z" creationid="liaronce" creationdate="20200820T152927Z">
+        <seg>如果${obj}将点${dnd_position}相交到${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${obj} intersects point ${dnd_position} into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152928Z" creationid="liaronce" creationdate="20200820T152928Z">
+        <seg>如果${obj}将点${dnd_position}与${applyto}上的${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${obj} intersects point ${dnd_position} into list ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152924Z" creationid="liaronce" creationdate="20200820T152924Z">
+        <seg>如果${obj}与列表${target}中的点${dnd_position}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${obj} intersects point ${dnd_position} into list ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152925Z" creationid="liaronce" creationdate="20200820T152925Z">
+        <seg>如果${obj}将点${dnd_position}与${applyto}上的列表${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${obj} intersects point ${dnd_position} into list temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152926Z" creationid="liaronce" creationdate="20200820T152926Z">
+        <seg>如果${obj}将点${dnd_position}相交到列表临时${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152926Z" creationid="liaronce" creationdate="20200820T152926Z">
+        <seg>如果${obj}与${applyto}上的列表临时${target}中的点${dnd_position}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${obj} intersects point ${dnd_position} into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152929Z" creationid="liaronce" creationdate="20200820T152929Z">
+        <seg>如果${obj}将点${dnd_position}相交到临时${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152930Z" creationid="liaronce" creationdate="20200820T152930Z">
+        <seg>如果${obj}将点${dnd_position}与${applyto}上的临时${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${obj} intersects point ${dnd_position} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152923Z" creationid="liaronce" creationdate="20200820T152923Z">
+        <seg>如果${obj}与${applyto}上的点${dnd_position}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151748Z" creationid="liaronce" creationdate="20200820T151748Z">
@@ -23024,6 +23608,318 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If instance health is equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152708Z" creationid="liaronce" creationdate="20200820T152708Z">
+        <seg>如果实例健康等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152709Z" creationid="liaronce" creationdate="20200820T152709Z">
+        <seg>如果实例运行状况等于${applyto}上的${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is greater than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152712Z" creationid="liaronce" creationdate="20200820T152712Z">
+        <seg>如果实例运行状况大于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is greater than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152712Z" creationid="liaronce" creationdate="20200820T152712Z">
+        <seg>如果${applyto}上的实例运行状况大于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is greater than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152715Z" creationid="liaronce" creationdate="20200820T152715Z">
+        <seg>如果实例健康大于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is less than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152710Z" creationid="liaronce" creationdate="20200820T152710Z">
+        <seg>如果实例运行状况小于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is less than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152711Z" creationid="liaronce" creationdate="20200820T152711Z">
+        <seg>如果${applyto}上的实例运行状况低于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is less than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152713Z" creationid="liaronce" creationdate="20200820T152713Z">
+        <seg>如果实例健康小于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is less than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152714Z" creationid="liaronce" creationdate="20200820T152714Z">
+        <seg>如果${applyto}上的实例运行状况小于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is not equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152659Z" creationid="liaronce" creationdate="20200820T152659Z">
+        <seg>如果实例健康不等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is not equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152700Z" creationid="liaronce" creationdate="20200820T152700Z">
+        <seg>如果实例运行状况不等于${applyto}上的${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is not greater than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152703Z" creationid="liaronce" creationdate="20200820T152703Z">
+        <seg>如果实例运行状况不大于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is not greater than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152704Z" creationid="liaronce" creationdate="20200820T152704Z">
+        <seg>如果${applyto}上的实例运行状况不大于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is not greater than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152706Z" creationid="liaronce" creationdate="20200820T152706Z">
+        <seg>如果实例健康不大于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is not greater than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152707Z" creationid="liaronce" creationdate="20200820T152707Z">
+        <seg>如果${applyto}上的实例运行状况不大于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is not less than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152701Z" creationid="liaronce" creationdate="20200820T152701Z">
+        <seg>如果实例健康不低于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is not less than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152702Z" creationid="liaronce" creationdate="20200820T152702Z">
+        <seg>如果${applyto}上的实例运行状况不低于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is not less than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152704Z" creationid="liaronce" creationdate="20200820T152704Z">
+        <seg>如果实例健康不小于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance health is not less than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152705Z" creationid="liaronce" creationdate="20200820T152705Z">
+        <seg>如果${applyto}上的实例运行状况不小于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152650Z" creationid="liaronce" creationdate="20200820T152650Z">
+        <seg>如果实例生存期等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152651Z" creationid="liaronce" creationdate="20200820T152651Z">
+        <seg>如果实例生存期等于${applyto}上的${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is greater than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152654Z" creationid="liaronce" creationdate="20200820T152654Z">
+        <seg>如果实例生存期大于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is greater than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152655Z" creationid="liaronce" creationdate="20200820T152655Z">
+        <seg>如果${applyto}上的实例生存期大于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is greater than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152657Z" creationid="liaronce" creationdate="20200820T152657Z">
+        <seg>如果实例生存期大于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is greater than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152658Z" creationid="liaronce" creationdate="20200820T152658Z">
+        <seg>如果${applyto}上的实例生存期大于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is less than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152652Z" creationid="liaronce" creationdate="20200820T152652Z">
+        <seg>如果实例生存期小于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is less than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152653Z" creationid="liaronce" creationdate="20200820T152653Z">
+        <seg>如果${applyto}上的实例生存期小于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is less than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152656Z" creationid="liaronce" creationdate="20200820T152656Z">
+        <seg>如果实例生存期小于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is less than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152657Z" creationid="liaronce" creationdate="20200820T152657Z">
+        <seg>如果${applyto}上的实例生存期小于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is not equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152641Z" creationid="liaronce" creationdate="20200820T152641Z">
+        <seg>如果实例生存期不等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is not equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152642Z" creationid="liaronce" creationdate="20200820T152642Z">
+        <seg>如果实例生存期不等于${applyto}上的${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is not greater than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152645Z" creationid="liaronce" creationdate="20200820T152645Z">
+        <seg>如果实例生存期不大于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is not greater than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152646Z" creationid="liaronce" creationdate="20200820T152646Z">
+        <seg>如果${applyto}上的实例生存期不大于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is not greater than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152649Z" creationid="liaronce" creationdate="20200820T152649Z">
+        <seg>如果实例生存期不大于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is not greater than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152649Z" creationid="liaronce" creationdate="20200820T152649Z">
+        <seg>如果${applyto}上的实例生存期不大于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is not less than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152643Z" creationid="liaronce" creationdate="20200820T152643Z">
+        <seg>如果实例生存期不小于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is not less than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152644Z" creationid="liaronce" creationdate="20200820T152644Z">
+        <seg>如果${applyto}上的实例生存期不小于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is not less than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152647Z" creationid="liaronce" creationdate="20200820T152647Z">
+        <seg>如果实例生存期不小于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance lives is not less than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152648Z" creationid="liaronce" creationdate="20200820T152648Z">
+        <seg>如果${applyto}上的实例生存期不小于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If instance score is equal to ${value}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152632Z" creationid="liaronce" creationdate="20200820T152632Z">
@@ -23036,6 +23932,62 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152633Z" creationid="liaronce" creationdate="20200820T152633Z">
         <seg>如果${applyto}上的实例分数等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is greater than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152636Z" creationid="liaronce" creationdate="20200820T152636Z">
+        <seg>如果实例分数大于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is greater than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152636Z" creationid="liaronce" creationdate="20200820T152636Z">
+        <seg>如果${applyto}上的实例分数大于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is greater than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152639Z" creationid="liaronce" creationdate="20200820T152639Z">
+        <seg>如果实例分数大于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is greater than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152640Z" creationid="liaronce" creationdate="20200820T152640Z">
+        <seg>如果${applyto}上的实例分数大于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is less than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152635Z" creationid="liaronce" creationdate="20200820T152635Z">
+        <seg>如果${applyto}上的实例分数小于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is less than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152637Z" creationid="liaronce" creationdate="20200820T152637Z">
+        <seg>如果实例分数小于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If instance score is less than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152638Z" creationid="liaronce" creationdate="20200820T152638Z">
+        <seg>如果${applyto}上的实例分数小于或等于${value}</seg>
       </tuv>
     </tu>
     <tu>
@@ -23352,10 +24304,98 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152913Z" creationid="liaronce" creationdate="20200820T152913Z">
+        <seg>否则，${obj}与椭圆在${DND_Position 1}到${DND_Position 2}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152918Z" creationid="liaronce" creationdate="20200820T152918Z">
+        <seg>否则，${obj}会将位于${DND_Position 1}到${DND_Position 2}的椭圆相交到${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152919Z" creationid="liaronce" creationdate="20200820T152919Z">
+        <seg>否则，${obj}将位于${DND_Position 1}到${DND_Position 2}的椭圆与${applyto}上的${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152915Z" creationid="liaronce" creationdate="20200820T152915Z">
+        <seg>否则，${obj}会将位于${DND_Position 1}到${DND_Position 2}的椭圆相交到列表${target}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152916Z" creationid="liaronce" creationdate="20200820T152916Z">
+        <seg>否则，${obj}将位于${DND_Position 1}到${DND_Position 2}的椭圆与${applyto}上的列表${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152917Z" creationid="liaronce" creationdate="20200820T152917Z">
+        <seg>否则，${obj}将位于${DND_Position 1}到${DND_Position 2}的椭圆相交到列表TEMP${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152917Z" creationid="liaronce" creationdate="20200820T152917Z">
+        <seg>否则，${obj}将位于${DND_Position 1}到${DND_Position 2}的椭圆相交到${applyto}上的列表临时${target}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152920Z" creationid="liaronce" creationdate="20200820T152920Z">
+        <seg>否则，${obj}将位于${DND_Position 1}到${DND_Position 2}的椭圆相交到临时${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152921Z" creationid="liaronce" creationdate="20200820T152921Z">
+        <seg>否则，${obj}将位于${DND_Position 1}到${DND_Position 2}的椭圆与${applyto}上的临时${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152914Z" creationid="liaronce" creationdate="20200820T152914Z">
+        <seg>否则，${obj}与${applyto}上的${DND_Position 1}到${DND_Position 2}处的椭圆相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151801Z" creationid="liaronce" creationdate="20200820T151801Z">
         <seg>否则，${obj}与${DND_Position 1}到${DND_Position 2}处的线相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152901Z" creationid="liaronce" creationdate="20200820T152901Z">
+        <seg>否则，${obj}将位于${DND_Position 1}到${DND_Position 2}的线与${applyto}上的${target}相交</seg>
       </tuv>
     </tu>
     <tu>
@@ -23392,10 +24432,146 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152903Z" creationid="liaronce" creationdate="20200820T152903Z">
+        <seg>否则，${obj}将位于${DND_Position1}到${DND_Position 2}的线与${applyto}上的临时${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151802Z" creationid="liaronce" creationdate="20200820T151802Z">
         <seg>否则，${obj}与${applyto}上${DND_Position 1}处的线与${DND_Position 2}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects point ${dnd_position}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152931Z" creationid="liaronce" creationdate="20200820T152931Z">
+        <seg>如果不是，则${obj}与点${dnd_position}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects point ${dnd_position} into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152936Z" creationid="liaronce" creationdate="20200820T152936Z">
+        <seg>否则，${obj}会将点${dnd_position}与${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects point ${dnd_position} into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152937Z" creationid="liaronce" creationdate="20200820T152937Z">
+        <seg>否则，${obj}将点${dnd_position}与${applyto}上的${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects point ${dnd_position} into list ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152932Z" creationid="liaronce" creationdate="20200820T152932Z">
+        <seg>如果不是，则${obj}将点${dnd_position}与列表${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects point ${dnd_position} into list ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152933Z" creationid="liaronce" creationdate="20200820T152933Z">
+        <seg>否则，${obj}会将点${dnd_position}与${applyto}上的列表${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects point ${dnd_position} into list temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152934Z" creationid="liaronce" creationdate="20200820T152934Z">
+        <seg>如果不是，则${obj}将点${dnd_position}相交到列表临时${target}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152935Z" creationid="liaronce" creationdate="20200820T152935Z">
+        <seg>否则，${obj}将点${dnd_position}与${applyto}上的列表临时${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects point ${dnd_position} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152932Z" creationid="liaronce" creationdate="20200820T152932Z">
+        <seg>否则，${obj}与${applyto}上的点${dnd_position}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152904Z" creationid="liaronce" creationdate="20200820T152904Z">
+        <seg>否则，${obj}在${DND_Position 1}处与${DND_Position 2}处的矩形相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152911Z" creationid="liaronce" creationdate="20200820T152911Z">
+        <seg>否则，${obj}将位于${DND_Position 1}到${DND_Position 2}的矩形与${applyto}上的${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152906Z" creationid="liaronce" creationdate="20200820T152906Z">
+        <seg>否则，${obj}会将位于${DND_Position 1}到${DND_Position 2}的矩形相交到列表${target}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152907Z" creationid="liaronce" creationdate="20200820T152907Z">
+        <seg>否则，${obj}将位于${DND_Position 1}到${DND_Position 2}的矩形与${applyto}上的列表${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152908Z" creationid="liaronce" creationdate="20200820T152908Z">
+        <seg>否则，${obj}将位于${DND_Position 1}到${DND_Position 2}的矩形相交到列表TEMP${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152909Z" creationid="liaronce" creationdate="20200820T152909Z">
+        <seg>否则，${obj}将位于${DND_Position 1}到${DND_Position 2}的矩形相交到${applyto}上的列表临时${target}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152911Z" creationid="liaronce" creationdate="20200820T152911Z">
+        <seg>否则，${obj}将位于${DND_Position 1}到${DND_Position 2}的矩形与临时${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152905Z" creationid="liaronce" creationdate="20200820T152905Z">
+        <seg>否则，${obj}与${applyto}上${dnd_position tion1}处的矩形与${dnd_position tion2}相交</seg>
       </tuv>
     </tu>
     <tu>
@@ -23532,6 +24708,102 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152513Z" creationid="liaronce" creationdate="20200820T152513Z">
         <seg>如果这是最后一个房间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If virtual keyboard is not showing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152855Z" creationid="liaronce" creationdate="20200820T152855Z">
+        <seg>如果未显示虚拟键盘</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If virtual keyboard is not showing into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152857Z" creationid="liaronce" creationdate="20200820T152857Z">
+        <seg>如果虚拟键盘未显示在${target}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If virtual keyboard is not showing into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152858Z" creationid="liaronce" creationdate="20200820T152858Z">
+        <seg>如果虚拟键盘未显示到${applyto}上的${target}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If virtual keyboard is not showing into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152859Z" creationid="liaronce" creationdate="20200820T152859Z">
+        <seg>如果虚拟键盘未显示在临时${target}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If virtual keyboard is not showing into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152900Z" creationid="liaronce" creationdate="20200820T152900Z">
+        <seg>如果虚拟键盘未显示到${applyto}上的临时${target}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If virtual keyboard is not showing on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152856Z" creationid="liaronce" creationdate="20200820T152856Z">
+        <seg>如果${applyto}上未显示虚拟键盘</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If virtual keyboard is showing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152850Z" creationid="liaronce" creationdate="20200820T152850Z">
+        <seg>如果显示虚拟键盘</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If virtual keyboard is showing into ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152852Z" creationid="liaronce" creationdate="20200820T152852Z">
+        <seg>如果虚拟键盘显示在${target}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If virtual keyboard is showing into ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152852Z" creationid="liaronce" creationdate="20200820T152852Z">
+        <seg>如果虚拟键盘显示在${applyto}上的${target}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If virtual keyboard is showing into temp ${target}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152853Z" creationid="liaronce" creationdate="20200820T152853Z">
+        <seg>如果虚拟键盘显示在临时${target}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If virtual keyboard is showing into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152854Z" creationid="liaronce" creationdate="20200820T152854Z">
+        <seg>如果虚拟键盘显示在${applyto}上的临时${target}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If virtual keyboard is showing on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152851Z" creationid="liaronce" creationdate="20200820T152851Z">
+        <seg>如果${applyto}上显示虚拟键盘</seg>
       </tuv>
     </tu>
     <tu>
@@ -31705,6 +32977,22 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Pause particle system ${system}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152734Z" creationid="liaronce" creationdate="20200820T152734Z">
+        <seg>暂停粒子系统${system}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Pause particle system ${system} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152735Z" creationid="liaronce" creationdate="20200820T152735Z">
+        <seg>暂停${applyto}上的粒子系统${system}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Pause sequence</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141727Z" creationid="liaronce" creationdate="20200820T141727Z">
@@ -35410,6 +36698,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Resume particle system ${system}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152732Z" creationid="liaronce" creationdate="20200820T152732Z">
+        <seg>恢复粒子系统${system}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Resume particle system ${system} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152733Z" creationid="liaronce" creationdate="20200820T152733Z">
+        <seg>在${applyto}上恢复粒子系统${system}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Resume playing a sound effect or a music track.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T092436Z" creationid="deciia" creationdate="20170212T092436Z">
@@ -38872,6 +40176,38 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set alpha channel of particle type ${type} to start ${start}, end ${end}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152754Z" creationid="liaronce" creationdate="20200820T152754Z">
+        <seg>将粒子类型${type}的Alpha通道设置为开始${start}，结束${end}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set alpha channel of particle type ${type} to start ${start}, end ${end} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152755Z" creationid="liaronce" creationdate="20200820T152755Z">
+        <seg>将粒子类型${type}的Alpha通道设置为在${applyto}上开始${start}，结束${end}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set alpha channel of particle type ${type} to start ${start}, mid ${middle}, end ${end}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152755Z" creationid="liaronce" creationdate="20200820T152755Z">
+        <seg>将粒子类型${type}的Alpha通道设置为开始${start}、中间${mediate}、结束${end}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set alpha channel of particle type ${type} to start ${start}, mid ${middle}, end ${end} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152756Z" creationid="liaronce" creationdate="20200820T152756Z">
+        <seg>在${applyto}上将粒子类型${type}的Alpha通道设置为开始${start}、中间${mediate}、结束${end}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set alpha to ${alpha}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151535Z" creationid="liaronce" creationdate="20200820T151535Z">
@@ -38936,6 +40272,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set colour of particle type ${type} to start ${startcol}, mid ${midcol}, end ${endcol} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152753Z" creationid="liaronce" creationdate="20200820T152753Z">
+        <seg>在${applyto}上将粒子类型${type}的颜色设置为开始${startol}、中间${midol}、结束${endol}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set deadzone of gamepad ${gp} to ${deadzone}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151621Z" creationid="liaronce" creationdate="20200820T151621Z">
@@ -38948,6 +40292,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151622Z" creationid="liaronce" creationdate="20200820T151622Z">
         <seg>在${applyto}上将游戏手柄${GP}的死区设置为${Deadzone}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation $(incr} and wiggle ${wiggle}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152801Z" creationid="liaronce" creationdate="20200820T152801Z">
+        <seg>设置粒子类型${type}的方向，从最小${mindir}到最大${maxdir}，旋转$(incr}和摆动${wigger}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation $(incr} and wiggle ${wiggle} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152802Z" creationid="liaronce" creationdate="20200820T152802Z">
+        <seg>在${applyto}上设置粒子类型${type}的方向，从最小${mindir}到最大${maxdir}，旋转$(incr}和摆动${wigger}</seg>
       </tuv>
     </tu>
     <tu>
@@ -39096,6 +40456,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set gravity of particle type ${type} to ${amount} in direction ${direction}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152806Z" creationid="liaronce" creationdate="20200820T152806Z">
+        <seg>将粒子类型${type}的重力设置为${Amount}，方向为${Direction}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set gravity of particle type ${type} to ${amount} in direction ${direction} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152807Z" creationid="liaronce" creationdate="20200820T152807Z">
+        <seg>在${applyto}上将粒子类型${type}的重力设置为${Amount}，方向为${Direction}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set health to ${health}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152617Z" creationid="liaronce" creationdate="20200820T152617Z">
@@ -39168,6 +40544,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set life of particle type ${typ} from min ${minlife} to max ${maxlife}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152757Z" creationid="liaronce" creationdate="20200820T152757Z">
+        <seg>将粒子类型${typ}的寿命设置为从最小${minlife}到最大${maxlife}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set life of particle type ${typ} from min ${minlife} to max ${maxlife} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152758Z" creationid="liaronce" creationdate="20200820T152758Z">
+        <seg>在${applyto}上将粒子类型${typ}的寿命从最小${minlife}设置为最大${maxlife}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set lives to ${lives}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152610Z" creationid="liaronce" creationdate="20200820T152610Z">
@@ -39204,6 +40596,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170106T155901Z" creationid="deciia" creationdate="20170106T155901Z">
         <seg>设置帧数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation $(incr} and wiggle ${wiggle}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152804Z" creationid="liaronce" creationdate="20200820T152804Z">
+        <seg>将粒子类型${type}的方向从最小${minangle}设置为最大${maxangle}，旋转$(incr}和摆动${wigger}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation $(incr} and wiggle ${wiggle} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152805Z" creationid="liaronce" creationdate="20200820T152805Z">
+        <seg>在${applyto}上将粒子类型${type}的方向从最小${minangle}设置为最大${maxangle}，并使用旋转$(incr}和摆动${wigger}设置粒子类型${type}的方向</seg>
       </tuv>
     </tu>
     <tu>
@@ -39272,6 +40680,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation $(incr} and wiggle ${wiggle}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152803Z" creationid="liaronce" creationdate="20200820T152803Z">
+        <seg>将粒子类型${type}的相对方向从最小${minangle}设置为最大${maxangle}，旋转$(incr}和摆动${wiggle}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation $(incr} and wiggle ${wiggle} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152804Z" creationid="liaronce" creationdate="20200820T152804Z">
+        <seg>将粒子类型${type}的相对方向从最小${minangle}设置为最大${maxangle}，旋转$(incr})，并在${applyto}上摆动${wiggle}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set rotation to ${angle}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144156Z" creationid="liaronce" creationdate="20200820T144156Z">
@@ -39304,6 +40728,46 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set shape of particle type ${type} to ${shape}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152750Z" creationid="liaronce" creationdate="20200820T152750Z">
+        <seg>将粒子类型${type}的形状设置为${Shape}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set shape of particle type ${type} to ${shape} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152751Z" creationid="liaronce" creationdate="20200820T152751Z">
+        <seg>在${applyto}上将粒子类型${type}的形状设置为${Shape}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase $(sizeincr} and wiggle ${wiggle}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152746Z" creationid="liaronce" creationdate="20200820T152746Z">
+        <seg>将粒子类型${type}的大小从最小${minsize}设置为最大${maxSize}，并增加$(sizeincr}和wigger${wigger}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase $(sizeincr} and wiggle ${wiggle} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152747Z" creationid="liaronce" creationdate="20200820T152747Z">
+        <seg>将粒子类型${type}的大小从最小${minsize}设置为最大${maxSize}，并在${applyto}上增加$(sizeincr}和wigger${wiggle}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase $(incr} and wiggle ${wiggle}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152759Z" creationid="liaronce" creationdate="20200820T152759Z">
+        <seg>将粒子类型${type}的速度从最小${minSpeed}设置为最大${MAXSpeed}，并增加$(incr}和wigger${wiggle}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set speed to ${speed}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151647Z" creationid="liaronce" creationdate="20200820T151647Z">
@@ -39332,6 +40796,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151540Z" creationid="liaronce" creationdate="20200820T151540Z">
         <seg>在${applyto}上将精灵混合颜色设置为${color}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set sprite of particle type ${type} to ${sprite}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152748Z" creationid="liaronce" creationdate="20200820T152748Z">
+        <seg>将粒子类型${type}的精灵设置为${Sprite}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set sprite of particle type ${type} to ${sprite} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152749Z" creationid="liaronce" creationdate="20200820T152749Z">
+        <seg>在${applyto}上将粒子类型${type}的精灵设置为${Sprite}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40064,6 +41544,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set window state to fullscreen</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152720Z" creationid="liaronce" creationdate="20200820T152720Z">
+        <seg>将窗口状态设置为全屏</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set window state to window</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152719Z" creationid="liaronce" creationdate="20200820T152719Z">
+        <seg>将窗口状态设置为窗口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sets how much this property can randomly change over time</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131748Z" creationid="liaronce" creationdate="20200820T131748Z">
@@ -40628,6 +42124,38 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Show debug message ${msg} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152718Z" creationid="liaronce" creationdate="20200820T152718Z">
+        <seg>在${applyto}${show_input_count}上显示调试消息${msg}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Show debug message ${msg}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152717Z" creationid="liaronce" creationdate="20200820T152717Z">
+        <seg>显示调试消息${msg}${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Show effect at ${dnd_position}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152843Z" creationid="liaronce" creationdate="20200820T152843Z">
+        <seg>在${DND_POSITION}显示效果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Show effect at ${dnd_position} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152844Z" creationid="liaronce" creationdate="20200820T152844Z">
+        <seg>在${applyto}上的${DND_POSITION}显示效果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Show event icons in Debugger Resource View</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T080213Z" creationid="deciia" creationdate="20180922T080213Z">
@@ -40760,6 +42288,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T023633Z" creationid="deciia" creationdate="20180922T023633Z">
         <seg>显示详细的编译器输出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Show virtual keyboard with ${keyboard_type}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152845Z" creationid="liaronce" creationdate="20200820T152845Z">
+        <seg>显示具有${keyboard_type}的虚拟键盘</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Show virtual keyboard with ${keyboard_type} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152846Z" creationid="liaronce" creationdate="20200820T152846Z">
+        <seg>在${applyto}上显示${keyboard_type}的虚拟键盘</seg>
       </tuv>
     </tu>
     <tu>
@@ -42692,6 +44236,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T083929Z" creationid="deciia" creationdate="20170219T005443Z">
         <seg>流</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Stream ${number} particles of type ${type} from emitter ${emitter} in system ${system}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152820Z" creationid="liaronce" creationdate="20200820T152820Z">
+        <seg>来自系统${system}中发射器${emitter}的${type}类型粒子流${number}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Stream ${number} particles of type ${type} from emitter ${emitter} in system ${system} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152821Z" creationid="liaronce" creationdate="20200820T152821Z">
+        <seg>从${applyto}上系统${system}中的发射器${emitter}流式传输${type}类型的${number}粒子</seg>
       </tuv>
     </tu>
     <tu>
@@ -45823,6 +47383,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Toggle window state</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152719Z" creationid="liaronce" creationdate="20200820T152719Z">
+        <seg>切换窗口状态</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Tolerance</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T024856Z" creationid="deciia" creationdate="20170104T024837Z">
@@ -46877,6 +48445,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142627Z" creationid="liaronce" creationdate="20191118T142627Z">
         <seg>更新从GameMaker Studio 1项目导入的字体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Update particle system ${system}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152735Z" creationid="liaronce" creationdate="20200820T152735Z">
+        <seg>更新粒子系统${system}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Update particle system ${system} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152736Z" creationid="liaronce" creationdate="20200820T152736Z">
+        <seg>更新${applyto}上的粒子系统${system}</seg>
       </tuv>
     </tu>
     <tu>
