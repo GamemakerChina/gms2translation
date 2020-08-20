@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>'{0}' is not supported by the inspector</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125308Z" creationid="liaronce" creationdate="20200820T125308Z">
+        <seg>检查器不支持 ‘{0}’</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>'{0}' starts with a number.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142241Z" creationid="liaronce" creationdate="20191118T142241Z">
@@ -206,10 +214,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(Array is empty)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125252Z" creationid="liaronce" creationdate="20200820T125252Z">
+        <seg>(数组为空)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>(Disabled)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170510T021554Z" creationid="deciia" creationdate="20170510T021554Z">
         <seg>(禁用)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>(List is empty)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125247Z" creationid="liaronce" creationdate="20200820T125247Z">
+        <seg>(列表为空)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>(Object is not inspectable)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125256Z" creationid="liaronce" creationdate="20200820T125256Z">
+        <seg>(对象不可检查)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1600,6 +1632,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>Add another element</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125357Z" creationid="liaronce" creationdate="20200820T125357Z">
+        <seg>添加另一个元素</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>备注：desktop_textselectionbias：Text selection bias
 位于 偏好设置 - 常规 - 输入 对话框中。
 这怎么理解？有没有更好的表达方式？</note>
@@ -2326,6 +2366,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>An error occurred in retrieving this value</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125323Z" creationid="liaronce" creationdate="20200820T125323Z">
+        <seg>检索此值时发生错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>An error occurred while trying to download the manual</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T000606Z" creationid="deciia" creationdate="20180922T205725Z">
@@ -2338,6 +2386,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T142144Z" creationid="lazyeo" creationdate="20191120T142144Z">
         <seg>已创建一个错误报告，以便我们用于核查并防止以后出现此类问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>An exception was thrown by this element</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125315Z" creationid="liaronce" creationdate="20200820T125315Z">
+        <seg>此元素引发异常</seg>
       </tuv>
     </tu>
     <tu>
@@ -11535,6 +11591,30 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Element did not return a value</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125312Z" creationid="liaronce" creationdate="20200820T125312Z">
+        <seg>元素未返回值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Element {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125343Z" creationid="liaronce" creationdate="20200820T125343Z">
+        <seg>元素 {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Element {0} - {1}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125337Z" creationid="liaronce" creationdate="20200820T125337Z">
+        <seg>元素 {0} - {1}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Ellipse</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170219T010153Z" creationid="deciia" creationdate="20170219T010153Z">
@@ -12990,6 +13070,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Failed to add new element to the array list.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125351Z" creationid="liaronce" creationdate="20200820T125351Z">
+        <seg>无法向数组列表添加新元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Failed to clone style value object of type '{0}' collection types must have a bespoke deep clone implemented</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180924T023857Z" creationid="deciia" creationdate="20170104T031655Z">
@@ -13130,6 +13218,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141104Z" creationid="liaronce" creationdate="20191118T141104Z">
         <seg>无法重新生成一种或多种字体。\n{2} 字体不可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Failed to remove element from the array list.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125355Z" creationid="liaronce" creationdate="20200820T125355Z">
+        <seg>无法从数组列表中删除元素。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26470,6 +26566,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Remove this element</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125642Z" creationid="liaronce" creationdate="20200820T125642Z">
+        <seg>删除此元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Remove this item</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T154028Z" creationid="deciia" creationdate="20180921T154028Z">
@@ -33799,6 +33903,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The selected elements have different values for this field</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125327Z" creationid="liaronce" creationdate="20200820T125327Z">
+        <seg>所选元素在此字段中具有不同的值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The selected image is too large to display</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170318T043540Z" creationid="deciia" creationdate="20170311T164425Z">
@@ -34163,6 +34275,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This field does not support bulk editing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125318Z" creationid="liaronce" creationdate="20200820T125318Z">
+        <seg>此字段不支持批量编辑</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This font has no texture yet.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140353Z" creationid="liaronce" creationdate="20191118T140353Z">
@@ -34233,6 +34353,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T145439Z" creationid="deciia" creationdate="20170107T053519Z">
         <seg>这不是一个公开库，不支持直接克隆。\n这个库里也没有源点(origin)标记，所以我们要求你创建一个，旧的和新的库都将链接到这个新的公开库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is an entry in the array</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125347Z" creationid="liaronce" creationdate="20200820T125347Z">
+        <seg>这是数组中的一个条目</seg>
       </tuv>
     </tu>
     <tu>
