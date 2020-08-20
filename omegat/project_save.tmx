@@ -4562,6 +4562,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Blending</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131750Z" creationid="liaronce" creationdate="20200820T131750Z">
+        <seg>混合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Block Pattern</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170318T131724Z" creationid="deciia" creationdate="20170103T074651Z">
@@ -12087,6 +12095,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T092739Z" creationid="deciia" creationdate="20180922T092739Z">
         <seg>启用 Xbox Live</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable additive blending for this particle type</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131757Z" creationid="liaronce" creationdate="20200820T131757Z">
+        <seg>为此粒子类型启用加法混合</seg>
       </tuv>
     </tu>
     <tu>
@@ -30611,6 +30627,62 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T144536Z" creationid="deciia" creationdate="20170212T144536Z">
         <seg>设置游戏窗口状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sets how much this property can randomly change over time</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131748Z" creationid="liaronce" creationdate="20200820T131748Z">
+        <seg>设置此属性可以随时间随机更改的量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sets how much this property changes over time</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131743Z" creationid="liaronce" creationdate="20200820T131743Z">
+        <seg>设置此属性随时间的变化程度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sets how this particle type changes colour over time</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131710Z" creationid="liaronce" creationdate="20200820T131710Z">
+        <seg>设置此粒子类型如何随时间更改颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sets the direction of this particle type</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T132029Z" creationid="liaronce" creationdate="20200820T132029Z">
+        <seg>设置此粒子类型的方向</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sets the gravity force and direction applied to this particle type over time</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131801Z" creationid="liaronce" creationdate="20200820T131801Z">
+        <seg>设置一段时间应用于此粒子类型的重力力和方向</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sets the scale of this particle type</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131740Z" creationid="liaronce" creationdate="20200820T131740Z">
+        <seg>设置此粒子类型的比例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sets the size this particle type can spawn as relative to the Sprite or texture used to display it</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131736Z" creationid="liaronce" creationdate="20200820T131736Z">
+        <seg>将此粒子类型可以生成的大小设置为相对于用于显示它的精灵或纹理</seg>
       </tuv>
     </tu>
     <tu>
