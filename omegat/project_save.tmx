@@ -5706,6 +5706,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>BuiltIn {0} Member</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143343Z" creationid="liaronce" creationdate="20200820T143343Z">
+        <seg>内置 {0} 成员</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Builtin Variables</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T084006Z" creationid="deciia" creationdate="20180922T084006Z">
@@ -9076,6 +9084,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Could not create project at specified path.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143347Z" creationid="liaronce" creationdate="20200820T143347Z">
+        <seg>无法在指定路径创建项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Could not find a project for the resource file at {0}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142716Z" creationid="liaronce" creationdate="20200820T142716Z">
@@ -9104,6 +9120,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T013627Z" creationid="deciia" creationdate="20170629T025304Z">
         <seg>无法处理密钥库; 可能已损坏或密码错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Could not save imported project at specified path.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143354Z" creationid="liaronce" creationdate="20200820T143354Z">
+        <seg>无法在指定路径保存导入的项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9818,6 +9842,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T060301Z" creationid="deciia" creationdate="20170107T060301Z">
         <seg>创建一个物体的实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Creating Lots of Assets</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143307Z" creationid="liaronce" creationdate="20200820T143307Z">
+        <seg>创造大量资产</seg>
       </tuv>
     </tu>
     <tu>
@@ -11872,6 +11904,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T095642Z" creationid="deciia" creationdate="20170105T095642Z">
         <seg>你想要继续吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do you want to create {0} Assets?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143305Z" creationid="liaronce" creationdate="20200820T143305Z">
+        <seg>是否要创建 {0} \个资产？</seg>
       </tuv>
     </tu>
     <tu>
@@ -13964,6 +14004,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Error Creating Project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143344Z" creationid="liaronce" creationdate="20200820T143344Z">
+        <seg>创建项目时出错</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Error Downloading Demo: '{0}'</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141334Z" creationid="liaronce" creationdate="20191118T141334Z">
@@ -13984,6 +14032,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T141126Z" creationid="deciia" creationdate="20170103T112759Z">
         <seg>外部打开错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Error Saving Import Project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143351Z" creationid="liaronce" creationdate="20200820T143351Z">
+        <seg>保存导入项目时出错</seg>
       </tuv>
     </tu>
     <tu>
@@ -16419,6 +16475,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141947Z" creationid="liaronce" creationdate="20191118T141947Z">
         <seg>GameMaker Studio 2正在运行...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GameMaker Studio 2 is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143337Z" creationid="liaronce" creationdate="20200820T143337Z">
+        <seg>Gamemaker Studio 2无法访问重要的系统文件夹。\n请检查首选项中的路径并验证您的文件夹权限或与系统管理员联系。\n\n{0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -19092,6 +19156,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140803Z" creationid="liaronce" creationdate="20191118T140803Z">
         <seg>图像速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Image format not recognised</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143310Z" creationid="liaronce" creationdate="20200820T143310Z">
+        <seg>无法识别图像格式</seg>
       </tuv>
     </tu>
     <tu>
@@ -37537,6 +37609,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The image '{0}' cannot be loaded.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143328Z" creationid="liaronce" creationdate="20200820T143328Z">
+        <seg>无法加载图像 ‘{0}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The image is expected to be of {0}x{1} but received {2}x{3}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T020040Z" creationid="deciia" creationdate="20170104T064543Z">
@@ -42589,6 +42669,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T201453Z" creationid="deciia" creationdate="20170311T151818Z">
         <seg>您有未保存的更改，系统将提示您保存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You may not have permission to save here.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143349Z" creationid="liaronce" creationdate="20200820T143349Z">
+        <seg>您可能没有保存此处的权限。</seg>
       </tuv>
     </tu>
     <tu>
