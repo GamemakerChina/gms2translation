@@ -790,6 +790,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A color channel animation curve</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140342Z" creationid="liaronce" creationdate="20200820T140342Z">
+        <seg>颜色通道动画曲线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A default switch case for when no other case is matched.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T090153Z" creationid="deciia" creationdate="20170303T150808Z">
@@ -802,6 +810,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T035941Z" creationid="deciia" creationdate="20170102T035536Z">
         <seg>大小已经设置与关联的锚点一致，大小的输入将被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A dual channel animation curve</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140341Z" creationid="liaronce" creationdate="20200820T140341Z">
+        <seg>双通道动画曲线</seg>
       </tuv>
     </tu>
     <tu>
@@ -882,6 +898,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T070651Z" creationid="deciia" creationdate="20170212T044418Z">
         <seg>一个带有初值、条件和步进语句的完备的循环结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A single channel animation curve</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140339Z" creationid="liaronce" creationdate="20200820T140339Z">
+        <seg>单通道动画曲线</seg>
       </tuv>
     </tu>
     <tu>
@@ -2720,6 +2744,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Anim Curve Editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140429Z" creationid="liaronce" creationdate="20200820T140429Z">
+        <seg>动画曲线编辑器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Animation</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T112101Z" creationid="deciia" creationdate="20170102T112101Z">
@@ -3071,6 +3103,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161223T080700Z" creationid="deciia" creationdate="20161223T080700Z">
         <seg>确定要剪切选中的事件吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Are you sure you want to delete all curves?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140428Z" creationid="liaronce" creationdate="20200820T140428Z">
+        <seg>是否确实要删除所有曲线？</seg>
       </tuv>
     </tu>
     <tu>
@@ -4058,6 +4098,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T040919Z" creationid="deciia" creationdate="20180922T040919Z">
         <seg>自动响应创建商店程序包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatic response to curve deletion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140431Z" creationid="liaronce" creationdate="20200820T140431Z">
+        <seg>自动响应曲线删除</seg>
       </tuv>
     </tu>
     <tu>
@@ -5874,6 +5922,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Centripetal Catmull-Rom</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140335Z" creationid="liaronce" creationdate="20200820T140330Z">
+        <seg>向心 Catmull-Rom</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Certificate (JS)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T084208Z" creationid="deciia" creationdate="20170104T084208Z">
@@ -6930,6 +6986,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Clipping Mask</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140201Z" creationid="liaronce" creationdate="20200820T140201Z">
+        <seg>剪裁蒙版</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Clone</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T085314Z" creationid="deciia" creationdate="20180922T085314Z">
@@ -7194,10 +7258,26 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Color channels</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140338Z" creationid="liaronce" creationdate="20200820T140338Z">
+        <seg>颜色通道</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Colour</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T073554Z" creationid="deciia" creationdate="20170102T073554Z">
         <seg>颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colour Add</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140217Z" creationid="liaronce" creationdate="20200820T140217Z">
+        <seg>颜色添加</seg>
       </tuv>
     </tu>
     <tu>
@@ -7214,6 +7294,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T152331Z" creationid="deciia" creationdate="20170215T152331Z">
         <seg>混色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colour Multiply</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140214Z" creationid="liaronce" creationdate="20200820T140214Z">
+        <seg>色彩倍增</seg>
       </tuv>
     </tu>
     <tu>
@@ -9331,6 +9419,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Curve</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140319Z" creationid="liaronce" creationdate="20200820T140319Z">
+        <seg>曲线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Custom</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T022656Z" creationid="deciia" creationdate="20170104T022656Z">
@@ -10031,6 +10127,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T132154Z" creationid="deciia" creationdate="20170103T132154Z">
         <seg>删除路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Delete Point</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140426Z" creationid="liaronce" creationdate="20200820T140426Z">
+        <seg>删除点</seg>
       </tuv>
     </tu>
     <tu>
@@ -11211,6 +11315,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>Double-click to edit</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140318Z" creationid="liaronce" creationdate="20200820T140318Z">
+        <seg>双击可编辑</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>备注：Debugger_StackFrame_Tooltip：Debugger stack frame tooltip
 该词条位于“The call stack is empty.”下方。无法确定准确的情境。
 栈帧是什么？</note>
@@ -11720,6 +11832,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Dual channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140337Z" creationid="liaronce" creationdate="20200820T140337Z">
+        <seg>双通道</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Due to iOS submission requirement changes, Options &gt; iOS &gt; Icons image sizes are now different and your current icons need to be recreated at the correct sizes.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T013937Z" creationid="deciia" creationdate="20180922T201417Z">
@@ -11892,6 +12012,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T151724Z" creationid="deciia" creationdate="20170103T151724Z">
         <seg>编辑碰撞遮罩</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Edit Colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140424Z" creationid="liaronce" creationdate="20200820T140424Z">
+        <seg>编辑颜色</seg>
       </tuv>
     </tu>
     <tu>
@@ -13939,6 +14067,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T085328Z" creationid="deciia" creationdate="20170103T085328Z">
         <seg>失败因为错误：\n'{0}'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Falloff</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140210Z" creationid="liaronce" creationdate="20200820T140210Z">
+        <seg>衰减</seg>
       </tuv>
     </tu>
     <tu>
@@ -16539,6 +16675,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Graphic</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140156Z" creationid="liaronce" creationdate="20200820T140156Z">
+        <seg>图形</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Graphic: {0}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T065932Z" creationid="deciia" creationdate="20170103T125614Z">
@@ -17872,6 +18016,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Image Angle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140219Z" creationid="liaronce" creationdate="20200820T140219Z">
+        <seg>图像角度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Image Blend</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140220Z" creationid="liaronce" creationdate="20200820T140220Z">
+        <seg>图像混合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Image Blend Colour</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170224T004307Z" creationid="deciia" creationdate="20170224T004307Z">
@@ -18879,6 +19039,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T073139Z" creationid="deciia" creationdate="20170212T045326Z">
         <seg>插入到列表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Insert Point</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140423Z" creationid="liaronce" creationdate="20200820T140423Z">
+        <seg>插入点</seg>
       </tuv>
     </tu>
     <tu>
@@ -20622,10 +20790,26 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Link</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140142Z" creationid="liaronce" creationdate="20200820T140142Z">
+        <seg>链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Link Label</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T092326Z" creationid="deciia" creationdate="20170102T074637Z">
         <seg>链接标签</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Link a track to another to use its keyframes instead</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140146Z" creationid="liaronce" creationdate="20200820T140146Z">
+        <seg>将轨道链接到另一个轨道以使用其关键帧</seg>
       </tuv>
     </tu>
     <tu>
@@ -21171,6 +21355,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T054034Z" creationid="deciia" creationdate="20170107T054034Z">
         <seg>循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Lower</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140422Z" creationid="liaronce" creationdate="20200820T140422Z">
+        <seg>降低</seg>
       </tuv>
     </tu>
     <tu>
@@ -26394,6 +26586,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Prevent editing a track by locking it</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140140Z" creationid="liaronce" creationdate="20200820T140140Z">
+        <seg>通过锁定轨道来阻止编辑轨道</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Preview</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T100834Z" creationid="deciia" creationdate="20170102T100834Z">
@@ -31103,6 +31303,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set Range</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140400Z" creationid="liaronce" creationdate="20200820T140400Z">
+        <seg>设置范围</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set Return Type</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T144038Z" creationid="deciia" creationdate="20170311T144038Z">
@@ -32592,6 +32800,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T090409Z" creationid="deciia" creationdate="20170103T074713Z">
         <seg>单色模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Single channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140333Z" creationid="liaronce" creationdate="20200820T140333Z">
+        <seg>单通道</seg>
       </tuv>
     </tu>
     <tu>
@@ -34144,6 +34360,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Stretch Asset Key</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140439Z" creationid="liaronce" creationdate="20200820T140439Z">
+        <seg>拉伸资源关键点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Stretch Parameter Key</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140437Z" creationid="liaronce" creationdate="20200820T140437Z">
+        <seg>拉伸参数键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>String</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170219T005931Z" creationid="deciia" creationdate="20170219T005931Z">
@@ -34236,6 +34468,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170114T040422Z" creationid="deciia" creationdate="20161224T075522Z">
         <seg>子菜单项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Subject</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140205Z" creationid="liaronce" creationdate="20200820T140205Z">
+        <seg>主题</seg>
       </tuv>
     </tu>
     <tu>
@@ -35193,6 +35433,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The alpha color channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140351Z" creationid="liaronce" creationdate="20200820T140351Z">
+        <seg>Alpha 颜色通道</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The amount of memory in gigabytes to dedicate to this game on Xbox One X \nAllows games to take advantage of full xbox one x available memory or request less to improve load times</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T022030Z" creationid="deciia" creationdate="20180922T202231Z">
@@ -35237,6 +35485,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180924T024752Z" creationid="deciia" creationdate="20170104T034540Z">
         <seg>应在动画帧后面显示的背景颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The blue color channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140346Z" creationid="liaronce" creationdate="20200820T140346Z">
+        <seg>蓝色通道</seg>
       </tuv>
     </tu>
     <tu>
@@ -35293,6 +35549,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134110Z" creationid="liaronce" creationdate="20200820T134110Z">
         <seg>当前运行时对于此项目版本来说太旧了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The default curve channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140343Z" creationid="liaronce" creationdate="20200820T140343Z">
+        <seg>默认曲线通道</seg>
       </tuv>
     </tu>
     <tu>
@@ -35389,6 +35653,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T145326Z" creationid="deciia" creationdate="20170107T052342Z">
         <seg>字体 {0} 不包含任何字符映射并且不能载入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The green color channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140345Z" creationid="liaronce" creationdate="20200820T140345Z">
+        <seg>绿色通道</seg>
       </tuv>
     </tu>
     <tu>
@@ -35565,6 +35837,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T012026Z" creationid="deciia" creationdate="20180922T195110Z">
         <seg>项目名称'{0}'包含如下不支持的字符：'{1}'。\n请尝试其他命名。.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The red color channel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140345Z" creationid="liaronce" creationdate="20200820T140345Z">
+        <seg>红色通道</seg>
       </tuv>
     </tu>
     <tu>
@@ -36279,6 +36559,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This track is not compatible with the selected track</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140149Z" creationid="liaronce" creationdate="20200820T140149Z">
+        <seg>此轨道与所选轨道不兼容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This variable has been inherited from the parent object {0}.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T090957Z" creationid="deciia" creationdate="20180921T153707Z">
@@ -36339,6 +36627,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T014544Z" creationid="deciia" creationdate="20170104T055437Z">
         <seg>该向导可帮助您轻松为DnD™动作创建布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This would create a cyclic link</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140152Z" creationid="liaronce" creationdate="20200820T140152Z">
+        <seg>这将创建一个循环链接</seg>
       </tuv>
     </tu>
     <tu>
@@ -37137,6 +37433,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Track Information</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140154Z" creationid="liaronce" creationdate="20200820T140154Z">
+        <seg>跟踪信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Track Panel</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135834Z" creationid="liaronce" creationdate="20200820T135834Z">
@@ -37833,6 +38137,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Unnamed Variable</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140208Z" creationid="liaronce" creationdate="20200820T140208Z">
+        <seg>未命名的变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Unsafe Path</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T204551Z" creationid="deciia" creationdate="20170519T101504Z">
@@ -38041,6 +38353,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Upper</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140418Z" creationid="liaronce" creationdate="20200820T140402Z">
+        <seg>提升</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use Alpha</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T095741Z" creationid="deciia" creationdate="20170311T121208Z">
@@ -38213,6 +38533,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T021803Z" creationid="deciia" creationdate="20180922T021803Z">
         <seg>使用内置粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use compact layout</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140433Z" creationid="liaronce" creationdate="20200820T140433Z">
+        <seg>使用紧凑布局</seg>
       </tuv>
     </tu>
     <tu>
@@ -40457,6 +40785,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>alpha</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140229Z" creationid="liaronce" creationdate="20200820T140229Z">
+        <seg>alpha</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>and more (too many glyphs)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T150041Z" creationid="deciia" creationdate="20180921T150041Z">
@@ -40465,10 +40801,42 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>angle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140227Z" creationid="liaronce" creationdate="20200820T140227Z">
+        <seg>angle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>assignment to multi-relational-equality expression - GML does not support multiple assignments in an expression</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T230519Z" creationid="deciia" creationdate="20180922T100126Z">
         <seg>赋值给多关系等式（multi-relational-equality）表达式 - GML不支持在一个表达式中进行多重赋值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>blue</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140232Z" creationid="liaronce" creationdate="20200820T140232Z">
+        <seg>blue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>channel {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140316Z" creationid="liaronce" creationdate="20200820T140316Z">
+        <seg>通道 {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140229Z" creationid="liaronce" creationdate="20200820T140229Z">
+        <seg>colour</seg>
       </tuv>
     </tu>
     <tu>
@@ -40665,6 +41033,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>falloff</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140234Z" creationid="liaronce" creationdate="20200820T140234Z">
+        <seg>falloff</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>finder</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T144307Z" creationid="deciia" creationdate="20180921T144307Z">
@@ -40677,6 +41053,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135853Z" creationid="liaronce" creationdate="20200820T135853Z">
         <seg>fps</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>green</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140231Z" creationid="liaronce" creationdate="20200820T140231Z">
+        <seg>green</seg>
       </tuv>
     </tu>
     <tu>
@@ -41361,6 +41745,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>index</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140234Z" creationid="liaronce" creationdate="20200820T140234Z">
+        <seg>index</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>macOS</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135311Z" creationid="liaronce" creationdate="20191117T135311Z">
@@ -41553,10 +41945,34 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>pitch</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140233Z" creationid="liaronce" creationdate="20200820T140233Z">
+        <seg>pitch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>pixels</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T022320Z" creationid="deciia" creationdate="20170104T022320Z">
         <seg>像素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>point {0}:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140358Z" creationid="liaronce" creationdate="20200820T140354Z">
+        <seg>点 {0}：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>red</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140230Z" creationid="liaronce" creationdate="20200820T140230Z">
+        <seg>red</seg>
       </tuv>
     </tu>
     <tu>
@@ -41589,6 +42005,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T225616Z" creationid="deciia" creationdate="20180922T094902Z">
         <seg>单引号不再允许用于字符串</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>speed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140309Z" creationid="liaronce" creationdate="20200820T140309Z">
+        <seg>speed</seg>
       </tuv>
     </tu>
     <tu>
@@ -41765,10 +42189,26 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>volume</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140232Z" creationid="liaronce" creationdate="20200820T140232Z">
+        <seg>volume</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>without status</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142906Z" creationid="liaronce" creationdate="20191118T142906Z">
         <seg>无状态</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>x</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140222Z" creationid="liaronce" creationdate="20200820T140222Z">
+        <seg>x</seg>
       </tuv>
     </tu>
     <tu>
@@ -41785,6 +42225,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135444Z" creationid="liaronce" creationdate="20191117T135444Z">
         <seg>x86</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>y</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140223Z" creationid="liaronce" creationdate="20200820T140223Z">
+        <seg>y</seg>
       </tuv>
     </tu>
     <tu>
