@@ -1,0 +1,3390 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Mark Shi</Author>
+  <LastAuthor>Mark Shi</LastAuthor>
+  <Created>2020-08-19T07:38:21Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12105</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="等线" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1111" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="14.25">
+   <Row>
+    <Cell><Data ss:Type="String">English</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">English</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">English</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">en</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set ${var} to ${expr}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set ${var} to ${expr} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${expr} to ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${expr} to ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Declare temp ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Declare temp ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Declare temp ${var} and set it to ${value}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Declare temp ${var} and set it to ${value} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set global variable ${var} to ${value}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set global variable ${var} to ${value} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${value} to global variable ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${value} to global variable ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get global variable ${var} into ${output}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get global variable ${var} into ${output} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get global variable ${var} into temp ${output}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get global variable ${var} into temp ${output} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is not equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is not equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is not less than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is not less than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is not greater than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is not greater than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is not less than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is not less than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is not greater than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is not greater than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is less than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is less than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is greater than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is greater than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is less than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is less than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is greater than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is greater than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${expr} is true${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${expr} is true on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${expr} is false${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${expr} is false on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is undefined${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is undefined on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is not undefined${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${var} is not undefined on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Else</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute code</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute code on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${overridden_name}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${overridden_name} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute ${script}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute ${script} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute ${script} with 1 argument</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute ${script} with 1 argument on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute ${script} with ${input_count} arguments</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute ${script} with ${input_count} arguments on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute and set ${var} to return value of ${script}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute and set ${var} to return value of ${script} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute and set ${var} to return value of ${script} with 1 argument</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute and set ${var} to return value of ${script} with 1 argument on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute and set ${var} to return value of ${script} with ${input_count} arguments</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute and set ${var} to return value of ${script} with ${input_count} arguments on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute and set temp ${var} to return value of ${script}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute and set temp ${var} to return value of ${script} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute and set temp ${var} to return value of ${script} with 1 argument</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute and set temp ${var} to return value of ${script} with 1 argument on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute and set temp ${var} to return value of ${script} with ${input_count} arguments</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Execute and set temp ${var} to return value of ${script} with ${input_count} arguments on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Call ${function}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Call ${function} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Call ${function} with 1 argument</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Call ${function} with 1 argument on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Call ${function} with ${input_count} arguments</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Call ${function} with ${input_count} arguments on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set ${var} to return value of ${function}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set ${var} to return value of ${function} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set ${var} to return value of ${function} with 1 argument</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set ${var} to return value of ${function} with 1 argument on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set ${var} to return value of ${function} with ${input_count} arguments</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set ${var} to return value of ${function} with ${input_count} arguments on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set temp ${var} to return value of ${function}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set temp ${var} to return value of ${function} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set temp ${var} to return value of ${function} with 1 argument</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set temp ${var} to return value of ${function} with 1 argument on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set temp ${var} to return value of ${function} with ${input_count} arguments</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set temp ${var} to return value of ${function} with ${input_count} arguments on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Return ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Return ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Apply to ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Define macro ${macro} as ${value}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Define macro ${macro} as ${value} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Exit the current event</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${objectid} at ${dnd_pos}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${objectid} at ${dnd_pos} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${objectid} at ${dnd_pos} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${objectid} at ${dnd_pos} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${objectid} at ${dnd_pos} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${objectid} at ${dnd_pos} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Destroy this instance</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Destroy ${applyto} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Destroy instances at ${dnd_pos}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Destroy instances at ${dnd_pos} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Change into ${objind}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Change ${applyto} into ${objind} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set alarm ${alarm} to ${steps}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set alarm ${alarm} to ${steps} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${steps} to alarm ${alarm}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${steps} to alarm ${alarm} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get alarm ${alarm} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get alarm ${alarm} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get alarm ${alarm} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get alarm ${alarm} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get ${object} count into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get ${object} count into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get ${object} count into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get ${object} count into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Call user event ${event}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Call user event ${event} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set instance variable ${dnd_set_inst_vars} to ${value}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set instance variable ${dnd_set_inst_vars} to ${value} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get instance variable ${dnd_get_inst_vars} into ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get instance variable ${dnd_get_inst_vars} into ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get instance variable ${dnd_get_inst_vars} into temp ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get instance variable ${dnd_get_inst_vars} into temp ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set sprite to ${spriteind} at frame ${imageind}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set sprite to ${spriteind} at frame ${imageind} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set rotation to ${angle}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set rotation to ${angle} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${angle} to rotation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${angle} to rotation on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set animation speed to ${speed}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set animation speed to ${speed} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${speed} to animation speed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${speed} to animation speed on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale to ${xscale},${yscale}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale to ${xscale},image_yscale</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale to ${xscale},image_yscale+${yscale}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale to image_xscale,${yscale}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale to image_xscale,image_yscale</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale to image_xscale,image_yscale+${yscale}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale to image_xscale+${xscale},${yscale}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale to image_xscale+${xscale},image_yscale</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale to image_xscale+${xscale},image_yscale+${yscale}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale ${applyto} to ${xscale},${yscale} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale ${applyto} to ${xscale},image_yscale on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale ${applyto} to ${xscale},image_yscale+${yscale} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale ${applyto} to image_xscale,${yscale} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale ${applyto} to image_xscale,image_yscale on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale ${applyto} to image_xscale,image_yscale+${yscale} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale ${applyto} to image_xscale+${xscale},${yscale} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale ${applyto} to image_xscale+${xscale},image_yscale on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Scale ${applyto} to image_xscale+${xscale},image_yscale+${yscale} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set alpha to ${alpha}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set alpha to ${alpha} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${alpha} to alpha</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${alpha} to alpha on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set sprite blend colour to ${colour}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set sprite blend colour to ${colour} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Check if ${obj} does not exist</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Check if ${obj} does not exist on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Check if ${obj} exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Check if ${obj} exists on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Call parent event</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Call parent event on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If mouse button ${button} is pressed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If mouse button ${button} is pressed on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If mouse button ${button} is not pressed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If mouse button ${button} is not pressed on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If mouse button ${button} is down</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If mouse button ${button} is down on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If mouse button ${button} is not down</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If mouse button ${button} is not down on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If mouse button ${button} is released</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If mouse button ${button} is released on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If mouse button ${button} is not released</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If mouse button ${button} is not released on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${key} is pressed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${key} is pressed on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${key} is not pressed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${key} is not pressed on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${key} is down</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${key} is down on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${key} is not down</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${key} is not down on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${key} is released</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${key} is released on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${key} is not released</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${key} is not released on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get ${axis} axis value on gamepad ${gp} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get ${axis} axis value on gamepad ${gp} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get ${axis} axis value on gamepad ${gp} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get ${axis} axis value on gamepad ${gp} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get ${trigger} value on gamepad ${gp} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get ${trigger} value on gamepad ${gp} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get ${trigger} value on gamepad ${gp} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get ${trigger} value on gamepad ${gp} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get gamepad device count into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get gamepad device count into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get gamepad device count into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get gamepad device count into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get whether gamepad ${gp} is connected into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get whether gamepad ${gp} is connected into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get whether gamepad ${gp} is connected into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get whether gamepad ${gp} is connected into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set deadzone of gamepad ${gp} to ${deadzone}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set deadzone of gamepad ${gp} to ${deadzone} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set button threshold of gamepad ${gp} to ${threshold}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set button threshold of gamepad ${gp} to ${threshold} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${btn} on gamepad ${gp} is down</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${btn} on gamepad ${gp} is down on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${btn} on gamepad ${gp} is not down</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${btn} on gamepad ${gp} is not down on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${btn} on gamepad ${gp} is pressed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${btn} on gamepad ${gp} is pressed on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${btn} on gamepad ${gp} is not pressed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${btn} on gamepad ${gp} is not pressed on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${btn} on gamepad ${gp} is released</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${btn} on gamepad ${gp} is released on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${btn} on gamepad ${gp} is not released</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${btn} on gamepad ${gp} is not released on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stop movement</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stop movement on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set direction to ${direction}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set direction to ${direction} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${direction} to direction</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${direction} to direction on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set direction towards ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set direction towards ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set random direction from ${direction}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set random direction from ${direction} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${speed} to speed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${speed} to speed on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set speed to ${speed}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set speed to ${speed} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${speed} to horizontal speed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${speed} to horizontal speed on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set horizontal speed to ${speed}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set horizontal speed to ${speed} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${speed} to vertical speed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${speed} to vertical speed on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set vertical speed to ${speed}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set vertical speed to ${speed} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${direction} to gravity direction</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${direction} to gravity direction on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set gravity direction to ${direction}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set gravity direction to ${direction} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${force} to gravity force</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${force} to gravity force on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set gravity force to ${force}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set gravity force to ${force} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Reverse direction</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Reverse direction on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Reverse horizontal speed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Reverse horizontal speed on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Reverse vertical speed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Reverse vertical speed on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Reverse gravitational direction</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Reverse gravitational direction on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${friction} to friction</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${friction} to friction on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set friction to ${friction}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set friction to ${friction} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Jump to ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Jump to ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Jump to start</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Jump ${applyto} to start</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Snap  to ${xsnap},${ysnap}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Snap ${applyto} to ${xsnap},${ysnap} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Wrap around room</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Wrap ${applyto} around room on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If any instance is overlapping self at ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If any instance is overlapping self at ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If no instance is overlapping self at ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If no instance is overlapping self at ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${object} is overlapping self at ${dnd_position}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${object} is overlapping self at ${dnd_position} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${object} is overlapping self at ${dnd_position} into ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${object} is overlapping self at ${dnd_position} into ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${object} is overlapping self at ${dnd_position} into temp ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${object} is overlapping self at ${dnd_position} into temp ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${object} is not overlapping self at ${dnd_position}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${object} is not overlapping self at ${dnd_position} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${object} is not overlapping self at ${dnd_position} into ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${object} is not overlapping self at ${dnd_position} into ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${object} is not overlapping self at ${dnd_position} into temp ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${object} is not overlapping self at ${dnd_position} into temp ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects line at ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw self</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw self on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw  at ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw  at ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw  ${var} at ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw  ${var} at ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw ${caption}&quot; at ${dnd_position}&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw ${caption}&quot; at ${dnd_position} on ${applyto}&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw ${caption}&quot; ${var} at ${dnd_position}&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw ${caption}&quot; ${var} at ${dnd_position} on ${applyto}&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw transformed  at ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw transformed  at ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw transformed  ${var} at ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw transformed  ${var} at ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw transformed ${caption}&quot; at ${dnd_position}&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw transformed ${caption}&quot; at ${dnd_position} on ${applyto}&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw transformed ${caption}&quot; ${var} at ${dnd_position}&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw transformed ${caption}&quot; ${var} at ${dnd_position} on ${applyto}&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw sprite ${sprite} frame ${image} at ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw sprite ${sprite} frame ${image} at ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw sprite ${sprite} in ${number} rows at ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw sprite ${sprite} in ${number} rows at ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw sprite ${sprite} in ${number} columns at ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw sprite ${sprite} in ${number} columns at ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw rectangle from ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw rectangle from ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw gradient rectangular outline from ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw gradient rectangular outline from ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw gradient rectangle from ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw gradient rectangle from ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw ellipse from ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw ellipse from ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw gradient elliptical outline from ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw gradient elliptical outline from ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw gradient ellipse from ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw gradient ellipse from ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw line from ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw line from ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw score at ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw score at ${dnd_position} with caption ${caption}&quot;&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw ${applyto}'s score at ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw ${applyto}'s score at ${dnd_position} with caption ${caption}&quot; on ${applyto}&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw healthbar from ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw ${applyto}'s healthbar from ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw lives in a row at ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw lives in a column at ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw ${applyto}'s lives in a row at ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Draw ${applyto}'s lives in a column at ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set draw color to ${color}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set draw color to ${color} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get draw color into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get draw color into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set drawing alpha channel to ${alpha}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set drawing alpha channel to ${alpha} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get drawing alpha channel into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get drawing alpha channel into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set font to ${font}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set font to ${font} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set text alignment to $(halign} and $(valign}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set text alignment to $(halign} and $(valign} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set tile on layer ${layername} at ${dnd_position} to ${tile}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set tile on layer ${layername} at ${dnd_position} to ${tile} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile index at ${dnd_position} on layer ${layername} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile index at ${dnd_position} on layer ${layername} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile index at ${dnd_position} on layer ${layername} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile index at ${dnd_position} on layer ${layername} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set tile on layer ${layername} in cell ${x},${y} to ${tile}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set tile on layer ${layername} in cell ${x},${y} to ${tile} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile index in cell ${x},${y} on layer ${layername} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile index in cell ${x},${y} on layer ${layername} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile index in cell ${x},${y} on layer ${layername} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile index in cell ${x},${y} on layer ${layername} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set tile set ${tileset} on layer ${layername}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set tile set ${tileset} on layer ${layername} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap x on layer ${layername} into ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap x on layer ${layername} into ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap x on layer ${layername} into temp ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap x on layer ${layername} into temp ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap y on layer ${layername} into ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap y on layer ${layername} into ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap y on layer ${layername} into temp ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap y on layer ${layername} into temp ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap width on layer ${layername} into ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap width on layer ${layername} into ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap width on layer ${layername} into temp ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap width on layer ${layername} into temp ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap height on layer ${layername} into ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap height on layer ${layername} into ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap height on layer ${layername} into temp ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap height on layer ${layername} into temp ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap tile width on layer ${layername} into ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap tile width on layer ${layername} into ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap tile width on layer ${layername} into temp ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap tile width on layer ${layername} into temp ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap tile height on layer ${layername} into ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap tile height on layer ${layername} into ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap tile height on layer ${layername} into temp ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap tile height on layer ${layername} into temp ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap resource on layer ${layername} into ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap resource on layer ${layername} into ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap resource on layer ${layername} into temp ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap resource on layer ${layername} into temp ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap frame on layer ${layername} into ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap frame on layer ${layername} into ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap frame on layer ${layername} into temp ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap frame on layer ${layername} into temp ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap mask on layer ${layername} into ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap mask on layer ${layername} into ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap mask on layer ${layername} into temp ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap mask on layer ${layername} into temp ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap global mask on layer ${layername} into ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap global mask on layer ${layername} into ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap global mask on layer ${layername} into temp ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tilemap global mask on layer ${layername} into temp ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set tile data at ${dnd_position} on layer ${layername} to ${element}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set tile data at ${dnd_position} on layer ${layername} to ${element} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile data at ${dnd_position} on layer ${layername} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile data at ${dnd_position} on layer ${layername} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile data at ${dnd_position} on layer ${layername} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile data at ${dnd_position} on layer ${layername} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set tile data in cell ${x},${y} on layer ${layername} to ${element}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set tile data in cell ${x},${y} on layer ${layername} to ${element} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile data in cell ${x},${y} on layer ${layername} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile data in cell ${x},${y} on layer ${layername} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile data in cell ${x},${y} on layer ${layername} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get tile data in cell ${x},${y} on layer ${layername} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Flip tile data ${tile}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Flip tile data ${tile} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mirror tile data ${tile}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mirror tile data ${tile} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rotate tile data ${tile}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rotate tile data ${tile} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get flip of tile data ${tile} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get flip of tile data ${tile} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get flip of tile data ${tile} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get flip of tile data ${tile} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get mirror of tile data ${tile} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get mirror of tile data ${tile} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get mirror of tile data ${tile} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get mirror of tile data ${tile} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get rotate of tile data ${tile} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get rotate of tile data ${tile} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get rotate of tile data ${tile} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get rotate of tile data ${tile} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play audio ${soundid} looped and assign id to ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play audio ${soundid} looped and assign id to ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play audio ${soundid} looped</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play audio ${soundid} looped on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play audio ${soundid} looped and assign id to temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play audio ${soundid} looped and assign id to temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play audio ${soundid} and assign id to ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play audio ${soundid} and assign id to ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play audio ${soundid}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play audio ${soundid} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play audio ${soundid} and assign id to temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play audio ${soundid} and assign id to temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stop audio ${soundid}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stop audio ${soundid} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stop all audio</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stop all audio on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pause audio ${sound}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pause audio ${sound} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pause all audio</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pause all audio on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Resume audio ${sound}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Resume audio ${sound} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Resume all audio</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Resume all audio on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set audio position of ${sound} to ${time} seconds</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set audio position of ${sound} to ${time} seconds on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get length of audio ${sound} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get length of audio ${sound} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get length of audio ${sound} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get length of audio ${sound} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set pitch of audio ${sound} to ${pitch}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set pitch of audio ${sound} to ${pitch} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get pitch of audio ${sound} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get pitch of audio ${sound} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get pitch of audio ${sound} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get pitch of audio ${sound} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set volume of audio ${sound} to ${volume}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set volume of audio ${sound} to ${volume} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get volume of audio ${sound} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get volume of audio ${sound} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get volume of audio ${sound} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get volume of audio ${sound} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set master volume to ${volume}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set master volume to ${volume} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get master volume into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get master volume into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get master volume into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get master volume into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If audio ${soundid} is not playing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If audio ${soundid} is not playing on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If audio ${soundid} is playing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If audio ${soundid} is playing on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If audio ${soundid} is not paused</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If audio ${soundid} is not paused on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If audio ${soundid} is paused</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If audio ${soundid} is paused on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Loop</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Repeat ${times} times</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Repeat ${times} times on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is not equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is not equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is not less than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is not less than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is not greater than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is not greater than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is not greater than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is not greater than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is not less than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is not less than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is less than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is less than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is greater than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is greater than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is greater than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is greater than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is less than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">While ${var} is less than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">For ${init}, while ${cond} do ${expr}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">For ${init}, while ${cond} do ${expr} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Break</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Switch ${expr}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Switch ${expr} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Case: ${const}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Default</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new list to ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new list to ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new list to temp ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new list to temp ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new map to ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new map to ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new map to temp ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new map to temp ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new grid with size ${width},${height} to ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new grid with size ${width},${height} to ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new grid with size ${width},${height} to temp ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new grid with size ${width},${height} to temp ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new stack to ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new stack to ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new stack to temp ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set a new stack to temp ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear list in ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear list in ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear map in ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear map in ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear grid in ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear grid in ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear stack in ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear stack in ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Free list ${var} from memory${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Free list ${var} from memory on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Free map ${var} from memory${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Free map ${var} from memory on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Free grid ${var} from memory${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Free grid ${var} from memory on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Free stack ${var} from memory${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Free stack ${var} from memory on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${value} to list ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${value} to list ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Remove item ${index} from list ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Remove item ${index} from list ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get item ${index} in list ${var} into ${assignee}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get item ${index} in list ${var} into ${assignee} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get item ${index} in list ${var} into temp ${assignee}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get item ${index} in list ${var} into temp ${assignee} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get index of item ${value} in list ${var} into ${assignee}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get index of item ${value} in list ${var} into ${assignee} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get index of item ${value} in list ${var} into temp ${assignee}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get index of item ${value} in list ${var} into temp ${assignee} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Insert ${value} into list ${var} at index ${index}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Insert ${value} into list ${var} at index ${index} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get item count in list ${var} and assign it to ${assignee}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get item count in list ${var} and assign it to ${assignee} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get item count in list ${var} and assign it to temp ${assignee}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get item count in list ${var} and assign it to temp ${assignee} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set key ${key} to ${value} in map ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set key ${key} to ${value} in map ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get value of key ${key} in map ${map} into ${assignee}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get value of key ${key} in map ${map} into ${assignee} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get value of key ${key} in map ${map} into temp ${assignee}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get value of key ${key} in map ${map} into temp ${assignee} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Remove key ${key} from map ${map}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Remove key ${key} from map ${map} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set ${value} in grid ${var} at ${x},${y}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set ${value} in grid ${var} at ${x},${y} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get value in grid ${var} at ${x},${y} into ${assignee}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get value in grid ${var} at ${x},${y} into ${assignee} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get value in grid ${var} at ${x},${y} into temp ${assignee}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get value in grid ${var} at ${x},${y} into temp ${assignee} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear grid ${var} to value ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear grid ${var} to value ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Push ${value} onto stack ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Push ${value} onto stack ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pop from stack ${var} into ${assignee}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pop from stack ${var} into ${assignee} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pop from stack ${var} into temp ${assignee}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pop from stack ${var} into temp ${assignee} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If list ${var} does not exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If list ${var} does not exists on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If list ${var} exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If list ${var} exists on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If map ${var} does not exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If map ${var} does not exists on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If map ${var} exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If map ${var} exists on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If grid ${var} does not exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If grid ${var} does not exists on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If grid ${var} exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If grid ${var} exists on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If stack ${var} does not exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If stack ${var} does not exists on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If stack ${var} exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If stack ${var} exists on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If list ${var} is not empty</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If list ${var} is not empty on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If list ${var} is empty</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If list ${var} is empty on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If map ${var} is not empty</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If map ${var} is not empty on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If map ${var} is empty</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If map ${var} is empty on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If grid ${var} is not empty</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If grid ${var} is not empty on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If grid ${var} is empty</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If grid ${var} is empty on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If stack ${var} is not empty</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If stack ${var} is not empty on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If stack ${var} is empty</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If stack ${var} is empty on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create buffer into ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create buffer into ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create buffer into temp ${target}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create buffer into temp ${target} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Copy buffer ${buffer} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Copy buffer ${buffer} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete buffer ${buffer}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete buffer ${buffer} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Read from buffer ${buffer}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Read from buffer ${buffer} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Read from buffer ${buffer} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Read from buffer ${buffer} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Read from buffer ${buffer} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Read from buffer ${buffer} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Write ${value} to buffer ${buffer}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Write ${value} to buffer ${buffer} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Seek to position ${pos} from start in buffer ${buffer}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Seek to position ${pos} from start in buffer ${buffer} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Seek to position ${pos} relative to position in buffer ${buffer}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Seek to position ${pos} relative to position in buffer ${buffer} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Seek to position ${pos} from end in buffer ${buffer}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Seek to position ${pos} from end in buffer ${buffer} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get size of buffer ${buffer} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get size of buffer ${buffer} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get size of buffer ${buffer} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get size of buffer ${buffer} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get position in buffer ${buffer} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get position in buffer ${buffer} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get position in buffer ${buffer} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get position in buffer ${buffer} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If buffer ${buffer} does not exist</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If buffer ${buffer} does not exist on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If buffer ${buffer} exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If buffer ${buffer} exists on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If end of buffer ${buffer} not reached</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If end of buffer ${buffer} not reached on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If end of buffer ${buffer} reached</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If end of buffer ${buffer} reached on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Load file ${filename} into buffer ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Load file ${filename} into buffer ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Load file ${filename} into buffer temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Load file ${filename} into buffer temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Save buffer ${buffer} to file ${filename}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Save buffer ${buffer} to file ${filename} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rename file ${file1} to ${file2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rename file ${file1} to ${file2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Copy file ${file1} to ${file2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Copy file ${file1} to ${file2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete file ${file}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete file ${file} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Open ini file ${filename}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Open ini file ${filename} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Close ini file</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Close ini file on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Write ${value} under key ${key} in section ${section} to ini file</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Write ${value} under key ${key} in section ${section} to ini file on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Read key ${key} in section ${section} and assign it to ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Read key ${key} in section ${section} and assign it to ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Read key ${key} in section ${section} and assign it to temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Read key ${key} in section ${section} and assign it to temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If file ${file} does not exist</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If file ${file} does not exist on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If file ${file} exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If file ${file} exists on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Round ${n} and assign it to ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Round ${n} and assign it to ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Round ${n} and assign it to temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Round ${n} and assign it to temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ceil ${n} and assign it to ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ceil ${n} and assign it to ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ceil ${n} and assign it to temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ceil ${n} and assign it to temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Floor ${n} and assign it to ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Floor ${n} and assign it to ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Floor ${n} and assign it to temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Floor ${n} and assign it to temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Convert ${value} to a string and assign it to ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Convert ${value} to a string and assign it to ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Convert ${value} to a string and assign it to temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Convert ${value} to a string and assign it to temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Convert ${value} to a number and assign it to ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Convert ${value} to a number and assign it to ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Convert ${value} to a number and assign it to temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Convert ${value} to a number and assign it to temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get a random number between ${min} and ${max} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get a random number between ${min} and ${max} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get a random number between ${min} and ${max} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get a random number between ${min} and ${max} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Randomize seed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get a random element from a list into ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get a random element from a list into ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get a random element from a list into temp ${var}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get a random element from a list into temp ${var} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set view camera of view ${view} to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set view camera of view ${view} to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set view visibility of view ${view} to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set view visibility of view ${view} to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set view port X of view ${view} to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set view port X of view ${view} to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set view port Y of view ${view} to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set view port Y of view ${view} to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set view port width of view ${view} to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set view port width of view ${view} to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set view port height of view ${view} to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set view port height of view ${view} to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set view surface id of view ${view} to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set view surface id of view ${view} to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view camera of view ${view} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view camera of view ${view} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view camera of view ${view} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view camera of view ${view} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view visibility of view ${view} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view visibility of view ${view} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view visibility of view ${view} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view visibility of view ${view} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port X of view ${view} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port X of view ${view} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port X of view ${view} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port X of view ${view} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port Y of view ${view} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port Y of view ${view} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port Y of view ${view} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port Y of view ${view} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port width of view ${view} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port width of view ${view} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port width of view ${view} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port width of view ${view} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port height of view ${view} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port height of view ${view} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port height of view ${view} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view port height of view ${view} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view surface id of view ${view} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view surface id of view ${view} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view surface id of view ${view} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get view surface id of view ${view} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Go to room ${room}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Go to room ${room} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Go to next room</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Go to previous room</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Restart current room</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If this is not the first room</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If this is the first room</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If this is not the last room</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If this is the last room</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get current room into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get current room into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get current room into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get current room into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Start path ${path} with speed ${speed} and ${atend} on end</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Start path ${path} with speed ${speed} and ${atend} on end on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stop following a path</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stop following a path on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${position} to path position</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${position} to path position on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set path position to ${position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set path position to ${position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get path position into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get path position into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get path position into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get path position into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${speed} to path speed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${speed} to path speed on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set path speed to ${speed}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set path speed to ${speed} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get path speed into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get path speed into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get path speed into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get path speed into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Start timeline ${timeline} and loop it</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Start timeline ${timeline} and loop it on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Start timeline ${timeline}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Start timeline ${timeline} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set timeline ${timeline} and loop it</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set timeline ${timeline} and loop it on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set timeline ${timeline}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set timeline ${timeline} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${position} to timeline position</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${position} to timeline position on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set timeline position to ${position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set timeline position to ${position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${speed} to timeline speed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${speed} to timeline speed on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set timeline speed to ${speed}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set timeline speed to ${speed} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Start timeline</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Start timeline on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Resume timeline</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Resume timeline on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pause timeline</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pause timeline on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stop timeline</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stop timeline on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Restart game</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Exit game</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Save game to file ${filename}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Save game to file ${filename} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Load game from file ${filename}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Load game from file ${filename} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${score} to score</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${score} to score on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set score to ${score}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set score to ${score} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get score into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get score into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get score into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get score into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${lives} to lives</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${lives} to lives on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set lives to ${lives}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set lives to ${lives} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get lives into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get lives into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get lives into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get lives into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${health} to health</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add ${health} to health on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set health to ${health}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set health to ${health} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get health into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get health into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get health into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get health into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is not equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is not equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is not less than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is not less than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is not greater than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is not greater than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is not less than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is not less than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is not greater than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is not greater than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is less than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is less than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is greater than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is greater than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is less than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is less than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is greater than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance score is greater than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is not equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is not equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is not less than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is not less than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is not greater than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is not greater than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is not less than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is not less than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is not greater than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is not greater than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is less than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is less than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is greater than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is greater than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is less than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is less than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is greater than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance lives is greater than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is not equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is not equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is not less than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is not less than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is not greater than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is not greater than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is not less than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is not less than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is not greater than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is not greater than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is less than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is less than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is greater than ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is greater than ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is less than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is less than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is greater than or equal to ${value}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If instance health is greater than or equal to ${value} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Show debug message ${msg}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Show debug message ${msg} on ${applyto}${show_input_count}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Toggle window state</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set window state to window</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set window state to fullscreen</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a persistent particle system on layer ${layer} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a persistent particle system on layer ${layer} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a persistent particle system on layer ${layer} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a persistent particle system on layer ${layer} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a particle system on layer ${layer} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a particle system on layer ${layer} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a particle system on layer ${layer} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a particle system on layer ${layer} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Destroy particle system ${system}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Destroy particle system ${system} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear particle system ${system}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Clear particle system ${system} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Resume particle system ${system}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Resume particle system ${system} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pause particle system ${system}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pause particle system ${system} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Update particle system ${system}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Update particle system ${system} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a new blending particle type into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a new blending particle type into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a new blending particle type into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a new blending particle type into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a new particle type into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a new particle type into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a new particle type into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a new particle type into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Destroy particle type ${type}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Destroy particle type ${type} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase $(sizeincr} and wiggle ${wiggle}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase $(sizeincr} and wiggle ${wiggle} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set sprite of particle type ${type} to ${sprite}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set sprite of particle type ${type} to ${sprite} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set shape of particle type ${type} to ${shape}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set shape of particle type ${type} to ${shape} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set colour of particle type ${type} to start ${startcol}, mid ${midcol}, end ${endcol}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set colour of particle type ${type} to start ${startcol}, mid ${midcol}, end ${endcol} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set alpha channel of particle type ${type} to start ${start}, end ${end}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set alpha channel of particle type ${type} to start ${start}, end ${end} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set alpha channel of particle type ${type} to start ${start}, mid ${middle}, end ${end}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set alpha channel of particle type ${type} to start ${start}, mid ${middle}, end ${end} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set life of particle type ${typ} from min ${minlife} to max ${maxlife}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set life of particle type ${typ} from min ${minlife} to max ${maxlife} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase $(incr} and wiggle ${wiggle}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase $(incr} and wiggle ${wiggle} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation $(incr} and wiggle ${wiggle}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation $(incr} and wiggle ${wiggle} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation $(incr} and wiggle ${wiggle}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation $(incr} and wiggle ${wiggle} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation $(incr} and wiggle ${wiggle}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation $(incr} and wiggle ${wiggle} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set gravity of particle type ${type} to ${amount} in direction ${direction}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set gravity of particle type ${type} to ${amount} in direction ${direction} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${count} secondary particles from type ${type} of type ${secondary} per step</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${count} secondary particles from type ${type} of type ${secondary} per step on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${count} secondary particles from type ${type} of type ${secondary} on death</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${count} secondary particles from type ${type} of type ${secondary} on death on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Burst ${number} particles of type ${type} in system ${system} at ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Burst ${number} particles of type ${type} in system ${system} at ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a particle emitter in system ${system} into ${emitter}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a particle emitter in system ${system} into ${emitter} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a particle emitter in system ${system} into temp ${emitter}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create a particle emitter in system ${system} into temp ${emitter} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Destroy particle emitter ${emitter} in system ${system}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Destroy particle emitter ${emitter} in system ${system} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Burst ${number} particles of type ${type} from emitter ${emitter} in system ${system}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Burst ${number} particles of type ${type} from emitter ${emitter} in system ${system} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stream ${number} particles of type ${type} from emitter ${emitter} in system ${system}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Stream ${number} particles of type ${type} from emitter ${emitter} in system ${system} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a rectangular shape with linear distribution</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a rectangular shape with linear distribution on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a rectangular shape with gaussian distribution</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a rectangular shape with gaussian distribution on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a rectangular shape with inverse gaussian distribution</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a rectangular shape with inverse gaussian distribution on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a elliptical shape with linear distribution</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a elliptical shape with linear distribution on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a elliptical shape with gaussian distribution</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a elliptical shape with gaussian distribution on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a elliptical shape with inverse gaussian distribution</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a elliptical shape with inverse gaussian distribution on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a diamond shape with linear distribution</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a diamond shape with linear distribution on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a diamond shape with gaussian distribution</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a diamond shape with gaussian distribution on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a diamond shape with inverse gaussian distribution</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a diamond shape with inverse gaussian distribution on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a straight line with linear distribution</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a straight line with linear distribution on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a straight line with gaussian distribution</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a straight line with gaussian distribution on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a straight line with inverse gaussian distribution</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emit from ${emitter} in system ${system} in a straight line with inverse gaussian distribution on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Show effect at ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Show effect at ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Show virtual keyboard with ${keyboard_type}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Show virtual keyboard with ${keyboard_type} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Hide virtual keyboard</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get virtual keyboard height into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get virtual keyboard height into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is showing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is showing on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is showing into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is showing into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is showing into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is showing into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is not showing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is not showing on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is not showing into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is not showing into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is not showing into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is not showing into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into list ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into list ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into list temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into list ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into list ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into list temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get draw font into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get draw font into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get horizontal text alignment into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get horizontal text alignment into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get vertical text alignment into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get vertical text alignment into ${var} on ${applyto}</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>16</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
