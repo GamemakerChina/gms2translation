@@ -1409,8 +1409,8 @@
       <tuv lang="en-US">
         <seg>Add ${score} to score on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152602Z" creationid="liaronce" creationdate="20200820T152602Z">
-        <seg>将${Score}添加到${applyto}上进行评分</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155550Z" creationid="liaronce" creationdate="20200820T152602Z">
+        <seg>将${score}添加到${applyto}上进行评分</seg>
       </tuv>
     </tu>
     <tu>
@@ -9950,32 +9950,32 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Create ${count} secondary particles from type ${type} of type ${secondary} on death</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152810Z" creationid="liaronce" creationdate="20200820T152810Z">
-        <seg>从类型${type}的${Second}在死亡时创建${count}个次级粒子</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155655Z" creationid="liaronce" creationdate="20200820T152810Z">
+        <seg>从类型${type}的${secondary}在死亡时创建${count}个次级粒子</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Create ${count} secondary particles from type ${type} of type ${secondary} on death on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152811Z" creationid="liaronce" creationdate="20200820T152811Z">
-        <seg>在${applyto}上死亡时，从${type}类型${Second}创建${count}次级粒子</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155655Z" creationid="liaronce" creationdate="20200820T152811Z">
+        <seg>在${applyto}上死亡时，从${type}类型${secondary}创建${count}次级粒子</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Create ${count} secondary particles from type ${type} of type ${secondary} per step</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152808Z" creationid="liaronce" creationdate="20200820T152808Z">
-        <seg>每步从类型${type}的${Second}创建${count}个次级粒子</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155655Z" creationid="liaronce" creationdate="20200820T152808Z">
+        <seg>每步从类型${type}的${secondary}创建${count}个次级粒子</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Create ${count} secondary particles from type ${type} of type ${secondary} per step on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152809Z" creationid="liaronce" creationdate="20200820T152809Z">
-        <seg>在${applyto}上的每个步骤中，从${type}类型${Second}创建${count}个次级粒子</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155655Z" creationid="liaronce" creationdate="20200820T152809Z">
+        <seg>在${applyto}上的每个步骤中，从${type}类型${secondary}创建${count}个次级粒子</seg>
       </tuv>
     </tu>
     <tu>
@@ -14066,8 +14066,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Draw sprite ${sprite} frame ${image} at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151822Z">
-        <seg>在${dnd_position}处绘制精灵${SPRITE}帧${image}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155429Z" creationid="liaronce" creationdate="20200820T151822Z">
+        <seg>在${dnd_position}处绘制精灵${sprite}帧${image}</seg>
       </tuv>
     </tu>
     <tu>
@@ -14082,32 +14082,32 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Draw sprite ${sprite} in ${number} columns at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151827Z">
-        <seg>在${dnd_position}处的${number}列中绘制精灵${SPRITE}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155429Z" creationid="liaronce" creationdate="20200820T151827Z">
+        <seg>在${dnd_position}处的${number}列中绘制精灵${sprite}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw sprite ${sprite} in ${number} columns at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151828Z">
-        <seg>在${applyto}上${dnd_position}处的${number}列中绘制精灵${SPRITE}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155429Z" creationid="liaronce" creationdate="20200820T151828Z">
+        <seg>在${applyto}上${dnd_position}处的${number}列中绘制精灵${sprite}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw sprite ${sprite} in ${number} rows at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151826Z">
-        <seg>在${dnd_position}处的${number}行中绘制精灵${SPRITE}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155429Z" creationid="liaronce" creationdate="20200820T151826Z">
+        <seg>在${dnd_position}处的${number}行中绘制精灵${sprite}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw sprite ${sprite} in ${number} rows at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151827Z">
-        <seg>在${applyto}的${dnd_position}处绘制${number}行中的精灵${SPRITE}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155429Z" creationid="liaronce" creationdate="20200820T151827Z">
+        <seg>在${applyto}的${dnd_position}处绘制${number}行中的精灵${sprite}</seg>
       </tuv>
     </tu>
     <tu>
@@ -35506,32 +35506,32 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Read key ${key} in section ${section} and assign it to ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152355Z" creationid="liaronce" creationdate="20200820T152355Z">
-        <seg>读取节${Section}中的密钥${key}并将其分配给${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155532Z" creationid="liaronce" creationdate="20200820T152355Z">
+        <seg>读取节${section}中的密钥${key}并将其分配给${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Read key ${key} in section ${section} and assign it to ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152356Z" creationid="liaronce" creationdate="20200820T152356Z">
-        <seg>读取${Section}部分中的密钥${key}，并将其分配给${applyto}上的${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155532Z" creationid="liaronce" creationdate="20200820T152356Z">
+        <seg>读取${section}部分中的密钥${key}，并将其分配给${applyto}上的${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Read key ${key} in section ${section} and assign it to temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152356Z" creationid="liaronce" creationdate="20200820T152356Z">
-        <seg>读取部分${Section}中的密钥${key}，并将其分配给临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155532Z" creationid="liaronce" creationdate="20200820T152356Z">
+        <seg>读取部分${section}中的密钥${key}，并将其分配给临时${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Read key ${key} in section ${section} and assign it to temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152358Z" creationid="liaronce" creationdate="20200820T152358Z">
-        <seg>读取${Section}部分中的密钥${key}，并将其分配给${applyto}上的临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155532Z" creationid="liaronce" creationdate="20200820T152358Z">
+        <seg>读取${section}部分中的密钥${key}，并将其分配给${applyto}上的临时${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -41106,8 +41106,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set pitch of audio ${sound} to ${pitch}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155104Z" creationid="liaronce" creationdate="20200820T152043Z">
-        <seg>将音频${Sound}的音调设置为${pitch}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155503Z" creationid="liaronce" creationdate="20200820T152043Z">
+        <seg>将音频${sound}的音调设置为${pitch}</seg>
       </tuv>
     </tu>
     <tu>
@@ -41170,8 +41170,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set score to ${score}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152603Z" creationid="liaronce" creationdate="20200820T152603Z">
-        <seg>将分数设置为${Score}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155550Z" creationid="liaronce" creationdate="20200820T152603Z">
+        <seg>将分数设置为${score}</seg>
       </tuv>
     </tu>
     <tu>
@@ -41186,16 +41186,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set shape of particle type ${type} to ${shape}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152750Z" creationid="liaronce" creationdate="20200820T152750Z">
-        <seg>将粒子类型${type}的形状设置为${Shape}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155627Z" creationid="liaronce" creationdate="20200820T152750Z">
+        <seg>将粒子类型${type}的形状设置为${shape}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set shape of particle type ${type} to ${shape} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152751Z" creationid="liaronce" creationdate="20200820T152751Z">
-        <seg>在${applyto}上将粒子类型${type}的形状设置为${Shape}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155627Z" creationid="liaronce" creationdate="20200820T152751Z">
+        <seg>在${applyto}上将粒子类型${type}的形状设置为${shape}</seg>
       </tuv>
     </tu>
     <tu>
@@ -41266,16 +41266,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set sprite of particle type ${type} to ${sprite}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152748Z" creationid="liaronce" creationdate="20200820T152748Z">
-        <seg>将粒子类型${type}的精灵设置为${Sprite}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155611Z" creationid="liaronce" creationdate="20200820T152748Z">
+        <seg>将粒子类型${type}的精灵设置为${sprite}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set sprite of particle type ${type} to ${sprite} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152749Z" creationid="liaronce" creationdate="20200820T152749Z">
-        <seg>在${applyto}上将粒子类型${type}的精灵设置为${Sprite}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155611Z" creationid="liaronce" creationdate="20200820T152749Z">
+        <seg>在${applyto}上将粒子类型${type}的精灵设置为${sprite}</seg>
       </tuv>
     </tu>
     <tu>
@@ -50937,16 +50937,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Write ${value} under key ${key} in section ${section} to ini file</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152353Z" creationid="liaronce" creationdate="20200820T152353Z">
-        <seg>将${Section}节中密钥${key}下的${value}写入ini文件</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155532Z" creationid="liaronce" creationdate="20200820T152353Z">
+        <seg>将${section}节中密钥${key}下的${value}写入ini文件</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Write ${value} under key ${key} in section ${section} to ini file on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152354Z" creationid="liaronce" creationdate="20200820T152354Z">
-        <seg>将${Section}节中密钥${key}下的${value}写入${applyto}上的ini文件</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155532Z" creationid="liaronce" creationdate="20200820T152354Z">
+        <seg>将${section}节中密钥${key}下的${value}写入${applyto}上的ini文件</seg>
       </tuv>
     </tu>
     <tu>
