@@ -1804,6 +1804,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Add key in place</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141410Z" creationid="liaronce" creationdate="20200820T141403Z">
+        <seg>将关键帧添加到位</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Add layer</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T085505Z" creationid="deciia" creationdate="20170102T085505Z">
@@ -1922,6 +1930,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T191535Z" creationid="deciia" creationdate="20180922T191535Z">
         <seg>已添加兼容性脚本 '{0}'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Added parameter '{0}' to the track.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141550Z" creationid="liaronce" creationdate="20200820T141550Z">
+        <seg>已将参数 ‘{0}’ 添加到轨道。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3611,6 +3627,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Assign Value at Key {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141642Z" creationid="liaronce" creationdate="20200820T141642Z">
+        <seg>在关键字 {0} 处赋值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Assign Variable</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T040328Z" creationid="deciia" creationdate="20170107T054327Z">
@@ -5210,6 +5234,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Broadcast messages</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141634Z" creationid="liaronce" creationdate="20200820T141634Z">
+        <seg>广播消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Browse Button</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T092333Z" creationid="deciia" creationdate="20170102T073453Z">
@@ -5906,10 +5938,26 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Canvas chain colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141625Z" creationid="liaronce" creationdate="20200820T141625Z">
+        <seg>画布链颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Canvas chain rendering segment count</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134408Z" creationid="liaronce" creationdate="20200820T134408Z">
         <seg>画布链渲染段计数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Canvas chain thickness</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141623Z" creationid="liaronce" creationdate="20200820T141623Z">
+        <seg>画布链厚度</seg>
       </tuv>
     </tu>
     <tu>
@@ -7719,6 +7767,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Compatible curves: {0} of {1}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141508Z" creationid="liaronce" creationdate="20200820T141500Z">
+        <seg>兼容曲线：{0} 条，共 {1} 条</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Compile Error Window Font Settings</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T162626Z" creationid="deciia" creationdate="20170311T162626Z">
@@ -8390,6 +8446,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T111855Z" creationid="deciia" creationdate="20170103T111855Z">
         <seg>转换成GML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Convert to embedded anim curve</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141447Z" creationid="liaronce" creationdate="20200820T141447Z">
+        <seg>转换为嵌入的动画曲线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Convert to keys</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141453Z" creationid="liaronce" creationdate="20200820T141453Z">
+        <seg>转换为关键帧</seg>
       </tuv>
     </tu>
     <tu>
@@ -10420,6 +10492,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Delete key(s)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141433Z" creationid="liaronce" creationdate="20200820T141433Z">
+        <seg>删除关键帧</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Delete layer(s)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T092231Z" creationid="deciia" creationdate="20170102T092231Z">
@@ -11340,6 +11420,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Do you want to delete tag(s) {0} from the track?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141558Z" creationid="liaronce" creationdate="20200820T141558Z">
+        <seg>是否要从轨道中删除 {0} 标记？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Do you want to open {0} resources for edit?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T153600Z" creationid="deciia" creationdate="20170103T115404Z">
@@ -12076,6 +12164,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T113420Z" creationid="deciia" creationdate="20170311T113420Z">
         <seg>复制层</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Duplicate Track</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141423Z" creationid="liaronce" creationdate="20200820T141423Z">
+        <seg>重复轨道</seg>
       </tuv>
     </tu>
     <tu>
@@ -13787,6 +13883,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170303T153623Z" creationid="deciia" creationdate="20170303T153623Z">
         <seg>禁止导出精灵</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Export embedded anim curve</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141449Z" creationid="liaronce" creationdate="20200820T141449Z">
+        <seg>导出嵌入的动画曲线</seg>
       </tuv>
     </tu>
     <tu>
@@ -25529,6 +25633,22 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Parameter '{0}' already exists in this track as '{1}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141525Z" creationid="liaronce" creationdate="20200820T141525Z">
+        <seg>参数 "{0}" 已作为 "{1}" 存在于此轨道中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Parameters</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141627Z" creationid="liaronce" creationdate="20200820T141627Z">
+        <seg>参数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Parent</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T082417Z" creationid="deciia" creationdate="20170103T100607Z">
@@ -30954,6 +31074,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Select animation curve</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141454Z" creationid="liaronce" creationdate="20200820T141454Z">
+        <seg>选择动画曲线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Select particle type</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133135Z" creationid="liaronce" creationdate="20200820T133135Z">
@@ -32512,6 +32640,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set to external anim curve</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141448Z" creationid="liaronce" creationdate="20200820T141448Z">
+        <seg>设置为外部动画曲线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sets how much this property can randomly change over time</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131748Z" creationid="liaronce" creationdate="20200820T131748Z">
@@ -33748,6 +33884,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Some copied keys were not pasted successfully due to target track types not matching up</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141445Z" creationid="liaronce" creationdate="20200820T141445Z">
+        <seg>由于目标轨道类型不匹配，某些复制的关键帧未成功粘贴</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Some resources failed to import - see output window for details</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T152702Z" creationid="deciia" creationdate="20180921T152702Z">
@@ -34301,6 +34445,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T053754Z" creationid="deciia" creationdate="20170107T053754Z">
         <seg>拆分视图模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Split key in place</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141421Z" creationid="liaronce" creationdate="20200820T141421Z">
+        <seg>将关键帧分割到位</seg>
       </tuv>
     </tu>
     <tu>
@@ -35494,6 +35646,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T142118Z" creationid="36011" creationdate="20170315T142118Z">
         <seg>列表框</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Tag '{0}' already exists on this track.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141542Z" creationid="liaronce" creationdate="20200820T141542Z">
+        <seg>此轨道上已存在标记 ‘{0}’。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37167,6 +37327,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This tag is already on the track</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141602Z" creationid="liaronce" creationdate="20200820T141602Z">
+        <seg>此标记已在轨道上</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This time line has no moments with source code</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T070814Z" creationid="deciia" creationdate="20180922T070814Z">
@@ -38085,6 +38253,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T230011Z" creationid="deciia" creationdate="20170103T151457Z">
         <seg>顶：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Track</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141631Z" creationid="liaronce" creationdate="20200820T141631Z">
+        <seg>跟踪</seg>
       </tuv>
     </tu>
     <tu>
@@ -40098,6 +40274,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T084303Z" creationid="deciia" creationdate="20170219T005459Z">
         <seg>位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Whether a confirmation dialog should be shown when a new track parameter is added</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141608Z" creationid="liaronce" creationdate="20200820T141608Z">
+        <seg>添加新轨道参数时是否应显示确认对话框</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Whether a confirmation dialog should be shown when a new track tag is added</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141611Z" creationid="liaronce" creationdate="20200820T141611Z">
+        <seg>添加新轨道标记时是否应显示确认对话框</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Whether a confirmation dialog should be shown when trying to delete a tag</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141619Z" creationid="liaronce" creationdate="20200820T141619Z">
+        <seg>尝试删除标记时是否应显示确认对话框</seg>
       </tuv>
     </tu>
     <tu>
