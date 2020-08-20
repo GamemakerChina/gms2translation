@@ -1337,16 +1337,16 @@
       <tuv lang="en-US">
         <seg>Add ${health} to health</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152616Z" creationid="liaronce" creationdate="20200820T152616Z">
-        <seg>将${Health}添加到健康中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155841Z" creationid="liaronce" creationdate="20200820T152616Z">
+        <seg>将${health}添加到健康中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${health} to health on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152617Z" creationid="liaronce" creationdate="20200820T152617Z">
-        <seg>将${Health}添加到${applyto}上的运行状况</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155841Z" creationid="liaronce" creationdate="20200820T152617Z">
+        <seg>将${health}添加到${applyto}上的运行状况</seg>
       </tuv>
     </tu>
     <tu>
@@ -28360,48 +28360,48 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Load file ${filename} into buffer ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152339Z" creationid="liaronce" creationdate="20200820T152339Z">
-        <seg>将文件${fileName}加载到缓冲区${target}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160015Z" creationid="liaronce" creationdate="20200820T152339Z">
+        <seg>将文件${filename}加载到缓冲区${target}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Load file ${filename} into buffer ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152340Z" creationid="liaronce" creationdate="20200820T152340Z">
-        <seg>将文件${fileName}加载到${applyto}上的缓冲区${target}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160015Z" creationid="liaronce" creationdate="20200820T152340Z">
+        <seg>将文件${filename}加载到${applyto}上的缓冲区${target}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Load file ${filename} into buffer temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152341Z" creationid="liaronce" creationdate="20200820T152341Z">
-        <seg>将文件${fileName}加载到缓冲区临时${target}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160015Z" creationid="liaronce" creationdate="20200820T152341Z">
+        <seg>将文件${filename}加载到缓冲区临时${target}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Load file ${filename} into buffer temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152342Z" creationid="liaronce" creationdate="20200820T152342Z">
-        <seg>将文件${fileName}加载到${applyto}上的缓冲区临时${target}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160015Z" creationid="liaronce" creationdate="20200820T152342Z">
+        <seg>将文件${filename}加载到${applyto}上的缓冲区临时${target}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Load game from file ${filename}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152600Z" creationid="liaronce" creationdate="20200820T152600Z">
-        <seg>从文件${fileName}加载游戏</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160015Z" creationid="liaronce" creationdate="20200820T152600Z">
+        <seg>从文件${filename}加载游戏</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Load game from file ${filename} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152600Z" creationid="liaronce" creationdate="20200820T152600Z">
-        <seg>从${applyto}上的文件${fileName}加载游戏</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160015Z" creationid="liaronce" creationdate="20200820T152600Z">
+        <seg>从${applyto}上的文件${filename}加载游戏</seg>
       </tuv>
     </tu>
     <tu>
@@ -31892,8 +31892,8 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       <tuv lang="en-US">
         <seg>Open ini file ${filename}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152350Z" creationid="liaronce" creationdate="20200820T152350Z">
-        <seg>打开ini文件${fileName}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160015Z" creationid="liaronce" creationdate="20200820T152350Z">
+        <seg>打开ini文件${filename}</seg>
       </tuv>
     </tu>
     <tu>
@@ -38332,32 +38332,32 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Save buffer ${buffer} to file ${filename}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152343Z" creationid="liaronce" creationdate="20200820T152343Z">
-        <seg>将缓冲区${buffer}保存到文件${fileName}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160015Z" creationid="liaronce" creationdate="20200820T152343Z">
+        <seg>将缓冲区${buffer}保存到文件${filename}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Save buffer ${buffer} to file ${filename} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152343Z" creationid="liaronce" creationdate="20200820T152343Z">
-        <seg>将缓冲区${buffer}保存到${applyto}上的文件${fileName}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160015Z" creationid="liaronce" creationdate="20200820T152343Z">
+        <seg>将缓冲区${buffer}保存到${applyto}上的文件${filename}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Save game to file ${filename}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152558Z" creationid="liaronce" creationdate="20200820T152558Z">
-        <seg>将游戏保存到文件${fileName}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160015Z" creationid="liaronce" creationdate="20200820T152558Z">
+        <seg>将游戏保存到文件${filename}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Save game to file ${filename} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152559Z" creationid="liaronce" creationdate="20200820T152559Z">
-        <seg>将游戏保存到${applyto}上的文件${fileName}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T160015Z" creationid="liaronce" creationdate="20200820T152559Z">
+        <seg>将游戏保存到${applyto}上的文件${filename}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40930,16 +40930,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set health to ${health}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152617Z" creationid="liaronce" creationdate="20200820T152617Z">
-        <seg>将健康设置为${Health}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155841Z" creationid="liaronce" creationdate="20200820T152617Z">
+        <seg>将健康设置为${health}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set health to ${health} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152618Z" creationid="liaronce" creationdate="20200820T152618Z">
-        <seg>在${applyto}上将运行状况设置为${Health}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155841Z" creationid="liaronce" creationdate="20200820T152618Z">
+        <seg>在${applyto}上将运行状况设置为${health}</seg>
       </tuv>
     </tu>
     <tu>
