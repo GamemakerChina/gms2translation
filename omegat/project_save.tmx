@@ -1513,16 +1513,16 @@
       <tuv lang="en-US">
         <seg>Add ${steps} to alarm ${alarm} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144138Z" creationid="liaronce" creationdate="20200820T144138Z">
-        <seg>将${step}添加到${applyto}${show_input_count}上的警报${Alarm}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144138Z">
+        <seg>将${step}添加到${applyto}${show_input_count}上的警报${alarm}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${steps} to alarm ${alarm}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144137Z" creationid="liaronce" creationdate="20200820T144137Z">
-        <seg>将${Steps}添加到警报${Alarm}${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144137Z">
+        <seg>将${Steps}添加到警报${alarm}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -19293,32 +19293,32 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get alarm ${alarm} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144139Z" creationid="liaronce" creationdate="20200820T144139Z">
-        <seg>将警报${Alarm}获取到${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144139Z">
+        <seg>将警报${alarm}获取到${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get alarm ${alarm} into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144140Z" creationid="liaronce" creationdate="20200820T144140Z">
-        <seg>将警报${Alarm}置于${applyto}上的${var}中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144140Z">
+        <seg>将警报${alarm}置于${applyto}上的${var}中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get alarm ${alarm} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144141Z" creationid="liaronce" creationdate="20200820T144141Z">
-        <seg>将警报${Alarm}放入临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144141Z">
+        <seg>将警报${alarm}放入临时${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get alarm ${alarm} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144142Z" creationid="liaronce" creationdate="20200820T144142Z">
-        <seg>将警报${Alarm}置于${applyto}上的临时${var}中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144142Z">
+        <seg>将警报${alarm}置于${applyto}上的临时${var}中</seg>
       </tuv>
     </tu>
     <tu>
@@ -19701,8 +19701,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get length of audio ${sound} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152041Z" creationid="liaronce" creationdate="20200820T152041Z">
-        <seg>将音频${SOUND}的长度获取到临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154239Z" creationid="liaronce" creationdate="20200820T152041Z">
+        <seg>将音频${sound}的长度获取到临时${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -19877,8 +19877,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get pitch of audio ${sound} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152045Z" creationid="liaronce" creationdate="20200820T152045Z">
-        <seg>将音频${SOUND}的音调转换为${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154239Z" creationid="liaronce" creationdate="20200820T152045Z">
+        <seg>将音频${sound}的音调转换为${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -19893,8 +19893,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get pitch of audio ${sound} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152046Z" creationid="liaronce" creationdate="20200820T152046Z">
-        <seg>将音频${SOUND}的音调转换为温度${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154239Z" creationid="liaronce" creationdate="20200820T152046Z">
+        <seg>将音频${sound}的音调转换为温度${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -21037,8 +21037,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get volume of audio ${sound} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152050Z" creationid="liaronce" creationdate="20200820T152050Z">
-        <seg>将音频${SOUND}的音量放入${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154239Z" creationid="liaronce" creationdate="20200820T152050Z">
+        <seg>将音频${sound}的音量放入${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -21053,8 +21053,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get volume of audio ${sound} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152052Z" creationid="liaronce" creationdate="20200820T152052Z">
-        <seg>将音频${SOUND}的音量设置为临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154239Z" creationid="liaronce" creationdate="20200820T152052Z">
+        <seg>将音频${sound}的音量设置为临时${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -33371,16 +33371,16 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       <tuv lang="en-US">
         <seg>Pause audio ${sound}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152031Z" creationid="liaronce" creationdate="20200820T152031Z">
-        <seg>暂停音频${SOUND}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154239Z" creationid="liaronce" creationdate="20200820T152031Z">
+        <seg>暂停音频${sound}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Pause audio ${sound} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152032Z" creationid="liaronce" creationdate="20200820T152032Z">
-        <seg>暂停${applyto}上的音频${SOUND}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154239Z" creationid="liaronce" creationdate="20200820T152032Z">
+        <seg>暂停${applyto}上的音频${sound}</seg>
       </tuv>
     </tu>
     <tu>
@@ -37108,16 +37108,16 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Resume audio ${sound}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152034Z" creationid="liaronce" creationdate="20200820T152034Z">
-        <seg>恢复音频${SOUND}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154239Z" creationid="liaronce" creationdate="20200820T152034Z">
+        <seg>恢复音频${sound}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Resume audio ${sound} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152035Z" creationid="liaronce" creationdate="20200820T152035Z">
-        <seg>在${applyto}上恢复音频${SOUND}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154239Z" creationid="liaronce" creationdate="20200820T152035Z">
+        <seg>在${applyto}上恢复音频${sound}</seg>
       </tuv>
     </tu>
     <tu>
@@ -38564,8 +38564,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Scale to image_xscale+${xscale},${yscale}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153828Z" creationid="liaronce" creationdate="20200820T150931Z">
-        <seg>缩放至IMAGE_xscale+${xscale}，${yscale}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154451Z" creationid="liaronce" creationdate="20200820T150931Z">
+        <seg>缩放至image_xscale+${xscale}，${yscale}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40610,16 +40610,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set alarm ${alarm} to ${steps} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144135Z" creationid="liaronce" creationdate="20200820T144135Z">
-        <seg>在${applyto}${show_input_count}上将警报${Alarm}设置为${step}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144135Z">
+        <seg>在${applyto}${show_input_count}上将警报${alarm}设置为${step}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set alarm ${alarm} to ${steps}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144130Z" creationid="liaronce" creationdate="20200820T144130Z">
-        <seg>将计时器${Alarm}设置为${step}${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144130Z">
+        <seg>将计时器${alarm}设置为${step}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40978,8 +40978,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set instance variable ${dnd_set_inst_vars} to ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144149Z" creationid="liaronce" creationdate="20200820T144149Z">
-        <seg>将实例变量${DND_SET_INST_VARS}设置为${value}${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154417Z" creationid="liaronce" creationdate="20200820T144149Z">
+        <seg>将实例变量${dnd_set_inst_vars}设置为${value}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -41114,8 +41114,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set pitch of audio ${sound} to ${pitch} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152044Z" creationid="liaronce" creationdate="20200820T152044Z">
-        <seg>在${applyto}上将音频${SOUND}的音调设置为${Pitch}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154239Z" creationid="liaronce" creationdate="20200820T152044Z">
+        <seg>在${applyto}上将音频${sound}的音调设置为${Pitch}</seg>
       </tuv>
     </tu>
     <tu>
@@ -41218,8 +41218,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase $(incr} and wiggle ${wiggle}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153426Z" creationid="liaronce" creationdate="20200820T152759Z">
-        <seg>将粒子类型${type}的速度从最小${minspeed}设置为最大${MAXspeed}，并增加$(incr}和wigger${wiggle}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154311Z" creationid="liaronce" creationdate="20200820T152759Z">
+        <seg>将粒子类型${type}的速度从最小${minspeed}设置为最大${maxspeed}，并增加$(incr}和wigger${wiggle}</seg>
       </tuv>
     </tu>
     <tu>
@@ -42066,8 +42066,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set volume of audio ${sound} to ${volume}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152048Z" creationid="liaronce" creationdate="20200820T152048Z">
-        <seg>将音频${SOUND}的音量设置为${VOLUME}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154239Z" creationid="liaronce" creationdate="20200820T152048Z">
+        <seg>将音频${sound}的音量设置为${VOLUME}</seg>
       </tuv>
     </tu>
     <tu>
