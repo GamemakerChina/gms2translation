@@ -1321,16 +1321,16 @@
       <tuv lang="en-US">
         <seg>Add ${friction} to friction</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151709Z" creationid="liaronce" creationdate="20200820T151709Z">
-        <seg>将${Friction}添加到摩擦力</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154905Z" creationid="liaronce" creationdate="20200820T151709Z">
+        <seg>将${friction}添加到摩擦力</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${friction} to friction on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151710Z" creationid="liaronce" creationdate="20200820T151710Z">
-        <seg>将${Friction}添加到${applyto}上的摩擦力</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154905Z" creationid="liaronce" creationdate="20200820T151710Z">
+        <seg>将${friction}添加到${applyto}上的摩擦力</seg>
       </tuv>
     </tu>
     <tu>
@@ -1353,16 +1353,16 @@
       <tuv lang="en-US">
         <seg>Add ${lives} to lives</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152609Z" creationid="liaronce" creationdate="20200820T152609Z">
-        <seg>将${Lives}添加到Lives</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155032Z" creationid="liaronce" creationdate="20200820T152609Z">
+        <seg>将${lives}添加到Lives</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${lives} to lives on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152609Z" creationid="liaronce" creationdate="20200820T152609Z">
-        <seg>将${Lives}添加到${applyto}上的Lives</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155032Z" creationid="liaronce" creationdate="20200820T152609Z">
+        <seg>将${lives}添加到${applyto}上的Lives</seg>
       </tuv>
     </tu>
     <tu>
@@ -18773,32 +18773,32 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154517Z" creationid="liaronce" creationdate="20200820T151607Z">
-        <seg>将游戏面板${GP}上的${axis}轴值获取到${var}中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151607Z">
+        <seg>将游戏面板${gp}上的${axis}轴值获取到${var}中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151608Z" creationid="liaronce" creationdate="20200820T151608Z">
-        <seg>将游戏面板${GP}上的${axis}轴值获取到${applyto}上的${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151608Z">
+        <seg>将游戏面板${gp}上的${axis}轴值获取到${applyto}上的${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151609Z" creationid="liaronce" creationdate="20200820T151609Z">
-        <seg>将游戏面板${GP}上的${axis}轴值获取到临时${var}中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151609Z">
+        <seg>将游戏面板${gp}上的${axis}轴值获取到临时${var}中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151610Z" creationid="liaronce" creationdate="20200820T151610Z">
-        <seg>将游戏面板${GP}上的${axis}轴值获取到${applyto}上的临时${var}中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151610Z">
+        <seg>将游戏面板${gp}上的${axis}轴值获取到${applyto}上的临时${var}中</seg>
       </tuv>
     </tu>
     <tu>
@@ -18837,16 +18837,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get ${trigger} value on gamepad ${gp} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151611Z" creationid="liaronce" creationdate="20200820T151611Z">
-        <seg>将游戏面板${GP}上的${TRIGGER}值获取到${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151611Z">
+        <seg>将游戏面板${gp}上的${TRIGGER}值获取到${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${trigger} value on gamepad ${gp} into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151612Z" creationid="liaronce" creationdate="20200820T151612Z">
-        <seg>将游戏面板${GP}上的${TRIGGER}值获取到${applyto}上的${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151612Z">
+        <seg>将游戏面板${gp}上的${TRIGGER}值获取到${applyto}上的${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -18861,8 +18861,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get ${trigger} value on gamepad ${gp} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151613Z" creationid="liaronce" creationdate="20200820T151613Z">
-        <seg>将游戏面板${GP}上的${TRIGGER}值获取到${applyto}上的临时${var}中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151613Z">
+        <seg>将游戏面板${gp}上的${TRIGGER}值获取到${applyto}上的临时${var}中</seg>
       </tuv>
     </tu>
     <tu>
@@ -22610,96 +22610,96 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is down</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151625Z" creationid="liaronce" creationdate="20200820T151625Z">
-        <seg>如果游戏面板${GP}上的${btn}已关闭</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151625Z">
+        <seg>如果游戏面板${gp}上的${btn}已关闭</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is down on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151626Z" creationid="liaronce" creationdate="20200820T151626Z">
-        <seg>如果游戏面板${GP}上的${btn}在${applyto}上关闭</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151626Z">
+        <seg>如果游戏面板${gp}上的${btn}在${applyto}上关闭</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not down</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151627Z" creationid="liaronce" creationdate="20200820T151627Z">
-        <seg>如果游戏面板${GP}上的${btn}未关闭</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151627Z">
+        <seg>如果游戏面板${gp}上的${btn}未关闭</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not down on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151628Z" creationid="liaronce" creationdate="20200820T151628Z">
-        <seg>如果游戏面板${GP}上的${btn}在${applyto}上未关闭</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151628Z">
+        <seg>如果游戏面板${gp}上的${btn}在${applyto}上未关闭</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not pressed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151630Z" creationid="liaronce" creationdate="20200820T151630Z">
-        <seg>如果未按下游戏面板${GP}上的${btn}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151630Z">
+        <seg>如果未按下游戏面板${gp}上的${btn}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not pressed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151631Z" creationid="liaronce" creationdate="20200820T151631Z">
-        <seg>如果游戏面板${GP}上的${btn}未在${applyto}上按下</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151631Z">
+        <seg>如果游戏面板${gp}上的${btn}未在${applyto}上按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151634Z" creationid="liaronce" creationdate="20200820T151634Z">
-        <seg>如果游戏面板${GP}上的${btn}未释放</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151634Z">
+        <seg>如果游戏面板${gp}上的${btn}未释放</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not released on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151635Z" creationid="liaronce" creationdate="20200820T151635Z">
-        <seg>如果游戏手柄${GP}上的${btn}未在${applyto}上发布</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151635Z">
+        <seg>如果游戏手柄${gp}上的${btn}未在${applyto}上发布</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is pressed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151629Z" creationid="liaronce" creationdate="20200820T151629Z">
-        <seg>如果按下游戏面板${GP}上的${btn}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151629Z">
+        <seg>如果按下游戏面板${gp}上的${btn}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is pressed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151629Z" creationid="liaronce" creationdate="20200820T151629Z">
-        <seg>如果在${applyto}上按下游戏面板${GP}上的${btn}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151629Z">
+        <seg>如果在${applyto}上按下游戏面板${gp}上的${btn}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151632Z" creationid="liaronce" creationdate="20200820T151632Z">
-        <seg>如果游戏面板${GP}上的${btn}被释放</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151632Z">
+        <seg>如果游戏面板${gp}上的${btn}被释放</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is released on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151633Z" creationid="liaronce" creationdate="20200820T151633Z">
-        <seg>如果游戏面板${GP}上的${btn}在${applyto}上发布</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151633Z">
+        <seg>如果游戏面板${gp}上的${btn}在${applyto}上发布</seg>
       </tuv>
     </tu>
     <tu>
@@ -40450,8 +40450,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set a new grid with size ${width},${height} to ${var} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153611Z" creationid="liaronce" creationdate="20200820T152140Z">
-        <seg>在${applyto}${show_input_count}上将大小为${width},${Height}至${var}的新格网设置为${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155001Z" creationid="liaronce" creationdate="20200820T152140Z">
+        <seg>在${applyto}${show_input_count}上将大小为${width},${height}至${var}的新格网设置为${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40466,16 +40466,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set a new grid with size ${width},${height} to temp ${var} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153611Z" creationid="liaronce" creationdate="20200820T152142Z">
-        <seg>在${applyto}${show_input_count}上将大小为${width},${Height}的新格网设置为临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155001Z" creationid="liaronce" creationdate="20200820T152142Z">
+        <seg>在${applyto}${show_input_count}上将大小为${width},${height}的新格网设置为临时${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set a new grid with size ${width},${height} to temp ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153611Z" creationid="liaronce" creationdate="20200820T152141Z">
-        <seg>将大小为${width},高度为${Height}的新格网设置为临时${var}${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155001Z" creationid="liaronce" creationdate="20200820T152141Z">
+        <seg>将大小为${width},高度为${height}的新格网设置为临时${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40706,16 +40706,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set button threshold of gamepad ${gp} to ${threshold}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154750Z" creationid="liaronce" creationdate="20200820T151623Z">
-        <seg>将游戏面板${GP}的按钮阈值设置为${threshold}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151623Z">
+        <seg>将游戏面板${gp}的按钮阈值设置为${threshold}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set button threshold of gamepad ${gp} to ${threshold} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154750Z" creationid="liaronce" creationdate="20200820T151624Z">
-        <seg>在${applyto}上将游戏面板${GP}的按钮阈值设置为${threshold}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151624Z">
+        <seg>在${applyto}上将游戏面板${gp}的按钮阈值设置为${threshold}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40738,16 +40738,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set deadzone of gamepad ${gp} to ${deadzone}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154722Z" creationid="liaronce" creationdate="20200820T151621Z">
-        <seg>将游戏手柄${GP}的死区设置为${deadzone}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151621Z">
+        <seg>将游戏手柄${gp}的死区设置为${deadzone}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set deadzone of gamepad ${gp} to ${deadzone} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154722Z" creationid="liaronce" creationdate="20200820T151622Z">
-        <seg>在${applyto}上将游戏手柄${GP}的死区设置为${deadzone}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151622Z">
+        <seg>在${applyto}上将游戏手柄${gp}的死区设置为${deadzone}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40850,16 +40850,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set friction to ${friction}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151711Z" creationid="liaronce" creationdate="20200820T151711Z">
-        <seg>将摩擦力设置为${Friction}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154905Z" creationid="liaronce" creationdate="20200820T151711Z">
+        <seg>将摩擦力设置为${friction}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set friction to ${friction} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151712Z" creationid="liaronce" creationdate="20200820T151712Z">
-        <seg>将${applyto}上的摩擦力设置为${Friction}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154905Z" creationid="liaronce" creationdate="20200820T151712Z">
+        <seg>将${applyto}上的摩擦力设置为${friction}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40914,16 +40914,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set gravity of particle type ${type} to ${amount} in direction ${direction}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153943Z" creationid="liaronce" creationdate="20200820T152806Z">
-        <seg>将粒子类型${type}的重力设置为${amount}，方向为${Direction}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154827Z" creationid="liaronce" creationdate="20200820T152806Z">
+        <seg>将粒子类型${type}的重力设置为${amount}，方向为${direction}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set gravity of particle type ${type} to ${amount} in direction ${direction} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153943Z" creationid="liaronce" creationdate="20200820T152807Z">
-        <seg>在${applyto}上将粒子类型${type}的重力设置为${amount}，方向为${Direction}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154827Z" creationid="liaronce" creationdate="20200820T152807Z">
+        <seg>在${applyto}上将粒子类型${type}的重力设置为${amount}，方向为${direction}</seg>
       </tuv>
     </tu>
     <tu>
@@ -41018,16 +41018,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set lives to ${lives}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152610Z" creationid="liaronce" creationdate="20200820T152610Z">
-        <seg>将Lives设置为${Lives}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155032Z" creationid="liaronce" creationdate="20200820T152610Z">
+        <seg>将Lives设置为${lives}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set lives to ${lives} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152611Z" creationid="liaronce" creationdate="20200820T152611Z">
-        <seg>在${applyto}上将Lives设置为${Lives}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155032Z" creationid="liaronce" creationdate="20200820T152611Z">
+        <seg>在${applyto}上将Lives设置为${lives}</seg>
       </tuv>
     </tu>
     <tu>
@@ -41106,16 +41106,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set pitch of audio ${sound} to ${pitch}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152043Z" creationid="liaronce" creationdate="20200820T152043Z">
-        <seg>将音频${Sound}的音调设置为${Pitch}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155104Z" creationid="liaronce" creationdate="20200820T152043Z">
+        <seg>将音频${Sound}的音调设置为${pitch}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set pitch of audio ${sound} to ${pitch} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154239Z" creationid="liaronce" creationdate="20200820T152044Z">
-        <seg>在${applyto}上将音频${sound}的音调设置为${Pitch}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155104Z" creationid="liaronce" creationdate="20200820T152044Z">
+        <seg>在${applyto}上将音频${sound}的音调设置为${pitch}</seg>
       </tuv>
     </tu>
     <tu>
