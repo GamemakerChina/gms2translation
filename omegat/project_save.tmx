@@ -1207,6 +1207,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Add ${expr} to ${var} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143657Z" creationid="liaronce" creationdate="20200820T143657Z">
+        <seg>将${expr}添加到${applyto}${show_input_count}上的${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${expr} to ${var}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143613Z" creationid="liaronce" creationdate="20200820T143613Z">
+        <seg>将 ${expr} 添加到 $[var]$[show_input_count]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Add --&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T064003Z" creationid="deciia" creationdate="20170102T063944Z">
@@ -3807,6 +3823,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140912Z" creationid="liaronce" creationdate="20191118T140912Z">
         <seg>分配音频组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Assign Base Value for Track {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143509Z" creationid="liaronce" creationdate="20200820T143509Z">
+        <seg>为轨道 {0} 指定基值</seg>
       </tuv>
     </tu>
     <tu>
@@ -10383,6 +10407,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T054520Z" creationid="deciia" creationdate="20170107T054520Z">
         <seg>声明一个临时变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Declare temp ${var} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143853Z" creationid="liaronce" creationdate="20200820T143853Z">
+        <seg>在${applyto}${show_input_count}上声明临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Declare temp ${var}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143701Z" creationid="liaronce" creationdate="20200820T143701Z">
+        <seg>声明临时${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -32650,6 +32690,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T043201Z" creationid="deciia" creationdate="20170104T043201Z">
         <seg>未找到会话</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set ${var} to ${expr} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143646Z" creationid="liaronce" creationdate="20200820T143554Z">
+        <seg>在 ${applyto}${show_input_count} 上将 ${var} 设置为 ${expr}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set ${var} to ${expr}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143544Z" creationid="liaronce" creationdate="20200820T143531Z">
+        <seg>将 ${var} 设置为 ${expr}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
