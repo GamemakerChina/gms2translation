@@ -9982,48 +9982,48 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Create ${objectid} at ${dnd_pos}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144101Z" creationid="liaronce" creationdate="20200820T144101Z">
-        <seg>在${dnd_pos}创建${objectID}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154149Z" creationid="liaronce" creationdate="20200820T144101Z">
+        <seg>在${dnd_pos}创建${objectid}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Create ${objectid} at ${dnd_pos} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144103Z" creationid="liaronce" creationdate="20200820T144103Z">
-        <seg>在${dnd_pos}将${objectID}创建到${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154149Z" creationid="liaronce" creationdate="20200820T144103Z">
+        <seg>在${dnd_pos}将${objectid}创建到${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Create ${objectid} at ${dnd_pos} into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144104Z" creationid="liaronce" creationdate="20200820T144104Z">
-        <seg>将位于${dnd_pos}的${objectID}创建到${applyto}上的${var}中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154149Z" creationid="liaronce" creationdate="20200820T144104Z">
+        <seg>将位于${dnd_pos}的${objectid}创建到${applyto}上的${var}中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Create ${objectid} at ${dnd_pos} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144105Z" creationid="liaronce" creationdate="20200820T144105Z">
-        <seg>在${dnd_pos}将${objectID}创建到临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154149Z" creationid="liaronce" creationdate="20200820T144105Z">
+        <seg>在${dnd_pos}将${objectid}创建到临时${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Create ${objectid} at ${dnd_pos} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144106Z" creationid="liaronce" creationdate="20200820T144106Z">
-        <seg>在${applyto}上的临时${var}中创建${objectID}，位置为${dnd_pos}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154149Z" creationid="liaronce" creationdate="20200820T144106Z">
+        <seg>在${applyto}上的临时${var}中创建${objectid}，位置为${dnd_pos}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Create ${objectid} at ${dnd_pos} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144102Z" creationid="liaronce" creationdate="20200820T144102Z">
-        <seg>在${applyto}上的${dnd_pos}创建${objectID}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154149Z" creationid="liaronce" creationdate="20200820T144102Z">
+        <seg>在${applyto}上的${dnd_pos}创建${objectid}</seg>
       </tuv>
     </tu>
     <tu>
@@ -13538,16 +13538,16 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Draw ${caption}" at ${dnd_position} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151812Z">
-        <seg>在${applyto}上的${dnd_position}处绘制${CAPTION}“</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154115Z" creationid="liaronce" creationdate="20200820T151812Z">
+        <seg>在${applyto}上的${dnd_position}处绘制${caption}“</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw ${caption}" at ${dnd_position}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151811Z">
-        <seg>在${dnd_position}处绘制${CAPTION}“</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154115Z" creationid="liaronce" creationdate="20200820T151811Z">
+        <seg>在${dnd_position}处绘制${caption}“</seg>
       </tuv>
     </tu>
     <tu>
@@ -14042,8 +14042,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Draw score at ${dnd_position} with caption ${caption}""</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151845Z">
-        <seg>在${dnd_position}处绘制分数，标题为${CAPTION}“”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154115Z" creationid="liaronce" creationdate="20200820T151845Z">
+        <seg>在${dnd_position}处绘制分数，标题为${caption}“”</seg>
       </tuv>
     </tu>
     <tu>
@@ -14146,24 +14146,24 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Draw transformed ${caption}" ${var} at ${dnd_position}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151820Z">
-        <seg>在${dnd_position}处绘制转换后的${CAPTION}“${var}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154115Z" creationid="liaronce" creationdate="20200820T151820Z">
+        <seg>在${dnd_position}处绘制转换后的${caption}“${var}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw transformed ${caption}" at ${dnd_position} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151819Z">
-        <seg>在${applyto}上的${dnd_position}处绘制转换后的${CAPTION}“</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154115Z" creationid="liaronce" creationdate="20200820T151819Z">
+        <seg>在${applyto}上的${dnd_position}处绘制转换后的${caption}“</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw transformed ${caption}" at ${dnd_position}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151818Z">
-        <seg>在${dnd_position}处绘制转换后的${CAPTION}“</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154115Z" creationid="liaronce" creationdate="20200820T151818Z">
+        <seg>在${dnd_position}处绘制转换后的${caption}“</seg>
       </tuv>
     </tu>
     <tu>
@@ -24554,8 +24554,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If mouse button ${button} is down</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151550Z" creationid="liaronce" creationdate="20200820T151550Z">
-        <seg>如果鼠标按键${BUTTON}按下</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154034Z" creationid="liaronce" creationdate="20200820T151550Z">
+        <seg>如果鼠标按键${button}按下</seg>
       </tuv>
     </tu>
     <tu>
@@ -24570,8 +24570,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If mouse button ${button} is not down</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151551Z" creationid="liaronce" creationdate="20200820T151551Z">
-        <seg>如果鼠标按钮${BUTTON}未按下</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154034Z" creationid="liaronce" creationdate="20200820T151551Z">
+        <seg>如果鼠标按钮${button}未按下</seg>
       </tuv>
     </tu>
     <tu>
@@ -24586,8 +24586,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If mouse button ${button} is not pressed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151548Z" creationid="liaronce" creationdate="20200820T151548Z">
-        <seg>如果未按下鼠标按钮${BUTTON}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154034Z" creationid="liaronce" creationdate="20200820T151548Z">
+        <seg>如果未按下鼠标按钮${button}</seg>
       </tuv>
     </tu>
     <tu>
@@ -24602,8 +24602,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If mouse button ${button} is not released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151555Z" creationid="liaronce" creationdate="20200820T151555Z">
-        <seg>如果鼠标按钮${BUTTON}未释放</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154034Z" creationid="liaronce" creationdate="20200820T151555Z">
+        <seg>如果鼠标按钮${button}未释放</seg>
       </tuv>
     </tu>
     <tu>
@@ -24634,8 +24634,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If mouse button ${button} is released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151553Z" creationid="liaronce" creationdate="20200820T151553Z">
-        <seg>如果松开鼠标按钮${BUTTON}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154034Z" creationid="liaronce" creationdate="20200820T151553Z">
+        <seg>如果松开鼠标按钮${button}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40658,8 +40658,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set alpha to ${alpha}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151535Z" creationid="liaronce" creationdate="20200820T151535Z">
-        <seg>将Alpha设置为${Alpha}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154001Z" creationid="liaronce" creationdate="20200820T151535Z">
+        <seg>将Alpha设置为${alpha}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40818,8 +40818,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set drawing alpha channel to ${alpha}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151856Z" creationid="liaronce" creationdate="20200820T151856Z">
-        <seg>将绘图Alpha通道设置为${Alpha}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154001Z" creationid="liaronce" creationdate="20200820T151856Z">
+        <seg>将绘图Alpha通道设置为${alpha}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40914,16 +40914,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set gravity of particle type ${type} to ${amount} in direction ${direction}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152806Z" creationid="liaronce" creationdate="20200820T152806Z">
-        <seg>将粒子类型${type}的重力设置为${Amount}，方向为${Direction}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153943Z" creationid="liaronce" creationdate="20200820T152806Z">
+        <seg>将粒子类型${type}的重力设置为${amount}，方向为${Direction}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set gravity of particle type ${type} to ${amount} in direction ${direction} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152807Z" creationid="liaronce" creationdate="20200820T152807Z">
-        <seg>在${applyto}上将粒子类型${type}的重力设置为${Amount}，方向为${Direction}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153943Z" creationid="liaronce" creationdate="20200820T152807Z">
+        <seg>在${applyto}上将粒子类型${type}的重力设置为${amount}，方向为${Direction}</seg>
       </tuv>
     </tu>
     <tu>
