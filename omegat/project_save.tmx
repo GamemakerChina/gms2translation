@@ -6306,6 +6306,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Call parent event</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153239Z" creationid="liaronce" creationdate="20200820T153239Z">
+        <seg>调用父事件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Call parent event on ${applyto}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151545Z" creationid="liaronce" creationdate="20200820T151545Z">
@@ -14178,8 +14186,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151824Z" creationid="liaronce" creationdate="20200820T151824Z">
-        <seg>使用比例${xScale}、${yscale}和旋转${rott}绘制变换后的精灵${spite}帧${frame}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T151824Z">
+        <seg>使用比例${xscale}、${yscale}和旋转${rott}绘制变换后的精灵${spite}帧${frame}</seg>
       </tuv>
     </tu>
     <tu>
@@ -19339,6 +19347,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Get draw font into ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152939Z" creationid="liaronce" creationdate="20200820T152939Z">
+        <seg>将字体绘制到${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Get drawing alpha channel into ${var}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151858Z" creationid="liaronce" creationdate="20200820T151858Z">
@@ -24264,6 +24280,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If mouse button ${button} is pressed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153251Z" creationid="liaronce" creationdate="20200820T153251Z">
+        <seg>如果按下鼠标按钮${button}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If mouse button ${button} is pressed on ${applyto}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151547Z" creationid="liaronce" creationdate="20200820T151547Z">
@@ -24500,6 +24524,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152935Z" creationid="liaronce" creationdate="20200820T152935Z">
         <seg>否则，${obj}将点${dnd_position}与${applyto}上的列表临时${target}相交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152939Z" creationid="liaronce" creationdate="20200820T152939Z">
+        <seg>否则，${obj}将点${dnd_position}与${applyto}上的临时${target}相交</seg>
       </tuv>
     </tu>
     <tu>
@@ -37972,55 +38004,63 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Scale ${applyto} to ${xscale},${yscale} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151145Z" creationid="liaronce" creationdate="20200820T151109Z">
-        <seg>在${applyto}上将${applyto}缩放到${XScale}、${yscale}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T151109Z">
+        <seg>在${applyto}上将${applyto}缩放到${xscale}、${yscale}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to ${xscale},image_yscale on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151146Z" creationid="liaronce" creationdate="20200820T151111Z">
-        <seg>将${applyto}缩放到${XScale}，${applyto}上的image_yscale</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T151111Z">
+        <seg>将${applyto}缩放到${xscale}，${applyto}上的image_yscale</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to ${xscale},image_yscale+${yscale} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151149Z" creationid="liaronce" creationdate="20200820T151149Z">
-        <seg>在${applyto}上将${applyto}缩放到${XScale}，image_yscale+${yscale}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T151149Z">
+        <seg>在${applyto}上将${applyto}缩放到${xscale}，image_yscale+${yscale}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale ${applyto} to image_xscale+${xscale},${yscale} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153233Z" creationid="liaronce" creationdate="20200820T153233Z">
+        <seg>将${applyto}缩放到${applyto}上的image_XScale+${XScale}，${yscale}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale+${xscale},image_yscale on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151534Z" creationid="liaronce" creationdate="20200820T151534Z">
-        <seg>将${applyto}缩放到${applyto}上的image_XScale+${XScale}、image_yscale</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T151534Z">
+        <seg>将${applyto}缩放到${applyto}上的image_xscale+${xscale}、image_yscale</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale+${xscale},image_yscale+${yscale} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151535Z" creationid="liaronce" creationdate="20200820T151535Z">
-        <seg>将${applyto}缩放到${applyto}上的image_xScale+${xScale}、image_yscale+${yscale}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T151535Z">
+        <seg>将${applyto}缩放到${applyto}上的image_xscale+${xscale}、image_yscale+${yscale}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale,${yscale} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151157Z" creationid="liaronce" creationdate="20200820T151157Z">
-        <seg>将${applyto}缩放到${applyto}上的image_XScale，${yscale}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T151157Z">
+        <seg>将${applyto}缩放到${applyto}上的image_xscale，${yscale}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale,image_yscale on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151231Z" creationid="liaronce" creationdate="20200820T151231Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T151231Z">
         <seg>将${applyto}缩放到${applyto}上的image_xscale、image_yscale</seg>
       </tuv>
     </tu>
@@ -38028,7 +38068,7 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale,image_yscale+${yscale} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151532Z" creationid="liaronce" creationdate="20200820T151532Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T151532Z">
         <seg>将${applyto}缩放到${applyto}上的image_xscale、image_yscale+${yscale}</seg>
       </tuv>
     </tu>
@@ -38092,39 +38132,39 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Scale to ${xscale},${yscale}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144204Z" creationid="liaronce" creationdate="20200820T144204Z">
-        <seg>缩放至${XScale}、${yscale}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T144204Z">
+        <seg>缩放至${xscale}、${yscale}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale to ${xscale},image_yscale</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144205Z" creationid="liaronce" creationdate="20200820T144205Z">
-        <seg>缩放至${XScale}，image_yscale</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T144205Z">
+        <seg>缩放至${xscale}，image_yscale</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale to ${xscale},image_yscale+${yscale}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144206Z" creationid="liaronce" creationdate="20200820T144206Z">
-        <seg>缩放至${XScale}，image_yscale+${yscale}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T144206Z">
+        <seg>缩放至${xscale}，image_yscale+${yscale}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale to image_xscale+${xscale},${yscale}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T150931Z" creationid="liaronce" creationdate="20200820T150931Z">
-        <seg>缩放至IMAGE_XScale+${XScale}，${yscale}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T150931Z">
+        <seg>缩放至IMAGE_xscale+${xscale}，${yscale}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale to image_xscale+${xscale},image_yscale</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T150936Z" creationid="liaronce" creationdate="20200820T150936Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T150936Z">
         <seg>缩放至image_xscale+${xscale}，image_yscale</seg>
       </tuv>
     </tu>
@@ -38132,7 +38172,7 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Scale to image_xscale+${xscale},image_yscale+${yscale}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151054Z" creationid="liaronce" creationdate="20200820T151054Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T151054Z">
         <seg>缩放至image_xscale+${xscale}、image_yscale+${yscale}</seg>
       </tuv>
     </tu>
@@ -38140,7 +38180,7 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Scale to image_xscale,${yscale}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144206Z" creationid="liaronce" creationdate="20200820T144206Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T144206Z">
         <seg>缩放至image_xscale，${yscale}</seg>
       </tuv>
     </tu>
@@ -38148,7 +38188,7 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Scale to image_xscale,image_yscale</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144207Z" creationid="liaronce" creationdate="20200820T144207Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T144207Z">
         <seg>缩放到image_xscale、image_yscale</seg>
       </tuv>
     </tu>
@@ -38156,7 +38196,7 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Scale to image_xscale,image_yscale+${yscale}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144208Z" creationid="liaronce" creationdate="20200820T144208Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153217Z" creationid="liaronce" creationdate="20200820T144208Z">
         <seg>缩放至image_xscale，image_yscale+${yscale}</seg>
       </tuv>
     </tu>
@@ -44146,8 +44186,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Stop movement</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151636Z" creationid="liaronce" creationdate="20200820T151636Z">
-        <seg>停止运动</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153107Z" creationid="liaronce" creationdate="20200820T151636Z">
+        <seg>停止移动</seg>
       </tuv>
     </tu>
     <tu>
