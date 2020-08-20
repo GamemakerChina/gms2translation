@@ -1401,8 +1401,8 @@
       <tuv lang="en-US">
         <seg>Add ${score} to score</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152601Z" creationid="liaronce" creationdate="20200820T152601Z">
-        <seg>将${SCORE}添加到分数</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154624Z" creationid="liaronce" creationdate="20200820T152601Z">
+        <seg>将${score}添加到分数</seg>
       </tuv>
     </tu>
     <tu>
@@ -13530,8 +13530,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Draw ${caption}" ${var} at ${dnd_position}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151813Z">
-        <seg>在${dnd_position}处绘制${Caption}“${var}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154646Z" creationid="liaronce" creationdate="20200820T151813Z">
+        <seg>在${dnd_position}处绘制${caption}“${var}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -18773,8 +18773,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151607Z" creationid="liaronce" creationdate="20200820T151607Z">
-        <seg>将游戏面板${GP}上的${AXIS}轴值获取到${var}中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154517Z" creationid="liaronce" creationdate="20200820T151607Z">
+        <seg>将游戏面板${GP}上的${axis}轴值获取到${var}中</seg>
       </tuv>
     </tu>
     <tu>
@@ -40706,16 +40706,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set button threshold of gamepad ${gp} to ${threshold}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151623Z" creationid="liaronce" creationdate="20200820T151623Z">
-        <seg>将游戏面板${GP}的按钮阈值设置为${Threshold}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154750Z" creationid="liaronce" creationdate="20200820T151623Z">
+        <seg>将游戏面板${GP}的按钮阈值设置为${threshold}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set button threshold of gamepad ${gp} to ${threshold} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151624Z" creationid="liaronce" creationdate="20200820T151624Z">
-        <seg>在${applyto}上将游戏面板${GP}的按钮阈值设置为${Threshold}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154750Z" creationid="liaronce" creationdate="20200820T151624Z">
+        <seg>在${applyto}上将游戏面板${GP}的按钮阈值设置为${threshold}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40738,16 +40738,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set deadzone of gamepad ${gp} to ${deadzone}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151621Z" creationid="liaronce" creationdate="20200820T151621Z">
-        <seg>将游戏手柄${GP}的死区设置为${Deadzone}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154722Z" creationid="liaronce" creationdate="20200820T151621Z">
+        <seg>将游戏手柄${GP}的死区设置为${deadzone}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set deadzone of gamepad ${gp} to ${deadzone} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151622Z" creationid="liaronce" creationdate="20200820T151622Z">
-        <seg>在${applyto}上将游戏手柄${GP}的死区设置为${Deadzone}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154722Z" creationid="liaronce" creationdate="20200820T151622Z">
+        <seg>在${applyto}上将游戏手柄${GP}的死区设置为${deadzone}</seg>
       </tuv>
     </tu>
     <tu>
@@ -41226,8 +41226,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase $(incr} and wiggle ${wiggle} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153722Z" creationid="liaronce" creationdate="20200820T153722Z">
-        <seg>将粒子类型${type}的速度从最小${minSpeed}设置为最大${MAXSpeed}，并在${applyto}上增加$(incr}和wigger${wiggle}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154550Z" creationid="liaronce" creationdate="20200820T153722Z">
+        <seg>将粒子类型${type}的速度从最小${minSpeed}设置为最大${maxspeed}，并在${applyto}上增加$(incr}和wigger${wiggle}</seg>
       </tuv>
     </tu>
     <tu>
