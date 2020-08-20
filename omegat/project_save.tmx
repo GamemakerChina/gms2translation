@@ -1223,6 +1223,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Add ${angle} to rotation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144158Z" creationid="liaronce" creationdate="20200820T144158Z">
+        <seg>将${angle}添加到旋转</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${angle} to rotation on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144159Z" creationid="liaronce" creationdate="20200820T144159Z">
+        <seg>将${angle}添加到${applyto}上的旋转</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Add ${expr} to ${var} on ${applyto}${show_input_count}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143657Z" creationid="liaronce" creationdate="20200820T143657Z">
@@ -1235,6 +1251,38 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143613Z" creationid="liaronce" creationdate="20200820T143613Z">
         <seg>将 ${expr} 添加到 $[var]$[show_input_count]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${speed} to animation speed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144202Z" creationid="liaronce" creationdate="20200820T144202Z">
+        <seg>将${SPEED}添加到动画速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${speed} to animation speed on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144203Z" creationid="liaronce" creationdate="20200820T144203Z">
+        <seg>将${SPEED}添加到${applyto}上的动画速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${steps} to alarm ${alarm} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144138Z" creationid="liaronce" creationdate="20200820T144138Z">
+        <seg>将${step}添加到${applyto}${show_input_count}上的警报${Alarm}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${steps} to alarm ${alarm}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144137Z" creationid="liaronce" creationdate="20200820T144137Z">
+        <seg>将${Steps}添加到警报${Alarm}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -3292,6 +3340,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T084206Z" creationid="lazyeo" creationdate="20191120T084206Z">
         <seg>允许所有子图基于原点位置进行相同的变换 \n 仅在精灵原点是自定义且未锁定时才可启用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Apply to ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144057Z" creationid="liaronce" creationdate="20200820T144057Z">
+        <seg>适用于${applyto}</seg>
       </tuv>
     </tu>
     <tu>
@@ -5970,6 +6026,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Call user event ${event} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144148Z" creationid="liaronce" creationdate="20200820T144148Z">
+        <seg>在${applyto}${show_input_count}上调用用户事件${event}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Call user event ${event}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144147Z" creationid="liaronce" creationdate="20200820T144147Z">
+        <seg>调用用户事件${event}${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Camera</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T123306Z" creationid="deciia" creationdate="20170219T005655Z">
@@ -6546,6 +6618,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Change ${applyto} into ${objind} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144112Z" creationid="liaronce" creationdate="20200820T144112Z">
+        <seg>在${applyto}上将${applyto}更改为${objind}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Change Event</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170114T034443Z" creationid="deciia" creationdate="20170103T102439Z">
@@ -6574,6 +6654,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T042410Z" creationid="deciia" creationdate="20170107T060348Z">
         <seg>将一个实例变变为另一个物体的实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Change into ${objind}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144111Z" creationid="liaronce" creationdate="20200820T144111Z">
+        <seg>更改为${objind}</seg>
       </tuv>
     </tu>
     <tu>
@@ -9276,6 +9364,54 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create ${objectid} at ${dnd_pos}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144101Z" creationid="liaronce" creationdate="20200820T144101Z">
+        <seg>在${dnd_pos}创建${objectID}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create ${objectid} at ${dnd_pos} into ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144103Z" creationid="liaronce" creationdate="20200820T144103Z">
+        <seg>在${dnd_pos}将${objectID}创建到${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create ${objectid} at ${dnd_pos} into ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144104Z" creationid="liaronce" creationdate="20200820T144104Z">
+        <seg>将位于${dnd_pos}的${objectID}创建到${applyto}上的${var}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create ${objectid} at ${dnd_pos} into temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144105Z" creationid="liaronce" creationdate="20200820T144105Z">
+        <seg>在${dnd_pos}将${objectID}创建到临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create ${objectid} at ${dnd_pos} into temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144106Z" creationid="liaronce" creationdate="20200820T144106Z">
+        <seg>在${applyto}上的临时${var}中创建${objectID}，位置为${dnd_pos}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create ${objectid} at ${dnd_pos} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144102Z" creationid="liaronce" creationdate="20200820T144102Z">
+        <seg>在${applyto}上的${dnd_pos}创建${objectID}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create Animation Curve</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135528Z" creationid="liaronce" creationdate="20200820T135528Z">
@@ -10795,6 +10931,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Define macro ${macro} as ${value} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144059Z" creationid="liaronce" creationdate="20200820T144059Z">
+        <seg>在${applyto}${show_input_count}上将宏${宏}定义为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Define macro ${macro} as ${value}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144058Z" creationid="liaronce" creationdate="20200820T144058Z">
+        <seg>将宏${宏}定义为${value}${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Delete</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161223T064759Z" creationid="deciia" creationdate="20161223T064759Z">
@@ -11332,6 +11484,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Destroy ${applyto} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144108Z" creationid="liaronce" creationdate="20200820T144108Z">
+        <seg>销毁${applyto}上的${applyto}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Destroy At Position</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T042450Z" creationid="deciia" creationdate="20170107T060449Z">
@@ -11404,6 +11564,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Destroy instances at ${dnd_pos}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144109Z" creationid="liaronce" creationdate="20200820T144109Z">
+        <seg>销毁${dnd_pos}处的实例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Destroy instances at ${dnd_pos} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144110Z" creationid="liaronce" creationdate="20200820T144110Z">
+        <seg>销毁${applyto}上${dnd_pos}处的实例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Destroy the particle system.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T151223Z" creationid="deciia" creationdate="20170212T151223Z">
@@ -11416,6 +11592,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T145724Z" creationid="deciia" creationdate="20170212T145724Z">
         <seg>销毁粒子类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Destroy this instance</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144107Z" creationid="liaronce" creationdate="20200820T144107Z">
+        <seg>销毁此实例</seg>
       </tuv>
     </tu>
     <tu>
@@ -14679,6 +14863,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Exit the current event</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144100Z" creationid="liaronce" creationdate="20200820T144100Z">
+        <seg>退出当前事件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Exit the current event without executing the remaining code.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T042234Z" creationid="deciia" creationdate="20170107T060152Z">
@@ -16947,6 +17139,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Get ${object} count into ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144143Z" creationid="liaronce" creationdate="20200820T144143Z">
+        <seg>将${object}计入${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get ${object} count into ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144144Z" creationid="liaronce" creationdate="20200820T144144Z">
+        <seg>在${applyto}上将${object}计入${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get ${object} count into temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144145Z" creationid="liaronce" creationdate="20200820T144145Z">
+        <seg>将${object}计数到临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get ${object} count into temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144146Z" creationid="liaronce" creationdate="20200820T144146Z">
+        <seg>将${object}计入${applyto}上的临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Get Alarm Countdown</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T061050Z" creationid="deciia" creationdate="20170107T061050Z">
@@ -17307,6 +17531,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Get alarm ${alarm} into ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144139Z" creationid="liaronce" creationdate="20200820T144139Z">
+        <seg>将警报${Alarm}获取到${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get alarm ${alarm} into ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144140Z" creationid="liaronce" creationdate="20200820T144140Z">
+        <seg>将警报${Alarm}置于${applyto}上的${var}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get alarm ${alarm} into temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144141Z" creationid="liaronce" creationdate="20200820T144141Z">
+        <seg>将警报${Alarm}放入临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get alarm ${alarm} into temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144142Z" creationid="liaronce" creationdate="20200820T144142Z">
+        <seg>将警报${Alarm}置于${applyto}上的临时${var}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Get current position in a buffer.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170318T072744Z" creationid="deciia" creationdate="20170224T005653Z">
@@ -17343,6 +17599,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143914Z" creationid="liaronce" creationdate="20200820T143914Z">
         <seg>将全局变量${var}获取到临时${output}${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get instance variable ${dnd_get_inst_vars} into ${target} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144151Z" creationid="liaronce" creationdate="20200820T144151Z">
+        <seg>将实例变量${dnd_get_inst_vars}获取到${applyto}${show_input_count}上的${target}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get instance variable ${dnd_get_inst_vars} into ${target}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144150Z" creationid="liaronce" creationdate="20200820T144150Z">
+        <seg>将实例变量${dnd_get_inst_vars}获取到${target}${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get instance variable ${dnd_get_inst_vars} into temp ${target} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144153Z" creationid="liaronce" creationdate="20200820T144153Z">
+        <seg>将实例变量${dnd_get_inst_vars}获取到${applyto}${show_input_count}上的临时${target}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get instance variable ${dnd_get_inst_vars} into temp ${target}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144152Z" creationid="liaronce" creationdate="20200820T144152Z">
+        <seg>将实例变量${dnd_get_inst_vars}获取到临时${target}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -30994,6 +31282,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Return ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144055Z" creationid="liaronce" creationdate="20200820T144055Z">
+        <seg>返回${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Return ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144056Z" creationid="liaronce" creationdate="20200820T144056Z">
+        <seg>在${applyto}上返回${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Return Key</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T084225Z" creationid="deciia" creationdate="20180926T084225Z">
@@ -32110,6 +32414,62 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T095432Z" creationid="deciia" creationdate="20170102T095432Z">
         <seg>缩放导入的图片</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale to ${xscale},${yscale}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144204Z" creationid="liaronce" creationdate="20200820T144204Z">
+        <seg>缩放至${XScale}、${yscale}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale to ${xscale},image_yscale</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144205Z" creationid="liaronce" creationdate="20200820T144205Z">
+        <seg>缩放至${XScale}，image_yscale</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale to ${xscale},image_yscale+${yscale}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144206Z" creationid="liaronce" creationdate="20200820T144206Z">
+        <seg>缩放至${XScale}，image_yscale+${yscale}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale to image_xscale+${xscale},${yscale}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T150931Z" creationid="liaronce" creationdate="20200820T150931Z">
+        <seg>缩放至IMAGE_XScale+${XScale}，${yscale}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale to image_xscale,${yscale}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144206Z" creationid="liaronce" creationdate="20200820T144206Z">
+        <seg>缩放至image_xscale，${yscale}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale to image_xscale,image_yscale</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144207Z" creationid="liaronce" creationdate="20200820T144207Z">
+        <seg>缩放到image_xscale、image_yscale</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale to image_xscale,image_yscale+${yscale}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144208Z" creationid="liaronce" creationdate="20200820T144208Z">
+        <seg>缩放至image_xscale，image_yscale+${yscale}</seg>
       </tuv>
     </tu>
     <tu>
@@ -33920,6 +34280,38 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set alarm ${alarm} to ${steps} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144135Z" creationid="liaronce" creationdate="20200820T144135Z">
+        <seg>在${applyto}${show_input_count}上将警报${Alarm}设置为${step}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set alarm ${alarm} to ${steps}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144130Z" creationid="liaronce" creationdate="20200820T144130Z">
+        <seg>将计时器${Alarm}设置为${step}${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set animation speed to ${speed}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144200Z" creationid="liaronce" creationdate="20200820T144200Z">
+        <seg>将动画速度设置为${SPEED}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set animation speed to ${speed} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144201Z" creationid="liaronce" creationdate="20200820T144201Z">
+        <seg>在${applyto}上将动画速度设置为${SPEED}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set global variable ${var} to ${value} on ${applyto}${show_input_count}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143909Z" creationid="liaronce" creationdate="20200820T143909Z">
@@ -33944,10 +34336,58 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set instance variable ${dnd_set_inst_vars} to ${value} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144149Z" creationid="liaronce" creationdate="20200820T144149Z">
+        <seg>在${applyto}${show_input_count}上将实例变量${dnd_set_inst_vars}设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set instance variable ${dnd_set_inst_vars} to ${value}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144149Z" creationid="liaronce" creationdate="20200820T144149Z">
+        <seg>将实例变量${DND_SET_INST_VARS}设置为${value}${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set number of frames</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170106T155901Z" creationid="deciia" creationdate="20170106T155901Z">
         <seg>设置帧数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set rotation to ${angle}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144156Z" creationid="liaronce" creationdate="20200820T144156Z">
+        <seg>将旋转设置为${angle}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set rotation to ${angle} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144157Z" creationid="liaronce" creationdate="20200820T144157Z">
+        <seg>在${applyto}上将旋转设置为${angle}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set sprite to ${spriteind} at frame ${imageind}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144154Z" creationid="liaronce" creationdate="20200820T144154Z">
+        <seg>在帧${imageind}中将精灵设置为${spriteind}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set sprite to ${spriteind} at frame ${imageind} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144155Z" creationid="liaronce" creationdate="20200820T144155Z">
+        <seg>将${applyto}上第${imageind}帧的精灵设置为${spriteind}</seg>
       </tuv>
     </tu>
     <tu>
@@ -33968,10 +34408,34 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set temp ${var} to return value of ${function} with ${input_count} arguments</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144053Z" creationid="liaronce" creationdate="20200820T144053Z">
+        <seg>将TEMP${var}设置为使用${input_count}个参数返回值${function}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set temp ${var} to return value of ${function} with ${input_count} arguments on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144054Z" creationid="liaronce" creationdate="20200820T144054Z">
+        <seg>将TEMP${var}设置为使用${applyto}上的${input_count}参数返回值${function}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set temp ${var} to return value of ${function} with 1 argument</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144051Z" creationid="liaronce" creationdate="20200820T144051Z">
         <seg>使用1个参数将临时${var}设置为返回值${function}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set temp ${var} to return value of ${function} with 1 argument on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144052Z" creationid="liaronce" creationdate="20200820T144052Z">
+        <seg>将临时${var}设置为在${applyto}上使用1个参数返回值${function}</seg>
       </tuv>
     </tu>
     <tu>
