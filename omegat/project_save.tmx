@@ -32362,6 +32362,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Scale ${applyto} to ${xscale},${yscale} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151109Z" creationid="liaronce" creationdate="20200820T151109Z">
+        <seg>h和暗索【Run【Win Activate【Send安定【ClickScale ${applyto} to ${xscale},${yscale} on ${applyto}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Scale All Frames</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T100935Z" creationid="deciia" creationdate="20170102T100935Z">
@@ -32446,6 +32454,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T150931Z" creationid="liaronce" creationdate="20200820T150931Z">
         <seg>缩放至IMAGE_XScale+${XScale}，${yscale}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale to image_xscale+${xscale},image_yscale</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T150936Z" creationid="liaronce" creationdate="20200820T150936Z">
+        <seg>缩放至image_xscale+${xscale}，image_yscale</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scale to image_xscale+${xscale},image_yscale+${yscale}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151054Z" creationid="liaronce" creationdate="20200820T151054Z">
+        <seg>缩放至image_xscale+${xscale}、image_yscale+${yscale}</seg>
       </tuv>
     </tu>
     <tu>
