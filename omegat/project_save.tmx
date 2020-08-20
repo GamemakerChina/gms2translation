@@ -18497,6 +18497,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Inherited argument "{0}" is not in function arguments</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135323Z" creationid="liaronce" creationdate="20200820T135323Z">
+        <seg>继承的参数 “{0}” 不在函数参数中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Inherited tile highlight colour</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T031612Z" creationid="deciia" creationdate="20180922T031612Z">
@@ -19914,6 +19922,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T071740Z" creationid="deciia" creationdate="20170105T071740Z">
         <seg>启动项目失败</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Launch Screen</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135522Z" creationid="liaronce" creationdate="20200820T135522Z">
+        <seg>启动屏幕</seg>
       </tuv>
     </tu>
     <tu>
@@ -39905,6 +39921,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Your GameMaker Studio 2 Licence has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135518Z" creationid="liaronce" creationdate="20200820T135518Z">
+        <seg>您的GameMaker Studio 2许可证已过期。\n\n如果您喜欢使用GameMaker并想继续，请在yoyogames.com购买我们的超值许可证之一。\n\n现在就购买，开始创意吧！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your GameMaker Studio 2 trial has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135346Z" creationid="liaronce" creationdate="20200820T135346Z">
+        <seg>您的GameMaker Studio 2试用版已过期。\n\n如果您喜欢使用GameMaker并想继续，请在yoyogames.com购买我们的超值许可证之一。\n\n立即购买并发挥创意！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Your library is empty.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T202040Z" creationid="deciia" creationdate="20170311T160526Z">
@@ -41137,6 +41169,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>number of arguments for function {2} expected {0} got {1}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135252Z" creationid="liaronce" creationdate="20200820T135252Z">
+        <seg>函数 {2} 的参数数量预期为 {0}，实际为 {1}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>number of arguments for function {3} expected {0} - {1} got {2}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135307Z" creationid="liaronce" creationdate="20200820T135307Z">
+        <seg>函数 {3} 的参数数量预期为 {0} - {1} 实际为 {2}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>object -&gt; instance layer, sprite -&gt; asset or background layer, path -&gt; path layer</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180924T032221Z" creationid="deciia" creationdate="20170209T084539Z">
@@ -41149,6 +41197,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T134207Z" creationid="deciia" creationdate="20170311T134207Z">
         <seg>的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>only 16 named arguments supported in a function declaration</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135332Z" creationid="liaronce" creationdate="20200820T135332Z">
+        <seg>函数声明中只支持 16 个命名参数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>only functions that are declared as constructors can use inheritance.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135311Z" creationid="liaronce" creationdate="20200820T135311Z">
+        <seg>只有声明为构造函数的函数才能使用继承。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41321,6 +41385,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T203640Z" creationid="deciia" creationdate="20180922T203640Z">
         <seg>从GAC卸载...这可能需要一些时间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>unknown function atribute {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135316Z" creationid="liaronce" creationdate="20200820T135316Z">
+        <seg>未知函数属性 {0}</seg>
       </tuv>
     </tu>
     <tu>
