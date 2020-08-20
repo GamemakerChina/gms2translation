@@ -1521,8 +1521,8 @@
       <tuv lang="en-US">
         <seg>Add ${steps} to alarm ${alarm}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154344Z" creationid="liaronce" creationdate="20200820T144137Z">
-        <seg>将${Steps}添加到警报${alarm}${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155127Z" creationid="liaronce" creationdate="20200820T144137Z">
+        <seg>将${steps}添加到警报${alarm}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -17539,16 +17539,16 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>Flip tile data ${tile}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152001Z" creationid="liaronce" creationdate="20200820T152001Z">
-        <seg>翻转切片数据${TILE}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152001Z">
+        <seg>翻转切片数据${tile}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Flip tile data ${tile} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152001Z" creationid="liaronce" creationdate="20200820T152001Z">
-        <seg>在${applyto}上翻转切片数据${TILE}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152001Z">
+        <seg>在${applyto}上翻转切片数据${tile}</seg>
       </tuv>
     </tu>
     <tu>
@@ -18837,16 +18837,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get ${trigger} value on gamepad ${gp} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151611Z">
-        <seg>将游戏面板${gp}上的${TRIGGER}值获取到${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155152Z" creationid="liaronce" creationdate="20200820T151611Z">
+        <seg>将游戏面板${gp}上的${trigger}值获取到${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${trigger} value on gamepad ${gp} into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151612Z">
-        <seg>将游戏面板${gp}上的${TRIGGER}值获取到${applyto}上的${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155152Z" creationid="liaronce" creationdate="20200820T151612Z">
+        <seg>将游戏面板${gp}上的${trigger}值获取到${applyto}上的${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -18861,8 +18861,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get ${trigger} value on gamepad ${gp} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154932Z" creationid="liaronce" creationdate="20200820T151613Z">
-        <seg>将游戏面板${gp}上的${TRIGGER}值获取到${applyto}上的临时${var}中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155152Z" creationid="liaronce" creationdate="20200820T151613Z">
+        <seg>将游戏面板${gp}上的${trigger}值获取到${applyto}上的临时${var}中</seg>
       </tuv>
     </tu>
     <tu>
@@ -19413,8 +19413,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get flip of tile data ${tile} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152006Z" creationid="liaronce" creationdate="20200820T152006Z">
-        <seg>将切片数据${TILE}翻转到${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152006Z">
+        <seg>将切片数据${tile}翻转到${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -19429,16 +19429,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get flip of tile data ${tile} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152008Z" creationid="liaronce" creationdate="20200820T152008Z">
-        <seg>将切片数据${TILE}翻转到临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152008Z">
+        <seg>将切片数据${tile}翻转到临时${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get flip of tile data ${tile} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152008Z" creationid="liaronce" creationdate="20200820T152008Z">
-        <seg>将切片数据${TILE}翻转到${applyto}上的临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152008Z">
+        <seg>将切片数据${tile}翻转到${applyto}上的临时${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -19781,8 +19781,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get mirror of tile data ${tile} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152009Z" creationid="liaronce" creationdate="20200820T152009Z">
-        <seg>将切片数据${TILE}的镜像获取到${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152009Z">
+        <seg>将切片数据${tile}的镜像获取到${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -19797,8 +19797,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get mirror of tile data ${tile} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152011Z" creationid="liaronce" creationdate="20200820T152011Z">
-        <seg>将切片数据${TILE}的镜像获取到临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152011Z">
+        <seg>将切片数据${tile}的镜像获取到临时${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -19941,32 +19941,32 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get rotate of tile data ${tile} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152013Z" creationid="liaronce" creationdate="20200820T152013Z">
-        <seg>将切片数据${TILE}旋转到${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152013Z">
+        <seg>将切片数据${tile}旋转到${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get rotate of tile data ${tile} into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152014Z" creationid="liaronce" creationdate="20200820T152014Z">
-        <seg>在${applyto}上将切片数据${TILE}旋转到${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152014Z">
+        <seg>在${applyto}上将切片数据${tile}旋转到${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get rotate of tile data ${tile} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152015Z" creationid="liaronce" creationdate="20200820T152015Z">
-        <seg>将切片数据${TILE}旋转到临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152015Z">
+        <seg>将切片数据${tile}旋转到临时${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get rotate of tile data ${tile} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152016Z" creationid="liaronce" creationdate="20200820T152016Z">
-        <seg>将切片数据${TILE}旋转到${applyto}上的临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152016Z">
+        <seg>将切片数据${tile}旋转到${applyto}上的临时${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -29763,16 +29763,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Mirror tile data ${tile}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152002Z" creationid="liaronce" creationdate="20200820T152002Z">
-        <seg>镜像切片数据${TILE}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152002Z">
+        <seg>镜像切片数据${tile}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Mirror tile data ${tile} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152003Z" creationid="liaronce" creationdate="20200820T152003Z">
-        <seg>${applyto}上的镜像切片数据${TILE}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152003Z">
+        <seg>${applyto}上的镜像切片数据${tile}</seg>
       </tuv>
     </tu>
     <tu>
@@ -36370,16 +36370,16 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Repeat ${times} times</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152107Z" creationid="liaronce" creationdate="20200820T152107Z">
-        <seg>重复${Times}次</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155236Z" creationid="liaronce" creationdate="20200820T152107Z">
+        <seg>重复${times}次</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Repeat ${times} times on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152107Z" creationid="liaronce" creationdate="20200820T152107Z">
-        <seg>在${applyto}上重复${Times}次</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155236Z" creationid="liaronce" creationdate="20200820T152107Z">
+        <seg>在${applyto}上重复${times}次</seg>
       </tuv>
     </tu>
     <tu>
@@ -37788,16 +37788,16 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Rotate tile data ${tile}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152004Z" creationid="liaronce" creationdate="20200820T152004Z">
-        <seg>旋转切片数据${TILE}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152004Z">
+        <seg>旋转切片数据${tile}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Rotate tile data ${tile} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152005Z" creationid="liaronce" creationdate="20200820T152005Z">
-        <seg>在${applyto}上旋转切片数据${TILE}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T152005Z">
+        <seg>在${applyto}上旋转切片数据${tile}</seg>
       </tuv>
     </tu>
     <tu>
@@ -41818,8 +41818,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set tile on layer ${layername} at ${dnd_position} to ${tile}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T153650Z">
-        <seg>将图层${layername}上${dnd_position}处的切片设置为${TILE}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T153650Z">
+        <seg>将图层${layername}上${dnd_position}处的切片设置为${tile}</seg>
       </tuv>
     </tu>
     <tu>
@@ -41834,8 +41834,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set tile on layer ${layername} in cell ${x},${y} to ${tile}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153657Z" creationid="liaronce" creationdate="20200820T153657Z">
-        <seg>将像元${x}、${y}中图层${layername}的切片设置为${TILE}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155216Z" creationid="liaronce" creationdate="20200820T153657Z">
+        <seg>将像元${x}、${y}中图层${layername}的切片设置为${tile}</seg>
       </tuv>
     </tu>
     <tu>
@@ -42066,8 +42066,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set volume of audio ${sound} to ${volume}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T154239Z" creationid="liaronce" creationdate="20200820T152048Z">
-        <seg>将音频${sound}的音量设置为${VOLUME}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T155253Z" creationid="liaronce" creationdate="20200820T152048Z">
+        <seg>将音频${sound}的音量设置为${volume}</seg>
       </tuv>
     </tu>
     <tu>
