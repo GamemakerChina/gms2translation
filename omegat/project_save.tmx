@@ -19862,6 +19862,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Life</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T132052Z" creationid="liaronce" creationdate="20200820T132052Z">
+        <seg>存活</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Light</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T033247Z" creationid="deciia" creationdate="20170104T064922Z">
@@ -22953,6 +22961,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T072601Z" creationid="deciia" creationdate="20170219T005816Z">
         <seg>在终点处</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>On Update</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T132107Z" creationid="liaronce" creationdate="20200820T132107Z">
+        <seg>更新时</seg>
       </tuv>
     </tu>
     <tu>
@@ -30671,6 +30687,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sets the rotation of this particle type</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T132034Z" creationid="liaronce" creationdate="20200820T132034Z">
+        <seg>设置此粒子类型的旋转</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sets the scale of this particle type</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131740Z" creationid="liaronce" creationdate="20200820T131740Z">
@@ -30683,6 +30707,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131736Z" creationid="liaronce" creationdate="20200820T131736Z">
         <seg>将此粒子类型可以生成的大小设置为相对于用于显示它的精灵或纹理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sets the speed of this particle type</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T132042Z" creationid="liaronce" creationdate="20200820T132042Z">
+        <seg>设置此粒子类型的速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sets whether this particle type's rotation is relative to its direction</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T132039Z" creationid="liaronce" creationdate="20200820T132039Z">
+        <seg>设置此粒子类型的旋转是否相对于其方向</seg>
       </tuv>
     </tu>
     <tu>
@@ -32125,6 +32165,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Spawn another particle each update</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T132109Z" creationid="liaronce" creationdate="20200820T132109Z">
+        <seg>每次更新生成另一个粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spawn another particle when this dies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T132105Z" creationid="liaronce" creationdate="20200820T132105Z">
+        <seg>当这个粒子死亡时生成另一个粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Specifically, what you were working on immediately beforehand.\n\nImportant\nBy pressing Send, you are providing consent for us to process the data detailed below in line with our Privacy Policy.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T142356Z" creationid="lazyeo" creationdate="20191120T142356Z">
@@ -32995,6 +33051,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T051415Z" creationid="deciia" creationdate="20180922T051415Z">
         <seg>提交</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Subparticles</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T132056Z" creationid="liaronce" creationdate="20200820T132056Z">
+        <seg>子粒子</seg>
       </tuv>
     </tu>
     <tu>
@@ -36788,6 +36852,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T075345Z" creationid="deciia" creationdate="20170104T075345Z">
         <seg>启用垂直同步避免画面撕裂</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use the sprite frame at the given head position</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133031Z" creationid="liaronce" creationdate="20200820T133031Z">
+        <seg>在给定头部位置使用子画面框架</seg>
       </tuv>
     </tu>
     <tu>
