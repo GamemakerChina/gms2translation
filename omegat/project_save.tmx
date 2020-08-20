@@ -838,6 +838,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A group with name '{0}' already exists at this location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133416Z" creationid="liaronce" creationdate="20200820T133416Z">
+        <seg>此位置上已存在名为 ‘{0}’ 的组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A lighter anti-aliased hinting algorithm\nMany generated glyphs are more fuzzy but better resemble its original shape</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T075108Z" creationid="lazyeo" creationdate="20191120T075002Z">
@@ -3894,6 +3902,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Automatic response to Asset deletion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133607Z" creationid="liaronce" creationdate="20200820T133607Z">
+        <seg>自动响应资产删除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Automatic response to DnD™ conversion to GameMaker Language</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T040613Z" creationid="deciia" creationdate="20180922T040613Z">
@@ -4074,6 +4090,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T052308Z" creationid="deciia" creationdate="20180922T052308Z">
         <seg>自动响应离线内容删除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatic response to opening multiple Assets</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133613Z" creationid="liaronce" creationdate="20200820T133613Z">
+        <seg>自动响应打开多个资产</seg>
       </tuv>
     </tu>
     <tu>
@@ -8026,6 +8050,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Converting...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133659Z" creationid="liaronce" creationdate="20200820T133659Z">
+        <seg>正在转换......</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Convex Shape</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T103535Z" creationid="deciia" creationdate="20170103T103535Z">
@@ -8492,12 +8524,12 @@ Add-ons应该怎么翻译？</note>
       </tuv>
     </tu>
     <tu>
-      <note>此次有歧义，在 Unity 中为非常直接的 9 Slice，经过搜索可能也可翻译为九宫格图片</note>
+      <note>此次有歧义，在 Unity 中为非常直接的 9 Slice，经过搜索可能也可翻译为九宫格</note>
       <tuv lang="en-US">
         <seg>Create Nine Slice</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T130422Z" creationid="liaronce" creationdate="20200820T130422Z">
-        <seg>创建 9 Slice</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133549Z" creationid="liaronce" creationdate="20200820T130422Z">
+        <seg>创建九宫格</seg>
       </tuv>
     </tu>
     <tu>
@@ -8786,6 +8818,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T091731Z" creationid="deciia" creationdate="20170104T025822Z">
         <seg>从长带图中创建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create new Asset layers when dragging sequences/sprites onto unsuitable layers</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133635Z" creationid="liaronce" creationdate="20200820T133635Z">
+        <seg>将序列/精灵拖动到不合适的图层时创建新的资源层</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create new Instance layers when dragging objects onto unsuitable layers</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133644Z" creationid="liaronce" creationdate="20200820T133630Z">
+        <seg>将对象拖动到不合适的图层时创建新的实例层</seg>
       </tuv>
     </tu>
     <tu>
@@ -13423,6 +13471,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Failed to install tutorial package: {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133419Z" creationid="liaronce" creationdate="20200820T133419Z">
+        <seg>安装教程包失败：{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Failed to load a required plug-in</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T095130Z" creationid="deciia" creationdate="20170105T071652Z">
@@ -16588,6 +16644,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Hide warnings when dragging unusable assets onto room layers</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133622Z" creationid="liaronce" creationdate="20200820T133622Z">
+        <seg>将无法使用的资产拖动到房间图层上时隐藏警告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Highlight colour</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T055607Z" creationid="deciia" creationdate="20170105T055607Z">
@@ -19606,6 +19670,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Launchscreen fill</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133426Z" creationid="liaronce" creationdate="20200820T133426Z">
+        <seg>启动屏幕填充</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Layer</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T073103Z" creationid="deciia" creationdate="20170215T151552Z">
@@ -21013,6 +21085,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Maximum number of Assets to open simultaneously without warning</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133617Z" creationid="liaronce" creationdate="20200820T133617Z">
+        <seg>在没有警告的情况下同时打开的最大资产数量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Maximum number of Syntax Errors to display</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142042Z" creationid="liaronce" creationdate="20191118T142042Z">
@@ -22317,8 +22397,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Nine Slice: {0}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T130525Z" creationid="liaronce" creationdate="20200820T130525Z">
-        <seg>9 Slice: {0}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133558Z" creationid="liaronce" creationdate="20200820T130525Z">
+        <seg>九宫格: {0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -33223,6 +33303,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Struct members (built in)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133651Z" creationid="liaronce" creationdate="20200820T133651Z">
+        <seg>结构成员（内置）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Structure</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T152144Z" creationid="deciia" creationdate="20170215T152144Z">
@@ -36528,6 +36616,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Unable to locate tutorial project file: {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133422Z" creationid="liaronce" creationdate="20200820T133422Z">
+        <seg>找不到教程项目文件：{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Unable to login - failed to get a Steam session ticket</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T193341Z" creationid="deciia" creationdate="20180922T193341Z">
@@ -37044,6 +37140,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T153918Z" creationid="deciia" creationdate="20180921T153918Z">
         <seg>使用范围</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use RoboHelp</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133433Z" creationid="liaronce" creationdate="20200820T133433Z">
+        <seg>使用 RoboHelp</seg>
       </tuv>
     </tu>
     <tu>
