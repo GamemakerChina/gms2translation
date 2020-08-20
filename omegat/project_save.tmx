@@ -3355,6 +3355,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Asset</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134152Z" creationid="liaronce" creationdate="20200820T134152Z">
+        <seg>资产</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Asset Browser</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133232Z" creationid="liaronce" creationdate="20200820T133232Z">
@@ -8630,6 +8638,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create Sequence</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134247Z" creationid="liaronce" creationdate="20200820T134247Z">
+        <seg>创建序列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create Shader</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T113645Z" creationid="deciia" creationdate="20170103T113645Z">
@@ -8806,6 +8822,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create a new struct with optional arguments and assign it to a variable.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134202Z" creationid="liaronce" creationdate="20200820T134202Z">
+        <seg>创建一个带有可选参数的新结构，并将其赋给变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create a stack data structure.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T044748Z" creationid="deciia" creationdate="20170212T044748Z">
@@ -8866,6 +8890,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T145822Z" creationid="deciia" creationdate="20170311T123803Z">
         <seg>使用 {0} 创建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Creates an instance of a sequence.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134251Z" creationid="liaronce" creationdate="20200820T134251Z">
+        <seg>创建序列的实例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10084,6 +10116,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Destroy Sequence</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134253Z" creationid="liaronce" creationdate="20200820T134253Z">
+        <seg>销毁序列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Destroy a particle emitter.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T151320Z" creationid="deciia" creationdate="20170215T151320Z">
@@ -10120,6 +10160,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T145724Z" creationid="deciia" creationdate="20170212T145724Z">
         <seg>销毁粒子类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Destroys an instance of a sequence and remove it from the room.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134257Z" creationid="liaronce" creationdate="20200820T134257Z">
+        <seg>销毁序列的实例并将其从房间中移除。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15359,6 +15407,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T040746Z" creationid="deciia" creationdate="20170212T040746Z">
         <seg>获取得分</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get Sequence Position</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134300Z" creationid="liaronce" creationdate="20200820T134300Z">
+        <seg>获取序列位置</seg>
       </tuv>
     </tu>
     <tu>
@@ -25457,6 +25513,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Please select one beginning with at least 2.3</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134149Z" creationid="liaronce" creationdate="20200820T134149Z">
+        <seg>请选择 2.3 以上版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Please select the name and package ID of your asset from the marketplace</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T075529Z" creationid="deciia" creationdate="20170103T083459Z">
@@ -28049,6 +28113,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Return a value from a function.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134205Z" creationid="liaronce" creationdate="20200820T134205Z">
+        <seg>从函数返回值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Return a value from a script.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T055621Z" creationid="deciia" creationdate="20170107T055621Z">
@@ -28677,6 +28749,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T020231Z" creationid="deciia" creationdate="20170105T104012Z">
         <seg>运行库正在下载...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Runtime Error</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134105Z" creationid="liaronce" creationdate="20200820T134105Z">
+        <seg>运行时错误</seg>
       </tuv>
     </tu>
     <tu>
@@ -31107,6 +31187,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T132042Z" creationid="liaronce" creationdate="20200820T132042Z">
         <seg>设置此粒子类型的速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sets the values of the x and y variables to the position of the sequence.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134309Z" creationid="liaronce" creationdate="20200820T134309Z">
+        <seg>将 x 和 y 变量的值设置为序列的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34488,6 +34576,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The current runtime is too old for this project version.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134110Z" creationid="liaronce" creationdate="20200820T134110Z">
+        <seg>当前运行时对于此项目版本来说太旧了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The default speed of a new room in frames per second (FPS)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T040817Z" creationid="deciia" creationdate="20170105T040817Z">
@@ -34928,6 +35024,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T043124Z" creationid="deciia" creationdate="20180922T043124Z">
         <seg>值是整数（允许表达式）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The value is an asset (allows expressions)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134157Z" creationid="liaronce" creationdate="20200820T134157Z">
+        <seg>值是资产（允许表达式）</seg>
       </tuv>
     </tu>
     <tu>
@@ -40868,6 +40972,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>{0} - Game Options</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134103Z" creationid="liaronce" creationdate="20200820T134103Z">
+        <seg>{0} - 游戏选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>{0} - Length should be greater than {1}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T043532Z" creationid="deciia" creationdate="20170104T043532Z">
@@ -40896,6 +41008,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T043553Z" creationid="deciia" creationdate="20170104T043553Z">
         <seg>{0} - 对象应该是类型 {2}{1}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0} - Preference</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134057Z" creationid="liaronce" creationdate="20200820T134057Z">
+        <seg>{0} - 首选项</seg>
       </tuv>
     </tu>
     <tu>
