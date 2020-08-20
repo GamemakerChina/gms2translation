@@ -110,6 +110,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>${overridden_name}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143955Z" creationid="liaronce" creationdate="20200820T143955Z">
+        <seg>${overridden_name}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>${overridden_name} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144001Z" creationid="liaronce" creationdate="20200820T144001Z">
+        <seg>${applyto}上的${overriden_name}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>%</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135414Z" creationid="liaronce" creationdate="20191117T135414Z">
@@ -1219,6 +1235,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143613Z" creationid="liaronce" creationdate="20200820T143613Z">
         <seg>将 ${expr} 添加到 $[var]$[show_input_count]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${value} to global variable ${var} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143911Z" creationid="liaronce" creationdate="20200820T143911Z">
+        <seg>将${value}添加到${applyto}${show_input_count}上的全局变量${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${value} to global variable ${var}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143910Z" creationid="liaronce" creationdate="20200820T143910Z">
+        <seg>将${value}添加到全局变量${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -5834,6 +5866,54 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Call ${function}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144028Z" creationid="liaronce" creationdate="20200820T144028Z">
+        <seg>调用${function}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Call ${function} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144029Z" creationid="liaronce" creationdate="20200820T144029Z">
+        <seg>在${applyto}上调用${function}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Call ${function} with ${input_count} arguments</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144039Z" creationid="liaronce" creationdate="20200820T144039Z">
+        <seg>使用${input_count}个参数调用${function}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Call ${function} with ${input_count} arguments on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144040Z" creationid="liaronce" creationdate="20200820T144040Z">
+        <seg>使用${applyto}上的${input_count}参数调用${function}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Call ${function} with 1 argument</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144031Z" creationid="liaronce" creationdate="20200820T144031Z">
+        <seg>使用1个参数调用${function}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Call ${function} with 1 argument on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144038Z" creationid="liaronce" creationdate="20200820T144038Z">
+        <seg>在${applyto}上使用1个参数调用${function}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Call Count</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T072515Z" creationid="deciia" creationdate="20180922T072515Z">
@@ -10411,6 +10491,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Declare temp ${var} and set it to ${value} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143907Z" creationid="liaronce" creationdate="20200820T143907Z">
+        <seg>在${applyto}${show_input_count}上声明临时${var}并将其设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Declare temp ${var} and set it to ${value}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143859Z" creationid="liaronce" creationdate="20200820T143859Z">
+        <seg>声明临时${var}并将其设置为${value}${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Declare temp ${var} on ${applyto}${show_input_count}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143853Z" creationid="liaronce" creationdate="20200820T143853Z">
@@ -14359,6 +14455,54 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Execute ${script}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144002Z" creationid="liaronce" creationdate="20200820T144002Z">
+        <seg>执行${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute ${script} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144005Z" creationid="liaronce" creationdate="20200820T144005Z">
+        <seg>在${applyto}上执行${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute ${script} with ${input_count} arguments</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144009Z" creationid="liaronce" creationdate="20200820T144009Z">
+        <seg>使用${input_count}个参数执行${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute ${script} with ${input_count} arguments on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144010Z" creationid="liaronce" creationdate="20200820T144010Z">
+        <seg>在${applyto}上使用${input_count}参数执行${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute ${script} with 1 argument</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144007Z" creationid="liaronce" creationdate="20200820T144007Z">
+        <seg>使用1个参数执行${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute ${script} with 1 argument on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144008Z" creationid="liaronce" creationdate="20200820T144008Z">
+        <seg>在${applyto}上使用1个参数执行${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Execute Code</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T054956Z" creationid="deciia" creationdate="20170107T054956Z">
@@ -14391,10 +14535,122 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Execute and set ${var} to return value of ${script}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144011Z" creationid="liaronce" creationdate="20200820T144011Z">
+        <seg>执行并设置${var}以返回值${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute and set ${var} to return value of ${script} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144012Z" creationid="liaronce" creationdate="20200820T144012Z">
+        <seg>执行并设置${var}以在${applyto}上返回值${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute and set ${var} to return value of ${script} with ${input_count} arguments</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144017Z" creationid="liaronce" creationdate="20200820T144017Z">
+        <seg>执行并设置${var}以使用${input_count}参数返回值${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute and set ${var} to return value of ${script} with ${input_count} arguments on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144018Z" creationid="liaronce" creationdate="20200820T144018Z">
+        <seg>执行${var}并将其设置为在${applyto}上使用${input_count}参数返回值${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute and set ${var} to return value of ${script} with 1 argument</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144013Z" creationid="liaronce" creationdate="20200820T144013Z">
+        <seg>执行并设置${var}以使用1个参数返回值${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute and set ${var} to return value of ${script} with 1 argument on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144016Z" creationid="liaronce" creationdate="20200820T144016Z">
+        <seg>执行${var}并将其设置为在${applyto}上使用1个参数返回值${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute and set temp ${var} to return value of ${script}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144019Z" creationid="liaronce" creationdate="20200820T144019Z">
+        <seg>执行并设置临时${var}以返回值${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute and set temp ${var} to return value of ${script} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144021Z" creationid="liaronce" creationdate="20200820T144021Z">
+        <seg>执行并设置临时${var}以在${applyto}上返回值${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute and set temp ${var} to return value of ${script} with ${input_count} arguments</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144024Z" creationid="liaronce" creationdate="20200820T144024Z">
+        <seg>执行并设置临时${var}以使用${input_count}参数返回值${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute and set temp ${var} to return value of ${script} with ${input_count} arguments on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144025Z" creationid="liaronce" creationdate="20200820T144025Z">
+        <seg>执行临时${var}并将其设置为使用${applyto}上的${input_count}参数返回值${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute and set temp ${var} to return value of ${script} with 1 argument</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144022Z" creationid="liaronce" creationdate="20200820T144022Z">
+        <seg>执行并设置临时${var}以使用1个参数返回值${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute and set temp ${var} to return value of ${script} with 1 argument on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144023Z" creationid="liaronce" creationdate="20200820T144023Z">
+        <seg>执行临时${var}并将其设置为在${applyto}上使用1个参数返回值${script}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute code</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143945Z" creationid="liaronce" creationdate="20200820T143945Z">
+        <seg>执行代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Execute code in the context of a specific object or instance.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T041933Z" creationid="deciia" creationdate="20170107T055607Z">
         <seg>在特定物体或实例的上下文中执行代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Execute code on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143947Z" creationid="liaronce" creationdate="20200820T143947Z">
+        <seg>在${applyto}上执行代码</seg>
       </tuv>
     </tu>
     <tu>
@@ -17059,6 +17315,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Get global variable ${var} into ${output} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143913Z" creationid="liaronce" creationdate="20200820T143913Z">
+        <seg>将全局变量${var}获取到${applyto}${show_input_count}上的${output}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get global variable ${var} into ${output}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143912Z" creationid="liaronce" creationdate="20200820T143912Z">
+        <seg>将全局变量${var}获取到${output}${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get global variable ${var} into temp ${output} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143915Z" creationid="liaronce" creationdate="20200820T143915Z">
+        <seg>将全局变量${var}获取到${applyto}${show_input_count}上的临时${output}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get global variable ${var} into temp ${output}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143914Z" creationid="liaronce" creationdate="20200820T143914Z">
+        <seg>将全局变量${var}获取到临时${output}${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Get the alpha channel (0 to 1) used for drawing.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T121158Z" creationid="deciia" creationdate="20170311T121158Z">
@@ -18756,6 +19044,230 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T084733Z" creationid="deciia" creationdate="20180922T084733Z">
         <seg>标识</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${expr} is false on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143940Z" creationid="liaronce" creationdate="20200820T143940Z">
+        <seg>如果${applyto}${show_input_count}上的${expr}为false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${expr} is false${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143939Z" creationid="liaronce" creationdate="20200820T143939Z">
+        <seg>如果${expr}为FALSE${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${expr} is true on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143938Z" creationid="liaronce" creationdate="20200820T143938Z">
+        <seg>如果${applyto}${show_input_count}上的${expr}为true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${expr} is true${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143937Z" creationid="liaronce" creationdate="20200820T143937Z">
+        <seg>如果${expr}为真${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143927Z" creationid="liaronce" creationdate="20200820T143927Z">
+        <seg>如果${var}等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143928Z" creationid="liaronce" creationdate="20200820T143928Z">
+        <seg>如果${var}等于${applyto}上的${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is greater than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143931Z" creationid="liaronce" creationdate="20200820T143931Z">
+        <seg>如果${var}大于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is greater than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143932Z" creationid="liaronce" creationdate="20200820T143932Z">
+        <seg>如果${var}大于${applyto}上的${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is greater than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143935Z" creationid="liaronce" creationdate="20200820T143935Z">
+        <seg>如果${var}大于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is greater than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143936Z" creationid="liaronce" creationdate="20200820T143936Z">
+        <seg>如果${var}大于或等于${applyto}上的${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is less than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143929Z" creationid="liaronce" creationdate="20200820T143929Z">
+        <seg>如果${var}小于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is less than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143930Z" creationid="liaronce" creationdate="20200820T143930Z">
+        <seg>如果${var}在${applyto}上小于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is less than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143934Z" creationid="liaronce" creationdate="20200820T143934Z">
+        <seg>如果${var}小于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is less than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143935Z" creationid="liaronce" creationdate="20200820T143935Z">
+        <seg>如果${var}小于或等于${applyto}上的${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is not equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143917Z" creationid="liaronce" creationdate="20200820T143917Z">
+        <seg>如果${var}不等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is not equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143918Z" creationid="liaronce" creationdate="20200820T143918Z">
+        <seg>如果${var}不等于${applyto}上的${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is not greater than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143922Z" creationid="liaronce" creationdate="20200820T143922Z">
+        <seg>如果${var}不大于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is not greater than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143923Z" creationid="liaronce" creationdate="20200820T143923Z">
+        <seg>如果${var}不大于${applyto}上的${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is not greater than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143926Z" creationid="liaronce" creationdate="20200820T143926Z">
+        <seg>如果${var}不大于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is not greater than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143926Z" creationid="liaronce" creationdate="20200820T143926Z">
+        <seg>如果${var}不大于或等于${applyto}上的${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is not less than ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143920Z" creationid="liaronce" creationdate="20200820T143920Z">
+        <seg>如果${var}不小于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is not less than ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143921Z" creationid="liaronce" creationdate="20200820T143921Z">
+        <seg>如果${var}在${applyto}上不小于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is not less than or equal to ${value}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143924Z" creationid="liaronce" creationdate="20200820T143924Z">
+        <seg>如果${var}不小于或等于${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is not less than or equal to ${value} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143925Z" creationid="liaronce" creationdate="20200820T143925Z">
+        <seg>如果${var}不小于或等于${applyto}上的${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is not undefined on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143944Z" creationid="liaronce" creationdate="20200820T143944Z">
+        <seg>如果${applyto}${show_input_count}上的${var}未定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is not undefined${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143943Z" creationid="liaronce" creationdate="20200820T143943Z">
+        <seg>如果${var}不是未定义的${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is undefined on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143942Z" creationid="liaronce" creationdate="20200820T143942Z">
+        <seg>如果${applyto}${show_input_count}上的${var}未定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If ${var} is undefined${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143941Z" creationid="liaronce" creationdate="20200820T143941Z">
+        <seg>如果${var}未定义${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -32710,6 +33222,54 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set ${var} to return value of ${function}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144041Z" creationid="liaronce" creationdate="20200820T144041Z">
+        <seg>将${var}设置为${function}的返回值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set ${var} to return value of ${function} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144042Z" creationid="liaronce" creationdate="20200820T144042Z">
+        <seg>将${var}设置为在${applyto}上返回${function}的值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set ${var} to return value of ${function} with ${input_count} arguments</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144045Z" creationid="liaronce" creationdate="20200820T144045Z">
+        <seg>将${var}设置为使用${input_count}个参数返回值${function}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set ${var} to return value of ${function} with ${input_count} arguments on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144046Z" creationid="liaronce" creationdate="20200820T144046Z">
+        <seg>设置${var}以使用${applyto}上的${input_count}参数返回值${function}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set ${var} to return value of ${function} with 1 argument</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144043Z" creationid="liaronce" creationdate="20200820T144043Z">
+        <seg>将${var}设置为使用1个参数返回值${function}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set ${var} to return value of ${function} with 1 argument on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144044Z" creationid="liaronce" creationdate="20200820T144044Z">
+        <seg>将${var}设置为在${applyto}上使用1个参数返回值${function}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set .pem certificate file and password</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161223T070423Z" creationid="deciia" creationdate="20161223T070423Z">
@@ -33360,6 +33920,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set global variable ${var} to ${value} on ${applyto}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143909Z" creationid="liaronce" creationdate="20200820T143909Z">
+        <seg>在${applyto}${show_input_count}上将全局变量${var}设置为${value}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set global variable ${var} to ${value}${show_input_count}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143908Z" creationid="liaronce" creationdate="20200820T143908Z">
+        <seg>将全局变量${var}设置为${value}${show_input_count}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set help text</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T144059Z" creationid="deciia" creationdate="20170311T144059Z">
@@ -33372,6 +33948,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170106T155901Z" creationid="deciia" creationdate="20170106T155901Z">
         <seg>设置帧数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set temp ${var} to return value of ${function}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144047Z" creationid="liaronce" creationdate="20200820T144047Z">
+        <seg>将临时${var}设置为返回值${function}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set temp ${var} to return value of ${function} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144049Z" creationid="liaronce" creationdate="20200820T144049Z">
+        <seg>将临时${var}设置为${applyto}上${function}的返回值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set temp ${var} to return value of ${function} with 1 argument</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144051Z" creationid="liaronce" creationdate="20200820T144051Z">
+        <seg>使用1个参数将临时${var}设置为返回值${function}</seg>
       </tuv>
     </tu>
     <tu>
