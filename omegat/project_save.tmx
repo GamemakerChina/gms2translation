@@ -1177,16 +1177,16 @@
       <tuv lang="en-US">
         <seg>Add ${alpha} to alpha</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010402Z" creationid="liaronce" creationdate="20200820T151537Z">
-        <seg>将 ${alpha} 添加到 Alpha </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150152Z" creationid="liaronce" creationdate="20200820T151537Z">
+        <seg>令透明度增加 ${alpha} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${alpha} to alpha on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010402Z" creationid="liaronce" creationdate="20200820T151538Z">
-        <seg>将 ${alpha} 添加到 ${applyto} 上的 Alpha </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150219Z" creationid="liaronce" creationdate="20200820T151538Z">
+        <seg>令 ${applyto} 的透明度将 ${alpha}</seg>
       </tuv>
     </tu>
     <tu>
@@ -3554,8 +3554,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Apply to ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144057Z">
-        <seg>适用于 ${applyto} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150300Z" creationid="liaronce" creationdate="20200820T144057Z">
+        <seg>应用于 ${applyto} </seg>
       </tuv>
     </tu>
     <tu>
@@ -11701,8 +11701,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Define macro ${macro} as ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T144058Z">
-        <seg>将宏 ${macro} 定义为 ${value}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150327Z" creationid="liaronce" creationdate="20200820T144058Z">
+        <seg>定义宏 ${macro} 为 ${value} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -39744,8 +39744,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set ${var} to return value of ${function} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144042Z">
-        <seg>将 ${var} 设置为在 ${applyto} 上返回 ${function} 的值</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150023Z" creationid="liaronce" creationdate="20200820T144042Z">
+        <seg>在 ${applyto} 上设置变量 ${var} 为函数 ${function} 的返回值</seg>
       </tuv>
     </tu>
     <tu>
@@ -39768,16 +39768,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set ${var} to return value of ${function} with 1 argument</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144043Z">
-        <seg>将 ${var} 设置为使用1个参数返回值 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150106Z" creationid="liaronce" creationdate="20200820T144043Z">
+        <seg>设置变量 ${var} 为使用1个参数的函数 ${function} 的返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set ${var} to return value of ${function} with 1 argument on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144044Z">
-        <seg>将 ${var} 设置为在 ${applyto} 上使用1个参数返回值 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150115Z" creationid="liaronce" creationdate="20200820T144044Z">
+        <seg>在 ${applyto} 上设置变量 ${var} 为使用1个参数的函数 ${function} 的返回值</seg>
       </tuv>
     </tu>
     <tu>
@@ -40610,16 +40610,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set alpha to ${alpha}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010402Z" creationid="liaronce" creationdate="20200820T151535Z">
-        <seg>将 Alpha 设置为 ${alpha} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150249Z" creationid="liaronce" creationdate="20200820T151535Z">
+        <seg>设置透明度为 ${alpha} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set alpha to ${alpha} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010402Z" creationid="liaronce" creationdate="20200820T151536Z">
-        <seg>在 ${applyto} 上将 Alpha 设置为 ${alpha} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150238Z" creationid="liaronce" creationdate="20200820T151536Z">
+        <seg>设置 ${applyto} 的透明度为 ${alpha} </seg>
       </tuv>
     </tu>
     <tu>
@@ -41202,8 +41202,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set sprite blend colour to ${colour}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151539Z">
-        <seg>将精灵混合颜色设置为 ${color} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150136Z" creationid="liaronce" creationdate="20200820T151539Z">
+        <seg>设置精灵混合颜色为 ${color} </seg>
       </tuv>
     </tu>
     <tu>
