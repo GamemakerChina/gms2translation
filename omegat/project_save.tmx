@@ -6164,48 +6164,48 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Call ${function}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144028Z">
-        <seg>调用 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145741Z" creationid="liaronce" creationdate="20200820T144028Z">
+        <seg>调用函数 ${function} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Call ${function} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144029Z">
-        <seg>在 ${applyto} 上调用 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145904Z" creationid="liaronce" creationdate="20200820T144029Z">
+        <seg>在 ${applyto} 上调用函数 ${function} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Call ${function} with ${input_count} arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005420Z" creationid="liaronce" creationdate="20200820T144039Z">
-        <seg>使用 ${input_count} 个参数调用 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145931Z" creationid="liaronce" creationdate="20200820T144039Z">
+        <seg>使用${input_count}个参数调用函数 ${function} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Call ${function} with ${input_count} arguments on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005421Z" creationid="liaronce" creationdate="20200820T144040Z">
-        <seg>使用 ${applyto} 上的 ${input_count} 参数调用 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145952Z" creationid="liaronce" creationdate="20200820T144040Z">
+        <seg>在 ${applyto} 上使用${input_count}个参数调用函数 ${function} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Call ${function} with 1 argument</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144031Z">
-        <seg>使用1个参数调用 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145925Z" creationid="liaronce" creationdate="20200820T144031Z">
+        <seg>使用1个参数调用函数 ${function} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Call ${function} with 1 argument on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144038Z">
-        <seg>在 ${applyto} 上使用1个参数调用 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145929Z" creationid="liaronce" creationdate="20200820T144038Z">
+        <seg>在 ${applyto} 上使用1个参数调用函数 ${function} </seg>
       </tuv>
     </tu>
     <tu>
@@ -16233,16 +16233,16 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>Execute and set temp ${var} to return value of ${script} with ${input_count} arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005419Z" creationid="liaronce" creationdate="20200820T144024Z">
-        <seg>执行并设置临时 ${var} 以使用 ${input_count} 参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145829Z" creationid="liaronce" creationdate="20200820T144024Z">
+        <seg>使用${input_count}个参数执行脚本 ${script} 并设置临时变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set temp ${var} to return value of ${script} with ${input_count} arguments on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005420Z" creationid="liaronce" creationdate="20200820T144025Z">
-        <seg>执行临时 ${var} 并将其设置为使用 ${applyto} 上的 ${input_count} 参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145900Z" creationid="liaronce" creationdate="20200820T144025Z">
+        <seg>在 ${applyto} 上使用${input_count}个参数执行脚本 ${script} 并设置临时变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
@@ -39736,8 +39736,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set ${var} to return value of ${function}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144041Z">
-        <seg>将 ${var} 设置为 ${function} 的返回值</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150005Z" creationid="liaronce" creationdate="20200820T144041Z">
+        <seg>设置变量 ${var} 为函数 ${function} 的返回值</seg>
       </tuv>
     </tu>
     <tu>
