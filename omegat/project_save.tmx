@@ -23258,8 +23258,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="EN-US">
         <seg>If ${var} is equal to ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143928Z" creationid="liaronce" creationdate="20200820T143928Z">
-        <seg>如果${var}等于${applyto}上的${value}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T045353Z" creationid="liaronce" creationdate="20200820T143928Z">
+        <seg>如果 ${applyto} 的变量 ${var} 等于 ${val}</seg>
       </tuv>
     </tu>
     <tu>
@@ -23274,8 +23274,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="EN-US">
         <seg>If ${var} is greater than ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143932Z" creationid="liaronce" creationdate="20200820T143932Z">
-        <seg>如果${var}大于${applyto}上的${value}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T045358Z" creationid="liaronce" creationdate="20200820T143932Z">
+        <seg>$if$owner的变量$var$op${val}</seg>
       </tuv>
     </tu>
     <tu>
@@ -23370,8 +23370,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="EN-US">
         <seg>If ${var} is not greater than or equal to ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T044744Z" creationid="liaronce" creationdate="20200820T143926Z">
-        <seg>${if} ${owner} 的变量 ${var} ${op} ${val}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T045318Z" creationid="liaronce" creationdate="20200820T143926Z">
+        <seg>如果 ${applyto} 的变量 ${var} 不大于等于 ${value}</seg>
       </tuv>
     </tu>
     <tu>
