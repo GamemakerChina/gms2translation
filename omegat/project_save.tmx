@@ -23266,16 +23266,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="EN-US">
         <seg>If ${var} is greater than ${value}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143931Z" creationid="liaronce" creationdate="20200820T143931Z">
-        <seg>如果${var}大于${value}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T045506Z" creationid="liaronce" creationdate="20200820T143931Z">
+        <seg>如果变量 ${var} 大于 ${value}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If ${var} is greater than ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T045358Z" creationid="liaronce" creationdate="20200820T143932Z">
-        <seg>$if$owner的变量$var$op${val}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T045453Z" creationid="liaronce" creationdate="20200820T143932Z">
+        <seg>如果 ${applyto} 的变量 ${var} 大于 ${val}</seg>
       </tuv>
     </tu>
     <tu>
@@ -23298,16 +23298,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="EN-US">
         <seg>If ${var} is less than ${value}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143929Z" creationid="liaronce" creationdate="20200820T143929Z">
-        <seg>如果${var}小于${value}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T045511Z" creationid="liaronce" creationdate="20200820T143929Z">
+        <seg>如果变量 ${var} 小于 ${value}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If ${var} is less than ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143930Z" creationid="liaronce" creationdate="20200820T143930Z">
-        <seg>如果${var}在${applyto}上小于${value}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T045820Z" creationid="liaronce" creationdate="20200820T143930Z">
+        <seg>如果 ${applyto} 的变量 ${var} 小于${value}</seg>
       </tuv>
     </tu>
     <tu>
