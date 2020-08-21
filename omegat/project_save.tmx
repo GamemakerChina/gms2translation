@@ -1193,16 +1193,16 @@
       <tuv lang="en-US">
         <seg>Add ${angle} to rotation</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144158Z">
-        <seg>将 ${angle} 添加到旋转</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150737Z" creationid="liaronce" creationdate="20200820T144158Z">
+        <seg>令旋转角度增加 ${angle}°</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${angle} to rotation on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144159Z">
-        <seg>将 ${angle} 添加到 ${applyto} 上的旋转</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150803Z" creationid="liaronce" creationdate="20200820T144159Z">
+        <seg>令 ${applyto} 的旋转角度增加 ${angle}°</seg>
       </tuv>
     </tu>
     <tu>
@@ -1369,16 +1369,16 @@
       <tuv lang="en-US">
         <seg>Add ${speed} to animation speed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144202Z">
-        <seg>将 ${speed} 添加到动画速度</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150850Z" creationid="liaronce" creationdate="20200820T144202Z">
+        <seg>令动画速度增加${speed}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${speed} to animation speed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144203Z">
-        <seg>将 ${speed} 添加到 ${applyto} 上的动画速度</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150913Z" creationid="liaronce" creationdate="20200820T144203Z">
+        <seg>令 ${applyto} 的动画速度增加 ${speed} </seg>
       </tuv>
     </tu>
     <tu>
@@ -19549,8 +19549,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get instance variable ${dnd_get_inst_vars} into ${target}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010229Z" creationid="liaronce" creationdate="20200820T144150Z">
-        <seg>将实例变量${dnd_get_inst_vars}获取到 ${target}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150701Z" creationid="liaronce" creationdate="20200820T144150Z">
+        <seg>获取实例变量${dnd_get_inst_vars} 并存入变量 ${target}${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -40626,16 +40626,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set animation speed to ${speed}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144200Z">
-        <seg>将动画速度设置为 ${speed} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150817Z" creationid="liaronce" creationdate="20200820T144200Z">
+        <seg>设置动画速度为 ${speed} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set animation speed to ${speed} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144201Z">
-        <seg>在 ${applyto} 上将动画速度设置为 ${speed} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150831Z" creationid="liaronce" creationdate="20200820T144201Z">
+        <seg>设置 ${applyto} 的动画速度为 ${speed} </seg>
       </tuv>
     </tu>
     <tu>
@@ -40922,16 +40922,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set instance variable ${dnd_set_inst_vars} to ${value} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T144149Z">
-        <seg>在 ${applyto}${show_input_count} 上将实例变量 ${dnd_set_inst_vars} 设置为 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150646Z" creationid="liaronce" creationdate="20200820T144149Z">
+        <seg>在 ${applyto}${show_input_count} 上设置实例变量 ${dnd_set_inst_vars} 为 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set instance variable ${dnd_set_inst_vars} to ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T144149Z">
-        <seg>将实例变量 ${dnd_set_inst_vars} 设置为 ${value}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150639Z" creationid="liaronce" creationdate="20200820T144149Z">
+        <seg>设置实例变量 ${dnd_set_inst_vars} 为 ${value}${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
