@@ -6284,8 +6284,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Call user event ${event} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T144148Z">
-        <seg>在 ${applyto}${show_input_count} 上调用用户事件 ${event} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150619Z" creationid="liaronce" creationdate="20200820T144148Z">
+        <seg>在 ${applyto}上调用用户事件 ${event} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -18757,32 +18757,32 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get ${object} count into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144143Z">
-        <seg>将 ${object} 计入 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150510Z" creationid="liaronce" creationdate="20200820T144143Z">
+        <seg>对物体 ${object} 计数并存入变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${object} count into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144144Z">
-        <seg>在 ${applyto} 上将 ${object} 计入 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150522Z" creationid="liaronce" creationdate="20200820T144144Z">
+        <seg>在 ${applyto} 上对物体 ${object} 计数并存入 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${object} count into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144145Z">
-        <seg>将 ${object} 计数到临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150537Z" creationid="liaronce" creationdate="20200820T144145Z">
+        <seg>对物体 ${object} 计数并存入临时变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${object} count into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144146Z">
-        <seg>将 ${object} 计入 ${applyto} 上的临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150558Z" creationid="liaronce" creationdate="20200820T144146Z">
+        <seg>在 ${applyto} 上对物体 ${object} 计数并存入临时变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
@@ -41266,16 +41266,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set temp ${var} to return value of ${function} with ${input_count} arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005422Z" creationid="liaronce" creationdate="20200820T144053Z">
-        <seg>将TEMP ${var} 设置为使用 ${input_count} 个参数返回值 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150358Z" creationid="liaronce" creationdate="20200820T144053Z">
+        <seg>设置临时变量 ${var} 为使用${input_count}个参数的函数 ${function} 的返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set temp ${var} to return value of ${function} with ${input_count} arguments on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005424Z" creationid="liaronce" creationdate="20200820T144054Z">
-        <seg>将TEMP ${var} 设置为使用 ${applyto} 上的 ${input_count} 参数返回值 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150454Z" creationid="liaronce" creationdate="20200820T144054Z">
+        <seg>在 ${applyto} 上设置临时变量 ${var} 为使用${input_count}个参数的函数 ${function} 的返回值</seg>
       </tuv>
     </tu>
     <tu>
