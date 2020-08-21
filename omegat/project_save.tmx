@@ -16169,8 +16169,8 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>Execute and set ${var} to return value of ${script}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144011Z">
-        <seg>执行并设置 ${var} 以返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144528Z" creationid="liaronce" creationdate="20200820T144011Z">
+        <seg>执行脚本 ${script} 并设置变量 ${var} 为返回值  </seg>
       </tuv>
     </tu>
     <tu>
@@ -23242,8 +23242,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${var} is greater than or equal to ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144030Z" creationid="liaronce" creationdate="20200820T143936Z">
-        <seg>如果 ${applyto} 的变量 ${var} 大于或等于 ${value}  </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144308Z" creationid="liaronce" creationdate="20200820T143936Z">
+        <seg>如果 ${applyto} 的变量 ${var} 大于等于 ${value}  </seg>
       </tuv>
     </tu>
     <tu>
@@ -23274,15 +23274,15 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${var} is less than or equal to ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144030Z" creationid="liaronce" creationdate="20200820T143935Z">
-        <seg>如果 ${applyto} 的变量 ${var} 小于或等于 ${value}  </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144259Z" creationid="liaronce" creationdate="20200820T143935Z">
+        <seg>如果 ${applyto} 的变量 ${var} 小于等于 ${value}  </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is not equal to ${value}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20200821T143758Z" creationid="liaronce" creationdate="20200820T143917Z">
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144329Z" creationid="liaronce" creationdate="20200820T143917Z">
         <seg>如果变量 ${var} 不等于 ${value} </seg>
       </tuv>
     </tu>
