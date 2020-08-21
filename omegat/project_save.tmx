@@ -48,8 +48,8 @@
       <tuv lang="en-US">
         <seg>${EXEFILENAME} is running.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="deciia" creationdate="20180922T204935Z">
-        <seg> ${EXEFILENAME}  正在运行。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004602Z" creationid="deciia" creationdate="20180922T204935Z">
+        <seg>${EXEFILENAME} 正在运行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -280,8 +280,8 @@
       <tuv lang="en-US">
         <seg>// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information\nfunction ${funcName}(){\n\n}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T142833Z">
-        <seg>// v2.3.0的脚本资源已更改\n// 有关详细信息，请参阅\n// https://help.yoyogames.com/hc/en-us/articles/360005277377\n function  ${funcName} (){\n\n}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004609Z" creationid="liaronce" creationdate="20200820T142833Z">
+        <seg>// v2.3.0的脚本资源已更改\n// 有关详细信息，请参阅\n// https://help.yoyogames.com/hc/en-us/articles/360005277377\n function ${funcName}(){\n\n}</seg>
       </tuv>
     </tu>
     <tu>
@@ -296,16 +296,16 @@
       <tuv lang="en-US">
         <seg>/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T142851Z">
-        <seg>/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash :  ${hash} \n/// @DnDArgument : "funcName" " ${funcName} "\nfunction  ${funcName} (){\n\n}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004707Z" creationid="liaronce" creationdate="20200820T142851Z">
+        <seg>/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash :  ${hash} \n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName} (){\n\n}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : Script assets have changed$(13_10)for v2.3.0 see $(13_10)https://help.yoyogames.com/hc/en-us/articles/360005277377 $(13_10)for more information\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T142840Z">
-        <seg>/// @DnDAction：Yoyo Games.Common.Function\n/// @DnDVersion：1\n/// @DnDHash： ${HASH} \n/// @DnDComment：v2.3.0的脚本资产已更改$(13_10)有关详细信息，请参阅$(13_10)https://help.yoyogames.com/hc/en-us/articles/360005277377$(13_10)\n/// @DnDArgument：“funcname” ${funcname} “\nfunction  ${FuncName} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004720Z" creationid="liaronce" creationdate="20200820T142840Z">
+        <seg>/// @DnDAction：Yoyo Games.Common.Function\n/// @DnDVersion：1\n/// @DnDHash：${hash} \n/// @DnDComment：v2.3.0的脚本资产已更改$(13_10)有关详细信息，请参阅$(13_10)https://help.yoyogames.com/hc/en-us/articles/360005277377$(13_10)\n/// @DnDArgument：“funcname”${funcname}“\nfunction  ${FuncName}</seg>
       </tuv>
     </tu>
     <tu>
@@ -29963,8 +29963,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Mouse wheel zoom requires ${ctrl} key</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="deciia" creationdate="20180922T080745Z">
-        <seg>鼠标滚轮缩放需要  ${ctrl}  键</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004558Z" creationid="deciia" creationdate="20180922T080745Z">
+        <seg>鼠标滚轮缩放需要 ${ctrl} 键</seg>
       </tuv>
     </tu>
     <tu>
