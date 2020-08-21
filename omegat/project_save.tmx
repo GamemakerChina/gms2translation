@@ -9934,48 +9934,48 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Create ${objectid} at ${dnd_pos}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144101Z">
-        <seg>在${dnd_pos}创建 ${objectid} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005709Z" creationid="liaronce" creationdate="20200820T144101Z">
+        <seg>在 ${dnd_pos} 创建 ${objectid} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Create ${objectid} at ${dnd_pos} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144103Z">
-        <seg>在${dnd_pos}将 ${objectid} 创建到 ${var} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005709Z" creationid="liaronce" creationdate="20200820T144103Z">
+        <seg>在 ${dnd_pos} 将 ${objectid} 创建到 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Create ${objectid} at ${dnd_pos} into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144104Z">
-        <seg>将位于${dnd_pos}的 ${objectid} 创建到 ${applyto} 上的 ${var} 中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005709Z" creationid="liaronce" creationdate="20200820T144104Z">
+        <seg>将位于 ${dnd_pos} 的 ${objectid} 创建到 ${applyto} 上的 ${var} 中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Create ${objectid} at ${dnd_pos} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144105Z">
-        <seg>在${dnd_pos}将 ${objectid} 创建到临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005709Z" creationid="liaronce" creationdate="20200820T144105Z">
+        <seg>在 ${dnd_pos} 将 ${objectid} 创建到临时 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Create ${objectid} at ${dnd_pos} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144106Z">
-        <seg>在 ${applyto} 上的临时 ${var} 中创建 ${objectid} ，位置为${dnd_pos}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005709Z" creationid="liaronce" creationdate="20200820T144106Z">
+        <seg>在 ${applyto} 上的临时 ${var} 中创建 ${objectid} ，位置为 ${dnd_pos} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Create ${objectid} at ${dnd_pos} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144102Z">
-        <seg>在 ${applyto} 上的${dnd_pos}创建 ${objectid} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005709Z" creationid="liaronce" creationdate="20200820T144102Z">
+        <seg>在 ${applyto} 上的 ${dnd_pos} 创建 ${objectid} </seg>
       </tuv>
     </tu>
     <tu>
@@ -11397,8 +11397,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Declare temp ${var} and set it to ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143859Z">
-        <seg>声明临时 ${var} 并将其设置为 ${value} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005803Z" creationid="liaronce" creationdate="20200820T143859Z">
+        <seg>声明临时 ${var} 并将其设置为 ${value}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -11693,16 +11693,16 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Define macro ${macro} as ${value} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005132Z" creationid="liaronce" creationdate="20200820T144059Z">
-        <seg>在 ${applyto}${show_input_count}上将宏 ${macro} 定义为 ${value} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005654Z" creationid="liaronce" creationdate="20200820T144059Z">
+        <seg>在 ${applyto}${show_input_count} 上将宏 ${macro} 定义为 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Define macro ${macro} as ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144058Z">
-        <seg>将宏 ${macro} 定义为 ${value} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005803Z" creationid="liaronce" creationdate="20200820T144058Z">
+        <seg>将宏 ${macro} 定义为 ${value}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -12358,16 +12358,16 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Destroy instances at ${dnd_pos}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T144109Z" creationid="liaronce" creationdate="20200820T144109Z">
-        <seg>销毁${dnd_pos}处的实例</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005709Z" creationid="liaronce" creationdate="20200820T144109Z">
+        <seg>销毁 ${dnd_pos} 处的实例</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Destroy instances at ${dnd_pos} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144110Z">
-        <seg>销毁 ${applyto} 上${dnd_pos}处的实例</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005709Z" creationid="liaronce" creationdate="20200820T144110Z">
+        <seg>销毁 ${applyto} 上 ${dnd_pos} 处的实例</seg>
       </tuv>
     </tu>
     <tu>
@@ -40826,8 +40826,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set global variable ${var} to ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143908Z">
-        <seg>将全局变量 ${var} 设置为 ${value} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005803Z" creationid="liaronce" creationdate="20200820T143908Z">
+        <seg>将全局变量 ${var} 设置为 ${value}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40922,16 +40922,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set instance variable ${dnd_set_inst_vars} to ${value} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005132Z" creationid="liaronce" creationdate="20200820T144149Z">
-        <seg>在 ${applyto}${show_input_count}上将实例变量${dnd_set_inst_vars}设置为 ${value} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005741Z" creationid="liaronce" creationdate="20200820T144149Z">
+        <seg>在 ${applyto}${show_input_count}上将实例变量 ${dnd_set_inst_vars} 设置为 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set instance variable ${dnd_set_inst_vars} to ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144149Z">
-        <seg>将实例变量${dnd_set_inst_vars}设置为 ${value} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005803Z" creationid="liaronce" creationdate="20200820T144149Z">
+        <seg>将实例变量 ${dnd_set_inst_vars} 设置为 ${value}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
