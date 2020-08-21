@@ -11437,32 +11437,32 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="EN-US">
         <seg>Declare temp ${var} and set it to ${value} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143907Z" creationid="liaronce" creationdate="20200820T143907Z">
-        <seg>在${applyto}${show_input_count}上声明临时${var}并将其设置为${value}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T042740Z" creationid="liaronce" creationdate="20200820T143907Z">
+        <seg>在 ${applyto} 上上声明临时变量 ${var} 并将其设置为 ${value} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Declare temp ${var} and set it to ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T042115Z" creationid="liaronce" creationdate="20200820T143859Z">
-        <seg>声明临时变量${var}并将其设置为${value}${show_input_count}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T042732Z" creationid="liaronce" creationdate="20200820T143859Z">
+        <seg>声明临时变量 ${var} 并将其设置为 ${value} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Declare temp ${var} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143853Z" creationid="liaronce" creationdate="20200820T143853Z">
-        <seg>在${applyto}${show_input_count}上声明临时${var}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T042729Z" creationid="liaronce" creationdate="20200820T143853Z">
+        <seg>在 ${applyto} 上声明临时变量 ${var} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Declare temp ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143701Z" creationid="liaronce" creationdate="20200820T143701Z">
-        <seg>声明临时${var}${show_input_count}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T042632Z" creationid="liaronce" creationdate="20200820T143701Z">
+        <seg>声明临时变量 ${var} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -39768,8 +39768,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="EN-US">
         <seg>Set ${var} to ${expr} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T042406Z" creationid="liaronce" creationdate="20200820T143554Z">
-        <seg>在 ${applyto}上设置 ${var} 为 ${expr}${show_input_count} </seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T042626Z" creationid="liaronce" creationdate="20200820T143554Z">
+        <seg>在 ${applyto} 上设置 ${var} 为 ${expr}${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -40874,8 +40874,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="EN-US">
         <seg>Set global variable ${var} to ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143908Z" creationid="liaronce" creationdate="20200820T143908Z">
-        <seg>将全局变量${var}设置为${value}${show_input_count}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T042726Z" creationid="liaronce" creationdate="20200820T143908Z">
+        <seg>设置全局变量 ${var} 为${value}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
