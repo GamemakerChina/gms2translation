@@ -1489,8 +1489,8 @@
       <tuv lang="en-US">
         <seg>Add ${value} to global variable ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143910Z">
-        <seg>将 ${value} 添加到全局变量 ${var} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T143910Z">
+        <seg>将 ${value} 添加到全局变量 ${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -1505,8 +1505,8 @@
       <tuv lang="en-US">
         <seg>Add ${value} to list ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152201Z">
-        <seg>将 ${value} 添加到列表 ${var} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152201Z">
+        <seg>将 ${value} 添加到列表 ${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -6084,16 +6084,16 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Burst ${number} particles of type ${type} in system ${system} at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152812Z">
-        <seg>在系统 ${system} 的${dnd_position}处爆发 ${number} 个 ${type} 类型的粒子</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152812Z">
+        <seg>在系统 ${system} 的 ${dnd_position} 处爆发 ${number} 个 ${type} 类型的粒子</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Burst ${number} particles of type ${type} in system ${system} at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152812Z">
-        <seg>在 ${applyto} 上的${dnd_position}处爆发系统 ${system} 中 ${type} 类型的 ${number} 个粒子</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152812Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 处爆发系统 ${system} 中 ${type} 类型的 ${number} 个粒子</seg>
       </tuv>
     </tu>
     <tu>
@@ -7756,8 +7756,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Clear grid in ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152151Z">
-        <seg>清除 ${var} ${show_input_count}中的格网</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152151Z">
+        <seg>清除 ${var}${show_input_count}中的格网</seg>
       </tuv>
     </tu>
     <tu>
@@ -7772,8 +7772,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Clear list in ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152147Z">
-        <seg>清除 ${var} ${show_input_count}中的列表</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152147Z">
+        <seg>清除 ${var}${show_input_count}中的列表</seg>
       </tuv>
     </tu>
     <tu>
@@ -7788,8 +7788,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Clear map in ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152149Z">
-        <seg>清除 ${var} ${show_input_count}中的映射</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152149Z">
+        <seg>清除 ${var}${show_input_count}中的映射</seg>
       </tuv>
     </tu>
     <tu>
@@ -7828,8 +7828,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Clear stack in ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152152Z">
-        <seg>清除 ${var} ${show_input_count}中的堆栈</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152152Z">
+        <seg>清除 ${var}${show_input_count}中的堆栈</seg>
       </tuv>
     </tu>
     <tu>
@@ -11413,8 +11413,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Declare temp ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143701Z">
-        <seg>声明临时 ${var} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T143701Z">
+        <seg>声明临时 ${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -13434,88 +13434,88 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Draw ${applyto}'s healthbar from ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153647Z">
-        <seg>在 ${applyto} 上将 ${applyto} 的健康条从${dnd_position 1}绘制到${dnd_position 2}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T153647Z">
+        <seg>在 ${applyto} 上将 ${applyto} 的健康条从 ${dnd_position1} 绘制到 ${dnd_position2} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw ${applyto}'s lives in a column at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151852Z">
-        <seg>在 ${applyto} 上${dnd_position}处的列中绘制 ${applyto} 的生活</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151852Z">
+        <seg>在 ${applyto} 上 ${dnd_position} 处的列中绘制 ${applyto} 的生活</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw ${applyto}'s lives in a row at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151851Z">
-        <seg>在 ${applyto} 上的${dnd_position}处连续绘制 ${applyto} 的生命</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151851Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 处连续绘制 ${applyto} 的生命</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw ${applyto}'s score at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151846Z">
-        <seg>在 ${applyto} 上的${dnd_position}处绘制 ${applyto} 的分数</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151846Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 处绘制 ${applyto} 的分数</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw ${applyto}'s score at ${dnd_position} with caption ${caption}" on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151846Z">
-        <seg>在${dnd_position}处绘制 ${applyto} 的分数，标题为 ${caption} “位于 ${applyto} ”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151846Z">
+        <seg>在 ${dnd_position} 处绘制 ${applyto} 的分数，标题为 ${caption} “位于 ${applyto} ”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw ${caption}" ${var} at ${dnd_position} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151814Z">
-        <seg>在 ${applyto} 上的${dnd_position}处绘制 ${caption} “ ${var} ”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151814Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 处绘制 ${caption} “ ${var} ”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw ${caption}" ${var} at ${dnd_position}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151813Z">
-        <seg>在${dnd_position}处绘制 ${caption} “ ${var} ”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151813Z">
+        <seg>在 ${dnd_position} 处绘制 ${caption} “ ${var} ”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw ${caption}" at ${dnd_position} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151812Z">
-        <seg>在 ${applyto} 上的${dnd_position}处绘制 ${caption} “</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151812Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 处绘制 ${caption} “</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw ${caption}" at ${dnd_position}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151811Z">
-        <seg>在${dnd_position}处绘制 ${caption} “</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151811Z">
+        <seg>在 ${dnd_position} 处绘制 ${caption} “</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw ${var} at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151809Z">
-        <seg>在${dnd_position}处绘制 ${var} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151809Z">
+        <seg>在 ${dnd_position} 处绘制 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw ${var} at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151810Z">
-        <seg>在 ${applyto} 上的${dnd_position}处绘制 ${var} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151810Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 处绘制 ${var} </seg>
       </tuv>
     </tu>
     <tu>
@@ -13802,152 +13802,152 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Draw at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151808Z">
-        <seg>在${dnd_position}处绘制</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151808Z">
+        <seg>在 ${dnd_position} 处绘制</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151809Z">
-        <seg>在 ${applyto} 上的${dnd_position}处绘制</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151809Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 处绘制</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw ellipse from ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151835Z">
-        <seg>绘制从${dnd_position 1}到${dnd_position 2}的椭圆</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151835Z">
+        <seg>绘制从 ${dnd_position1} 到 ${dnd_position2} 的椭圆</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw ellipse from ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151836Z">
-        <seg>在 ${applyto} 上绘制从${dnd_position 1}到${dnd_position 2}的椭圆</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151836Z">
+        <seg>在 ${applyto} 上绘制从 ${dnd_position1} 到 ${dnd_position2} 的椭圆</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw gradient ellipse from ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151838Z">
-        <seg>绘制从${dnd_position 1}到${dnd_position 2}的渐变椭圆</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151838Z">
+        <seg>绘制从 ${dnd_position1} 到 ${dnd_position2} 的渐变椭圆</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw gradient ellipse from ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151839Z">
-        <seg>在 ${applyto} 上绘制从${dnd_position 1}到${dnd_position 2}的渐变椭圆</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151839Z">
+        <seg>在 ${applyto} 上绘制从 ${dnd_position1} 到 ${dnd_position2} 的渐变椭圆</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw gradient elliptical outline from ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151837Z">
-        <seg>绘制从${dnd_position 1}到${dnd_position 2}的渐变椭圆轮廓</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151837Z">
+        <seg>绘制从 ${dnd_position1} 到 ${dnd_position2} 的渐变椭圆轮廓</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw gradient elliptical outline from ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151837Z">
-        <seg>在 ${applyto} 上绘制从${dnd_position 1}到${dnd_position 2}的渐变椭圆轮廓</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151837Z">
+        <seg>在 ${applyto} 上绘制从 ${dnd_position1} 到 ${dnd_position2} 的渐变椭圆轮廓</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw gradient rectangle from ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151833Z">
-        <seg>绘制从${dnd_position 1}到${dnd_position 2}的渐变矩形</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151833Z">
+        <seg>绘制从 ${dnd_position1} 到 ${dnd_position2} 的渐变矩形</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw gradient rectangle from ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151834Z">
-        <seg>在 ${applyto} 上绘制从${dnd_position 1}到${dnd_position 2}的渐变矩形</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151834Z">
+        <seg>在 ${applyto} 上绘制从 ${dnd_position1} 到 ${dnd_position2} 的渐变矩形</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw gradient rectangular outline from ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151831Z">
-        <seg>绘制从${dnd_position 1}到${dnd_position 2}的渐变矩形轮廓</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151831Z">
+        <seg>绘制从 ${dnd_position1} 到 ${dnd_position2} 的渐变矩形轮廓</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw gradient rectangular outline from ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151832Z">
-        <seg>在 ${applyto} 上绘制从${dnd_position 1}到${dnd_position 2}的渐变矩形轮廓</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151832Z">
+        <seg>在 ${applyto} 上绘制从 ${dnd_position1} 到 ${dnd_position2} 的渐变矩形轮廓</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw healthbar from ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151847Z">
-        <seg>绘制从${dnd_position1}到${dnd_position2}的健康条</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010011Z" creationid="liaronce" creationdate="20200820T151847Z">
+        <seg>绘制从 ${dnd_position1} 到 ${dnd_position2} 的健康条</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151842Z">
-        <seg>使用值 ${value} 从${dnd_position 1}到${dnd_position 2}绘制健康条</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151842Z">
+        <seg>使用值 ${value} 从 ${dnd_position1} 到 ${dnd_position2} 绘制健康条</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151843Z">
-        <seg>在 ${applyto} 上绘制从${dnd_position1}到${dnd_position2}的健康条，值为 ${value} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010011Z" creationid="liaronce" creationdate="20200820T151843Z">
+        <seg>在 ${applyto} 上绘制从 ${dnd_position1} 到 ${dnd_position2} 的健康条，值为 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw line from ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151840Z">
-        <seg>从${dnd_position 1}到${dnd_position 2}绘制直线</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151840Z">
+        <seg>从 ${dnd_position1} 到 ${dnd_position2} 绘制直线</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw line from ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151841Z">
-        <seg>在 ${applyto} 上绘制从${dnd_position1}到${dnd_position2}的线</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010011Z" creationid="liaronce" creationdate="20200820T151841Z">
+        <seg>在 ${applyto} 上绘制从 ${dnd_position1} 到 ${dnd_position2} 的线</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw lives in a column at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151850Z">
-        <seg>在${dnd_position}的列中绘制生命</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151850Z">
+        <seg>在 ${dnd_position} 的列中绘制生命</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw lives in a row at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151849Z">
-        <seg>在${dnd_position}画出一排生命</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151849Z">
+        <seg>在 ${dnd_position} 画出一排生命</seg>
       </tuv>
     </tu>
     <tu>
@@ -13970,32 +13970,32 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Draw rectangle from ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151829Z">
-        <seg>绘制从${dnd_position 1}到${dnd_position 2}的矩形</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151829Z">
+        <seg>绘制从 ${dnd_position1} 到 ${dnd_position2} 的矩形</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw rectangle from ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151830Z">
-        <seg>在 ${applyto} 上绘制从${dnd_position 1}到${dnd_position 2}的矩形</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151830Z">
+        <seg>在 ${applyto} 上绘制从 ${dnd_position1} 到 ${dnd_position2} 的矩形</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw score at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151844Z">
-        <seg>在${dnd_position}处抽签得分</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151844Z">
+        <seg>在 ${dnd_position} 处抽签得分</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw score at ${dnd_position} with caption ${caption}""</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151845Z">
-        <seg>在${dnd_position}处绘制分数，标题为 ${caption} “”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151845Z">
+        <seg>在 ${dnd_position} 处绘制分数，标题为 ${caption} “”</seg>
       </tuv>
     </tu>
     <tu>
@@ -14018,48 +14018,48 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Draw sprite ${sprite} frame ${image} at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151822Z">
-        <seg>在${dnd_position}处绘制精灵 ${sprite} 帧 ${image} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151822Z">
+        <seg>在 ${dnd_position} 处绘制精灵 ${sprite} 帧 ${image} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw sprite ${sprite} frame ${image} at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151823Z">
-        <seg>在 ${applyto} 上的${dnd_position}处绘制精灵 ${spite} 帧 ${image} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151823Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 处绘制精灵 ${spite} 帧 ${image} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw sprite ${sprite} in ${number} columns at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151827Z">
-        <seg>在${dnd_position}处的 ${number} 列中绘制精灵 ${sprite} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151827Z">
+        <seg>在 ${dnd_position} 处的 ${number} 列中绘制精灵 ${sprite} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw sprite ${sprite} in ${number} columns at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151828Z">
-        <seg>在 ${applyto} 上${dnd_position}处的 ${number} 列中绘制精灵 ${sprite} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151828Z">
+        <seg>在 ${applyto} 上 ${dnd_position} 处的 ${number} 列中绘制精灵 ${sprite} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw sprite ${sprite} in ${number} rows at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151826Z">
-        <seg>在${dnd_position}处的 ${number} 行中绘制精灵 ${sprite} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151826Z">
+        <seg>在 ${dnd_position} 处的 ${number} 行中绘制精灵 ${sprite} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw sprite ${sprite} in ${number} rows at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151827Z">
-        <seg>在 ${applyto} 的${dnd_position}处绘制 ${number} 行中的精灵 ${sprite} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151827Z">
+        <seg>在 ${applyto} 的 ${dnd_position} 处绘制 ${number} 行中的精灵 ${sprite} </seg>
       </tuv>
     </tu>
     <tu>
@@ -14090,64 +14090,64 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Draw transformed ${caption}" ${var} at ${dnd_position} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151821Z">
-        <seg>在 ${applyto} 上的${dnd_position}处绘制转换后的 ${caption} “ ${var} ”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151821Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 处绘制转换后的 ${caption} “ ${var} ”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw transformed ${caption}" ${var} at ${dnd_position}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151820Z">
-        <seg>在${dnd_position}处绘制转换后的 ${caption} “ ${var} ”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151820Z">
+        <seg>在 ${dnd_position} 处绘制转换后的 ${caption} “ ${var} ”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw transformed ${caption}" at ${dnd_position} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151819Z">
-        <seg>在 ${applyto} 上的${dnd_position}处绘制转换后的 ${caption} “</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151819Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 处绘制转换后的 ${caption} “</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw transformed ${caption}" at ${dnd_position}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151818Z">
-        <seg>在${dnd_position}处绘制转换后的 ${caption} “</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151818Z">
+        <seg>在 ${dnd_position} 处绘制转换后的 ${caption} “</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw transformed ${var} at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151817Z">
-        <seg>在${dnd_position}处绘制转换后的 ${var} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151817Z">
+        <seg>在 ${dnd_position} 处绘制转换后的 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw transformed ${var} at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151817Z">
-        <seg>在 ${applyto} 的${dnd_position}处绘制转换后的 ${var} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151817Z">
+        <seg>在 ${applyto} 的 ${dnd_position} 处绘制转换后的 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw transformed at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151815Z">
-        <seg>在${dnd_position}转换的绘图</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151815Z">
+        <seg>在 ${dnd_position} 转换的绘图</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Draw transformed at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151816Z">
-        <seg>在 ${applyto} 上的${dnd_position}处转换的绘图</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151816Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 处转换的绘图</seg>
       </tuv>
     </tu>
     <tu>
@@ -19157,8 +19157,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get a random element from a list into ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152424Z">
-        <seg>将列表中的随机元素获取到 ${var} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152424Z">
+        <seg>将列表中的随机元素获取到 ${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -19173,8 +19173,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get a random element from a list into temp ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152426Z">
-        <seg>将列表中的随机元素获取到临时 ${var} ${show_input_count}中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152426Z">
+        <seg>将列表中的随机元素获取到临时 ${var}${show_input_count}中</seg>
       </tuv>
     </tu>
     <tu>
@@ -20221,32 +20221,32 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get tile data at ${dnd_position} on layer ${layername} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151952Z">
-        <seg>将图层 ${layername} 上${dnd_position}处的切片数据获取到 ${var} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151952Z">
+        <seg>将图层 ${layername} 上 ${dnd_position} 处的切片数据获取到 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get tile data at ${dnd_position} on layer ${layername} into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153713Z">
-        <seg>将图层 ${layername} 上${dnd_position}处的切片数据获取到 ${applyto} 上的 ${var} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T153713Z">
+        <seg>将图层 ${layername} 上 ${dnd_position} 处的切片数据获取到 ${applyto} 上的 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get tile data at ${dnd_position} on layer ${layername} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151953Z">
-        <seg>将图层 ${layername} 上${dnd_position}处的切片数据获取到临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151953Z">
+        <seg>将图层 ${layername} 上 ${dnd_position} 处的切片数据获取到临时 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get tile data at ${dnd_position} on layer ${layername} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151954Z">
-        <seg>将图层 ${layername} 上${dnd_position}处的切片数据获取到 ${applyto} 上的临时 ${var} 中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151954Z">
+        <seg>将图层 ${layername} 上 ${dnd_position} 处的切片数据获取到 ${applyto} 上的临时 ${var} 中</seg>
       </tuv>
     </tu>
     <tu>
@@ -20285,32 +20285,32 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get tile index at ${dnd_position} on layer ${layername} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151905Z">
-        <seg>将图层 ${layername} 上${dnd_position}处的切片索引获取到 ${var} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151905Z">
+        <seg>将图层 ${layername} 上 ${dnd_position} 处的切片索引获取到 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get tile index at ${dnd_position} on layer ${layername} into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151906Z">
-        <seg>将图层 ${layername} 上${dnd_position}处的切片索引获取到 ${applyto} 上的 ${var} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151906Z">
+        <seg>将图层 ${layername} 上 ${dnd_position} 处的切片索引获取到 ${applyto} 上的 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get tile index at ${dnd_position} on layer ${layername} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151906Z">
-        <seg>将图层 ${layername} 上${dnd_position}处的切片索引获取到临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151906Z">
+        <seg>将图层 ${layername} 上 ${dnd_position} 处的切片索引获取到临时 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get tile index at ${dnd_position} on layer ${layername} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151907Z">
-        <seg>将图层 ${layername} 上${dnd_position}处的切片索引获取到 ${applyto} 上的临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151907Z">
+        <seg>将图层 ${layername} 上 ${dnd_position} 处的切片索引获取到 ${applyto} 上的临时 ${var} </seg>
       </tuv>
     </tu>
     <tu>
@@ -22786,416 +22786,416 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${object} is not overlapping self at ${dnd_position} into ${target} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005132Z" creationid="liaronce" creationdate="20200820T151732Z">
-        <seg>如果 ${object} 没有将${dnd_position}处的自身重叠到 ${applyto}${show_input_count}上的 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151732Z">
+        <seg>如果 ${object} 没有将 ${dnd_position} 处的自身重叠到 ${applyto}${show_input_count}上的 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${object} is not overlapping self at ${dnd_position} into ${target}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151731Z">
-        <seg>如果 ${object} 没有将位于${dnd_position}的自身重叠到 ${target} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151731Z">
+        <seg>如果 ${object} 没有将位于 ${dnd_position} 的自身重叠到 ${target} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${object} is not overlapping self at ${dnd_position} into temp ${target} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005132Z" creationid="liaronce" creationdate="20200820T151734Z">
-        <seg>如果 ${object} 没有将${dnd_position}处的自身重叠到 ${applyto}${show_input_count}上的临时 ${target} 中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151734Z">
+        <seg>如果 ${object} 没有将 ${dnd_position} 处的自身重叠到 ${applyto}${show_input_count}上的临时 ${target} 中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${object} is not overlapping self at ${dnd_position} into temp ${target}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153625Z">
-        <seg>如果 ${object} 没有将${dnd_position}处的自身重叠到临时 ${target} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T153625Z">
+        <seg>如果 ${object} 没有将 ${dnd_position} 处的自身重叠到临时 ${target} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${object} is not overlapping self at ${dnd_position} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005132Z" creationid="liaronce" creationdate="20200820T151730Z">
-        <seg>如果 ${object} 在 ${applyto}${show_input_count}上的${dnd_position}处没有重叠自身</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151730Z">
+        <seg>如果 ${object} 在 ${applyto}${show_input_count}上的 ${dnd_position} 处没有重叠自身</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${object} is not overlapping self at ${dnd_position}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151729Z">
-        <seg>如果 ${object} 在${dnd_position}${show_input_count}处不与自身重叠</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151729Z">
+        <seg>如果 ${object} 在 ${dnd_position} ${show_input_count}处不与自身重叠</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${object} is overlapping self at ${dnd_position} into ${target} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005132Z" creationid="liaronce" creationdate="20200820T151726Z">
-        <seg>如果 ${object} 将${dnd_position}处的自身重叠到 ${applyto}${show_input_count}上的 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151726Z">
+        <seg>如果 ${object} 将 ${dnd_position} 处的自身重叠到 ${applyto}${show_input_count}上的 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${object} is overlapping self at ${dnd_position} into ${target}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151725Z">
-        <seg>如果 ${object} 将位于${dnd_position}的自身重叠到 ${target} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151725Z">
+        <seg>如果 ${object} 将位于 ${dnd_position} 的自身重叠到 ${target} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${object} is overlapping self at ${dnd_position} into temp ${target} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005132Z" creationid="liaronce" creationdate="20200820T151728Z">
-        <seg>如果 ${object} 在${dnd_position}将自身重叠到 ${applyto}${show_input_count}上的临时 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151728Z">
+        <seg>如果 ${object} 在 ${dnd_position} 将自身重叠到 ${applyto}${show_input_count}上的临时 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${object} is overlapping self at ${dnd_position} into temp ${target}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151727Z">
-        <seg>如果 ${object} 在${dnd_position}将自身重叠到临时 ${target} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151727Z">
+        <seg>如果 ${object} 在 ${dnd_position} 将自身重叠到临时 ${target} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${object} is overlapping self at ${dnd_position} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005132Z" creationid="liaronce" creationdate="20200820T151724Z">
-        <seg>如果 ${object} 在 ${applyto}${show_input_count}上的${dnd_position}处与自身重叠</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151724Z">
+        <seg>如果 ${object} 在 ${applyto}${show_input_count}上的 ${dnd_position} 处与自身重叠</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${object} is overlapping self at ${dnd_position}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151724Z">
-        <seg>如果 ${object} 在${dnd_position}${show_input_count}与自身重叠</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151724Z">
+        <seg>如果 ${object} 在 ${dnd_position} ${show_input_count}与自身重叠</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151752Z">
-        <seg>如果 ${obj} 在${dnd_position 1}到${dnd_position 2}处与椭圆相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151752Z">
+        <seg>如果 ${obj} 在 ${dnd_position1} 到 ${dnd_position2} 处与椭圆相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151757Z">
-        <seg>如果 ${obj} 与位于${dnd_position 1}到${dnd_position 2}的椭圆相交，则为 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151757Z">
+        <seg>如果 ${obj} 与位于 ${dnd_position1} 到 ${dnd_position2} 的椭圆相交，则为 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151758Z">
-        <seg>如果 ${obj} 在${dnd_position 1}到${dnd_position 2}处的椭圆与 ${applyto} 上的 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151758Z">
+        <seg>如果 ${obj} 在 ${dnd_position1} 到 ${dnd_position2} 处的椭圆与 ${applyto} 上的 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151754Z">
-        <seg>如果 ${obj} 与列表 ${target} 中位于${dnd_position 1}到${dnd_position 2}的椭圆相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151754Z">
+        <seg>如果 ${obj} 与列表 ${target} 中位于 ${dnd_position1} 到 ${dnd_position2} 的椭圆相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151755Z">
-        <seg>如果 ${obj} 在${dnd_position 1}到${dnd_position 2}处的椭圆与 ${applyto} 上的列表 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151755Z">
+        <seg>如果 ${obj} 在 ${dnd_position1} 到 ${dnd_position2} 处的椭圆与 ${applyto} 上的列表 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151755Z">
-        <seg>如果 ${obj} 与位于${dnd_position 1}到${dnd_position 2}的椭圆相交，则列表临时为 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151755Z">
+        <seg>如果 ${obj} 与位于 ${dnd_position1} 到 ${dnd_position2} 的椭圆相交，则列表临时为 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153640Z">
-        <seg>如果 ${obj} 在${dnd_position 1}到${dnd_position 2}处的椭圆与 ${applyto} 上的列表临时 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T153640Z">
+        <seg>如果 ${obj} 在 ${dnd_position1} 到 ${dnd_position2} 处的椭圆与 ${applyto} 上的列表临时 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151759Z">
-        <seg>如果 ${obj} 在${dnd_position 1}到${dnd_position 2}处的椭圆与临时 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151759Z">
+        <seg>如果 ${obj} 在 ${dnd_position1} 到 ${dnd_position2} 处的椭圆与临时 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151800Z">
-        <seg>如果 ${obj} 在${dnd_position 1}到${dnd_position 2}处的椭圆与 ${applyto} 上的临时 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151800Z">
+        <seg>如果 ${obj} 在 ${dnd_position1} 到 ${dnd_position2} 处的椭圆与 ${applyto} 上的临时 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151753Z">
-        <seg>如果 ${obj} 与 ${applyto} 上的${dnd_position 1}到${dnd_position 2}处的椭圆相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151753Z">
+        <seg>如果 ${obj} 与 ${applyto} 上的 ${dnd_position1} 到 ${dnd_position2} 处的椭圆相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects line at ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153627Z">
-        <seg>如果 ${obj} 与${dnd_position 1}到${dnd_position 2}处的线相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T153627Z">
+        <seg>如果 ${obj} 与 ${dnd_position1} 到 ${dnd_position2} 处的线相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153632Z">
-        <seg>如果 ${obj} 与${dnd_position 1}到${dnd_position 2}处的线相交，则为 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T153632Z">
+        <seg>如果 ${obj} 与 ${dnd_position1} 到 ${dnd_position2} 处的线相交，则为 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151740Z">
-        <seg>如果 ${obj} 与${dnd_position 1}到${dnd_position 2}处的线相交，则为 ${applyto} 上的 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151740Z">
+        <seg>如果 ${obj} 与 ${dnd_position1} 到 ${dnd_position2} 处的线相交，则为 ${applyto} 上的 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151736Z">
-        <seg>如果 ${obj} 与列表 ${target} 中位于${dnd_position 1}到${dnd_position 2}的线相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151736Z">
+        <seg>如果 ${obj} 与列表 ${target} 中位于 ${dnd_position1} 到 ${dnd_position2} 的线相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153628Z">
-        <seg>如果 ${obj} 将${dnd_position 1}到${dnd_position 2}处的线与 ${applyto} 上的列表 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T153628Z">
+        <seg>如果 ${obj} 将 ${dnd_position1} 到 ${dnd_position2} 处的线与 ${applyto} 上的列表 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153629Z">
-        <seg>如果 ${obj} 与列表TEMP ${target} 中${dnd_position 1}到${dnd_position 2}处的行相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T153629Z">
+        <seg>如果 ${obj} 与列表TEMP ${target} 中 ${dnd_position1} 到 ${dnd_position2} 处的行相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153630Z">
-        <seg>如果 ${obj} 与${dnd_position 1}到${dnd_position 2}处的行相交，则进入 ${applyto} 上的列表临时 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T153630Z">
+        <seg>如果 ${obj} 与 ${dnd_position1} 到 ${dnd_position2} 处的行相交，则进入 ${applyto} 上的列表临时 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151741Z">
-        <seg>如果 ${obj} 与位于${dnd_position 1}到${dnd_position 2}的线相交，则进入临时 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151741Z">
+        <seg>如果 ${obj} 与位于 ${dnd_position1} 到 ${dnd_position2} 的线相交，则进入临时 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153635Z">
-        <seg>如果 ${obj} 与${dnd_position 1}到${dnd_position 2}处的线相交，则为 ${applyto} 上的临时 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T153635Z">
+        <seg>如果 ${obj} 与 ${dnd_position1} 到 ${dnd_position2} 处的线相交，则为 ${applyto} 上的临时 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects line at ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151735Z">
-        <seg>如果 ${obj} 与 ${applyto} 上${dnd_position 1}到${dnd_position 2}处的线相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151735Z">
+        <seg>如果 ${obj} 与 ${applyto} 上 ${dnd_position1} 到 ${dnd_position2} 处的线相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects point ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152922Z">
-        <seg>如果 ${obj} 与点${dnd_position}相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152922Z">
+        <seg>如果 ${obj} 与点 ${dnd_position} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects point ${dnd_position} into ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152927Z">
-        <seg>如果 ${obj} 将点${dnd_position}相交到 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152927Z">
+        <seg>如果 ${obj} 将点 ${dnd_position} 相交到 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects point ${dnd_position} into ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152928Z">
-        <seg>如果 ${obj} 将点${dnd_position}与 ${applyto} 上的 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152928Z">
+        <seg>如果 ${obj} 将点 ${dnd_position} 与 ${applyto} 上的 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects point ${dnd_position} into list ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152924Z">
-        <seg>如果 ${obj} 与列表 ${target} 中的点${dnd_position}相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152924Z">
+        <seg>如果 ${obj} 与列表 ${target} 中的点 ${dnd_position} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects point ${dnd_position} into list ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152925Z">
-        <seg>如果 ${obj} 将点${dnd_position}与 ${applyto} 上的列表 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152925Z">
+        <seg>如果 ${obj} 将点 ${dnd_position} 与 ${applyto} 上的列表 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects point ${dnd_position} into list temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152926Z">
-        <seg>如果 ${obj} 将点${dnd_position}相交到列表临时 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152926Z">
+        <seg>如果 ${obj} 将点 ${dnd_position} 相交到列表临时 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152926Z">
-        <seg>如果 ${obj} 与 ${applyto} 上的列表临时 ${target} 中的点${dnd_position}相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152926Z">
+        <seg>如果 ${obj} 与 ${applyto} 上的列表临时 ${target} 中的点 ${dnd_position} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects point ${dnd_position} into temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152929Z">
-        <seg>如果 ${obj} 将点${dnd_position}相交到临时 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152929Z">
+        <seg>如果 ${obj} 将点 ${dnd_position} 相交到临时 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152930Z">
-        <seg>如果 ${obj} 将点${dnd_position}与 ${applyto} 上的临时 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152930Z">
+        <seg>如果 ${obj} 将点 ${dnd_position} 与 ${applyto} 上的临时 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects point ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152923Z">
-        <seg>如果 ${obj} 与 ${applyto} 上的点${dnd_position}相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152923Z">
+        <seg>如果 ${obj} 与 ${applyto} 上的点 ${dnd_position} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153637Z">
-        <seg>如果 ${obj} 与位于${dnd_position 1}到${dnd_position 2}的矩形相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T153637Z">
+        <seg>如果 ${obj} 与位于 ${dnd_position1} 到 ${dnd_position2} 的矩形相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151748Z">
-        <seg>如果 ${obj} 与${dnd_position 1}到${dnd_position 2}处的矩形相交，则为 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151748Z">
+        <seg>如果 ${obj} 与 ${dnd_position1} 到 ${dnd_position2} 处的矩形相交，则为 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151749Z">
-        <seg>如果 ${obj} 与${dnd_position 1}到${dnd_position 2}处的矩形相交，则为 ${applyto} 上的 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151749Z">
+        <seg>如果 ${obj} 与 ${dnd_position1} 到 ${dnd_position2} 处的矩形相交，则为 ${applyto} 上的 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151745Z">
-        <seg>如果 ${obj} 与列表 ${target} 中${dnd_position 1}到${dnd_position 2}处的矩形相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151745Z">
+        <seg>如果 ${obj} 与列表 ${target} 中 ${dnd_position1} 到 ${dnd_position2} 处的矩形相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151746Z">
-        <seg>如果 ${obj} 与${dnd_position 1}到${dnd_position 2}处的矩形相交，则为 ${applyto} 上的列表 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151746Z">
+        <seg>如果 ${obj} 与 ${dnd_position1} 到 ${dnd_position2} 处的矩形相交，则为 ${applyto} 上的列表 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151747Z">
-        <seg>如果 ${obj} 与位于${dnd_position 1}到${dnd_position 2}的矩形相交，则列表临时为 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151747Z">
+        <seg>如果 ${obj} 与位于 ${dnd_position1} 到 ${dnd_position2} 的矩形相交，则列表临时为 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151747Z">
-        <seg>如果 ${obj} 与${dnd_position1}到${dnd_position 2}处的矩形相交，则为 ${applyto} 上的列表临时 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151747Z">
+        <seg>如果 ${obj} 与 ${dnd_position1} 到 ${dnd_position2} 处的矩形相交，则为 ${applyto} 上的列表临时 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151750Z">
-        <seg>如果 ${obj} 与位于${dnd_position 1}到${dnd_position 2}的矩形相交，则为临时 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151750Z">
+        <seg>如果 ${obj} 与位于 ${dnd_position1} 到 ${dnd_position2} 的矩形相交，则为临时 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151751Z">
-        <seg>如果 ${obj} 与${dnd_position 1}到${dnd_position 2}处的矩形相交，则为 ${applyto} 上的临时 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151751Z">
+        <seg>如果 ${obj} 与 ${dnd_position1} 到 ${dnd_position2} 处的矩形相交，则为 ${applyto} 上的临时 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151744Z">
-        <seg>如果 ${obj} 与 ${applyto} 上${dnd_position 1}到${dnd_position 2}处的矩形相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151744Z">
+        <seg>如果 ${obj} 与 ${applyto} 上 ${dnd_position1} 到 ${dnd_position2} 处的矩形相交</seg>
       </tuv>
     </tu>
     <tu>
@@ -23642,16 +23642,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If any instance is overlapping self at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151720Z">
-        <seg>如果任何实例在${dnd_position}处与自身重叠</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151720Z">
+        <seg>如果任何实例在 ${dnd_position} 处与自身重叠</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If any instance is overlapping self at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151721Z">
-        <seg>如果任何实例在 ${applyto} 上的${dnd_position}处与自身重叠</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151721Z">
+        <seg>如果任何实例在 ${applyto} 上的 ${dnd_position} 处与自身重叠</seg>
       </tuv>
     </tu>
     <tu>
@@ -24602,328 +24602,328 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If no instance is overlapping self at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151722Z">
-        <seg>如果${dnd_position}处没有实例与自身重叠</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151722Z">
+        <seg>如果 ${dnd_position} 处没有实例与自身重叠</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If no instance is overlapping self at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151723Z">
-        <seg>如果在 ${applyto} 上的${dnd_position}处没有实例与自身重叠</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151723Z">
+        <seg>如果在 ${applyto} 上的 ${dnd_position} 处没有实例与自身重叠</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152913Z">
-        <seg>否则， ${obj} 与椭圆在${dnd_position 1}到${dnd_position 2}相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152913Z">
+        <seg>否则， ${obj} 与椭圆在 ${dnd_position1} 到 ${dnd_position2} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152918Z">
-        <seg>否则， ${obj} 会将位于${dnd_position 1}到${dnd_position 2}的椭圆相交到 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152918Z">
+        <seg>否则， ${obj} 会将位于 ${dnd_position1} 到 ${dnd_position2} 的椭圆相交到 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152919Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position 2}的椭圆与 ${applyto} 上的 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152919Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的椭圆与 ${applyto} 上的 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152915Z">
-        <seg>否则， ${obj} 会将位于${dnd_position 1}到${dnd_position 2}的椭圆相交到列表 ${target} 中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152915Z">
+        <seg>否则， ${obj} 会将位于 ${dnd_position1} 到 ${dnd_position2} 的椭圆相交到列表 ${target} 中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152916Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position 2}的椭圆与 ${applyto} 上的列表 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152916Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的椭圆与 ${applyto} 上的列表 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152917Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position 2}的椭圆相交到列表TEMP ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152917Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的椭圆相交到列表TEMP ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152917Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position 2}的椭圆相交到 ${applyto} 上的列表临时 ${target} 中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152917Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的椭圆相交到 ${applyto} 上的列表临时 ${target} 中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152920Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position 2}的椭圆相交到临时 ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152920Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的椭圆相交到临时 ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152921Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position 2}的椭圆与 ${applyto} 上的临时 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152921Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的椭圆与 ${applyto} 上的临时 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152914Z">
-        <seg>否则， ${obj} 与 ${applyto} 上的${dnd_position 1}到${dnd_position 2}处的椭圆相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152914Z">
+        <seg>否则， ${obj} 与 ${applyto} 上的 ${dnd_position1} 到 ${dnd_position2} 处的椭圆相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151801Z">
-        <seg>否则， ${obj} 与${dnd_position 1}到${dnd_position 2}处的线相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151801Z">
+        <seg>否则， ${obj} 与 ${dnd_position1} 到 ${dnd_position2} 处的线相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153723Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position 2}的线与 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T153723Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的线与 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152901Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position 2}的线与 ${applyto} 上的 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152901Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的线与 ${applyto} 上的 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151803Z">
-        <seg>如果不是，则 ${obj} 将位于${dnd_position 1}到${dnd_position 2}的行与列表 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151803Z">
+        <seg>如果不是，则 ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的行与列表 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151803Z">
-        <seg>否则， ${obj} 将位于${dnd_position1}到${dnd_position 2}的线与 ${applyto} 上的列表 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151803Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的线与 ${applyto} 上的列表 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151804Z">
-        <seg>否则， ${obj} 将位于${dnd_position1}到${dnd_position2}的行与列表TEMP ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010011Z" creationid="liaronce" creationdate="20200820T151804Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的行与列表TEMP ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151805Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position2}的行与 ${applyto} 上的列表临时 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010042Z" creationid="liaronce" creationdate="20200820T151805Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的行与 ${applyto} 上的列表临时 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153724Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position2}的行与临时 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010042Z" creationid="liaronce" creationdate="20200820T153724Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的行与临时 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152903Z">
-        <seg>否则， ${obj} 将位于${dnd_position1}到${dnd_position 2}的线与 ${applyto} 上的临时 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152903Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的线与 ${applyto} 上的临时 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151802Z">
-        <seg>否则， ${obj} 与 ${applyto} 上${dnd_position 1}处的线与${dnd_position 2}相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T151802Z">
+        <seg>否则， ${obj} 与 ${applyto} 上 ${dnd_position1} 处的线与 ${dnd_position2} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects point ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152931Z">
-        <seg>如果不是，则 ${obj} 与点${dnd_position}相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152931Z">
+        <seg>如果不是，则 ${obj} 与点 ${dnd_position} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects point ${dnd_position} into ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152936Z">
-        <seg>否则， ${obj} 会将点${dnd_position}与 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152936Z">
+        <seg>否则， ${obj} 会将点 ${dnd_position} 与 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects point ${dnd_position} into ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152937Z">
-        <seg>否则， ${obj} 将点${dnd_position}与 ${applyto} 上的 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152937Z">
+        <seg>否则， ${obj} 将点 ${dnd_position} 与 ${applyto} 上的 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects point ${dnd_position} into list ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152932Z">
-        <seg>如果不是，则 ${obj} 将点${dnd_position}与列表 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152932Z">
+        <seg>如果不是，则 ${obj} 将点 ${dnd_position} 与列表 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects point ${dnd_position} into list ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152933Z">
-        <seg>否则， ${obj} 会将点${dnd_position}与 ${applyto} 上的列表 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152933Z">
+        <seg>否则， ${obj} 会将点 ${dnd_position} 与 ${applyto} 上的列表 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects point ${dnd_position} into list temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152934Z">
-        <seg>如果不是，则 ${obj} 将点${dnd_position}相交到列表临时 ${target} 中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152934Z">
+        <seg>如果不是，则 ${obj} 将点 ${dnd_position} 相交到列表临时 ${target} 中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152935Z">
-        <seg>否则， ${obj} 将点${dnd_position}与 ${applyto} 上的列表临时 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152935Z">
+        <seg>否则， ${obj} 将点 ${dnd_position} 与 ${applyto} 上的列表临时 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects point ${dnd_position} into temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153726Z">
-        <seg>否则， ${obj} 会将点${dnd_position}与临时 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T153726Z">
+        <seg>否则， ${obj} 会将点 ${dnd_position} 与临时 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152939Z">
-        <seg>否则， ${obj} 将点${dnd_position}与 ${applyto} 上的临时 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152939Z">
+        <seg>否则， ${obj} 将点 ${dnd_position} 与 ${applyto} 上的临时 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects point ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152932Z">
-        <seg>否则， ${obj} 与 ${applyto} 上的点${dnd_position}相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152932Z">
+        <seg>否则， ${obj} 与 ${applyto} 上的点 ${dnd_position} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152904Z">
-        <seg>否则， ${obj} 在${dnd_position 1}处与${dnd_position 2}处的矩形相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152904Z">
+        <seg>否则， ${obj} 在 ${dnd_position1} 处与 ${dnd_position2} 处的矩形相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153724Z">
-        <seg>否则， ${obj} 将位于${dnd_position1}到${dnd_position 2}的矩形与 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T153724Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的矩形与 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152911Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position 2}的矩形与 ${applyto} 上的 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152911Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的矩形与 ${applyto} 上的 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152906Z">
-        <seg>否则， ${obj} 会将位于${dnd_position 1}到${dnd_position 2}的矩形相交到列表 ${target} 中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152906Z">
+        <seg>否则， ${obj} 会将位于 ${dnd_position1} 到 ${dnd_position2} 的矩形相交到列表 ${target} 中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152907Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position 2}的矩形与 ${applyto} 上的列表 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152907Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的矩形与 ${applyto} 上的列表 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152908Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position 2}的矩形相交到列表TEMP ${target} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152908Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的矩形相交到列表TEMP ${target} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152909Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position 2}的矩形相交到 ${applyto} 上的列表临时 ${target} 中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152909Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的矩形相交到 ${applyto} 上的列表临时 ${target} 中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152911Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position 2}的矩形与临时 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T152911Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的矩形与临时 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153725Z">
-        <seg>否则， ${obj} 将位于${dnd_position 1}到${dnd_position 2}的矩形与 ${applyto} 上的临时 ${target} 相交</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010051Z" creationid="liaronce" creationdate="20200820T153725Z">
+        <seg>否则， ${obj} 将位于 ${dnd_position1} 到 ${dnd_position2} 的矩形与 ${applyto} 上的临时 ${target} 相交</seg>
       </tuv>
     </tu>
     <tu>
@@ -27119,16 +27119,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Jump to ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T153346Z">
-        <seg>跳至${dnd_position}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T153346Z">
+        <seg>跳至 ${dnd_position} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Jump to ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151714Z">
-        <seg>跳至 ${applyto} 上的${dnd_position}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151714Z">
+        <seg>跳至 ${applyto} 上的 ${dnd_position} </seg>
       </tuv>
     </tu>
     <tu>
@@ -35162,8 +35162,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Push ${value} onto stack ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152231Z">
-        <seg>将 ${value} 推送到堆栈 ${var} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152231Z">
+        <seg>将 ${value} 推送到堆栈 ${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -38516,48 +38516,48 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Scale to image_xscale+${xscale},${yscale}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T150931Z">
-        <seg>缩放至image_xscale+ ${xscale} ， ${yscale} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005919Z" creationid="liaronce" creationdate="20200820T150931Z">
+        <seg>缩放至 image_xscale+ ${xscale} ， ${yscale} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale to image_xscale+${xscale},image_yscale</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T150936Z">
-        <seg>缩放至image_xscale+ ${xscale} ，image_yscale</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005920Z" creationid="liaronce" creationdate="20200820T150936Z">
+        <seg>缩放至 image_xscale+ ${xscale} ，image_yscale</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale to image_xscale+${xscale},image_yscale+${yscale}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151054Z">
-        <seg>缩放至image_xscale+ ${xscale} ,image_yscale+ ${yscale} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005921Z" creationid="liaronce" creationdate="20200820T151054Z">
+        <seg>缩放至 image_xscale+ ${xscale} ,image_yscale+ ${yscale} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale to image_xscale,${yscale}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144206Z">
-        <seg>缩放至image_xscale， ${yscale} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005900Z" creationid="liaronce" creationdate="20200820T144206Z">
+        <seg>缩放至 image_xscale， ${yscale} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale to image_xscale,image_yscale</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153828Z" creationid="liaronce" creationdate="20200820T144207Z">
-        <seg>缩放到image_xscale,image_yscale</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005915Z" creationid="liaronce" creationdate="20200820T144207Z">
+        <seg>缩放至 image_xscale,image_yscale</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale to image_xscale,image_yscale+${yscale}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144208Z">
-        <seg>缩放至image_xscale，image_yscale+ ${yscale} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005917Z" creationid="liaronce" creationdate="20200820T144208Z">
+        <seg>缩放至 image_xscale，image_yscale+ ${yscale} </seg>
       </tuv>
     </tu>
     <tu>
@@ -40410,8 +40410,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set a new grid with size ${width},${height} to ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152140Z">
-        <seg>设置新格网，大小为 ${width} ，高度为 ${var} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152140Z">
+        <seg>设置新格网，大小为 ${width} ，高度为 ${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40426,8 +40426,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set a new grid with size ${width},${height} to temp ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152141Z">
-        <seg>将大小为 ${width} ,高度为 ${height} 的新格网设置为临时 ${var} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152141Z">
+        <seg>将大小为 ${width} ,高度为 ${height} 的新格网设置为临时 ${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40442,8 +40442,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set a new list to ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152133Z">
-        <seg>将新列表设置为 ${var} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152133Z">
+        <seg>将新列表设置为 ${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40458,8 +40458,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set a new list to temp ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152134Z">
-        <seg>将新列表设置为临时 ${var} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152134Z">
+        <seg>将新列表设置为临时 ${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40474,8 +40474,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set a new map to ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152136Z">
-        <seg>将新地图设置为 ${var} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152136Z">
+        <seg>将新地图设置为 ${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40490,8 +40490,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set a new map to temp ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152138Z">
-        <seg>将新地图设置为临时 ${var} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152138Z">
+        <seg>将新地图设置为临时 ${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40506,8 +40506,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set a new stack to ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152143Z">
-        <seg>将新堆栈设置为 ${var} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152143Z">
+        <seg>将新堆栈设置为 ${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40522,8 +40522,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set a new stack to temp ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152145Z">
-        <seg>将新堆栈设置为临时 ${var} ${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152145Z">
+        <seg>将新堆栈设置为临时 ${var}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40738,16 +40738,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set direction towards ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T151641Z">
-        <seg>设置朝向${dnd_position}的方向</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151641Z">
+        <seg>设置朝向 ${dnd_position} 的方向</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set direction towards ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151642Z">
-        <seg>将方向设置为 ${applyto} 上的${dnd_position}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151642Z">
+        <seg>将方向设置为 ${applyto} 上的 ${dnd_position} </seg>
       </tuv>
     </tu>
     <tu>
@@ -40946,8 +40946,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set key ${key} to ${value} in map ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152217Z">
-        <seg>将地图 ${var} ${show_input_count}中的密钥 ${key} 设置为 ${value} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005833Z" creationid="liaronce" creationdate="20200820T152217Z">
+        <seg>将地图 ${var}${show_input_count}中的密钥 ${key} 设置为 ${value} </seg>
       </tuv>
     </tu>
     <tu>
@@ -41738,16 +41738,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set tile data at ${dnd_position} on layer ${layername} to ${element}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153711Z">
-        <seg>将图层 ${layername} 上${dnd_position}处的切片数据设置为 ${element} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T153711Z">
+        <seg>将图层 ${layername} 上 ${dnd_position} 处的切片数据设置为 ${element} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set tile data at ${dnd_position} on layer ${layername} to ${element} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153711Z">
-        <seg>将图层 ${layername} 上${dnd_position}处的切片数据设置为 ${applyto} 上的 ${element} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T153711Z">
+        <seg>将图层 ${layername} 上 ${dnd_position} 处的切片数据设置为 ${applyto} 上的 ${element} </seg>
       </tuv>
     </tu>
     <tu>
@@ -41770,16 +41770,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set tile on layer ${layername} at ${dnd_position} to ${tile}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153650Z">
-        <seg>将图层 ${layername} 上${dnd_position}处的切片设置为 ${tile} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T153650Z">
+        <seg>将图层 ${layername} 上 ${dnd_position} 处的切片设置为 ${tile} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set tile on layer ${layername} at ${dnd_position} to ${tile} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153655Z">
-        <seg>将${dnd_position}处的图层 ${layername} 上的切片设置为 ${applyto} 上的 ${tile} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T153655Z">
+        <seg>将 ${dnd_position} 处的图层 ${layername} 上的切片设置为 ${applyto} 上的 ${tile} </seg>
       </tuv>
     </tu>
     <tu>
@@ -42630,16 +42630,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Show effect at ${dnd_position}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T153813Z" creationid="liaronce" creationdate="20200820T152843Z">
-        <seg>在${dnd_position}显示效果</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152843Z">
+        <seg>在 ${dnd_position} 显示效果</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Show effect at ${dnd_position} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152844Z">
-        <seg>在 ${applyto} 上的${dnd_position}显示效果</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T152844Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 显示效果</seg>
       </tuv>
     </tu>
     <tu>
