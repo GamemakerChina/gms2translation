@@ -1289,16 +1289,16 @@
       <tuv lang="EN-US">
         <seg>Add ${expr} to ${var} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143657Z" creationid="liaronce" creationdate="20200820T143657Z">
-        <seg>将${expr}添加到${applyto}${show_input_count}上的${var}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T042528Z" creationid="liaronce" creationdate="20200820T143657Z">
+        <seg>令${applyto} 的变量 ${var} 增加 ${expr} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Add ${expr} to ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143613Z" creationid="liaronce" creationdate="20200820T143613Z">
-        <seg>将 ${expr} 添加到 $[var]$[show_input_count]</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T042500Z" creationid="liaronce" creationdate="20200820T143613Z">
+        <seg>令变量${var} 增加 ${expr} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -39768,16 +39768,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="EN-US">
         <seg>Set ${var} to ${expr} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143646Z" creationid="liaronce" creationdate="20200820T143554Z">
-        <seg>在 ${applyto}${show_input_count} 上将 ${var} 设置为 ${expr}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T042406Z" creationid="liaronce" creationdate="20200820T143554Z">
+        <seg>在 ${applyto}上设置 ${var} 为 ${expr}${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Set ${var} to ${expr}${show_input_count}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143544Z" creationid="liaronce" creationdate="20200820T143531Z">
-        <seg>将 ${var} 设置为 ${expr}${show_input_count}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T042354Z" creationid="liaronce" creationdate="20200820T143531Z">
+        <seg>设置变量 ${var} 为表达式 ${expr}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
