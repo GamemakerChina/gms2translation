@@ -1241,16 +1241,16 @@
       <tuv lang="en-US">
         <seg>Add ${expr} to ${var} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143657Z">
-        <seg>将  ${expr}  添加到 ${applyto}${show_input_count} 上的 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142119Z" creationid="liaronce" creationdate="20200820T143657Z">
+        <seg>令 ${applyto} 的变量 ${var} 增加 ${expr} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${expr} to ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143613Z">
-        <seg>将  ${expr}  添加到 $[var]$[show_input_count]</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142031Z" creationid="liaronce" creationdate="20200820T143613Z">
+        <seg>令变量 ${var} 增加 ${expr} $[show_input_count]</seg>
       </tuv>
     </tu>
     <tu>
@@ -11389,32 +11389,32 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Declare temp ${var} and set it to ${value} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143907Z">
-        <seg>在 ${applyto}${show_input_count} 上声明临时 ${var} 并将其设置为 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142653Z" creationid="liaronce" creationdate="20200820T143907Z">
+        <seg>在 ${applyto} 上声明临时 ${var} 并将其设置为 ${value} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Declare temp ${var} and set it to ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143859Z">
-        <seg>声明临时 ${var} 并将其设置为 ${value}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142157Z" creationid="liaronce" creationdate="20200820T143859Z">
+        <seg>声明临时变量 ${var} 并将其设置为 ${value} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Declare temp ${var} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143853Z">
-        <seg>在 ${applyto}${show_input_count} 上声明临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142141Z" creationid="liaronce" creationdate="20200820T143853Z">
+        <seg>在 ${applyto} 上声明临时 ${var} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Declare temp ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143701Z">
-        <seg>声明临时 ${var}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142129Z" creationid="liaronce" creationdate="20200820T143701Z">
+        <seg>声明临时变量 ${var} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -39720,16 +39720,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set ${var} to ${expr} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010135Z" creationid="liaronce" creationdate="20200820T143554Z">
-        <seg>在  ${applyto}${show_input_count} 上将  ${var}  设置为  ${expr} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T141922Z" creationid="liaronce" creationdate="20200820T143554Z">
+        <seg>设置 ${applyto} 的变量 ${var} 为 ${expr} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set ${var} to ${expr}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143531Z">
-        <seg>将  ${var}  设置为  ${expr}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T141918Z" creationid="liaronce" creationdate="20200820T143531Z">
+        <seg>设置变量 ${var} 为 ${expr} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
