@@ -16185,16 +16185,16 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>Execute and set ${var} to return value of ${script} with ${input_count} arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144737Z" creationid="liaronce" creationdate="20200820T144017Z">
-        <seg>使用 ${input_count} 参数执行脚本 ${script} 并设置变量 ${var} 为返回值</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144754Z" creationid="liaronce" creationdate="20200820T144017Z">
+        <seg>使用${input_count}个参数执行脚本 ${script} 并设置变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set ${var} to return value of ${script} with ${input_count} arguments on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144747Z" creationid="liaronce" creationdate="20200820T144018Z">
-        <seg>使用 ${input_count} 参数执行 ${var} 并将其设置为在 ${applyto} 上返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144856Z" creationid="liaronce" creationdate="20200820T144018Z">
+        <seg>在 ${applyto} 上使用${input_count}个参数执行脚本 ${script} 并设置变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
@@ -16217,16 +16217,16 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>Execute and set temp ${var} to return value of ${script}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144019Z">
-        <seg>执行并设置临时 ${var} 以返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144913Z" creationid="liaronce" creationdate="20200820T144019Z">
+        <seg>执行脚本 ${script} 并设置临时变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set temp ${var} to return value of ${script} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144021Z">
-        <seg>执行并设置临时 ${var} 以在 ${applyto} 上返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144938Z" creationid="liaronce" creationdate="20200820T144021Z">
+        <seg>在 ${applyto} 上执行脚本 ${script} 并设置临时变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
@@ -16249,16 +16249,16 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>Execute and set temp ${var} to return value of ${script} with 1 argument</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144022Z">
-        <seg>执行并设置临时 ${var} 以使用1个参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145005Z" creationid="liaronce" creationdate="20200820T144022Z">
+        <seg>使用1个参数执行脚本 ${script} 并设置临时变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set temp ${var} to return value of ${script} with 1 argument on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144023Z">
-        <seg>执行临时 ${var} 并将其设置为在 ${applyto} 上使用1个参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145040Z" creationid="liaronce" creationdate="20200820T144023Z">
+        <seg>在 ${applyto} 上使用1个参数执行脚本 ${script} 并设置临时变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
