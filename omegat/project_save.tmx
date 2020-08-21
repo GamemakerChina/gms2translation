@@ -16217,16 +16217,16 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="EN-US">
         <seg>Execute and set ${var} to return value of ${script}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T144011Z" creationid="liaronce" creationdate="20200820T144011Z">
-        <seg>执行并设置${var}以返回值${script}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T040126Z" creationid="liaronce" creationdate="20200820T144011Z">
+        <seg>执行脚本${script}并将返回值设置给${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Execute and set ${var} to return value of ${script} on ${applyto}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T144012Z" creationid="liaronce" creationdate="20200820T144012Z">
-        <seg>执行并设置${var}以在${applyto}上返回值${script}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T040403Z" creationid="liaronce" creationdate="20200820T144012Z">
+        <seg>在${applyto}上执行脚本${script}并将返回值设置给${var}</seg>
       </tuv>
     </tu>
     <tu>
