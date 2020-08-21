@@ -72,8 +72,8 @@
       <tuv lang="en-US">
         <seg>${overridden_name} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144001Z">
-        <seg> ${applyto} 上的${overriden_name}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005320Z" creationid="liaronce" creationdate="20200820T144001Z">
+        <seg>${applyto} 上的 ${overriden_name}</seg>
       </tuv>
     </tu>
     <tu>
@@ -6180,16 +6180,16 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Call ${function} with ${input_count} arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144039Z">
-        <seg>使用${input_count}个参数调用 ${function} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005420Z" creationid="liaronce" creationdate="20200820T144039Z">
+        <seg>使用 ${input_count} 个参数调用 ${function} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Call ${function} with ${input_count} arguments on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144040Z">
-        <seg>使用 ${applyto} 上的${input_count}参数调用 ${function} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005421Z" creationid="liaronce" creationdate="20200820T144040Z">
+        <seg>使用 ${applyto} 上的 ${input_count} 参数调用 ${function} </seg>
       </tuv>
     </tu>
     <tu>
@@ -16105,16 +16105,16 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>Execute ${script} with ${input_count} arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144009Z">
-        <seg>使用${input_count}个参数执行 ${script} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005329Z" creationid="liaronce" creationdate="20200820T144009Z">
+        <seg>使用 ${input_count} 个参数执行 ${script} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute ${script} with ${input_count} arguments on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144010Z">
-        <seg>在 ${applyto} 上使用${input_count}参数执行 ${script} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005415Z" creationid="liaronce" creationdate="20200820T144010Z">
+        <seg>在 ${applyto} 上使用 ${input_count} 参数执行 ${script} </seg>
       </tuv>
     </tu>
     <tu>
@@ -16185,16 +16185,16 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>Execute and set ${var} to return value of ${script} with ${input_count} arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144017Z">
-        <seg>执行并设置 ${var} 以使用${input_count}参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005417Z" creationid="liaronce" creationdate="20200820T144017Z">
+        <seg>执行并设置 ${var} 以使用 ${input_count} 参数返回值 ${script} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set ${var} to return value of ${script} with ${input_count} arguments on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144018Z">
-        <seg>执行 ${var} 并将其设置为在 ${applyto} 上使用${input_count}参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005418Z" creationid="liaronce" creationdate="20200820T144018Z">
+        <seg>执行 ${var} 并将其设置为在 ${applyto} 上使用 ${input_count} 参数返回值 ${script} </seg>
       </tuv>
     </tu>
     <tu>
@@ -16233,16 +16233,16 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>Execute and set temp ${var} to return value of ${script} with ${input_count} arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144024Z">
-        <seg>执行并设置临时 ${var} 以使用${input_count}参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005419Z" creationid="liaronce" creationdate="20200820T144024Z">
+        <seg>执行并设置临时 ${var} 以使用 ${input_count} 参数返回值 ${script} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set temp ${var} to return value of ${script} with ${input_count} arguments on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144025Z">
-        <seg>执行临时 ${var} 并将其设置为使用 ${applyto} 上的${input_count}参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005420Z" creationid="liaronce" creationdate="20200820T144025Z">
+        <seg>执行临时 ${var} 并将其设置为使用 ${applyto} 上的 ${input_count} 参数返回值 ${script} </seg>
       </tuv>
     </tu>
     <tu>
@@ -19445,8 +19445,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get global variable ${var} into temp ${output} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005132Z" creationid="liaronce" creationdate="20200820T143915Z">
-        <seg>将全局变量 ${var} 获取到 ${applyto}${show_input_count}上的临时 ${output} 中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005233Z" creationid="liaronce" creationdate="20200820T143915Z">
+        <seg>将全局变量 ${var} 获取到 ${applyto}${show_input_count} 上的临时 ${output} 中</seg>
       </tuv>
     </tu>
     <tu>
@@ -22658,8 +22658,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${expr} is false on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005132Z" creationid="liaronce" creationdate="20200820T143940Z">
-        <seg>如果 ${applyto}${show_input_count}上的 ${expr} 为false</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005249Z" creationid="liaronce" creationdate="20200820T143940Z">
+        <seg>如果 ${applyto}${show_input_count} 上的 ${expr} 为false</seg>
       </tuv>
     </tu>
     <tu>
@@ -22674,8 +22674,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${expr} is true on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005132Z" creationid="liaronce" creationdate="20200820T143938Z">
-        <seg>如果 ${applyto}${show_input_count}上的 ${expr} 为true</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005244Z" creationid="liaronce" creationdate="20200820T143938Z">
+        <seg>如果 ${applyto}${show_input_count} 上的 ${expr} 为true</seg>
       </tuv>
     </tu>
     <tu>
@@ -23362,24 +23362,24 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${var} is not undefined on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005132Z" creationid="liaronce" creationdate="20200820T143944Z">
-        <seg>如果 ${applyto}${show_input_count}上的 ${var} 未定义</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005303Z" creationid="liaronce" creationdate="20200820T143944Z">
+        <seg>如果 ${applyto}${show_input_count} 上的 ${var} 未定义</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is not undefined${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143943Z">
-        <seg>如果 ${var} 不是未定义的${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005259Z" creationid="liaronce" creationdate="20200820T143943Z">
+        <seg>如果 ${var} 不是未定义的 ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is undefined on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005132Z" creationid="liaronce" creationdate="20200820T143942Z">
-        <seg>如果 ${applyto}${show_input_count}上的 ${var} 未定义</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005251Z" creationid="liaronce" creationdate="20200820T143942Z">
+        <seg>如果 ${applyto}${show_input_count} 上的 ${var} 未定义</seg>
       </tuv>
     </tu>
     <tu>
@@ -39752,16 +39752,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set ${var} to return value of ${function} with ${input_count} arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144045Z">
-        <seg>将 ${var} 设置为使用${input_count}个参数返回值 ${function} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005421Z" creationid="liaronce" creationdate="20200820T144045Z">
+        <seg>将 ${var} 设置为使用 ${input_count} 个参数返回值 ${function} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set ${var} to return value of ${function} with ${input_count} arguments on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144046Z">
-        <seg>设置 ${var} 以使用 ${applyto} 上的${input_count}参数返回值 ${function} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005421Z" creationid="liaronce" creationdate="20200820T144046Z">
+        <seg>设置 ${var} 以使用 ${applyto} 上的 ${input_count} 参数返回值 ${function} </seg>
       </tuv>
     </tu>
     <tu>
@@ -41266,16 +41266,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set temp ${var} to return value of ${function} with ${input_count} arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144053Z">
-        <seg>将TEMP ${var} 设置为使用${input_count}个参数返回值 ${function} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005422Z" creationid="liaronce" creationdate="20200820T144053Z">
+        <seg>将TEMP ${var} 设置为使用 ${input_count} 个参数返回值 ${function} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set temp ${var} to return value of ${function} with ${input_count} arguments on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144054Z">
-        <seg>将TEMP ${var} 设置为使用 ${applyto} 上的${input_count}参数返回值 ${function} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005424Z" creationid="liaronce" creationdate="20200820T144054Z">
+        <seg>将TEMP ${var} 设置为使用 ${applyto} 上的 ${input_count} 参数返回值 ${function} </seg>
       </tuv>
     </tu>
     <tu>
