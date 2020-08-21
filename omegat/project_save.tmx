@@ -1481,16 +1481,16 @@
       <tuv lang="en-US">
         <seg>Add ${value} to global variable ${var} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143911Z">
-        <seg>将 ${value} 添加到 ${applyto}${show_input_count} 上的全局变量 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142807Z" creationid="liaronce" creationdate="20200820T143911Z">
+        <seg>在 ${applyto} 上令全局变量 ${var} 增加 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${value} to global variable ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143910Z">
-        <seg>将 ${value} 添加到全局变量 ${var}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142732Z" creationid="liaronce" creationdate="20200820T143910Z">
+        <seg>令全局变量 ${var} 增加 ${value} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -19429,16 +19429,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get global variable ${var} into ${output} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143913Z">
-        <seg>将全局变量 ${var} 获取到 ${applyto}${show_input_count} 上的 ${output} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142953Z" creationid="liaronce" creationdate="20200820T143913Z">
+        <seg>获取全局变量 ${var} 到 ${applyto} 的 ${output} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get global variable ${var} into ${output}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143912Z">
-        <seg>将全局变量 ${var} 获取到 ${output} ${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142905Z" creationid="liaronce" creationdate="20200820T143912Z">
+        <seg>获取全局变量 ${var} 到 ${output} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -40818,16 +40818,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set global variable ${var} to ${value} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143909Z">
-        <seg>在 ${applyto}${show_input_count} 上将全局变量 ${var} 设置为 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142717Z" creationid="liaronce" creationdate="20200820T143909Z">
+        <seg>在 ${applyto} 上设置全局变量 ${var} 为 ${value} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set global variable ${var} to ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143908Z">
-        <seg>将全局变量 ${var} 设置为 ${value}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142703Z" creationid="liaronce" creationdate="20200820T143908Z">
+        <seg>设置全局变量 ${var} 为 ${value} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
