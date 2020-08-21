@@ -11445,8 +11445,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="EN-US">
         <seg>Declare temp ${var} and set it to ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143859Z" creationid="liaronce" creationdate="20200820T143859Z">
-        <seg>声明临时${var}并将其设置为${value}${show_input_count}</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T042115Z" creationid="liaronce" creationdate="20200820T143859Z">
+        <seg>声明临时变量${var}并将其设置为${value}${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
@@ -23410,8 +23410,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="EN-US">
         <seg>If ${var} is not undefined on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="liaronce" changedate="20200820T143944Z" creationid="liaronce" creationdate="20200820T143944Z">
-        <seg>如果${applyto}${show_input_count}上的${var}未定义</seg>
+      <tuv lang="ZH-CN" changeid="36011" changedate="20200821T042122Z" creationid="liaronce" creationdate="20200820T143944Z">
+        <seg>如果${applyto}上的${var}未定义${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
