@@ -19517,8 +19517,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get index of item ${value} in list ${var} into ${assignee}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T152208Z">
-        <seg>将列表 ${var} 中项目 ${value} 的索引获取到 ${assignee} ${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010546Z" creationid="liaronce" creationdate="20200820T152208Z">
+        <seg>将列表 ${var} 中项目 ${value} 的索引获取到 ${assignee}${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -19533,8 +19533,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get index of item ${value} in list ${var} into temp ${assignee}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T152210Z">
-        <seg>将列表 ${var} 中项目 ${value} 的索引获取到临时 ${assignee} ${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010546Z" creationid="liaronce" creationdate="20200820T152210Z">
+        <seg>将列表 ${var} 中项目 ${value} 的索引获取到临时 ${assignee}${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -19581,8 +19581,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get item ${index} in list ${var} into ${assignee}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T152205Z">
-        <seg>将列表 ${var} 中的项目 ${index} 获取到 ${assignee} ${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010546Z" creationid="liaronce" creationdate="20200820T152205Z">
+        <seg>将列表 ${var} 中的项目 ${index} 获取到 ${assignee}${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -19597,8 +19597,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get item ${index} in list ${var} into temp ${assignee}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T152207Z">
-        <seg>将列表 ${var} 中的项目 ${index} 获取到临时 ${assignee} ${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010546Z" creationid="liaronce" creationdate="20200820T152207Z">
+        <seg>将列表 ${var} 中的项目 ${index} 获取到临时 ${assignee}${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -20677,8 +20677,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get value in grid ${var} at ${x},${y} into ${assignee}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T152226Z">
-        <seg>将网格 ${var} 中 ${x} , ${y} 处的值获取到 ${assignee} ${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010546Z" creationid="liaronce" creationdate="20200820T152226Z">
+        <seg>将网格 ${var} 中 ${x} , ${y} 处的值获取到 ${assignee}${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -20693,8 +20693,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get value in grid ${var} at ${x},${y} into temp ${assignee}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T152228Z">
-        <seg>在网格 ${var} 中获取 ${x} , ${y} 处的值到临时 ${assignee} ${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010546Z" creationid="liaronce" creationdate="20200820T152228Z">
+        <seg>在网格 ${var} 中获取 ${x} , ${y} 处的值到临时 ${assignee}${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -20709,8 +20709,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get value of key ${key} in map ${map} into ${assignee}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T152219Z">
-        <seg>获取映射 ${map} 到 ${assignee} ${show_input_count} 中的密钥 ${key} 的值</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010546Z" creationid="liaronce" creationdate="20200820T152219Z">
+        <seg>获取映射 ${map} 到 ${assignee}${show_input_count} 中的密钥 ${key} 的值</seg>
       </tuv>
     </tu>
     <tu>
@@ -20725,8 +20725,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get value of key ${key} in map ${map} into temp ${assignee}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T152220Z">
-        <seg>获取映射 ${map} 到临时 ${assignee} ${show_input_count} 中的密钥 ${key} 的值</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010546Z" creationid="liaronce" creationdate="20200820T152220Z">
+        <seg>获取映射 ${map} 到临时 ${assignee}${show_input_count} 中的密钥 ${key} 的值</seg>
       </tuv>
     </tu>
     <tu>
@@ -34268,8 +34268,8 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       <tuv lang="en-US">
         <seg>Pop from stack ${var} into ${assignee}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T152233Z">
-        <seg>从堆栈 ${var} 弹出到 ${assignee} ${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010546Z" creationid="liaronce" creationdate="20200820T152233Z">
+        <seg>从堆栈 ${var} 弹出到 ${assignee}${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -34284,8 +34284,8 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       <tuv lang="en-US">
         <seg>Pop from stack ${var} into temp ${assignee}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T152235Z">
-        <seg>从堆栈 ${var} 弹出到临时 ${assignee} ${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010546Z" creationid="liaronce" creationdate="20200820T152235Z">
+        <seg>从堆栈 ${var} 弹出到临时 ${assignee}${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -37116,8 +37116,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Resume timeline on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152551Z">
-        <seg>恢复 ${applyto} 的时间表</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010658Z" creationid="liaronce" creationdate="20200820T152551Z">
+        <seg>恢复 ${applyto} 的时间线</seg>
       </tuv>
     </tu>
     <tu>
@@ -41162,24 +41162,24 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase $(sizeincr} and wiggle ${wiggle} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152747Z">
-        <seg>将粒子类型 ${type} 的大小从最小 ${minsize} 设置为最大 ${maxsize} ，并在 ${applyto} 上增加$(sizeincr}和wigger ${wiggle} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010709Z" creationid="liaronce" creationdate="20200820T152747Z">
+        <seg>将粒子类型 ${type} 的大小从最小 ${minsize} 设置为最大 ${maxsize} ，并在 ${applyto} 上增加 $(sizeincr} 和wigger ${wiggle} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase $(incr} and wiggle ${wiggle}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152759Z">
-        <seg>将粒子类型 ${type} 的速度从最小 ${minspeed} 设置为最大 ${maxspeed} ，并增加$(incr}和wigger ${wiggle} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010725Z" creationid="liaronce" creationdate="20200820T152759Z">
+        <seg>将粒子类型 ${type} 的速度从最小 ${minspeed} 设置为最大 ${maxspeed} ，并增加 $(incr} 和wigger ${wiggle} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase $(incr} and wiggle ${wiggle} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153722Z">
-        <seg>将粒子类型 ${type} 的速度从最小 ${minspeed} 设置为最大 ${maxspeed} ，并在 ${applyto} 上增加$(incr}和wigger ${wiggle} </seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010735Z" creationid="liaronce" creationdate="20200820T153722Z">
+        <seg>将粒子类型 ${type} 的速度从最小 ${minspeed} 设置为最大 ${maxspeed} ，并在 ${applyto} 上增加 $(incr} 和wigger ${wiggle} </seg>
       </tuv>
     </tu>
     <tu>
