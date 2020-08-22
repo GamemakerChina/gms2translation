@@ -19413,16 +19413,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get gamepad device count into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151616Z">
-        <seg>将游戏手柄设备计数获取到临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030236Z" creationid="liaronce" creationdate="20200820T151616Z">
+        <seg>对游戏手柄设备计数并存入临时变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get gamepad device count into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151617Z">
-        <seg>获取 ${applyto} 上的临时 ${var} 游戏手柄设备计数</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030258Z" creationid="liaronce" creationdate="20200820T151617Z">
+        <seg>在 ${applyto} 上对游戏手柄设备计数并存入临时变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
@@ -21029,32 +21029,32 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get whether gamepad ${gp} is connected into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151618Z">
-        <seg>获取游戏手柄 ${gp} 是否连接到 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030348Z" creationid="liaronce" creationdate="20200820T151618Z">
+        <seg>获取游戏手柄 ${gp} 是否被连入并存入变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get whether gamepad ${gp} is connected into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151619Z">
-        <seg>获取游戏面板 ${gp} 是否连接到 ${applyto} 上的 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030358Z" creationid="liaronce" creationdate="20200820T151619Z">
+        <seg>获取游戏手柄 ${gp} 是否被连入并存入 ${applyto} 的变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get whether gamepad ${gp} is connected into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151620Z">
-        <seg>获取游戏手柄 ${gp} 是否连接到临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030409Z" creationid="liaronce" creationdate="20200820T151620Z">
+        <seg>获取游戏手柄 ${gp} 是否被连入并存入临时变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get whether gamepad ${gp} is connected into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151621Z">
-        <seg>获取游戏手柄 ${gp} 是否连接到 ${applyto} 上的临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030424Z" creationid="liaronce" creationdate="20200820T151621Z">
+        <seg>获取游戏手柄 ${gp} 是否连入并存入 ${applyto} 的临时变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
@@ -40658,8 +40658,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set button threshold of gamepad ${gp} to ${threshold}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151623Z">
-        <seg>将游戏面板 ${gp} 的按钮阈值设置为 ${threshold} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030524Z" creationid="liaronce" creationdate="20200820T151623Z">
+        <seg>设置游戏手柄 ${gp} 的按钮阈值为 ${threshold} </seg>
       </tuv>
     </tu>
     <tu>
@@ -40690,16 +40690,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set deadzone of gamepad ${gp} to ${deadzone}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151621Z">
-        <seg>将游戏手柄 ${gp} 的死区设置为 ${deadzone} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030438Z" creationid="liaronce" creationdate="20200820T151621Z">
+        <seg>设置游戏手柄 ${gp} 的盲区为 ${deadzone} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set deadzone of gamepad ${gp} to ${deadzone} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151622Z">
-        <seg>在 ${applyto} 上将游戏手柄 ${gp} 的死区设置为 ${deadzone} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030500Z" creationid="liaronce" creationdate="20200820T151622Z">
+        <seg>在 ${applyto} 上设置游戏手柄 ${gp} 的盲区为 ${deadzone} </seg>
       </tuv>
     </tu>
     <tu>
