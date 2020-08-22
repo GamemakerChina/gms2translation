@@ -1273,16 +1273,16 @@
       <tuv lang="en-US">
         <seg>Add ${friction} to friction</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151709Z">
-        <seg>将 ${friction} 添加到摩擦力</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030953Z" creationid="liaronce" creationdate="20200820T151709Z">
+        <seg>令摩擦力增加 ${friction} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${friction} to friction on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151710Z">
-        <seg>将 ${friction} 添加到 ${applyto} 上的摩擦力</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T031015Z" creationid="liaronce" creationdate="20200820T151710Z">
+        <seg>令 ${applyto} 的摩擦力增加 ${friction} 添加</seg>
       </tuv>
     </tu>
     <tu>
@@ -27095,8 +27095,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Jump ${applyto} to start</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151715Z">
-        <seg>跳转 ${applyto} 开始</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T084325Z" creationid="liaronce" creationdate="20200820T151715Z">
+        <seg>跳 ${applyto} 开始</seg>
       </tuv>
     </tu>
     <tu>
@@ -27159,8 +27159,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Jump to start</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141731Z" creationid="liaronce" creationdate="20200820T141731Z">
-        <seg>跳转至开始</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T031046Z" creationid="liaronce" creationdate="20200820T141731Z">
+        <seg>跳至起点</seg>
       </tuv>
     </tu>
     <tu>
@@ -37236,8 +37236,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Reverse direction</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151702Z" creationid="liaronce" creationdate="20200820T151702Z">
-        <seg>反向</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030850Z" creationid="liaronce" creationdate="20200820T151702Z">
+        <seg>反转方向</seg>
       </tuv>
     </tu>
     <tu>
@@ -37260,40 +37260,40 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Reverse gravitational direction on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153318Z">
-        <seg> ${applyto} 上的重力方向反转</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030939Z" creationid="liaronce" creationdate="20200820T153318Z">
+        <seg>反转 ${applyto} 的重力方向</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Reverse horizontal speed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151704Z" creationid="liaronce" creationdate="20200820T151704Z">
-        <seg>反向水平速度</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030856Z" creationid="liaronce" creationdate="20200820T151704Z">
+        <seg>反转水平速度</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Reverse horizontal speed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151705Z">
-        <seg>在 ${applyto} 上反向水平速度</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030917Z" creationid="liaronce" creationdate="20200820T151705Z">
+        <seg>反转 ${applyto} 的水平速度</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Reverse vertical speed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151706Z" creationid="liaronce" creationdate="20200820T151706Z">
-        <seg>反向垂直速度</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030844Z" creationid="liaronce" creationdate="20200820T151706Z">
+        <seg>反转垂直速度</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Reverse vertical speed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151707Z">
-        <seg> ${applyto} 上的反向垂直速度</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030931Z" creationid="liaronce" creationdate="20200820T151707Z">
+        <seg>反转 ${applyto} 的垂直速度</seg>
       </tuv>
     </tu>
     <tu>
@@ -40802,16 +40802,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set friction to ${friction}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151711Z">
-        <seg>将摩擦力设置为 ${friction} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T031025Z" creationid="liaronce" creationdate="20200820T151711Z">
+        <seg>设置摩擦力为 ${friction} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set friction to ${friction} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151712Z">
-        <seg>将 ${applyto} 上的摩擦力设置为 ${friction} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T031033Z" creationid="liaronce" creationdate="20200820T151712Z">
+        <seg>设置 ${applyto} 的摩擦力为 ${friction} </seg>
       </tuv>
     </tu>
     <tu>
