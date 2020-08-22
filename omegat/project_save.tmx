@@ -22562,56 +22562,56 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is down</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151625Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 已关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030618Z" creationid="liaronce" creationdate="20200820T151625Z">
+        <seg>如果游戏手柄 ${gp} 的按键 ${btn} 被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is down on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151626Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 在 ${applyto} 上关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030624Z" creationid="liaronce" creationdate="20200820T151626Z">
+        <seg>对于 ${applyto} 如果游戏手柄 ${gp} 的按键 ${btn} 被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not down</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151627Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 未关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030635Z" creationid="liaronce" creationdate="20200820T151627Z">
+        <seg>如果游戏手柄 ${gp} 的按键 ${btn} 未被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not down on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151628Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 在 ${applyto} 上未关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030651Z" creationid="liaronce" creationdate="20200820T151628Z">
+        <seg>对于 ${applyto} 如果游戏手柄 ${gp} 的按键 ${btn} 未被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not pressed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151630Z">
-        <seg>如果未按下游戏面板 ${gp} 上的 ${btn} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030749Z" creationid="liaronce" creationdate="20200820T151630Z">
+        <seg>如果游戏手柄 ${gp} 的按键 ${btn} 未被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not pressed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151631Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 未在 ${applyto} 上按下</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030542Z" creationid="liaronce" creationdate="20200820T151631Z">
+        <seg>如果游戏手柄 ${gp} 上的 ${btn} 未在 ${applyto} 上按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151634Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 未释放</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030542Z" creationid="liaronce" creationdate="20200820T151634Z">
+        <seg>如果游戏手柄 ${gp} 上的 ${btn} 未释放</seg>
       </tuv>
     </tu>
     <tu>
@@ -22626,32 +22626,32 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is pressed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151629Z">
-        <seg>如果按下游戏面板 ${gp} 上的 ${btn} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030704Z" creationid="liaronce" creationdate="20200820T151629Z">
+        <seg>如果游戏手柄 ${gp} 的按键 ${btn} 被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is pressed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151629Z">
-        <seg>如果在 ${applyto} 上按下游戏面板 ${gp} 上的 ${btn} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030738Z" creationid="liaronce" creationdate="20200820T151629Z">
+        <seg>对于 ${applyto} 如果游戏手柄 ${gp} 的按键 ${btn} 被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151632Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 被释放</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030542Z" creationid="liaronce" creationdate="20200820T151632Z">
+        <seg>如果游戏手柄 ${gp} 上的 ${btn} 被释放</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is released on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151633Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 在 ${applyto} 上发布</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030542Z" creationid="liaronce" creationdate="20200820T151633Z">
+        <seg>如果游戏手柄 ${gp} 上的 ${btn} 在 ${applyto} 上发布</seg>
       </tuv>
     </tu>
     <tu>
@@ -40666,8 +40666,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set button threshold of gamepad ${gp} to ${threshold} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151624Z">
-        <seg>在 ${applyto} 上将游戏面板 ${gp} 的按钮阈值设置为 ${threshold} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030551Z" creationid="liaronce" creationdate="20200820T151624Z">
+        <seg>在 ${applyto} 上设置游戏手柄 ${gp} 的按钮阈值为 ${threshold} </seg>
       </tuv>
     </tu>
     <tu>
