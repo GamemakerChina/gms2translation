@@ -1177,32 +1177,32 @@
       <tuv lang="en-US">
         <seg>Add ${alpha} to alpha</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010402Z" creationid="liaronce" creationdate="20200820T151537Z">
-        <seg>将 ${alpha} 添加到 Alpha </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150152Z" creationid="liaronce" creationdate="20200820T151537Z">
+        <seg>令透明度增加 ${alpha} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${alpha} to alpha on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010402Z" creationid="liaronce" creationdate="20200820T151538Z">
-        <seg>将 ${alpha} 添加到 ${applyto} 上的 Alpha </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150219Z" creationid="liaronce" creationdate="20200820T151538Z">
+        <seg>令 ${applyto} 的透明度将 ${alpha}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${angle} to rotation</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144158Z">
-        <seg>将 ${angle} 添加到旋转</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150737Z" creationid="liaronce" creationdate="20200820T144158Z">
+        <seg>令旋转角度增加 ${angle}°</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${angle} to rotation on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144159Z">
-        <seg>将 ${angle} 添加到 ${applyto} 上的旋转</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150803Z" creationid="liaronce" creationdate="20200820T144159Z">
+        <seg>令 ${applyto} 的旋转角度增加 ${angle}°</seg>
       </tuv>
     </tu>
     <tu>
@@ -1241,16 +1241,16 @@
       <tuv lang="en-US">
         <seg>Add ${expr} to ${var} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143657Z">
-        <seg>将  ${expr}  添加到 ${applyto}${show_input_count} 上的 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142119Z" creationid="liaronce" creationdate="20200820T143657Z">
+        <seg>令 ${applyto} 的变量 ${var} 增加 ${expr} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${expr} to ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143613Z">
-        <seg>将  ${expr}  添加到 $[var]$[show_input_count]</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142031Z" creationid="liaronce" creationdate="20200820T143613Z">
+        <seg>令变量 ${var} 增加 ${expr} $[show_input_count]</seg>
       </tuv>
     </tu>
     <tu>
@@ -1273,16 +1273,16 @@
       <tuv lang="en-US">
         <seg>Add ${friction} to friction</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151709Z">
-        <seg>将 ${friction} 添加到摩擦力</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030953Z" creationid="liaronce" creationdate="20200820T151709Z">
+        <seg>令摩擦力增加 ${friction} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${friction} to friction on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151710Z">
-        <seg>将 ${friction} 添加到 ${applyto} 上的摩擦力</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T031015Z" creationid="liaronce" creationdate="20200820T151710Z">
+        <seg>令 ${applyto} 的摩擦力增加 ${friction} 添加</seg>
       </tuv>
     </tu>
     <tu>
@@ -1369,16 +1369,16 @@
       <tuv lang="en-US">
         <seg>Add ${speed} to animation speed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144202Z">
-        <seg>将 ${speed} 添加到动画速度</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150850Z" creationid="liaronce" creationdate="20200820T144202Z">
+        <seg>令动画速度增加${speed}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${speed} to animation speed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144203Z">
-        <seg>将 ${speed} 添加到 ${applyto} 上的动画速度</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150913Z" creationid="liaronce" creationdate="20200820T144203Z">
+        <seg>令 ${applyto} 的动画速度增加 ${speed} </seg>
       </tuv>
     </tu>
     <tu>
@@ -1481,16 +1481,16 @@
       <tuv lang="en-US">
         <seg>Add ${value} to global variable ${var} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143911Z">
-        <seg>将 ${value} 添加到 ${applyto}${show_input_count} 上的全局变量 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142807Z" creationid="liaronce" creationdate="20200820T143911Z">
+        <seg>在 ${applyto} 上令全局变量 ${var} 增加 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add ${value} to global variable ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143910Z">
-        <seg>将 ${value} 添加到全局变量 ${var}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142732Z" creationid="liaronce" creationdate="20200820T143910Z">
+        <seg>令全局变量 ${var} 增加 ${value} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -3554,8 +3554,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Apply to ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144057Z">
-        <seg>适用于 ${applyto} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150300Z" creationid="liaronce" creationdate="20200820T144057Z">
+        <seg>应用于 ${applyto} </seg>
       </tuv>
     </tu>
     <tu>
@@ -6164,48 +6164,48 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Call ${function}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144028Z">
-        <seg>调用 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145741Z" creationid="liaronce" creationdate="20200820T144028Z">
+        <seg>调用函数 ${function} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Call ${function} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144029Z">
-        <seg>在 ${applyto} 上调用 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145904Z" creationid="liaronce" creationdate="20200820T144029Z">
+        <seg>在 ${applyto} 上调用函数 ${function} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Call ${function} with ${input_count} arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005420Z" creationid="liaronce" creationdate="20200820T144039Z">
-        <seg>使用 ${input_count} 个参数调用 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145931Z" creationid="liaronce" creationdate="20200820T144039Z">
+        <seg>使用${input_count}个参数调用函数 ${function} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Call ${function} with ${input_count} arguments on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005421Z" creationid="liaronce" creationdate="20200820T144040Z">
-        <seg>使用 ${applyto} 上的 ${input_count} 参数调用 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145952Z" creationid="liaronce" creationdate="20200820T144040Z">
+        <seg>在 ${applyto} 上使用${input_count}个参数调用函数 ${function} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Call ${function} with 1 argument</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144031Z">
-        <seg>使用1个参数调用 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145925Z" creationid="liaronce" creationdate="20200820T144031Z">
+        <seg>使用1个参数调用函数 ${function} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Call ${function} with 1 argument on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144038Z">
-        <seg>在 ${applyto} 上使用1个参数调用 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145929Z" creationid="liaronce" creationdate="20200820T144038Z">
+        <seg>在 ${applyto} 上使用1个参数调用函数 ${function} </seg>
       </tuv>
     </tu>
     <tu>
@@ -6284,8 +6284,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Call user event ${event} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T144148Z">
-        <seg>在 ${applyto}${show_input_count} 上调用用户事件 ${event} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150619Z" creationid="liaronce" creationdate="20200820T144148Z">
+        <seg>在 ${applyto}上调用用户事件 ${event} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -7124,32 +7124,32 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Check if ${obj} does not exist</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151541Z">
-        <seg>检查 ${obj} 是否不存在</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024654Z" creationid="liaronce" creationdate="20200820T151541Z">
+        <seg>检查物体 ${obj} 是否不存在</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Check if ${obj} does not exist on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151542Z">
-        <seg>检查 ${applyto} 上是否不存在 ${obj} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024722Z" creationid="liaronce" creationdate="20200820T151542Z">
+        <seg>在 ${applyto} 上检查是否不存在物体 ${obj} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Check if ${obj} exists</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151543Z">
-        <seg>检查 ${obj} 是否存在</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024516Z" creationid="liaronce" creationdate="20200820T151543Z">
+        <seg>检查物体 ${obj} 是否存在</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Check if ${obj} exists on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151544Z">
-        <seg>检查 ${applyto} 上是否存在 ${obj} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024735Z" creationid="liaronce" creationdate="20200820T151544Z">
+        <seg>在 ${applyto} 上检查是否存在物体 ${obj} </seg>
       </tuv>
     </tu>
     <tu>
@@ -11389,32 +11389,32 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Declare temp ${var} and set it to ${value} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143907Z">
-        <seg>在 ${applyto}${show_input_count} 上声明临时 ${var} 并将其设置为 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142653Z" creationid="liaronce" creationdate="20200820T143907Z">
+        <seg>在 ${applyto} 上声明临时 ${var} 并将其设置为 ${value} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Declare temp ${var} and set it to ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143859Z">
-        <seg>声明临时 ${var} 并将其设置为 ${value}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142157Z" creationid="liaronce" creationdate="20200820T143859Z">
+        <seg>声明临时变量 ${var} 并将其设置为 ${value} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Declare temp ${var} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143853Z">
-        <seg>在 ${applyto}${show_input_count} 上声明临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142141Z" creationid="liaronce" creationdate="20200820T143853Z">
+        <seg>在 ${applyto} 上声明临时 ${var} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Declare temp ${var}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143701Z">
-        <seg>声明临时 ${var}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142129Z" creationid="liaronce" creationdate="20200820T143701Z">
+        <seg>声明临时变量 ${var} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -11701,8 +11701,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Define macro ${macro} as ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T144058Z">
-        <seg>将宏 ${macro} 定义为 ${value}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150327Z" creationid="liaronce" creationdate="20200820T144058Z">
+        <seg>定义宏 ${macro} 为 ${value} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -12166,8 +12166,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Deleting configuration '{0}' will also delete the following configurations: '{1}'.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20161223T072919Z" creationid="deciia" creationdate="20161223T072919Z">
-        <seg>删除配置 '{0}' 的同时也会删除下面的配置： '{1}'.</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T141141Z" creationid="deciia" creationdate="20161223T072919Z">
+        <seg>删除配置 '{0}' 的同时也会删除下面的配置： '{1}'。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16169,96 +16169,96 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>Execute and set ${var} to return value of ${script}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144011Z">
-        <seg>执行并设置 ${var} 以返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144528Z" creationid="liaronce" creationdate="20200820T144011Z">
+        <seg>执行脚本 ${script} 并设置变量 ${var} 为返回值  </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set ${var} to return value of ${script} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144012Z">
-        <seg>执行并设置 ${var} 以在 ${applyto} 上返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144625Z" creationid="liaronce" creationdate="20200820T144012Z">
+        <seg>在${applyto} 上执行脚本 ${script} 并设置变量 ${var} 为返回值  </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set ${var} to return value of ${script} with ${input_count} arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005417Z" creationid="liaronce" creationdate="20200820T144017Z">
-        <seg>执行并设置 ${var} 以使用 ${input_count} 参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144754Z" creationid="liaronce" creationdate="20200820T144017Z">
+        <seg>使用${input_count}个参数执行脚本 ${script} 并设置变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set ${var} to return value of ${script} with ${input_count} arguments on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005418Z" creationid="liaronce" creationdate="20200820T144018Z">
-        <seg>执行 ${var} 并将其设置为在 ${applyto} 上使用 ${input_count} 参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144856Z" creationid="liaronce" creationdate="20200820T144018Z">
+        <seg>在 ${applyto} 上使用${input_count}个参数执行脚本 ${script} 并设置变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set ${var} to return value of ${script} with 1 argument</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144013Z">
-        <seg>执行并设置 ${var} 以使用1个参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144629Z" creationid="liaronce" creationdate="20200820T144013Z">
+        <seg>使用1个参数执行脚本 ${script}并设置变量 ${var} 为返回值 </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set ${var} to return value of ${script} with 1 argument on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144016Z">
-        <seg>执行 ${var} 并将其设置为在 ${applyto} 上使用1个参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144720Z" creationid="liaronce" creationdate="20200820T144016Z">
+        <seg>在 ${applyto} 上使用1个参数执行脚本 ${script} 并设置变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set temp ${var} to return value of ${script}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144019Z">
-        <seg>执行并设置临时 ${var} 以返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144913Z" creationid="liaronce" creationdate="20200820T144019Z">
+        <seg>执行脚本 ${script} 并设置临时变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set temp ${var} to return value of ${script} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144021Z">
-        <seg>执行并设置临时 ${var} 以在 ${applyto} 上返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144938Z" creationid="liaronce" creationdate="20200820T144021Z">
+        <seg>在 ${applyto} 上执行脚本 ${script} 并设置临时变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set temp ${var} to return value of ${script} with ${input_count} arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005419Z" creationid="liaronce" creationdate="20200820T144024Z">
-        <seg>执行并设置临时 ${var} 以使用 ${input_count} 参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145829Z" creationid="liaronce" creationdate="20200820T144024Z">
+        <seg>使用${input_count}个参数执行脚本 ${script} 并设置临时变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set temp ${var} to return value of ${script} with ${input_count} arguments on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005420Z" creationid="liaronce" creationdate="20200820T144025Z">
-        <seg>执行临时 ${var} 并将其设置为使用 ${applyto} 上的 ${input_count} 参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145900Z" creationid="liaronce" creationdate="20200820T144025Z">
+        <seg>在 ${applyto} 上使用${input_count}个参数执行脚本 ${script} 并设置临时变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set temp ${var} to return value of ${script} with 1 argument</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144022Z">
-        <seg>执行并设置临时 ${var} 以使用1个参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145005Z" creationid="liaronce" creationdate="20200820T144022Z">
+        <seg>使用1个参数执行脚本 ${script} 并设置临时变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Execute and set temp ${var} to return value of ${script} with 1 argument on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144023Z">
-        <seg>执行临时 ${var} 并将其设置为在 ${applyto} 上使用1个参数返回值 ${script} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T145040Z" creationid="liaronce" creationdate="20200820T144023Z">
+        <seg>在 ${applyto} 上使用1个参数执行脚本 ${script} 并设置临时变量 ${var} 为返回值</seg>
       </tuv>
     </tu>
     <tu>
@@ -18725,96 +18725,96 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151607Z">
-        <seg>将游戏面板 ${gp} 上的 ${axis} 轴值获取到 ${var} 中</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025935Z" creationid="liaronce" creationdate="20200820T151607Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${axis} 轴的值并存入变量 ${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151608Z">
-        <seg>将游戏面板 ${gp} 上的 ${axis} 轴值获取到 ${applyto} 上的 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025857Z" creationid="liaronce" creationdate="20200820T151608Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${axis} 轴的值并存入 ${applyto} 的变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151609Z">
-        <seg>将游戏面板 ${gp} 上的 ${axis} 轴值获取到临时 ${var} 中</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025937Z" creationid="liaronce" creationdate="20200820T151609Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${axis} 轴的值并存入临时变量 ${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151610Z">
-        <seg>将游戏面板 ${gp} 上的 ${axis} 轴值获取到 ${applyto} 上的临时 ${var} 中</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030008Z" creationid="liaronce" creationdate="20200820T151610Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${axis} 轴的值并存入 ${applyto} 的临时变量 ${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${object} count into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144143Z">
-        <seg>将 ${object} 计入 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150510Z" creationid="liaronce" creationdate="20200820T144143Z">
+        <seg>对物体 ${object} 计数并存入变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${object} count into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144144Z">
-        <seg>在 ${applyto} 上将 ${object} 计入 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150522Z" creationid="liaronce" creationdate="20200820T144144Z">
+        <seg>在 ${applyto} 上对物体 ${object} 计数并存入 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${object} count into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144145Z">
-        <seg>将 ${object} 计数到临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150537Z" creationid="liaronce" creationdate="20200820T144145Z">
+        <seg>对物体 ${object} 计数并存入临时变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${object} count into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144146Z">
-        <seg>将 ${object} 计入 ${applyto} 上的临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150558Z" creationid="liaronce" creationdate="20200820T144146Z">
+        <seg>在 ${applyto} 上对物体 ${object} 计数并存入临时变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${trigger} value on gamepad ${gp} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151611Z">
-        <seg>将游戏面板 ${gp} 上的 ${trigger} 值获取到 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030136Z" creationid="liaronce" creationdate="20200820T151611Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${trigger} 值并存入变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${trigger} value on gamepad ${gp} into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151612Z">
-        <seg>将游戏面板 ${gp} 上的 ${trigger} 值获取到 ${applyto} 上的 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030140Z" creationid="liaronce" creationdate="20200820T151612Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${trigger} 值并存入 ${applyto} 的变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${trigger} value on gamepad ${gp} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153313Z">
-        <seg>将游戏面板 ${gp} 上的 ${trigger} 值获取到临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030144Z" creationid="liaronce" creationdate="20200820T153313Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${trigger} 值并存入临时变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${trigger} value on gamepad ${gp} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151613Z">
-        <seg>将游戏面板 ${gp} 上的 ${trigger} 值获取到 ${applyto} 上的临时 ${var} 中</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030150Z" creationid="liaronce" creationdate="20200820T151613Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${trigger} 值并存入 ${applyto} 的临时变量 ${var} 中</seg>
       </tuv>
     </tu>
     <tu>
@@ -19397,64 +19397,64 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get gamepad device count into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151614Z">
-        <seg>将游戏手柄设备计数计入 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030202Z" creationid="liaronce" creationdate="20200820T151614Z">
+        <seg>对游戏手柄设备计数并存入变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get gamepad device count into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151615Z">
-        <seg>在 ${applyto} 上将游戏手柄设备计数计入 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030212Z" creationid="liaronce" creationdate="20200820T151615Z">
+        <seg>在 ${applyto} 上对游戏手柄设备计数并存入 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get gamepad device count into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151616Z">
-        <seg>将游戏手柄设备计数获取到临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030236Z" creationid="liaronce" creationdate="20200820T151616Z">
+        <seg>对游戏手柄设备计数并存入临时变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get gamepad device count into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151617Z">
-        <seg>获取 ${applyto} 上的临时 ${var} 游戏手柄设备计数</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030258Z" creationid="liaronce" creationdate="20200820T151617Z">
+        <seg>在 ${applyto} 上对游戏手柄设备计数并存入临时变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get global variable ${var} into ${output} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143913Z">
-        <seg>将全局变量 ${var} 获取到 ${applyto}${show_input_count} 上的 ${output} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T143124Z" creationid="liaronce" creationdate="20200820T143913Z">
+        <seg>获取全局变量 ${var} 存入 ${applyto} 的 ${output} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get global variable ${var} into ${output}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143912Z">
-        <seg>将全局变量 ${var} 获取到 ${output} ${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142959Z" creationid="liaronce" creationdate="20200820T143912Z">
+        <seg>获取全局变量 ${var} 存入 ${output} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get global variable ${var} into temp ${output} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010135Z" creationid="liaronce" creationdate="20200820T143915Z">
-        <seg>将全局变量 ${var} 获取到 ${applyto}${show_input_count} 上的临时 ${output} 中</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T143200Z" creationid="liaronce" creationdate="20200820T143915Z">
+        <seg>获取全局变量 ${var} 存入 ${applyto} 的临时变量 ${output} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get global variable ${var} into temp ${output}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143914Z">
-        <seg>将全局变量 ${var} 获取到临时 ${output} ${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T143132Z" creationid="liaronce" creationdate="20200820T143914Z">
+        <seg>获取全局变量 ${var} 存入临时变量 ${output} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -19549,8 +19549,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get instance variable ${dnd_get_inst_vars} into ${target}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010229Z" creationid="liaronce" creationdate="20200820T144150Z">
-        <seg>将实例变量${dnd_get_inst_vars}获取到 ${target}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150701Z" creationid="liaronce" creationdate="20200820T144150Z">
+        <seg>获取实例变量${dnd_get_inst_vars} 并存入变量 ${target}${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -21029,32 +21029,32 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get whether gamepad ${gp} is connected into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151618Z">
-        <seg>获取游戏手柄 ${gp} 是否连接到 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030348Z" creationid="liaronce" creationdate="20200820T151618Z">
+        <seg>获取游戏手柄 ${gp} 是否被连入并存入变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get whether gamepad ${gp} is connected into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151619Z">
-        <seg>获取游戏面板 ${gp} 是否连接到 ${applyto} 上的 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030358Z" creationid="liaronce" creationdate="20200820T151619Z">
+        <seg>获取游戏手柄 ${gp} 是否被连入并存入 ${applyto} 的变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get whether gamepad ${gp} is connected into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151620Z">
-        <seg>获取游戏手柄 ${gp} 是否连接到临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030409Z" creationid="liaronce" creationdate="20200820T151620Z">
+        <seg>获取游戏手柄 ${gp} 是否被连入并存入临时变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get whether gamepad ${gp} is connected into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151621Z">
-        <seg>获取游戏手柄 ${gp} 是否连接到 ${applyto} 上的临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030424Z" creationid="liaronce" creationdate="20200820T151621Z">
+        <seg>获取游戏手柄 ${gp} 是否连入并存入 ${applyto} 的临时变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
@@ -22562,56 +22562,56 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is down</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151625Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 已关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030618Z" creationid="liaronce" creationdate="20200820T151625Z">
+        <seg>如果游戏手柄 ${gp} 的按键 ${btn} 被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is down on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151626Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 在 ${applyto} 上关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030624Z" creationid="liaronce" creationdate="20200820T151626Z">
+        <seg>对于 ${applyto} 如果游戏手柄 ${gp} 的按键 ${btn} 被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not down</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151627Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 未关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030635Z" creationid="liaronce" creationdate="20200820T151627Z">
+        <seg>如果游戏手柄 ${gp} 的按键 ${btn} 未被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not down on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151628Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 在 ${applyto} 上未关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030651Z" creationid="liaronce" creationdate="20200820T151628Z">
+        <seg>对于 ${applyto} 如果游戏手柄 ${gp} 的按键 ${btn} 未被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not pressed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151630Z">
-        <seg>如果未按下游戏面板 ${gp} 上的 ${btn} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030749Z" creationid="liaronce" creationdate="20200820T151630Z">
+        <seg>如果游戏手柄 ${gp} 的按键 ${btn} 未被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not pressed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151631Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 未在 ${applyto} 上按下</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030542Z" creationid="liaronce" creationdate="20200820T151631Z">
+        <seg>如果游戏手柄 ${gp} 上的 ${btn} 未在 ${applyto} 上按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is not released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151634Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 未释放</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030542Z" creationid="liaronce" creationdate="20200820T151634Z">
+        <seg>如果游戏手柄 ${gp} 上的 ${btn} 未释放</seg>
       </tuv>
     </tu>
     <tu>
@@ -22626,32 +22626,32 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is pressed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151629Z">
-        <seg>如果按下游戏面板 ${gp} 上的 ${btn} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030704Z" creationid="liaronce" creationdate="20200820T151629Z">
+        <seg>如果游戏手柄 ${gp} 的按键 ${btn} 被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is pressed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151629Z">
-        <seg>如果在 ${applyto} 上按下游戏面板 ${gp} 上的 ${btn} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030738Z" creationid="liaronce" creationdate="20200820T151629Z">
+        <seg>对于 ${applyto} 如果游戏手柄 ${gp} 的按键 ${btn} 被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151632Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 被释放</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030542Z" creationid="liaronce" creationdate="20200820T151632Z">
+        <seg>如果游戏手柄 ${gp} 上的 ${btn} 被释放</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${btn} on gamepad ${gp} is released on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151633Z">
-        <seg>如果游戏面板 ${gp} 上的 ${btn} 在 ${applyto} 上发布</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030542Z" creationid="liaronce" creationdate="20200820T151633Z">
+        <seg>如果游戏手柄 ${gp} 上的 ${btn} 在 ${applyto} 上发布</seg>
       </tuv>
     </tu>
     <tu>
@@ -22690,96 +22690,96 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${key} is down</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151600Z">
-        <seg>如果 ${key} 已关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025508Z" creationid="liaronce" creationdate="20200820T151600Z">
+        <seg>如果按键 ${key} 被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is down on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151601Z">
-        <seg>如果 ${key} 在 ${applyto} 上关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025529Z" creationid="liaronce" creationdate="20200820T151601Z">
+        <seg>对于 ${applyto} 如果按键 ${key} 被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is not down</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151602Z">
-        <seg>如果 ${key} 未关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025533Z" creationid="liaronce" creationdate="20200820T151602Z">
+        <seg>如果 ${key} 未被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is not down on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151603Z">
-        <seg>如果 ${key} 在 ${applyto} 上未关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025549Z" creationid="liaronce" creationdate="20200820T151603Z">
+        <seg>对于 ${applyto} 如果按键 ${key} 未被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is not pressed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151558Z">
-        <seg>如果未按下 ${key} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025457Z" creationid="liaronce" creationdate="20200820T151558Z">
+        <seg>如果按键 ${key} 未被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is not pressed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151559Z">
-        <seg>如果未在 ${applyto} 上按 ${key} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025453Z" creationid="liaronce" creationdate="20200820T151559Z">
+        <seg>对于 ${applyto} 如果按键 ${key} 未被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is not released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151605Z">
-        <seg>如果 ${key} 未释放</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025731Z" creationid="liaronce" creationdate="20200820T151605Z">
+        <seg>如果按键 ${key} 未被释放</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is not released on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151606Z">
-        <seg>如果 ${key} 未在 ${applyto} 上释放</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025746Z" creationid="liaronce" creationdate="20200820T151606Z">
+        <seg>对于 ${applyto} 如果按键 ${key} 未被释放</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is pressed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151557Z">
-        <seg>如果按下 ${key} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025408Z" creationid="liaronce" creationdate="20200820T151557Z">
+        <seg>如果按键 ${key} 被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is pressed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151558Z">
-        <seg>如果在 ${applyto} 上按下 ${key} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025500Z" creationid="liaronce" creationdate="20200820T151558Z">
+        <seg>对于 ${applyto} 如果按键 ${key} 被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151604Z">
-        <seg>如果释放 ${key} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025556Z" creationid="liaronce" creationdate="20200820T151604Z">
+        <seg>如果按键 ${key} 被松开</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is released on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151604Z">
-        <seg>如果 ${key} 在 ${applyto} 上释放</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025725Z" creationid="liaronce" creationdate="20200820T151604Z">
+        <seg>对于 ${applyto} 如果按键 ${key}被松开</seg>
       </tuv>
     </tu>
     <tu>
@@ -23202,160 +23202,160 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${var} is equal to ${value}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143927Z">
-        <seg>如果 ${var} 等于 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T143802Z" creationid="liaronce" creationdate="20200820T143927Z">
+        <seg>如果变量 ${var} 等于 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is equal to ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143928Z">
-        <seg>如果 ${var} 等于 ${applyto} 上的 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144030Z" creationid="liaronce" creationdate="20200820T143928Z">
+        <seg>如果 ${applyto} 的变量 ${var} 等于 ${value}  </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is greater than ${value}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143931Z">
-        <seg>如果 ${var} 大于 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T143803Z" creationid="liaronce" creationdate="20200820T143931Z">
+        <seg>如果变量 ${var} 大于 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is greater than ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143932Z">
-        <seg>如果 ${var} 大于 ${applyto} 上的 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144030Z" creationid="liaronce" creationdate="20200820T143932Z">
+        <seg>如果 ${applyto} 的变量 ${var} 大于 ${value}  </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is greater than or equal to ${value}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143935Z">
-        <seg>如果 ${var} 大于或等于 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T143804Z" creationid="liaronce" creationdate="20200820T143935Z">
+        <seg>如果变量 ${var} 大于或等于 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is greater than or equal to ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143936Z">
-        <seg>如果 ${var} 大于或等于 ${applyto} 上的 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144308Z" creationid="liaronce" creationdate="20200820T143936Z">
+        <seg>如果 ${applyto} 的变量 ${var} 大于等于 ${value}  </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is less than ${value}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143929Z">
-        <seg>如果 ${var} 小于 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T143803Z" creationid="liaronce" creationdate="20200820T143929Z">
+        <seg>如果变量 ${var} 小于 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is less than ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143930Z">
-        <seg>如果 ${var} 在 ${applyto} 上小于 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T143803Z" creationid="liaronce" creationdate="20200820T143930Z">
+        <seg>如果变量 ${var} 在 ${applyto} 上小于 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is less than or equal to ${value}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143934Z">
-        <seg>如果 ${var} 小于或等于 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T143803Z" creationid="liaronce" creationdate="20200820T143934Z">
+        <seg>如果变量 ${var} 小于或等于 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is less than or equal to ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143935Z">
-        <seg>如果 ${var} 小于或等于 ${applyto} 上的 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144259Z" creationid="liaronce" creationdate="20200820T143935Z">
+        <seg>如果 ${applyto} 的变量 ${var} 小于等于 ${value}  </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is not equal to ${value}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143917Z">
-        <seg>如果 ${var} 不等于 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144329Z" creationid="liaronce" creationdate="20200820T143917Z">
+        <seg>如果变量 ${var} 不等于 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is not equal to ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143918Z">
-        <seg>如果 ${var} 不等于 ${applyto} 上的 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144030Z" creationid="liaronce" creationdate="20200820T143918Z">
+        <seg>如果 ${applyto} 的变量 ${var} 不等于 ${value}  </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is not greater than ${value}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143922Z">
-        <seg>如果 ${var} 不大于 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T143800Z" creationid="liaronce" creationdate="20200820T143922Z">
+        <seg>如果变量 ${var} 不大于 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is not greater than ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143923Z">
-        <seg>如果 ${var} 不大于 ${applyto} 上的 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144030Z" creationid="liaronce" creationdate="20200820T143923Z">
+        <seg>如果 ${applyto} 的变量 ${var} 不大于 ${value}  </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is not greater than or equal to ${value}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143926Z">
-        <seg>如果 ${var} 不大于或等于 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144050Z" creationid="liaronce" creationdate="20200820T143926Z">
+        <seg>如果变量 ${var} 不大于等于 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is not greater than or equal to ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143926Z">
-        <seg>如果 ${var} 不大于或等于 ${applyto} 上的 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144058Z" creationid="liaronce" creationdate="20200820T143926Z">
+        <seg>如果 ${applyto} 的变量 ${var} 不大于等于 ${value}  </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is not less than ${value}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143920Z">
-        <seg>如果 ${var} 不小于 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T143755Z" creationid="liaronce" creationdate="20200820T143920Z">
+        <seg>如果变量 ${var} 不小于 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is not less than ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143921Z">
-        <seg>如果 ${var} 在 ${applyto} 上不小于 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T143800Z" creationid="liaronce" creationdate="20200820T143921Z">
+        <seg>如果变量 ${var} 在 ${applyto} 上不小于 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is not less than or equal to ${value}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143924Z">
-        <seg>如果 ${var} 不小于或等于 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T143802Z" creationid="liaronce" creationdate="20200820T143924Z">
+        <seg>如果变量 ${var} 不小于或等于 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${var} is not less than or equal to ${value} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T143925Z">
-        <seg>如果 ${var} 不小于或等于 ${applyto} 上的 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T144041Z" creationid="liaronce" creationdate="20200820T143925Z">
+        <seg>如果 ${applyto} 的变量 ${var} 不小于等于 ${value}  </seg>
       </tuv>
     </tu>
     <tu>
@@ -24506,96 +24506,96 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If mouse button ${button} is down</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151550Z">
-        <seg>如果鼠标按键 ${button} 按下</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025239Z" creationid="liaronce" creationdate="20200820T151550Z">
+        <seg>如果鼠标按键 ${button} 被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If mouse button ${button} is down on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151551Z">
-        <seg>如果鼠标按钮 ${button} 在 ${applyto} 上按下</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025211Z" creationid="liaronce" creationdate="20200820T151551Z">
+        <seg>对于 ${applyto} 如果鼠标按钮 ${button} 被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If mouse button ${button} is not down</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151551Z">
-        <seg>如果鼠标按钮 ${button} 未按下</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025259Z" creationid="liaronce" creationdate="20200820T151551Z">
+        <seg>如果鼠标按钮 ${button} 未被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If mouse button ${button} is not down on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151552Z">
-        <seg>如果 ${applyto} 上的鼠标按钮 ${button} 未按下</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025218Z" creationid="liaronce" creationdate="20200820T151552Z">
+        <seg>如果 ${applyto} 上的鼠标按钮 ${button} 未被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If mouse button ${button} is not pressed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151548Z">
-        <seg>如果未按下鼠标按钮 ${button} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024830Z" creationid="liaronce" creationdate="20200820T151548Z">
+        <seg>如果鼠标按钮 ${button} 未被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If mouse button ${button} is not pressed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151549Z">
-        <seg>如果未在 ${applyto} 上按下鼠标按钮 ${button} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025136Z" creationid="liaronce" creationdate="20200820T151549Z">
+        <seg>对于 ${applyto} 如果鼠标按钮 ${button} 未被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If mouse button ${button} is not released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151555Z">
-        <seg>如果鼠标按钮 ${button} 未释放</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025332Z" creationid="liaronce" creationdate="20200820T151555Z">
+        <seg>如果鼠标按钮 ${button} 未被松开</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If mouse button ${button} is not released on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153254Z">
-        <seg>如果在 ${applyto} 上未释放鼠标按钮 ${button} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025350Z" creationid="liaronce" creationdate="20200820T153254Z">
+        <seg>对于 ${applyto} 如果鼠标按钮 ${button} 未被松开</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If mouse button ${button} is pressed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153251Z">
-        <seg>如果按下鼠标按钮 ${button} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024807Z" creationid="liaronce" creationdate="20200820T153251Z">
+        <seg>如果鼠标按钮 ${button} 被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If mouse button ${button} is pressed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151547Z">
-        <seg>如果在 ${applyto} 上按下鼠标按钮 ${button} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025113Z" creationid="liaronce" creationdate="20200820T151547Z">
+        <seg>对于 ${applyto} 如果按下鼠标按钮 ${button} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If mouse button ${button} is released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151553Z">
-        <seg>如果松开鼠标按钮 ${button} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025035Z" creationid="liaronce" creationdate="20200820T151553Z">
+        <seg>如果鼠标按钮 ${button} 被松开</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If mouse button ${button} is released on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151554Z">
-        <seg>如果在 ${applyto} 上释放鼠标按钮 ${button} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025311Z" creationid="liaronce" creationdate="20200820T151554Z">
+        <seg>对于 ${applyto} 如果鼠标按钮 ${button} 被松开</seg>
       </tuv>
     </tu>
     <tu>
@@ -27095,8 +27095,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Jump ${applyto} to start</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151715Z">
-        <seg>跳转 ${applyto} 开始</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T084325Z" creationid="liaronce" creationdate="20200820T151715Z">
+        <seg>跳 ${applyto} 开始</seg>
       </tuv>
     </tu>
     <tu>
@@ -27159,8 +27159,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Jump to start</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141731Z" creationid="liaronce" creationdate="20200820T141731Z">
-        <seg>跳转至开始</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T031046Z" creationid="liaronce" creationdate="20200820T141731Z">
+        <seg>跳至起点</seg>
       </tuv>
     </tu>
     <tu>
@@ -36668,16 +36668,16 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Resize canvas to imported image size ({0} x {1})</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T032335Z" creationid="deciia" creationdate="20170102T095156Z">
-        <seg>将画布调整为导入的图像大小（{0} x {1}）</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T140839Z" creationid="deciia" creationdate="20170102T095156Z">
+        <seg>将画布调整为导入的图像大小（{0} × {1}）</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Resize canvas to pasted image size ({0} x {1})?</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T032400Z" creationid="deciia" creationdate="20170102T095234Z">
-        <seg>将画布调整为粘贴图像大小（{0} x {1}）？</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T140836Z" creationid="deciia" creationdate="20170102T095234Z">
+        <seg>将画布调整为粘贴图像大小（{0} × {1}）？</seg>
       </tuv>
     </tu>
     <tu>
@@ -37204,8 +37204,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Reveal Log In Finder</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180921T144612Z" creationid="deciia" creationdate="20180921T144612Z">
-        <seg>在查找器中显示日志</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T141031Z" creationid="deciia" creationdate="20180921T144612Z">
+        <seg>在访达中显示日志</seg>
       </tuv>
     </tu>
     <tu>
@@ -37236,8 +37236,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Reverse direction</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151702Z" creationid="liaronce" creationdate="20200820T151702Z">
-        <seg>反向</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030850Z" creationid="liaronce" creationdate="20200820T151702Z">
+        <seg>反转方向</seg>
       </tuv>
     </tu>
     <tu>
@@ -37260,40 +37260,40 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Reverse gravitational direction on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153318Z">
-        <seg> ${applyto} 上的重力方向反转</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030939Z" creationid="liaronce" creationdate="20200820T153318Z">
+        <seg>反转 ${applyto} 的重力方向</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Reverse horizontal speed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151704Z" creationid="liaronce" creationdate="20200820T151704Z">
-        <seg>反向水平速度</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030856Z" creationid="liaronce" creationdate="20200820T151704Z">
+        <seg>反转水平速度</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Reverse horizontal speed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151705Z">
-        <seg>在 ${applyto} 上反向水平速度</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030917Z" creationid="liaronce" creationdate="20200820T151705Z">
+        <seg>反转 ${applyto} 的水平速度</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Reverse vertical speed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T151706Z" creationid="liaronce" creationdate="20200820T151706Z">
-        <seg>反向垂直速度</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030844Z" creationid="liaronce" creationdate="20200820T151706Z">
+        <seg>反转垂直速度</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Reverse vertical speed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151707Z">
-        <seg> ${applyto} 上的反向垂直速度</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030931Z" creationid="liaronce" creationdate="20200820T151707Z">
+        <seg>反转 ${applyto} 的垂直速度</seg>
       </tuv>
     </tu>
     <tu>
@@ -38372,8 +38372,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Scale ${applyto} to ${xscale},image_yscale on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010244Z" creationid="liaronce" creationdate="20200820T151111Z">
-        <seg>将 ${applyto} 缩放到 ${xscale} ， ${applyto} 上的 image_yscale</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024619Z" creationid="liaronce" creationdate="20200820T151111Z">
+        <seg>将 ${applyto} 缩放至 ${xscale} ， ${applyto} 的 image_yscale</seg>
       </tuv>
     </tu>
     <tu>
@@ -38388,48 +38388,48 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale+${xscale},${yscale} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010311Z" creationid="liaronce" creationdate="20200820T153233Z">
-        <seg>将 ${applyto} 缩放到 ${applyto} 上的 image_xscale+ ${xscale} ， ${yscale} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024634Z" creationid="liaronce" creationdate="20200820T153233Z">
+        <seg>将 ${applyto} 缩放至 ${applyto} 的 image_xscale+ ${xscale} ， ${yscale} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale+${xscale},image_yscale on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010321Z" creationid="liaronce" creationdate="20200820T151534Z">
-        <seg>将 ${applyto} 缩放到 ${applyto} 上的 image_xscale+ ${xscale} ,image_yscale</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024636Z" creationid="liaronce" creationdate="20200820T151534Z">
+        <seg>将 ${applyto} 缩放至 ${applyto} 的 image_xscale+ ${xscale} ,image_yscale</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale+${xscale},image_yscale+${yscale} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010325Z" creationid="liaronce" creationdate="20200820T151535Z">
-        <seg>将 ${applyto} 缩放到 ${applyto} 上的 image_xscale+ ${xscale} ,image_yscale+ ${yscale} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024644Z" creationid="liaronce" creationdate="20200820T151535Z">
+        <seg>将 ${applyto} 缩放至 ${applyto} 的 image_xscale+ ${xscale} ,image_yscale+ ${yscale} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale,${yscale} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010258Z" creationid="liaronce" creationdate="20200820T151157Z">
-        <seg>将 ${applyto} 缩放到 ${applyto} 上的 image_xscale， ${yscale} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024624Z" creationid="liaronce" creationdate="20200820T151157Z">
+        <seg>将 ${applyto} 缩放至 ${applyto} 的 image_xscale， ${yscale} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale,image_yscale on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010302Z" creationid="liaronce" creationdate="20200820T151231Z">
-        <seg>将 ${applyto} 缩放到 ${applyto} 上的 image_xscale,image_yscale</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024627Z" creationid="liaronce" creationdate="20200820T151231Z">
+        <seg>将 ${applyto} 缩放至 ${applyto} 的 image_xscale,image_yscale</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale,image_yscale+${yscale} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010306Z" creationid="liaronce" creationdate="20200820T151532Z">
-        <seg>将 ${applyto} 缩放到 ${applyto} 上的 image_xscale,image_yscale+ ${yscale} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024631Z" creationid="liaronce" creationdate="20200820T151532Z">
+        <seg>将 ${applyto} 缩放至 ${applyto} 的 image_xscale,image_yscale+ ${yscale} </seg>
       </tuv>
     </tu>
     <tu>
@@ -39720,32 +39720,32 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set ${var} to ${expr} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010135Z" creationid="liaronce" creationdate="20200820T143554Z">
-        <seg>在  ${applyto}${show_input_count} 上将  ${var}  设置为  ${expr} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T141922Z" creationid="liaronce" creationdate="20200820T143554Z">
+        <seg>设置 ${applyto} 的变量 ${var} 为 ${expr} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set ${var} to ${expr}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143531Z">
-        <seg>将  ${var}  设置为  ${expr}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T141918Z" creationid="liaronce" creationdate="20200820T143531Z">
+        <seg>设置变量 ${var} 为 ${expr} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set ${var} to return value of ${function}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144041Z">
-        <seg>将 ${var} 设置为 ${function} 的返回值</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150005Z" creationid="liaronce" creationdate="20200820T144041Z">
+        <seg>设置变量 ${var} 为函数 ${function} 的返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set ${var} to return value of ${function} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144042Z">
-        <seg>将 ${var} 设置为在 ${applyto} 上返回 ${function} 的值</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150023Z" creationid="liaronce" creationdate="20200820T144042Z">
+        <seg>在 ${applyto} 上设置变量 ${var} 为函数 ${function} 的返回值</seg>
       </tuv>
     </tu>
     <tu>
@@ -39768,16 +39768,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set ${var} to return value of ${function} with 1 argument</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144043Z">
-        <seg>将 ${var} 设置为使用1个参数返回值 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150106Z" creationid="liaronce" creationdate="20200820T144043Z">
+        <seg>设置变量 ${var} 为使用1个参数的函数 ${function} 的返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set ${var} to return value of ${function} with 1 argument on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144044Z">
-        <seg>将 ${var} 设置为在 ${applyto} 上使用1个参数返回值 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150115Z" creationid="liaronce" creationdate="20200820T144044Z">
+        <seg>在 ${applyto} 上设置变量 ${var} 为使用1个参数的函数 ${function} 的返回值</seg>
       </tuv>
     </tu>
     <tu>
@@ -40610,32 +40610,32 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set alpha to ${alpha}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010402Z" creationid="liaronce" creationdate="20200820T151535Z">
-        <seg>将 Alpha 设置为 ${alpha} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150249Z" creationid="liaronce" creationdate="20200820T151535Z">
+        <seg>设置透明度为 ${alpha} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set alpha to ${alpha} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010402Z" creationid="liaronce" creationdate="20200820T151536Z">
-        <seg>在 ${applyto} 上将 Alpha 设置为 ${alpha} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150238Z" creationid="liaronce" creationdate="20200820T151536Z">
+        <seg>设置 ${applyto} 的透明度为 ${alpha} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set animation speed to ${speed}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144200Z">
-        <seg>将动画速度设置为 ${speed} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150817Z" creationid="liaronce" creationdate="20200820T144200Z">
+        <seg>设置动画速度为 ${speed} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set animation speed to ${speed} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144201Z">
-        <seg>在 ${applyto} 上将动画速度设置为 ${speed} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150831Z" creationid="liaronce" creationdate="20200820T144201Z">
+        <seg>设置 ${applyto} 的动画速度为 ${speed} </seg>
       </tuv>
     </tu>
     <tu>
@@ -40658,16 +40658,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set button threshold of gamepad ${gp} to ${threshold}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151623Z">
-        <seg>将游戏面板 ${gp} 的按钮阈值设置为 ${threshold} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030524Z" creationid="liaronce" creationdate="20200820T151623Z">
+        <seg>设置游戏手柄 ${gp} 的按钮阈值为 ${threshold} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set button threshold of gamepad ${gp} to ${threshold} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151624Z">
-        <seg>在 ${applyto} 上将游戏面板 ${gp} 的按钮阈值设置为 ${threshold} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030551Z" creationid="liaronce" creationdate="20200820T151624Z">
+        <seg>在 ${applyto} 上设置游戏手柄 ${gp} 的按钮阈值为 ${threshold} </seg>
       </tuv>
     </tu>
     <tu>
@@ -40690,16 +40690,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set deadzone of gamepad ${gp} to ${deadzone}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151621Z">
-        <seg>将游戏手柄 ${gp} 的死区设置为 ${deadzone} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030438Z" creationid="liaronce" creationdate="20200820T151621Z">
+        <seg>设置游戏手柄 ${gp} 的盲区为 ${deadzone} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set deadzone of gamepad ${gp} to ${deadzone} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151622Z">
-        <seg>在 ${applyto} 上将游戏手柄 ${gp} 的死区设置为 ${deadzone} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030500Z" creationid="liaronce" creationdate="20200820T151622Z">
+        <seg>在 ${applyto} 上设置游戏手柄 ${gp} 的盲区为 ${deadzone} </seg>
       </tuv>
     </tu>
     <tu>
@@ -40802,32 +40802,32 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set friction to ${friction}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151711Z">
-        <seg>将摩擦力设置为 ${friction} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T031025Z" creationid="liaronce" creationdate="20200820T151711Z">
+        <seg>设置摩擦力为 ${friction} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set friction to ${friction} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151712Z">
-        <seg>将 ${applyto} 上的摩擦力设置为 ${friction} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T031033Z" creationid="liaronce" creationdate="20200820T151712Z">
+        <seg>设置 ${applyto} 的摩擦力为 ${friction} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set global variable ${var} to ${value} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143909Z">
-        <seg>在 ${applyto}${show_input_count} 上将全局变量 ${var} 设置为 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142717Z" creationid="liaronce" creationdate="20200820T143909Z">
+        <seg>在 ${applyto} 上设置全局变量 ${var} 为 ${value} ${show_input_count}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set global variable ${var} to ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T143908Z">
-        <seg>将全局变量 ${var} 设置为 ${value}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T142703Z" creationid="liaronce" creationdate="20200820T143908Z">
+        <seg>设置全局变量 ${var} 为 ${value} ${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -40922,16 +40922,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set instance variable ${dnd_set_inst_vars} to ${value} on ${applyto}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T144149Z">
-        <seg>在 ${applyto}${show_input_count} 上将实例变量 ${dnd_set_inst_vars} 设置为 ${value} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150646Z" creationid="liaronce" creationdate="20200820T144149Z">
+        <seg>在 ${applyto}${show_input_count} 上设置实例变量 ${dnd_set_inst_vars} 为 ${value} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set instance variable ${dnd_set_inst_vars} to ${value}${show_input_count}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T144149Z">
-        <seg>将实例变量 ${dnd_set_inst_vars} 设置为 ${value}${show_input_count} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150639Z" creationid="liaronce" creationdate="20200820T144149Z">
+        <seg>设置实例变量 ${dnd_set_inst_vars} 为 ${value}${show_input_count} </seg>
       </tuv>
     </tu>
     <tu>
@@ -41202,8 +41202,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set sprite blend colour to ${colour}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151539Z">
-        <seg>将精灵混合颜色设置为 ${color} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150136Z" creationid="liaronce" creationdate="20200820T151539Z">
+        <seg>设置精灵混合颜色为 ${color} </seg>
       </tuv>
     </tu>
     <tu>
@@ -41266,16 +41266,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set temp ${var} to return value of ${function} with ${input_count} arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005422Z" creationid="liaronce" creationdate="20200820T144053Z">
-        <seg>将TEMP ${var} 设置为使用 ${input_count} 个参数返回值 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150358Z" creationid="liaronce" creationdate="20200820T144053Z">
+        <seg>设置临时变量 ${var} 为使用${input_count}个参数的函数 ${function} 的返回值</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Set temp ${var} to return value of ${function} with ${input_count} arguments on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005424Z" creationid="liaronce" creationdate="20200820T144054Z">
-        <seg>将TEMP ${var} 设置为使用 ${applyto} 上的 ${input_count} 参数返回值 ${function} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T150454Z" creationid="liaronce" creationdate="20200820T144054Z">
+        <seg>在 ${applyto} 上设置临时变量 ${var} 为使用${input_count}个参数的函数 ${function} 的返回值</seg>
       </tuv>
     </tu>
     <tu>
@@ -42422,8 +42422,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Show In Finder</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180921T144430Z" creationid="deciia" creationdate="20170628T080209Z">
-        <seg>在查找器中显示</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T141021Z" creationid="deciia" creationdate="20170628T080209Z">
+        <seg>在访达中显示</seg>
       </tuv>
     </tu>
     <tu>
@@ -42486,8 +42486,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Show Project In Finder</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180921T144438Z" creationid="deciia" creationdate="20170628T080239Z">
-        <seg>在 查找器中显示项目</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T141025Z" creationid="deciia" creationdate="20170628T080239Z">
+        <seg>在访达中显示项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -44109,8 +44109,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Sprite {0} contains {1} image(s) that failed to load.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T001003Z" creationid="deciia" creationdate="20180921T151514Z">
-        <seg>精灵 {0}包含无法加载的{1}图像。</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T140811Z" creationid="deciia" creationdate="20180921T151514Z">
+        <seg>精灵 {0} 包含无法加载的 {1} 图像。</seg>
       </tuv>
     </tu>
     <tu>
@@ -53607,8 +53607,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>{0} x {1} pixels</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170102T100447Z" creationid="deciia" creationdate="20170102T100447Z">
-        <seg>{0} x {1} 像素</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200821T140852Z" creationid="deciia" creationdate="20170102T100447Z">
+        <seg>{0} × {1} 像素</seg>
       </tuv>
     </tu>
     <tu>
