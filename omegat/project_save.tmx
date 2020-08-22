@@ -18725,8 +18725,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025804Z" creationid="liaronce" creationdate="20200820T151607Z">
-        <seg>获取游戏手柄 ${gp} 上的 ${axis} 轴的值并存入变量 ${var} 中</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025935Z" creationid="liaronce" creationdate="20200820T151607Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${axis} 轴的值并存入变量 ${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -18741,16 +18741,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025929Z" creationid="liaronce" creationdate="20200820T151609Z">
-        <seg>获取游戏手柄 ${gp} 上的 ${axis} 轴的值并存入临时变量 ${var} 中</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025937Z" creationid="liaronce" creationdate="20200820T151609Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${axis} 轴的值并存入临时变量 ${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151610Z">
-        <seg>将游戏面板 ${gp} 上的 ${axis} 轴值获取到 ${applyto} 上的临时 ${var} 中</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030008Z" creationid="liaronce" creationdate="20200820T151610Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${axis} 轴的值并存入 ${applyto} 的临时变量 ${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -18789,32 +18789,32 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get ${trigger} value on gamepad ${gp} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151611Z">
-        <seg>将游戏面板 ${gp} 上的 ${trigger} 值获取到 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030136Z" creationid="liaronce" creationdate="20200820T151611Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${trigger} 值并存入变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${trigger} value on gamepad ${gp} into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151612Z">
-        <seg>将游戏面板 ${gp} 上的 ${trigger} 值获取到 ${applyto} 上的 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030140Z" creationid="liaronce" creationdate="20200820T151612Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${trigger} 值并存入 ${applyto} 的变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${trigger} value on gamepad ${gp} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153313Z">
-        <seg>将游戏面板 ${gp} 上的 ${trigger} 值获取到临时 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030144Z" creationid="liaronce" creationdate="20200820T153313Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${trigger} 值并存入临时变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${trigger} value on gamepad ${gp} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151613Z">
-        <seg>将游戏面板 ${gp} 上的 ${trigger} 值获取到 ${applyto} 上的临时 ${var} 中</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030150Z" creationid="liaronce" creationdate="20200820T151613Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${trigger} 值并存入 ${applyto} 的临时变量 ${var} 中</seg>
       </tuv>
     </tu>
     <tu>
@@ -19397,16 +19397,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get gamepad device count into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151614Z">
-        <seg>将游戏手柄设备计数计入 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030202Z" creationid="liaronce" creationdate="20200820T151614Z">
+        <seg>对游戏手柄设备计数并存入变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get gamepad device count into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151615Z">
-        <seg>在 ${applyto} 上将游戏手柄设备计数计入 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T030212Z" creationid="liaronce" creationdate="20200820T151615Z">
+        <seg>在 ${applyto} 上对游戏手柄设备计数并存入 ${var} </seg>
       </tuv>
     </tu>
     <tu>
