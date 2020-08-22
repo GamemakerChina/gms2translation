@@ -53835,6 +53835,18 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <prop type="file">english.xml</prop>
+      <prop type="prev"></prop>
+      <prop type="next">{0}</prop>
+      <note>CSV 第一行，需另外处理</note>
+      <tuv lang="en-US">
+        <seg>English</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20200822T094350Z" creationid="liaronce" creationdate="20200822T094350Z">
+        <seg>Translation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">english.xml</prop>
       <prop type="prev">English</prop>
       <prop type="next">en</prop>
       <tuv lang="en-US">
