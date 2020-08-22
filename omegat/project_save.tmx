@@ -18725,24 +18725,24 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151607Z">
-        <seg>将游戏面板 ${gp} 上的 ${axis} 轴值获取到 ${var} 中</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025804Z" creationid="liaronce" creationdate="20200820T151607Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${axis} 轴的值并存入变量 ${var} 中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151608Z">
-        <seg>将游戏面板 ${gp} 上的 ${axis} 轴值获取到 ${applyto} 上的 ${var} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025857Z" creationid="liaronce" creationdate="20200820T151608Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${axis} 轴的值并存入 ${applyto} 的变量 ${var} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get ${axis} axis value on gamepad ${gp} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151609Z">
-        <seg>将游戏面板 ${gp} 上的 ${axis} 轴值获取到临时 ${var} 中</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025929Z" creationid="liaronce" creationdate="20200820T151609Z">
+        <seg>获取游戏手柄 ${gp} 上的 ${axis} 轴的值并存入临时变量 ${var} 中</seg>
       </tuv>
     </tu>
     <tu>
@@ -22738,16 +22738,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${key} is not released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151605Z">
-        <seg>如果 ${key} 未释放</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025731Z" creationid="liaronce" creationdate="20200820T151605Z">
+        <seg>如果按键 ${key} 未被释放</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is not released on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151606Z">
-        <seg>如果 ${key} 未在 ${applyto} 上释放</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025746Z" creationid="liaronce" creationdate="20200820T151606Z">
+        <seg>对于 ${applyto} 如果按键 ${key} 未被释放</seg>
       </tuv>
     </tu>
     <tu>
