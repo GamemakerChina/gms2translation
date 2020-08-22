@@ -22690,48 +22690,48 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${key} is down</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151600Z">
-        <seg>如果 ${key} 已关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025508Z" creationid="liaronce" creationdate="20200820T151600Z">
+        <seg>如果按键 ${key} 被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is down on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151601Z">
-        <seg>如果 ${key} 在 ${applyto} 上关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025529Z" creationid="liaronce" creationdate="20200820T151601Z">
+        <seg>对于 ${applyto} 如果按键 ${key} 被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is not down</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151602Z">
-        <seg>如果 ${key} 未关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025533Z" creationid="liaronce" creationdate="20200820T151602Z">
+        <seg>如果 ${key} 未被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is not down on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151603Z">
-        <seg>如果 ${key} 在 ${applyto} 上未关闭</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025549Z" creationid="liaronce" creationdate="20200820T151603Z">
+        <seg>对于 ${applyto} 如果按键 ${key} 未被按住</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is not pressed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151558Z">
-        <seg>如果未按下 ${key} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025457Z" creationid="liaronce" creationdate="20200820T151558Z">
+        <seg>如果按键 ${key} 未被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is not pressed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151559Z">
-        <seg>如果未在 ${applyto} 上按 ${key} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025453Z" creationid="liaronce" creationdate="20200820T151559Z">
+        <seg>对于 ${applyto} 如果按键 ${key} 未被按下</seg>
       </tuv>
     </tu>
     <tu>
@@ -22754,32 +22754,32 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If ${key} is pressed</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151557Z">
-        <seg>如果按下 ${key} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025408Z" creationid="liaronce" creationdate="20200820T151557Z">
+        <seg>如果按键 ${key} 被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is pressed on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151558Z">
-        <seg>如果在 ${applyto} 上按下 ${key} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025500Z" creationid="liaronce" creationdate="20200820T151558Z">
+        <seg>对于 ${applyto} 如果按键 ${key} 被按下</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151604Z">
-        <seg>如果释放 ${key} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025556Z" creationid="liaronce" creationdate="20200820T151604Z">
+        <seg>如果按键 ${key} 被松开</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If ${key} is released on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151604Z">
-        <seg>如果 ${key} 在 ${applyto} 上释放</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025725Z" creationid="liaronce" creationdate="20200820T151604Z">
+        <seg>对于 ${applyto} 如果按键 ${key}被松开</seg>
       </tuv>
     </tu>
     <tu>
@@ -24554,16 +24554,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If mouse button ${button} is not released</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151555Z">
-        <seg>如果鼠标按钮 ${button} 未释放</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025332Z" creationid="liaronce" creationdate="20200820T151555Z">
+        <seg>如果鼠标按钮 ${button} 未被松开</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>If mouse button ${button} is not released on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T153254Z">
-        <seg>如果在 ${applyto} 上未释放鼠标按钮 ${button} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025350Z" creationid="liaronce" creationdate="20200820T153254Z">
+        <seg>对于 ${applyto} 如果鼠标按钮 ${button} 未被松开</seg>
       </tuv>
     </tu>
     <tu>
@@ -24594,8 +24594,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>If mouse button ${button} is released on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025050Z" creationid="liaronce" creationdate="20200820T151554Z">
-        <seg>对于 ${applyto} 如果释放鼠标按钮 ${button} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T025311Z" creationid="liaronce" creationdate="20200820T151554Z">
+        <seg>对于 ${applyto} 如果鼠标按钮 ${button} 被松开</seg>
       </tuv>
     </tu>
     <tu>
