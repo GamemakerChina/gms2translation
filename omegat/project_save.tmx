@@ -7124,32 +7124,32 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Check if ${obj} does not exist</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151541Z">
-        <seg>检查 ${obj} 是否不存在</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024654Z" creationid="liaronce" creationdate="20200820T151541Z">
+        <seg>检查物体 ${obj} 是否不存在</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Check if ${obj} does not exist on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151542Z">
-        <seg>检查 ${applyto} 上是否不存在 ${obj} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024713Z" creationid="liaronce" creationdate="20200820T151542Z">
+        <seg>在 ${applyto} 上检查 是否不存在物体 ${obj} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Check if ${obj} exists</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151543Z">
-        <seg>检查 ${obj} 是否存在</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024516Z" creationid="liaronce" creationdate="20200820T151543Z">
+        <seg>检查物体 ${obj} 是否存在</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Check if ${obj} exists on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151544Z">
-        <seg>检查 ${applyto} 上是否存在 ${obj} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024518Z" creationid="liaronce" creationdate="20200820T151544Z">
+        <seg>检查 ${applyto} 上是否存在物体 ${obj} </seg>
       </tuv>
     </tu>
     <tu>
@@ -38372,8 +38372,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Scale ${applyto} to ${xscale},image_yscale on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010244Z" creationid="liaronce" creationdate="20200820T151111Z">
-        <seg>将 ${applyto} 缩放到 ${xscale} ， ${applyto} 上的 image_yscale</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024619Z" creationid="liaronce" creationdate="20200820T151111Z">
+        <seg>将 ${applyto} 缩放至 ${xscale} ， ${applyto} 的 image_yscale</seg>
       </tuv>
     </tu>
     <tu>
@@ -38388,48 +38388,48 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale+${xscale},${yscale} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010311Z" creationid="liaronce" creationdate="20200820T153233Z">
-        <seg>将 ${applyto} 缩放到 ${applyto} 上的 image_xscale+ ${xscale} ， ${yscale} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024634Z" creationid="liaronce" creationdate="20200820T153233Z">
+        <seg>将 ${applyto} 缩放至 ${applyto} 的 image_xscale+ ${xscale} ， ${yscale} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale+${xscale},image_yscale on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010321Z" creationid="liaronce" creationdate="20200820T151534Z">
-        <seg>将 ${applyto} 缩放到 ${applyto} 上的 image_xscale+ ${xscale} ,image_yscale</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024636Z" creationid="liaronce" creationdate="20200820T151534Z">
+        <seg>将 ${applyto} 缩放至 ${applyto} 的 image_xscale+ ${xscale} ,image_yscale</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale+${xscale},image_yscale+${yscale} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010325Z" creationid="liaronce" creationdate="20200820T151535Z">
-        <seg>将 ${applyto} 缩放到 ${applyto} 上的 image_xscale+ ${xscale} ,image_yscale+ ${yscale} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024644Z" creationid="liaronce" creationdate="20200820T151535Z">
+        <seg>将 ${applyto} 缩放至 ${applyto} 的 image_xscale+ ${xscale} ,image_yscale+ ${yscale} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale,${yscale} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010258Z" creationid="liaronce" creationdate="20200820T151157Z">
-        <seg>将 ${applyto} 缩放到 ${applyto} 上的 image_xscale， ${yscale} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024624Z" creationid="liaronce" creationdate="20200820T151157Z">
+        <seg>将 ${applyto} 缩放至 ${applyto} 的 image_xscale， ${yscale} </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale,image_yscale on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010302Z" creationid="liaronce" creationdate="20200820T151231Z">
-        <seg>将 ${applyto} 缩放到 ${applyto} 上的 image_xscale,image_yscale</seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024627Z" creationid="liaronce" creationdate="20200820T151231Z">
+        <seg>将 ${applyto} 缩放至 ${applyto} 的 image_xscale,image_yscale</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Scale ${applyto} to image_xscale,image_yscale+${yscale} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010306Z" creationid="liaronce" creationdate="20200820T151532Z">
-        <seg>将 ${applyto} 缩放到 ${applyto} 上的 image_xscale,image_yscale+ ${yscale} </seg>
+      <tuv lang="zh-CN" changeid="36011" changedate="20200822T024631Z" creationid="liaronce" creationdate="20200820T151532Z">
+        <seg>将 ${applyto} 缩放至 ${applyto} 的 image_xscale,image_yscale+ ${yscale} </seg>
       </tuv>
     </tu>
     <tu>
