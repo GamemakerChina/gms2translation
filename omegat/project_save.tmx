@@ -958,6 +958,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A parameter track must be selected to view curves.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115200Z" creationid="liaronce" creationdate="20201124T115200Z">
+        <seg>必须选择参数轨迹才能查看曲线。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A parameter track must be sepected to view curves.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115153Z" creationid="liaronce" creationdate="20201124T115153Z">
+        <seg>必须分隔参数轨迹才能查看曲线。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A parent reliant anchor (bottom or right) has been set with no parent gadget, try setting the dimension instead</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170318T064331Z" creationid="deciia" creationdate="20170102T035506Z">
@@ -1050,6 +1066,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135232Z" creationid="liaronce" creationdate="20191117T135232Z">
         <seg>ASCII</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Abort Connection</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115029Z" creationid="liaronce" creationdate="20201124T115029Z">
+        <seg>中止连接</seg>
       </tuv>
     </tu>
     <tu>
@@ -4774,6 +4798,30 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Automatic choice to convert curve to keys</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T114938Z" creationid="liaronce" creationdate="20201124T114938Z">
+        <seg>自动选择将曲线转换为关键点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatic choice to embed edited curve</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T114937Z" creationid="liaronce" creationdate="20201124T114937Z">
+        <seg>自动选择嵌入编辑的曲线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatic choice to show warning on external curve edit</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T114942Z" creationid="liaronce" creationdate="20201124T114942Z">
+        <seg>自动选择在外部曲线编辑时显示警告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Automatic response to Asset deletion</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133607Z" creationid="liaronce" creationdate="20200820T133607Z">
@@ -7114,6 +7162,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Changes to this curve inside sequences will also be applied to the external shared curve asset.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115206Z" creationid="liaronce" creationdate="20201124T115206Z">
+        <seg>对序列内的此曲线所做的更改也将应用于外部共享曲线资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Changing</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170224T003712Z" creationid="deciia" creationdate="20170224T003712Z">
@@ -7998,6 +8054,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142435Z" creationid="liaronce" creationdate="20191118T142421Z">
         <seg>单击此处禁用DPI覆写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click here to visit help page</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115103Z" creationid="liaronce" creationdate="20201124T115103Z">
+        <seg>单击此处访问帮助页面</seg>
       </tuv>
     </tu>
     <tu>
@@ -9342,6 +9406,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T055327Z" creationid="deciia" creationdate="20170105T055327Z">
         <seg>常量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Constructor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T114901Z" creationid="liaronce" creationdate="20201124T114901Z">
+        <seg>构造函数</seg>
       </tuv>
     </tu>
     <tu>
@@ -11443,6 +11515,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Debugger failed to connect</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115105Z" creationid="liaronce" creationdate="20201124T115105Z">
+        <seg>调试器无法连接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Debugger port</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T080140Z" creationid="deciia" creationdate="20180922T080140Z">
@@ -11475,10 +11555,34 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Declare A New Function</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T114915Z" creationid="liaronce" creationdate="20201124T114915Z">
+        <seg>声明一个新函数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Declare Temp</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T054512Z" creationid="deciia" creationdate="20170107T054512Z">
         <seg>声明临时变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Declare a new function</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T114914Z" creationid="liaronce" creationdate="20201124T114914Z">
+        <seg>声明新函数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Declare a new function ${funcName}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T114920Z" creationid="liaronce" creationdate="20201124T114920Z">
+        <seg>声明新函数 ${funcName}</seg>
       </tuv>
     </tu>
     <tu>
@@ -12636,6 +12740,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Device Families</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115112Z" creationid="liaronce" creationdate="20201124T115112Z">
+        <seg>设备系列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Device GUID:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T141731Z" creationid="deciia" creationdate="20170105T102154Z">
@@ -13368,6 +13480,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T203528Z" creationid="deciia" creationdate="20180922T203528Z">
         <seg>DotNet 安装</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Double Line Height</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115024Z" creationid="liaronce" creationdate="20201124T114958Z">
+        <seg>双重线高</seg>
       </tuv>
     </tu>
     <tu>
@@ -15279,6 +15399,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T080757Z" creationid="deciia" creationdate="20180922T080757Z">
         <seg>启用DPI改写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable Debug Output in Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115139Z" creationid="liaronce" creationdate="20201124T115139Z">
+        <seg>在包中启用调试输出</seg>
       </tuv>
     </tu>
     <tu>
@@ -22075,6 +22203,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Height of Anim Curve Track in Dopesheet</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T114955Z" creationid="liaronce" creationdate="20201124T114955Z">
+        <seg>动画中动画曲线轨迹的高度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Height:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T075855Z" creationid="deciia" creationdate="20170102T075835Z">
@@ -27382,6 +27518,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Keep trying</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115057Z" creationid="liaronce" creationdate="20201124T115057Z">
+        <seg>保持尝试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Key</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T152322Z" creationid="deciia" creationdate="20170215T152322Z">
@@ -27906,6 +28050,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T045451Z" creationid="deciia" creationdate="20170107T045451Z">
         <seg>了解更多</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Learn about CocoaPods</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115109Z" creationid="liaronce" creationdate="20201124T115109Z">
+        <seg>了解 CocoaPods</seg>
       </tuv>
     </tu>
     <tu>
@@ -31073,6 +31225,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T073219Z" creationid="deciia" creationdate="20180922T073219Z">
         <seg>没有与游戏连接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>No curve visible.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115151Z" creationid="liaronce" creationdate="20201124T115151Z">
+        <seg>没有可见的曲线。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34572,6 +34732,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Precise</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T114926Z" creationid="liaronce" creationdate="20201124T114926Z">
+        <seg>精确</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Precise (Slow)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T151608Z" creationid="deciia" creationdate="20170103T151608Z">
@@ -34584,6 +34752,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T091426Z" creationid="deciia" creationdate="20170103T151641Z">
         <seg>精确各帧 (慢)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>PrecisePerFrame</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T114929Z" creationid="liaronce" creationdate="20201124T114929Z">
+        <seg>PrecisePerFrame</seg>
       </tuv>
     </tu>
     <tu>
@@ -35822,6 +35998,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T013738Z" creationid="deciia" creationdate="20180922T013738Z">
         <seg>带旋转的矩形</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>RectangleRotation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T114933Z" creationid="liaronce" creationdate="20201124T114933Z">
+        <seg>矩形旋转</seg>
       </tuv>
     </tu>
     <tu>
@@ -38788,6 +38972,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Script Editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115110Z" creationid="liaronce" creationdate="20201124T115110Z">
+        <seg>脚本编辑器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Script Names</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T084025Z" creationid="deciia" creationdate="20180922T084025Z">
@@ -39384,6 +39576,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141454Z" creationid="liaronce" creationdate="20200820T141454Z">
         <seg>选择动画曲线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select any parameter track to view curve</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115150Z" creationid="liaronce" creationdate="20201124T115150Z">
+        <seg>选择任意参数轨迹以查看曲线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select any parameter track to view curve.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115156Z" creationid="liaronce" creationdate="20201124T115156Z">
+        <seg>选择任何参数轨迹以查看曲线。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42451,6 +42659,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>Shared Curve:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115201Z" creationid="liaronce" creationdate="20201124T115201Z">
+        <seg>共享曲线：</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>备注：TimeLine_BtnShift：Shift button caption for timeline editor
 移动？轻微的移动？但是没有找到这个按钮。</note>
       <tuv lang="en-US">
@@ -43162,6 +43378,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T090409Z" creationid="deciia" creationdate="20170103T074713Z">
         <seg>单色模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Single Line Height</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115027Z" creationid="liaronce" creationdate="20201124T114957Z">
+        <seg>单重线高</seg>
       </tuv>
     </tu>
     <tu>
@@ -44568,6 +44792,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Static</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T114911Z" creationid="liaronce" creationdate="20201124T114911Z">
+        <seg>静态</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Static Variable</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134919Z" creationid="liaronce" creationdate="20200820T134919Z">
@@ -44998,6 +45230,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T075148Z" creationid="lazyeo" creationdate="20191120T075039Z">
         <seg>高抗锯齿算法，最好只用在单色输出的画面中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Struct Members</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115137Z" creationid="liaronce" creationdate="20201124T115137Z">
+        <seg>结构成员</seg>
       </tuv>
     </tu>
     <tu>
@@ -45919,6 +46159,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142415Z" creationid="liaronce" creationdate="20191118T142415Z">
         <seg>DPI替代设置高于此显示的建议限制，为 {0}％。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The Debugger has not received a response from the target - it may be a network or firewall issue.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115101Z" creationid="liaronce" creationdate="20201124T115101Z">
+        <seg>调试器尚未收到来自目标的响应-可能是网络或防火墙问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -48407,6 +48655,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T072007Z" creationid="deciia" creationdate="20170215T151645Z">
         <seg>触发器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Triple Line Height</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115021Z" creationid="liaronce" creationdate="20201124T115021Z">
+        <seg>三重线高</seg>
       </tuv>
     </tu>
     <tu>
@@ -53699,6 +53955,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T162407Z" creationid="deciia" creationdate="20170311T162407Z">
         <seg>{0} 顶点着色器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0} [{1}] - Dope Sheet</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115146Z" creationid="liaronce" creationdate="20201124T115146Z">
+        <seg>{0} [{1}] - 摄影表</seg>
       </tuv>
     </tu>
     <tu>
