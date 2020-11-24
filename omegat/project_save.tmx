@@ -3184,6 +3184,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>An update is available for the current manual language ({0}).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115907Z" creationid="liaronce" creationdate="20201124T115907Z">
+        <seg>当前语言的手册 ({0}) 有更新可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>An update is available for this asset.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T074743Z" creationid="deciia" creationdate="20170103T080552Z">
@@ -7190,6 +7198,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144111Z">
         <seg>更改为 ${objind} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Change orientation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120002Z" creationid="liaronce" creationdate="20201124T120002Z">
+        <seg>更改方向</seg>
       </tuv>
     </tu>
     <tu>
@@ -17981,6 +17997,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T170400Z" creationid="deciia" creationdate="20170311T170400Z">
         <seg>浮动停靠栏</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Floating window</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120000Z" creationid="liaronce" creationdate="20201124T120000Z">
+        <seg>浮动窗口</seg>
       </tuv>
     </tu>
     <tu>
@@ -29525,6 +29549,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T000502Z" creationid="deciia" creationdate="20180922T205634Z">
         <seg>帮助文档未本地化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Manual update available</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115925Z" creationid="liaronce" creationdate="20201124T115925Z">
+        <seg>提供手动更新</seg>
       </tuv>
     </tu>
     <tu>
@@ -44030,10 +44062,42 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Snap to bottom</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115949Z" creationid="liaronce" creationdate="20201124T115949Z">
+        <seg>对齐到底部</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Snap to grid</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T100955Z" creationid="deciia" creationdate="20170102T100955Z">
         <seg>对齐网格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Snap to left</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115953Z" creationid="liaronce" creationdate="20201124T115953Z">
+        <seg>对齐到左侧</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Snap to right</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115956Z" creationid="liaronce" creationdate="20201124T115956Z">
+        <seg>对齐到右侧</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Snap to top</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115942Z" creationid="liaronce" creationdate="20201124T115942Z">
+        <seg>对齐到顶部</seg>
       </tuv>
     </tu>
     <tu>
@@ -46943,6 +47007,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T195610Z" creationid="deciia" creationdate="20170105T080638Z">
         <seg>项目主要文件 '{0}' 已被修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The manual for the current manual language ({0}) is not installed.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115919Z" creationid="liaronce" creationdate="20201124T115842Z">
+        <seg>未安装当前语言 ({0}) 的手册。</seg>
       </tuv>
     </tu>
     <tu>
@@ -51598,6 +51670,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Would you like to download it now, or use the online help?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115844Z" creationid="liaronce" creationdate="20201124T115844Z">
+        <seg>您是现在下载，还是使用联机帮助？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Would you like to download it now?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115924Z" creationid="liaronce" creationdate="20201124T115924Z">
+        <seg>您想现在下载吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Would you like to download this manual?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T000446Z" creationid="deciia" creationdate="20180922T205542Z">
@@ -52623,6 +52711,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T230519Z" creationid="deciia" creationdate="20180922T100126Z">
         <seg>赋值给多关系等式（multi-relational-equality）表达式 - GML不支持在一个表达式中进行多重赋值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>at:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120006Z" creationid="liaronce" creationdate="20201124T120006Z">
+        <seg>在：</seg>
       </tuv>
     </tu>
     <tu>
