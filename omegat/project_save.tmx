@@ -54,6 +54,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>${FileMenuExit}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T102201Z" creationid="liaronce" creationdate="20201124T102201Z">
+        <seg>${FileMenuExit}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>${IDEMenuHelpAbout}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T102220Z" creationid="liaronce" creationdate="20201124T102220Z">
+        <seg>${IDEMenuHelpAbout}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>${IDEMenuViews}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T102218Z" creationid="liaronce" creationdate="20201124T102218Z">
+        <seg>${IDEMenuViews}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>${OpenInExplorer}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T102232Z" creationid="liaronce" creationdate="20201124T102232Z">
+        <seg>${OpenInExplorer}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>${OpenProjectInExplorer}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T102222Z" creationid="liaronce" creationdate="20201124T102222Z">
+        <seg>${OpenProjectInExplorer}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>${ShowLogFileInExplorer}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T102223Z" creationid="liaronce" creationdate="20201124T102223Z">
+        <seg>${ShowLogFileInExplorer}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>${ctrl}+MMB to open the inherited event instead of the manual.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004543Z" creationid="deciia" creationdate="20180922T052612Z">
@@ -278,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T102258Z" creationid="liaronce" creationdate="20201124T102258Z">
+        <seg>// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information\nfunction ${funcName}(){\n\n}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004609Z" creationid="liaronce" creationdate="20200820T142833Z">
@@ -298,6 +354,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004707Z" creationid="liaronce" creationdate="20200820T142851Z">
         <seg>/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash :  ${hash} \n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName} (){\n\n}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T102300Z" creationid="liaronce" creationdate="20201124T102300Z">
+        <seg>/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : "funcName" "${funcName}"\nfunction ${funcName}(){\n\n}</seg>
       </tuv>
     </tu>
     <tu>
@@ -25196,6 +25260,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T101330Z" creationid="lazyeo" creationdate="20191120T101330Z">
         <seg>只要您想要撤回。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Ignore</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T102157Z" creationid="liaronce" creationdate="20201124T102157Z">
+        <seg>忽略</seg>
       </tuv>
     </tu>
     <tu>
@@ -52077,6 +52149,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200819T074415Z" creationid="qq106" creationdate="20191117T134301Z">
         <seg>"http://zeus.yoyogames.com/GMS2_English-master.zip"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>https://manual-en.yoyogames.com</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T102147Z" creationid="liaronce" creationdate="20201124T102147Z">
+        <seg>https://manual-en.yoyogames.com</seg>
       </tuv>
     </tu>
     <tu>
