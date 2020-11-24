@@ -8,7 +8,7 @@
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>Mark Shi</Author>
   <LastAuthor>Mark Shi</LastAuthor>
-  <Created>2020-08-19T07:28:23Z</Created>
+  <Created>2020-11-24T10:07:32Z</Created>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -36,10 +36,10 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="6420" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="6557" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="14.25">
    <Row>
-    <Cell><Data ss:Type="String">English</Data></Cell>
+    <Cell><Data ss:Type="String">Translation</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -64,6 +64,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">http://zeus.yoyogames.com/GMS2_English-master.zip</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">https://manual-en.yoyogames.com</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Open In Explorer</Data></Cell>
@@ -457,6 +460,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Confirm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ignore</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Are you sure you want to remove the event with all its actions?</Data></Cell>
@@ -6366,6 +6372,9 @@
     <Cell><Data ss:Type="String">Group name '{0}' is already in use</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Group name '{0}' cannot contain / or \</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">A group with name '{0}' already exists at this location</Data></Cell>
    </Row>
    <Row>
@@ -7368,6 +7377,12 @@
     <Cell><Data ss:Type="String">Enable Sign In with Apple</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Podfile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Podfile.lock</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">GCM Sender ID</Data></Cell>
    </Row>
    <Row>
@@ -7423,6 +7438,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Use Google APK expansion</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Use Google Dynamic Asset Delivery</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Banner Image</Data></Cell>
@@ -7710,7 +7728,61 @@
     <Cell><Data ss:Type="String">Windows Target Platform Version</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Universal family platform version</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Desktop family platform version</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Xbox family platform version</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mobile family platform version</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Holographic family platform version</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Team family platform version</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Windows Target Platform Min Version</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Universal family platform min version</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Desktop family platform min version</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Xbox family platform min version</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mobile family platform min version</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Holographic family platform min version</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Team family platform min version</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Support Universal device family</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Support Desktop device family</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Support Xbox device family</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Support Mobile device family</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Support Holographic device family</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Support Team device family</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Small Image</Data></Cell>
@@ -8082,7 +8154,7 @@
     <Cell><Data ss:Type="String">Use an external browser for help</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Use RoboHelp</Data></Cell>
+    <Cell><Data ss:Type="String">Use online manual</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Automatic response to deleting frames</Data></Cell>
@@ -8281,6 +8353,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Volume</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Master Volume Setting</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Automatic response to permanent action warning</Data></Cell>
@@ -8583,6 +8658,9 @@
     <Cell><Data ss:Type="String">Disable file system sandbox</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Use x64 Windows Runtime</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Steam ID</Data></Cell>
    </Row>
    <Row>
@@ -8602,6 +8680,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Create New GUID</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create New ID</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Enable Short Circuit Evaluations</Data></Cell>
@@ -9150,6 +9231,12 @@
     <Cell><Data ss:Type="String">Are you sure you want to delete this event and its contents?</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Add default script content</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Default script content</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Single-Click</Data></Cell>
    </Row>
    <Row>
@@ -9414,6 +9501,24 @@
     <Cell><Data ss:Type="String">Package for Store Upload</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Package for:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ARM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">x86</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">x64</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">At least one architecture must be selected to create a package</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Error</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Developer Package</Data></Cell>
    </Row>
    <Row>
@@ -9570,7 +9675,7 @@
     <Cell><Data ss:Type="String">Run AVD</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">To use Android simulators, Run AVD then Create and Start them before detecting</Data></Cell>
+    <Cell><Data ss:Type="String">To use Android simulators, Launch Android Studio and select Tools-&gt;Android-&gt;AVD Manager</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Find Resource</Data></Cell>
@@ -10143,6 +10248,12 @@
     <Cell><Data ss:Type="String">3rd Party Frameworks + Bundles</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">CocoaPods</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CocoaPods Dependencies</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Check for weak reference</Data></Cell>
    </Row>
    <Row>
@@ -10711,6 +10822,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Enable variable reference warnings</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Enable statement folding as regions</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Default</Data></Cell>
@@ -12846,6 +12960,9 @@
     <Cell><Data ss:Type="String">Bounding Box Bottom</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">In Sequence</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Sprite Origin X</Data></Cell>
    </Row>
    <Row>
@@ -13180,6 +13297,21 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Get the position of the instance along the path it is following.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Constructor</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Static</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Declare a new function</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Declare A New Function</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Declare a new function ${funcName}</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Unknown Action</Data></Cell>
@@ -13863,6 +13995,24 @@
     <Cell><Data ss:Type="String">Bottom Right</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Rectangle</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ellipse</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Diamond</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Precise</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PrecisePerFrame</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RectangleRotation</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Attempting to restore item '{0}' name is already in use and has been updated to '{1}'</Data></Cell>
    </Row>
    <Row>
@@ -13903,6 +14053,27 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Automatically stretch newly added assets</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Automatic choice to embed edited curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Automatic choice to convert curve to keys</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Automatic choice to show warning on external curve edit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Height of Anim Curve Track in Dopesheet</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Single Line Height</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Double Line Height</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Triple Line Height</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Enable Smart Guides</Data></Cell>
@@ -14409,6 +14580,21 @@
     <Cell><Data ss:Type="String">IDE version and current runtime version are not compatible for debugging.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Abort Connection</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Keep trying</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The Debugger has not received a response from the target - it may be a network or firewall issue.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Click here to visit help page</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Debugger failed to connect</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Text Viewer</Data></Cell>
    </Row>
    <Row>
@@ -14583,6 +14769,9 @@
     <Cell><Data ss:Type="String">Add third-party framework entry</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Learn about CocoaPods</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Remove selected framework</Data></Cell>
    </Row>
    <Row>
@@ -14611,6 +14800,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Type</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mode</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">You have unsaved changes and will be prompted to save.</Data></Cell>
@@ -15645,6 +15837,9 @@
     <Cell><Data ss:Type="String">Object Editor</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Script Editor</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Room Editor</Data></Cell>
    </Row>
    <Row>
@@ -15784,6 +15979,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Packaging</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Device Families</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Android</Data></Cell>
@@ -16117,6 +16315,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Read Only Line Numbers</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Struct Members</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Bookmark Line Numbers</Data></Cell>
@@ -17052,6 +17253,9 @@
     <Cell><Data ss:Type="String">Enable File Access Logging to SD Card</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Enable Debug Output in Package</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Enable NX CPU Profiler for YYC Builds</Data></Cell>
    </Row>
    <Row>
@@ -17367,6 +17571,9 @@
     <Cell><Data ss:Type="String">Tracks</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">{0} [{1}] - Dope Sheet</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Track Panel</Data></Cell>
    </Row>
    <Row>
@@ -17377,6 +17584,15 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">'Tracks' appear here when assets have been added to the project. Click or drag assets here.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Select any parameter track to view curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">No curve visible.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A parameter track must be sepected to view curves.</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">fps</Data></Cell>
@@ -17407,6 +17623,84 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Change time units</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Select any parameter track to view curve.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">No curve visible.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A parameter track must be selected to view curves.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Shared Curve:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Changes to this curve inside sequences will also be applied to the external shared curve asset.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Embed the curve to make edits freely or Continue to edit.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The sequence will have its own copy of the curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Continue to edit the shared curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Converting a curve to keys will revert the curve back to 'linear' and it will appear as keyframes in the dopesheet.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This is a keyframed parameter track.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">'Convert to Curve' to make edits in this view</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Locked:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Unlock asset track in track panel\n to continue editing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Invalid Shared Curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Invalid Shared Curve:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sequences can no longer read the shared curve due to edits that have been made externally.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add channels to the curve to resolve the issue.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add Channel(s)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">This will add the appropriate number of channels to the curve to make it compatible with the sequence.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The curve will not be modified</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The curve will not be assigned to the track</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Edit the shared curve to fix the issues.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Important</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Incompatible Curve:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">'{0}' does not have enough channels to work with this parameter track.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Add missing channels to this curve?</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Go To Function</Data></Cell>
@@ -17539,6 +17833,15 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Falloff</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Loop Mode</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Loop</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play once</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Colour Multiply</Data></Cell>
@@ -17985,16 +18288,16 @@
     <Cell><Data ss:Type="String">Remove selected tags</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Record a new key</Data></Cell>
+    <Cell><Data ss:Type="String">Record a new key (F9)</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Automatically record changes</Data></Cell>
+    <Cell><Data ss:Type="String">Automatically record changes (F10)</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Split the selected keys</Data></Cell>
+    <Cell><Data ss:Type="String">Split the selected keys (F7)</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Delete the selected keys</Data></Cell>
+    <Cell><Data ss:Type="String">Delete the selected keys (F8)</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Broadcast message</Data></Cell>
@@ -18108,22 +18411,34 @@
     <Cell><Data ss:Type="String">Some copied keys were not pasted successfully due to target track types not matching up</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Convert to embedded anim curve</Data></Cell>
+    <Cell><Data ss:Type="String">Convert to Curve</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Set to external anim curve</Data></Cell>
+    <Cell><Data ss:Type="String">Assign Shared Curve (Import)</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Export embedded anim curve</Data></Cell>
+    <Cell><Data ss:Type="String">Export To Shared Curve</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Convert to keys</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Embed Curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Convert To Keys</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Convert To Curve</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Select animation curve</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Compatible curves: {0} of {1}</Data></Cell>
+    <Cell><Data ss:Type="String">Incompatible curves: {0} of {1}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Needs additional channels</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Parameter '{0}' already exists in this track as '{1}'.</Data></Cell>
@@ -18285,10 +18600,10 @@
     <Cell><Data ss:Type="String">Jump to end</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Add Broadcast Message</Data></Cell>
+    <Cell><Data ss:Type="String">Add Broadcast Message (Ctrl+8)</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Add Moment</Data></Cell>
+    <Cell><Data ss:Type="String">Add Moment (Ctrl+9)</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Search</Data></Cell>
@@ -18301,6 +18616,9 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Expand\Collapse all</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Toggle Curve Mode</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Components</Data></Cell>
@@ -18324,10 +18642,10 @@
     <Cell><Data ss:Type="String">Zoom Bar</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Add New Group</Data></Cell>
+    <Cell><Data ss:Type="String">Add New Group (Alt+G)</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Add New Clip Mask</Data></Cell>
+    <Cell><Data ss:Type="String">Add New Clip Mask (Ctrl+M)</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Add Track</Data></Cell>
@@ -18540,6 +18858,9 @@
     <Cell><Data ss:Type="String">Are you sure you want to delete these Assets: {0}?\nCollision events with deleted objects will also be deleted</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Deleting a Room Order group will delete any room assets it contains.</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Assign Sprite to Object</Data></Cell>
    </Row>
    <Row>
@@ -18612,6 +18933,21 @@
     <Cell><Data ss:Type="String">Are you sure you want to delete selected Tags? Deleted Tags will be removed from all Assets.</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Arrange</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Send To Top</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Send To Bottom</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Up One</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Down One</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Grid</Data></Cell>
    </Row>
    <Row>
@@ -18645,7 +18981,13 @@
     <Cell><Data ss:Type="String">Curves</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Curve:</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Add Curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Delete Curve</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Toggle Visibility</Data></Cell>
@@ -18684,6 +19026,9 @@
     <Cell><Data ss:Type="String">Smooth</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Bezier</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Rename</Data></Cell>
    </Row>
    <Row>
@@ -18694,6 +19039,12 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Embedded Curve</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">h</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">v</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Create default folders in new project</Data></Cell>
@@ -18717,16 +19068,34 @@
     <Cell><Data ss:Type="String">Default sort order for new Asset Browsers</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">A-Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z-A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Custom</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Default sort folders first</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Automatic response to duplicate group name error</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Expand tree on filter change</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Show Quick Access</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Automatic response to delete tag confirmation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Automatic response to Room Order group deletion</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Room Order Ungroup removes the empty group</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Pre-populate SDK values to chosen API Level</Data></Cell>
@@ -18790,6 +19159,21 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">An error occurred while trying to download the manual</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">The manual for the current manual language ({0}) is not installed. Would you like to download it now, or use the online help?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Download</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Use online manual</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">An update is available for the current manual language ({0}). Would you like to download it now?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Manual update available</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Runtime install incomplete</Data></Cell>
@@ -19149,7 +19533,7 @@
     <Cell><Data ss:Type="String">Don't Send</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Our &lt;a href=https://www.yoyogames.com/legal/privacy&quot;&gt;Privacy Policy&lt;/a&gt; and &lt;a href=&quot;https://www.yoyogames.com/legal/cookies&quot;&gt;Cookie Policy&lt;/a&gt; governs the way we collect</Data></Cell>
+    <Cell><Data ss:Type="String"> store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Privacy Policy</Data></Cell>
@@ -19260,10 +19644,10 @@
     <Cell><Data ss:Type="String">Sequence Information</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information\nfunction ${funcName}(){\n\n}</Data></Cell>
+    <Cell><Data ss:Type="String">// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : Script assets have changed$(13_10)for v2.3.0 see $(13_10)https://help.yoyogames.com/hc/en-us/articles/360005277377 $(13_10)for more information\n/// @DnDArgument : &quot;funcName&quot; &quot;${funcName}&quot;\nfunction ${funcName}(){\n\n}</Data></Cell>
+    <Cell><Data ss:Type="String">/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : &quot;funcName&quot; &quot;${funcName}&quot;\nfunction ${funcName}(){\n\n}</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : &quot;funcName&quot; &quot;${funcName}&quot;\nfunction ${funcName}(){\n\n}</Data></Cell>
@@ -19290,6 +19674,27 @@
     <Cell><Data ss:Type="String">BuiltIn {0} Member</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Snap to top</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Snap to bottom</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Snap to left</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Snap to right</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Floating window</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Reset to default</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Change orientation</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Error Creating Project</Data></Cell>
    </Row>
    <Row>
@@ -19300,6 +19705,12 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Could not save imported project at specified path. You may not have permission to save here.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Track Panel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">at:</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">

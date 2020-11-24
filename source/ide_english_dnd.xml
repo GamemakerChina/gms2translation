@@ -8,7 +8,7 @@
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>Mark Shi</Author>
   <LastAuthor>Mark Shi</LastAuthor>
-  <Created>2020-08-19T07:38:21Z</Created>
+  <Created>2020-11-24T10:13:08Z</Created>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -33,10 +33,10 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1">
-  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1111" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1139" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="14.25">
    <Row>
-    <Cell><Data ss:Type="String">English</Data></Cell>
+    <Cell><Data ss:Type="String">Translation</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">English</Data></Cell>
@@ -303,6 +303,24 @@
     <Cell><Data ss:Type="String">Set temp ${var} to return value of ${function} with ${input_count} arguments on ${applyto}</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Set ${var} to new instance of ${function}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set ${var} to new instance of ${function} with 1 argument</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set ${var} to new instance of ${function} with ${input_count} arguments</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set temp ${var} to new instance of ${function}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set temp ${var} to new instance of ${function} with 1 argument</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set temp ${var} to new instance of ${function} with ${input_count} arguments</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Return ${value}</Data></Cell>
    </Row>
    <Row>
@@ -537,6 +555,54 @@
     <Cell><Data ss:Type="String">Call parent event on ${applyto}</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">If sequence ${obj} exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If sequence ${obj} does not exists</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Destroy sequence ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Play sequence ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pause sequence ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Set position of sequence instance ${sequenceelmid} to ${dnd_pos}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${sequenceid} at ${dnd_pos}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${sequenceid} at ${dnd_pos} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${sequenceid} at ${dnd_pos} into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${sequenceid} at ${dnd_pos} into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${sequenceid} at ${dnd_pos} into temp ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Create ${sequenceid} at ${dnd_pos} into temp ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get position of sequence instance ${sequenceelmid} into ${varx} and ${vary}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get position of sequence instance ${sequenceelmid} into temp ${varx} and ${vary}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get position of sequence instance ${sequenceelmid} into ${varx} and temp ${vary}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get position of sequence instance ${sequenceelmid} into temp ${varx} and temp ${vary}</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">If mouse button ${button} is pressed</Data></Cell>
    </Row>
    <Row>
@@ -607,6 +673,57 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">If ${key} is not released on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Show virtual keyboard with ${keyboard_type}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Show virtual keyboard with ${keyboard_type} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Hide virtual keyboard</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get virtual keyboard height into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get virtual keyboard height into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is showing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is showing on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is showing into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is showing into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is showing into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is showing into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is not showing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is not showing on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is not showing into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is not showing into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is not showing into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If virtual keyboard is not showing into temp ${target} on ${applyto}</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Get ${axis} axis value on gamepad ${gp} into ${var}</Data></Cell>
@@ -1011,6 +1128,138 @@
     <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into list ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into list ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into list temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into list ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into list ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into list temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into temp ${target}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Draw self</Data></Cell>
    </Row>
    <Row>
@@ -1197,10 +1446,28 @@
     <Cell><Data ss:Type="String">Set font to ${font} on ${applyto}</Data></Cell>
    </Row>
    <Row>
+    <Cell><Data ss:Type="String">Get draw font into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get draw font into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
     <Cell><Data ss:Type="String">Set text alignment to $(halign} and $(valign}</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Set text alignment to $(halign} and $(valign} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get horizontal text alignment into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get horizontal text alignment into ${var} on ${applyto}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get vertical text alignment into ${var}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Get vertical text alignment into ${var} on ${applyto}</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Set tile on layer ${layername} at ${dnd_position} to ${tile}</Data></Cell>
@@ -3168,205 +3435,22 @@
     <Cell><Data ss:Type="String">Show effect at ${dnd_position} on ${applyto}</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Show virtual keyboard with ${keyboard_type}</Data></Cell>
+    <Cell><Data ss:Type="String">Constructor</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Show virtual keyboard with ${keyboard_type} on ${applyto}</Data></Cell>
+    <Cell><Data ss:Type="String">Static</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Hide virtual keyboard</Data></Cell>
+    <Cell><Data ss:Type="String">Temp</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Get virtual keyboard height into ${target}</Data></Cell>
+    <Cell><Data ss:Type="String">Declare a new function</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">Get virtual keyboard height into temp ${target}</Data></Cell>
+    <Cell><Data ss:Type="String">Declare A New Function</Data></Cell>
    </Row>
    <Row>
-    <Cell><Data ss:Type="String">If virtual keyboard is showing</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If virtual keyboard is showing on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If virtual keyboard is showing into ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If virtual keyboard is showing into ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If virtual keyboard is showing into temp ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If virtual keyboard is showing into temp ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If virtual keyboard is not showing</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If virtual keyboard is not showing on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If virtual keyboard is not showing into ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If virtual keyboard is not showing into ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If virtual keyboard is not showing into temp ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If virtual keyboard is not showing into temp ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects line at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects rectangle at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into list temp ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects ellipse at ${dnd_position1} to ${dnd_position2} into temp ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into list ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into list ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into list temp ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into temp ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into list ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into list ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into list temp ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into list temp ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into temp ${target}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">If not ${obj} intersects point ${dnd_position} into temp ${target} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Get draw font into ${var}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Get draw font into ${var} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Get horizontal text alignment into ${var}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Get horizontal text alignment into ${var} on ${applyto}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Get vertical text alignment into ${var}</Data></Cell>
-   </Row>
-   <Row>
-    <Cell><Data ss:Type="String">Get vertical text alignment into ${var} on ${applyto}</Data></Cell>
+    <Cell><Data ss:Type="String">Declare a new function ${funcName}</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -3376,13 +3460,6 @@
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
    <Selected/>
-   <Panes>
-    <Pane>
-     <Number>3</Number>
-     <ActiveRow>16</ActiveRow>
-     <ActiveCol>2</ActiveCol>
-    </Pane>
-   </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
