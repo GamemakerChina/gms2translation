@@ -10334,16 +10334,16 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Create ${sequenceid} at ${dnd_pos} into temp ${var}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120238Z" creationid="liaronce" creationdate="20201124T120238Z">
-        <seg>在${dnd_pos}将${equenceid}创建到临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120331Z" creationid="liaronce" creationdate="20201124T120238Z">
+        <seg>在 ${dnd_pos} 将 ${equenceid} 创建到临时 ${var}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Create ${sequenceid} at ${dnd_pos} into temp ${var} on ${applyto}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120244Z" creationid="liaronce" creationdate="20201124T120244Z">
-        <seg>在${applyto}上的临时${var}中创建${Sequenceid}，位置为${dnd_pos}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120337Z" creationid="liaronce" creationdate="20201124T120244Z">
+        <seg>在 ${applyto} 上的临时 ${var} 中创建 ${Sequenceid}，位置为 ${dnd_pos}</seg>
       </tuv>
     </tu>
     <tu>
@@ -20445,32 +20445,32 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get position of sequence instance ${sequenceelmid} into ${varx} and ${vary}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120245Z" creationid="liaronce" creationdate="20201124T120245Z">
-        <seg>获取序列实例${equenceelmid}在${varx}和${Varie}中的位置</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120345Z" creationid="liaronce" creationdate="20201124T120245Z">
+        <seg>获取序列实例 ${equenceelmid} 在 ${varx} 和 ${Varie} 中的位置</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get position of sequence instance ${sequenceelmid} into ${varx} and temp ${vary}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120247Z" creationid="liaronce" creationdate="20201124T120247Z">
-        <seg>将序列实例${equenceelmid}的位置获取到${varx}和Temp${Varie}中</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120413Z" creationid="liaronce" creationdate="20201124T120247Z">
+        <seg>将序列实例 ${equenceelmid} 的位置获取到 ${varx} 和缓存 ${Varie} 中</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get position of sequence instance ${sequenceelmid} into temp ${varx} and ${vary}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120246Z" creationid="liaronce" creationdate="20201124T120246Z">
-        <seg>获取序列实例${equenceelmid}在临时${varx}和${Varie}中的位置</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120352Z" creationid="liaronce" creationdate="20201124T120246Z">
+        <seg>获取序列实例 ${equenceelmid} 在临时 ${varx} 和 ${Varie} 中的位置</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Get position of sequence instance ${sequenceelmid} into temp ${varx} and temp ${vary}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120248Z" creationid="liaronce" creationdate="20201124T120248Z">
-        <seg>获取序列实例${equenceelmid}在临时${varx}和临时${Varie}中的位置</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120433Z" creationid="liaronce" creationdate="20201124T120248Z">
+        <seg>获取序列实例 ${equenceelmid} 在临时 ${varx} 和临时 ${Varie} 中的位置</seg>
       </tuv>
     </tu>
     <tu>
@@ -54737,8 +54737,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>{0} of {1} results</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141802Z" creationid="liaronce" creationdate="20200820T141802Z">
-        <seg>{1 }个结果中的 {0} 个</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120448Z" creationid="liaronce" creationdate="20200820T141802Z">
+        <seg>{1}个结果中的 {0} 个</seg>
       </tuv>
     </tu>
     <tu>
@@ -54761,8 +54761,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>{0} was lost and moved to root of project.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142756Z" creationid="liaronce" creationdate="20200820T142756Z">
-        <seg>{0 }已丢失并移动到项目的根目录。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120452Z" creationid="liaronce" creationdate="20200820T142756Z">
+        <seg>{0}已丢失并移动到项目的根目录。</seg>
       </tuv>
     </tu>
     <tu>
