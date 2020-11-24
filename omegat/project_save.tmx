@@ -21883,6 +21883,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Group name '{0}' cannot contain / or \</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T112811Z" creationid="liaronce" creationdate="20201124T112811Z">
+        <seg>组名 ‘{0}’ 不能包含 “/” 或 “\”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Group name '{0}' is already in use</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133405Z" creationid="liaronce" creationdate="20200820T133405Z">
@@ -34270,6 +34278,24 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T222531Z" creationid="36011" creationdate="20170112T032142Z">
         <seg>插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>Podfile：CocoaPods 的配置文件（iOS）
+CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
+      <tuv lang="en-US">
+        <seg>Podfile</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T112832Z" creationid="liaronce" creationdate="20201124T112832Z">
+        <seg>Podfile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Podfile.lock</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T113020Z" creationid="liaronce" creationdate="20201124T113020Z">
+        <seg>Podfile.lock</seg>
       </tuv>
     </tu>
     <tu>
@@ -48817,6 +48843,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Universal family platform version</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T113047Z" creationid="liaronce" creationdate="20201124T113047Z">
+        <seg>通用系列平台版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Unknown</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T102216Z" creationid="deciia" creationdate="20170105T102216Z">
@@ -49189,6 +49223,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T021547Z" creationid="deciia" creationdate="20180922T021547Z">
         <seg>使用谷歌 APK 扩展</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use Google Dynamic Asset Delivery</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T113026Z" creationid="liaronce" creationdate="20201124T113026Z">
+        <seg>使用 Google Dynamic Asset Delivery</seg>
       </tuv>
     </tu>
     <tu>
