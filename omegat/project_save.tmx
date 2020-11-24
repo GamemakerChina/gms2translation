@@ -10308,6 +10308,54 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create ${sequenceid} at ${dnd_pos}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120234Z" creationid="liaronce" creationdate="20201124T120234Z">
+        <seg>在 ${dnd_pos} 创建 ${equenceid}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create ${sequenceid} at ${dnd_pos} into ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120309Z" creationid="liaronce" creationdate="20201124T120236Z">
+        <seg>在 ${dnd_pos} 将 ${equenceid} 创建到 ${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create ${sequenceid} at ${dnd_pos} into ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120323Z" creationid="liaronce" creationdate="20201124T120243Z">
+        <seg>在 ${applyto} 上的 ${var} 中创建 ${Sequenceid}，位置为 ${dnd_pos}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create ${sequenceid} at ${dnd_pos} into temp ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120238Z" creationid="liaronce" creationdate="20201124T120238Z">
+        <seg>在${dnd_pos}将${equenceid}创建到临时${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create ${sequenceid} at ${dnd_pos} into temp ${var} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120244Z" creationid="liaronce" creationdate="20201124T120244Z">
+        <seg>在${applyto}上的临时${var}中创建${Sequenceid}，位置为${dnd_pos}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create ${sequenceid} at ${dnd_pos} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120259Z" creationid="liaronce" creationdate="20201124T120236Z">
+        <seg>在 ${applyto} 上的 ${dnd_pos} 创建 ${equenceid}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create Animation Curve</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135528Z" creationid="liaronce" creationdate="20200820T135528Z">
@@ -12828,6 +12876,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Destroy sequence ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120214Z" creationid="liaronce" creationdate="20201124T120214Z">
+        <seg>销毁序列 ${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Destroy the particle system.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T151223Z" creationid="deciia" creationdate="20170212T151223Z">
@@ -13731,6 +13787,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170317T141136Z" creationid="36011" creationdate="20170317T141136Z">
         <seg>下</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Down One</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120029Z" creationid="liaronce" creationdate="20201124T120029Z">
+        <seg>降一</seg>
       </tuv>
     </tu>
     <tu>
@@ -20379,6 +20443,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Get position of sequence instance ${sequenceelmid} into ${varx} and ${vary}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120245Z" creationid="liaronce" creationdate="20201124T120245Z">
+        <seg>获取序列实例${equenceelmid}在${varx}和${Varie}中的位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get position of sequence instance ${sequenceelmid} into ${varx} and temp ${vary}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120247Z" creationid="liaronce" creationdate="20201124T120247Z">
+        <seg>将序列实例${equenceelmid}的位置获取到${varx}和Temp${Varie}中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get position of sequence instance ${sequenceelmid} into temp ${varx} and ${vary}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120246Z" creationid="liaronce" creationdate="20201124T120246Z">
+        <seg>获取序列实例${equenceelmid}在临时${varx}和${Varie}中的位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get position of sequence instance ${sequenceelmid} into temp ${varx} and temp ${vary}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120248Z" creationid="liaronce" creationdate="20201124T120248Z">
+        <seg>获取序列实例${equenceelmid}在临时${varx}和临时${Varie}中的位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Get rotate of tile data ${tile} into ${var}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152013Z">
@@ -25444,6 +25540,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T044213Z" creationid="deciia" creationdate="20180922T044213Z">
         <seg>如果查询状态，则会引发类型为“键盘状态”的系统事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If sequence ${obj} does not exists</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120211Z" creationid="liaronce" creationdate="20201124T120211Z">
+        <seg>如果序列 ${obj} 不存在</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If sequence ${obj} exists</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120207Z" creationid="liaronce" creationdate="20201124T120207Z">
+        <seg>如果序列 ${obj} 存在</seg>
       </tuv>
     </tu>
     <tu>
@@ -34001,6 +34113,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Pause sequence ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120220Z" creationid="liaronce" creationdate="20201124T120220Z">
+        <seg>暂停序列 ${var}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Pause the particle system</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133133Z" creationid="liaronce" creationdate="20200820T133133Z">
@@ -34430,6 +34550,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T134813Z" creationid="deciia" creationdate="20170311T134813Z">
         <seg>播放或暂停精灵动画。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Play sequence ${var}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120217Z" creationid="liaronce" creationdate="20201124T120217Z">
+        <seg>播放序列 ${var}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40220,6 +40348,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>Send To Bottom</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120022Z" creationid="liaronce" creationdate="20201124T120022Z">
+        <seg>发送到底部</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Send To Top</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120021Z" creationid="liaronce" creationdate="20201124T120021Z">
+        <seg>发送到顶部</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>发送并进行更多评价？之前为什么会这样翻译？
 dll情境后面，调知中心前面，根据参考信息“Choose to submit all questions and provide more feedback”选择适合的翻译。
 笔记可以删除。</note>
@@ -40452,6 +40596,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20200821T141918Z" creationid="liaronce" creationdate="20200820T143531Z">
         <seg>设置变量 ${var} 为 ${expr} ${show_input_count} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set ${var} to new instance of ${function}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120059Z" creationid="liaronce" creationdate="20201124T120059Z">
+        <seg>将 ${var} 设置为 ${function} 的新实例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set ${var} to new instance of ${function} with ${input_count} arguments</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120124Z" creationid="liaronce" creationdate="20201124T120124Z">
+        <seg>使用 ${input_count} 个参数将 ${var} 设置为 ${function} 的新实例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set ${var} to new instance of ${function} with 1 argument</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120109Z" creationid="liaronce" creationdate="20201124T120109Z">
+        <seg>使用 1 个参数将 ${var} 设置为 ${function} 的新实例</seg>
       </tuv>
     </tu>
     <tu>
@@ -41794,6 +41962,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set position of sequence instance ${sequenceelmid} to ${dnd_pos}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120228Z" creationid="liaronce" creationdate="20201124T120228Z">
+        <seg>将序列实例 ${Sequenceelmid} 的位置设置为 ${DND_POS}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set random direction from ${direction}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151643Z">
@@ -41966,6 +42142,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144155Z">
         <seg>将 ${applyto} 上第 ${imageind} 帧的精灵设置为 ${spriteind} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set temp ${var} to new instance of ${function}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120133Z" creationid="liaronce" creationdate="20201124T120133Z">
+        <seg>将临时 ${var} 设置为 ${function} 的新实例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set temp ${var} to new instance of ${function} with ${input_count} arguments</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120203Z" creationid="liaronce" creationdate="20201124T120203Z">
+        <seg>使用 ${input_count} 参数将临时 ${var} 设置为 ${function} 的新实例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set temp ${var} to new instance of ${function} with 1 argument</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120147Z" creationid="liaronce" creationdate="20201124T120147Z">
+        <seg>使用 1 个参数将临时 ${var} 设置为 ${function} 的新实例</seg>
       </tuv>
     </tu>
     <tu>
@@ -49767,6 +49967,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170114T033042Z" creationid="36011" creationdate="20170114T033042Z">
         <seg>上</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Up One</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120023Z" creationid="liaronce" creationdate="20201124T120023Z">
+        <seg>升一</seg>
       </tuv>
     </tu>
     <tu>
