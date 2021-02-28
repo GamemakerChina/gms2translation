@@ -22,10 +22,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"!!!</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134506Z" creationid="liaronce" creationdate="20210228T134506Z">
+        <seg>"!!!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"!\""#$%&amp;'()*+,-./00300123456789:;&lt;=&gt;?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T103943Z" creationid="liaronce" creationdate="20210228T103943Z">
         <seg>"!\""#$%&amp;'()*+,-./00300123456789:;&lt;=&gt;?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"${APP_NAME} is already installed.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134915Z" creationid="liaronce" creationdate="20210228T134915Z">
+        <seg>"${APP_NAME} 已经安装完成。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"${EXEFILENAME} is running.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135000Z" creationid="liaronce" creationdate="20210228T134952Z">
+        <seg>"${EXEFILENAME} 正在运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"'{0}' contains invalid filename characters"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134046Z" creationid="liaronce" creationdate="20210228T134046Z">
+        <seg>“‘{0}’ 包含无效的文件名字符”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"'{0}' starts with a number.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134051Z" creationid="liaronce" creationdate="20210228T134051Z">
+        <seg>“‘{0}’ 以数字开头。</seg>
       </tuv>
     </tu>
     <tu>
@@ -54,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"...why not check out our all new {0}'Getting Started'{1} video"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133817Z" creationid="liaronce" creationdate="20210228T133747Z">
+        <seg>"...为什么不查看我们全新的 {0}'入门'{1} 视频"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"A branch to execute in a switch if the case is true."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125104Z" creationid="liaronce" creationdate="20210228T125104Z">
@@ -66,6 +114,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T103901Z" creationid="liaronce" creationdate="20210228T103901Z">
         <seg>“尺寸输入已与两个关联的锚点一起设置，尺寸输入将被忽略”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"A fatal exception has occurred in GameMaker Studio 2 and the program needs to close.\n\nWe are sorry for the inconvenience."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135115Z" creationid="liaronce" creationdate="20210228T135115Z">
+        <seg>“GameMaker Studio 2中发生致命异常，程序需要关闭。\n\n给您带来不便，我们深表歉意。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -118,6 +174,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"After clicking OK, you should manually install a stable IDE to complete the opt-out process.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135043Z" creationid="liaronce" creationdate="20210228T135040Z">
+        <seg>"单击"确定"后，您应该手动安装稳定版的IDE以完成退出流程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Alarm"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132739Z" creationid="liaronce" creationdate="20210228T132739Z">
@@ -126,10 +190,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Alignment"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133545Z" creationid="liaronce" creationdate="20210228T133545Z">
+        <seg>“对齐”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Alpha"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133543Z" creationid="liaronce" creationdate="20210228T133543Z">
+        <seg>"透明度"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"An anchor or dimension has been set to percentage with no parent gadget, try using pixel instead"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T103906Z" creationid="liaronce" creationdate="20210228T103906Z">
         <seg>“锚点或维度已设置为百分比，但没有父小工具，请尝试改用像素”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"An error report has been created so that we can examine and prevent issues like this.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135127Z" creationid="liaronce" creationdate="20210228T135127Z">
+        <seg>“我们已经创建了错误报告，以便我们可以检查和防止此类问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Angle"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133538Z" creationid="liaronce" creationdate="20210228T133538Z">
+        <seg>“角度”</seg>
       </tuv>
     </tu>
     <tu>
@@ -170,6 +266,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120810Z" creationid="liaronce" creationdate="20210228T120810Z">
         <seg>"应用"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Are you sure you wish to delete this remote?"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134231Z" creationid="liaronce" creationdate="20210228T134231Z">
+        <seg>"你确定想要删除这个远程库吗？"</seg>
       </tuv>
     </tu>
     <tu>
@@ -270,6 +374,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Bottom Left"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133614Z" creationid="liaronce" creationdate="20210228T133614Z">
+        <seg>“左下”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Bottom Right"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133617Z" creationid="liaronce" creationdate="20210228T133617Z">
+        <seg>“右下”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Bottom"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133008Z" creationid="liaronce" creationdate="20210228T133008Z">
@@ -306,6 +426,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132001Z" creationid="liaronce" creationdate="20210228T132001Z">
         <seg>"喷发粒子"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Burst"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133336Z" creationid="liaronce" creationdate="20210228T133336Z">
+        <seg>"喷发"</seg>
       </tuv>
     </tu>
     <tu>
@@ -374,10 +502,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Capitalization"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133555Z" creationid="liaronce" creationdate="20210228T133555Z">
+        <seg>“大写”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Caption"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133536Z" creationid="liaronce" creationdate="20210228T133536Z">
+        <seg>“标题”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Case"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125055Z" creationid="liaronce" creationdate="20210228T125055Z">
         <seg>"情形"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Center"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133619Z" creationid="liaronce" creationdate="20210228T133619Z">
+        <seg>“中心”</seg>
       </tuv>
     </tu>
     <tu>
@@ -418,6 +570,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T115408Z" creationid="liaronce" creationdate="20210228T115408Z">
         <seg>“在项目目录 ‘{0}’ 中检测到更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Check IDE still running (i.e. cancelled from Uninstall)"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134931Z" creationid="liaronce" creationdate="20210228T134931Z">
+        <seg>"检查IDE是否仍在运行（可以取消卸载）"</seg>
       </tuv>
     </tu>
     <tu>
@@ -734,10 +894,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Closing this workspace will also close the contained editors, are you sure?"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133903Z" creationid="liaronce" creationdate="20210228T133903Z">
+        <seg>"关闭此工作区也将关闭所包含的编辑器，你确定吗？"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Collisions"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120158Z" creationid="liaronce" creationdate="20210228T120158Z">
         <seg>“碰撞”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Colour Mix"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133304Z" creationid="liaronce" creationdate="20210228T133304Z">
+        <seg>“混色”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Colour"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133512Z" creationid="liaronce" creationdate="20210228T133512Z">
+        <seg>“颜色”</seg>
       </tuv>
     </tu>
     <tu>
@@ -762,6 +946,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133146Z" creationid="liaronce" creationdate="20210228T133146Z">
         <seg>“常量”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Constructor"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133645Z" creationid="liaronce" creationdate="20210228T133645Z">
+        <seg>"构造函数"</seg>
       </tuv>
     </tu>
     <tu>
@@ -982,10 +1174,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Declare A New Function"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133653Z" creationid="liaronce" creationdate="20210228T133653Z">
+        <seg>“声明新函数”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Declare Temp"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120532Z" creationid="liaronce" creationdate="20210228T120532Z">
         <seg>“声明临时变量”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Declare a new function ${funcName}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133657Z" creationid="liaronce" creationdate="20210228T133657Z">
+        <seg>“声明新函数 ${funcName}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Declare a new function"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133652Z" creationid="liaronce" creationdate="20210228T133652Z">
+        <seg>“声明新函数”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1010,6 +1226,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120902Z" creationid="liaronce" creationdate="20210228T120902Z">
         <seg>"定义一个全局的预编译宏常量。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Depth"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133317Z" creationid="liaronce" creationdate="20210228T133317Z">
+        <seg>“深度”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Desktop Shortcuts"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134655Z" creationid="liaronce" creationdate="20210228T134655Z">
+        <seg>"桌面快捷方式"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1110,10 +1342,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Detected a {0} Steam App ID: The Steam App ID is now in one place - Main Options, please ensure it is correct"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134427Z" creationid="liaronce" creationdate="20210228T134427Z">
+        <seg>"检测到{0} Steam App ID：Steam App ID 现在位于一个位置 - 主要选项，请确保其正确无误"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Direction"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132814Z" creationid="liaronce" creationdate="20210228T132814Z">
         <seg>“方向”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Directions"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133600Z" creationid="liaronce" creationdate="20210228T133600Z">
+        <seg>"方向"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1154,6 +1402,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132330Z" creationid="liaronce" creationdate="20210228T132330Z">
         <seg>"产生特效"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Don't Send"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135139Z" creationid="liaronce" creationdate="20210228T135139Z">
+        <seg>“不发送”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"DotNet Install"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134721Z" creationid="liaronce" creationdate="20210228T134707Z">
+        <seg>"DotNet Install"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1406,10 +1670,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Due to iOS submission requirement changes, Options &gt; iOS &gt; Icons image sizes are now different and your current icons need to be recreated at the correct sizes.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134617Z" creationid="liaronce" creationdate="20210228T134610Z">
+        <seg>"由于iOS提交要求更改，Options&gt; iOS&gt;Icons 的图像大小现在有所不同，您当前的图标需要以正确的大小重新创建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Duplicate style '{0}' found, it will be discarded as overwrite is set to false"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T114549Z" creationid="liaronce" creationdate="20210228T114549Z">
         <seg>“找到重复的样式 ‘{0}’，由于覆盖设置为 False，它将被丢弃”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Edge"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133620Z" creationid="liaronce" creationdate="20210228T133620Z">
+        <seg>“边缘”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1438,10 +1718,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Emitter"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133332Z" creationid="liaronce" creationdate="20210228T133332Z">
+        <seg>“发射器”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"End of search results reached, should we loop?"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T114246Z" creationid="liaronce" creationdate="20210228T114246Z">
         <seg>“已到达搜索结果的末尾，我们应该循环吗？”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"End"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133306Z" creationid="liaronce" creationdate="20210228T133306Z">
+        <seg>“结束”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Ensure alpha level is increased to display node highlight"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134237Z" creationid="liaronce" creationdate="20210228T134237Z">
+        <seg>"要查看高亮节点，请确保增加了alpha等级。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Error - function '{0}' in extension '{1}' has more than 4 arguments, and they are not all of the same type"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134530Z" creationid="liaronce" creationdate="20210228T134530Z">
+        <seg>"错误 - 扩展名“{1}”中的函数“{0}”具有4个以上的参数，并且它们的类型不一致"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Error: variable '{0}' has same name as a built-in (function, constant or variable), it must be renamed to function correctly"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134535Z" creationid="liaronce" creationdate="20210228T134535Z">
+        <seg>"错误： 变量'{0}'已经具有同名的内置名称（函数、常量或变量），必须重命名以修正"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1534,10 +1854,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Expression"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133522Z" creationid="liaronce" creationdate="20210228T133522Z">
+        <seg>"表达式"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Failed to store undo property '{0}': \nMultiple potential properties found, does this property use the 'new' keyword?"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T114705Z" creationid="liaronce" creationdate="20210228T114647Z">
         <seg>“未能存储撤消属性 '{0}'：\n找到多个潜在属性，此属性是否使用 'new' 关键字？"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"File associations"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134703Z" creationid="liaronce" creationdate="20210228T134703Z">
+        <seg>"文件关联"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Filename"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133236Z" creationid="liaronce" creationdate="20210228T133236Z">
+        <seg>“文件名”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1554,6 +1898,54 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133011Z" creationid="liaronce" creationdate="20210228T133011Z">
         <seg>“填充”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Finished files"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134724Z" creationid="liaronce" creationdate="20210228T134724Z">
+        <seg>“已完成的文件”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Finished"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134735Z" creationid="liaronce" creationdate="20210228T134735Z">
+        <seg>“完成”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Font has maintained its texture from GameMaker Studio 1 and will not be regenerated automatically"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134447Z" creationid="liaronce" creationdate="20210228T134447Z">
+        <seg>"字体已从 GameMaker Studio 1 中保持其纹理，并且不会自动重新生成"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Font has no texture in GameMaker Studio 1 project, forced to regenerate"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134458Z" creationid="liaronce" creationdate="20210228T134458Z">
+        <seg>"GameMaker Studio 1 项目中的字体没有纹理，强制重新生成"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Font texture has been regenerated - inconsistencies may occur"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134450Z" creationid="liaronce" creationdate="20210228T134450Z">
+        <seg>"字体纹理已重新生成-可能会发生不一致"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Font {0} has been converted to font family {1} ({2})"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134442Z" creationid="liaronce" creationdate="20210228T134442Z">
+        <seg>"字体 {0} 已转换为字体系列 {1}（{2}）"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1578,6 +1970,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132828Z" creationid="liaronce" creationdate="20210228T132828Z">
         <seg>"力"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Fps {0}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134117Z" creationid="liaronce" creationdate="20210228T134117Z">
+        <seg>"Fps {0}"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1614,10 +2014,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Friction"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133505Z" creationid="liaronce" creationdate="20210228T133505Z">
+        <seg>"阻力"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Game Fps {0}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134124Z" creationid="liaronce" creationdate="20210228T134124Z">
+        <seg>"游戏 Fps {0}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Game"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120307Z" creationid="liaronce" creationdate="20210228T120307Z">
         <seg>“游戏”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"GameMaker Studio 1 font texture has been backed up at {0}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134505Z" creationid="liaronce" creationdate="20210228T134505Z">
+        <seg>"GameMaker Studio 1 字体纹理已备份到 {0}"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2246,6 +2670,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Horizontal"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133513Z" creationid="liaronce" creationdate="20210228T133513Z">
+        <seg>“水平”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"IDE still running aborting..."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134934Z" creationid="liaronce" creationdate="20210228T134934Z">
+        <seg>“IDE仍在运行，正在中止.”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"If Any Object At Place"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122610Z" creationid="liaronce" creationdate="20210228T122520Z">
@@ -2470,6 +2910,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker Studio 2 access.\nCheck any antivirus is not blocking GameMaker Studio 2 access.\nCheck any proxy or VPN is not blocking GameMaker Studio 2 access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134558Z" creationid="liaronce" creationdate="20210228T134558Z">
+        <seg>"如果一个出现这个问题，请尝试以下操作：\ n确认所以防火墙有没有阻止GameMaker Studio 2的访问。\ n确认所有防病毒软件有没有阻止GameMaker Studio 2的访问。\ n确认所有代理或VPN都没有阻止GameMaker Studio 2的访问。 \ n如果所有这些方法都不行，请提交帮助工单并附带您的ui.log：\ n在Mac上的路径-/ Users / Shared / GameMakerStudio2 \ n在PC上的路径-C：\ ProgramData \ GameMakerStudio2"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"If you don't have a certificate, you can create one:"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T102935Z" creationid="liaronce" creationdate="20210228T102648Z">
@@ -2482,6 +2930,70 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T115705Z" creationid="liaronce" creationdate="20210228T115705Z">
         <seg>“房间 ‘{0}’ 的导入图层深度间距不足。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134107Z" creationid="liaronce" creationdate="20210228T134107Z">
+        <seg>"在笔记本电脑模式下，您可以通过将鼠标移到某个区域上来进行平移，滚动和缩放\n，同时按住 ${LaptopLZoomKey} 进行缩放，并按住Left Alt进行平移和滚动。\n在启用笔记本电脑模式时，使用 ${LaptopRHSKeys} 进行非鼠标交互。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"In order to use this functionality, you will need to have the Amazon API Extension installed.\nWould you like to download it now from the Marketplace?"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134208Z" creationid="liaronce" creationdate="20210228T134208Z">
+        <seg>"为使用这个功能，你将需要安装 Amazon API 扩展。\n现在你想从市场上下载它吗？"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"In order to use this functionality, you will need to have the Facebook Extension installed.\nWould you like to download it now from the Marketplace?"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134158Z" creationid="liaronce" creationdate="20210228T134158Z">
+        <seg>"为使用这个功能，你需要安装 Facebook 的扩展。\n现在你想从市场下载它吗？"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"In order to use this functionality, you will need to have the Google Play APK Expansion Extension installed.\nWould you like to download it now from the Marketplace?"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134213Z" creationid="liaronce" creationdate="20210228T134213Z">
+        <seg>"为使用这个功能，你将需要安装 Google Play APK 扩展。\n现在你想从市场上下载它吗？"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"In order to use this functionality, you will need to have the Google Play Licensing Expansion Extension installed.\nWould you like to download it now from the Marketplace?"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134216Z" creationid="liaronce" creationdate="20210228T134216Z">
+        <seg>"为使用这个功能，你将需要安装 Google Play Licensing 扩展。\n现在你想从市场上下载它吗？"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"In order to use this functionality, you will need to have the Google Play Services Extension installed.\nWould you like to download it now?"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134205Z" creationid="liaronce" creationdate="20210228T134205Z">
+        <seg>"为使用该功能你需要安装Google Play服务扩展。\n你想马上通过市场下载吗？"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Included file with invalid filename: '{0}'"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134039Z" creationid="liaronce" creationdate="20210228T134039Z">
+        <seg>"项目内含文件使用了无效的文件名： '{0}'"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Increase"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133329Z" creationid="liaronce" creationdate="20210228T133329Z">
+        <seg>"增量"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2510,6 +3022,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Install ${APP_NAME}."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134631Z" creationid="liaronce" creationdate="20210228T134631Z">
+        <seg>"安装 ${APP_NAME}."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Install Microsoft Dot NET 3.5sp1 and 4.5 Frameworks."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134646Z" creationid="liaronce" creationdate="20210228T134646Z">
+        <seg>"安装 Microsoft Dot NET 3.5sp1 和 4.5 Frameworks。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Install Microsoft Visual Studio 2012 and 2015 C++ x64 runtimes."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134649Z" creationid="liaronce" creationdate="20210228T134649Z">
+        <seg>"安装 Microsoft Visual Studio 2012 和 2015 C++ x64 运行库。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Instance Variables"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120209Z" creationid="liaronce" creationdate="20210228T120209Z">
@@ -2534,6 +3070,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Invalid name, cannot change extension from '{0}' to '{1}'."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134110Z" creationid="liaronce" creationdate="20210228T134110Z">
+        <seg>“名称无效，无法将扩展名从‘{0}’更改为‘{1}’。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Invalid name, contains invalid characters: {0}.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T115056Z" creationid="liaronce" creationdate="20210228T115056Z">
@@ -2554,6 +3098,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133132Z" creationid="liaronce" creationdate="20210228T133132Z">
         <seg>“是”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Item '{0}' is locked, unlock to allow editing"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133915Z" creationid="liaronce" creationdate="20210228T133915Z">
+        <seg>"项目 '{0}' 被锁定，解锁以允许编辑"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Items '{0}' are locked, unlock to allow editing"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133937Z" creationid="liaronce" creationdate="20210228T133919Z">
+        <seg>"项目组 '{0}' 被锁定，解锁以允许编辑"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2598,6 +3158,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Key"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133302Z" creationid="liaronce" creationdate="20210228T133302Z">
+        <seg>“键”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"LMB + T to translate path, LMB + R to rotate path, LMB + S to scale path"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133908Z" creationid="liaronce" creationdate="20210228T133908Z">
+        <seg>"鼠标左键 + T 平移路径， 鼠标左键 + R 旋转路径，鼠标左键 + S 缩放路径"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Layer '{0}' is locked, unlock to allow editing"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134004Z" creationid="liaronce" creationdate="20210228T133942Z">
+        <seg>"层 '{0}' 被锁定，解锁以允许编辑"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Layer"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132736Z" creationid="liaronce" creationdate="20210228T132736Z">
@@ -2606,10 +3190,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Layers '{0}' are locked, unlock to allow editing"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134007Z" creationid="liaronce" creationdate="20210228T133947Z">
+        <seg>"层组 '{0}' 被锁定，解锁以允许编辑"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Left"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132955Z" creationid="liaronce" creationdate="20210228T132955Z">
         <seg>“左”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Licence doesn't match expected format - please login again.\nIf you keep seeing this message contact the helpdesk at accounts.yoyogames.com/contact-us"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134542Z" creationid="liaronce" creationdate="20210228T134542Z">
+        <seg>"许可证与预期格式不匹配 - 请重新登录。\n如果你还会看到这条消息请前往 accounts.yoyogames.com/contact-us 联系客服"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Licence local id doesn't match expected format - please login again.\nIf you keep seeing this message contact the helpdesk at accounts.yoyogames.com/contact-us"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134539Z" creationid="liaronce" creationdate="20210228T134539Z">
+        <seg>"许可证的本地id与预期格式不匹配 - 请重新登录。\n如果你还会看到这条消息请前往 accounts.yoyogames.com/contact-us 联系客服"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2670,10 +3278,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Map"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133259Z" creationid="liaronce" creationdate="20210228T133259Z">
+        <seg>"映射"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Margin"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133525Z" creationid="liaronce" creationdate="20210228T133525Z">
+        <seg>"边距"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Max Colour"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133024Z" creationid="liaronce" creationdate="20210228T133024Z">
         <seg>"最大颜色值"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Max Dir"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133501Z" creationid="liaronce" creationdate="20210228T133501Z">
+        <seg>"最大方向"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Max Life"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133315Z" creationid="liaronce" creationdate="20210228T133315Z">
+        <seg>"最大生命周期"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Max Size"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133325Z" creationid="liaronce" creationdate="20210228T133325Z">
+        <seg>“最大尺寸”</seg>
       </tuv>
     </tu>
     <tu>
@@ -2686,6 +3334,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Maximum display dimensions to allow on PS4, subject to system constraints\n-1 indicates unlimited."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135029Z" creationid="liaronce" creationdate="20210228T135029Z">
+        <seg>"受系统限制，PS4上允许的最大显示尺寸\n-1表示无限制。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Maximum"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133110Z" creationid="liaronce" creationdate="20210228T133110Z">
@@ -2694,10 +3350,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Mem {0}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134114Z" creationid="liaronce" creationdate="20210228T134114Z">
+        <seg>“内存 {0}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Message"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133255Z" creationid="liaronce" creationdate="20210228T133255Z">
+        <seg>“消息”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Min Colour"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133020Z" creationid="liaronce" creationdate="20210228T133020Z">
         <seg>"最小颜色值"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Min Dir"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133458Z" creationid="liaronce" creationdate="20210228T133458Z">
+        <seg>"最小方向"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Min Life"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133311Z" creationid="liaronce" creationdate="20210228T133311Z">
+        <seg>"最小生命周期"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Min Size"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133323Z" creationid="liaronce" creationdate="20210228T133323Z">
+        <seg>"最小尺寸"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2726,6 +3422,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Moment"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133249Z" creationid="liaronce" creationdate="20210228T133249Z">
+        <seg>"时刻"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Mouse &amp; Keyboard"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120142Z" creationid="liaronce" creationdate="20210228T120142Z">
@@ -2738,6 +3442,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120156Z" creationid="liaronce" creationdate="20210228T120156Z">
         <seg>"移动"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Name"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133641Z" creationid="liaronce" creationdate="20210228T133641Z">
+        <seg>“名称”</seg>
       </tuv>
     </tu>
     <tu>
@@ -2782,6 +3494,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"On End"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133606Z" creationid="liaronce" creationdate="20210228T133606Z">
+        <seg>"在终点处"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"One or more included files has an invalid filename, should only contain a-z, A_Z, 0-9, _ or .\nSee the output panel for a list."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134017Z" creationid="liaronce" creationdate="20210228T134000Z">
+        <seg>"一个或多个内含文件（included files ）包含无效的文件名，应该只能包含 a-z、 A_Z、 0-9， 或者“_ ”。\n查看输出面板中获取列表。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Open Ini File"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131718Z" creationid="liaronce" creationdate="20210228T131718Z">
@@ -2798,6 +3526,70 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Optimise Executable"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134658Z" creationid="liaronce" creationdate="20210228T134658Z">
+        <seg>"优化可执行文件"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Optimise the executable and add to the Global Assembly Cache."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134652Z" creationid="liaronce" creationdate="20210228T134652Z">
+        <seg>"优化可执行文件并添加到全局程序集缓存（Global Assembly Cache）。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Optimising executable... this may take some time"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134904Z" creationid="liaronce" creationdate="20210228T134904Z">
+        <seg>“优化可执行文件.这可能需要一些时间”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Our &lt;a href="https://www.yoyogames.com/legal/privacy"&gt;Privacy Policy&lt;/a&gt; and &lt;a href="https://www.yoyogames.com/legal/cookies"&gt;Cookie Policy&lt;/a&gt; governs the way we collect, store and process your data.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135201Z" creationid="liaronce" creationdate="20210228T135149Z">
+        <seg>"我们的&lt;a href=https://www.yoyogames.com/legal/privacy“&gt;Privacy策略&lt;/a&gt;和&lt;a href=”https://www.yoyogames.com/legal/cookies“&gt;Cookie策略&lt;/a&gt;管理我们的收集方式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Outline"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133530Z" creationid="liaronce" creationdate="20210228T133530Z">
+        <seg>"轮廓"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Output texture size is too large, some tiles may be missing.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134345Z" creationid="liaronce" creationdate="20210228T134338Z">
+        <seg>"输出纹理大小过大，有些图块可能会丢失。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Owner layer '{0}' is locked, unlock to allow editing of item"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134010Z" creationid="liaronce" creationdate="20210228T133952Z">
+        <seg>"所有者的层 '{0}' 被锁定，解锁以允许编辑项目"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Owner layers '{0}' are locked, unlock to allow editing of items"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134013Z" creationid="liaronce" creationdate="20210228T133955Z">
+        <seg>"所有者的层组 '{0}' 被锁定，解锁以允许编辑项目"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Paint selection (${ctrl} to add, Alt/right click to subtract)"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T105103Z" creationid="liaronce" creationdate="20210228T105103Z">
@@ -2810,6 +3602,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120522Z" creationid="liaronce" creationdate="20210228T120522Z">
         <seg>“粒子”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Path"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133602Z" creationid="liaronce" creationdate="20210228T133602Z">
+        <seg>“路径”</seg>
       </tuv>
     </tu>
     <tu>
@@ -2926,6 +3726,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Please note that these are early release builds.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135032Z" creationid="liaronce" creationdate="20210228T135032Z">
+        <seg>"请注意这是早期测试版本"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Please tell us about this problem."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135120Z" creationid="liaronce" creationdate="20210228T135120Z">
+        <seg>"请将此问题汇报给我们"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Pop Stack"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130732Z" creationid="liaronce" creationdate="20210228T130732Z">
@@ -2942,10 +3758,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Position (0-1)"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133510Z" creationid="liaronce" creationdate="20210228T133510Z">
+        <seg>“位置 (0-1)”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Prefer using the auto-hinter over the font's native hinter\nThis is overridden by 'Disable Auto-hinter' and 'Disable Hinting'"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T104834Z" creationid="liaronce" creationdate="20210228T104834Z">
         <seg>“比起字体的本机提示，我更喜欢使用自动提示\n这会被‘禁用自动提示’和‘禁用提示’覆盖”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Privacy Policy"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135205Z" creationid="liaronce" creationdate="20210228T135205Z">
+        <seg>"隐私政策"</seg>
       </tuv>
     </tu>
     <tu>
@@ -3014,6 +3846,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Register File Associations"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134726Z" creationid="liaronce" creationdate="20210228T134726Z">
+        <seg>“注册文件关联”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Remove From List"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130514Z" creationid="liaronce" creationdate="20210228T130514Z">
@@ -3066,6 +3906,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T113655Z" creationid="liaronce" creationdate="20210228T113655Z">
         <seg>"替换现有 {0} 事件，还是粘贴为新事件？"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Resource name collision '{0}' already exists, renamed to '{1}'"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134437Z" creationid="liaronce" creationdate="20210228T134437Z">
+        <seg>"资源名称冲突，“{0}”已存在，已重命名为“{1}”"</seg>
       </tuv>
     </tu>
     <tu>
@@ -3142,6 +3990,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Return Key"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133553Z" creationid="liaronce" creationdate="20210228T133553Z">
+        <seg>"返回键"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Return List"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132720Z" creationid="liaronce" creationdate="20210228T132720Z">
@@ -3198,10 +4054,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Room"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133235Z" creationid="liaronce" creationdate="20210228T133235Z">
+        <seg>“房间”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Rooms"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120305Z" creationid="liaronce" creationdate="20210228T120305Z">
         <seg>“房间”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Rotation"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133639Z" creationid="liaronce" creationdate="20210228T133639Z">
+        <seg>"旋转"</seg>
       </tuv>
     </tu>
     <tu>
@@ -3230,6 +4102,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Running Dot Net 3.5 sp1 Framework Setup..."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134752Z" creationid="liaronce" creationdate="20210228T134752Z">
+        <seg>“正在运行Dot Net 3.5 SP1 Framework 安装程序.”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Running Dot Net 4.5.2 Framework Setup..."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134808Z" creationid="liaronce" creationdate="20210228T134808Z">
+        <seg>"正在运行 Dot Net 4.5.2 Framework 安装程序."</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Running Visual Studio 2012 x64 Redistributable Setup..."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134833Z" creationid="liaronce" creationdate="20210228T134833Z">
+        <seg>“正在运行Visual Studio 2012 x64可再发行安装程序.”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Running Visual Studio 2012 x86 Redistributable Setup..."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134826Z" creationid="liaronce" creationdate="20210228T134826Z">
+        <seg>“正在运行Visual Studio 2012 x86可再发行安装程序.”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Running Visual Studio 2015 x64 Redistributable Setup..."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134856Z" creationid="liaronce" creationdate="20210228T134856Z">
+        <seg>“正在运行Visual Studio 2015 x64可再发行安装程序.”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Running Visual Studio 2015 x86 Redistributable Setup..."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134847Z" creationid="liaronce" creationdate="20210228T134847Z">
+        <seg>“正在运行Visual Studio 2015 x86可再发行安装程序.”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Save Game"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131704Z" creationid="liaronce" creationdate="20210228T131704Z">
@@ -3242,6 +4162,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131708Z" creationid="liaronce" creationdate="20210228T131708Z">
         <seg>“保存当前进度。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Scale X"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133627Z" creationid="liaronce" creationdate="20210228T133627Z">
+        <seg>"X 缩放"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Scale Y"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133634Z" creationid="liaronce" creationdate="20210228T133634Z">
+        <seg>"Y 缩放"</seg>
       </tuv>
     </tu>
     <tu>
@@ -3270,10 +4206,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Section"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133238Z" creationid="liaronce" creationdate="20210228T133238Z">
+        <seg>“节”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Selected control point(s): {0}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120059Z" creationid="liaronce" creationdate="20210228T120059Z">
         <seg>“选定的控制点：{0}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Send"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135138Z" creationid="liaronce" creationdate="20210228T135138Z">
+        <seg>“发送”</seg>
       </tuv>
     </tu>
     <tu>
@@ -4070,6 +5022,46 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Setup Desktop shortcut for All Users."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134640Z" creationid="liaronce" creationdate="20210228T134640Z">
+        <seg>"为所有用户安装桌面快捷方式。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Setup Start Menu shortcuts for All Users."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134635Z" creationid="liaronce" creationdate="20210228T134635Z">
+        <seg>"为所有用户安装“开始菜单”快捷方式。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Setup file associations for Project Files (.yyp) and Compressed Project Files (.yyz)."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134643Z" creationid="liaronce" creationdate="20210228T134643Z">
+        <seg>"为项目文件（.yyp）和压缩项目文件（.yyz）设置文件关联。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Shape"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133318Z" creationid="liaronce" creationdate="20210228T133318Z">
+        <seg>“形状”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Share Overlay (128x128, 64x64, 256x128, 256x64)"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134333Z" creationid="liaronce" creationdate="20210228T134333Z">
+        <seg>"共享覆盖层 (Share Overlay: 128x128, 64x64, 256x128, 256x64)"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Show Debug Message"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131933Z" creationid="liaronce" creationdate="20210228T131933Z">
@@ -4086,10 +5078,58 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Show all textures in use by the game."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134153Z" creationid="liaronce" creationdate="20210228T134153Z">
+        <seg>"显示游戏使用的所有纹理。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Show an effect at the specified position."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132704Z" creationid="liaronce" creationdate="20210228T132704Z">
         <seg>"在特定位置显示一个特效。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Show only samples for my code, excluding the underlying engine code."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134136Z" creationid="liaronce" creationdate="20210228T134136Z">
+        <seg>"仅显示我的代码的示例，不包括底层引擎代码。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Show only samples for the underlying engine code, excluding my code."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134142Z" creationid="liaronce" creationdate="20210228T134142Z">
+        <seg>"仅显示底层引擎代码的示例，不包括我的代码。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Show samples in a bottom-up hierarchy, with the most detailed parts at the top of the tree."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134150Z" creationid="liaronce" creationdate="20210228T134150Z">
+        <seg>"以自下而上的层次结构显示样本，最详细的部分位于树的顶部。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Show samples in a top-down hierarchy, with the most detailed parts at the bottom of the tree."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134147Z" creationid="liaronce" creationdate="20210228T134147Z">
+        <seg>"以自上而下的层次结构显示样本，最详细的部分位于树的底部。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Sit back, relax, and let us introduce you to some of our cool {0}'New Features'{1}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133804Z" creationid="liaronce" creationdate="20210228T133804Z">
+        <seg>"坐下来，放松一下，让我们向您介绍一些很酷的 {0}'新功能'{1}"</seg>
       </tuv>
     </tu>
     <tu>
@@ -4118,10 +5158,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Sorry, but ${APP_NAME} is only available for 64bit Windows this is a 32bit version of Windows"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134948Z" creationid="liaronce" creationdate="20210228T134948Z">
+        <seg>"抱歉，${APP_NAME} 仅适用于64位Windows，这是32位版本的Windows"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Sound"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133216Z" creationid="liaronce" creationdate="20210228T133216Z">
         <seg>“声音”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Source Control Output will go here.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133837Z" creationid="liaronce" creationdate="20210228T133837Z">
+        <seg>"源码控制输出将出现在这里。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Source Control Output would go here, but you are currently using a Trial version.\nPlease upgrade to a paid version to enable the Source Control features!\nVisit https://www.yoyogames.com/get2 to view our pricing."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133851Z" creationid="liaronce" creationdate="20210228T133851Z">
+        <seg>"源码控制输出将出现在这里，但当前你正在使用试用版。\n请升级到付费版本启用源码控制！\n访问 https://www.yoyogames.com/get2 查看我们的定价。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -4166,10 +5230,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Start Menu Shortcuts"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134701Z" creationid="liaronce" creationdate="20210228T134701Z">
+        <seg>"开始菜单快捷方式"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Start following a path with an instance."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131855Z" creationid="liaronce" creationdate="20210228T131847Z">
         <seg>"开始让一个实例跟随路径"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Start"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133306Z" creationid="liaronce" creationdate="20210228T133306Z">
+        <seg>“开始”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"State"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133253Z" creationid="liaronce" creationdate="20210228T133253Z">
+        <seg>"状态"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Static"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133650Z" creationid="liaronce" creationdate="20210228T133650Z">
+        <seg>"静态"</seg>
       </tuv>
     </tu>
     <tu>
@@ -4222,6 +5318,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Stream"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133340Z" creationid="liaronce" creationdate="20210228T133340Z">
+        <seg>"流"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"String To Number"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125133Z" creationid="liaronce" creationdate="20210228T125133Z">
@@ -4270,6 +5374,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Text Prediction"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133557Z" creationid="liaronce" creationdate="20210228T133557Z">
+        <seg>“文本预测”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"The DPI override setting is above the suggested limit for this display at {0}%.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134219Z" creationid="liaronce" creationdate="20210228T134219Z">
+        <seg>"DPI替代设置高于此显示的建议限制，为 {0}％。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"The NX CPU Profiler can only be used on YYC builds.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134623Z" creationid="liaronce" creationdate="20210228T134623Z">
+        <seg>"NX CPU Profiler 只能用于YYC构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"The amount of memory in megabytes to dedicate to the shared CPU/GPU memory pool \nMaximum allocation must be shared between both pools"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135025Z" creationid="liaronce" creationdate="20210228T135025Z">
+        <seg>"专用于共享CPU / GPU内存池的内存量（以兆字节为单位）\n必须在两个池之间共享最大分配"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"The amount of memory in megabytes to dedicate to the shared GPU memory pool \nMaximum allocation must be shared between both pools"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135021Z" creationid="liaronce" creationdate="20210228T135021Z">
+        <seg>"专用于共享GPU内存池的内存量（以兆字节为单位）\n必须在两个池之间共享最大分配"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"The buffer id is an integer value starting at zero and increments when a new buffer is created.\nView the contents of the buffer with a given id."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134130Z" creationid="liaronce" creationdate="20210228T134130Z">
+        <seg>"缓冲区id是一个从零开始的整数值，在创建新的缓冲区时递增。\n使用给定的id查看缓冲区的内容。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"The file(s) you attempted to load are not supported by the image editor."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T115813Z" creationid="liaronce" creationdate="20210228T115813Z">
@@ -4298,6 +5450,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T115617Z" creationid="liaronce" creationdate="20210228T115617Z">
         <seg>“主项目文件 ‘{0}’ 已更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"The manual for the current manual language ({0}) is not installed.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135008Z" creationid="liaronce" creationdate="20210228T135005Z">
+        <seg>"“未安装当前手册语言({0})的手册。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4338,6 +5498,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T114450Z" creationid="liaronce" creationdate="20210228T114450Z">
         <seg>"此项目没有配置 Git 存储库。\n如果需要本地存储库，请尝试创建，或导入到现有存储库。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"This addon requires the Amazon Fire or Mobile licences.\nDo you want to go to your account to check your availability of these?"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134606Z" creationid="liaronce" creationdate="20210228T134606Z">
+        <seg>"此附加组件需要 Amazon Fire 或 移动版本(Mobile) 许可证。\n您是否要转到您的帐户检查这些的可用性？"</seg>
       </tuv>
     </tu>
     <tu>
@@ -4390,6 +5558,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"This project is of an older format and will need to be converted.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135059Z" creationid="liaronce" creationdate="20210228T135056Z">
+        <seg>"此项目采用较旧的格式，需要进行转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"This project requires a newer version of the IDE and so will not be loaded.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T103910Z" creationid="liaronce" creationdate="20210228T103910Z">
@@ -4438,6 +5614,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Tile size increase will cause rooms to lose some tile layer data, are you sure you want to make this change?\n\nTo avoid data loss press cancel and increase room size of the affected rooms: {0}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133859Z" creationid="liaronce" creationdate="20210228T133859Z">
+        <seg>"图块尺寸增加将导致房间丢失一些图块层数据，你确定要进行此更改吗？\n\n为避免数据丢失请按取消，并扩大受影响的房间的大小： {0}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Tile"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133039Z" creationid="liaronce" creationdate="20210228T133039Z">
@@ -4466,6 +5650,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120509Z" creationid="liaronce" creationdate="20210228T114621Z">
         <seg>“时间轴时刻：{0}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Timeline"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133245Z" creationid="liaronce" creationdate="20210228T133245Z">
+        <seg>"时间轴"</seg>
       </tuv>
     </tu>
     <tu>
@@ -4502,10 +5694,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"To purchase Spine, please visit"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133702Z" creationid="liaronce" creationdate="20210228T133702Z">
+        <seg>要购买 Spine，请访问</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"To see what data this report contains, &lt;a href="https://help.yoyogames.com/hc/en-us/articles/360028120992"&gt;click here&lt;/a&gt;"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135109Z" creationid="liaronce" creationdate="20210228T135109Z">
+        <seg>"了解此报告所含内容项, &lt;a href=https://help.yoyogames.com/hc/en-us/articles/360028120992"&gt;click here&lt;/a&gt;"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"To use Android simulators, Launch Android Studio and select Tools-&gt;Android-&gt;AVD Manager"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T115754Z" creationid="liaronce" creationdate="20210228T115754Z">
         <seg>要使用 Android 模拟器，请启动 Android Studio，然后选择 Tools -&gt; Android -&gt; AVD Manager</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"To use Spine animations with GameMaker, please agree to the licence above."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133715Z" creationid="liaronce" creationdate="20210228T133715Z">
+        <seg>“要在 GameMaker 中使用 Spine 动画，请同意上面的许可证。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Top Left"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133608Z" creationid="liaronce" creationdate="20210228T133608Z">
+        <seg>“左上”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Top Right"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133610Z" creationid="liaronce" creationdate="20210228T133610Z">
+        <seg>“右上”</seg>
       </tuv>
     </tu>
     <tu>
@@ -4574,6 +5806,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Unable to find PlayStation 4 param.sfo editor.\nPlease update your tools directory.\n{0}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134359Z" creationid="liaronce" creationdate="20210228T134359Z">
+        <seg>"找不到PlayStation 4 param.sfo编辑器.\n请更新你的工具路径.\n{0}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Unable to find PlayStation 4 share file editor.\nPlease update your tools directory.\n{0}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134402Z" creationid="liaronce" creationdate="20210228T134402Z">
+        <seg>"找不到PlayStation 4 共享文件编辑器.\n请更新你的工具路径.\n{0}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Unable to find PlayStation 4 trophy editor.\nPlease update your tools directory.\n{0}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134352Z" creationid="liaronce" creationdate="20210228T134352Z">
+        <seg>"找不到Playstation4 奖杯编辑器 \n 请更新你的工具路径"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Unable to find Xbox One executable xcetool.exe.\nPlease update your tools directory.\n{0}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134405Z" creationid="liaronce" creationdate="20210228T134405Z">
+        <seg>"找不到Xbox One 可执行文件 xcetool.exe.\n请更新你的工具路径.\n{0}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Unable to login - server error, allowing offline"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134552Z" creationid="liaronce" creationdate="20210228T134552Z">
+        <seg>"无法登录 - 服务器错误，允许离线使用"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Unfortunately, this addon is not available for the licences you currently own.\nDo you want to go to your account to view your licences?"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134603Z" creationid="liaronce" creationdate="20210228T134603Z">
+        <seg>"很抱歉，这个附加组件不适用于您当前拥有的许可证。\n您要前往您的账户来查看您的许可证吗？"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Update Particle System"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132027Z" creationid="liaronce" creationdate="20210228T132027Z">
@@ -4586,6 +5866,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132033Z" creationid="liaronce" creationdate="20210228T132033Z">
         <seg>"更新粒子系统，并前进到下一步。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Upload Status"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135211Z" creationid="liaronce" creationdate="20210228T135211Z">
+        <seg>"上传状态"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Upload Successful."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135216Z" creationid="liaronce" creationdate="20210228T135216Z">
+        <seg>"上传成功。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -4630,6 +5926,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Vertical"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133514Z" creationid="liaronce" creationdate="20210228T133514Z">
+        <seg>“垂直”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Visual C++ Redistributable"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134716Z" creationid="liaronce" creationdate="20210228T134716Z">
+        <seg>"Visual C++ Redistributable"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Volume"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133233Z" creationid="liaronce" creationdate="20210228T133233Z">
+        <seg>“音量”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Warping"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T104906Z" creationid="liaronce" creationdate="20210228T104906Z">
@@ -4642,6 +5962,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T113610Z" creationid="liaronce" creationdate="20210228T113610Z">
         <seg>"取消选中时，仍将处理此对象的实例，但不会绘制"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Where"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133447Z" creationid="liaronce" creationdate="20210228T133447Z">
+        <seg>"位置"</seg>
       </tuv>
     </tu>
     <tu>
@@ -4742,6 +6070,86 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Your GameMaker Studio 2 Licence has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134550Z" creationid="liaronce" creationdate="20210228T134550Z">
+        <seg>"您的GameMaker Studio 2许可证已过期。\n\n如果您喜欢使用GameMaker并想继续，请在yoyogames.com购买我们的超值许可证之一。\n\n现在就购买，开始创意吧！"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Your GameMaker Studio 2 trial has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134546Z" creationid="liaronce" creationdate="20210228T134546Z">
+        <seg>"您的GameMaker Studio 2试用版已过期。\n\n如果您喜欢使用GameMaker并想继续，请在yoyogames.com购买我们的超值许可证之一。\n\n立即购买并发挥创意！"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"crash-0.2"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135206Z" creationid="liaronce" creationdate="20210228T135206Z">
+        <seg>"crash-0.2"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"end .NET 3.5 sp1"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134756Z" creationid="liaronce" creationdate="20210228T134756Z">
+        <seg>"结束安装 .NET 3.5 sp1"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"end .NET 4.5.2"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134813Z" creationid="liaronce" creationdate="20210228T134813Z">
+        <seg>"结束安装 .NET 4.5.2"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"end VS2012 x64"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134845Z" creationid="liaronce" creationdate="20210228T134845Z">
+        <seg>"结束安装 VS2012 x64"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"end VS2012 x86"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134830Z" creationid="liaronce" creationdate="20210228T134830Z">
+        <seg>"结束安装 VS2012 x86"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"end VS2015 x64"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134901Z" creationid="liaronce" creationdate="20210228T134901Z">
+        <seg>"结束安装 VS2015 x64"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"end VS2015 x86"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134854Z" creationid="liaronce" creationdate="20210228T134854Z">
+        <seg>"结束安装 VS2015 x86"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"errors found in uninstall"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134924Z" creationid="liaronce" creationdate="20210228T134924Z">
+        <seg>“卸载时发现错误”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"http://zeus.yoyogames.com/GMS2_English-master.zip"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T102616Z" creationid="liaronce" creationdate="20210228T102616Z">
@@ -4766,6 +6174,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"runInstaller Begin"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134909Z" creationid="liaronce" creationdate="20210228T134909Z">
+        <seg>"开始运行安装程序"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"runUnInstaller Done"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134940Z" creationid="liaronce" creationdate="20210228T134940Z">
+        <seg>"卸载结束"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"uninstall from GAC... this may take some time"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134733Z" creationid="liaronce" creationdate="20210228T134733Z">
+        <seg>“从GAC卸载.这可能需要一些时间”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"{0} ({1}, {2}) parent - {3}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T103028Z" creationid="liaronce" creationdate="20210228T103028Z">
@@ -4778,6 +6210,46 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T103026Z" creationid="liaronce" creationdate="20210228T103026Z">
         <seg>"{0} ({1}, {2})"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"{0} at line {1} : {2}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134418Z" creationid="liaronce" creationdate="20210228T134418Z">
+        <seg>"{0}位于第{1}行 : {2}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"{0} at line {1}, {2} : {3}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134415Z" creationid="liaronce" creationdate="20210228T134415Z">
+        <seg>"{0} 位于第{1}行, {2} : {3}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"{0}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135001Z" creationid="liaronce" creationdate="20210228T135001Z">
+        <seg>"{0}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"{0}'Access All Areas'{1}.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133824Z" creationid="liaronce" creationdate="20210228T133824Z">
+        <seg>“{0}‘访问所有区域’{1}。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"{0}, line {1}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134410Z" creationid="liaronce" creationdate="20210228T134410Z">
+        <seg>"{0}，第{1}行"</seg>
       </tuv>
     </tu>
     <tu>
@@ -4818,6 +6290,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T204540Z" creationid="deciia" creationdate="20180922T204540Z">
         <seg>$\n$\n单击“确定”删除以前的版本，或单击“取消”取消此升级。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>$\n$\nClick 'OK' to remove the previous version or 'Cancel' to cancel this upgrade."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134921Z" creationid="liaronce" creationdate="20210228T134921Z">
+        <seg>"$\n$\n单击“确定”删除以前的版本，或单击“取消”取消此升级。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -13030,6 +14510,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142435Z" creationid="liaronce" creationdate="20191118T142421Z">
         <seg>单击此处禁用DPI覆写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click here to disable DPI override."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134223Z" creationid="liaronce" creationdate="20210228T134223Z">
+        <seg>"单击此处禁用DPI覆写。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -23217,6 +24705,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Font {0} font family {1} is installed but couldn't match style - Font has NOT been regenerated"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134514Z" creationid="liaronce" creationdate="20210228T134514Z">
+        <seg>"已安装字体{0}字体系列{1}但无法匹配样式 - 尚未重新生成字体"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Font {0} has been converted to font family {1} ({2})</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142635Z" creationid="liaronce" creationdate="20191118T142635Z">
@@ -23237,6 +24733,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T233750Z" creationid="deciia" creationdate="20180922T190859Z">
         <seg>创建的字体{0}使用未在此系统上安装的字体({1}) - 尚未重新生成字体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Font {0} uses a font ({1}) not installed on this system - Font has NOT been regenerated"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134519Z" creationid="liaronce" creationdate="20210228T134519Z">
+        <seg>"创建的字体{0}使用未在此系统上安装的字体({1}) - 尚未重新生成字体"</seg>
       </tuv>
     </tu>
     <tu>
@@ -27748,6 +29252,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>However, you may use the GMS2 Profiler on VM builds."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134627Z" creationid="liaronce" creationdate="20210228T134627Z">
+        <seg>但是，您可以在VM构建中使用 GMS2 Profiler。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Hue</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T105830Z" creationid="deciia" creationdate="20170105T105830Z">
@@ -30696,10 +32208,26 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you have not turned on Source Control, you can find it in Main Options."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133843Z" creationid="liaronce" creationdate="20210228T133843Z">
+        <seg>如果尚未打开“源码管理”，则可以在“主选项”中找到它。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you wish to withdraw consent</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T101330Z" creationid="lazyeo" creationdate="20191120T101330Z">
         <seg>只要您想要撤回。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at &lt;a href="mailto:datacontroller@yoyogames.com"&gt;datacontroller@yoyogames.com&lt;/a&gt;\n\nForm version: "</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135156Z" creationid="liaronce" creationdate="20210228T135156Z">
+        <seg>如果您希望撤回同意，您可以通过我们的首选项中心或通过向我们的服务台登录工单来撤回同意。\n\n如果您对我们使用数据有任何担忧，请向我们的数据管理员发送电子邮件，地址为&lt;a href=“mailto:datacontroller@yoyogames.com”&gt;datacontroller@yoyogames.com&lt;/a&gt;\n\nForm版本：“</seg>
       </tuv>
     </tu>
     <tu>
@@ -39682,6 +41210,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Please close it first"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134956Z" creationid="liaronce" creationdate="20210228T134956Z">
+        <seg>请先关闭它。“</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Please commit and push first</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T210412Z" creationid="deciia" creationdate="20180922T210412Z">
@@ -40376,6 +41912,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142514Z" creationid="liaronce" creationdate="20200820T142514Z">
         <seg>继续吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Proceed?"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135101Z" creationid="liaronce" creationdate="20210228T135101Z">
+        <seg>继续吗？“</seg>
       </tuv>
     </tu>
     <tu>
@@ -44672,6 +46216,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T141855Z" creationid="lazyeo" creationdate="20191120T141855Z">
         <seg>查看发行说明以获取下载链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>See the release notes for an installer download link."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135047Z" creationid="liaronce" creationdate="20210228T135047Z">
+        <seg>有关安装程序下载链接，请参阅发行说明。“</seg>
       </tuv>
     </tu>
     <tu>
@@ -49728,6 +51280,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Specifically, what you were working on immediately beforehand.\n\nImportant\nBy pressing Send, you are providing consent for us to process the data detailed below in line with our Privacy Policy."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135135Z" creationid="liaronce" creationdate="20210228T135135Z">
+        <seg>具体而言，就是您之前正在进行的操作。\n\n 重要 \n 按"发送"即表示您同意我们根据我们的隐私政策来处理您提交的内容"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Speed</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T104721Z" creationid="deciia" creationdate="20170103T104716Z">
@@ -54009,6 +55569,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Tools &gt; Generate Project Images can help quickly fix this."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134614Z" creationid="liaronce" creationdate="20210228T134614Z">
+        <seg>"Tools &gt; Generate 项目图像可以帮助您快速解决此问题。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Top</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T151809Z" creationid="deciia" creationdate="20170215T151809Z">
@@ -54399,6 +55967,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T092834Z" creationid="deciia" creationdate="20170311T114407Z">
         <seg>教程、市场、支持……还远不止这些</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Tutorials, marketplace, support and much more"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133831Z" creationid="liaronce" creationdate="20210228T133831Z">
+        <seg>教程、市场、支持……还远不止这些"</seg>
       </tuv>
     </tu>
     <tu>
@@ -55646,6 +57222,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Various platforms do not support this"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134058Z" creationid="liaronce" creationdate="20210228T134058Z">
+        <seg>"各种平台均不支持此功能。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Various platforms do not support this.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142522Z" creationid="liaronce" creationdate="20191118T142522Z">
@@ -56148,6 +57732,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T102440Z" creationid="lazyeo" creationdate="20191120T102440Z">
         <seg>我们强烈建议您使用版本管理工具备份您的项目，并在使用Beta版时使用项目的一个独立副本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135035Z" creationid="liaronce" creationdate="20210228T135035Z">
+        <seg>"我们强烈建议您使用版本管理工具备份您的项目，并在使用Beta版时使用项目的一个独立副本"</seg>
       </tuv>
     </tu>
     <tu>
@@ -56874,6 +58466,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115844Z" creationid="liaronce" creationdate="20201124T115844Z">
         <seg>您是现在下载，还是使用联机帮助？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Would you like to download it now, or use the online help?"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135012Z" creationid="liaronce" creationdate="20210228T135012Z">
+        <seg>您是现在下载，还是使用联机帮助？“</seg>
       </tuv>
     </tu>
     <tu>
@@ -57903,6 +59503,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T225219Z" creationid="deciia" creationdate="20180922T093544Z">
         <seg>\n请减小原图像或输出边界的尺寸。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>\nReduce source image or output border sizes"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134344Z" creationid="liaronce" creationdate="20210228T134344Z">
+        <seg>\n请减小原图像或输出边界的尺寸。"</seg>
       </tuv>
     </tu>
     <tu>
