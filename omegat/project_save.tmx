@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"A branch to execute in a switch if the case is true."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125104Z" creationid="liaronce" creationdate="20210228T125104Z">
+        <seg>“如果情况为真，则在交换中执行的分支。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"A dimension input has been set along with both the associated anchors, the dimension input will be ignored"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T103901Z" creationid="liaronce" creationdate="20210228T103901Z">
@@ -98,6 +106,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120803Z" creationid="liaronce" creationdate="20210228T120803Z">
         <seg>“应用于”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Apply a transformation to tile data."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124548Z" creationid="liaronce" creationdate="20210228T124548Z">
+        <seg>"将变换应用于图块数据。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -182,6 +198,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Break out of a loop."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125037Z" creationid="liaronce" creationdate="20210228T125037Z">
+        <seg>"跳出一个循环。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Break"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125033Z" creationid="liaronce" creationdate="20210228T125033Z">
+        <seg>"中断"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Brush tiles: ({0})"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120034Z" creationid="liaronce" creationdate="20210228T120034Z">
@@ -242,6 +274,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T115821Z" creationid="liaronce" creationdate="20210228T115821Z">
         <seg>“无法导入不兼容的资源：{0} (未知文件类型)”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Case"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125055Z" creationid="liaronce" creationdate="20210228T125055Z">
+        <seg>"情形"</seg>
       </tuv>
     </tu>
     <tu>
@@ -502,6 +542,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Convert a number to a string."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125142Z" creationid="liaronce" creationdate="20210228T125142Z">
+        <seg>“将数字转换为字符串。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Convert a string to a number."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125136Z" creationid="liaronce" creationdate="20210228T125136Z">
+        <seg>“将字符串转换为数字。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Create Instance"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120910Z" creationid="liaronce" creationdate="20210228T120910Z">
@@ -510,10 +566,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Create List"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125146Z" creationid="liaronce" creationdate="20210228T125146Z">
+        <seg>“创建列表”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Create Map"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125159Z" creationid="liaronce" creationdate="20210228T125159Z">
+        <seg>"创建映射"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Create Sequence"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120922Z" creationid="liaronce" creationdate="20210228T120922Z">
         <seg>“创建序列”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Create a list data structure."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125152Z" creationid="liaronce" creationdate="20210228T125152Z">
+        <seg>"创建一个列表数据结构。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Create a new random seed used by the random number generator."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125007Z" creationid="liaronce" creationdate="20210228T125007Z">
+        <seg>"通过随机数生成器创建一个新的随机种子。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -546,6 +634,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120303Z" creationid="liaronce" creationdate="20210228T120303Z">
         <seg>“数据结构”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Decimal To Integer"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125114Z" creationid="liaronce" creationdate="20210228T125114Z">
+        <seg>"小数转整数"</seg>
       </tuv>
     </tu>
     <tu>
@@ -950,6 +1046,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Execute code while a given expression is true."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125028Z" creationid="liaronce" creationdate="20210228T125028Z">
+        <seg>“在给定表达式为真时执行代码。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Exit the current event without executing the remaining code."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120905Z" creationid="liaronce" creationdate="20210228T120905Z">
@@ -1054,10 +1158,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get Global Variable"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124946Z" creationid="liaronce" creationdate="20210228T124946Z">
+        <seg>“获取全局变量”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Health"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124934Z" creationid="liaronce" creationdate="20210228T124934Z">
+        <seg>"获取健值值"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get Instance Count"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120907Z" creationid="liaronce" creationdate="20210228T120907Z">
         <seg>“获取实例计数”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Lives"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124912Z" creationid="liaronce" creationdate="20210228T124912Z">
+        <seg>"获取生命数"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Random Number"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124952Z" creationid="liaronce" creationdate="20210228T124952Z">
+        <seg>“获取随机数”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Score"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124614Z" creationid="liaronce" creationdate="20210228T124614Z">
+        <seg>"获取得分"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1078,26 +1222,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get Tile Data At Pixel"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124451Z" creationid="liaronce" creationdate="20210228T124451Z">
+        <seg>"获取像素位置的图块数据"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get Tile Data In Cell"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123351Z" creationid="liaronce" creationdate="20210228T123351Z">
-        <seg>“获取单元格中的平铺数据”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124441Z" creationid="liaronce" creationdate="20210228T123351Z">
+        <seg>"获取单元格内的图块数据"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Tile Data Transform"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124552Z" creationid="liaronce" creationdate="20210228T124552Z">
+        <seg>"获取图块数据变换"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get Tile Index At Pixel"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123129Z" creationid="liaronce" creationdate="20210228T123129Z">
-        <seg>“获取像素的平铺索引”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124413Z" creationid="liaronce" creationdate="20210228T123129Z">
+        <seg>"获取像素位置的图块索引"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get Tile Index In Cell"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123348Z" creationid="liaronce" creationdate="20210228T123348Z">
-        <seg>“获取单元格中的平铺索引”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124433Z" creationid="liaronce" creationdate="20210228T123348Z">
+        <seg>"获取单元格的图块索引"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Tilemap Variable"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124520Z" creationid="liaronce" creationdate="20210228T124520Z">
+        <seg>"获取图块地图变量"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1106,6 +1274,30 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122149Z" creationid="liaronce" creationdate="20210228T122149Z">
         <seg>“获取虚拟键盘高度”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get a global variable."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124948Z" creationid="liaronce" creationdate="20210228T124948Z">
+        <seg>“获取全局变量。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get a random inclusive number."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124959Z" creationid="liaronce" creationdate="20210228T124959Z">
+        <seg>"获取一个随机数（包括该数）。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get a variable from a tilemap element."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124526Z" creationid="liaronce" creationdate="20210228T124526Z">
+        <seg>"从一个图块地图（tilemap）元素获取一个变量。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1142,10 +1334,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get the health of the instance."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124939Z" creationid="liaronce" creationdate="20210228T124939Z">
+        <seg>"获取实例中的健康值"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get the horizontal or vertical alignment of text drawing."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123101Z" creationid="liaronce" creationdate="20210228T123101Z">
         <seg>“获取文本绘制的水平或垂直对齐方式。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the life count of the instance."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124918Z" creationid="liaronce" creationdate="20210228T124918Z">
+        <seg>"获取实例中的生命数。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1158,18 +1366,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get the score of the instance."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124624Z" creationid="liaronce" creationdate="20210228T124624Z">
+        <seg>“获取实例的分数。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the tile data at the specified position on a tile layer."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124456Z" creationid="liaronce" creationdate="20210228T124456Z">
+        <seg>"获取一个图块层指定位置的图块数据。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the tile data in a cell on a tile layer."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124447Z" creationid="liaronce" creationdate="20210228T124447Z">
+        <seg>"获取一个图块层上的一个单元格内的图块数据。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get the tile index at the specified position."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123140Z" creationid="liaronce" creationdate="20210228T123140Z">
-        <seg>“获取指定位置的平铺索引。”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124418Z" creationid="liaronce" creationdate="20210228T123140Z">
+        <seg>"获取位于指定位置的图块索引。"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get the tile index in the specified cell."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123349Z" creationid="liaronce" creationdate="20210228T123349Z">
-        <seg>“获取指定单元格中的平铺索引。”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124437Z" creationid="liaronce" creationdate="20210228T123349Z">
+        <seg>"获取在指定单元格处的图块索引。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the transformation of tile data."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124557Z" creationid="liaronce" creationdate="20210228T124557Z">
+        <seg>"获取图块数据的变换。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1542,6 +1782,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Number To String"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125140Z" creationid="liaronce" creationdate="20210228T125140Z">
+        <seg>"数字转字符串"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Paint selection (${ctrl} to add, Alt/right click to subtract)"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T105103Z" creationid="liaronce" creationdate="20210228T105103Z">
@@ -1630,6 +1878,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Randomize"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125002Z" creationid="liaronce" creationdate="20210228T125002Z">
+        <seg>“随机化”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Repeat code a number of times."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125019Z" creationid="liaronce" creationdate="20210228T125019Z">
+        <seg>"重复一段代码若干次。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Repeat"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125014Z" creationid="liaronce" creationdate="20210228T125014Z">
+        <seg>“重复”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Replace the existing {0} event, or paste as a new event?"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T113655Z" creationid="liaronce" creationdate="20210228T113655Z">
@@ -1690,6 +1962,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120305Z" creationid="liaronce" creationdate="20210228T120305Z">
         <seg>“房间”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Round a decimal value to an integer value by rounding, ceiling or flooring it."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125125Z" creationid="liaronce" creationdate="20210228T125125Z">
+        <seg>"通过（round 就近取整、ceil向上取整、floor向下取整）将小数近似为一个整数。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1806,6 +2086,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set Global Variable"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124943Z" creationid="liaronce" creationdate="20210228T124943Z">
+        <seg>“设置全局变量”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set Gravity Direction"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122059Z" creationid="liaronce" creationdate="20210228T122059Z">
@@ -1818,6 +2106,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122102Z" creationid="liaronce" creationdate="20210228T122102Z">
         <seg>“设置重力”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set Health"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124922Z" creationid="liaronce" creationdate="20210228T124922Z">
+        <seg>"设置键康值"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1854,10 +2150,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set Lives"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124629Z" creationid="liaronce" creationdate="20210228T124629Z">
+        <seg>"设置生命数"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set Point Direction"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122043Z" creationid="liaronce" creationdate="20210228T122043Z">
         <seg>“设定点方向”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set Score"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124603Z" creationid="liaronce" creationdate="20210228T124603Z">
+        <seg>"设置得分"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1894,18 +2206,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set Tile Data At Pixel"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124510Z" creationid="liaronce" creationdate="20210228T124510Z">
+        <seg>"设置像素位置的图块数据"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set Tile Data In Cell"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124502Z" creationid="liaronce" creationdate="20210228T124502Z">
+        <seg>"设置单元格的图块数据"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set Tile Data Transform"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124544Z" creationid="liaronce" creationdate="20210228T124544Z">
+        <seg>"设置图块数据变换"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set Tile Index At Pixel"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123118Z" creationid="liaronce" creationdate="20210228T123118Z">
-        <seg>“将平铺索引设置为像素”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124404Z" creationid="liaronce" creationdate="20210228T123118Z">
+        <seg>"设置像素位置的图块索引"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set Tile Index In Cell"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123144Z" creationid="liaronce" creationdate="20210228T123144Z">
-        <seg>“在单元格中设置平铺索引”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124423Z" creationid="liaronce" creationdate="20210228T123144Z">
+        <seg>"设置单元格内的图块索引"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set Tile Set"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124531Z" creationid="liaronce" creationdate="20210228T124531Z">
+        <seg>"设置图块集"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1922,6 +2266,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122034Z" creationid="liaronce" creationdate="20210228T122034Z">
         <seg>“设置固定方向。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set a global variable."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124944Z" creationid="liaronce" creationdate="20210228T124944Z">
+        <seg>“设置全局变量。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -2006,6 +2358,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set the health variable of the instance."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124930Z" creationid="liaronce" creationdate="20210228T124930Z">
+        <seg>"设置实例中的健康值变量。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set the horizontal and vertical alignment of text drawing."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123109Z" creationid="liaronce" creationdate="20210228T123109Z">
@@ -2022,10 +2382,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set the life count of the instance."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124907Z" creationid="liaronce" creationdate="20210228T124635Z">
+        <seg>"设置实例中的生命数。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set the rotation of an instance."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T121434Z" creationid="liaronce" creationdate="20210228T121434Z">
         <seg>“设置实例的旋转。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set the score variable on the instance."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124609Z" creationid="liaronce" creationdate="20210228T124609Z">
+        <seg>"设置实例的分数变量。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2046,18 +2422,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set the tile data at the specified position on a tile layer."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124516Z" creationid="liaronce" creationdate="20210228T124516Z">
+        <seg>"设置在一个图块层的特定位置的图块数据。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set the tile data in a cell on a tile layer."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124506Z" creationid="liaronce" creationdate="20210228T124506Z">
+        <seg>"设置一个图块层中的一个单元格的图块数据。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set the tile index at the specified position."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123122Z" creationid="liaronce" creationdate="20210228T123122Z">
-        <seg>“将平铺索引设置在指定位置。”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124409Z" creationid="liaronce" creationdate="20210228T123122Z">
+        <seg>"设置位于指定位置的图块索引。"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set the tile index in the specified cell."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123146Z" creationid="liaronce" creationdate="20210228T123146Z">
-        <seg>“设置指定单元格中的平铺索引。”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124428Z" creationid="liaronce" creationdate="20210228T123146Z">
+        <seg>"设置在指定单元格处的图块索引。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set the tile set resource of a tilemap."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124535Z" creationid="liaronce" creationdate="20210228T124535Z">
+        <seg>"设置一个图块地图的图块集资源。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2114,6 +2514,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122448Z" creationid="liaronce" creationdate="20210228T122448Z">
         <seg>“将实例位置捕捉到网格。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"String To Number"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125133Z" creationid="liaronce" creationdate="20210228T125133Z">
+        <seg>"字符串转数字"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Switch which branch to execute based on input."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125047Z" creationid="liaronce" creationdate="20210228T125047Z">
+        <seg>"基于输入值来选择执行某一分支的代码。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2394,6 +2810,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T113610Z" creationid="liaronce" creationdate="20210228T113610Z">
         <seg>"取消选中时，仍将处理此对象的实例，但不会绘制"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"While Loop"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125025Z" creationid="liaronce" creationdate="20210228T125025Z">
+        <seg>“While 循环”</seg>
       </tuv>
     </tu>
     <tu>
