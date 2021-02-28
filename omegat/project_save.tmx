@@ -54,6 +54,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"${overridden_name} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135545Z" creationid="liaronce" creationdate="20210228T135545Z">
+        <seg>“${applyto}上的${overriden_name}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"${overridden_name}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135541Z" creationid="liaronce" creationdate="20210228T135541Z">
+        <seg>"${overridden_name}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"'{0}' contains invalid filename characters"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134046Z" creationid="liaronce" creationdate="20210228T134046Z">
@@ -146,6 +162,54 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125221Z" creationid="liaronce" creationdate="20210228T125221Z">
         <seg>"一个带有初值、条件和步进语句的完备的循环结构。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Add ${expr} to ${var} on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135447Z" creationid="liaronce" creationdate="20210228T135447Z">
+        <seg>“将${expr}添加到${applyto}${show_input_count}上的${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Add ${expr} to ${var}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135444Z" creationid="liaronce" creationdate="20210228T135444Z">
+        <seg>“将${expr}添加到${var}${show_input_count}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Add ${steps} to alarm ${alarm} on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135716Z" creationid="liaronce" creationdate="20210228T135716Z">
+        <seg>“将${step}添加到${applyto}${show_input_count}上的警报${Alarm}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Add ${steps} to alarm ${alarm}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135716Z" creationid="liaronce" creationdate="20210228T135716Z">
+        <seg>“将${Steps}添加到警报${Alarm}${show_input_count}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Add ${value} to global variable ${var} on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135456Z" creationid="liaronce" creationdate="20210228T135456Z">
+        <seg>“将${value}添加到${applyto}${show_input_count}上的全局变量${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Add ${value} to global variable ${var}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135452Z" creationid="liaronce" creationdate="20210228T135452Z">
+        <seg>“将${value}添加到全局变量${var}${show_input_count}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -258,6 +322,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122212Z" creationid="liaronce" creationdate="20210228T122212Z">
         <seg>“将阻力力应用于实例的移动。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Apply to ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135700Z" creationid="liaronce" creationdate="20210228T135700Z">
+        <seg>“应用于${applyto}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -446,6 +518,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Call ${function} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135609Z" creationid="liaronce" creationdate="20210228T135609Z">
+        <seg>“在${applyto}上调用${function}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Call ${function} with ${input_count} arguments on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135615Z" creationid="liaronce" creationdate="20210228T135615Z">
+        <seg>“使用${applyto}上的${input_count}参数调用${function}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Call ${function} with ${input_count} arguments"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135614Z" creationid="liaronce" creationdate="20210228T135614Z">
+        <seg>“使用${input_count}个参数调用${function}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Call ${function} with 1 argument on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135612Z" creationid="liaronce" creationdate="20210228T135612Z">
+        <seg>“在${applyto}上使用1个参数调用${function}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Call ${function} with 1 argument"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135611Z" creationid="liaronce" creationdate="20210228T135611Z">
+        <seg>“使用1个参数调用${function}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Call ${function}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135608Z" creationid="liaronce" creationdate="20210228T135608Z">
+        <seg>“调用${function}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Call Parent Event"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T121745Z" creationid="liaronce" creationdate="20210228T121745Z">
@@ -458,6 +578,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T121753Z" creationid="liaronce" creationdate="20210228T121753Z">
         <seg>“对实例的父对象调用此事件。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Call user event ${event} on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135725Z" creationid="liaronce" creationdate="20210228T135725Z">
+        <seg>“在${applyto}${show_input_count}上调用用户事件${event}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Call user event ${event}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135724Z" creationid="liaronce" creationdate="20210228T135724Z">
+        <seg>“调用用户事件${event}${show_input_count}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -534,6 +670,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Change ${applyto} into ${objind} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135713Z" creationid="liaronce" creationdate="20210228T135713Z">
+        <seg>“在${applyto}上将${applyto}更改为${objind}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Change Instance"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120913Z" creationid="liaronce" creationdate="20210228T120913Z">
@@ -546,6 +690,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120917Z" creationid="liaronce" creationdate="20210228T120917Z">
         <seg>“将实例更改为另一个对象的实例。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Change into ${objind}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135712Z" creationid="liaronce" creationdate="20210228T135712Z">
+        <seg>“更改为${objind}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -982,6 +1134,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Create ${objectid} at ${dnd_pos} into ${var} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135706Z" creationid="liaronce" creationdate="20210228T135706Z">
+        <seg>“将位于${dnd_pos}的${objectID}创建到${applyto}上的${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Create ${objectid} at ${dnd_pos} into ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135706Z" creationid="liaronce" creationdate="20210228T135706Z">
+        <seg>“在${dnd_pos}将${objectID}创建到${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Create ${objectid} at ${dnd_pos} into temp ${var} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135708Z" creationid="liaronce" creationdate="20210228T135708Z">
+        <seg>“在${applyto}上的临时${var}中创建位于${dnd_pos}的${objectID}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Create ${objectid} at ${dnd_pos} into temp ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135707Z" creationid="liaronce" creationdate="20210228T135707Z">
+        <seg>“在${dnd_pos}将${objectID}创建到临时${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Create ${objectid} at ${dnd_pos} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135705Z" creationid="liaronce" creationdate="20210228T135705Z">
+        <seg>“在${applyto}上的${dnd_pos}创建${objectID}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Create ${objectid} at ${dnd_pos}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135704Z" creationid="liaronce" creationdate="20210228T135704Z">
+        <seg>“在${dnd_pos}创建${objectID}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Create Grid"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130402Z" creationid="liaronce" creationdate="20210228T130402Z">
@@ -1214,6 +1414,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Declare temp ${var} and set it to ${value} on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135449Z" creationid="liaronce" creationdate="20210228T135449Z">
+        <seg>“在${applyto}${show_input_count}上声明临时${var}并将其设置为${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Declare temp ${var} and set it to ${value}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135449Z" creationid="liaronce" creationdate="20210228T135449Z">
+        <seg>“声明临时${var}并将其设置为${value}${show_input_count}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Declare temp ${var} on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135448Z" creationid="liaronce" creationdate="20210228T135448Z">
+        <seg>“在${applyto}${show_input_count}上声明临时${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Declare temp ${var}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135448Z" creationid="liaronce" creationdate="20210228T135448Z">
+        <seg>“声明临时${var}${show_input_count}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Default"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120121Z" creationid="liaronce" creationdate="20210228T120121Z">
@@ -1230,6 +1462,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Define macro ${macro} as ${value} on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135702Z" creationid="liaronce" creationdate="20210228T135702Z">
+        <seg>“在${applyto}${show_input_count}上将宏${MACRO}定义为${VALUE}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Define macro ${macro} as ${value}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135702Z" creationid="liaronce" creationdate="20210228T135702Z">
+        <seg>“将宏${MACRO}定义为${VALUE}${show_input_count}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Depth"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133317Z" creationid="liaronce" creationdate="20210228T133317Z">
@@ -1242,6 +1490,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134655Z" creationid="liaronce" creationdate="20210228T134655Z">
         <seg>"桌面快捷方式"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Destroy ${applyto} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135710Z" creationid="liaronce" creationdate="20210228T135710Z">
+        <seg>“销毁${applyto}上的${applyto}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1318,6 +1574,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Destroy instances at ${dnd_pos} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135712Z" creationid="liaronce" creationdate="20210228T135712Z">
+        <seg>“销毁${applyto}上${dnd_pos}处的实例”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Destroy instances at ${dnd_pos}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135711Z" creationid="liaronce" creationdate="20210228T135711Z">
+        <seg>“销毁${dnd_pos}处的实例”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Destroy the particle system."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132017Z" creationid="liaronce" creationdate="20210228T132017Z">
@@ -1330,6 +1602,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131946Z" creationid="liaronce" creationdate="20210228T131946Z">
         <seg>“销毁粒子类型。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Destroy this instance"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135709Z" creationid="liaronce" creationdate="20210228T135709Z">
+        <seg>“销毁此实例”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1774,6 +2054,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Execute ${script} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135546Z" creationid="liaronce" creationdate="20210228T135546Z">
+        <seg>“在${applyto}上执行${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute ${script} with ${input_count} arguments on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135549Z" creationid="liaronce" creationdate="20210228T135549Z">
+        <seg>“在${applyto}上使用${input_count}参数执行${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute ${script} with ${input_count} arguments"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135549Z" creationid="liaronce" creationdate="20210228T135549Z">
+        <seg>“使用${input_count}个参数执行${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute ${script} with 1 argument on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135548Z" creationid="liaronce" creationdate="20210228T135548Z">
+        <seg>“在${applyto}上使用1个参数执行${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute ${script} with 1 argument"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135547Z" creationid="liaronce" creationdate="20210228T135547Z">
+        <seg>“使用1个参数执行${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute ${script}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135546Z" creationid="liaronce" creationdate="20210228T135546Z">
+        <seg>“执行${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Execute Code"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120750Z" creationid="liaronce" creationdate="20210228T120750Z">
@@ -1806,6 +2134,102 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Execute and set ${var} to return value of ${script} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135551Z" creationid="liaronce" creationdate="20210228T135551Z">
+        <seg>“执行并设置${var}以在${applyto}上返回值${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute and set ${var} to return value of ${script} with ${input_count} arguments on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135554Z" creationid="liaronce" creationdate="20210228T135554Z">
+        <seg>“执行并设置${var}以使用${applyto}上的${input_count}参数返回值${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute and set ${var} to return value of ${script} with ${input_count} arguments"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135553Z" creationid="liaronce" creationdate="20210228T135553Z">
+        <seg>“执行并设置${var}以使用${input_count}个参数返回值${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute and set ${var} to return value of ${script} with 1 argument on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135553Z" creationid="liaronce" creationdate="20210228T135553Z">
+        <seg>“执行并设置${var}以在${applyto}上使用1个参数返回值${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute and set ${var} to return value of ${script} with 1 argument"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135552Z" creationid="liaronce" creationdate="20210228T135552Z">
+        <seg>“执行并设置${var}以使用1个参数返回值${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute and set ${var} to return value of ${script}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135550Z" creationid="liaronce" creationdate="20210228T135550Z">
+        <seg>“执行并设置${var}以返回值${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute and set temp ${var} to return value of ${script} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135555Z" creationid="liaronce" creationdate="20210228T135555Z">
+        <seg>“执行并设置临时${var}以在${applyto}上返回值${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute and set temp ${var} to return value of ${script} with ${input_count} arguments on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135606Z" creationid="liaronce" creationdate="20210228T135606Z">
+        <seg>“执行临时${var}并将其设置为在${applyto}上使用${input_count}个参数返回值${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute and set temp ${var} to return value of ${script} with ${input_count} arguments"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135558Z" creationid="liaronce" creationdate="20210228T135558Z">
+        <seg>“执行并设置临时${var}以使用${input_count}个参数返回值${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute and set temp ${var} to return value of ${script} with 1 argument on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135601Z" creationid="liaronce" creationdate="20210228T135601Z">
+        <seg>“执行并设置临时${var}以在${applyto}上返回值${script}和1个参数”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute and set temp ${var} to return value of ${script} with 1 argument"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135602Z" creationid="liaronce" creationdate="20210228T135602Z">
+        <seg>“执行并设置临时${var}以使用1个参数返回值${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute and set temp ${var} to return value of ${script}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135555Z" creationid="liaronce" creationdate="20210228T135555Z">
+        <seg>“执行并设置临时${var}以返回值${script}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Execute code in the context of a specific object or instance."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120828Z" creationid="liaronce" creationdate="20210228T120828Z">
@@ -1814,10 +2238,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Execute code on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135534Z" creationid="liaronce" creationdate="20210228T135534Z">
+        <seg>“在${applyto}上执行代码”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Execute code while a given expression is true."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125028Z" creationid="liaronce" creationdate="20210228T125028Z">
         <seg>“在给定表达式为真时执行代码。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Execute code"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135533Z" creationid="liaronce" creationdate="20210228T135533Z">
+        <seg>“执行代码”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1834,6 +2274,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120905Z" creationid="liaronce" creationdate="20210228T120905Z">
         <seg>“退出当前事件，而不执行其余代码。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Exit the current event"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135703Z" creationid="liaronce" creationdate="20210228T135703Z">
+        <seg>“退出当前事件”</seg>
       </tuv>
     </tu>
     <tu>
@@ -2050,6 +2498,38 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120148Z" creationid="liaronce" creationdate="20210228T120148Z">
         <seg>“游戏手柄”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get ${object} count into ${var} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135721Z" creationid="liaronce" creationdate="20210228T135721Z">
+        <seg>“在${applyto}上将${object}计入${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get ${object} count into ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135720Z" creationid="liaronce" creationdate="20210228T135720Z">
+        <seg>“将${object}计入${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get ${object} count into temp ${var} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135723Z" creationid="liaronce" creationdate="20210228T135723Z">
+        <seg>“将${object}计入${applyto}上的临时${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get ${object} count into temp ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135722Z" creationid="liaronce" creationdate="20210228T135722Z">
+        <seg>“将${object}计数到临时${var}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -2362,6 +2842,78 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130357Z" creationid="liaronce" creationdate="20210228T130357Z">
         <seg>"获取房间视野相关的变量。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get alarm ${alarm} into ${var} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135718Z" creationid="liaronce" creationdate="20210228T135718Z">
+        <seg>“将警报${Alarm}获取到${applyto}上的${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get alarm ${alarm} into ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135717Z" creationid="liaronce" creationdate="20210228T135717Z">
+        <seg>“将警报${Alarm}获取到${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get alarm ${alarm} into temp ${var} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135720Z" creationid="liaronce" creationdate="20210228T135720Z">
+        <seg>“将警报${Alarm}置于${applyto}上的临时${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get alarm ${alarm} into temp ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135719Z" creationid="liaronce" creationdate="20210228T135719Z">
+        <seg>“将警报${Alarm}放入临时${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get global variable ${var} into ${output} on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135457Z" creationid="liaronce" creationdate="20210228T135457Z">
+        <seg>“将全局变量${var}获取到${applyto}${show_input_count}上的${output}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get global variable ${var} into ${output}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135457Z" creationid="liaronce" creationdate="20210228T135457Z">
+        <seg>“将全局变量${var}获取到${output}${show_input_count}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get global variable ${var} into temp ${output} on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135504Z" creationid="liaronce" creationdate="20210228T135504Z">
+        <seg>“将全局变量${var}获取到${applyto}${show_input_count}上的临时${output}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get global variable ${var} into temp ${output}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135458Z" creationid="liaronce" creationdate="20210228T135458Z">
+        <seg>“将全局变量${var}获取到临时${output}${show_input_count}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get instance variable ${dnd_get_inst_vars} into ${target}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135727Z" creationid="liaronce" creationdate="20210228T135727Z">
+        <seg>“将实例变量${dnd_get_inst_vars}获取到${target}${show_input_count}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -2682,6 +3234,230 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134934Z" creationid="liaronce" creationdate="20210228T134934Z">
         <seg>“IDE仍在运行，正在中止.”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${expr} is false on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135527Z" creationid="liaronce" creationdate="20210228T135527Z">
+        <seg>“如果${applyto}${show_input_count}上的${expr}为false”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${expr} is false${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135527Z" creationid="liaronce" creationdate="20210228T135527Z">
+        <seg>“如果${expr}为FALSE${show_input_count}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${expr} is true on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135526Z" creationid="liaronce" creationdate="20210228T135526Z">
+        <seg>“如果${applyto}${show_input_count}上的${expr}为true”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${expr} is true${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135525Z" creationid="liaronce" creationdate="20210228T135525Z">
+        <seg>“如果${expr}为真${show_input_count}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is equal to ${value} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135516Z" creationid="liaronce" creationdate="20210228T135516Z">
+        <seg>“如果${var}等于${applyto}上的${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is equal to ${value}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135515Z" creationid="liaronce" creationdate="20210228T135515Z">
+        <seg>“如果${var}等于${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is greater than ${value} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135520Z" creationid="liaronce" creationdate="20210228T135520Z">
+        <seg>“如果${var}大于${applyto}上的${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is greater than ${value}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135519Z" creationid="liaronce" creationdate="20210228T135519Z">
+        <seg>“如果${var}大于${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is greater than or equal to ${value} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135524Z" creationid="liaronce" creationdate="20210228T135524Z">
+        <seg>“如果${var}大于或等于${applyto}上的${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is greater than or equal to ${value}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135523Z" creationid="liaronce" creationdate="20210228T135523Z">
+        <seg>“如果${var}大于或等于${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is less than ${value} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135518Z" creationid="liaronce" creationdate="20210228T135518Z">
+        <seg>“如果${var}在${applyto}上小于${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is less than ${value}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135517Z" creationid="liaronce" creationdate="20210228T135517Z">
+        <seg>“如果${var}小于${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is less than or equal to ${value} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135522Z" creationid="liaronce" creationdate="20210228T135522Z">
+        <seg>“如果${var}小于或等于${applyto}上的${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is less than or equal to ${value}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135521Z" creationid="liaronce" creationdate="20210228T135521Z">
+        <seg>“如果${var}小于或等于${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is not equal to ${value} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135500Z" creationid="liaronce" creationdate="20210228T135500Z">
+        <seg>“如果${var}不等于${applyto}上的${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is not equal to ${value}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135500Z" creationid="liaronce" creationdate="20210228T135500Z">
+        <seg>“如果${var}不等于${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is not greater than ${value} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135507Z" creationid="liaronce" creationdate="20210228T135507Z">
+        <seg>“如果${var}不大于${applyto}上的${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is not greater than ${value}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135506Z" creationid="liaronce" creationdate="20210228T135506Z">
+        <seg>“如果${var}不大于${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is not greater than or equal to ${value} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135512Z" creationid="liaronce" creationdate="20210228T135512Z">
+        <seg>“如果${var}不大于或等于${applyto}上的${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is not greater than or equal to ${value}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135511Z" creationid="liaronce" creationdate="20210228T135511Z">
+        <seg>“如果${var}不大于或等于${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is not less than ${value} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135506Z" creationid="liaronce" creationdate="20210228T135506Z">
+        <seg>“如果${var}在${applyto}上不小于${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is not less than ${value}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135502Z" creationid="liaronce" creationdate="20210228T135502Z">
+        <seg>“如果${var}不小于${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is not less than or equal to ${value} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135510Z" creationid="liaronce" creationdate="20210228T135510Z">
+        <seg>“如果${var}不小于或等于${applyto}上的${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is not less than or equal to ${value}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135509Z" creationid="liaronce" creationdate="20210228T135509Z">
+        <seg>“如果${var}不小于或等于${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is not undefined on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135531Z" creationid="liaronce" creationdate="20210228T135531Z">
+        <seg>“如果${applyto}${show_input_count}上的${var}未定义”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is not undefined${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135530Z" creationid="liaronce" creationdate="20210228T135530Z">
+        <seg>“如果${var}不是未定义的${show_input_count}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is undefined on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135529Z" creationid="liaronce" creationdate="20210228T135529Z">
+        <seg>“如果${applyto}${show_input_count}上的${var}未定义”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If ${var} is undefined${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135528Z" creationid="liaronce" creationdate="20210228T135528Z">
+        <seg>“如果${var}未定义${show_input_count}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -3990,6 +4766,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Return ${value} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135659Z" creationid="liaronce" creationdate="20210228T135659Z">
+        <seg>“在${applyto}上返回${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Return ${value}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135658Z" creationid="liaronce" creationdate="20210228T135658Z">
+        <seg>“返回${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Return Key"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133553Z" creationid="liaronce" creationdate="20210228T133553Z">
@@ -4246,10 +5038,90 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set ${var} to ${expr} on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135444Z" creationid="liaronce" creationdate="20210228T135444Z">
+        <seg>“在${applyto}${show_input_count}上将${var}设置为${expr}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set ${var} to ${expr}${show_input_count}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T103238Z" creationid="liaronce" creationdate="20210228T103238Z">
         <seg>“将 ${var} 设置为 ${expr} ${show_input_count}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set ${var} to new instance of ${function} with ${input_count} arguments"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135650Z" creationid="liaronce" creationdate="20210228T135650Z">
+        <seg>“使用${input_count}个参数将${var}设置为${function}的新实例”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set ${var} to new instance of ${function} with 1 argument"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135633Z" creationid="liaronce" creationdate="20210228T135633Z">
+        <seg>“使用1个参数将${var}设置为${function}的新实例”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set ${var} to new instance of ${function}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135631Z" creationid="liaronce" creationdate="20210228T135631Z">
+        <seg>“将${var}设置为${function}的新实例”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set ${var} to return value of ${function} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135619Z" creationid="liaronce" creationdate="20210228T135619Z">
+        <seg>“将${var}设置为在${applyto}上返回${function}的值”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set ${var} to return value of ${function} with ${input_count} arguments on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135623Z" creationid="liaronce" creationdate="20210228T135623Z">
+        <seg>“设置${var}以使用${applyto}上的${input_count}参数返回值${function}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set ${var} to return value of ${function} with ${input_count} arguments"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135622Z" creationid="liaronce" creationdate="20210228T135622Z">
+        <seg>“设置${var}以使用${input_count}参数返回值${function}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set ${var} to return value of ${function} with 1 argument on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135622Z" creationid="liaronce" creationdate="20210228T135622Z">
+        <seg>“将${var}设置为在${applyto}上使用1个参数返回值${function}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set ${var} to return value of ${function} with 1 argument"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135619Z" creationid="liaronce" creationdate="20210228T135619Z">
+        <seg>“设置${var}以使用1个参数返回值${function}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set ${var} to return value of ${function}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135618Z" creationid="liaronce" creationdate="20210228T135618Z">
+        <seg>“将${var}设置为返回值${function}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -4706,6 +5578,126 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125520Z" creationid="liaronce" creationdate="20210228T125520Z">
         <seg>"设置一个房间视野相关的变量。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set alarm ${alarm} to ${steps} on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135715Z" creationid="liaronce" creationdate="20210228T135715Z">
+        <seg>“在${applyto}${show_input_count}上将报警${ALARM}设置为${STEPS}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set alarm ${alarm} to ${steps}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135714Z" creationid="liaronce" creationdate="20210228T135714Z">
+        <seg>“将报警${Alarm}设置为${step}${show_input_count}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set global variable ${var} to ${value} on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135453Z" creationid="liaronce" creationdate="20210228T135453Z">
+        <seg>“在${applyto}${show_input_count}上将全局变量${var}设置为${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set global variable ${var} to ${value}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135450Z" creationid="liaronce" creationdate="20210228T135450Z">
+        <seg>“将全局变量${var}设置为${value}${show_input_count}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set instance variable ${dnd_set_inst_vars} to ${value} on ${applyto}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135726Z" creationid="liaronce" creationdate="20210228T135726Z">
+        <seg>“在${applyto}${show_input_count}上将实例变量${dnd_set_inst_vars}设置为${value}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set instance variable ${dnd_set_inst_vars} to ${value}${show_input_count}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135726Z" creationid="liaronce" creationdate="20210228T135726Z">
+        <seg>“将实例变量${dnd_set_inst_vars}设置为${value}${show_input_count}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set temp ${var} to new instance of ${function} with ${input_count} arguments"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135655Z" creationid="liaronce" creationdate="20210228T135655Z">
+        <seg>“使用${input_count}个参数将临时${var}设置为${function}的新实例”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set temp ${var} to new instance of ${function} with 1 argument"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135652Z" creationid="liaronce" creationdate="20210228T135652Z">
+        <seg>“使用1个参数将临时${var}设置为${function}的新实例”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set temp ${var} to new instance of ${function}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135651Z" creationid="liaronce" creationdate="20210228T135651Z">
+        <seg>“将临时${var}设置为${function}的新实例”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set temp ${var} to return value of ${function} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135625Z" creationid="liaronce" creationdate="20210228T135625Z">
+        <seg>“将临时${var}设置为在${applyto}上返回${function}的值”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set temp ${var} to return value of ${function} with ${input_count} arguments on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135645Z" creationid="liaronce" creationdate="20210228T135630Z">
+        <seg>“将临时${var}设置为在${applyto}上使用${input_count}个参数返回值${function}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set temp ${var} to return value of ${function} with ${input_count} arguments"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135627Z" creationid="liaronce" creationdate="20210228T135627Z">
+        <seg>“将临时${var}设置为使用${input_count}个参数返回值${function}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set temp ${var} to return value of ${function} with 1 argument on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135627Z" creationid="liaronce" creationdate="20210228T135627Z">
+        <seg>“将临时${var}设置为在${applyto}上使用1个参数返回值${function}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set temp ${var} to return value of ${function} with 1 argument"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135626Z" creationid="liaronce" creationdate="20210228T135626Z">
+        <seg>“将临时${var}设置为使用1个参数返回值${function}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set temp ${var} to return value of ${function}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135624Z" creationid="liaronce" creationdate="20210228T135624Z">
+        <seg>“将临时${var}设置为返回值${function}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -5370,6 +6362,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132716Z" creationid="liaronce" creationdate="20210228T132716Z">
         <seg>“目标”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Temp"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135433Z" creationid="liaronce" creationdate="20210228T135433Z">
+        <seg>“临时”</seg>
       </tuv>
     </tu>
     <tu>
