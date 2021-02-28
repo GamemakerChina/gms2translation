@@ -86,6 +86,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"A self-contained loop structure with initialise, condition and increment statements."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125221Z" creationid="liaronce" creationdate="20210228T125221Z">
+        <seg>"一个带有初值、条件和步进语句的完备的循环结构。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Add To List"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130506Z" creationid="liaronce" creationdate="20210228T130506Z">
+        <seg>“添加到列表”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Add a value to a list."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130510Z" creationid="liaronce" creationdate="20210228T130510Z">
+        <seg>"将一个值添加到列表中。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"An anchor or dimension has been set to percentage with no parent gadget, try using pixel instead"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T103906Z" creationid="liaronce" creationdate="20210228T103906Z">
@@ -326,6 +350,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Check if a data structure exists."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130422Z" creationid="liaronce" creationdate="20210228T130422Z">
+        <seg>"检测是否存在一个数据结构。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Check if a data structure is empty."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130435Z" creationid="liaronce" creationdate="20210228T130435Z">
+        <seg>"检测一个数据结构是否为空。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Check if a gamepad button is down or released."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T121941Z" creationid="liaronce" creationdate="20210228T121941Z">
@@ -494,6 +534,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Clear Data Structure"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130440Z" creationid="liaronce" creationdate="20210228T130440Z">
+        <seg>"清空数据结构"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Clear Grid"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130655Z" creationid="liaronce" creationdate="20210228T130655Z">
+        <seg>"清空栅格"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Clear a grid to a specific value."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130703Z" creationid="liaronce" creationdate="20210228T130703Z">
+        <seg>"使用指定值清空整个栅格。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Clear the contents of a data structure."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130446Z" creationid="liaronce" creationdate="20210228T130446Z">
+        <seg>"清空一个数据结构的内容。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Click and drag to replace selection (${ctrl} to add to selection, Alt to subtract from selection)"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T105221Z" creationid="liaronce" creationdate="20210228T105205Z">
@@ -558,6 +630,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Create Grid"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130402Z" creationid="liaronce" creationdate="20210228T130402Z">
+        <seg>"创建栅格"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Create Instance"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120910Z" creationid="liaronce" creationdate="20210228T120910Z">
@@ -590,6 +670,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Create Stack"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130410Z" creationid="liaronce" creationdate="20210228T130410Z">
+        <seg>“创建堆栈”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Create a list data structure."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125152Z" creationid="liaronce" creationdate="20210228T125152Z">
@@ -598,10 +686,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Create a map data structure."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125204Z" creationid="liaronce" creationdate="20210228T125204Z">
+        <seg>"创建一个映射数据结构。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Create a new grid data structure."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130406Z" creationid="liaronce" creationdate="20210228T130406Z">
+        <seg>"创建一个栅格数据结构。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Create a new random seed used by the random number generator."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125007Z" creationid="liaronce" creationdate="20210228T125007Z">
         <seg>"通过随机数生成器创建一个新的随机种子。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Create a stack data structure."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130415Z" creationid="liaronce" creationdate="20210228T130415Z">
+        <seg>"创建一个堆栈数据结构。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -830,6 +942,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Draw Sprite Transformed"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125226Z" creationid="liaronce" creationdate="20210228T125226Z">
+        <seg>"绘制变形精灵"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Draw Sprite"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122824Z" creationid="liaronce" creationdate="20210228T122824Z">
@@ -906,6 +1026,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122842Z" creationid="liaronce" creationdate="20210228T122842Z">
         <seg>"绘制堆叠在一起的多个精灵。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Draw a sprite with transformations."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125232Z" creationid="liaronce" creationdate="20210228T125232Z">
+        <seg>"带有形变地绘制一个精灵。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1086,6 +1214,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"For Loop"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125214Z" creationid="liaronce" creationdate="20210228T125214Z">
+        <seg>"For 循环"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Free Data Structure"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130451Z" creationid="liaronce" creationdate="20210228T130451Z">
+        <seg>"释放数据结构"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Free an existing data structure."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130500Z" creationid="liaronce" creationdate="20210228T130500Z">
+        <seg>"释放一个现有的数据结构。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Game"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120307Z" creationid="liaronce" creationdate="20210228T120307Z">
@@ -1166,10 +1318,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get Grid Value"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130643Z" creationid="liaronce" creationdate="20210228T130643Z">
+        <seg>"获取栅格值"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get Health"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124934Z" creationid="liaronce" creationdate="20210228T124934Z">
         <seg>"获取健值值"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Index Of List Item"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130530Z" creationid="liaronce" creationdate="20210228T130530Z">
+        <seg>“获取列表项的索引”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1182,10 +1350,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get List Item At"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130523Z" creationid="liaronce" creationdate="20210228T130523Z">
+        <seg>“获取列表项的位置”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get List Item Count"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130549Z" creationid="liaronce" creationdate="20210228T130549Z">
+        <seg>“获取列表项计数”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get Lives"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124912Z" creationid="liaronce" creationdate="20210228T124912Z">
         <seg>"获取生命数"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Map Value"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130611Z" creationid="liaronce" creationdate="20210228T130611Z">
+        <seg>“获取映射值”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1270,6 +1462,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get View Variable"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130351Z" creationid="liaronce" creationdate="20210228T130351Z">
+        <seg>"获取视野变量"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get Virtual Keyboard Height"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122149Z" creationid="liaronce" creationdate="20210228T122149Z">
@@ -1286,6 +1486,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get a list item at an index."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130528Z" creationid="liaronce" creationdate="20210228T130528Z">
+        <seg>"获取一个索引位置所在的列表项。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get a random inclusive number."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124959Z" creationid="liaronce" creationdate="20210228T124959Z">
@@ -1294,10 +1502,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get a value in a grid."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130648Z" creationid="liaronce" creationdate="20210228T130648Z">
+        <seg>"获取栅格结构中的值。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get a variable from a tilemap element."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124526Z" creationid="liaronce" creationdate="20210228T124526Z">
         <seg>"从一个图块地图（tilemap）元素获取一个变量。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get a variable pertaining to a room view."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130357Z" creationid="liaronce" creationdate="20210228T130357Z">
+        <seg>"获取房间视野相关的变量。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1350,6 +1574,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get the index of a list item."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130535Z" creationid="liaronce" creationdate="20210228T130535Z">
+        <seg>"获取一个列表项的索引。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get the life count of the instance."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124918Z" creationid="liaronce" creationdate="20210228T124918Z">
@@ -1362,6 +1594,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122010Z" creationid="liaronce" creationdate="20210228T122010Z">
         <seg>“获取连接的游戏手柄设备的数量。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the number of items in a list."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130559Z" creationid="liaronce" creationdate="20210228T130551Z">
+        <seg>“获取一个列表中的项目数。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1418,6 +1658,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T121932Z" creationid="liaronce" creationdate="20210228T121932Z">
         <seg>“获取游戏手柄的触发器按钮的值。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the value of a map entry."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130618Z" creationid="liaronce" creationdate="20210228T130618Z">
+        <seg>"获取一个映射项的值。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1482,6 +1730,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122621Z" creationid="liaronce" creationdate="20210228T122621Z">
         <seg>"如果形状发生碰撞"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If Data Structure Empty"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130427Z" creationid="liaronce" creationdate="20210228T130427Z">
+        <seg>"如果数据结构为空"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If Data Structure Exists"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130417Z" creationid="liaronce" creationdate="20210228T130417Z">
+        <seg>“如果数据结构存在”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1654,6 +1918,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Insert Into List"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130540Z" creationid="liaronce" creationdate="20210228T130540Z">
+        <seg>"插入到列表"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Insert an item into a list at an index."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130545Z" creationid="liaronce" creationdate="20210228T130545Z">
+        <seg>"在指定索引位置插入一项。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Instance Variables"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120209Z" creationid="liaronce" creationdate="20210228T120209Z">
@@ -1814,10 +2094,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Pause All Audio"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130819Z" creationid="liaronce" creationdate="20210228T130819Z">
+        <seg>“暂停所有音频”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Pause Audio"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130803Z" creationid="liaronce" creationdate="20210228T130803Z">
+        <seg>“暂停音频”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Pause Sequence"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T121018Z" creationid="liaronce" creationdate="20210228T121018Z">
         <seg>“暂停序列”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Pause a sound effect or a music track."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130817Z" creationid="liaronce" creationdate="20210228T130817Z">
+        <seg>"暂停一个音效或者音乐音轨。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Pause all audio."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130821Z" creationid="liaronce" creationdate="20210228T130821Z">
+        <seg>“暂停所有音频。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1830,6 +2142,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Play Audio"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130742Z" creationid="liaronce" creationdate="20210228T130742Z">
+        <seg>“播放音频”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Play Sequence"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T121013Z" creationid="liaronce" creationdate="20210228T121013Z">
@@ -1838,10 +2158,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Play a sound effect or a music track."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130749Z" creationid="liaronce" creationdate="20210228T130749Z">
+        <seg>"播放一个音效或者一个音乐音轨。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Plays the sequence."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T121015Z" creationid="liaronce" creationdate="20210228T121015Z">
         <seg>“播放序列。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Pop Stack"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130732Z" creationid="liaronce" creationdate="20210228T130732Z">
+        <seg>"出栈"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Pop a value off a stack."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130740Z" creationid="liaronce" creationdate="20210228T130740Z">
+        <seg>"将一个值弹出堆栈。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1870,6 +2214,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Push Onto Stack"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130722Z" creationid="liaronce" creationdate="20210228T130714Z">
+        <seg>“推送到堆栈”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Push a value onto a stack."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130721Z" creationid="liaronce" creationdate="20210228T130721Z">
+        <seg>“将值推入堆栈。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Random"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120215Z" creationid="liaronce" creationdate="20210228T120215Z">
@@ -1882,6 +2242,38 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125002Z" creationid="liaronce" creationdate="20210228T125002Z">
         <seg>“随机化”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Remove From List"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130514Z" creationid="liaronce" creationdate="20210228T130514Z">
+        <seg>“从列表中删除”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Remove Map Entry"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130625Z" creationid="liaronce" creationdate="20210228T130625Z">
+        <seg>“删除映射条目”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Remove a map entry."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130627Z" creationid="liaronce" creationdate="20210228T130627Z">
+        <seg>“删除映射条目。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Remove a value from a list."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130518Z" creationid="liaronce" creationdate="20210228T130518Z">
+        <seg>"从列表中删除一个值。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1914,6 +2306,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T115538Z" creationid="liaronce" creationdate="20210228T115538Z">
         <seg>“已从 ‘{0}’ 中的磁盘删除资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Resume Audio"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130823Z" creationid="liaronce" creationdate="20210228T130823Z">
+        <seg>“恢复音频”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Resume playing a sound effect or a music track."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130828Z" creationid="liaronce" creationdate="20210228T130828Z">
+        <seg>"恢复播放一个音效或音乐音轨。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2110,6 +2518,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set Grid Value"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130632Z" creationid="liaronce" creationdate="20210228T130632Z">
+        <seg>"设置栅格值"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set Health"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124922Z" creationid="liaronce" creationdate="20210228T124922Z">
@@ -2154,6 +2570,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124629Z" creationid="liaronce" creationdate="20210228T124629Z">
         <seg>"设置生命数"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set Map Value"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130601Z" creationid="liaronce" creationdate="20210228T130601Z">
+        <seg>“设置映射值”</seg>
       </tuv>
     </tu>
     <tu>
@@ -2254,6 +2678,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set View Variable"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125237Z" creationid="liaronce" creationdate="20210228T125237Z">
+        <seg>"设置视野变量"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set a direction towards a specified point."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122045Z" creationid="liaronce" creationdate="20210228T122045Z">
@@ -2286,10 +2718,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set a value in a grid."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130637Z" creationid="liaronce" creationdate="20210228T130637Z">
+        <seg>"设置栅格结构中的值。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set a variable direction."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122037Z" creationid="liaronce" creationdate="20210228T122037Z">
         <seg>“设置可变方向。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set a variable pertaining to a room view."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125520Z" creationid="liaronce" creationdate="20210228T125520Z">
+        <seg>"设置一个房间视野相关的变量。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2470,6 +2918,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set the value of a map entry."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130608Z" creationid="liaronce" creationdate="20210228T130608Z">
+        <seg>"设置映射项的值。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Sets the position of the sequence."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T121008Z" creationid="liaronce" creationdate="20210228T121008Z">
@@ -2514,6 +2970,38 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122448Z" creationid="liaronce" creationdate="20210228T122448Z">
         <seg>“将实例位置捕捉到网格。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Stop All Audio"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130759Z" creationid="liaronce" creationdate="20210228T130759Z">
+        <seg>“停止所有音频”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Stop Audio"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130753Z" creationid="liaronce" creationdate="20210228T130753Z">
+        <seg>“停止音频”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Stop all audio."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130801Z" creationid="liaronce" creationdate="20210228T130801Z">
+        <seg>“停止所有音频。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Stop playing a sound effect or a music track."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130757Z" creationid="liaronce" creationdate="20210228T130757Z">
+        <seg>"停止播放一个音效或者音乐音轨。"</seg>
       </tuv>
     </tu>
     <tu>
