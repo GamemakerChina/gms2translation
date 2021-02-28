@@ -446,6 +446,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Check if a sound effect or a music track is paused."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131008Z" creationid="liaronce" creationdate="20210228T131008Z">
+        <seg>"检查是否一个音效或者音乐音轨已经暂停。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Check if a sound effect or a music track is playing."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130845Z" creationid="liaronce" creationdate="20210228T130840Z">
+        <seg>"检查音效或者音乐音轨是否正在播放"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Check if a variable is or isn't undefined."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120734Z" creationid="liaronce" creationdate="20210228T120734Z">
@@ -1262,6 +1278,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get Audio Length"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131018Z" creationid="liaronce" creationdate="20210228T131018Z">
+        <seg>“获取音频长度”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Audio Pitch"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131035Z" creationid="liaronce" creationdate="20210228T131035Z">
+        <seg>“获取音频音调”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Audio Volume"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131104Z" creationid="liaronce" creationdate="20210228T131104Z">
+        <seg>"获取音频音量"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get Draw Colour"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123048Z" creationid="liaronce" creationdate="20210228T123048Z">
@@ -1582,6 +1622,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get the length of a sound effect or a music track in seconds."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131025Z" creationid="liaronce" creationdate="20210228T131025Z">
+        <seg>"获取音效或者音轨的长度，单位秒。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get the life count of the instance."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124918Z" creationid="liaronce" creationdate="20210228T124918Z">
@@ -1602,6 +1650,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130559Z" creationid="liaronce" creationdate="20210228T130551Z">
         <seg>“获取一个列表中的项目数。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the pitch of a sound effect or a music track."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131044Z" creationid="liaronce" creationdate="20210228T131044Z">
+        <seg>"获取音效或音轨的音调。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -1714,6 +1770,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122610Z" creationid="liaronce" creationdate="20210228T122520Z">
         <seg>“如果在某个位置有任何物体”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If Audio Is Paused"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131005Z" creationid="liaronce" creationdate="20210228T131005Z">
+        <seg>“如果音频暂停”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If Audio Is Playing"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130838Z" creationid="liaronce" creationdate="20210228T130838Z">
+        <seg>“如果正在播放音频”</seg>
       </tuv>
     </tu>
     <tu>
@@ -2310,6 +2382,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Resume All Audio"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130830Z" creationid="liaronce" creationdate="20210228T130830Z">
+        <seg>“恢复所有音频”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Resume Audio"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130823Z" creationid="liaronce" creationdate="20210228T130823Z">
@@ -2322,6 +2402,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130828Z" creationid="liaronce" creationdate="20210228T130828Z">
         <seg>"恢复播放一个音效或音乐音轨。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Resume playing all paused audio."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130835Z" creationid="liaronce" creationdate="20210228T130835Z">
+        <seg>"恢复所有的暂停音频的播放。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2426,6 +2514,30 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T121436Z" creationid="liaronce" creationdate="20210228T121436Z">
         <seg>“设置动画速度”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set Audio Pitch"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131027Z" creationid="liaronce" creationdate="20210228T131027Z">
+        <seg>“设置音频音调”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set Audio Position"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131012Z" creationid="liaronce" creationdate="20210228T131012Z">
+        <seg>“设置音频位置”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set Audio Volume"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131049Z" creationid="liaronce" creationdate="20210228T131049Z">
+        <seg>"设置音频音量"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2838,6 +2950,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set the pitch of a sound effect or a music track."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131031Z" creationid="liaronce" creationdate="20210228T131031Z">
+        <seg>"设置音效或音轨的音调。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set the playback position of a sound effect or a music track."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131016Z" creationid="liaronce" creationdate="20210228T131016Z">
+        <seg>"设置音效或者音轨的播放位置。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set the rotation of an instance."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T121434Z" creationid="liaronce" creationdate="20210228T121434Z">
@@ -2922,6 +3050,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130608Z" creationid="liaronce" creationdate="20210228T130608Z">
         <seg>"设置映射项的值。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set the volume of a sound effect or a music track."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131058Z" creationid="liaronce" creationdate="20210228T131058Z">
+        <seg>“设置一个音效或音轨的音量。”</seg>
       </tuv>
     </tu>
     <tu>
