@@ -10,7 +10,7 @@ Require [gms2-ide-csv-filter](https://github.com/GamemakerChina/gms2-ide-csv-fil
 
 ## Machine Translation Plugin reference 
 
- - Google Translation (built-in)
+ - Google Translation (built-in or [https://sourceforge.net/projects/omegat-gt-without-api-key/](https://sourceforge.net/projects/omegat-gt-without-api-key/))
  - Microsoft Translation (built-in)
  - DeepL (built-in)
  - Tencent Translation ([https://github.com/GamemakerChina/omegat-tencent-plugin](https://github.com/GamemakerChina/omegat-tencent-plugin))
