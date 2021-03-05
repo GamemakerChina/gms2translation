@@ -4502,6 +4502,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get Sequence Head"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014109Z" creationid="liaronce" creationdate="20210305T014109Z">
+        <seg>“获取序列头”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Sequence Length"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014053Z" creationid="liaronce" creationdate="20210305T014053Z">
+        <seg>“获取序列长度”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get Sequence Position"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120935Z" creationid="liaronce" creationdate="20210228T120935Z">
@@ -4902,6 +4918,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014158Z" creationid="liaronce" creationdate="20210305T014158Z">
+        <seg>“将序列实例${sequenceelmid}的头部位置(以帧为单位)获取到${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014206Z" creationid="liaronce" creationdate="20210305T014206Z">
+        <seg>“将序列实例${sequenceelmid}的头部位置(以帧为单位)获取到临时${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get health into ${var} on ${applyto}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011624Z" creationid="liaronce" creationdate="20210304T132529Z">
@@ -5106,6 +5138,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131953Z" creationid="liaronce" creationdate="20210304T131953Z">
         <seg>“将音频${SOUND}的长度获取到临时${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get length of sequence instance ${sequenceelmid} into ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014135Z" creationid="liaronce" creationdate="20210305T014135Z">
+        <seg>“将序列实例${sequenceelmid}的长度获取到${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get length of sequence instance ${sequenceelmid} into temp ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014145Z" creationid="liaronce" creationdate="20210305T014145Z">
+        <seg>“将序列实例${sequenceelmid}的长度获取到临时${var}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -6494,6 +6542,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Gets the head position (in frames) of a sequence element."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014114Z" creationid="liaronce" creationdate="20210305T014114Z">
+        <seg>“获取序列元素的头部位置(以帧为单位)。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Gets the length of a sequence element."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014107Z" creationid="liaronce" creationdate="20210305T014107Z">
+        <seg>“获取序列元素的长度。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Global"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120213Z" creationid="liaronce" creationdate="20210228T120213Z">
@@ -6594,6 +6658,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133031Z" creationid="liaronce" creationdate="20210228T133031Z">
         <seg>"水平对齐"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Head (frames)"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014210Z" creationid="liaronce" creationdate="20210305T014210Z">
+        <seg>“头(帧)”</seg>
       </tuv>
     </tu>
     <tu>
@@ -11854,6 +11926,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set Sequence Head"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014115Z" creationid="liaronce" creationdate="20210305T014115Z">
+        <seg>“设置序列头”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set Sequence Position"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T121003Z" creationid="liaronce" creationdate="20210228T121003Z">
@@ -12474,6 +12554,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132713Z" creationid="liaronce" creationdate="20210304T132713Z">
         <seg>“将粒子类型${type}的重力设置为${Amount}，方向为${Direction}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014153Z" creationid="liaronce" creationdate="20210305T014153Z">
+        <seg>“将序列实例${sequenceelmid}的头部位置(以帧为单位)设置为${var}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -13522,6 +13610,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132627Z" creationid="liaronce" creationdate="20210304T132627Z">
         <seg>“将窗口状态设置为窗口”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Sets the head position (in frames) of a sequence element."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014119Z" creationid="liaronce" creationdate="20210305T014119Z">
+        <seg>“设置序列元素的头部位置(以帧为单位)。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -16439,6 +16535,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Absolute</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014214Z" creationid="liaronce" creationdate="20210305T014214Z">
+        <seg>绝对</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Accept Spine licence</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T051323Z" creationid="deciia" creationdate="20180922T051323Z">
@@ -16531,6 +16635,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T114343Z" creationid="deciia" creationdate="20170104T055113Z">
         <seg>动作不能作为父级。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Activate Nine Slice</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013301Z" creationid="liaronce" creationdate="20210305T013301Z">
+        <seg>激活九宫格</seg>
       </tuv>
     </tu>
     <tu>
@@ -18760,6 +18872,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Animation Curve Library</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014237Z" creationid="liaronce" creationdate="20210305T014237Z">
+        <seg>动画曲线库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Animation Curve: {0}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135827Z" creationid="liaronce" creationdate="20200820T135827Z">
@@ -19455,6 +19575,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T204256Z" creationid="deciia" creationdate="20170510T022921Z">
         <seg>你确定想要删除这个远程库吗（remote）？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Are you sure you wish to save this import as a new subfolder inside the existing project's folder?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014547Z" creationid="liaronce" creationdate="20210305T014547Z">
+        <seg>是否确实要将此导入另存为现有项目文件夹内的新子文件夹？</seg>
       </tuv>
     </tu>
     <tu>
@@ -20238,6 +20366,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Automatic packaging choice</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014224Z" creationid="liaronce" creationdate="20210305T014224Z">
+        <seg>自动打包选择</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Automatic response to Asset deletion</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133607Z" creationid="liaronce" creationdate="20200820T133607Z">
@@ -20970,6 +21106,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Between: Apply curve repeatedly for each selected section</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014245Z" creationid="liaronce" creationdate="20210305T014245Z">
+        <seg>之间：对每个选定截面重复应用曲线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Bezier</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115606Z" creationid="liaronce" creationdate="20201124T115606Z">
@@ -20998,6 +21142,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T134223Z" creationid="deciia" creationdate="20170103T134223Z">
         <seg>比特率(kbps):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Blank Repeat</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014017Z" creationid="liaronce" creationdate="20210305T014017Z">
+        <seg>空白重复</seg>
       </tuv>
     </tu>
     <tu>
@@ -21202,6 +21354,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Bottom Guide Colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013950Z" creationid="liaronce" creationdate="20210305T013950Z">
+        <seg>底部参考颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Bottom Left</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T022454Z" creationid="deciia" creationdate="20170104T022454Z">
@@ -21230,6 +21390,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T151447Z" creationid="deciia" creationdate="20170103T151447Z">
         <seg>底：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Bounce</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014514Z" creationid="liaronce" creationdate="20210305T014514Z">
+        <seg>反弹缓动</seg>
       </tuv>
     </tu>
     <tu>
@@ -22354,6 +22522,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Centre</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014014Z" creationid="liaronce" creationdate="20210305T014014Z">
+        <seg>中心</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Centre Fit</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T145624Z" creationid="deciia" creationdate="20170107T053833Z">
@@ -23118,6 +23294,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T051739Z" creationid="deciia" creationdate="20170107T051739Z">
         <seg>选择声音文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Circ</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014450Z" creationid="liaronce" creationdate="20210305T014410Z">
+        <seg>圆形曲线缓动</seg>
       </tuv>
     </tu>
     <tu>
@@ -25776,6 +25960,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142227Z" creationid="liaronce" creationdate="20200820T142227Z">
         <seg>创建子房间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create DMG Installer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014036Z" creationid="liaronce" creationdate="20210305T014036Z">
+        <seg>创建DMG安装程序</seg>
       </tuv>
     </tu>
     <tu>
@@ -28876,6 +29068,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Do you want to change your current runtime to the matching IDE version {0}?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014049Z" creationid="liaronce" creationdate="20210305T014049Z">
+        <seg>是否要将当前 Runtime 更改为匹配的IDE版本{0}？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Do you want to change your current runtime to version {0}?\nThis will require a restart of the IDE.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T103935Z" creationid="deciia" creationdate="20170105T103935Z">
@@ -30192,6 +30392,30 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Ease In</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014301Z" creationid="liaronce" creationdate="20210305T014301Z">
+        <seg>缓入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Ease In-Out</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014303Z" creationid="liaronce" creationdate="20210305T014303Z">
+        <seg>缓入缓出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Ease Out</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014252Z" creationid="liaronce" creationdate="20210305T014252Z">
+        <seg>缓出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Ease-In</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142335Z" creationid="liaronce" creationdate="20200820T142335Z">
@@ -30604,6 +30828,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170322T053056Z" creationid="deciia" creationdate="20170102T092317Z">
         <seg>效果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Elastic</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014517Z" creationid="liaronce" creationdate="20210305T014441Z">
+        <seg>正弦曲线缓动</seg>
       </tuv>
     </tu>
     <tu>
@@ -32319,6 +32551,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Expo</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014448Z" creationid="liaronce" creationdate="20210305T014402Z">
+        <seg>指数曲线缓动</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Export</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170106T161117Z" creationid="deciia" creationdate="20170106T161117Z">
@@ -32911,6 +33151,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Fast To Slow</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014527Z" creationid="liaronce" creationdate="20210305T014527Z">
+        <seg>快到慢</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Fatal Error</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T142314Z" creationid="deciia" creationdate="20170105T110557Z">
@@ -33155,6 +33403,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180924T032700Z" creationid="deciia" creationdate="20170104T052212Z">
         <seg>过滤树（Filter Tree）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Filter by Asset</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013203Z" creationid="liaronce" creationdate="20210305T013203Z">
+        <seg>按资源过滤</seg>
       </tuv>
     </tu>
     <tu>
@@ -37803,6 +38059,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Groups First</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014234Z" creationid="liaronce" creationdate="20210305T014234Z">
+        <seg>分组优先</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>H: {0}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135410Z" creationid="liaronce" creationdate="20191117T135410Z">
@@ -38004,6 +38268,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Hide</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014018Z" creationid="liaronce" creationdate="20210305T014018Z">
+        <seg>隐藏</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Hide DnD™ node overview panel</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T034841Z" creationid="deciia" creationdate="20180922T034841Z">
@@ -38088,6 +38360,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T093859Z" creationid="deciia" creationdate="20170105T064002Z">
         <seg>高亮显示成对符号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Highlight:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013912Z" creationid="liaronce" creationdate="20210305T013912Z">
+        <seg>突出显示：</seg>
       </tuv>
     </tu>
     <tu>
@@ -42555,6 +42835,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Installer Background</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014026Z" creationid="liaronce" creationdate="20210305T014026Z">
+        <seg>安装程序背景</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Installer Finished Image</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T055816Z" creationid="deciia" creationdate="20170105T032244Z">
@@ -42985,6 +43273,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T025431Z" creationid="deciia" creationdate="20170102T095513Z">
         <seg>反选</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Inverted</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014022Z" creationid="liaronce" creationdate="20210305T014022Z">
+        <seg>倒置</seg>
       </tuv>
     </tu>
     <tu>
@@ -43914,6 +44210,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170221T034744Z" creationid="36011" creationdate="20170221T034744Z">
         <seg>左边界</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Left Guide Colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013937Z" creationid="liaronce" creationdate="20210305T013916Z">
+        <seg>左侧参考颜色</seg>
       </tuv>
     </tu>
     <tu>
@@ -45639,6 +45943,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Mid Slow</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014530Z" creationid="liaronce" creationdate="20210305T014530Z">
+        <seg>中慢</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Middle</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T025156Z" creationid="deciia" creationdate="20170103T025156Z">
@@ -46727,6 +47039,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T013917Z" creationid="deciia" creationdate="20180922T013907Z">
         <seg>下一区域</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Nine Slice</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014227Z" creationid="liaronce" creationdate="20210305T014227Z">
+        <seg>九宫格</seg>
       </tuv>
     </tu>
     <tu>
@@ -48511,6 +48831,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Overlay</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014023Z" creationid="liaronce" creationdate="20210305T014023Z">
+        <seg>覆盖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Override Event</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T153500Z" creationid="deciia" creationdate="20180921T153500Z">
@@ -48531,6 +48859,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T075527Z" creationid="deciia" creationdate="20170103T075527Z">
         <seg>概述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Overwrite: Apply curve once across all selected sections</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014239Z" creationid="liaronce" creationdate="20210305T014239Z">
+        <seg>覆盖：在所有选定横断面上应用一次曲线</seg>
       </tuv>
     </tu>
     <tu>
@@ -48789,6 +49125,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T014013Z" creationid="deciia" creationdate="20170209T082803Z">
         <seg>打包 x86 构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Package as DMG</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014035Z" creationid="liaronce" creationdate="20210305T014035Z">
+        <seg>打包为DMG</seg>
       </tuv>
     </tu>
     <tu>
@@ -50346,6 +50690,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Please select a different image.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014553Z" creationid="liaronce" creationdate="20210305T014553Z">
+        <seg>请选择其他图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Please select a language</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T073559Z" creationid="deciia" creationdate="20170103T073559Z">
@@ -51502,6 +51854,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T134411Z" creationid="deciia" creationdate="20170103T134411Z">
         <seg>品质：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Quart</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014446Z" creationid="liaronce" creationdate="20210305T014351Z">
+        <seg>四次方缓动</seg>
       </tuv>
     </tu>
     <tu>
@@ -53740,6 +54100,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Right Guide Colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013939Z" creationid="liaronce" creationdate="20210305T013925Z">
+        <seg>右侧参考颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Right Pressed</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170510T040955Z" creationid="deciia" creationdate="20170103T025222Z">
@@ -54368,6 +54736,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T170238Z" creationid="deciia" creationdate="20170311T170238Z">
         <seg>SWF 精度：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SWF Sprite</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013240Z" creationid="liaronce" creationdate="20210305T013240Z">
+        <seg>SWF 精灵</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SWF Sprite - some editor settings disabled</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013252Z" creationid="liaronce" creationdate="20210305T013252Z">
+        <seg>SWF 精灵-某些编辑器设置已禁用</seg>
       </tuv>
     </tu>
     <tu>
@@ -55308,6 +55692,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Select "Reset" to revert curve to initial state.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014532Z" creationid="liaronce" creationdate="20210305T014532Z">
+        <seg>选择“重置”将曲线恢复到初始状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Select Action</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140931Z" creationid="liaronce" creationdate="20200820T140820Z">
@@ -55688,6 +56080,30 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T100949Z" creationid="deciia" creationdate="20170102T100942Z">
         <seg>选择图层</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Selected Slice Highlight Colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013958Z" creationid="liaronce" creationdate="20210305T013958Z">
+        <seg>所选切片高亮显示颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Selected Slice Highlight Style</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014010Z" creationid="liaronce" creationdate="20210305T014010Z">
+        <seg>所选切片突出显示样式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Selected Slice:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013859Z" creationid="liaronce" creationdate="20210305T013859Z">
+        <seg>所选切片：</seg>
       </tuv>
     </tu>
     <tu>
@@ -60320,6 +60736,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Spine Sprite</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013220Z" creationid="liaronce" creationdate="20210305T013220Z">
+        <seg>Spine 精灵</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spine Sprite - some editor settings disabled</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013234Z" creationid="liaronce" creationdate="20210305T013234Z">
+        <seg>Spine 精灵-某些编辑器设置已禁用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Spine files</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T042630Z" creationid="deciia" creationdate="20170105T042630Z">
@@ -62603,6 +63035,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The executable cannot be created as it's still currently running.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014558Z" creationid="liaronce" creationdate="20210305T014558Z">
+        <seg>无法创建可执行文件，因为它当前仍在运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The external project file cannot be read to import this resource</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T201856Z" creationid="deciia" creationdate="20180922T201856Z">
@@ -62711,6 +63151,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T020214Z" creationid="deciia" creationdate="20170104T064729Z">
         <seg>图像预计有一个alpha通道（即32位）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The image selected has transparency.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014551Z" creationid="liaronce" creationdate="20210305T014551Z">
+        <seg>选定的图像具有透明度。</seg>
       </tuv>
     </tu>
     <tu>
@@ -63857,6 +64305,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Tile Mode:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013908Z" creationid="liaronce" creationdate="20210305T013908Z">
+        <seg>图块模式:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Tile Offset X</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T034334Z" creationid="deciia" creationdate="20170104T034334Z">
@@ -64605,6 +65061,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170221T034751Z" creationid="36011" creationdate="20170221T034751Z">
         <seg>上边界</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Top Guide Colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013942Z" creationid="liaronce" creationdate="20210305T013934Z">
+        <seg>顶部参考颜色</seg>
       </tuv>
     </tu>
     <tu>
@@ -68163,6 +68627,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You have selected a folder already containing another GMS2 project - importing here will not merge the two projects.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014539Z" creationid="liaronce" creationdate="20210305T014539Z">
+        <seg>您选择的文件夹已经包含另一个GMS2项目-在此导入不会合并这两个项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You have selected a {0} instead of a {1}.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T021512Z" creationid="deciia" creationdate="20170106T155435Z">
@@ -69559,6 +70031,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T194113Z" creationid="deciia" creationdate="20180922T194113Z">
         <seg>macOS 应用程序 Zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>macOS DMG</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014229Z" creationid="liaronce" creationdate="20210305T014229Z">
+        <seg>macOS DMG</seg>
       </tuv>
     </tu>
     <tu>
