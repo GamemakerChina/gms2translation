@@ -1,6 +1,9 @@
 _Language,English,English,,Language name - in English
 _LanguageNative,English,English,,Language name in the native language
 _LanguageCode,en,en,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
+GMStdSeqSetHead_Story_1,"Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}","Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}",,dnd story text
+GMStdSeqGetHead_Story_1,"Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}","Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}",,dnd story text
+GMStdSeqGetHead_Story_2,"Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}","Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}",,dnd story text
 GMStdVar_Story_1,"Set ${var} to ${expr}${show_input_count}","Set ${var} to ${expr}${show_input_count}",,dnd story text
 GMStdVar_Story_2,"Set ${var} to ${expr} on ${applyto}${show_input_count}","Set ${var} to ${expr} on ${applyto}${show_input_count}",,dnd story text
 GMStdVar_Story_3,"Add ${expr} to ${var}${show_input_count}","Add ${expr} to ${var}${show_input_count}",,dnd story text
@@ -186,6 +189,8 @@ GMStdSeqGetPos_Story_1,"Get position of sequence instance ${sequenceelmid} into 
 GMStdSeqGetPos_Story_2,"Get position of sequence instance ${sequenceelmid} into temp ${varx} and ${vary}","Get position of sequence instance ${sequenceelmid} into temp ${varx} and ${vary}",,dnd story text
 GMStdSeqGetPos_Story_3,"Get position of sequence instance ${sequenceelmid} into ${varx} and temp ${vary}","Get position of sequence instance ${sequenceelmid} into ${varx} and temp ${vary}",,dnd story text
 GMStdSeqGetPos_Story_4,"Get position of sequence instance ${sequenceelmid} into temp ${varx} and temp ${vary}","Get position of sequence instance ${sequenceelmid} into temp ${varx} and temp ${vary}",,dnd story text
+GMStdSeqGetLength_Story_1,"Get length of sequence instance ${sequenceelmid} into ${var}","Get length of sequence instance ${sequenceelmid} into ${var}",,dnd story text
+GMStdSeqGetLength_Story_2,"Get length of sequence instance ${sequenceelmid} into temp ${var}","Get length of sequence instance ${sequenceelmid} into temp ${var}",,dnd story text
 GMStdIfMousePressed_Story_1,"If mouse button ${button} is pressed","If mouse button ${button} is pressed",,dnd story text
 GMStdIfMousePressed_Story_2,"If mouse button ${button} is pressed on ${applyto}","If mouse button ${button} is pressed on ${applyto}",,dnd story text
 GMStdIfMousePressed_Story_3,"If mouse button ${button} is not pressed","If mouse button ${button} is not pressed",,dnd story text

@@ -1252,7 +1252,7 @@ ObjectEditor_RangeEnabled,Use Range,Use Range,,Use ranged parameter
 ObjectEditor_RangeMin,Min,Min,,Min ranged parameter
 ObjectEditor_RangeMax,Max,Max,,Max ranged parameter
 ObjectEditor_ListItems,List items,List items,,List items label
-ObjectEditor_ResourceFilter,Resource filter,Resource filter,,Resource filter label
+ObjectEditor_ResourceFilter,Filter by Asset,Filter by Asset,,Filter by Asset label
 ObjectEditor_RemoveListItem,Remove this item,Remove this item,,Remove this item label
 ObjectEditor_PhysicsProperties,Physics Properties,Physics Properties,,Object editor physics properties label
 ObjectEditor_PhysicsShape_WindowTitle,Physics Collision Shape,Physics Collision Shape,,Object editor physics shape window title
@@ -1390,7 +1390,6 @@ ResourceMenu_CreateShader,Create Shader,Create Shader,,"Resource menu ""Create S
 ResourceMenu_CreateSound,Create Sound,Create Sound,,"Resource menu ""Create Sound"" entry"
 ResourceMenu_CreateSprite,Create Sprite,Create Sprite,,"Resource menu ""Create Sprite"" entry"
 ResourceMenu_CreateTileset,Create Tile Set,Create Tile Set,,"Resource menu ""Create Tile Set"" entry"
-ResourceMenu_CreateNineSlice,Create Nine Slice,Create Nine Slice,,"Resource menu ""Create Nine Slice"" entry"
 ResourceMenu_CreateNote,Create Note,Create Note,,"Resource menu ""Create Note"" entry"
 ResourceMenu_CreateTimeline,Create Timeline,Create Timeline,,"Resource menu ""Create Timeline"" entry"
 ResourceMenu_Resources,Resources,Resources,,Main resources menu entry
@@ -1437,7 +1436,6 @@ RoomEditor_DeleteSelectedLayer,Delete Selected Layers,Delete Selected Layers,,to
 RoomEditor_GraphicProperties,Graphic: {0},Graphic: {0},,graphic properties window 
 RoomEditor_ParticleSystemProperties,Particle System: {0},Particle System: {0},,graphic properties window 
 RoomEditor_SequenceProperties,Sequence: {0},Sequence: {0},,graphic properties window 
-RoomEditor_NineSliceProperties,Nine Slice: {0},Nine Slice: {0},,graphic properties window 
 RoomEditor_SpriteProperties,Sprite: {0},Sprite: {0},,graphic properties window 
 RoomEditor_GridColour,Colour:,Colour:,,room editor toolbar grid colour select button caption
 RoomEditor_GridSnapX,Snap X:,Snap X:,,room editor toolbar grid horizontal snap numeric textbox caption
@@ -1776,6 +1774,33 @@ SpriteEditor_TileVer,Tile Vertically,Tile Vertically,,Sprite editor tile ver lab
 SpriteEditor_Tolerance,Tolerance,Tolerance,,Sprite editor alpha tolerance slider label
 SpriteEditor_Use3D,Separate Texture Page,Separate Texture Page,,Sprite editor use for 3D label
 SpriteEditor_WindowTitle,Sprite: {0},Sprite: {0},,Sprite editor window title
+SpriteEditor_SpineLabel,Spine Sprite,Spine Sprite,,spine type sprite
+SpriteEditor_SpineLabelTT,Spine Sprite - some editor settings disabled,Spine Sprite - some editor settings disabled,,spine sprite label tooltip
+SpriteEditor_SWFLabel,SWF Sprite,SWF Sprite,,SWF type sprite
+SpriteEditor_SWFLabelTT,SWF Sprite - some editor settings disabled,SWF Sprite - some editor settings disabled,,SWF sprite label tooltip
+NineSlice_Activate,Activate Nine Slice,Activate Nine Slice,,activate nineslice label
+NineSlice_SelectedSlice,Selected Slice:,Selected Slice:,,selected nineslice label
+NineSlice_TileMode,Tile Mode:,Tile Mode:,,nineslice tilemode label
+NineSlice_Highlight,Highlight:,Highlight:,,nineslice highlight label
+NineslicePref_LeftGuideColour,Left Guide Colour,Left Guide Colour,,nineslice pref setting label
+NineslicePref_RightGuideColour,Right Guide Colour,Right Guide Colour,,nineslice pref setting label
+NineslicePref_TopGuideColour,Top Guide Colour,Top Guide Colour,,nineslice pref setting label
+NineslicePref_BottomGuideColour,Bottom Guide Colour,Bottom Guide Colour,,nineslice pref setting label
+NineslicePref_HighlightColour,Selected Slice Highlight Colour,Selected Slice Highlight Colour,,nineslice default highlight colour
+NineslicePref_HighlightStyle,Selected Slice Highlight Style,Selected Slice Highlight Style,,nineslice default highlight style
+ListBoxEnum_eSlice_None,None,None,,enum name
+ListBoxEnum_eSlice_Left,Left,Left,,enum name
+ListBoxEnum_eSlice_Top,Top,Top,,enum name
+ListBoxEnum_eSlice_Right,Right,Right,,enum name
+ListBoxEnum_eSlice_Bottom,Bottom,Bottom,,enum name
+ListBoxEnum_eSlice_Centre,Centre,Centre,,enum name
+ListBoxEnum_eTileMode_Stretch,Stretch,Stretch,,enum name
+ListBoxEnum_eTileMode_Repeat,Repeat,Repeat,,enum name
+ListBoxEnum_eTileMode_Mirror,Mirror,Mirror,,enum name
+ListBoxEnum_eTileMode_BlankRepeat,Blank Repeat,Blank Repeat,,enum name
+ListBoxEnum_eTileMode_Hide,Hide,Hide,,enum name
+ListBoxEnum_eHighlightStyle_Inverted,Inverted,Inverted,,nineslice highlight style enum
+ListBoxEnum_eHighlightStyle_Overlay,Overlay,Overlay,,nineslice highlight style enum
 ParticleType_NewName,New_Particle_Type,New_Particle_Type,,Name of a newly created particle type resource
 ParticleEmitter_NewName,New_Emitter,New_Emitter,,Name of a newly created particle emitter resource
 ParticleTypeEditor_Title,Particle Types,Particle Types,,Particle type editor window title
@@ -2477,6 +2502,7 @@ ggs_output_debug_to_console,Output debug to console,Output debug to console,,Out
 ggs_generate_spotify_app,Generate Spotify App,Generate Spotify App,,Generate Spotify App
 ggs_display_outside_server_alert,Display "Running outside server" alert,Display "Running outside server" alert,,Display the running outside of server alert
 ggs_prepend_js,Prepend output .js with,Prepend output .js with,,Prepend output .js with
+ggs_installer_background,Installer Background,Installer Background,,Installer Background
 ggs_icon,Icon,Icon,,Icon
 ggs_icon_57,57x57 Icon,57x57 Icon,,57x57 Icon
 ggs_icon_72,72x72 Icon,72x72 Icon,,72x72 Icon
@@ -3140,6 +3166,9 @@ windows_package_nsis,Package as Installer,Package as Installer,,Package as Insta
 windows_package_zip,Package as Zip,Package as Zip,,Package as Zip
 windows_package_type,Package Type,Package Type,,Package Type
 windows_package_default_type,Default packaging type,Default packaging type,,Default Packaging Type
+mac_package_nsis,Package as DMG,Package as DMG,,Package as DMG
+mac_package_zip,Package as Zip,Package as Zip,,Package as Zip
+mac_package_remember,Remember Packaging Option?,Remember Packaging Option?,,Remember Packaging Option?
 html5_package_loose,Package as Loose Files,Package as Loose Files,,Package as Loose Files
 html5_package_zip,Package as Zip,Package as Zip,,Package as Zip
 html5_package_remember,Remember Packaging Option?,Remember Packaging Option?,,Remember Packaging Option?
@@ -3168,6 +3197,9 @@ ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_Show,Show Dialog,S
 ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_X86,Create X86 Package,Create X86 Package,,Create X86 Package
 ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_X64,Create X64 Package,Create X64 Package,,Create X64 Package
 ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_ARM,Create Arm Package,Create Arm Package,,Create Arm Package
+ListBoxEnum_MacPackageChoice_MacPackage_Dmg,Create DMG Installer,Create DMG Installer,,Create DMG Installer
+ListBoxEnum_MacPackageChoice_MacPackage_Zip,Create Zip Archive,Create Zip Archive,,Create Zip Archive
+ListBoxEnum_MacPackageChoice_MacPackage_Show,Show Dialog,Show Dialog,,Show Dialog
 AddWorker_Name,Name,Name,,Worker name
 AddWorker_NameTooltip,The name assigned to this worker,The name assigned to this worker,,Worker name
 AddWorker_Host,Name/IP,Name/IP,,Worker host name
@@ -3231,6 +3263,7 @@ platformdevice_connection_success_title,Connection Successful,Connection Success
 platformdevice_connection_failed_title,Connection Failed,Connection Failed,,Connection Failed title
 platformdevice_connection_no_devices,No Devices found,No Devices found,,no devices are found
 AssetExplorer_SelectResource,Select Resource,Select Resource,,Fallback title for asset explorer
+AssetExplorer_SelectResourceType,Select {0},Select {0},,select (resource type name) title for asset explorer
 AssetExplorer_FilterCaptionGeneric,Showing {0}/{1} filtered items,Showing {0}/{1} filtered items,,Title for filtered items in asset explorer
 ParserError_DnD,{0} in DnD™ action {1},{0} in DnD™ action {1},,DnD™ parser error message
 GadgetToolbox_ListView,List View,List View,,List View dialog editor name
@@ -3257,6 +3290,7 @@ runtime_install,Install,Install,,Install Runtime
 runtime_delete,Delete,Delete,,Delete Runtime
 runtime_selection,Runtime Selection,Runtime Selection,,Runtime Selection Window title
 runtime_selection_change,Do you want to change your current runtime to version {0}?\nThis will require a restart of the IDE.,Do you want to change your current runtime to version {0}?\nThis will require a restart of the IDE.,,Change current runtime to the selected version {0}
+runtime_onstartup_change,Do you want to change your current runtime to the matching IDE version {0}?,Do you want to change your current runtime to the matching IDE version {0}?,,Change current runtime to the version matching the IDE
 runtime_selection_install,Are you sure you want to install version {0}?,Are you sure you want to install version {0}?,,Install runtime version {0}
 runtime_installing,Installing...,Installing...,,Runtime is installing
 Runtime_Download_Title,Runtime Downloading...,Runtime Downloading...,,Runtime downloading title
@@ -3681,6 +3715,17 @@ GMStdSeqPause_Name,"Pause Sequence","Pause Sequence",,Drag and Drop™ library a
 GMStdSeqPause_Desc,"Pauses the sequence.","Pauses the sequence.",,Drag and Drop™ library action description
 GMStdIfSeqExists_Name,"If Sequence Exists","If Sequence Exists",,Drag and Drop™ library action name
 GMStdIfSeqExists_Desc,"Check if a sequence exists.","Check if a sequence exists.",,Drag and Drop™ library action description
+GMStdSeqGetLength_Name,"Get Sequence Length","Get Sequence Length",,dnd library action name
+GMStdSeqGetLength_Desc,"Gets the length of a sequence element.","Gets the length of a sequence element.",,dnd library action description
+GMStdSeqGetHead_Name,"Get Sequence Head","Get Sequence Head",,dnd library action name
+GMStdSeqGetHead_Desc,"Gets the head position (in frames) of a sequence element.","Gets the head position (in frames) of a sequence element.",,dnd library action description
+GMStdSeqSetHead_Name,"Set Sequence Head","Set Sequence Head",,dnd library action name
+GMStdSeqSetHead_Desc,"Sets the head position (in frames) of a sequence element.","Sets the head position (in frames) of a sequence element.",,dnd library action description
+GMStdSeqGetLength_Story_1,"Get length of sequence instance ${sequenceelmid} into ${var}","Get length of sequence instance ${sequenceelmid} into ${var}",,dnd story text
+GMStdSeqGetLength_Story_2,"Get length of sequence instance ${sequenceelmid} into temp ${var}","Get length of sequence instance ${sequenceelmid} into temp ${var}",,dnd story text
+GMStdSeqSetHead_Story_1,"Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}","Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}",,dnd story text
+GMStdSeqGetHead_Story_1,"Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}","Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}",,dnd story text
+GMStdSeqGetHead_Story_2,"Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}","Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}",,dnd story text
 GMStdDestroyAtPos_Name,"Destroy At Position","Destroy At Position",,Drag and Drop™ library action name
 GMStdDestroyAtPos_Desc,"Destroy all instances at a position.","Destroy all instances at a position.",,Drag and Drop™ library action description
 GMStdSetSprite_Name,"Set Sprite","Set Sprite",,Drag and Drop™ library action name
@@ -4196,6 +4241,7 @@ GMStdRotation,"Rotation","Rotation",,Drag and Drop™ library argument label
 GMStdName,"Name","Name",,Drag and Drop™ library argument label
 GMStdVertically,"Vertical","Vertical",,Drag and Drop™ library argument label
 GMStdHorizontally,"Horizontal","Horizontal",,Drag and Drop™ library argument label
+GMStdSeqHead,"Head (frames)","Head (frames)",,dnd library argument label
 GMStdEqual,Equal,Equal,,DnD™
 GMStdLess,Less,Less,,DnD™
 GMStdGreater,Greater,Greater,,DnD™
@@ -4297,6 +4343,7 @@ GMStdFile,File,File,,DnD™
 GMStdBuffer,Buffer,Buffer,,DnD™
 GMStdSeek,Seek,Seek,,DnD™
 GMStdRelative,Relative,Relative,,DnD argument label
+GMStdAbsolute,Absolute,Absolute,,DnD argument label
 GMStdOffset,Offset,Offset,,DnD™
 GMStdVar_mirror,Mirror,Mirror,,Mirror DnD™
 GMStdVar_flip,Flip,Flip,,Flip DnD™
@@ -5120,6 +5167,7 @@ Preferences_windows_vs_path,Visual Studio location,Visual Studio location,,Prefe
 Preferences_winuwp_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/WinUWP
 Preferences_winuwp_tools_folder,Win UWP Tools location,Win UWP Tools location,,Preferences/Platform Settings/WinUWP
 Preferences_macos_default_team_id,Default team identifier,Default team identifier,,Preferences/Platform Settings/macOS
+Preference_macos_package_default_type,Automatic packaging choice,Automatic packaging choice,,Preferences/Platform Settings/macOS
 Preferences_ps4_sdk_dir,PS4 SDK location,PS4 SDK location,,Preferences/Platform Settings/PS4
 Preferences_ps4_tools_dir,PS4 Tools location,PS4 Tools location,,Preferences/Platform Settings/PS4
 Preferences_ps4_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/PS4
@@ -5141,7 +5189,6 @@ ResourceTree_TreeLineColour,Tree line colour,Tree line colour,,Choose colour for
 ResourceTree_DefaultBackgroundColour,Default background colour,Default background colour,,Default Background Colour
 ResourceTree_BackgroundColourHelp,"Ensure alpha level is increased to display node highlight","Ensure alpha level is increased to display node highlight",,Help label for the Resource Tree background colours
 ResourceTree_SpriteBackgroundColour,Sprites background colour,Sprites background colour,,Background Colour for Sprites
-ResourceTree_NineSlicesBackgroundColour,Nine Slices background colour,Nine Slices background colour,,Background Colour for Nine Slices
 ResourceTree_TileSetsBackgroundColour,Tile Sets background colour,Tile Sets background colour,,Background Colour for Tile Sets
 ResourceTree_SoundsBackgroundColour,Sounds background colour,Sounds background colour,,Background Colour for sounds
 ResourceTree_AudioEmittersBackgroundColour,Audio Emitters background colour,Audio Emitters background colour,,Background Colour for Audio Emitters
@@ -5184,7 +5231,6 @@ ResourceTree_ShowTreeLines,Show tree lines,Show tree lines,,Show Tree Lines in R
 ResourceTree_ShowGroupIcons,Show group node icons,Show group node icons,,Show the Group Node Icons in the Resource Tree
 ResourceTree_DefaultIconColour,Default icon colour,Default icon colour,,Default Icon Colour
 ResourceTree_SpriteIconColour,Sprites icon colour,Sprites icon colour,,Icon Colour for Sprites
-ResourceTree_NineSlicesIconColour,Nine Slices icon colour,Nine Slices icon colour,,Icon Colour for Nine Slices
 ResourceTree_TileSetsIconColour,Tile Sets icon colour,Tile Sets icon colour,,Icon Colour for Tile Sets
 ResourceTree_SoundsIconColour,Sounds icon colour,Sounds icon colour,,Icon Colour for sounds
 ResourceTree_AudioEmittersIconColour,Audio Emitters icon colour,Audio Emitters icon colour,,Icon Colour for Audio Emitters
@@ -5262,6 +5308,7 @@ General Settings,General Settings,General Settings,,General Settings preference 
 Drag and Drop,Drag and Drop,Drag and Drop,,Drag and Drop preference group heading
 Image Editor,Image Editor,Image Editor,,Image Editor preference group heading
 Sprite Editor,Sprite Editor,Sprite Editor,,Sprite Editor preference group heading
+Nineslice,Nine Slice,Nine Slice,,Sprite editor nineslice pref group subheading
 Object Editor,Object Editor,Object Editor,,Object Editor preference group heading
 Script Editor,Script Editor,Script Editor,,Script Editor preference group heading
 Room Editor,Room Editor,Room Editor,,Room Editor preference group heading
@@ -5625,6 +5672,7 @@ FileFilters_Certificate,GameMaker Studio 2 Certificate,GameMaker Studio 2 Certif
 FileFilters_HTMLArchive,HTML Zip Archive,HTML Zip Archive,,html archive filter
 FileFilters_CompressedApp,Compressed Application Zip,Compressed Application Zip,,compressed application filter
 FileFilters_MacCompressedApp,macOS Application Zip,macOS Application Zip,,mac application as a zip filter
+FileFilters_MacDmgApp,macOS DMG,macOS DMG,,mac application as a dmg file
 FileFilters_Package,{0} Package,{0} Package,,package filter
 FileFilters_Installer,{0} Installer,{0} Installer,,installer filter
 FileFilters_Application,{0} Application,{0} Application,,application filter
@@ -6234,7 +6282,7 @@ AssetBrowser_SortFilter,Filter/Sort,Filter/Sort,,Asset browser filter/sort toolt
 AssetBrowser_NoResults,No results found,No results found,,Asset browser no results
 AssetBrowser_SortAZ,A-Z,A-Z,,asset browser sort type label
 AssetBrowser_SortZA,Z-A,Z-A,,asset browser sort type label
-AssetBrowser_SortGroupFirst,Folders First,Folders First,,asset browser sort type label
+AssetBrowser_SortGroupFirst,Groups First,Groups First,,asset browser sort type label
 AssetBrowser_SortCustom,Custom Order,Custom Order,,asset browser custom sort order label
 AssetBrowser_QuickAccess,Quick Access,Quick Access,,quick access node title
 AssetBrowser_Recent,Recent,Recent,,quick access node recent title
@@ -6333,6 +6381,27 @@ AnimCurve_DefaultChannelName,curve{0},curve{0},,default channel name
 AnimCurve_EmbeddedCurveName,Embedded Curve,Embedded Curve,,anim curve embedded curve
 AnimCurve_ChannelValue_H,h,h,,h channel value
 AnimCurve_ChannelValue_V,v,v,,v channel value
+AnimCurveLib_Title,Animation Curve Library,Animation Curve Library,,anim curve library window title
+AnimCurveLib_Type,Type,Type,,type label
+AnimCurveLib_Presets,Presets,Presets,,presets label
+AnimCurveLib_TTOverwrite,Overwrite: Apply curve once across all selected sections,Overwrite: Apply curve once across all selected sections,,overwrite mode tooltip
+AnimCurveLib_TTBetween,Between: Apply curve repeatedly for each selected section,Between: Apply curve repeatedly for each selected section,,between mode tooltip
+AnimCurveLib_TTEaseOut,Ease Out,Ease Out,,ease out tooltip
+AnimCurveLib_TTEaseIn,Ease In,Ease In,,ease in tooltip
+AnimCurveLib_TTEaseInOut,Ease In-Out,Ease In-Out,,ease in-out tooltip
+AnimCurveLib_Reset,Reset,Reset,,reset curve label
+ACL_linear,Linear,Linear,,anim curve library curve name
+ACL_ease,Ease,Ease,,anim curve library curve name
+ACL_easeCubic,Cubic,Cubic,,anim curve library curve name
+ACL_easeQuart,Quart,Quart,,anim curve library curve name
+ACL_easeExpo,Expo,Expo,,anim curve library curve name
+ACL_easeCirc,Circ,Circ,,anim curve library curve name
+ACL_easeBack,Back,Back,,anim curve library curve name
+ACL_elastic,Elastic,Elastic,,anim curve library curve name
+ACL_bounce,Bounce,Bounce,,anim curve library curve name
+ACL_fastOutSlowIn,Fast To Slow,Fast To Slow,,anim curve library curve name
+ACL_slowMiddle,Mid Slow,Mid Slow,,anim curve library curve name
+ACL_ResetTip,Select "Reset" to revert curve to initial state.,Select "Reset" to revert curve to initial state.,,anim curve library reset tip
 assetbrowser_defaultfolders,Create default folders in new project,Create default folders in new project,,create default folders
 assetbrowser_maxrecentlyedited,Maximum recently edited items,Maximum recently edited items,,max recently edited count
 assetbrowser_palette_entry_count,Colour palette size,Colour palette size,,colour palette entry count
@@ -6555,3 +6624,8 @@ Error_ImportProjectTitle,Error Saving Import Project,Error Saving Import Project
 Error_ImportProjectMessage,Could not save imported project at specified path. You may not have permission to save here.,Could not save imported project at specified path. You may not have permission to save here.,,Error Saving Import Project message
 Track Panel,Track Panel,Track Panel,,Track Panel label in Sequence Editor
 at:,at:,at:,,Label for Moment Editor to show which frame this moment triggers at
+Warning_ImportProject_Title,Warning,Warning,,Warning
+Warning_ImportProject_Message,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,,Warning Importing Project message
+Warning_AppIconAlpha_Title,Warning,Warning,,Warning
+Warning_AppIconAlpha_Message,The image selected has transparency. Please select a different image.,The image selected has transparency. Please select a different image.,,App icon image transparency warning message
+Error_CannotPackage_Message,The executable cannot be created as it's still currently running.,The executable cannot be created as it's still currently running.,,Application running error message.
