@@ -328,16 +328,16 @@
       <tuv lang="en-US">
         <seg>"Add ${position} to timeline position on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132452Z" creationid="liaronce" creationdate="20210304T132452Z">
-        <seg>“将${position}添加到${applyto}上的时间线位置”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132452Z">
+        <seg>“将${position}添加到${applyto}上的时间轴位置”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Add ${position} to timeline position"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132451Z" creationid="liaronce" creationdate="20210304T132451Z">
-        <seg>“将${position}添加到时间线位置”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132451Z">
+        <seg>“将${position}添加到时间轴位置”</seg>
       </tuv>
     </tu>
     <tu>
@@ -424,16 +424,16 @@
       <tuv lang="en-US">
         <seg>"Add ${speed} to timeline speed on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132455Z" creationid="liaronce" creationdate="20210304T132455Z">
-        <seg>“将${SPEED}添加到${applyto}上的时间线速度”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132455Z">
+        <seg>“将${SPEED}添加到${applyto}上的时间轴速度”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Add ${speed} to timeline speed"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132454Z" creationid="liaronce" creationdate="20210304T132454Z">
-        <seg>“将${SPEED}添加到时间线速度”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132454Z">
+        <seg>“将${SPEED}添加到时间轴速度”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1296,7 +1296,7 @@
       <tuv lang="en-US">
         <seg>"Check if an instance's health satisfies a condition."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120719Z" creationid="liaronce" creationdate="20210228T120719Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011635Z" creationid="liaronce" creationdate="20210228T120719Z">
         <seg>“检查实例的健康值是否满足条件。”</seg>
       </tuv>
     </tu>
@@ -1304,8 +1304,8 @@
       <tuv lang="en-US">
         <seg>"Check if an instance's lives satisfies a condition."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120659Z" creationid="liaronce" creationdate="20210228T120659Z">
-        <seg>“检查实例的生命数是否满足条件。”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011810Z" creationid="liaronce" creationdate="20210228T120659Z">
+        <seg>“检查实例的生命值是否满足条件。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1624,8 +1624,8 @@
       <tuv lang="en-US">
         <seg>"Constructor"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132752Z" creationid="liaronce" creationdate="20210228T133645Z">
-        <seg>“建造者”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011919Z" creationid="liaronce" creationdate="20210228T133645Z">
+        <seg>“构造函数”</seg>
       </tuv>
     </tu>
     <tu>
@@ -2744,24 +2744,24 @@
       <tuv lang="en-US">
         <seg>"Draw ${applyto}'s healthbar from ${dnd_position1} to ${dnd_position2} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131754Z" creationid="liaronce" creationdate="20210304T131754Z">
-        <seg>“在${applyto}上将${applyto}的健康条从${DND_Position 1}绘制到${DND_Position 2}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011624Z" creationid="liaronce" creationdate="20210304T131754Z">
+        <seg>“在${applyto}上将${applyto}的健康值条从${DND_Position 1}绘制到${DND_Position 2}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Draw ${applyto}'s lives in a column at ${dnd_position} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131758Z" creationid="liaronce" creationdate="20210304T131758Z">
-        <seg>“在${applyto}上${DND_Position}处的列中绘制${applyto}的生命周期”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011803Z" creationid="liaronce" creationdate="20210304T131758Z">
+        <seg>“在${applyto}上${DND_Position}处的列中绘制${applyto}的生命值周期”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Draw ${applyto}'s lives in a row at ${dnd_position} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131757Z" creationid="liaronce" creationdate="20210304T131757Z">
-        <seg>“在${applyto}上的${DND_Position}处连续绘制${applyto}的生命”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011803Z" creationid="liaronce" creationdate="20210304T131757Z">
+        <seg>“在${applyto}上的${DND_Position}处连续绘制${applyto}的生命值”</seg>
       </tuv>
     </tu>
     <tu>
@@ -2808,15 +2808,15 @@
       <tuv lang="en-US">
         <seg>"Draw Healthbar"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122941Z" creationid="liaronce" creationdate="20210228T122941Z">
-        <seg>“绘制健康条”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011624Z" creationid="liaronce" creationdate="20210228T122941Z">
+        <seg>“绘制健康值条”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Draw Instance Health"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123014Z" creationid="liaronce" creationdate="20210228T123014Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011635Z" creationid="liaronce" creationdate="20210228T123014Z">
         <seg>"绘制实例健康值"</seg>
       </tuv>
     </tu>
@@ -2824,8 +2824,8 @@
       <tuv lang="en-US">
         <seg>"Draw Instance Lives"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123026Z" creationid="liaronce" creationdate="20210228T123026Z">
-        <seg>"绘制实例生命数"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011810Z" creationid="liaronce" creationdate="20210228T123026Z">
+        <seg>"绘制实例生命值"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2920,8 +2920,8 @@
       <tuv lang="en-US">
         <seg>"Draw a healthbar from a 0-100 value."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122959Z" creationid="liaronce" creationdate="20210228T122959Z">
-        <seg>"绘制值在 0-100 之间的健康条。"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011624Z" creationid="liaronce" creationdate="20210228T122959Z">
+        <seg>"绘制值在 0-100 之间的健康值条。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2984,16 +2984,16 @@
       <tuv lang="en-US">
         <seg>"Draw an instance's health with a healthbar."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123020Z" creationid="liaronce" creationdate="20210228T123020Z">
-        <seg>"使用健康条绘制一个实例的健康值变量。"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011635Z" creationid="liaronce" creationdate="20210228T123020Z">
+        <seg>"使用健康值条绘制一个实例的健康值变量。"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Draw an instance's lives with stacked sprites."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T123032Z" creationid="liaronce" creationdate="20210228T123032Z">
-        <seg>"以堆叠精灵的方式绘制实例的生命数。"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011810Z" creationid="liaronce" creationdate="20210228T123032Z">
+        <seg>"以堆叠精灵的方式绘制实例的生命值。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -3088,24 +3088,24 @@
       <tuv lang="en-US">
         <seg>"Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131749Z" creationid="liaronce" creationdate="20210304T131749Z">
-        <seg>“在${applyto}上用值${value}从${DND_Position1}到${DND_Position2}绘制健康条”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011624Z" creationid="liaronce" creationdate="20210304T131749Z">
+        <seg>“在${applyto}上用值${value}从${DND_Position1}到${DND_Position2}绘制健康值条”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Draw healthbar from ${dnd_position1} to ${dnd_position2} with value ${value}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131748Z" creationid="liaronce" creationdate="20210304T131748Z">
-        <seg>“使用值${value}从${DND_Position1}到${DND_Position2}绘制健康条”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011624Z" creationid="liaronce" creationdate="20210304T131748Z">
+        <seg>“使用值${value}从${DND_Position1}到${DND_Position2}绘制健康值条”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Draw healthbar from ${dnd_position1} to ${dnd_position2}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T133033Z" creationid="liaronce" creationdate="20210304T133033Z">
-        <seg>“从${DND_Position1}到${DND_Position2}绘制健康条”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011624Z" creationid="liaronce" creationdate="20210304T133033Z">
+        <seg>“从${DND_Position1}到${DND_Position2}绘制健康值条”</seg>
       </tuv>
     </tu>
     <tu>
@@ -3128,16 +3128,16 @@
       <tuv lang="en-US">
         <seg>"Draw lives in a column at ${dnd_position}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131756Z" creationid="liaronce" creationdate="20210304T131756Z">
-        <seg>“在${DND_POSITION}的列中绘制生命”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011803Z" creationid="liaronce" creationdate="20210304T131756Z">
+        <seg>“在${DND_POSITION}的列中绘制生命值”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Draw lives in a row at ${dnd_position}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131755Z" creationid="liaronce" creationdate="20210304T131755Z">
-        <seg>“在${DND_POSITION}画一排生命”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011803Z" creationid="liaronce" creationdate="20210304T131755Z">
+        <seg>“在${DND_POSITION}画一排生命值”</seg>
       </tuv>
     </tu>
     <tu>
@@ -3184,8 +3184,8 @@
       <tuv lang="en-US">
         <seg>"Draw self"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131712Z" creationid="liaronce" creationdate="20210304T131712Z">
-        <seg>“画自己”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T010958Z" creationid="liaronce" creationdate="20210304T131712Z">
+        <seg>"绘制自身"</seg>
       </tuv>
     </tu>
     <tu>
@@ -3320,16 +3320,16 @@
       <tuv lang="en-US">
         <seg>"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131731Z" creationid="liaronce" creationdate="20210304T131731Z">
-        <seg>在${applyto}上绘制具有比例${xScale}、${yscale}和旋转${rott}的变换精灵${spite}帧${frame}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011014Z" creationid="liaronce" creationdate="20210304T131731Z">
+        <seg>"在${applyto}上绘制具有比例${xScale}、${yscale}和旋转${rott}的变换精灵${spite}帧${frame}"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Draw transformed sprite ${sprite} frame ${frame} with scale ${xscale},${yscale} and rotation ${rot}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131730Z" creationid="liaronce" creationdate="20210304T131730Z">
-        <seg>使用比例${xScale}、${yscale}和旋转${rott}绘制变换后的精灵${spite}帧${frame}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011010Z" creationid="liaronce" creationdate="20210304T131730Z">
+        <seg>"使用比例${xScale}、${yscale}和旋转${rott}绘制变换后的精灵${spite}帧${frame}"</seg>
       </tuv>
     </tu>
     <tu>
@@ -4464,8 +4464,8 @@
       <tuv lang="en-US">
         <seg>"Get Lives"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124912Z" creationid="liaronce" creationdate="20210228T124912Z">
-        <seg>"获取生命数"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011810Z" creationid="liaronce" creationdate="20210228T124912Z">
+        <seg>"获取生命值"</seg>
       </tuv>
     </tu>
     <tu>
@@ -4904,32 +4904,32 @@
       <tuv lang="en-US">
         <seg>"Get health into ${var} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132529Z" creationid="liaronce" creationdate="20210304T132529Z">
-        <seg>“使${applyto}上的${var}保持健康”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011624Z" creationid="liaronce" creationdate="20210304T132529Z">
+        <seg>“使${applyto}上的${var}保持健康值”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get health into ${var}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132528Z" creationid="liaronce" creationdate="20210304T132528Z">
-        <seg>“让健康进入${var}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011624Z" creationid="liaronce" creationdate="20210304T132528Z">
+        <seg>“让健康值进入${var}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get health into temp ${var} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T133059Z" creationid="liaronce" creationdate="20210304T133059Z">
-        <seg>“使${applyto}上的临时${var}保持健康”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011624Z" creationid="liaronce" creationdate="20210304T133059Z">
+        <seg>“使${applyto}上的临时${var}保持健康值”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get health into temp ${var}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132530Z" creationid="liaronce" creationdate="20210304T132530Z">
-        <seg>“让临时值${var}保持健康”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011624Z" creationid="liaronce" creationdate="20210304T132530Z">
+        <seg>“让临时值${var}保持健康值”</seg>
       </tuv>
     </tu>
     <tu>
@@ -5112,32 +5112,32 @@
       <tuv lang="en-US">
         <seg>"Get lives into ${var} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132522Z" creationid="liaronce" creationdate="20210304T132522Z">
-        <seg>“将生命置于${applyto}上的${var}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011803Z" creationid="liaronce" creationdate="20210304T132522Z">
+        <seg>“将生命值置于${applyto}上的${var}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get lives into ${var}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132521Z" creationid="liaronce" creationdate="20210304T132521Z">
-        <seg>“让生活进入${var}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011810Z" creationid="liaronce" creationdate="20210304T132521Z">
+        <seg>“让生命值进入${var}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get lives into temp ${var} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132524Z" creationid="liaronce" creationdate="20210304T132524Z">
-        <seg>“将生命置于${applyto}上的临时${var}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011803Z" creationid="liaronce" creationdate="20210304T132524Z">
+        <seg>“将生命值置于${applyto}上的临时${var}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get lives into temp ${var}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132523Z" creationid="liaronce" creationdate="20210304T132523Z">
-        <seg>“让生命进入临时${var}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011803Z" creationid="liaronce" creationdate="20210304T132523Z">
+        <seg>“让生命值进入临时${var}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -5504,7 +5504,7 @@
       <tuv lang="en-US">
         <seg>"Get the health of the instance."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124939Z" creationid="liaronce" creationdate="20210228T124939Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011635Z" creationid="liaronce" creationdate="20210228T124939Z">
         <seg>"获取实例中的健康值"</seg>
       </tuv>
     </tu>
@@ -5536,8 +5536,8 @@
       <tuv lang="en-US">
         <seg>"Get the life count of the instance."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124918Z" creationid="liaronce" creationdate="20210228T124918Z">
-        <seg>"获取实例中的生命数。"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011810Z" creationid="liaronce" creationdate="20210228T124918Z">
+        <seg>"获取实例中的生命值。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -5688,32 +5688,32 @@
       <tuv lang="en-US">
         <seg>"Get tile data in cell ${x},${y} on layer ${layername} into ${var} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131910Z" creationid="liaronce" creationdate="20210304T131910Z">
-        <seg>将图层${layername}上的像元${x}、${y}中的切片数据获取到${applyto}上的${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011046Z" creationid="liaronce" creationdate="20210304T131910Z">
+        <seg>"将图层${layername}上的像元${x}、${y}中的切片数据获取到${applyto}上的${var}"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get tile data in cell ${x},${y} on layer ${layername} into ${var}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131909Z" creationid="liaronce" creationdate="20210304T131909Z">
-        <seg>将图层${layername}上的像元${x}、${y}中的切片数据获取到${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011044Z" creationid="liaronce" creationdate="20210304T131909Z">
+        <seg>"将图层${layername}上的像元${x}、${y}中的切片数据获取到${var}"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get tile data in cell ${x},${y} on layer ${layername} into temp ${var} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131912Z" creationid="liaronce" creationdate="20210304T131912Z">
-        <seg>将图层${layername}上的像元${x}、${y}中的切片数据获取到${applyto}上的临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011052Z" creationid="liaronce" creationdate="20210304T131912Z">
+        <seg>"将图层${layername}上的像元${x}、${y}中的切片数据获取到${applyto}上的临时${var}"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get tile data in cell ${x},${y} on layer ${layername} into temp ${var}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T133040Z" creationid="liaronce" creationdate="20210304T133040Z">
-        <seg>将图层${layername}上的像元${x}、${y}中的切片数据获取到临时${var}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011049Z" creationid="liaronce" creationdate="20210304T133040Z">
+        <seg>"将图层${layername}上的像元${x}、${y}中的切片数据获取到临时${var}"</seg>
       </tuv>
     </tu>
     <tu>
@@ -6104,32 +6104,32 @@
       <tuv lang="en-US">
         <seg>"Get value in grid ${var} at ${x},${y} into ${assignee} on ${applyto}${show_input_count}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132138Z" creationid="liaronce" creationdate="20210304T132138Z">
-        <seg>将位于${x}、${y}的网格${var}中的值获取到${applyto}${show_input_count}上的${assignee}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011319Z" creationid="liaronce" creationdate="20210304T132138Z">
+        <seg>"将位于${x}、${y}的网格${var}中的值获取到${applyto}${show_input_count}上的${assignee}"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get value in grid ${var} at ${x},${y} into ${assignee}${show_input_count}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132137Z" creationid="liaronce" creationdate="20210304T132137Z">
-        <seg>将网格${var}中${x}、${y}处的值获取到${assignee}${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011316Z" creationid="liaronce" creationdate="20210304T132137Z">
+        <seg>"将网格${var}中${x}、${y}处的值获取到${assignee}${show_input_count}"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get value in grid ${var} at ${x},${y} into temp ${assignee} on ${applyto}${show_input_count}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132140Z" creationid="liaronce" creationdate="20210304T132140Z">
-        <seg>将网格${var}中${x}、${y}处的值获取到${applyto}${show_input_count}上的临时${assignee}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011325Z" creationid="liaronce" creationdate="20210304T132140Z">
+        <seg>"将网格${var}中${x}、${y}处的值获取到${applyto}${show_input_count}上的临时${assignee}"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get value in grid ${var} at ${x},${y} into temp ${assignee}${show_input_count}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T133046Z" creationid="liaronce" creationdate="20210304T133046Z">
-        <seg>将网格${var}中${x}、${y}处的值获取到临时${assignee}${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011322Z" creationid="liaronce" creationdate="20210304T133046Z">
+        <seg>"将网格${var}中${x}、${y}处的值获取到临时${assignee}${show_input_count}"</seg>
       </tuv>
     </tu>
     <tu>
@@ -6536,16 +6536,16 @@
       <tuv lang="en-US">
         <seg>"Go to next room"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132417Z" creationid="liaronce" creationdate="20210304T132417Z">
-        <seg>“去隔壁房间”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011402Z" creationid="liaronce" creationdate="20210304T132417Z">
+        <seg>"前往下一个房间"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Go to previous room"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132418Z" creationid="liaronce" creationdate="20210304T132418Z">
-        <seg>“转到前一个房间”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011406Z" creationid="liaronce" creationdate="20210304T132418Z">
+        <seg>"前往上一个房间"</seg>
       </tuv>
     </tu>
     <tu>
@@ -6600,7 +6600,7 @@
       <tuv lang="en-US">
         <seg>"Health"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133057Z" creationid="liaronce" creationdate="20210228T133057Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011635Z" creationid="liaronce" creationdate="20210228T133057Z">
         <seg>"健康值"</seg>
       </tuv>
     </tu>
@@ -7576,7 +7576,7 @@
       <tuv lang="en-US">
         <seg>"If Health"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120710Z" creationid="liaronce" creationdate="20210228T120710Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011635Z" creationid="liaronce" creationdate="20210228T120710Z">
         <seg>“如果健康值”</seg>
       </tuv>
     </tu>
@@ -7608,8 +7608,8 @@
       <tuv lang="en-US">
         <seg>"If Lives"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120652Z" creationid="liaronce" creationdate="20210228T120652Z">
-        <seg>"如果生命数"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011810Z" creationid="liaronce" creationdate="20210228T120652Z">
+        <seg>"如果生命值"</seg>
       </tuv>
     </tu>
     <tu>
@@ -9568,8 +9568,8 @@
       <tuv lang="en-US">
         <seg>"Lives"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133054Z" creationid="liaronce" creationdate="20210228T133054Z">
-        <seg>"生命数"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011810Z" creationid="liaronce" creationdate="20210228T133054Z">
+        <seg>"生命值"</seg>
       </tuv>
     </tu>
     <tu>
@@ -9696,8 +9696,8 @@
       <tuv lang="en-US">
         <seg>"Max Life"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133315Z" creationid="liaronce" creationdate="20210228T133315Z">
-        <seg>"最大生命周期"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011803Z" creationid="liaronce" creationdate="20210228T133315Z">
+        <seg>"最大生命值周期"</seg>
       </tuv>
     </tu>
     <tu>
@@ -9768,8 +9768,8 @@
       <tuv lang="en-US">
         <seg>"Min Life"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133311Z" creationid="liaronce" creationdate="20210228T133311Z">
-        <seg>"最小生命周期"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011803Z" creationid="liaronce" creationdate="20210228T133311Z">
+        <seg>"最小生命值周期"</seg>
       </tuv>
     </tu>
     <tu>
@@ -10152,16 +10152,16 @@
       <tuv lang="en-US">
         <seg>"Pause timeline on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T133057Z" creationid="liaronce" creationdate="20210304T133057Z">
-        <seg>“在${applyto}上暂停时间线”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T133057Z">
+        <seg>“在${applyto}上暂停时间轴”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Pause timeline"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132501Z" creationid="liaronce" creationdate="20210304T132501Z">
-        <seg>“暂停时间线”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132501Z">
+        <seg>“暂停时间轴”</seg>
       </tuv>
     </tu>
     <tu>
@@ -10848,16 +10848,16 @@
       <tuv lang="en-US">
         <seg>"Resume timeline on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132501Z" creationid="liaronce" creationdate="20210304T132501Z">
-        <seg>“恢复${applyto}的时间表”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011520Z" creationid="liaronce" creationdate="20210304T132501Z">
+        <seg>“恢复${applyto}的时间轴”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Resume timeline"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132500Z" creationid="liaronce" creationdate="20210304T132500Z">
-        <seg>“恢复时间表”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011520Z" creationid="liaronce" creationdate="20210304T132500Z">
+        <seg>“恢复时间轴”</seg>
       </tuv>
     </tu>
     <tu>
@@ -11472,16 +11472,16 @@
       <tuv lang="en-US">
         <seg>"Set ${value} in grid ${var} at ${x},${y} on ${applyto}${show_input_count}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132136Z" creationid="liaronce" creationdate="20210304T132136Z">
-        <seg>将网格${var}中的${value}设置为${x}，将${y}设置为${applyto}${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011313Z" creationid="liaronce" creationdate="20210304T132136Z">
+        <seg>"将网格${var}中的${value}设置为${x}，将${y}设置为${applyto}${show_input_count}"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set ${value} in grid ${var} at ${x},${y}${show_input_count}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132136Z" creationid="liaronce" creationdate="20210304T132136Z">
-        <seg>将网格${var}中的${value}设置为${x}，${y}${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011311Z" creationid="liaronce" creationdate="20210304T132136Z">
+        <seg>"将网格${var}中的${value}设置为${x}，${y}${show_input_count}"</seg>
       </tuv>
     </tu>
     <tu>
@@ -11760,8 +11760,8 @@
       <tuv lang="en-US">
         <seg>"Set Lives"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124629Z" creationid="liaronce" creationdate="20210228T124629Z">
-        <seg>"设置生命数"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011810Z" creationid="liaronce" creationdate="20210228T124629Z">
+        <seg>"设置生命值"</seg>
       </tuv>
     </tu>
     <tu>
@@ -11800,8 +11800,8 @@
       <tuv lang="en-US">
         <seg>"Set Particle Life"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132055Z" creationid="liaronce" creationdate="20210228T132055Z">
-        <seg>"设置粒子生命周期。"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011803Z" creationid="liaronce" creationdate="20210228T132055Z">
+        <seg>"设置粒子生命值周期。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -12000,16 +12000,16 @@
       <tuv lang="en-US">
         <seg>"Set a new grid with size ${width},${height} to ${var} on ${applyto}${show_input_count}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132052Z" creationid="liaronce" creationdate="20210304T132052Z">
-        <seg>在${applyto}${show_input_count}上设置大小为${width}、${high}至${var}的新网格</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011954Z" creationid="liaronce" creationdate="20210304T132052Z">
+        <seg>“在${applyto}${show_input_count}上设置大小为${width}、${high}至${var}的新网格”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set a new grid with size ${width},${height} to ${var}${show_input_count}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132051Z" creationid="liaronce" creationdate="20210304T132051Z">
-        <seg>将大小为${width}、${high}至${var}的新网格设置为${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011952Z" creationid="liaronce" creationdate="20210304T132051Z">
+        <seg>“将大小为${width}、${high}至${var}的新网格设置为${show_input_count}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -12024,8 +12024,8 @@
       <tuv lang="en-US">
         <seg>"Set a new grid with size ${width},${height} to temp ${var}${show_input_count}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132053Z" creationid="liaronce" creationdate="20210304T132053Z">
-        <seg>将大小为${width}、${Height}的新网格设置为临时${var}${show_input_count}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011955Z" creationid="liaronce" creationdate="20210304T132053Z">
+        <seg>“将大小为${width}、${Height}的新网格设置为临时${var}${show_input_count}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -12176,32 +12176,32 @@
       <tuv lang="en-US">
         <seg>"Set alpha channel of particle type ${type} to start ${start}, end ${end} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132701Z" creationid="liaronce" creationdate="20210304T132701Z">
-        <seg>将粒子类型${type}的Alpha通道设置为在${applyto}上开始${start}，结束${end}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T012041Z" creationid="liaronce" creationdate="20210304T132701Z">
+        <seg>“将粒子类型${type}的Alpha通道设置为在${applyto}上开始${start}，结束${end}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set alpha channel of particle type ${type} to start ${start}, end ${end}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132701Z" creationid="liaronce" creationdate="20210304T132701Z">
-        <seg>将粒子类型${type}的Alpha通道设置为开始${start}，结束${end}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T012038Z" creationid="liaronce" creationdate="20210304T132701Z">
+        <seg>“将粒子类型${type}的Alpha通道设置为开始${start}，结束${end}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set alpha channel of particle type ${type} to start ${start}, mid ${middle}, end ${end} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132703Z" creationid="liaronce" creationdate="20210304T132703Z">
-        <seg>将粒子类型${type}的Alpha通道设置为在${applyto}上开始${start}、中期${mediate}、结束${end}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T012045Z" creationid="liaronce" creationdate="20210304T132703Z">
+        <seg>“将粒子类型${type}的Alpha通道设置为在${applyto}上开始${start}、中期${mediate}、结束${end}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set alpha channel of particle type ${type} to start ${start}, mid ${middle}, end ${end}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132702Z" creationid="liaronce" creationdate="20210304T132702Z">
-        <seg>将粒子类型${type}的Alpha通道设置为开始${start}、中间${mediate}、结束${end}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T012042Z" creationid="liaronce" creationdate="20210304T132702Z">
+        <seg>“将粒子类型${type}的Alpha通道设置为开始${start}、中间${mediate}、结束${end}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -12272,16 +12272,16 @@
       <tuv lang="en-US">
         <seg>"Set colour of particle type ${type} to start ${startcol}, mid ${midcol}, end ${endcol} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132700Z" creationid="liaronce" creationdate="20210304T132700Z">
-        <seg>在${applyto}上将粒子类型${type}的颜色设置为开始${startol}、中间${midol}、结束${endol}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T012037Z" creationid="liaronce" creationdate="20210304T132700Z">
+        <seg>“在${applyto}上将粒子类型${type}的颜色设置为开始${startol}、中间${midol}、结束${endol}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set colour of particle type ${type} to start ${startcol}, mid ${midcol}, end ${endcol}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132659Z" creationid="liaronce" creationdate="20210304T132659Z">
-        <seg>将粒子类型${type}的颜色设置为开始${startol}、中间${midol}、结束${endol}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T012034Z" creationid="liaronce" creationdate="20210304T132659Z">
+        <seg>“将粒子类型${type}的颜色设置为开始${startol}、中间${midol}、结束${endol}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -12552,7 +12552,7 @@
       <tuv lang="en-US">
         <seg>"Set life of particle type ${typ} from min ${minlife} to max ${maxlife}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132704Z" creationid="liaronce" creationdate="20210304T132704Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T012118Z" creationid="liaronce" creationdate="20210304T132704Z">
         <seg>“将粒子类型${typ}的寿命设置为从最小${minlife}到最大${maxlife}”</seg>
       </tuv>
     </tu>
@@ -13016,7 +13016,7 @@
       <tuv lang="en-US">
         <seg>"Set the health variable of the instance."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124930Z" creationid="liaronce" creationdate="20210228T124930Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011635Z" creationid="liaronce" creationdate="20210228T124930Z">
         <seg>"设置实例中的健康值变量。"</seg>
       </tuv>
     </tu>
@@ -13040,16 +13040,16 @@
       <tuv lang="en-US">
         <seg>"Set the life count of the instance."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124907Z" creationid="liaronce" creationdate="20210228T124635Z">
-        <seg>"设置实例中的生命数。"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011810Z" creationid="liaronce" creationdate="20210228T124635Z">
+        <seg>"设置实例中的生命值。"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set the life of a particle type."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132224Z" creationid="liaronce" creationdate="20210228T132224Z">
-        <seg>"设置一个粒子类型的生命周期。"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011803Z" creationid="liaronce" creationdate="20210228T132224Z">
+        <seg>"设置一个粒子类型的生命值周期。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -13240,16 +13240,16 @@
       <tuv lang="en-US">
         <seg>"Set tile data in cell ${x},${y} on layer ${layername} to ${element} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131909Z" creationid="liaronce" creationdate="20210304T131909Z">
-        <seg>将图层${layername}上的像元${x}、${y}中的切片数据设置为${applyto}上的${element}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011042Z" creationid="liaronce" creationdate="20210304T131909Z">
+        <seg>"将图层${layername}上的像元${x}、${y}中的切片数据设置为${applyto}上的${element}"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set tile data in cell ${x},${y} on layer ${layername} to ${element}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T133039Z" creationid="liaronce" creationdate="20210304T133039Z">
-        <seg>将图层${layername}上的像元${x}、${y}中的切片数据设置为${element}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011038Z" creationid="liaronce" creationdate="20210304T133039Z">
+        <seg>"将图层${layername}上的像元${x}、${y}中的切片数据设置为${element}"</seg>
       </tuv>
     </tu>
     <tu>
@@ -13304,64 +13304,64 @@
       <tuv lang="en-US">
         <seg>"Set timeline ${timeline} and loop it on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132448Z" creationid="liaronce" creationdate="20210304T132448Z">
-        <seg>“设置时间线${timeline}并在${applyto}上循环”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132448Z">
+        <seg>“设置时间轴${timeline}并在${applyto}上循环”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set timeline ${timeline} and loop it"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132447Z" creationid="liaronce" creationdate="20210304T132447Z">
-        <seg>“设置时间线${timeline}并循环”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132447Z">
+        <seg>“设置时间轴${timeline}并循环”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set timeline ${timeline} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132450Z" creationid="liaronce" creationdate="20210304T132450Z">
-        <seg>“在${applyto}上设置时间线${timeline}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132450Z">
+        <seg>“在${applyto}上设置时间轴${timeline}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set timeline ${timeline}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132449Z" creationid="liaronce" creationdate="20210304T132449Z">
-        <seg>“设置时间线${timeline}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132449Z">
+        <seg>“设置时间轴${timeline}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set timeline position to ${position} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132454Z" creationid="liaronce" creationdate="20210304T132454Z">
-        <seg>“在${applyto}上将时间线位置设置为${position}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132454Z">
+        <seg>“在${applyto}上将时间轴位置设置为${position}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set timeline position to ${position}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132453Z" creationid="liaronce" creationdate="20210304T132453Z">
-        <seg>“将时间线位置设置为${position}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132453Z">
+        <seg>“将时间轴位置设置为${position}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set timeline speed to ${speed} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132457Z" creationid="liaronce" creationdate="20210304T132457Z">
-        <seg>“在${applyto}上将时间线速度设置为${SPEED}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132457Z">
+        <seg>“在${applyto}上将时间轴速度设置为${SPEED}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set timeline speed to ${speed}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132456Z" creationid="liaronce" creationdate="20210304T132456Z">
-        <seg>“将时间线速度设置为${SPEED}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132456Z">
+        <seg>“将时间轴速度设置为${SPEED}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -13848,48 +13848,48 @@
       <tuv lang="en-US">
         <seg>"Start timeline ${timeline} and loop it on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132445Z" creationid="liaronce" creationdate="20210304T132445Z">
-        <seg>“启动时间线${timeline}并在${applyto}上循环”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132445Z">
+        <seg>“启动时间轴${timeline}并在${applyto}上循环”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Start timeline ${timeline} and loop it"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132444Z" creationid="liaronce" creationdate="20210304T132444Z">
-        <seg>“启动时间线${timeline}并循环”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132444Z">
+        <seg>“启动时间轴${timeline}并循环”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Start timeline ${timeline} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132447Z" creationid="liaronce" creationdate="20210304T132447Z">
-        <seg>“在${applyto}上开始时间线${timeline}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132447Z">
+        <seg>“在${applyto}上开始时间轴${timeline}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Start timeline ${timeline}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132446Z" creationid="liaronce" creationdate="20210304T132446Z">
-        <seg>“开始时间线${timeline}”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132446Z">
+        <seg>“开始时间轴${timeline}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Start timeline on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132459Z" creationid="liaronce" creationdate="20210304T132459Z">
-        <seg>“在${applyto}上开始时间线”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132459Z">
+        <seg>“在${applyto}上开始时间轴”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Start timeline"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132458Z" creationid="liaronce" creationdate="20210304T132458Z">
-        <seg>“开始时间线”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132458Z">
+        <seg>“开始时间轴”</seg>
       </tuv>
     </tu>
     <tu>
@@ -13912,8 +13912,8 @@
       <tuv lang="en-US">
         <seg>"Static"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132753Z" creationid="liaronce" creationdate="20210228T133650Z">
-        <seg>“静电”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011911Z" creationid="liaronce" creationdate="20210228T133650Z">
+        <seg>“静态”</seg>
       </tuv>
     </tu>
     <tu>
@@ -14000,8 +14000,8 @@
       <tuv lang="en-US">
         <seg>"Stop following a path"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132428Z" creationid="liaronce" creationdate="20210304T132428Z">
-        <seg>“停止走一条小路”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011424Z" creationid="liaronce" creationdate="20210304T132428Z">
+        <seg>”停止跟随路径“</seg>
       </tuv>
     </tu>
     <tu>
@@ -14032,16 +14032,16 @@
       <tuv lang="en-US">
         <seg>"Stop timeline on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132504Z" creationid="liaronce" creationdate="20210304T132504Z">
-        <seg>“${applyto}上的停止时间线”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132504Z">
+        <seg>“${applyto}上的停止时间轴”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Stop timeline"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132503Z" creationid="liaronce" creationdate="20210304T132503Z">
-        <seg>“停止时间线”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011508Z" creationid="liaronce" creationdate="20210304T132503Z">
+        <seg>“停止时间轴”</seg>
       </tuv>
     </tu>
     <tu>
@@ -37909,7 +37909,7 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Health</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T083423Z" creationid="deciia" creationdate="20170215T151948Z">
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011635Z" creationid="deciia" creationdate="20170215T151948Z">
         <seg>健康值</seg>
       </tuv>
     </tu>
@@ -44368,8 +44368,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Lives</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170215T151941Z" creationid="deciia" creationdate="20170215T151941Z">
-        <seg>生命数</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011810Z" creationid="deciia" creationdate="20170215T151941Z">
+        <seg>生命值</seg>
       </tuv>
     </tu>
     <tu>
