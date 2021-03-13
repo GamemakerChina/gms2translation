@@ -8,6 +8,7 @@ _LanguageCode,en,en,,standard windows os language code this pack represents (can
 _GameMaker2016,GameMaker Studio 2,GameMaker Studio 2,,IDE title
 _MANUAL_LOCATION,"http://zeus.yoyogames.com/GMS2_English-master.zip","http://zeus.yoyogames.com/GMS2_English-master.zip",,Location of language manual
 _MANUAL_ONLINE_URL,"https://manual-en.yoyogames.com","https://manual-en.yoyogames.com",,online manual url
+_TUTORIALS_ONLINE_URL,"https://www.yoyogames.com/en/tutorials","https://www.yoyogames.com/en/tutorials",,Location of Tutorials url
 $win_OpenInExplorer,Open In Explorer,Open In Explorer,,Windows version of Open In Explorer
 $win_OpenProjectInExplorer,Open Project In Explorer,Open Project In Explorer,,Windows version of Open Project In Explorer
 $win_ShowLogFileInExplorer,Open Log In Explorer,Open Log In Explorer,,Windows version of Show Log In Explorer
@@ -6579,6 +6580,7 @@ CoreResources_MissingResourceTitle,Project has missing Resources,Project has mis
 CoreResources_MissingResourceMessage,This project has {0} missing Resource(s). Please check the Output log for more information.,This project has {0} missing Resource(s). Please check the Output log for more information.,,Project has missing x-amount of resources so check the log
 CoreResources_MissingResourceLog,{0} is missing and has {1} reference(s).,{0} is missing and has {1} reference(s).,,Message to display in Output log due to missing resource
 CoreResources_LostResource,{0} was lost and moved to root of project.,{0} was lost and moved to root of project.,,Message to display when a resource has lost its parent
+CoreResources_LostIdReference,{0} has a missing IdReference at {1}.,{0} has a missing IdReference at {1}.,,Message to display when a resource has a lost IdReference and the breadcrumb trail to it
 Sequences_Events,Sequence Events,Sequence Events,,Events Window Caption
 Event_Async_Event,Async Event,Async Event,,Async Event
 Event_Broadcast_Message,Broadcast Message,Broadcast Message,,Broadcast Message
