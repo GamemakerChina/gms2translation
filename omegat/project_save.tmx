@@ -71064,6 +71064,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
 <!-- Alternative translations -->
     <tu>
       <prop type="file">english.csv</prop>
+      <prop type="id">$win_IDEMenuViews</prop>
+      <tuv lang="en-US">
+        <seg>Windows</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210406T115852Z" creationid="liaronce" creationdate="20210406T115852Z">
+        <seg>窗口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">english.csv</prop>
       <prop type="id">Debugger_Menu_Windows</prop>
       <tuv lang="en-US">
         <seg>Windows</seg>
