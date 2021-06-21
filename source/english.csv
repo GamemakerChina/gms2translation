@@ -17,18 +17,28 @@ $mac_explorer,finder,finder,,mac version of explorer
 $mac_OpenInExplorer,Show In Finder,Show In Finder,,Mac version of Open In Explorer
 $mac_OpenProjectInExplorer,Show Project In Finder,Show Project In Finder,,Mac version of Open Project In Explorer
 $mac_ShowLogFileInExplorer,Reveal Log In Finder,Reveal Log In Finder,,Mac version of Show Log In Explorer
+$linux_explorer,file manager,file manager,,Linux version of explorer
+$linux_OpenInExplorer,Show In File Manager,Show In File Manager,,Linux version of Open In Explorer
+$linux_OpenProjectInExplorer,Show Project In File Manager,Show Project In File Manager,,Linux version of Open Project In Explorer
+$linux_ShowLogFileInExplorer,Reveal Log In File Manager,Reveal Log In File Manager,,Linux version of Show Log In Explorer
 $win_ctrl,Ctrl,Ctrl,,Windows version of ctrl key
 $mac_ctrl,Command,Command,,Mac version of ctrl key
+$linux_ctrl,Ctrl,Ctrl,,Linux version of ctrl key
 $win_FileMenuExit,Exit,Exit,,Windows version of the Exit main menu entry
 $mac_FileMenuExit,Quit,Quit,,Mac version of the Exit main menu entry
+$linux_FileMenuExit,Exit,Exit,,Linux version of the Exit main menu entry
 $win_IDEMenuHelpAbout,About,About,,Windows version of the About main menu entry
-$mac_IDEMenuHelpAbout,About GameMaker Studio 2,About GameMaker Studio 2,,Windows version of the About main menu entry
+$mac_IDEMenuHelpAbout,About GameMaker Studio 2,About GameMaker Studio 2,,Mac version of the About main menu entry
+$linux_IDEMenuHelpAbout,About,About,,Linux version of the About main menu entry
 $win_IDEMenuViews,Windows,Windows,,Windows version of the views menu entry
 $mac_IDEMenuViews,Window,Window,,Mac version of the views menu entry
+$linux_IDEMenuViews,Windows,Windows,,Linux version of the views menu entry
 $win_LaptopRHSKeys,Right Control and Right Alt,Right Control and Right Alt,,Windows version of laptop mode keys
 $mac_LaptopRHSKeys,Right Command and Right Alt,Right Command and Right Alt,,Mac version of laptop mode keys
+$linux_LaptopRHSKeys,Right Control and Right Alt,Right Control and Right Alt,,Linux version of laptop mode keys
 $win_LaptopLZoomKey,Left Control,Left Control,,Windows laptop mode zoom key
 $mac_LaptopLZoomKey,Left Command,Left Command,,Mac laptop mode zoom key
+$linux_LaptopLZoomKey,Left Control,Left Control,,Linux laptop mode zoom key
 Account_Menu_Login,Login,Login,,"Account menu ""Login"""
 Account_Menu_Logout,Logout,Logout,,"Acount menu ""Logout"""
 Account_Menu_ManageAccount,Manage Account,Manage Account,,"Account menu ""Account"""
@@ -352,6 +362,8 @@ DnD_Event_Mouse_None,No Button,No Button,,Mouse event subtype
 DnD_Event_Mouse_Left,Left,Left,,Mouse event subtype
 DnD_Event_Mouse_Right,Right,Right,,Mouse event subtype
 DnD_Event_Mouse_Middle,Middle,Middle,,Mouse event subtype
+DnD_Event_Mouse_Side1,Side 1,Side 1,,Mouse event subtype
+DnD_Event_Mouse_Side2,Side 2,Side 2,,Mouse event subtype
 Event_Mouse_RightButton,Right Down,Right Down,,Mouse event subtype
 Event_Mouse_RightPressed,Right Pressed,Right Pressed,,Mouse event subtype
 Event_Mouse_RightReleased,Right Released,Right Released,,Mouse event subtype
@@ -442,6 +454,15 @@ Inspector_WindowTitleMulti,Inspector Window: Multiple Items,Inspector Window: Mu
 Inspector_ErrorTitle,Inspector Error,Inspector Error,,An error occurred in the inspector
 Inspector_Lock,Lock inspector to current selection,Lock inspector to current selection,,Lock inspector tooltip
 Inspector_Unlock,Unlock inspector to allow new selections,Unlock inspector to allow new selections,,Unlock inspector tooltip
+Inspector_MultiSortMode,Multi-select order,Multi-select order,,multi select order menu entry
+Inspector_MultiSelLabel,Selection: ,Selection: ,,inspector multi select label
+Inspector_SelectExistingTag,Select existing tag,Select existing tag,,inspector tag combo label
+Inspector_TagsWindowTitleArg,Tags: {0},Tags: {0},,tags window title
+Inspector_TagsWindowMulti,Tags: Multiple Selection,Tags: Multiple Selection,,tags window title
+inspector_pref_scrollonexpand,Scroll category into view on expand,Scroll category into view on expand,,inspector scroll on expand pref
+ListBoxEnum_eMultiSortMode_AssetType,Asset type,Asset type,,multisort mode enum
+ListBoxEnum_eMultiSortMode_SelectionOrder,Selection order,Selection order,,multisort mode enum
+ListBoxEnum_eMultiSortMode_Alphabetical,Alphabetical,Alphabetical,,multisort mode enum
 InspectorGadget_ListBox_Empty,(List is empty),(List is empty),,Label shown when a listbox is empty
 InspectorGadget_Array_Empty,(Array is empty),(Array is empty),,Label shown when an array is empty
 InspectorGadget_Object_Empty,(Object is not inspectable),(Object is not inspectable),,Label shown when an object is not inspectable
@@ -470,6 +491,30 @@ Inspector_EventList_CannotCoalesce,Events do not support bulk editing,Events do 
 Inspector_EventList_AddElementTooltip,Add event,Add event,,Tooltip to add a new event
 Inspector_UndoError,An error occurred while attempting to undo a change.,An error occurred while attempting to undo a change.,,Undo error message
 Inspector_RedoError,An error occurred while attempting to redo a change.,An error occurred while attempting to redo a change.,,Redo error message
+Inspector_CreateNewAssetType,New {0},New {0},,new (asset type name)
+Inspector_EditAssetType,Edit {0},Edit {0},,edit (asset type name)
+Inspector_AlignIcons,Align Icons,Align Icons,,inspector align icons label
+Inspector_FlipIcons,Flip Icons,Flip Icons,,inspector flip icons label
+Inspector_HAlign_Left,Align Left,Align Left,,inspector alignment tooltip
+Inspector_HAlign_Centre,Align Centre,Align Centre,,inspector alignment tooltip
+Inspector_HAlign_Right,Align Right,Align Right,,inspector alignment tooltip
+Inspector_HAlign_Distrib,Distribute Horizontally,Distribute Horizontally,,inspector alignment tooltip
+Inspector_VAlign_Top,Align Top,Align Top,,inspector alignment tooltip
+Inspector_VAlign_Centre,Align Centre,Align Centre,,inspector alignment tooltip
+Inspector_VAlign_Bottom,Align Bottom,Align Bottom,,inspector alignment tooltip
+Inspector_VAlign_Distrib,Distribute Vertically,Distribute Vertically,,inspector alignment tooltip
+Inspector_AddObjVariable,Add Variable,Add Variable,,inspector add object variable button
+SeqTrack_Singular,Track,Track,,sequence track type name singular
+SeqTrack_Plural,Tracks,Tracks,,sequence track type name plural
+SeqSpriteTrack_Singular,Sprite Track,Sprite Track,,sprite track type name singular
+SeqSpriteTrack_Plural,Sprite Tracks,Sprite Tracks,,sprite track type name plural
+SeqObjectTrack_Singular,Object Track,Object Track,,object track type name singular
+SeqObjectTrack_Plural,Object Tracks,Object Tracks,,object track type name plural
+SeqAudioTrack_Singular,Audio Track,Audio Track,,audio track type name singular
+SeqAudioTrack_Plural,Audio Tracks,Audio Tracks,,audio track type name plural
+SeqSeqTrack_Singular,Sequence Track,Sequence Track,,sequence instance track type name singular
+SeqSeqTrack_Plural,Sequence Tracks,Sequence Tracks,,sequence instance track type name plural
+Inspector_Category_Transform,Transform,Transform,,Inspector category
 Inspector_Category_Physics,Physics,Physics,,Inspector category
 Inspector_Category_Permissions,Permissions,Permissions,,Inspector category
 Inspector_Category_Icons,Icons,Icons,,Inspector category
@@ -484,7 +529,33 @@ Inspector_Category_TextureSettings,Texture Settings,Texture Settings,,Inspector 
 Inspector_Category_CollisionMask,Collision Mask,Collision Mask,,Inspector category
 Inspector_Category_Tiles,Tiles,Tiles,,Inspector category
 Inspector_Category_FontOptions,Advanced Options,Advanced Options,,Inspector category
+Inspector_Category_CanvasFrame,Canvas Frame,Canvas Frame,,Inspector category
+Inspector_Category_Parent,Parent,Parent,,Inspector category
 Inspector_OpenEditor,Open Editor,Open Editor,,open editor
+Inspector_ObjNoEvents,Open Editor to add Events,Open Editor to add Events,,no object events inspector label
+Inspector_OpenEditors,Open Editors,Open Editors,,open multiple editors
+Inspector_Category_Properties,Properties,Properties,,inspector category
+Inspector_Category_Editors,Editors,Editors,,inspector category
+Inspector_Field_Width,W,W,,inspector field label
+Inspector_Field_Height,H,H,,inspector field label
+Inspector_Field_X,X,X,,inspector field label
+Inspector_Field_Y,Y,Y,,inspector field label
+Inspector_TileOffset,Tile Offset,Tile Offset,,inspector property label
+Inspector_Separation,Separation,Separation,,inspector property label
+Inspector_OutputBorder,Output Border,Output Border,,inspector property label
+Inspector_Dimension,Dimension,Dimension,,inspector property label
+Inspector_Origin,Origin,Origin,,inspector property label
+Inspector_TimeUnits,Time Units,Time Units,,inspector property label
+Inspector_SpeedFPS,Speed (FPS),Speed (FPS),,inspector property label
+Inspector_LengthFrames,Length (Frames),Length (Frames),,inspector property label
+Inspector_Offset,Offset,Offset,,inspector property label
+Inspector_Opacity,Opacity,Opacity,,inspector property label
+Inspector_BackdropImage,Backdrop Image,Backdrop Image,,inspector property label
+Inspector_BackdropSize,Backdrop Size,Backdrop Size,,inspector property label
+GMShader_VertexShaderPath,.VSH (Read-only),.VSH (Read-only),,inspector property name
+GMShader_FragmentShaderPath,.FSH (Read-only),.FSH (Read-only),,inspector property name
+Inspector_Script,Script (Read-only),Script (Read-only),,inspector property name
+Inspector_Notes,Notes (Read-only),Notes (Read-only),,inspector property name
 RulerLine_Value,Ruler Value,Ruler Value,,smart guide ruler coord value
 fonteditor_texture_size,{0} x {1},{0} x {1},,Font editor texture size label
 fonteditor_gms1mode,"This legacy font was not upgraded automatically.\n\nUpgrading the font may show inconsistencies but the font will be backed up in its folder.","This legacy font was not upgraded automatically.\n\nUpgrading the font may show inconsistencies but the font will be backed up in its folder.",,Font editor GMS1 mode label
@@ -1624,6 +1695,7 @@ SourceControl_ActionIncomplete,Source Control Action '{0}' has not successfully 
 SourceControl_InvalidAction,Source Control Action '{0}' has an invalid action in the request queue,Source Control Action '{0}' has an invalid action in the request queue,,exception message for when we have hit an invalid action request
 SourceControlGit_NeedIdentity,Source Control (Git) Invalid Credentials,Source Control (Git) Invalid Credentials,,Require Credentials Dialog Title
 SourceControlGit_NeedIdentityMessage,The Repository '{0}' is expecting a different Username/Password than is set under the Identity preferences.,The Repository '{0}' is expecting a different Username/Password than is set under the Identity preferences.,,The Git repository is expecting a different username and password message.
+SourceControlGit_NeedCredentials,The Repository is expecting credentials that have not been setup. Please check your Git installation on how to do this.,The Repository is expecting credentials that have not been setup. Please check your Git installation on how to do this.,,There are no Credentials setup for Git and the user needs to do this
 SourceControlGit_NoRepoTitle,Source Control (Git) No Repository,Source Control (Git) No Repository,,There is no Git Repository (Title)
 SourceControlGit_NoRepoMessage,"There is no Git repository configured with this Project.\nTry Create if you want a local repository, or Import into an existing one.","There is no Git repository configured with this Project.\nTry Create if you want a local repository, or Import into an existing one.",,"There is no Git Repository (Message) There is no repository at the project directory, perhaps try Create or Import."
 SourceControlGit_NoIdentity,Source Control (Git) No Identity,Source Control (Git) No Identity,,There is no Git Identity set (Title)
@@ -1668,7 +1740,7 @@ sourcecontrolgit_clone_repository,Source Control (Git) Clone Repository,Source C
 sourcecontrolgit_clone_urltoclone,URL of repository to clone:,URL of repository to clone:,,URL of the repository to clone
 sourcecontrolgit_clone_path,Path to clone to:,Path to clone to:,,Path to clone repository into
 sourcecontrolgit_commit,Source Control (Git) Commit,Source Control (Git) Commit,,Commit to repository title
-sourcecontrolgit_commit_stagedchanges,Stage Changes,Stage Changes,,Staged Changes label
+sourcecontrolgit_commit_stagedchanges,Staged Changes,Staged Changes,,Staged Changes label
 sourcecontrolgit_commit_unstageall,Unstage All,Unstage All,,Unstage All changes label
 sourcecontrolgit_commit_unstageselected,Unstage Selected,Unstage Selected,,Unstage Selected changes label
 sourcecontrolgit_commit_unstagedchanges,Unstaged Changes,Unstaged Changes,,Unstaged Changes label
@@ -1984,7 +2056,7 @@ AudioGroups_Rename,Rename,Rename,,Audio group rename button
 AudioGroups_TargetPlatforms,Use Group On...,Use Group On...,,Audio group target platforms label
 AudioGroups_TypeFindResource,Type to find resource,Type to find resource,,Audio group manager tooltip
 AudioGroups_WindowTitle,Audio Groups,Audio Groups,,Audio groups window title
-TextureAudioGroups_SelectResource,Select Resource,Select Resource,,Asset explorer title
+TextureAudioGroups_SelectResource,Select Asset,Select Asset,,Asset explorer title
 AudioGroups_EditResource,Edit...,Edit...,,Audio groups window edit resource button
 TileLayer_TileDataSize,Tile Data Size,Tile Data Size,,tile layer properties caption for the data size drop down box
 TileSetEditor_EditImage,Edit Image,Edit Image,,tile set editor edit image button caption
@@ -2159,10 +2231,11 @@ DnD_Gadget_IsRelative,Is Relative,Is Relative,,DnD™ gadget for determining if 
 DnD_Gadget_IsTemp,Is Temp,Is Temp,,DnD™ gadget for determining if a target is temp
 DnD_Gadget_TextInput,Text Input,Text Input,,DnD™ gadget for text input
 DnD_Gadget_ExpressionInput,Expression,Expression,,DnD™ gadget for expression input
+DnD_Gadget_ArgumentInput,Argument,Argument,,DnD™ gadget for argument input and optional arguments
 DnD_Gadget_MenuInput,Menu Input,Menu Input,,DnD™ gadget for menu input
 DnD_Gadget_MenuExpressionInput,Menu Expression Input,Menu Expression Input,,DnD™ gadget for menu expression input
 DnD_Gadget_ResourceSelection,Resource Selection,Resource Selection,,DnD™ gadget for resource selection
-DnD_Gadget_ResourceSelection_SelectResource,Select Resource,Select Resource,,DnD™ gadget list view explorer title
+DnD_Gadget_ResourceSelection_SelectResource,Select Asset,Select Asset,,DnD™ gadget list view explorer title
 DnD_Gadget_BooleanInput,Boolean Input,Boolean Input,,DnD™ gadget for boolean input
 DnD_Gadget_BooleanExprInput,Boolean Expression Input,Boolean Expression Input,,DnD™ gadget for boolean input
 DnD_Gadget_ColorPicker,Colour Picker,Colour Picker,,DnD™ gadget for picking a color
@@ -2325,6 +2398,7 @@ yyzimporter_failed,Failed to import YYZ,Failed to import YYZ,,Failed to import Y
 yyzexport_message,YYZ Exporter,YYZ Exporter,,YYZ Exporter Message Title
 yyzexport_success,YYZ Exported Successfully,YYZ Exported Successfully,,YYZ Exported Successfully
 yyzexport_failed,YYZ Export Failed,YYZ Export Failed,,YYZ Export Failed
+ImportLoad_FileNotFound,"Unable to find file {0}.\nIf the file is inside an archive, please extract it first.","Unable to find file {0}.\nIf the file is inside an archive, please extract it first.",,project load or import file not found error
 InheritFromDialog_Title,Inherit From Project,Inherit From Project,,title for inherit from project dialog
 DnDEditor_Menu_Workspace,Workspace,Workspace,,DnD™ Editor Workspace caption
 DnDEditor_Menu_Save,Save,Save,,DnD™ Editor Workspace Save caption
@@ -3263,7 +3337,7 @@ platformdevice_connection_failed,Connection to {0} Failed,Connection to {0} Fail
 platformdevice_connection_success_title,Connection Successful,Connection Successful,,Connection Successful title
 platformdevice_connection_failed_title,Connection Failed,Connection Failed,,Connection Failed title
 platformdevice_connection_no_devices,No Devices found,No Devices found,,no devices are found
-AssetExplorer_SelectResource,Select Resource,Select Resource,,Fallback title for asset explorer
+AssetExplorer_SelectResource,Select Asset,Select Asset,,Fallback title for asset explorer
 AssetExplorer_SelectResourceType,Select {0},Select {0},,select (resource type name) title for asset explorer
 AssetExplorer_FilterCaptionGeneric,Showing {0}/{1} filtered items,Showing {0}/{1} filtered items,,Title for filtered items in asset explorer
 ParserError_DnD,{0} in DnD™ action {1},{0} in DnD™ action {1},,DnD™ parser error message
@@ -3474,9 +3548,10 @@ GoToType_WindowTitle,"Search for Assets, Options, Preferences:","Search for Asse
 GoToType_FieldCaption,What are you looking for?,What are you looking for?,,Go To Type default search field caption
 GoToType_MaxItemPref,Maximum number of search results to display,Maximum number of search results to display,,Go To max number pref
 GoToType_EnableStylingPref,Enable styling on search results (turn off for better performance),Enable styling on search results (turn off for better performance),,Go To enable styling pref
-GoTo_Pref_Resources,Search in Resources,Search in Resources,,Search resources on/off
+GoTo_Pref_Resources,Search in Assets,Search in Assets,,Search resources on/off
 GoTo_Pref_Preferences,Search in Preferences,Search in Preferences,,Search preferences on/off
 GoTo_Pref_GameOptions,Search in Game Options,Search in Game Options,,Search game options on/off
+GoTo_Pref_Functions,Search in user-defined Functions,Search in user-defined Functions,,Search user functions pref
 GoTo_Driver_Resources,Project Resources,Project Resources,,resources driver name
 GoTo_Driver_ResourcesDesc,This driver exposes the project resources to Go To,This driver exposes the project resources to Go To,,resources driver description
 GoTo_Driver_Preferences,Preferences,Preferences,,preferences driver name
@@ -3585,7 +3660,7 @@ ListBoxEnum_eObjectPropertyType_Expression,Expression,Expression,,Expression val
 ListBoxEnum_eObjectPropertyType_Resource,Asset,Asset,,Asset value type
 ListBoxEnum_eObjectPropertyType_Color,Colour,Colour,,Color value type
 ListBoxEnum_eObjectPropertyType_List,List,List,,List value type
-ResourcePickerButton_ToolTip,Select a resource,Select a resource,,Resource picker button tooltip
+ResourcePickerButton_ToolTip,Select an Asset,Select an Asset,,Resource picker button tooltip
 Help_eObjectPropertyType_Real,The value is a real number and accepts decimal places (allows expressions),The value is a real number and accepts decimal places (allows expressions),,Real value type help tip
 Help_eObjectPropertyType_Integer,The value is a whole number (allows expressions),The value is a whole number (allows expressions),,Integer value type help tip
 Help_eObjectPropertyType_String,The value is a string (quotes are optional),The value is a string (quotes are optional),,String value type help tip
@@ -3635,7 +3710,7 @@ GMStdChoose_Name,Choose,Choose,,DnD label
 GMStdChoose_Desc,Randomly chooses one of the supplied arguments.,Randomly chooses one of the supplied arguments.,,DnD label
 GMStdCallFunction_Name,Function Call,Function Call,,DnD label
 GMStdCallFunction_Desc,Call any function with optional arguments and get the return value of the function.,Call any function with optional arguments and get the return value of the function.,,DnD label
-GMStdNew_Name,New,New,,DnD label
+GMStdNew_Name,New Struct,New Struct,,DnD label
 GMStdNew_Desc,Create a new struct with optional arguments and assign it to a variable.,Create a new struct with optional arguments and assign it to a variable.,,DnD label
 GMStdCatCommon,"Common","Common",,Drag and Drop™ library category name
 GMStdCatCamera,"Cameras","Cameras",,Drag and Drop™ library category name
@@ -4096,6 +4171,8 @@ GMStdEffect_Name,"Do Effect","Do Effect",,Drag and Drop™ library action name
 GMStdEffect_Desc,"Show an effect at the specified position.","Show an effect at the specified position.",,Drag and Drop™ library action description
 GMStdScript,"Script","Script",,Drag and Drop™ library argument label
 GMStdArgument,"Argument","Argument",,DnD argument label
+GMStdOptional,"Optional","Optional",, DnD optional label
+GMStdDefaultValue,"Value","Value",, DnD default value label
 GMStdTarget,"Target","Target",,Drag and Drop™ library argument label
 GMStdReturnList,"Return List","Return List",,Drag and Drop™ library argument label
 GMStdFreeTarget,"Free Target","Free Target",,Drag and Drop™ library argument label
@@ -4574,7 +4651,7 @@ remote_worker_project_cache_path,Project Cache Path,Project Cache Path,,Remote w
 default_audio_setting,Default Audio Device,Default Audio Device,,Default Audio Device setting
 Validate_NameLength,Resource name must be between {2} and {1} characters long,Resource name must be between {2} and {1} characters long,,validation error message for resource name
 Validate_InvalidFolderName,Folder name contains invalid characters: {0},Folder name contains invalid characters: {0},,validation error message for folder names
-DnD_ResourceSelection_DropLabel,Drop here to assign resource,Drop here to assign resource,,DnD™ Resource Input label
+DnD_ResourceSelection_DropLabel,Drop here to assign asset,Drop here to assign asset,,DnD™ Resource Input label
 TextureGroups_OpenResource,Open,Open,,Open Resource
 RemoteWorker_WindowTitle,Settings for {0},Settings for {0},,Remote worker window title
 RemoteWorker_PlatformNotSupportedTitle,Remote Worker - Platform Not Supported,Remote Worker - Platform Not Supported,,Platform is not supported on this remote worker title
@@ -4584,7 +4661,7 @@ RemoteWorker_NameErrorTitle,Remote Worker Name Error,Remote Worker Name Error,,E
 RemoteWorker_NameError,A Remote Worker with this name already exists.,A Remote Worker with this name already exists.,,Remote Worker Name error message
 RemoteWorker_PlatformNotSupported,The current platform is not supported on this Remote Worker.,The current platform is not supported on this Remote Worker.,,Platform is not supported on this remote worker
 SearchOutput_Default,Press ${open_search_replace} to open the Search and Replace window.,Press ${open_search_replace} to open the Search and Replace window.,,Default text for the Search Output Window
-SourceControl_Default,"Source Control Output will go here. If you have not turned on Source Control, you can find it in Main Options.","Source Control Output will go here. If you have not turned on Source Control, you can find it in Main Options.",,Default text for the Source Control Window
+SourceControl_Default,"Source Control Output will go here.","Source Control Output will go here.",,Default text for the Source Control Window
 SourceControl_Trial,"Source Control Output would go here, but you are currently using a Trial version.\nPlease upgrade to a paid version to enable the Source Control features!\nVisit https://www.yoyogames.com/get2 to view our pricing.","Source Control Output would go here, but you are currently using a Trial version.\nPlease upgrade to a paid version to enable the Source Control features!\nVisit https://www.yoyogames.com/get2 to view our pricing.",,Default text for source control window when in trial mode.
 TileSetEditor_WarningRoomTileLayersAffected,"Tile size increase will cause rooms to lose some tile layer data, are you sure you want to make this change?\n\nTo avoid data loss press cancel and increase room size of the affected rooms: {0}","Tile size increase will cause rooms to lose some tile layer data, are you sure you want to make this change?\n\nTo avoid data loss press cancel and increase room size of the affected rooms: {0}",,warning for user when increasing tile width/height which would cause a room tile layer to be truncated and lose painted tiles
 GMStdAlpha_Name,Set Draw Alpha,Set Draw Alpha,,dnd set draw alpha node
@@ -5560,6 +5637,7 @@ SyntaxError_ConstructorsOnly,only functions that are declared as constructors ca
 SyntaxError_InvalidFunctionModifier,unknown function atribute {0},unknown function atribute {0},,syntax error
 SyntaxError_InheritedFunctionArguments,Inherited argument "{0}" is not in function arguments,Inherited argument "{0}" is not in function arguments,,syntax error
 SyntaxError_Only16NamedArgs,only 16 named arguments supported in a function declaration,only 16 named arguments supported in a function declaration,,syntax error
+SyntaxError_AssignmentToBuiltIn,Assignment to builtin variable/function/constant,Assignment to builtin variable/function/constant,,syntax error
 CompileError_Info,"{0} at line {1} : {2}","{0} at line {1} : {2}",,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
 CompileError_ObjVar_WrongType,Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),,Object variable wrong type error
 CompileError_ObjVar_WrongTypeRoom,Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),,Object variable wrong type error in room instances
@@ -6242,7 +6320,7 @@ Sequence_Tooltip_Collapse_All,Expand\Collapse all,Expand\Collapse all,,Expand\Co
 Sequence_Tooltip_AnimCurveMode,Toggle Curve Mode,Toggle Curve Mode,,anim curve mode button tooltip
 SequenceDopeSheet_Components,Components,Components,,Components label
 SequenceDopeSheet_Tracks,Tracks,Tracks,,Tracks label
-SequenceDopeSheet_SelectResource,Select Resource,Select Resource,,Select resource to add as new track
+SequenceDopeSheet_SelectResource,Select Asset,Select Asset,,Select resource to add as new track
 SequenceDopeSheet_SelectComponent,Select Component,Select Component,,Select component to add as new track
 SequenceDopeSheet_SearchResults,{0} of {1} results,{0} of {1} results,,Sequence track panel hierarchy search results
 SequenceDopeSheet_SearchResultsNone,No results found,No results found,,Sequence track panel hierarchy search results
@@ -6631,3 +6709,19 @@ Warning_ImportProject_Message,You have selected a folder already containing anot
 Warning_AppIconAlpha_Title,Warning,Warning,,Warning
 Warning_AppIconAlpha_Message,The image selected has transparency. Please select a different image.,The image selected has transparency. Please select a different image.,,App icon image transparency warning message
 Error_CannotPackage_Message,The executable cannot be created as it's still currently running.,The executable cannot be created as it's still currently running.,,Application running error message.
+CannotImportStripImageError_Title,Error,Error,,Error
+CannotImportStripImageError_Message,An image of size {0} x {1} can't be split into {2} equal frames. Please resize the image and try again.,An image of size {0} x {1} can't be split into {2} equal frames. Please resize the image and try again.,,Strip image dimensions error
+SourceControl_GitExecutablePath,Git executable path,Git executable path,,The path to the git executable
+SourceControl_GitMergeToolPath,Merge tool,Merge tool,,The merge tool path
+SourceControl_GitDiffToolPath,Diff tool,Diff tool,,The diff tool path
+SourceControl_Push_Warning,Your changes couldn't be pushed to the remote. Please check Source Control Output for more information,Your changes couldn't be pushed to the remote. Please check Source Control Output for more information,,Warning message for git push failure.
+SourceControl_Pull_Warning,Changes couldn't be pulled from the remote. Please check Source Control Output for more information,Changes couldn't be pulled from the remote. Please check Source Control Output for more information,,Warning message for git pull failure.
+SourceControl_Status_Warning,The status of the git repository couldn't be queried. Please check Source Control Output for more information,The status of the git repository couldn't be queried. Please check Source Control Output for more information,,Warning for git status failure.
+SourceControl_Clone_Warning,Couldn't clone repository. Please check Source Control Output for more information,Couldn't clone repository. Please check Source Control Output for more information,,Warning for git clone failure.
+SourceControl_Add_Warning,Couldn't add files to the repository. Please check Source Control Output for more information,Couldn't add files to the repository. Please check Source Control Output for more information,,Warning for git add failure.
+SourceControl_Remove_Warning,Couldn't remove file from the repository. Please check Source Control Output for more information,Couldn't remove file from the repository. Please check Source Control Output for more information,,Warning for git restore failure.
+SourceControl_Commit_Warning,Couldn't commit files. Please check Source Control Output for more information,Couldn't commit files. Please check Source Control Output for more information,,Warning for git commit failure.
+SourceControl_Checkout_Warning,Couldn't perform checkout. Please check Source Control Output for more information,Couldn't perform checkout. Please check Source Control Output for more information,,Warning for git checkout failure.
+SourceControl_Log_Warning,Couldn't retrieve log. Please check Source Control Output for more information,Couldn't retrieve log. Please check Source Control Output for more information,,Warning for git log failure.
+SourceControl_Create_Warning,Couldn't create repository. Please check Source Control Output for more information,Couldn't create repository. Please check Source Control Output for more information,,Warning for git create failure.
+SourceControl_Merge_Warning,Couldn't complete merge operation. Please check Source Control Output for more information,Couldn't complete merge operation. Please check Source Control Output for more information,,Warning for git merge failure.
