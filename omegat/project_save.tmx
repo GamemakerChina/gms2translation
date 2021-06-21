@@ -10038,6 +10038,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Optional"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114142Z" creationid="liaronce" creationdate="20210621T114142Z">
+        <seg>“可选”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Our &lt;a href="https://www.yoyogames.com/legal/privacy"&gt;Privacy Policy&lt;/a&gt; and &lt;a href="https://www.yoyogames.com/legal/cookies"&gt;Cookie Policy&lt;/a&gt; governs the way we collect, store and process your data.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135201Z" creationid="liaronce" creationdate="20210228T135149Z">
@@ -13858,6 +13866,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133837Z" creationid="liaronce" creationdate="20210228T133837Z">
         <seg>"源码控制输出将出现在这里。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Source Control Output will go here."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114154Z" creationid="liaronce" creationdate="20210621T114154Z">
+        <seg>“源代码管理输出将放在此处。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -18677,6 +18693,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>An image of size {0} x {1} can't be split into {2} equal frames.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114209Z" creationid="liaronce" creationdate="20210621T114209Z">
+        <seg>无法将大小为 {0} x {1} 的图像拆分为 {2} 个相等的帧。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>备注：SpriteEditor_Tile_Tooltip：Tiling tooltip
 平铺？图块？工具提示？精灵编辑器与图块相关的是什么呢？精灵有平铺这功能吗？</note>
       <tuv lang="en-US">
@@ -19911,6 +19935,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T054440Z" creationid="deciia" creationdate="20170107T054440Z">
         <seg>给变量赋值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Assignment to builtin variable/function/constant</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114156Z" creationid="liaronce" creationdate="20210621T114156Z">
+        <seg>对内置变量/函数/常量的赋值</seg>
       </tuv>
     </tu>
     <tu>
@@ -22914,6 +22946,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Changes couldn't be pulled from the remote.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114245Z" creationid="liaronce" creationdate="20210621T114245Z">
+        <seg>无法从远端中提取更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Changes detected in base project directory '{0}'.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T195454Z" creationid="deciia" creationdate="20170105T080544Z">
@@ -25868,10 +25908,58 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Couldn't add files to the repository.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114303Z" creationid="liaronce" creationdate="20210621T114303Z">
+        <seg>无法将文件添加到存储库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Couldn't clone repository.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114301Z" creationid="liaronce" creationdate="20210621T114301Z">
+        <seg>无法克隆存储库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Couldn't commit files.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114307Z" creationid="liaronce" creationdate="20210621T114307Z">
+        <seg>无法提交文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Couldn't open the specified library.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T055035Z" creationid="deciia" creationdate="20170104T055035Z">
         <seg>不能打开指定的库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Couldn't perform checkout.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114356Z" creationid="liaronce" creationdate="20210621T114356Z">
+        <seg>无法切换分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Couldn't remove file from the repository.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114305Z" creationid="liaronce" creationdate="20210621T114305Z">
+        <seg>无法从存储库中删除文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Couldn't retrieve log.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114358Z" creationid="liaronce" creationdate="20210621T114358Z">
+        <seg>无法检索日志。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28860,6 +28948,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Diff tool</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114218Z" creationid="liaronce" creationdate="20210621T114218Z">
+        <seg>比较工具</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Digits</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T073015Z" creationid="deciia" creationdate="20170102T044802Z">
@@ -30404,6 +30500,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T123813Z" creationid="deciia" creationdate="20170311T125804Z">
         <seg>拖到此处以添加子级</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Drop here to assign asset</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114151Z" creationid="liaronce" creationdate="20210621T114151Z">
+        <seg>拖拽到此处以分配资产</seg>
       </tuv>
     </tu>
     <tu>
@@ -37487,6 +37591,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T200959Z" creationid="deciia" creationdate="20170209T082633Z">
         <seg>在Android平台构建时允许使用数个GB的RAM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Git executable path</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114215Z" creationid="liaronce" creationdate="20210621T114215Z">
+        <seg>Git 可执行文件路径</seg>
       </tuv>
     </tu>
     <tu>
@@ -46093,6 +46205,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Merge tool</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114217Z" creationid="liaronce" creationdate="20210621T114217Z">
+        <seg>合并工具</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Merging moments is a permanent action that cannot be undone.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180924T031832Z" creationid="deciia" creationdate="20170104T050051Z">
@@ -47167,6 +47287,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T110330Z" creationid="deciia" creationdate="20170105T110330Z">
         <seg>新的精灵</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>New Struct</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114140Z" creationid="liaronce" creationdate="20210621T114140Z">
+        <seg>新建结构</seg>
       </tuv>
     </tu>
     <tu>
@@ -50738,6 +50866,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Please check Source Control Output for more information</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114235Z" creationid="liaronce" creationdate="20210621T114235Z">
+        <seg>有关详细信息，请检查源代码管理输出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Please check that none of the files are open in external programs.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170209T085226Z" creationid="deciia" creationdate="20170209T085226Z">
@@ -50966,6 +51102,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T022336Z" creationid="deciia" creationdate="20180922T022336Z">
         <seg>请在这提供您希望使用的签名身份\n：这应该是开发者ID应用程序标识，并且应该出现在您的Mac登录钥匙串证书中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Please resize the image and try again.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114211Z" creationid="liaronce" creationdate="20210621T114211Z">
+        <seg>请调整图像大小，然后重试。</seg>
       </tuv>
     </tu>
     <tu>
@@ -55804,6 +55948,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Search in Assets</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114114Z" creationid="liaronce" creationdate="20210621T114114Z">
+        <seg>在资产中搜索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Search in Game Options</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133926Z" creationid="liaronce" creationdate="20200820T133926Z">
@@ -55824,6 +55976,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133923Z" creationid="liaronce" creationdate="20200820T133923Z">
         <seg>在资源中搜索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Search in user-defined Functions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114116Z" creationid="liaronce" creationdate="20210621T114116Z">
+        <seg>在用户定义的函数中搜索</seg>
       </tuv>
     </tu>
     <tu>
@@ -56240,6 +56400,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T080307Z" creationid="liaronce" creationdate="20191118T140511Z">
         <seg>选择特定的微调算法以供微调使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select an Asset</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114117Z" creationid="liaronce" creationdate="20210621T114117Z">
+        <seg>选择资产</seg>
       </tuv>
     </tu>
     <tu>
@@ -63891,6 +64059,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>The status of the git repository couldn't be queried.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114259Z" creationid="liaronce" creationdate="20210621T114259Z">
+        <seg>无法查询 git 存储库的状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>备注：DialogEditor_InvalidJSON：Error message when the user attempts to save a broken json style
 原始的json?json基元？
 </note>
@@ -69223,6 +69399,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135346Z" creationid="liaronce" creationdate="20200820T135346Z">
         <seg>您的GameMaker Studio 2试用版已过期。\n\n如果您喜欢使用GameMaker并想继续，请在yoyogames.com购买我们的超值许可证之一。\n\n立即购买并发挥创意！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your changes couldn't be pushed to the remote.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T114250Z" creationid="liaronce" creationdate="20210621T114232Z">
+        <seg>无法将您的更改推送到远端。</seg>
       </tuv>
     </tu>
     <tu>
