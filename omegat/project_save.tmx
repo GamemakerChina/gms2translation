@@ -71527,10 +71527,18 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>{0} has a completely empty IdReference.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210707T110312Z" creationid="liaronce" creationdate="20210707T110239Z">
+        <seg>{0} 具有完全空的 IdReference。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>{0} has a missing IdReference at {1}.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210313T155351Z" creationid="liaronce" creationdate="20210313T155351Z">
-        <seg>{0}在{1}处缺少IdReference。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210707T110316Z" creationid="liaronce" creationdate="20210313T155351Z">
+        <seg>{0} 在 {1} 处缺少 IdReference。</seg>
       </tuv>
     </tu>
     <tu>
@@ -71609,8 +71617,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>{0} was lost and moved to root of project.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T120452Z" creationid="liaronce" creationdate="20200820T142756Z">
-        <seg>{0}已丢失并移动到项目的根目录。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210707T110318Z" creationid="liaronce" creationdate="20200820T142756Z">
+        <seg>{0} 已丢失并移动到项目的根目录。</seg>
       </tuv>
     </tu>
     <tu>
