@@ -532,7 +532,7 @@ Inspector_Category_FontOptions,Advanced Options,Advanced Options,,Inspector cate
 Inspector_Category_CanvasFrame,Canvas Frame,Canvas Frame,,Inspector category
 Inspector_Category_Parent,Parent,Parent,,Inspector category
 Inspector_OpenEditor,Open Editor,Open Editor,,open editor
-Inspector_ObjNoEvents,Open Editor to add Events,Open Editor to add Events,,no object events inspector label
+Inspector_ObjNoEvents,"This Object currently has no Events.\nAdd Events here or via the editor","This Object currently has no Events.\nAdd Events here or via the editor",,no object events inspector label
 Inspector_OpenEditors,Open Editors,Open Editors,,open multiple editors
 Inspector_Category_Properties,Properties,Properties,,inspector category
 Inspector_Category_Editors,Editors,Editors,,inspector category
@@ -6659,6 +6659,7 @@ CoreResources_MissingResourceMessage,This project has {0} missing Resource(s). P
 CoreResources_MissingResourceLog,{0} is missing and has {1} reference(s).,{0} is missing and has {1} reference(s).,,Message to display in Output log due to missing resource
 CoreResources_LostResource,{0} was lost and moved to root of project.,{0} was lost and moved to root of project.,,Message to display when a resource has lost its parent
 CoreResources_LostIdReference,{0} has a missing IdReference at {1}.,{0} has a missing IdReference at {1}.,,Message to display when a resource has a lost IdReference and the breadcrumb trail to it
+CoreResources_LostIdReferenceCompletely,{0} has a completely empty IdReference.,{0} has a completely empty IdReference.,,Message to display when a resource has a completely empty IdReference
 Sequences_Events,Sequence Events,Sequence Events,,Events Window Caption
 Event_Async_Event,Async Event,Async Event,,Async Event
 Event_Broadcast_Message,Broadcast Message,Broadcast Message,,Broadcast Message
