@@ -1,0 +1,224 @@
+Name,English,Translation,Restrictions,Comment
+_MANUAL_ONLINE_URL,"https://manual-en.yoyogames.com","https://manual-en.yoyogames.com",,online manual url
+_TUTORIALS_ONLINE_URL,"https://www.yoyogames.com/en/tutorials","https://www.yoyogames.com/en/tutorials",,Location of Tutorials url
+$linux_explorer,file manager,file manager,,Linux version of explorer
+$linux_OpenInExplorer,Show In File Manager,Show In File Manager,,Linux version of Open In Explorer
+$linux_OpenProjectInExplorer,Show Project In File Manager,Show Project In File Manager,,Linux version of Open Project In Explorer
+$linux_ShowLogFileInExplorer,Reveal Log In File Manager,Reveal Log In File Manager,,Linux version of Show Log In Explorer
+$linux_ctrl,Ctrl,Ctrl,,Linux version of ctrl key
+$linux_FileMenuExit,Exit,Exit,,Linux version of the Exit main menu entry
+$linux_IDEMenuHelpAbout,About,About,,Linux version of the About main menu entry
+$linux_IDEMenuViews,Windows,Windows,,Linux version of the views menu entry
+$linux_LaptopRHSKeys,Right Control and Right Alt,Right Control and Right Alt,,Linux version of laptop mode keys
+$linux_LaptopLZoomKey,Left Control,Left Control,,Linux laptop mode zoom key
+DnD_Event_Mouse_Side1,Side 1,Side 1,,Mouse event subtype
+DnD_Event_Mouse_Side2,Side 2,Side 2,,Mouse event subtype
+Inspector_MultiSortMode,Multi-select order,Multi-select order,,multi select order menu entry
+Inspector_MultiSelLabel,Selection: ,Selection: ,,inspector multi select label
+Inspector_SelectExistingTag,Select existing tag,Select existing tag,,inspector tag combo label
+Inspector_TagsWindowTitleArg,Tags: {0},Tags: {0},,tags window title
+Inspector_TagsWindowMulti,Tags: Multiple Selection,Tags: Multiple Selection,,tags window title
+inspector_pref_scrollonexpand,Scroll category into view on expand,Scroll category into view on expand,,inspector scroll on expand pref
+ListBoxEnum_eMultiSortMode_AssetType,Asset type,Asset type,,multisort mode enum
+ListBoxEnum_eMultiSortMode_SelectionOrder,Selection order,Selection order,,multisort mode enum
+ListBoxEnum_eMultiSortMode_Alphabetical,Alphabetical,Alphabetical,,multisort mode enum
+Inspector_CreateNewAssetType,New {0},New {0},,new (asset type name)
+Inspector_EditAssetType,Edit {0},Edit {0},,edit (asset type name)
+Inspector_AlignIcons,Align Icons,Align Icons,,inspector align icons label
+Inspector_FlipIcons,Flip Icons,Flip Icons,,inspector flip icons label
+Inspector_HAlign_Left,Align Left,Align Left,,inspector alignment tooltip
+Inspector_HAlign_Centre,Align Centre,Align Centre,,inspector alignment tooltip
+Inspector_HAlign_Right,Align Right,Align Right,,inspector alignment tooltip
+Inspector_HAlign_Distrib,Distribute Horizontally,Distribute Horizontally,,inspector alignment tooltip
+Inspector_VAlign_Top,Align Top,Align Top,,inspector alignment tooltip
+Inspector_VAlign_Centre,Align Centre,Align Centre,,inspector alignment tooltip
+Inspector_VAlign_Bottom,Align Bottom,Align Bottom,,inspector alignment tooltip
+Inspector_VAlign_Distrib,Distribute Vertically,Distribute Vertically,,inspector alignment tooltip
+Inspector_AddObjVariable,Add Variable,Add Variable,,inspector add object variable button
+SeqTrack_Singular,Track,Track,,sequence track type name singular
+SeqTrack_Plural,Tracks,Tracks,,sequence track type name plural
+SeqSpriteTrack_Singular,Sprite Track,Sprite Track,,sprite track type name singular
+SeqSpriteTrack_Plural,Sprite Tracks,Sprite Tracks,,sprite track type name plural
+SeqObjectTrack_Singular,Object Track,Object Track,,object track type name singular
+SeqObjectTrack_Plural,Object Tracks,Object Tracks,,object track type name plural
+SeqAudioTrack_Singular,Audio Track,Audio Track,,audio track type name singular
+SeqAudioTrack_Plural,Audio Tracks,Audio Tracks,,audio track type name plural
+SeqSeqTrack_Singular,Sequence Track,Sequence Track,,sequence instance track type name singular
+SeqSeqTrack_Plural,Sequence Tracks,Sequence Tracks,,sequence instance track type name plural
+Inspector_Category_Transform,Transform,Transform,,Inspector category
+Inspector_Category_CanvasFrame,Canvas Frame,Canvas Frame,,Inspector category
+Inspector_Category_Parent,Parent,Parent,,Inspector category
+Inspector_ObjNoEvents,Open Editor to add Events,Open Editor to add Events,,no object events inspector label
+Inspector_OpenEditors,Open Editors,Open Editors,,open multiple editors
+Inspector_Category_Properties,Properties,Properties,,inspector category
+Inspector_Category_Editors,Editors,Editors,,inspector category
+Inspector_Field_Width,W,W,,inspector field label
+Inspector_Field_Height,H,H,,inspector field label
+Inspector_Field_X,X,X,,inspector field label
+Inspector_Field_Y,Y,Y,,inspector field label
+Inspector_TileOffset,Tile Offset,Tile Offset,,inspector property label
+Inspector_Separation,Separation,Separation,,inspector property label
+Inspector_OutputBorder,Output Border,Output Border,,inspector property label
+Inspector_Dimension,Dimension,Dimension,,inspector property label
+Inspector_Origin,Origin,Origin,,inspector property label
+Inspector_TimeUnits,Time Units,Time Units,,inspector property label
+Inspector_SpeedFPS,Speed (FPS),Speed (FPS),,inspector property label
+Inspector_LengthFrames,Length (Frames),Length (Frames),,inspector property label
+Inspector_Offset,Offset,Offset,,inspector property label
+Inspector_Opacity,Opacity,Opacity,,inspector property label
+Inspector_BackdropImage,Backdrop Image,Backdrop Image,,inspector property label
+Inspector_BackdropSize,Backdrop Size,Backdrop Size,,inspector property label
+GMShader_VertexShaderPath,.VSH (Read-only),.VSH (Read-only),,inspector property name
+GMShader_FragmentShaderPath,.FSH (Read-only),.FSH (Read-only),,inspector property name
+Inspector_Script,Script (Read-only),Script (Read-only),,inspector property name
+Inspector_Notes,Notes (Read-only),Notes (Read-only),,inspector property name
+ObjectEditor_ResourceFilter,Filter by Asset,Filter by Asset,,Filter by Asset label
+SourceControlGit_NeedCredentials,The Repository is expecting credentials that have not been setup. Please check your Git installation on how to do this.,The Repository is expecting credentials that have not been setup. Please check your Git installation on how to do this.,,There are no Credentials setup for Git and the user needs to do this
+sourcecontrolgit_commit_stagedchanges,Staged Changes,Staged Changes,,Staged Changes label
+SpriteEditor_SpineLabel,Spine Sprite,Spine Sprite,,spine type sprite
+SpriteEditor_SpineLabelTT,Spine Sprite - some editor settings disabled,Spine Sprite - some editor settings disabled,,spine sprite label tooltip
+SpriteEditor_SWFLabel,SWF Sprite,SWF Sprite,,SWF type sprite
+SpriteEditor_SWFLabelTT,SWF Sprite - some editor settings disabled,SWF Sprite - some editor settings disabled,,SWF sprite label tooltip
+NineSlice_Activate,Activate Nine Slice,Activate Nine Slice,,activate nineslice label
+NineSlice_SelectedSlice,Selected Slice:,Selected Slice:,,selected nineslice label
+NineSlice_TileMode,Tile Mode:,Tile Mode:,,nineslice tilemode label
+NineSlice_Highlight,Highlight:,Highlight:,,nineslice highlight label
+NineslicePref_LeftGuideColour,Left Guide Colour,Left Guide Colour,,nineslice pref setting label
+NineslicePref_RightGuideColour,Right Guide Colour,Right Guide Colour,,nineslice pref setting label
+NineslicePref_TopGuideColour,Top Guide Colour,Top Guide Colour,,nineslice pref setting label
+NineslicePref_BottomGuideColour,Bottom Guide Colour,Bottom Guide Colour,,nineslice pref setting label
+NineslicePref_HighlightColour,Selected Slice Highlight Colour,Selected Slice Highlight Colour,,nineslice default highlight colour
+NineslicePref_HighlightStyle,Selected Slice Highlight Style,Selected Slice Highlight Style,,nineslice default highlight style
+ListBoxEnum_eSlice_None,None,None,,enum name
+ListBoxEnum_eSlice_Left,Left,Left,,enum name
+ListBoxEnum_eSlice_Top,Top,Top,,enum name
+ListBoxEnum_eSlice_Right,Right,Right,,enum name
+ListBoxEnum_eSlice_Bottom,Bottom,Bottom,,enum name
+ListBoxEnum_eSlice_Centre,Centre,Centre,,enum name
+ListBoxEnum_eTileMode_Stretch,Stretch,Stretch,,enum name
+ListBoxEnum_eTileMode_Repeat,Repeat,Repeat,,enum name
+ListBoxEnum_eTileMode_Mirror,Mirror,Mirror,,enum name
+ListBoxEnum_eTileMode_BlankRepeat,Blank Repeat,Blank Repeat,,enum name
+ListBoxEnum_eTileMode_Hide,Hide,Hide,,enum name
+ListBoxEnum_eHighlightStyle_Inverted,Inverted,Inverted,,nineslice highlight style enum
+ListBoxEnum_eHighlightStyle_Overlay,Overlay,Overlay,,nineslice highlight style enum
+TextureAudioGroups_SelectResource,Select Asset,Select Asset,,Asset explorer title
+InvalidName_InvalidGroupName,Group name '{0}' cannot contain / or \,Group name '{0}' cannot contain / or \,,invalid group folder name
+DnD_Gadget_ArgumentInput,Argument,Argument,,DnD™ gadget for argument input and optional arguments
+DnD_Gadget_ResourceSelection_SelectResource,Select Asset,Select Asset,,DnD™ gadget list view explorer title
+ImportLoad_FileNotFound,"Unable to find file {0}.\nIf the file is inside an archive, please extract it first.","Unable to find file {0}.\nIf the file is inside an archive, please extract it first.",,project load or import file not found error
+ggs_installer_background,Installer Background,Installer Background,,Installer Background
+use_online_help_pref,Use online manual,Use online manual,,use online manual help pref
+mac_package_nsis,Package as DMG,Package as DMG,,Package as DMG
+mac_package_zip,Package as Zip,Package as Zip,,Package as Zip
+mac_package_remember,Remember Packaging Option?,Remember Packaging Option?,,Remember Packaging Option?
+ListBoxEnum_MacPackageChoice_MacPackage_Dmg,Create DMG Installer,Create DMG Installer,,Create DMG Installer
+ListBoxEnum_MacPackageChoice_MacPackage_Zip,Create Zip Archive,Create Zip Archive,,Create Zip Archive
+ListBoxEnum_MacPackageChoice_MacPackage_Show,Show Dialog,Show Dialog,,Show Dialog
+AssetExplorer_SelectResource,Select Asset,Select Asset,,Fallback title for asset explorer
+AssetExplorer_SelectResourceType,Select {0},Select {0},,select (resource type name) title for asset explorer
+runtime_onstartup_change,Do you want to change your current runtime to the matching IDE version {0}?,Do you want to change your current runtime to the matching IDE version {0}?,,Change current runtime to the version matching the IDE
+GoTo_Pref_Resources,Search in Assets,Search in Assets,,Search resources on/off
+GoTo_Pref_Functions,Search in user-defined Functions,Search in user-defined Functions,,Search user functions pref
+ResourcePickerButton_ToolTip,Select an Asset,Select an Asset,,Resource picker button tooltip
+GMStdNew_Name,New Struct,New Struct,,DnD label
+GMStdSeqGetLength_Name,"Get Sequence Length","Get Sequence Length",,dnd library action name
+GMStdSeqGetLength_Desc,"Gets the length of a sequence element.","Gets the length of a sequence element.",,dnd library action description
+GMStdSeqGetHead_Name,"Get Sequence Head","Get Sequence Head",,dnd library action name
+GMStdSeqGetHead_Desc,"Gets the head position (in frames) of a sequence element.","Gets the head position (in frames) of a sequence element.",,dnd library action description
+GMStdSeqSetHead_Name,"Set Sequence Head","Set Sequence Head",,dnd library action name
+GMStdSeqSetHead_Desc,"Sets the head position (in frames) of a sequence element.","Sets the head position (in frames) of a sequence element.",,dnd library action description
+GMStdSeqGetLength_Story_1,"Get length of sequence instance ${sequenceelmid} into ${var}","Get length of sequence instance ${sequenceelmid} into ${var}",,dnd story text
+GMStdSeqGetLength_Story_2,"Get length of sequence instance ${sequenceelmid} into temp ${var}","Get length of sequence instance ${sequenceelmid} into temp ${var}",,dnd story text
+GMStdSeqSetHead_Story_1,"Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}","Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}",,dnd story text
+GMStdSeqGetHead_Story_1,"Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}","Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}",,dnd story text
+GMStdSeqGetHead_Story_2,"Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}","Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}",,dnd story text
+GMStdOptional,"Optional","Optional",, DnD optional label
+GMStdDefaultValue,"Value","Value",, DnD default value label
+GMStdSeqHead,"Head (frames)","Head (frames)",,dnd library argument label
+GMStdAbsolute,Absolute,Absolute,,DnD argument label
+DnD_ResourceSelection_DropLabel,Drop here to assign asset,Drop here to assign asset,,DnD™ Resource Input label
+SourceControl_Default,"Source Control Output will go here.","Source Control Output will go here.",,Default text for the Source Control Window
+Preference_macos_package_default_type,Automatic packaging choice,Automatic packaging choice,,Preferences/Platform Settings/macOS
+Nineslice,Nine Slice,Nine Slice,,Sprite editor nineslice pref group subheading
+SyntaxError_AssignmentToBuiltIn,Assignment to builtin variable/function/constant,Assignment to builtin variable/function/constant,,syntax error
+FileFilters_MacDmgApp,macOS DMG,macOS DMG,,mac application as a dmg file
+SeqDopeSheet_SharedCurveC,Shared Curve:,Shared Curve:,,shared curve:
+SeqDopeSheet_ExternalCurveEditWarning1,Changes to this curve inside sequences will also be applied to the external shared curve asset.,Changes to this curve inside sequences will also be applied to the external shared curve asset.,,external curve warning label
+SeqDopeSheet_ExternalCurveEditWarning2,Embed the curve to make edits freely or Continue to edit.,Embed the curve to make edits freely or Continue to edit.,,external curve warning label
+SeqDopeSheet_ExternalCurveDetailEmbed,The sequence will have its own copy of the curve,The sequence will have its own copy of the curve,,shared curve detail embed
+SeqDopeSheet_ExternalCurveDetailContinue,Continue to edit the shared curve,Continue to edit the shared curve,,shared curve detail continue
+SeqDopeSheet_AnimCurveLocked1,Locked:,Locked:,,anim curve locked track label
+SeqDopeSheet_AnimCurveLocked2,Unlock asset track in track panel\n to continue editing,Unlock asset track in track panel\n to continue editing,,anim curve locked track label
+SeqDopeSheet_InvalidSharedCurve,Invalid Shared Curve,Invalid Shared Curve,,invalid shaded curve
+SeqDopeSheet_InvalidSharedCurveC,Invalid Shared Curve:,Invalid Shared Curve:,,invalid shaded curve:
+SeqDopeSheet_InvalidCurveMsg1,Sequences can no longer read the shared curve due to edits that have been made externally.,Sequences can no longer read the shared curve due to edits that have been made externally.,,invalid curve text
+SeqDopeSheet_InvalidCurveMsg2,Add channels to the curve to resolve the issue.,Add channels to the curve to resolve the issue.,,invalid curve text
+SeqDopeSheet_AddChannels,Add Channel(s),Add Channel(s),,add channel/channels
+SeqDopeSheet_InvalidCurveDetailOK,This will add the appropriate number of channels to the curve to make it compatible with the sequence.,This will add the appropriate number of channels to the curve to make it compatible with the sequence.,,invalid curve detail msg
+SeqDopeSheet_InvalidCurveDetailCancel,The curve will not be modified,The curve will not be modified,,invalid curve detail cancel msg
+SeqDopeSheet_IncompatCurveDetailCancel,The curve will not be assigned to the track,The curve will not be assigned to the track,,incompat curve detail cancel msg
+SeqDopeSheet_InvalidCurveEdit,Edit the shared curve to fix the issues.,Edit the shared curve to fix the issues.,,invalid shared curve edit label
+SeqDopeSheet_IncompCurveTitle,Important,Important,,incompat curve dialog title
+SeqDopeSheet_IncompCurve,Incompatible Curve:,Incompatible Curve:,,incompatible curve
+SeqDopeSheet_IncompCurveMsg1,'{0}' does not have enough channels to work with this parameter track.,'{0}' does not have enough channels to work with this parameter track.,,incompat curve text
+SeqDopeSheet_IncompCurveMsg2,Add missing channels to this curve?,Add missing channels to this curve?,,incompat curve text
+Track_SoundMode,Loop Mode,Loop Mode,,sound track loop mode
+ListBoxEnum_eSoundMode_Loop,Loop,Loop,,loop sound mode enum
+ListBoxEnum_eSoundMode_Single,Play once,Play once,,single sound mode enum
+ContextMenu_ConvertToAnimCurve,Convert to Curve,Convert to Curve,,Convert to embedded anim curve menu entry
+ContextMenu_SetToAnimCurve,Assign Shared Curve (Import),Assign Shared Curve (Import),,Set to external anim curve menu entry
+ContextMenu_ExportEmbeddedAnimCurve,Export To Shared Curve,Export To Shared Curve,,Export embedded anim curve menu entry
+SequenceEditor_SetTrackAnimCurveFilter,Incompatible curves: {0} of {1},Incompatible curves: {0} of {1},,Compatible anim curves filter string
+SequenceEditor_IncompatCurveTT,Needs additional channels,Needs additional channels,,warning tooltip for incompatible curve
+SequenceDopeSheet_SelectResource,Select Asset,Select Asset,,Select resource to add as new track
+Sequence_Tooltip_Dopesheet_Track_New_ClipMask,Add New Clip Mask (Ctrl+M),Add New Clip Mask (Ctrl+M),,Add New Clip Mask tooltip
+AssetBrowser_SortGroupFirst,Groups First,Groups First,,asset browser sort type label
+AnimCurveLib_Title,Animation Curve Library,Animation Curve Library,,anim curve library window title
+AnimCurveLib_Type,Type,Type,,type label
+AnimCurveLib_Presets,Presets,Presets,,presets label
+AnimCurveLib_TTOverwrite,Overwrite: Apply curve once across all selected sections,Overwrite: Apply curve once across all selected sections,,overwrite mode tooltip
+AnimCurveLib_TTBetween,Between: Apply curve repeatedly for each selected section,Between: Apply curve repeatedly for each selected section,,between mode tooltip
+AnimCurveLib_TTEaseOut,Ease Out,Ease Out,,ease out tooltip
+AnimCurveLib_TTEaseIn,Ease In,Ease In,,ease in tooltip
+AnimCurveLib_TTEaseInOut,Ease In-Out,Ease In-Out,,ease in-out tooltip
+AnimCurveLib_Reset,Reset,Reset,,reset curve label
+ACL_linear,Linear,Linear,,anim curve library curve name
+ACL_ease,Ease,Ease,,anim curve library curve name
+ACL_easeCubic,Cubic,Cubic,,anim curve library curve name
+ACL_easeQuart,Quart,Quart,,anim curve library curve name
+ACL_easeExpo,Expo,Expo,,anim curve library curve name
+ACL_easeCirc,Circ,Circ,,anim curve library curve name
+ACL_easeBack,Back,Back,,anim curve library curve name
+ACL_elastic,Elastic,Elastic,,anim curve library curve name
+ACL_bounce,Bounce,Bounce,,anim curve library curve name
+ACL_fastOutSlowIn,Fast To Slow,Fast To Slow,,anim curve library curve name
+ACL_slowMiddle,Mid Slow,Mid Slow,,anim curve library curve name
+ACL_ResetTip,Select "Reset" to revert curve to initial state.,Select "Reset" to revert curve to initial state.,,anim curve library reset tip
+LocalisedManual_DownloadMsg,"The manual for the current manual language ({0}) is not installed. Would you like to download it now, or use the online help?","The manual for the current manual language ({0}) is not installed. Would you like to download it now, or use the online help?",,manual download message
+Manual_Download,Download,Download,,manual download button text
+Manual_UseOnline,Use online manual,Use online manual,,manual use online text
+LocaliseManual_UpdateAvailableMsg,An update is available for the current manual language ({0}). Would you like to download it now?,An update is available for the current manual language ({0}). Would you like to download it now?,,manual update available message
+LocaliseManual_UpdateAvailableTitle,Manual update available,Manual update available,,manual update available title
+CoreResources_LostIdReference,{0} has a missing IdReference at {1}.,{0} has a missing IdReference at {1}.,,Message to display when a resource has a lost IdReference and the breadcrumb trail to it
+Warning_ImportProject_Title,Warning,Warning,,Warning
+Warning_ImportProject_Message,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,,Warning Importing Project message
+Warning_AppIconAlpha_Title,Warning,Warning,,Warning
+Warning_AppIconAlpha_Message,The image selected has transparency. Please select a different image.,The image selected has transparency. Please select a different image.,,App icon image transparency warning message
+Error_CannotPackage_Message,The executable cannot be created as it's still currently running.,The executable cannot be created as it's still currently running.,,Application running error message.
+CannotImportStripImageError_Title,Error,Error,,Error
+CannotImportStripImageError_Message,An image of size {0} x {1} can't be split into {2} equal frames. Please resize the image and try again.,An image of size {0} x {1} can't be split into {2} equal frames. Please resize the image and try again.,,Strip image dimensions error
+SourceControl_GitExecutablePath,Git executable path,Git executable path,,The path to the git executable
+SourceControl_GitMergeToolPath,Merge tool,Merge tool,,The merge tool path
+SourceControl_GitDiffToolPath,Diff tool,Diff tool,,The diff tool path
+SourceControl_Push_Warning,Your changes couldn't be pushed to the remote. Please check Source Control Output for more information,Your changes couldn't be pushed to the remote. Please check Source Control Output for more information,,Warning message for git push failure.
+SourceControl_Pull_Warning,Changes couldn't be pulled from the remote. Please check Source Control Output for more information,Changes couldn't be pulled from the remote. Please check Source Control Output for more information,,Warning message for git pull failure.
+SourceControl_Status_Warning,The status of the git repository couldn't be queried. Please check Source Control Output for more information,The status of the git repository couldn't be queried. Please check Source Control Output for more information,,Warning for git status failure.
+SourceControl_Clone_Warning,Couldn't clone repository. Please check Source Control Output for more information,Couldn't clone repository. Please check Source Control Output for more information,,Warning for git clone failure.
+SourceControl_Add_Warning,Couldn't add files to the repository. Please check Source Control Output for more information,Couldn't add files to the repository. Please check Source Control Output for more information,,Warning for git add failure.
+SourceControl_Remove_Warning,Couldn't remove file from the repository. Please check Source Control Output for more information,Couldn't remove file from the repository. Please check Source Control Output for more information,,Warning for git restore failure.
+SourceControl_Commit_Warning,Couldn't commit files. Please check Source Control Output for more information,Couldn't commit files. Please check Source Control Output for more information,,Warning for git commit failure.
+SourceControl_Checkout_Warning,Couldn't perform checkout. Please check Source Control Output for more information,Couldn't perform checkout. Please check Source Control Output for more information,,Warning for git checkout failure.
+SourceControl_Log_Warning,Couldn't retrieve log. Please check Source Control Output for more information,Couldn't retrieve log. Please check Source Control Output for more information,,Warning for git log failure.
+SourceControl_Create_Warning,Couldn't create repository. Please check Source Control Output for more information,Couldn't create repository. Please check Source Control Output for more information,,Warning for git create failure.
+SourceControl_Merge_Warning,Couldn't complete merge operation. Please check Source Control Output for more information,Couldn't complete merge operation. Please check Source Control Output for more information,,Warning for git merge failure.
