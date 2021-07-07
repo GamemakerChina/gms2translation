@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.4.1_0_53601bef" segtype="sentence" srclang="en-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.5.0_0_a1fd6a4d" segtype="sentence" srclang="en-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -14378,6 +14378,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T114450Z" creationid="liaronce" creationdate="20210228T114450Z">
         <seg>"此项目没有配置 Git 存储库。\n如果需要本地存储库，请尝试创建，或导入到现有存储库。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"This Object currently has no Events.\nAdd Events here or via the editor"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20210707T110216Z" creationid="liaronce" creationdate="20210707T110216Z">
+        <seg>“此物体当前没有事件。\n在此处或通过编辑器添加事件”</seg>
       </tuv>
     </tu>
     <tu>
