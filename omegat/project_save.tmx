@@ -23354,6 +23354,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Check to uncompress this file after being copied to the target platform</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T113036Z" creationid="liaronce" creationdate="20211002T113036Z">
+        <seg>选中此选项可在将此文件复制到目标平台后将其解压缩</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Check to uncompress zip</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T200507Z" creationid="deciia" creationdate="20170311T143147Z">
@@ -24278,6 +24286,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T074240Z" creationid="deciia" creationdate="20180922T074240Z">
         <seg>代码错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Code Injection:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112950Z" creationid="liaronce" creationdate="20211002T112950Z">
+        <seg>代码注入：</seg>
       </tuv>
     </tu>
     <tu>
@@ -30687,6 +30703,15 @@ Add-ons应该怎么翻译？</note>
       </tuv>
     </tu>
     <tu>
+      <note>EMSCRIPTEN：Emscripten，用于编译  WebAssembly(WASM) 和 ASM.js 的编译器</note>
+      <tuv lang="en-US">
+        <seg>EMSCRIPTEN SDK location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T113341Z" creationid="liaronce" creationdate="20211002T113341Z">
+        <seg>EMSCRIPTEN SDK 位置</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en-US">
         <seg>ERROR - Creating Game</seg>
       </tuv>
@@ -34897,6 +34922,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T040232Z" creationid="deciia" creationdate="20180922T021349Z">
         <seg>GCM 发送者 ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GDK base location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T113138Z" creationid="liaronce" creationdate="20211002T113138Z">
+        <seg>GDK 基础位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GDK location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T113120Z" creationid="liaronce" creationdate="20211002T113120Z">
+        <seg>GDK 位置</seg>
       </tuv>
     </tu>
     <tu>
@@ -49680,6 +49721,22 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>PS5 SDK location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T113113Z" creationid="liaronce" creationdate="20211002T113113Z">
+        <seg>PS5 SDK 位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>PS5 Tools location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T113115Z" creationid="liaronce" creationdate="20211002T113115Z">
+        <seg>PS5 工具位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Package Company</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T070604Z" creationid="deciia" creationdate="20170104T070604Z">
@@ -51729,6 +51786,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T071422Z" creationid="deciia" creationdate="20170104T071422Z">
         <seg>纵向启动画面</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Ports {0} - {1} are unavailable for launching help.\nPlease change the Help manual port or select 'Use online manual' in Preferences.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T113052Z" creationid="liaronce" creationdate="20211002T113052Z">
+        <seg>端口 {0} - {1} 不可用于启动帮助。\n请更改帮助手册端口或在首选项中选择“使用联机手册”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -56637,6 +56702,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Select From Any Layer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112952Z" creationid="liaronce" creationdate="20211002T112952Z">
+        <seg>从任何图层中选择</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Select From Any Layer (P)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170303T154002Z" creationid="deciia" creationdate="20170303T154002Z">
@@ -57653,6 +57726,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T145945Z" creationid="36011" creationdate="20170315T145945Z">
         <seg>设置外部名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set File Watcher action delay in ms after filesystem changes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T113111Z" creationid="liaronce" creationdate="20211002T113111Z">
+        <seg>在文件系统更改后以毫秒为单位设置文件观察器操作延迟</seg>
       </tuv>
     </tu>
     <tu>
@@ -61119,6 +61200,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Snap To Grid</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T113008Z" creationid="liaronce" creationdate="20211002T113008Z">
+        <seg>对齐网格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Snap To Grid (${toggle_grid_snap})</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170510T021523Z" creationid="deciia" creationdate="20170510T021523Z">
@@ -62459,6 +62548,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Step into function call</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T113021Z" creationid="liaronce" creationdate="20211002T113021Z">
+        <seg>跳入函数调用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Step into function call (${debugger_step_into})</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T070358Z" creationid="deciia" creationdate="20180922T070358Z">
@@ -62467,10 +62564,26 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Step out of function</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T113031Z" creationid="liaronce" creationdate="20211002T113031Z">
+        <seg>跳出函数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Step out of function (${debugger_step_out})</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T070427Z" creationid="deciia" creationdate="20180922T070427Z">
         <seg>跳出函数 (${debugger_step_out})</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Step over function call</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T113026Z" creationid="liaronce" creationdate="20211002T113026Z">
+        <seg>跳过函数调用</seg>
       </tuv>
     </tu>
     <tu>
@@ -63185,6 +63298,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143336Z" creationid="liaronce" creationdate="20191118T143336Z">
         <seg>Switch 工具错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Switch between selection and editing modes in brush builder page</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T113003Z" creationid="liaronce" creationdate="20211002T113003Z">
+        <seg>在画笔生成器页面中的选择和编辑模式之间切换</seg>
       </tuv>
     </tu>
     <tu>
@@ -66912,6 +67033,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T134737Z" creationid="deciia" creationdate="20170103T134737Z">
         <seg>载入时非压缩 -非流式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Uncompress on build</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112946Z" creationid="liaronce" creationdate="20211002T112937Z">
+        <seg>构建时解压缩</seg>
       </tuv>
     </tu>
     <tu>
