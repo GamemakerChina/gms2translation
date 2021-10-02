@@ -20928,6 +20928,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Automatically Stop Running before packaging</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112758Z" creationid="liaronce" creationdate="20211002T112758Z">
+        <seg>打包前自动停止运行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Automatically create default parameter tracks</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134419Z" creationid="liaronce" creationdate="20200820T134419Z">
@@ -24771,6 +24779,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170314T162715Z" creationid="deciia" creationdate="20170314T162715Z">
         <seg>编译</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Compiling...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112818Z" creationid="liaronce" creationdate="20211002T112818Z">
+        <seg>正在编译...</seg>
       </tuv>
     </tu>
     <tu>
@@ -30672,6 +30688,30 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ERROR - Creating Game</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112859Z" creationid="liaronce" creationdate="20211002T112848Z">
+        <seg>错误 - 创建游戏时出错</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ERROR - Retrieving List of Games</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112907Z" creationid="liaronce" creationdate="20211002T112907Z">
+        <seg>错误 - 检索游戏列表时出错</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ERROR - Unable to refresh OAuth token</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112921Z" creationid="liaronce" creationdate="20211002T112921Z">
+        <seg>错误 - 无法刷新 OAuth 令牌</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ERROR:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T073051Z" creationid="deciia" creationdate="20170105T073051Z">
@@ -30884,6 +30924,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T215643Z" creationid="deciia" creationdate="20161224T071954Z">
         <seg>编辑上下文菜单</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Edit Game on Opera</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112811Z" creationid="liaronce" creationdate="20211002T112811Z">
+        <seg>在 Opera 上编辑游戏</seg>
       </tuv>
     </tu>
     <tu>
@@ -33455,6 +33503,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Failed to retrieve OAuth token</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112927Z" creationid="liaronce" creationdate="20211002T112927Z">
+        <seg>检索 OAuth 令牌失败</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Failed to save licence file {0} - no result</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T193444Z" creationid="deciia" creationdate="20180922T193444Z">
@@ -34919,6 +34975,38 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GXC Upload Exiting...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112826Z" creationid="liaronce" creationdate="20211002T112826Z">
+        <seg>GXC 上传正在退出...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GXC Upload Timeout...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112829Z" creationid="liaronce" creationdate="20211002T112829Z">
+        <seg>GXC 上传超时...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GXC Upload failed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112841Z" creationid="liaronce" creationdate="20211002T112841Z">
+        <seg>GXC 上传失败</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GXC Upload succeeded</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112839Z" creationid="liaronce" creationdate="20211002T112839Z">
+        <seg>GXC 上传成功</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Gadget</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T014559Z" creationid="deciia" creationdate="20170104T055530Z">
@@ -34963,6 +35051,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T070038Z" creationid="deciia" creationdate="20170104T070038Z">
         <seg>游戏</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Game Created!</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112843Z" creationid="liaronce" creationdate="20211002T112843Z">
+        <seg>游戏已创建！</seg>
       </tuv>
     </tu>
     <tu>
@@ -45102,6 +45198,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>List of Games Retrieved</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112850Z" creationid="liaronce" creationdate="20211002T112850Z">
+        <seg>检索到的游戏列表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Listbox</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T074644Z" creationid="deciia" creationdate="20170102T074644Z">
@@ -46185,6 +46289,15 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T083956Z" creationid="deciia" creationdate="20170104T083956Z">
         <seg>中图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>这里的Medium应该是一个博客平台</note>
+      <tuv lang="en-US">
+        <seg>Medium Logo</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112655Z" creationid="liaronce" creationdate="20211002T112655Z">
+        <seg>Medium Logo</seg>
       </tuv>
     </tu>
     <tu>
@@ -48269,6 +48382,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>OAuth2 Exiting...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112915Z" creationid="liaronce" creationdate="20211002T112915Z">
+        <seg>OAuth2 正在退出...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OAuth2 Timeout...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112918Z" creationid="liaronce" creationdate="20211002T112918Z">
+        <seg>OAuth2 超时...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OAuth2 access token received</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112932Z" creationid="liaronce" creationdate="20211002T112932Z">
+        <seg>收到 OAuth2 访问令牌</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OAuth2 response received</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112913Z" creationid="liaronce" creationdate="20211002T112913Z">
+        <seg>已收到 OAuth2 响应</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>OK</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T030823Z" creationid="deciia" creationdate="20161223T064858Z">
@@ -49009,6 +49154,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112311Z" creationid="liaronce" creationdate="20211002T112311Z">
         <seg>Opera GX</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>OperaGX Packaging</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112803Z" creationid="liaronce" creationdate="20211002T112803Z">
+        <seg>OperaGX 打包</seg>
       </tuv>
     </tu>
     <tu>
@@ -50966,6 +51119,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T100802Z" creationid="deciia" creationdate="20170102T100802Z">
         <seg>播放/暂停动画</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>PlayFab Party ID</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112640Z" creationid="liaronce" creationdate="20211002T112640Z">
+        <seg>PlayFab Party ID</seg>
       </tuv>
     </tu>
     <tu>
@@ -53006,6 +53167,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T141745Z" creationid="deciia" creationdate="20170311T141745Z">
         <seg>刷新拥有的教程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Refreshing OAuth2 Token</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112821Z" creationid="liaronce" creationdate="20211002T112821Z">
+        <seg>刷新 OAuth2 令牌</seg>
       </tuv>
     </tu>
     <tu>
@@ -60510,6 +60679,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sign-In to Opera</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112808Z" creationid="liaronce" creationdate="20211002T112808Z">
+        <seg>登录到 Opera</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Signature is invalid</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T192929Z" creationid="deciia" creationdate="20180922T192929Z">
@@ -62152,6 +62329,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Starting Sign-In to Opera</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112814Z" creationid="liaronce" creationdate="20211002T112814Z">
+        <seg>开始登录 Opera</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>State</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T152257Z" creationid="deciia" creationdate="20170215T152257Z">
@@ -62826,10 +63011,34 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Support Holographic device family</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112636Z" creationid="liaronce" creationdate="20211002T112636Z">
+        <seg>支持全息设备系列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Support Library</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T100041Z" creationid="deciia" creationdate="20170105T100041Z">
         <seg>支持库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Support Mobile device family</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112633Z" creationid="liaronce" creationdate="20211002T112633Z">
+        <seg>支持移动设备系列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Support Team device family</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112637Z" creationid="liaronce" creationdate="20211002T112637Z">
+        <seg>支持团队设备系列</seg>
       </tuv>
     </tu>
     <tu>
@@ -62854,6 +63063,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T055850Z" creationid="deciia" creationdate="20170105T032457Z">
         <seg>支持 WXGA 分辨率</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Support Xbox device family</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112632Z" creationid="liaronce" creationdate="20211002T112632Z">
+        <seg>支持 Xbox 设备系列</seg>
       </tuv>
     </tu>
     <tu>
@@ -67103,6 +67320,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T090341Z" creationid="deciia" creationdate="20170103T090341Z">
         <seg>上传到市场...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Uploading...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112823Z" creationid="liaronce" creationdate="20211002T112823Z">
+        <seg>正在上传...</seg>
       </tuv>
     </tu>
     <tu>
