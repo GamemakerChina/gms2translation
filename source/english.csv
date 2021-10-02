@@ -74,6 +74,7 @@ Button_Yes,Yes,Yes,,Yes
 Button_Next,Next,Next,,next button label
 Button_Create,Create,Create,,create button label
 Button_Apply,Apply,Apply,,apply button label
+Button_Search,Search,Search,,search button label
 Button_Remove_All,Remove All,Remove All,,button label - remove all
 Dialog_ResetLayout_Title,Reset Layout,Reset Layout,,Reset layout dialog title
 Dialog_ResetLayout,Resetting the project layout will close any open resources. Are you sure you want to reset the layout?,Resetting the project layout will close any open resources. Are you sure you want to reset the layout?,,Dialog message reset layout
@@ -527,6 +528,7 @@ Inspector_Category_Viewport,Viewport,Viewport,,Inspector category
 Inspector_Category_View,View,View,,Inspector category
 Inspector_Category_TextureSettings,Texture Settings,Texture Settings,,Inspector category
 Inspector_Category_CollisionMask,Collision Mask,Collision Mask,,Inspector category
+Inspector_Category_Nineslice,Nine Slices,Nine Slices,,Inspector category
 Inspector_Category_Tiles,Tiles,Tiles,,Inspector category
 Inspector_Category_FontOptions,Advanced Options,Advanced Options,,Inspector category
 Inspector_Category_CanvasFrame,Canvas Frame,Canvas Frame,,Inspector category
@@ -538,8 +540,14 @@ Inspector_Category_Properties,Properties,Properties,,inspector category
 Inspector_Category_Editors,Editors,Editors,,inspector category
 Inspector_Field_Width,W,W,,inspector field label
 Inspector_Field_Height,H,H,,inspector field label
+Inspector_Field_WidthC,W:,W:,,inspector field label
+Inspector_Field_HeightC,H:,H:,,inspector field label
 Inspector_Field_X,X,X,,inspector field label
 Inspector_Field_Y,Y,Y,,inspector field label
+Inspector_Field_Left,L,L,,left abbreviated
+Inspector_Field_Right,R,R,,right abbreviated
+Inspector_Field_Top,T,T,,top abbreviated
+Inspector_Field_Bottom,B,B,,bottom abbreviated
 Inspector_TileOffset,Tile Offset,Tile Offset,,inspector property label
 Inspector_Separation,Separation,Separation,,inspector property label
 Inspector_OutputBorder,Output Border,Output Border,,inspector property label
@@ -552,6 +560,7 @@ Inspector_Offset,Offset,Offset,,inspector property label
 Inspector_Opacity,Opacity,Opacity,,inspector property label
 Inspector_BackdropImage,Backdrop Image,Backdrop Image,,inspector property label
 Inspector_BackdropSize,Backdrop Size,Backdrop Size,,inspector property label
+Inspector_Size,Size,Size,,inspector property label
 GMShader_VertexShaderPath,.VSH (Read-only),.VSH (Read-only),,inspector property name
 GMShader_FragmentShaderPath,.FSH (Read-only),.FSH (Read-only),,inspector property name
 Inspector_Script,Script (Read-only),Script (Read-only),,inspector property name
@@ -790,23 +799,23 @@ IDEMenu_LoadLayout,Load Layout,Load Layout,,Main menu entry for load layouts
 IDEMenu_SaveLayout,Save Layout,Save Layout,,Main menu entry for save layouts
 IDEMenu_ResetLayout,Reset Layout,Reset Layout,,Main menu entry for resetting the layout
 IDETooltip_StartPage,Start Page,Start Page,,IDE toolbar tooltip for the home button
-IDETooltip_NewProject,New Project (${show_new_projects_page}),New Project (${show_new_projects_page}),,IDE toolbar tooltip
-IDETooltip_OpenProject,Open Project (${load_project_dialog}),Open Project (${load_project_dialog}),,IDE toolbar tooltip
-IDETooltip_Save,Save Project (${menu_save_project_incremental}),Save Project (${menu_save_project_incremental}),,IDE toolbar tooltip
-IDETooltip_Package,Create Executable (${package_program}),Create Executable (${package_program}),,IDE toolbar tooltip
+IDETooltip_NewProject,New Project ,New Project ,,IDE toolbar tooltip
+IDETooltip_OpenProject,Open Project ,Open Project ,,IDE toolbar tooltip
+IDETooltip_Save,Save Project ,Save Project ,,IDE toolbar tooltip
+IDETooltip_Package,Create Executable ,Create Executable ,,IDE toolbar tooltip
 IDETooltip_Package_FreeDisabled,Create Executable (not available with Trial Licence),Create Executable (not available with Trial Licence),,IDE toolbar tooltip
-IDETooltip_Debug,Debug (F6),Debug (F6),,IDE toolbar tooltip
-IDETooltip_Run,Run (F5),Run (F5),,IDE toolbar tooltip
+IDETooltip_Debug,Debug ,Debug ,,IDE toolbar tooltip
+IDETooltip_Run,Run ,Run ,,IDE toolbar tooltip
 IDETooltip_Stop,Stop,Stop,,IDE toolbar tooltip
-IDETooltip_Clean,Clean (${clean_program}),Clean (${clean_program}),,IDE toolbar tooltip
+IDETooltip_Clean,Clean ,Clean ,,IDE toolbar tooltip
 IDETooltip_GameSettings,Game Options,Game Options,,IDE toolbar tooltip
-IDETooltip_Help,Help (F1),Help (F1),,IDE toolbar tooltip
+IDETooltip_Help,Help ,Help ,,IDE toolbar tooltip
 IDETooltip_Targets,Targets,Targets,,IDE toolbar tooltip
 IDETooltip_Notifications,Notifications,Notifications,,IDE toolbar notifications tooltip
-IDETooltop_WorkspaceZoomIn,Zoom In (${zoom_in_workspace}),Zoom In (${zoom_in_workspace}),,workspace zoom in ide toolbar tooltip
-IDETooltop_WorkspaceZoomOut,Zoom Out (${zoom_out_workspace}),Zoom Out (${zoom_out_workspace}),,workspace zoom out ide toolbar tooltip
-IDETooltop_WorkspaceZoomReset,Zoom Reset (${reset_workspace_zoom}),Zoom Reset (${reset_workspace_zoom}),,workspace zoom reset ide toolbar tooltip
-IDETooltop_CollapseDocks,Collapse/Expand dock panels (F12),Collapse/Expand dock panels (F12),,collapse/expand docks tooltip
+IDETooltop_WorkspaceZoomIn,Zoom In ,Zoom In ,,workspace zoom in ide toolbar tooltip
+IDETooltop_WorkspaceZoomOut,Zoom Out ,Zoom Out ,,workspace zoom out ide toolbar tooltip
+IDETooltop_WorkspaceZoomReset,Zoom Reset ,Zoom Reset ,,workspace zoom reset ide toolbar tooltip
+IDETooltop_CollapseDocks,Collapse/Expand dock panels ,Collapse/Expand dock panels ,,collapse/expand docks tooltip
 ImageEditor_AddFrame,Add Frame,Add Frame,,Image editor menu option -Add frame
 ImageEditor_AddFromFile,Import Image(s),Import Image(s),,Add images from file menu option
 ImageEditor_CreateFromStrip,Convert to Frames,Convert to Frames,,create from strip menu option
@@ -1033,6 +1042,8 @@ IncludedFilesPlatform_iOS_YYC,iOS (YYC),iOS (YYC),DO NOT TRANSLATE,included file
 IncludedFilesPlatform_Mac_OS_X,macOS,macOS,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_PlayStation_4,PlayStation 4,PlayStation 4,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_PlayStation_4_YYC,PlayStation 4 (YYC),PlayStation 4 (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_PlayStation_5,PlayStation 5,PlayStation 5,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_PlayStation_5_YYC,PlayStation 5 (YYC),PlayStation 5 (YYC),DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Ubuntu_Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Ubuntu_Linux_YYC,Ubuntu (YYC),Ubuntu (YYC),DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Windows,Windows,Windows,DO NOT TRANSLATE - refers to the Windows OS,included files platform list entry
@@ -1044,10 +1055,17 @@ IncludedFilesPlatform_Windows8_Javascript,Windows 8 (Javascript),Windows 8 (Java
 IncludedFilesPlatform_Windows8_Native,Windows 8 (Native),Windows 8 (Native),DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_XBox_One,Xbox One,Xbox One,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_XBox_One_YYC,Xbox One (YYC),Xbox One (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Xbox_Series_XS,Xbox Series X/S,Xbox Series X/S,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Xbox_Series_XS_YYC,Xbox Series X/S (YYC),Xbox Series X/S (YYC),DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Windows_UWP,Windows UWP,Windows UWP,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Android_TV,Android TV,Android TV,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_TV_OS,tvOS,tvOS,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_AmazonFire,Amazon Fire,Amazon Fire,DO NOT TRANSLATE,Amazon Fire platform list entry
+IncludedFilesPlatform_WASM,WASM,WASM,DO NOT TRANSLATE,WASM platform list entry
+IncludedFilesPlatform_OPERAGX,Opera GX,Opera GX,DO NOT TRANSLATE,Opera GX platform list entry
+wasm,WASM,WASM,DO NOT TRANSLATE,WASM Platform settings entry
+operagx,Opera GX,Opera GX,DO NOT TRANSLATE,Opera GX Platform settings entry
+OperaGX,Opera GX,Opera GX,DO NOT TRANSLATE,Opera GX Platform settings entry
 InstanceProperties_CreationCode,Creation Code,Creation Code,,instance properties button caption for opening the creation code
 InstanceProperties_EditObject,Edit Object,Edit Object,,instance properties button caption for opening the object for edit
 InstanceProperties_FlipX,Flip X,Flip X,,instance properties checkbox label for flip x
@@ -1555,19 +1573,19 @@ RoomEditorTileEditing_DeleteSelection,Delete Selection,Delete Selection,,Tile ed
 RoomEditorTileEditing_InvertSelection,Invert Selection,Invert Selection,,Tile editing menu entry heading for invert the current mask selection
 RoomEditorTileEditing_Menu,Tile Editing,Tile Editing,,Tile editing sub menu entry heading
 RoomEditorTileEditing_TileDisplayWindow,Tile Selection Window,Tile Selection Window,,Tile editing menu entry heading for open the tile selection window
-RoomEditorTool_AutoTile,Auto Tile (A),Auto Tile (A),,tooltip for auto tile tool
-RoomEditorTool_SelectTiles,Select Tiles (S),Select Tiles (S),,tooltip for tile selection tool
+RoomEditorTool_AutoTile,Auto Tile ,Auto Tile ,,tooltip for auto tile tool
+RoomEditorTool_SelectTiles,Select Tiles ,Select Tiles ,,tooltip for tile selection tool
 RoomEditorTool_TileBrush,Paint Tiles,Paint Tiles,,Button tooltip for the tile brush tool
-RoomEditorTool_TileEraser,Eraser (E),Eraser (E),,tooltip for tile eraser tool
-RoomEditorTool_TileFlip,Flip (Y),Flip (Y),,tooltip for flip tile brush
+RoomEditorTool_TileEraser,Eraser ,Eraser ,,tooltip for tile eraser tool
+RoomEditorTool_TileFlip,Flip ,Flip ,,tooltip for flip tile brush
 RoomEditorTool_TileInheritance,Show Tile Inheritance,Show Tile Inheritance,,Tooltip message for the show tile inheritance button
-RoomEditorTool_TileMirror,Mirror (X),Mirror (X),,tooltip for mirror tile brush
-RoomEditorTool_TilePaintInheritance,Edit Tile Inheritance (I),Edit Tile Inheritance (I),,tooltip for inheritance tile brush
-RoomEditorTool_TilePen,Pen (D),Pen (D),,tooltip for tile pen tool
-RoomEditorTool_TileRotate,Rotate Tile (Z),Rotate Tile (Z),,tooltip for rotate tile brush
-RoomEditorTool_TileFill,Fill (F),Fill (F),,tooltip for fill tile tool
-RoomEditorTool_TileLine,Line (L),Line (L),,tooltip for line tile tool
-RoomEditorTool_TileRect,Rectangle (R),Rectangle (R),,tooltip for rectangle tile tool
+RoomEditorTool_TileMirror,Mirror ,Mirror ,,tooltip for mirror tile brush
+RoomEditorTool_TilePaintInheritance,Edit Tile Inheritance ,Edit Tile Inheritance ,,tooltip for inheritance tile brush
+RoomEditorTool_TilePen,Pen ,Pen ,,tooltip for tile pen tool
+RoomEditorTool_TileRotate,Rotate Tile ,Rotate Tile ,,tooltip for rotate tile brush
+RoomEditorTool_TileFill,Fill ,Fill ,,tooltip for fill tile tool
+RoomEditorTool_TileLine,Line ,Line ,,tooltip for line tile tool
+RoomEditorTool_TileRect,Rectangle ,Rectangle ,,tooltip for rectangle tile tool
 RoomProperties_BackgroundColour,Room Colour,Room Colour,,room properties section heading for background colour
 RoomProperties_ClearDisplayBuffer,Clear Display Buffer,Clear Display Buffer,,checkbox caption for clear display buffer option
 RoomProperties_ClearView,Clear Viewport Background,Clear Viewport Background,,checkbox caption for clear view background option
@@ -1874,6 +1892,12 @@ ListBoxEnum_eTileMode_BlankRepeat,Blank Repeat,Blank Repeat,,enum name
 ListBoxEnum_eTileMode_Hide,Hide,Hide,,enum name
 ListBoxEnum_eHighlightStyle_Inverted,Inverted,Inverted,,nineslice highlight style enum
 ListBoxEnum_eHighlightStyle_Overlay,Overlay,Overlay,,nineslice highlight style enum
+ListBoxEnum_eSpriteColKind_Precise,Precise (Slow),Precise (Slow),,Sprite editor collision type
+ListBoxEnum_eSpriteColKind_Rectangle,Rectangle,Rectangle,,Sprite editor collision type
+ListBoxEnum_eSpriteColKind_Ellipse,Ellipse (Slow),Ellipse (Slow),,Sprite editor collision type
+ListBoxEnum_eSpriteColKind_Diamond,Diamond (Slow),Diamond (Slow),,Sprite editor collision type
+ListBoxEnum_eSpriteColKind_PrecisePerFrame,Precise Per Frame (Slow),Precise Per Frame (Slow),,Sprite editor collision mask type
+ListBoxEnum_eSpriteColKind_RectangleRotation,Rectangle with rotation,Rectangle with rotation,,Sprite editor collision type
 ParticleType_NewName,New_Particle_Type,New_Particle_Type,,Name of a newly created particle type resource
 ParticleEmitter_NewName,New_Emitter,New_Emitter,,Name of a newly created particle emitter resource
 ParticleTypeEditor_Title,Particle Types,Particle Types,,Particle type editor window title
@@ -2418,6 +2442,7 @@ ggs_graphics_scale_keepaspectratio,Keep aspect ratio,Keep aspect ratio,,Game Set
 ggs_launchscreen_fill,Launchscreen fill,Launchscreen fill,,Launchscreen fill
 ggs_graphics_scale_fullscale,Full scale,Full scale,,Game Settings Graphics Scale - Full scale option
 ggs_version,Version,Version,,Game Settings Version title
+ggs_game_name,Game Name,Game Name,,Game Settings Game Name label
 ImagePath_ImageError,Error Selecting Image,Error Selecting Image,,Error when using image_path gadget to select an image
 ImagePath_NotExpectedDimensions,The image is expected to be of {0}x{1} but received {2}x{3},The image is expected to be of {0}x{1} but received {2}x{3},,Image wrong size with 0x1 being expected size and 2x3 being the image size
 ImagePath_NotExpectedAlpha,The image is expected to have an alpha channel (i.e. be 32-bit),The image is expected to have an alpha channel (i.e. be 32-bit),,The image needs to have an alpha channel but the selected one does not
@@ -2443,6 +2468,9 @@ ggs_ps_package_id,Package Content ID,Package Content ID,,Package Content Id
 ggs_ps_passcode,Package Passcode,Package Passcode,,Package Passcode
 ggs_mac_provision_refresh,Refresh from Mac,Refresh from Mac,,Refresh provisioning list from Mac
 ggs_ps4_param_sfo,PARAM.SFO,PARAM.SFO,,Run Sony PARAM.SFO Editor
+ggs_ps5_param_json,Param.json,Param.json,,Run Sony Param.json Editor
+ggs_ps5_shared_binary_tooltip,Comma separated list of configs to include as sub-SKUs,Comma separated list of configs to include as sub-SKUs,,Comma separated list of configs to include as sub-SKUs
+ggs_ps5_shared_binary,SharedBinary SubConfigs,SharedBinary SubConfigs,,SharedBinary SubConfigs
 ggs_ps4_np_title_dat,NPTITLE.DAT,NPTITLE.DAT,,Import nptitle.dat
 ggs_ps4_trophy_edit,Trophy Editor,Trophy Editor,,Run Sony Trophy Editor
 ggs_ps4_share_param,Share Editor,Share Editor,,Run Sony Share File Editor
@@ -2511,6 +2539,7 @@ ggs_android_lint,Run Lint code analysis,Run Lint code analysis,,Run Lint Code An
 ggs_landscape_splash_screen,Landscape Splash Screen,Landscape Splash Screen,,Landscape Splash Screen
 ggs_portrait_splash_screen,Portrait Splash Screen,Portrait Splash Screen,,Portrait Splash Screen
 ggs_splash_screen,Splash Screen Image,Splash Screen Image,,Splash Screen Image
+ggs_foreground_screen,Foreground Image,Foreground Image,,Foreground Image
 LicenceExcluded_ggs_splash_screen,Splash screen image cannot be changed on 'Creator' platforms,Splash screen image cannot be changed on 'Creator' platforms,Do not localise 'Creator' it's a product name,forced splash screen image tooltip
 ggs_use_splash_screen,Use splash screen,Use splash screen,,Use Splash Screen
 LicenceExcluded_ggs_use_splash_screen,Splash screen cannot be disabled on 'Creator' platforms,Splash screen cannot be disabled on 'Creator' platforms,Do not localise 'Creator' it's a product name,use splash force enabled tooltip
@@ -2731,6 +2760,8 @@ ggs_languages_xml,Languages XML,Languages XML,,Languages XML
 ggs_title_id,Title ID,Title ID,,Title Id
 ggs_service_configuration_id,Service Configuration ID,Service Configuration ID,,Service Configuration Id
 ggs_xbox_program_id,Program ID,Program ID,,Program Id
+ggs_xboxseriesxs_package_name,Package Name,Package Name,,Package Name
+ggs_playfab_party_id,PlayFab Party ID,PlayFab Party ID,,PlayFab Party ID
 ggs_require_xbox_live,Require Xbox Live,Require Xbox Live,,Require Xbox Live
 ggs_require_game_chat,Require game chat,Require game chat,,Require Game Chat
 ggs_game_chat_slots,Max game chat slots,Max game chat slots,,Max game chat slots
@@ -2739,6 +2770,7 @@ ggs_service_config_manifest,Service Manifest,Service Manifest,,Service Config Ma
 ggs_network_config_manifest,Network Manifest,Network Manifest,,Network Config Manifest
 ggs_small_logo,Small Logo,Small Logo,,Small Logo
 ggs_store_logo,Store Logo,Store Logo,,Store Logo
+ggs_medium_logo,Medium Logo,Medium Logo,,Medium Logo
 ggs_large_logo,Large Logo,Large Logo,,Large Logo
 ggs_wide_logo,Wide Logo,Wide Logo,,Wide Logo
 ggs_small_cycle_image,Small Cycle Image,Small Cycle Image,,Small Cycle Image
@@ -3007,7 +3039,11 @@ TargetSelection_Platform_AmazonFire,Amazon Fire,Amazon Fire,DO NOT TRANSLATE,the
 TargetSelection_Platform_ios,iOS,iOS,DO NOT TRANSLATE,the apple iOS platform title in the platform selection list
 TargetSelection_Platform_tvos,tvOS,tvOS,DO NOT TRANSLATE,the apple tvOS platform title in the platform selection list
 TargetSelection_Platform_ps4,PlayStation 4,PlayStation 4,,the ps4 platform title in the platform selection list
+TargetSelection_Platform_ps5,PlayStation 5,PlayStation 5,,the ps5 platform title in the platform selection list
 TargetSelection_Platform_xboxone,Xbox One,Xbox One,DO NOT TRANSLATE,the xbox one platform title in the platform selection list
+TargetSelection_Platform_xboxseriesxs,Xbox Series X/S,Xbox Series X/S,DO NOT TRANSLATE,the Xbox Series X/S platform title in the platform selection list
+TargetSelection_Platform_wasm,WASM,WASM,DO NOT TRANSLATE,the WASM platform title in the platform selection list
+TargetSelection_Platform_operagx,Opera GX,Opera GX,DO NOT TRANSLATE,the opera gx platform title in the platform selection list
 TargetSelection_Runtime_VM,VM,VM,, the VM (Virtual Machine) title in the runtime selection list
 TargetSelection_Runtime_YYC,YYC,YYC,DO NOT TRANSLATE, the yyc title in the runtime selection list
 TargetSelection_Runtime_Javascript,JavaScript,JavaScript,DO NOT TRANSLATE, the javascript title in the runtime selection list
@@ -3138,6 +3174,7 @@ android_keystore_warning2,"If lost, you cannot submit app updates to Google Play
 android_package_name_invalid_title,Package name is invalid,Package name is invalid,,Android package name is invalid
 android_package_name_invalid,Individual package name parts may only start with a letter and cannot be a reserved Java keyword,Individual package name parts may only start with a letter and cannot be a reserved Java keyword,,Android package name is invalid message and why
 clearoutputwindowoncompile,Clear output window on compile start,Clear output window on compile start,,Option to clear the output window on each compile
+autostopbeforepackage,Automatically Stop Running before packaging,Automatically Stop Running before packaging,,Option to automatically Stop Running before packaging
 openpackagesinexplorer,Show package in ${explorer} on build completion,Show package in ${explorer} on build completion,,Setting in Preferences General Compiling
 Build_StopBeforeRun,Stop the current running project before running again?,Stop the current running project before running again?,,Stop the current running project before running again?
 Build_NoDebugInYYC,"You cannot debug a project while using YYC, running using VM instead.","You cannot debug a project while using YYC, running using VM instead.",,Dialog shown when trying to debug a build whilst YYC is selected
@@ -3231,6 +3268,48 @@ ggs_advertising_key1,Key 1,Key 1,,Key 1
 ggs_advertising_key2,Key 2,Key 2,,Key 2
 ggs_advertising_key3,Key 3,Key 3,,Key 3
 ggs_advertising_key4,Key 4,Key 4,,Key 4
+wasm_package_title,OperaGX Packaging,OperaGX Packaging,,Title for dialog performing the packing for the OperaGX Target (upload to GXC)
+wasm_login,Sign-In to Opera,Sign-In to Opera,,Button label for OperaGX packaging
+wasm_view_on_web,Edit Game on Opera,Edit Game on Opera,,Button label for OperaGX packaging
+wasm_out_start_login,Starting Sign-In to Opera,Starting Sign-In to Opera,,Output Message tracking Packaging for OperaGX process
+wasm_out_compiling,Compiling...,Compiling...,,Output Message tracking Packaging for OperaGX process
+wasm_out_refreshing_token,Refreshing OAuth2 Token,Refreshing OAuth2 Token,,Output Message tracking Packaging for OperaGX process
+wasm_out_uploading,Uploading...,Uploading...,,Output Message tracking Packaging for OperaGX process
+wasm_out_upload_exiting,GXC Upload Exiting...,GXC Upload Exiting...,,Output Message tracking Packaging for OperaGX process
+wasm_out_upload_timeout,GXC Upload Timeout...,GXC Upload Timeout...,,Output Message tracking Packaging for OperaGX process
+wasm_out_upload_success,GXC Upload succeeded,GXC Upload succeeded,,Output Message tracking Packaging for OperaGX process
+wasm_out_upload_failed,GXC Upload failed,GXC Upload failed,,Output Message tracking Packaging for OperaGX process
+wasm_out_game_created,Game Created!,Game Created!,,Output Message tracking Packaging for OperaGX process
+wasm_out_game_create_error,ERROR - Creating Game,ERROR - Creating Game,,Output Message tracking Packaging for OperaGX process
+wasm_out_game_list,List of Games Retrieved,List of Games Retrieved,,Output Message tracking Packaging for OperaGX process
+wasm_out_game_list_error,ERROR - Retrieving List of Games,ERROR - Retrieving List of Games,,Output Message tracking Packaging for OperaGX process
+wasm_out_auth_received,OAuth2 response received,OAuth2 response received,,Output Message tracking Packaging for OperaGX process
+wasm_out_auth_exiting,OAuth2 Exiting...,OAuth2 Exiting...,,Output Message tracking Packaging for OperaGX process
+wasm_out_auth_timeout,OAuth2 Timeout...,OAuth2 Timeout...,,Output Message tracking Packaging for OperaGX process
+wasm_out_auth_error,ERROR - Unable to refresh OAuth token,ERROR - Unable to refresh OAuth token,,Output Message tracking Packaging for OperaGX process
+wasm_out_auth_retrieve_error,Failed to retrieve OAuth token,Failed to retrieve OAuth token,,Output Message tracking Packaging for OperaGX process
+wasm_out_auth_token_success,OAuth2 access token received,OAuth2 access token received,,Output Message tracking Packaging for OperaGX process
+operagx_package_title,OperaGX Packaging,OperaGX Packaging,,Title for dialog performing the packing for the OperaGX Target (upload to GXC)
+operagx_login,Sign-In to Opera,Sign-In to Opera,,Button label for OperaGX packaging
+operagx_view_on_web,Edit Game on Opera,Edit Game on Opera,,Button label for OperaGX packaging
+operagx_out_start_login,Starting Sign-In to Opera,Starting Sign-In to Opera,,Output Message tracking Packaging for OperaGX process
+operagx_out_compiling,Compiling...,Compiling...,,Output Message tracking Packaging for OperaGX process
+operagx_out_refreshing_token,Refreshing OAuth2 Token,Refreshing OAuth2 Token,,Output Message tracking Packaging for OperaGX process
+operagx_out_uploading,Uploading...,Uploading...,,Output Message tracking Packaging for OperaGX process
+operagx_out_upload_exiting,GXC Upload Exiting...,GXC Upload Exiting...,,Output Message tracking Packaging for OperaGX process
+operagx_out_upload_timeout,GXC Upload Timeout...,GXC Upload Timeout...,,Output Message tracking Packaging for OperaGX process
+operagx_out_upload_success,GXC Upload succeeded,GXC Upload succeeded,,Output Message tracking Packaging for OperaGX process
+operagx_out_upload_failed,GXC Upload failed,GXC Upload failed,,Output Message tracking Packaging for OperaGX process
+operagx_out_game_created,Game Created!,Game Created!,,Output Message tracking Packaging for OperaGX process
+operagx_out_game_create_error,ERROR - Creating Game,ERROR - Creating Game,,Output Message tracking Packaging for OperaGX process
+operagx_out_game_list,List of Games Retrieved,List of Games Retrieved,,Output Message tracking Packaging for OperaGX process
+operagx_out_game_list_error,ERROR - Retrieving List of Games,ERROR - Retrieving List of Games,,Output Message tracking Packaging for OperaGX process
+operagx_out_auth_received,OAuth2 response received,OAuth2 response received,,Output Message tracking Packaging for OperaGX process
+operagx_out_auth_exiting,OAuth2 Exiting...,OAuth2 Exiting...,,Output Message tracking Packaging for OperaGX process
+operagx_out_auth_timeout,OAuth2 Timeout...,OAuth2 Timeout...,,Output Message tracking Packaging for OperaGX process
+operagx_out_auth_error,ERROR - Unable to refresh OAuth token,ERROR - Unable to refresh OAuth token,,Output Message tracking Packaging for OperaGX process
+operagx_out_auth_retrieve_error,Failed to retrieve OAuth token,Failed to retrieve OAuth token,,Output Message tracking Packaging for OperaGX process
+operagx_out_auth_token_success,OAuth2 access token received,OAuth2 access token received,,Output Message tracking Packaging for OperaGX process
 windowsuwp_package_arm,Package an ARM build,Package an ARM build,,Package an ARM build
 windowsuwp_package_x86,Package an x86 build,Package an x86 build,,Package an x86 build
 windowsuwp_package_x64,Package an x64 build,Package an x64 build,,Package an x64 build
@@ -3493,7 +3572,7 @@ ExtensionEditor_Macros,Macros,Macros,,edit macros button label
 ExtensionEditor_Tooltip_AddMacro,Add Macro,Add Macro,,add macro button tooltip
 ExtensionEditor_Tooltip_RemoveMacro,Remove Macro,Remove Macro,,remove macro button tooltip
 ExtensionEditor_CopiesTo,Copies To:,Copies To:,,copies to title
-ExtensionEditor_UncompressAsZip,Uncompress as zip file,Uncompress as zip file,,uncompress as zip title
+ExtensionEditor_UncompressAsZip,Uncompress on build,Uncompress on build,,uncompress as zip title
 ExtensionEditor_Key,Key:,Key:,,key label
 ExtensionEditor_Value,Value:,Value:,,value label
 ExtensionEditor_Hidden,Hidden,Hidden,,hidden label
@@ -3544,6 +3623,7 @@ ExtensionEditor_RemoveIosSystemFrameworkAreYouSure,Are you sure you want to dele
 ExtensionEditor_ButtonChoiceOnIosSystemFrameworkDeletion,Automatic button choice on iOS System Framework deletion,Automatic button choice on iOS System Framework deletion,,Automatic button choice on android permission deletion setting
 ExtensionEditor_RemoveIos3rdPartyFrameworkAreYouSure,Are you sure you want to delete the iOS 3rd party framework?,Are you sure you want to delete the iOS 3rd party framework?,,confirm message
 ExtensionEditor_ButtonChoiceOnIos3rdPartyFrameworkDeletion,Automatic button choice on iOS 3rd Party Framework deletion,Automatic button choice on iOS 3rd Party Framework deletion,,Automatic button choice on iOS 3rd Party Framework deletion setting
+ExtensionEditor_CodeInjection,Code Injection:,Code Injection:,,ext editor code injection label
 GoToType_WindowTitle,"Search for Assets, Options, Preferences:","Search for Assets, Options, Preferences:",,Go To Type window title
 GoToType_FieldCaption,What are you looking for?,What are you looking for?,,Go To Type default search field caption
 GoToType_MaxItemPref,Maximum number of search results to display,Maximum number of search results to display,,Go To max number pref
@@ -3689,13 +3769,13 @@ TileSetEditor_Add47AutoTileSet,Add 47 Tile Set,Add 47 Tile Set,,Tooltip for addi
 TileSetEditor_Add16AutoTileSet,Add 16 Tile Set,Add 16 Tile Set,,Tooltip for adding a new 16 tile auto tile set
 TileSetEditor_DeleteSelectedAutoSet,Delete Selected Set,Delete Selected Set,,Tooltip for deleting the selected auto tile set
 TileSetEditor_ShowAutoTileGuide,Show Guide Overlay,Show Guide Overlay,,Tooltip for showing the auto tile guide overlaying the auto tile sets
-ZoomWidget_ToggleGrid,Toggle Grid (G),Toggle Grid (G),,Tooltip for the toggle grid button
+ZoomWidget_ToggleGrid,Toggle Grid ,Toggle Grid ,,Tooltip for the toggle grid button
 ZoomWidget_GridOptions,Grid Options,Grid Options,,Tooltip for opening the grid options drop down
 ZoomWidget_SplitViewToggle,Show Split View,Show Split View,,Tooltip for toggling split view
 ZoomWidget_SplitViewMode,Split View Mode,Split View Mode,,Tooltip for choosing split view mode
-ZoomWidget_ZoomIn,Zoom In (${room_area_zoom_in}),Zoom In (${room_area_zoom_in}),,Tooltip for zooming in
-ZoomWidget_ZoomOut,Zoom Out (${room_area_zoom_out}),Zoom Out (${room_area_zoom_out}),,Tooltip for zooming out
-ZoomWidget_ZoomReset,Reset Zoom (${room_area_zoom_reset}),Reset Zoom (${room_area_zoom_reset}),,Tooltip for reset zoom
+ZoomWidget_ZoomIn,Zoom In ,Zoom In ,,Tooltip for zooming in
+ZoomWidget_ZoomOut,Zoom Out ,Zoom Out ,,Tooltip for zooming out
+ZoomWidget_ZoomReset,Reset Zoom ,Reset Zoom ,,Tooltip for reset zoom
 ZoomWidget_ZoomCentreFit,Centre Fit,Centre Fit,,Tooltip for zoom centre fit
 RoomEditor_ShowViews,Show Views,Show Views,,Tooltip for show views button
 RoomEditor_PlayAnimation,Play Animation,Play Animation,,Tooltip for play animation button
@@ -4571,7 +4651,7 @@ Sprite_FileFilters_SwfFiles,Shockwave Flash Object,Shockwave Flash Object,,Sprit
 SpriteEditor_NoExport,Export Sprite Disabled,Export Sprite Disabled,,The caption alongside the checkbox to show if a sprite will be exported
 SpriteEditor_ToolTip_WillExport,Sprite will export,Sprite will export,,THe tooltip when the sprite will be exported
 SpriteEditor_ToolTip_NoExport,Sprite export disabled by tile set(s): {0},Sprite export disabled by tile set(s): {0},,The tooltip when the sprite will not be exported
-RoomEditor_SelectFromAnyLayer,Select From Any Layer (P),Select From Any Layer (P),,tool tip for the select from any layer button
+RoomEditor_SelectFromAnyLayer,Select From Any Layer ,Select From Any Layer ,,tool tip for the select from any layer button
 RoomEditor_InstanceLayerStatus,LMB + ALT to paint with selected object resources,LMB + ALT to paint with selected object resources,,status bar information for painting in an instance layer
 RoomEditor_AssetLayerStatus,LMB + ALT to paint with selected sprite resources,LMB + ALT to paint with selected sprite resources,,status bar information for painting in an asset layer
 RoomEditor_InstanceLayerStatus_Laptop,LMB + Right ALT to paint with selected object resources,LMB + Right ALT to paint with selected object resources,,status bar information for painting in an instance layer when laptop compatibility is enabled
@@ -4588,7 +4668,7 @@ Spine_License_Agree,I agree to the terms listed,I agree to the terms listed,,spi
 Spine_License_AcceptLabel,Accept Spine licence,Accept Spine licence,,spine licence option
 Spine_License_Show,Show Licence,Show Licence,,spine licence button
 Spine_NeedLicenceAcceptance,Project contains Spine assets - please accept the Spine licence agreement to proceed,Project contains Spine assets - please accept the Spine licence agreement to proceed,,spine licence requirement message
-RoomEditor_BrushEditingModeToolTip,Switch between selection and editing modes in brush builder page (${room_editor_tools_keyboard_shortcut22}),Switch between selection and editing modes in brush builder page (${room_editor_tools_keyboard_shortcut22}),,the tooltip for the editing mode button in the brush builder page
+RoomEditor_BrushEditingModeToolTip,Switch between selection and editing modes in brush builder page ,Switch between selection and editing modes in brush builder page ,,the tooltip for the editing mode button in the brush builder page
 RoomEditor_DuplicateLayer,Duplicate Layer,Duplicate Layer,,context menu option to duplicate a layer
 TileSetEditor_DeleteAnimation_ToolTip,Delete Animation,Delete Animation,,delete animation button tooltip
 TileSetEditor_PlayAnimation_ToolTip,Play Animation,Play Animation,,play animation button tooltip
@@ -4758,7 +4838,7 @@ roomeditor_propertiescolour,Properties frame colour,Properties frame colour,,pre
 roomeditor_propertieslockedcolour,Locked properties frame colour,Locked properties frame colour,,preference name for the properties frame colour for locked items in the room editor
 roomeditor_selectionboundscolour,Selection bounds colour,Selection bounds colour,,preference name for the selection bounds colour for unlocked items in the room editor
 roomeditor_selectionboundslockedcolour,Locked selection bounds colour,Locked selection bounds colour,,preference name for the selection bounds colour for locked and unlocked items in the room editor
-GridSettings_SnapToGridToolTip,Snap To Grid (${toggle_grid_snap}),Snap To Grid (${toggle_grid_snap}),,the tooltip for the snap to grid checkbox
+GridSettings_SnapToGridToolTip,Snap To Grid ,Snap To Grid ,,the tooltip for the snap to grid checkbox
 PhysicsShapeEditor_FrameOf,of,of,,Frame x of y label
 ResourcePrefs_DefaultSpriteOrigin,Default sprite origin,Default sprite origin,,Default sprite origin preference
 ResourcePrefs_DefaultSpriteCollisionMaskKind,Default sprite collision mask kind,Default sprite collision mask kind,,Preferences / Sprite Editor / Default sprite collision mask kind
@@ -4774,12 +4854,6 @@ ListBoxEnum_eOrigin_MiddleRight,Middle Right,Middle Right,,enum name
 ListBoxEnum_eOrigin_BottomLeft,Bottom Left,Bottom Left,,enum name
 ListBoxEnum_eOrigin_BottomCentre,Bottom Centre,Bottom Centre,,enum name
 ListBoxEnum_eOrigin_BottomRight,Bottom Right,Bottom Right,,enum name
-ListBoxEnum_eSpriteColKind_Rectangle,Rectangle,Rectangle,,sprite collision kind rectangle
-ListBoxEnum_eSpriteColKind_Ellipse,Ellipse,Ellipse,,sprite collision kind ellipse
-ListBoxEnum_eSpriteColKind_Diamond,Diamond,Diamond,,sprite collision kind diamond
-ListBoxEnum_eSpriteColKind_Precise,Precise,Precise,,sprite collision kind precise
-ListBoxEnum_eSpriteColKind_PrecisePerFrame,PrecisePerFrame,PrecisePerFrame,,sprite collision kind precise per frame
-ListBoxEnum_eSpriteColKind_RectangleRotation,RectangleRotation,RectangleRotation,,sprite collision kind rectangle rotation
 RoomItem_RestoreNameUpdated,Attempting to restore item '{0}' name is already in use and has been updated to '{1}',Attempting to restore item '{0}' name is already in use and has been updated to '{1}',,console log message when restoring an item whose name has been taken by another instance
 Extraction_Error,ERROR: Unable to extract '{0}' at '{1}',ERROR: Unable to extract '{0}' at '{1}',,Error message when gmz/yyz extraction fails
 FontEditor_SampleText,Sample Text,Sample Text,,Font editor sample text
@@ -4851,14 +4925,14 @@ Debugger_Window_Profile,Profile,Profile,,Debugger profile window title
 Debugger_Window_Buffers,Buffers,Buffers,,Debugger buffers window title
 Debugger_Window_RenderState,Render States,Render States,,Debugger render states window title
 Debugger_TimelineMoment,Moment {0},Moment {0},,Debugger timeline moment label
-Debugger_Toltip_Run,Continue (${debugger_continue}),Continue (${debugger_continue}),,Debugger tooltip
+Debugger_Toltip_Run,Continue ,Continue ,,Debugger tooltip
 Debugger_Toltip_Break,Break,Break,,Debugger tooltip
 Debugger_Toltip_Restart,Restart game,Restart game,,Debugger tooltip
 Debugger_Toltip_Stop,Close the game,Close the game,,Debugger tooltip
 Debugger_Tooltip_Close,Discard the collected data and end the debugging session.,Discard the collected data and end the debugging session.,,Toltip lol
-Debugger_Toltip_StepInto,Step into function call (${debugger_step_into}),Step into function call (${debugger_step_into}),,Debugger tooltip
-Debugger_Toltip_StepOver,Step over function call (${debugger_step_over}),Step over function call (${debugger_step_over}),,Debugger tooltip
-Debugger_Toltip_StepOut,Step out of function (${debugger_step_out}),Step out of function (${debugger_step_out}),,Debugger tooltip
+Debugger_Toltip_StepInto,Step into function call ,Step into function call ,,Debugger tooltip
+Debugger_Toltip_StepOver,Step over function call ,Step over function call ,,Debugger tooltip
+Debugger_Toltip_StepOut,Step out of function ,Step out of function ,,Debugger tooltip
 Debugger_Toltip_Realtime,Enable real-time debugging,Enable real-time debugging,,Debugger tooltip
 Debugger_SourceModified,Source Modified,Source Modified,,Debugger source modified window title
 Debugger_SourceModified_Msg,The source code in {0} has been modified and cannot be debugged.,The source code in {0} has been modified and cannot be debugged.,,Debugger source modified window message
@@ -5005,7 +5079,7 @@ ExtEditor_ToolTip_AddRemoveResource,Add or Remove resource,Add or Remove resourc
 ExtEditor_ToolTip_TogglePlatformSettings,Toggle extra platforms,Toggle extra platforms,,tooltip
 ExtEditor_ToolTip_AddProxyFile,Add Proxy File,Add Proxy File,,tooltip
 ExtEditor_ToolTip_RemoveProxyFile,Remove Proxy File,Remove Proxy File,,tooltip
-ExtEditor_ToolTip_UncompressAsZipFile,Check to uncompress zip,Check to uncompress zip,,tooltip
+ExtEditor_ToolTip_UncompressAsZipFile,Check to uncompress this file after being copied to the target platform,Check to uncompress this file after being copied to the target platform,,tooltip
 ExtEditor_ToolTip_SelectInitFunction,Select Init function,Select Init function,,tooltip
 ExtEditor_ToolTip_SelectFinalFunction,Select Final function,Select Final function,,tooltip
 ExtEditor_ToolTip_AddArgument,Add Argument,Add Argument,,tooltip
@@ -5091,7 +5165,7 @@ ListBoxEnum_eSymbolType_eObsolete,Obsolete,Obsolete,,Symbol type
 Sprite_PreviewErrorMsg,The file '{0}' is not supported. See Compile Errors window.,The file '{0}' is not supported. See Compile Errors window.,,Generate preview error message
 Spine_PreviewErrorMsg,The file '{0}' is not supported. See Compile Errors window for further information and try re-exporting using a supported version of Spine.,The file '{0}' is not supported. See Compile Errors window for further information and try re-exporting using a supported version of Spine.,,Generate preview error message for Spine sprites
 serverportunavailable_title,Webserver Port Unavailable,Webserver Port Unavailable,,Webserver Port Unavailable title message
-serverportunavailable_message,Port {0} is unavailable for spawning help!\nPlease change this in Preferences,Port {0} is unavailable for spawning help!\nPlease change this in Preferences,,Webserver port is unavailable message content
+serverportunavailable_message_range,Ports {0} - {1} are unavailable for launching help.\nPlease change the Help manual port or select 'Use online manual' in Preferences.,Ports {0} - {1} are unavailable for launching help.\nPlease change the Help manual port or select 'Use online manual' in Preferences.,,Webserver port is unavailable message content
 Marketplace_MyLibrary_Empty,Your library is empty.,Your library is empty.,,Empty library
 Marketplace_MyLibrary_ClickToBrowse,Click here to browse the marketplace.,Click here to browse the marketplace.,,Click to browse marketplace
 StartPage_Offline,This link cannot be opened as you are currently offline.,This link cannot be opened as you are currently offline.,,User is offline and trying to open an external url
@@ -5217,6 +5291,7 @@ MarketplaceFilter_GMS2_3Only,GMS 2.3,GMS 2.3,,Studio 2.3 assets filter name for 
 ide_language_description,IDE language,IDE language,,Label beside the IDE language selection
 pref_max_framerate,Maximum framerate of the GameMaker Studio 2 editor,Maximum framerate of the GameMaker Studio 2 editor,,Maximum framerate preference
 pref_filewatcher_tolerance,Set File Watcher tolerance in ms after saving from within IDE,Set File Watcher tolerance in ms after saving from within IDE,,File watcher preference to handle save tolerance in ms
+pref_filewatcher_delay,Set File Watcher action delay in ms after filesystem changes,Set File Watcher action delay in ms after filesystem changes,,File Watcher preference to handle delay in action after changes
 File Watcher,File Watcher,File Watcher,,File Watcher preference label
 notification_popups,Enable notifications,Enable notifications,,Enable Notification messages
 notification_timeout,Notification timeout (ms),Notification timeout (ms),,Notification timeout in ms
@@ -5249,10 +5324,17 @@ Preference_macos_package_default_type,Automatic packaging choice,Automatic packa
 Preferences_ps4_sdk_dir,PS4 SDK location,PS4 SDK location,,Preferences/Platform Settings/PS4
 Preferences_ps4_tools_dir,PS4 Tools location,PS4 Tools location,,Preferences/Platform Settings/PS4
 Preferences_ps4_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/PS4
+Preferences_ps5_sdk_dir,PS5 SDK location,PS5 SDK location,,Preferences/Platform Settings/PS5
+Preferences_ps5_tools_dir,PS5 Tools location,PS5 Tools location,,Preferences/Platform Settings/PS5
+Preferences_ps5_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/PS5
 Preferences_xbone_xdk_dir,XDK location,XDK location,,Preferences/Platform Settings/Xbone
 Preferences_xbone_tools_dir,Xbox One Tools location,Xbox One Tools location,,Preferences/Platform Settings/Xbone
 Preferences_xbone_xbone_dir,Xbox One SDK location,Xbox One SDK location,,Preferences/Platform Settings/Xbone
 Preferences_xbone_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/Xbone
+Preferences_xboxseriesxs_dir,GDK location,GDK location,,Preferences/Platform Settings/XboxSeriesXS
+Preferences_xboxseriesxs_tools_dir,GDK base location,GDK base location,,Preferences/Platform Settings/XboxSeriesXS
+Preferences_xboxseriesxs_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/XboxSeriesXS
+Preferences_operagx_sdk_dir,EMSCRIPTEN SDK location,EMSCRIPTEN SDK location,,Preferences/Platform Settings/Opera GX
 ProjectLoad_BadPathTitle,Unsafe Path,Unsafe Path,,Bad Path message title when failing badpath check on load
 ProjectLoad_BadPathMessage,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,,Project is in an unsafe location message
 ResourceTree_Search_Filters,Filters:,Filters:,,Filter label on Resource Tree search
@@ -5444,12 +5526,18 @@ macOS,macOS,macOS,DO NOT TRANSLATE,macOS preference group subheading
 Mac,macOS,macOS,DO NOT TRANSLATE,macOS preference group subheading for the old version where it was called Mac
 PS4,PlayStation 4,PlayStation 4,DO NOT TRANSLATE,PlayStation 4 preference group subheading
 PlayStation 4,PlayStation 4,PlayStation 4,DO NOT TRANSLATE,PlayStation 4 preference group subheading
+PS5,PlayStation 5,PlayStation 5,DO NOT TRANSLATE,PlayStation 5 preference group subheading
+PlayStation 5,PlayStation 5,PlayStation 5,DO NOT TRANSLATE,PlayStation 5 preference group subheading
 Steam,Steam,Steam,DO NOT TRANSLATE,Steam preference group subheading
 Windows,Windows,Windows,DO NOT TRANSLATE,Windows preference group subheading
 Windows UWP,Windows UWP,Windows UWP,DO NOT TRANSLATE,Windows UWP preference group subheading
 Xbox One,Xbox One,Xbox One,DO NOT TRANSLATE,Xbox One preference group subheading
 XBox One,Xbox One,Xbox One,DO NOT TRANSLATE,Xbox One preference group subheading
+Xbox Series XS,Xbox Series X/S,Xbox Series X/S,DO NOT TRANSLATE,Xbox Series X/S preference group subheading
 Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,Ubuntu preference group subheading
+WebAssembly,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
+Wasm,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
+Opera GX,Opera GX,Opera GX,DO NOT TRANSLATE,Opera GX preference group subheading
 Xbox Live,Xbox Live,Xbox Live,DO NOT TRANSLATE,Xbox Live options group subheading
 Dialogue Editor,Dialog Editor,Dialog Editor,,Dialog Editor preference group subheading
 Options,Options,Options,,Options preference group subheading
@@ -5584,6 +5672,11 @@ Options_PS4ToolsSetupTrophyMessage,"Unable to find PlayStation 4 trophy editor.\
 Options_PS4ToolsPreference,Go to PlayStation 4 settings,Go to PlayStation 4 settings,,button message to take user to PS4 preferences
 Options_PS4ToolsSetupParamSFOMessage,"Unable to find PlayStation 4 param.sfo editor.\nPlease update your tools directory.\n{0}","Unable to find PlayStation 4 param.sfo editor.\nPlease update your tools directory.\n{0}",,error message when failed to find the param.sfo editor
 Options_PS4ToolsSetupShareParamMessage,"Unable to find PlayStation 4 share file editor.\nPlease update your tools directory.\n{0}","Unable to find PlayStation 4 share file editor.\nPlease update your tools directory.\n{0}",,error message when failed to find the param.sfo editor
+Options_PS5ToolsSetupError,PlayStation 5 Tools Missing,PlayStation 5 Tools Missing,,error dialog title when unable to find a ps5 tool
+Options_PS5ToolsSetupTrophyMessage,"Unable to find PlayStation 5 trophy editor.\nPlease update your tools directory.\n{0}","Unable to find PlayStation 5 trophy editor.\nPlease update your tools directory.\n{0}",,error message when failed to find the trophy editor
+Options_PS5ToolsPreference,Go to PlayStation 5 settings,Go to PlayStation 5 settings,,button message to take user to PS5 preferences
+Options_PS5ToolsSetupParamSFOMessage,"Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0}","Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0}",,error message when failed to find the param.sfo editor
+Options_PS5ToolsSetupShareParamMessage,"Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0}","Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0}",,error message when failed to find the param.sfo editor
 Options_XBoxToolsSetupServiceConfigMessage,"Unable to find Xbox One executable xcetool.exe.\nPlease update your tools directory.\n{0}","Unable to find Xbox One executable xcetool.exe.\nPlease update your tools directory.\n{0}",,error message when failed to find the xce.exe
 Options_XBoxToolsSetupError,Xbox One Tools Missing,Xbox One Tools Missing,,error dialog title when unable to find a xbox tool
 Options_XBoxToolsPreference,Go to Xbox One settings,Go to Xbox One settings,,button message to take user to xbox preferences
@@ -6207,10 +6300,10 @@ SequenceGizmo_ShowAxes,Show Axes,Show Axes,,Show axes gizmo text
 SequenceGizmo_TranslationPath,Translation Path,Translation Path,,Translation path gizmo text
 Sequence_AddTagTooltip,Add tag,Add tag,,Add tag tooltip
 Sequence_RemoveTagsTooltip,Remove selected tags,Remove selected tags,,Remove selected tags tooltip
-DopeSheet_Tooltip_NewKey,Record a new key (F9),Record a new key (F9),,New key tooltip
-DopeSheet_Tooltip_AutoRecord,Automatically record changes (F10),Automatically record changes (F10),,Auto record tooltip
-DopeSheet_Tooltip_SplitKey,Split the selected keys (F7),Split the selected keys (F7),,Split key tooltip
-DopeSheet_Tooltip_DeleteKey,Delete the selected keys (F8),Delete the selected keys (F8),,Delete key tooltip
+DopeSheet_Tooltip_NewKey,Record a new key ,Record a new key ,,New key tooltip
+DopeSheet_Tooltip_AutoRecord,Automatically record changes ,Automatically record changes ,,Auto record tooltip
+DopeSheet_Tooltip_SplitKey,Split the selected keys ,Split the selected keys ,,Split key tooltip
+DopeSheet_Tooltip_DeleteKey,Delete the selected keys ,Delete the selected keys ,,Delete key tooltip
 DopeSheet_Tooltip_RaiseEvent,Broadcast message,Broadcast message,,Broadcast message tooltip
 DopeSheet_Tooltip_GlobalSpace,Global space,Global space,,Current space is global
 DopeSheet_Tooltip_LocalSpace,Local space,Local space,,Current space is local
@@ -6311,8 +6404,8 @@ Sequence_Tooltip_PlaybackMode,Change playback mode,Change playback mode,,Change 
 Sequence_Tooltip_Button_Menu,Show Menu,Show Menu,,Show Menu tooltip
 Sequence_Tooltip_Rewind,Jump to start,Jump to start,,Rewind sequence tooltip
 Sequence_Tooltip_Fastfoward,Jump to end,Jump to end,,Fastforward sequence tooltip
-Sequence_Tooltip_Add_Label,Add Broadcast Message (Ctrl+8),Add Broadcast Message (Ctrl+8),,Add Broadcast Message tooltip
-Sequence_Tooltip_Moment_Tooltip,Add Moment (Ctrl+9),Add Moment (Ctrl+9),,Add Moment tooltip
+Sequence_Tooltip_Add_Label,Add Broadcast Message ,Add Broadcast Message ,,Add Broadcast Message tooltip
+Sequence_Tooltip_Moment_Tooltip,Add Moment ,Add Moment ,,Add Moment tooltip
 Sequence_Tooltip_Search,Search,Search,,Search tooltip
 Sequence_Tooltip_LockUnlock_All_Tracks,Lock\Unlock All Tracks,Lock\Unlock All Tracks,,Lock\Unlock All Tracks tooltip
 Sequence_Tooltip_ShowHide_All_Tracks,Show\Hide All Tracks,Show\Hide All Tracks,,Show\Hide All Tracks tooltip
@@ -6325,8 +6418,8 @@ SequenceDopeSheet_SelectComponent,Select Component,Select Component,,Select comp
 SequenceDopeSheet_SearchResults,{0} of {1} results,{0} of {1} results,,Sequence track panel hierarchy search results
 SequenceDopeSheet_SearchResultsNone,No results found,No results found,,Sequence track panel hierarchy search results
 Sequence_Tooltip_Dopesheet_Zoom_Bar_BG,Zoom Bar,Zoom Bar,,Zoom Bar tooltip
-Sequence_Tooltip_Dopesheet_Track_New_Group,Add New Group (Alt+G),Add New Group (Alt+G),,Add New Group tooltip
-Sequence_Tooltip_Dopesheet_Track_New_ClipMask,Add New Clip Mask (Ctrl+M),Add New Clip Mask (Ctrl+M),,Add New Clip Mask tooltip
+Sequence_Tooltip_Dopesheet_Track_New_Group,Add New Group ,Add New Group ,,Add New Group tooltip
+Sequence_Tooltip_Dopesheet_Track_New_ClipMask,Add New Clip Mask ,Add New Clip Mask ,,Add New Clip Mask tooltip
 Sequence_Tooltip_Dopesheet_Track_Add,Add Track,Add Track,,Add Track tooltip
 Sequence_Tooltip_Dopesheet_Track_Copy,Duplicate Track,Duplicate Track,,Duplicate Track tooltip
 Sequence_Tooltip_Dopesheet_Track_Delete,Delete Track,Delete Track,,Delete Track tooltip
@@ -6561,6 +6654,9 @@ ConfigurationProblem_WindowsSteamIDInvalid,Configuration Problem : Windows Build
 ConfigurationProblem_PS4SDK,Configuration Problem : PS4 SDK not found. Check your Preferences.,Configuration Problem : PS4 SDK not found. Check your Preferences.,,Configuration Problem : PS4 SDK not found. Check your Preferences.
 ConfigurationProblem_PS4Tools,Configuration Problem : PS4 Tools directory not found. Check your Preferences.,Configuration Problem : PS4 Tools directory not found. Check your Preferences.,,Configuration Problem : PS4 Tools directory not found. Check your Preferences.
 ConfigurationProblem_PS4VSPath,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : PS4 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+ConfigurationProblem_PS5SDK,Configuration Problem : PS5 SDK not found. Check your Preferences.,Configuration Problem : PS5 SDK not found. Check your Preferences.,,Configuration Problem : PS5 SDK not found. Check your Preferences.
+ConfigurationProblem_PS5Tools,Configuration Problem : PS5 Tools directory not found. Check your Preferences.,Configuration Problem : PS5 Tools directory not found. Check your Preferences.,,Configuration Problem : PS5 Tools directory not found. Check your Preferences.
+ConfigurationProblem_PS5VSPath,Configuration Problem : PS5 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,Configuration Problem : PS5 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : PS5 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
 ConfigurationProblem_tvOSDevice,Configuration Problem : No tvOS device found. Check your target settings.,Configuration Problem : No tvOS device found. Check your target settings.,,Configuration Problem : No tvOS device found. Check your target settings.
 ConfigurationProblem_tvOSPath,Configuration Problem : tvOS install path not set. Check your Preferences.,Configuration Problem : tvOS install path not set. Check your Preferences.,,Configuration Problem : tvOS install path not set. Check your Preferences.
 ConfigurationProblem_WindowsUWPDevice,Configuration Problem : No Windows UWP device found. Check your target settings.,Configuration Problem : No Windows UWP device found. Check your target settings.,,Configuration Problem : No Windows UWP device found. Check your target settings.
@@ -6726,3 +6822,9 @@ SourceControl_Checkout_Warning,Couldn't perform checkout. Please check Source Co
 SourceControl_Log_Warning,Couldn't retrieve log. Please check Source Control Output for more information,Couldn't retrieve log. Please check Source Control Output for more information,,Warning for git log failure.
 SourceControl_Create_Warning,Couldn't create repository. Please check Source Control Output for more information,Couldn't create repository. Please check Source Control Output for more information,,Warning for git create failure.
 SourceControl_Merge_Warning,Couldn't complete merge operation. Please check Source Control Output for more information,Couldn't complete merge operation. Please check Source Control Output for more information,,Warning for git merge failure.
+KeyRebinding_Conflicts_Warning,Conflicting Keybind,Conflicting Keybind,,Conflicting Keybind
+KeyRebinding_Conflicts_Description,That keybind is invalid as it would conflict with another active keybind,That keybind is invalid as it would conflict with another active keybind,,Description of conflicts shown to the user
+Redefine Keys, Redefine Keys, Redefine Keys,,Redefine Key Menu Header
+RedefineKeys_Import_Button, Import file, Import file,,Import file button caption
+RedefineKeys_Export_Button, Export as file, Export as file,,Export file button caption
+RedefineKeys_Clear_Button, Clear, Clear,,Clear Button
