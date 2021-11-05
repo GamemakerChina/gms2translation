@@ -431,6 +431,8 @@ File_Menu_Logout,Logout,Logout,,The Logout program menu item
 File_Menu_MyAccount,My Account,My Account,,Launches my account web page menu item
 File_Menu_Exit,${FileMenuExit},${FileMenuExit},,The Exit program menu item
 File_Menu_ExportProject,Export Project,Export Project,,The Export Project menu item
+File_Menu_ExportYYZ,YYZ,YYZ,,yyz export option
+File_Menu_ExportTemplate,As Template,As Template,,export template option
 File_Menu_ImportProject,Import Project,Import Project,,The Import project menu item
 File_Menu_NewProject,New Project,New Project,,The New Project menu item
 File_Menu_OpenProject,Open Project,Open Project,,The Open Project menu item
@@ -461,6 +463,7 @@ Inspector_SelectExistingTag,Select existing tag,Select existing tag,,inspector t
 Inspector_TagsWindowTitleArg,Tags: {0},Tags: {0},,tags window title
 Inspector_TagsWindowMulti,Tags: Multiple Selection,Tags: Multiple Selection,,tags window title
 inspector_pref_scrollonexpand,Scroll category into view on expand,Scroll category into view on expand,,inspector scroll on expand pref
+inspector_pref_previewexpand,Preview starts expanded,Preview starts expanded,,inspector preview expand default pref
 ListBoxEnum_eMultiSortMode_AssetType,Asset type,Asset type,,multisort mode enum
 ListBoxEnum_eMultiSortMode_SelectionOrder,Selection order,Selection order,,multisort mode enum
 ListBoxEnum_eMultiSortMode_Alphabetical,Alphabetical,Alphabetical,,multisort mode enum
@@ -798,6 +801,7 @@ IDEMenu_Layouts,Layouts,Layouts,,Layouts
 IDEMenu_LoadLayout,Load Layout,Load Layout,,Main menu entry for load layouts
 IDEMenu_SaveLayout,Save Layout,Save Layout,,Main menu entry for save layouts
 IDEMenu_ResetLayout,Reset Layout,Reset Layout,,Main menu entry for resetting the layout
+IDETooltip_CloseProject,Close Project,Close Project,,IDE toolbar tooltip for close project
 IDETooltip_StartPage,Start Page,Start Page,,IDE toolbar tooltip for the home button
 IDETooltip_NewProject,New Project ,New Project ,,IDE toolbar tooltip
 IDETooltip_OpenProject,Open Project ,Open Project ,,IDE toolbar tooltip
@@ -959,24 +963,24 @@ ImageEditor_Menu_RotateImageACW,Rotate All Frames (anti-clockwise 90),Rotate All
 ImageEditor_Undo,Undo,Undo,,Image editor menu option -Undo
 ImageEditor_VisibleLayers,Visible Layers,Visible Layers,,effect visible layers option
 ImageEditor_WidthLabel,Width:,Width:,,image editor resize width label
-ImageEditor_ArcTool_Info,"Click to add a point, drag to move (${ctrl} - move control point; Shift - snap; Enter - commit)","Click to add a point, drag to move (${ctrl} - move control point; Shift - snap; Enter - commit)",,image editor tool info
+ImageEditor_ArcTool_Info,"Click to add a point, drag to move ({0} - move control point; {1} - snap; Enter - commit)","Click to add a point, drag to move ({0} - move control point; {1} - snap; Enter - commit)",,image editor tool info
 ImageEditor_ColourPicker_Info,Left/right click to pick a colour,Left/right click to pick a colour,,image editor tool info
-ImageEditor_EllipseTool_Info,Click and drag to draw an ellipse (Shift for a circle),Click and drag to draw an ellipse (Shift for a circle),,image editor tool info
-ImageEditor_PaintSelectTool_Info,"Paint selection (${ctrl} to add, Alt/right click to subtract)","Paint selection (${ctrl} to add, Alt/right click to subtract)",,image editor tool info
+ImageEditor_EllipseTool_Info,Click and drag to draw an ellipse ({0} for a circle),Click and drag to draw an ellipse ({0} for a circle),,image editor tool info
+ImageEditor_PaintSelectTool_Info,"Paint selection ({0} to add, {1}/right click to subtract)","Paint selection ({0} to add, {1}/right click to subtract)",,image editor tool info
 ImageEditor_EraseTool_Info,Click to erase,Click to erase,,image editor tool info
-ImageEditor_FillTool_Info,Click to fill (Alt to tile with brush),Click to fill (Alt to tile with brush),,image editor tool info
-ImageEditor_ColourReplaceTool_Info,Click to swap colours (Alt to replace alpha also),Click to swap colours (Alt to replace alpha also),,image editor tool info
+ImageEditor_FillTool_Info,Click to fill ({0} to tile with brush),Click to fill ({0} to tile with brush),,image editor tool info
+ImageEditor_ColourReplaceTool_Info,Click to swap colours ({0} to replace alpha also),Click to swap colours ({0} to replace alpha also),,image editor tool info
 ImageEditor_ColourRemoveTool_Info,Click to remove a colour,Click to remove a colour,,image editor tool info
-ImageEditor_LineTool_Info,Click and drag to draw a line (Shift for a straight line),Click and drag to draw a line (Shift for a straight line),,image editor tool info
-ImageEditor_MagicWand_Info,"Click to replace selection (${ctrl} to add to selection, Alt to subtract from selection)","Click to replace selection (${ctrl} to add to selection, Alt to subtract from selection)",,image editor tool info
-ImageEditor_Paintbrush_Info,"Click to paint (Shift for a straight line, ${ctrl} to pick a colour)","Click to paint (Shift for a straight line, ${ctrl} to pick a colour)",,image editor tool info
+ImageEditor_LineTool_Info,Click and drag to draw a line ({0} for a straight line),Click and drag to draw a line ({0} for a straight line),,image editor tool info
+ImageEditor_MagicWand_Info,"Click to replace selection ({0} to add to selection, {1} to subtract from selection)","Click to replace selection ({0} to add to selection, {1} to subtract from selection)",,image editor tool info
+ImageEditor_Paintbrush_Info,"Click to paint ({0} for a straight line, ${ctrl} to pick a colour)","Click to paint ({0} for a straight line, ${ctrl} to pick a colour)",,image editor tool info
 ImageEditor_PanTool_Info,Click and drag to pan,Click and drag to pan,,image editor tool info
 ImageEditor_PolyTool_Info,Click to add points (Enter to commit),Click to add points (Enter to commit),,image editor tool info
-ImageEditor_RectangleTool_Info,Click and drag to draw a rectangle (Shift for a square),Click and drag to draw a rectangle (Shift for a square),,image editor tool info
+ImageEditor_RectangleTool_Info,Click and drag to draw a rectangle ({0} for a square),Click and drag to draw a rectangle ({0} for a square),,image editor tool info
 ImageEditor_RotateTool_Info,Click button to rotate clockwise (Shift for anti-clockwise),Click button to rotate clockwise (Shift for anti-clockwise),,image editor tool info
 ImageEditor_FreeRotateTool_Info,Click and drag to rotate current brush,Click and drag to rotate current brush,,image editor free rotate tool info
 ImageEditor_SelectEllipseTool_Info,"Click and drag to replace selection (${ctrl} to add to selection, Alt to subtract from selection)","Click and drag to replace selection (${ctrl} to add to selection, Alt to subtract from selection)",,image editor tool info
-ImageEditor_SelectRectTool_Info,"Click and drag to replace selection (${ctrl} to add to selection, Alt to subtract from selection)","Click and drag to replace selection (${ctrl} to add to selection, Alt to subtract from selection)",,image editor tool info
+ImageEditor_SelectRectTool_Info,"Click and drag to replace selection ({0} to add to selection, {1} to subtract from selection)","Click and drag to replace selection ({0} to add to selection, {1} to subtract from selection)",,image editor tool info
 ImageEditor_TextTool_Info,Click to insert text,Click to insert text,,image editor tool info
 ImageEditor_Warning_GroupSelected,Cannot paint on layer groups,Cannot paint on layer groups,,image editor: group paint warning
 ImageEditor_Warning_GroupSelected_Dialog,Cannot paint on layer groups; select a non-group layer,Cannot paint on layer groups; select a non-group layer,,image editor: group paint warning dialog
@@ -1194,6 +1198,7 @@ Marketplace_Package_VerifyError,Failed to verify the package,Failed to verify th
 Marketplace_Package_GenericError,Failed with error:\n'{0}',Failed with error:\n'{0}',,generic marketplace package error
 Marketplace_Package_SigningError,Package signing error,Package signing error,,marketplace package signing error
 Marketplace_Package_ExtractFailed,Error extracting package archive: '{0}',Error extracting package archive: '{0}',,marketplace package extract fail
+Marketplace_Package_UnknownPackageType,Error: Unknown package type,Error: Unknown package type,,failed to identify package format
 Marketplace_Package_ImportCompleted,Import Completed!,Import Completed!,,marketplace package import completed
 Marketplace_Package_ImportDesc,Select resources from the asset package and add them to your project:,Select resources from the asset package and add them to your project:,,package import description
 Marketplace_Package_ImportNoProject,You must first open a project to import resources into,You must first open a project to import resources into,,marketplace package import no project open message
@@ -1395,7 +1400,7 @@ PathEditor_SplineContextMenu_Reverse,Reverse,Reverse,,Path spline editor context
 PathEditor_SplineEditor_AddTip,Left Mouse Button: Add & Drag Anchor,Left Mouse Button: Add & Drag Anchor,,Path spline editor help tip
 PathEditor_SplineEditor_Area,"Area: {0},{1} {2},{3}","Area: {0},{1} {2},{3}",,Path spline editor area location
 PathEditor_SplineEditor_Cursor,"Cursor: {0},{1}","Cursor: {0},{1}",,Path spline editor cursor location
-PathEditor_SplineEditor_EditTip,"T+LMB: Translate, R+LMB: Rotate, S+LMB: Scale","T+LMB: Translate, R+LMB: Rotate, S+LMB: Scale",,Path spline editor help tip
+PathEditor_SplineEditor_EditTip,"{0}+LMB: Translate, {1}+LMB: Rotate, {2}+LMB: Scale","{0}+LMB: Translate, {1}+LMB: Rotate, {2}+LMB: Scale",,Path spline editor help tip
 PathEditor_StraightLines,Straight Lines,Straight Lines,,Path editor straight lines connection kind
 PathEditor_ToolTip_ShiftPath,Shift Path,Shift Path,,Path editor tool tip
 PathEditor_ToolTip_SnapGrid,Snap Path To Grid,Snap Path To Grid,,Path editor tool tip
@@ -1550,6 +1555,10 @@ RoomEditor_NewFolder,Create New Folder,Create New Folder,,Tool tip for the new f
 RoomEditor_NewInstanceLayer,Create New Instance Layer,Create New Instance Layer,,Tool tip for the new instance layer button
 RoomEditor_NewPathLayer,Create New Path Layer,Create New Path Layer,,Create new path layer tool tip for room editor
 RoomEditor_NewTileLayer,Create New Tile Layer,Create New Tile Layer,,Tool tip for the new tile layer button
+RoomEditor_NewEffectLayer,Create New Filter/Effect Layer,Create New Filter/Effect Layer,,new filter effect layer label
+RoomEditor_PreviewEffects,Preview Filters,Preview Filters,,preview filters
+RoomEditor_PreviewEffects_Enable,Enable Filters Preview,Enable Filters Preview,,enable room filters preview
+RoomEditor_PreviewEffects_Disable,Disable Filters Preview,Disable Filters Preview,,disable room filters preview
 RoomEditor_NoParentItemToolTip,"{0} ({1}, {2})","{0} ({1}, {2})",,instance/graphic tooltip when there is no parent item
 RoomEditor_ItemToolTip,"{0} ({1}, {2}) parent - {3}","{0} ({1}, {2}) parent - {3}",,instance/graphic tooltip when there is no parent item
 RoomEditor_RoomProperties,Properties - {0},Properties - {0},,Window title for room properties
@@ -1618,6 +1627,35 @@ RoomProperties_ViewX,X Pos,X Pos,,numeric text box label for view or view port x
 RoomProperties_ViewY,Y Pos,Y Pos,,numeric text box label for view or view port y pos
 RoomProperties_VSpeed,Vertical Speed,Vertical Speed,,numeric text box label for view for vertical speed
 RoomProperties_Width,Width,Width,,numeric textbox caption for room width
+RoomEffect_EffectType,Effect Type:,Effect Type:,,effect type
+RoomEffect_EffectNone,None,None,,no effect type label
+RoomEffect_DefaultTexture,Default,Default,,default effect texture parameter name
+ROOM_EFFECTS_filter_edgedetect,Edge Detect,Edge Detect,,edge detect filter name
+ROOM_EFFECTS_Difference threshold,Threshold,Threshold,,Difference threshold param
+ROOM_EFFECTS_filter_desaturate,Desaturate,Desaturate,,desaturate filter name
+ROOM_EFFECTS_Intensity,Intensity,Intensity,,intensity param
+ROOM_EFFECTS_filter_heathaze,Heat Haze,Heat Haze,,heat haze filter name
+ROOM_EFFECTS_Noise Offset_0,Small Noise Scale,Small Noise Scale,,noise offset param0
+ROOM_EFFECTS_Noise Offset_1,Big Noise Scale,Big Noise Scale,,noise offset param1
+ROOM_EFFECTS_Noise Texture,Noise Texture,Noise Texture,,noise texture param
+ROOM_EFFECTS_filter_posterise,Posterise,Posterise,,posterise filter name
+ROOM_EFFECTS_Colour Levels,Colour Levels,Colour Levels,,colour levels param
+ROOM_EFFECTS_filter_tintfilter,Colour Tint,Colour Tint,,colour tint filter name
+ROOM_EFFECTS_Tint colour,Colour,Colour,,colour parameter name
+ROOM_EFFECTS_filter_underwater,Underwater,Underwater,,underwater filter name
+ROOM_EFFECTS_filter_colourise,Colourise,Colourise,,colourise filter name
+ROOM_EFFECTS_filter_large_blur,Large Blur,Large Blur,,large blur filter name
+ROOM_EFFECTS_Radius,Radius,Radius,,radius filter param
+ROOM_EFFECTS_filter_pixelate,Pixelate,Pixelate,,pixelate filter name
+ROOM_EFFECTS_Cell Size,Cell Size,Cell Size,,cell size filter param
+ROOM_EFFECTS_filter_screenshake,Screen Shake,Screen Shake,,screen shake filter name
+ROOM_EFFECTS_Magnitude,Magnitude,Magnitude,,magnitude filter param
+ROOM_EFFECTS_Shake Speed,Shake Speed,Shake Speed,,shake speed filter param
+ROOM_EFFECTS_effect_blur,Blur,Blur,,blur effect name
+ROOM_EFFECTS_filter_distort,Distort,Distort,,distort filter name
+ROOM_EFFECTS_Scale,Scale,Scale,,scale filter param
+ROOM_EFFECTS_Amount,Amount,Amount,,amount filter param
+ROOM_EFFECTS_Offset,Offset,Offset,,offset filter param
 Run_Menu_Clean,Clean,Clean,,"Run menu ""Clean"""
 Run_Menu_CreateExecutable,Create Executable,Create Executable,,The Create Executable menu item
 Run_Menu_RevealRemote,Show Remote Worker Installer,Show Remote Worker Installer,,Reveal worker menu item
@@ -2181,6 +2219,11 @@ UserLogin_InstallRuntimeTitle,Install Runtime {0},Install Runtime {0},,install r
 UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,,runtime free space warning message
 UserLogin_Continue,Continue,Continue,,continue label
 UserLogin_AccessTokenGetFail,Failed to acquire access token,Failed to acquire access token,,failed to acquire access token error message
+UserLogin_OperaAccount,Opera Account,Opera Account,,opera account
+UserLogin_OperaLoginInfo,"Use your Opera account to sign in to YoYo Accounts.\nBoth accounts must be linked","Use your Opera account to sign in to YoYo Accounts.\nBoth accounts must be linked",,opera login info text
+UserLogin_LinkAccountsAt,Link your accounts at,Link your accounts at,,link accounts info label
+UserLogin_OperaSSO,Opera Single Sign-In,Opera Single Sign-In,,single sign in button label
+UserLogin_ForgottenPassword,Forgotten password?,Forgotten password?,,login forgotten password label
 Validate_MaxLength,{0} - Length should be less than {1},{0} - Length should be less than {1},,Failed validation by passing an object whose length is too long
 Validate_MinLength,{0} - Length should be greater than {1},{0} - Length should be greater than {1},,Failed validation by passing an object whose length is too short
 Validate_MVCType,{0} - Object should be of type {2}{1},{0} - Object should be of type {2}{1},,Failed validation by passing an object of the wrong type
@@ -2422,6 +2465,14 @@ yyzimporter_failed,Failed to import YYZ,Failed to import YYZ,,Failed to import Y
 yyzexport_message,YYZ Exporter,YYZ Exporter,,YYZ Exporter Message Title
 yyzexport_success,YYZ Exported Successfully,YYZ Exported Successfully,,YYZ Exported Successfully
 yyzexport_failed,YYZ Export Failed,YYZ Export Failed,,YYZ Export Failed
+Template_Export_Message,Select 'Edit Template Info' if you wish to first edit the information for the exported Template Project,Select 'Edit Template Info' if you wish to first edit the information for the exported Template Project,,template export edit message
+Template_Export_Title,Export Project Template,Export Project Template,,export template dialog title
+Template_Export,Export,Export,,export template button label
+Template_Export_EditInfo,Edit Template Info,Edit Template Info,,edit template information button label
+Template_Export_DirAlreadyExists,A Directory named {0} already exists at this location. Please choose a different template project name.,A Directory named {0} already exists at this location. Please choose a different template project name.,,template export dir already exists
+TemplateExport_OverwriteMsg,Project template '{0}' already exists at the chosen location. Do you wish to overwrite it?,Project template '{0}' already exists at the chosen location. Do you wish to overwrite it?,,template replace msg
+TemplateExport_Overwrite,Overwrite,Overwrite,,overwrite button label
+TemplateExport_Overwrite_Title,Warning,Warning,,overwrite dialog title
 ImportLoad_FileNotFound,"Unable to find file {0}.\nIf the file is inside an archive, please extract it first.","Unable to find file {0}.\nIf the file is inside an archive, please extract it first.",,project load or import file not found error
 InheritFromDialog_Title,Inherit From Project,Inherit From Project,,title for inherit from project dialog
 DnDEditor_Menu_Workspace,Workspace,Workspace,,DnD™ Editor Workspace caption
@@ -2784,6 +2835,9 @@ ggs_wide7_cycle_image,Wide Cycle Image 7,Wide Cycle Image 7,,Wide Cycle Image 7
 ggs_wide8_cycle_image,Wide Cycle Image 8,Wide Cycle Image 8,,Wide Cycle Image 8
 ggs_wide9_cycle_image,Wide Cycle Image 9,Wide Cycle Image 9,,Wide Cycle Image 9
 ggs_copy_runner_to_dest,Copy exe to output folder,Copy exe to output folder,,Copy exe to output folder
+ggs_template_image,Template Image,Template Image,,project template image
+ggs_template_icon,Template Icon,Template Icon,,project template icon
+ggs_template_desc,Description,Description,,project template description
 Import,Import,Import,,Import
 Convert,Convert,Convert,,Convert
 movedegreerange_description,Workspace keyboard navigation degree range,Workspace keyboard navigation degree range,,Description for degree range of moving a window
@@ -2813,6 +2867,7 @@ UpdateSystemFonts_Message,Do you want to refresh system fonts? Font resources mu
 restoredefaults,Restore defaults,Restore defaults,,Restore default settings
 assetcachelocation,Asset cache directory,Asset cache directory,,Location of Asset Cache setting
 myprojectslocation,'My Projects' directory,'My Projects' directory,,My Projects location setting
+mytemplateprojectslocation,Template Projects directory,Template Projects directory,,user Template Projects location setting
 autoreloadchangedfiles,Automatically reload changed files,Automatically reload changed files,,Automatically reload changed files setting
 deleteassetcache,Delete Asset Cache,Delete Asset Cache,,Delete the asset cache now
 deleteassetcacheonquit,Automatically delete asset cache directory on close,Automatically delete asset cache directory on close,,Delete the asset cache on quit setting
@@ -4652,10 +4707,10 @@ SpriteEditor_NoExport,Export Sprite Disabled,Export Sprite Disabled,,The caption
 SpriteEditor_ToolTip_WillExport,Sprite will export,Sprite will export,,THe tooltip when the sprite will be exported
 SpriteEditor_ToolTip_NoExport,Sprite export disabled by tile set(s): {0},Sprite export disabled by tile set(s): {0},,The tooltip when the sprite will not be exported
 RoomEditor_SelectFromAnyLayer,Select From Any Layer ,Select From Any Layer ,,tool tip for the select from any layer button
-RoomEditor_InstanceLayerStatus,LMB + ALT to paint with selected object resources,LMB + ALT to paint with selected object resources,,status bar information for painting in an instance layer
-RoomEditor_AssetLayerStatus,LMB + ALT to paint with selected sprite resources,LMB + ALT to paint with selected sprite resources,,status bar information for painting in an asset layer
-RoomEditor_InstanceLayerStatus_Laptop,LMB + Right ALT to paint with selected object resources,LMB + Right ALT to paint with selected object resources,,status bar information for painting in an instance layer when laptop compatibility is enabled
-RoomEditor_AssetLayerStatus_Laptop,LMB + Right ALT to paint with selected sprite resources,LMB + Right ALT to paint with selected sprite resources,,status bar information for painting in an asset layer when laptop compatibility is enabled
+RoomEditor_InstanceLayerStatus,LMB + {0} to paint with selected object resources,LMB + {0} to paint with selected object resources,,status bar information for painting in an instance layer
+RoomEditor_AssetLayerStatus,LMB + {0} to paint with selected sprite resources,LMB + {0} to paint with selected sprite resources,,status bar information for painting in an asset layer
+RoomEditor_InstanceLayerStatus_Laptop,LMB + {0} to paint with selected object resources,LMB + {0} to paint with selected object resources,,status bar information for painting in an instance layer when laptop compatibility is enabled
+RoomEditor_AssetLayerStatus_Laptop,LMB + {0} to paint with selected sprite resources,LMB + {0} to paint with selected sprite resources,,status bar information for painting in an asset layer when laptop compatibility is enabled
 SPINE_ATLAS_NOT_FOUND,Spine: unable to find .atlas file for {0},Spine: unable to find .atlas file for {0},,spine atlas not found message
 SPINE_TEXTURE_NOT_FOUND,Spine: unable to find texture file: {0},Spine: unable to find texture file: {0},,spine texture not found message
 SPINE_JSON_NOT_FOUND,Spine: json file not found: {0},Spine: json file not found: {0},,spine json not found message
@@ -4722,6 +4777,70 @@ StartPage_Web_ViewOnMarketplace,View On Marketplace,View On Marketplace,,Start p
 StartPage_Web_Download,Download,Download,,Start page tooltip
 StartPage_Web_Open,Open,Open,,Start page tooltip
 StartPage_Web_Remove,Remove Local Files,Remove Local Files,,Start page remove tooltip
+StartScreen_BrowseTutorials,Tutorials,Tutorials,,start screen browse tutorials button label
+StartScreen_OpensInBrowser,Opens in web browser,Opens in web browser,,start screen label
+StartScreen_GetStarted,GET STARTED,GET STARTED,,start screen get started
+StartScreen_LastLogin,Last Login:,Last Login:,,start screen label
+StartScreen_TourIntroTitle,Welcome User,Welcome User,,start screen tour label
+StartScreen_TourIntro_Desc1,The START page is where you can access all you need to help develop your skills and to navigate the application.,The START page is where you can access all you need to help develop your skills and to navigate the application.,,start screen tour label
+StartScreen_TourIntro_DescA,Hover over any of the below areas marked with a,Hover over any of the below areas marked with a,,start screen tour label
+StartScreen_TourIntro_DescB,to find out more and explore.,to find out more and explore.,,start screen tour label
+StartScreen_TourIntro_Desc2,Hover over any of the below areas marked with a   #   to find out more and explore.,Hover over any of the below areas marked with a   #   to find out more and explore.,,format test
+StartScreen_TourTitle_1,"""New Project""","""New Project""",,start screen tour label
+StartScreen_TourTitle_2,"""Open Project""","""Open Project""",,start screen tour label
+StartScreen_TourTitle_3,"""Import Project""","""Import Project""",,start screen tour label
+StartScreen_TourTitle_4,"""Tutorials""","""Tutorials""",,start screen tour label
+StartScreen_TourTitle_5,"""Recent Projects""","""Recent Projects""",,start screen tour label
+StartScreen_SkipTourWiz,SKIP to Setup Wizard,SKIP to Setup Wizard,,start screen tour label
+StartScreen_SkipTour,SKIP Tour,SKIP Tour,,start screen skip tour label
+StartScreen_TourDesc_1,"Start from scratch with a new empty project or start from a template; one we've included or one of your own","Start from scratch with a new empty project or start from a template; one we've included or one of your own",,start screen tour label
+StartScreen_TourDesc_2,"Open a project you've already started and continue from when your last saved","Open a project you've already started and continue from when your last saved",,start screen tour label
+StartScreen_TourDesc_3,"Import a project that has previously been exported or is from a legacy version of GameMaker","Import a project that has previously been exported or is from a legacy version of GameMaker",,start screen tour label
+StartScreen_TourDesc_4,"Browse all of the available tutorials through your web browser","Browse all of the available tutorials through your web browser",,start screen tour label
+StartScreen_TourDesc_5,"An area that will display all of the projects you have opened recently, it may be easier to select your project from here instead of using the 'Open' button above, if you are reopening a project that you were working on recently","An area that will display all of the projects you have opened recently, it may be easier to select your project from here instead of using the 'Open' button above, if you are reopening a project that you were working on recently",,start screen tour label
+StartScreen_ChooseTemplate,CHOOSE YOUR TEMPLATE,CHOOSE YOUR TEMPLATE,,start screen label
+StartScreen_SelectTemplate,Please select a project template,Please select a project template,,start screen label
+StartScreen_RecentProjects,RECENT PROJECTS,RECENT PROJECTS,,start screen label
+StartScreen_RecentProjectsEmpty,All recent and past projects will appear here,All recent and past projects will appear here,,start screen label
+StartScreen_CurrOffline,Currently Offline,Currently Offline,,offline label
+StartScreen_AvailableTemplates,Showing all available templates,Showing all available templates,,offline label
+SS_Template_NewBlank,New\nBlank,New\nBlank,,new blank project button label
+SS_Template_PleaseSelect,Please select a project template,Please select a project template,,start screen select template
+SS_NewBlankTemplate,NEW BLANK TEMPLATE,NEW BLANK TEMPLATE,,start screen new blank template
+SS_GMLInfo,Create a project using GameMaker Language,Create a project using GameMaker Language,,start screen gml button info
+SS_DNDInfo,Create a project using Drag and Drop,Create a project using Drag and Drop,,start screen DnD button info
+SS_ProjectNameLabel,Project Name:,Project Name:,,start screen project name label
+SS_ProjectLocationLabel,Location:,Location:,,start screen project location label
+SS_ProjDirInUse,Project directory name already exists,Project directory name already exists,,proj dir in use warning
+StartScreen_WizardTitle,Set Up Wizard,Set Up Wizard,,setup wizard title
+SS_WizardStepNum,Step {0} of {1},Step {0} of {1},,setup wizard label
+SS_Wizard_StepDesc_1,"Let's get you started setting up your first project.\nFirst, click on the button below labelled 'NEW'.","Let's get you started setting up your first project.\nFirst, click on the button below labelled 'NEW'.",,setup wizard label
+SS_Wizard_StepDesc_2,"Select a template below, or choose BLANK to start a fresh new project","Select a template below, or choose BLANK to start a fresh new project",,setup wizard label
+SS_Wizard_StepDesc_3BlankA,"You've selected 'New Blank' template.\nNext choose what scripting language you wish to use,","You've selected 'New Blank' template.\nNext choose what scripting language you wish to use,",,setup wizard label
+SS_Wizard_StepDesc_3,"Give your project a name, choose a save location, and just jump right in!","Give your project a name, choose a save location, and just jump right in!",,setup wizard label
+SS_Wizard_DontShowAgain,Don't show me again,Don't show me again,,dont show again label
+SS_ButtonGo,Let's Go!,Let's Go!,,startscreen go button label
+SS_DirectoryNotExists,Directory '{0}' does not exist.\nPlease verify the project location and try again.,Directory '{0}' does not exist.\nPlease verify the project location and try again.,,Startscreen project directory does not exist
+SS_DirAlreadyExists,'{0}' Directory already exists at {1}.\nPlease choose a different project name.,'{0}' Directory already exists at {1}.\nPlease choose a different project name.,,placeholder project dir already exists msg
+SS_DownloadingTemplate,Downloading Template...,Downloading Template...,,downloading template title
+SS_DownloadTemplateProgress,Downloading Template...{0}% Complete,Downloading Template...{0}% Complete,,downloading template progress label
+SS_TemplateLoadError,Error Loading Template,Error Loading Template,,template load error msg
+SS_TemplateFileMissing,Could not found the Template project at '{0}',Could not found the Template project at '{0}',,template file not found
+SS_TemplateInvalidURL,Invalid Download URL,Invalid Download URL,,invalid download url error
+startscreen_pref_showtour,Show Tour,Show Tour,,show tour pref
+startscreen_pref_showSetupWizard,Show Setup Wizard,Show Setup Wizard,,show wizard pref
+startscreen_pref_recentProjListStyle,Recent Projects List Style,Recent Projects List Style,,recent proj list style
+NewProjectDialog_Title,New Project,New Project,,new project dialog title label
+NewProjectDialog_DiscardChanges,Discard Changes,Discard Changes,,new project dialog discard changes
+NewProjectDialog_SaveAndClose,Save Changes,Save Changes,,new project dialog save changes
+NewProjectDialog_CloseSaveConfirm,Are you sure you want to close your project and start NEW? Any unsaved changes will be lost,Are you sure you want to close your project and start NEW? Any unsaved changes will be lost,,confirm new project unsaved changes
+NewProjectDialog_CloseConfirm,Are you sure you want to close your project and start NEW?,Are you sure you want to close your project and start NEW?,,confirm new project no changes
+CloseProjectDialog_CloseProject,Close Project,Close Project,,close project button label
+CloseProjectDialog_CloseSaveConfirm,Are you sure you want to close your project and return to the Start Page? Any unsaved changes will be lost,Are you sure you want to close your project and return to the Start Page? Any unsaved changes will be lost,,close project with save confirm
+CloseProjectDialog_CloseConfirm,Are you sure you want to close your project and return to the Start Page?,Are you sure you want to close your project and return to the Start Page?,,close project confirm
+ListBoxEnum_eTemplateFilter_ShowAll,Show ALL,Show ALL,,listbox enum
+ListBoxEnum_eTemplateFilter_Official,Official Templates,Official Templates,,listbox enum
+ListBoxEnum_eTemplateFilter_User,User Templates,User Templates,,listbox enum
 RemoteWorker_Submit,Submit,Submit,,Submit remote worker changes
 remote_worker_cache_path,Cache Path,Cache Path,,Remote worker cache path
 remote_worker_folder_sync_path,Path to FolderSync Tool,Path to FolderSync Tool,,Remote worker foldersync path
@@ -4770,7 +4889,7 @@ NewSpriteWidth,Default sprite width,Default sprite width,,pref label
 NewSpriteHeight,Default sprite height,Default sprite height,,pref label
 TileSetEditorMenu_Delete,Delete,Delete,,the delete animation or auto tile set context menu option
 TileSetEditorMenu_Rename,Rename,Rename,,the rename animation or auto tile set context menu option
-RoomEditor_NoSelectionPathLayerStatus,"LMB + T to translate path, LMB + R to rotate path, LMB + S to scale path","LMB + T to translate path, LMB + R to rotate path, LMB + S to scale path",,status bar information for editing paths
+RoomEditor_NoSelectionPathLayerStatus,"LMB + {0} to translate path, LMB + {1} to rotate path, LMB + {2} to scale path","LMB + {0} to translate path, LMB + {1} to rotate path, LMB + {2} to scale path",,status bar information for editing paths
 YYP_DragDrop_Message,Load the project instead of adding a datafile?,Load the project instead of adding a datafile?,,confirm message
 YYP_DragDrop_Message_IDE,Load the project?,Load the project?,,confirm message
 StartPage_Web_RefreshDemos,Refresh owned demos.,Refresh owned demos.,,Refresh demos start page
@@ -5465,6 +5584,7 @@ Proxy_Password_Tooltip,Proxy password,Proxy password,,proxy password tooltip
 Proxy_Domain,Domain,Domain,,proxy domain label
 Proxy_Domain_Tooltip,Proxy Domain. Usually left blank,Proxy Domain. Usually left blank,,proxy domain tooltip
 General Settings,General Settings,General Settings,,General Settings preference group heading
+Start Page,Start Page,Start Page,,start screen preference group heading
 Drag and Drop,Drag and Drop,Drag and Drop,,Drag and Drop preference group heading
 Image Editor,Image Editor,Image Editor,,Image Editor preference group heading
 Sprite Editor,Sprite Editor,Sprite Editor,,Sprite Editor preference group heading
@@ -5514,6 +5634,7 @@ Source Control (Git),Source Control (Git),Source Control (Git),,Source Control (
 Master,Master,Master,,Master preference group subheading
 Main Options,Main Options,Main Options,,Main Options options group heading
 General,General,General,,General options group heading
+TemplateInfo,Template Info,Template Info,,Template Info options group heading
 Graphics,Graphics,Graphics,,Graphics options group heading
 Images,Images,Images,,Images options group heading
 Installer,Installer,Installer,,Installer options group heading
@@ -5731,6 +5852,7 @@ SyntaxError_InvalidFunctionModifier,unknown function atribute {0},unknown functi
 SyntaxError_InheritedFunctionArguments,Inherited argument "{0}" is not in function arguments,Inherited argument "{0}" is not in function arguments,,syntax error
 SyntaxError_Only16NamedArgs,only 16 named arguments supported in a function declaration,only 16 named arguments supported in a function declaration,,syntax error
 SyntaxError_AssignmentToBuiltIn,Assignment to builtin variable/function/constant,Assignment to builtin variable/function/constant,,syntax error
+SyntaxError_SameArgument,argument name {0} already used in function declaration,argument name {0} already used in function declaration,,syntax error
 CompileError_Info,"{0} at line {1} : {2}","{0} at line {1} : {2}",,"syntax error displayed to user (0 - source, 1 - line num, 2 - error description)"
 CompileError_ObjVar_WrongType,Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),Not expecting {0} {1} assigned in {2}'s variable '{3}' (expected {4}),,Object variable wrong type error
 CompileError_ObjVar_WrongTypeRoom,Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),,Object variable wrong type error in room instances
@@ -5849,9 +5971,11 @@ FileFilters_Package,{0} Package,{0} Package,,package filter
 FileFilters_Installer,{0} Installer,{0} Installer,,installer filter
 FileFilters_Application,{0} Application,{0} Application,,application filter
 FileFilters_Export,{0} Export,{0} Export,,export filter
+FileFilters_TemplateExport,Project Template Export,Project Template Export,,template export filter name
 FileFilters_Directory,Directory,Directory,,directory filter
 FileFilters_SSHKey,SSH Key,SSH Key,,ssh key filter
 FileFilter_AssetPackage,GameMaker Studio 2 Asset Package,GameMaker Studio 2 Asset Package,,yymp filter
+FileFilter_TemplateProject,GameMaker Studio 2 Project Template,GameMaker Studio 2 Project Template,,template project filter
 FileFilter_AndroidCreateExeMessage,Save as .aab or .apk,Save as .aab or .apk,,Save as .aab or .apk
 tvOS,tvOS,tvOS,,tvOS label for game options
 amazonfire_nodevices_title,No Amazon devices detected,No Amazon devices detected,,No Amazon devices detected title
@@ -5870,6 +5994,7 @@ RoomEditor_InheritAssetsToolTip,Inherit Assets,Inherit Assets,,tooltip for inher
 RoomEditor_InheritBackgroundToolTip,Inherit Background Properties,Inherit Background Properties,,tooltip for inherit background
 RoomEditor_InheritTileLayerToolTip,Inherit Tile Properties,Inherit Tile Properties,,tooltip for inherit tile layer properties
 RoomEditor_InheritPathToolTip,Inherit Path Properties,Inherit Path Properties,,tooltip for inherit path properties
+RoomEditor_InheritEffectLayerToolTip,Inherit Effect Properties,Inherit Effect Properties,,tooltip for inherit effect layer properties
 RoomEditor_InheritLayersToolTip,Inherit Layers,Inherit Layers,,tooltip for inherit layers
 Error_InvalidProjectName,The project name '{0}' contains the following unsupported characters: '{1}'.\nPlease try a different name.,The project name '{0}' contains the following unsupported characters: '{1}'.\nPlease try a different name.,,Error that the user has chosen a project name that won't work on Windows
 Addon_AmazonFireFailedPlatformCheckMessage,"This addon requires the Amazon Fire or Mobile licences.\nDo you want to go to your account to check your availability of these?","This addon requires the Amazon Fire or Mobile licences.\nDo you want to go to your account to check your availability of these?",,Message to display when the Amazon Fire addon fails the platform check
@@ -5897,7 +6022,7 @@ Error_PS4PronunciationMissingSig,Unable to find matching pronunciation.sig file 
 TargetSelection_Platform_switch,Switch,Switch,,Switch
 Switch,Switch,Switch,,Switch
 Preferences_switch_sdk_dir,NintendoSDK Directory,NintendoSDK Directory,,Path to NintendoSDK Directory
-Preferences_switch_vs_path,Path to VS2015 (14.0),Path to VS2015 (14.0),,Path to VS2015 (14.0)
+Preferences_switch_vs_path,Visual Studio location,Visual Studio location,,Visual Studio location
 platformdevice_targetip,Target IP,Target IP,,Target IP
 preferences_import_nmeta,Import nmeta file,Import nmeta file,,Import an nmeta file into the project
 preferences_open_authoring,Open Authoring Editor,Open Authoring Editor,,Open the Authoring Editor
@@ -6522,6 +6647,8 @@ AssetBrowser_UpOne,Up One,Up One,,arrange up one
 AssetBrowser_DownOne,Down One,Down One,,arrange down one
 ListBoxEnum_eAssetListStyle_Grid,Grid,Grid,,
 ListBoxEnum_eAssetListStyle_List,List,List,,
+ListBoxEnum_eListStyle_Grid,Grid,Grid,,
+ListBoxEnum_eListStyle_List,List,List,,
 ConfigEditor_CreateConfig,Create,Create,,create config
 ConfigEditor_DeleteConfig,Delete,Delete,,delete config
 ConfigEditor_AddConfig,Add Config,Add Config,,add config
@@ -6828,3 +6955,5 @@ Redefine Keys, Redefine Keys, Redefine Keys,,Redefine Key Menu Header
 RedefineKeys_Import_Button, Import file, Import file,,Import file button caption
 RedefineKeys_Export_Button, Export as file, Export as file,,Export file button caption
 RedefineKeys_Clear_Button, Clear, Clear,,Clear Button
+Redefine_Keys_Show_Unbound_Commands, Show Unbound Commands, Show Unbound Commands,,Show Unbound Commands caption
+Redefine_Keys_Show_Only_Redefined_Commands, Show Only Redefined Commands, Show Only Redefined Commands,, Show Only Redefined Commands caption
