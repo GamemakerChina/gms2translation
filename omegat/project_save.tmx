@@ -1510,6 +1510,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Click and drag to replace selection ({0} to add to selection, {1} to subtract from selection)"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142436Z" creationid="liaronce" creationdate="20211105T142410Z">
+        <seg>"单击并拖动以替换所选内容 ({0} 可添加到所选内容中，{1} 可从所选内容中减去)"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Click to add a point, drag to move (${ctrl} - move control point; Shift - snap; Enter - commit)"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T105031Z" creationid="liaronce" creationdate="20210228T105031Z">
@@ -1534,10 +1542,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Click to paint ({0} for a straight line, ${ctrl} to pick a colour)"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142441Z" creationid="liaronce" creationdate="20211105T142326Z">
+        <seg>"单击以绘制 ({0} 表示直线，${ctrl} 表示拾取颜色)"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Click to replace selection (${ctrl} to add to selection, Alt to subtract from selection)"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T105123Z" creationid="liaronce" creationdate="20210228T105123Z">
         <seg>"单击以替换所选内容(${ctrl} 添加到所选内容，Alt 从所选内容中减去)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Click to replace selection ({0} to add to selection, {1} to subtract from selection)"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142307Z" creationid="liaronce" creationdate="20211105T142307Z">
+        <seg>"单击以替换所选内容 ({0} 添加到所选内容，{1} 从所选内容中减去)"</seg>
       </tuv>
     </tu>
     <tu>
@@ -10104,8 +10128,8 @@
       <tuv lang="en-US">
         <seg>"Paint selection ({0} to add, {1}/right click to subtract)"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142143Z" creationid="liaronce" creationdate="20211105T142143Z">
-        <seg>"绘制选区 ( {0} 添加，{1}/右键单击可减去)"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142218Z" creationid="liaronce" creationdate="20211105T142143Z">
+        <seg>"绘制选区 ({0} 添加，{1}/右键单击可减去)"</seg>
       </tuv>
     </tu>
     <tu>
@@ -15418,6 +15442,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133824Z" creationid="liaronce" creationdate="20210228T133824Z">
         <seg>“{0}‘访问所有区域’{1}。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"{0}+LMB: Translate, {1}+LMB: Rotate, {2}+LMB: Scale"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142749Z" creationid="liaronce" creationdate="20211105T142749Z">
+        <seg>"{0}+鼠标左键: 平移, {1}+鼠标左键: 旋转, {2}+鼠标左键: 缩放"</seg>
       </tuv>
     </tu>
     <tu>
@@ -23906,10 +23938,26 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click and drag to draw a line ({0} for a straight line)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142418Z" creationid="liaronce" creationdate="20211105T142231Z">
+        <seg>单击并拖动以绘制直线 ({0} 表示直线)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click and drag to draw a rectangle (Shift for a square)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T112939Z" creationid="deciia" creationdate="20170103T030332Z">
         <seg>点击拖拽并绘制一个矩形 (按住Shift为正方形)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click and drag to draw a rectangle ({0} for a square)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142424Z" creationid="liaronce" creationdate="20211105T142341Z">
+        <seg>单击并拖动以绘制矩形 ({0} 表示正方形)</seg>
       </tuv>
     </tu>
     <tu>
@@ -24052,8 +24100,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Click to fill ({0} to tile with brush)</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142201Z" creationid="liaronce" creationdate="20211105T142201Z">
-        <seg>单击可填充( {0} 可用画笔平铺)</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142413Z" creationid="liaronce" creationdate="20211105T142201Z">
+        <seg>单击以填充 ({0} 可用画笔平铺)</seg>
       </tuv>
     </tu>
     <tu>
@@ -24110,6 +24158,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T112807Z" creationid="deciia" creationdate="20170102T130727Z">
         <seg>点击交换颜色 (按住Alt会同时替换透明度)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click to swap colours ({0} to replace alpha also)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142415Z" creationid="liaronce" creationdate="20211105T142214Z">
+        <seg>单击以交换颜色 ({0} 还可替换 Alpha)</seg>
       </tuv>
     </tu>
     <tu>
@@ -32589,6 +32645,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T093028Z" creationid="deciia" creationdate="20180922T093028Z">
         <seg>错误： 代理设置无效</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Error: Unknown package type</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142444Z" creationid="liaronce" creationdate="20211105T142444Z">
+        <seg>错误：未知的包类型</seg>
       </tuv>
     </tu>
     <tu>
