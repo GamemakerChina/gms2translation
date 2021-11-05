@@ -21066,8 +21066,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Automatic response to permanent action warning</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T103908Z" creationid="deciia" creationdate="20180922T031645Z">
-        <seg>自动响应永久（permanent）动作警告(?)</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145335Z" creationid="deciia" creationdate="20180922T031645Z">
+        <seg>自动响应永久动作警告</seg>
       </tuv>
     </tu>
     <tu>
@@ -21466,24 +21466,24 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Base Project Directory Modified</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T073150Z" creationid="deciia" creationdate="20170105T080344Z">
-        <seg>基础项目目录(?)被修改</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145409Z" creationid="deciia" creationdate="20170105T080344Z">
+        <seg>基础项目目录被修改</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Base Project Directory Reconnected</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T073139Z" creationid="deciia" creationdate="20170105T080000Z">
-        <seg>基础项目目录(?)重新连接</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145404Z" creationid="deciia" creationdate="20170105T080000Z">
+        <seg>基础项目目录重新连接</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Base Project Directory Unavailable</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T072913Z" creationid="deciia" creationdate="20170105T074629Z">
-        <seg>基础项目目录(?)不可用</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145359Z" creationid="deciia" creationdate="20170105T074629Z">
+        <seg>基础项目目录不可用</seg>
       </tuv>
     </tu>
     <tu>
@@ -25297,16 +25297,16 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Configuration Problem : Linux Build for Steam has invalid Steam App Id.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T024057Z" creationid="deciia" creationdate="20180922T211846Z">
-        <seg>配置问题：Linux 上为 Steam 构建程序 的 Steam App ID 无效(?)</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145605Z" creationid="deciia" creationdate="20180922T211846Z">
+        <seg>配置问题：适用于 Steam 的 Linux 构建的 Steam App ID 无效</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Configuration Problem : Linux Build for Steam selected but Steam App Id is not set.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T024045Z" creationid="deciia" creationdate="20180922T211800Z">
-        <seg>配置问题：Linux 上已选择为 Steam 构建程序(?)，但未设置Steam App Id。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145551Z" creationid="deciia" creationdate="20180922T211800Z">
+        <seg>配置问题：选择了适用于 Steam 的 Linux 构建，但未设置Steam App Id。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25316,16 +25316,16 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Configuration Problem : Mac Build for Steam has invalid Steam App Id.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T023843Z" creationid="deciia" creationdate="20180922T211335Z">
-        <seg>配置问题：Mac 上为 Steam 构建程序 的 Steam App ID 无效(?)。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145512Z" creationid="deciia" creationdate="20180922T211335Z">
+        <seg>配置问题：Mac 上为 Steam 构建程序 的 Steam App ID 无效。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Configuration Problem : Mac Build for Steam selected but Steam App Id is not set.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T024040Z" creationid="deciia" creationdate="20180922T211147Z">
-        <seg>配置问题：Mac 上已选择为 Steam 构建，但未设置 Steam App Id(?)。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145503Z" creationid="deciia" creationdate="20180922T211147Z">
+        <seg>配置问题：Mac 上已选择为 Steam 构建，但未设置 Steam App Id。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30190,12 +30190,14 @@ Add-ons应该怎么翻译？</note>
     <tu>
       <note>备注：Debugger_StackFrame_Tooltip：Debugger stack frame tooltip
 该词条位于“The call stack is empty.”下方。无法确定准确的情境。
-栈帧是什么？</note>
+栈帧是什么？
+
+堆栈帧</note>
       <tuv lang="en-US">
         <seg>Double-click to go to this stack frame</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T193205Z" creationid="deciia" creationdate="20180922T071059Z">
-        <seg>双击前往该栈帧(?)</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145449Z" creationid="deciia" creationdate="20180922T071059Z">
+        <seg>双击可转到此堆栈帧</seg>
       </tuv>
     </tu>
     <tu>
@@ -49862,7 +49864,8 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     <tu>
       <note>备注：opennewresources：Open new resources setting
 打开新资源以便在创建时进行编辑？总是立即打开新创建的资源？
-</note>
+
+就是新导入的资源</note>
       <tuv lang="en-US">
         <seg>Open new resources for edit on creation</seg>
       </tuv>
@@ -69028,8 +69031,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Variable Length Arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T074632Z" creationid="deciia" creationdate="20170107T035100Z">
-        <seg>可变长度参数(?)</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145426Z" creationid="deciia" creationdate="20170107T035100Z">
+        <seg>可变长度参数</seg>
       </tuv>
     </tu>
     <tu>
@@ -69904,8 +69907,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>White space text style</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T123208Z" creationid="deciia" creationdate="20170105T060611Z">
-        <seg>空白区文本样式(?)</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145346Z" creationid="deciia" creationdate="20170105T060611Z">
+        <seg>空白文本样式</seg>
       </tuv>
     </tu>
     <tu>
