@@ -1518,6 +1518,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Click to add a point, drag to move ({0} - move control point; {1} - snap; Enter - commit)"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142023Z" creationid="liaronce" creationdate="20211105T142023Z">
+        <seg>”单击以添加点，拖动以移动 ({0} - 移动控制点；{1} - 捕捉；Enter - 提交)“</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Click to paint (Shift for a straight line, ${ctrl} to pick a colour)"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T105149Z" creationid="liaronce" creationdate="20210228T105149Z">
@@ -10090,6 +10098,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T105103Z" creationid="liaronce" creationdate="20210228T105103Z">
         <seg>"绘制选区(${ctrl} 添加，Alt/右键单击可减去)"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Paint selection ({0} to add, {1}/right click to subtract)"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142143Z" creationid="liaronce" creationdate="20211105T142143Z">
+        <seg>"绘制选区 ( {0} 添加，{1}/右键单击可减去)"</seg>
       </tuv>
     </tu>
     <tu>
@@ -23906,6 +23922,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click and drag to draw an ellipse ({0} for a circle)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142045Z" creationid="liaronce" creationdate="20211105T142045Z">
+        <seg>单击并拖动以绘制椭圆 ({0} 表示圆形)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click and drag to pan</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T034028Z" creationid="deciia" creationdate="20170103T030209Z">
@@ -24022,6 +24046,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T112810Z" creationid="deciia" creationdate="20170102T125732Z">
         <seg>点击填充 (按住Alt使用笔刷平铺填充)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click to fill ({0} to tile with brush)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T142201Z" creationid="liaronce" creationdate="20211105T142201Z">
+        <seg>单击可填充( {0} 可用画笔平铺)</seg>
       </tuv>
     </tu>
     <tu>
@@ -24182,6 +24214,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T100611Z" creationid="deciia" creationdate="20170212T100611Z">
         <seg>关闭ini文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Close Project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T141953Z" creationid="liaronce" creationdate="20211105T141953Z">
+        <seg>关闭项目</seg>
       </tuv>
     </tu>
     <tu>
