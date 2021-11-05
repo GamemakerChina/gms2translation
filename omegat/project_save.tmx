@@ -25305,8 +25305,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Configuration Problem : Linux Build for Steam selected but Steam App Id is not set.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145551Z" creationid="deciia" creationdate="20180922T211800Z">
-        <seg>配置问题：选择了适用于 Steam 的 Linux 构建，但未设置Steam App Id。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145610Z" creationid="deciia" creationdate="20180922T211800Z">
+        <seg>配置问题：选择了适用于 Steam 的 Linux 构建，但未设置 Steam App Id。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25316,16 +25316,16 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Configuration Problem : Mac Build for Steam has invalid Steam App Id.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145512Z" creationid="deciia" creationdate="20180922T211335Z">
-        <seg>配置问题：Mac 上为 Steam 构建程序 的 Steam App ID 无效。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145631Z" creationid="deciia" creationdate="20180922T211335Z">
+        <seg>配置问题：适用于 Steam 的 Mac 构建的 Steam App ID 无效。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Configuration Problem : Mac Build for Steam selected but Steam App Id is not set.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145503Z" creationid="deciia" creationdate="20180922T211147Z">
-        <seg>配置问题：Mac 上已选择为 Steam 构建，但未设置 Steam App Id。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145624Z" creationid="deciia" creationdate="20180922T211147Z">
+        <seg>配置问题：选择了适用于 Steam 的 Mac 构建，但未设置 Steam App Id。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25444,16 +25444,16 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Configuration Problem : Windows Build for Steam has invalid Steam App Id.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T024418Z" creationid="deciia" creationdate="20180922T104532Z">
-        <seg>配置问题：Windows Build for Steam (?)的 Steam App ID 无效。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145706Z" creationid="deciia" creationdate="20180922T104532Z">
+        <seg>配置问题：适用于 Steam 的 Windows 构建的 Steam App ID 无效。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Configuration Problem : Windows Build for Steam selected but Steam App Id is not set.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T024311Z" creationid="deciia" creationdate="20180922T104607Z">
-        <seg>配置问题：已选择 Windows Build for Steam(?)，但未设置 Steam App Id。</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145659Z" creationid="deciia" creationdate="20180922T104607Z">
+        <seg>配置问题：选择了适用于 Steam 的 Windows 构建，但未设置 Steam App Id。</seg>
       </tuv>
     </tu>
     <tu>
@@ -53339,12 +53339,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
     </tu>
     <tu>
       <note>供应的意思？没找到。
-情境：检测目标平台的配置问题。</note>
+情境：检测目标平台的配置问题。
+
+liaronce：tvOS的配置项目（这个平台在国内很少见，属于苹果的系统）</note>
       <tuv lang="en-US">
         <seg>Provisioning</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T025055Z" creationid="deciia" creationdate="20180922T103746Z">
-        <seg>供应(?)</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145848Z" creationid="deciia" creationdate="20180922T103746Z">
+        <seg>配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -67412,8 +67414,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Top Shelf</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T025950Z" creationid="deciia" creationdate="20180922T103020Z">
-        <seg>顶栏(?)</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145902Z" creationid="deciia" creationdate="20180922T103020Z">
+        <seg>顶栏</seg>
       </tuv>
     </tu>
     <tu>
