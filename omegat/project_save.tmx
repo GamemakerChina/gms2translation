@@ -20391,8 +20391,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Attempting to delete items from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching items from child rooms\nKeep All: Keep all child room items\nKeep Changed: Keep child room items which have overridden the parent\nImmediate Children: {0}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T043719Z" creationid="deciia" creationdate="20170103T125101Z">
-        <seg>尝试从父房间里删除项目（注：创建实例的代码将会不可挽回的失去）。\n删除全部：删除子房间的匹配项目\n全部保留：保留所有子房间的项目\n保留更改：保持其中已经覆盖父房间的子房间的项目\n直接子房间(?)： {0}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144949Z" creationid="deciia" creationdate="20170103T125101Z">
+        <seg>正在尝试从父房间中删除项目(注意：实例创建代码将不可挽回地丢失)。\n全部删除：从子房间中删除匹配的项目\n全部保留：保留所有子房间项目\n保留更改：保留已覆盖父房间的子房间项目\n当前子房间：{0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -20400,8 +20400,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Attempting to delete layers from a parent room (Note: Instance creation code will be irrevocably lost).\nDelete All: Delete matching layers from child rooms\nKeep All: Keep all child room layers\nKeep Changed: Keep child room layers which have overridden the parent\nImmediate Children: {0}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T043725Z" creationid="deciia" creationdate="20170103T125404Z">
-        <seg>尝试从父房间里删除层（注：创建实例的代码将会不可挽回的失去）。\n删除全部：删除子房间的匹配的层\n全部保留：保留所有子房间的层不变\n保持更改：保留其中已经覆盖父房间的子房间层\n直接子房间(?)： {0}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144950Z" creationid="deciia" creationdate="20170103T125404Z">
+        <seg>正在尝试从父房间中删除图层(注意：实例创建代码将不可挽回地丢失)。\n全部删除：从子房间中删除匹配层\n全部保留：保留所有子房间图层\n保留更改：保留已覆盖父房间的子房间图层\n当前子房间：{0}</seg>
       </tuv>
     </tu>
     <tu>
