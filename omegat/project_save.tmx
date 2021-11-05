@@ -9686,6 +9686,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"LMB + {0} to translate path, LMB + {1} to rotate path, LMB + {2} to scale path"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144216Z" creationid="liaronce" creationdate="20211105T144216Z">
+        <seg>“鼠标左键 + {0} 平移路径，鼠标左键 + {1} 旋转路径，鼠标左键 + {2} 缩放路径”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Layer '{0}' is locked, unlock to allow editing"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134004Z" creationid="liaronce" creationdate="20210228T133942Z">
@@ -15790,6 +15798,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>'{0}' Directory already exists at {1}.\nPlease choose a different project name.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144048Z" creationid="liaronce" creationdate="20211105T144048Z">
+        <seg>'{0}' 目录已存在于 {1}。\n请选择其他项目名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>'{0}' cannot be used as a name for the Remote Worker.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T221257Z" creationid="deciia" creationdate="20180921T154629Z">
@@ -19360,6 +19376,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Any unsaved changes will be lost</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144145Z" creationid="liaronce" creationdate="20211105T144145Z">
+        <seg>任何未保存的更改都将丢失</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>App Delegate Class Name:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142036Z" creationid="liaronce" creationdate="20191118T142036Z">
@@ -19591,6 +19615,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141007Z" creationid="liaronce" creationdate="20200820T141007Z">
         <seg>是否确实要添加此动作？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Are you sure you want to close your project and return to the Start Page?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144148Z" creationid="liaronce" creationdate="20211105T144148Z">
+        <seg>确定要关闭项目并返回起始页吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Are you sure you want to close your project and start NEW?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144143Z" creationid="liaronce" creationdate="20211105T144143Z">
+        <seg>是否确实要关闭项目并重新开始？</seg>
       </tuv>
     </tu>
     <tu>
@@ -26317,6 +26357,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Could not found the Template project at '{0}'</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144104Z" creationid="liaronce" creationdate="20211105T144104Z">
+        <seg>在 ‘{0}’ 处找不到模板项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Could not process Keystore; may be corrupt or have incorrect password</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T013627Z" creationid="deciia" creationdate="20170629T025304Z">
@@ -29501,6 +29549,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Directory '{0}' does not exist.\nPlease verify the project location and try again.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144028Z" creationid="liaronce" creationdate="20211105T144028Z">
+        <seg>目录 ‘{0}’ 不存在。\n请验证项目位置，然后重试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Disable</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170510T021529Z" creationid="deciia" creationdate="20170510T021529Z">
@@ -29585,6 +29641,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T065842Z" creationid="deciia" creationdate="20170104T065830Z">
         <seg>禁用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Discard Changes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144140Z" creationid="liaronce" creationdate="20211105T144140Z">
+        <seg>放弃更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -30037,6 +30101,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Don't show me again</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144016Z" creationid="liaronce" creationdate="20211105T144016Z">
+        <seg>此消息不再显示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Don't show this message again</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170114T035507Z" creationid="deciia" creationdate="20161223T080930Z">
@@ -30197,6 +30269,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T000314Z" creationid="deciia" creationdate="20180922T013420Z">
         <seg>正在下载帮助文档...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Downloading Template...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144051Z" creationid="liaronce" creationdate="20211105T144051Z">
+        <seg>正在下载模板...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Downloading Template...{0}% Complete</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144054Z" creationid="liaronce" creationdate="20211105T144054Z">
+        <seg>正在下载模板...{0}% 已完成</seg>
       </tuv>
     </tu>
     <tu>
@@ -32810,6 +32898,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141324Z" creationid="liaronce" creationdate="20191118T141324Z">
         <seg>下载教程错误：“{0}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Error Loading Template</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144057Z" creationid="liaronce" creationdate="20211105T144057Z">
+        <seg>加载模板时出错</seg>
       </tuv>
     </tu>
     <tu>
@@ -35741,6 +35837,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T193858Z" creationid="deciia" creationdate="20180922T193858Z">
         <seg>GameMaker Studio 2 项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GameMaker Studio 2 Project Template</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144225Z" creationid="liaronce" creationdate="20211105T144225Z">
+        <seg>Gamemaker Studio 2 项目模板</seg>
       </tuv>
     </tu>
     <tu>
@@ -43370,6 +43474,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Inherit Effect Properties</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144227Z" creationid="liaronce" creationdate="20211105T144227Z">
+        <seg>继承效果属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Inherit Event</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T153525Z" creationid="deciia" creationdate="20180921T153525Z">
@@ -44171,6 +44283,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161223T080954Z" creationid="deciia" creationdate="20161223T080954Z">
         <seg>无效</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Invalid Download URL</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144112Z" creationid="liaronce" creationdate="20211105T144106Z">
+        <seg>下载地址无效</seg>
       </tuv>
     </tu>
     <tu>
@@ -45378,8 +45498,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Left Mouse Button: Add &amp; Drag Anchor</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T105438Z" creationid="deciia" creationdate="20170103T105009Z">
-        <seg>鼠标左键(LMB)：添加&amp;拖动锚点</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144307Z" creationid="deciia" creationdate="20170103T105009Z">
+        <seg>鼠标左键：添加&amp;拖动锚点</seg>
       </tuv>
     </tu>
     <tu>
@@ -45484,6 +45604,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170219T005922Z" creationid="deciia" creationdate="20170219T005922Z">
         <seg>小于或等于</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's Go!</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144019Z" creationid="liaronce" creationdate="20211105T144019Z">
+        <seg>我们走吧!</seg>
       </tuv>
     </tu>
     <tu>
@@ -49228,6 +49356,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T114949Z" creationid="deciia" creationdate="20170311T114949Z">
         <seg>官方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Official Templates</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144154Z" creationid="liaronce" creationdate="20211105T144154Z">
+        <seg>官方模板</seg>
       </tuv>
     </tu>
     <tu>
@@ -53024,6 +53160,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Project Template Export</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144221Z" creationid="liaronce" creationdate="20211105T144221Z">
+        <seg>项目模板导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Project Use Time</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T082720Z" creationid="deciia" creationdate="20180922T082720Z">
@@ -53770,6 +53914,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T094429Z" creationid="deciia" creationdate="20170102T070457Z">
         <seg>最近项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Recent Projects List Style</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144139Z" creationid="liaronce" creationdate="20211105T144139Z">
+        <seg>最近的项目列表样式</seg>
       </tuv>
     </tu>
     <tu>
@@ -56346,8 +56498,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>SKIP Tour</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143632Z" creationid="liaronce" creationdate="20211105T143632Z">
-        <seg>跳过探索</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144135Z" creationid="liaronce" creationdate="20211105T143632Z">
+        <seg>跳过 Tour</seg>
       </tuv>
     </tu>
     <tu>
@@ -56476,6 +56628,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170224T005744Z" creationid="deciia" creationdate="20170224T005744Z">
         <seg>保存缓冲区</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save Changes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144140Z" creationid="liaronce" creationdate="20211105T144140Z">
+        <seg>保存更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -61018,6 +61178,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Show ALL</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144153Z" creationid="liaronce" creationdate="20211105T144153Z">
+        <seg>全部显示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Show All</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T052155Z" creationid="deciia" creationdate="20170107T052155Z">
@@ -61138,6 +61306,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Show Only Redefined Commands</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144231Z" creationid="liaronce" creationdate="20211105T144231Z">
+        <seg>仅显示重新定义的命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Show Parent Event</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T153534Z" creationid="deciia" creationdate="20180921T153534Z">
@@ -61186,6 +61362,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Show Setup Wizard</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144137Z" creationid="liaronce" creationdate="20211105T144137Z">
+        <seg>显示设置向导</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Show Split View</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T053740Z" creationid="deciia" creationdate="20170107T053740Z">
@@ -61210,6 +61394,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Show Tour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144127Z" creationid="liaronce" creationdate="20211105T144127Z">
+        <seg>显示 Tour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Show Tree Location</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142302Z" creationid="liaronce" creationdate="20200820T142302Z">
@@ -61222,6 +61414,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T145644Z" creationid="deciia" creationdate="20170107T053929Z">
         <seg>显示系统函数的美式拼写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Show Unbound Commands</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144228Z" creationid="liaronce" creationdate="20211105T144228Z">
+        <seg>显示未绑定的命令</seg>
       </tuv>
     </tu>
     <tu>
@@ -64494,6 +64694,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143231Z" creationid="liaronce" creationdate="20211105T143231Z">
         <seg>模板图像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Template Info</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144217Z" creationid="liaronce" creationdate="20211105T144217Z">
+        <seg>模板信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -68615,6 +68823,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>User Templates</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144155Z" creationid="liaronce" creationdate="20211105T144155Z">
+        <seg>用户模板</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>User defined layer depths are not adequately spaced.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T012327Z" creationid="deciia" creationdate="20170105T093740Z">
@@ -71275,6 +71491,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140227Z" creationid="liaronce" creationdate="20200820T140227Z">
         <seg>angle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>argument name {0} already used in function declaration</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144220Z" creationid="liaronce" creationdate="20211105T144220Z">
+        <seg>参数名称 {0} 已在函数声明中使用</seg>
       </tuv>
     </tu>
     <tu>
