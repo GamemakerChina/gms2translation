@@ -38,6 +38,46 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"""Import Project"""</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143519Z" creationid="liaronce" creationdate="20211105T143519Z">
+        <seg>"""导入项目"""</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"""New Project"""</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143514Z" creationid="liaronce" creationdate="20211105T143514Z">
+        <seg>"""新建项目"""</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"""Open Project"""</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143517Z" creationid="liaronce" creationdate="20211105T143517Z">
+        <seg>"""打开项目"""</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"""Recent Projects"""</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143545Z" creationid="liaronce" creationdate="20211105T143525Z">
+        <seg>"""最近的项目"""</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"""Tutorials"""</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143522Z" creationid="liaronce" creationdate="20211105T143522Z">
+        <seg>"""教程"""</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"${APP_NAME} is already installed.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134915Z" creationid="liaronce" creationdate="20210228T134915Z">
@@ -9318,6 +9358,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Import a project that has previously been exported or is from a legacy version of GameMaker"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143717Z" creationid="liaronce" creationdate="20211105T143717Z">
+        <seg>“导入以前已导出的项目或来自旧版 GameMaker 的项目”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Imported layer depths for room(s) '{0}' were not adequately spaced.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T115705Z" creationid="liaronce" creationdate="20210228T115705Z">
@@ -10018,6 +10066,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131718Z" creationid="liaronce" creationdate="20210228T131718Z">
         <seg>“打开Ini文件”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Open a project you've already started and continue from when your last saved"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143656Z" creationid="liaronce" creationdate="20211105T143656Z">
+        <seg>“打开一个您已经开始的项目，并从上次保存时继续”</seg>
       </tuv>
     </tu>
     <tu>
@@ -13978,6 +14034,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131855Z" creationid="liaronce" creationdate="20210228T131847Z">
         <seg>"开始让一个实例跟随路径"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Start from scratch with a new empty project or start from a template; one we've included or one of your own"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143650Z" creationid="liaronce" creationdate="20211105T143650Z">
+        <seg>“从新的空项目从头开始，或从我们内置的模板或您自己的模板开始”</seg>
       </tuv>
     </tu>
     <tu>
@@ -35271,6 +35335,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GET STARTED</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143409Z" creationid="liaronce" creationdate="20211105T143409Z">
+        <seg>开始</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GLSL</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135522Z" creationid="liaronce" creationdate="20191117T135522Z">
@@ -39434,6 +39506,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T101403Z" creationid="deciia" creationdate="20170105T101403Z">
         <seg>主机名：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Hover over any of the below areas marked with a</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143445Z" creationid="liaronce" creationdate="20211105T143445Z">
+        <seg>将鼠标悬停在以下任何标有</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Hover over any of the below areas marked with a   #   to find out more and explore.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143459Z" creationid="liaronce" creationdate="20211105T143459Z">
+        <seg>将鼠标悬停在标有 # 的以下任一区域可了解更多信息并进行探索。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44936,6 +45024,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Last Login:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143411Z" creationid="liaronce" creationdate="20211105T143411Z">
+        <seg>上次登录时间：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Last generated on {0}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140341Z" creationid="liaronce" creationdate="20191118T140341Z">
@@ -49596,6 +49692,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T064922Z" creationid="deciia" creationdate="20170103T115423Z">
         <seg>即将打开大量资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Opens in web browser</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143407Z" creationid="liaronce" creationdate="20211105T143407Z">
+        <seg>在 Web 浏览器中打开</seg>
       </tuv>
     </tu>
     <tu>
@@ -56100,6 +56204,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T103437Z" creationid="deciia" creationdate="20170105T103219Z">
         <seg>可用运行库：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SKIP Tour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143632Z" creationid="liaronce" creationdate="20211105T143632Z">
+        <seg>跳过探索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>SKIP to Setup Wizard</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143552Z" creationid="liaronce" creationdate="20211105T143552Z">
+        <seg>跳至设置向导</seg>
       </tuv>
     </tu>
     <tu>
@@ -64583,6 +64703,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The START page is where you can access all you need to help develop your skills and to navigate the application.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143442Z" creationid="liaronce" creationdate="20211105T143442Z">
+        <seg>在起始页中，您可以访问帮助发展技能和导航应用程序所需的所有内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The Switch Authoring Editor cannot be found.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T101737Z" creationid="lazyeo" creationdate="20191120T101737Z">
@@ -69156,6 +69284,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Welcome User</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143414Z" creationid="liaronce" creationdate="20211105T143414Z">
+        <seg>欢迎用户</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>What are you looking for?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T143755Z" creationid="deciia" creationdate="20170107T045302Z">
@@ -72275,6 +72411,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T150609Z" creationid="deciia" creationdate="20180921T150609Z">
         <seg>到</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>to find out more and explore.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143451Z" creationid="liaronce" creationdate="20211105T143451Z">
+        <seg>了解更多信息并探索。</seg>
       </tuv>
     </tu>
     <tu>
