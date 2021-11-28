@@ -564,6 +564,7 @@ Inspector_Opacity,Opacity,Opacity,,inspector property label
 Inspector_BackdropImage,Backdrop Image,Backdrop Image,,inspector property label
 Inspector_BackdropSize,Backdrop Size,Backdrop Size,,inspector property label
 Inspector_Size,Size,Size,,inspector property label
+Inspector_EditCC,Edit Creation Code,Edit Creation Code,,inspector edit creation code button label
 GMShader_VertexShaderPath,.VSH (Read-only),.VSH (Read-only),,inspector property name
 GMShader_FragmentShaderPath,.FSH (Read-only),.FSH (Read-only),,inspector property name
 Inspector_Script,Script (Read-only),Script (Read-only),,inspector property name
@@ -600,6 +601,8 @@ fonteditor_options_intepreter,Interpreter,Interpreter,,Font editor interpreter v
 fonteditor_options_intepreter_tooltip,Select the TrueType interpreter version,Select the TrueType interpreter version,,Font editor interpreter version option tooltip
 fonteditor_options_conversion,Rounding,Rounding,,Font point size to integer conversion
 fonteditor_options_conversion_tooltip,Select rounding method when converting from fixed-point decimal size to integer,Select rounding method when converting from fixed-point decimal size to integer,,Font point size to integer conversion tooltip
+fonteditor_options_apply_kerning,Apply Kerning,Apply Kerning,,Apply Kerning contained in font
+fonteditor_options_apply_kerning_tooltip,Apply Kerning contained in font when rendered in-game,Apply Kerning contained in font when rendered in-game,,Apply Kerning contained in font when rendered in-game
 fonteditor_add_range,Add,Add,,Adding a new font range - button
 fonteditor_add_range_desc,Add new range,Add new range,,Adding a new font range - description
 fonteditor_bold,Bold,Bold,,Font editor Bold caption
@@ -1057,10 +1060,10 @@ IncludedFilesPlatform_Windows_Phone_8_YYC,Windows Phone 8 (YYC),Windows Phone 8 
 IncludedFilesPlatform_Windows_YYC,Windows (YYC),Windows (YYC),DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Windows8_Javascript,Windows 8 (Javascript),Windows 8 (Javascript),DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Windows8_Native,Windows 8 (Native),Windows 8 (Native),DO NOT TRANSLATE,included files platform list entry
-IncludedFilesPlatform_XBox_One,Xbox One,Xbox One,DO NOT TRANSLATE,included files platform list entry
-IncludedFilesPlatform_XBox_One_YYC,Xbox One (YYC),Xbox One (YYC),DO NOT TRANSLATE,included files platform list entry
-IncludedFilesPlatform_Xbox_Series_XS,Xbox Series X/S,Xbox Series X/S,DO NOT TRANSLATE,included files platform list entry
-IncludedFilesPlatform_Xbox_Series_XS_YYC,Xbox Series X/S (YYC),Xbox Series X/S (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_XBox_One,Xbox One (Legacy/XDK),Xbox One (Legacy/XDK),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_XBox_One_YYC,Xbox One (Legacy/XDK) (YYC),Xbox One (Legacy/XDK) (YYC),DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Xbox_Series_XS,Xbox One & Series X/S,Xbox One & Series X/S,DO NOT TRANSLATE,included files platform list entry
+IncludedFilesPlatform_Xbox_Series_XS_YYC,Xbox One & Series X/S (YYC),Xbox One & Series X/S (YYC),DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Windows_UWP,Windows UWP,Windows UWP,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Android_TV,Android TV,Android TV,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_TV_OS,tvOS,tvOS,DO NOT TRANSLATE,included files platform list entry
@@ -1089,6 +1092,8 @@ ListBoxEnum_eGMSoundBitDepth__8bit,8 bit,8 bit,,8 bit audio bit depth ListBox En
 ListBoxEnum_eGMSoundType__3D,3D,3D,,3D Sound Listbox Enum
 ListBoxEnum_eGMSoundType_Mono,Mono,Mono,,Mono Sound Listbox Enum
 ListBoxEnum_eGMSoundType_Stereo,Stereo,Stereo,,Stereo Sound Listbox Enum
+ListBoxEnum_eGMConversionMode_Automatic,Automatic,Automatic,,Let system decide to convert a file or not
+ListBoxEnum_eGMConversionMode_Required,Required,Required,,Force to convert a file or not
 ListBoxEnum_eImageBGStyle_BlockPattern,Block Pattern,Block Pattern,,image editor image background style enum
 ListBoxEnum_eImageBGStyle_SingleColour,Single Colour,Single Colour,,image editor image background style enum
 ListBoxEnum_eAnimLoopMode_PlayOnce,Play once,Play once,,image editor anim loop mode enum
@@ -1638,11 +1643,22 @@ ROOM_EFFECTS_filter_heathaze,Heat Haze,Heat Haze,,heat haze filter name
 ROOM_EFFECTS_Noise Offset_0,Small Noise Scale,Small Noise Scale,,noise offset param0
 ROOM_EFFECTS_Noise Offset_1,Big Noise Scale,Big Noise Scale,,noise offset param1
 ROOM_EFFECTS_Noise Texture,Noise Texture,Noise Texture,,noise texture param
+ROOM_EFFECTS_Distort 1 Speed,Distort 1 Speed,Distort 1 Speed,,distort 1 speed param
+ROOM_EFFECTS_Distort 2 Speed,Distort 2 Speed,Distort 2 Speed,,distort 2 speed param
+ROOM_EFFECTS_Distort 1 Scale,Distort 1 Scale,Distort 1 Scale,,distort 1 scale param
+ROOM_EFFECTS_Distort 2 Scale,Distort 2 Scale,Distort 2 Scale,,distort 2 scale param
+ROOM_EFFECTS_Distort 1 Amount,Distort 1 Amount,Distort 1 Amount,,distort 1 amount param
+ROOM_EFFECTS_Distort 2 Amount,Distort 2 Amount,Distort 2 Amount,,distort 2 amount param
+ROOM_EFFECTS_Chroma Spread,Chroma Spread,Chroma Spread,,chroma spread param
+ROOM_EFFECTS_Camera Offset Scale,Camera Offset Scale,Camera Offset Scale,,camera offset scale param
+ROOM_EFFECTS_Distort Texture,Distort Texture,Distort Texture,,distort texture param
 ROOM_EFFECTS_filter_posterise,Posterise,Posterise,,posterise filter name
 ROOM_EFFECTS_Colour Levels,Colour Levels,Colour Levels,,colour levels param
 ROOM_EFFECTS_filter_tintfilter,Colour Tint,Colour Tint,,colour tint filter name
-ROOM_EFFECTS_Tint colour,Colour,Colour,,colour parameter name
+ROOM_EFFECTS_Tint colour,Tint Colour,Tint Colour,,tint colour parameter name
 ROOM_EFFECTS_filter_underwater,Underwater,Underwater,,underwater filter name
+ROOM_EFFECTS_Glint Colour,Glint Colour,Glint Colour,,glint colour parameter name
+ROOM_EFFECTS_Add Colour,Add Colour,Add Colour,,add colour parameter name
 ROOM_EFFECTS_filter_colourise,Colourise,Colourise,,colourise filter name
 ROOM_EFFECTS_filter_large_blur,Large Blur,Large Blur,,large blur filter name
 ROOM_EFFECTS_Radius,Radius,Radius,,radius filter param
@@ -1656,6 +1672,8 @@ ROOM_EFFECTS_filter_distort,Distort,Distort,,distort filter name
 ROOM_EFFECTS_Scale,Scale,Scale,,scale filter param
 ROOM_EFFECTS_Amount,Amount,Amount,,amount filter param
 ROOM_EFFECTS_Offset,Offset,Offset,,offset filter param
+ROOM_EFFECTS_filter_twirl_distort,Twirl Distort,Twirl Distort,,twirl distort filter name
+ROOM_EFFECTS_Angle,Angle,Angle,,angle filter param
 Run_Menu_Clean,Clean,Clean,,"Run menu ""Clean"""
 Run_Menu_CreateExecutable,Create Executable,Create Executable,,The Create Executable menu item
 Run_Menu_RevealRemote,Show Remote Worker Installer,Show Remote Worker Installer,,Reveal worker menu item
@@ -1721,6 +1739,7 @@ SearchReplace_FilterShaders,Shaders,Shaders,,Shaders
 SearchReplace_FilterExtensions,Extensions,Extensions,,Extensions
 SoundEditor_Attributes,Attributes:,Attributes:,,Sound Editor Attributes - for choosing uncompressed/streaming options
 SoundEditor_AudioGroup,Audio Group:,Audio Group:,,Sound Editor Audio Group labal
+SoundMixer_LoadAudioGroup,Load Audio Group:,Load Audio Group:,,Sound Mixer Load Audio Group label
 SoundEditor_BitRate,Bit Rate (kbps):,Bit Rate (kbps):,,Sound Editor Target Bit Rate ( in kbps )
 SoundEditor_Compressed_NotStreamed,Compressed - Not Streamed,Compressed - Not Streamed,,Sound Editor Attribute - Compressed and Not Streamed
 SoundEditor_Compressed_Streamed,Compressed - Streamed,Compressed - Streamed,,Sound Editor Attribute - Compressed - Streamed
@@ -1741,6 +1760,7 @@ SoundEditor_Output,Output:,Output:,,Sound Editor Output label
 SoundEditor_NoDeviceWarningTitle,No Audio Device,No Audio Device,,No audio device is available for previewing sounds warning dialog title
 SoundEditor_NoDeviceWarning,No audio device is available for previewing sounds.,No audio device is available for previewing sounds.,,No audio device is available for previewing sounds warning message
 SoundEditor_StreamedAudioGroupWarning,Streaming sounds cannot be used in AudioGroups. Are you sure you want to set this to streaming? It will reset the AudioGroup back to Default.,Streaming sounds cannot be used in AudioGroups. Are you sure you want to set this to streaming? It will reset the AudioGroup back to Default.,,warning message for streamed sound in audio group
+SoundEditor_OggLabel,Conversion (for OGG only):,Conversion (for OGG only):,,Ogg conversion option
 SoundMixer_Title,Sound Mixer,Sound Mixer,,Title of SoundMixer window
 SoundMixer_ColumnVolume,Column Volume,Column Volume,,Column Volume Label
 SoundMixer_UntitledGroup,Untitled Group,Untitled Group,,Label of Untitled Group
@@ -2812,6 +2832,10 @@ ggs_title_id,Title ID,Title ID,,Title Id
 ggs_service_configuration_id,Service Configuration ID,Service Configuration ID,,Service Configuration Id
 ggs_xbox_program_id,Program ID,Program ID,,Program Id
 ggs_xboxseriesxs_package_name,Package Name,Package Name,,Package Name
+ggs_xboxseriesxs_store_id,Store ID,Store ID,,Store ID
+ggs_xboxseriesxs_msaappid,MSA App ID,MSA App ID,,MSA App ID
+ggs_xboxseriesxs_content_id,Content ID (Development only),Content ID (Development only),,Content ID (Development only)
+ggs_xboxseriesxs_ekbid,EKBID (Development only),EKBID (Development only),,EKBID (Development only)
 ggs_playfab_party_id,PlayFab Party ID,PlayFab Party ID,,PlayFab Party ID
 ggs_require_xbox_live,Require Xbox Live,Require Xbox Live,,Require Xbox Live
 ggs_require_game_chat,Require game chat,Require game chat,,Require Game Chat
@@ -3095,8 +3119,8 @@ TargetSelection_Platform_ios,iOS,iOS,DO NOT TRANSLATE,the apple iOS platform tit
 TargetSelection_Platform_tvos,tvOS,tvOS,DO NOT TRANSLATE,the apple tvOS platform title in the platform selection list
 TargetSelection_Platform_ps4,PlayStation 4,PlayStation 4,,the ps4 platform title in the platform selection list
 TargetSelection_Platform_ps5,PlayStation 5,PlayStation 5,,the ps5 platform title in the platform selection list
-TargetSelection_Platform_xboxone,Xbox One,Xbox One,DO NOT TRANSLATE,the xbox one platform title in the platform selection list
-TargetSelection_Platform_xboxseriesxs,Xbox Series X/S,Xbox Series X/S,DO NOT TRANSLATE,the Xbox Series X/S platform title in the platform selection list
+TargetSelection_Platform_xboxone,Xbox One (Legacy/XDK),Xbox One (Legacy/XDK),DO NOT TRANSLATE,the xbox one platform title in the platform selection list
+TargetSelection_Platform_xboxseriesxs,Xbox One & Series X/S,Xbox One & Series X/S,DO NOT TRANSLATE,the Xbox One & Series X/S platform title in the platform selection list
 TargetSelection_Platform_wasm,WASM,WASM,DO NOT TRANSLATE,the WASM platform title in the platform selection list
 TargetSelection_Platform_operagx,Opera GX,Opera GX,DO NOT TRANSLATE,the opera gx platform title in the platform selection list
 TargetSelection_Runtime_VM,VM,VM,, the VM (Virtual Machine) title in the runtime selection list
@@ -3350,6 +3374,7 @@ operagx_view_on_web,Edit Game on Opera,Edit Game on Opera,,Button label for Oper
 operagx_out_start_login,Starting Sign-In to Opera,Starting Sign-In to Opera,,Output Message tracking Packaging for OperaGX process
 operagx_out_compiling,Compiling...,Compiling...,,Output Message tracking Packaging for OperaGX process
 operagx_out_refreshing_token,Refreshing OAuth2 Token,Refreshing OAuth2 Token,,Output Message tracking Packaging for OperaGX process
+operagx_failed_to_refresh_token,failed to refresh token... logout of GameMaker and login again,failed to refresh token... logout of GameMaker and login again,,Output Message tracking Packaging for OperaGX process
 operagx_out_uploading,Uploading...,Uploading...,,Output Message tracking Packaging for OperaGX process
 operagx_out_upload_exiting,GXC Upload Exiting...,GXC Upload Exiting...,,Output Message tracking Packaging for OperaGX process
 operagx_out_upload_timeout,GXC Upload Timeout...,GXC Upload Timeout...,,Output Message tracking Packaging for OperaGX process
@@ -3397,6 +3422,8 @@ windows_uwp_package_no_arch_error,At least one architecture must be selected to 
 windows_uwp_package_no_arch_error_title,Error,Error,,Title for error dialog shown when the user hasn't selected any architectures
 xbox_package_dev,Developer Package,Developer Package,,Normal Package type used during development
 xbox_package_submission,Submission Package (/l),Submission Package (/l),,Package created for final submission to Microsoft
+xbox_package_xbone,Xbox One package,Xbox One package,,Package built for Xbox One consoles
+xbox_package_seriesxs,Xbox One or Series X/S package,Xbox One or Series X/S package,,Package built for Xbox consoles
 build_no_packaging_on_platform,Packages can not be built for the selected platform,Packages can not be built for the selected platform,,It is not possible to Create Application on this platform
 build_no_packaging_on_platform_title,Error,Error,,Title for dialog box shown when trying to Create Application with Test platform selected
 ListBoxEnum_WindowsPackageChoice_WindowsPackage_Show,Show Dialog,Show Dialog,,Show Dialog
@@ -5545,10 +5572,12 @@ ResourceTree_AnimCurves_Singular,Animation Curve,Animation Curve,,Animcurve reso
 ResourceTree_Extensions_Singular,Extension,Extension,,Extension resource name singular
 ResourceTree_IncludedFiles_Singular,Included File,Included File,,Included File resource name singular
 RT_Unknown,Resource,Resource,,unknown resource type name
-RT_RoomInstance,Room Instances,Room Instances,,room instance resource name
-RT_RoomInstance_Singular,Room Instance,Room Instance,,room instance resource name singular
-RT_RoomGraphic,Room Graphics,Room Graphics,,room graphic resource name
-RT_RoomGraphic_Singular,Room Graphic,Room Graphic,,room graphic resource name singular
+RT_RoomInstance,Object Instances,Object Instances,,room instance resource name
+RT_RoomInstance_Singular,Object Instance,Object Instance,,room instance resource name singular
+RT_RoomSpriteGraphic,Sprite Instances,Sprite Instances,,room sprite graphic resource name
+RT_RoomSpriteGraphic_Singular,Sprite Instance,Sprite Instance,,room sprite graphic resource name singular
+RT_RoomSequenceGraphic,Sequence Instances,Sequence Instances,,room sequence graphic resource name
+RT_RoomSequenceGraphic_Singular,Sequence Instance,Sequence Instance,,room sequence graphic resource name singular
 recentwindows_title,Recent Windows,Recent Windows,,Recently activated windows title
 Views_Menu_Recent_Windows,Recent Windows,Recent Windows,,Recent activated windows menu option
 Developer_Menu_Title,Developer,Developer,,Title of the main Developer menu
@@ -5652,9 +5681,9 @@ PlayStation 5,PlayStation 5,PlayStation 5,DO NOT TRANSLATE,PlayStation 5 prefere
 Steam,Steam,Steam,DO NOT TRANSLATE,Steam preference group subheading
 Windows,Windows,Windows,DO NOT TRANSLATE,Windows preference group subheading
 Windows UWP,Windows UWP,Windows UWP,DO NOT TRANSLATE,Windows UWP preference group subheading
-Xbox One,Xbox One,Xbox One,DO NOT TRANSLATE,Xbox One preference group subheading
-XBox One,Xbox One,Xbox One,DO NOT TRANSLATE,Xbox One preference group subheading
-Xbox Series XS,Xbox Series X/S,Xbox Series X/S,DO NOT TRANSLATE,Xbox Series X/S preference group subheading
+Xbox One,Xbox One (Legacy/XDK),Xbox One (Legacy/XDK),DO NOT TRANSLATE,Xbox One preference group subheading
+XBox One,Xbox One (Legacy/XDK),Xbox One (Legacy/XDK),DO NOT TRANSLATE,Xbox One preference group subheading
+Xbox Series XS,Xbox One & Series X/S,Xbox One & Series X/S,DO NOT TRANSLATE,Xbox One & Series X/S preference group subheading
 Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,Ubuntu preference group subheading
 WebAssembly,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
 Wasm,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
@@ -6957,3 +6986,6 @@ RedefineKeys_Export_Button, Export as file, Export as file,,Export file button c
 RedefineKeys_Clear_Button, Clear, Clear,,Clear Button
 Redefine_Keys_Show_Unbound_Commands, Show Unbound Commands, Show Unbound Commands,,Show Unbound Commands caption
 Redefine_Keys_Show_Only_Redefined_Commands, Show Only Redefined Commands, Show Only Redefined Commands,, Show Only Redefined Commands caption
+Redefine_Keys_WarningKeys_Dialog,This command may not work properly with the {0} key. Are you sure you want to continue?,This command may not work properly with the {0} key. Are you sure you want to continue?,,Are you sure about remapping the command message text
+Redefine_Keys_ForbiddenKeys_Title,Forbidden Key,Forbidden Key,,Forbidden Key Title
+Redefine_Keys_ForbiddenKeys_Dialog,This command cannot be remapped to {0} as the {1} key is forbidden for this command.,This command cannot be remapped to {0} as the {1} key is forbidden for this command.,,Forbidden keys message text
