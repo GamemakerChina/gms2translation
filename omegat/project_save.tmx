@@ -66313,6 +66313,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This command cannot be remapped to {0} as the {1} key is forbidden for this command.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110254Z" creationid="liaronce" creationdate="20211128T110254Z">
+        <seg>无法将此命令重新映射到 {0}，因为此命令禁止使用 {1} 键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This command may not work properly with the {0} key.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110218Z" creationid="liaronce" creationdate="20211128T110218Z">
