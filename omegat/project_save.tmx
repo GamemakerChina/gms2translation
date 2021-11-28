@@ -968,8 +968,8 @@
       <tuv lang="en-US">
         <seg>"Call this event on the instance's parent object."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T121753Z" creationid="liaronce" creationdate="20210228T121753Z">
-        <seg>“对实例的父对象调用此事件。”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110130Z" creationid="liaronce" creationdate="20210228T121753Z">
+        <seg>“对实例的父物体调用此事件。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1120,8 +1120,8 @@
       <tuv lang="en-US">
         <seg>"Change an instance to be an instance of another object."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120917Z" creationid="liaronce" creationdate="20210228T120917Z">
-        <seg>“将实例更改为另一个对象的实例。”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110124Z" creationid="liaronce" creationdate="20210228T120917Z">
+        <seg>“将实例更改为另一个物体的实例。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1136,8 +1136,8 @@
       <tuv lang="en-US">
         <seg>"Change the sprite of an object instance."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T121426Z" creationid="liaronce" creationdate="20210228T121426Z">
-        <seg>“更改对象实例的精灵。”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110127Z" creationid="liaronce" creationdate="20210228T121426Z">
+        <seg>“更改物体实例的精灵。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1344,8 +1344,8 @@
       <tuv lang="en-US">
         <seg>"Check if an instance overlaps one or more instances of a specific object at a position."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T122529Z" creationid="liaronce" creationdate="20210228T122529Z">
-        <seg>“检查实例是否在某个位置与特定对象的一个或多个实例重叠。”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110133Z" creationid="liaronce" creationdate="20210228T122529Z">
+        <seg>“检查实例是否在某个位置与特定物体的一个或多个实例重叠。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -2312,8 +2312,8 @@
       <tuv lang="en-US">
         <seg>"Creates an instance of an object."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120912Z" creationid="liaronce" creationdate="20210228T120912Z">
-        <seg>“创建对象的实例。”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110122Z" creationid="liaronce" creationdate="20210228T120912Z">
+        <seg>“创建物体的实例。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -3904,8 +3904,8 @@
       <tuv lang="en-US">
         <seg>"Execute code in the context of a specific object or instance."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120828Z" creationid="liaronce" creationdate="20210228T120828Z">
-        <seg>“在特定对象或实例的上下文中执行代码。”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110115Z" creationid="liaronce" creationdate="20210228T120828Z">
+        <seg>“在特定物体或实例的上下文中执行代码。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -11128,8 +11128,8 @@
       <tuv lang="en-US">
         <seg>"Returns the number of active instances of the object."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120908Z" creationid="liaronce" creationdate="20210228T120908Z">
-        <seg>“返回对象的活动实例数。”</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110118Z" creationid="liaronce" creationdate="20210228T120908Z">
+        <seg>“返回物体的活动实例数。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -15064,8 +15064,8 @@
       <tuv lang="en-US">
         <seg>"When unchecked, instances of this object will still be processed, but will not be drawn"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T113610Z" creationid="liaronce" creationdate="20210228T113610Z">
-        <seg>"取消选中时，仍将处理此对象的实例，但不会绘制"</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110015Z" creationid="liaronce" creationdate="20210228T113610Z">
+        <seg>"取消选中时，仍将处理此物体的实例，但不会绘制"</seg>
       </tuv>
     </tu>
     <tu>
@@ -15896,8 +15896,8 @@
       <tuv lang="en-US">
         <seg>(Object is not inspectable)</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125256Z" creationid="liaronce" creationdate="20200820T125256Z">
-        <seg>(对象不可检查)</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T105937Z" creationid="liaronce" creationdate="20200820T125256Z">
+        <seg>(物体不可检查)</seg>
       </tuv>
     </tu>
     <tu>
@@ -19805,8 +19805,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Are you sure you want to delete these Assets: {0}?\nCollision events with deleted objects will also be deleted</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142212Z" creationid="liaronce" creationdate="20200820T142212Z">
-        <seg>是否确实要删除这些资产：{0}？\n与已删除对象的冲突事件也将被删除</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110139Z" creationid="liaronce" creationdate="20200820T142212Z">
+        <seg>是否确实要删除这些资产：{0}？\n与已删除物体的冲突事件也将被删除</seg>
       </tuv>
     </tu>
     <tu>
@@ -20197,8 +20197,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Assign Sprite to Object</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142214Z" creationid="liaronce" creationdate="20200820T142214Z">
-        <seg>将精灵指定给对象</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110146Z" creationid="liaronce" creationdate="20200820T142214Z">
+        <seg>将精灵指定给物体</seg>
       </tuv>
     </tu>
     <tu>
@@ -27513,8 +27513,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Create new Instance layers when dragging objects onto unsuitable layers</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133644Z" creationid="liaronce" creationdate="20200820T133630Z">
-        <seg>将对象拖动到不合适的图层时创建新的实例层</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110112Z" creationid="liaronce" creationdate="20200820T133630Z">
+        <seg>将物体拖动到不合适的图层时创建新的实例层</seg>
       </tuv>
     </tu>
     <tu>
@@ -34061,16 +34061,16 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>Failed to clone style value object of type '{0}' collection types must have a bespoke deep clone implemented</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180924T023857Z" creationid="deciia" creationdate="20170104T031655Z">
-        <seg>无法克隆类型为“{0}”的样式值对象，集合类型必须实现定制的深度克隆</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110100Z" creationid="deciia" creationdate="20170104T031655Z">
+        <seg>无法克隆类型为“{0}”的样式值物体，集合类型必须实现定制的深度克隆</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Failed to clone style value object of type '{0}' object class must implement ICloneable interface</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180924T023803Z" creationid="deciia" creationdate="20170104T031347Z">
-        <seg>无法复制类型为“{0}”的样式值对象，对象类必须实现ICloneable接口</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110037Z" creationid="deciia" creationdate="20170104T031347Z">
+        <seg>无法复制类型为“{0}”的样式值物体，物体类必须实现 ICloneable 接口</seg>
       </tuv>
     </tu>
     <tu>
@@ -35225,6 +35225,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T070624Z" creationid="deciia" creationdate="20170212T043736Z">
         <seg>步长循环（For）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Forbidden Key</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110240Z" creationid="liaronce" creationdate="20211128T110221Z">
+        <seg>禁用按键</seg>
       </tuv>
     </tu>
     <tu>
@@ -49386,6 +49394,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Object Instance</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110209Z" creationid="liaronce" creationdate="20211128T110209Z">
+        <seg>物体实例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Object Instances</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T105921Z" creationid="liaronce" creationdate="20211128T105921Z">
@@ -49404,16 +49420,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Object Track</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T113723Z" creationid="liaronce" creationdate="20210621T113723Z">
-        <seg>对象轨迹</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110001Z" creationid="liaronce" creationdate="20210621T113723Z">
+        <seg>物体轨迹</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Object Tracks</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T113724Z" creationid="liaronce" creationdate="20210621T113724Z">
-        <seg>对象轨迹</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110002Z" creationid="liaronce" creationdate="20210621T113724Z">
+        <seg>物体轨迹</seg>
       </tuv>
     </tu>
     <tu>
@@ -58450,6 +58466,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sequence Instance</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110214Z" creationid="liaronce" creationdate="20211128T110214Z">
+        <seg>序列实例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Instances</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110213Z" creationid="liaronce" creationdate="20211128T110213Z">
+        <seg>序列实例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sequence Keyframe</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141933Z" creationid="liaronce" creationdate="20200820T141933Z">
@@ -63199,6 +63231,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sprite Instance</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110211Z" creationid="liaronce" creationdate="20211128T110211Z">
+        <seg>精灵实例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite Instances</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110210Z" creationid="liaronce" creationdate="20211128T110210Z">
+        <seg>精灵实例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sprite Label Colour</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T090006Z" creationid="deciia" creationdate="20180922T090006Z">
@@ -66265,6 +66313,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This command may not work properly with the {0} key.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110218Z" creationid="liaronce" creationdate="20211128T110218Z">
+        <seg>此命令可能无法与 {0} 键一起正常工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This could be from a bad install or an overly aggressive virus scanner.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T101055Z" creationid="lazyeo" creationdate="20191120T101055Z">
@@ -66461,8 +66517,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>This object does not support bulk editing</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125658Z" creationid="liaronce" creationdate="20200820T125658Z">
-        <seg>此对象不支持批量编辑</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T105952Z" creationid="liaronce" creationdate="20200820T125658Z">
+        <seg>此物体不支持批量编辑</seg>
       </tuv>
     </tu>
     <tu>
@@ -73315,16 +73371,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>{0} - List should only contain objects of type {2}{1}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T043710Z" creationid="deciia" creationdate="20170104T043710Z">
-        <seg>{0} - 列表只应包含类型 {2}{1} 的对象</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110109Z" creationid="deciia" creationdate="20170104T043710Z">
+        <seg>{0} - 列表只应包含类型 {2}{1} 的物体</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>{0} - Object should be of type {2}{1}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T043553Z" creationid="deciia" creationdate="20170104T043553Z">
-        <seg>{0} - 对象应该是类型 {2}{1}</seg>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20211128T110104Z" creationid="deciia" creationdate="20170104T043553Z">
+        <seg>{0} - 物体应该是类型 {2}{1}</seg>
       </tuv>
     </tu>
     <tu>
