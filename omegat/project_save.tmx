@@ -15254,6 +15254,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"With the GUID provided, you may change the game settings only on GXC"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124447Z" creationid="liaronce" creationdate="20220202T124447Z">
+        <seg>“使用提供的GUID，您只能在GXC上更改游戏设置”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Wrap ${applyto} around room on ${applyto}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131547Z" creationid="liaronce" creationdate="20210304T131547Z">
@@ -23738,6 +23746,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Check the output</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124456Z" creationid="liaronce" creationdate="20220202T124456Z">
+        <seg>检查输出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Check to uncompress this file after being copied to the target platform</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T113036Z" creationid="liaronce" creationdate="20211002T113036Z">
@@ -24798,6 +24814,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T044105Z" creationid="deciia" creationdate="20170102T044105Z">
         <seg>碰撞</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Collision Compatibility Mode</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124601Z" creationid="liaronce" creationdate="20220202T124509Z">
+        <seg>碰撞兼容模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -35165,6 +35189,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Font '{0}' is not available on this machine (?)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124623Z" creationid="liaronce" creationdate="20220202T124623Z">
+        <seg>字体 ‘{0}’ 在此计算机上不可用 (?)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Font AA</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T082352Z" creationid="deciia" creationdate="20170105T054856Z">
@@ -35911,6 +35943,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144518Z" creationid="deciia" creationdate="20161223T084555Z">
         <seg>图形用户界面</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GUID format is not valid</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124451Z" creationid="liaronce" creationdate="20220202T124451Z">
+        <seg>GUID 格式无效</seg>
       </tuv>
     </tu>
     <tu>
@@ -43732,6 +43772,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Incorrect data.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124453Z" creationid="liaronce" creationdate="20220202T124453Z">
+        <seg>数据不正确。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Increase</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T072156Z" creationid="deciia" creationdate="20170215T152440Z">
@@ -47285,6 +47333,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T151957Z" creationid="deciia" creationdate="20170215T151957Z">
         <seg>最大化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Maximum allowed size on GXC: {1:0.##} MB</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124346Z" creationid="liaronce" creationdate="20220202T124346Z">
+        <seg>GXC上允许的最大大小: {1:0.##} MB</seg>
       </tuv>
     </tu>
     <tu>
@@ -53600,6 +53656,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133928Z" creationid="liaronce" creationdate="20200820T133928Z">
         <seg>项目资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Project Size (unpacked): {0:0.##} MB.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124337Z" creationid="liaronce" creationdate="20220202T124337Z">
+        <seg>项目大小(解包): {0:0.##} MB.</seg>
       </tuv>
     </tu>
     <tu>
@@ -62296,6 +62360,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sign-in and synchronize</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124433Z" creationid="liaronce" creationdate="20220202T124433Z">
+        <seg>登录和同步</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Signature is invalid</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T192929Z" creationid="deciia" creationdate="20180922T192929Z">
@@ -64926,6 +64998,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Synchronization...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124431Z" creationid="liaronce" creationdate="20220202T124426Z">
+        <seg>同步中......</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Synchronize</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124428Z" creationid="liaronce" creationdate="20220202T124428Z">
+        <seg>同步</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Synchronizing with Opera GX...</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124259Z" creationid="liaronce" creationdate="20220202T124259Z">
@@ -65573,6 +65661,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The GUID is empty.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124409Z" creationid="liaronce" creationdate="20220202T124409Z">
+        <seg>GUID 为空。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The NX CPU Profiler can only be used on YYC builds.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T202933Z" creationid="deciia" creationdate="20180922T202933Z">
@@ -65601,6 +65697,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T022107Z" creationid="deciia" creationdate="20180922T202458Z">
         <seg>无法找到补丁包文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The Project GUID is already taken.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124352Z" creationid="liaronce" creationdate="20220202T124352Z">
+        <seg>项目 GUID 已被占用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -66185,6 +66289,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T012026Z" creationid="deciia" creationdate="20180922T195110Z">
         <seg>项目名称'{0}'包含如下不支持的字符：'{1}'。\n请尝试其他命名。.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The project will be registered on GXC as a new game</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124417Z" creationid="liaronce" creationdate="20220202T124417Z">
+        <seg>该项目将作为新游戏在 GXC 注册</seg>
       </tuv>
     </tu>
     <tu>
@@ -68281,6 +68393,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T152500Z" creationid="deciia" creationdate="20180921T152500Z">
         <seg>稍后重试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Try to generate a new one through the Main Game Options</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124406Z" creationid="liaronce" creationdate="20220202T124406Z">
+        <seg>尝试通过主游戏选项生成一个新的</seg>
       </tuv>
     </tu>
     <tu>
@@ -74021,6 +74141,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210707T110316Z" creationid="liaronce" creationdate="20210313T155351Z">
         <seg>{0} 在 {1} 处缺少 IdReference。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0} in DnD action {1}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124506Z" creationid="liaronce" creationdate="20220202T124506Z">
+        <seg>在 DnD 动作 {1} 中的 {0}</seg>
       </tuv>
     </tu>
     <tu>
