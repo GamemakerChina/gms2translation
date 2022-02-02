@@ -125,7 +125,7 @@ Configuration,Configuration,Configuration,,Configuration
 Configuration_Select,Select Configuration,Select Configuration,,Window title for config select
 Configurations,Configurations,Configurations,,Configurations
 Configurations_Add,Add New Configuration,Add New Configuration,,Add configuration window title
-Configurations_Delete,Are you sure you want to delete configuration '{0}'?,Are you sure you want to delete configuration '{0}'?,,Confirm for deleting a configuration
+Configurations_Delete,Are you sure you want to delete configuration '{0}' and all of its children?,Are you sure you want to delete configuration '{0}' and all of its children?,,Confirm for deleting a configuration
 Configurations_Delete_OtherConfigs,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,,Warning about deleting a configuration deleting child configs
 Configurations_DeleteError,Cannot delete configuration '{0}',Cannot delete configuration '{0}',,Cannot delete a configuration error message
 Configurations_DuplicateEntryError,Cannot duplicate existing configuration name,Cannot duplicate existing configuration name,,Configuration name cannot be duplicated error message
@@ -508,6 +508,12 @@ Inspector_VAlign_Centre,Align Centre,Align Centre,,inspector alignment tooltip
 Inspector_VAlign_Bottom,Align Bottom,Align Bottom,,inspector alignment tooltip
 Inspector_VAlign_Distrib,Distribute Vertically,Distribute Vertically,,inspector alignment tooltip
 Inspector_AddObjVariable,Add Variable,Add Variable,,inspector add object variable button
+Inspector_EditGlyphsTitle,Select Glyphs: {0},Select Glyphs: {0},,font glyph editor title
+Inspector_EditGlyphs,Select Glyphs,Select Glyphs,,font edit glyphs label
+Inspector_Range,Range,Range,,inspector font range label
+Inspector_FontJumpTo,Jump To:,Jump To:,,font jump to label
+Inspector_SelectedRange,Range:,Range:,,font selected range label
+Inspector_Unicode,Unicode:,Unicode:,,font unicode label
 SeqTrack_Singular,Track,Track,,sequence track type name singular
 SeqTrack_Plural,Tracks,Tracks,,sequence track type name plural
 SeqSpriteTrack_Singular,Sprite Track,Sprite Track,,sprite track type name singular
@@ -536,12 +542,15 @@ Inspector_Category_Tiles,Tiles,Tiles,,Inspector category
 Inspector_Category_FontOptions,Advanced Options,Advanced Options,,Inspector category
 Inspector_Category_CanvasFrame,Canvas Frame,Canvas Frame,,Inspector category
 Inspector_Category_Parent,Parent,Parent,,Inspector category
+Inspector_Category_Glyphs,Glyphs,Glyphs,,Inspector category
+Inspector_Category_Presets,Presets,Presets,,Inspector category
+Inspector_Category_FiltersEffects,Filters & Effects,Filters & Effects,,filters and effects category
 Inspector_OpenEditor,Open Editor,Open Editor,,open editor
 Inspector_ObjNoEvents,"This Object currently has no Events.\nAdd Events here or via the editor","This Object currently has no Events.\nAdd Events here or via the editor",,no object events inspector label
 Inspector_OpenEditors,Open Editors,Open Editors,,open multiple editors
 Inspector_Category_Properties,Properties,Properties,,inspector category
 Inspector_Category_Editors,Editors,Editors,,inspector category
-Inspector_Field_Width,W,W,,inspector field label
+Inspector_Field_Width,W,W,,inspector field labelSelect
 Inspector_Field_Height,H,H,,inspector field label
 Inspector_Field_WidthC,W:,W:,,inspector field label
 Inspector_Field_HeightC,H:,H:,,inspector field label
@@ -637,7 +646,9 @@ fontrange_from_code,From Code,From Code,,Front range dialog - From Code button
 fontrange_from_file,From File,From File,,Front range dialog - From File button
 fontrange_letters,Letters,Letters,,Font range dialog - English letters only button
 fontrange_normal,Normal,Normal,,Font range dialog - Normal only button
+fontrange_all,All,All,,Font range all
 fontrange_till,to,to,,Font range dialog - TILL text label
+fonteditor_fromfile_dialog,Selected file is not a .txt or .csv file and may not produce expected results. Do you want to continue with this file?,Selected file is not a .txt or .csv file and may not produce expected results. Do you want to continue with this file?,,font import from file warning
 ListBoxEnum_eFontHinting_Normal,Normal,Normal,,Normal font hinting
 Help_eFontHinting_Normal,"This is the default anti-aliased hinting algorithm","This is the default anti-aliased hinting algorithm",,Normal font hinting tooltip
 ListBoxEnum_eFontHinting_Light,Light,Light,,Light font hinting
@@ -804,6 +815,8 @@ IDEMenu_Layouts,Layouts,Layouts,,Layouts
 IDEMenu_LoadLayout,Load Layout,Load Layout,,Main menu entry for load layouts
 IDEMenu_SaveLayout,Save Layout,Save Layout,,Main menu entry for save layouts
 IDEMenu_ResetLayout,Reset Layout,Reset Layout,,Main menu entry for resetting the layout
+IDEMenu_ShowAllWindows,Show All Windows,Show All Windows,,Show all windows - the name for the menu bar
+IDEMenu_CloseAllWindows,Close All Windows,Close All Windows,,Close all windows - the name for the menu bar
 IDETooltip_CloseProject,Close Project,Close Project,,IDE toolbar tooltip for close project
 IDETooltip_StartPage,Start Page,Start Page,,IDE toolbar tooltip for the home button
 IDETooltip_NewProject,New Project ,New Project ,,IDE toolbar tooltip
@@ -861,6 +874,7 @@ ImageEditor_DeleteFrames,Delete Selected Frames,Delete Selected Frames,,Image ed
 ImageEditor_DeleteGroup,Delete group,Delete group,,Image editor layer context menu - delete group/folder
 ImageEditor_DeleteLayer,Delete layer(s),Delete layer(s),,Image editor layer context menu - delete layer or layers
 ImageEditor_DuplicateLayer,Duplicate layer(s),Duplicate layer(s),,Image editor layer panel - duplicate layer menu option
+ImageEditor_DuplicateFrames,Duplicate frame(s),Duplicate frame(s),,Image editor duplicate frames
 ImageEditor_EditLayerProperties,Edit layer properties,Edit layer properties,,Image editor layer context menu- edit layer properties
 ImageEditor_EffectApply,Apply,Apply,,effect apply button
 ImageEditor_EffectApplyToLabel,Apply To:,Apply To:,,effect apply to heading
@@ -1303,9 +1317,9 @@ ObjectEditor_Box,Box,Box,,Object editor collision shape box
 ObjectEditor_ChangeEvent,Change Event,Change Event,,Object editor change event menu option
 ObjectEditor_ChangeEventExistsTitle,Cannot change event,Cannot change event,,Object Editor tried to change an event to one that already exists
 ObjectEditor_ChangeEventExistsMessage,The Event cannot be changed to an existing Event.,The Event cannot be changed to an existing Event.,,Object Editor tried to change an event to one that already exists
-ObjectEditor_ConvertEventType,Convert to {0},Convert to {0},,Change the event from DnD™ to script or from script to DnD™
+ObjectEditor_ConvertEventType,Convert to {0},Convert to {0},,Change the event from DnD to script or from script to DnD
 ObjectEditor_EventTypeScript,GML,GML,,Event type when script
-ObjectEditor_EventTypeDnD,DnD™,DnD™,,Event type when DnD™
+ObjectEditor_EventTypeDnD,DnD,DnD,,Event type when DnD
 ObjectEditor_Children,Children,Children,,Children label in Object Editor
 ObjectEditor_Circle,Circle,Circle,,Object editor collision shape circle
 ObjectEditor_CodeWindow,Code,Code,,object editor code window heading
@@ -1437,7 +1451,7 @@ ResourceNode_RemoveFromView,Remove From Current View,Remove From Current View,,R
 ResourceNode_RemoveFromView_Confirm,You are about to remove ""{0}"" from view ""{1}"". Continue?,You are about to remove ""{0}"" from view ""{1}"". Continue?,,Resource Tree - confirmation of removal from the current view
 ResourceNode_Create,Create,Create,,Resource Tree node menu - create resource
 ResourceNode_DndToScript,Convert to GML,Convert to GML,,Resource Tree node menu - Dnd To GML
-ResourceNode_ScriptToDnd,Convert to DnD™,Convert to DnD™,,Resource Tree node menu - Script To Dnd
+ResourceNode_ScriptToDnd,Convert to DnD,Convert to DnD,,Resource Tree node menu - Script To Dnd
 ResourceNode_CreateChild,Create Child,Create Child,,Resource tree context menu label for creating a child resource of the selected node
 ResourceNode_CreateDataFile,Create Included File,Create Included File,,Resource Tree node menu - create included file
 ResourceNode_Delete,Delete,Delete,,Resource Tree node menu - delete resource
@@ -1676,13 +1690,8 @@ ROOM_EFFECTS_filter_twirl_distort,Twirl Distort,Twirl Distort,,twirl distort fil
 ROOM_EFFECTS_Angle,Angle,Angle,,angle filter param
 Run_Menu_Clean,Clean,Clean,,"Run menu ""Clean"""
 Run_Menu_CreateExecutable,Create Executable,Create Executable,,The Create Executable menu item
-Run_Menu_RevealRemote,Show Remote Worker Installer,Show Remote Worker Installer,,Reveal worker menu item
 Run_Menu_Run,Run,Run,,"Run menu ""Run"""
 Run_Menu_RunDebug,Debug,Debug,,"Run menu ""Debug"""
-remote_worker_error,Error,Error,,Error Connecting to Remote Worker Dialog Title
-remote_worker_error_connecting,Could not connect to Remote Worker.  Please check your setup and try again.,Could not connect to Remote Worker.  Please check your setup and try again.,,Error Connecting to Remote Worker Dialog Contents
-remote_worker_error_no_name,Remote Worker was left blank.  Please name your Remote Worker and try again.,Remote Worker was left blank.  Please name your Remote Worker and try again.,,Error Connecting to Remote Worker Dialog Contents
-remote_worker_error_invalid_name,'{0}' cannot be used as a name for the Remote Worker. Please enter a new name and try again.,'{0}' cannot be used as a name for the Remote Worker. Please enter a new name and try again.,,Remote worker invalid name
 Saving,Saving...,Saving...,,Saving
 SCM_Add_Path,Add Path,Add Path,,Add a path to the SCM
 SCM_Clone,Clone Repository,Clone Repository,,Clone a Source Control Repository
@@ -2192,7 +2201,7 @@ TimeLine_Name,Name:,Name:,,Time line editor name label
 TimeLine_Names,Description,Description,,Time line editor names caption
 TimeLine_WindowTitle,Timeline: {0},Timeline: {0},,Time line editor window caption
 TimeLine_WindowTitle_CodeEditor,"Timeline Moments: {0}","Timeline Moments: {0}",,Time line code editor window title
-TimeLine_ConvertType,Convert to {0},Convert to {0},,Change the event from DnD™ to script or from script to DnD™
+TimeLine_ConvertType,Convert to {0},Convert to {0},,Change the event from DnD to script or from script to DnD
 TreeView_AddChildNode,Add Child Node,Add Child Node,,context menu option to add a child node
 TreeView_AddNode,Add Node,Add Node,,context menu option to add a node
 TreeView_AddNodeAfter,Add Node After,Add Node After,,context menu option to add a node after
@@ -2311,123 +2320,123 @@ ResourceTree_SearchOptions,Search Options,Search Options,,Additional Search Opti
 SearchInScript_Search,Find...,Find...,,Search in Script Search default box text
 SearchInScript_Replace,Replace...,Replace...,,Search in Script Replace default box text
 SearchInScript_SelectionOnly,Selection Only,Selection Only,,Search in Script Selection Only
-DnD_Gadget_DirectionalInput,Directional Input,Directional Input,,DnD™ gadget for directional input
-DnD_Gadget_NumericInput,Numeric Input,Numeric Input,,DnD™ gadget for numeric input
-DnD_Gadget_ApplyTo,Apply To,Apply To,,DnD™ gadget for applying to a specific object or instance
-DnD_Gadget_IsRelative,Is Relative,Is Relative,,DnD™ gadget for determining if a change is relative
-DnD_Gadget_IsTemp,Is Temp,Is Temp,,DnD™ gadget for determining if a target is temp
-DnD_Gadget_TextInput,Text Input,Text Input,,DnD™ gadget for text input
-DnD_Gadget_ExpressionInput,Expression,Expression,,DnD™ gadget for expression input
-DnD_Gadget_ArgumentInput,Argument,Argument,,DnD™ gadget for argument input and optional arguments
-DnD_Gadget_MenuInput,Menu Input,Menu Input,,DnD™ gadget for menu input
-DnD_Gadget_MenuExpressionInput,Menu Expression Input,Menu Expression Input,,DnD™ gadget for menu expression input
-DnD_Gadget_ResourceSelection,Resource Selection,Resource Selection,,DnD™ gadget for resource selection
-DnD_Gadget_ResourceSelection_SelectResource,Select Asset,Select Asset,,DnD™ gadget list view explorer title
-DnD_Gadget_BooleanInput,Boolean Input,Boolean Input,,DnD™ gadget for boolean input
-DnD_Gadget_BooleanExprInput,Boolean Expression Input,Boolean Expression Input,,DnD™ gadget for boolean input
-DnD_Gadget_ColorPicker,Colour Picker,Colour Picker,,DnD™ gadget for picking a color
-DnD_Gadget_ColorPalette,Colour Palette,Colour Palette,,DnD™ gadget for picking a color
-DnD_Gadget_MultiLineTextInput,Text Input (MultiLine),Text Input (MultiLine),,DnD™ gadget for multiline text input
-DnD_Gadget_CodeInput,Code Input,Code Input,,DnD™ gadget for code input
-DnD_Gadget_Caption_GroupSelector,Options,Options,,DnD™ label caption for the group selector gadget
-DnD_Gadget_GroupSelector,Group Selector,Group Selector,,DnD™ group selector gadget name
-DnD_Gadget_Caption_IsRelative,Relative,Relative,,DnD™ gadget caption name for Is Relative
-DnD_Gadget_Caption_IsTemp,Temp,Temp,,DnD™ gadget caption name for Is Temp
-DnD_Gadget_Caption_ApplyTo,Apply To,Apply To,,DnD™ gadget caption name for Apply To
-DnDMaker_AppTitle,DnD™ Maker,DnD™ Maker,,DnD™ Maker application title
-DnDMaker_Arguments,Arguments,Arguments,,DnD™ Maker argument gadgets header
-DnDMaker_Gadgets,Gadgets,Gadgets,,DnD™ Maker gui gadgets header
-DnDMaker_Properties,Argument Properties,Argument Properties,,DnD™ Maker properties header
-DnDMaker_Layout,Argument Layout,Argument Layout,,DnD™ Maker layout header
-DnDMaker_LivePreview,Node Designer ({0}),Node Designer ({0}),,DnD™ Maker live preview header
-DnDMaker_NoAction,No Action,No Action,,DnD™ Maker designer title no action selected
-DnDMaker_Groups,Layout Groups,Layout Groups,,DnD™ Maker layout groups view header
-DnDMaker_Menu_Library,Library,Library,,DnD™ Maker menu entry
-DnDMaker_Menu_Nodes,Nodes,Nodes,,DnD™ Maker menu entry
-DnDMaker_Menu_Layout,Layout,Layout,,DnD™ Maker menu entry
+DnD_Gadget_DirectionalInput,Directional Input,Directional Input,,DnD gadget for directional input
+DnD_Gadget_NumericInput,Numeric Input,Numeric Input,,DnD gadget for numeric input
+DnD_Gadget_ApplyTo,Apply To,Apply To,,DnD gadget for applying to a specific object or instance
+DnD_Gadget_IsRelative,Is Relative,Is Relative,,DnD gadget for determining if a change is relative
+DnD_Gadget_IsTemp,Is Temp,Is Temp,,DnD gadget for determining if a target is temp
+DnD_Gadget_TextInput,Text Input,Text Input,,DnD gadget for text input
+DnD_Gadget_ExpressionInput,Expression,Expression,,DnD gadget for expression input
+DnD_Gadget_ArgumentInput,Argument,Argument,,DnD gadget for argument input and optional arguments
+DnD_Gadget_MenuInput,Menu Input,Menu Input,,DnD gadget for menu input
+DnD_Gadget_MenuExpressionInput,Menu Expression Input,Menu Expression Input,,DnD gadget for menu expression input
+DnD_Gadget_ResourceSelection,Resource Selection,Resource Selection,,DnD gadget for resource selection
+DnD_Gadget_ResourceSelection_SelectResource,Select Asset,Select Asset,,DnD gadget list view explorer title
+DnD_Gadget_BooleanInput,Boolean Input,Boolean Input,,DnD gadget for boolean input
+DnD_Gadget_BooleanExprInput,Boolean Expression Input,Boolean Expression Input,,DnD gadget for boolean input
+DnD_Gadget_ColorPicker,Colour Picker,Colour Picker,,DnD gadget for picking a color
+DnD_Gadget_ColorPalette,Colour Palette,Colour Palette,,DnD gadget for picking a color
+DnD_Gadget_MultiLineTextInput,Text Input (MultiLine),Text Input (MultiLine),,DnD gadget for multiline text input
+DnD_Gadget_CodeInput,Code Input,Code Input,,DnD gadget for code input
+DnD_Gadget_Caption_GroupSelector,Options,Options,,DnD label caption for the group selector gadget
+DnD_Gadget_GroupSelector,Group Selector,Group Selector,,DnD group selector gadget name
+DnD_Gadget_Caption_IsRelative,Relative,Relative,,DnD gadget caption name for Is Relative
+DnD_Gadget_Caption_IsTemp,Temp,Temp,,DnD gadget caption name for Is Temp
+DnD_Gadget_Caption_ApplyTo,Apply To,Apply To,,DnD gadget caption name for Apply To
+DnDMaker_AppTitle,DnD Maker,DnD Maker,,DnD Maker application title
+DnDMaker_Arguments,Arguments,Arguments,,DnD Maker argument gadgets header
+DnDMaker_Gadgets,Gadgets,Gadgets,,DnD Maker gui gadgets header
+DnDMaker_Properties,Argument Properties,Argument Properties,,DnD Maker properties header
+DnDMaker_Layout,Argument Layout,Argument Layout,,DnD Maker layout header
+DnDMaker_LivePreview,Node Designer ({0}),Node Designer ({0}),,DnD Maker live preview header
+DnDMaker_NoAction,No Action,No Action,,DnD Maker designer title no action selected
+DnDMaker_Groups,Layout Groups,Layout Groups,,DnD Maker layout groups view header
+DnDMaker_Menu_Library,Library,Library,,DnD Maker menu entry
+DnDMaker_Menu_Nodes,Nodes,Nodes,,DnD Maker menu entry
+DnDMaker_Menu_Layout,Layout,Layout,,DnD Maker menu entry
 DnDMaker_Menu_Translation,Translations,Translations,,DnD Maker menu entry
 DnDMaker_LangName,Name,Name,,column
 DnDMaker_LangEng,English,English,,column
 DnDMaker_LangTrans,Translation,Translation,,column
 DnDMaker_LangRes,Restrictions,Restrictions,,column
 DnDMaker_LangDesc,Description,Description,,column
-DnDMaker_Menu_Languages,Languages,Languages,,DnD™ Maker menu entry
-DnDMaker_Menu_NewLang,New Language,New Language,,DnD™ Maker menu entry
-DnDMaker_Menu_EditLang,Edit Language,Edit Language,,DnD™ Maker menu entry
-DnDMaker_Group_Default,Default,Default,,DnD™ Maker default group name
-DnDMaker_NewGroup,Group,Group,,DnD™ Maker default new group name
-DnDMaker_NewSection,New Section,New Section,,DnD™ Maker default new section name
-DnDMaker_NewAction,New Action,New Action,,DnD™ Maker default new action name
-DnDMaker_Menu_NewNode,New Node,New Node,,DnD™ Maker new node menu item
-DnDMaker_Menu_SaveNode,Save Node,Save Node,,DnD™ Maker save node menu item
-DnDMaker_Menu_PreviewNode,Preview,Preview,,DnD™ Maker preview node menu item
-DnDMaker_Menu_EvaluateNode,Evaluate,Evaluate,,DnD™ Maker evaluate node menu item
-DnDMaker_Menu_LoadLibrary,Load Library,Load Library,,DnD™ Maker load library menu item
-DnDMaker_Menu_SaveLibrary,Save Library,Save Library,,DnD™ Maker save library menu item
-DnDMaker_Menu_NewLibrary,New Library,New Library,,DnD™ Maker new library menu item
-DnDMaker_Library,My Library,My Library,,DnD™ Maker library header text
-DnDMaker_Menu_ExportLibrary,Export Library,Export Library,,DnD™ Maker export library menu item
-DnDMaker_LibWizard_Label,Write new library name,Write new library name,,DnD™ Maker library wizard name label
-DnDMaker_LibWizard_OK,Create Library,Create Library,,DnD™ Maker library wizard OK button
-DnDMaker_LibWizard_Cancel,Cancel,Cancel,,DnD™ Maker library wizard Cancel button
-DnDMaker_Menu_Sections,Sections,Sections,,DnD™ Maker sections menu item
-DnDMaker_Menu_AddSection,Add Section,Add Section,,DnD™ Maker add section menu item
-DnDMaker_Menu_LayoutWizard,Open Layout Wizard...,Open Layout Wizard...,,DnD™ Maker Open Layout Wizard menu item
-DnDMaker_Menu_ExpandLocalisation,Expand Localisation,Expand Localisation,,DnD™ Maker Open Layout Wizard menu item
-DnDMaker_Menu_AddGroup,Add Layout Group,Add Layout Group,,DnD™ Maker add layout group menu item
-DnDMaker_Menu_RenameGroup,Rename Layout Group,Rename Layout Group,,DnD™ Maker rename layout group menu item
-DnDMaker_Menu_RemoveGroup,Remove Layout Group,Remove Layout Group,,DnD™ Maker remove layout group menu item
-DnDMaker_CMenu_AddSection,Add Section,Add Section,,DnD™ Maker context menu add section caption
-DnDMaker_CMenu_RemoveSectionOrAction,Remove,Remove,,DnD™ Maker library context menu remove caption
-DnDMaker_CMenu_RenameSectionOrAction,Rename,Rename,,DnD™ Maker library context menu rename caption
-DnDMaker_CMenu_EditAction,Edit Action,Edit Action,,DnD™ Maker library context menu edit caption
-DnDMaker_CMenu_RemoveGadget,Remove Gadget,Remove Gadget,,DnD™ Maker designer remove gadget menu entry
-DnDMaker_CMenu_CopyGadget,Copy Gadget,Copy Gadget,,DnD™ Maker designer copy gadget menu entry
-DnDMaker_CMenu_CutGadget,Cut Gadget,Cut Gadget,,DnD™ Maker designer cut gadget menu entry
-DnDMaker_CMenu_PasteGadget,Paste Gadget,Paste Gadget,,DnD™ Maker designer paste gadget menu entry
-DnDMaker_PopUp_OK,OK,OK,,DnD™ Maker popup window OK button
-DnDMaker_MustMakeLibrary,No library loaded.,No library loaded.,,DnD™ Maker no library loaded warning message
-DnDMaker_CMenu_AddGroup,Add Group,Add Group,,DnD™ Maker add group menu entry
-DnDMaker_CMenu_RenameGroup,Rename Group,Rename Group,,DnD™ Maker rename group menu entry
-DnDMaker_CMenu_RemoveGroup,Remove Group,Remove Group,,DnD™ Maker remove group menu entry
-DnDMaker_CannotDeleteDefaultGroup,Default group cannot be deleted.,Default group cannot be deleted.,,DnD™ Maker warning message
-DnDMaker_CannotDeleteLibrary,Library cannot be deleted.,Library cannot be deleted.,,DnD™ Maker cannot delete library node warning message
-DnDMaker_InvalidActionName,Invalid action name: must be XML compatible.,Invalid action name: must be XML compatible.,,DnD™ Maker invalid action name warning message
-DnDMaker_NoActionLayout,This action has no layout.,This action has no layout.,,DnD™ Maker invalid action layout warning message
-DnDMaker_CantShowPreview,Error -- Cannot show preview.,Error -- Cannot show preview.,,DnD™ Maker cannot show preview warning message
-DnDMaker_NotEditingAction,You are not editing an action.,You are not editing an action.,,DnD™ Maker not editing action warning message
-DnDMaker_NotPreviewingAction,You are not previewing an action.,You are not previewing an action.,,DnD™ Maker not previewing action warning message
-DnDMaker_EvaluationResult,Evaluation Result,Evaluation Result,,DnD™ Maker evaluation result window caption
-DnDMaker_ActionProperties,Action Properties,Action Properties,,DnD™ Maker action properties caption
-DnDMaker_DefaultCode,// Your code here,// Your code here,,DnD™ Maker default code input for group
-DnDMaker_CodeCaption,Code (Group: {0}),Code (Group: {0}),,DnD™ Maker code for selected group caption
-DnDMaker_SaveError,Saving failed.,Saving failed.,,DnD™ Maker save error message
-DnDMaker_SaveComplete,Library saved.,Library saved.,,DnD™ Maker library save message
-DnDMaker_DialogTitle,DnD™ Maker,DnD™ Maker,,DnD™ Maker dialog title
-DnDMaker_UnsavedChanges,There are unsaved changes. Do you want to save?,There are unsaved changes. Do you want to save?,,DnD™ Maker unsaved changes confirmation dialog
-DnDMaker_UnsavedLibrary,Do you want to save the current library before continuing?,Do you want to save the current library before continuing?,,DnD™ Maker unsaved library
-DnDMaker_ExportFailed,Exporting library failed.,Exporting library failed.,,DnD™ Maker export failed message
-DnDMaker_OpenFailed,Couldn't open the specified library.,Couldn't open the specified library.,,DnD™ Maker open library error message
-DnDMaker_CantParentAction,Actions can't be parents.,Actions can't be parents.,,DnD™ Maker drag into action error
-DnDMaker_CantParentGadget,Gadgets can't be parents.,Gadgets can't be parents.,,DnD™ Maker drag into Gadgets error
-DnDMaker_NoSelectedGadget,You have not selected a gadget.,You have not selected a gadget.,,DnD™ Maker no selected gadget error
-DnDMaker_NoCopiedGadget,You have not copied a gadget.,You have not copied a gadget.,,DnD™ Maker no copied gadget error
-DnDMaker_LayoutWizard,Layout Wizard,Layout Wizard,,DnD™ Maker layout wizard name
-DnDMaker_LayoutWizardHelpText,This wizard helps you easily create a layout for your DnD™ action.,This wizard helps you easily create a layout for your DnD™ action.,,DnD™ Maker layout wizard help text
-DnDMaker_LayoutWizardArgCount,How many arguments do you need?,How many arguments do you need?,,DnD™ Maker layout wizard arg count
-DnDMaker_LayoutWizardArgCaption,Caption,Caption,,DnD™ Maker layout wizard arg caption label
-DnDMaker_LayoutWizardArgGadget,Gadget,Gadget,,DnD™ Maker layout wizard arg gadget label
-DnDMaker_LayoutWizardArgTagName,Tag Name,Tag Name,,DnD™ Maker layout wizard arg tag name label
-DnDMaker_LayoutWizardIsRelative,Can Be Relative?,Can Be Relative?,,DnD™ Maker layout wizard can be relative label
-DnDMaker_LayoutWizardProperties,Properties,Properties,,DnD™ Maker layout wizard properties label
-DnDMaker_LayoutWizardIsTemp,Can Be Temp?,Can Be Temp?,,DnD™ Maker layout wizard can be temp label
-DnDMaker_NoLayoutWizardLayout,Layout wizard layout is missing.,Layout wizard layout is missing.,,DnD™ Maker layout wizard error
+DnDMaker_Menu_Languages,Languages,Languages,,DnD Maker menu entry
+DnDMaker_Menu_NewLang,New Language,New Language,,DnD Maker menu entry
+DnDMaker_Menu_EditLang,Edit Language,Edit Language,,DnD Maker menu entry
+DnDMaker_Group_Default,Default,Default,,DnD Maker default group name
+DnDMaker_NewGroup,Group,Group,,DnD Maker default new group name
+DnDMaker_NewSection,New Section,New Section,,DnD Maker default new section name
+DnDMaker_NewAction,New Action,New Action,,DnD Maker default new action name
+DnDMaker_Menu_NewNode,New Node,New Node,,DnD Maker new node menu item
+DnDMaker_Menu_SaveNode,Save Node,Save Node,,DnD Maker save node menu item
+DnDMaker_Menu_PreviewNode,Preview,Preview,,DnD Maker preview node menu item
+DnDMaker_Menu_EvaluateNode,Evaluate,Evaluate,,DnD Maker evaluate node menu item
+DnDMaker_Menu_LoadLibrary,Load Library,Load Library,,DnD Maker load library menu item
+DnDMaker_Menu_SaveLibrary,Save Library,Save Library,,DnD Maker save library menu item
+DnDMaker_Menu_NewLibrary,New Library,New Library,,DnD Maker new library menu item
+DnDMaker_Library,My Library,My Library,,DnD Maker library header text
+DnDMaker_Menu_ExportLibrary,Export Library,Export Library,,DnD Maker export library menu item
+DnDMaker_LibWizard_Label,Write new library name,Write new library name,,DnD Maker library wizard name label
+DnDMaker_LibWizard_OK,Create Library,Create Library,,DnD Maker library wizard OK button
+DnDMaker_LibWizard_Cancel,Cancel,Cancel,,DnD Maker library wizard Cancel button
+DnDMaker_Menu_Sections,Sections,Sections,,DnD Maker sections menu item
+DnDMaker_Menu_AddSection,Add Section,Add Section,,DnD Maker add section menu item
+DnDMaker_Menu_LayoutWizard,Open Layout Wizard...,Open Layout Wizard...,,DnD Maker Open Layout Wizard menu item
+DnDMaker_Menu_ExpandLocalisation,Expand Localisation,Expand Localisation,,DnD Maker Open Layout Wizard menu item
+DnDMaker_Menu_AddGroup,Add Layout Group,Add Layout Group,,DnD Maker add layout group menu item
+DnDMaker_Menu_RenameGroup,Rename Layout Group,Rename Layout Group,,DnD Maker rename layout group menu item
+DnDMaker_Menu_RemoveGroup,Remove Layout Group,Remove Layout Group,,DnD Maker remove layout group menu item
+DnDMaker_CMenu_AddSection,Add Section,Add Section,,DnD Maker context menu add section caption
+DnDMaker_CMenu_RemoveSectionOrAction,Remove,Remove,,DnD Maker library context menu remove caption
+DnDMaker_CMenu_RenameSectionOrAction,Rename,Rename,,DnD Maker library context menu rename caption
+DnDMaker_CMenu_EditAction,Edit Action,Edit Action,,DnD Maker library context menu edit caption
+DnDMaker_CMenu_RemoveGadget,Remove Gadget,Remove Gadget,,DnD Maker designer remove gadget menu entry
+DnDMaker_CMenu_CopyGadget,Copy Gadget,Copy Gadget,,DnD Maker designer copy gadget menu entry
+DnDMaker_CMenu_CutGadget,Cut Gadget,Cut Gadget,,DnD Maker designer cut gadget menu entry
+DnDMaker_CMenu_PasteGadget,Paste Gadget,Paste Gadget,,DnD Maker designer paste gadget menu entry
+DnDMaker_PopUp_OK,OK,OK,,DnD Maker popup window OK button
+DnDMaker_MustMakeLibrary,No library loaded.,No library loaded.,,DnD Maker no library loaded warning message
+DnDMaker_CMenu_AddGroup,Add Group,Add Group,,DnD Maker add group menu entry
+DnDMaker_CMenu_RenameGroup,Rename Group,Rename Group,,DnD Maker rename group menu entry
+DnDMaker_CMenu_RemoveGroup,Remove Group,Remove Group,,DnD Maker remove group menu entry
+DnDMaker_CannotDeleteDefaultGroup,Default group cannot be deleted.,Default group cannot be deleted.,,DnD Maker warning message
+DnDMaker_CannotDeleteLibrary,Library cannot be deleted.,Library cannot be deleted.,,DnD Maker cannot delete library node warning message
+DnDMaker_InvalidActionName,Invalid action name: must be XML compatible.,Invalid action name: must be XML compatible.,,DnD Maker invalid action name warning message
+DnDMaker_NoActionLayout,This action has no layout.,This action has no layout.,,DnD Maker invalid action layout warning message
+DnDMaker_CantShowPreview,Error -- Cannot show preview.,Error -- Cannot show preview.,,DnD Maker cannot show preview warning message
+DnDMaker_NotEditingAction,You are not editing an action.,You are not editing an action.,,DnD Maker not editing action warning message
+DnDMaker_NotPreviewingAction,You are not previewing an action.,You are not previewing an action.,,DnD Maker not previewing action warning message
+DnDMaker_EvaluationResult,Evaluation Result,Evaluation Result,,DnD Maker evaluation result window caption
+DnDMaker_ActionProperties,Action Properties,Action Properties,,DnD Maker action properties caption
+DnDMaker_DefaultCode,// Your code here,// Your code here,,DnD Maker default code input for group
+DnDMaker_CodeCaption,Code (Group: {0}),Code (Group: {0}),,DnD Maker code for selected group caption
+DnDMaker_SaveError,Saving failed.,Saving failed.,,DnD Maker save error message
+DnDMaker_SaveComplete,Library saved.,Library saved.,,DnD Maker library save message
+DnDMaker_DialogTitle,DnD Maker,DnD Maker,,DnD Maker dialog title
+DnDMaker_UnsavedChanges,There are unsaved changes. Do you want to save?,There are unsaved changes. Do you want to save?,,DnD Maker unsaved changes confirmation dialog
+DnDMaker_UnsavedLibrary,Do you want to save the current library before continuing?,Do you want to save the current library before continuing?,,DnD Maker unsaved library
+DnDMaker_ExportFailed,Exporting library failed.,Exporting library failed.,,DnD Maker export failed message
+DnDMaker_OpenFailed,Couldn't open the specified library.,Couldn't open the specified library.,,DnD Maker open library error message
+DnDMaker_CantParentAction,Actions can't be parents.,Actions can't be parents.,,DnD Maker drag into action error
+DnDMaker_CantParentGadget,Gadgets can't be parents.,Gadgets can't be parents.,,DnD Maker drag into Gadgets error
+DnDMaker_NoSelectedGadget,You have not selected a gadget.,You have not selected a gadget.,,DnD Maker no selected gadget error
+DnDMaker_NoCopiedGadget,You have not copied a gadget.,You have not copied a gadget.,,DnD Maker no copied gadget error
+DnDMaker_LayoutWizard,Layout Wizard,Layout Wizard,,DnD Maker layout wizard name
+DnDMaker_LayoutWizardHelpText,This wizard helps you easily create a layout for your DnD action.,This wizard helps you easily create a layout for your DnD action.,,DnD Maker layout wizard help text
+DnDMaker_LayoutWizardArgCount,How many arguments do you need?,How many arguments do you need?,,DnD Maker layout wizard arg count
+DnDMaker_LayoutWizardArgCaption,Caption,Caption,,DnD Maker layout wizard arg caption label
+DnDMaker_LayoutWizardArgGadget,Gadget,Gadget,,DnD Maker layout wizard arg gadget label
+DnDMaker_LayoutWizardArgTagName,Tag Name,Tag Name,,DnD Maker layout wizard arg tag name label
+DnDMaker_LayoutWizardIsRelative,Can Be Relative?,Can Be Relative?,,DnD Maker layout wizard can be relative label
+DnDMaker_LayoutWizardProperties,Properties,Properties,,DnD Maker layout wizard properties label
+DnDMaker_LayoutWizardIsTemp,Can Be Temp?,Can Be Temp?,,DnD Maker layout wizard can be temp label
+DnDMaker_NoLayoutWizardLayout,Layout wizard layout is missing.,Layout wizard layout is missing.,,DnD Maker layout wizard error
 DnD_Loading,Loading...,Loading...,,Loading dnd script
 DnDMaker_ExpandLocalisationFailed,Failed to expand localisation,Failed to expand localisation,,expand localisation error message
-DnD_Gadget_Label,Label,Label,,DnD™ Label gadget localised name
-DnD_Gadget_StackPanel,Stack Panel,Stack Panel,,DnD™ Stack Panel gadget localised name
-DnD_Gadget_Grid,Grid,Grid,,DnD™ Grid gadget localised name
-DnD_Gadget_MKConstantSelector,Mouse & Key Selector,Mouse & Key Selector,,DnD™ gadget localised name
+DnD_Gadget_Label,Label,Label,,DnD Label gadget localised name
+DnD_Gadget_StackPanel,Stack Panel,Stack Panel,,DnD Stack Panel gadget localised name
+DnD_Gadget_Grid,Grid,Grid,,DnD Grid gadget localised name
+DnD_Gadget_MKConstantSelector,Mouse & Key Selector,Mouse & Key Selector,,DnD gadget localised name
 kbv_type_default,Default,Default,,Default virtual keyboard type
 kbv_type_ascii,ASCII,ASCII,,ASCII virtual keyboard type
 kbv_type_url,URL,URL,,URL virtual keyboard type
@@ -2495,25 +2504,30 @@ TemplateExport_Overwrite,Overwrite,Overwrite,,overwrite button label
 TemplateExport_Overwrite_Title,Warning,Warning,,overwrite dialog title
 ImportLoad_FileNotFound,"Unable to find file {0}.\nIf the file is inside an archive, please extract it first.","Unable to find file {0}.\nIf the file is inside an archive, please extract it first.",,project load or import file not found error
 InheritFromDialog_Title,Inherit From Project,Inherit From Project,,title for inherit from project dialog
-DnDEditor_Menu_Workspace,Workspace,Workspace,,DnD™ Editor Workspace caption
-DnDEditor_Menu_Save,Save,Save,,DnD™ Editor Workspace Save caption
-DnDEditor_Menu_Reload,Reload,Reload,,DnD™ Editor Workspace Reload caption
-DnDEditor_CMenu_Preview,Live Preview,Live Preview,,DnD™ Editor Workspace Reload caption
-DnDEditor_LivePreviewTitle,DnD™ Preview,DnD™ Preview,,DnD live preview tab title
-DnDNodeWindow_CMenu_PanToThis,Pan,Pan,,DnD™ node window context menu
-DnDNodeWindow_CMenu_Copy,Copy,Copy,,DnD™ node window context menu
-DnDNodeWindow_CMenu_Cut,Cut,Cut,,DnD™ node window context menu
+DnDEditor_Menu_Workspace,Workspace,Workspace,,DnD Editor Workspace caption
+DnDEditor_Menu_Save,Save,Save,,DnD Editor Workspace Save caption
+DnDEditor_Menu_Reload,Reload,Reload,,DnD Editor Workspace Reload caption
+DnDEditor_CMenu_Preview,Live Preview,Live Preview,,DnD Editor Workspace Reload caption
+DnDEditor_LivePreviewTitle,DnD Preview,DnD Preview,,DnD live preview tab title
+DnDNodeWindow_CMenu_PanToThis,Pan,Pan,,DnD node window context menu
+DnDNodeWindow_CMenu_Copy,Copy,Copy,,DnD node window context menu
+DnDNodeWindow_CMenu_Cut,Cut,Cut,,DnD node window context menu
 DnDNodeWindow_CMenu_Help,Show Help...,Show Help...,,DnD node window context menu
-DnDNodeWindow_CMenu_Paste,Paste,Paste,,DnD™ node window context menu
+DnDNodeWindow_CMenu_Paste,Paste,Paste,,DnD node window context menu
 DnDNodeWindow_CMenu_CollapseAll,Collapse All,Collapse All,,DnD node window context menu collapse all nodes
 DnDNodeWindow_CMenu_ExpandAll,Expand All,Expand All,,DnD node window context menu expand all nodes
-DnDNodeWindow_CMenu_Evaluate,Evaluate...,Evaluate...,,DnD™ node window context menu
+DnDNodeWindow_CMenu_Evaluate,Evaluate...,Evaluate...,,DnD node window context menu
 ggs_graphics_scale,Scaling,Scaling,,Game Settings Graphics Scale title
 ggs_graphics_scale_keepaspectratio,Keep aspect ratio,Keep aspect ratio,,Game Settings Graphics Scale - Keep Aspect Ratio option
 ggs_launchscreen_fill,Launchscreen fill,Launchscreen fill,,Launchscreen fill
 ggs_graphics_scale_fullscale,Full scale,Full scale,,Game Settings Graphics Scale - Full scale option
 ggs_version,Version,Version,,Game Settings Version title
+ggs_version_new,Next Version,Next Version,,Next version to be uploaded
 ggs_game_name,Game Name,Game Name,,Game Settings Game Name label
+ggs_gxc_guid,GXC GUID,GXC GUID,,Project GUID on Opera GXC
+ggs_team_name,Team Name,Team Name,,Team Name
+ggs_internal_share_url,Internal Share URL,Internal Share URL,,Internal Share URL
+ggs_public_share_url,Public Share URL,Public Share URL,,Public Share URL
 ImagePath_ImageError,Error Selecting Image,Error Selecting Image,,Error when using image_path gadget to select an image
 ImagePath_NotExpectedDimensions,The image is expected to be of {0}x{1} but received {2}x{3},The image is expected to be of {0}x{1} but received {2}x{3},,Image wrong size with 0x1 being expected size and 2x3 being the image size
 ImagePath_NotExpectedAlpha,The image is expected to have an alpha channel (i.e. be 32-bit),The image is expected to have an alpha channel (i.e. be 32-bit),,The image needs to have an alpha channel but the selected one does not
@@ -2802,7 +2816,7 @@ ggs_alt_sync,Alternate synchronization method,Alternate synchronization method,,
 ggs_installer_finished_image,Installer Finished Image,Installer Finished Image,,Installer Finished Image
 ggs_installer_header_image,Installer Header Image,Installer Header Image,,Installer Header Image
 ggs_license_agreement,Licence Agreement,Licence Agreement,,Licence Agreement
-ggs_installer_nsi_script,Installer NSI Script,Installer NSI Script,,Installer NSI Script
+ggs_installer_nsi_script,NSIS Script,NSIS Script,,Installer NSI Script
 ggs_certificate_location,Store certificate location,Store certificate location,,Store Certificate Location
 ggs_certificate_publisher,Publisher Name,Publisher Name,,certificate issuer name
 ggs_wvga_resolution,Support WVGA Resolution,Support WVGA Resolution,,Support WVGA Resolution
@@ -3075,6 +3089,7 @@ desktop_focuspowerspeed,Background framerate (%),Background framerate (%),,% whe
 desktop_scrollspeed,Scroll speed,Scroll speed,,scroll speed preference
 desktop_textselectionbias,Add bias to text selection to prevent line jumping,Add bias to text selection to prevent line jumping,,Text selection bias
 Desktop_EnableLaptopMode,Enable Laptop Mode on all devices,Enable Laptop Mode on all devices,,Preference to allow users to enable laptop mode on all devices
+pref_laptop_mode,Force Laptop mode,Force Laptop mode,,Preference to force the laptop mode on or off
 folderwatcher_frequency,File watcher frequency (ms),File watcher frequency (ms),,File watcher frequency in milliseconds
 folderwatcher_laptopfrequency,Laptop file watcher frequency (ms),Laptop file watcher frequency (ms),,File watcher frequency in milliseconds on laptops
 filewatcher_enabled,Enable File Watcher,Enable File Watcher,,enable file watcher pref
@@ -3096,8 +3111,9 @@ ggs_delete_event_on_room_change,Delete Event on Room Changes,Delete Event on Roo
 ggs_use_fast_collisions,Enable Fast Collisions,Enable Fast Collisions,,Enable Fast Collisions
 ggs_game_speed,Game frames per second,Game frames per second,,Game Frames Per Second
 ggs_game_identifier,Game Identifier,Game Identifier,,Game Identifier
-ggs_game_guid,Game GUID,Game GUID,,Game GUID
-ggs_isdnd,Use DnD™ as default script type,Use DnD™ as default script type,,Project code type
+ggs_game_guid,Project GUID,Project GUID,,Project GUID
+ggs_game_guid_change_confirmation,Are you sure to change the GUID?,Are you sure to change the GUID?,,Confirmation of changing the game GUID
+ggs_isdnd,Use DnD as default script type,Use DnD as default script type,,Project code type
 ggs_mips_for_3d_textures,Generate mipmaps for separate texture pages,Generate mipmaps for separate texture pages,,Generate mipmaps for separate texture pages
 TargetSelection_RequiresWorker,Requires Worker,Requires Worker,,label for when a selected platform requires a worker
 TargetSelection_RequiresWindowsPC,Requires Windows PC,Requires Windows PC,,remote worker not available on mac
@@ -3165,22 +3181,22 @@ SplashScreen_LaunchProjectInvalid,'{0}' is not a valid GameMaker Studio 2 projec
 SplashScreen_LaunchProjectFailed,Launch Project Failed,Launch Project Failed,,Message dialog title when the program was launched with a file command argument but it has failed
 SplashScreen_LaunchImportTrialDenied,Cannot import project '{0}' with a Trial Licence,Cannot import project '{0}' with a Trial Licence,,launch yyz project import blocked by free licence msg
 LicensedModulesError,Your licence does not have this module enabled,Your licence does not have this module enabled,,Message Dialog for when a user tries to build/run a target their licence doesn't have
-DnD_Pref_ToolboxLocation,DnD™ toolbox default location,DnD™ toolbox default location,,DnD™ pref
-DnD_Pref_StoryMode,DnD™ node overview visibility mode,DnD™ node overview visibility mode,,DnD™ pref
-DnD_Pref_CollapseToolbox,Hide docked DnD™ toolboxes if floating DnD™ toolbox is open,Hide docked DnD™ toolboxes if floating DnD™ toolbox is open,,DnD™ pref
-DnD_Pref_ChainThickness,Thickness of the chain that connects DnD™ actions,Thickness of the chain that connects DnD™ actions,,DnD™ pref
-DnD_Pref_CollapseStory,Hide DnD™ node overview panel,Hide DnD™ node overview panel,,DnD™ pref
-DnD_Pref_MaxThumbSize,Maximum size for DnD™ toolbox action thumbnails,Maximum size for DnD™ toolbox action thumbnails,,DnD™ pref
-DnD_Pref_MinThumbSize,Minimum size for DnD™ toolbox action thumbnails,Minimum size for DnD™ toolbox action thumbnails,,DnD™ pref
-DnD_Pref_ThumbSize,Default size for DnD™ toolbox action thumbnails,Default size for DnD™ toolbox action thumbnails,,DnD™ pref
-DnD_Pref_RecentlyUsed,Maximum number of recently used actions to display,Maximum number of recently used actions to display,,DnD™ pref
-DnD_Pref_ChainSmoothness,The smoothness of the chain.,The smoothness of the chain.,,DnD™ pref
-DnD_Pref_DragTime,Mouse down time to start dragging node (ms),Mouse down time to start dragging node (ms),,DnD™ pref
-DnD_Pref_CommentStyle,Comment text style,Comment text style,,DnD™ pref
-DnD_Message_Error_Prefix,ERROR:,ERROR:,,DnD™ message prefix
-DnD_Message_InvalidSyntaxError,The "{0}" node is causing an invalid program flow. Move it to a correct location.,The "{0}" node is causing an invalid program flow. Move it to a correct location.,,DnD™ message syntax error
-DnD_Message_InvalidSyntaxInsertionTitle,Invalid Insertion,Invalid Insertion,,DnD™ pop up title for below message
-DnD_Message_InvalidSyntaxInsertion,Inserting {0} at this location would result in an invalid program.,Inserting {0} at this location would result in an invalid program.,,DnD™ pop up message for invalid syntax insertion
+DnD_Pref_ToolboxLocation,DnD toolbox default location,DnD toolbox default location,,DnDpref
+DnD_Pref_StoryMode,DnD node overview visibility mode,DnD node overview visibility mode,,DnD pref
+DnD_Pref_CollapseToolbox,Hide docked DnD toolboxes if floating DnD toolbox is open,Hide docked DnD toolboxes if floating DnD toolbox is open,,DnD pref
+DnD_Pref_ChainThickness,Thickness of the chain that connects DnD actions,Thickness of the chain that connects DnD actions,,DnD pref
+DnD_Pref_CollapseStory,Hide DnD node overview panel,Hide DnD node overview panel,,DnD pref
+DnD_Pref_MaxThumbSize,Maximum size for DnD toolbox action thumbnails,Maximum size for DnD toolbox action thumbnails,,DnD pref
+DnD_Pref_MinThumbSize,Minimum size for DnD toolbox action thumbnails,Minimum size for DnD toolbox action thumbnails,,DnD pref
+DnD_Pref_ThumbSize,Default size for DnD toolbox action thumbnails,Default size for DnD toolbox action thumbnails,,DnD pref
+DnD_Pref_RecentlyUsed,Maximum number of recently used actions to display,Maximum number of recently used actions to display,,DnD pref
+DnD_Pref_ChainSmoothness,The smoothness of the chain.,The smoothness of the chain.,,DnD pref
+DnD_Pref_DragTime,Mouse down time to start dragging node (ms),Mouse down time to start dragging node (ms),,DnD pref
+DnD_Pref_CommentStyle,Comment text style,Comment text style,,DnD pref
+DnD_Message_Error_Prefix,ERROR:,ERROR:,,DnD message prefix
+DnD_Message_InvalidSyntaxError,The "{0}" node is causing an invalid program flow. Move it to a correct location.,The "{0}" node is causing an invalid program flow. Move it to a correct location.,,DnD message syntax error
+DnD_Message_InvalidSyntaxInsertionTitle,Invalid Insertion,Invalid Insertion,,DnD pop up title for below message
+DnD_Message_InvalidSyntaxInsertion,Inserting {0} at this location would result in an invalid program.,Inserting {0} at this location would result in an invalid program.,,DnD pop up message for invalid syntax insertion
 ggs_webserver_port,Web Server Port,Web Server Port,,Webserver Port
 ggs_webserver_ips,Allowed Web Server IPs,Allowed Web Server IPs,,Allowed IPs to connect to the debug webserver
 ggs_browser_path,Path to Browser,Path to Browser,,Path to Browser to use for testing HTML5
@@ -3293,21 +3309,21 @@ Room_AutoDepthUpdateMessage,"User defined layer depths are not adequately spaced
 Room_AutoDepthUpdateTitle,Layer Depth Error,Layer Depth Error,,message title when the user has given invalid layer depths
 roomdefaultstep,Default layer depth spacing,Default layer depth spacing,,the preference label for auto depth layer spacing
 room_autodepthchoice,Automatic response to updating layer depths,Automatic response to updating layer depths,,preference label for the auto depth confirmation dialog preference
-DnDConvert_Warning,You are performing a one-way conversion from DnD™ to GameMaker Language. Do you want to continue?,You are performing a one-way conversion from DnD™ to GameMaker Language. Do you want to continue?,,Object editor convert dnd to script warning
-DnDConvert_WarningTitle,Convert DnD™,Convert DnD™,,object editor dnd convert warning title
-TimelineEditor_ConvertMerge,Merging the selected moments will result in conversion from DnD™ to GameMaker Language. Do you want to continue?,Merging the selected moments will result in conversion from DnD™ to GameMaker Language. Do you want to continue?,,Merge warning
+DnDConvert_Warning,You are performing a one-way conversion from DnD to GameMaker Language. Do you want to continue?,You are performing a one-way conversion from DnD to GameMaker Language. Do you want to continue?,,Object editor convert dnd to script warning
+DnDConvert_WarningTitle,Convert DnD,Convert DnD,,object editor dnd convert warning title
+TimelineEditor_ConvertMerge,Merging the selected moments will result in conversion from DnD to GameMaker Language. Do you want to continue?,Merging the selected moments will result in conversion from DnD to GameMaker Language. Do you want to continue?,,Merge warning
 TimelineDnD_ConvertOpposite,Opposite,Opposite,,Convert dnd or script to opposite type
-Settings_DnDConvert,Automatic response to DnD™ conversion to GameMaker Language,Automatic response to DnD™ conversion to GameMaker Language,,DnD™ convert pref
-Settings_DnDDeleteNode,Automatic response to DnD™ node deletion,Automatic response to DnD™ node deletion,,DnD™ deletion pref
-DnDModule_DeleteNodeMsg,Are you sure you want to delete this DnD™ action?,Are you sure you want to delete this DnD™ action?,,DnD delete message
-DnDModule_ConvertToScript,Convert to GML,Convert to GML,,DnD™ module convert to gml context menu
-DnDModule_AddComment,Comment...,Comment...,,Add a comment to a DnD™ script
-DnDModule_RemoveComment,Remove Comment,Remove Comment,,Remove a comment from a DnD™ script
-DnDModule_RemoveComments,Remove Comments,Remove Comments,,Remove comments from a DnD™ script
+Settings_DnDConvert,Automatic response to DnD conversion to GameMaker Language,Automatic response to DnD conversion to GameMaker Language,,DnD convert pref
+Settings_DnDDeleteNode,Automatic response to DnD node deletion,Automatic response to DnD node deletion,,DnD deletion pref
+DnDModule_DeleteNodeMsg,Are you sure you want to delete this DnD action?,Are you sure you want to delete this DnD action?,,DnD delete message
+DnDModule_ConvertToScript,Convert to GML,Convert to GML,,DnD module convert to gml context menu
+DnDModule_AddComment,Comment...,Comment...,,Add a comment to a DnD script
+DnDModule_RemoveComment,Remove Comment,Remove Comment,,Remove a comment from a DnD script
+DnDModule_RemoveComments,Remove Comments,Remove Comments,,Remove comments from a DnD script
 DnDModule_Window,Window,Window,,Window submenu
 dpi_percentage,% of native DPI,% of native DPI,,Slider to control percentage of DPI
 dpi_raw,Raw DPI value,Raw DPI value,,Raw value of DPI to override with
-DnDModule_ResetLayout,Reset Layout,Reset Layout,,DnD™ module reset layout context menu
+DnDModule_ResetLayout,Reset Layout,Reset Layout,,DnD module reset layout context menu
 ggs_support_lib,Support Library,Support Library,,Support Library
 BackgroundLayer_AnimationFPS,Animation Speed:,Animation Speed:,,The caption for the background layer animation fps property
 ListViewExplorer_None,None,None,,None resource
@@ -3373,6 +3389,7 @@ operagx_login,Sign-In to Opera,Sign-In to Opera,,Button label for OperaGX packag
 operagx_view_on_web,Edit Game on Opera,Edit Game on Opera,,Button label for OperaGX packaging
 operagx_out_start_login,Starting Sign-In to Opera,Starting Sign-In to Opera,,Output Message tracking Packaging for OperaGX process
 operagx_out_compiling,Compiling...,Compiling...,,Output Message tracking Packaging for OperaGX process
+operagx_synchronized,Synchronizing with Opera GX...,Synchronizing with Opera GX...,,Output Message on starting synchronizing with OperaGX
 operagx_out_refreshing_token,Refreshing OAuth2 Token,Refreshing OAuth2 Token,,Output Message tracking Packaging for OperaGX process
 operagx_failed_to_refresh_token,failed to refresh token... logout of GameMaker and login again,failed to refresh token... logout of GameMaker and login again,,Output Message tracking Packaging for OperaGX process
 operagx_out_uploading,Uploading...,Uploading...,,Output Message tracking Packaging for OperaGX process
@@ -3384,12 +3401,24 @@ operagx_out_game_created,Game Created!,Game Created!,,Output Message tracking Pa
 operagx_out_game_create_error,ERROR - Creating Game,ERROR - Creating Game,,Output Message tracking Packaging for OperaGX process
 operagx_out_game_list,List of Games Retrieved,List of Games Retrieved,,Output Message tracking Packaging for OperaGX process
 operagx_out_game_list_error,ERROR - Retrieving List of Games,ERROR - Retrieving List of Games,,Output Message tracking Packaging for OperaGX process
+operagx_out_game_limit_receiving,Receiveng game size limit from a server...,Receiveng game size limit from a server...,,Message on starting receiving the game size limit from a server
+operagx_out_game_limit_error,ERROR - Retrieving Game Size Limit,ERROR - Retrieving Game Size Limit,,Output Message tracking Packaging for OperaGX process
+operagx_out_game_limitcannotupload_error,Cannot upload the game to GXC,Cannot upload the game to GXC,,Output message which is shown when the game cannot be uploaded due to the bundle size limit
+operagx_out_game_limit_error_size_details,Project Size (unpacked): {0:0.##} MB. Maximum allowed size on GXC: {1:0.##} MB,Project Size (unpacked): {0:0.##} MB. Maximum allowed size on GXC: {1:0.##} MB,,Detailed info on the bundle size and the limit
 operagx_out_auth_received,OAuth2 response received,OAuth2 response received,,Output Message tracking Packaging for OperaGX process
 operagx_out_auth_exiting,OAuth2 Exiting...,OAuth2 Exiting...,,Output Message tracking Packaging for OperaGX process
 operagx_out_auth_timeout,OAuth2 Timeout...,OAuth2 Timeout...,,Output Message tracking Packaging for OperaGX process
 operagx_out_auth_error,ERROR - Unable to refresh OAuth token,ERROR - Unable to refresh OAuth token,,Output Message tracking Packaging for OperaGX process
 operagx_out_auth_retrieve_error,Failed to retrieve OAuth token,Failed to retrieve OAuth token,,Output Message tracking Packaging for OperaGX process
 operagx_out_auth_token_success,OAuth2 access token received,OAuth2 access token received,,Output Message tracking Packaging for OperaGX process
+operagx_project_id_taken,The Project GUID is already taken. Try to generate a new one through the Main Game Options,The Project GUID is already taken. Try to generate a new one through the Main Game Options,,A message on error 400 - project_id_taken
+opera_sync_empty_guid,The GUID is empty. The project will be registered on GXC as a new game,The GUID is empty. The project will be registered on GXC as a new game,,Empty GUID tip for the user
+opera_sync_syncronization_on,Synchronization...,Synchronization...,,Synchronization button label during synchronization process
+opera_sync_synchronize,Synchronize,Synchronize,,Synchronization button label when the user is logged in
+opera_sync_signin_and_synchronize,Sign-in and synchronize,Sign-in and synchronize,,Synchronization button label when the user is not logged in
+opera_sync_guid_valid,"With the GUID provided, you may change the game settings only on GXC","With the GUID provided, you may change the game settings only on GXC",,Tip for the user for a valid GUID
+opera_sync_guid_not_valid_format,GUID format is not valid,GUID format is not valid,,Tip for an invalid GUID
+opera_sync_incorrect_data,Incorrect data. Check the output,Incorrect data. Check the output,,Incorrect data warning message
 windowsuwp_package_arm,Package an ARM build,Package an ARM build,,Package an ARM build
 windowsuwp_package_x86,Package an x86 build,Package an x86 build,,Package an x86 build
 windowsuwp_package_x64,Package an x64 build,Package an x64 build,,Package an x64 build
@@ -3501,7 +3530,7 @@ platformdevice_connection_no_devices,No Devices found,No Devices found,,no devic
 AssetExplorer_SelectResource,Select Asset,Select Asset,,Fallback title for asset explorer
 AssetExplorer_SelectResourceType,Select {0},Select {0},,select (resource type name) title for asset explorer
 AssetExplorer_FilterCaptionGeneric,Showing {0}/{1} filtered items,Showing {0}/{1} filtered items,,Title for filtered items in asset explorer
-ParserError_DnD,{0} in DnD™ action {1},{0} in DnD™ action {1},,DnD™ parser error message
+ParserError_DnD,{0} in DnD action {1},{0} in DnD action {1},,DnD parser error message
 GadgetToolbox_ListView,List View,List View,,List View dialog editor name
 GadgetToolbox_Table,Table,Table,,Table dialog editor name
 GadgetToolbox_TableListBox,TableListBox,TableListBox,,The table gadgets list box name
@@ -3831,12 +3860,12 @@ Help_eObjectPropertyType_Expression,The value is any code expression,The value i
 Help_eObjectPropertyType_Resource,The value is an asset (allows expressions),The value is an asset (allows expressions),,Asset value type help tip
 Help_eObjectPropertyType_Color,The value is a colour (allows expressions),The value is a colour (allows expressions),,Color value type help tip
 Help_eObjectPropertyType_List,The value is one or more expressions from a list (if multi-select is on then\nthis is an array of expressions),The value is one or more expressions from a list (if multi-select is on then\nthis is an array of expressions),,List value type help tip
-DnDToolbox_Menu_AddToWorkspace,Use {0},Use {0},,DnD™ Toolbox use action
+DnDToolbox_Menu_AddToWorkspace,Use {0},Use {0},,DnD Toolbox use action
 DnDToolbox_Menu_CollapseAll,Collapse All,Collapse All,,DnD toolbox collapse all
-DnDToolbox_Menu_Favorite,Make Favourite,Make Favourite,,DnD™ Toolbox make favourite
-DnDToolbox_Menu_RemoveFav,Remove Favourite,Remove Favourite,,DnD™ Toolbox remove favourite
-DnDToolbox_Menu_ClearRecentlyUsed,Clear Recently Used,Clear Recently Used,,DnD™ Toolbox clear recently used
-DnDToolbox_Menu_ClearFavs,Clear Favourites,Clear Favourites,,DnD™ Toolbox clear favourites
+DnDToolbox_Menu_Favorite,Make Favourite,Make Favourite,,DnD Toolbox make favourite
+DnDToolbox_Menu_RemoveFav,Remove Favourite,Remove Favourite,,DnD Toolbox remove favourite
+DnDToolbox_Menu_ClearRecentlyUsed,Clear Recently Used,Clear Recently Used,,DnD Toolbox clear recently used
+DnDToolbox_Menu_ClearFavs,Clear Favourites,Clear Favourites,,DnD Toolbox clear favourites
 SourceControlGit_FileLock,One or more files may be locked. Please check that none of the files are open in external programs. Do you want to try again?,One or more files may be locked. Please check that none of the files are open in external programs. Do you want to try again?,,Files potentially locked and need to try again
 SourceControlGit_Error,Source Control (Git) Error,Source Control (Git) Error,,Error with Source Control (Git)
 SourceControlGit_ProjectBreakRetry,"Be aware that this may have broken your project, as the command was not successful and you have chosen not to retry it.","Be aware that this may have broken your project, as the command was not successful and you have chosen not to retry it.",,Project may be broken warning due to command failing and choosing not to retry
@@ -3903,7 +3932,7 @@ GMStdVar_Name,"Assign Variable","Assign Variable",,Drag and Drop™ library acti
 GMStdVar_Desc,"Assign a value to a variable.","Assign a value to a variable.",,Drag and Drop™ library action description
 GMStdTempVar_Name,"Declare Temp","Declare Temp",,Drag and Drop™ library action name
 GMStdTempVar_Desc,"Declare a temporary variable.","Declare a temporary variable.",,Drag and Drop™ library action description
-GMStdTemp,Temp,Temp,,DnD™ library
+GMStdTemp,Temp,Temp,,DnD library
 GMStdIfVar_Name,"If Variable","If Variable",,Drag and Drop™ library action name
 GMStdIfVar_Desc,"Check if a variable satisfies a condition.","Check if a variable satisfies a condition.",,Drag and Drop™ library action description
 GMStdIfScore_Name,"If Score","If Score",,Drag and Drop™ library action name
@@ -4355,7 +4384,7 @@ GMStdAxis,"Axis","Axis",,Drag and Drop™ library argument labelf
 GMStdTrigger,"Trigger","Trigger",,Drag and Drop™ library argument label
 GMStdButton,"Button","Button",,Drag and Drop™ library argument label
 GMStdDeadzone,"Deadzone","Deadzone",,Drag and Drop™ library argument label
-GMStdAdditiveBlend,Blend,Blend,,DnD™
+GMStdAdditiveBlend,Blend,Blend,,DnD
 GMStdDirection,"Direction","Direction",,Drag and Drop™ library argument label
 GMStdType,"Type","Type",,Drag and Drop™ library argument label
 GMStdSpeed,"Speed","Speed",,Drag and Drop™ library argument labelG
@@ -4392,10 +4421,10 @@ GMStdMin,"Minimum","Minimum",,Drag and Drop™ library argument label
 GMStdMax,"Maximum","Maximum",,Drag and Drop™ library argument label
 GMStdTimes,"Times","Times",,Drag and Drop™ library argument label
 GMStdVariable,"Variable","Variable",,Drag and Drop™ library argument label
-GMStdTransformation,"Transform","Transform",,DnD™ argument label
+GMStdTransformation,"Transform","Transform",,DnD argument label
 GMStdIs,"Is","Is",,Drag and Drop™ library argument label
 GMStdValue,"Value","Value",,Drag and Drop™ library argument label
-GMStdValue100,"Value (0-100)","Value (0-100)",,DnD™
+GMStdValue100,"Value (0-100)","Value (0-100)",,DnD
 GMStdConstant,"Constant","Constant",,Drag and Drop™ library argument label
 GMStdRounding,"Rounding","Rounding",,Drag and Drop™ library argument label
 GMStdWidth,"Width","Width",,Drag and Drop™ library argument label
@@ -4430,9 +4459,9 @@ GMStdShape,"Shape","Shape",,Drag and Drop™ library argument label
 GMStdMinSize,"Min Size","Min Size",,Drag and Drop™ library argument label
 GMStdMaxSize,"Max Size","Max Size",,Drag and Drop™ library argument label
 GMStdIncrease,"Increase","Increase",,Drag and Drop™ library argument label
-GMStdWiggle,Wiggle,Wiggle,,DnD™ lib argument label
+GMStdWiggle,Wiggle,Wiggle,,DnD lib argument label
 GMStdCount,Count,Count,,Drag and Drop™ library argument label
-GMStdSecondaryType,Secondary,Secondary,,DnD™ lib argument label
+GMStdSecondaryType,Secondary,Secondary,,DnD lib argument label
 GMStdEmitter,"Emitter","Emitter",,Drag and Drop™ library argument label
 GMStdBurst,"Burst","Burst",,Drag and Drop™ library argument label
 GMStdStream,"Stream","Stream",,Drag and Drop™ library argument label
@@ -4451,19 +4480,19 @@ GMStdCaption,"Caption","Caption",,Drag and Drop™ library argument label
 GMStdCamera,Camera,Camera,,DnD label
 GMStdVisibility,Visibility,Visibility,,DnD label
 GMStdParticleSystem,System,System,,Dnd library argument label
-GMStdParticleType,Type,Type,,DnD™ library argument label
+GMStdParticleType,Type,Type,,DnD library argument label
 GMStdFrame,"Frame","Frame",,Drag and Drop™ library argument label
 GMStdAngle,"Angle","Angle",,Drag and Drop™ library argument labelG
-GMStdMinAngle,Min Angle,Min Angle,,DnD™
-GMStdMaxAngle,Max Angle,Max Angle,,DnD™
-GMStdDistribution,Distribution,Distribution,,DnD™
+GMStdMinAngle,Min Angle,Min Angle,,DnD
+GMStdMaxAngle,Max Angle,Max Angle,,DnD
+GMStdDistribution,Distribution,Distribution,,DnD
 GMStdAlpha,"Alpha","Alpha",,Drag and Drop™ library argument label
 GMStdAlignment,"Alignment","Alignment",,Drag and Drop™ library argument label
 GMStdReturn,"Return","Return",,Drag and Drop™ library argument label
 GMStdReturnKey,"Return Key","Return Key",,Drag and Drop™ library argument label
 GMStdAutoCapitalization,"Capitalization","Capitalization",,Drag and Drop™ library argument label
 GMStdPredictiveText,"Text Prediction","Text Prediction",,Drag and Drop™ library argument label
-GMStdRelativeToDir,Relative To Direction,Relative To Direction,,DnD™
+GMStdRelativeToDir,Relative To Direction,Relative To Direction,,DnD
 GMStdMacro,"Macro","Macro",,Drag and Drop™ library argument label
 GMStdDirs,"Directions","Directions",,Drag and Drop™ library argument label
 GMStdPath,"Path","Path",,Drag and Drop™ library argument label
@@ -4482,111 +4511,111 @@ GMStdName,"Name","Name",,Drag and Drop™ library argument label
 GMStdVertically,"Vertical","Vertical",,Drag and Drop™ library argument label
 GMStdHorizontally,"Horizontal","Horizontal",,Drag and Drop™ library argument label
 GMStdSeqHead,"Head (frames)","Head (frames)",,dnd library argument label
-GMStdEqual,Equal,Equal,,DnD™
-GMStdLess,Less,Less,,DnD™
-GMStdGreater,Greater,Greater,,DnD™
-GMStdLessorEqual,Less or Equal,Less or Equal,,DnD™
-GMStdGreaterorEqual,Greater or Equal,Greater or Equal,,DnD™
-GMStdString,String,String,,DnD™
-GMStdResume,Resume,Resume,,DnD™
-GMStdPaused,Paused,Paused,,DnD™
-GMStdPause,Pause,Pause,,DnD™
-GMStdToggle,Toggle,Toggle,,DnD™
-GMStdWindow,Window,Window,,DnD™
-GMStdFullscreen,Fullscreen,Fullscreen,,DnD™
-GMStdSnow,Snow,Snow,,DnD™
-GMStdRain,Rain,Rain,,DnD™
-GMStdCloud,Cloud,Cloud,,DnD™
-GMStdFlare,Flare,Flare,,DnD™
-GMStdSpark,Spark,Spark,,DnD™
-GMStdStar,Star,Star,,DnD™
-GMStdSmokeUp,Smoke Up,Smoke Up,,DnD™
-GMStdSmoke,Smoke,Smoke,,DnD™
-GMStdFirework,Firework,Firework,,DnD™
-GMStdEllipse,Ellipse,Ellipse,,DnD™
-GMStdRing,Ring,Ring,,DnD™
-GMStdExplosion,Explosion,Explosion,,DnD™
-GMStdSphere,Sphere,Sphere,,DnD™
-GMStdCircle,Circle,Circle,,DnD™
-GMStdSquare,Square,Square,,DnD™
-GMStdDisk,Disk,Disk,,DnD™
-GMStdPixel,Pixel,Pixel,,DnD™
-GMStdSmall,Small,Small,,DnD™
-GMStdMedium,Medium,Medium,,DnD™
-GMStdLarge,Large,Large,,DnD™
-GMStdBelowObjects,Below Objects,Below Objects,,DnD™
-GMStdAboveObjects,Above Objects,Above Objects,,DnD™
-GMStdAlarm0,Alarm 0,Alarm 0,,DnD™
-GMStdAlarm1,Alarm 1,Alarm 1,,DnD™
-GMStdAlarm2,Alarm 2,Alarm 2,,DnD™
-GMStdAlarm3,Alarm 3,Alarm 3,,DnD™
-GMStdAlarm4,Alarm 4,Alarm 4,,DnD™
-GMStdAlarm5,Alarm 5,Alarm 5,,DnD™
-GMStdAlarm6,Alarm 6,Alarm 6,,DnD™
-GMStdAlarm7,Alarm 7,Alarm 7,,DnD™
-GMStdAlarm8,Alarm 8,Alarm 8,,DnD™
-GMStdAlarm9,Alarm 9,Alarm 9,,DnD™
-GMStdAlarm10,Alarm 10,Alarm 10,,DnD™
-GMStdAlarm11,Alarm 11,Alarm 11,,DnD™
-GMStdMiddle,Middle,Middle,,DnD™
-GMStdAny,Any,Any,,DnD™
-GMStdNone,None,None,,DnD™
-GMStdLeftTrigger,Left Trigger,Left Trigger,,DnD™
-GMStdRightTrigger,Right Trigger,Right Trigger,,DnD™
-GMStdActionTop,Action Top,Action Top,,DnD™
-GMStdActionLeft,Action Left,Action Left,,DnD™
-GMStdActionBottom,Action Bottom,Action Bottom,,DnD™
-GMStdActionRight,Action Right,Action Right,,DnD™
-GMStdShoulderLeft,Shoulder Left,Shoulder Left,,DnD™
-GMStdShoulderRight,Shoulder Right,Shoulder Right,,DnD™
-GMStdDPadUp,D-Pad Up,D-Pad Up,,DnD™
-GMStdDPadLeft,D-Pad Left,D-Pad Left,,DnD™
-GMStdDPadDown,D-Pad Down,D-Pad Down,,DnD™
-GMStdDPadRight,D-Pad Right,D-Pad Right,,DnD™
-GMStdLeftStick,Left Stick,Left Stick,,DnD™
-GMStdRightStick,Right Stick,Right Stick,,DnD™
-GMStdSelect,Select,Select,,DnD™
-GMStdGravity,Gravity,Gravity,,DnD™
-GMStdSize,Size,Size,,DnD™
-GMStdXAndY,X And Y,X And Y,,DnD™
-GMStdXOnly,X Only,X Only,,DnD™
-GMStdYOnly,Y Only,Y Only,,DnD™
-GMStdRectangle,Rectangle,Rectangle,,DnD™
-GMStdLine,Line,Line,,DnD™
-GMStdLeftStickHor,Left Stick (Horizontal),Left Stick (Horizontal),,DnD™
-GMStdLeftStickVer,Left Stick (Vertical),Left Stick (Vertical),,DnD™
-GMStdRightStickHor,Right Stick (Horizontal),Right Stick (Horizontal),,DnD™
-GMStdRightStickVer,Right Stick (Vertical),Right Stick (Vertical),,DnD™
-GMStdDecimal,Decimal,Decimal,,DnD™
-GMStdInteger,Integer,Integer,,DnD™
-GMStdRound,Round,Round,,DnD™
-GMStdCeil,Ceil,Ceil,,DnD™
-GMStdFloor,Floor,Floor,,DnD™
-GMStdStop,Stop,Stop,,DnD™
-GMStdLinear,Linear,Linear,,DnD™
-GMStdGaussian,Gaussian,Gaussian,,DnD™
-GMStdInverseGaussian,Inverse Gaussian,Inverse Gaussian,,DnD™
-GMStdRestart,Restart,Restart,,DnD™
-GMStdReverse,Reverse,Reverse,,DnD™
-GMStdDiamond,Diamond,Diamond,,DnD™
-GMStdMixed,Mixed,Mixed,,DnD™
-GMStdChanging,Changing,Changing,,DnD™
-GMStdFileMode,Mode,Mode,,DnD™
-GMStdFileMode_Read,Read,Read,,DnD™
-GMStdFileMode_Write,Write,Write,,DnD™
-GMStdFileType,Type,Type,,DnD™
-GMStdFileType_Bin,Binary,Binary,,DnD™
-GMStdFileType_Text,Text,Text,,DnD™
-GMStdCopyTo,Copy To,Copy To,,DnD™
-GMStdNewFilename,New Name,New Name,,DnD™
-GMStdFile,File,File,,DnD™
-GMStdBuffer,Buffer,Buffer,,DnD™
-GMStdSeek,Seek,Seek,,DnD™
+GMStdEqual,Equal,Equal,,DnD
+GMStdLess,Less,Less,,DnD
+GMStdGreater,Greater,Greater,,DnD
+GMStdLessorEqual,Less or Equal,Less or Equal,,DnD
+GMStdGreaterorEqual,Greater or Equal,Greater or Equal,,DnD
+GMStdString,String,String,,DnD
+GMStdResume,Resume,Resume,,DnD
+GMStdPaused,Paused,Paused,,DnD
+GMStdPause,Pause,Pause,,DnD
+GMStdToggle,Toggle,Toggle,,DnD
+GMStdWindow,Window,Window,,DnD
+GMStdFullscreen,Fullscreen,Fullscreen,,DnD
+GMStdSnow,Snow,Snow,,DnD
+GMStdRain,Rain,Rain,,DnD
+GMStdCloud,Cloud,Cloud,,DnD
+GMStdFlare,Flare,Flare,,DnD
+GMStdSpark,Spark,Spark,,DnD
+GMStdStar,Star,Star,,DnD
+GMStdSmokeUp,Smoke Up,Smoke Up,,DnD
+GMStdSmoke,Smoke,Smoke,,DnD
+GMStdFirework,Firework,Firework,,DnD
+GMStdEllipse,Ellipse,Ellipse,,DnD
+GMStdRing,Ring,Ring,,DnD
+GMStdExplosion,Explosion,Explosion,,DnD
+GMStdSphere,Sphere,Sphere,,DnD
+GMStdCircle,Circle,Circle,,DnD
+GMStdSquare,Square,Square,,DnD
+GMStdDisk,Disk,Disk,,DnD
+GMStdPixel,Pixel,Pixel,,DnD
+GMStdSmall,Small,Small,,DnD
+GMStdMedium,Medium,Medium,,DnD
+GMStdLarge,Large,Large,,DnD
+GMStdBelowObjects,Below Objects,Below Objects,,DnD
+GMStdAboveObjects,Above Objects,Above Objects,,DnD
+GMStdAlarm0,Alarm 0,Alarm 0,,DnD
+GMStdAlarm1,Alarm 1,Alarm 1,,DnD
+GMStdAlarm2,Alarm 2,Alarm 2,,DnD
+GMStdAlarm3,Alarm 3,Alarm 3,,DnD
+GMStdAlarm4,Alarm 4,Alarm 4,,DnD
+GMStdAlarm5,Alarm 5,Alarm 5,,DnD
+GMStdAlarm6,Alarm 6,Alarm 6,,DnD
+GMStdAlarm7,Alarm 7,Alarm 7,,DnD
+GMStdAlarm8,Alarm 8,Alarm 8,,DnD
+GMStdAlarm9,Alarm 9,Alarm 9,,DnD
+GMStdAlarm10,Alarm 10,Alarm 10,,DnD
+GMStdAlarm11,Alarm 11,Alarm 11,,DnD
+GMStdMiddle,Middle,Middle,,DnD
+GMStdAny,Any,Any,,DnD
+GMStdNone,None,None,,DnD
+GMStdLeftTrigger,Left Trigger,Left Trigger,,DnD
+GMStdRightTrigger,Right Trigger,Right Trigger,,DnD
+GMStdActionTop,Action Top,Action Top,,DnD
+GMStdActionLeft,Action Left,Action Left,,DnD
+GMStdActionBottom,Action Bottom,Action Bottom,,DnD
+GMStdActionRight,Action Right,Action Right,,DnD
+GMStdShoulderLeft,Shoulder Left,Shoulder Left,,DnD
+GMStdShoulderRight,Shoulder Right,Shoulder Right,,DnD
+GMStdDPadUp,D-Pad Up,D-Pad Up,,DnD
+GMStdDPadLeft,D-Pad Left,D-Pad Left,,DnD
+GMStdDPadDown,D-Pad Down,D-Pad Down,,DnD
+GMStdDPadRight,D-Pad Right,D-Pad Right,,DnD
+GMStdLeftStick,Left Stick,Left Stick,,DnD
+GMStdRightStick,Right Stick,Right Stick,,DnD
+GMStdSelect,Select,Select,,DnD
+GMStdGravity,Gravity,Gravity,,DnD
+GMStdSize,Size,Size,,DnD
+GMStdXAndY,X And Y,X And Y,,DnD
+GMStdXOnly,X Only,X Only,,DnD
+GMStdYOnly,Y Only,Y Only,,DnD
+GMStdRectangle,Rectangle,Rectangle,,DnD
+GMStdLine,Line,Line,,DnD
+GMStdLeftStickHor,Left Stick (Horizontal),Left Stick (Horizontal),,DnD
+GMStdLeftStickVer,Left Stick (Vertical),Left Stick (Vertical),,DnD
+GMStdRightStickHor,Right Stick (Horizontal),Right Stick (Horizontal),,DnD
+GMStdRightStickVer,Right Stick (Vertical),Right Stick (Vertical),,DnD
+GMStdDecimal,Decimal,Decimal,,DnD
+GMStdInteger,Integer,Integer,,DnD
+GMStdRound,Round,Round,,DnD
+GMStdCeil,Ceil,Ceil,,DnD
+GMStdFloor,Floor,Floor,,DnD
+GMStdStop,Stop,Stop,,DnD
+GMStdLinear,Linear,Linear,,DnD
+GMStdGaussian,Gaussian,Gaussian,,DnD
+GMStdInverseGaussian,Inverse Gaussian,Inverse Gaussian,,DnD
+GMStdRestart,Restart,Restart,,DnD
+GMStdReverse,Reverse,Reverse,,DnD
+GMStdDiamond,Diamond,Diamond,,DnD
+GMStdMixed,Mixed,Mixed,,DnD
+GMStdChanging,Changing,Changing,,DnD
+GMStdFileMode,Mode,Mode,,DnD
+GMStdFileMode_Read,Read,Read,,DnD
+GMStdFileMode_Write,Write,Write,,DnD
+GMStdFileType,Type,Type,,DnD
+GMStdFileType_Bin,Binary,Binary,,DnD
+GMStdFileType_Text,Text,Text,,DnD
+GMStdCopyTo,Copy To,Copy To,,DnD
+GMStdNewFilename,New Name,New Name,,DnD
+GMStdFile,File,File,,DnD
+GMStdBuffer,Buffer,Buffer,,DnD
+GMStdSeek,Seek,Seek,,DnD
 GMStdRelative,Relative,Relative,,DnD argument label
 GMStdAbsolute,Absolute,Absolute,,DnD argument label
-GMStdOffset,Offset,Offset,,DnD™
-GMStdVar_mirror,Mirror,Mirror,,Mirror DnD™
-GMStdVar_flip,Flip,Flip,,Flip DnD™
+GMStdOffset,Offset,Offset,,DnD
+GMStdVar_mirror,Mirror,Mirror,,Mirror DnD
+GMStdVar_flip,Flip,Flip,,Flip DnD
 GMStdVar_bboxleft,Bounding Box Left,Bounding Box Left,,DnD label
 GMStdVar_bboxtop,Bounding Box Top,Bounding Box Top,,DnD label
 GMStdVar_bboxright,Bounding Box Right,Bounding Box Right,,DnD label
@@ -4594,122 +4623,122 @@ GMStdVar_bboxbottom,Bounding Box Bottom,Bounding Box Bottom,,DnD label
 GMStdVar_insequence,In Sequence,In Sequence,,Dnd label
 GMStdVar_xoffset,Sprite Origin X,Sprite Origin X,,DnD label
 GMStdVar_yoffset,Sprite Origin Y,Sprite Origin Y,,DnD label
-GMStdVar_rotate,Rotate,Rotate,,Rotate DnD™
-GMStdVar_xstart,Initial X Coordinate,Initial X Coordinate,,DnD™
-GMStdVar_ystart,Initial Y Coordinate,Initial Y Coordinate,,DnD™
-GMStdVar_xprevious,Previous X Coordinate,Previous X Coordinate,,DnD™
-GMStdVar_yprevious,Previous Y Coordinate,Previous Y Coordinate,,DnD™
-GMStdVar_x,X Coordinate,X Coordinate,,DnD™
-GMStdVar_y,Y Coordinate,Y Coordinate,,DnD™
-GMStdVar_width,Width,Width,,DnD™
-GMStdVar_height,Height,Height,,DnD™
-GMStdVar_rows,Rows,Rows,,DnD™
-GMStdVar_columns,Columns,Columns,,DnD™
-GMStdVar_tilewidth,Tile Width,Tile Width,,DnD™
-GMStdVar_tileheight,Tile Height,Tile Height,,DnD™
-GMStdVar_tileset,Tile Set Resource,Tile Set Resource,,DnD™
-GMStdVar_frame,Current Frame,Current Frame,,DnD™
-GMStdVar_tilemask,Mask,Mask,,DnD™
-GMStdVar_tileglobalmask,Global Mask,Global Mask,,DnD™
-GMStdVar_hspeed,Horizontal Speed,Horizontal Speed,,DnD™
-GMStdVar_vspeed,Vertical Speed,Vertical Speed,,DnD™
-GMStdVar_direction,Direction,Direction,,DnD™
-GMStdVar_speed,Speed,Speed,,DnD™
-GMStdVar_friction,Friction,Friction,,DnD™
-GMStdVar_gravity,Gravity,Gravity,,DnD™
-GMStdVar_gravity_direction,Gravity Direction,Gravity Direction,,DnD™
-GMStdVar_visible,Visible,Visible,,DnD™
-GMStdVar_sprite_index,Sprite,Sprite,,DnD™
-GMStdVar_image_index,Image Index,Image Index,,DnD™
-GMStdVar_layer,Layer,Layer,,DnD™
-GMStdVar_persistent,Persistent,Persistent,,DnD™
-GMStdVar_mask_index,Mask,Mask,,DnD™
-GMStdVar_score,Score,Score,,DnD™
-GMStdVar_lives,Lives,Lives,,DnD™
-GMStdVar_health,Health,Health,,DnD™
-GMStdVar_depth,Depth,Depth,,DnD™
-GMStdVar_image_xscale,Horizontal Scale,Horizontal Scale,,DnD™
-GMStdVar_image_yscale,Vertical Scale,Vertical Scale,,DnD™
-GMStdVar_image_angle,Image Rotation,Image Rotation,,DnD™
-GMStdVar_image_alpha,Image Alpha,Image Alpha,,DnD™
-GMStdVar_image_blend,Image Blend Colour,Image Blend Colour,,DnD™
+GMStdVar_rotate,Rotate,Rotate,,Rotate DnD
+GMStdVar_xstart,Initial X Coordinate,Initial X Coordinate,,DnD
+GMStdVar_ystart,Initial Y Coordinate,Initial Y Coordinate,,DnD
+GMStdVar_xprevious,Previous X Coordinate,Previous X Coordinate,,DnD
+GMStdVar_yprevious,Previous Y Coordinate,Previous Y Coordinate,,DnD
+GMStdVar_x,X Coordinate,X Coordinate,,DnD
+GMStdVar_y,Y Coordinate,Y Coordinate,,DnD
+GMStdVar_width,Width,Width,,DnD
+GMStdVar_height,Height,Height,,DnD
+GMStdVar_rows,Rows,Rows,,DnD
+GMStdVar_columns,Columns,Columns,,DnD
+GMStdVar_tilewidth,Tile Width,Tile Width,,DnD
+GMStdVar_tileheight,Tile Height,Tile Height,,DnD
+GMStdVar_tileset,Tile Set Resource,Tile Set Resource,,DnD
+GMStdVar_frame,Current Frame,Current Frame,,DnD
+GMStdVar_tilemask,Mask,Mask,,DnD
+GMStdVar_tileglobalmask,Global Mask,Global Mask,,DnD
+GMStdVar_hspeed,Horizontal Speed,Horizontal Speed,,DnD
+GMStdVar_vspeed,Vertical Speed,Vertical Speed,,DnD
+GMStdVar_direction,Direction,Direction,,DnD
+GMStdVar_speed,Speed,Speed,,DnD
+GMStdVar_friction,Friction,Friction,,DnD
+GMStdVar_gravity,Gravity,Gravity,,DnD
+GMStdVar_gravity_direction,Gravity Direction,Gravity Direction,,DnD
+GMStdVar_visible,Visible,Visible,,DnD
+GMStdVar_sprite_index,Sprite,Sprite,,DnD
+GMStdVar_image_index,Image Index,Image Index,,DnD
+GMStdVar_layer,Layer,Layer,,DnD
+GMStdVar_persistent,Persistent,Persistent,,DnD
+GMStdVar_mask_index,Mask,Mask,,DnD
+GMStdVar_score,Score,Score,,DnD
+GMStdVar_lives,Lives,Lives,,DnD
+GMStdVar_health,Health,Health,,DnD
+GMStdVar_depth,Depth,Depth,,DnD
+GMStdVar_image_xscale,Horizontal Scale,Horizontal Scale,,DnD
+GMStdVar_image_yscale,Vertical Scale,Vertical Scale,,DnD
+GMStdVar_image_angle,Image Rotation,Image Rotation,,DnD
+GMStdVar_image_alpha,Image Alpha,Image Alpha,,DnD
+GMStdVar_image_blend,Image Blend Colour,Image Blend Colour,,DnD
 GMStdVar_xport,Viewport X Coordinate,Viewport X Coordinate,,DnD label
 GMStdVar_yport,Viewport Y Coordinate,Viewport Y Coordinate,,DnD label
 GMStdVar_wport,Viewport Width,Viewport Width,,DnD label
 GMStdVar_hport,Viewport Height,Viewport Height,,DnD label
 GMStdVar_surfaceid,Viewport Surface ID,Viewport Surface ID,,DnD label
-GMStdCatBuffers,Buffers,Buffers,,DnD™
-GMStdEvent,Event,Event,,DnD™
-GMStdPerStep,Per Step,Per Step,,DnD™
-GMStdOnDeath,On Death,On Death,,DnD™
-GMStdCallUserEvent_Name,Call User Event,Call User Event,,DnD™ action name
-GMStdCallUserEvent_Desc,Call a user event on an instance.,Call a user event on an instance.,,DnD™ action description
-GMStdInstExists_Name,If Instance Exists,If Instance Exists,,DnD™ action name
-GMStdInstExists_Desc,Checks if an instance exists.,Checks if an instance exists.,,DnD™ action description
-GMStdIfFileExists_Name,If File Exists,If File Exists,,DnD™ action name
-GMStdIfFileExists_Desc,Checks if a file exists.,Checks if a file exists.,,DnD™ action description
-GMStdFileCopy_Name,Copy File,Copy File,,DnD™ action name
-GMStdFileCopy_Desc,Copy a file to a new location.,Copy a file to a new location.,,DnD™ action description
-GMStdFileDelete_Name,Delete File,Delete File,,DnD™ action name
-GMStdFileDelete_Desc,Delete a file.,Delete a file.,,DnD™ action description
-GMStdFileRename_Name,Rename File,Rename File,,DnD™ action name
-GMStdFileRename_Desc,Rename a file.,Rename a file.,,DnD™ action description
-GMStdBufferCreate_Name,Create Buffer,Create Buffer,,DnD™ action name
-GMStdBufferCreate_Desc,Create a buffer.,Create a buffer.,,DnD™ action description
-GMStdBufferCopy_Name,Copy Buffer,Copy Buffer,,DnD™ action name
-GMStdBufferCopy_Desc,Copy a buffer.,Copy a buffer.,,DnD™ action description
-GMStdBufferDelete_Name,Delete Buffer,Delete Buffer,,DnD™ action name
-GMStdBufferDelete_Desc,Delete a buffer.,Delete a buffer.,,DnD™ action description
-GMStdBufferGetSize_Name,Get Buffer Size,Get Buffer Size,,DnD™ action name
-GMStdBufferGetSize_Desc,Get the size of a buffer.,Get the size of a buffer.,,DnD™ action description
-GMStdBufferSeek_Name,Seek Buffer,Seek Buffer,,DnD™ action name
-GMStdBufferSeek_Desc,Seek to a position in a buffer.,Seek to a position in a buffer.,,DnD™ action description
-GMStdBufferGetPosition_Name,Get Buffer Position,Get Buffer Position,,DnD™ action name
-GMStdBufferGetPosition_Desc,Get current position in a buffer.,Get current position in a buffer.,,DnD™ action description
-GMStdBufferLoad_Name,Load Buffer,Load Buffer,,DnD™ action name
-GMStdBufferLoad_Desc,Load a file into a buffer.,Load a file into a buffer.,,DnD™ action description
-GMStdBufferSave_Name,Save Buffer,Save Buffer,,DnD™ action name
-GMStdBufferSave_Desc,Save a buffer to a file.,Save a buffer to a file.,,DnD™ action description
-GMStdBufferRead_Name,Read Buffer,Read Buffer,,DnD™ action name
-GMStdBufferRead_Desc,Read from a buffer.,Read from a buffer.,,DnD™ action description
-GMStdBufferWrite_Name,Write Buffer,Write Buffer,,DnD™ action name
-GMStdBufferWrite_Desc,Write to a buffer.,Write to a buffer.,,DnD™ action description
-GMStdPartTypeSize_Name,Set Particle Size,Set Particle Size,,DnD™ action name
-GMStdPartTypeSize_Desc,Set the size of a particle type.,Set the size of a particle type.,,DnD™ action description
-GMStdPartTypeShape_Name,Set Particle Shape,Set Particle Shape,,DnD™ action name
-GMStdPartTypeShape_Desc,Set the shape of a particle type.,Set the shape of a particle type.,,DnD™ action description
-GMStdPartTypeAlpha_Name,Set Particle Alpha,Set Particle Alpha,,DnD™ action name
-GMStdPartTypeAlpha_Desc,Set the alpha channel of a particle type.,Set the alpha channel of a particle type.,,DnD™ action description
-GMStdPartTypeSprite_Name,Set Particle Sprite,Set Particle Sprite,,DnD™ action name
-GMStdPartTypeSprite_Desc,Set the sprite of a particle type.,Set the sprite of a particle type.,,DnD™ action description
-GMStdPartTypeSpeed_Name,Set Particle Speed,Set Particle Speed,,DnD™ action name
-GMStdPartTypeSpeed_Desc,Set the speed of a particle type.,Set the speed of a particle type.,,DnD™ action description
-GMStdPartTypeDirection_Name,Set Particle Direction,Set Particle Direction,,DnD™ action name
-GMStdPartTypeDirection_Desc,Set the direction of a particle type.,Set the direction of a particle type.,,DnD™ action description
-GMStdPartEmitRegion_Name,Set Emitter Region,Set Emitter Region,,DnD™ action name
-GMStdPartEmitRegion_Desc,Set the region of an emitter.,Set the region of an emitter.,,DnD™ action description
-GMStdBufferEOS_Name,If End Of Buffer,If End Of Buffer,,DnD™ action name
-GMStdBufferEOS_Desc,Checks if the end of a buffer has been reached.,Checks if the end of a buffer has been reached.,,DnD™ action description
-GMStdBufferExists_Name,If Buffer Exists,If Buffer Exists,,DnD™ action name
-GMStdBufferExists_Desc,Checks if a buffer exists.,Checks if a buffer exists.,,DnD™ action description
-GMStdDefault_Name,Default,Default,,DnD™ action name
-GMStdDefault_Desc,A default switch case for when no other case is matched.,A default switch case for when no other case is matched.,,DnD™ action description
-GMStdLoop_Name,Loop,Loop,,DnD™ action name
-GMStdLoop_Desc,A generic loop that continues until a Break action is hit.,A generic loop that continues until a Break action is hit.,,DnD™ action description
-GMStdGetInstanceVar_Name,Get Instance Variable,Get Instance Variable,,DnD™ action name
-GMStdGetInstanceVar_Desc,Get the value of an instance variable.,Get the value of an instance variable.,,DnD™ action description
-GMStdSetInstanceVar_Name,Set Instance Variable,Set Instance Variable,,DnD™ action name
-GMStdSetInstanceVar_Desc,Set the value of an instance variable.,Set the value of an instance variable.,,DnD™ action description
-GMStdPathGetSpeed_Name,Get Path Follow Speed,Get Path Follow Speed,,DnD™ action name
-GMStdPathGetSpeed_Desc,Get the speed of the instance following a path.,Get the speed of the instance following a path.,,DnD™ action description
-GMStdPathGetPosition_Name,Get Position Along Path,Get Position Along Path,,DnD™ action name
-GMStdPathGetPosition_Desc,Get the position of the instance along the path it is following.,Get the position of the instance along the path it is following.,,DnD™ action description
+GMStdCatBuffers,Buffers,Buffers,,DnD
+GMStdEvent,Event,Event,,DnD
+GMStdPerStep,Per Step,Per Step,,DnD
+GMStdOnDeath,On Death,On Death,,DnD
+GMStdCallUserEvent_Name,Call User Event,Call User Event,,DnD action name
+GMStdCallUserEvent_Desc,Call a user event on an instance.,Call a user event on an instance.,,DnD action description
+GMStdInstExists_Name,If Instance Exists,If Instance Exists,,DnD action name
+GMStdInstExists_Desc,Checks if an instance exists.,Checks if an instance exists.,,DnD action description
+GMStdIfFileExists_Name,If File Exists,If File Exists,,DnD action name
+GMStdIfFileExists_Desc,Checks if a file exists.,Checks if a file exists.,,DnD action description
+GMStdFileCopy_Name,Copy File,Copy File,,DnD action name
+GMStdFileCopy_Desc,Copy a file to a new location.,Copy a file to a new location.,,DnD action description
+GMStdFileDelete_Name,Delete File,Delete File,,DnD action name
+GMStdFileDelete_Desc,Delete a file.,Delete a file.,,DnD action description
+GMStdFileRename_Name,Rename File,Rename File,,DnD action name
+GMStdFileRename_Desc,Rename a file.,Rename a file.,,DnD action description
+GMStdBufferCreate_Name,Create Buffer,Create Buffer,,DnD action name
+GMStdBufferCreate_Desc,Create a buffer.,Create a buffer.,,DnD action description
+GMStdBufferCopy_Name,Copy Buffer,Copy Buffer,,DnD action name
+GMStdBufferCopy_Desc,Copy a buffer.,Copy a buffer.,,DnD action description
+GMStdBufferDelete_Name,Delete Buffer,Delete Buffer,,DnD action name
+GMStdBufferDelete_Desc,Delete a buffer.,Delete a buffer.,,DnD action description
+GMStdBufferGetSize_Name,Get Buffer Size,Get Buffer Size,,DnD action name
+GMStdBufferGetSize_Desc,Get the size of a buffer.,Get the size of a buffer.,,DnD action description
+GMStdBufferSeek_Name,Seek Buffer,Seek Buffer,,DnD action name
+GMStdBufferSeek_Desc,Seek to a position in a buffer.,Seek to a position in a buffer.,,DnD action description
+GMStdBufferGetPosition_Name,Get Buffer Position,Get Buffer Position,,DnD action name
+GMStdBufferGetPosition_Desc,Get current position in a buffer.,Get current position in a buffer.,,DnD action description
+GMStdBufferLoad_Name,Load Buffer,Load Buffer,,DnD action name
+GMStdBufferLoad_Desc,Load a file into a buffer.,Load a file into a buffer.,,DnD action description
+GMStdBufferSave_Name,Save Buffer,Save Buffer,,DnD action name
+GMStdBufferSave_Desc,Save a buffer to a file.,Save a buffer to a file.,,DnD action description
+GMStdBufferRead_Name,Read Buffer,Read Buffer,,DnD action name
+GMStdBufferRead_Desc,Read from a buffer.,Read from a buffer.,,DnD action description
+GMStdBufferWrite_Name,Write Buffer,Write Buffer,,DnD action name
+GMStdBufferWrite_Desc,Write to a buffer.,Write to a buffer.,,DnD action description
+GMStdPartTypeSize_Name,Set Particle Size,Set Particle Size,,DnD action name
+GMStdPartTypeSize_Desc,Set the size of a particle type.,Set the size of a particle type.,,DnD action description
+GMStdPartTypeShape_Name,Set Particle Shape,Set Particle Shape,,DnD action name
+GMStdPartTypeShape_Desc,Set the shape of a particle type.,Set the shape of a particle type.,,DnD action description
+GMStdPartTypeAlpha_Name,Set Particle Alpha,Set Particle Alpha,,DnD action name
+GMStdPartTypeAlpha_Desc,Set the alpha channel of a particle type.,Set the alpha channel of a particle type.,,DnD action description
+GMStdPartTypeSprite_Name,Set Particle Sprite,Set Particle Sprite,,DnD action name
+GMStdPartTypeSprite_Desc,Set the sprite of a particle type.,Set the sprite of a particle type.,,DnD action description
+GMStdPartTypeSpeed_Name,Set Particle Speed,Set Particle Speed,,DnD action name
+GMStdPartTypeSpeed_Desc,Set the speed of a particle type.,Set the speed of a particle type.,,DnD action description
+GMStdPartTypeDirection_Name,Set Particle Direction,Set Particle Direction,,DnD action name
+GMStdPartTypeDirection_Desc,Set the direction of a particle type.,Set the direction of a particle type.,,DnD action description
+GMStdPartEmitRegion_Name,Set Emitter Region,Set Emitter Region,,DnD action name
+GMStdPartEmitRegion_Desc,Set the region of an emitter.,Set the region of an emitter.,,DnD action description
+GMStdBufferEOS_Name,If End Of Buffer,If End Of Buffer,,DnD action name
+GMStdBufferEOS_Desc,Checks if the end of a buffer has been reached.,Checks if the end of a buffer has been reached.,,DnD action description
+GMStdBufferExists_Name,If Buffer Exists,If Buffer Exists,,DnD action name
+GMStdBufferExists_Desc,Checks if a buffer exists.,Checks if a buffer exists.,,DnD action description
+GMStdDefault_Name,Default,Default,,DnD action name
+GMStdDefault_Desc,A default switch case for when no other case is matched.,A default switch case for when no other case is matched.,,DnD action description
+GMStdLoop_Name,Loop,Loop,,DnD action name
+GMStdLoop_Desc,A generic loop that continues until a Break action is hit.,A generic loop that continues until a Break action is hit.,,DnD action description
+GMStdGetInstanceVar_Name,Get Instance Variable,Get Instance Variable,,DnD action name
+GMStdGetInstanceVar_Desc,Get the value of an instance variable.,Get the value of an instance variable.,,DnD action description
+GMStdSetInstanceVar_Name,Set Instance Variable,Set Instance Variable,,DnD action name
+GMStdSetInstanceVar_Desc,Set the value of an instance variable.,Set the value of an instance variable.,,DnD action description
+GMStdPathGetSpeed_Name,Get Path Follow Speed,Get Path Follow Speed,,DnD action name
+GMStdPathGetSpeed_Desc,Get the speed of the instance following a path.,Get the speed of the instance following a path.,,DnD action description
+GMStdPathGetPosition_Name,Get Position Along Path,Get Position Along Path,,DnD action name
+GMStdPathGetPosition_Desc,Get the position of the instance along the path it is following.,Get the position of the instance along the path it is following.,,DnD action description
 GMStdConstructor,"Constructor","Constructor",,dnd function label for constructor
 GMStdStatic,"Static","Static",,dnd function label for static
 GMStdDeclFunction_Desc,"Declare a new function","Declare a new function",,dnd declare a new function
 GMStdDeclFunction_Name,"Declare A New Function","Declare A New Function",,dnd declare a new function
 GMStdDeclFunction_Story,"Declare a new function ${funcName}","Declare a new function ${funcName}",,dnd declare a new function
-DnDManager_UnknownAction,Unknown Action,Unknown Action,,DnD™ Manager action name returned for action that doesnt exist
+DnDManager_UnknownAction,Unknown Action,Unknown Action,,DnD Manager action name returned for action that doesnt exist
 DnDEditor_EmptyChain,Empty,Empty,,DnD empty chain notice
 SplineEditor_InvalidConvex,Shape is not convex!,Shape is not convex!,,Spline editor non convex shape
 Validation_Error,Validation Error,Validation Error,,title used for validation error windows
@@ -4750,6 +4779,7 @@ Spine_License_Agree,I agree to the terms listed,I agree to the terms listed,,spi
 Spine_License_AcceptLabel,Accept Spine licence,Accept Spine licence,,spine licence option
 Spine_License_Show,Show Licence,Show Licence,,spine licence button
 Spine_NeedLicenceAcceptance,Project contains Spine assets - please accept the Spine licence agreement to proceed,Project contains Spine assets - please accept the Spine licence agreement to proceed,,spine licence requirement message
+Collision_Compatibility_Mode,Collision Compatibility Mode,Collision Compatibility Mode,,Collision Compatibility Mode
 RoomEditor_BrushEditingModeToolTip,Switch between selection and editing modes in brush builder page ,Switch between selection and editing modes in brush builder page ,,the tooltip for the editing mode button in the brush builder page
 RoomEditor_DuplicateLayer,Duplicate Layer,Duplicate Layer,,context menu option to duplicate a layer
 TileSetEditor_DeleteAnimation_ToolTip,Delete Animation,Delete Animation,,delete animation button tooltip
@@ -4868,16 +4898,10 @@ CloseProjectDialog_CloseConfirm,Are you sure you want to close your project and 
 ListBoxEnum_eTemplateFilter_ShowAll,Show ALL,Show ALL,,listbox enum
 ListBoxEnum_eTemplateFilter_Official,Official Templates,Official Templates,,listbox enum
 ListBoxEnum_eTemplateFilter_User,User Templates,User Templates,,listbox enum
-RemoteWorker_Submit,Submit,Submit,,Submit remote worker changes
-remote_worker_cache_path,Cache Path,Cache Path,,Remote worker cache path
-remote_worker_folder_sync_path,Path to FolderSync Tool,Path to FolderSync Tool,,Remote worker foldersync path
-remote_worker_fronkensteen_runtime_path,Path to Remote Runtime,Path to Remote Runtime,,Remote worker runtime path
-remote_worker_output_path,Output Path,Output Path,,Remote worker output path
-remote_worker_project_cache_path,Project Cache Path,Project Cache Path,,Remote worker project cache path
 default_audio_setting,Default Audio Device,Default Audio Device,,Default Audio Device setting
 Validate_NameLength,Resource name must be between {2} and {1} characters long,Resource name must be between {2} and {1} characters long,,validation error message for resource name
 Validate_InvalidFolderName,Folder name contains invalid characters: {0},Folder name contains invalid characters: {0},,validation error message for folder names
-DnD_ResourceSelection_DropLabel,Drop here to assign asset,Drop here to assign asset,,DnD™ Resource Input label
+DnD_ResourceSelection_DropLabel,Drop here to assign asset,Drop here to assign asset,,DnD Resource Input label
 TextureGroups_OpenResource,Open,Open,,Open Resource
 RemoteWorker_WindowTitle,Settings for {0},Settings for {0},,Remote worker window title
 RemoteWorker_PlatformNotSupportedTitle,Remote Worker - Platform Not Supported,Remote Worker - Platform Not Supported,,Platform is not supported on this remote worker title
@@ -4895,7 +4919,7 @@ GMStdAlpha_Desc,Set the alpha channel (0 to 1) used for drawing.,Set the alpha c
 GMStdGetAlpha_Name,Get Draw Alpha,Get Draw Alpha,,dnd set draw alpha node
 GMStdGetAlpha_Desc,Get the alpha channel (0 to 1) used for drawing.,Get the alpha channel (0 to 1) used for drawing.,,dnd set draw alpha node
 GMStdUseAlpha,Use Alpha,Use Alpha,,dnd node label
-TextEditorPanel_ConvertToDnD,Convert to DnD™,Convert to DnD™,,Convert the current script to DnD™
+TextEditorPanel_ConvertToDnD,Convert to DnD,Convert to DnD,,Convert the current script to DnD
 Marketplace_CreatePackageDetails,Package Details:,Package Details:,,package details heading
 Marketplace_InactiveTutorialSettings,Tutorial Content Settings will appear here when 'Tutorial' Package Type has been selected,Tutorial Content Settings will appear here when 'Tutorial' Package Type has been selected,,the message displayed when the tutorial settings are inactive
 CloseNonEmptyWorkspaceTabMessage,"Closing this workspace will also close the contained editors, are you sure?","Closing this workspace will also close the contained editors, are you sure?",,confirmation dialog message when closing a workspace tab with open editors
@@ -5028,13 +5052,13 @@ SmartGuidePref_SnapRulers,Snap Rulers to edges,Snap Rulers to edges,,snap rulers
 PickWhipSettings_ChainSoftness,Pick whip chain rendering segment count,Pick whip chain rendering segment count,,Pick whip chain softness preference
 PickWhipSettings_ChainThickness,Pick whip chain thickness,Pick whip chain thickness,,Pick whip chain thickness preference
 PickWhipSettings_Color,Pick whip colour,Pick whip colour,,The color of the pick whip preference
-DnDModule_ToggleBreakpoint,Toggle Breakpoint,Toggle Breakpoint,,Toggle breakpoint on a DnD™ node
+DnDModule_ToggleBreakpoint,Toggle Breakpoint,Toggle Breakpoint,,Toggle breakpoint on a DnD node
 DnDModule_DisableNode,Disable,Disable,,Disable node output
 DnDModule_EnableNode,Enable,Enable,,Enable node output
 DnDModule_ToggleDisabled,Toggle Enabled,Toggle Enabled,,Toggle node output
 DnDModule_NodeDisabled,(Disabled),(Disabled),,Node disabled story entry
-DnDModule_DeleteAllBreakpoints,Delete All Breakpoints,Delete All Breakpoints,,Delete breakpoints on selected DnD™ nodes
-DnDModule_DeleteNode,Delete,Delete,,DnD™ module delete selected
+DnDModule_DeleteAllBreakpoints,Delete All Breakpoints,Delete All Breakpoints,,Delete breakpoints on selected DnD nodes
+DnDModule_DeleteNode,Delete,Delete,,DnD module delete selected
 IDETooltip_LaptopMode_Title,Laptop Mode ({0}),Laptop Mode ({0}),,IDE toolbar laptop mode title
 IDETooltip_LaptopMode_On,On,On,,On text
 IDETooltip_LaptopMode_Off,Off,Off,,Off text
@@ -5400,6 +5424,7 @@ RoomEditor_SequenceLockToolTip,Lock Sequence,Lock Sequence,,tooltip for sequence
 FontEditor_ReplacementGlyphError,Using symbols not found in font (?),Using symbols not found in font (?),,Font glyph error
 FontEditor_ReplacementGlyphError_Tooltip,This font is missing one or more symbols and will get replacements from other fonts,This font is missing one or more symbols and will get replacements from other fonts,,Tooltip
 FontEditor_MissingFontError,Font is not available on this machine (?),Font is not available on this machine (?),,This font is not available on this machine
+Ins_MissingFontError,Font '{0}' is not available on this machine (?),Font '{0}' is not available on this machine (?),,This font is not available on this machine
 FontEditor_MissingFontError_Tooltip,Verify that the font is installed on your machine and try again,Verify that the font is installed on your machine and try again,,This font is not available on this machine tooltip
 Font_TooLargeTexPage,Font ""{0}"" packs more characters than can fit on the texture page. Some characters will not be visible.,Font ""{0}"" packs more characters than can fit on the texture page. Some characters will not be visible.,,Font too large for texture page warning dialog
 Event_Gesture,Gesture,Gesture,,Gesture event name
@@ -5578,6 +5603,18 @@ RT_RoomSpriteGraphic,Sprite Instances,Sprite Instances,,room sprite graphic reso
 RT_RoomSpriteGraphic_Singular,Sprite Instance,Sprite Instance,,room sprite graphic resource name singular
 RT_RoomSequenceGraphic,Sequence Instances,Sequence Instances,,room sequence graphic resource name
 RT_RoomSequenceGraphic_Singular,Sequence Instance,Sequence Instance,,room sequence graphic resource name singular
+RT_RoomAssetLayer,Asset Layers,Asset Layers,,room asset layer resource name
+RT_RoomAssetLayer_Singular,Asset Layer,Asset Layer,,room asset layer resource name singular
+RT_RoomBackgroundLayer,Background Layers,Background Layers,,room background layers plural
+RT_RoomBackgroundLayer_Singular,Background Layer,Background Layer,,room background layer singular
+RT_RoomEffectLayer,Effect Layers,Effect Layers,,room effect layers plural
+RT_RoomEffectLayer_Singular,Effect Layer,Effect Layer,,room effect layer singular
+RT_RoomInstanceLayer,Instance Layers,Instance Layers,,room instance layer plural
+RT_RoomInstanceLayer_Singular,Instance Layer,Instance Layer,,room instance layer singular
+RT_RoomPathLayer,Path Layers,Path Layers,,room path layers plural
+RT_RoomPathLayer_Singular,Path Layer,Path Layer,,room path layer singular
+RT_RoomTileLayer,Tile Layers,Tile Layers,,room tile layers plural
+RT_RoomTileLayer_Singular,Tile Layer,Tile Layer,,room tile layer singular
 recentwindows_title,Recent Windows,Recent Windows,,Recently activated windows title
 Views_Menu_Recent_Windows,Recent Windows,Recent Windows,,Recent activated windows menu option
 Developer_Menu_Title,Developer,Developer,,Title of the main Developer menu
@@ -5976,6 +6013,7 @@ UserLogin_RestartForCustomFeed,You have a new IDE update feed available. \nWould
 SearchResult_Info,{0} at line {1}: \t{2},{0} at line {1}: \t{2},,search result information
 UserLogin_ManageDevices,My Account,My Account,,ok button caption for too many devices error
 UserLogin_CommonInternetProblems,"If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker Studio 2 access.\nCheck any antivirus is not blocking GameMaker Studio 2 access.\nCheck any proxy or VPN is not blocking GameMaker Studio 2 access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2","If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker Studio 2 access.\nCheck any antivirus is not blocking GameMaker Studio 2 access.\nCheck any proxy or VPN is not blocking GameMaker Studio 2 access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2",,Common steps to try for internet connection failures
+RSS_Download_Exception,Could not reach the RSS feed,Could not reach the RSS feed,,A message which is shown when the RSS feed is not accessible
 Amazon Fire,Amazon Fire,Amazon Fire,,Amazon Fire label
 addon_amazon_apis,Amazon APIs,Amazon APIs,,Amazon APIs label for addon download
 addon_google_play_services,Google Play Services,Google Play Services,,Google play services label for addon download
@@ -6025,6 +6063,7 @@ RoomEditor_InheritTileLayerToolTip,Inherit Tile Properties,Inherit Tile Properti
 RoomEditor_InheritPathToolTip,Inherit Path Properties,Inherit Path Properties,,tooltip for inherit path properties
 RoomEditor_InheritEffectLayerToolTip,Inherit Effect Properties,Inherit Effect Properties,,tooltip for inherit effect layer properties
 RoomEditor_InheritLayersToolTip,Inherit Layers,Inherit Layers,,tooltip for inherit layers
+RoomEditor_InheritLayerSettings,Inherit Layer Settings,Inherit Layer Settings,,inherit layer settings tooltup
 Error_InvalidProjectName,The project name '{0}' contains the following unsupported characters: '{1}'.\nPlease try a different name.,The project name '{0}' contains the following unsupported characters: '{1}'.\nPlease try a different name.,,Error that the user has chosen a project name that won't work on Windows
 Addon_AmazonFireFailedPlatformCheckMessage,"This addon requires the Amazon Fire or Mobile licences.\nDo you want to go to your account to check your availability of these?","This addon requires the Amazon Fire or Mobile licences.\nDo you want to go to your account to check your availability of these?",,Message to display when the Amazon Fire addon fails the platform check
 RuntimeTarget_Error,Error with Runtime,Error with Runtime,,Error about the current active Runtime
@@ -6695,6 +6734,7 @@ AnimCurveEditor_DeleteAllCurves,Delete all curves,Delete all curves,,deleted all
 AnimCurveEditor_MultipleCurves,<Multiple Curves>,<Multiple Curves>,,anim curve editor multiple curves selected
 AnimCurve_CopyCurve,Copy Curve,Copy Curve,,copy curve
 AnimCurve_PasteCurve,Paste Curve,Paste Curve,,paste curve
+AnimCurve_DuplicateCurve,Duplicate Curve,Duplicate Curve,,duplicate curve
 AnimCurve_CurveType,Curve Type,Curve Type,,curve type
 AnimCurve_Ease,Ease,Ease,,ease
 AnimCurve_Linear,Linear,Linear,,linear
@@ -6989,3 +7029,39 @@ Redefine_Keys_Show_Only_Redefined_Commands, Show Only Redefined Commands, Show O
 Redefine_Keys_WarningKeys_Dialog,This command may not work properly with the {0} key. Are you sure you want to continue?,This command may not work properly with the {0} key. Are you sure you want to continue?,,Are you sure about remapping the command message text
 Redefine_Keys_ForbiddenKeys_Title,Forbidden Key,Forbidden Key,,Forbidden Key Title
 Redefine_Keys_ForbiddenKeys_Dialog,This command cannot be remapped to {0} as the {1} key is forbidden for this command.,This command cannot be remapped to {0} as the {1} key is forbidden for this command.,,Forbidden keys message text
+Feather_LintMessages_Title,Feather Messages,Feather Messages,,Feather Messages Window Title
+Feather_RefactorDialog_Title,Rename Identifier,Rename Identifier,,Refactor Dialog Title
+Feather_RefactorDialog_Content1,Provide a new name for '{0}':,Provide a new name for '{0}':,,Content 1
+Feather_RefactorFailedDialog_Title,Failed to apply changes,Failed to apply changes,,Refactor Failed Dialog Title
+Feather_RefactorFailedDialog_Content1,One or more of the following errors prevents safely modifying the script.,One or more of the following errors prevents safely modifying the script.,,Content 1
+Feather_RefactorFailedDialog_Content2,No changes have been applied.,No changes have been applied.,,Content 2
+Feather_RefactorCannotRenameDialog_Title,Cannot Rename,Cannot Rename,,Cannot Rename
+Feather_RefactorCannotRenameDialog_Content,The symbol under the caret cannot be renamed.,The symbol under the caret cannot be renamed.,,Cannot rename symbol under cursor.
+Feather_InitializationError_Title,Initialization Error,Initialization Error,,Initialization Error
+ProgressBar_Feather_ParseProject,Analyzing Project...,Analyzing Project...,,Analyzing Project...
+Feather_OccurrencesGadget_Occurrences,Goto next usage of '{0}' ({1}/{2}),Goto next usage of '{0}' ({1}/{2}),,Goto next usage of '{0}' ({1}/{2})
+Feather Settings,Feather Settings,Feather Settings,,Feather Settings preference group heading
+Highlighting,Highlighting,Highlighting,,Highlighting preference group heading
+Message Severity,Message Severity,Message Severity,,Message Severity group heading
+Naming Rules,Naming Rules,Naming Rules,,Naming Rules group heading
+Feather_NameBlocklist,Identifier Blocklist,Identifier Blocklist,,Identifier Blocklist
+InstanceVariableNameRule,Instance Variable Naming Rule,Instance Variable Naming Rule,,Instance Variable Naming Rule
+LocalVariableNameRule,Local Variable Naming Rule,Local Variable Naming Rule,,Local Variable Naming Rule
+ParamVariableNameRule,Function Parameter Naming Rule,Function Parameter Naming Rule,,Function Parameter Naming Rule
+EnumNameRule,Enum Naming Rule,Enum Naming Rule,,Enum Naming Rule
+EnumMemberNameRule,Enum Member Naming Rule,Enum Member Naming Rule,,Enum Member Naming Rule
+MacroNameRule,Macro Naming Rule,Macro Naming Rule,,Macro Naming Rule
+SpriteNameRule,Sprite Naming Rule,Sprite Naming Rule,,Sprite Naming Rule
+TileSetNameRule,TileSet Naming Rule,TileSet Naming Rule,,TileSet Naming Rule
+SoundNameRule,Sound Naming Rule,Sound Naming Rule,,Sound Naming Rule
+PathNameRule,Path Naming Rule,Path Naming Rule,,Path Naming Rule
+ScriptNameRule,Script Naming Rule,Script Naming Rule,,Script Naming Rule
+ShaderNameRule,Shader Naming Rule,Shader Naming Rule,,Shader Naming Rule
+FontNameRule,Font Naming Rule,Font Naming Rule,,Font Naming Rule
+TimelineNameRule,Timeline Naming Rule,Timeline Naming Rule,,Timeline Naming Rule
+ObjectNameRule,Object Naming Rule,Object Naming Rule,,Object Naming Rule
+RoomNameRule,Room Naming Rule,Room Naming Rule,,Room Naming Rule
+OtherResourceNameRule,Other Resource Naming Rule,Other Resource Naming Rule,,Other Resource Naming Rule
+ErrorColor,Error Colour,Error Colour,,Error Colour
+WarningColor,Warning Colour,Warning Colour,,Warning Colour
+SuggestionColor,Suggestion Colour,Suggestion Colour,,Suggestion Colour
