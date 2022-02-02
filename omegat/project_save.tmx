@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.6.0_0_203361b5" segtype="sentence" srclang="en-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.7.0_0_8ae1ecfb" segtype="sentence" srclang="en-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -19699,6 +19699,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Are you sure you want to delete configuration '{0}' and all of its children?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T120432Z" creationid="liaronce" creationdate="20220202T120432Z">
+        <seg>是否确实要删除配置 ‘{0}’ 及其所有子配置？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Are you sure you want to delete configuration '{0}'?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T092803Z" creationid="deciia" creationdate="20161223T072651Z">
@@ -20119,6 +20127,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T222606Z" creationid="36011" creationdate="20170316T142441Z">
         <seg>资产浏览器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Asset Layer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170321T144342Z" creationid="36011" creationdate="20170321T144342Z">
+        <seg>资源层</seg>
       </tuv>
     </tu>
     <tu>
@@ -21436,6 +21452,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170317T130425Z" creationid="deciia" creationdate="20170105T040119Z">
         <seg>背景图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Background Layer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170321T144311Z" creationid="36011" creationdate="20170321T144311Z">
+        <seg>背景层</seg>
       </tuv>
     </tu>
     <tu>
@@ -44303,6 +44327,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Instance Layer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170321T144322Z" creationid="36011" creationdate="20170321T144318Z">
+        <seg>实例层</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Instance Variables</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T054027Z" creationid="deciia" creationdate="20170107T054027Z">
@@ -51399,6 +51431,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Path Layer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170321T144339Z" creationid="36011" creationdate="20170321T144339Z">
+        <seg>路径层</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Path colour</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T025945Z" creationid="deciia" creationdate="20180922T025945Z">
@@ -57826,6 +57866,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170303T154002Z" creationid="deciia" creationdate="20170303T154002Z">
         <seg>任意层中选择 (P)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select Glyphs: {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T120748Z" creationid="liaronce" creationdate="20220202T120748Z">
+        <seg>选择字形：{0}</seg>
       </tuv>
     </tu>
     <tu>
