@@ -19627,6 +19627,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Are you sure to change the GUID?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124103Z" creationid="liaronce" creationdate="20220202T124103Z">
+        <seg>您确定要更改 GUID 吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Are you sure you want to Replace All?\nThis will edit files on disk.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T133846Z" creationid="deciia" creationdate="20170103T133846Z">
@@ -19839,6 +19847,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T064517Z" creationid="deciia" creationdate="20170103T114040Z">
         <seg>你确定要删除这些资源： {0}？\n硬盘上的文件/文件夹也会被删除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Are you sure you want to delete this DnD action?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124250Z" creationid="liaronce" creationdate="20220202T124250Z">
+        <seg>确定要删除这个 DnD 动作吗？</seg>
       </tuv>
     </tu>
     <tu>
@@ -20850,6 +20866,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133607Z" creationid="liaronce" creationdate="20200820T133607Z">
         <seg>自动响应资产删除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatic response to DnD conversion to GameMaker Language</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124241Z" creationid="liaronce" creationdate="20220202T124241Z">
+        <seg>自动响应 DnD 转换为GML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatic response to DnD node deletion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124246Z" creationid="liaronce" creationdate="20220202T124246Z">
+        <seg>自动响应 DnD 节点删除</seg>
       </tuv>
     </tu>
     <tu>
@@ -22870,6 +22902,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T104555Z" creationid="deciia" creationdate="20170105T104555Z">
         <seg>无法保存更改至 {0} 因为它的网址（URL）为空</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Cannot upload the game to GXC</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124318Z" creationid="liaronce" creationdate="20220202T124318Z">
+        <seg>无法将游戏上传到 GXC</seg>
       </tuv>
     </tu>
     <tu>
@@ -25987,6 +26027,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Convert DnD</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124222Z" creationid="liaronce" creationdate="20220202T124222Z">
+        <seg>转换 DnD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Convert DnD™</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T095723Z" creationid="deciia" creationdate="20170105T095723Z">
@@ -28420,6 +28468,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Default size for DnD toolbox action thumbnails</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124159Z" creationid="liaronce" creationdate="20220202T124159Z">
+        <seg>DnD 工具栏动作缩略图的默认尺寸</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Default size for DnD™ toolbox action thumbnails</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T102309Z" creationid="deciia" creationdate="20180922T035500Z">
@@ -30013,6 +30069,30 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>DnD Preview</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124034Z" creationid="liaronce" creationdate="20220202T124034Z">
+        <seg>DnD 预览</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DnD node overview visibility mode</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124124Z" creationid="liaronce" creationdate="20220202T124124Z">
+        <seg>DnD 节点概述可见模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DnD toolbox default location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124118Z" creationid="liaronce" creationdate="20220202T124118Z">
+        <seg>DnD 工具栏默认位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>DnD™</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135349Z" creationid="liaronce" creationdate="20191117T135349Z">
@@ -31416,6 +31496,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112859Z" creationid="liaronce" creationdate="20211002T112848Z">
         <seg>错误 - 创建游戏时出错</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ERROR - Retrieving Game Size Limit</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124313Z" creationid="liaronce" creationdate="20220202T124313Z">
+        <seg>错误-检索游戏大小限制</seg>
       </tuv>
     </tu>
     <tu>
@@ -35324,6 +35412,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>Force Laptop mode</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124058Z" creationid="liaronce" creationdate="20220202T124058Z">
+        <seg>强制笔记本电脑模式</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>备注：ggs_software_vertex_processing
 强制软件顶点处理，也就是软件模拟的图形处理吗？</note>
       <tuv lang="en-US">
@@ -35815,6 +35911,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144518Z" creationid="deciia" creationdate="20161223T084555Z">
         <seg>图形用户界面</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GXC GUID</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124043Z" creationid="liaronce" creationdate="20220202T124043Z">
+        <seg>GXC GUID</seg>
       </tuv>
     </tu>
     <tu>
@@ -39680,6 +39784,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Hide DnD node overview panel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124147Z" creationid="liaronce" creationdate="20220202T124147Z">
+        <seg>隐藏 DnD 节点概述面板</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Hide DnD™ node overview panel</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T034841Z" creationid="deciia" creationdate="20180922T034841Z">
@@ -39708,6 +39820,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T044016Z" creationid="deciia" creationdate="20180922T044016Z">
         <seg>隐藏虚拟键盘</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Hide docked DnD toolboxes if floating DnD toolbox is open</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124135Z" creationid="liaronce" creationdate="20220202T124135Z">
+        <seg>如果浮动 DnD 工具栏处于打开状态, 则隐藏停靠的 DnD 工具栏</seg>
       </tuv>
     </tu>
     <tu>
@@ -44463,6 +44583,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Internal Share URL</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124051Z" creationid="liaronce" creationdate="20220202T124051Z">
+        <seg>内部共享 URL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Interpolate</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T101356Z" creationid="deciia" creationdate="20170102T101356Z">
@@ -47257,6 +47385,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Maximum size for DnD toolbox action thumbnails</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124152Z" creationid="liaronce" creationdate="20220202T124152Z">
+        <seg>DnD 工具栏动作缩略图的最大尺寸</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Maximum size for DnD™ toolbox action thumbnails</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T102300Z" creationid="deciia" creationdate="20180922T035420Z">
@@ -47490,6 +47626,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Merging the selected moments will result in conversion from DnD to GameMaker Language.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124236Z" creationid="liaronce" creationdate="20220202T124236Z">
+        <seg>合并选定的时刻点将导致从 DnD 转换为 GML。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Merging the selected moments will result in conversion from DnD™ to GameMaker Language.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T012734Z" creationid="deciia" creationdate="20170105T095818Z">
@@ -47706,6 +47850,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T025013Z" creationid="deciia" creationdate="20180922T025013Z">
         <seg>最小代码窗口宽度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Minimum size for DnD toolbox action thumbnails</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124156Z" creationid="liaronce" creationdate="20220202T124156Z">
+        <seg>DnD 工具栏动作缩略图的最小尺寸</seg>
       </tuv>
     </tu>
     <tu>
@@ -48692,6 +48844,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T013917Z" creationid="deciia" creationdate="20180922T013907Z">
         <seg>下一区域</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Next Version</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124040Z" creationid="liaronce" creationdate="20220202T124040Z">
+        <seg>下一个版本</seg>
       </tuv>
     </tu>
     <tu>
@@ -53716,6 +53876,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Public Share URL</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124055Z" creationid="liaronce" creationdate="20220202T124055Z">
+        <seg>公共共享 URL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Published {1}.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T080159Z" creationid="deciia" creationdate="20170103T080159Z">
@@ -54208,6 +54376,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T161807Z" creationid="deciia" creationdate="20170311T161807Z">
         <seg>重置大小后重新计算图块集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Receiveng game size limit from a server...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124308Z" creationid="liaronce" creationdate="20220202T124303Z">
+        <seg>从服务器接收游戏大小限制......</seg>
       </tuv>
     </tu>
     <tu>
@@ -64750,6 +64926,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Synchronizing with Opera GX...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124259Z" creationid="liaronce" creationdate="20220202T124259Z">
+        <seg>正在与Opera GX同步......</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Syntax Checking delay (ms)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T160649Z" creationid="deciia" creationdate="20170311T160649Z">
@@ -65010,6 +65194,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T092910Z" creationid="deciia" creationdate="20170104T071324Z">
         <seg>团队标识符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Team Name</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124046Z" creationid="liaronce" creationdate="20220202T124046Z">
+        <seg>团队名称</seg>
       </tuv>
     </tu>
     <tu>
@@ -66417,6 +66609,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Thickness of the chain that connects DnD actions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124143Z" creationid="liaronce" creationdate="20220202T124143Z">
+        <seg>连接 DnD 操作的链厚度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Thickness of the chain that connects DnD™ actions</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133747Z" creationid="liaronce" creationdate="20200820T133747Z">
@@ -66895,6 +67095,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T122008Z" creationid="liaronce" creationdate="20200820T122008Z">
         <seg>这将覆盖以下函数：\n{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This wizard helps you easily create a layout for your DnD action.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124027Z" creationid="liaronce" creationdate="20220202T124027Z">
+        <seg>此向导可帮助您轻松创建 DnD 操作的布局。</seg>
       </tuv>
     </tu>
     <tu>
@@ -68993,6 +69201,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T202953Z" creationid="deciia" creationdate="20170510T020000Z">
         <seg>使用默认NSIS安装脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use DnD as default script type</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124112Z" creationid="liaronce" creationdate="20220202T124112Z">
+        <seg>使用 DnD 作为默认脚本类型</seg>
       </tuv>
     </tu>
     <tu>
@@ -71385,6 +71601,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T014248Z" creationid="deciia" creationdate="20170104T054700Z">
         <seg>你没有在预览一个动作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You are performing a one-way conversion from DnD to GameMaker Language.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124219Z" creationid="liaronce" creationdate="20220202T124219Z">
+        <seg>你正在执行一个从 DnD 到 GML 的单向转换。</seg>
       </tuv>
     </tu>
     <tu>
