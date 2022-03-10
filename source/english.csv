@@ -448,6 +448,7 @@ FileError_Locked,File Locked,File Locked,,File Locked
 FileError_NotFound,File Not Found,File Not Found,,File Not Found
 FileError_PathTooLong,File Path Too Long,File Path Too Long,,File Path Too Long
 FileError_Timeout,File Load Timeout,File Load Timeout,,File Load Timeout
+FileError_FilesLost,Fatal error: the file watcher detected all your files are gone. Please check your file system and this project will now close,Fatal error: the file watcher detected all your files are gone. Please check your file system and this project will now close,,This error happens when the system cannot find files although the project has been already loaded (e.g. when a remote hard drive has disconnected occasionally)
 Font_CannotRegenerate_FontNotAvailable,Font {0} texture generation skipped (font is not available on this machine),Font {0} texture generation skipped (font is not available on this machine),,Font generation failed
 Font_TTF_BaseAlphabet,"!\""#$%&'()*+,-./00300123456789:;<=>?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~","!\""#$%&'()*+,-./00300123456789:;<=>?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~",,FontTTF standard English alphabet<
 Inspector,Inspector,Inspector,,Inspector preference heading
@@ -497,8 +498,10 @@ Inspector_UndoError,An error occurred while attempting to undo a change.,An erro
 Inspector_RedoError,An error occurred while attempting to redo a change.,An error occurred while attempting to redo a change.,,Redo error message
 Inspector_CreateNewAssetType,New {0},New {0},,new (asset type name)
 Inspector_EditAssetType,Edit {0},Edit {0},,edit (asset type name)
-Inspector_AlignIcons,Align Icons,Align Icons,,inspector align icons label
-Inspector_FlipIcons,Flip Icons,Flip Icons,,inspector flip icons label
+Inspector_AlignIcons,Align,Align,,inspector align icons label
+Inspector_Alignment,Alignment,Alignment,,inspector alignment label
+Inspector_FlipIcons,Flip,Flip,,inspector flip icons label
+Inspector_OpenAssetTypeEditor,Open {0} Editor,Open {0} Editor,,open (asset type name) editor
 Inspector_HAlign_Left,Align Left,Align Left,,inspector alignment tooltip
 Inspector_HAlign_Centre,Align Centre,Align Centre,,inspector alignment tooltip
 Inspector_HAlign_Right,Align Right,Align Right,,inspector alignment tooltip
@@ -507,6 +510,7 @@ Inspector_VAlign_Top,Align Top,Align Top,,inspector alignment tooltip
 Inspector_VAlign_Centre,Align Centre,Align Centre,,inspector alignment tooltip
 Inspector_VAlign_Bottom,Align Bottom,Align Bottom,,inspector alignment tooltip
 Inspector_VAlign_Distrib,Distribute Vertically,Distribute Vertically,,inspector alignment tooltip
+Inspector_Justify,Justify,Justify,,text justify tooltip
 Inspector_AddObjVariable,Add Variable,Add Variable,,inspector add object variable button
 Inspector_EditGlyphsTitle,Select Glyphs: {0},Select Glyphs: {0},,font glyph editor title
 Inspector_EditGlyphs,Select Glyphs,Select Glyphs,,font edit glyphs label
@@ -524,6 +528,8 @@ SeqAudioTrack_Singular,Audio Track,Audio Track,,audio track type name singular
 SeqAudioTrack_Plural,Audio Tracks,Audio Tracks,,audio track type name plural
 SeqSeqTrack_Singular,Sequence Track,Sequence Track,,sequence instance track type name singular
 SeqSeqTrack_Plural,Sequence Tracks,Sequence Tracks,,sequence instance track type name plural
+SeqTextTrack_Singular,Text Track,Text Track,,sequence text track type name singular
+SeqTextTrack_Plural,Text Tracks,Text Tracks,,sequence text track type name plural
 Inspector_Category_Transform,Transform,Transform,,Inspector category
 Inspector_Category_Physics,Physics,Physics,,Inspector category
 Inspector_Category_Permissions,Permissions,Permissions,,Inspector category
@@ -546,6 +552,7 @@ Inspector_Category_Glyphs,Glyphs,Glyphs,,Inspector category
 Inspector_Category_Presets,Presets,Presets,,Inspector category
 Inspector_Category_FiltersEffects,Filters & Effects,Filters & Effects,,filters and effects category
 Inspector_OpenEditor,Open Editor,Open Editor,,open editor
+Inspector_OpenInspector,Open Inspector,Open Inspector,,open inspector
 Inspector_ObjNoEvents,"This Object currently has no Events.\nAdd Events here or via the editor","This Object currently has no Events.\nAdd Events here or via the editor",,no object events inspector label
 Inspector_OpenEditors,Open Editors,Open Editors,,open multiple editors
 Inspector_Category_Properties,Properties,Properties,,inspector category
@@ -574,10 +581,13 @@ Inspector_BackdropImage,Backdrop Image,Backdrop Image,,inspector property label
 Inspector_BackdropSize,Backdrop Size,Backdrop Size,,inspector property label
 Inspector_Size,Size,Size,,inspector property label
 Inspector_EditCC,Edit Creation Code,Edit Creation Code,,inspector edit creation code button label
+Inspector_RoomLayerAssets,Assets,Assets,,room asset layer assets list
+Inspector_RoomLayerInstances,Instances,Instances,,room instance layer instances list
 GMShader_VertexShaderPath,.VSH (Read-only),.VSH (Read-only),,inspector property name
 GMShader_FragmentShaderPath,.FSH (Read-only),.FSH (Read-only),,inspector property name
 Inspector_Script,Script (Read-only),Script (Read-only),,inspector property name
 Inspector_Notes,Notes (Read-only),Notes (Read-only),,inspector property name
+Inspector_FontName,Font Name,Font Name,,inspector property name
 RulerLine_Value,Ruler Value,Ruler Value,,smart guide ruler coord value
 fonteditor_texture_size,{0} x {1},{0} x {1},,Font editor texture size label
 fonteditor_gms1mode,"This legacy font was not upgraded automatically.\n\nUpgrading the font may show inconsistencies but the font will be backed up in its folder.","This legacy font was not upgraded automatically.\n\nUpgrading the font may show inconsistencies but the font will be backed up in its folder.",,Font editor GMS1 mode label
@@ -2852,6 +2862,7 @@ ggs_xboxseriesxs_msaappid,MSA App ID,MSA App ID,,MSA App ID
 ggs_xboxseriesxs_content_id,Content ID (Development only),Content ID (Development only),,Content ID (Development only)
 ggs_xboxseriesxs_ekbid,EKBID (Development only),EKBID (Development only),,EKBID (Development only)
 ggs_playfab_party_id,PlayFab Party ID,PlayFab Party ID,,PlayFab Party ID
+ggs_simplified_user_model,Simplified User Model,Simplified User Model,,Simplified User Model
 ggs_require_xbox_live,Require Xbox Live,Require Xbox Live,,Require Xbox Live
 ggs_require_game_chat,Require game chat,Require game chat,,Require Game Chat
 ggs_game_chat_slots,Max game chat slots,Max game chat slots,,Max game chat slots
@@ -3398,6 +3409,7 @@ operagx_out_upload_exiting,GXC Upload Exiting...,GXC Upload Exiting...,,Output M
 operagx_out_upload_timeout,GXC Upload Timeout...,GXC Upload Timeout...,,Output Message tracking Packaging for OperaGX process
 operagx_out_upload_success,GXC Upload succeeded,GXC Upload succeeded,,Output Message tracking Packaging for OperaGX process
 operagx_out_upload_failed,GXC Upload failed,GXC Upload failed,,Output Message tracking Packaging for OperaGX process
+operagx_out_compilationbeforeupload_failed,Compilation failed. GXC upload cancelled. See the console output and the compile errors.,Compilation failed. GXC upload cancelled. See the console output and the compile errors.,,Output Message to show then the compilation failed in the "OperaGX Packaging" window
 operagx_out_game_created,Game Created!,Game Created!,,Output Message tracking Packaging for OperaGX process
 operagx_out_game_create_error,ERROR - Creating Game,ERROR - Creating Game,,Output Message tracking Packaging for OperaGX process
 operagx_out_game_list,List of Games Retrieved,List of Games Retrieved,,Output Message tracking Packaging for OperaGX process
@@ -4754,6 +4766,7 @@ ProgressBar_BuildProgress,Building... {0},Building... {0},,The progress bar capt
 ProgressBar_SpritePreview,Sprite Preview...,Sprite Preview...,,The progress bar caption while generating sprite preview
 ProgressBar_Archiving,Archiving...,Archiving...,,Compressing to a .zip/.yyz/etc...
 ProgressBar_ConvertingGMX,Converting GMX...,Converting GMX...,,converting gmx progress caption
+ProgressBar_FallbackUploading,Fallback Uploading...,Fallback Uploading...,,Uploading with a fallback strategy when the progress is not indicated
 TileSetEditor_SpriteNoExport,Disable Source Sprite Export,Disable Source Sprite Export,,checkbox caption to disable the export on the source sprite
 TileSetEditor_AutoTileLibrary_Tooltip,Edit Autotiling,Edit Autotiling,,autotile tooltip
 TileSetEditor_AnimationsLibrary_Tooltip,Edit Tile Animation,Edit Tile Animation,,animation library tooltip
@@ -4781,6 +4794,7 @@ Spine_License_AcceptLabel,Accept Spine licence,Accept Spine licence,,spine licen
 Spine_License_Show,Show Licence,Show Licence,,spine licence button
 Spine_NeedLicenceAcceptance,Project contains Spine assets - please accept the Spine licence agreement to proceed,Project contains Spine assets - please accept the Spine licence agreement to proceed,,spine licence requirement message
 Collision_Compatibility_Mode,Collision Compatibility Mode,Collision Compatibility Mode,,Collision Compatibility Mode
+Copy_On_Write_Enable,Enable Copy On Write Behaviour for Arrays,Enable Copy On Write Behaviour for Arrays,,Enable Copy On Write Behaviour for Arrays
 RoomEditor_BrushEditingModeToolTip,Switch between selection and editing modes in brush builder page ,Switch between selection and editing modes in brush builder page ,,the tooltip for the editing mode button in the brush builder page
 RoomEditor_DuplicateLayer,Duplicate Layer,Duplicate Layer,,context menu option to duplicate a layer
 TileSetEditor_DeleteAnimation_ToolTip,Delete Animation,Delete Animation,,delete animation button tooltip
@@ -5043,6 +5057,7 @@ SequencePref_ConfirmEmbed,Automatic choice to embed edited curve,Automatic choic
 SequencePref_ConvertToKeys,Automatic choice to convert curve to keys,Automatic choice to convert curve to keys,,sequence convert to keys pref
 SequencePref_ExternalCurveEditWarning,Automatic choice to show warning on external curve edit,Automatic choice to show warning on external curve edit,,sequence pref external curve edit
 SequencePref_CurveTrackHeight,Height of Anim Curve Track in Dopesheet,Height of Anim Curve Track in Dopesheet,,seq curve track height preference
+SequencePref_TextTrackDefault,Default text for new Text Track,Default text for new Text Track,,default text for new text track
 ListBoxEnum_eCurveTrackHeight_Single,Single Line Height,Single Line Height,,enum name
 ListBoxEnum_eCurveTrackHeight_Double,Double Line Height,Double Line Height,,enum name
 ListBoxEnum_eCurveTrackHeight_Triple,Triple Line Height,Triple Line Height,,enum name
@@ -6317,6 +6332,7 @@ TagLink_CannotLinkTooltip_Type,This track is not compatible with the selected tr
 TagLink_CannotLinkTooltip_Circular,This would create a cyclic link,This would create a cyclic link,,Cyclic link tooltip
 Track_TrackInformation,Track Information,Track Information,,Track information label
 Track_Name,Name,Name,,Name of track label
+Track_TextTrackDefault,Text Track,Text Track,,default text track name
 Track_Graphic,Graphic,Graphic,,Graphic track display nameSequenceParam_
 Track_Particles,Particles,Particles,,Particles track display name
 Track_SpriteFrames,Frames,Frames,,Sprite frames track display name
@@ -6344,6 +6360,10 @@ Track_Gain,Volume,Volume,,Track gain
 Track_Pitch,Pitch,Pitch,,Track pitch
 Track_Falloff,Falloff,Falloff,,Track falloff
 Track_SoundMode,Loop Mode,Loop Mode,,sound track loop mode
+Track_FrameSize,Frame Size,Frame Size,,text track frame size
+Track_CharacterSpacing,Character Spacing,Character Spacing,,text track character spacing
+Track_LineSpacing,Line Spacing,Line Spacing,,text track line spacing
+Track_ParagraphSpacing,Paragraph Spacing,Paragraph Spacing,,text track paragraph spacing
 ListBoxEnum_eSoundMode_Loop,Loop,Loop,,loop sound mode enum
 ListBoxEnum_eSoundMode_Single,Play once,Play once,,single sound mode enum
 Track_MultiplyColour,Colour Multiply,Colour Multiply,,Track colour
@@ -6355,6 +6375,8 @@ Track_ImageAngle,Image Angle,Image Angle,,Sequence parameter
 Track_ImageBlend,Image Blend,Image Blend,,Sequence parameter
 Track_Param_Channel_X,x,x,,sequence parameter channel x
 Track_Param_Channel_Y,y,y,,sequence parameter channel y
+Track_Param_Channel_W,w,w,,sequence parameter channel w
+Track_Param_Channel_H,h,h,,sequence parameter channel h
 Track_Param_Channel_Angle,angle,angle,,sequence parameter channel angle
 Track_Param_Channel_Colour,colour,colour,,sequence parameter channel colour
 Track_Param_Channel_Colour_A,alpha,alpha,,sequence parameter channel colour alpha
@@ -6367,6 +6389,8 @@ Track_Param_Channel_Falloff,falloff,falloff,,sequence parameter channel falloff
 Track_Param_Channel_Index,index,index,,sequence parameter channel index
 Track_Param_Channel_Speed,speed,speed,,sequence parameter channel speed
 Track_Param_Channel_Generic,channel {0},channel {0},,sequence parameter channel generic title
+Track_Param_Channel_Spacing,spacing,spacing,,sequence parameter channel spacing
+Track_Param_Channel_px,px,px,,sequence parameter channel px
 AnimCurve_DoubleClickToEdit,Double-click to edit,Double-click to edit,,Double-click to edit anim curve tooltip
 AnimCurve_Spline,Curve,Curve,,Spline submenu animation curve
 AnimCurve_FunctionLinear,Linear,Linear,,Animation curve linear function
@@ -6423,6 +6447,7 @@ SequenceCanvas_Menu_RecordTranslation,Record Position,Record Position,,Sequence 
 SequenceCanvas_Menu_RecordScale,Record Scale,Record Scale,,Sequence canvas context menu entry to record scale
 SequenceCanvas_Menu_RecordRotation,Record Rotation,Record Rotation,,Sequence canvas context menu entry to record rotation
 SequenceCanvas_Menu_OpenEditor,Open Editor...,Open Editor...,,Open editor for item resource
+SequenceCanvas_Menu_OpenInspector,Open Inspector,Open Inspector,,open inspector for item resource
 SequenceCanvas_Menu_Remove,Remove Key,Remove Key,,Sequence canvas context menu entry to remove selected items
 SequenceCanvas_Menu_RemoveTracks,Remove Track,Remove Track,,Sequence canvas context menu entry to remove selected tracks
 SequenceCanvas_ToggleGizmos,Toggle Gizmos,Toggle Gizmos,,Toggle gizmos on/off tooltip
@@ -6605,6 +6630,7 @@ Sequence_Tooltip_LockUnlock_All_Tracks,Lock\Unlock All Tracks,Lock\Unlock All Tr
 Sequence_Tooltip_ShowHide_All_Tracks,Show\Hide All Tracks,Show\Hide All Tracks,,Show\Hide All Tracks tooltip
 Sequence_Tooltip_Collapse_All,Expand\Collapse all,Expand\Collapse all,,Expand\Collapse all tooltip
 Sequence_Tooltip_AnimCurveMode,Toggle Curve Mode,Toggle Curve Mode,,anim curve mode button tooltip
+Sequence_Tooltip_TextTrackTool,Add a Text Track,Add a Text Track,,text track tool tooltip
 SequenceDopeSheet_Components,Components,Components,,Components label
 SequenceDopeSheet_Tracks,Tracks,Tracks,,Tracks label
 SequenceDopeSheet_SelectResource,Select Asset,Select Asset,,Select resource to add as new track
@@ -6883,9 +6909,9 @@ ggs_top_shelf_wide,Top Shelf Image Wide,Top Shelf Image Wide,,Splash Screen Imag
 ggs_top_shelf_wide_2x,Top Shelf Image Wide 2x,Top Shelf Image Wide 2x,,Splash Screen Image Wide 2x
 ggs_icon_400_2x,400x240 Icon 2x,400x240 Icon 2x,,400x240 Icon 2x
 ggs_splash_screen_2x,Splash Screen Image 2x,Splash Screen Image 2x,,Splash Screen Image 2x
-ggs_xboxone_stats_system,Microsoft Stats System,Microsoft Stats System,,Microsoft Stats System
-ggs_xboxone_stats_2017,Stats 2017,Stats 2017,,the radio group option for 2017 stats
-ggs_xboxone_stats_2013,Stats 2013,Stats 2013,,the radio group option for 2013 stats
+ggs_xboxone_stats_system,Stats configuration system,Stats configuration system,,Stats configuration system
+ggs_xboxone_stats_2017,Title-Managed Stats ("Stats 2017"),Title-Managed Stats ("Stats 2017"),,the radio group option for 2017 stats
+ggs_xboxone_stats_2013,Event-Based Stats ("Stats 2013"),Event-Based Stats ("Stats 2013"),,the radio group option for 2013 stats
 ggs_xboxone_stats_system_tooltip,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,The 2013 system has been deprecated by Microsoft and should only be used for titles already in development \nThe 2017 system no longer requires a service manifest \nPlease see Microsoft documentation for more details,,tooltip for the stats sytem radio group
 Error_ResourceLoadFailures_Message,Resource load failures encountered...,Resource load failures encountered...,,non-blocking errors have occurred message
 Error_ResourceFailedToLoad,Failed to load {0},Failed to load {0},,Failed to load given resource
@@ -6970,6 +6996,11 @@ CanvasItem OriginY,Origin Y,Origin Y,,origin Y
 CanvasItem_Sprite,Sprite,Sprite,,sprite resource
 CanvasItem_Object,Object,Object,,object resource
 CanvasItem_Sound,Sound,Sound,,sound resource
+CanvasItem_Frame,Frame,Frame,,text track frame
+CanvasItem_Wrap,Wrap,Wrap,,text track wrap
+CanvasText_CharSpacing,Character Spacing,Character Spacing,,text track character spacing
+CanvasText_LineSpacing,Line Spacing,Line Spacing,,text track line spacing
+CanvasText_ParaSpacing,Paragraph Spacing,Paragraph Spacing,,text track paragraph spacing
 Category_SpriteInfo,Sprite Information,Sprite Information,,inspector category label
 Category_BasicInfo,Basic Information,Basic Information,,inspector category label
 Category_SoundInfo,Sound Information,Sound Information,,inspector category label
@@ -7025,6 +7056,9 @@ Redefine Keys, Redefine Keys, Redefine Keys,,Redefine Key Menu Header
 RedefineKeys_Import_Button, Import file, Import file,,Import file button caption
 RedefineKeys_Export_Button, Export as file, Export as file,,Export file button caption
 RedefineKeys_Clear_Button, Clear, Clear,,Clear Button
+RedefineKeys_Record_Keys_Button,Key Search,Key Search,,Record keys button
+RedefineKeys_Default_Search,Search,Search,,Redefine Keys search box default text
+RedefineKeys_Default_Key_Search,Press a key to search,Press a key to search,,Redefine Keys search box default text when searching for key
 Redefine_Keys_Show_Unbound_Commands, Show Unbound Commands, Show Unbound Commands,,Show Unbound Commands caption
 Redefine_Keys_Show_Only_Redefined_Commands, Show Only Redefined Commands, Show Only Redefined Commands,, Show Only Redefined Commands caption
 Redefine_Keys_WarningKeys_Dialog,This command may not work properly with the {0} key. Are you sure you want to continue?,This command may not work properly with the {0} key. Are you sure you want to continue?,,Are you sure about remapping the command message text
@@ -7066,3 +7100,5 @@ OtherResourceNameRule,Other Resource Naming Rule,Other Resource Naming Rule,,Oth
 ErrorColor,Error Colour,Error Colour,,Error Colour
 WarningColor,Warning Colour,Warning Colour,,Warning Colour
 SuggestionColor,Suggestion Colour,Suggestion Colour,,Suggestion Colour
+ProjectLoad_ReadOnly_Message,This Project has been loaded in Read-Only mode,This Project has been loaded in Read-Only mode,,Message to say that the project has been loaded as read-only
+Project_ReadOnly_SeeURL,Click here for a HelpDesk article with more information,Click here for a HelpDesk article with more information,,Message to tell the user to see a linked helpdesk article
