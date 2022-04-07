@@ -12584,8 +12584,8 @@
       <tuv lang="en-US">
         <seg>"Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation ${incr} and wiggle ${wiggle}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091916Z" creationid="LiarOnce" creationdate="20220407T091916Z">
-        <seg>“将粒子类型 ${type} 的方向从最小 ${mindir} 设置为最大 ${maxdir}，旋转为 ${incr}，摆动为 ${Wigger}”</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092135Z" creationid="LiarOnce" creationdate="20220407T091916Z">
+        <seg>“将粒子类型 ${type} 的方向从最小 ${mindir} 设置为最大 ${maxdir}，旋转 ${incr} 和摆动 ${wiggle}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -12886,6 +12886,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092244Z" creationid="LiarOnce" creationdate="20220407T092244Z">
+        <seg>“在 ${applyto} 上设置粒子类型 ${type} 的方向，从最小值 ${minangle} 到最大值 ${maxangle}，并旋转 ${incr} 和摆动 ${wiggle}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092223Z" creationid="LiarOnce" creationdate="20220407T092223Z">
+        <seg>“使用旋转 ${incr} 和摆动 ${wigger} 将粒子类型 ${type} 的方向从最小 ${minangle} 设置为最大 ${maxangle}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set path position to ${position} on ${applyto}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132432Z" creationid="liaronce" creationdate="20210304T132432Z">
@@ -12984,8 +13000,8 @@
       <tuv lang="en-US">
         <seg>"Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091951Z" creationid="LiarOnce" creationdate="20220407T091951Z">
-        <seg>“将粒子类型 ${type} 的相对方向从最小 ${minangle} 设置为最大 ${maxangle}，旋转为 ${incr}，摆动为 ${wiggle}”</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092141Z" creationid="LiarOnce" creationdate="20220407T091951Z">
+        <seg>“将粒子类型 ${type} 的相对方向从最小 ${minangle} 设置为最大 ${maxangle}，旋转 ${incr} 和摆动 ${wiggle}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -13056,16 +13072,16 @@
       <tuv lang="en-US">
         <seg>"Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase ${sizeincr} and wiggle ${wiggle} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091511Z" creationid="LiarOnce" creationdate="20220407T091511Z">
-        <seg>“将粒子类型 ${type} 的大小从最小值 ${minSize} 设置为最大值 ${MaxSize}，并在 ${applyto} 上增加 ${sizeincr} 和抖动 ${wigger}”</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092122Z" creationid="LiarOnce" creationdate="20220407T091511Z">
+        <seg>“将粒子类型 ${type} 的大小从最小值 ${minsize} 设置为最大值 ${maxsize}，并在 ${applyto} 上增加 ${sizeincr} 和抖动 ${wigger}”</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase ${sizeincr} and wiggle ${wiggle}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091456Z" creationid="LiarOnce" creationdate="20220407T091456Z">
-        <seg>“将粒子类型 ${type} 的大小从最小值 ${minSize} 设置为最大值 ${MaxSize}，并增加 ${sizeincr} 和抖动 ${wigger}”</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092113Z" creationid="LiarOnce" creationdate="20220407T091456Z">
+        <seg>“将粒子类型 ${type} 的大小从最小值 ${minsize} 设置为最大值 ${maxsize}，并增加 ${sizeincr} 和抖动 ${wigger}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -13256,16 +13272,16 @@
       <tuv lang="en-US">
         <seg>"Set text alignment to ${halign} and ${valign} on ${applyto}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091440Z" creationid="LiarOnce" creationdate="20220407T091440Z">
-        <seg>“在 ${applyto} 上将文本对齐方式设置为 ${halign} 和 ${valign}”</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092321Z" creationid="LiarOnce" creationdate="20220407T091440Z">
+        <seg>"在 ${applyto} 上将文本对齐方式设置为 ${halign} 和 ${valign}"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set text alignment to ${halign} and ${valign}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091433Z" creationid="LiarOnce" creationdate="20220407T091433Z">
-        <seg>“将文本对齐方式设置为 ${halign} 和 ${valign}”</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092328Z" creationid="LiarOnce" creationdate="20220407T091433Z">
+        <seg>"将文本对齐方式设置为 ${halign} 和 ${valign}"</seg>
       </tuv>
     </tu>
     <tu>
