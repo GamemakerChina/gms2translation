@@ -14502,6 +14502,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"The project files were corrupted.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090616Z" creationid="LiarOnce" creationdate="20220407T090616Z">
+        <seg>“项目文件已损坏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"The selected layer does not accept the dragged assets, please select an appropriate layer type, ie.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T114818Z" creationid="liaronce" creationdate="20210228T114818Z">
@@ -15390,6 +15398,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"You've selected 'New Blank' template."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090754Z" creationid="LiarOnce" creationdate="20220407T090754Z">
+        <seg>“您已经选择了‘新建空白’模板。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"You've selected 'New Blank' template.\nNext choose what scripting language you wish to use,"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143959Z" creationid="liaronce" creationdate="20211105T143959Z">
@@ -15850,6 +15866,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T071723Z" creationid="deciia" creationdate="20170105T071723Z">
         <seg>'{0}' 不是有效的 GameMaker Studio 2 项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>'{0}' is not a valid GameMaker project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090458Z" creationid="LiarOnce" creationdate="20220407T090458Z">
+        <seg>‘{0}’ 不是有效的 GameMaker 项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -19923,6 +19947,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Are you sure you want to delete this GML Visual action?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090719Z" creationid="LiarOnce" creationdate="20220407T090719Z">
+        <seg>是否确实要删除此GML 可视化操作？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Are you sure you want to delete this event and its contents?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T090203Z" creationid="lazyeo" creationdate="20191120T090203Z">
@@ -20970,6 +21002,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T040631Z" creationid="deciia" creationdate="20180922T040631Z">
         <seg>自动响应DnD™节点删除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatic response to GML Visual conversion to GML Code</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090708Z" creationid="LiarOnce" creationdate="20220407T090649Z">
+        <seg>自动响应 GML 可视化转换为 GML 代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatic response to GML Visual node deletion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090656Z" creationid="LiarOnce" creationdate="20220407T090656Z">
+        <seg>自动响应 GML 可视化节点删除</seg>
       </tuv>
     </tu>
     <tu>
@@ -26219,6 +26267,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Convert GML Visual</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090635Z" creationid="LiarOnce" creationdate="20220407T090635Z">
+        <seg>转换 GML 可视化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Convert Image to Tilemap</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T203307Z" creationid="deciia" creationdate="20170311T164500Z">
@@ -27743,6 +27799,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create an empty GameMaker project.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090759Z" creationid="LiarOnce" creationdate="20220407T090759Z">
+        <seg>创建一个空的 GameMaker 项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create buffer into ${target} on ${applyto}${show_input_count}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T152306Z">
@@ -28680,6 +28744,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T102309Z" creationid="deciia" creationdate="20180922T035500Z">
         <seg>DnD™工具栏动作缩略图的默认尺寸</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Default size for GML Visual toolbox action thumbnails</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090613Z" creationid="LiarOnce" creationdate="20220407T090613Z">
+        <seg>GML 可视化工具箱操作缩略图的默认大小</seg>
       </tuv>
     </tu>
     <tu>
@@ -30489,6 +30561,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T063846Z" creationid="deciia" creationdate="20170102T063846Z">
         <seg>是否保存对当前项目的更改？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do you want to save the changes?"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090619Z" creationid="LiarOnce" creationdate="20220407T090619Z">
+        <seg>是否要保存更改？“</seg>
       </tuv>
     </tu>
     <tu>
@@ -36249,6 +36329,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GML Visual node overview visibility mode</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090503Z" creationid="LiarOnce" creationdate="20220407T090503Z">
+        <seg>GML可视化节点概述可见性模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GML Visual toolbox default location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090500Z" creationid="LiarOnce" creationdate="20220407T090500Z">
+        <seg>GML可视化工具箱默认位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GML Visual...</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090414Z" creationid="LiarOnce" creationdate="20220407T090414Z">
@@ -36615,6 +36711,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143337Z" creationid="liaronce" creationdate="20200820T143337Z">
         <seg>Gamemaker Studio 2无法访问重要的系统文件夹。\n请检查首选项中的路径并验证您的文件夹权限或与系统管理员联系。\n\n{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GameMaker has become unstable.\nPlease save changes and exit.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090743Z" creationid="LiarOnce" creationdate="20220407T090743Z">
+        <seg>GameMaker 变得不稳定。\n请保存更改并退出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GameMaker is running...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090752Z" creationid="LiarOnce" creationdate="20220407T090752Z">
+        <seg>GameMaker 正在运行...</seg>
       </tuv>
     </tu>
     <tu>
@@ -40224,6 +40336,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Hide GML Visual node overview panel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090548Z" creationid="LiarOnce" creationdate="20220407T090548Z">
+        <seg>隐藏 GML 可视化节点概述面板</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Hide GameMaker Studio 2</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170629T030659Z" creationid="deciia" creationdate="20170629T030659Z">
@@ -40260,6 +40380,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133754Z" creationid="deciia" creationdate="20180922T034821Z">
         <seg>如果浮动 DnD™ 工具栏处于打开状态, 则隐藏停靠的 DnD™ 工具栏</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Hide docked GML Visual toolboxes if floating GML Visual toolbox is open</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090533Z" creationid="LiarOnce" creationdate="20220407T090533Z">
+        <seg>如果 GML 可视化工具箱浮动处于打开状态，则隐藏停靠的 GML 可视化工具箱</seg>
       </tuv>
     </tu>
     <tu>
@@ -47969,6 +48097,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Maximum size for GML Visual toolbox action thumbnails</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090600Z" creationid="LiarOnce" creationdate="20220407T090600Z">
+        <seg>GML 可视化工具箱操作缩略图的最大大小</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Maximum windows to display</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T092501Z" creationid="deciia" creationdate="20180922T092501Z">
@@ -48442,6 +48578,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T102303Z" creationid="deciia" creationdate="20180922T035441Z">
         <seg>DnD™工具栏动作缩略图的最小尺寸</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Minimum size for GML Visual toolbox action thumbnails</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090605Z" creationid="LiarOnce" creationdate="20220407T090605Z">
+        <seg>GML 可视化工具箱操作缩略图的最小大小</seg>
       </tuv>
     </tu>
     <tu>
@@ -66717,6 +66861,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The changes were applied.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090617Z" creationid="LiarOnce" creationdate="20220407T090617Z">
+        <seg>这些更改已应用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The chosen directory must be empty</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T052757Z" creationid="deciia" creationdate="20170107T052757Z">
@@ -67549,6 +67701,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133747Z" creationid="liaronce" creationdate="20200820T133747Z">
         <seg>连接 DnD™ 操作的链厚度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Thickness of the chain that connects GML Visual actions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090551Z" creationid="LiarOnce" creationdate="20220407T090538Z">
+        <seg>连接 GML 可视化动作的链的厚度</seg>
       </tuv>
     </tu>
     <tu>
@@ -72653,6 +72813,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You are performing a one-way conversion from GML Visual to GML Code.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090627Z" creationid="LiarOnce" creationdate="20220407T090627Z">
+        <seg>您正在执行从 GML 可视化到 GML 代码的单向转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You are upgrading this legacy font to a GameMaker Studio 2 font and there may be inconsistencies.\nThe original font is safely backed up.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140259Z" creationid="liaronce" creationdate="20191118T140259Z">
@@ -75101,6 +75269,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T141949Z" creationid="deciia" creationdate="20170105T102453Z">
         <seg>在 DnD™ 动作{1}中的{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0} in GML Visual action {1}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090730Z" creationid="LiarOnce" creationdate="20220407T090730Z">
+        <seg>GML 可视化操作中的 {0} {1}</seg>
       </tuv>
     </tu>
     <tu>
