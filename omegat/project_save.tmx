@@ -13022,6 +13022,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase ${sizeincr} and wiggle ${wiggle} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091511Z" creationid="LiarOnce" creationdate="20220407T091511Z">
+        <seg>“将粒子类型 ${type} 的大小从最小值 ${minSize} 设置为最大值 ${MaxSize}，并在 ${applyto} 上增加 ${sizeincr} 和抖动 ${wigger}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase ${sizeincr} and wiggle ${wiggle}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091456Z" creationid="LiarOnce" creationdate="20220407T091456Z">
+        <seg>“将粒子类型 ${type} 的大小从最小值 ${minSize} 设置为最大值 ${MaxSize}，并增加 ${sizeincr} 和抖动 ${wigger}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase $(incr} and wiggle ${wiggle} on ${applyto}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132707Z" creationid="liaronce" creationdate="20210304T132707Z">
@@ -13034,6 +13050,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132706Z" creationid="liaronce" creationdate="20210304T132706Z">
         <seg>“将粒子类型${type}的速度从最小${minSpeed}设置为最大${MAXSpeed}，并增加$(incr}和wigger${wiggle}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase ${incr} and wiggle ${wiggle} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091556Z" creationid="LiarOnce" creationdate="20220407T091556Z">
+        <seg>“将粒子类型 ${type} 的速度从最小 ${minspeed} 设置为最大 ${maxspeed}，同时增加 ${incr} 并在 ${applyto} 上摆动 ${wiggle}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase ${incr} and wiggle ${wiggle}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091856Z" creationid="LiarOnce" creationdate="20220407T091527Z">
+        <seg>“将粒子类型 ${type} 的速度从最小 ${minspeed} 设置为最大 ${maxspeed}，同时增加 ${incr} 和抖动 ${wigger}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -13186,6 +13218,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T131809Z" creationid="liaronce" creationdate="20210304T131809Z">
         <seg>“将文本对齐方式设置为$(halign}和$(valign})”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set text alignment to ${halign} and ${valign} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091440Z" creationid="LiarOnce" creationdate="20220407T091440Z">
+        <seg>“在 ${applyto} 上将文本对齐方式设置为 ${halign} 和 ${valign}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set text alignment to ${halign} and ${valign}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091433Z" creationid="LiarOnce" creationdate="20220407T091433Z">
+        <seg>“将文本对齐方式设置为 ${halign} 和 ${valign}”</seg>
       </tuv>
     </tu>
     <tu>
