@@ -9246,6 +9246,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker access.\nCheck any antivirus is not blocking GameMaker access.\nCheck any proxy or VPN is not blocking GameMaker access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091121Z" creationid="LiarOnce" creationdate="20220407T091121Z">
+        <seg>“如果此问题持续存在，请尝试下列操作：\n检查是否有防火墙没有阻止 GameMaker 访问。\n检查是否有任何防病毒程序没有阻止 GameMaker 访问。\n检查是否有任何代理或 VPN 没有阻止 GameMaker 访问。\n如果其他方法都失败，请提交帮助票证并包括您的 ui.log，可以找到：\nOn Mac-/Users/Shared/GameMakerStudio2\nOn PC-C:\ProgramData\GameMakerStudio2”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"If this is not the first room"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210304T132419Z" creationid="liaronce" creationdate="20210304T132419Z">
@@ -15414,6 +15422,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Your GameMaker Licence has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091026Z" creationid="LiarOnce" creationdate="20220407T091020Z">
+        <seg>“您的 GameMaker 许可证已过期。\n\n如果您喜欢并想继续使用 GameMaker，请在 yoyogames.com 上购买我们的超值许可证之一。\n\n现在就购买，开始创意吧！”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Your GameMaker Studio 2 Licence has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134550Z" creationid="liaronce" creationdate="20210228T134550Z">
@@ -15426,6 +15442,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134546Z" creationid="liaronce" creationdate="20210228T134546Z">
         <seg>"您的GameMaker Studio 2试用版已过期。\n\n如果您喜欢使用GameMaker并想继续，请在yoyogames.com购买我们的超值许可证之一。\n\n立即购买并发挥创意！"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Your GameMaker trial has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090954Z" creationid="LiarOnce" creationdate="20220407T090954Z">
+        <seg>“您的 GameMaker 试用版已过期。\n\n如果您喜欢并想继续使用 GameMaker，请在 yoyogames.com 上购买我们的超值许可证之一。\n\n现在就购买，开始创意吧！”</seg>
       </tuv>
     </tu>
     <tu>
@@ -15850,6 +15874,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T080643Z" creationid="deciia" creationdate="20180922T080643Z">
         <seg>'{0}' 包含 GameMaker Studio 2 试用版不支持的资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>'{0}' contains resources not supported by GameMaker Trial</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090848Z" creationid="LiarOnce" creationdate="20220407T090848Z">
+        <seg>“{0}” 包含 GameMaker 试用版不支持的资源</seg>
       </tuv>
     </tu>
     <tu>
@@ -22422,6 +22454,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T020940Z" creationid="deciia" creationdate="20180922T020940Z">
         <seg>为 x86_64 构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Build your game up from a blank canvas.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090805Z" creationid="LiarOnce" creationdate="20220407T090805Z">
+        <seg>从一张空白的画布开始构建您的游戏。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40344,6 +40384,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Hide GameMaker</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090907Z" creationid="LiarOnce" creationdate="20220407T090907Z">
+        <seg>隐藏 GameMaker</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Hide GameMaker Studio 2</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170629T030659Z" creationid="deciia" creationdate="20170629T030659Z">
@@ -44132,6 +44180,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Importing projects is not supported in GameMaker Trial</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090835Z" creationid="LiarOnce" creationdate="20220407T090835Z">
+        <seg>GameMaker 试用版不支持导入项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Importing resources...</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T065320Z" creationid="deciia" creationdate="20170102T065320Z">
@@ -47845,6 +47901,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Marketplace cannot be accessed in GameMaker Trial</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090843Z" creationid="LiarOnce" creationdate="20220407T090843Z">
+        <seg>在 GameMaker 试用版中无法访问 Marketplace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Marketplace will open when a connection has been established.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T075319Z" creationid="deciia" creationdate="20180921T152611Z">
@@ -48013,6 +48077,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142518Z" creationid="liaronce" creationdate="20191118T142518Z">
         <seg>GameMaker Studio 2编辑器的最大帧速率</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Maximum framerate of the GameMaker editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090859Z" creationid="LiarOnce" creationdate="20220407T090859Z">
+        <seg>GameMaker 编辑器的最大帧速率</seg>
       </tuv>
     </tu>
     <tu>
@@ -51409,6 +51481,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T012953Z" creationid="deciia" creationdate="20170102T062310Z">
         <seg>其它</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Other Info:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090806Z" creationid="LiarOnce" creationdate="20220407T090806Z">
+        <seg>其他信息：</seg>
       </tuv>
     </tu>
     <tu>
@@ -57958,6 +58038,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>SWF files are not supported in GameMaker Trial</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090829Z" creationid="LiarOnce" creationdate="20220407T090829Z">
+        <seg>GameMaker 试用版不支持 SWF 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Same As Sprite</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T062642Z" creationid="deciia" creationdate="20170103T103414Z">
@@ -62284,6 +62372,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set your scripting preference in Game Options/Preferences.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090808Z" creationid="LiarOnce" creationdate="20220407T090808Z">
+        <seg>在游戏选项/首选项中设置脚本首选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sets how much this property can randomly change over time</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131748Z" creationid="liaronce" creationdate="20200820T131748Z">
@@ -64346,6 +64442,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Spine files are not supported in GameMaker Trial</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090823Z" creationid="LiarOnce" creationdate="20220407T090823Z">
+        <seg>GameMaker 试用版不支持 Spine 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Spine: json file not found: {0}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T091647Z" creationid="deciia" creationdate="20170311T112946Z">
@@ -64994,6 +65098,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Statistics cannot be turned off in GameMaker Trial</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090852Z" creationid="LiarOnce" creationdate="20220407T090852Z">
+        <seg>在 GameMaker 试用版中无法关闭统计信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Statistics cannot be turned off on 'Creator' platforms</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180928T004722Z" creationid="deciia" creationdate="20180922T080942Z">
@@ -65056,6 +65168,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T140017Z" creationid="liaronce" creationdate="20191117T140017Z">
         <seg>Steam ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Steam Runtime SDK location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090902Z" creationid="LiarOnce" creationdate="20220407T090902Z">
+        <seg>Stream Runtime SDK 位置</seg>
       </tuv>
     </tu>
     <tu>
@@ -67217,6 +67337,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T202335Z" creationid="deciia" creationdate="20180922T080345Z">
         <seg>GameMaker Studio 2 试用版无法加载项目'{0}'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The project '{0}' cannot be loaded with GameMaker Trial</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090809Z" creationid="LiarOnce" creationdate="20220407T090809Z">
+        <seg>无法使用GameMaker试用版加载项目‘{0}’</seg>
       </tuv>
     </tu>
     <tu>
@@ -71266,6 +71394,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Visual Editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090910Z" creationid="LiarOnce" creationdate="20220407T090910Z">
+        <seg>可视化编辑器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Visual Studio Path</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170629T030549Z" creationid="deciia" creationdate="20170629T030549Z">
@@ -71968,6 +72104,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135314Z" creationid="liaronce" creationdate="20191117T135314Z">
         <seg>Windows 8 (YYC)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Windows NSIS Installer Script has been set to default due to changes in GameMaker</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090923Z" creationid="LiarOnce" creationdate="20220407T090923Z">
+        <seg>由于 GameMaker 中的更改，Windows NSIS 安装程序脚本已设置为默认</seg>
       </tuv>
     </tu>
     <tu>
@@ -72969,6 +73113,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T202344Z" creationid="deciia" creationdate="20180922T080412Z">
         <seg>您已达到“{0}”的 GameMaker Studio 2 试用版的限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You have reached the limits of GameMaker Trial for '{0}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090814Z" creationid="LiarOnce" creationdate="20220407T090814Z">
+        <seg>您已达到 GameMaker 试用版‘{0}’的限制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -74869,6 +75021,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T225748Z" creationid="deciia" creationdate="20180922T095410Z">
         <seg>在 GameMaker Studio 2 试用版中不能使用{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>use of {0} is not allowed in GameMaker Trial</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090913Z" creationid="LiarOnce" creationdate="20220407T090913Z">
+        <seg>在 GameMaker 试用版中不允许使用 {0}</seg>
       </tuv>
     </tu>
     <tu>
