@@ -5,7 +5,7 @@ _Error,Error: {0},Error: {0},,General error prefix
 _Language,English,English,,Language name - in English
 _LanguageNative,English,English,,Language name in the native language
 _LanguageCode,en,en,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
-_GameMaker2016,GameMaker Studio 2,GameMaker Studio 2,,IDE title
+_GameMaker2016,GameMaker,GameMaker,,IDE title
 _MANUAL_LOCATION,"http://zeus.yoyogames.com/GMS2_English-master.zip","http://zeus.yoyogames.com/GMS2_English-master.zip",,Location of language manual
 _MANUAL_ONLINE_URL,"https://manual-en.yoyogames.com","https://manual-en.yoyogames.com",,online manual url
 _TUTORIALS_ONLINE_URL,"https://www.yoyogames.com/en/tutorials","https://www.yoyogames.com/en/tutorials",,Location of Tutorials url
@@ -28,7 +28,7 @@ $win_FileMenuExit,Exit,Exit,,Windows version of the Exit main menu entry
 $mac_FileMenuExit,Quit,Quit,,Mac version of the Exit main menu entry
 $linux_FileMenuExit,Exit,Exit,,Linux version of the Exit main menu entry
 $win_IDEMenuHelpAbout,About,About,,Windows version of the About main menu entry
-$mac_IDEMenuHelpAbout,About GameMaker Studio 2,About GameMaker Studio 2,,Mac version of the About main menu entry
+$mac_IDEMenuHelpAbout,About GameMaker,About GameMaker,,Mac version of the About main menu entry
 $linux_IDEMenuHelpAbout,About,About,,Linux version of the About main menu entry
 $win_IDEMenuViews,Windows,Windows,,Windows version of the views menu entry
 $mac_IDEMenuViews,Window,Window,,Mac version of the views menu entry
@@ -95,7 +95,7 @@ Certificate_Test_Title,Certificate Check,Certificate Check,,certificate test tit
 Certificate_PasswordFail,Password is NOT valid for certificate,Password is NOT valid for certificate,,certificate password fail
 Certificate_PasswordOK,Password is valid for certificate,Password is valid for certificate,,certificate password ok
 CertProperties_Heading,Set .pem certificate file and password,Set .pem certificate file and password,,certificate properties heading
-CertProperties_Heading2,(you can use an existing GameMaker:Studio marketplace certificate),(you can use an existing GameMaker:Studio marketplace certificate),,certificate properties heading 2
+CertProperties_Heading2,(you can use an existing GameMaker marketplace certificate),(you can use an existing GameMaker marketplace certificate),,certificate properties heading 2
 CertProperties_CertificateFile,Certificate File:,Certificate File:,,certificate file label
 CertProperties_CertificatePassword,Certificate Password:,Certificate Password:,,certificate password label
 CertProperties_Check,Check,Check,,certificate properties check certificate button label
@@ -129,7 +129,7 @@ Configurations_Delete,Are you sure you want to delete configuration '{0}' and al
 Configurations_Delete_OtherConfigs,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,,Warning about deleting a configuration deleting child configs
 Configurations_DeleteError,Cannot delete configuration '{0}',Cannot delete configuration '{0}',,Cannot delete a configuration error message
 Configurations_DuplicateEntryError,Cannot duplicate existing configuration name,Cannot duplicate existing configuration name,,Configuration name cannot be duplicated error message
-Configurations_InvalidLicenseError,Cannot create configurations with GameMaker Studio 2 Trial,Cannot create configurations with GameMaker Studio 2 Trial,,Cannot create configurations with the Trial version of GameMaker Studio 2 error message
+Configurations_InvalidLicenseError,Cannot create configurations with GameMaker Trial,Cannot create configurations with GameMaker Trial,,Cannot create configurations with the Trial version of GameMaker error message
 Configurations_InvalidNameError,The configuration name '{0}' is not valid,The configuration name '{0}' is not valid,,Configuration name provided is invalid
 Configurations_Manage,Manage Configurations,Manage Configurations,,Manage Configurations window title
 Configurations_NameEmptyError,New configuration name cannot be empty,New configuration name cannot be empty,,Configuration name cannot be empty error message
@@ -551,12 +551,14 @@ Inspector_Category_Parent,Parent,Parent,,Inspector category
 Inspector_Category_Glyphs,Glyphs,Glyphs,,Inspector category
 Inspector_Category_Presets,Presets,Presets,,Inspector category
 Inspector_Category_FiltersEffects,Filters & Effects,Filters & Effects,,filters and effects category
+Inspector_Category_PathPoints,Path Points,Path Points,,inspector path points category
 Inspector_OpenEditor,Open Editor,Open Editor,,open editor
 Inspector_OpenInspector,Open Inspector,Open Inspector,,open inspector
 Inspector_ObjNoEvents,"This Object currently has no Events.\nAdd Events here or via the editor","This Object currently has no Events.\nAdd Events here or via the editor",,no object events inspector label
 Inspector_OpenEditors,Open Editors,Open Editors,,open multiple editors
 Inspector_Category_Properties,Properties,Properties,,inspector category
 Inspector_Category_Editors,Editors,Editors,,inspector category
+Inspector_Category_Channels,Channels,Channels,,inspector category
 Inspector_Field_Width,W,W,,inspector field labelSelect
 Inspector_Field_Height,H,H,,inspector field label
 Inspector_Field_WidthC,W:,W:,,inspector field label
@@ -593,7 +595,7 @@ fonteditor_texture_size,{0} x {1},{0} x {1},,Font editor texture size label
 fonteditor_gms1mode,"This legacy font was not upgraded automatically.\n\nUpgrading the font may show inconsistencies but the font will be backed up in its folder.","This legacy font was not upgraded automatically.\n\nUpgrading the font may show inconsistencies but the font will be backed up in its folder.",,Font editor GMS1 mode label
 fonteditor_gms1upgradebutton,Back Up and Upgrade,Back Up and Upgrade,,Upgrade font button
 fonteditor_upgradefont_title,Upgrade Font,Upgrade Font,,Upgrade font dialog title
-fonteditor_upgradefont_message,You are upgrading this legacy font to a GameMaker Studio 2 font and there may be inconsistencies.\nThe original font is safely backed up.,You are upgrading this legacy font to a GameMaker Studio 2 font and there may be inconsistencies.\nThe original font is safely backed up.,,Upgrade font dialog message
+fonteditor_upgradefont_message,You are upgrading this legacy font to a GameMaker font and there may be inconsistencies.\nThe original font is safely backed up.,You are upgrading this legacy font to a GameMaker font and there may be inconsistencies.\nThe original font is safely backed up.,,Upgrade font dialog message
 fonteditor_toomanyglyphs,and more (too many glyphs),and more (too many glyphs),,Too many glyphs for the font editor to cope with label
 fonteditor_aa_off,Off,Off,,Font Editor aa off
 fonteditor_aa_tooltip,"To achieve better monochrome font results, go to Options and set Hinting to 'Monochrome'","To achieve better monochrome font results, go to Options and set Hinting to 'Monochrome'",,Monochrome font aa tooltip help
@@ -752,7 +754,7 @@ GadgetToolbox_ResourceObjectIcon,Object Icon,Object Icon,,Gadget toolbox display
 GadgetToolbox_ResourceTileSetIcon,Tile Set Icon,Tile Set Icon,,Gadget toolbox display for the tileset icon
 GadgetToolbox_SpriteSelector,Sprite Selector,Sprite Selector,,Gadget toolbox display for the sprite selector
 GadgetToolbox_Resources,Resources,Resources,,Gadget toolbox heading for the resources group
-GadgetToolbox_DnD,Drag and Drop,Drag and Drop,,Gadget toolbox heading for the Drag and Drop group
+GadgetToolbox_DnD,GML Visual,GML Visual,,Gadget toolbox heading for the Drag and Drop group
 Game_Options,Game Options - {0},Game Options - {0},,Takes platform argument to show type of Game Options being displayed
 AddOns,Add-ons,Add-ons,,Add-ons node label
 GameOptions_AddOns_Label,Add one or more add-ons to this project,Add one or more add-ons to this project,,Add addon to this project label
@@ -842,6 +844,7 @@ IDETooltip_GameSettings,Game Options,Game Options,,IDE toolbar tooltip
 IDETooltip_Help,Help ,Help ,,IDE toolbar tooltip
 IDETooltip_Targets,Targets,Targets,,IDE toolbar tooltip
 IDETooltip_Notifications,Notifications,Notifications,,IDE toolbar notifications tooltip
+IDETooltip_InvalidFilename,Invalid characters,Invalid characters,,Invalid characters in a filename
 IDETooltop_WorkspaceZoomIn,Zoom In ,Zoom In ,,workspace zoom in ide toolbar tooltip
 IDETooltop_WorkspaceZoomOut,Zoom Out ,Zoom Out ,,workspace zoom out ide toolbar tooltip
 IDETooltop_WorkspaceZoomReset,Zoom Reset ,Zoom Reset ,,workspace zoom reset ide toolbar tooltip
@@ -1328,8 +1331,8 @@ ObjectEditor_ChangeEvent,Change Event,Change Event,,Object editor change event m
 ObjectEditor_ChangeEventExistsTitle,Cannot change event,Cannot change event,,Object Editor tried to change an event to one that already exists
 ObjectEditor_ChangeEventExistsMessage,The Event cannot be changed to an existing Event.,The Event cannot be changed to an existing Event.,,Object Editor tried to change an event to one that already exists
 ObjectEditor_ConvertEventType,Convert to {0},Convert to {0},,Change the event from DnD to script or from script to DnD
-ObjectEditor_EventTypeScript,GML,GML,,Event type when script
-ObjectEditor_EventTypeDnD,DnD,DnD,,Event type when DnD
+ObjectEditor_EventTypeScript,GML Code,GML Code,,Event type when script
+ObjectEditor_EventTypeDnD,GML Visual,GML Visual,,Event type when DnD
 ObjectEditor_Children,Children,Children,,Children label in Object Editor
 ObjectEditor_Circle,Circle,Circle,,Object editor collision shape circle
 ObjectEditor_CodeWindow,Code,Code,,object editor code window heading
@@ -1460,8 +1463,8 @@ ResourceNode_AddFromDefault,Add From Default View,Add From Default View,,submenu
 ResourceNode_RemoveFromView,Remove From Current View,Remove From Current View,,Resource Tree - remove a resource from the current view
 ResourceNode_RemoveFromView_Confirm,You are about to remove ""{0}"" from view ""{1}"". Continue?,You are about to remove ""{0}"" from view ""{1}"". Continue?,,Resource Tree - confirmation of removal from the current view
 ResourceNode_Create,Create,Create,,Resource Tree node menu - create resource
-ResourceNode_DndToScript,Convert to GML,Convert to GML,,Resource Tree node menu - Dnd To GML
-ResourceNode_ScriptToDnd,Convert to DnD,Convert to DnD,,Resource Tree node menu - Script To Dnd
+ResourceNode_DndToScript,Convert to GML Code,Convert to GML Code,,Resource Tree node menu - Dnd To GML
+ResourceNode_ScriptToDnd,Convert to GML Visual,Convert to GML Visual,,Resource Tree node menu - Script To Dnd
 ResourceNode_CreateChild,Create Child,Create Child,,Resource tree context menu label for creating a child resource of the selected node
 ResourceNode_CreateDataFile,Create Included File,Create Included File,,Resource Tree node menu - create included file
 ResourceNode_Delete,Delete,Delete,,Resource Tree node menu - delete resource
@@ -1698,6 +1701,27 @@ ROOM_EFFECTS_Amount,Amount,Amount,,amount filter param
 ROOM_EFFECTS_Offset,Offset,Offset,,offset filter param
 ROOM_EFFECTS_filter_twirl_distort,Twirl Distort,Twirl Distort,,twirl distort filter name
 ROOM_EFFECTS_Angle,Angle,Angle,,angle filter param
+ROOM_EFFECTS_filter_dots,Dots Background,Dots Background,,dots backgroundfilter name
+ROOM_EFFECTS_Spacing,Spacing,Spacing,,spacing param
+ROOM_EFFECTS_Size,Size,Size,,size param
+ROOM_EFFECTS_Displacement,Displacement,Displacement,,displacement param
+ROOM_EFFECTS_Animation Speed,Animation Speed,Animation Speed,,animation speed param
+ROOM_EFFECTS_Colour Speed,Colour Speed,Colour Speed,,colour speed param
+ROOM_EFFECTS_Colour Count,Colour Count,Colour Count,,colour count param
+ROOM_EFFECTS_Sharpness,Sharpness,Sharpness,,sharpness param
+ROOM_EFFECTS_Colour Palette,Colour Palette,Colour Palette,,colour palette param
+ROOM_EFFECTS_filter_linear_blur,Linear Blur,Linear Blur,,linear blur filter name
+ROOM_EFFECTS_Vector,Vector,Vector,,vector param name
+ROOM_EFFECTS_filter_outline,Outline,Outline,,outline filter name
+ROOM_EFFECTS_Outline colour,Outline Colour,Outline Colour,,outline colour param name
+ROOM_EFFECTS_Pixel Scale,Pixel Scale,Pixel Scale,,pixel scale param name
+ROOM_EFFECTS_filter_stripes,Stripes Background,Stripes Background,,stripes background filter name
+ROOM_EFFECTS_Width,Width,Width,,width param name
+ROOM_EFFECTS_Direction,Direction,Direction,,direction param name
+ROOM_EFFECTS_Wave Scale,Wave Scale,Wave Scale,,wave scale param name
+ROOM_EFFECTS_Wave Amplitude,Wave Amplitude,Wave Amplitude,,wave amplitude param name
+ROOM_EFFECTS_filter_whitenoise,White Noise,White Noise,,white noise filter name
+ROOM_EFFECTS_Animation,Animation,Animation,,animation param name
 Run_Menu_Clean,Clean,Clean,,"Run menu ""Clean"""
 Run_Menu_CreateExecutable,Create Executable,Create Executable,,The Create Executable menu item
 Run_Menu_Run,Run,Run,,"Run menu ""Run"""
@@ -1806,6 +1830,7 @@ SourceControlGit_SelectCommit,Select a Commit,Select a Commit,,Select a Commit m
 SourceControlGit_AutoPopup,Automatically open source control output window,Automatically open source control output window,,Preference title for automatically popping up the source control output window
 SourceControlGit_NoCommitMessage,"You have not specified a commit message, are you sure you want to continue?","You have not specified a commit message, are you sure you want to continue?",,No commit message specified warning
 SourceControlConflictsDetected,"There are conflicts within this project. If the project is closed or reloaded, it may be broken until manually resolved. Are you sure you want to continue?","There are conflicts within this project. If the project is closed or reloaded, it may be broken until manually resolved. Are you sure you want to continue?",,Conflicts Detected message
+SourceControlConflictsDetectedOnLoad,"There are conflicts within this project. If you continue loading, it may be broken. It is recommended to resolve the git conflicts before. Are you sure you wish to continue loading?","There are conflicts within this project. If you continue loading, it may be broken. It is recommended to resolve the git conflicts before. Are you sure you wish to continue loading?",,Conflicts Detected message on opening a project
 sourcecontrolgit_auth_type,Authorisation Type,Authorisation Type,,Type of Authorisation to use
 sourcecontrolgit_auth_repository,Repository URL,Repository URL,,URL of Repository
 sourcecontrolgit_auth_username,Username,Username,,Username for authentication
@@ -1857,7 +1882,7 @@ Splash_LoadingDevices,Loading Devices...,Loading Devices...,,Loading the devices
 Splash_LoadingPluginGUI,Loading Plugin Resources...,Loading Plugin Resources...,,Loading the plugin resources
 Splash_LoadingPluginLanguages,Loading Plugin Languages...,Loading Plugin Languages...,,Loading the plugin languages
 Splash_UserLogin,User Login,User Login,,User Login has been started
-Splash_InitDnD,Drag and Drop...,Drag and Drop...,,Initialising Drag and Drop™
+Splash_InitDnD,GML Visual...,GML Visual...,,Initialising Drag and Drop™
 Splash_CheckingRSS,Checking RSS...,Checking RSS...,,Checking RSS...
 Splash_DownloadingManual,Downloading Manual...,Downloading Manual...,,Downloading Manual...
 SplineEditor_DeletePoints,Delete Points,Delete Points,,Path spline editor context menu entry
@@ -2130,32 +2155,37 @@ TextureGroups_AutoCrop,Automatically Crop,Automatically Crop,,Texture group auto
 TextureGroups_MipMap,Generate mipmaps,Generate mipmaps,,Texture group mipmap generation checkbox
 TextureGroups_Backgrounds,Tilesets,Tilesets,,Texture group backgrounds header
 TextureGroups_BorderSize,Border Size:,Border Size:,,Texture group border size label
+TextureGroups_CompressBZ2,BZ2 Compress,BZ2 Compress,,Texture group compression checkbox label
 TextureGroups_Delete,Delete,Delete,,Texture group delete button
-TextureGroups_FindResource,Add Resource,Add Resource,,Texture group find resource label
+TextureGroups_FindResource,Add Asset,Add Asset,,Texture group find asset label
 TextureGroups_Fonts,Fonts,Fonts,,Texture group fonts header
 TextureGroups_List_Backgrounds,Backgrounds,Backgrounds,,Texture group list category
 TextureGroups_List_Fonts,Fonts,Fonts,,Texture group list category
 TextureGroups_List_Sprites,Sprites,Sprites,,Texture group list category
 TextureGroups_NoResources,This group is empty.,This group is empty.,,Texture groups label when a sub-tree is empty
 TextureGroups_ParentTexGorup,Parent Texture Group,Parent Texture Group,,Texture group parent texture group label
+TextureGroups_Format,Texture Group Format,Texture Group Format,,Format texture group
+Format_BZ2,BZ2 + QOI,BZ2 + QOI,,Format BZ2
+Format_QOI,QOI,QOI,,Format QOI
+Format_PNG,PNG,PNG,,Format PNG
 TextureGroups_Remove,Remove,Remove,,Texture group remove menu entry
 TextureGroups_Rename,Rename,Rename,,Texture group rename button
 TextureGroups_SettingsLabel,Group Settings,Group Settings,,Texture group settings label
 TextureGroups_Sprites,Sprites,Sprites,,Texture group sprites header
 TextureGroups_TargetPlatforms,Use Group On...,Use Group On...,,Texture group target platforms label
-TextureGroups_TypeFindResource,Type to find resource,Type to find resource,,Texture group manager tooltip
+TextureGroups_TypeFindResource,Type to find asset,Type to find asset,,Texture group manager tooltip
 TextureGroups_WindowTitle,Texture Groups,Texture Groups,,Texture groups window title
 TextureGroups_Menu_MoveTo,Move To,Move To,,Texture groups context menu button
 TexGroups_EditResource,Edit...,Edit...,,Texture groups window edit resource button
 AudioGroups_ActiveGroup,Current Group:,Current Group:,,Audio group current group
 AudioGroups_AddNew,Add New,Add New,,Audio group add new button
 AudioGroups_Delete,Delete,Delete,,Texture group delete button
-AudioGroups_FindResource,Add Resource,Add Resource,,Audio group find resource label
+AudioGroups_FindResource,Add Asset,Add Asset,,Audio group find asset label
 AudioGroups_NoResources,This group is empty.,This group is empty.,,Audio groups label when a sub-tree is empty
 AudioGroups_Remove,Remove,Remove,,Audio group remove menu entry
 AudioGroups_Rename,Rename,Rename,,Audio group rename button
 AudioGroups_TargetPlatforms,Use Group On...,Use Group On...,,Audio group target platforms label
-AudioGroups_TypeFindResource,Type to find resource,Type to find resource,,Audio group manager tooltip
+AudioGroups_TypeFindResource,Type to find asset,Type to find asset,,Audio group manager tooltip
 AudioGroups_WindowTitle,Audio Groups,Audio Groups,,Audio groups window title
 TextureAudioGroups_SelectResource,Select Asset,Select Asset,,Asset explorer title
 AudioGroups_EditResource,Edit...,Edit...,,Audio groups window edit resource button
@@ -2253,7 +2283,7 @@ UserLogin_Error99,Errors creating session,Errors creating session,,User Login Er
 UserLogin_Error88,Please complete your profile to continue.,Please complete your profile to continue.,,User Login Error response 88 (profile incomplete)
 UserLogin_EditProfile,Update Profile,Update Profile,,user login edit profile button
 UserLogin_ProfileIncomplete,Profile Incomplete,Profile Incomplete,,user login incomplete profile title
-UserLogin_NoRuntime,"Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker Studio 2 again.","Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker Studio 2 again.",,user login no runtime message
+UserLogin_NoRuntime,"Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker again.","Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker again.",,user login no runtime message
 UserLogin_InstallRuntimeTitle,Install Runtime {0},Install Runtime {0},,install runtime title
 UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,,runtime free space warning message
 UserLogin_Continue,Continue,Continue,,continue label
@@ -2518,7 +2548,7 @@ DnDEditor_Menu_Workspace,Workspace,Workspace,,DnD Editor Workspace caption
 DnDEditor_Menu_Save,Save,Save,,DnD Editor Workspace Save caption
 DnDEditor_Menu_Reload,Reload,Reload,,DnD Editor Workspace Reload caption
 DnDEditor_CMenu_Preview,Live Preview,Live Preview,,DnD Editor Workspace Reload caption
-DnDEditor_LivePreviewTitle,DnD Preview,DnD Preview,,DnD live preview tab title
+DnDEditor_LivePreviewTitle,GML Preview,GML Preview,,DnD live preview tab title
 DnDNodeWindow_CMenu_PanToThis,Pan,Pan,,DnD node window context menu
 DnDNodeWindow_CMenu_Copy,Copy,Copy,,DnD node window context menu
 DnDNodeWindow_CMenu_Cut,Cut,Cut,,DnD node window context menu
@@ -3125,7 +3155,6 @@ ggs_game_speed,Game frames per second,Game frames per second,,Game Frames Per Se
 ggs_game_identifier,Game Identifier,Game Identifier,,Game Identifier
 ggs_game_guid,Project GUID,Project GUID,,Project GUID
 ggs_game_guid_change_confirmation,Are you sure to change the GUID?,Are you sure to change the GUID?,,Confirmation of changing the game GUID
-ggs_isdnd,Use DnD as default script type,Use DnD as default script type,,Project code type
 ggs_mips_for_3d_textures,Generate mipmaps for separate texture pages,Generate mipmaps for separate texture pages,,Generate mipmaps for separate texture pages
 TargetSelection_RequiresWorker,Requires Worker,Requires Worker,,label for when a selected platform requires a worker
 TargetSelection_RequiresWindowsPC,Requires Windows PC,Requires Windows PC,,remote worker not available on mac
@@ -3186,21 +3215,21 @@ use_default,Use Default,Use Default,,Use Default setting
 desktop_unmaxdragdist,Tab drag distance to unmaximise desktop (px),Tab drag distance to unmaximise desktop (px),,Distance in pixels the tab must be dragged before it will unmaximise the desktop
 SaveProjectAs_UnsafeLocationMessage,The location you have chosen is unsafe.\n\nAre you sure you want to save to '{0}'?,The location you have chosen is unsafe.\n\nAre you sure you want to save to '{0}'?,,Warning message if the user tries to save to a daft location
 SaveProjectAs_DeleteExisting,Are you sure you want to delete all files in '{0}'?,Are you sure you want to delete all files in '{0}'?,,Confirmation for deleting an existing project and related files
-SplashScreen_PluginLoadFailed,Failed to load a required plug-in.  Please try restarting GameMaker Studio 2.  If the problem persists please reinstall GameMaker Studio 2.,Failed to load a required plug-in.  Please try restarting GameMaker Studio 2.  If the problem persists please reinstall GameMaker Studio 2.,,Error message when you fail to load a required plugin dll
+SplashScreen_PluginLoadFailed,Failed to load a required plug-in.  Please try restarting GameMaker.  If the problem persists please reinstall GameMaker.,Failed to load a required plug-in.  Please try restarting GameMaker.  If the problem persists please reinstall GameMaker.,,Error message when you fail to load a required plugin dll
 SplashScreen_PluginLoadFailedTitle,Failed to load a required plug-in,Failed to load a required plug-in,,Title for error message when you fail to load a required plugin dll
 SplashScreen_LaunchProjectNotFound,Project '{0}' does not exist,Project '{0}' does not exist,,Message dialog when the program was launched with a file command argument but the file was not found
-SplashScreen_LaunchProjectInvalid,'{0}' is not a valid GameMaker Studio 2 project,'{0}' is not a valid GameMaker Studio 2 project,,Message dialog when the program was launched with a file command argument of a non .yyp file
+SplashScreen_LaunchProjectInvalid,'{0}' is not a valid GameMaker project,'{0}' is not a valid GameMaker project,,Message dialog when the program was launched with a file command argument of a non .yyp file
 SplashScreen_LaunchProjectFailed,Launch Project Failed,Launch Project Failed,,Message dialog title when the program was launched with a file command argument but it has failed
 SplashScreen_LaunchImportTrialDenied,Cannot import project '{0}' with a Trial Licence,Cannot import project '{0}' with a Trial Licence,,launch yyz project import blocked by free licence msg
 LicensedModulesError,Your licence does not have this module enabled,Your licence does not have this module enabled,,Message Dialog for when a user tries to build/run a target their licence doesn't have
-DnD_Pref_ToolboxLocation,DnD toolbox default location,DnD toolbox default location,,DnDpref
-DnD_Pref_StoryMode,DnD node overview visibility mode,DnD node overview visibility mode,,DnD pref
-DnD_Pref_CollapseToolbox,Hide docked DnD toolboxes if floating DnD toolbox is open,Hide docked DnD toolboxes if floating DnD toolbox is open,,DnD pref
-DnD_Pref_ChainThickness,Thickness of the chain that connects DnD actions,Thickness of the chain that connects DnD actions,,DnD pref
-DnD_Pref_CollapseStory,Hide DnD node overview panel,Hide DnD node overview panel,,DnD pref
-DnD_Pref_MaxThumbSize,Maximum size for DnD toolbox action thumbnails,Maximum size for DnD toolbox action thumbnails,,DnD pref
-DnD_Pref_MinThumbSize,Minimum size for DnD toolbox action thumbnails,Minimum size for DnD toolbox action thumbnails,,DnD pref
-DnD_Pref_ThumbSize,Default size for DnD toolbox action thumbnails,Default size for DnD toolbox action thumbnails,,DnD pref
+DnD_Pref_ToolboxLocation,GML Visual toolbox default location,GML Visual toolbox default location,,DnDpref
+DnD_Pref_StoryMode,GML Visual node overview visibility mode,GML Visual node overview visibility mode,,DnD pref
+DnD_Pref_CollapseToolbox,Hide docked GML Visual toolboxes if floating GML Visual toolbox is open,Hide docked GML Visual toolboxes if floating GML Visual toolbox is open,,DnD pref
+DnD_Pref_ChainThickness,Thickness of the chain that connects GML Visual actions,Thickness of the chain that connects GML Visual actions,,DnD pref
+DnD_Pref_CollapseStory,Hide GML Visual node overview panel,Hide GML Visual node overview panel,,DnD pref
+DnD_Pref_MaxThumbSize,Maximum size for GML Visual toolbox action thumbnails,Maximum size for GML Visual toolbox action thumbnails,,DnD pref
+DnD_Pref_MinThumbSize,Minimum size for GML Visual toolbox action thumbnails,Minimum size for GML Visual toolbox action thumbnails,,DnD pref
+DnD_Pref_ThumbSize,Default size for GML Visual toolbox action thumbnails,Default size for GML Visual toolbox action thumbnails,,DnD pref
 DnD_Pref_RecentlyUsed,Maximum number of recently used actions to display,Maximum number of recently used actions to display,,DnD pref
 DnD_Pref_ChainSmoothness,The smoothness of the chain.,The smoothness of the chain.,,DnD pref
 DnD_Pref_DragTime,Mouse down time to start dragging node (ms),Mouse down time to start dragging node (ms),,DnD pref
@@ -3232,6 +3261,7 @@ ProjectReconnected_Save,Save,Save,,button message for saving the project
 ProjectReconnected_Delete,Delete,Delete,,button message for deleting resources
 Project_Changes_Message,"Changes detected in project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","Changes detected in project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files",,message box contents when the project directory has detected changes
 Project_Changes_Title,Project Directory Modified,Project Directory Modified,,message box title when the project directory has detected changes
+Project_Changes_OnRepairing,"The project files were corrupted. The changes were applied. Do you want to save the changes?","The project files were corrupted. The changes were applied. Do you want to save the changes?",,Project was corrupted and changed by the IDE to fix it
 Project_Deletions_Title,Resources have been deleted,Resources have been deleted,,Resources have been deleted
 Project_Deletions_Message,"Resources have been deleted from disk in '{0}'. You can re-save these, or delete the resources from the project.\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","Resources have been deleted from disk in '{0}'. You can re-save these, or delete the resources from the project.\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files",,Message to show that resources have been deleted and the user can either restore or save them
 Project_InheritedChanges_Message,"Changes detected in base project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files","Changes detected in base project directory '{0}'. Would you like to reload the resources, or save?\n\nWARNING: Save will only update the resources files that are currently held in memory, and therefore may not restore some deleted or edited files",,message box contents when the project directory has detected changes
@@ -3321,14 +3351,14 @@ Room_AutoDepthUpdateMessage,"User defined layer depths are not adequately spaced
 Room_AutoDepthUpdateTitle,Layer Depth Error,Layer Depth Error,,message title when the user has given invalid layer depths
 roomdefaultstep,Default layer depth spacing,Default layer depth spacing,,the preference label for auto depth layer spacing
 room_autodepthchoice,Automatic response to updating layer depths,Automatic response to updating layer depths,,preference label for the auto depth confirmation dialog preference
-DnDConvert_Warning,You are performing a one-way conversion from DnD to GameMaker Language. Do you want to continue?,You are performing a one-way conversion from DnD to GameMaker Language. Do you want to continue?,,Object editor convert dnd to script warning
-DnDConvert_WarningTitle,Convert DnD,Convert DnD,,object editor dnd convert warning title
+DnDConvert_Warning,You are performing a one-way conversion from GML Visual to GML Code. Do you want to continue?,You are performing a one-way conversion from GML Visual to GML Code. Do you want to continue?,,Object editor convert dnd to script warning
+DnDConvert_WarningTitle,Convert GML Visual,Convert GML Visual,,object editor dnd convert warning title
 TimelineEditor_ConvertMerge,Merging the selected moments will result in conversion from DnD to GameMaker Language. Do you want to continue?,Merging the selected moments will result in conversion from DnD to GameMaker Language. Do you want to continue?,,Merge warning
 TimelineDnD_ConvertOpposite,Opposite,Opposite,,Convert dnd or script to opposite type
-Settings_DnDConvert,Automatic response to DnD conversion to GameMaker Language,Automatic response to DnD conversion to GameMaker Language,,DnD convert pref
-Settings_DnDDeleteNode,Automatic response to DnD node deletion,Automatic response to DnD node deletion,,DnD deletion pref
-DnDModule_DeleteNodeMsg,Are you sure you want to delete this DnD action?,Are you sure you want to delete this DnD action?,,DnD delete message
-DnDModule_ConvertToScript,Convert to GML,Convert to GML,,DnD module convert to gml context menu
+Settings_DnDConvert,Automatic response to GML Visual conversion to GML Code,Automatic response to GML Visual conversion to GML Code,,DnD convert pref
+Settings_DnDDeleteNode,Automatic response to GML Visual node deletion,Automatic response to GML Visual node deletion,,DnD deletion pref
+DnDModule_DeleteNodeMsg,Are you sure you want to delete this GML Visual action?,Are you sure you want to delete this GML Visual action?,,DnD delete message
+DnDModule_ConvertToScript,Convert to GML Code,Convert to GML Code,,DnD module convert to gml context menu
 DnDModule_AddComment,Comment...,Comment...,,Add a comment to a DnD script
 DnDModule_RemoveComment,Remove Comment,Remove Comment,,Remove a comment from a DnD script
 DnDModule_RemoveComments,Remove Comments,Remove Comments,,Remove comments from a DnD script
@@ -3543,7 +3573,7 @@ platformdevice_connection_no_devices,No Devices found,No Devices found,,no devic
 AssetExplorer_SelectResource,Select Asset,Select Asset,,Fallback title for asset explorer
 AssetExplorer_SelectResourceType,Select {0},Select {0},,select (resource type name) title for asset explorer
 AssetExplorer_FilterCaptionGeneric,Showing {0}/{1} filtered items,Showing {0}/{1} filtered items,,Title for filtered items in asset explorer
-ParserError_DnD,{0} in DnD action {1},{0} in DnD action {1},,DnD parser error message
+ParserError_DnD,{0} in GML Visual action {1},{0} in GML Visual action {1},,DnD parser error message
 GadgetToolbox_ListView,List View,List View,,List View dialog editor name
 GadgetToolbox_Table,Table,Table,,Table dialog editor name
 GadgetToolbox_TableListBox,TableListBox,TableListBox,,The table gadgets list box name
@@ -3611,9 +3641,9 @@ TileSet_BrushBuilder,Brush Builder,Brush Builder,,the tile set scratchpad window
 TileSet_Animation,Tile Animation,Tile Animation,,the tile set animation window title
 TileSet_AutoTile,Auto Tiling,Auto Tiling,,the tile set auto tile window title
 TileSetEditor_Editors,Editors:,Editors:,,the tile set heading for the various sub editor buttons
-IDE_FatalErrorWarning,GameMaker Studio 2 has become unstable.\nPlease save changes and exit.,GameMaker Studio 2 has become unstable.\nPlease save changes and exit.,,Warn the user they should try saving changes and exit
+IDE_FatalErrorWarning,GameMaker has become unstable.\nPlease save changes and exit.,GameMaker has become unstable.\nPlease save changes and exit.,,Warn the user they should try saving changes and exit
 IDE_FatalErrorTitle,Fatal Error,Fatal Error,,Title for the fatal error warning dialog
-IDE_ShutdownBlocked,GameMaker Studio 2 is running...,GameMaker Studio 2 is running...,,shutdown blocked message
+IDE_ShutdownBlocked,GameMaker is running...,GameMaker is running...,,shutdown blocked message
 SpriteSelector_NoSprite,No Sprite,No Sprite,,"Sprite selector ""no sprite"" setting"
 SpriteSelector_Dimensions,{0} x {1},{0} x {1},,"Sprite selector dimensions label ie. width x height"
 SpriteSelector_DragMessage,Drop here to assign sprite,Drop here to assign sprite,,message displayed while dragging a sprite resource
@@ -4879,8 +4909,6 @@ StartScreen_AvailableTemplates,Showing all available templates,Showing all avail
 SS_Template_NewBlank,New\nBlank,New\nBlank,,new blank project button label
 SS_Template_PleaseSelect,Please select a project template,Please select a project template,,start screen select template
 SS_NewBlankTemplate,NEW BLANK TEMPLATE,NEW BLANK TEMPLATE,,start screen new blank template
-SS_GMLInfo,Create a project using GameMaker Language,Create a project using GameMaker Language,,start screen gml button info
-SS_DNDInfo,Create a project using Drag and Drop,Create a project using Drag and Drop,,start screen DnD button info
 SS_ProjectNameLabel,Project Name:,Project Name:,,start screen project name label
 SS_ProjectLocationLabel,Location:,Location:,,start screen project location label
 SS_ProjDirInUse,Project directory name already exists,Project directory name already exists,,proj dir in use warning
@@ -4888,7 +4916,7 @@ StartScreen_WizardTitle,Set Up Wizard,Set Up Wizard,,setup wizard title
 SS_WizardStepNum,Step {0} of {1},Step {0} of {1},,setup wizard label
 SS_Wizard_StepDesc_1,"Let's get you started setting up your first project.\nFirst, click on the button below labelled 'NEW'.","Let's get you started setting up your first project.\nFirst, click on the button below labelled 'NEW'.",,setup wizard label
 SS_Wizard_StepDesc_2,"Select a template below, or choose BLANK to start a fresh new project","Select a template below, or choose BLANK to start a fresh new project",,setup wizard label
-SS_Wizard_StepDesc_3BlankA,"You've selected 'New Blank' template.\nNext choose what scripting language you wish to use,","You've selected 'New Blank' template.\nNext choose what scripting language you wish to use,",,setup wizard label
+SS_Wizard_StepDesc_3BlankA,"You've selected 'New Blank' template.","You've selected 'New Blank' template.",,setup wizard label
 SS_Wizard_StepDesc_3,"Give your project a name, choose a save location, and just jump right in!","Give your project a name, choose a save location, and just jump right in!",,setup wizard label
 SS_Wizard_DontShowAgain,Don't show me again,Don't show me again,,dont show again label
 SS_ButtonGo,Let's Go!,Let's Go!,,startscreen go button label
@@ -4899,6 +4927,10 @@ SS_DownloadTemplateProgress,Downloading Template...{0}% Complete,Downloading Tem
 SS_TemplateLoadError,Error Loading Template,Error Loading Template,,template load error msg
 SS_TemplateFileMissing,Could not found the Template project at '{0}',Could not found the Template project at '{0}',,template file not found
 SS_TemplateInvalidURL,Invalid Download URL,Invalid Download URL,,invalid download url error
+SS_NewDescHeader,Description:,Description:,,start screen new project description
+SS_NewDesc,Create an empty GameMaker project. Build your game up from a blank canvas.,Create an empty GameMaker project. Build your game up from a blank canvas.,,start screen new project description
+SS_NewInfoHeader,Other Info:,Other Info:,,start screen new project description
+SS_NewInfo,Set your scripting preference in Game Options/Preferences.,Set your scripting preference in Game Options/Preferences.,,start screen new project description
 startscreen_pref_showtour,Show Tour,Show Tour,,show tour pref
 startscreen_pref_showSetupWizard,Show Setup Wizard,Show Setup Wizard,,show wizard pref
 startscreen_pref_recentProjListStyle,Recent Projects List Style,Recent Projects List Style,,recent proj list style
@@ -4934,7 +4966,7 @@ GMStdAlpha_Desc,Set the alpha channel (0 to 1) used for drawing.,Set the alpha c
 GMStdGetAlpha_Name,Get Draw Alpha,Get Draw Alpha,,dnd set draw alpha node
 GMStdGetAlpha_Desc,Get the alpha channel (0 to 1) used for drawing.,Get the alpha channel (0 to 1) used for drawing.,,dnd set draw alpha node
 GMStdUseAlpha,Use Alpha,Use Alpha,,dnd node label
-TextEditorPanel_ConvertToDnD,Convert to DnD,Convert to DnD,,Convert the current script to DnD
+TextEditorPanel_ConvertToDnD,Convert to GML Visual,Convert to GML Visual,,Convert the current script to DnD
 Marketplace_CreatePackageDetails,Package Details:,Package Details:,,package details heading
 Marketplace_InactiveTutorialSettings,Tutorial Content Settings will appear here when 'Tutorial' Package Type has been selected,Tutorial Content Settings will appear here when 'Tutorial' Package Type has been selected,,the message displayed when the tutorial settings are inactive
 CloseNonEmptyWorkspaceTabMessage,"Closing this workspace will also close the contained editors, are you sure?","Closing this workspace will also close the contained editors, are you sure?",,confirmation dialog message when closing a workspace tab with open editors
@@ -5367,13 +5399,13 @@ defaultprojectwindowcolour_description,Initial default window colour for new pro
 macroeditor_title,IDE Environment Variables,IDE Environment Variables,,MacroEditor title
 DnDModule_LivePreview_Text,Preview (Read-Only),Preview (Read-Only),,DnD module live preview top comment text
 No_Resources_To_Add,No resources to add,No resources to add,,Add from Default View status message
-FreeVersion_ProjectInvalid,The project '{0}' cannot be loaded with GameMaker Studio 2 Trial,The project '{0}' cannot be loaded with GameMaker Studio 2 Trial,,Error message when the user tries to load a project that exceeds free limits
-FreeVersion_ResourceLimitReached,You have reached the limits of GameMaker Studio 2 Trial for '{0}'.,You have reached the limits of GameMaker Studio 2 Trial for '{0}'.,,Error message when the user tries to create more resources than the Trial version allows
-FreeVersion_SpineNotSupported,Spine files are not supported in GameMaker Studio 2 Trial,Spine files are not supported in GameMaker Studio 2 Trial,,Spine files are not supported in the Trial version of GameMaker Studio 2 error message
-FreeVersion_SWFNotSupported,SWF files are not supported in GameMaker Studio 2 Trial,SWF files are not supported in GameMaker Studio 2 Trial,,SWF files are not supported in the Trial version of GameMaker Studio 2 error message
-FreeVersion_ImportNotSupported,Importing projects is not supported in GameMaker Studio 2 Trial,Importing projects is not supported in GameMaker Studio 2 Trial,,Importing projects is not supported in the Trial version of GameMaker Studio 2 error message
-FreeVersion_MarketplaceNotSupported,Marketplace cannot be accessed in GameMaker Studio 2 Trial,Marketplace cannot be accessed in GameMaker Studio 2 Trial,,Marketplace cannot be accessed from the Trial version of GameMaker Studio 2 error message
-FreeVersion_UnsupportedResources,'{0}' contains resources not supported by GameMaker Studio 2 Trial,'{0}' contains resources not supported by GameMaker Studio 2 Trial,,Unsupported resources error message
+FreeVersion_ProjectInvalid,The project '{0}' cannot be loaded with GameMaker Trial,The project '{0}' cannot be loaded with GameMaker Trial,,Error message when the user tries to load a project that exceeds free limits
+FreeVersion_ResourceLimitReached,You have reached the limits of GameMaker Trial for '{0}'.,You have reached the limits of GameMaker Trial for '{0}'.,,Error message when the user tries to create more resources than the Trial version allows
+FreeVersion_SpineNotSupported,Spine files are not supported in GameMaker Trial,Spine files are not supported in GameMaker Trial,,Spine files are not supported in the Trial version of GameMaker error message
+FreeVersion_SWFNotSupported,SWF files are not supported in GameMaker Trial,SWF files are not supported in GameMaker Trial,,SWF files are not supported in the Trial version of GameMaker error message
+FreeVersion_ImportNotSupported,Importing projects is not supported in GameMaker Trial,Importing projects is not supported in GameMaker Trial,,Importing projects is not supported in the Trial version of GameMaker error message
+FreeVersion_MarketplaceNotSupported,Marketplace cannot be accessed in GameMaker Trial,Marketplace cannot be accessed in GameMaker Trial,,Marketplace cannot be accessed from the Trial version of GameMaker error message
+FreeVersion_UnsupportedResources,'{0}' contains resources not supported by GameMaker Trial,'{0}' contains resources not supported by GameMaker Trial,,Unsupported resources error message
 SpriteResizeTileset,Recalculate tile set after resize,Recalculate tile set after resize,,Resize dialog checkbox for sprite used as tileset
 SpriteResizeTilesetSelect,This sprite is used by multiple tile sets of varying tile sizes. Select a reference tile set for this operation.,This sprite is used by multiple tile sets of varying tile sizes. Select a reference tile set for this operation.,,Multiple tilesets pick one
 SelectTileSetTitle,Select Reference Tile Set,Select Reference Tile Set,,Pick a tile set dialog title
@@ -5405,7 +5437,7 @@ Notification_NeedHelp,Need Help?,Need Help?,,Need help notification category
 Notification_Dpi_Warning,"The DPI override setting is above the suggested limit for this display at {0}%. Click here to disable DPI override.","The DPI override setting is above the suggested limit for this display at {0}%. Click here to disable DPI override.",,DPI above suggested limit notification message
 ggs_allow_game_statistics,Allow anonymous game statistics,Allow anonymous game statistics,,Allow anonymous game statistics
 LicenceExcluded_ggs_allow_game_statistics,Statistics cannot be turned off on 'Creator' platforms,Statistics cannot be turned off on 'Creator' platforms,Do not localise 'Creator' it's a product name,Trial stats tooltip on checkbox
-LicenceFree_ggs_allow_game_statistics,Statistics cannot be turned off in GameMaker Studio 2 Trial,Statistics cannot be turned off in GameMaker Studio 2 Trial,,Trial stats tooltip on checkbox
+LicenceFree_ggs_allow_game_statistics,Statistics cannot be turned off in GameMaker Trial,Statistics cannot be turned off in GameMaker Trial,,Trial stats tooltip on checkbox
 ggs_statistics_off,Are you sure you want to turn statistics off?\n\nAnonymous statistics allow us to provide developers with info about their target audience and focus development in key areas,Are you sure you want to turn statistics off?\n\nAnonymous statistics allow us to provide developers with info about their target audience and focus development in key areas,,Message when turning off anonymous statistics
 ggs_statistics_choice,Automatic response to turning off anonymous statistics,Automatic response to turning off anonymous statistics,,Confirm dialog option
 ResourceTree_DataFileAlreadyExists,Included file '{0}' already exists.\nOperation cancelled.,Included file '{0}' already exists.\nOperation cancelled.,,Warn the user that an included file already exists and therefore the operation has been cancelled
@@ -5476,7 +5508,7 @@ MarketplaceFilter_GMS2Only,GMS 2.x,GMS 2.x,,Studio 2 assets filter name for mark
 MarketplaceFilter_GMS1Only,GMS 1.x,GMS 1.x,,Studio 1 assets filter name for marketplace library
 MarketplaceFilter_GMS2_3Only,GMS 2.3,GMS 2.3,,Studio 2.3 assets filter name for marketplace library
 ide_language_description,IDE language,IDE language,,Label beside the IDE language selection
-pref_max_framerate,Maximum framerate of the GameMaker Studio 2 editor,Maximum framerate of the GameMaker Studio 2 editor,,Maximum framerate preference
+pref_max_framerate,Maximum framerate of the GameMaker editor,Maximum framerate of the GameMaker editor,,Maximum framerate preference
 pref_filewatcher_tolerance,Set File Watcher tolerance in ms after saving from within IDE,Set File Watcher tolerance in ms after saving from within IDE,,File watcher preference to handle save tolerance in ms
 pref_filewatcher_delay,Set File Watcher action delay in ms after filesystem changes,Set File Watcher action delay in ms after filesystem changes,,File Watcher preference to handle delay in action after changes
 File Watcher,File Watcher,File Watcher,,File Watcher preference label
@@ -5522,6 +5554,7 @@ Preferences_xboxseriesxs_dir,GDK location,GDK location,,Preferences/Platform Set
 Preferences_xboxseriesxs_tools_dir,GDK base location,GDK base location,,Preferences/Platform Settings/XboxSeriesXS
 Preferences_xboxseriesxs_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/XboxSeriesXS
 Preferences_operagx_sdk_dir,EMSCRIPTEN SDK location,EMSCRIPTEN SDK location,,Preferences/Platform Settings/Opera GX
+Preferences_linux_steamrt_sdk_dir,Steam Runtime SDK location,Steam Runtime SDK location,,Preferences/Platform Settings/Ubuntu
 ProjectLoad_BadPathTitle,Unsafe Path,Unsafe Path,,Bad Path message title when failing badpath check on load
 ProjectLoad_BadPathMessage,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,,Project is in an unsafe location message
 ResourceTree_Search_Filters,Filters:,Filters:,,Filter label on Resource Tree search
@@ -5634,7 +5667,7 @@ RT_RoomTileLayer_Singular,Tile Layer,Tile Layer,,room tile layer singular
 recentwindows_title,Recent Windows,Recent Windows,,Recently activated windows title
 Views_Menu_Recent_Windows,Recent Windows,Recent Windows,,Recent activated windows menu option
 Developer_Menu_Title,Developer,Developer,,Title of the main Developer menu
-HideGameMaker_Menu_Title,Hide GameMaker Studio 2,Hide GameMaker Studio 2,,Hide GameMaker menu entry for Mac
+HideGameMaker_Menu_Title,Hide GameMaker,Hide GameMaker,,Hide GameMaker menu entry for Mac
 HideOthers_Menu_Title,Hide Others,Hide Others,,Hide others menu entry for Mac
 ShowAll_Menu_Title,Show All,Show All,,Show all windows menu entry for Mac
 BringAllToFront_Menu_Title,Bring All To Front,Bring All To Front,,Bring all windows to front menu entry for Mac
@@ -5667,7 +5700,7 @@ Proxy_Domain,Domain,Domain,,proxy domain label
 Proxy_Domain_Tooltip,Proxy Domain. Usually left blank,Proxy Domain. Usually left blank,,proxy domain tooltip
 General Settings,General Settings,General Settings,,General Settings preference group heading
 Start Page,Start Page,Start Page,,start screen preference group heading
-Drag and Drop,Drag and Drop,Drag and Drop,,Drag and Drop preference group heading
+Drag and Drop,GML Visual,GML Visual,,Drag and Drop preference group heading
 Image Editor,Image Editor,Image Editor,,Image Editor preference group heading
 Sprite Editor,Sprite Editor,Sprite Editor,,Sprite Editor preference group heading
 Nineslice,Nine Slice,Nine Slice,,Sprite editor nineslice pref group subheading
@@ -5711,7 +5744,9 @@ Tools,Tools,Tools,,Tools preference group subheading
 Auto Tiling,Auto Tiling,Auto Tiling,,Auto Tiling preference group subheading
 Colours,Colours,Colours,,Colours preference group subheading
 Code Editor,Code Editor,Code Editor,,Code Editor preference group subheading
-GML,GML,GML,,GML preference group subheading
+Visual Editor,Visual Editor,Visual Editor,,Visual Editor preference group subheading
+GML,GML Code,GML Code,,GML Code preference group subheading
+GMLVisual,GML Visual,GML Visual,,GML Visual preference group subheading
 Source Control (Git),Source Control (Git),Source Control (Git),,Source Control (Git) preference group subheading
 Master,Master,Master,,Master preference group subheading
 Main Options,Main Options,Main Options,,Main Options options group heading
@@ -5909,7 +5944,7 @@ SyntaxError_InvalidArgsOption,Got '{0}' ({1}) expected '{2}' or '{3}',Got '{0}' 
 SyntaxError_ExpectedExp,expected expression,expected expression,,syntax error
 SyntaxError_EmptyStatement,empty {0} statement,empty {0} statement,,syntax error
 SyntaxError_NestedCalls,nested function calls are not allowed,nested function calls are not allowed,,syntax error
-SyntaxError_TrialLimit,use of {0} is not allowed in GameMaker Studio 2 Trial,use of {0} is not allowed in GameMaker Studio 2 Trial,,syntax error
+SyntaxError_TrialLimit,use of {0} is not allowed in GameMaker Trial,use of {0} is not allowed in GameMaker Trial,,syntax error
 SyntaxError_ArgCount,number of arguments for function {2} expected {0} got {1},number of arguments for function {2} expected {0} got {1},,syntax error
 SyntaxError_ArgCountRange,number of arguments for function {3} expected {0} - {1} got {2},number of arguments for function {3} expected {0} - {1} got {2},,syntax error
 SyntaxError_DuplicateEnumEntry,duplicate enum entry found,duplicate enum entry found,,syntax error
@@ -5977,7 +6012,7 @@ ConversionLog_MacIcon,macOS icon {0} written out as 32-bit,macOS icon {0} writte
 ConversionLog_ExtensionError,"Error - function '{0}' in extension '{1}' has more than 4 arguments, and they are not all of the same type","Error - function '{0}' in extension '{1}' has more than 4 arguments, and they are not all of the same type",,conversion log
 ConversionLog_ConvertingScript,Converting GML script: {0},Converting GML script: {0},,conversion log
 ConversionLog_ConvertingEvent,Converting object event to GML script: {0},Converting object event to GML script: {0},,conversion log
-ConversionLog_DefaultInstaller,Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2,Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2,,conversion log
+ConversionLog_DefaultInstaller,Windows NSIS Installer Script has been set to default due to changes in GameMaker,Windows NSIS Installer Script has been set to default due to changes in GameMaker,,conversion log
 ConversionLog_ConversionException,Exception while converting {0} : {1},Exception while converting {0} : {1},,conversion log
 ConversionLog_ConvertingOriginal,Original was,Original was,,conversion log
 ConversionLog_ConvertingResult,Current result was,Current result was,,conversion log
@@ -6012,8 +6047,8 @@ UserLogin_ServerError,Error ({0}) - {1},Error ({0}) - {1},,server response error
 UserLogin_Exception,Exception - {0},Exception - {0},,exception error
 UserLogin_MachineIDMismatchDetail,Local Machine ID mismatch,Local Machine ID mismatch,,machine id mismatch error
 UserLogin_MachineIDMissingDetail,Local Machine ID missing,Local Machine ID missing,,machine id missing error
-UserLogin_TrialExpired,"Your GameMaker Studio 2 trial has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!","Your GameMaker Studio 2 trial has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!",,Trial expired message
-UserLogin_LicenseExpired,"Your GameMaker Studio 2 Licence has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!","Your GameMaker Studio 2 Licence has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!",,Temporary licence expired message
+UserLogin_TrialExpired,"Your GameMaker trial has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!","Your GameMaker trial has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!",,Trial expired message
+UserLogin_LicenseExpired,"Your GameMaker Licence has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!","Your GameMaker Licence has expired.\n\nIf you enjoyed using GameMaker and want to continue, please purchase one of our great value licences at yoyogames.com.\n\nBUY NOW and Get CREATIVE!",,Temporary licence expired message
 UserLogin_TrialExpiredTitle,Trial Period Ended,Trial Period Ended,,Trial period ended dialog title
 UserLogin_LicenseExpiredTitle,Licence Expired,Licence Expired,,Licence expired dialog title
 UserLogin_LicenceNoBuildAccessDetail,Licence does not have permission to access this build,Licence does not have permission to access this build,,message when user licence is not allowed to access a particular build
@@ -6028,7 +6063,7 @@ UserLogin_LicenceStatus,Status: {0},Status: {0},,licence status error
 UserLogin_RestartForCustomFeed,You have a new IDE update feed available. \nWould you like to restart and check for updates?,You have a new IDE update feed available. \nWould you like to restart and check for updates?,,message when a user has a custom ide feed available
 SearchResult_Info,{0} at line {1}: \t{2},{0} at line {1}: \t{2},,search result information
 UserLogin_ManageDevices,My Account,My Account,,ok button caption for too many devices error
-UserLogin_CommonInternetProblems,"If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker Studio 2 access.\nCheck any antivirus is not blocking GameMaker Studio 2 access.\nCheck any proxy or VPN is not blocking GameMaker Studio 2 access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2","If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker Studio 2 access.\nCheck any antivirus is not blocking GameMaker Studio 2 access.\nCheck any proxy or VPN is not blocking GameMaker Studio 2 access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2",,Common steps to try for internet connection failures
+UserLogin_CommonInternetProblems,"If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker access.\nCheck any antivirus is not blocking GameMaker access.\nCheck any proxy or VPN is not blocking GameMaker access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2","If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker access.\nCheck any antivirus is not blocking GameMaker access.\nCheck any proxy or VPN is not blocking GameMaker access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2",,Common steps to try for internet connection failures
 RSS_Download_Exception,Could not reach the RSS feed,Could not reach the RSS feed,,A message which is shown when the RSS feed is not accessible
 Amazon Fire,Amazon Fire,Amazon Fire,,Amazon Fire label
 addon_amazon_apis,Amazon APIs,Amazon APIs,,Amazon APIs label for addon download
@@ -6040,14 +6075,15 @@ addon_could_not_download,The addon could not be downloaded from the marketplace,
 FileFilters_Info,{0} Files,{0} Files,,basic filter info eg XML Files
 FileFilters_AudioFiles,Audio Files,Audio Files,,audio file filter
 FileFilters_All,All Files,All Files,,all file filter
-FileFilter_YYP,GameMaker Studio 2 Project,GameMaker Studio 2 Project,,yyp filter
+FileFilter_YYP,GameMaker Project,GameMaker Project,,yyp filter
 FileFilter_ProjectName,Project Name,Project Name,,project filter
-FileFilters_ProjectLayout,GameMaker Studio 2 Layout,GameMaker Studio 2 Layout,,layout file filter
-FileFilter_ResourceFile,GameMaker Studio 2 Resource,GameMaker Studio 2 Resource,,yy filter
+FileFilters_ProjectLayout,GameMaker Layout,GameMaker Layout,,layout file filter
+FileFilter_ResourceFile,GameMaker Resource,GameMaker Resource,,yy filter
 FileFilter_Localisation,Localisation Files,Localisation Files,,localisation filter
-FileFilters_Certificate,GameMaker Studio 2 Certificate,GameMaker Studio 2 Certificate,,certificate filter
+FileFilters_Certificate,GameMaker Certificate,GameMaker Certificate,,certificate filter
 FileFilters_HTMLArchive,HTML Zip Archive,HTML Zip Archive,,html archive filter
 FileFilters_CompressedApp,Compressed Application Zip,Compressed Application Zip,,compressed application filter
+FileFilters_AppImage,AppImage bundle,AppImage bundle,,compressed application filter
 FileFilters_MacCompressedApp,macOS Application Zip,macOS Application Zip,,mac application as a zip filter
 FileFilters_MacDmgApp,macOS DMG,macOS DMG,,mac application as a dmg file
 FileFilters_Package,{0} Package,{0} Package,,package filter
@@ -6057,8 +6093,8 @@ FileFilters_Export,{0} Export,{0} Export,,export filter
 FileFilters_TemplateExport,Project Template Export,Project Template Export,,template export filter name
 FileFilters_Directory,Directory,Directory,,directory filter
 FileFilters_SSHKey,SSH Key,SSH Key,,ssh key filter
-FileFilter_AssetPackage,GameMaker Studio 2 Asset Package,GameMaker Studio 2 Asset Package,,yymp filter
-FileFilter_TemplateProject,GameMaker Studio 2 Project Template,GameMaker Studio 2 Project Template,,template project filter
+FileFilter_AssetPackage,GameMaker Asset Package,GameMaker Asset Package,,yymp filter
+FileFilter_TemplateProject,GameMaker Project Template,GameMaker Project Template,,template project filter
 FileFilter_AndroidCreateExeMessage,Save as .aab or .apk,Save as .aab or .apk,,Save as .aab or .apk
 tvOS,tvOS,tvOS,,tvOS label for game options
 amazonfire_nodevices_title,No Amazon devices detected,No Amazon devices detected,,No Amazon devices detected title
@@ -6764,12 +6800,9 @@ AnimCurve_PasteCurve,Paste Curve,Paste Curve,,paste curve
 AnimCurve_DuplicateCurve,Duplicate Curve,Duplicate Curve,,duplicate curve
 AnimCurve_CurveType,Curve Type,Curve Type,,curve type
 AnimCurve_Ease,Ease,Ease,,ease
-AnimCurve_Linear,Linear,Linear,,linear
 AnimCurve_EaseIn,Ease-In,Ease-In,,ease-in
 AnimCurve_EaseOut,Ease-Out,Ease-Out,,ease-out
 AnimCurve_EaseInOut,Ease-In-Out,Ease-In-Out,,ease in-out
-AnimCurve_Smooth,Smooth,Smooth,,smooth
-AnimCurve_2DBezier,Bezier,Bezier,,bezier2D
 AnimCurve_Rename,Rename,Rename,,rename
 AnimCurve_Delete,Delete,Delete,,delete
 AnimCurve_DefaultChannelName,curve{0},curve{0},,default channel name
@@ -6785,6 +6818,9 @@ AnimCurveLib_TTEaseOut,Ease Out,Ease Out,,ease out tooltip
 AnimCurveLib_TTEaseIn,Ease In,Ease In,,ease in tooltip
 AnimCurveLib_TTEaseInOut,Ease In-Out,Ease In-Out,,ease in-out tooltip
 AnimCurveLib_Reset,Reset,Reset,,reset curve label
+ListBoxEnum_eAnimCurveType_Linear,Linear,Linear,,anim curve type linear
+ListBoxEnum_eAnimCurveType_CentripetalCatmullRom,Smooth,Smooth,,anim curve type smooth
+ListBoxEnum_eAnimCurveType_Bezier2D,Bezier,Bezier,,anim curve type bezier
 ACL_linear,Linear,Linear,,anim curve library curve name
 ACL_ease,Ease,Ease,,anim curve library curve name
 ACL_easeCubic,Cubic,Cubic,,anim curve library curve name
@@ -6936,17 +6972,17 @@ switch_auth_editor_not_exist,The Switch Authoring Editor cannot be found. Please
 switch_auth_tool_not_exist,The Switch Authoring Tool cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,The Switch Authoring Tool cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,,Switch Patch Tool cannot be found. Please check Nintendo SDK install
 switch_runontarget_tool_not_exist,The Switch RunOnTarget Tool cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,The Switch RunOnTarget Tool cannot be found. Please ensure the Nintendo SDK is properly installed and try again.,,Switch RunOnTarget Tool cannot be found. Please check Nintendo SDK install
 Beta Channel,Beta Channel,Beta Channel,,Beta Channel preferences tag
-beta_1,Here you can opt in or out of the GameMaker Studio 2 Beta.,Here you can opt in or out of the GameMaker Studio 2 Beta.,,beta_1 caption
-beta_2,This will grant you access to upcoming versions of GameMaker Studio 2 before they are released to production.,This will grant you access to upcoming versions of GameMaker Studio 2 before they are released to production.,,beta_2 caption
+beta_1,Here you can opt in or out of the GameMaker Beta.,Here you can opt in or out of the GameMaker Beta.,,beta_1 caption
+beta_2,This will grant you access to upcoming versions of GameMaker before they are released to production.,This will grant you access to upcoming versions of GameMaker before they are released to production.,,beta_2 caption
 beta_3,This product is covered by Section 2 of our ,This product is covered by Section 2 of our ,,beta_3 caption
 beta_4,"Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.","Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.",,beta_4 caption
 beta_5,If you do not back up your project and it is corrupted by a beta build there may be no way to recover it.,If you do not back up your project and it is corrupted by a beta build there may be no way to recover it.,,beta_5 caption
 beta_6,You can revert back to a non-beta build by clicking the button below.,You can revert back to a non-beta build by clicking the button below.,,beta_6 caption
 beta_7,End User Licence Agreement,End User Licence Agreement,,beta_7 caption
-beta_check_1,I am aware that GameMaker Studio 2 Beta may corrupt my projects,I am aware that GameMaker Studio 2 Beta may corrupt my projects,,beta_check_1 caption
+beta_check_1,I am aware that GameMaker Beta may corrupt my projects,I am aware that GameMaker Beta may corrupt my projects,,beta_check_1 caption
 beta_check_2,I have backed up my projects or am using source control,I have backed up my projects or am using source control,,beta_check_2 caption
-beta_check_opt-in,Opt-in to GameMaker Studio 2 Beta,Opt-in to GameMaker Studio 2 Beta,,beta_check_opt-in caption
-beta_check_opt-out,Opt out of GameMaker Studio 2 Beta,Opt out of GameMaker Studio 2 Beta,,beta_check_opt-out caption
+beta_check_opt-in,Opt-in to GameMaker Beta,Opt-in to GameMaker Beta,,beta_check_opt-in caption
+beta_check_opt-out,Opt out of GameMaker Beta,Opt out of GameMaker Beta,,beta_check_opt-out caption
 beta_channel_warning,Apply the Beta channel opt-in and restart GMS2 now?,Apply the Beta channel opt-in and restart GMS2 now?,,beta channel warning
 beta_channel_downgrade,"After clicking OK, you should manually install a stable IDE to complete the opt-out process. See the release notes for an installer download link.","After clicking OK, you should manually install a stable IDE to complete the opt-out process. See the release notes for an installer download link.",,beta channel downgrade info
 beta_channel_splash,"Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.","Please note that these are early release builds. This means that they may have bugs that could corrupt your projects. We strongly recommend that you back up your project using source control and use a separate copy of it when using a beta build.",,beta channel splash 
@@ -6957,7 +6993,7 @@ Convert_Failed_Title,Conversion Failed,Conversion Failed,,Project Conversion fai
 Convert_Failed_Message,The Project conversion has failed,The Project conversion has failed,,Project Conversion failed message
 Convert_SameFolderMessage,You cannot save the converted project to the same folder as the original. Please select a new location.,You cannot save the converted project to the same folder as the original. Please select a new location.,,convert same folder dont do it message
 exception_faq_button_caption,"To see what data this report contains, <a href="https://help.yoyogames.com/hc/en-us/articles/360028120992">click here</a>","To see what data this report contains, <a href="https://help.yoyogames.com/hc/en-us/articles/360028120992">click here</a>",,exception faq button caption
-exception_fatal_error_header_caption,"A fatal exception has occurred in GameMaker Studio 2 and the program needs to close.\n\nWe are sorry for the inconvenience.","A fatal exception has occurred in GameMaker Studio 2 and the program needs to close.\n\nWe are sorry for the inconvenience.",,exception fatal error header caption
+exception_fatal_error_header_caption,"A fatal exception has occurred in GameMaker and the program needs to close.\n\nWe are sorry for the inconvenience.","A fatal exception has occurred in GameMaker and the program needs to close.\n\nWe are sorry for the inconvenience.",,exception fatal error header caption
 exception_problem_header_caption,"Please tell us about this problem.","Please tell us about this problem.",,exception problem header caption
 exception_blurb,"An error report has been created so that we can examine and prevent issues like this. It would be very helpful if you could provide further details relating to the context of this event. Specifically, what you were working on immediately beforehand.\n\nImportant\nBy pressing Send, you are providing consent for us to process the data detailed below in line with our Privacy Policy.","An error report has been created so that we can examine and prevent issues like this. It would be very helpful if you could provide further details relating to the context of this event. Specifically, what you were working on immediately beforehand.\n\nImportant\nBy pressing Send, you are providing consent for us to process the data detailed below in line with our Privacy Policy.",,exception blurb
 exception_send_caption,"Send","Send",,exception send button caption
@@ -7014,7 +7050,7 @@ AssetBrowser_CreateLotsOfResourcesTitle,Creating Lots of Assets,Creating Lots of
 YoYoImage_UnknownFileFormat,Image format not recognised,Image format not recognised,,This image format was not recognised
 YoYoImage_UnknownFileFormat_Detail,The image '{0}' cannot be loaded.,The image '{0}' cannot be loaded.,,Message to show when an image cannot be loaded
 IDE_Warning,Warning,Warning,,Warning for IDE
-IDE_FolderPermsWarning,GameMaker Studio 2 is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},GameMaker Studio 2 is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},,File permissions failure on startup
+IDE_FolderPermsWarning,GameMaker is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},GameMaker is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},,File permissions failure on startup
 code_completion_builtin_struct,BuiltIn {0} Member,BuiltIn {0} Member,,Code Completion when built-in structure member used.
 SnappableControls_Orientation_Top,Snap to top,Snap to top,,Snappable widget controls snap to top button tooltip
 SnappableControls_Orientation_Bottom,Snap to bottom,Snap to bottom,,Snappable widget controls snap to bottom button tooltip
@@ -7102,3 +7138,16 @@ WarningColor,Warning Colour,Warning Colour,,Warning Colour
 SuggestionColor,Suggestion Colour,Suggestion Colour,,Suggestion Colour
 ProjectLoad_ReadOnly_Message,This Project has been loaded in Read-Only mode,This Project has been loaded in Read-Only mode,,Message to say that the project has been loaded as read-only
 Project_ReadOnly_SeeURL,Click here for a HelpDesk article with more information,Click here for a HelpDesk article with more information,,Message to tell the user to see a linked helpdesk article
+ScriptType_Title,Scripting Preference,Scripting Preference,,script preference dialog title
+ScriptType_SelectLang,Select the scripting language for your project:,Select the scripting language for your project:,,select scripting language label
+ScriptType_SelectLang_Info,Note: This can be changed at any time,Note: This can be changed at any time,,select scripting language label
+ScriptType_Code,GML CODE,GML CODE,,code scripting type
+ScriptType_Visual,GML VISUAL,GML VISUAL,,visual scripting type
+ScriptType_CodeDesc,"Program your game with GML's simple coding syntax and powerful object-oriented language features, suitable for users learning how to code and advanced programmers skilled in industry-standard languages.","Program your game with GML's simple coding syntax and powerful object-oriented language features, suitable for users learning how to code and advanced programmers skilled in industry-standard languages.",,code script type description
+ScriptType_VisualDesc,"Visually program your game using actions. Learn coding through visual blocks. Preview the code behind your actions and convert to code at any time.","Visually program your game using actions. Learn coding through visual blocks. Preview the code behind your actions and convert to code at any time.",,visual script type description
+ScriptType_DontAskProject,Don't ask again for this project,Don't ask again for this project,,dont ask again this project
+ScriptType_DontAskEver,Don't ask again ever,Don't ask again ever,,dont ask again all projects
+ListBoxEnum_eDefaultScriptType_None,Always Ask,Always Ask,,default script type none
+ListBoxEnum_eDefaultScriptType_GML,GML Code,GML Code,,default script type gml
+ListBoxEnum_eDefaultScriptType_DND,GML Visual,GML Visual,,default script type dnd
+default_script_pref,Default scripting language,Default scripting language,,default scripting language preference
