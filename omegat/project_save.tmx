@@ -182,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"A fatal exception has occurred in GameMaker and the program needs to close.\n\nWe are sorry for the inconvenience."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091239Z" creationid="LiarOnce" creationdate="20220407T091239Z">
+        <seg>“GameMaker中发生致命异常，程序需要关闭。\n\n给您带来不便，我们深表歉意。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"A lighter anti-aliased hinting algorithm\nMany generated glyphs are more fuzzy but better resemble its original shape"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T104025Z" creationid="liaronce" creationdate="20210228T104025Z">
@@ -10630,6 +10638,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Program your game with GML's simple coding syntax and powerful object-oriented language features, suitable for users learning how to code and advanced programmers skilled in industry-standard languages."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091311Z" creationid="LiarOnce" creationdate="20220407T091311Z">
+        <seg>“使用 GML 简单的编码语法和强大的面向对象语言功能为您的游戏编程，适合学习如何编码的用户和精通行业标准语言的高级程序员。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Project directory '{0}' has been reconnected.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T115247Z" creationid="liaronce" creationdate="20210228T115247Z">
@@ -15062,6 +15078,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Visually program your game using actions.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091318Z" creationid="LiarOnce" creationdate="20220407T091318Z">
+        <seg>“使用动作对您的游戏进行可视化编程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Volume"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133233Z" creationid="liaronce" creationdate="20210228T133233Z">
@@ -18878,6 +18902,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Always Ask</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091357Z" creationid="LiarOnce" creationdate="20220407T091357Z">
+        <seg>总是提醒</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Always do full install of APK</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T200201Z" creationid="deciia" creationdate="20170105T081956Z">
@@ -19540,6 +19572,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T082552Z" creationid="deciia" creationdate="20180922T082552Z">
         <seg>应用商店</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>AppImage bundle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091158Z" creationid="LiarOnce" creationdate="20220407T091158Z">
+        <seg>AppImage 包</seg>
       </tuv>
     </tu>
     <tu>
@@ -28772,6 +28812,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Default scripting language</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091416Z" creationid="LiarOnce" creationdate="20220407T091416Z">
+        <seg>默认脚本语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Default size for DnD toolbox action thumbnails</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124159Z" creationid="liaronce" creationdate="20220202T124159Z">
@@ -30689,6 +30737,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143404Z" creationid="liaronce" creationdate="20191118T143404Z">
         <seg>不发送</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Don't ask again ever</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091349Z" creationid="LiarOnce" creationdate="20220407T091349Z">
+        <seg>永远不要再提醒</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Don't ask again for this project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091341Z" creationid="LiarOnce" creationdate="20220407T091341Z">
+        <seg>不要再提醒这个项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -36345,6 +36409,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GML CODE</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091301Z" creationid="LiarOnce" creationdate="20220407T091301Z">
+        <seg>GML CODE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GML Code</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090225Z" creationid="LiarOnce" creationdate="20220407T090225Z">
@@ -36357,6 +36429,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090442Z" creationid="LiarOnce" creationdate="20220407T090442Z">
         <seg>GML 预览</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GML VISUAL</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091302Z" creationid="LiarOnce" creationdate="20220407T091302Z">
+        <seg>GML VISUAL</seg>
       </tuv>
     </tu>
     <tu>
@@ -36651,6 +36731,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GameMaker Asset Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091209Z" creationid="LiarOnce" creationdate="20220407T091209Z">
+        <seg>GameMaker 资源包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GameMaker Certificate</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091152Z" creationid="LiarOnce" creationdate="20220407T091152Z">
+        <seg>GameMaker 证书</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GameMaker Community</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T083834Z" creationid="deciia" creationdate="20170102T083834Z">
@@ -36663,6 +36759,38 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T114659Z" creationid="deciia" creationdate="20170311T114659Z">
         <seg>GameMaker 语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GameMaker Layout</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091141Z" creationid="LiarOnce" creationdate="20220407T091141Z">
+        <seg>GameMaker 布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GameMaker Project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091132Z" creationid="LiarOnce" creationdate="20220407T091132Z">
+        <seg>GameMaker 项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GameMaker Project Template</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091211Z" creationid="LiarOnce" creationdate="20220407T091211Z">
+        <seg>GameMaker 项目模板</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GameMaker Resource</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091147Z" creationid="LiarOnce" creationdate="20220407T091147Z">
+        <seg>GameMaker 资源</seg>
       </tuv>
     </tu>
     <tu>
@@ -36767,6 +36895,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090752Z" creationid="LiarOnce" creationdate="20220407T090752Z">
         <seg>GameMaker 正在运行...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GameMaker is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091246Z" creationid="LiarOnce" creationdate="20220407T091246Z">
+        <seg>GameMaker 无法访问重要的系统文件夹。\n请在首选项中检查您的路径并验证您的文件夹权限，或与您的系统管理员联系。\n\n{0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -40328,6 +40464,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here you can opt in or out of the GameMaker Beta.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091215Z" creationid="LiarOnce" creationdate="20220407T091215Z">
+        <seg>您可以在此处选择加入或退出 GameMaker Beta。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Here you can opt in or out of the GameMaker Studio 2 Beta.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T101419Z" creationid="lazyeo" creationdate="20191120T101419Z">
@@ -40716,6 +40860,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T051302Z" creationid="deciia" creationdate="20180922T051302Z">
         <seg>我同意列出的条款</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>I am aware that GameMaker Beta may corrupt my projects</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091226Z" creationid="LiarOnce" creationdate="20220407T091226Z">
+        <seg>我知道 GameMaker Beta 可能会破坏我的项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -46538,6 +46690,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Learn coding through visual blocks.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091325Z" creationid="LiarOnce" creationdate="20220407T091325Z">
+        <seg>通过可视化块学习编码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Left</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170318T130557Z" creationid="deciia" creationdate="20170103T025127Z">
@@ -50266,6 +50426,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Note: This can be changed at any time</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091258Z" creationid="LiarOnce" creationdate="20220407T091258Z">
+        <seg>注意：此设置可随时更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Notes</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170313T144804Z" creationid="deciia" creationdate="20170103T114045Z">
@@ -51267,10 +51435,26 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Opt out of GameMaker Beta</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091235Z" creationid="LiarOnce" creationdate="20220407T091235Z">
+        <seg>选择退出 GameMaker Beta</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Opt out of GameMaker Studio 2 Beta</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T141722Z" creationid="lazyeo" creationdate="20191120T141722Z">
         <seg>选择退出 GameMaker Studio 2 Beta</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Opt-in to GameMaker Beta</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091228Z" creationid="LiarOnce" creationdate="20220407T091228Z">
+        <seg>选择加入GameMaker Beta</seg>
       </tuv>
     </tu>
     <tu>
@@ -54280,6 +54464,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T141951Z" creationid="liaronce" creationdate="20211105T141951Z">
         <seg>预览开始展开（？）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Preview the code behind your actions and convert to code at any time."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091330Z" creationid="LiarOnce" creationdate="20220407T091330Z">
+        <seg>预览操作背后的代码，并随时转换为代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -58662,6 +58854,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Scripting Preference</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091248Z" creationid="LiarOnce" creationdate="20220407T091248Z">
+        <seg>脚本首选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Scripts</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T114357Z" creationid="deciia" creationdate="20170103T114357Z">
@@ -59418,6 +59618,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140518Z" creationid="liaronce" creationdate="20191118T140518Z">
         <seg>选择在字形加载期间要执行的操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select the scripting language for your project:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091250Z" creationid="LiarOnce" creationdate="20220407T091250Z">
+        <seg>选择项目的脚本语言：</seg>
       </tuv>
     </tu>
     <tu>
@@ -68303,6 +68511,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T102215Z" creationid="lazyeo" creationdate="20191120T102215Z">
         <seg>这个选项将使您可以访问即将发布的GameMaker Studio 2的测试版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will grant you access to upcoming versions of GameMaker before they are released to production.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091221Z" creationid="LiarOnce" creationdate="20220407T091221Z">
+        <seg>这将允许您在即将发布的 GameMaker 版本投入生产之前访问它们。</seg>
       </tuv>
     </tu>
     <tu>
