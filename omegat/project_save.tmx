@@ -18726,6 +18726,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Align with velocity</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115015Z" creationid="LiarOnce" creationdate="20220527T115015Z">
+        <seg>与速度对齐</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Alignment</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142113Z" creationid="liaronce" creationdate="20191118T142113Z">
@@ -24266,6 +24274,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Choose Sound File</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114724Z" creationid="LiarOnce" creationdate="20220527T114724Z">
+        <seg>选择声音文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Choose a resize option</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T084949Z" creationid="deciia" creationdate="20180922T084949Z">
@@ -25254,6 +25270,38 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T073554Z" creationid="deciia" creationdate="20170102T073554Z">
         <seg>颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colour 1</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114956Z" creationid="LiarOnce" creationdate="20220527T114956Z">
+        <seg>颜色 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colour 2</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114957Z" creationid="LiarOnce" creationdate="20220527T114957Z">
+        <seg>颜色 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colour 3</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115000Z" creationid="LiarOnce" creationdate="20220527T114957Z">
+        <seg>颜色 3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colour 4</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114959Z" creationid="LiarOnce" creationdate="20220527T114959Z">
+        <seg>颜色 4</seg>
       </tuv>
     </tu>
     <tu>
@@ -37027,6 +37075,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GameMaker.io</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114812Z" creationid="LiarOnce" creationdate="20220527T114812Z">
+        <seg>GameMaker.io</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GameMaker:Player</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135309Z" creationid="liaronce" creationdate="20191117T135309Z">
@@ -44956,6 +45012,30 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>Initial rotation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115012Z" creationid="LiarOnce" creationdate="20220527T115012Z">
+        <seg>初始旋转</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Initial velocity x</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115006Z" creationid="LiarOnce" creationdate="20220527T115006Z">
+        <seg>初始速度 X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Initial velocity y</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115010Z" creationid="LiarOnce" creationdate="20220527T115010Z">
+        <seg>初始速度 Y</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>for循环的初值，译成初始化也不是不行，但是其它的都是两个字，统一一下比较好看。
 笔记可删除。</note>
       <tuv lang="en-US">
@@ -45491,6 +45571,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T053947Z" creationid="deciia" creationdate="20170107T053947Z">
         <seg>实例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Instances of this object will have its lifecycle managed during rollback multiplayer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114837Z" creationid="LiarOnce" creationdate="20220527T114837Z">
+        <seg>此物体的实例将在回滚多人游戏期间管理其生命周期</seg>
       </tuv>
     </tu>
     <tu>
@@ -47130,6 +47218,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Lifetime</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115020Z" creationid="LiarOnce" creationdate="20220527T115020Z">
+        <seg>始终</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Light</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T033247Z" creationid="deciia" creationdate="20170104T064922Z">
@@ -48082,6 +48178,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>Managed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114829Z" creationid="LiarOnce" creationdate="20220527T114829Z">
+        <seg>受管理</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>备注：UserLogin_NoneMessage：detailed error message for being in login 'none' state
 管理进入无状态？用户登录入一种没有用户的状态？</note>
       <tuv lang="en-US">
@@ -48211,6 +48315,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T030817Z" creationid="deciia" creationdate="20180922T030430Z">
         <seg>蒙版覆盖区域颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Mass</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114951Z" creationid="LiarOnce" creationdate="20220527T114951Z">
+        <seg>质量</seg>
       </tuv>
     </tu>
     <tu>
@@ -50650,6 +50762,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Number of particles</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114850Z" creationid="LiarOnce" creationdate="20220527T114850Z">
+        <seg>粒子数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Numbers</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T020356Z" creationid="deciia" creationdate="20180922T020356Z">
@@ -50926,6 +51046,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170224T003857Z" creationid="deciia" creationdate="20170224T003857Z">
         <seg>偏移</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Offset 1</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114840Z" creationid="LiarOnce" creationdate="20220527T114840Z">
+        <seg>偏移量 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Offset 2</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114843Z" creationid="LiarOnce" creationdate="20220527T114843Z">
+        <seg>偏移量 2</seg>
       </tuv>
     </tu>
     <tu>
@@ -58054,6 +58190,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Rotation speed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115013Z" creationid="LiarOnce" creationdate="20220527T115013Z">
+        <seg>旋转速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Rotation:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T101310Z" creationid="deciia" creationdate="20170102T101310Z">
@@ -64714,6 +64858,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Spawn Time</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114912Z" creationid="LiarOnce" creationdate="20220527T114912Z">
+        <seg>生成时间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spawn all at start</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114918Z" creationid="LiarOnce" creationdate="20220527T114918Z">
+        <seg>在开始时全部生成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Spawn another particle each update</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T132109Z" creationid="liaronce" creationdate="20200820T132109Z">
@@ -65131,6 +65291,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142000Z" creationid="liaronce" creationdate="20191118T142000Z">
         <seg>当前将精灵指定给 Tileset '{0}'，它不支持使用 Spine 或 SWF 精灵</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sprite scale</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114954Z" creationid="LiarOnce" creationdate="20220527T114954Z">
+        <seg>精灵比例</seg>
       </tuv>
     </tu>
     <tu>
@@ -71874,6 +72042,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Warmup Frames</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114949Z" creationid="LiarOnce" creationdate="20220527T114949Z">
+        <seg>预热帧</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Warning</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161223T081152Z" creationid="deciia" creationdate="20161223T081152Z">
@@ -72432,6 +72608,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T081855Z" creationid="deciia" creationdate="20180922T081855Z">
         <seg>Win UWP Tools 位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Windblown Particles (in-game only)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114849Z" creationid="LiarOnce" creationdate="20220527T114849Z">
+        <seg>被风吹来的微粒(仅限于游戏中)</seg>
       </tuv>
     </tu>
     <tu>
