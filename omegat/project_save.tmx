@@ -1350,6 +1350,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Check if a time source exists."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132739Z" creationid="LiarOnce" creationdate="20220527T132739Z">
+        <seg>“检查时间源是否存在。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Check if a time source's state satisfies a condition."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132751Z" creationid="LiarOnce" creationdate="20220527T132751Z">
+        <seg>“检查时间源的状态是否满足条件。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Check if a variable is or isn't undefined."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T120734Z">
@@ -4550,6 +4566,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get Children"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132713Z" creationid="LiarOnce" creationdate="20220527T132713Z">
+        <seg>"获取子级"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get Current Room"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T131527Z">
@@ -4686,6 +4710,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get Parent"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132614Z" creationid="LiarOnce" creationdate="20220527T132614Z">
+        <seg>“获取父级”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get Period"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115756Z" creationid="LiarOnce" creationdate="20220527T115756Z">
@@ -4750,6 +4782,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get State"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132558Z" creationid="LiarOnce" creationdate="20220527T132558Z">
+        <seg>“获取状态”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get Text Alignment"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T123059Z">
@@ -4802,6 +4842,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124520Z">
         <seg>"获取Tile 贴图地图变量"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Time Remaining"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132538Z" creationid="LiarOnce" creationdate="20220527T132538Z">
+        <seg>“获取剩余时间”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Units"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132532Z" creationid="LiarOnce" creationdate="20220527T132532Z">
+        <seg>“获取单位”</seg>
       </tuv>
     </tu>
     <tu>
@@ -5734,6 +5790,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get the children of a time source."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132724Z" creationid="LiarOnce" creationdate="20220527T132724Z">
+        <seg>“获取时间源的子级。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the children of time source ${idx} and assign it to ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132737Z" creationid="LiarOnce" creationdate="20220527T132731Z">
+        <seg>"获取时间源 ${idx} 的子级并将其分配给 ${var}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get the colour used to blend all drawing with."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T123053Z">
@@ -5754,6 +5826,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T122151Z">
         <seg>"获取虚拟键盘的当前像素高度(如果可见)。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the current state of a time source."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132559Z" creationid="LiarOnce" creationdate="20220527T132559Z">
+        <seg>“获取时间源的当前状态。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the current state of time source ${idx} and assign it to ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132605Z" creationid="LiarOnce" creationdate="20220527T132605Z">
+        <seg>“获取时间源 ${idx} 的当前状态并将其分配给 ${var}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -5870,6 +5958,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get the parent of a time source."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132615Z" creationid="LiarOnce" creationdate="20220527T132615Z">
+        <seg>“获取时间源的父级。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the parent of time source ${idx} and assign it to ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132622Z" creationid="LiarOnce" creationdate="20220527T132622Z">
+        <seg>“获取时间源 ${idx} 的父级并将其分配给 ${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get the period of a time source."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115757Z" creationid="LiarOnce" creationdate="20220527T115757Z">
@@ -5934,10 +6038,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get the time remaining on a time source."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132548Z" creationid="LiarOnce" creationdate="20220527T132548Z">
+        <seg>“获取时间源上的剩余时间。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the time remaining on time source ${idx} and assign it to ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132556Z" creationid="LiarOnce" creationdate="20220527T132556Z">
+        <seg>“获取时间源 ${idx} 的剩余时间并将其分配给 ${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get the transformation of tile data."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124557Z">
         <seg>"获取Tile 贴图数据的变换。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the units of a time source."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132534Z" creationid="LiarOnce" creationdate="20220527T132534Z">
+        <seg>“获取时间源的单位。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the units of time source ${idx} and assign it to ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132546Z" creationid="LiarOnce" creationdate="20220527T132534Z">
+        <seg>“获取时间源 ${idx} 的单位并将其分配给 ${var}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -8038,10 +8174,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"If State"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132749Z" creationid="LiarOnce" creationdate="20220527T132747Z">
+        <seg>“如果状态”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If Time Source Exists"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132738Z" creationid="LiarOnce" creationdate="20220527T132738Z">
+        <seg>“如果时间源存在”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"If Undefined"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T120732Z">
         <seg>"如果未定义"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If Units"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T134411Z" creationid="LiarOnce" creationdate="20220527T134411Z">
+        <seg>"如果单位"</seg>
       </tuv>
     </tu>
     <tu>
@@ -9430,6 +9590,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"If the state of time source ${idx} is ${state}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132803Z" creationid="LiarOnce" creationdate="20220527T132803Z">
+        <seg>如果时间源 ${idx} 的状态为 ${state}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If the state of time source ${idx} is not ${state}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132815Z" creationid="LiarOnce" creationdate="20220527T132815Z">
+        <seg>如果时间源 ${idx} 的状态不是 ${state}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker Studio 2 access.\nCheck any antivirus is not blocking GameMaker Studio 2 access.\nCheck any proxy or VPN is not blocking GameMaker Studio 2 access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134558Z" creationid="liaronce" creationdate="20210228T134558Z">
@@ -9474,6 +9650,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210304T132422Z">
         <seg>"如果这是最后一个房间"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If time source ${idx} does not exist"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132745Z" creationid="LiarOnce" creationdate="20220527T132745Z">
+        <seg>“如果时间源 ${idx} 不存在”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If time source ${idx} exists"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132743Z" creationid="LiarOnce" creationdate="20220527T132743Z">
+        <seg>“如果时间源 ${idx} 存在”</seg>
       </tuv>
     </tu>
     <tu>
