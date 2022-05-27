@@ -4686,6 +4686,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get Period"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115756Z" creationid="LiarOnce" creationdate="20220527T115756Z">
+        <seg>“获取点”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get Random Number"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T124952Z">
@@ -5810,6 +5818,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T130551Z">
         <seg>"获取一个列表中的项目数。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the period of a time source."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115757Z" creationid="LiarOnce" creationdate="20220527T115757Z">
+        <seg>“获取时间源的时间段。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the period of time source ${idx} and assign it to ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T120307Z" creationid="LiarOnce" creationdate="20220527T120307Z">
+        <seg>“获取时间源 ${idx} 并将其分配给 ${var} ”</seg>
       </tuv>
     </tu>
     <tu>
@@ -11006,6 +11030,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Reconfigure Time Source"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115746Z" creationid="LiarOnce" creationdate="20220527T115746Z">
+        <seg>“重新配置时间源”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Register File Associations"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T134726Z">
@@ -11154,6 +11186,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115604Z" creationid="LiarOnce" creationdate="20220527T115604Z">
         <seg>“重置时间源。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Reset and reconfigure a time source."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115748Z" creationid="LiarOnce" creationdate="20220527T115748Z">
+        <seg>“重置并重新配置时间源。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Reset and reconfigure time source ${idx}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115751Z" creationid="LiarOnce" creationdate="20220527T115751Z">
+        <seg>“重置并重新配置时间源 ${idx}”</seg>
       </tuv>
     </tu>
     <tu>
