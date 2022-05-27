@@ -24866,6 +24866,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Check Localised Strings</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144016Z" creationid="LiarOnce" creationdate="20220527T144016Z">
+        <seg>检查本地化字符串</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Check for publishing errors</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T202543Z" creationid="deciia" creationdate="20180922T202514Z">
@@ -29804,10 +29812,26 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Debug Tools</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144021Z" creationid="LiarOnce" creationdate="20220527T144021Z">
+        <seg>调试工具</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Debugger</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T064026Z" creationid="deciia" creationdate="20180922T064026Z">
         <seg>调试器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Debugger : Attach To Process</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144017Z" creationid="LiarOnce" creationdate="20220527T144017Z">
+        <seg>调试器：附加到进程</seg>
       </tuv>
     </tu>
     <tu>
@@ -36701,40 +36725,40 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>File Menu Import Project</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143808Z" creationid="LiarOnce" creationdate="20220527T143630Z">
-        <seg>文件菜单 导入项目</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144234Z" creationid="LiarOnce" creationdate="20220527T143630Z">
+        <seg>文件菜单- 导入项目</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>File Menu Logout</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143818Z" creationid="LiarOnce" creationdate="20220527T143815Z">
-        <seg>文件菜单注销</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144234Z" creationid="LiarOnce" creationdate="20220527T143815Z">
+        <seg>文件菜单-注销</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>File Menu My Account</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143814Z" creationid="LiarOnce" creationdate="20220527T143814Z">
-        <seg>文件菜单 我的帐户</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144234Z" creationid="LiarOnce" creationdate="20220527T143814Z">
+        <seg>文件菜单- 我的帐户</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>File Menu New IDE</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143656Z" creationid="LiarOnce" creationdate="20220527T143656Z">
-        <seg>文件菜单 新建IDE</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144234Z" creationid="LiarOnce" creationdate="20220527T143656Z">
+        <seg>文件菜单- 新建IDE</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>File Menu Recent Projects</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143637Z" creationid="LiarOnce" creationdate="20220527T143637Z">
-        <seg>文件菜单 最近的项目</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144234Z" creationid="LiarOnce" creationdate="20220527T143637Z">
+        <seg>文件菜单- 最近的项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -42768,6 +42792,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>IDEMenu Audiogroups</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144134Z" creationid="LiarOnce" creationdate="20220527T143957Z">
+        <seg>IDEMenu-音频组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>IDEMenu Help About</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143757Z" creationid="LiarOnce" creationdate="20220527T143629Z">
@@ -42868,6 +42900,46 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143757Z" creationid="LiarOnce" creationdate="20220527T143620Z">
         <seg>IDE菜单帮助-YYG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Load Layout</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144207Z" creationid="LiarOnce" creationdate="20220527T144011Z">
+        <seg>IDEMenu-加载布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Reset Layout</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144209Z" creationid="LiarOnce" creationdate="20220527T144012Z">
+        <seg>IDEMenu-重置布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Save Layout</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144206Z" creationid="LiarOnce" creationdate="20220527T144010Z">
+        <seg>IDEMenu-保存布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Sound Mixer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144152Z" creationid="LiarOnce" creationdate="20220527T144001Z">
+        <seg>IDEMenu-混音器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Texturepage</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144133Z" creationid="LiarOnce" creationdate="20220527T143955Z">
+        <seg>IDEMenu-纹理页面</seg>
       </tuv>
     </tu>
     <tu>
@@ -50117,6 +50189,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Marketplace Create Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143953Z" creationid="LiarOnce" creationdate="20220527T143953Z">
+        <seg>市场创建包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Marketplace Go</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143936Z" creationid="LiarOnce" creationdate="20220527T143917Z">
@@ -50135,8 +50215,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Marketplace Purchase History</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143933Z" creationid="LiarOnce" creationdate="20220527T143933Z">
-        <seg>Marketplace 购买历史</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143949Z" creationid="LiarOnce" creationdate="20220527T143933Z">
+        <seg>市场购买历史</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Marketplace Update Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143951Z" creationid="LiarOnce" creationdate="20220527T143951Z">
+        <seg>市场更新包</seg>
       </tuv>
     </tu>
     <tu>
@@ -54495,6 +54583,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Package Create Local Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144004Z" creationid="LiarOnce" creationdate="20220527T144004Z">
+        <seg>包创建本地包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Package Details:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T121304Z" creationid="deciia" creationdate="20170311T121304Z">
@@ -54555,6 +54651,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T083522Z" creationid="deciia" creationdate="20170103T083522Z">
         <seg>程序包 ID:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Package Import Local Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144009Z" creationid="LiarOnce" creationdate="20220527T144009Z">
+        <seg>包导入本地包</seg>
       </tuv>
     </tu>
     <tu>
@@ -60918,6 +61022,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Runtime Paths</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144024Z" creationid="LiarOnce" creationdate="20220527T144020Z">
+        <seg>运行库路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Runtime Selection</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T103417Z" creationid="deciia" creationdate="20170105T103417Z">
@@ -66272,6 +66384,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Show Debug Panel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144013Z" creationid="LiarOnce" creationdate="20220527T144013Z">
+        <seg>显示调试面板</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Show Dialog</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T101104Z" creationid="deciia" creationdate="20170105T101104Z">
@@ -66324,6 +66444,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T081110Z" creationid="deciia" creationdate="20170105T081110Z">
         <seg>显示密钥哈希</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Show Keyboard/Mouse State</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144015Z" creationid="LiarOnce" creationdate="20220527T144015Z">
+        <seg>显示键盘/鼠标状态</seg>
       </tuv>
     </tu>
     <tu>
@@ -68532,8 +68660,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Start page failed to load.\nYou can create new projects from the File menu.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T025046Z" creationid="deciia" creationdate="20170104T025046Z">
-        <seg>起始页加载失败。\n你可以从文件菜单创建新项目。</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144234Z" creationid="deciia" creationdate="20170104T025046Z">
+        <seg>起始页加载失败。\n你可以从文件菜单-创建新项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -73781,6 +73909,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Undo History</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144019Z" creationid="LiarOnce" creationdate="20220527T144019Z">
+        <seg>撤消历史记录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Undo/Redo stack limit (&lt;0 unlimited)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T090807Z" creationid="deciia" creationdate="20170105T063555Z">
@@ -74237,6 +74373,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use Debug Asset Compiler</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144031Z" creationid="LiarOnce" creationdate="20220527T144031Z">
+        <seg>使用调试资源编译器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use Debug Runner</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144102Z" creationid="LiarOnce" creationdate="20220527T144054Z">
+        <seg>使用调试 Runner</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use Default</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T071013Z" creationid="deciia" creationdate="20170105T071013Z">
@@ -74333,10 +74485,42 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use Release Asset Compiler</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144046Z" creationid="LiarOnce" creationdate="20220527T144035Z">
+        <seg>使用发布资源编译器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use Release Runner</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144108Z" creationid="LiarOnce" creationdate="20220527T144057Z">
+        <seg>使用发布 Runner</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use RoboHelp</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133433Z" creationid="liaronce" creationdate="20200820T133433Z">
         <seg>使用 RoboHelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use Runtime Asset Compiler</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144052Z" creationid="LiarOnce" creationdate="20220527T144048Z">
+        <seg>使用运行库资产编译器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use Runtime Runner</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144131Z" creationid="LiarOnce" creationdate="20220527T144131Z">
+        <seg>使用运行库 Runner</seg>
       </tuv>
     </tu>
     <tu>
@@ -75138,6 +75322,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Views Menu Image Generator</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144203Z" creationid="LiarOnce" creationdate="20220527T144003Z">
+        <seg>视图菜单图像生成器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Views Menu Inspector</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143900Z" creationid="LiarOnce" creationdate="20220527T143900Z">
@@ -75164,8 +75356,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Views Menu Recent Windows</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143903Z" creationid="LiarOnce" creationdate="20220527T143903Z">
-        <seg>“视图”菜单“最近的窗口”</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144200Z" creationid="LiarOnce" creationdate="20220527T143903Z">
+        <seg>视图菜单最近的窗口</seg>
       </tuv>
     </tu>
     <tu>
