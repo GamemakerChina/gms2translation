@@ -10062,6 +10062,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"No DNS IP specified - the runtime feeds will be resolved against a system DNS"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115219Z" creationid="LiarOnce" creationdate="20220527T115219Z">
+        <seg>“未指定 DNS IP - 将根据系统dns解析运行库 Feed”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"No Scale"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T104848Z" creationid="liaronce" creationdate="20210228T104848Z">
@@ -10246,10 +10254,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Parent"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115329Z" creationid="LiarOnce" creationdate="20220527T115329Z">
+        <seg>"父级"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Particles"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T120522Z">
         <seg>"粒子"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Path is too long: '{0}'."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115247Z" creationid="LiarOnce" creationdate="20220527T115247Z">
+        <seg>“路径太长：'{0}'。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -14814,6 +14838,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Time Source"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115320Z" creationid="LiarOnce" creationdate="20220527T115320Z">
+        <seg>"时间来源"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Time"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115311Z" creationid="LiarOnce" creationdate="20220527T115311Z">
+        <seg>"时间"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Timeline Moments: {0}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T114621Z">
@@ -16898,6 +16938,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140339Z" creationid="liaronce" creationdate="20200820T140339Z">
         <seg>单通道动画曲线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A system DNS has been used</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115157Z" creationid="LiarOnce" creationdate="20220527T115157Z">
+        <seg>已使用系统 DNS</seg>
       </tuv>
     </tu>
     <tu>
@@ -19002,6 +19050,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T055731Z" creationid="deciia" creationdate="20170105T032234Z">
         <seg>交替同步法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Alternative DNS IP</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115133Z" creationid="LiarOnce" creationdate="20220527T115133Z">
+        <seg>备用 DNS IP</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Alternative DNS has been disabled</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115146Z" creationid="LiarOnce" creationdate="20220527T115146Z">
+        <seg>备用 DNS 已被禁用</seg>
       </tuv>
     </tu>
     <tu>
@@ -22090,6 +22154,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Blower</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115059Z" creationid="LiarOnce" creationdate="20220527T115059Z">
+        <seg>鼓风机</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Blue</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T105134Z" creationid="deciia" creationdate="20170105T105134Z">
@@ -22966,6 +23038,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T131809Z" creationid="deciia" creationdate="20170103T131809Z">
         <seg>相机属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Camera offset scale</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115054Z" creationid="LiarOnce" creationdate="20220527T115054Z">
+        <seg>相机偏移比例</seg>
       </tuv>
     </tu>
     <tu>
@@ -27005,6 +27085,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Could not load project at specified path: {0}.\nYou may not have permission to load here.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115255Z" creationid="LiarOnce" creationdate="20220527T115255Z">
+        <seg>无法在指定路径加载项目：{0}。\n您可能没有在此处加载的权限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Could not process Keystore; may be corrupt or have incorrect password</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T013627Z" creationid="deciia" creationdate="20170629T025304Z">
@@ -27017,6 +27105,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124652Z" creationid="liaronce" creationdate="20220202T124652Z">
         <seg>无法访问 RSS 源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Could not resolve {0} with an alternative DNS.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115152Z" creationid="LiarOnce" creationdate="20220527T115152Z">
+        <seg>无法使用备用 DNS 解析 {0}。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28572,6 +28668,30 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>DNS resolving has failed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115149Z" creationid="LiarOnce" creationdate="20220527T115149Z">
+        <seg>DNS 解析已失败</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DNS resolving test has failed with the current settings.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115142Z" creationid="LiarOnce" creationdate="20220527T115142Z">
+        <seg>当前设置的 DNS 解析测试失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DNS test has failed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115136Z" creationid="LiarOnce" creationdate="20220527T115136Z">
+        <seg>DNS 测试失败</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>DPI override changes requires a restart of the IDE.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T202847Z" creationid="deciia" creationdate="20170311T162830Z">
@@ -29725,6 +29845,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Dest blend</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115030Z" creationid="LiarOnce" creationdate="20220527T115030Z">
+        <seg>目标混合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Destination Width</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170221T034804Z" creationid="36011" creationdate="20170221T034804Z">
@@ -30681,6 +30809,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T123001Z" creationid="deciia" creationdate="20170215T151424Z">
         <seg>产生特效</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do Not Embed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115109Z" creationid="LiarOnce" creationdate="20220527T115109Z">
+        <seg>不嵌入</seg>
       </tuv>
     </tu>
     <tu>
@@ -31843,6 +31979,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Draw trails only</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115032Z" creationid="LiarOnce" creationdate="20220527T115032Z">
+        <seg>仅绘制轨迹</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Draw transformed ${caption}" ${var} at ${dnd_position} on ${applyto}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T005951Z" creationid="liaronce" creationdate="20200820T151821Z">
@@ -32796,6 +32940,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Embed &amp; Sign</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115120Z" creationid="LiarOnce" creationdate="20220527T115120Z">
+        <seg>嵌入并签名(&amp;S)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Embed Animation Curve</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141708Z" creationid="liaronce" creationdate="20200820T141708Z">
@@ -32808,6 +32960,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115525Z" creationid="liaronce" creationdate="20201124T115525Z">
         <seg>嵌入曲线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Embed Without Signing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115125Z" creationid="LiarOnce" creationdate="20220527T115125Z">
+        <seg>嵌入但不签名</seg>
       </tuv>
     </tu>
     <tu>
@@ -33419,6 +33579,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T085837Z" creationid="deciia" creationdate="20180922T032838Z">
         <seg>启用彩色代码（语法高亮）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable debug mode</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115056Z" creationid="LiarOnce" creationdate="20220527T115056Z">
+        <seg>启用调试模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -36123,6 +36291,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T145133Z" creationid="deciia" creationdate="20170105T025316Z">
         <seg>强制使用软件的顶点处理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Force grid resolution</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115047Z" creationid="LiarOnce" creationdate="20220527T115047Z">
+        <seg>强制网格分辨率</seg>
       </tuv>
     </tu>
     <tu>
@@ -41092,6 +41268,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T195937Z" creationid="deciia" creationdate="20180922T195937Z">
         <seg>IDE 缓存目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDE font</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115250Z" creationid="LiarOnce" creationdate="20220527T115250Z">
+        <seg>IDE 字体</seg>
       </tuv>
     </tu>
     <tu>
@@ -48990,6 +49174,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Min segment length</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115045Z" creationid="LiarOnce" creationdate="20220527T115045Z">
+        <seg>最小数据段长度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Minimize</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T045725Z" creationid="deciia" creationdate="20170104T045725Z">
@@ -50466,6 +50658,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>No project is loaded.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115252Z" creationid="LiarOnce" creationdate="20220527T115252Z">
+        <seg>未加载任何项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>No resources to add</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T160817Z" creationid="deciia" creationdate="20170311T160817Z">
@@ -50758,6 +50958,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T025110Z" creationid="deciia" creationdate="20170104T025110Z">
         <seg>帧数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Number of blowers</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115051Z" creationid="LiarOnce" creationdate="20220527T115051Z">
+        <seg>鼓风机数量</seg>
       </tuv>
     </tu>
     <tu>
@@ -52727,6 +52935,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Particle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115057Z" creationid="LiarOnce" creationdate="20220527T115057Z">
+        <seg>粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Particle Count</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133109Z" creationid="liaronce" creationdate="20200820T133109Z">
@@ -52779,6 +52995,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131108Z" creationid="liaronce" creationdate="20200820T131108Z">
         <seg>粒子类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Particle drag</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115055Z" creationid="LiarOnce" creationdate="20220527T115055Z">
+        <seg>粒子阻力</seg>
       </tuv>
     </tu>
     <tu>
@@ -54450,6 +54674,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Pos</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115107Z" creationid="LiarOnce" creationdate="20220527T115107Z">
+        <seg>位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Position</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T100806Z" creationid="deciia" creationdate="20170102T100806Z">
@@ -55824,6 +56056,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124308Z" creationid="liaronce" creationdate="20220202T124303Z">
         <seg>从服务器接收游戏大小限制......</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Receiving game size limit from a server...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115127Z" creationid="LiarOnce" creationdate="20220527T115127Z">
+        <seg>正在从服务器接收游戏大小限制...</seg>
       </tuv>
     </tu>
     <tu>
@@ -59338,6 +59578,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133924Z" creationid="liaronce" creationdate="20200820T133924Z">
         <seg>在首选项中搜索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Search in Redefine Keys</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115243Z" creationid="LiarOnce" creationdate="20220527T115243Z">
+        <seg>在重定义键位中搜索</seg>
       </tuv>
     </tu>
     <tu>
@@ -64808,6 +65056,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Source blend</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115029Z" creationid="LiarOnce" creationdate="20220527T115029Z">
+        <seg>源混合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Space</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170114T033039Z" creationid="36011" creationdate="20170114T033039Z">
@@ -64886,6 +65142,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T132105Z" creationid="liaronce" creationdate="20200820T132105Z">
         <seg>当这个粒子死亡时生成另一个粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spawn border margin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115027Z" creationid="LiarOnce" creationdate="20220527T115027Z">
+        <seg>生成边框边距</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spawn chance</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115038Z" creationid="LiarOnce" creationdate="20220527T115038Z">
+        <seg>生成机会</seg>
       </tuv>
     </tu>
     <tu>
@@ -65948,6 +66220,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Stop the current running project before creating the executable?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115303Z" creationid="LiarOnce" creationdate="20220527T115303Z">
+        <seg>是否在创建可执行文件之前停止当前正在运行的项目？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Stop the current running project before running again?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T201930Z" creationid="deciia" creationdate="20170105T083903Z">
@@ -67004,6 +67284,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161224T075725Z" creationid="deciia" creationdate="20161224T075725Z">
         <seg>测试用布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Testing DNS...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115222Z" creationid="LiarOnce" creationdate="20220527T115222Z">
+        <seg>正在测试 DNS...</seg>
       </tuv>
     </tu>
     <tu>
@@ -68365,6 +68653,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T074536Z" creationid="lazyeo" creationdate="20191120T074536Z">
         <seg>这些选项可以自定义字体显示方式 \n 不同字体对这些选项的呈现方式通常不一样</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Thickness</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115042Z" creationid="LiarOnce" creationdate="20220527T115042Z">
+        <seg>厚度</seg>
       </tuv>
     </tu>
     <tu>
@@ -69949,6 +70245,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Trail</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115058Z" creationid="LiarOnce" creationdate="20220527T115058Z">
+        <seg>小径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Transform</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140113Z" creationid="liaronce" creationdate="20200820T140113Z">
@@ -70909,6 +71213,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Update skip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115023Z" creationid="LiarOnce" creationdate="20220527T115023Z">
+        <seg>更新跳过</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Update the extension name</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T142849Z" creationid="deciia" creationdate="20170311T142849Z">
@@ -71017,6 +71329,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010402Z" creationid="deciia" creationdate="20170311T121208Z">
         <seg>使用 Alpha 值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use Alternative DNS</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115128Z" creationid="LiarOnce" creationdate="20220527T115128Z">
+        <seg>使用备用 DNS</seg>
       </tuv>
     </tu>
     <tu>
@@ -72608,6 +72928,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T081855Z" creationid="deciia" creationdate="20180922T081855Z">
         <seg>Win UWP Tools 位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Wind force</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115049Z" creationid="LiarOnce" creationdate="20220527T115049Z">
+        <seg>风力</seg>
       </tuv>
     </tu>
     <tu>
