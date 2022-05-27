@@ -21237,8 +21237,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Asset Browser Config Editor</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145618Z" creationid="LiarOnce" creationdate="20220527T145618Z">
-        <seg>资产浏览器-配置编辑器</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150119Z" creationid="LiarOnce" creationdate="20220527T145618Z">
+        <seg>资源浏览器-配置编辑器</seg>
       </tuv>
     </tu>
     <tu>
@@ -23310,6 +23310,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T070112Z" creationid="deciia" creationdate="20170212T042156Z">
         <seg>跳出一个循环。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Breakpoint Menu Toggle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150015Z" creationid="LiarOnce" creationdate="20220527T150015Z">
+        <seg>断点菜单切换</seg>
       </tuv>
     </tu>
     <tu>
@@ -36723,6 +36731,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Feather Lint Messages Show</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145937Z" creationid="LiarOnce" creationdate="20220527T145937Z">
+        <seg>羽毛线条消息显示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Feather Messages</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124751Z" creationid="liaronce" creationdate="20220202T124751Z">
@@ -46044,6 +46060,46 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Image Editor Add From File</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150036Z" creationid="LiarOnce" creationdate="20220527T150036Z">
+        <seg>图像编辑器从文件添加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Image Editor Create From Strip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150106Z" creationid="LiarOnce" creationdate="20220527T150037Z">
+        <seg>图像编辑器-从条带创建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Image Editor Export To PNG</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150050Z" creationid="LiarOnce" creationdate="20220527T150050Z">
+        <seg>图像编辑器导出为PNG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Image Editor Import From Strip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150102Z" creationid="LiarOnce" creationdate="20220527T150038Z">
+        <seg>图像编辑器-从条带导入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Image Editor Resize Canvas</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150051Z" creationid="LiarOnce" creationdate="20220527T150051Z">
+        <seg>图像编辑器调整画布大小</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Image Editor: {0}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T101141Z" creationid="deciia" creationdate="20170102T101141Z">
@@ -53172,7 +53228,7 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Object Editor</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20170318T134450Z" creationid="36011" creationdate="20170112T032034Z">
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145856Z" creationid="36011" creationdate="20170112T032034Z">
         <seg>物体编辑器</seg>
       </tuv>
     </tu>
@@ -53180,7 +53236,7 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Object Editor Add Event</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145659Z" creationid="LiarOnce" creationdate="20220527T145659Z">
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145846Z" creationid="LiarOnce" creationdate="20220527T145659Z">
         <seg>物体编辑器-添加事件</seg>
       </tuv>
     </tu>
@@ -53188,112 +53244,112 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Object Editor Change Event</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145734Z" creationid="LiarOnce" creationdate="20220527T145734Z">
-        <seg>物体编辑器更改事件</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145846Z" creationid="LiarOnce" creationdate="20220527T145734Z">
+        <seg>物体编辑器-更改事件</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Object Editor Convert Event Type</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145738Z" creationid="LiarOnce" creationdate="20220527T145738Z">
-        <seg>物体编辑器转换事件类型</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145846Z" creationid="LiarOnce" creationdate="20220527T145738Z">
+        <seg>物体编辑器-转换事件类型</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Object Editor Copy Event</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145720Z" creationid="LiarOnce" creationdate="20220527T145720Z">
-        <seg>物体编辑器复制事件</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145846Z" creationid="LiarOnce" creationdate="20220527T145720Z">
+        <seg>物体编辑器-复制事件</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Object Editor Copy Event Win</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144928Z" creationid="LiarOnce" creationdate="20220527T142244Z">
-        <seg>物体编辑器-复制事件窗口</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145846Z" creationid="LiarOnce" creationdate="20220527T142244Z">
+        <seg>物体编辑器--复制事件窗口</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Object Editor Cut Event</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145715Z" creationid="LiarOnce" creationdate="20220527T145715Z">
-        <seg>物体编辑器剪切事件</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145846Z" creationid="LiarOnce" creationdate="20220527T145715Z">
+        <seg>物体编辑器-剪切事件</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Object Editor Cut Event Win</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T142250Z" creationid="LiarOnce" creationdate="20220527T142250Z">
-        <seg>物体编辑器剪切事件窗口</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145846Z" creationid="LiarOnce" creationdate="20220527T142250Z">
+        <seg>物体编辑器-剪切事件窗口</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Object Editor Delete Event</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145741Z" creationid="LiarOnce" creationdate="20220527T145741Z">
-        <seg>物体编辑器删除事件</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145846Z" creationid="LiarOnce" creationdate="20220527T145741Z">
+        <seg>物体编辑器-删除事件</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Object Editor Duplicate Event</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145729Z" creationid="LiarOnce" creationdate="20220527T145729Z">
-        <seg>物体编辑器重复事件</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145846Z" creationid="LiarOnce" creationdate="20220527T145729Z">
+        <seg>物体编辑器-重复事件</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Object Editor Inherit Parent Event</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145744Z" creationid="LiarOnce" creationdate="20220527T145744Z">
-        <seg>对象编辑器继承父事件</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145957Z" creationid="LiarOnce" creationdate="20220527T145744Z">
+        <seg>物体编辑器-继承父事件</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Object Editor Open Parent Object</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145709Z" creationid="LiarOnce" creationdate="20220527T145709Z">
-        <seg>物体编辑器打开父对象</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145846Z" creationid="LiarOnce" creationdate="20220527T145709Z">
+        <seg>物体编辑器-打开父对象</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Object Editor Override Parent Event</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145746Z" creationid="LiarOnce" creationdate="20220527T145746Z">
-        <seg>对象编辑器覆盖父事件</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145957Z" creationid="LiarOnce" creationdate="20220527T145746Z">
+        <seg>物体编辑器-覆盖父事件</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Object Editor Paste Event</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145725Z" creationid="LiarOnce" creationdate="20220527T145725Z">
-        <seg>物体编辑器粘贴事件</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145846Z" creationid="LiarOnce" creationdate="20220527T145725Z">
+        <seg>物体编辑器-粘贴事件</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Object Editor Paste Event Win</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144919Z" creationid="LiarOnce" creationdate="20220527T142235Z">
-        <seg>物体编辑器-粘贴事件窗口</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145846Z" creationid="LiarOnce" creationdate="20220527T142235Z">
+        <seg>物体编辑器--粘贴事件窗口</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Object Editor View Parent Event</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145703Z" creationid="LiarOnce" creationdate="20220527T145703Z">
-        <seg>物体编辑器查看父事件</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145846Z" creationid="LiarOnce" creationdate="20220527T145703Z">
+        <seg>物体编辑器-查看父事件</seg>
       </tuv>
     </tu>
     <tu>
@@ -60854,10 +60910,26 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Room Editor New Asset Layer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150006Z" creationid="LiarOnce" creationdate="20220527T150006Z">
+        <seg>文件室编辑器新资源层</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Room Editor New Background Layer</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145811Z" creationid="LiarOnce" creationdate="20220527T145811Z">
         <seg>房间编辑器新背景层</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Room Editor New Folder</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150011Z" creationid="LiarOnce" creationdate="20220527T150011Z">
+        <seg>房间编辑器新文件夹</seg>
       </tuv>
     </tu>
     <tu>
@@ -60872,16 +60944,16 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Room Editor New Path Layer</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145815Z" creationid="LiarOnce" creationdate="20220527T145815Z">
-        <seg>文件室编辑器新建路径图层</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145825Z" creationid="LiarOnce" creationdate="20220527T145815Z">
+        <seg>房间编辑器新路径层</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Room Editor New Tile Layer</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145813Z" creationid="LiarOnce" creationdate="20220527T145813Z">
-        <seg>聊天室编辑器新建瓷砖层</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145818Z" creationid="LiarOnce" creationdate="20220527T145813Z">
+        <seg>房间编辑器新平铺层</seg>
       </tuv>
     </tu>
     <tu>
@@ -63422,6 +63494,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144651Z" creationid="LiarOnce" creationdate="20220527T140251Z">
         <seg>序列-删除退格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Dope Sheet Timeline Frames</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150023Z" creationid="LiarOnce" creationdate="20220527T150023Z">
+        <seg>序列摄影表时间轴帧</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Dope Sheet Timeline Time</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150026Z" creationid="LiarOnce" creationdate="20220527T150026Z">
+        <seg>序列摄影表时间线时间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145900Z" creationid="LiarOnce" creationdate="20220527T145900Z">
+        <seg>序列编辑器</seg>
       </tuv>
     </tu>
     <tu>
@@ -66564,6 +66660,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Shader Change Shader Type</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150028Z" creationid="LiarOnce" creationdate="20220527T150028Z">
+        <seg>着色器更改着色器类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Shader Naming Rule</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124913Z" creationid="liaronce" creationdate="20220202T124913Z">
@@ -66576,6 +66680,38 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T051749Z" creationid="deciia" creationdate="20170107T051749Z">
         <seg>着色器类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Shader Type GLSL</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150031Z" creationid="LiarOnce" creationdate="20220527T150031Z">
+        <seg>着色器类型GLSL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Shader Type GLSLES</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150030Z" creationid="LiarOnce" creationdate="20220527T150030Z">
+        <seg>着色器类型GLSLES</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Shader Type HLSL11</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150032Z" creationid="LiarOnce" creationdate="20220527T150032Z">
+        <seg>着色器类型HLSL11</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Shader Type PSSL</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150034Z" creationid="LiarOnce" creationdate="20220527T150034Z">
+        <seg>着色器类型 PSSL</seg>
       </tuv>
     </tu>
     <tu>
@@ -70648,6 +70784,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Text Editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145901Z" creationid="LiarOnce" creationdate="20220527T145901Z">
+        <seg>文本编辑器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Text Editor Clear</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145412Z" creationid="LiarOnce" creationdate="20220527T145412Z">
@@ -70676,6 +70820,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T075358Z" creationid="deciia" creationdate="20170102T075358Z">
         <seg>文本编辑器面板</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Text Editor Panel Convert To Dn D</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150020Z" creationid="LiarOnce" creationdate="20220527T150020Z">
+        <seg>文本编辑器面板转换为DnD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Text Editor Regions Menu</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T150013Z" creationid="LiarOnce" creationdate="20220527T150013Z">
+        <seg>文本编辑器区域菜单</seg>
       </tuv>
     </tu>
     <tu>
@@ -72915,6 +73075,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Tileset Editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145909Z" creationid="LiarOnce" creationdate="20220527T145909Z">
+        <seg>Tiie 贴图集编辑器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Tilesets</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T033316Z">
@@ -73271,6 +73439,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144547Z" creationid="LiarOnce" creationdate="20220527T140139Z">
         <seg>切换-插入/覆盖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Toggle Macro Editing Mode</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145941Z" creationid="LiarOnce" creationdate="20220527T145941Z">
+        <seg>切换-宏编辑模式</seg>
       </tuv>
     </tu>
     <tu>
