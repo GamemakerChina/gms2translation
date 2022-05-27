@@ -373,6 +373,8 @@ Event_Other_AnimationEnd,Animation End,Animation End,,Other event subtype
 Event_Other_AnimationEvent,Animation Event,Animation Event,,Other event subtype
 Event_Other_AnimationUpdate,Animation Update,Animation Update,,Other event subtype
 Event_Other_BroadcastMessage,Broadcast Message,Broadcast Message,,Other event subtype
+Event_Other_RollbackStart,Rollback Start,Rollback Start,,Other event subtype
+Event_Other_RollbackEvent,Rollback Event,Rollback Event,,Other event subtype
 Event_Other_EndOfPath,Path Ended,Path Ended,,Other event subtype
 Event_Other_GameEnd,Game End,Game End,,Other event subtype
 Event_Other_GameStart,Game Start,Game Start,,Other event subtype
@@ -559,6 +561,16 @@ Inspector_OpenEditors,Open Editors,Open Editors,,open multiple editors
 Inspector_Category_Properties,Properties,Properties,,inspector category
 Inspector_Category_Editors,Editors,Editors,,inspector category
 Inspector_Category_Channels,Channels,Channels,,inspector category
+Inspector_Category_Attributes,Attributes,Attributes,,inspector category
+Inspector_Category_TargetOptions,Target Options,Target Options,,inspector category
+Inspector_Category_AudioGroup,Audio Group,Audio Group,,inspector category
+Inspector_BitRate,Bit Rate (kbps),Bit Rate (kbps),,Inspector Target Bit Rate ( in kbps )
+Inspector_SoundOutput,Output,Output,,inspector property label
+Inspector_SoundQuality,Quality,Quality,,inspector property label
+Inspector_SampleRate,Sample Rate,Sample Rate,,inspector property label
+Inspector_Group,Group,Group,,inspector property label
+Inspector_OpenSoundMixer,Open Group Mixer,Open Group Mixer,,inspector open sound group mixer
+Inspector_SoundChoose,Choose Sound File,Choose Sound File,,sound inspector choose sound file
 Inspector_Field_Width,W,W,,inspector field labelSelect
 Inspector_Field_Height,H,H,,inspector field label
 Inspector_Field_WidthC,W:,W:,,inspector field label
@@ -804,7 +816,7 @@ IDEMenu_Views,${IDEMenuViews},${IDEMenuViews},,Main menu entry for views
 IDEMenu_Tools,Tools,Tools,,Main menu entry for tools
 IDEMenu_Help,Help,Help,,Main menu entry for HELP
 IDEMenu_Help_SupportForum,Support Forums,Support Forums,,Help menu item for support forums
-IDEMenu_Help_YYG,YoYoGames.com,YoYoGames.com,,Help menu item for main yoyogames website
+IDEMenu_Help_YYG,GameMaker.io,GameMaker.io,,Help menu item for main yoyogames website
 IDEMenu_Help_GMC,GameMaker Community,GameMaker Community,,Help menu item for gmc forums
 IDEMenu_Help_BetaForums,Mac Closed beta forums,Mac Closed beta forums,,Closed beta forums for Mac
 IDEMenu_Help_SDKS,Required SDKs,Required SDKs,,Help menu item for the required sdks page
@@ -1319,6 +1331,8 @@ Object_UsesPhysics,Uses Physics,Uses Physics,,"Object Model ""uses physics"" pro
 Object_UsesPhysics_Tooltip,Instances use physics processing when in a room with 'Enable Physics' checked,Instances use physics processing when in a room with 'Enable Physics' checked,,object editor uses physics tooltip
 Object_Visible,Visible,Visible,,"Object Model ""visible"" property"
 Object_Visible_Tooltip,"When unchecked, instances of this object will still be processed, but will not be drawn","When unchecked, instances of this object will still be processed, but will not be drawn",,object editor visible property tooltip
+Object_Managed,Managed,Managed,,The object is managed by the rollback system
+Object_Managed_Tooltip,Instances of this object will have its lifecycle managed during rollback multiplayer,Instances of this object will have its lifecycle managed during rollback multiplayer,,The object is managed by rollback system (tooltip)
 ObjectEdior_PhysicsShape_ZoomIn,Zoom in,Zoom in,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomOut,Zoom out,Zoom out,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomReset,Reset zoom,Reset zoom,,Object editor physics window label
@@ -1676,9 +1690,9 @@ ROOM_EFFECTS_Distort 1 Scale,Distort 1 Scale,Distort 1 Scale,,distort 1 scale pa
 ROOM_EFFECTS_Distort 2 Scale,Distort 2 Scale,Distort 2 Scale,,distort 2 scale param
 ROOM_EFFECTS_Distort 1 Amount,Distort 1 Amount,Distort 1 Amount,,distort 1 amount param
 ROOM_EFFECTS_Distort 2 Amount,Distort 2 Amount,Distort 2 Amount,,distort 2 amount param
+ROOM_EFFECTS_Distort Texture,Distort Texture,Distort Texture,,distort texture param
 ROOM_EFFECTS_Chroma Spread,Chroma Spread,Chroma Spread,,chroma spread param
 ROOM_EFFECTS_Camera Offset Scale,Camera Offset Scale,Camera Offset Scale,,camera offset scale param
-ROOM_EFFECTS_Distort Texture,Distort Texture,Distort Texture,,distort texture param
 ROOM_EFFECTS_filter_posterise,Posterise,Posterise,,posterise filter name
 ROOM_EFFECTS_Colour Levels,Colour Levels,Colour Levels,,colour levels param
 ROOM_EFFECTS_filter_tintfilter,Colour Tint,Colour Tint,,colour tint filter name
@@ -1699,6 +1713,8 @@ ROOM_EFFECTS_filter_distort,Distort,Distort,,distort filter name
 ROOM_EFFECTS_Scale,Scale,Scale,,scale filter param
 ROOM_EFFECTS_Amount,Amount,Amount,,amount filter param
 ROOM_EFFECTS_Offset,Offset,Offset,,offset filter param
+ROOM_EFFECTS_Offset_0,Offset 1,Offset 1,,offset filter param
+ROOM_EFFECTS_Offset_1,Offset 2,Offset 2,,offset filter param
 ROOM_EFFECTS_filter_twirl_distort,Twirl Distort,Twirl Distort,,twirl distort filter name
 ROOM_EFFECTS_Angle,Angle,Angle,,angle filter param
 ROOM_EFFECTS_filter_dots,Dots Background,Dots Background,,dots backgroundfilter name
@@ -1722,6 +1738,77 @@ ROOM_EFFECTS_Wave Scale,Wave Scale,Wave Scale,,wave scale param name
 ROOM_EFFECTS_Wave Amplitude,Wave Amplitude,Wave Amplitude,,wave amplitude param name
 ROOM_EFFECTS_filter_whitenoise,White Noise,White Noise,,white noise filter name
 ROOM_EFFECTS_Animation,Animation,Animation,,animation param name
+ROOM_EFFECTS_effect_windblown_particles,Windblown Particles (in-game only),Windblown Particles (in-game only),,Windblown particles effect name
+ROOM_EFFECTS_Sprite,Sprite,Sprite,,sprite param name
+ROOM_EFFECTS_Number of particles,Number of particles,Number of particles,,number of particles param name
+ROOM_EFFECTS_Spawn time,Spawn Time,Spawn Time,,spawn time param name
+ROOM_EFFECTS_Spawn all at start,Spawn all at start,Spawn all at start,,spawn all at start param name
+ROOM_EFFECTS_Warmup frames,Warmup Frames,Warmup Frames,,warmup Frames param name
+ROOM_EFFECTS_Particle mass,Mass,Mass,,mass param name
+ROOM_EFFECTS_Particle sprite scale,Sprite scale,Sprite scale,,particle sprite scale param name
+ROOM_EFFECTS_Particle colour 1,Colour 1,Colour 1,,colour 1 param name
+ROOM_EFFECTS_Particle colour 2,Colour 2,Colour 2,,colour 2 param name
+ROOM_EFFECTS_Particle colour 3,Colour 3,Colour 3,,colour 3 param name
+ROOM_EFFECTS_Particle colour 4,Colour 4,Colour 4,,colour 4 param name
+ROOM_EFFECTS_Particle initial velocity x,Initial velocity x,Initial velocity x,,particle initial velocity x param name
+ROOM_EFFECTS_Particle initial velocity y,Initial velocity y,Initial velocity y,,particle initial velocity y param name
+ROOM_EFFECTS_Particle initial rotation,Initial rotation,Initial rotation,,particle initial rotation param name
+ROOM_EFFECTS_Particle rotation speed,Rotation speed,Rotation speed,,particle rotation speed param name
+ROOM_EFFECTS_Particle align with velocity,Align with velocity,Align with velocity,,align with velocity param name
+ROOM_EFFECTS_Particle lifetime,Lifetime,Lifetime,,particle lifetime param name
+ROOM_EFFECTS_Particle update skip,Update skip,Update skip,,particle update skip param name
+ROOM_EFFECTS_Particle spawn border margin,Spawn border margin,Spawn border margin,,particle spawn border margin param name
+ROOM_EFFECTS_Particle source blend,Source blend,Source blend,,particle source blend param name
+ROOM_EFFECTS_Particle dest blend,Dest blend,Dest blend,,particle destination blend param name
+ROOM_EFFECTS_Draw trails only,Draw trails only,Draw trails only,,draw trails only param name
+ROOM_EFFECTS_Trail spawn chance,Spawn chance,Spawn chance,,trail spawn chance param name
+ROOM_EFFECTS_Trail lifetime,Lifetime,Lifetime,,trail lifetime param name
+ROOM_EFFECTS_Trail thickness,Thickness,Thickness,,trail thickness param name
+ROOM_EFFECTS_Trail colour 1,Colour 1,Colour 1,,colour 1 param name
+ROOM_EFFECTS_Trail colour 2,Colour 2,Colour 2,,colour 2 param name
+ROOM_EFFECTS_Trail colour 3,Colour 3,Colour 3,,colour 3 param name
+ROOM_EFFECTS_Trail colour 4,Colour 4,Colour 4,,colour 4 param name
+ROOM_EFFECTS_Trail min segment length,Min segment length,Min segment length,,trail minimum segment length param name
+ROOM_EFFECTS_Trail source blend,Source blend,Source blend,,trail source blend param name
+ROOM_EFFECTS_Trail dest blend,Dest blend,Dest blend,,trail destination blend param name
+ROOM_EFFECTS_Force grid resolution,Force grid resolution,Force grid resolution,,force grid resolution param name
+ROOM_EFFECTS_Wind force,Wind force,Wind force,,wind force param name
+ROOM_EFFECTS_Number of blowers,Number of blowers,Number of blowers,,number of blowers param name
+ROOM_EFFECTS_Blower size,Size,Size,,blower size param name
+ROOM_EFFECTS_Blower speed,Speed,Speed,,blower speed param name
+ROOM_EFFECTS_Blower rotation speed,Rotation speed,Rotation speed,,blower rotation speed param name
+ROOM_EFFECTS_Blower force,Force,Force,,blower force param name
+ROOM_EFFECTS_Blower camera offset scale,Camera offset scale,Camera offset scale,,blower camera offset scale param name
+ROOM_EFFECTS_Particle drag,Particle drag,Particle drag,,particle drag param name
+ROOM_EFFECTS_Gravity,Gravity,Gravity,,gravity param name
+ROOM_EFFECTS_Enable debug mode,Enable debug mode,Enable debug mode,,enable debug mode param name
+ROOM_EFFECT_GROUP_Particles,Particle,Particle,,room effect group name
+ROOM_EFFECT_GROUP_Trail,Trail,Trail,,room effect group name
+ROOM_EFFECT_GROUP_Blower,Blower,Blower,,room effect group name
+ROOM_EFFECT_GROUP_Physics,Physics,Physics,,room effect group name
+ROOM_EFFECT_FIELD_Min,Min,Min,,room effect field name
+ROOM_EFFECT_FIELD_Max,Max,Max,,room effect field name
+ROOM_EFFECT_FIELD_Start,Start,Start,,room effect field name
+ROOM_EFFECT_FIELD_End,End,End,,room effect field name
+ROOM_EFFECT_FIELD_1,1,1,,room effect field name
+ROOM_EFFECT_FIELD_2,2,2,,room effect field name
+ROOM_EFFECT_FIELD_X,X,X,,room effect field name
+ROOM_EFFECT_FIELD_Y,Y,Y,,room effect field name
+ROOM_EFFECT_FIELD_,,,,room effect field name
+ROOM_EFFECT_FIELD_Alt,Alt,Alt,,room effect field name
+ROOM_EFFECT_FIELD_Pos,Pos,Pos,,room effect field name
+ROOM_EFFECT_FIELD_Enabled,On,On,,room effect field name
+ListBoxEnum_eGMBlendMode_bm_zero,bm_zero,bm_zero,,gm blendmode enum
+ListBoxEnum_eGMBlendMode_bm_one,bm_one,bm_one,,gm blendmode enum
+ListBoxEnum_eGMBlendMode_bm_src_color,bm_src_color,bm_src_color,,gm blendmode enum
+ListBoxEnum_eGMBlendMode_bm_inv_src_color,bm_inv_src_color,bm_inv_src_color,,gm blendmode enum
+ListBoxEnum_eGMBlendMode_bm_src_alpha,bm_src_alpha,bm_src_alpha,,gm blendmode enum
+ListBoxEnum_eGMBlendMode_bm_inv_src_alpha,bm_inv_src_alpha,bm_inv_src_alpha,,gm blendmode enum
+ListBoxEnum_eGMBlendMode_bm_dest_alpha,bm_dest_alpha,bm_dest_alpha,,gm blendmode enum
+ListBoxEnum_eGMBlendMode_bm_inv_dest_alpha,bm_inv_dest_alpha,bm_inv_dest_alpha,,gm blendmode enum
+ListBoxEnum_eGMBlendMode_bm_dest_color,bm_dest_color,bm_dest_color,,gm blendmode enum
+ListBoxEnum_eGMBlendMode_bm_inv_dest_color,bm_inv_dest_color,bm_inv_dest_color,,gm blendmode enum
+ListBoxEnum_eGMBlendMode_bm_src_alpha_sat,bm_src_alpha_sat,bm_src_alpha_sat,,gm blendmode enum
 Run_Menu_Clean,Clean,Clean,,"Run menu ""Clean"""
 Run_Menu_CreateExecutable,Create Executable,Create Executable,,The Create Executable menu item
 Run_Menu_Run,Run,Run,,"Run menu ""Run"""
@@ -1784,8 +1871,10 @@ SoundEditor_Attributes,Attributes:,Attributes:,,Sound Editor Attributes - for ch
 SoundEditor_AudioGroup,Audio Group:,Audio Group:,,Sound Editor Audio Group labal
 SoundMixer_LoadAudioGroup,Load Audio Group:,Load Audio Group:,,Sound Mixer Load Audio Group label
 SoundEditor_BitRate,Bit Rate (kbps):,Bit Rate (kbps):,,Sound Editor Target Bit Rate ( in kbps )
-SoundEditor_Compressed_NotStreamed,Compressed - Not Streamed,Compressed - Not Streamed,,Sound Editor Attribute - Compressed and Not Streamed
-SoundEditor_Compressed_Streamed,Compressed - Streamed,Compressed - Streamed,,Sound Editor Attribute - Compressed - Streamed
+ListBoxEnum_eGMSoundCompression_Uncompressed,Uncompressed - Not Streamed,Uncompressed - Not Streamed,,Sound Editor Attribute - Uncompressed and Not Streamed
+ListBoxEnum_eGMSoundCompression_Compressed,Compressed - Not Streamed,Compressed - Not Streamed,,Sound Editor Attribute - Compressed and Not Streamed
+ListBoxEnum_eGMSoundCompression_DecompressOnLoad,Uncompress on Load - Not Streamed,Uncompress on Load - Not Streamed,,Sound Editor Attribute - Uncompress on Load - Not Streamed
+ListBoxEnum_eGMSoundCompression_CompressedAndStreamed,Compressed - Streamed,Compressed - Streamed,,Sound Editor Attribute - Compressed - Streamed
 SoundEditor_CopyingSound,Copying Sound...,Copying Sound...,,SoundEditor - copying sound to project
 SoundEditor_EditSound,Edit Sound,Edit Sound,,Sound Editor Edit Sound Button
 SoundEditor_Name,Name:,Name:,,Sound Editor Name label
@@ -1796,8 +1885,6 @@ SoundEditor_SampleRate,Sample Rate:,Sample Rate:,,Sound Editor Target Sample Rat
 SoundEditor_SoundLoaded,Sound Loaded,Sound Loaded,,SoundEditor - Sound has been loaded
 SoundEditor_TargetOptions,Target Options:,Target Options:,,"Sound Editor Target Options - for choosing sample rate, bit rate, etc..."
 SoundEditor_Title,Sound: {0},Sound: {0},,Title of SoundEditor window
-SoundEditor_Uncompressed_NotStreamed,Uncompressed - Not Streamed,Uncompressed - Not Streamed,,Sound Editor Attribute - Uncompressed and Not Streamed
-SoundEditor_UncompressOnLoad_NotStreamed,Uncompress on Load - Not Streamed,Uncompress on Load - Not Streamed,,Sound Editor Attribute - Uncompress on Load - Not Streamed
 SoundEditor_Volume,Volume:,Volume:,,Sound Editor Volume label
 SoundEditor_Output,Output:,Output:,,Sound Editor Output label
 SoundEditor_NoDeviceWarningTitle,No Audio Device,No Audio Device,,No audio device is available for previewing sounds warning dialog title
@@ -2168,6 +2255,9 @@ TextureGroups_Format,Texture Group Format,Texture Group Format,,Format texture g
 Format_BZ2,BZ2 + QOI,BZ2 + QOI,,Format BZ2
 Format_QOI,QOI,QOI,,Format QOI
 Format_PNG,PNG,PNG,,Format PNG
+FrameworkEmbed_DoNotEmbed,Do Not Embed,Do Not Embed,,Do Not Embed
+FrameworkEmbed_EmbedAndSign,Embed & Sign,Embed & Sign,,Embed & Sign
+FrameworkEmbed_EmbedWithoutSigning,Embed Without Signing,Embed Without Signing,,Embed Without Signing
 TextureGroups_Remove,Remove,Remove,,Texture group remove menu entry
 TextureGroups_Rename,Rename,Rename,,Texture group rename button
 TextureGroups_SettingsLabel,Group Settings,Group Settings,,Texture group settings label
@@ -3444,7 +3534,7 @@ operagx_out_game_created,Game Created!,Game Created!,,Output Message tracking Pa
 operagx_out_game_create_error,ERROR - Creating Game,ERROR - Creating Game,,Output Message tracking Packaging for OperaGX process
 operagx_out_game_list,List of Games Retrieved,List of Games Retrieved,,Output Message tracking Packaging for OperaGX process
 operagx_out_game_list_error,ERROR - Retrieving List of Games,ERROR - Retrieving List of Games,,Output Message tracking Packaging for OperaGX process
-operagx_out_game_limit_receiving,Receiveng game size limit from a server...,Receiveng game size limit from a server...,,Message on starting receiving the game size limit from a server
+operagx_out_game_limit_receiving,Receiving game size limit from a server...,Receiving game size limit from a server...,,Message on starting receiving the game size limit from a server
 operagx_out_game_limit_error,ERROR - Retrieving Game Size Limit,ERROR - Retrieving Game Size Limit,,Output Message tracking Packaging for OperaGX process
 operagx_out_game_limitcannotupload_error,Cannot upload the game to GXC,Cannot upload the game to GXC,,Output message which is shown when the game cannot be uploaded due to the bundle size limit
 operagx_out_game_limit_error_size_details,Project Size (unpacked): {0:0.##} MB. Maximum allowed size on GXC: {1:0.##} MB,Project Size (unpacked): {0:0.##} MB. Maximum allowed size on GXC: {1:0.##} MB,,Detailed info on the bundle size and the limit
@@ -3610,6 +3700,14 @@ runtime_message_name_warning,Names must be unique and not empty,Names must be un
 runtime_message_url_warning,URL must be unique and not empty,URL must be unique and not empty,,Warning when URL is not unique or empty
 runtime_message_url_empty,Cannot save changes to {0} because it has an empty URL,Cannot save changes to {0} because it has an empty URL,,Warning when a url has an empty URL on Apply
 runtime_message_update_successful,Successfully updated Runtime Feeds,Successfully updated Runtime Feeds,,Successfully updated Runtime Feeds message
+runtime_dns_UseAlternativeDns,Use Alternative DNS,Use Alternative DNS,,A name of the flag in Preferences window
+runtime_dns_AlternativeDnsIp,Alternative DNS IP,Alternative DNS IP,,A name of the property in Preferences window
+runtime_dns_DnsTestHasFailed,DNS test has failed,DNS test has failed,,A title of the warning which is shown after failing the DNS test
+runtime_dns_DnsTestHasFailedMessage,DNS resolving test has failed with the current settings. Alternative DNS has been disabled,DNS resolving test has failed with the current settings. Alternative DNS has been disabled,,A warning which is shown after failing the DNS test
+runtime_dns_ResolvingFailed,DNS resolving has failed,DNS resolving has failed,,A title of the warning which is shown when after the IDE failed to resolve an address against an alternative DNS
+runtime_dns_ResolvingFailedMessage,Could not resolve {0} with an alternative DNS. A system DNS has been used,Could not resolve {0} with an alternative DNS. A system DNS has been used,,Could not use an alternative DNS
+runtime_empty_dns_warning,"No DNS IP specified - the runtime feeds will be resolved against a system DNS","No DNS IP specified - the runtime feeds will be resolved against a system DNS",,A tip which is shown in the Preferences window when a user leaves the field "Alternative DNS IP" empty
+ProgressBar_DnsTest,Testing DNS...,Testing DNS...,,A title of the progress bar
 IDE_OpenProject_NotExists_Title,Invalid Project,Invalid Project,,Title for IDE_OpenProject_NotExists message dialog
 SpriteEditor_InvalidFileFormat,"The file(s) you attempted to load are not supported by the sprite editor.","The file(s) you attempted to load are not supported by the sprite editor.",,Sprite editor invalid file format dropped
 ImageEditor_InvalidFileFormat,"The file(s) you attempted to load are not supported by the image editor.","The file(s) you attempted to load are not supported by the image editor.",,Image editor invalid file format dropped
@@ -3784,6 +3882,7 @@ GoToType_MaxItemPref,Maximum number of search results to display,Maximum number 
 GoToType_EnableStylingPref,Enable styling on search results (turn off for better performance),Enable styling on search results (turn off for better performance),,Go To enable styling pref
 GoTo_Pref_Resources,Search in Assets,Search in Assets,,Search resources on/off
 GoTo_Pref_Preferences,Search in Preferences,Search in Preferences,,Search preferences on/off
+GoTo_Pref_RedefineKeys,Search in Redefine Keys,Search in Redefine Keys,,search redfine keys pref
 GoTo_Pref_GameOptions,Search in Game Options,Search in Game Options,,Search game options on/off
 GoTo_Pref_Functions,Search in user-defined Functions,Search in user-defined Functions,,Search user functions pref
 GoTo_Driver_Resources,Project Resources,Project Resources,,resources driver name
@@ -5048,6 +5147,7 @@ INVALID_INCLUDEDFILE_NAME_TITLE,Included File has invalid name,Included File has
 INVALID_INCLUDEDFILE_NAME_MSG,"One or more included files has an invalid filename, should only contain a-z, A_Z, 0-9, _ or .\nSee the output panel for a list.","One or more included files has an invalid filename, should only contain a-z, A_Z, 0-9, _ or .\nSee the output panel for a list.",,Invalid included file name dialog box message
 INVALID_INCLUDEDFILE_NAME,"Included file with invalid filename: '{0}'","Included file with invalid filename: '{0}'",,Invalid Included file name output message
 Validate_InvalidFilename,"'{0}' contains invalid filename characters","'{0}' contains invalid filename characters",,Rename message
+Validate_InvalidPathTooLong,"Path is too long: '{0}'.","Path is too long: '{0}'.",,Rename message
 InvalidIncludedFileName_Digit,"'{0}' starts with a number. Various platforms do not support this","'{0}' starts with a number. Various platforms do not support this",,Invalid Included File starting with a digit
 roomeditor_selectioncolour,Selection frame colour,Selection frame colour,,preference name for the selection frame colour for unlocked items in the room editor
 roomeditor_selectionlockedcolour,Locked selection frame colour,Locked selection frame colour,,preference name for the selection frame colour for locked items in the room editor
@@ -5508,6 +5608,7 @@ MarketplaceFilter_GMS2Only,GMS 2.x,GMS 2.x,,Studio 2 assets filter name for mark
 MarketplaceFilter_GMS1Only,GMS 1.x,GMS 1.x,,Studio 1 assets filter name for marketplace library
 MarketplaceFilter_GMS2_3Only,GMS 2.3,GMS 2.3,,Studio 2.3 assets filter name for marketplace library
 ide_language_description,IDE language,IDE language,,Label beside the IDE language selection
+ide_font_description,IDE font,IDE font,,Label beside the IDE font selection
 pref_max_framerate,Maximum framerate of the GameMaker editor,Maximum framerate of the GameMaker editor,,Maximum framerate preference
 pref_filewatcher_tolerance,Set File Watcher tolerance in ms after saving from within IDE,Set File Watcher tolerance in ms after saving from within IDE,,File watcher preference to handle save tolerance in ms
 pref_filewatcher_delay,Set File Watcher action delay in ms after filesystem changes,Set File Watcher action delay in ms after filesystem changes,,File Watcher preference to handle delay in action after changes
@@ -5672,6 +5773,7 @@ HideOthers_Menu_Title,Hide Others,Hide Others,,Hide others menu entry for Mac
 ShowAll_Menu_Title,Show All,Show All,,Show all windows menu entry for Mac
 BringAllToFront_Menu_Title,Bring All To Front,Bring All To Front,,Bring all windows to front menu entry for Mac
 Project_Error,Project Error,Project Error,,Error in Project
+Project_Error_No_Project_Loaded,No project is loaded.,No project is loaded.,,No project loaded error message
 Project_Error_No_Rooms,No rooms found - you need at least one room to run.,No rooms found - you need at least one room to run.,,No rooms error message
 RecentWindows_ActiveWindowsOnly,Display only currently open windows,Display only currently open windows,,Only show active windows preference
 RecentWindows_ShuffleItemsOnClick,Move focused window to top,Move focused window to top,,Shuffle the newly focused window to the top of the recent windows list
@@ -6139,14 +6241,14 @@ preferences_copyfromandroid_label,Copy settings from Android,Copy settings from 
 preferences_copyfromamazon_label,Copy settings from Amazon Fire,Copy settings from Amazon Fire,,Copy settings from Amazon Fire
 FileFilters_Pronunciation,Pronunciation Files,Pronunciation Files,,pronunciation.xml file dialog
 Error_PS4PronunciationMissingSig,Unable to find matching pronunciation.sig file \nVoice recognition files will not be imported,Unable to find matching pronunciation.sig file \nVoice recognition files will not be imported,,error message when the prnunciation.sig is missing
-TargetSelection_Platform_switch,Switch,Switch,,Switch
-Switch,Switch,Switch,,Switch
+TargetSelection_Platform_switch,Switch,Switch,DO NOT TRANSLATE,Switch
+Switch,Switch,Switch,DO NOT TRANSLATE,Switch
 Preferences_switch_sdk_dir,NintendoSDK Directory,NintendoSDK Directory,,Path to NintendoSDK Directory
 Preferences_switch_vs_path,Visual Studio location,Visual Studio location,,Visual Studio location
 platformdevice_targetip,Target IP,Target IP,,Target IP
 preferences_import_nmeta,Import nmeta file,Import nmeta file,,Import an nmeta file into the project
 preferences_open_authoring,Open Authoring Editor,Open Authoring Editor,,Open the Authoring Editor
-IncludedFilesPlatform_Switch,Switch,Switch,,Switch platform include name
+IncludedFilesPlatform_Switch,Switch,Switch,DO NOT TRANSLATE,Switch platform include name
 FileFilters_NMeta,Switch nmeta file,Switch nmeta file,,Switch nmeta file filter description
 FileFilters_NSP,Switch Package,Switch Package,,Switch Package file filter
 App Icon,App Icon,App Icon,,App Icon settings namespace
@@ -7061,6 +7163,7 @@ SnappableControls_Reset,Reset to default,Reset to default,,Snappable widget cont
 SnappableControls_Title,Change orientation,Change orientation,,Snappable widget controls title label
 Error_CreateNewProjectTitle,Error Creating Project,Error Creating Project,,Error Creating Project title
 Error_CreateNewProjectMessage,Could not create project at specified path. You may not have permission to save here.,Could not create project at specified path. You may not have permission to save here.,,Error Creating Project message
+Error_ProjectLoadPermissions,Could not load project at specified path: {0}.\nYou may not have permission to load here.,Could not load project at specified path: {0}.\nYou may not have permission to load here.,,Error Loading Project due to permissions message
 Error_ImportProjectTitle,Error Saving Import Project,Error Saving Import Project,,Error Saving Import Project title
 Error_ImportProjectMessage,Could not save imported project at specified path. You may not have permission to save here.,Could not save imported project at specified path. You may not have permission to save here.,,Error Saving Import Project message
 Track Panel,Track Panel,Track Panel,,Track Panel label in Sequence Editor
@@ -7069,7 +7172,7 @@ Warning_ImportProject_Title,Warning,Warning,,Warning
 Warning_ImportProject_Message,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,,Warning Importing Project message
 Warning_AppIconAlpha_Title,Warning,Warning,,Warning
 Warning_AppIconAlpha_Message,The image selected has transparency. Please select a different image.,The image selected has transparency. Please select a different image.,,App icon image transparency warning message
-Error_CannotPackage_Message,The executable cannot be created as it's still currently running.,The executable cannot be created as it's still currently running.,,Application running error message.
+Error_CannotPackage_Message,Stop the current running project before creating the executable?,Stop the current running project before creating the executable?,,Application running error message.
 CannotImportStripImageError_Title,Error,Error,,Error
 CannotImportStripImageError_Message,An image of size {0} x {1} can't be split into {2} equal frames. Please resize the image and try again.,An image of size {0} x {1} can't be split into {2} equal frames. Please resize the image and try again.,,Strip image dimensions error
 SourceControl_GitExecutablePath,Git executable path,Git executable path,,The path to the git executable
@@ -7088,15 +7191,13 @@ SourceControl_Create_Warning,Couldn't create repository. Please check Source Con
 SourceControl_Merge_Warning,Couldn't complete merge operation. Please check Source Control Output for more information,Couldn't complete merge operation. Please check Source Control Output for more information,,Warning for git merge failure.
 KeyRebinding_Conflicts_Warning,Conflicting Keybind,Conflicting Keybind,,Conflicting Keybind
 KeyRebinding_Conflicts_Description,That keybind is invalid as it would conflict with another active keybind,That keybind is invalid as it would conflict with another active keybind,,Description of conflicts shown to the user
-Redefine Keys, Redefine Keys, Redefine Keys,,Redefine Key Menu Header
-RedefineKeys_Import_Button, Import file, Import file,,Import file button caption
-RedefineKeys_Export_Button, Export as file, Export as file,,Export file button caption
-RedefineKeys_Clear_Button, Clear, Clear,,Clear Button
+Redefine Keys,Redefine Keys,Redefine Keys,,Redefine Key Menu Header
+RedefineKeys_Clear_Button,Clear,Clear,,Clear Button
 RedefineKeys_Record_Keys_Button,Key Search,Key Search,,Record keys button
 RedefineKeys_Default_Search,Search,Search,,Redefine Keys search box default text
 RedefineKeys_Default_Key_Search,Press a key to search,Press a key to search,,Redefine Keys search box default text when searching for key
-Redefine_Keys_Show_Unbound_Commands, Show Unbound Commands, Show Unbound Commands,,Show Unbound Commands caption
-Redefine_Keys_Show_Only_Redefined_Commands, Show Only Redefined Commands, Show Only Redefined Commands,, Show Only Redefined Commands caption
+Redefine_Keys_Show_Unbound_Commands,Show Unbound Commands,Show Unbound Commands,,Show Unbound Commands caption
+Redefine_Keys_Show_Only_Redefined_Commands,Show Only Redefined Commands,Show Only Redefined Commands,,Show Only Redefined Commands caption
 Redefine_Keys_WarningKeys_Dialog,This command may not work properly with the {0} key. Are you sure you want to continue?,This command may not work properly with the {0} key. Are you sure you want to continue?,,Are you sure about remapping the command message text
 Redefine_Keys_ForbiddenKeys_Title,Forbidden Key,Forbidden Key,,Forbidden Key Title
 Redefine_Keys_ForbiddenKeys_Dialog,This command cannot be remapped to {0} as the {1} key is forbidden for this command.,This command cannot be remapped to {0} as the {1} key is forbidden for this command.,,Forbidden keys message text
@@ -7151,3 +7252,730 @@ ListBoxEnum_eDefaultScriptType_None,Always Ask,Always Ask,,default script type n
 ListBoxEnum_eDefaultScriptType_GML,GML Code,GML Code,,default script type gml
 ListBoxEnum_eDefaultScriptType_DND,GML Visual,GML Visual,,default script type dnd
 default_script_pref,Default scripting language,Default scripting language,,default scripting language preference
+GMStdCatTime,"Time","Time",,DnD library category name
+GMStdTimeSource,"Time Source","Time Source",,DnD library argument label
+GMStdParent,"Parent","Parent",,DnD library argument label
+GMStdPeriod,"Period","Period",,DnD library argument label
+GMStdUnits,"Units","Units",,DnD library argument label
+GMStdCallback,"Callback","Callback",,DnD library argument label
+GMStdArguments,"Arguments","Arguments",,DnD library argument label
+GMStdReps,"Repetitions","Repetitions",,DnD library argument label
+GMStdExpiryType,"Expiry Type","Expiry Type",,DnD library argument label
+GMStdVar_time_source_global,"Global Time Source","Global Time Source",,DnD argument value
+GMStdVar_time_source_game,"Game Time Source","Game Time Source",,DnD argument value
+GMStdVar_time_source_units_seconds,"Seconds","Seconds",,DnD argument value
+GMStdVar_time_source_units_frames,"Frames","Frames",,DnD argument value
+GMStdVar_time_source_expire_nearest,"Nearest","Nearest",,DnD argument value
+GMStdVar_time_source_expire_after,"After","After",,DnD argument value
+GMStdVar_time_source_state_initial,"Initial","Initial",,DnD argument value
+GMStdVar_time_source_state_active,"Active","Active",,DnD argument value
+GMStdVar_time_source_state_paused,"Paused","Paused",,DnD argument value
+GMStdVar_time_source_state_stopped,"Stopped","Stopped",,DnD argument value
+GMStdTimeSourceCreate_Name,"Create Time Source","Create Time Source",,DnD action name
+GMStdTimeSourceCreate_Desc,"Create a time source.","Create a time source.",,DnD action description
+GMStdTimeSourceCreate_Story,"Create a time source and assign it to ${idx}","Create a time source and assign it to ${idx}",,DnD story text
+GMStdTimeSourceDestroy_Name,"Destroy Time Source","Destroy Time Source",,DnD action name
+GMStdTimeSourceDestroy_Desc,"Destroy a time source.","Destroy a time source.",,DnD action description
+GMStdTimeSourceDestroy_Story,"Destroy time source ${idx}","Destroy time source ${idx}",,DnD story text
+GMStdTimeSourceStart_Name,"Start Time Source","Start Time Source",,DnD action name
+GMStdTimeSourceStart_Desc,"Start a time source.","Start a time source.",,DnD action description
+GMStdTimeSourceStart_Story,"Start time source ${idx}","Start time source ${idx}",,DnD story text
+GMStdTimeSourceStop_Name,"Stop Time Source","Stop Time Source",,DnD action name
+GMStdTimeSourceStop_Desc,"Stop a time source.","Stop a time source.",,DnD action description
+GMStdTimeSourceStop_Story,"Stop time source ${idx}","Stop time source ${idx}",,DnD story text
+GMStdTimeSourcePause_Name,"Pause Time Source","Pause Time Source",,DnD action name
+GMStdTimeSourcePause_Desc,"Pause a time source.","Pause a time source.",,DnD action description
+GMStdTimeSourcePause_Story,"Pause time source ${idx}","Pause time source ${idx}",,DnD story text
+GMStdTimeSourceReset_Name,"Reset Time Source","Reset Time Source",,DnD action name
+GMStdTimeSourceReset_Desc,"Reset a time source.","Reset a time source.",,DnD action description
+GMStdTimeSourceReset_Story,"Reset time source ${idx}","Reset time source ${idx}",,DnD story text
+GMStdTimeSourceReconfigure_Name,"Reconfigure Time Source","Reconfigure Time Source",,DnD action name
+GMStdTimeSourceReconfigure_Desc,"Reset and reconfigure a time source.","Reset and reconfigure a time source.",,DnD action description
+GMStdTimeSourceReconfigure_Story,"Reset and reconfigure time source ${idx}","Reset and reconfigure time source ${idx}",,DnD story text
+GMStdTimeSourceGetPeriod_Name,"Get Period","Get Period",,DnD action name
+GMStdTimeSourceGetPeriod_Desc,"Get the period of a time source.","Get the period of a time source.",,DnD action description
+GMStdTimeSourceGetPeriod_Story,"Get the period of time source ${idx} and assign it to ${var}","Get the period of time source ${idx} and assign it to ${var}",,DnD story text
+GMStdTimeSourceGetRepsCompleted_Name,"Get Reps Completed","Get Reps Completed",,DnD action name
+GMStdTimeSourceGetRepsCompleted_Desc,"Get the number of repetitions a time source has completed.","Get the number of repetitions a time source has completed.",,DnD action description
+GMStdTimeSourceGetRepsCompleted_Story,"Get the number of completed repetitions of time source ${idx} and assign it to ${var}","Get the number of completed repetitions of time source ${idx} and assign it to ${var}",,DnD story text
+GMStdTimeSourceGetRepsRemaining_Name,"Get Reps Remaining","Get Reps Remaining",,DnD action name
+GMStdTimeSourceGetRepsRemaining_Desc,"Get the number of repetitions a time source has remaining.","Get the number of repetitions a time source has remaining.",,DnD action description
+GMStdTimeSourceGetRepsRemaining_Story,"Get the number of remaining repetitions of time source ${idx} and assign it to ${var}","Get the number of remaining repetitions of time source ${idx} and assign it to ${var}",,DnD story text
+GMStdTimeSourceGetUnits_Name,"Get Units","Get Units",,DnD action name
+GMStdTimeSourceGetUnits_Desc,"Get the units of a time source.","Get the units of a time source.",,DnD action description
+GMStdTimeSourceGetUnits_Story,"Get the units of time source ${idx} and assign it to ${var}","Get the units of time source ${idx} and assign it to ${var}",,DnD story text
+GMStdTimeSourceGetTimeRemaining_Name,"Get Time Remaining","Get Time Remaining",,DnD action name
+GMStdTimeSourceGetTimeRemaining_Desc,"Get the time remaining on a time source.","Get the time remaining on a time source.",,DnD action description
+GMStdTimeSourceGetTimeRemaining_Story,"Get the time remaining on time source ${idx} and assign it to ${var}","Get the time remaining on time source ${idx} and assign it to ${var}",,DnD story text
+GMStdTimeSourceGetState_Name,"Get State","Get State",,DnD action name
+GMStdTimeSourceGetState_Desc,"Get the current state of a time source.","Get the current state of a time source.",,DnD action description
+GMStdTimeSourceGetState_Story,"Get the current state of time source ${idx} and assign it to ${var}","Get the current state of time source ${idx} and assign it to ${var}",,DnD story text
+GMStdTimeSourceGetParent_Name,"Get Parent","Get Parent",,DnD action name
+GMStdTimeSourceGetParent_Desc,"Get the parent of a time source.","Get the parent of a time source.",,DnD action description
+GMStdTimeSourceGetParent_Story,"Get the parent of time source ${idx} and assign it to ${var}","Get the parent of time source ${idx} and assign it to ${var}",,DnD story text
+GMStdTimeSourceGetChildren_Name,"Get Children","Get Children",,DnD action name
+GMStdTimeSourceGetChildren_Desc,"Get the children of a time source.","Get the children of a time source.",,DnD action description
+GMStdTimeSourceGetChildren_Story,"Get the children of time source ${idx} and assign it to ${var}","Get the children of time source ${idx} and assign it to ${var}",,DnD story text
+GMStdTimeSourceExists_Name,"If Time Source Exists","If Time Source Exists",,DnD action name
+GMStdTimeSourceExists_Desc,"Check if a time source exists.","Check if a time source exists.",,DnD action description
+GMStdTimeSourceExists_Story_1,"If time source ${idx} exists","If time source ${idx} exists",,DnD story text
+GMStdTimeSourceExists_Story_2,"If time source ${idx} does not exist","If time source ${idx} does not exist",,DnD story text
+GMStdIfTimeSourceState_Name,"If State","If State",,DnD action name
+GMStdIfTimeSourceState_Desc,"Check if a time source's state satisfies a condition.","Check if a time source's state satisfies a condition.",,DnD action description
+GMStdIfTimeSourceState_Story_1,"If the state of time source ${idx} is ${state}","If the state of time source ${idx} is ${state}",,DnD story text
+GMStdIfTimeSourceState_Story_2,"If the state of time source ${idx} is not ${state}","If the state of time source ${idx} is not ${state}",,DnD story text
+GMStdIfTimeSourceUnits_Name,"If Units","If Units",,DnD action name
+GMStdIfTimeSourceUnits_Desc,"Check if a time source's units satisfies a condition.","Check if a time source's units satisfies a condition.",,DnD action description
+GMStdIfTimeSourceUnits_Story_1,"If the units of time source ${idx} are ${units}","If the units of time source ${idx} are ${units}",,DnD story text
+GMStdIfTimeSourceUnits_Story_2,"If the units of time source ${idx} are not ${units}","If the units of time source ${idx} are not ${units}",,DnD story text
+GMStdIfTimeSourceParent_Name,"If Parent","If Parent",,DnD action name
+GMStdIfTimeSourceParent_Desc,"Check if a time source's parent satisfies a condition.","Check if a time source's parent satisfies a condition.",,DnD action description
+GMStdIfTimeSourceParent_Story_1,"If the parent of time source ${idx} is ${parent}","If the parent of time source ${idx} is ${parent}",,DnD story text
+GMStdIfTimeSourceParent_Story_2,"If the parent of time source ${idx} is not ${parent}","If the parent of time source ${idx} is not ${parent}",,DnD story text
+GMStdTimeBpmToSeconds_Name,"BPM to Seconds","BPM to Seconds",,DnD action name
+GMStdTimeBpmToSeconds_Desc,"Convert a frequency in beats-per-minute to its equivalent period in seconds.","Convert a frequency in beats-per-minute to its equivalent period in seconds.",,DnD action description
+GMStdTimeBpmToSeconds_Story,"Convert a frequency of ${in_var} beats-per-minute to a period in seconds and assign it to ${out_var}","Convert a frequency of ${in_var} beats-per-minute to a period in seconds and assign it to ${out_var}",,DnD story text
+GMStdTimeSecondsToBpm_Name,"Seconds to BPM","Seconds to BPM",,DnD action name
+GMStdTimeSecondsToBpm_Desc,"Convert a period in seconds to its equivalent frequency in beats-per-minute.","Convert a period in seconds to its equivalent frequency in beats-per-minute.",,DnD action description
+GMStdTimeSecondsToBpm_Story,"Convert a period of ${in_var} seconds to a frequency in beats-per-minute and assign it to ${out_var}","Convert a period of ${in_var} seconds to a frequency in beats-per-minute and assign it to ${out_var}",,DnD story text
+RedefineKeys_MoveFlowNext,Move Flow Next,Move Flow Next,,Redefine keys MoveFlowNext string
+RedefineKeys_MoveFlowPrevious,Move Flow Previous,Move Flow Previous,,Redefine keys MoveFlowPrevious string
+RedefineKeys_FlowAccept,Flow Accept,Flow Accept,,Redefine keys FlowAccept string
+RedefineKeys_Undo,Undo,Undo,,Redefine keys Undo string
+RedefineKeys_Redo,Redo,Redo,,Redefine keys Redo string
+RedefineKeys_Rename,Rename,Rename,,Redefine keys Rename string
+RedefineKeys_Zoom Reset,Zoom Reset,Zoom Reset,,Redefine keys Zoom Reset string
+RedefineKeys_Zoom In,Zoom In,Zoom In,,Redefine keys Zoom In string
+RedefineKeys_Zoom Out,Zoom Out,Zoom Out,,Redefine keys Zoom Out string
+RedefineKeys_Quit,Quit,Quit,,Redefine keys Quit string
+RedefineKeys_Save As,Save As,Save As,,Redefine keys Save As string
+RedefineKeys_Export Project,Export Project,Export Project,,Redefine keys Export Project string
+RedefineKeys_force_dock_expansion,Force Dock Expansion,Force Dock Expansion,,Redefine keys force_dock_expansion string
+RedefineKeys_close_tab,Close Tab,Close Tab,,Redefine keys close_tab string
+RedefineKeys_CaretLeft,Caret Left,Caret Left,,Redefine keys CaretLeft string
+RedefineKeys_CaretRight,Caret Right,Caret Right,,Redefine keys CaretRight string
+RedefineKeys_CaretUp,Caret Up,Caret Up,,Redefine keys CaretUp string
+RedefineKeys_CaretDown,Caret Down,Caret Down,,Redefine keys CaretDown string
+RedefineKeys_CaretLeft+Select,Caret Left+Select,Caret Left+Select,,Redefine keys CaretLeft+Select string
+RedefineKeys_CaretRight+Select,Caret Right+Select,Caret Right+Select,,Redefine keys CaretRight+Select string
+RedefineKeys_CaretUp+Select,Caret Up+Select,Caret Up+Select,,Redefine keys CaretUp+Select string
+RedefineKeys_CaretDown+Select,Caret Down+Select,Caret Down+Select,,Redefine keys CaretDown+Select string
+RedefineKeys_CaretLeft+ColumnSelect,Caret Left+Column Select,Caret Left+Column Select,,Redefine keys CaretLeft+ColumnSelect string
+RedefineKeys_CaretRight+ColumnSelect,Caret Right+Column Select,Caret Right+Column Select,,Redefine keys CaretRight+ColumnSelect string
+RedefineKeys_CaretUp+ColumnSelect,Caret Up+Column Select,Caret Up+Column Select,,Redefine keys CaretUp+ColumnSelect string
+RedefineKeys_CaretDown+ColumnSelect,Caret Down+Column Select,Caret Down+Column Select,,Redefine keys CaretDown+ColumnSelect string
+RedefineKeys_PageUp,Page Up,Page Up,,Redefine keys PageUp string
+RedefineKeys_PageDown,Page Down,Page Down,,Redefine keys PageDown string
+RedefineKeys_PageUp+Select,Page Up+Select,Page Up+Select,,Redefine keys PageUp+Select string
+RedefineKeys_PageDown+Select,Page Down+Select,Page Down+Select,,Redefine keys PageDown+Select string
+RedefineKeys_ScrollUp,Scroll Up,Scroll Up,,Redefine keys ScrollUp string
+RedefineKeys_ScrollDown,Scroll Down,Scroll Down,,Redefine keys ScrollDown string
+RedefineKeys_CaretUp+ScrollUp+Select,Caret Up+Scroll Up+Select,Caret Up+Scroll Up+Select,,Redefine keys CaretUp+ScrollUp+Select string
+RedefineKeys_CaretDown+ScrollDown+Select,Caret Down+Scroll Down+Select,Caret Down+Scroll Down+Select,,Redefine keys CaretDown+ScrollDown+Select string
+RedefineKeys_Home,Home,Home,,Redefine keys Home string
+RedefineKeys_End,End,End,,Redefine keys End string
+RedefineKeys_Home+Select,Home+Select,Home+Select,,Redefine keys Home+Select string
+RedefineKeys_End+Select,End+Select,End+Select,,Redefine keys End+Select string
+RedefineKeys_Home+ColumnSelect,Home+Column Select,Home+Column Select,,Redefine keys Home+ColumnSelect string
+RedefineKeys_End+ColumnSelect,End+Column Select,End+Column Select,,Redefine keys End+ColumnSelect string
+RedefineKeys_DocumentStart,Document Start,Document Start,,Redefine keys DocumentStart string
+RedefineKeys_DocumentEnd,Document End,Document End,,Redefine keys DocumentEnd string
+RedefineKeys_DocumentStart+Select,Document Start+Select,Document Start+Select,,Redefine keys DocumentStart+Select string
+RedefineKeys_DocumentEnd+Select,Document End+Select,Document End+Select,,Redefine keys DocumentEnd+Select string
+RedefineKeys_WordLeft,Word Left,Word Left,,Redefine keys WordLeft string
+RedefineKeys_WordRight,Word Right,Word Right,,Redefine keys WordRight string
+RedefineKeys_WordLeft+Select,Word Left+Select,Word Left+Select,,Redefine keys WordLeft+Select string
+RedefineKeys_WordRight+Select,Word Right+Select,Word Right+Select,,Redefine keys WordRight+Select string
+RedefineKeys_DeleteBack,Delete Back,Delete Back,,Redefine keys DeleteBack string
+RedefineKeys_DeleteForward,Delete Forward,Delete Forward,,Redefine keys DeleteForward string
+RedefineKeys_LineBreak1,Line Break1,Line Break1,,Redefine keys LineBreak1 string
+RedefineKeys_LineBreak2,Line Break2,Line Break2,,Redefine keys LineBreak2 string
+RedefineKeys_Tab,Tab,Tab,,Redefine keys Tab string
+RedefineKeys_DeTab,De Tab,De Tab,,Redefine keys DeTab string
+RedefineKeys_Cancel,Cancel,Cancel,,Redefine keys Cancel string
+RedefineKeys_DeleteWordStart,Delete Word Start,Delete Word Start,,Redefine keys DeleteWordStart string
+RedefineKeys_DeleteEndStart,Delete End Start,Delete End Start,,Redefine keys DeleteEndStart string
+RedefineKeys_DeleteLineBeforeCursor,Delete Line Before Cursor,Delete Line Before Cursor,,Redefine keys DeleteLineBeforeCursor string
+RedefineKeys_Duplicate,Duplicate,Duplicate,,Redefine keys Duplicate string
+RedefineKeys_ShowSnippets,Show Snippets,Show Snippets,,Redefine keys ShowSnippets string
+RedefineKeys_Cut,Cut,Cut,,Redefine keys Cut string
+RedefineKeys_Copy,Copy,Copy,,Redefine keys Copy string
+RedefineKeys_Paste,Paste,Paste,,Redefine keys Paste string
+RedefineKeys_FoldRegions,Fold Regions,Fold Regions,,Redefine keys FoldRegions string
+RedefineKeys_UnfoldRegions,Unfold Regions,Unfold Regions,,Redefine keys UnfoldRegions string
+RedefineKeys_Expand/Collapse Region,Expand/Collapse Region,Expand/Collapse Region,,Redefine keys Expand/Collapse Region string
+RedefineKeys_Previous Region,Previous Region,Previous Region,,Redefine keys Previous Region string
+RedefineKeys_Next Region,Next Region,Next Region,,Redefine keys Next Region string
+RedefineKeys_Toggle Insert/Overwrite,Toggle Insert/Overwrite,Toggle Insert/Overwrite,,Redefine keys Toggle Insert/Overwrite string
+RedefineKeys_Select All,Select All,Select All,,Redefine keys Select All string
+RedefineKeys_Comment Line/Selection,Comment Line/Selection,Comment Line/Selection,,Redefine keys Comment Line/Selection string
+RedefineKeys_Uncomment Line/Selection,Uncomment Line/Selection,Uncomment Line/Selection,,Redefine keys Uncomment Line/Selection string
+RedefineKeys_ShowCodeCompletion,Show Code Completion,Show Code Completion,,Redefine keys ShowCodeCompletion string
+RedefineKeys_DocWindowNextTab,Doc Window Next Tab,Doc Window Next Tab,,Redefine keys DocWindowNextTab string
+RedefineKeys_DocWindowPrevTab,Doc Window Prev Tab,Doc Window Prev Tab,,Redefine keys DocWindowPrevTab string
+RedefineKeys_DecrementTextSize,Decrement Text Size,Decrement Text Size,,Redefine keys DecrementTextSize string
+RedefineKeys_IncrementTextSize,Increment Text Size,Increment Text Size,,Redefine keys IncrementTextSize string
+RedefineKeys_TextEditorGotoLine,Text Editor Goto Line,Text Editor Goto Line,,Redefine keys TextEditorGotoLine string
+RedefineKeys_toggle_canvas_rulers,Toggle Canvas Rulers,Toggle Canvas Rulers,,Redefine keys toggle_canvas_rulers string
+RedefineKeys_Toggle Grid Snap,Toggle Grid Snap,Toggle Grid Snap,,Redefine keys Toggle Grid Snap string
+RedefineKeys_sequence_split_keyframe,Sequence Split Keyframe,Sequence Split Keyframe,,Redefine keys sequence_split_keyframe string
+RedefineKeys_sequence_remove_keyframe,Sequence Remove Keyframe,Sequence Remove Keyframe,,Redefine keys sequence_remove_keyframe string
+RedefineKeys_sequence_add_keyframe,Sequence Add Keyframe,Sequence Add Keyframe,,Redefine keys sequence_add_keyframe string
+RedefineKeys_sequence_toggle_autokey,Sequence Toggle Autokey,Sequence Toggle Autokey,,Redefine keys sequence_toggle_autokey string
+RedefineKeys_sequence_delete_bksp,Sequence Delete Bksp,Sequence Delete Bksp,,Redefine keys sequence_delete_bksp string
+RedefineKeys_Delete,Delete,Delete,,Redefine keys Delete string
+RedefineKeys_sequence_toggle_multiselect_origin,Sequence Toggle Multiselect Origin,Sequence Toggle Multiselect Origin,,Redefine keys sequence_toggle_multiselect_origin string
+RedefineKeys_sequence_center_item_origin,Sequence Center Item Origin,Sequence Center Item Origin,,Redefine keys sequence_center_item_origin string
+RedefineKeys_sequence_reset_item_position,Sequence Reset Item Position,Sequence Reset Item Position,,Redefine keys sequence_reset_item_position string
+RedefineKeys_seq_smartguide_toggle_vis,Seq Smartguide Toggle Vis,Seq Smartguide Toggle Vis,,Redefine keys seq_smartguide_toggle_vis string
+RedefineKeys_seq_smartguide_toggle_rulerlock,Seq Smartguide Toggle Rulerlock,Seq Smartguide Toggle Rulerlock,,Redefine keys seq_smartguide_toggle_rulerlock string
+RedefineKeys_seq_smartguide_toggle_snapping,Seq Smartguide Toggle Snapping,Seq Smartguide Toggle Snapping,,Redefine keys seq_smartguide_toggle_snapping string
+RedefineKeys_sequence_toggle_translation_path,Sequence Toggle Translation Path,Sequence Toggle Translation Path,,Redefine keys sequence_toggle_translation_path string
+RedefineKeys_sequence_move_playhead_left10,Sequence Move Playhead Left10,Sequence Move Playhead Left10,,Redefine keys sequence_move_playhead_left10 string
+RedefineKeys_sequence_move_playhead_right10,Sequence Move Playhead Right10,Sequence Move Playhead Right10,,Redefine keys sequence_move_playhead_right10 string
+RedefineKeys_sequence_move_playhead_left1,Sequence Move Playhead Left1,Sequence Move Playhead Left1,,Redefine keys sequence_move_playhead_left1 string
+RedefineKeys_sequence_move_playhead_right1,Sequence Move Playhead Right1,Sequence Move Playhead Right1,,Redefine keys sequence_move_playhead_right1 string
+RedefineKeys_sequence_move_keys_left10,Sequence Move Keys Left10,Sequence Move Keys Left10,,Redefine keys sequence_move_keys_left10 string
+RedefineKeys_sequence_move_keys_right10,Sequence Move Keys Right10,Sequence Move Keys Right10,,Redefine keys sequence_move_keys_right10 string
+RedefineKeys_sequence_move_keys_left1,Sequence Move Keys Left1,Sequence Move Keys Left1,,Redefine keys sequence_move_keys_left1 string
+RedefineKeys_sequence_move_keys_right1,Sequence Move Keys Right1,Sequence Move Keys Right1,,Redefine keys sequence_move_keys_right1 string
+RedefineKeys_move_canvas_items_up_10x,Move Canvas Items Up 10x,Move Canvas Items Up 10x,,Redefine keys move_canvas_items_up_10x string
+RedefineKeys_move_canvas_items_down_10x,Move Canvas Items Down 10x,Move Canvas Items Down 10x,,Redefine keys move_canvas_items_down_10x string
+RedefineKeys_move_canvas_items_left_10x,Move Canvas Items Left 10x,Move Canvas Items Left 10x,,Redefine keys move_canvas_items_left_10x string
+RedefineKeys_move_canvas_items_right_10x,Move Canvas Items Right 10x,Move Canvas Items Right 10x,,Redefine keys move_canvas_items_right_10x string
+RedefineKeys_move_canvas_items_up,Move Canvas Items Up,Move Canvas Items Up,,Redefine keys move_canvas_items_up string
+RedefineKeys_move_canvas_items_down,Move Canvas Items Down,Move Canvas Items Down,,Redefine keys move_canvas_items_down string
+RedefineKeys_move_canvas_items_left,Move Canvas Items Left,Move Canvas Items Left,,Redefine keys move_canvas_items_left string
+RedefineKeys_move_canvas_items_right,Move Canvas Items Right,Move Canvas Items Right,,Redefine keys move_canvas_items_right string
+RedefineKeys_sequence_trim_key_left,Sequence Trim Key Left,Sequence Trim Key Left,,Redefine keys sequence_trim_key_left string
+RedefineKeys_sequence_trim_key_right,Sequence Trim Key Right,Sequence Trim Key Right,,Redefine keys sequence_trim_key_right string
+RedefineKeys_sequence_split_key_two_tracks,Sequence Split Key Two Tracks,Sequence Split Key Two Tracks,,Redefine keys sequence_split_key_two_tracks string
+RedefineKeys_sequence_stretch_keys_right,Sequence Stretch Keys Right,Sequence Stretch Keys Right,,Redefine keys sequence_stretch_keys_right string
+RedefineKeys_sequence_stretch_keys_left,Sequence Stretch Keys Left,Sequence Stretch Keys Left,,Redefine keys sequence_stretch_keys_left string
+RedefineKeys_sequence_next_keyframe,Sequence Next Keyframe,Sequence Next Keyframe,,Redefine keys sequence_next_keyframe string
+RedefineKeys_sequence_prev_keyframe,Sequence Prev Keyframe,Sequence Prev Keyframe,,Redefine keys sequence_prev_keyframe string
+RedefineKeys_sequence_select_next_key,Sequence Select Next Key,Sequence Select Next Key,,Redefine keys sequence_select_next_key string
+RedefineKeys_sequence_select_prev_key,Sequence Select Prev Key,Sequence Select Prev Key,,Redefine keys sequence_select_prev_key string
+RedefineKeys_sequence_goto_start,Sequence Goto Start,Sequence Goto Start,,Redefine keys sequence_goto_start string
+RedefineKeys_sequence_goto_end,Sequence Goto End,Sequence Goto End,,Redefine keys sequence_goto_end string
+RedefineKeys_sequence_goto_start_selection,Sequence Goto Start Selection,Sequence Goto Start Selection,,Redefine keys sequence_goto_start_selection string
+RedefineKeys_sequence_goto_end_selection,Sequence Goto End Selection,Sequence Goto End Selection,,Redefine keys sequence_goto_end_selection string
+RedefineKeys_sequence_expand_tracks_selection,Sequence Expand Tracks Selection,Sequence Expand Tracks Selection,,Redefine keys sequence_expand_tracks_selection string
+RedefineKeys_sequence_expand_tracks_all,Sequence Expand Tracks All,Sequence Expand Tracks All,,Redefine keys sequence_expand_tracks_all string
+RedefineKeys_sequence_select_track_above,Sequence Select Track Above,Sequence Select Track Above,,Redefine keys sequence_select_track_above string
+RedefineKeys_sequence_select_track_below,Sequence Select Track Below,Sequence Select Track Below,,Redefine keys sequence_select_track_below string
+RedefineKeys_sequence_select_track_above_additive,Sequence Select Track Above Additive,Sequence Select Track Above Additive,,Redefine keys sequence_select_track_above_additive string
+RedefineKeys_sequence_select_track_below_additive,Sequence Select Track Below Additive,Sequence Select Track Below Additive,,Redefine keys sequence_select_track_below_additive string
+RedefineKeys_sequence_new_clipping_mask,Sequence New Clipping Mask,Sequence New Clipping Mask,,Redefine keys sequence_new_clipping_mask string
+RedefineKeys_sequence_new_group,Sequence New Group,Sequence New Group,,Redefine keys sequence_new_group string
+RedefineKeys_sequence_new_broadcast_message,Sequence New Broadcast Message,Sequence New Broadcast Message,,Redefine keys sequence_new_broadcast_message string
+RedefineKeys_sequence_new_moment,Sequence New Moment,Sequence New Moment,,Redefine keys sequence_new_moment string
+RedefineKeys_sequence_goto_next_event,Sequence Goto Next Event,Sequence Goto Next Event,,Redefine keys sequence_goto_next_event string
+RedefineKeys_sequence_goto_prev_event,Sequence Goto Prev Event,Sequence Goto Prev Event,,Redefine keys sequence_goto_prev_event string
+RedefineKeys_tool_translate,Tool Translate,Tool Translate,,Redefine keys tool_translate string
+RedefineKeys_tool_scale,Tool Scale,Tool Scale,,Redefine keys tool_scale string
+RedefineKeys_tool_rotate,Tool Rotate,Tool Rotate,,Redefine keys tool_rotate string
+RedefineKeys_tool_origin,Tool Origin,Tool Origin,,Redefine keys tool_origin string
+RedefineKeys_Play,Play,Play,,Redefine keys Play string
+RedefineKeys_Toggle Grid,Toggle Grid,Toggle Grid,,Redefine keys Toggle Grid string
+RedefineKeys_GoTo,Go To,Go To,,Redefine keys GoTo string
+RedefineKeys_OpenWorkspaceOverview,Open Workspace Overview,Open Workspace Overview,,Redefine keys OpenWorkspaceOverview string
+RedefineKeys_Run,Run,Run,,Redefine keys Run string
+RedefineKeys_Debug,Debug,Debug,,Redefine keys Debug string
+RedefineKeys_Clean,Clean,Clean,,Redefine keys Clean string
+RedefineKeys_Create Executable,Create Executable,Create Executable,,Redefine keys Create Executable string
+RedefineKeys_open_debug_info,Open Debug Info,Open Debug Info,,Redefine keys open_debug_info string
+RedefineKeys_run_memory_info,Run Memory Info,Run Memory Info,,Redefine keys run_memory_info string
+RedefineKeys_open_search_replace,Open Search Replace,Open Search Replace,,Redefine keys open_search_replace string
+RedefineKeys_open_search_in_script_find,Open Search In Script Find,Open Search In Script Find,,Redefine keys open_search_in_script_find string
+RedefineKeys_open_search_in_script_replace,Open Search In Script Replace,Open Search In Script Replace,,Redefine keys open_search_in_script_replace string
+RedefineKeys_open_prefs_tree,Open Prefs Tree,Open Prefs Tree,,Redefine keys open_prefs_tree string
+RedefineKeys_set_bookmark_1,Set Bookmark 1,Set Bookmark 1,,Redefine keys set_bookmark_1 string
+RedefineKeys_set_bookmark_2,Set Bookmark 2,Set Bookmark 2,,Redefine keys set_bookmark_2 string
+RedefineKeys_set_bookmark_3,Set Bookmark 3,Set Bookmark 3,,Redefine keys set_bookmark_3 string
+RedefineKeys_set_bookmark_4,Set Bookmark 4,Set Bookmark 4,,Redefine keys set_bookmark_4 string
+RedefineKeys_set_bookmark_5,Set Bookmark 5,Set Bookmark 5,,Redefine keys set_bookmark_5 string
+RedefineKeys_set_bookmark_6,Set Bookmark 6,Set Bookmark 6,,Redefine keys set_bookmark_6 string
+RedefineKeys_set_bookmark_7,Set Bookmark 7,Set Bookmark 7,,Redefine keys set_bookmark_7 string
+RedefineKeys_set_bookmark_8,Set Bookmark 8,Set Bookmark 8,,Redefine keys set_bookmark_8 string
+RedefineKeys_set_bookmark_9,Set Bookmark 9,Set Bookmark 9,,Redefine keys set_bookmark_9 string
+RedefineKeys_set_bookmark_0,Set Bookmark 0,Set Bookmark 0,,Redefine keys set_bookmark_0 string
+RedefineKeys_get_bookmark_1,Get Bookmark 1,Get Bookmark 1,,Redefine keys get_bookmark_1 string
+RedefineKeys_get_bookmark_2,Get Bookmark 2,Get Bookmark 2,,Redefine keys get_bookmark_2 string
+RedefineKeys_get_bookmark_3,Get Bookmark 3,Get Bookmark 3,,Redefine keys get_bookmark_3 string
+RedefineKeys_get_bookmark_4,Get Bookmark 4,Get Bookmark 4,,Redefine keys get_bookmark_4 string
+RedefineKeys_get_bookmark_5,Get Bookmark 5,Get Bookmark 5,,Redefine keys get_bookmark_5 string
+RedefineKeys_get_bookmark_6,Get Bookmark 6,Get Bookmark 6,,Redefine keys get_bookmark_6 string
+RedefineKeys_get_bookmark_7,Get Bookmark 7,Get Bookmark 7,,Redefine keys get_bookmark_7 string
+RedefineKeys_get_bookmark_8,Get Bookmark 8,Get Bookmark 8,,Redefine keys get_bookmark_8 string
+RedefineKeys_get_bookmark_9,Get Bookmark 9,Get Bookmark 9,,Redefine keys get_bookmark_9 string
+RedefineKeys_get_bookmark_0,Get Bookmark 0,Get Bookmark 0,,Redefine keys get_bookmark_0 string
+RedefineKeys_manage_plugins,Manage Plugins,Manage Plugins,,Redefine keys manage_plugins string
+RedefineKeys_open_inspector,Open Inspector,Open Inspector,,Redefine keys open_inspector string
+RedefineKeys_open_asset_browser,Open Asset Browser,Open Asset Browser,,Redefine keys open_asset_browser string
+RedefineKeys_do_nothing_rewrite,Do Nothing Rewrite,Do Nothing Rewrite,,Redefine keys do_nothing_rewrite string
+RedefineKeys_enumerate_references,Enumerate References,Enumerate References,,Redefine keys enumerate_references string
+RedefineKeys_find_all_references,Find All References,Find All References,,Redefine keys find_all_references string
+RedefineKeys_rename_identifier,Rename Identifier,Rename Identifier,,Redefine keys rename_identifier string
+RedefineKeys_perform_included_file_scan,Perform Included File Scan,Perform Included File Scan,,Redefine keys perform_included_file_scan string
+RedefineKeys_run_goto_perf_tests,Run Goto Perf Tests,Run Goto Perf Tests,,Redefine keys run_goto_perf_tests string
+RedefineKeys_decrement_brush_size2,Decrement Brush Size2,Decrement Brush Size2,,Redefine keys decrement_brush_size2 string
+RedefineKeys_pixel_brush,Pixel Brush,Pixel Brush,,Redefine keys pixel_brush string
+RedefineKeys_toggle_selection_brush,Toggle Selection Brush,Toggle Selection Brush,,Redefine keys toggle_selection_brush string
+RedefineKeys_playback_toggle,Playback Toggle,Playback Toggle,,Redefine keys playback_toggle string
+RedefineKeys_tool_commit_enter,Tool Commit Enter,Tool Commit Enter,,Redefine keys tool_commit_enter string
+RedefineKeys_toggle_vsplit,Toggle Vsplit,Toggle Vsplit,,Redefine keys toggle_vsplit string
+RedefineKeys_toggle_hsplit,Toggle Hsplit,Toggle Hsplit,,Redefine keys toggle_hsplit string
+RedefineKeys_centre_unit,Centre Unit,Centre Unit,,Redefine keys centre_unit string
+RedefineKeys_centre_fit,Centre Fit,Centre Fit,,Redefine keys centre_fit string
+RedefineKeys_next_frame,Next Frame,Next Frame,,Redefine keys next_frame string
+RedefineKeys_previous_frame,Previous Frame,Previous Frame,,Redefine keys previous_frame string
+RedefineKeys_edit_cut_win,Edit Cut Win,Edit Cut Win,,Redefine keys edit_cut_win string
+RedefineKeys_edit_copy_win,Edit Copy Win,Edit Copy Win,,Redefine keys edit_copy_win string
+RedefineKeys_edit_paste_win,Edit Paste Win,Edit Paste Win,,Redefine keys edit_paste_win string
+RedefineKeys_Invert Selection,Invert Selection,Invert Selection,,Redefine keys Invert Selection string
+RedefineKeys_Add Frame,Add Frame,Add Frame,,Redefine keys Add Frame string
+RedefineKeys_insert_frame,Insert Frame,Insert Frame,,Redefine keys insert_frame string
+RedefineKeys_backspace_delete,Backspace Delete,Backspace Delete,,Redefine keys backspace_delete string
+RedefineKeys_import_files,Import Files,Import Files,,Redefine keys import_files string
+RedefineKeys_move_selection_up,Move Selection Up,Move Selection Up,,Redefine keys move_selection_up string
+RedefineKeys_move_selection_down,Move Selection Down,Move Selection Down,,Redefine keys move_selection_down string
+RedefineKeys_move_selection_left,Move Selection Left,Move Selection Left,,Redefine keys move_selection_left string
+RedefineKeys_move_selection_right,Move Selection Right,Move Selection Right,,Redefine keys move_selection_right string
+RedefineKeys_import_from_strip,Import From Strip,Import From Strip,,Redefine keys import_from_strip string
+RedefineKeys_increment_brush_size,Increment Brush Size,Increment Brush Size,,Redefine keys increment_brush_size string
+RedefineKeys_increment_brush_size2,Increment Brush Size2,Increment Brush Size2,,Redefine keys increment_brush_size2 string
+RedefineKeys_decrement_brush_size,Decrement Brush Size,Decrement Brush Size,,Redefine keys decrement_brush_size string
+RedefineKeys_Open In Explorer,Open In Explorer,Open In Explorer,,Redefine keys Open In Explorer string
+RedefineKeys_Open Room Properties,Open Room Properties,Open Room Properties,,Redefine keys Open Room Properties string
+RedefineKeys_Open Layer Properties,Open Layer Properties,Open Layer Properties,,Redefine keys Open Layer Properties string
+RedefineKeys_Open Instance Creation Order,Open Instance Creation Order,Open Instance Creation Order,,Redefine keys Open Instance Creation Order string
+RedefineKeys_Open Layer View,Open Layer View,Open Layer View,,Redefine keys Open Layer View string
+RedefineKeys_cut_selection_win,Cut Selection Win,Cut Selection Win,,Redefine keys cut_selection_win string
+RedefineKeys_copy_selection_win,Copy Selection Win,Copy Selection Win,,Redefine keys copy_selection_win string
+RedefineKeys_paste_selection_Win,Paste Selection Win,Paste Selection Win,,Redefine keys paste_selection_Win string
+RedefineKeys_Mirror as Individuals,Mirror As Individuals,Mirror As Individuals,,Redefine keys Mirror as Individuals string
+RedefineKeys_Mirror as Group,Mirror As Group,Mirror As Group,,Redefine keys Mirror as Group string
+RedefineKeys_Flip as Individuals,Flip As Individuals,Flip As Individuals,,Redefine keys Flip as Individuals string
+RedefineKeys_Flip as Group,Flip As Group,Flip As Group,,Redefine keys Flip as Group string
+RedefineKeys_toggle_grid,Toggle Grid,Toggle Grid,,Redefine keys toggle_grid string
+RedefineKeys_Add Moment,Add Moment,Add Moment,,Redefine keys Add Moment string
+RedefineKeys_cut_moments_win,Cut Moments Win,Cut Moments Win,,Redefine keys cut_moments_win string
+RedefineKeys_copy_moments_win,Copy Moments Win,Copy Moments Win,,Redefine keys copy_moments_win string
+RedefineKeys_paste_moments_win,Paste Moments Win,Paste Moments Win,,Redefine keys paste_moments_win string
+RedefineKeys_Change Moment,Change Moment,Change Moment,,Redefine keys Change Moment string
+RedefineKeys_Merge Moment,Merge Moment,Merge Moment,,Redefine keys Merge Moment string
+RedefineKeys_unselect_moments,Unselect Moments,Unselect Moments,,Redefine keys unselect_moments string
+RedefineKeys_Edit Moment,Edit Moment,Edit Moment,,Redefine keys Edit Moment string
+RedefineKeys_invert_tile_selection,Invert Tile Selection,Invert Tile Selection,,Redefine keys invert_tile_selection string
+RedefineKeys_delete_tile_selection,Delete Tile Selection,Delete Tile Selection,,Redefine keys delete_tile_selection string
+RedefineKeys_add_anim,Add Anim,Add Anim,,Redefine keys add_anim string
+RedefineKeys_prev_anim,Prev Anim,Prev Anim,,Redefine keys prev_anim string
+RedefineKeys_next_anim,Next Anim,Next Anim,,Redefine keys next_anim string
+RedefineKeys_prev_anim_frame,Prev Anim Frame,Prev Anim Frame,,Redefine keys prev_anim_frame string
+RedefineKeys_next_anim_frame,Next Anim Frame,Next Anim Frame,,Redefine keys next_anim_frame string
+RedefineKeys_move_anim_up,Move Anim Up,Move Anim Up,,Redefine keys move_anim_up string
+RedefineKeys_move_anim_down,Move Anim Down,Move Anim Down,,Redefine keys move_anim_down string
+RedefineKeys_move_anim_frame_left,Move Anim Frame Left,Move Anim Frame Left,,Redefine keys move_anim_frame_left string
+RedefineKeys_move_anim_frame_right,Move Anim Frame Right,Move Anim Frame Right,,Redefine keys move_anim_frame_right string
+RedefineKeys_increase_brush_size,Increase Brush Size,Increase Brush Size,,Redefine keys increase_brush_size string
+RedefineKeys_increase_brush_size_keypad,Increase Brush Size Keypad,Increase Brush Size Keypad,,Redefine keys increase_brush_size_keypad string
+RedefineKeys_decrease_brush_size,Decrease Brush Size,Decrease Brush Size,,Redefine keys decrease_brush_size string
+RedefineKeys_decrease_brush_size_keypad,Decrease Brush Size Keypad,Decrease Brush Size Keypad,,Redefine keys decrease_brush_size_keypad string
+RedefineKeys_sprite_add_broadcast_message,Sprite Add Broadcast Message,Sprite Add Broadcast Message,,Redefine keys sprite_add_broadcast_message string
+RedefineKeys_add_sprite_frame,Add Sprite Frame,Add Sprite Frame,,Redefine keys add_sprite_frame string
+RedefineKeys_insert_sprite_frame,Insert Sprite Frame,Insert Sprite Frame,,Redefine keys insert_sprite_frame string
+RedefineKeys_copy_frames_win,Copy Frames Win,Copy Frames Win,,Redefine keys copy_frames_win string
+RedefineKeys_paste_frames_win,Paste Frames Win,Paste Frames Win,,Redefine keys paste_frames_win string
+RedefineKeys_cut_frames_win,Cut Frames Win,Cut Frames Win,,Redefine keys cut_frames_win string
+RedefineKeys_Pan To Path,Pan To Path,Pan To Path,,Redefine keys Pan To Path string
+RedefineKeys_Reverse Path,Reverse Path,Reverse Path,,Redefine keys Reverse Path string
+RedefineKeys_Mirror,Mirror,Mirror,,Redefine keys Mirror string
+RedefineKeys_Flip,Flip,Flip,,Redefine keys Flip string
+RedefineKeys_object_editor_paste_event_win,Object Editor Paste Event Win,Object Editor Paste Event Win,,Redefine keys object_editor_paste_event_win string
+RedefineKeys_object_editor_copy_event_win,Object Editor Copy Event Win,Object Editor Copy Event Win,,Redefine keys object_editor_copy_event_win string
+RedefineKeys_object_editor_cut_event_win,Object Editor Cut Event Win,Object Editor Cut Event Win,,Redefine keys object_editor_cut_event_win string
+RedefineKeys_compileerror_copy_win,Compileerror Copy Win,Compileerror Copy Win,,Redefine keys compileerror_copy_win string
+RedefineKeys_compileerror_selectall,Compileerror Selectall,Compileerror Selectall,,Redefine keys compileerror_selectall string
+RedefineKeys_syntaxerror_copy_win,Syntaxerror Copy Win,Syntaxerror Copy Win,,Redefine keys syntaxerror_copy_win string
+RedefineKeys_syntaxerror_selectall,Syntaxerror Selectall,Syntaxerror Selectall,,Redefine keys syntaxerror_selectall string
+RedefineKeys_run_program,Run Program,Run Program,,Redefine keys run_program string
+RedefineKeys_debugger_continue,Debugger Continue,Debugger Continue,,Redefine keys debugger_continue string
+RedefineKeys_debugger_step_into,Debugger Step Into,Debugger Step Into,,Redefine keys debugger_step_into string
+RedefineKeys_debugger_step_over,Debugger Step Over,Debugger Step Over,,Redefine keys debugger_step_over string
+RedefineKeys_debugger_step_out,Debugger Step Out,Debugger Step Out,,Redefine keys debugger_step_out string
+RedefineKeys_ab_arrange_up,Ab Arrange Up,Ab Arrange Up,,Redefine keys ab_arrange_up string
+RedefineKeys_ab_arrange_down,Ab Arrange Down,Ab Arrange Down,,Redefine keys ab_arrange_down string
+RedefineKeys_ab_arrange_top,Ab Arrange Top,Ab Arrange Top,,Redefine keys ab_arrange_top string
+RedefineKeys_ab_arrange_bottom,Ab Arrange Bottom,Ab Arrange Bottom,,Redefine keys ab_arrange_bottom string
+RedefineKeys_ac_delete_bksp,Ac Delete Bksp,Ac Delete Bksp,,Redefine keys ac_delete_bksp string
+RedefineKeys_ace_cancel,Ace Cancel,Ace Cancel,,Redefine keys ace_cancel string
+RedefineKeys_ac_path_display,Ac Path Display,Ac Path Display,,Redefine keys ac_path_display string
+RedefineKeys_WorkspaceMenu_Resources,Workspace Menu Resources,Workspace Menu Resources,,Redefine keys WorkspaceMenu_Resources string
+RedefineKeys_WorkspaceMenu_Windows,Workspace Menu Windows,Workspace Menu Windows,,Redefine keys WorkspaceMenu_Windows string
+RedefineKeys_Create Animation Curve,Create Animation Curve,Create Animation Curve,,Redefine keys Create Animation Curve string
+RedefineKeys_Create Extension,Create Extension,Create Extension,,Redefine keys Create Extension string
+RedefineKeys_Create Font,Create Font,Create Font,,Redefine keys Create Font string
+RedefineKeys_Create Note,Create Note,Create Note,,Redefine keys Create Note string
+RedefineKeys_Create Object,Create Object,Create Object,,Redefine keys Create Object string
+RedefineKeys_Create Path,Create Path,Create Path,,Redefine keys Create Path string
+RedefineKeys_Create Room,Create Room,Create Room,,Redefine keys Create Room string
+RedefineKeys_Create Script,Create Script,Create Script,,Redefine keys Create Script string
+RedefineKeys_Create Sequence,Create Sequence,Create Sequence,,Redefine keys Create Sequence string
+RedefineKeys_Create Shader,Create Shader,Create Shader,,Redefine keys Create Shader string
+RedefineKeys_Create Sound,Create Sound,Create Sound,,Redefine keys Create Sound string
+RedefineKeys_Create Sprite,Create Sprite,Create Sprite,,Redefine keys Create Sprite string
+RedefineKeys_Create Tile Set,Create Tile Set,Create Tile Set,,Redefine keys Create Tile Set string
+RedefineKeys_Create Timeline,Create Timeline,Create Timeline,,Redefine keys Create Timeline string
+RedefineKeys_AssetBrowser_ExpandChildren,Asset Browser Expand Children,Asset Browser Expand Children,,Redefine keys AssetBrowser_ExpandChildren string
+RedefineKeys_ResourceTree_ExpandAll,Resource Tree Expand All,Resource Tree Expand All,,Redefine keys ResourceTree_ExpandAll string
+RedefineKeys_ResourceTree_CollapseAll,Resource Tree Collapse All,Resource Tree Collapse All,,Redefine keys ResourceTree_CollapseAll string
+RedefineKeys_AssetBrowser_ClearRecent,Asset Browser Clear Recent,Asset Browser Clear Recent,,Redefine keys AssetBrowser_ClearRecent string
+RedefineKeys_AssetBrowser_NewAssetBrowser,Asset Browser New Asset Browser,Asset Browser New Asset Browser,,Redefine keys AssetBrowser_NewAssetBrowser string
+RedefineKeys_AssetBrowser_Create,Asset Browser Create,Asset Browser Create,,Redefine keys AssetBrowser_Create string
+RedefineKeys_AssetBrowser_Edit,Asset Browser Edit,Asset Browser Edit,,Redefine keys AssetBrowser_Edit string
+RedefineKeys_AssetBrowser_EditTags,Asset Browser Edit Tags,Asset Browser Edit Tags,,Redefine keys AssetBrowser_EditTags string
+RedefineKeys_AssetBrowser_AddFavourite,Asset Browser Add Favourite,Asset Browser Add Favourite,,Redefine keys AssetBrowser_AddFavourite string
+RedefineKeys_ResourceNode_AddExisting,Resource Node Add Existing,Resource Node Add Existing,,Redefine keys ResourceNode_AddExisting string
+RedefineKeys_ResourceNode_AddExistingFromLibrary,Resource Node Add Existing From Library,Resource Node Add Existing From Library,,Redefine keys ResourceNode_AddExistingFromLibrary string
+RedefineKeys_AssetBrowser_CreateGroup,Asset Browser Create Group,Asset Browser Create Group,,Redefine keys AssetBrowser_CreateGroup string
+RedefineKeys_ResourceTree_AnimCurves_Singular,Resource Tree Anim Curves Singular,Resource Tree Anim Curves Singular,,Redefine keys ResourceTree_AnimCurves_Singular string
+RedefineKeys_ResourceTree_Extensions_Singular,Resource Tree Extensions Singular,Resource Tree Extensions Singular,,Redefine keys ResourceTree_Extensions_Singular string
+RedefineKeys_ResourceTree_Fonts_Singular,Resource Tree Fonts Singular,Resource Tree Fonts Singular,,Redefine keys ResourceTree_Fonts_Singular string
+RedefineKeys_ResourceTree_Notes_Singular,Resource Tree Notes Singular,Resource Tree Notes Singular,,Redefine keys ResourceTree_Notes_Singular string
+RedefineKeys_ResourceTree_Objects_Singular,Resource Tree Objects Singular,Resource Tree Objects Singular,,Redefine keys ResourceTree_Objects_Singular string
+RedefineKeys_ResourceTree_Paths_Singular,Resource Tree Paths Singular,Resource Tree Paths Singular,,Redefine keys ResourceTree_Paths_Singular string
+RedefineKeys_ResourceTree_Rooms_Singular,Resource Tree Rooms Singular,Resource Tree Rooms Singular,,Redefine keys ResourceTree_Rooms_Singular string
+RedefineKeys_ResourceTree_Scripts_Singular,Resource Tree Scripts Singular,Resource Tree Scripts Singular,,Redefine keys ResourceTree_Scripts_Singular string
+RedefineKeys_ResourceTree_Sequences_Singular,Resource Tree Sequences Singular,Resource Tree Sequences Singular,,Redefine keys ResourceTree_Sequences_Singular string
+RedefineKeys_ResourceTree_Shaders_Singular,Resource Tree Shaders Singular,Resource Tree Shaders Singular,,Redefine keys ResourceTree_Shaders_Singular string
+RedefineKeys_ResourceTree_Sounds_Singular,Resource Tree Sounds Singular,Resource Tree Sounds Singular,,Redefine keys ResourceTree_Sounds_Singular string
+RedefineKeys_ResourceTree_Sprites_Singular,Resource Tree Sprites Singular,Resource Tree Sprites Singular,,Redefine keys ResourceTree_Sprites_Singular string
+RedefineKeys_ResourceTree_Tilesets_Singular,Resource Tree Tilesets Singular,Resource Tree Tilesets Singular,,Redefine keys ResourceTree_Tilesets_Singular string
+RedefineKeys_ResourceTree_Timelines_Singular,Resource Tree Timelines Singular,Resource Tree Timelines Singular,,Redefine keys ResourceTree_Timelines_Singular string
+RedefineKeys_AssetBrowser_ClearFavourites,Asset Browser Clear Favourites,Asset Browser Clear Favourites,,Redefine keys AssetBrowser_ClearFavourites string
+RedefineKeys_Window_Close,Window Close,Window Close,,Redefine keys Window_Close string
+RedefineKeys_CMenu_CloseAllButThis,CMenu Close All But This,CMenu Close All But This,,Redefine keys CMenu_CloseAllButThis string
+RedefineKeys_IDEMenu_Help_StartPage,IDEMenu Help Start Page,IDEMenu Help Start Page,,Redefine keys IDEMenu_Help_StartPage string
+RedefineKeys_IDEMenu_Help_Help,IDEMenu Help Help,IDEMenu Help Help,,Redefine keys IDEMenu_Help_Help string
+RedefineKeys_IDEMenu_Help_KnowledgeBase,IDEMenu Help Knowledge Base,IDEMenu Help Knowledge Base,,Redefine keys IDEMenu_Help_KnowledgeBase string
+RedefineKeys_IDEMenu_Help_ReportBug,IDEMenu Help Report Bug,IDEMenu Help Report Bug,,Redefine keys IDEMenu_Help_ReportBug string
+RedefineKeys_IDEMenu_Help_LogFile,IDEMenu Help Log File,IDEMenu Help Log File,,Redefine keys IDEMenu_Help_LogFile string
+RedefineKeys_IDEMenu_Help_YYG,IDEMenu Help YYG,IDEMenu Help YYG,,Redefine keys IDEMenu_Help_YYG string
+RedefineKeys_IDEMenu_Help_GMC,IDEMenu Help GMC,IDEMenu Help GMC,,Redefine keys IDEMenu_Help_GMC string
+RedefineKeys_IDEMenu_Help_ReleaseNotes,IDEMenu Help Release Notes,IDEMenu Help Release Notes,,Redefine keys IDEMenu_Help_ReleaseNotes string
+RedefineKeys_IDEMenu_Help_RuntimeReleaseNotes,IDEMenu Help Runtime Release Notes,IDEMenu Help Runtime Release Notes,,Redefine keys IDEMenu_Help_RuntimeReleaseNotes string
+RedefineKeys_IDEMenu_Help_SDKS,IDEMenu Help SDKS,IDEMenu Help SDKS,,Redefine keys IDEMenu_Help_SDKS string
+RedefineKeys_IDEMenu_Help_OpenInExplorer,IDEMenu Help Open In Explorer,IDEMenu Help Open In Explorer,,Redefine keys IDEMenu_Help_OpenInExplorer string
+RedefineKeys_Update_System_fonts,Update System Fonts,Update System Fonts,,Redefine keys Update_System_fonts string
+RedefineKeys_IDEMenu_Help_Licenses,IDEMenu Help Licenses,IDEMenu Help Licenses,,Redefine keys IDEMenu_Help_Licenses string
+RedefineKeys_IDEMenu_Help_About,IDEMenu Help About,IDEMenu Help About,,Redefine keys IDEMenu_Help_About string
+RedefineKeys_New Project,New Project,New Project,,Redefine keys New Project string
+RedefineKeys_Open Project,Open Project,Open Project,,Redefine keys Open Project string
+RedefineKeys_File_Menu_ImportProject,File Menu Import Project,File Menu Import Project,,Redefine keys File_Menu_ImportProject string
+RedefineKeys_File_Menu_RecentProjects,File Menu Recent Projects,File Menu Recent Projects,,Redefine keys File_Menu_RecentProjects string
+RedefineKeys_Save,Save,Save,,Redefine keys Save string
+RedefineKeys_File_Menu_NewIDE,File Menu New IDE,File Menu New IDE,,Redefine keys File_Menu_NewIDE string
+RedefineKeys_File_Menu_MyAccount,File Menu My Account,File Menu My Account,,Redefine keys File_Menu_MyAccount string
+RedefineKeys_File_Menu_Logout,File Menu Logout,File Menu Logout,,Redefine keys File_Menu_Logout string
+RedefineKeys_Edit_Menu_Search,Edit Menu Search,Edit Menu Search,,Redefine keys Edit_Menu_Search string
+RedefineKeys_Views_Menu_AssetBrowser,Views Menu Asset Browser,Views Menu Asset Browser,,Redefine keys Views_Menu_AssetBrowser string
+RedefineKeys_Views_Menu_Output,Views Menu Output,Views Menu Output,,Redefine keys Views_Menu_Output string
+RedefineKeys_Views_Menu_SearchResults,Views Menu Search Results,Views Menu Search Results,,Redefine keys Views_Menu_SearchResults string
+RedefineKeys_Views_Menu_SourceControl,Views Menu Source Control,Views Menu Source Control,,Redefine keys Views_Menu_SourceControl string
+RedefineKeys_Views_Menu_Breakpoints,Views Menu Breakpoints,Views Menu Breakpoints,,Redefine keys Views_Menu_Breakpoints string
+RedefineKeys_Views_Menu_CompileErrors,Views Menu Compile Errors,Views Menu Compile Errors,,Redefine keys Views_Menu_CompileErrors string
+RedefineKeys_Views_Menu_SyntaxErrors,Views Menu Syntax Errors,Views Menu Syntax Errors,,Redefine keys Views_Menu_SyntaxErrors string
+RedefineKeys_Views_Menu_Inspector,Views Menu Inspector,Views Menu Inspector,,Redefine keys Views_Menu_Inspector string
+RedefineKeys_Views_Menu_Recent_Windows,Views Menu Recent Windows,Views Menu Recent Windows,,Redefine keys Views_Menu_Recent_Windows string
+RedefineKeys_Views_Menu_Macros,Views Menu Macros,Views Menu Macros,,Redefine keys Views_Menu_Macros string
+RedefineKeys_Views_Menu_Tutorial,Views Menu Tutorial,Views Menu Tutorial,,Redefine keys Views_Menu_Tutorial string
+RedefineKeys_Marketplace_Go,Marketplace Go,Marketplace Go,,Redefine keys Marketplace_Go string
+RedefineKeys_Marketplace_Assets,Marketplace Assets,Marketplace Assets,,Redefine keys Marketplace_Assets string
+RedefineKeys_Marketplace_PurchaseHistory,Marketplace Purchase History,Marketplace Purchase History,,Redefine keys Marketplace_PurchaseHistory string
+RedefineKeys_Marketplace_UpdatePackage,Marketplace Update Package,Marketplace Update Package,,Redefine keys Marketplace_UpdatePackage string
+RedefineKeys_Marketplace_CreatePackage,Marketplace Create Package,Marketplace Create Package,,Redefine keys Marketplace_CreatePackage string
+RedefineKeys_IDEMenu_Texturepage,IDEMenu Texturepage,IDEMenu Texturepage,,Redefine keys IDEMenu_Texturepage string
+RedefineKeys_IDEMenu_Audiogroups,IDEMenu Audiogroups,IDEMenu Audiogroups,,Redefine keys IDEMenu_Audiogroups string
+RedefineKeys_IDEMenu_SoundMixer,IDEMenu Sound Mixer,IDEMenu Sound Mixer,,Redefine keys IDEMenu_SoundMixer string
+RedefineKeys_Views_Menu_ImageGenerator,Views Menu Image Generator,Views Menu Image Generator,,Redefine keys Views_Menu_ImageGenerator string
+RedefineKeys_Package_CreateLocalPackage,Package Create Local Package,Package Create Local Package,,Redefine keys Package_CreateLocalPackage string
+RedefineKeys_Package_ImportLocalPackage,Package Import Local Package,Package Import Local Package,,Redefine keys Package_ImportLocalPackage string
+RedefineKeys_IDEMenu_SaveLayout,IDEMenu Save Layout,IDEMenu Save Layout,,Redefine keys IDEMenu_SaveLayout string
+RedefineKeys_IDEMenu_LoadLayout,IDEMenu Load Layout,IDEMenu Load Layout,,Redefine keys IDEMenu_LoadLayout string
+RedefineKeys_IDEMenu_ResetLayout,IDEMenu Reset Layout,IDEMenu Reset Layout,,Redefine keys IDEMenu_ResetLayout string
+RedefineKeys_Show Debug panel,Show Debug Panel,Show Debug Panel,,Redefine keys Show Debug panel string
+RedefineKeys_Show Keyboard/Mouse State,Show Keyboard/Mouse State,Show Keyboard/Mouse State,,Redefine keys Show Keyboard/Mouse State string
+RedefineKeys_Reload Images,Reload Images,Reload Images,,Redefine keys Reload Images string
+RedefineKeys_Check Localised Strings,Check Localised Strings,Check Localised Strings,,Redefine keys Check Localised Strings string
+RedefineKeys_Debugger : Attach to Process,Debugger : Attach To Process,Debugger : Attach To Process,,Redefine keys Debugger : Attach to Process string
+RedefineKeys_Undo History,Undo History,Undo History,,Redefine keys Undo History string
+RedefineKeys_Runtime Paths,Runtime Paths,Runtime Paths,,Redefine keys Runtime Paths string
+RedefineKeys_Debug Tools,Debug Tools,Debug Tools,,Redefine keys Debug Tools string
+RedefineKeys_Use Debug Asset Compiler,Use Debug Asset Compiler,Use Debug Asset Compiler,,Redefine keys Use Debug Asset Compiler string
+RedefineKeys_Use Release Asset Compiler,Use Release Asset Compiler,Use Release Asset Compiler,,Redefine keys Use Release Asset Compiler string
+RedefineKeys_Use Runtime Asset Compiler,Use Runtime Asset Compiler,Use Runtime Asset Compiler,,Redefine keys Use Runtime Asset Compiler string
+RedefineKeys_Use Debug Runner,Use Debug Runner,Use Debug Runner,,Redefine keys Use Debug Runner string
+RedefineKeys_Use Release Runner,Use Release Runner,Use Release Runner,,Redefine keys Use Release Runner string
+RedefineKeys_Use Runtime Runner,Use Runtime Runner,Use Runtime Runner,,Redefine keys Use Runtime Runner string
+RedefineKeys_Use Debug Igor,Use Debug Igor,Use Debug Igor,,Redefine keys Use Debug Igor string
+RedefineKeys_Use Release Igor,Use Release Igor,Use Release Igor,,Redefine keys Use Release Igor string
+RedefineKeys_Use Runtime Igor,Use Runtime Igor,Use Runtime Igor,,Redefine keys Use Runtime Igor string
+RedefineKeys_Font Viewer,Font Viewer,Font Viewer,,Redefine keys Font Viewer string
+RedefineKeys_SCM_Create,SCM Create,SCM Create,,Redefine keys SCM_Create string
+RedefineKeys_SCM_Clone,SCM Clone,SCM Clone,,Redefine keys SCM_Clone string
+RedefineKeys_SCM_Commit,SCM Commit,SCM Commit,,Redefine keys SCM_Commit string
+RedefineKeys_SCM_Push,SCM Push,SCM Push,,Redefine keys SCM_Push string
+RedefineKeys_SCM_Pull,SCM Pull,SCM Pull,,Redefine keys SCM_Pull string
+RedefineKeys_SCM_History,SCM History,SCM History,,Redefine keys SCM_History string
+RedefineKeys_SCM_Conflicts,SCM Conflicts,SCM Conflicts,,Redefine keys SCM_Conflicts string
+RedefineKeys_SequenceCanvas_Menu_GroupSelected,Sequence Canvas Menu Group Selected,Sequence Canvas Menu Group Selected,,Redefine keys SequenceCanvas_Menu_GroupSelected string
+RedefineKeys_TextEditor_TabIn,Text Editor Tab In,Text Editor Tab In,,Redefine keys TextEditor_TabIn string
+RedefineKeys_TextEditor_CodeSnippets,Text Editor Code Snippets,Text Editor Code Snippets,,Redefine keys TextEditor_CodeSnippets string
+RedefineKeys_CodeWindow_Menu_Help,Code Window Menu Help,Code Window Menu Help,,Redefine keys CodeWindow_Menu_Help string
+RedefineKeys_TextEditor_Clear,Text Editor Clear,Text Editor Clear,,Redefine keys TextEditor_Clear string
+RedefineKeys_Block,Block,Block,,Redefine keys Block string
+RedefineKeys_If,If,If,,Redefine keys If string
+RedefineKeys_If-Else,If-Else,If-Else,,Redefine keys If-Else string
+RedefineKeys_For Loop,For Loop,For Loop,,Redefine keys For Loop string
+RedefineKeys_For Loop (i..n),For Loop (i..n),For Loop (i..n),,Redefine keys For Loop (i..n) string
+RedefineKeys_While Loop,While Loop,While Loop,,Redefine keys While Loop string
+RedefineKeys_Do-Until Loop,Do-Until Loop,Do-Until Loop,,Redefine keys Do-Until Loop string
+RedefineKeys_Repeat,Repeat,Repeat,,Redefine keys Repeat string
+RedefineKeys_Switch,Switch,Switch,,Redefine keys Switch string
+RedefineKeys_With,With,With,,Redefine keys With string
+RedefineKeys_Line Comment,Line Comment,Line Comment,,Redefine keys Line Comment string
+RedefineKeys_Multi-line Comment,Multi-line Comment,Multi-line Comment,,Redefine keys Multi-line Comment string
+RedefineKeys_Region,Region,Region,,Redefine keys Region string
+RedefineKeys_RecentWindows_RemoveItem,Recent Windows Remove Item,Recent Windows Remove Item,,Redefine keys RecentWindows_RemoveItem string
+RedefineKeys_RecentWindows_ClearAll,Recent Windows Clear All,Recent Windows Clear All,,Redefine keys RecentWindows_ClearAll string
+RedefineKeys_RecentWindows_MoveToTop,Recent Windows Move To Top,Recent Windows Move To Top,,Redefine keys RecentWindows_MoveToTop string
+RedefineKeys_ResourceNode_SetTextureGroup,Resource Node Set Texture Group,Resource Node Set Texture Group,,Redefine keys ResourceNode_SetTextureGroup string
+RedefineKeys_ResourceNode_RegenerateFont,Resource Node Regenerate Font,Resource Node Regenerate Font,,Redefine keys ResourceNode_RegenerateFont string
+RedefineKeys_ResourceNode_NewTextureGroup,Resource Node New Texture Group,Resource Node New Texture Group,,Redefine keys ResourceNode_NewTextureGroup string
+RedefineKeys_AssetBrowser_RoomManager,Asset Browser Room Manager,Asset Browser Room Manager,,Redefine keys AssetBrowser_RoomManager string
+RedefineKeys_AssetBrowser_SaveCurrentFilter,Asset Browser Save Current Filter,Asset Browser Save Current Filter,,Redefine keys AssetBrowser_SaveCurrentFilter string
+RedefineKeys_[Debug]Save,[Debug]Save,[Debug]Save,,Redefine keys [Debug]Save string
+RedefineKeys_[Debug]Load,[Debug]Load,[Debug]Load,,Redefine keys [Debug]Load string
+RedefineKeys_[Debug]ShowSortWeight,[Debug]Show Sort Weight,[Debug]Show Sort Weight,,Redefine keys [Debug]ShowSortWeight string
+RedefineKeys_AssetBrowser_ConfigEditor,Asset Browser Config Editor,Asset Browser Config Editor,,Redefine keys AssetBrowser_ConfigEditor string
+RedefineKeys_AssetBrowser_GameOptions,Asset Browser Game Options,Asset Browser Game Options,,Redefine keys AssetBrowser_GameOptions string
+RedefineKeys_AssetBrowser_IncludedFiles,Asset Browser Included Files,Asset Browser Included Files,,Redefine keys AssetBrowser_IncludedFiles string
+RedefineKeys_AnimCurve_PasteCurve,Anim Curve Paste Curve,Anim Curve Paste Curve,,Redefine keys AnimCurve_PasteCurve string
+RedefineKeys_Add Placeholder,Add Placeholder,Add Placeholder,,Redefine keys Add Placeholder string
+RedefineKeys_Add File,Add File,Add File,,Redefine keys Add File string
+RedefineKeys_Remove Selected,Remove Selected,Remove Selected,,Redefine keys Remove Selected string
+RedefineKeys_Add Generic Placeholder,Add Generic Placeholder,Add Generic Placeholder,,Redefine keys Add Generic Placeholder string
+RedefineKeys_Add GML Placeholder,Add GML Placeholder,Add GML Placeholder,,Redefine keys Add GML Placeholder string
+RedefineKeys_Add JS Placeholder,Add JS Placeholder,Add JS Placeholder,,Redefine keys Add JS Placeholder string
+RedefineKeys_CodeWindow_SingleColumn,Code Window Single Column,Code Window Single Column,,Redefine keys CodeWindow_SingleColumn string
+RedefineKeys_CodeWindow_2Column,Code Window 2Column,Code Window 2Column,,Redefine keys CodeWindow_2Column string
+RedefineKeys_CodeWindow_3Column,Code Window 3Column,Code Window 3Column,,Redefine keys CodeWindow_3Column string
+RedefineKeys_ObjectEditor_AddEvent,Object Editor Add Event,Object Editor Add Event,,Redefine keys ObjectEditor_AddEvent string
+RedefineKeys_ObjectEditor_ViewParentEvent,Object Editor View Parent Event,Object Editor View Parent Event,,Redefine keys ObjectEditor_ViewParentEvent string
+RedefineKeys_ObjectEditor_OpenParentObject,Object Editor Open Parent Object,Object Editor Open Parent Object,,Redefine keys ObjectEditor_OpenParentObject string
+RedefineKeys_ObjectEditor_CutEvent,Object Editor Cut Event,Object Editor Cut Event,,Redefine keys ObjectEditor_CutEvent string
+RedefineKeys_ObjectEditor_CopyEvent,Object Editor Copy Event,Object Editor Copy Event,,Redefine keys ObjectEditor_CopyEvent string
+RedefineKeys_ObjectEditor_PasteEvent,Object Editor Paste Event,Object Editor Paste Event,,Redefine keys ObjectEditor_PasteEvent string
+RedefineKeys_ObjectEditor_DuplicateEvent,Object Editor Duplicate Event,Object Editor Duplicate Event,,Redefine keys ObjectEditor_DuplicateEvent string
+RedefineKeys_ObjectEditor_ChangeEvent,Object Editor Change Event,Object Editor Change Event,,Redefine keys ObjectEditor_ChangeEvent string
+RedefineKeys_ObjectEditor_ConvertEventType,Object Editor Convert Event Type,Object Editor Convert Event Type,,Redefine keys ObjectEditor_ConvertEventType string
+RedefineKeys_ObjectEditor_DeleteEvent,Object Editor Delete Event,Object Editor Delete Event,,Redefine keys ObjectEditor_DeleteEvent string
+RedefineKeys_ObjectEditor_InheritParentEvent,Object Editor Inherit Parent Event,Object Editor Inherit Parent Event,,Redefine keys ObjectEditor_InheritParentEvent string
+RedefineKeys_ObjectEditor_OverrideParentEvent,Object Editor Override Parent Event,Object Editor Override Parent Event,,Redefine keys ObjectEditor_OverrideParentEvent string
+RedefineKeys_SplineEditor_DeletePoints,Spline Editor Delete Points,Spline Editor Delete Points,,Redefine keys SplineEditor_DeletePoints string
+RedefineKeys_PathEditor_ContextMenu_EditPoint,Path Editor Context Menu Edit Point,Path Editor Context Menu Edit Point,,Redefine keys PathEditor_ContextMenu_EditPoint string
+RedefineKeys_Generate Tile Map,Generate Tile Map,Generate Tile Map,,Redefine keys Generate Tile Map string
+RedefineKeys_RoomEditor_DeleteLayer,Room Editor Delete Layer,Room Editor Delete Layer,,Redefine keys RoomEditor_DeleteLayer string
+RedefineKeys_RoomEditor_AddRootLayer,Room Editor Add Root Layer,Room Editor Add Root Layer,,Redefine keys RoomEditor_AddRootLayer string
+RedefineKeys_RoomEditor_AddSubLayer,Room Editor Add Sub Layer,Room Editor Add Sub Layer,,Redefine keys RoomEditor_AddSubLayer string
+RedefineKeys_RoomEditor_InheritSubLayers,Room Editor Inherit Sub Layers,Room Editor Inherit Sub Layers,,Redefine keys RoomEditor_InheritSubLayers string
+RedefineKeys_RoomEditor_InheritVisibility,Room Editor Inherit Visibility,Room Editor Inherit Visibility,,Redefine keys RoomEditor_InheritVisibility string
+RedefineKeys_RoomEditor_NewBackgroundLayer,Room Editor New Background Layer,Room Editor New Background Layer,,Redefine keys RoomEditor_NewBackgroundLayer string
+RedefineKeys_RoomEditor_NewInstanceLayer,Room Editor New Instance Layer,Room Editor New Instance Layer,,Redefine keys RoomEditor_NewInstanceLayer string
+RedefineKeys_RoomEditor_NewTileLayer,Room Editor New Tile Layer,Room Editor New Tile Layer,,Redefine keys RoomEditor_NewTileLayer string
+RedefineKeys_RoomEditor_NewPathLayer,Room Editor New Path Layer,Room Editor New Path Layer,,Redefine keys RoomEditor_NewPathLayer string
+RedefineKeys_RoomEditor_NewAssetLayer,Room Editor New Asset Layer,Room Editor New Asset Layer,,Redefine keys RoomEditor_NewAssetLayer string
+RedefineKeys_RoomEditor_NewFolder,Room Editor New Folder,Room Editor New Folder,,Redefine keys RoomEditor_NewFolder string
+RedefineKeys_TextEditor_RegionsMenu,Text Editor Regions Menu,Text Editor Regions Menu,,Redefine keys TextEditor_RegionsMenu string
+RedefineKeys_Breakpoint_MenuToggle,Breakpoint Menu Toggle,Breakpoint Menu Toggle,,Redefine keys Breakpoint_MenuToggle string
+RedefineKeys_TextEditorPanel_ConvertToDnD,Text Editor Panel Convert To Dn D,Text Editor Panel Convert To Dn D,,Redefine keys TextEditorPanel_ConvertToDnD string
+RedefineKeys_SequenceDopeSheet_Timeline_Frames,Sequence Dope Sheet Timeline Frames,Sequence Dope Sheet Timeline Frames,,Redefine keys SequenceDopeSheet_Timeline_Frames string
+RedefineKeys_SequenceDopeSheet_Timeline_Time,Sequence Dope Sheet Timeline Time,Sequence Dope Sheet Timeline Time,,Redefine keys SequenceDopeSheet_Timeline_Time string
+RedefineKeys_Shader_ChangeShaderType,Shader Change Shader Type,Shader Change Shader Type,,Redefine keys Shader_ChangeShaderType string
+RedefineKeys_ShaderType_GLSLES,Shader Type GLSLES,Shader Type GLSLES,,Redefine keys ShaderType_GLSLES string
+RedefineKeys_ShaderType_GLSL,Shader Type GLSL,Shader Type GLSL,,Redefine keys ShaderType_GLSL string
+RedefineKeys_ShaderType_HLSL11,Shader Type HLSL11,Shader Type HLSL11,,Redefine keys ShaderType_HLSL11 string
+RedefineKeys_ShaderType_PSSL,Shader Type PSSL,Shader Type PSSL,,Redefine keys ShaderType_PSSL string
+RedefineKeys_Insert,Insert,Insert,,Redefine keys Insert string
+RedefineKeys_ImageEditor_AddFromFile,Image Editor Add From File,Image Editor Add From File,,Redefine keys ImageEditor_AddFromFile string
+RedefineKeys_ImageEditor_CreateFromStrip,Image Editor Create From Strip,Image Editor Create From Strip,,Redefine keys ImageEditor_CreateFromStrip string
+RedefineKeys_ImageEditor_ImportFromStrip,Image Editor Import From Strip,Image Editor Import From Strip,,Redefine keys ImageEditor_ImportFromStrip string
+RedefineKeys_ImageEditor_ExportToPNG,Image Editor Export To PNG,Image Editor Export To PNG,,Redefine keys ImageEditor_ExportToPNG string
+RedefineKeys_ImageEditor_ResizeCanvas,Image Editor Resize Canvas,Image Editor Resize Canvas,,Redefine keys ImageEditor_ResizeCanvas string
+RedefineKeys_ImageEditor_CropToSelection,Image Editor Crop To Selection,Image Editor Crop To Selection,,Redefine keys ImageEditor_CropToSelection string
+RedefineKeys_ImageEditor_AutoTrim,Image Editor Auto Trim,Image Editor Auto Trim,,Redefine keys ImageEditor_AutoTrim string
+RedefineKeys_ImageEditor_ReverseFrames,Image Editor Reverse Frames,Image Editor Reverse Frames,,Redefine keys ImageEditor_ReverseFrames string
+RedefineKeys_Transform Current Frame,Transform Current Frame,Transform Current Frame,,Redefine keys Transform Current Frame string
+RedefineKeys_Transform All Frames,Transform All Frames,Transform All Frames,,Redefine keys Transform All Frames string
+RedefineKeys_Rotate Image Clockwise,Rotate Image Clockwise,Rotate Image Clockwise,,Redefine keys Rotate Image Clockwise string
+RedefineKeys_Rotate Image Anti-Clockwise,Rotate Image Anti-Clockwise,Rotate Image Anti-Clockwise,,Redefine keys Rotate Image Anti-Clockwise string
+RedefineKeys_ImageEditor_CentreUnitScale,Image Editor Centre Unit Scale,Image Editor Centre Unit Scale,,Redefine keys ImageEditor_CentreUnitScale string
+RedefineKeys_ImageEditor_CentreFit,Image Editor Centre Fit,Image Editor Centre Fit,,Redefine keys ImageEditor_CentreFit string
+RedefineKeys_ImageEditor_OnionSkinSettings,Image Editor Onion Skin Settings,Image Editor Onion Skin Settings,,Redefine keys ImageEditor_OnionSkinSettings string
+RedefineKeys_ImageEditor_Greyscale,Image Editor Greyscale,Image Editor Greyscale,,Redefine keys ImageEditor_Greyscale string
+RedefineKeys_ImageEditor_Blur,Image Editor Blur,Image Editor Blur,,Redefine keys ImageEditor_Blur string
+RedefineKeys_TimeLine_ConvertType,Time Line Convert Type,Time Line Convert Type,,Redefine keys TimeLine_ConvertType string
+RedefineKeys_edit_image,Edit Image,Edit Image,,Redefine keys edit_image string
+RedefineKeys_import_image,Import Image,Import Image,,Redefine keys import_image string
+RedefineKeys_resize_image,Resize Image,Resize Image,,Redefine keys resize_image string
+RedefineKeys_play_preview,Play Preview,Play Preview,,Redefine keys play_preview string
+RedefineKeys_Jump To End,Jump To End,Jump To End,,Redefine keys Jump To End string
+RedefineKeys_Jump To Start,Jump To Start,Jump To Start,,Redefine keys Jump To Start string
+RedefineKeys_add_new_background_layer,Add New Background Layer,Add New Background Layer,,Redefine keys add_new_background_layer string
+RedefineKeys_add_new_tile_layer,Add New Tile Layer,Add New Tile Layer,,Redefine keys add_new_tile_layer string
+RedefineKeys_add_new_path_layer,Add New Path Layer,Add New Path Layer,,Redefine keys add_new_path_layer string
+RedefineKeys_add_new_asset_layer,Add New Asset Layer,Add New Asset Layer,,Redefine keys add_new_asset_layer string
+RedefineKeys_add_new_folder_layer,Add New Folder Layer,Add New Folder Layer,,Redefine keys add_new_folder_layer string
+RedefineKeys_select_PaintbrushTool,Select Paintbrush Tool,Select Paintbrush Tool,,Redefine keys select_PaintbrushTool string
+RedefineKeys_select_EraseTool,Select Erase Tool,Select Erase Tool,,Redefine keys select_EraseTool string
+RedefineKeys_select_FillTool,Select Fill Tool,Select Fill Tool,,Redefine keys select_FillTool string
+RedefineKeys_select_ColourRemover,Select Colour Remover,Select Colour Remover,,Redefine keys select_ColourRemover string
+RedefineKeys_select_ColourReplacer,Select Colour Replacer,Select Colour Replacer,,Redefine keys select_ColourReplacer string
+RedefineKeys_select_LineTool,Select Line Tool,Select Line Tool,,Redefine keys select_LineTool string
+RedefineKeys_select_ColourPickerTool,Select Colour Picker Tool,Select Colour Picker Tool,,Redefine keys select_ColourPickerTool string
+RedefineKeys_select_RectangleTool,Select Rectangle Tool,Select Rectangle Tool,,Redefine keys select_RectangleTool string
+RedefineKeys_toggle_RectangleTool,Toggle Rectangle Tool,Toggle Rectangle Tool,,Redefine keys toggle_RectangleTool string
+RedefineKeys_select_EllipseTool,Select Ellipse Tool,Select Ellipse Tool,,Redefine keys select_EllipseTool string
+RedefineKeys_toggle_EllipseTool,Toggle Ellipse Tool,Toggle Ellipse Tool,,Redefine keys toggle_EllipseTool string
+RedefineKeys_select_SelectRectTool,Select Select Rect Tool,Select Select Rect Tool,,Redefine keys select_SelectRectTool string
+RedefineKeys_select_SelectionPaintTool,Select Selection Paint Tool,Select Selection Paint Tool,,Redefine keys select_SelectionPaintTool string
+RedefineKeys_select_MagicWandTool,Select Magic Wand Tool,Select Magic Wand Tool,,Redefine keys select_MagicWandTool string
+RedefineKeys_select_PolygonTool,Select Polygon Tool,Select Polygon Tool,,Redefine keys select_PolygonTool string
+RedefineKeys_toggle_PolygonTool,Toggle Polygon Tool,Toggle Polygon Tool,,Redefine keys toggle_PolygonTool string
+RedefineKeys_select_ArcTool,Select Arc Tool,Select Arc Tool,,Redefine keys select_ArcTool string
+RedefineKeys_select_FreeRotateTool,Select Free Rotate Tool,Select Free Rotate Tool,,Redefine keys select_FreeRotateTool string
+RedefineKeys_Rotate Brush,Rotate Brush,Rotate Brush,,Redefine keys Rotate Brush string
+RedefineKeys_select_PanTool,Select Pan Tool,Select Pan Tool,,Redefine keys select_PanTool string
+RedefineKeys_select_TextTool,Select Text Tool,Select Text Tool,,Redefine keys select_TextTool string
+RedefineKeys_new_sprite,New Sprite,New Sprite,,Redefine keys new_sprite string
+RedefineKeys_edit_sprite,Edit Sprite,Edit Sprite,,Redefine keys edit_sprite string
+RedefineKeys_select_sprite,Select Sprite,Select Sprite,,Redefine keys select_sprite string
+RedefineKeys_select_mask,Select Mask,Select Mask,,Redefine keys select_mask string
+RedefineKeys_edit_mask,Edit Mask,Edit Mask,,Redefine keys edit_mask string
+RedefineKeys_open_events_window,Open Events Window,Open Events Window,,Redefine keys open_events_window string
+RedefineKeys_open_parent_window,Open Parent Window,Open Parent Window,,Redefine keys open_parent_window string
+RedefineKeys_open_physics_window,Open Physics Window,Open Physics Window,,Redefine keys open_physics_window string
+RedefineKeys_open_variable_definitions,Open Variable Definitions,Open Variable Definitions,,Redefine keys open_variable_definitions string
+RedefineKeys_add_event,Add Event,Add Event,,Redefine keys add_event string
+RedefineKeys_select_parent,Select Parent,Select Parent,,Redefine keys select_parent string
+RedefineKeys_edit_parent,Edit Parent,Edit Parent,,Redefine keys edit_parent string
+RedefineKeys_add_child,Add Child,Add Child,,Redefine keys add_child string
+RedefineKeys_modify_collision_shape,Modify Collision Shape,Modify Collision Shape,,Redefine keys modify_collision_shape string
+RedefineKeys_physics_toggle_grid,Physics Toggle Grid,Physics Toggle Grid,,Redefine keys physics_toggle_grid string
+RedefineKeys_physics_snap_to_grid,Physics Snap To Grid,Physics Snap To Grid,,Redefine keys physics_snap_to_grid string
+RedefineKeys_add_variable,Add Variable,Add Variable,,Redefine keys add_variable string
+RedefineKeys_add_new_range,Add New Range,Add New Range,,Redefine keys add_new_range string
+RedefineKeys_delete_selected_range,Delete Selected Range,Delete Selected Range,,Redefine keys delete_selected_range string
+RedefineKeys_open_options,Open Options,Open Options,,Redefine keys open_options string
+RedefineKeys_regenerate_font_texture,Regenerate Font Texture,Regenerate Font Texture,,Redefine keys regenerate_font_texture string
+RedefineKeys_open_tileset_properties,Open Tileset Properties,Open Tileset Properties,,Redefine keys open_tileset_properties string
+RedefineKeys_open_brush_builder,Open Brush Builder,Open Brush Builder,,Redefine keys open_brush_builder string
+RedefineKeys_open_tile_animation,Open Tile Animation,Open Tile Animation,,Redefine keys open_tile_animation string
+RedefineKeys_open_auto_tiling,Open Auto Tiling,Open Auto Tiling,,Redefine keys open_auto_tiling string
+RedefineKeys_tile_pen,Tile Pen,Tile Pen,,Redefine keys tile_pen string
+RedefineKeys_tile_eraser,Tile Eraser,Tile Eraser,,Redefine keys tile_eraser string
+RedefineKeys_tile_fill,Tile Fill,Tile Fill,,Redefine keys tile_fill string
+RedefineKeys_tile_line,Tile Line,Tile Line,,Redefine keys tile_line string
+RedefineKeys_tile_rect,Tile Rect,Tile Rect,,Redefine keys tile_rect string
+RedefineKeys_tile_select,Tile Select,Tile Select,,Redefine keys tile_select string
+RedefineKeys_tile_autotile,Tile Autotile,Tile Autotile,,Redefine keys tile_autotile string
+RedefineKeys_Rotate,Rotate,Rotate,,Redefine keys Rotate string
+RedefineKeys_autotile_add_full_set,Autotile Add Full Set,Autotile Add Full Set,,Redefine keys autotile_add_full_set string
+RedefineKeys_autotile_add_transition_set,Autotile Add Transition Set,Autotile Add Transition Set,,Redefine keys autotile_add_transition_set string
+RedefineKeys_autotile_delete_set,Autotile Delete Set,Autotile Delete Set,,Redefine keys autotile_delete_set string
+RedefineKeys_autotile_show_guide,Autotile Show Guide,Autotile Show Guide,,Redefine keys autotile_show_guide string
+RedefineKeys_add_curve,Add Curve,Add Curve,,Redefine keys add_curve string
+RedefineKeys_Zoom Fit,Zoom Fit,Zoom Fit,,Redefine keys Zoom Fit string
+RedefineKeys_set_range,Set Range,Set Range,,Redefine keys set_range string
+RedefineKeys_open_shift_path,Open Shift Path,Open Shift Path,,Redefine keys open_shift_path string
+RedefineKeys_shift_left,Shift Left,Shift Left,,Redefine keys shift_left string
+RedefineKeys_shift_right,Shift Right,Shift Right,,Redefine keys shift_right string
+RedefineKeys_shift_up,Shift Up,Shift Up,,Redefine keys shift_up string
+RedefineKeys_shift_down,Shift Down,Shift Down,,Redefine keys shift_down string
+RedefineKeys_load_sound,Load Sound,Load Sound,,Redefine keys load_sound string
+RedefineKeys_mute_sound,Mute Sound,Mute Sound,,Redefine keys mute_sound string
+RedefineKeys_play_sound,Play Sound,Play Sound,,Redefine keys play_sound string
+RedefineKeys_loop_sound,Loop Sound,Loop Sound,,Redefine keys loop_sound string
+RedefineKeys_rewind,Rewind,Rewind,,Redefine keys rewind string
+RedefineKeys_open_mixer,Open Mixer,Open Mixer,,Redefine keys open_mixer string
+RedefineKeys_mute_all,Mute All,Mute All,,Redefine keys mute_all string
+RedefineKeys_play_all,Play All,Play All,,Redefine keys play_all string
+RedefineKeys_loop_all,Loop All,Loop All,,Redefine keys loop_all string
+RedefineKeys_rewind_all,Rewind All,Rewind All,,Redefine keys rewind_all string
+RedefineKeys_create_asset,Create Asset,Create Asset,,Redefine keys create_asset string
+RedefineKeys_confirm_create_asset,Confirm Create Asset,Confirm Create Asset,,Redefine keys confirm_create_asset string
+RedefineKeys_ide_toolbar_help,Ide Toolbar Help,Ide Toolbar Help,,Redefine keys ide_toolbar_help string
+RedefineKeys_ide_toolbar_collapsedocks,Ide Toolbar Collapsedocks,Ide Toolbar Collapsedocks,,Redefine keys ide_toolbar_collapsedocks string
+RedefineKeys_RestartGame,Restart Game,Restart Game,,Redefine keys RestartGame string
+RedefineKeys_MultiSelect,Multi Select,Multi Select,,Redefine keys MultiSelect string
+RedefineKeys_Zoom,Zoom,Zoom,,Redefine keys Zoom string
+RedefineKeys_Pan,Pan,Pan,,Redefine keys Pan string
+RedefineKeys_SelectRange,Select Range,Select Range,,Redefine keys SelectRange string
+RedefineKeys_PreciseItemPlacement,Precise Item Placement,Precise Item Placement,,Redefine keys PreciseItemPlacement string
+RedefineKeys_PaintWithResource,Paint With Resource,Paint With Resource,,Redefine keys PaintWithResource string
+RedefineKeys_SelectFromAnyLayer,Select From Any Layer,Select From Any Layer,,Redefine keys SelectFromAnyLayer string
+RedefineKeys_Arc Move Control Point A,Arc Move Control Point A,Arc Move Control Point A,,Redefine keys Arc Move Control Point A string
+RedefineKeys_Arc Move Control Point B,Arc Move Control Point B,Arc Move Control Point B,,Redefine keys Arc Move Control Point B string
+RedefineKeys_Snap Tool Modifier,Snap Tool Modifier,Snap Tool Modifier,,Redefine keys Snap Tool Modifier string
+RedefineKeys_ColourReplaceWithAlpha,Colour Replace With Alpha,Colour Replace With Alpha,,Redefine keys ColourReplaceWithAlpha string
+RedefineKeys_Draw Regular Shape,Draw Regular Shape,Draw Regular Shape,,Redefine keys Draw Regular Shape string
+RedefineKeys_Draw Centred Shape,Draw Centred Shape,Draw Centred Shape,,Redefine keys Draw Centred Shape string
+RedefineKeys_FillToolTileWithBrush,Fill Tool Tile With Brush,Fill Tool Tile With Brush,,Redefine keys FillToolTileWithBrush string
+RedefineKeys_AddToSelection,Add To Selection,Add To Selection,,Redefine keys AddToSelection string
+RedefineKeys_RemoveFromSelection,Remove From Selection,Remove From Selection,,Redefine keys RemoveFromSelection string
+RedefineKeys_OpenColourPanelOnSelect,Open Colour Panel On Select,Open Colour Panel On Select,,Redefine keys OpenColourPanelOnSelect string
+RedefineKeys_RotatePath,Rotate Path,Rotate Path,,Redefine keys RotatePath string
+RedefineKeys_TranslatePath,Translate Path,Translate Path,,Redefine keys TranslatePath string
+RedefineKeys_ScalePath,Scale Path,Scale Path,,Redefine keys ScalePath string
+RedefineKeys_DopeSheetPanel_ScrollCommand,Dope Sheet Panel Scroll Command,Dope Sheet Panel Scroll Command,,Redefine keys DopeSheetPanel_ScrollCommand string
+RedefineKeys_feather_open_quickfix_menu,Feather Open Quickfix Menu,Feather Open Quickfix Menu,,Redefine keys feather_open_quickfix_menu string
+RedefineKeys_TileFlipTool,Tile Flip Tool,Tile Flip Tool,,Redefine keys TileFlipTool string
+RedefineKeys_TileMirrorTool,Tile Mirror Tool,Tile Mirror Tool,,Redefine keys TileMirrorTool string
+RedefineKeys_TileEraserTool,Tile Eraser Tool,Tile Eraser Tool,,Redefine keys TileEraserTool string
+RedefineKeys_TileFillTool,Tile Fill Tool,Tile Fill Tool,,Redefine keys TileFillTool string
+RedefineKeys_TileInheritanceTool,Tile Inheritance Tool,Tile Inheritance Tool,,Redefine keys TileInheritanceTool string
+RedefineKeys_TileLineTool,Tile Line Tool,Tile Line Tool,,Redefine keys TileLineTool string
+RedefineKeys_TilePenTool,Tile Pen Tool,Tile Pen Tool,,Redefine keys TilePenTool string
+RedefineKeys_TileRectTool,Tile Rect Tool,Tile Rect Tool,,Redefine keys TileRectTool string
+RedefineKeys_TileRotateTool,Tile Rotate Tool,Tile Rotate Tool,,Redefine keys TileRotateTool string
+RedefineKeys_TileSelectionTool,Tile Selection Tool,Tile Selection Tool,,Redefine keys TileSelectionTool string
+RedefineKeys_AutoTileTool,Auto Tile Tool,Auto Tile Tool,,Redefine keys AutoTileTool string
+RedefineKeys_RoomEditorPaintBrush,Room Editor Paint Brush,Room Editor Paint Brush,,Redefine keys RoomEditorPaintBrush string
+RedefineKeys_ActivateTileSelectWindow,Activate Tile Select Window,Activate Tile Select Window,,Redefine keys ActivateTileSelectWindow string
+RedefineKeys_InvertSelection,Invert Selection,Invert Selection,,Redefine keys InvertSelection string
+RedefineKeys_ToggleMacroEditingMode,Toggle Macro Editing Mode,Toggle Macro Editing Mode,,Redefine keys ToggleMacroEditingMode string
+RedefineKeys_Increase Brush Size,Increase Brush Size,Increase Brush Size,,Redefine keys Increase Brush Size string
+RedefineKeys_Increase_Brush Size,Increase Brush Size,Increase Brush Size,,Redefine keys Increase_Brush Size string
+RedefineKeys_Decrease Brush Size,Decrease Brush Size,Decrease Brush Size,,Redefine keys Decrease Brush Size string
+RedefineKeys_Decrease_Brush Size,Decrease Brush Size,Decrease Brush Size,,Redefine keys Decrease_Brush Size string
+RedefineKeys_feather_lint_messages_show,Feather Lint Messages Show,Feather Lint Messages Show,,Redefine keys feather_lint_messages_show string
+RedefineKeys_Global,Global,Global,,Redefine keys location entry
+RedefineKeys_TextEditor,Text Editor,Text Editor,,Redefine keys location entry
+RedefineKeys_SequenceEditor,Sequence Editor,Sequence Editor,,Redefine keys location entry
+RedefineKeys_ImageEditor,Image Editor,Image Editor,,Redefine keys location entry
+RedefineKeys_RoomEditor,Room Editor,Room Editor,,Redefine keys location entry
+RedefineKeys_TimelineEditor,Timeline Editor,Timeline Editor,,Redefine keys location entry
+RedefineKeys_TilesetEditor,Tileset Editor,Tileset Editor,,Redefine keys location entry
+RedefineKeys_SpriteEditor,Sprite Editor,Sprite Editor,,Redefine keys location entry
+RedefineKeys_PathEditor,Path Editor,Path Editor,,Redefine keys location entry
+RedefineKeys_ObjectEditor,Object Editor,Object Editor,,Redefine keys location entry
+RedefineKeys_Errors,Errors,Errors,,Redefine keys location entry
+RedefineKeys_AssetBrowser,Asset Browser,Asset Browser,,Redefine keys location entry
+RedefineKeys_AnimCurveEditor,Anim Curve Editor,Anim Curve Editor,,Redefine keys location entry
+RedefineKeys_ContextMenu,Context Menu,Context Menu,,Redefine keys location entry
+RedefineKeys_FontEditor,Font Editor,Font Editor,,Redefine keys location entry
+RedefineKeys_SoundEditor,Sound Editor,Sound Editor,,Redefine keys location entry
+RedefineKeys_SoundMixer,Sound Mixer,Sound Mixer,,Redefine keys location entry
+RedefineKeys_Command,Command,Command,,Redefine keys Command label
+RedefineKeys_Keys,Keys,Keys,,Redefine keys Keys label
