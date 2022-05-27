@@ -4702,6 +4702,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get Reps Completed"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T120515Z" creationid="LiarOnce" creationdate="20220527T120316Z">
+        <seg>“获取已完成的重复次数”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Reps Remaining"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T120512Z" creationid="LiarOnce" creationdate="20220527T120455Z">
+        <seg>"获取剩余的重复次数"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get Score"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124614Z" creationid="liaronce" creationdate="20210228T124614Z">
@@ -5806,6 +5822,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get the number of completed repetitions of time source ${idx} and assign it to ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T120421Z" creationid="LiarOnce" creationdate="20220527T120421Z">
+        <seg>“获取时间源 ${idx} 的已完成重复次数并将其分配给 ${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get the number of connected gamepad devices."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T122010Z">
@@ -5818,6 +5842,30 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T130551Z">
         <seg>"获取一个列表中的项目数。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the number of remaining repetitions of time source ${idx} and assign it to ${var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T120510Z" creationid="LiarOnce" creationdate="20220527T120458Z">
+        <seg>“获取时间源 ${idx} 的剩余重复次数并将其分配给 ${var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the number of repetitions a time source has completed."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T120319Z" creationid="LiarOnce" creationdate="20220527T120319Z">
+        <seg>“获取时间源已完成的重复次数。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the number of repetitions a time source has remaining."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T120456Z" creationid="LiarOnce" creationdate="20220527T120456Z">
+        <seg>“获取时间源剩余的重复次数。”</seg>
       </tuv>
     </tu>
     <tu>
