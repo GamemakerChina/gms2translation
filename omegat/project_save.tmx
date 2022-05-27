@@ -33670,8 +33670,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Edit Context Menu</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T215643Z" creationid="deciia" creationdate="20161224T071954Z">
-        <seg>编辑上下文菜单</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143347Z" creationid="deciia" creationdate="20161224T071954Z">
+        <seg>编辑右键菜单</seg>
       </tuv>
     </tu>
     <tu>
@@ -34505,8 +34505,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Enable Context Menu</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180925T085649Z" creationid="deciia" creationdate="20170105T063114Z">
-        <seg>启用上下文菜单</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143402Z" creationid="deciia" creationdate="20170105T063114Z">
+        <seg>启用右键菜单</seg>
       </tuv>
     </tu>
     <tu>
@@ -36687,6 +36687,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T233251Z" creationid="deciia" creationdate="20170102T070711Z">
         <seg>文件已锁定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>File Menu Import Project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143630Z" creationid="LiarOnce" creationdate="20220527T143630Z">
+        <seg>“文件”菜单“导入项目”</seg>
       </tuv>
     </tu>
     <tu>
@@ -42716,6 +42724,110 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T074438Z" creationid="deciia" creationdate="20180922T074438Z">
         <seg>IDE版本和当前运行库版本与调试不兼容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Help About</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143629Z" creationid="LiarOnce" creationdate="20220527T143629Z">
+        <seg>IDEMenu帮助关于</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Help GMC</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143621Z" creationid="LiarOnce" creationdate="20220527T143621Z">
+        <seg>IDEMenu帮助GMC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Help Help</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143615Z" creationid="LiarOnce" creationdate="20220527T143615Z">
+        <seg>IDEMenu 帮助 帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Help Knowledge Base</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143617Z" creationid="LiarOnce" creationdate="20220527T143617Z">
+        <seg>IDEMenu帮助知识库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Help Licenses</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143628Z" creationid="LiarOnce" creationdate="20220527T143628Z">
+        <seg>IDEMenu 帮助许可证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Help Log File</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143620Z" creationid="LiarOnce" creationdate="20220527T143620Z">
+        <seg>IDEMenu帮助日志文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Help Open In Explorer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143625Z" creationid="LiarOnce" creationdate="20220527T143625Z">
+        <seg>IDEMenu 帮助 在资源管理器中打开</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Help Release Notes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143622Z" creationid="LiarOnce" creationdate="20220527T143622Z">
+        <seg>IDEMenu帮助发布说明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Help Report Bug</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143619Z" creationid="LiarOnce" creationdate="20220527T143619Z">
+        <seg>IDEMenu帮助报告错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Help Runtime Release Notes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143623Z" creationid="LiarOnce" creationdate="20220527T143623Z">
+        <seg>IDEMenu帮助运行时发行说明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Help SDKS</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143623Z" creationid="LiarOnce" creationdate="20220527T143623Z">
+        <seg>IDEMenu帮助SDK</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Help Start Page</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143610Z" creationid="LiarOnce" creationdate="20220527T143610Z">
+        <seg>IDEMenu 帮助起始页</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEMenu Help YYG</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143620Z" creationid="LiarOnce" creationdate="20220527T143620Z">
+        <seg>IDEMenu帮助YYG</seg>
       </tuv>
     </tu>
     <tu>
@@ -73889,6 +74001,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T014356Z" creationid="deciia" creationdate="20180922T014356Z">
         <seg>更新个人资料</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Update System Fonts</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143627Z" creationid="LiarOnce" creationdate="20220527T143627Z">
+        <seg>更新系统字体</seg>
       </tuv>
     </tu>
     <tu>
