@@ -214,6 +214,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Active"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115442Z" creationid="LiarOnce" creationdate="20220527T115442Z">
+        <seg>"活动"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Add ${alpha} to alpha on ${applyto}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210304T131039Z">
@@ -582,6 +590,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"After"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115432Z" creationid="LiarOnce" creationdate="20220527T115432Z">
+        <seg>"之后"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Alarm"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132739Z" creationid="liaronce" creationdate="20210228T132739Z">
@@ -705,6 +721,14 @@
         <seg>"Argument"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132713Z" creationid="liaronce" creationdate="20210228T132713Z">
+        <seg>"参数"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Arguments"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115348Z" creationid="LiarOnce" creationdate="20220527T115348Z">
         <seg>"参数"</seg>
       </tuv>
     </tu>
@@ -994,6 +1018,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T135724Z">
         <seg>"调用用户事件${event}${show_input_count}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Callback"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115342Z" creationid="LiarOnce" creationdate="20220527T115342Z">
+        <seg>"回调"</seg>
       </tuv>
     </tu>
     <tu>
@@ -2046,6 +2078,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Create Time Source"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115507Z" creationid="LiarOnce" creationdate="20220527T115500Z">
+        <seg>"创建时间源"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Create a burst of particles without an emitter."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132011Z" creationid="liaronce" creationdate="20210228T132011Z">
@@ -2274,6 +2314,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130415Z" creationid="liaronce" creationdate="20210228T130415Z">
         <seg>"创建一个堆栈数据结构。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Create a time source and assign it to ${idx}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115524Z" creationid="LiarOnce" creationdate="20220527T115524Z">
+        <seg>“创建时间源并将其分配给 ${idx}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Create a time source."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115519Z" creationid="LiarOnce" creationdate="20220527T115519Z">
+        <seg>“创建时间源。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -2566,10 +2622,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Destroy Time Source"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115528Z" creationid="LiarOnce" creationdate="20220527T115528Z">
+        <seg>“销毁时间源”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Destroy a particle emitter."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132252Z" creationid="liaronce" creationdate="20210228T132252Z">
         <seg>"销毁一个粒子发射器。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Destroy a time source."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115530Z" creationid="LiarOnce" creationdate="20220527T115530Z">
+        <seg>“销毁一个时间来源。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -2682,6 +2754,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T135709Z">
         <seg>"销毁此实例"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Destroy time source ${idx}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115533Z" creationid="LiarOnce" creationdate="20220527T115533Z">
+        <seg>“销毁时间源 ${idx}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -3990,6 +4070,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Expiry Type"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115401Z" creationid="LiarOnce" creationdate="20220527T115401Z">
+        <seg>"过期类型"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Expression"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133522Z" creationid="liaronce" creationdate="20210228T133522Z">
@@ -4190,6 +4278,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Frames"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115424Z" creationid="LiarOnce" creationdate="20220527T115424Z">
+        <seg>"帧"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Free Data Structure"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130451Z" creationid="liaronce" creationdate="20210228T130451Z">
@@ -4290,6 +4386,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134124Z" creationid="liaronce" creationdate="20210228T134124Z">
         <seg>"游戏 Fps {0}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Game Time Source"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115512Z" creationid="LiarOnce" creationdate="20220527T115415Z">
+        <seg>"游戏时间源"</seg>
       </tuv>
     </tu>
     <tu>
@@ -6658,6 +6762,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20211105T144006Z">
         <seg>"给你的项目起个名字，选择一个保存位置，然后直接跳进去！"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Global Time Source"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115509Z" creationid="LiarOnce" creationdate="20220527T115409Z">
+        <seg>"全局时间源"</seg>
       </tuv>
     </tu>
     <tu>
@@ -9486,6 +9598,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Initial"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115437Z" creationid="LiarOnce" creationdate="20220527T115437Z">
+        <seg>"初始"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Insert ${value} into list ${var} at index ${index} on ${applyto}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210304T132124Z">
@@ -10062,6 +10182,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Nearest"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115428Z" creationid="LiarOnce" creationdate="20220527T115428Z">
+        <seg>"最近"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"No DNS IP specified - the runtime feeds will be resolved against a system DNS"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115219Z" creationid="LiarOnce" creationdate="20220527T115219Z">
@@ -10326,10 +10454,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Pause Time Source"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115559Z" creationid="LiarOnce" creationdate="20220527T115559Z">
+        <seg>“暂停时间源”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Pause a sound effect or a music track."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130817Z" creationid="liaronce" creationdate="20210228T130817Z">
         <seg>"暂停一个音效或者音乐音轨。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Pause a time source."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115600Z" creationid="LiarOnce" creationdate="20220527T115600Z">
+        <seg>“暂停时间源。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -10406,6 +10550,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Pause time source ${idx}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115602Z" creationid="LiarOnce" creationdate="20220527T115602Z">
+        <seg>"暂停时间源 ${idx}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Pause timeline on ${applyto}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210304T133057Z">
@@ -10422,10 +10574,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Paused"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115445Z" creationid="LiarOnce" creationdate="20220527T115445Z">
+        <seg>"暂停"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Pauses the sequence."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T121020Z">
         <seg>"暂停序列。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Period"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115335Z" creationid="LiarOnce" creationdate="20220527T115335Z">
+        <seg>"点"</seg>
       </tuv>
     </tu>
     <tu>
@@ -10958,10 +11126,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Repetitions"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115355Z" creationid="LiarOnce" creationdate="20220527T115355Z">
+        <seg>"重复"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Replace the existing {0} event, or paste as a new event?"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T113655Z" creationid="liaronce" creationdate="20210228T113655Z">
         <seg>"替换现有 {0} 事件，还是粘贴为新事件？"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Reset Time Source"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115603Z" creationid="LiarOnce" creationdate="20220527T115603Z">
+        <seg>“重置时间源”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Reset a time source."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115604Z" creationid="LiarOnce" creationdate="20220527T115604Z">
+        <seg>“重置时间源。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Reset time source ${idx}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115744Z" creationid="LiarOnce" creationdate="20220527T115606Z">
+        <seg>“重置时间源 ${idx}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -11642,6 +11842,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T115852Z" creationid="liaronce" creationdate="20210228T115852Z">
         <seg>"搜索资源、选项、首选项："</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Seconds"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115420Z" creationid="LiarOnce" creationdate="20220527T115420Z">
+        <seg>"秒"</seg>
       </tuv>
     </tu>
     <tu>
@@ -14222,6 +14430,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Start Time Source"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115553Z" creationid="LiarOnce" creationdate="20220527T115535Z">
+        <seg>“开始时间源”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Start a time source."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115548Z" creationid="LiarOnce" creationdate="20220527T115537Z">
+        <seg>“开始时间源。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Start following a path with an instance."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131855Z" creationid="liaronce" creationdate="20210228T131847Z">
@@ -14250,6 +14474,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210304T132426Z">
         <seg>"开始路径${path}，结束速度为${Speed}和${atend}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Start time source ${idx}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115543Z" creationid="LiarOnce" creationdate="20220527T115543Z">
+        <seg>"开始时间源 ${idx}"</seg>
       </tuv>
     </tu>
     <tu>
@@ -14350,6 +14582,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Stop Time Source"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115555Z" creationid="LiarOnce" creationdate="20220527T115555Z">
+        <seg>“停止时间源”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Stop a time source."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115557Z" creationid="LiarOnce" creationdate="20220527T115557Z">
+        <seg>“停止时间源。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Stop all audio on ${applyto}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210304T131942Z">
@@ -14438,6 +14686,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Stop time source ${idx}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115558Z" creationid="LiarOnce" creationdate="20220527T115558Z">
+        <seg>"停止时间源 ${idx}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Stop timeline on ${applyto}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210304T132504Z">
@@ -14450,6 +14706,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210304T132503Z">
         <seg>"停止时间轴"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Stopped"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115449Z" creationid="LiarOnce" creationdate="20220527T115449Z">
+        <seg>"停止"</seg>
       </tuv>
     </tu>
     <tu>
@@ -14840,8 +15104,8 @@
       <tuv lang="en-US">
         <seg>"Time Source"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115320Z" creationid="LiarOnce" creationdate="20220527T115320Z">
-        <seg>"时间来源"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115515Z" creationid="LiarOnce" creationdate="20220527T115320Z">
+        <seg>"时间源"</seg>
       </tuv>
     </tu>
     <tu>
@@ -15098,6 +15362,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134603Z" creationid="liaronce" creationdate="20210228T134603Z">
         <seg>"很抱歉，这个附加组件不适用于您当前拥有的许可证。\n您要前往您的账户来查看您的许可证吗？"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Units"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115339Z" creationid="LiarOnce" creationdate="20220527T115339Z">
+        <seg>"单位"</seg>
       </tuv>
     </tu>
     <tu>
