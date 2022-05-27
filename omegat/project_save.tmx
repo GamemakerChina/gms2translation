@@ -50574,6 +50574,46 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Move Canvas Items Down 10x</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140830Z" creationid="LiarOnce" creationdate="20220527T140830Z">
+        <seg>将画布项目下移10倍</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Move Canvas Items Left 10x</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140831Z" creationid="LiarOnce" creationdate="20220527T140831Z">
+        <seg>将画布项目左移10倍</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Move Canvas Items Right 10x</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140832Z" creationid="LiarOnce" creationdate="20220527T140832Z">
+        <seg>将画布项目向右移动10倍</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Move Canvas Items Up</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140834Z" creationid="LiarOnce" creationdate="20220527T140834Z">
+        <seg>将画布项目上移</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Move Canvas Items Up 10x</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140828Z" creationid="LiarOnce" creationdate="20220527T140828Z">
+        <seg>将画布项目上移10倍</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Move Column Left</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T112105Z" creationid="deciia" creationdate="20170102T083132Z">
@@ -61682,42 +61722,66 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sequence Move Keys Left1</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140818Z" creationid="LiarOnce" creationdate="20220527T140818Z">
+        <seg>序列向左移动关键帧 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sequence Move Keys Left10</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140522Z" creationid="LiarOnce" creationdate="20220527T140428Z">
-        <seg>序列移动关键点左端 10</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140804Z" creationid="LiarOnce" creationdate="20220527T140428Z">
+        <seg>序列向左移动关键帧 10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Move Keys Right1</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140822Z" creationid="LiarOnce" creationdate="20220527T140822Z">
+        <seg>序列向右移动关键帧 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Move Keys Right10</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140813Z" creationid="LiarOnce" creationdate="20220527T140813Z">
+        <seg>序列向右移动关键帧 10</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Sequence Move Playhead Left1</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140410Z" creationid="LiarOnce" creationdate="20220527T140410Z">
-        <seg>序列移动播放头左端 1</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140737Z" creationid="LiarOnce" creationdate="20220527T140410Z">
+        <seg>序列向左移动播放头 1</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Sequence Move Playhead Left10</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140358Z" creationid="LiarOnce" creationdate="20220527T140358Z">
-        <seg>序列向左移动播放头10</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140720Z" creationid="LiarOnce" creationdate="20220527T140358Z">
+        <seg>序列向左移动播放头 10</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Sequence Move Playhead Right1</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140421Z" creationid="LiarOnce" creationdate="20220527T140421Z">
-        <seg>序列移动播放头右端 1</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140745Z" creationid="LiarOnce" creationdate="20220527T140421Z">
+        <seg>序列向右移动播放头 1</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Sequence Move Playhead Right10</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140400Z" creationid="LiarOnce" creationdate="20220527T140400Z">
-        <seg>序列向右移动播放头10</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140723Z" creationid="LiarOnce" creationdate="20220527T140400Z">
+        <seg>序列向右移动播放头 10</seg>
       </tuv>
     </tu>
     <tu>
