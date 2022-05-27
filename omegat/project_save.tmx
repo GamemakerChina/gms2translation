@@ -50574,6 +50574,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Move Canvas Items Down</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140835Z" creationid="LiarOnce" creationdate="20220527T140835Z">
+        <seg>将画布项目下移</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Move Canvas Items Down 10x</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140830Z" creationid="LiarOnce" creationdate="20220527T140830Z">
@@ -50582,10 +50590,26 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Move Canvas Items Left</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140836Z" creationid="LiarOnce" creationdate="20220527T140836Z">
+        <seg>将画布项目左移</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Move Canvas Items Left 10x</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140831Z" creationid="LiarOnce" creationdate="20220527T140831Z">
         <seg>将画布项目左移10倍</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Move Canvas Items Right</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140845Z" creationid="LiarOnce" creationdate="20220527T140837Z">
+        <seg>将画布项目右移</seg>
       </tuv>
     </tu>
     <tu>
@@ -61690,6 +61714,70 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sequence Expand Tracks All</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141008Z" creationid="LiarOnce" creationdate="20220527T141002Z">
+        <seg>序列展开全部轨迹</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Expand Tracks Selection</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140951Z" creationid="LiarOnce" creationdate="20220527T140951Z">
+        <seg>序列展开轨迹选择</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Goto End</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140948Z" creationid="LiarOnce" creationdate="20220527T140948Z">
+        <seg>序列转至结束</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Goto End Selection</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140950Z" creationid="LiarOnce" creationdate="20220527T140950Z">
+        <seg>序列转到结束选定内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Goto Next Event</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141110Z" creationid="LiarOnce" creationdate="20220527T141110Z">
+        <seg>序列转到下一事件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Goto Prev Event</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141111Z" creationid="LiarOnce" creationdate="20220527T141111Z">
+        <seg>序列转到上一事件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Goto Start</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140947Z" creationid="LiarOnce" creationdate="20220527T140947Z">
+        <seg>序列转至开始</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Goto Start Selection</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141000Z" creationid="LiarOnce" creationdate="20220527T140949Z">
+        <seg>序列转到开始选定内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sequence Information</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142819Z" creationid="liaronce" creationdate="20200820T142819Z">
@@ -61786,6 +61874,54 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sequence New Broadcast Message</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141059Z" creationid="LiarOnce" creationdate="20220527T141059Z">
+        <seg>对新广播消息进行排序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence New Clipping Mask</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141046Z" creationid="LiarOnce" creationdate="20220527T141046Z">
+        <seg>为新的剪贴蒙版排序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence New Group</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141056Z" creationid="LiarOnce" creationdate="20220527T141056Z">
+        <seg>序列新建组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence New Moment</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141108Z" creationid="LiarOnce" creationdate="20220527T141108Z">
+        <seg>序列新建时刻</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Next Keyframe</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140931Z" creationid="LiarOnce" creationdate="20220527T140931Z">
+        <seg>对下一个关键帧进行排序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Prev Keyframe</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140937Z" creationid="LiarOnce" creationdate="20220527T140937Z">
+        <seg>对上一个关键帧进行排序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sequence Remove Keyframe</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140229Z" creationid="LiarOnce" creationdate="20220527T140229Z">
@@ -61802,10 +61938,82 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sequence Select Next Key</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140945Z" creationid="LiarOnce" creationdate="20220527T140945Z">
+        <seg>序列选择下一个键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Select Prev Key</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140946Z" creationid="LiarOnce" creationdate="20220527T140946Z">
+        <seg>序列选择上一个键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Select Track Above</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141017Z" creationid="LiarOnce" creationdate="20220527T141003Z">
+        <seg>序列选择上面的轨道</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Select Track Above Additive</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141035Z" creationid="LiarOnce" creationdate="20220527T141035Z">
+        <seg>序列选择轨道上方的轨迹</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Select Track Below</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141022Z" creationid="LiarOnce" creationdate="20220527T141022Z">
+        <seg>序列选择下面的轨道</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Select Track Below Additive</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141044Z" creationid="LiarOnce" creationdate="20220527T141044Z">
+        <seg>序列选择轨道下方的轨迹</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Split Key Two Tracks</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140905Z" creationid="LiarOnce" creationdate="20220527T140905Z">
+        <seg>序列拆分关键点两个轨迹</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sequence Split Keyframe</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140228Z" creationid="LiarOnce" creationdate="20220527T140228Z">
         <seg>序列拆分关键帧</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Stretch Keys Left</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140924Z" creationid="LiarOnce" creationdate="20220527T140924Z">
+        <seg>向左排列拉伸关键点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Stretch Keys Right</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140929Z" creationid="LiarOnce" creationdate="20220527T140907Z">
+        <seg>向右排列拉伸关键点&lt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -61846,6 +62054,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T113736Z" creationid="liaronce" creationdate="20210621T113736Z">
         <seg>序列轨迹</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Trim Key Left</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140901Z" creationid="LiarOnce" creationdate="20220527T140853Z">
+        <seg>序列修剪左侧关键点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sequence Trim Key Right</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T140856Z" creationid="LiarOnce" creationdate="20220527T140856Z">
+        <seg>序列修剪右侧关键点</seg>
       </tuv>
     </tu>
     <tu>
@@ -71319,6 +71543,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T005400Z" creationid="deciia" creationdate="20180922T191716Z">
         <seg>错误过多 - GML 未处理: {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Tool Rotate</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141132Z" creationid="LiarOnce" creationdate="20220527T141132Z">
+        <seg>工具旋转</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Tool Scale</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141130Z" creationid="LiarOnce" creationdate="20220527T141120Z">
+        <seg>工具刻度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Tool Translate</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T141141Z" creationid="LiarOnce" creationdate="20220527T141117Z">
+        <seg>工具平移</seg>
       </tuv>
     </tu>
     <tu>
