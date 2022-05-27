@@ -782,6 +782,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"BPM to Seconds"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T134454Z" creationid="LiarOnce" creationdate="20220527T134454Z">
+        <seg>“BPM 到秒”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Background"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T133013Z">
@@ -1358,10 +1366,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Check if a time source's parent satisfies a condition."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T134437Z" creationid="LiarOnce" creationdate="20220527T134437Z">
+        <seg>“检查时间源的父级是否满足条件。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Check if a time source's state satisfies a condition."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132751Z" creationid="LiarOnce" creationdate="20220527T132751Z">
         <seg>“检查时间源的状态是否满足条件。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Check if a time source's units satisfies a condition."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T134413Z" creationid="LiarOnce" creationdate="20220527T134413Z">
+        <seg>“检查时间源的单位是否满足条件。”</seg>
       </tuv>
     </tu>
     <tu>
@@ -1838,10 +1862,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Convert a frequency in beats-per-minute to its equivalent period in seconds."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T134505Z" creationid="LiarOnce" creationdate="20220527T134505Z">
+        <seg>“将以每分钟 BPM 为单位的频率转换为以秒为单位的等效周期。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Convert a frequency of ${in_var} beats-per-minute to a period in seconds and assign it to ${out_var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T134643Z" creationid="LiarOnce" creationdate="20220527T134547Z">
+        <seg>“将每分钟 ${in_var} 次的节拍转换为以秒为单位的周期，并将其分配给 ${out_var}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Convert a number to a string."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T125142Z">
         <seg>"将数字转换为字符串。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Convert a period in seconds to its equivalent frequency in beats-per-minute."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T134638Z" creationid="LiarOnce" creationdate="20220527T134622Z">
+        <seg>“将以秒为单位的周期转换为以每分钟节拍为单位的等效频率。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Convert a period of ${in_var} seconds to a frequency in beats-per-minute and assign it to ${out_var}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T134634Z" creationid="LiarOnce" creationdate="20220527T134634Z">
+        <seg>“将 ${in_var} 秒的周期转换为每分钟节拍的频率并将其分配给 ${out_var}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -8142,6 +8198,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"If Parent"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T134435Z" creationid="LiarOnce" creationdate="20220527T134435Z">
+        <seg>“如果父级”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"If Room Is First"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T131646Z">
@@ -9590,6 +9654,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"If the parent of time source ${idx} is ${parent}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T134444Z" creationid="LiarOnce" creationdate="20220527T134438Z">
+        <seg>“如果时间源 ${idx} 的父级为 ${parent}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If the parent of time source ${idx} is not ${parent}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T134447Z" creationid="LiarOnce" creationdate="20220527T134441Z">
+        <seg>“如果时间源 ${idx} 的父级不是 ${parent}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"If the state of time source ${idx} is ${state}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132803Z" creationid="LiarOnce" creationdate="20220527T132803Z">
@@ -9602,6 +9682,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T132815Z" creationid="LiarOnce" creationdate="20220527T132815Z">
         <seg>如果时间源 ${idx} 的状态不是 ${state}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If the units of time source ${idx} are ${units}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T134421Z" creationid="LiarOnce" creationdate="20220527T134421Z">
+        <seg>“如果时间源 ${idx} 的单位为 ${units}”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"If the units of time source ${idx} are not ${units}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T134427Z" creationid="LiarOnce" creationdate="20220527T134427Z">
+        <seg>“如果时间源 ${idx} 的单位不是 ${units}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -12130,6 +12226,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T115852Z" creationid="liaronce" creationdate="20210228T115852Z">
         <seg>"搜索资源、选项、首选项："</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Seconds to BPM"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T134606Z" creationid="LiarOnce" creationdate="20220527T134556Z">
+        <seg>“秒到 BPM”</seg>
       </tuv>
     </tu>
     <tu>
