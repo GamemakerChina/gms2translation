@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.7.0_0_8ae1ecfb" segtype="sentence" srclang="en-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.7.1_0_c3206253" segtype="sentence" srclang="en-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -656,8 +656,8 @@
       <tuv lang="en-US">
         <seg>"Apply a transformation to tile data."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124548Z" creationid="liaronce" creationdate="20210228T124548Z">
-        <seg>"将变换应用于图块数据。"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124548Z">
+        <seg>"将变换应用于Tile 贴图数据。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -840,8 +840,8 @@
       <tuv lang="en-US">
         <seg>"Brush tiles: ({0})"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120034Z" creationid="liaronce" creationdate="20210228T120034Z">
-        <seg>"图块笔刷: ({0})"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T120034Z">
+        <seg>"Tile 贴图笔刷: ({0})"</seg>
       </tuv>
     </tu>
     <tu>
@@ -4632,48 +4632,48 @@
       <tuv lang="en-US">
         <seg>"Get Tile Data At Pixel"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124451Z" creationid="liaronce" creationdate="20210228T124451Z">
-        <seg>"获取像素位置的图块数据"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124451Z">
+        <seg>"获取像素位置的Tile 贴图数据"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get Tile Data In Cell"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124441Z" creationid="liaronce" creationdate="20210228T123351Z">
-        <seg>"获取单元格内的图块数据"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T123351Z">
+        <seg>"获取单元格内的Tile 贴图数据"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get Tile Data Transform"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124552Z" creationid="liaronce" creationdate="20210228T124552Z">
-        <seg>"获取图块数据变换"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124552Z">
+        <seg>"获取Tile 贴图数据变换"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get Tile Index At Pixel"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124413Z" creationid="liaronce" creationdate="20210228T123129Z">
-        <seg>"获取像素位置的图块索引"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T123129Z">
+        <seg>"获取像素位置的Tile 贴图索引"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get Tile Index In Cell"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124433Z" creationid="liaronce" creationdate="20210228T123348Z">
-        <seg>"获取单元格的图块索引"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T123348Z">
+        <seg>"获取单元格的Tile 贴图索引"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get Tilemap Variable"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124520Z" creationid="liaronce" creationdate="20210228T124520Z">
-        <seg>"获取图块地图变量"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124520Z">
+        <seg>"获取Tile 贴图地图变量"</seg>
       </tuv>
     </tu>
     <tu>
@@ -4792,8 +4792,8 @@
       <tuv lang="en-US">
         <seg>"Get a variable from a tilemap element."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124526Z" creationid="liaronce" creationdate="20210228T124526Z">
-        <seg>"从一个图块地图（tilemap）元素获取一个变量。"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124526Z">
+        <seg>"从一个Tile 贴图地图（tilemap）元素获取一个变量。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -5728,40 +5728,40 @@
       <tuv lang="en-US">
         <seg>"Get the tile data at the specified position on a tile layer."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124456Z" creationid="liaronce" creationdate="20210228T124456Z">
-        <seg>"获取一个图块层指定位置的图块数据。"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124456Z">
+        <seg>"获取一个Tile 贴图层指定位置的Tile 贴图数据。"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get the tile data in a cell on a tile layer."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124447Z" creationid="liaronce" creationdate="20210228T124447Z">
-        <seg>"获取一个图块层上的一个单元格内的图块数据。"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124447Z">
+        <seg>"获取一个Tile 贴图层上的一个单元格内的Tile 贴图数据。"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get the tile index at the specified position."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124418Z" creationid="liaronce" creationdate="20210228T123140Z">
-        <seg>"获取位于指定位置的图块索引。"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T123140Z">
+        <seg>"获取位于指定位置的Tile 贴图索引。"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get the tile index in the specified cell."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124437Z" creationid="liaronce" creationdate="20210228T123349Z">
-        <seg>"获取在指定单元格处的图块索引。"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T123349Z">
+        <seg>"获取在指定单元格处的Tile 贴图索引。"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Get the transformation of tile data."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124557Z" creationid="liaronce" creationdate="20210228T124557Z">
-        <seg>"获取图块数据的变换。"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124557Z">
+        <seg>"获取Tile 贴图数据的变换。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -10208,8 +10208,8 @@
       <tuv lang="en-US">
         <seg>"Output texture size is too large, some tiles may be missing.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134345Z" creationid="liaronce" creationdate="20210228T134338Z">
-        <seg>"输出纹理大小过大，有些图块可能会丢失。</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T134338Z">
+        <seg>"输出纹理大小过大，有些Tile 贴图可能会丢失。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12144,48 +12144,48 @@
       <tuv lang="en-US">
         <seg>"Set Tile Data At Pixel"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124510Z" creationid="liaronce" creationdate="20210228T124510Z">
-        <seg>"设置像素位置的图块数据"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124510Z">
+        <seg>"设置像素位置的Tile 贴图数据"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set Tile Data In Cell"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124502Z" creationid="liaronce" creationdate="20210228T124502Z">
-        <seg>"设置单元格的图块数据"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124502Z">
+        <seg>"设置单元格的Tile 贴图数据"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set Tile Data Transform"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124544Z" creationid="liaronce" creationdate="20210228T124544Z">
-        <seg>"设置图块数据变换"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124544Z">
+        <seg>"设置Tile 贴图数据变换"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set Tile Index At Pixel"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124404Z" creationid="liaronce" creationdate="20210228T123118Z">
-        <seg>"设置像素位置的图块索引"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T123118Z">
+        <seg>"设置像素位置的Tile 贴图索引"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set Tile Index In Cell"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124423Z" creationid="liaronce" creationdate="20210228T123144Z">
-        <seg>"设置单元格内的图块索引"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T123144Z">
+        <seg>"设置单元格内的Tile 贴图索引"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set Tile Set"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124531Z" creationid="liaronce" creationdate="20210228T124531Z">
-        <seg>"设置图块集"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124531Z">
+        <seg>"设置Tile 贴图集"</seg>
       </tuv>
     </tu>
     <tu>
@@ -13512,40 +13512,40 @@
       <tuv lang="en-US">
         <seg>"Set the tile data at the specified position on a tile layer."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124516Z" creationid="liaronce" creationdate="20210228T124516Z">
-        <seg>"设置在一个图块层的特定位置的图块数据。"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124516Z">
+        <seg>"设置在一个Tile 贴图层的特定位置的Tile 贴图数据。"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set the tile data in a cell on a tile layer."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124506Z" creationid="liaronce" creationdate="20210228T124506Z">
-        <seg>"设置一个图块层中的一个单元格的图块数据。"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124506Z">
+        <seg>"设置一个Tile 贴图层中的一个单元格的Tile 贴图数据。"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set the tile index at the specified position."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124409Z" creationid="liaronce" creationdate="20210228T123122Z">
-        <seg>"设置位于指定位置的图块索引。"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T123122Z">
+        <seg>"设置位于指定位置的Tile 贴图索引。"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set the tile index in the specified cell."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124428Z" creationid="liaronce" creationdate="20210228T123146Z">
-        <seg>"设置在指定单元格处的图块索引。"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T123146Z">
+        <seg>"设置在指定单元格处的Tile 贴图索引。"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Set the tile set resource of a tilemap."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T124535Z" creationid="liaronce" creationdate="20210228T124535Z">
-        <seg>"设置一个图块地图的图块集资源。"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T124535Z">
+        <seg>"设置一个Tile 贴图地图的Tile 贴图集资源。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -14768,40 +14768,40 @@
       <tuv lang="en-US">
         <seg>"Tile map coordinate: ({0}, {1}) Brush tiles: ({2})"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120056Z" creationid="liaronce" creationdate="20210228T120056Z">
-        <seg>"图块地图坐标：({0}, {1})  图块笔刷：({2})"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T120056Z">
+        <seg>"Tile 贴图地图坐标：({0}, {1})  Tile 贴图笔刷：({2})"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Tile map coordinate: ({0}, {1})"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120011Z" creationid="liaronce" creationdate="20210228T120011Z">
-        <seg>"图块地图坐标: ({0}, {1})"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T120011Z">
+        <seg>"Tile 贴图地图坐标: ({0}, {1})"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Tile size increase will cause rooms to lose some tile layer data, are you sure you want to make this change?\n\nTo avoid data loss press cancel and increase room size of the affected rooms: {0}"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133859Z" creationid="liaronce" creationdate="20210228T133859Z">
-        <seg>"图块尺寸增加将导致房间丢失一些图块层数据，你确定要进行此更改吗？\n\n为避免数据丢失请按取消，并扩大受影响的房间的大小： {0}"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T133859Z">
+        <seg>"Tile 贴图尺寸增加将导致房间丢失一些Tile 贴图层数据，你确定要进行此更改吗？\n\n为避免数据丢失请按取消，并扩大受影响的房间的大小： {0}"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Tile"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133039Z" creationid="liaronce" creationdate="20210228T133039Z">
-        <seg>"图块"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T133039Z">
+        <seg>"Tile 贴图"</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>"Tiles"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T120207Z" creationid="liaronce" creationdate="20210228T120207Z">
-        <seg>"图块"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210228T120207Z">
+        <seg>"Tile 贴图"</seg>
       </tuv>
     </tu>
     <tu>
@@ -16398,6 +16398,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>2</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114539Z" creationid="LiarOnce" creationdate="20220527T114539Z">
+        <seg>2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>2 columns</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161223T071051Z" creationid="deciia" creationdate="20161223T071051Z">
@@ -17521,16 +17529,16 @@
       <tuv lang="en-US">
         <seg>Add 16 Tile Set</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T035044Z" creationid="deciia" creationdate="20170107T053552Z">
-        <seg>添加16块类型图块集</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170107T053552Z">
+        <seg>添加16块类型Tile 贴图集</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Add 47 Tile Set</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T035040Z" creationid="deciia" creationdate="20170107T053543Z">
-        <seg>添加47块类型图块集</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170107T053543Z">
+        <seg>添加47块类型Tile 贴图集</seg>
       </tuv>
     </tu>
     <tu>
@@ -20758,6 +20766,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Attributes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114645Z" creationid="LiarOnce" creationdate="20220527T114645Z">
+        <seg>属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Attributes:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T222015Z" creationid="deciia" creationdate="20170103T134144Z">
@@ -20928,8 +20944,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Auto Tile</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112317Z" creationid="liaronce" creationdate="20211002T112317Z">
-        <seg>自动图块</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20211002T112317Z">
+        <seg>自动Tile 贴图</seg>
       </tuv>
     </tu>
     <tu>
@@ -20944,24 +20960,24 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Auto Tile Library</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170106T155815Z" creationid="deciia" creationdate="20170106T155815Z">
-        <seg>自动图块库</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170106T155815Z">
+        <seg>自动Tile 贴图库</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Auto Tile Templates</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170106T155926Z" creationid="deciia" creationdate="20170106T155926Z">
-        <seg>自动图块模版</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170106T155926Z">
+        <seg>自动Tile 贴图模版</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Auto Tiling</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T222920Z" creationid="deciia" creationdate="20170105T110425Z">
-        <seg>自动图块</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170105T110425Z">
+        <seg>自动Tile 贴图</seg>
       </tuv>
     </tu>
     <tu>
@@ -20992,8 +21008,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Auto tile background colour</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T014126Z" creationid="deciia" creationdate="20180922T014126Z">
-        <seg>自动图块背景颜色</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20180922T014126Z">
+        <seg>自动Tile 贴图背景颜色</seg>
       </tuv>
     </tu>
     <tu>
@@ -21490,8 +21506,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Automatic response to room tile layer cropping due to tile size changes</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T052055Z" creationid="deciia" creationdate="20180922T052055Z">
-        <seg>由于图块尺寸的变化，自动响应房间图块层裁剪</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20180922T052055Z">
+        <seg>由于Tile 贴图尺寸的变化，自动响应房间Tile 贴图层裁剪</seg>
       </tuv>
     </tu>
     <tu>
@@ -21998,6 +22014,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170114T034934Z" creationid="36011" creationdate="20170114T034928Z">
         <seg>位</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Bit Rate (kbps)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114650Z" creationid="LiarOnce" creationdate="20220527T114650Z">
+        <seg>比特率(Kbps)</seg>
       </tuv>
     </tu>
     <tu>
@@ -26453,8 +26477,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Convert Image to Tilemap</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T203307Z" creationid="deciia" creationdate="20170311T164500Z">
-        <seg>将图像转换为图块地图（Tilemap）</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170311T164500Z">
+        <seg>将图像转换为Tile 贴图地图（Tilemap）</seg>
       </tuv>
     </tu>
     <tu>
@@ -27472,8 +27496,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Create New Tile Layer</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T130139Z" creationid="deciia" creationdate="20170103T130139Z">
-        <seg>新建图块层</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170103T130139Z">
+        <seg>新建Tile 贴图层</seg>
       </tuv>
     </tu>
     <tu>
@@ -27649,8 +27673,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Create Tile Set</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T113719Z" creationid="deciia" creationdate="20170103T113719Z">
-        <seg>创建图块集</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170103T113719Z">
+        <seg>创建Tile 贴图集</seg>
       </tuv>
     </tu>
     <tu>
@@ -28454,8 +28478,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Cycle tiles</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170105T070032Z" creationid="deciia" creationdate="20170105T070032Z">
-        <seg>循环图块</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170105T070032Z">
+        <seg>循环Tile 贴图</seg>
       </tuv>
     </tu>
     <tu>
@@ -29311,8 +29335,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Delete Selected Set</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T035302Z" creationid="deciia" creationdate="20170107T053604Z">
-        <seg>删除所选图块集</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170107T053604Z">
+        <seg>删除所选Tile 贴图集</seg>
       </tuv>
     </tu>
     <tu>
@@ -32214,8 +32238,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Edit Autotiling</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170303T153555Z" creationid="deciia" creationdate="20170303T153555Z">
-        <seg>编辑自动图块</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170303T153555Z">
+        <seg>编辑自动Tile 贴图</seg>
       </tuv>
     </tu>
     <tu>
@@ -32422,16 +32446,16 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Edit Tile Animation</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170303T153603Z" creationid="deciia" creationdate="20170303T153603Z">
-        <seg>编辑图块动画</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170303T153603Z">
+        <seg>编辑Tile 贴图动画</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Edit Tile Inheritance</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112326Z" creationid="liaronce" creationdate="20211002T112326Z">
-        <seg>编辑图块继承</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20211002T112326Z">
+        <seg>编辑Tile 贴图继承</seg>
       </tuv>
     </tu>
     <tu>
@@ -35615,8 +35639,8 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>Flip tiles</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170105T065916Z" creationid="deciia" creationdate="20170105T065916Z">
-        <seg>翻转图块</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170105T065916Z">
+        <seg>翻转Tile 贴图</seg>
       </tuv>
     </tu>
     <tu>
@@ -40882,8 +40906,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Horizontal Tile</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20170114T035024Z" creationid="deciia" creationdate="20161223T063116Z">
-        <seg>图块水平平铺</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20161223T063116Z">
+        <seg>Tile 贴图水平平铺</seg>
       </tuv>
     </tu>
     <tu>
@@ -44270,8 +44294,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Import image and convert to Tilemap</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T203146Z" creationid="deciia" creationdate="20170311T164302Z">
-        <seg>导入图片并转化为图块地图（Tilemap）。</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170311T164302Z">
+        <seg>导入图片并转化为Tile 贴图地图（Tilemap）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44846,8 +44870,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Inherit Tile Properties</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T195027Z" creationid="deciia" creationdate="20180922T195027Z">
-        <seg>继承图块属性</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20180922T195027Z">
+        <seg>继承Tile 贴图属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -44887,8 +44911,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Inherited tile highlight colour</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T031612Z" creationid="deciia" creationdate="20180922T031612Z">
-        <seg>继承的图块高亮颜色</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20180922T031612Z">
+        <seg>继承的Tile 贴图高亮颜色</seg>
       </tuv>
     </tu>
     <tu>
@@ -49256,8 +49280,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Mouseover tile highlight colour</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T031544Z" creationid="deciia" creationdate="20180922T031544Z">
-        <seg>鼠标悬停图块高亮颜色</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20180922T031544Z">
+        <seg>鼠标悬停Tile 贴图高亮颜色</seg>
       </tuv>
     </tu>
     <tu>
@@ -50186,16 +50210,16 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>No Tile Layer Selected</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180924T032421Z" creationid="deciia" creationdate="20170104T051246Z">
-        <seg>未选择任何图块层</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T051246Z">
+        <seg>未选择任何Tile 贴图层</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>No Tileset</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T110406Z" creationid="deciia" creationdate="20170103T110406Z">
-        <seg>没有图块集</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170103T110406Z">
+        <seg>没有Tile 贴图集</seg>
       </tuv>
     </tu>
     <tu>
@@ -50364,8 +50388,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>No tile set was selected.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170311T162301Z" creationid="deciia" creationdate="20170311T162301Z">
-        <seg>没有选中的图块集。</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170311T162301Z">
+        <seg>没有选中的Tile 贴图集。</seg>
       </tuv>
     </tu>
     <tu>
@@ -51174,6 +51198,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T064322Z" creationid="deciia" creationdate="20170103T112352Z">
         <seg>在外部打开</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open Group Mixer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114722Z" creationid="LiarOnce" creationdate="20220527T114722Z">
+        <seg>打开组混音器</seg>
       </tuv>
     </tu>
     <tu>
@@ -52409,8 +52441,8 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       <tuv lang="en-US">
         <seg>Paint Tiles</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20170315T071050Z" creationid="deciia" creationdate="20170103T130955Z">
-        <seg>绘制图块</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170103T130955Z">
+        <seg>绘制Tile 贴图</seg>
       </tuv>
     </tu>
     <tu>
@@ -52811,6 +52843,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170219T005811Z" creationid="deciia" creationdate="20170219T005811Z">
         <seg>路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Path Editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170317T141747Z" creationid="36011" creationdate="20170317T141747Z">
+        <seg>路径编辑器</seg>
       </tuv>
     </tu>
     <tu>
@@ -55284,6 +55324,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Quality</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114651Z" creationid="LiarOnce" creationdate="20220527T114651Z">
+        <seg>质量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Quality:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T134411Z" creationid="deciia" creationdate="20170103T134411Z">
@@ -55630,8 +55678,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Recalculate tile set after resize</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170311T161807Z" creationid="deciia" creationdate="20170311T161807Z">
-        <seg>重置大小后重新计算图块集。</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170311T161807Z">
+        <seg>重置大小后重新计算Tile 贴图集。</seg>
       </tuv>
     </tu>
     <tu>
@@ -57702,6 +57750,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Rollback Event</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114644Z" creationid="LiarOnce" creationdate="20220527T114644Z">
+        <seg>回滚事件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Rollback Start</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114643Z" creationid="LiarOnce" creationdate="20220527T114643Z">
+        <seg>回滚开始</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Room</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T130720Z" creationid="deciia" creationdate="20170103T130720Z">
@@ -57936,8 +58000,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Rotate Tile</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112332Z" creationid="liaronce" creationdate="20211002T112332Z">
-        <seg>旋转图块</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20211002T112332Z">
+        <seg>旋转Tile 贴图</seg>
       </tuv>
     </tu>
     <tu>
@@ -58346,6 +58410,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140400Z" creationid="liaronce" creationdate="20191118T140400Z">
         <seg>示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sample Rate</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114652Z" creationid="LiarOnce" creationdate="20220527T114652Z">
+        <seg>采样率</seg>
       </tuv>
     </tu>
     <tu>
@@ -59496,8 +59568,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Select Reference Tile Set</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170311T162210Z" creationid="deciia" creationdate="20170311T162210Z">
-        <seg>选择参考的图块集</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170311T162210Z">
+        <seg>选择参考的Tile 贴图集</seg>
       </tuv>
     </tu>
     <tu>
@@ -59528,8 +59600,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Select Tiles</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112320Z" creationid="liaronce" creationdate="20211002T112320Z">
-        <seg>选中的图块：</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20211002T112320Z">
+        <seg>选中的Tile 贴图：</seg>
       </tuv>
     </tu>
     <tu>
@@ -59584,8 +59656,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Select a reference tile set for this operation.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20170316T095520Z" creationid="deciia" creationdate="20170311T162150Z">
-        <seg>为此操作选择一个引用图块集。</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170311T162150Z">
+        <seg>为此操作选择一个引用Tile 贴图集。</seg>
       </tuv>
     </tu>
     <tu>
@@ -59816,16 +59888,16 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Selected Tile:</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170106T155841Z" creationid="deciia" creationdate="20170106T155841Z">
-        <seg>所选的图块：</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170106T155841Z">
+        <seg>所选的Tile 贴图：</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Selected Tiles:</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170106T155759Z" creationid="deciia" creationdate="20170106T155759Z">
-        <seg>选中的图块：</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170106T155759Z">
+        <seg>选中的Tile 贴图：</seg>
       </tuv>
     </tu>
     <tu>
@@ -59896,8 +59968,8 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Selected tile highlight colour</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T031523Z" creationid="deciia" creationdate="20180922T031523Z">
-        <seg>选定的图块高亮颜色</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20180922T031523Z">
+        <seg>选定的Tile 贴图高亮颜色</seg>
       </tuv>
     </tu>
     <tu>
@@ -63258,8 +63330,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Show Tile Inheritance</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T220825Z" creationid="deciia" creationdate="20170103T131052Z">
-        <seg>显示图块继承</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170103T131052Z">
+        <seg>显示Tile 贴图继承</seg>
       </tuv>
     </tu>
     <tu>
@@ -65041,16 +65113,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Sprite export disabled by tile set(s): {0}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T091134Z" creationid="deciia" creationdate="20170303T153738Z">
-        <seg>图块集禁用精灵导出：{0}</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170303T153738Z">
+        <seg>Tile 贴图集禁用精灵导出：{0}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Sprite is a tile set resource!</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170209T084108Z" creationid="deciia" creationdate="20170209T084108Z">
-        <seg>该精灵是一个图块集资源！</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170209T084108Z">
+        <seg>该精灵是一个Tile 贴图集资源！</seg>
       </tuv>
     </tu>
     <tu>
@@ -66590,6 +66662,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Target Options</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114647Z" creationid="LiarOnce" creationdate="20220527T114647Z">
+        <seg>目标选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Target Options:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T134511Z" creationid="deciia" creationdate="20170103T134511Z">
@@ -67767,8 +67847,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>The selected tile set has no associated sprite please select a valid tile set</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T051130Z" creationid="deciia" creationdate="20170104T051130Z">
-        <seg>选中的图块集没有关联的精灵，请选择一个有效的图块集</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T051130Z">
+        <seg>选中的Tile 贴图集没有关联的精灵，请选择一个有效的Tile 贴图集</seg>
       </tuv>
     </tu>
     <tu>
@@ -68525,16 +68605,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>This sprite is a tile set and resizing will cause tile data to change.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180923T230316Z" creationid="deciia" creationdate="20170209T084213Z">
-        <seg>这个精灵是一个图块集，重定义大小将导致图块数据变化。</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170209T084213Z">
+        <seg>这个精灵是一个Tile 贴图集，重定义大小将导致Tile 贴图数据变化。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>This sprite is used by multiple tile sets of varying tile sizes.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20170316T095508Z" creationid="deciia" creationdate="20170311T161954Z">
-        <seg>这个精灵被不同大小的多个图块集所使用。</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170311T161954Z">
+        <seg>这个精灵被不同大小的多个Tile 贴图集所使用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -68693,40 +68773,40 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Tile</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T075417Z" creationid="deciia" creationdate="20170103T075417Z">
-        <seg>图块</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170103T075417Z">
+        <seg>Tile 贴图</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Animation</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170105T110409Z" creationid="deciia" creationdate="20170105T110409Z">
-        <seg>图块动画</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170105T110409Z">
+        <seg>Tile 贴图动画</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Data Size</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="36011" changedate="20170316T092041Z" creationid="deciia" creationdate="20170104T034104Z">
-        <seg>图块数据大小</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T034104Z">
+        <seg>Tile 贴图数据大小</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Editing</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T130757Z" creationid="deciia" creationdate="20170103T130757Z">
-        <seg>图块编辑</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170103T130757Z">
+        <seg>Tile 贴图编辑</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Height</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T034808Z" creationid="deciia" creationdate="20170104T034808Z">
-        <seg>图块高度</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T034808Z">
+        <seg>Tile 贴图高度</seg>
       </tuv>
     </tu>
     <tu>
@@ -68749,176 +68829,176 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Tile Layer</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124647Z" creationid="liaronce" creationdate="20220202T124647Z">
-        <seg>图块层</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20220202T124647Z">
+        <seg>Tile 贴图层</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Layers</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124645Z" creationid="liaronce" creationdate="20220202T124645Z">
-        <seg>图块层</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20220202T124645Z">
+        <seg>Tile 贴图层</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Mode:</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T013908Z" creationid="liaronce" creationdate="20210305T013908Z">
-        <seg>图块模式:</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210305T013908Z">
+        <seg>Tile 贴图模式:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Offset</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T113810Z" creationid="liaronce" creationdate="20210621T113803Z">
-        <seg>图块偏移</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20210621T113803Z">
+        <seg>Tile 贴图偏移</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Offset X</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T034334Z" creationid="deciia" creationdate="20170104T034334Z">
-        <seg>图块偏移 X</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T034334Z">
+        <seg>Tile 贴图偏移 X</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Offset Y</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T034352Z" creationid="deciia" creationdate="20170104T034352Z">
-        <seg>图块偏移 Y</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T034352Z">
+        <seg>Tile 贴图偏移 Y</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Properties</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170105T110632Z" creationid="deciia" creationdate="20170105T110632Z">
-        <seg>图块属性</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170105T110632Z">
+        <seg>Tile 贴图属性</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Selection Window</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T130820Z" creationid="deciia" creationdate="20170103T130820Z">
-        <seg>图块选择窗口</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170103T130820Z">
+        <seg>Tile 贴图选择窗口</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Separation X</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T034743Z" creationid="deciia" creationdate="20170104T034743Z">
-        <seg>图块间隔 X</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T034743Z">
+        <seg>Tile 贴图间隔 X</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Separation Y</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T034803Z" creationid="deciia" creationdate="20170104T034803Z">
-        <seg>图块间隔 Y</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T034803Z">
+        <seg>Tile 贴图间隔 Y</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Set</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170311T174924Z" creationid="deciia" creationdate="20170311T174924Z">
-        <seg>图块集</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170311T174924Z">
+        <seg>Tile 贴图集</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Set Icon</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T235634Z" creationid="deciia" creationdate="20170102T075614Z">
-        <seg>图块集图标</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170102T075614Z">
+        <seg>Tile 贴图集图标</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Set Properties</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170105T110340Z" creationid="deciia" creationdate="20170105T110340Z">
-        <seg>图块集属性</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170105T110340Z">
+        <seg>Tile 贴图集属性</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Set Resource</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170224T004044Z" creationid="deciia" creationdate="20170224T004044Z">
-        <seg>图块集资源</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170224T004044Z">
+        <seg>Tile 贴图集资源</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Set: Image generated for '{0}'</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="deciia" creationdate="20170104T035008Z">
-        <seg>图块集：为"{0}"生成的图像</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T035008Z">
+        <seg>Tile 贴图集：为"{0}"生成的图像</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Set: {0}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180924T024908Z" creationid="deciia" creationdate="20170104T034832Z">
-        <seg>图块集：{0}</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T034832Z">
+        <seg>Tile 贴图集：{0}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Sets</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170103T114412Z" creationid="deciia" creationdate="20170103T114412Z">
-        <seg>图块集</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170103T114412Z">
+        <seg>Tile 贴图集</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Sets Editor</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T093218Z" creationid="deciia" creationdate="20180922T093218Z">
-        <seg>图块集编辑器</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20180922T093218Z">
+        <seg>Tile 贴图集编辑器</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Sets Label Colour</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T090015Z" creationid="deciia" creationdate="20180922T090015Z">
-        <seg>图块集标签颜色</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20180922T090015Z">
+        <seg>Tile 贴图集标签颜色</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Sets background colour</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T085645Z" creationid="deciia" creationdate="20180922T085645Z">
-        <seg>图块集背景颜色</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20180922T085645Z">
+        <seg>Tile 贴图集背景颜色</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Sets icon colour</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180922T091439Z" creationid="deciia" creationdate="20180922T091439Z">
-        <seg>图块集图标颜色</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20180922T091439Z">
+        <seg>Tile 贴图集图标颜色</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tile Size</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T034812Z" creationid="deciia" creationdate="20170104T034812Z">
-        <seg>图块大小</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T034812Z">
+        <seg>Tile 贴图大小</seg>
       </tuv>
     </tu>
     <tu>
@@ -68933,8 +69013,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Tile Width</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T034817Z" creationid="deciia" creationdate="20170104T034817Z">
-        <seg>图块宽度</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T034817Z">
+        <seg>Tile 贴图宽度</seg>
       </tuv>
     </tu>
     <tu>
@@ -68965,40 +69045,40 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>TileSet Naming Rule</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124908Z" creationid="liaronce" creationdate="20220202T124908Z">
-        <seg>图块设置命名规则</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="liaronce" creationdate="20220202T124908Z">
+        <seg>Tile 贴图设置命名规则</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tilemap Name</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180926T203234Z" creationid="36011" creationdate="20170221T034848Z">
-        <seg>图块地图（Tilemap）名称</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="36011" creationdate="20170221T034848Z">
+        <seg>Tile 贴图地图（Tilemap）名称</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tiles</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T034628Z" creationid="deciia" creationdate="20170104T034628Z">
-        <seg>图块</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T034628Z">
+        <seg>Tile 贴图</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tiles - {0}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170209T083202Z" creationid="deciia" creationdate="20170209T083202Z">
-        <seg>图块 - {0}</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170209T083202Z">
+        <seg>Tile 贴图 - {0}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Tilesets</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170104T033316Z" creationid="deciia" creationdate="20170104T033316Z">
-        <seg>图块集</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T033316Z">
+        <seg>Tile 贴图集</seg>
       </tuv>
     </tu>
     <tu>
@@ -69055,6 +69135,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T123150Z" creationid="deciia" creationdate="20170215T152232Z">
         <seg>时间轴</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Timeline Editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="36011" changedate="20170317T141158Z" creationid="36011" creationdate="20170317T141158Z">
+        <seg>时间轴编辑器</seg>
       </tuv>
     </tu>
     <tu>
@@ -70015,8 +70103,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Type of Tiles to display</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170105T065910Z" creationid="deciia" creationdate="20170105T065910Z">
-        <seg>显示的图块类型</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170105T065910Z">
+        <seg>显示的Tile 贴图类型</seg>
       </tuv>
     </tu>
     <tu>
@@ -70767,8 +70855,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Use As Tileset</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180927T050200Z" creationid="deciia" creationdate="20170104T034852Z">
-        <seg>作为图块集使用</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T034852Z">
+        <seg>作为Tile 贴图集使用</seg>
       </tuv>
     </tu>
     <tu>
@@ -71474,8 +71562,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Vertical Tile</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20161223T063250Z" creationid="deciia" creationdate="20161223T063250Z">
-        <seg>图块纵向平铺</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20161223T063250Z">
+        <seg>Tile 贴图纵向平铺</seg>
       </tuv>
     </tu>
     <tu>
@@ -73615,16 +73703,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Your tile set preview will appear here when you select a sprite</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20170106T153210Z" creationid="deciia" creationdate="20170106T153210Z">
-        <seg>选择一个精灵后，图块集预览将出现在这里</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170106T153210Z">
+        <seg>选择一个精灵后，Tile 贴图集预览将出现在这里</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Your tile set preview will appear here when you select a tile set</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="deciia" changedate="20180924T032401Z" creationid="deciia" creationdate="20170104T051225Z">
-        <seg>当你选中了一个图块集，你可以在这里预览</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T051225Z">
+        <seg>当你选中了一个Tile 贴图集，你可以在这里预览</seg>
       </tuv>
     </tu>
     <tu>
@@ -73889,6 +73977,94 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140232Z" creationid="liaronce" creationdate="20200820T140232Z">
         <seg>blue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>bm_dest_alpha</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114548Z" creationid="LiarOnce" creationdate="20220527T114548Z">
+        <seg>bm_dest_alpha</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>bm_dest_color</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114550Z" creationid="LiarOnce" creationdate="20220527T114550Z">
+        <seg>bm_dest_color</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>bm_inv_dest_alpha</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114549Z" creationid="LiarOnce" creationdate="20220527T114549Z">
+        <seg>bm_inv_dest_alpha</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>bm_inv_dest_color</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114550Z" creationid="LiarOnce" creationdate="20220527T114550Z">
+        <seg>bm_inv_dest_color</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>bm_inv_src_alpha</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114548Z" creationid="LiarOnce" creationdate="20220527T114548Z">
+        <seg>bm_inv_src_alpha</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>bm_inv_src_color</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114547Z" creationid="LiarOnce" creationdate="20220527T114547Z">
+        <seg>bm_inv_src_color</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>bm_one</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114546Z" creationid="LiarOnce" creationdate="20220527T114546Z">
+        <seg>bm_one</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>bm_src_alpha</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114547Z" creationid="LiarOnce" creationdate="20220527T114547Z">
+        <seg>bm_src_alpha</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>bm_src_alpha_sat</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114551Z" creationid="LiarOnce" creationdate="20220527T114551Z">
+        <seg>bm_src_alpha_sat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>bm_src_color</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114546Z" creationid="LiarOnce" creationdate="20220527T114546Z">
+        <seg>bm_src_color</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>bm_zero</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114545Z" creationid="LiarOnce" creationdate="20220527T114545Z">
+        <seg>bm_zero</seg>
       </tuv>
     </tu>
     <tu>
