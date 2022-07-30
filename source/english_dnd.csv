@@ -601,7 +601,9 @@ GMStdAudioGetPitch_Story_2,"Get pitch of audio ${sound} into ${var} on ${applyto
 GMStdAudioGetPitch_Story_3,"Get pitch of audio ${sound} into temp ${var}","Get pitch of audio ${sound} into temp ${var}",,dnd story text
 GMStdAudioGetPitch_Story_4,"Get pitch of audio ${sound} into temp ${var} on ${applyto}","Get pitch of audio ${sound} into temp ${var} on ${applyto}",,dnd story text
 GMStdAudioSetVolume_Story_1,"Set volume of audio ${sound} to ${volume}","Set volume of audio ${sound} to ${volume}",,dnd story text
-GMStdAudioSetVolume_Story_2,"Set volume of audio ${sound} to ${volume} on ${applyto}","Set volume of audio ${sound} to ${volume} on ${applyto}",,dnd story text
+GMStdAudioSetVolume_Story_2,"Set volume of audio ${sound} to ${volume} over ${time} milliseconds","Set volume of audio ${sound} to ${volume} over ${time} milliseconds",,dnd story text
+GMStdAudioSetVolume_Story_3,"Set volume of audio ${sound} to ${volume} on ${applyto}","Set volume of audio ${sound} to ${volume} on ${applyto}",,dnd story text
+GMStdAudioSetVolume_Story_4,"Set volume of audio ${sound} to ${volume} over ${time} milliseconds on ${applyto}","Set volume of audio ${sound} to ${volume} over ${time} milliseconds on ${applyto}",,dnd story text
 GMStdAudioGetVolume_Story_1,"Get volume of audio ${sound} into ${var}","Get volume of audio ${sound} into ${var}",,dnd story text
 GMStdAudioGetVolume_Story_2,"Get volume of audio ${sound} into ${var} on ${applyto}","Get volume of audio ${sound} into ${var} on ${applyto}",,dnd story text
 GMStdAudioGetVolume_Story_3,"Get volume of audio ${sound} into temp ${var}","Get volume of audio ${sound} into temp ${var}",,dnd story text

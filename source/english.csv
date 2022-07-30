@@ -520,6 +520,7 @@ Inspector_Range,Range,Range,,inspector font range label
 Inspector_FontJumpTo,Jump To:,Jump To:,,font jump to label
 Inspector_SelectedRange,Range:,Range:,,font selected range label
 Inspector_Unicode,Unicode:,Unicode:,,font unicode label
+Inspector_InstVarMixedObjects,Variables only shown when all selected Instances have the same Object,Variables only shown when all selected Instances have the same Object,,mixed instance object message
 SeqTrack_Singular,Track,Track,,sequence track type name singular
 SeqTrack_Plural,Tracks,Tracks,,sequence track type name plural
 SeqSpriteTrack_Singular,Sprite Track,Sprite Track,,sprite track type name singular
@@ -1782,6 +1783,20 @@ ROOM_EFFECTS_Blower camera offset scale,Camera offset scale,Camera offset scale,
 ROOM_EFFECTS_Particle drag,Particle drag,Particle drag,,particle drag param name
 ROOM_EFFECTS_Gravity,Gravity,Gravity,,gravity param name
 ROOM_EFFECTS_Enable debug mode,Enable debug mode,Enable debug mode,,enable debug mode param name
+ROOM_EFFECTS_filter_boxes,Boxes,Boxes,,boxes filter name
+ROOM_EFFECTS_Rotation Speed,Rotation Speed,Rotation Speed,,rotation speed filter param
+ROOM_EFFECTS_Roundness,Roundness,Roundness,,roundness filter param
+ROOM_EFFECTS_filter_colour_balance,Colour Balance,Colour Balance,,colour balance filter name
+ROOM_EFFECTS_Shadows RGB,Shadows RGB,Shadows RGB,,shadows rgb filter param
+ROOM_EFFECTS_Midtones RGB,Midtones RGB,Midtones RGB,,midtones rgb filter param
+ROOM_EFFECTS_Highlights RGB,Highlights RGB,Highlights RGB,,highlights rgb filter param
+ROOM_EFFECTS_filter_rgbnoise,RGB Noise,RGB Noise,,rgb noise filter name
+ROOM_EFFECTS_filter_vignette,Vignette,Vignette,,vignette filter name
+ROOM_EFFECTS_Edges,Edges,Edges,,edges filter param
+ROOM_EFFECTS_Vignette Texture,Vignette Texture,Vignette Texture,,vignette texture filter param
+ROOM_EFFECTS_filter_zoom_blur,Zoom Blur,Zoom Blur,,zoom blur filter name
+ROOM_EFFECTS_Position,Position,Position,,position filter param
+ROOM_EFFECTS_Focus Radius,Focus Radius,Focus Radius,,focus radius filter param
 ROOM_EFFECT_GROUP_Particles,Particle,Particle,,room effect group name
 ROOM_EFFECT_GROUP_Trail,Trail,Trail,,room effect group name
 ROOM_EFFECT_GROUP_Blower,Blower,Blower,,room effect group name
@@ -2654,7 +2669,8 @@ ggs_graphics_scale_fullscale,Full scale,Full scale,,Game Settings Graphics Scale
 ggs_version,Version,Version,,Game Settings Version title
 ggs_version_new,Next Version,Next Version,,Next version to be uploaded
 ggs_game_name,Game Name,Game Name,,Game Settings Game Name label
-ggs_gxc_guid,GXC GUID,GXC GUID,,Project GUID on Opera GXC
+ggs_gxc_guid,Select game,Select game,,A caption for the game selection dropdown list
+ggs_gxc_group,Select group (for new games only),Select group (for new games only),,A caption for the group selection dropdown list
 ggs_team_name,Team Name,Team Name,,Team Name
 ggs_internal_share_url,Internal Share URL,Internal Share URL,,Internal Share URL
 ggs_public_share_url,Public Share URL,Public Share URL,,Public Share URL
@@ -3300,6 +3316,8 @@ DnDModule_Toolbox_Title,Toolbox,Toolbox,,The toolbox title when docked
 DnDModule_Toolbox_Recent,Recently Used,Recently Used,,Toolbox recent category
 DnDModule_Toolbox_Favorites,Favourites,Favourites,,Toolbox favourites category
 DnDModule_Toolbox_SearchText,Search...,Search...,,Toolbox search placeholder text
+DnDFeatureFlagUi_Warning_Title,DnD: actions disabled,DnD: actions disabled,,Feature Flag warning title
+DnDFeatureFlagUi_Warning_Message,Failed to fully load a DnD script {0}. It contains actions which are disabled for your account. Disabled categories:\n{1},Failed to fully load a DnD script {0}. It contains actions which are disabled for your account. Disabled categories:\n{1},,Feature Flag warning message
 fonteditor_aa_default,Default,Default,,Default setting for font AA
 use_default,Use Default,Use Default,,Use Default setting
 desktop_unmaxdragdist,Tab drag distance to unmaximise desktop (px),Tab drag distance to unmaximise desktop (px),,Distance in pixels the tab must be dragged before it will unmaximise the desktop
@@ -3418,7 +3436,7 @@ maxparalleljobscompiling,Maximum parallel compile jobs,Maximum parallel compile 
 debugyycwarning,Automatic response to warning when attempting to debug YYC,Automatic response to warning when attempting to debug YYC,,Preference to turn off the dialog warning the user that this run action will be completed in the VM not YYC
 UseDefaultLicenseAgreement,Use Default Licence Agreement,Use Default Licence Agreement,,Use Default Licence Agreement
 UseDefaultNSISScript,Use Default NSIS Script,Use Default NSIS Script,,Use Default NSIS Script
-ObjectEditor_DefaultCodeComment,/// @description Insert description here\n// You can write your code in this editor,/// @description Insert description here\n// You can write your code in this editor,Do not translate @description and leave in /// and // at the start of each line,Object editor module default text for new events
+ObjectEditor_DefaultCodeComment,/// @description Insert description here\n// You can write your code in this editor\n,/// @description Insert description here\n// You can write your code in this editor\n,Do not translate @description and leave in /// and // at the start of each line,Object editor module default text for new events
 ObjectEditor_DefaultEventComment,Default event content,Default event content,,Default Code Event Comment to use
 ObjectEditor_ShowDefaultHelpPref,Add default event content,Add default event content,,Object editor module default text preference
 ObjectEditor_InheritedEventAlpha,Inherited Events Alpha,Inherited Events Alpha,,object editor ghosted events alpha setting
@@ -3534,6 +3552,7 @@ operagx_out_game_created,Game Created!,Game Created!,,Output Message tracking Pa
 operagx_out_game_create_error,ERROR - Creating Game,ERROR - Creating Game,,Output Message tracking Packaging for OperaGX process
 operagx_out_game_list,List of Games Retrieved,List of Games Retrieved,,Output Message tracking Packaging for OperaGX process
 operagx_out_game_list_error,ERROR - Retrieving List of Games,ERROR - Retrieving List of Games,,Output Message tracking Packaging for OperaGX process
+operagx_assigning_default_group,The group is not specified - asssigning a default group,The group is not specified - asssigning a default group,,Assigning a default group for the current user if it is not specified in the game settings (Opera GX)
 operagx_out_game_limit_receiving,Receiving game size limit from a server...,Receiving game size limit from a server...,,Message on starting receiving the game size limit from a server
 operagx_out_game_limit_error,ERROR - Retrieving Game Size Limit,ERROR - Retrieving Game Size Limit,,Output Message tracking Packaging for OperaGX process
 operagx_out_game_limitcannotupload_error,Cannot upload the game to GXC,Cannot upload the game to GXC,,Output message which is shown when the game cannot be uploaded due to the bundle size limit
@@ -3549,9 +3568,21 @@ opera_sync_empty_guid,The GUID is empty. The project will be registered on GXC a
 opera_sync_syncronization_on,Synchronization...,Synchronization...,,Synchronization button label during synchronization process
 opera_sync_synchronize,Synchronize,Synchronize,,Synchronization button label when the user is logged in
 opera_sync_signin_and_synchronize,Sign-in and synchronize,Sign-in and synchronize,,Synchronization button label when the user is not logged in
+opera_sync_register_new_game,Register on GX.Games,Register on GX.Games,,Button label - register the new game on GX.Games
 opera_sync_guid_valid,"With the GUID provided, you may change the game settings only on GXC","With the GUID provided, you may change the game settings only on GXC",,Tip for the user for a valid GUID
 opera_sync_guid_not_valid_format,GUID format is not valid,GUID format is not valid,,Tip for an invalid GUID
 opera_sync_incorrect_data,Incorrect data. Check the output,Incorrect data. Check the output,,Incorrect data warning message
+opera_sync_game_not_found,The game has not been found on the server,The game has not been found on the server,,The message is shown when the game with the given GUID has not been found in the list of games received from GXC
+opera_sync_update_user_data_started,Updating the list of games and groups...,Updating the list of games and groups...,,The message on starting updating the user data: list of his games and groups
+opera_sync_zero_groups,Zero groups received from the server,Zero groups received from the server,,The message which is shown in a case when the list of groups received from the server is empty
+gxc_err_game_creation_not_allowed,Only the owner of the group may create a game for the group,Only the owner of the group may create a game for the group,,Error message from GXC
+gxc_err_no_specific_group_for_user,The user doesn't have a specific group,The user doesn't have a specific group,,Error message from GXC
+gxc_err_max_games_limit_reached,The group has reached its max games limit,The group has reached its max games limit,,Error message from GXC
+gxc_err_game_name_taken,The provided game name is already taken,The provided game name is already taken,,Error message from GXC
+gxc_err_game_name_too_long,The provided game name is too long,The provided game name is too long,,Error message from GXC
+gxc_err_invalid_group_ownership,The users group has an invalid amount of owners (not 1),The users group has an invalid amount of owners (not 1),,Error message from GXC
+option_operagx_team_tip,The selected group is missing on GX.Games,The selected group is missing on GX.Games,,A tip shown when a group from the local settings cannot be found on GXC
+sso_new_game,[New Game...],[New Game...],,An item in a dropdown list representing the games registered on GXC. Should be enclosed into square brackets: that's because these symbols are not allowed on GXC and it guarantees that the user cannot create a game with the same name as this option.
 windowsuwp_package_arm,Package an ARM build,Package an ARM build,,Package an ARM build
 windowsuwp_package_x86,Package an x86 build,Package an x86 build,,Package an x86 build
 windowsuwp_package_x64,Package an x64 build,Package an x64 build,,Package an x64 build
@@ -3855,6 +3886,7 @@ ExtensionEditor_ProxyTarget,Target,Target,,target label
 ExtensionEditor_FileExistsTitle,File already exists,File already exists,,title for file already exists yes/no dialog
 ExtensionEditor_FileExistsMessage,A file with the same name already exists. Would you like to overwrite it?,A file with the same name already exists. Would you like to overwrite it?,,proxy file overwrite prompt
 ExtensionEditor_VarArgs,Variable Length Arguments,Variable Length Arguments,,label
+ExtensionEditor_FuncHidden,Hidden,Hidden,,label
 ExtensionEditor_DeleteFileAreYouSure,Are you sure you want to delete the file?,Are you sure you want to delete the file?,,main extension dialog confirmation message
 ExtensionEditor_AddGenericPlaceholder,Add Generic Placeholder,Add Generic Placeholder,,context menu entry
 ExtensionEditor_AddGMLPlaceholder,Add GML Placeholder,Add GML Placeholder,,context menu entry
@@ -3876,6 +3908,30 @@ ExtensionEditor_ButtonChoiceOnIosSystemFrameworkDeletion,Automatic button choice
 ExtensionEditor_RemoveIos3rdPartyFrameworkAreYouSure,Are you sure you want to delete the iOS 3rd party framework?,Are you sure you want to delete the iOS 3rd party framework?,,confirm message
 ExtensionEditor_ButtonChoiceOnIos3rdPartyFrameworkDeletion,Automatic button choice on iOS 3rd Party Framework deletion,Automatic button choice on iOS 3rd Party Framework deletion,,Automatic button choice on iOS 3rd Party Framework deletion setting
 ExtensionEditor_CodeInjection,Code Injection:,Code Injection:,,ext editor code injection label
+ExtensionEditor_Options_Tooltip,Manage extension options,Manage extension options,,button to open extension options managing window
+ExtensionEditor_Option_Name,Name,Name,,Option name
+ExtensionEditor_Option_Name_Tooltip,This is how you will refer to it at compile/run time.,This is how you will refer to it at compile/run time.,,Tooltip option name
+ExtensionEditor_Option_Default,Default,Default,,Default value
+ExtensionEditor_Option_Type,Type,Type,,Option type
+ExtensionEditor_Option_Extras,Extras,Extras,,Extra option parameters
+ExtensionEditor_Options_Window,Extension Options,Extension Options,,Extension Options definitions label in Extension Editor
+ExtensionEditor_OptionAddButton_Tooltip,Add a new option,Add a new option,,Add option tooltip
+ExtensionEditor_OptionBoolean_Label,True,True,,Boolean label
+ExtensionEditor_WindowExtras,Extras: {0},Extras: {0},,Extras window title
+ExtensionEditor_WindowExtras_DisplayName,Display Name:,Display Name:,,extension option display name label
+ExtensionEditor_WindowExtras_Description,Description (tooltip):,Description (tooltip):,,extension option description tooltip label
+ExtensionEditor_WindowExtras_Export,Export to INI file:,Export to INI file:,,extension option export to INI label
+ExtensionEditor_Option_ExtrasTooltip,Open extras...,Open extras...,,Open option extras tooltip
+ExtensionEditor_Option_RemoveTooltip,Remove this option,Remove this option,,Remove option row tooltip
+ExtensionEditor_OptionWarning_Message,This window should only be used by the extension's author!\nDo you want to proceed?,This window should only be used by the extension's author!\nDo you want to proceed?,,Extension Options editor warning
+ExtensionEditor_OptionWarning_Title,Modifying Extension Options,Modifying Extension Options,,Extension Options editor warning title
+Help_eExtensionOptionType_Boolean,The value is a bool (true/false),The value is a bool (true/false),,Boolean value type help tip
+Help_eExtensionOptionType_Number,The value is a real number and accepts decimal places,The value is a real number and accepts decimal places,,Real value type help tip
+Help_eExtensionOptionType_String,The value is a string (quotes are optional),The value is a string (quotes are optional),,String value type help tip
+Help_eExtensionOptionType_Multiline,The value is a multiple line string (quotes are optional),The value is a multiple line string (quotes are optional),,Multiline string value type help tip
+Help_eExtensionOptionType_FilePath,The value is a file path string,The value is a file path string,,Folder path string value type help tip
+Help_eExtensionOptionType_FolderPath,The value is a folder path string,The value is a folder path string,,Folder path string value type help tip
+Help_eExtensionOptionType_Section,The value represents a label in the UI (not compiled),The value represents a label in the UI (not compiled),,Label value type help tip
 GoToType_WindowTitle,"Search for Assets, Options, Preferences:","Search for Assets, Options, Preferences:",,Go To Type window title
 GoToType_FieldCaption,What are you looking for?,What are you looking for?,,Go To Type default search field caption
 GoToType_MaxItemPref,Maximum number of search results to display,Maximum number of search results to display,,Go To max number pref
@@ -4036,856 +4092,907 @@ display_us_spelling_functions,Show US Spelling for system functions,Show US Spel
 max_num_syntax_errors,Maximum number of Syntax Errors to display,Maximum number of Syntax Errors to display,,Maximum number of Syntax Errors to display
 enable_reference_warnings,Enable variable reference warnings,Enable variable reference warnings,,Enable variable reference warnings
 enable_statement_folding,Enable statement folding as regions,Enable statement folding as regions,,Enable statement folding as regions
-GMStdCatDefault,"Default","Default",,Drag and Drop™ library category name
-GMStdFunction,Function,Function,,DnD label
-GMStdOption,Option,Option,,DnD label
-GMStdChoose_Name,Choose,Choose,,DnD label
-GMStdChoose_Desc,Randomly chooses one of the supplied arguments.,Randomly chooses one of the supplied arguments.,,DnD label
-GMStdCallFunction_Name,Function Call,Function Call,,DnD label
-GMStdCallFunction_Desc,Call any function with optional arguments and get the return value of the function.,Call any function with optional arguments and get the return value of the function.,,DnD label
-GMStdNew_Name,New Struct,New Struct,,DnD label
-GMStdNew_Desc,Create a new struct with optional arguments and assign it to a variable.,Create a new struct with optional arguments and assign it to a variable.,,DnD label
-GMStdCatCommon,"Common","Common",,Drag and Drop™ library category name
-GMStdCatCamera,"Cameras","Cameras",,Drag and Drop™ library category name
-GMStdCatInstances,"Instances","Instances",,Drag and Drop™ library category name
-GMStdCatSequences,"Sequences","Sequences",,Drag and Drop™ library category name
-GMStdCatMouseKeyboard,"Mouse & Keyboard","Mouse & Keyboard",,Drag and Drop™ library category name
-GMStdCatGamepad,"Gamepad","Gamepad",,Drag and Drop™ library category name
-GMStdCatMovement,"Movement","Movement",,Drag and Drop™ library category name
-GMStdCatCollisions,"Collisions","Collisions",,Drag and Drop™ library category name
-GMStdCatDrawing,"Drawing","Drawing",,Drag and Drop™ library category name
-GMStdCatTiles,"Tiles","Tiles",,Drag and Drop™ library category name
-GMStdCatInstVars,"Instance Variables","Instance Variables",,Drag and Drop™ library category name
-GMStdCatGlobal,"Global","Global",,Drag and Drop™ library category name
-GMStdCatRandom,"Random","Random",,Drag and Drop™ library category name
-GMStdCatLoops,"Loops","Loops",,Drag and Drop™ library category name
-GMStdCatSwitch,"Switch","Switch",,Drag and Drop™ library category name
-GMStdCatTypes,"Types","Types",,Drag and Drop™ library category name
-GMStdCatDataStructs,"Data Structures","Data Structures",,Drag and Drop™ library category name
-GMStdCatAudio,"Audio","Audio",,Drag and Drop™ library category name
-GMStdCatRooms,"Rooms","Rooms",,Drag and Drop™ library category name
-GMStdCatGame,"Game","Game",,Drag and Drop™ library category name
-GMStdCatFiles,"Files","Files",,Drag and Drop™ library category name
-GMStdCatTimelines,"Timelines","Timelines",,Drag and Drop™ library category name
-GMStdCatPaths,"Paths","Paths",,Drag and Drop™ library category name
-GMStdCatMisc,"Miscellaneous","Miscellaneous",,Drag and Drop™ library category name
-GMStdCatParticles,"Particles","Particles",,Drag and Drop™ library category name
-GMStdVar_Name,"Assign Variable","Assign Variable",,Drag and Drop™ library action name
-GMStdVar_Desc,"Assign a value to a variable.","Assign a value to a variable.",,Drag and Drop™ library action description
-GMStdTempVar_Name,"Declare Temp","Declare Temp",,Drag and Drop™ library action name
-GMStdTempVar_Desc,"Declare a temporary variable.","Declare a temporary variable.",,Drag and Drop™ library action description
-GMStdTemp,Temp,Temp,,DnD library
-GMStdIfVar_Name,"If Variable","If Variable",,Drag and Drop™ library action name
-GMStdIfVar_Desc,"Check if a variable satisfies a condition.","Check if a variable satisfies a condition.",,Drag and Drop™ library action description
-GMStdIfScore_Name,"If Score","If Score",,Drag and Drop™ library action name
-GMStdIfScore_Desc,"Check if an instance's score satisfies a condition.","Check if an instance's score satisfies a condition.",,Drag and Drop™ library action description
-GMStdIfLives_Name,"If Lives","If Lives",,Drag and Drop™ library action name
-GMStdIfLives_Desc,"Check if an instance's lives satisfies a condition.","Check if an instance's lives satisfies a condition.",,Drag and Drop™ library action description
-GMStdIfHealth_Name,"If Health","If Health",,Drag and Drop™ library action name
-GMStdIfHealth_Desc,"Check if an instance's health satisfies a condition.","Check if an instance's health satisfies a condition.",,Drag and Drop™ library action description
-GMStdIfExpr_Name,"If Expression","If Expression",,Drag and Drop™ library action name
-GMStdIfExpr_Desc,"Check if an expression is true or false.","Check if an expression is true or false.",,Drag and Drop™ library action description
-GMStdIfUndef_Name,"If Undefined","If Undefined",,Drag and Drop™ library action name
-GMStdIfUndef_Desc,"Check if a variable is or isn't undefined.","Check if a variable is or isn't undefined.",,Drag and Drop™ library action description
-GMStdElse_Name,"Else","Else",,Drag and Drop™ library action name
-GMStdElse_Desc,"Append this to an if-statement to execute code when the condition evaluates to false.","Append this to an if-statement to execute code when the condition evaluates to false.",,Drag and Drop™ library action description
-GMStdExCode_Name,"Execute Code","Execute Code",,Drag and Drop™ library action name
-GMStdExCode_Desc,"Execute a piece of code.","Execute a piece of code.",,Drag and Drop™ library action description
-GMStdExScript_Name,"Execute Script","Execute Script",,Drag and Drop™ library action name
-GMStdExScript_Desc,"Execute a script resource.","Execute a script resource.",,Drag and Drop™ library action description
-GMStdApplyTo_Name,"Apply To","Apply To",,Drag and Drop™ library action name
-GMStdApply,"Apply","Apply",,Apply dnd label
-GMStdApplyTo_Desc,"Execute code in the context of a specific object or instance.","Execute code in the context of a specific object or instance.",,Drag and Drop™ library action description
-GMStdRet_Name,"Return","Return",,Drag and Drop™ library action name
-GMStdRet_Desc,"Return a value from a function.","Return a value from a function.",,Drag and Drop™ library action description
-GMStdMacro_Name,"Macro","Macro",,Drag and Drop™ library action name
-GMStdMacro_Desc,"Define a global compile-time macro.","Define a global compile-time macro.",,Drag and Drop™ library action description
-GMStdExit_Name,"Exit","Exit",,Drag and Drop™ library action name
-GMStdExit_Desc,"Exit the current event without executing the remaining code.","Exit the current event without executing the remaining code.",,Drag and Drop™ library action description
-GMStdInstCount_Name,"Get Instance Count","Get Instance Count",,Drag and Drop™ library action name
-GMStdInstCount_Desc,"Returns the number of active instances of the object.","Returns the number of active instances of the object.",,Drag and Drop™ library action description
-GMStdInstCreate_Name,"Create Instance","Create Instance",,Drag and Drop™ library action name
-GMStdInstCreate_Desc,"Creates an instance of an object.","Creates an instance of an object.",,Drag and Drop™ library action description
-GMStdInstChange_Name,"Change Instance","Change Instance",,Drag and Drop™ library action name
-GMStdInstChange_Desc,"Change an instance to be an instance of another object.","Change an instance to be an instance of another object.",,Drag and Drop™ library action description
-GMStdInstDestroy_Name,"Destroy Instance","Destroy Instance",,Drag and Drop™ library action name
-GMStdInstDestroy_Desc,"Destroy an instance and remove it from the room.","Destroy an instance and remove it from the room.",,Drag and Drop™ library action description
-GMStdSeqCreate_Name,"Create Sequence","Create Sequence",,Drag and Drop™ library action name
-GMStdSeqCreate_Desc,"Creates an instance of a sequence.","Creates an instance of a sequence.",,Drag and Drop™ library action description
-GMStdSeqDestroy_Name,"Destroy Sequence","Destroy Sequence",,Drag and Drop™ library action name
-GMStdSeqDestroy_Desc,"Destroys an instance of a sequence and remove it from the room.","Destroys an instance of a sequence and remove it from the room.",,Drag and Drop™ library action description
-GMStdSeqGetPosition_Name,"Get Sequence Position","Get Sequence Position",,Drag and Drop™ library action name
-GMStdSeqGetPosition_Desc,"Sets the values of the x and y variables to the position of the sequence.","Sets the values of the x and y variables to the position of the sequence.",,Drag and Drop™ library action description
-GMStdSeqSetPosition_Name,"Set Sequence Position","Set Sequence Position",,Drag and Drop™ library action name
-GMStdSeqSetPosition_Desc,"Sets the position of the sequence.","Sets the position of the sequence.",,Drag and Drop™ library action description
-GMStdSeqPlay_Name,"Play Sequence","Play Sequence",,Drag and Drop™ library action name
-GMStdSeqPlay_Desc,"Plays the sequence.","Plays the sequence.",,Drag and Drop™ library action description
-GMStdSeqPause_Name,"Pause Sequence","Pause Sequence",,Drag and Drop™ library action name
-GMStdSeqPause_Desc,"Pauses the sequence.","Pauses the sequence.",,Drag and Drop™ library action description
-GMStdIfSeqExists_Name,"If Sequence Exists","If Sequence Exists",,Drag and Drop™ library action name
-GMStdIfSeqExists_Desc,"Check if a sequence exists.","Check if a sequence exists.",,Drag and Drop™ library action description
-GMStdSeqGetLength_Name,"Get Sequence Length","Get Sequence Length",,dnd library action name
-GMStdSeqGetLength_Desc,"Gets the length of a sequence element.","Gets the length of a sequence element.",,dnd library action description
-GMStdSeqGetHead_Name,"Get Sequence Head","Get Sequence Head",,dnd library action name
-GMStdSeqGetHead_Desc,"Gets the head position (in frames) of a sequence element.","Gets the head position (in frames) of a sequence element.",,dnd library action description
-GMStdSeqSetHead_Name,"Set Sequence Head","Set Sequence Head",,dnd library action name
-GMStdSeqSetHead_Desc,"Sets the head position (in frames) of a sequence element.","Sets the head position (in frames) of a sequence element.",,dnd library action description
-GMStdSeqGetLength_Story_1,"Get length of sequence instance ${sequenceelmid} into ${var}","Get length of sequence instance ${sequenceelmid} into ${var}",,dnd story text
-GMStdSeqGetLength_Story_2,"Get length of sequence instance ${sequenceelmid} into temp ${var}","Get length of sequence instance ${sequenceelmid} into temp ${var}",,dnd story text
-GMStdSeqSetHead_Story_1,"Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}","Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}",,dnd story text
-GMStdSeqGetHead_Story_1,"Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}","Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}",,dnd story text
-GMStdSeqGetHead_Story_2,"Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}","Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}",,dnd story text
-GMStdDestroyAtPos_Name,"Destroy At Position","Destroy At Position",,Drag and Drop™ library action name
-GMStdDestroyAtPos_Desc,"Destroy all instances at a position.","Destroy all instances at a position.",,Drag and Drop™ library action description
-GMStdSetSprite_Name,"Set Sprite","Set Sprite",,Drag and Drop™ library action name
-GMStdSetSprite_Desc,"Change the sprite of an object instance.","Change the sprite of an object instance.",,Drag and Drop™ library action description
-GMStdRotSprite_Name,"Set Instance Rotation","Set Instance Rotation",,Drag and Drop™ library action name
-GMStdRotSprite_Desc,"Set the rotation of an instance.","Set the rotation of an instance.",,Drag and Drop™ library action description
-GMStdSpriteAnimSpd_Name,"Set Animation Speed","Set Animation Speed",,Drag and Drop™ library action name
-GMStdSpriteAnimSpd_Desc,"Set the animation speed of an instance's sprite.","Set the animation speed of an instance's sprite.",,Drag and Drop™ library action description
-GMStdSpriteScale_Name,"Set Instance Scale","Set Instance Scale",,Drag and Drop™ library action name
-GMStdSpriteScale_Desc,"Set the horizontal and vertical scaling of an instance's sprite.","Set the horizontal and vertical scaling of an instance's sprite.",,Drag and Drop™ library action description
-GMStdSpriteAlpha_Name,"Set Instance Alpha","Set Instance Alpha",,Drag and Drop™ library action name
-GMStdSpriteAlpha_Desc,"Set the transparency (0-1) of an instance's sprite.","Set the transparency (0-1) of an instance's sprite.",,Drag and Drop™ library action description
-GMStdSpriteColor_Name,"Set Instance Colour","Set Instance Colour",,Drag and Drop™ library action name
-GMStdSpriteColor_Desc,"Set the colour blend of an instance's sprite.","Set the colour blend of an instance's sprite.",,Drag and Drop™ library action description
-GMStdSetAlarm_Name,"Set Alarm Countdown","Set Alarm Countdown",,Drag and Drop™ library action name
-GMStdSetAlarm_Desc,"Set the countdown value of an alarm event.","Set the countdown value of an alarm event.",,Drag and Drop™ library action description
-GMStdGetAlarm_Name,"Get Alarm Countdown","Get Alarm Countdown",,Drag and Drop™ library action name
-GMStdGetAlarm_Desc,"Get the countdown value of an alarm event.","Get the countdown value of an alarm event.",,Drag and Drop™ library action description
-GMStdInheritEvent_Name,"Call Parent Event","Call Parent Event",,Drag and Drop™ library action name
-GMStdInheritEvent_Desc,"Call this event on the instance's parent object.","Call this event on the instance's parent object.",,Drag and Drop™ library action description
-GMStdIfMousePressed_Name,"If Mouse Pressed","If Mouse Pressed",,Drag and Drop™ library action name
-GMStdIfMousePressed_Desc,"Check if a mouse button is pressed.","Check if a mouse button is pressed.",,Drag and Drop™ library action description
-GMStdIfMouseDown_Name,"If Mouse Down","If Mouse Down",,Drag and Drop™ library action name
-GMStdIfMouseDown_Desc,"Check if a mouse button is held or released.","Check if a mouse button is held or released.",,Drag and Drop™ library action description
-GMStdIfMouseUp_Name,"If Mouse Released","If Mouse Released",,Drag and Drop™ library action name
-GMStdIfMouseUp_Desc,"Check if a mouse button is released.","Check if a mouse button is released.",,Drag and Drop™ library action description
-GMStdIfKeyPressed_Name,"If Key Pressed","If Key Pressed",,Drag and Drop™ library action name
-GMStdIfKeyPressed_Desc,"Check if a key is pressed.","Check if a key is pressed.",,Drag and Drop™ library action description
-GMStdIfKeyDown_Name,"If Key Down","If Key Down",,Drag and Drop™ library action name
-GMStdIfKeyDown_Desc,"Check if a key is down or released.","Check if a key is down or released.",,Drag and Drop™ library action description
-GMStdIfKeyUp_Name,"If Key Released","If Key Released",,Drag and Drop™ library action name
-GMStdIfKeyUp_Desc,"Check if a key is released.","Check if a key is released.",,Drag and Drop™ library action description
-GMStdGPAxis_Name,"Get Gamepad Axis","Get Gamepad Axis",,Drag and Drop™ library action name
-GMStdGPAxis_Desc,"Get the value of an axis on a gamepad.","Get the value of an axis on a gamepad.",,Drag and Drop™ library action description
-GMStdGPTrigger_Name,"Get Gamepad Trigger","Get Gamepad Trigger",,Drag and Drop™ library action name
-GMStdGPTrigger_Desc,"Get the value of a gamepad's trigger button.","Get the value of a gamepad's trigger button.",,Drag and Drop™ library action description
-GMStdIfGPDown_Name,"If Gamepad Button Down","If Gamepad Button Down",,Drag and Drop™ library action name
-GMStdIfGPDown_Desc,"Check if a gamepad button is down or released.","Check if a gamepad button is down or released.",,Drag and Drop™ library action description
-GMStdIfGPPressed_Name,"If Gamepad Button Pressed","If Gamepad Button Pressed",,Drag and Drop™ library action name
-GMStdIfGPPressed_Desc,"Check if a gamepad button is pressed.","Check if a gamepad button is pressed.",,Drag and Drop™ library action description
-GMStdIfGPUp_Name,"If Gamepad Button Released","If Gamepad Button Released",,Drag and Drop™ library action name
-GMStdIfGPUp_Desc,"Check if a gamepad button is released.","Check if a gamepad button is released.",,Drag and Drop™ library action description
-GMStdGPDeadzone_Name,"Set Gamepad Axis Deadzone","Set Gamepad Axis Deadzone",,Drag and Drop™ library action name
-GMStdGPDeadzone_Desc,"Set the deadzone of a gamepad axis.","Set the deadzone of a gamepad axis.",,Drag and Drop™ library action description
-GMStdGPThreshold_Name,"Set Gamepad Button Threshold","Set Gamepad Button Threshold",,Drag and Drop™ library action name
-GMStdGPThreshold_Desc,"Set the threshold for the analogue buttons of the given gamepad device.","Set the threshold for the analogue buttons of the given gamepad device.",,Drag and Drop™ library action description
-GMStdGpDeviceC_Name,"Get Gamepad Count","Get Gamepad Count",,Drag and Drop™ library action name
-GMStdGpDeviceC_Desc,"Get the number of connected gamepad devices.","Get the number of connected gamepad devices.",,Drag and Drop™ library action description
-GMStdGPConnc_Name,"Get Gamepad Connected","Get Gamepad Connected",,Drag and Drop™ library action name
-GMStdGPConnc_Desc,"Get whether a given gamepad is connected.","Get whether a given gamepad is connected.",,Drag and Drop™ library action description
-GMStdDirFixed_Name,"Set Direction Fixed","Set Direction Fixed",,Drag and Drop™ library action name
-GMStdDirFixed_Desc,"Set a fixed direction.","Set a fixed direction.",,Drag and Drop™ library action description
-GMStdDirFree_Name,"Set Direction Variable","Set Direction Variable",,Drag and Drop™ library action name
-GMStdDirFree_Desc,"Set a variable direction.","Set a variable direction.",,Drag and Drop™ library action description
-GMStdDirPoint_Name,"Set Point Direction","Set Point Direction",,Drag and Drop™ library action name
-GMStdDirPoint_Desc,"Set a direction towards a specified point.","Set a direction towards a specified point.",,Drag and Drop™ library action description
-GMStdDirRandom_Name,"Set Direction Random","Set Direction Random",,Drag and Drop™ library action name
-GMStdDirRandom_Desc,"Set a random direction based on the specified directions.","Set a random direction based on the specified directions.",,Drag and Drop™ library action description
-GMStdSpeed_Name,"Set Speed","Set Speed",,Drag and Drop™ library action name
-GMStdSpeed_Desc,"Set the speed of an instance.","Set the speed of an instance.",,Drag and Drop™ library action description
-GMStdGravDir_Name,"Set Gravity Direction","Set Gravity Direction",,Drag and Drop™ library action name
-GMStdGravDir_Desc,"Set the gravitational direction.","Set the gravitational direction.",,Drag and Drop™ library action description
-GMStdGravForce_Name,"Set Gravity Force","Set Gravity Force",,Drag and Drop™ library action name
-GMStdGravForce_Desc,"Set the gravitational force.","Set the gravitational force.",,Drag and Drop™ library action description
-GMStdVKeyShow_Name,"Show Virtual Keyboard","Show Virtual Keyboard",,Drag and Drop™ library action name
-GMStdVKeyShow_Desc,"Display the virtual keyboard. Once the keyboard is shown, a System event of type ""keyboard status"" is raised.","Display the virtual keyboard. Once the keyboard is shown, a System event of type ""keyboard status"" is raised.",,Drag and Drop™ library action description
-GMStdVKeyHide_Name,"Hide Virtual Keyboard","Hide Virtual Keyboard",,Drag and Drop™ library action name
-GMStdVKeyHide_Desc,"Hide the virtual keyboard. Once the keyboard is hidden, a System event of type ""keyboard status"" is raised.","Hide the virtual keyboard. Once the keyboard is hidden, a System event of type ""keyboard status"" is raised.",,Drag and Drop™ library action description
-GMStdVKeyStatus_Name,"If Virtual Keyboard Showing","If Virtual Keyboard Showing",,Drag and Drop™ library action name
-GMStdVKeyStatus_Desc,"Check if the virtual keyboard is showing. If querying the status, a System event of type ""keyboard status"" is raised.","Check if the virtual keyboard is showing. If querying the status, a System event of type ""keyboard status"" is raised.",,Drag and Drop™ library action description
-GMStdVKeyHeight_Name,"Get Virtual Keyboard Height","Get Virtual Keyboard Height",,Drag and Drop™ library action name
-GMStdVKeyHeight_Desc,"Get the current pixel height of the virtual keyboard if it is visible.","Get the current pixel height of the virtual keyboard if it is visible.",,Drag and Drop™ library action description
-GMStdReverse_Name,"Reverse","Reverse",,Drag and Drop™ library action name
-GMStdReverse_Desc,"Reverse a direction from a list of presets.","Reverse a direction from a list of presets.",,Drag and Drop™ library action description
-GMStdFriction_Name,"Set Friction","Set Friction",,Drag and Drop™ library action name
-GMStdFriction_Desc,"Apply friction to the instance's movement.","Apply friction to the instance's movement.",,Drag and Drop™ library action description
-GMStdJumpPoint_Name,"Jump To Point","Jump To Point",,Drag and Drop™ library action name
-GMStdJumpPoint_Desc,"Jump to the specified position.","Jump to the specified position.",,Drag and Drop™ library action description
-GMStdJumpStart_Name,"Jump To Start","Jump To Start",,Drag and Drop™ library action nameGM
-GMStdJumpStart_Desc,"Jump to the instance's start position.","Jump to the instance's start position.",,Drag and Drop™ library action description
-GMStdSnapPos_Name,"Snap Position","Snap Position",,Drag and Drop™ library action name
-GMStdSnapPos_Desc,"Snap an instance's position to a grid.","Snap an instance's position to a grid.",,Drag and Drop™ library action description
-GMStdWrapRoom_Name,"Wrap Around Room","Wrap Around Room",,Drag and Drop™ library action name
-GMStdWrapRoom_Desc,"Wrap around room.","Wrap around room.",,Drag and Drop™ library action description
-GMStdIfAnyObjAt_Name,"If Any Object At Place","If Any Object At Place",,Drag and Drop™ library action name
-GMStdIfAnyObjAt_Desc,"Check if an instance overlaps any object instances at a position.","Check if an instance overlaps any object instances at a position.",,Drag and Drop™ library action description
-GMStdIfObjAt_Name,"If Object At Place","If Object At Place",,Drag and Drop™ library action name
-GMStdIfObjAt_Desc,"Check if an instance overlaps one or more instances of a specific object at a position.","Check if an instance overlaps one or more instances of a specific object at a position.",,Drag and Drop™ library action description
-GMStdIfColShape_Name,"If Collision Shape","If Collision Shape",,Drag and Drop™ library action name
-GMStdIfColShape_Desc,"Check if one or more instances intersect a shape.","Check if one or more instances intersect a shape.",,Drag and Drop™ library action description
-GMStdIfColPoint_Name,"If Collision Point","If Collision Point",,Drag and Drop™ library action name
-GMStdIfColPoint_Desc,"Check if one or more instances intersect a point.","Check if one or more instances intersect a point.",,Drag and Drop™ library action description
-GMStdDrawSelf_Name,"Draw Self","Draw Self",,Drag and Drop™ library action name
-GMStdDrawSelf_Desc,"Draw this instance's sprite.","Draw this instance's sprite.",,Drag and Drop™ library action description
-GMStdDrawValue_Name,"Draw Value","Draw Value",,Drag and Drop™ library action name
-GMStdDrawValue_Desc,"Draw the specified value. It can be a string, number or variable.","Draw the specified value. It can be a string, number or variable.",,Drag and Drop™ library action description
-GMStdDrawValueTransformed_Name,"Draw Transformed Value","Draw Transformed Value",,Drag and Drop™ library action name
-GMStdDrawValueTransformed_Desc,"Draw a value with a transformation. It can be a string, number or variable.","Draw a value with a transformation. It can be a string, number or variable.",,Drag and Drop™ library action description
-GMStdDrawSprite_Name,"Draw Sprite","Draw Sprite",,Drag and Drop™ library action name
-GMStdDrawSprite_Desc,"Draw a sprite.","Draw a sprite.",,Drag and Drop™ library action description
-GMStdDrawSpritesStacked_Name,"Draw Stacked Sprites","Draw Stacked Sprites",,Drag and Drop™ library action name
-GMStdDrawSpritesStacked_Desc,"Draw a sprite multiple times in a stack.","Draw a sprite multiple times in a stack.",,Drag and Drop™ library action description
-GMStdDrawRectangle_Name,"Draw Rectangle","Draw Rectangle",,Drag and Drop™ library action name
-GMStdDrawRectangle_Desc,"Draw a rectangle.","Draw a rectangle.",,Drag and Drop™ library action description
-GMStdDrawGradientRect_Name,"Draw Gradient Rectangle","Draw Gradient Rectangle",,Drag and Drop™ library action name
-GMStdDrawGradientRect_Desc,"Draw a gradient in a rectangular shape.","Draw a gradient in a rectangular shape.",,Drag and Drop™ library action description
-GMStdDrawEllipse_Name,"Draw Ellipse","Draw Ellipse",,Drag and Drop™ library action name
-GMStdDrawEllipse_Desc,"Draw an ellipse.","Draw an ellipse.",,Drag and Drop™ library action description
-GMStdDrawGradientEllipse_Name,"Draw Gradient Ellipse","Draw Gradient Ellipse",,Drag and Drop™ library action name
-GMStdDrawGradientEllipse_Desc,"Draw a gradient in an elliptical shape.","Draw a gradient in an elliptical shape.",,Drag and Drop™ library action description
-GMStdDrawLine_Name,"Draw Line","Draw Line",,Drag and Drop™ library action name
-GMStdDrawLine_Desc,"Draw a line.","Draw a line.",,Drag and Drop™ library action description
-GMStdDrawHealthbar_Name,"Draw Healthbar","Draw Healthbar",,Drag and Drop™ library action name
-GMStdDrawHealthbar_Desc,"Draw a healthbar from a 0-100 value.","Draw a healthbar from a 0-100 value.",,Drag and Drop™ library action description
-GMStdDrawInstanceScore_Name,"Draw Instance Score","Draw Instance Score",,Drag and Drop™ library action name
-GMStdDrawInstanceScore_Desc,"Draw an instance's score with a caption.","Draw an instance's score with a caption.",,Drag and Drop™ library action description
-GMStdDrawInstanceHealth_Name,"Draw Instance Health","Draw Instance Health",,Drag and Drop™ library action name
-GMStdDrawInstanceHealth_Desc,"Draw an instance's health with a healthbar.","Draw an instance's health with a healthbar.",,Drag and Drop™ library action description
-GMStdDrawInstanceLives_Name,"Draw Instance Lives","Draw Instance Lives",,Drag and Drop™ library action name
-GMStdDrawInstanceLives_Desc,"Draw an instance's lives with stacked sprites.","Draw an instance's lives with stacked sprites.",,Drag and Drop™ library action description
-GMStdSetColor_Name,"Set Draw Colour","Set Draw Colour",,Drag and Drop™ library action name
-GMStdSetColor_Desc,"Set the colour to blend all drawing with.","Set the colour to blend all drawing with.",,Drag and Drop™ library action description
-GMStdGetColor_Name,"Get Draw Colour","Get Draw Colour",,Drag and Drop™ library action name
-GMStdGetColor_Desc,"Get the colour used to blend all drawing with.","Get the colour used to blend all drawing with.",,Drag and Drop™ library action description
-GMStdGetFont_Name,"Get Draw Font","Get Draw Font",,Drag and Drop™ library action name
-GMStdGetFont_Desc,"Get the font used for all text drawing.","Get the font used for all text drawing.",,Drag and Drop™ library action description
-GMStdGetTextAlign_Name,"Get Text Alignment","Get Text Alignment",,Drag and Drop™ library action name
-GMStdGetTextAlign_Desc,"Get the horizontal or vertical alignment of text drawing.","Get the horizontal or vertical alignment of text drawing.",,Drag and Drop™ library action description
-GMStdSetFont_Name,"Set Font","Set Font",,Drag and Drop™ library action name
-GMStdSetFont_Desc,"Set the font to use for all text drawing.","Set the font to use for all text drawing.",,Drag and Drop™ library action description
-GMStdSetAlignment_Name,"Set Text Alignment","Set Text Alignment",,Drag and Drop™ library action name
-GMStdSetAlignment_Desc,"Set the horizontal and vertical alignment of text drawing.","Set the horizontal and vertical alignment of text drawing.",,Drag and Drop™ library action description
-GMStdTileSetAtPixel_Name,"Set Tile Index At Pixel","Set Tile Index At Pixel",,Drag and Drop™ library action name
-GMStdTileSetAtPixel_Desc,"Set the tile index at the specified position.","Set the tile index at the specified position.",,Drag and Drop™ library action description
-GMStdTileGetAtPixel_Name,"Get Tile Index At Pixel","Get Tile Index At Pixel",,Drag and Drop™ library action name
-GMStdTileGetAtPixel_Desc,"Get the tile index at the specified position.","Get the tile index at the specified position.",,Drag and Drop™ library action description
-GMStdTileSetInCell_Name,"Set Tile Index In Cell","Set Tile Index In Cell",,Drag and Drop™ library action name
-GMStdTileSetInCell_Desc,"Set the tile index in the specified cell.","Set the tile index in the specified cell.",,Drag and Drop™ library action description
-GMStdTileGetInCell_Name,"Get Tile Index In Cell","Get Tile Index In Cell",,Drag and Drop™ library action name
-GMStdTileGetInCell_Desc,"Get the tile index in the specified cell.","Get the tile index in the specified cell.",,Drag and Drop™ library action description
-GMStdTileGetElm_Name,"Get Tile Data In Cell","Get Tile Data In Cell",,DnD label
-GMStdTileGetElm_Desc,"Get the tile data in a cell on a tile layer.","Get the tile data in a cell on a tile layer.",,DnD label
-GMStdTileGetElmPixel_Name,"Get Tile Data At Pixel","Get Tile Data At Pixel",,DnD label
-GMStdTileGetElmPixel_Desc,"Get the tile data at the specified position on a tile layer.","Get the tile data at the specified position on a tile layer.",,DnD label
-GMStdTileSetElm_Name,"Set Tile Data In Cell","Set Tile Data In Cell",,DnD label
-GMStdTileSetElm_Desc,"Set the tile data in a cell on a tile layer.","Set the tile data in a cell on a tile layer.",,DnD label
-GMStdTileSetElmPixel_Name,"Set Tile Data At Pixel","Set Tile Data At Pixel",,DnD label
-GMStdTileSetElmPixel_Desc,"Set the tile data at the specified position on a tile layer.","Set the tile data at the specified position on a tile layer.",,DnD label
-GMStdTileGetVar_Name,"Get Tilemap Variable","Get Tilemap Variable",,DnD label
-GMStdTileGetVar_Desc,"Get a variable from a tilemap element.","Get a variable from a tilemap element.",,DnD label
-GMStdTileSetTileSet_Name,"Set Tile Set","Set Tile Set",,DnD label
-GMStdTileSetTileSet_Desc,"Set the tile set resource of a tilemap.","Set the tile set resource of a tilemap.",,DnD label
-GMStdTileTransform_Name,"Set Tile Data Transform","Set Tile Data Transform",,Drag and Drop™ library action name
-GMStdTileTransform_Desc,"Apply a transformation to tile data.","Apply a transformation to tile data.",,Drag and Drop™ library action description
-GMStdTileGetTransform_Name,"Get Tile Data Transform","Get Tile Data Transform",,Drag and Drop™ library action name
-GMStdTileGetTransform_Desc,"Get the transformation of tile data.","Get the transformation of tile data.",,Drag and Drop™ library action description
-GMStdTileSet,Tile Set,Tile Set,,DnD label
-GMStdSetScore_Name,"Set Score","Set Score",,Drag and Drop™ library action name
-GMStdSetScore_Desc,"Set the score variable on the instance.","Set the score variable on the instance.",,Drag and Drop™ library action description
-GMStdGetScore_Name,"Get Score","Get Score",,Drag and Drop™ library action name
-GMStdGetScore_Desc,"Get the score of the instance.","Get the score of the instance.",,Drag and Drop™ library action description
-GMStdSetLives_Name,"Set Lives","Set Lives",,Drag and Drop™ library action name
-GMStdSetLives_Desc,"Set the life count of the instance.","Set the life count of the instance.",,Drag and Drop™ library action description
-GMStdGetLives_Name,"Get Lives","Get Lives",,Drag and Drop™ library action name
-GMStdGetLives_Desc,"Get the life count of the instance.","Get the life count of the instance.",,Drag and Drop™ library action description
-GMStdSetHealth_Name,"Set Health","Set Health",,Drag and Drop™ library action name
-GMStdSetHealth_Desc,"Set the health variable of the instance.","Set the health variable of the instance.",,Drag and Drop™ library action description
-GMStdGetHealth_Name,"Get Health","Get Health",,Drag and Drop™ library action name
-GMStdGetHealth_Desc,"Get the health of the instance.","Get the health of the instance.",,Drag and Drop™ library action description
-GMStdSetGlobal_Name,"Set Global Variable","Set Global Variable",,Drag and Drop™ library action name
-GMStdSetGlobal_Desc,"Set a global variable.","Set a global variable.",,Drag and Drop™ library action description
-GMStdGetGlobal_Name,"Get Global Variable","Get Global Variable",,Drag and Drop™ library action name
-GMStdGetGlobal_Desc,"Get a global variable.","Get a global variable.",,Drag and Drop™ library action description
-GMStdGetRandomNumber_Name,"Get Random Number","Get Random Number",,Drag and Drop™ library action name
-GMStdGetRandomNumber_Desc,"Get a random inclusive number.","Get a random inclusive number.",,Drag and Drop™ library action description
-GMStdRandomize_Name,"Randomize","Randomize",,Drag and Drop™ library action name
-GMStdRandomize_Desc,"Create a new random seed used by the random number generator.","Create a new random seed used by the random number generator.",,Drag and Drop™ library action description
-GMStdRepeat_Name,"Repeat","Repeat",,Drag and Drop™ library action name
-GMStdRepeat_Desc,"Repeat code a number of times.","Repeat code a number of times.",,Drag and Drop™ library action description
-GMStdWhileLoop_Name,"While Loop","While Loop",,Drag and Drop™ library action name
-GMStdWhileLoop_Desc,"Execute code while a given expression is true.","Execute code while a given expression is true.",,Drag and Drop™ library action description
-GMStdBreak_Name,"Break","Break",,Drag and Drop™ library action name
-GMStdBreak_Desc,"Break out of a loop.","Break out of a loop.",,Drag and Drop™ library action description
-GMStdSwitch_Name,"Switch","Switch",,Drag and Drop™ library action name
-GMStdSwitch_Desc,"Switch which branch to execute based on input.","Switch which branch to execute based on input.",,Drag and Drop™ library action description
-GMStdCase_Name,"Case","Case",,Drag and Drop™ library action name
-GMStdCase_Desc,"A branch to execute in a switch if the case is true.","A branch to execute in a switch if the case is true.",,Drag and Drop™ library action description
-GMStdDecimalToInteger_Name,"Decimal To Integer","Decimal To Integer",,Drag and Drop™ library action name
-GMStdDecimalToInteger_Desc,"Round a decimal value to an integer value by rounding, ceiling or flooring it.","Round a decimal value to an integer value by rounding, ceiling or flooring it.",,Drag and Drop™ library action description
-GMStdStringToNumber_Name,"String To Number","String To Number",,Drag and Drop™ library action name
-GMStdStringToNumber_Desc,"Convert a string to a number.","Convert a string to a number.",,Drag and Drop™ library action description
-GMStdNumberToString_Name,"Number To String","Number To String",,Drag and Drop™ library action name
-GMStdNumberToString_Desc,"Convert a number to a string.","Convert a number to a string.",,Drag and Drop™ library action description
-GMStdCreateList_Name,"Create List","Create List",,Drag and Drop™ library action name
-GMStdCreateList_Desc,"Create a list data structure.","Create a list data structure.",,Drag and Drop™ library action description
-GMStdCreateMap_Name,"Create Map","Create Map",,Drag and Drop™ library action name
-GMStdCreateMap_Desc,"Create a map data structure.","Create a map data structure.",,Drag and Drop™ library action description
-GMStdForLoop_Name,"For Loop","For Loop",,Drag and Drop™ library action name
-GMStdForLoop_Desc,"A self-contained loop structure with initialise, condition and increment statements.","A self-contained loop structure with initialise, condition and increment statements.",,Drag and Drop™ library action description
-GMStdDrawSpriteExt_Name,"Draw Sprite Transformed","Draw Sprite Transformed",,Drag and Drop™ library action name
-GMStdDrawSpriteExt_Desc,"Draw a sprite with transformations.","Draw a sprite with transformations.",,Drag and Drop™ library action description
-GMStdSetViewVar_Name,"Set View Variable","Set View Variable",,Drag and Drop™ library action name
-GMStdSetViewVar_Desc,"Set a variable pertaining to a room view.","Set a variable pertaining to a room view.",,Drag and Drop™ library action description
-GMStdGetViewVar_Name,"Get View Variable","Get View Variable",,Drag and Drop™ library action name
-GMStdGetViewVar_Desc,"Get a variable pertaining to a room view.","Get a variable pertaining to a room view.",,Drag and Drop™ library action description
-GMStdCreateGrid_Name,"Create Grid","Create Grid",,Drag and Drop™ library action name
-GMStdCreateGrid_Desc,"Create a new grid data structure.","Create a new grid data structure.",,Drag and Drop™ library action description
-GMStdCreateStack_Name,"Create Stack","Create Stack",,Drag and Drop™ library action name
-GMStdCreateStack_Desc,"Create a stack data structure.","Create a stack data structure.",,Drag and Drop™ library action description
-GMStdIfDSExists_Name,"If Data Structure Exists","If Data Structure Exists",,Drag and Drop™ library action name
-GMStdIfDSExists_Desc,"Check if a data structure exists.","Check if a data structure exists.",,Drag and Drop™ library action description
-GMStdIfDSEmpty_Name,"If Data Structure Empty","If Data Structure Empty",,Drag and Drop™ library action name
-GMStdIfDSEmpty_Desc,"Check if a data structure is empty.","Check if a data structure is empty.",,Drag and Drop™ library action description
-GMStdDSClear_Name,"Clear Data Structure","Clear Data Structure",,Drag and Drop™ library action name
-GMStdDSClear_Desc,"Clear the contents of a data structure.","Clear the contents of a data structure.",,Drag and Drop™ library action description
-GMStdDSFree_Name,"Free Data Structure","Free Data Structure",,Drag and Drop™ library action name
-GMStdDSFree_Desc,"Free an existing data structure.","Free an existing data structure.",,Drag and Drop™ library action description
-GMStdListAdd_Name,"Add To List","Add To List",,Drag and Drop™ library action name
-GMStdListAdd_Desc,"Add a value to a list.","Add a value to a list.",,Drag and Drop™ library action description
-GMStdListRemove_Name,"Remove From List","Remove From List",,Drag and Drop™ library action name
-GMStdListRemove_Desc,"Remove a value from a list.","Remove a value from a list.",,Drag and Drop™ library action description
-GMStdListGetAt_Name,"Get List Item At","Get List Item At",,Drag and Drop™ library action name
-GMStdListGetAt_Desc,"Get a list item at an index.","Get a list item at an index.",,Drag and Drop™ library action description
-GMStdListIndexOf_Name,"Get Index Of List Item","Get Index Of List Item",,Drag and Drop™ library action name
-GMStdListIndexOf_Desc,"Get the index of a list item.","Get the index of a list item.",,Drag and Drop™ library action description
-GMStdListInsert_Name,"Insert Into List","Insert Into List",,Drag and Drop™ library action name
-GMStdListInsert_Desc,"Insert an item into a list at an index.","Insert an item into a list at an index.",,Drag and Drop™ library action description
-GMStdListCount_Name,"Get List Item Count","Get List Item Count",,Drag and Drop™ library action name
-GMStdListCount_Desc,"Get the number of items in a list.","Get the number of items in a list.",,Drag and Drop™ library action description
-GMStdMapSetValue_Name,"Set Map Value","Set Map Value",,Drag and Drop™ library action name
-GMStdMapSetValue_Desc,"Set the value of a map entry.","Set the value of a map entry.",,Drag and Drop™ library action description
-GMStdMapGetValue_Name,"Get Map Value","Get Map Value",,Drag and Drop™ library action name
-GMStdMapGetValue_Desc,"Get the value of a map entry.","Get the value of a map entry.",,Drag and Drop™ library action description
-GMStdMapRemove_Name,"Remove Map Entry","Remove Map Entry",,Drag and Drop™ library action name
-GMStdMapRemove_Desc,"Remove a map entry.","Remove a map entry.",,Drag and Drop™ library action description
-GMStdGridSetValue_Name,"Set Grid Value","Set Grid Value",,Drag and Drop™ library action name
-GMStdGridSetValue_Desc,"Set a value in a grid.","Set a value in a grid.",,Drag and Drop™ library action description
-GMStdGridGetValue_Name,"Get Grid Value","Get Grid Value",,Drag and Drop™ library action name
-GMStdGridGetValue_Desc,"Get a value in a grid.","Get a value in a grid.",,Drag and Drop™ library action description
-GMStdGridClear_Name,"Clear Grid","Clear Grid",,Drag and Drop™ library action name
-GMStdGridClear_Desc,"Clear a grid to a specific value.","Clear a grid to a specific value.",,Drag and Drop™ library action description
-GMStdStackPush_Name,"Push Onto Stack","Push Onto Stack",,Drag and Drop™ library action name
-GMStdStackPush_Desc,"Push a value onto a stack.","Push a value onto a stack.",,Drag and Drop™ library action description
-GMStdStackPop_Name,"Pop Stack","Pop Stack",,Drag and Drop™ library action name
-GMStdStackPop_Desc,"Pop a value off a stack.","Pop a value off a stack.",,Drag and Drop™ library action description
-GMStdPlayAudio_Name,"Play Audio","Play Audio",,Drag and Drop™ library action name
-GMStdPlayAudio_Desc,"Play a sound effect or a music track.","Play a sound effect or a music track.",,Drag and Drop™ library action description
-GMStdStopAudio_Name,"Stop Audio","Stop Audio",,Drag and Drop™ library action name
-GMStdStopAudio_Desc,"Stop playing a sound effect or a music track.","Stop playing a sound effect or a music track.",,Drag and Drop™ library action description
-GMStdStopAllAudio_Name,"Stop All Audio","Stop All Audio",,Drag and Drop™ library action name
-GMStdStopAllAudio_Desc,"Stop all audio.","Stop all audio.",,Drag and Drop™ library action description
-GMStdPauseAudio_Name,"Pause Audio","Pause Audio",,Drag and Drop™ library action name
-GMStdPauseAudio_Desc,"Pause a sound effect or a music track.","Pause a sound effect or a music track.",,Drag and Drop™ library action description
-GMStdPauseAllAudio_Name,"Pause All Audio","Pause All Audio",,Drag and Drop™ library action name
-GMStdPauseAllAudio_Desc,"Pause all audio.","Pause all audio.",,Drag and Drop™ library action description
-GMStdResumeAudio_Name,"Resume Audio","Resume Audio",,Drag and Drop™ library action name
-GMStdResumeAudio_Desc,"Resume playing a sound effect or a music track.","Resume playing a sound effect or a music track.",,Drag and Drop™ library action description
-GMStdResumeAllAudio_Name,"Resume All Audio","Resume All Audio",,Drag and Drop™ library action name
-GMStdResumeAllAudio_Desc,"Resume playing all paused audio.","Resume playing all paused audio.",,Drag and Drop™ library action description
-GMStdIfAudioPlaying_Name,"If Audio Is Playing","If Audio Is Playing",,Drag and Drop™ library action name
-GMStdIfAudioPlaying_Desc,"Check if a sound effect or a music track is playing.","Check if a sound effect or a music track is playing.",,Drag and Drop™ library action description
-GMStdIfAudioPaused_Name,"If Audio Is Paused","If Audio Is Paused",,Drag and Drop™ library action name
-GMStdIfAudioPaused_Desc,"Check if a sound effect or a music track is paused.","Check if a sound effect or a music track is paused.",,Drag and Drop™ library action description
-GMStdAudioSetPosition_Name,"Set Audio Position","Set Audio Position",,Drag and Drop™ library action name
-GMStdAudioSetPosition_Desc,"Set the playback position of a sound effect or a music track.","Set the playback position of a sound effect or a music track.",,Drag and Drop™ library action description
-GMStdAudioGetLength_Name,"Get Audio Length","Get Audio Length",,Drag and Drop™ library action name
-GMStdAudioGetLength_Desc,"Get the length of a sound effect or a music track in seconds.","Get the length of a sound effect or a music track in seconds.",,Drag and Drop™ library action description
-GMStdAudioSetPitch_Name,"Set Audio Pitch","Set Audio Pitch",,Drag and Drop™ library action name
-GMStdAudioSetPitch_Desc,"Set the pitch of a sound effect or a music track.","Set the pitch of a sound effect or a music track.",,Drag and Drop™ library action description
-GMStdAudioGetPitch_Name,"Get Audio Pitch","Get Audio Pitch",,Drag and Drop™ library action name
-GMStdAudioGetPitch_Desc,"Get the pitch of a sound effect or a music track.","Get the pitch of a sound effect or a music track.",,Drag and Drop™ library action description
-GMStdAudioSetVolume_Name,"Set Audio Volume","Set Audio Volume",,Drag and Drop™ library action name
-GMStdAudioSetVolume_Desc,"Set the volume of a sound effect or a music track.","Set the volume of a sound effect or a music track.",,Drag and Drop™ library action description
-GMStdAudioGetVolume_Name,"Get Audio Volume","Get Audio Volume",,Drag and Drop™ library action name
-GMStdAudioGetVolume_Desc,"Get the volume of a sound effect or a music track.","Get the volume of a sound effect or a music track.",,Drag and Drop™ library action description
-GMStdAudoSetMasterVolume_Name,"Set Master Volume","Set Master Volume",,Drag and Drop™ library action name
-GMStdAudoSetMasterVolume_Desc,"Set the master volume that all other volumes are relative to.","Set the master volume that all other volumes are relative to.",,Drag and Drop™ library action description
-GMStdAudioGetMasterVolume_Name,"Get Master Volume","Get Master Volume",,Drag and Drop™ library action name
-GMStdAudioGetMasterVolume_Desc,"Get the master volume all other volumes are relative to.","Get the master volume all other volumes are relative to.",,Drag and Drop™ library action description
-GMStdGetCurrentRoom_Name,"Get Current Room","Get Current Room",,Drag and Drop™ library action name
-GMStdGetCurrentRoom_Desc,"Get the currently active room.","Get the currently active room.",,Drag and Drop™ library action description
-GMStdPreviousRoom_Name,"Go To Previous Room","Go To Previous Room",,Drag and Drop™ library action name
-GMStdPreviousRoom_Desc,"Go to the room that was previously active.","Go to the room that was previously active.",,Drag and Drop™ library action description
-GMStdNextRoom_Name,"Go To Next Room","Go To Next Room",,Drag and Drop™ library action name
-GMStdNextRoom_Desc,"Go to the next room in the list.","Go to the next room in the list.",,Drag and Drop™ library action description
-GMStdRestartRoom_Name,"Restart Room","Restart Room",,Drag and Drop™ library action name
-GMStdRestartRoom_Desc,"Restart the current room.","Restart the current room.",,Drag and Drop™ library action description
-GMStdGoToRoom_Name,"Go To Room","Go To Room",,Drag and Drop™ library action name
-GMStdGoToRoom_Desc,"Go to a specific room.","Go to a specific room.",,Drag and Drop™ library action description
-GMStdIfFirstRoom_Name,"If Room Is First","If Room Is First",,Drag and Drop™ library action name
-GMStdIfFirstRoom_Desc,"Check if the current room is the first room or not.","Check if the current room is the first room or not.",,Drag and Drop™ library action description
-GMStdIfLastRoom_Name,"If Room Is Last","If Room Is Last",,Drag and Drop™ library action name
-GMStdIfLastRoom_Desc,"Check if the current room is the last room or not.","Check if the current room is the last room or not.",,Drag and Drop™ library action description
-GMStdRestartGame_Name,"Restart Game","Restart Game",,Drag and Drop™ library action name
-GMStdRestartGame_Desc,"Restart the game.","Restart the game.",,Drag and Drop™ library action description
-GMStdEndGame_Name,"Exit Game","Exit Game",,Drag and Drop™ library action name
-GMStdEndGame_Desc,"Exit the game application.","Exit the game application.",,Drag and Drop™ library action description
-GMStdSaveGame_Name,"Save Game","Save Game",,Drag and Drop™ library action name
-GMStdSaveGame_Desc,"Save the current progress.","Save the current progress.",,Drag and Drop™ library action description
-GMStdLoadGame_Name,"Load Game","Load Game",,Drag and Drop™ library action name
-GMStdLoadGame_Desc,"Load the game from a save file.","Load the game from a save file.",,Drag and Drop™ library action description
-GMStdOpenIni_Name,"Open Ini File","Open Ini File",,Drag and Drop™ library action name
-GMStdOpenIni_Desc,"Open an ini file for reading and writing. You can only have 1 ini file open at a time.","Open an ini file for reading and writing. You can only have 1 ini file open at a time.",,Drag and Drop™ library action description
-GMStdCloseIni_Name,"Close Ini File","Close Ini File",,Drag and Drop™ library action name
-GMStdCloseIni_Desc,"Close the currently open ini file.","Close the currently open ini file.",,Drag and Drop™ library action description
-GMStdInit,Initialise,Initialise,,DnD label
-GMStdCondition,Condition,Condition,,DnD label
-GMStdIncrement,Increment,Increment,,DnD label
-GMStdView,View,View,,DnD label
-GMStdIniWrite_Name,"Write To Ini File","Write To Ini File",,Drag and Drop™ library action name
-GMStdIniWrite_Desc,"Write a string or numeric value to an ini file.","Write a string or numeric value to an ini file.",,Drag and Drop™ library action description
-GMStdIniRead_Name,"Read Ini File","Read Ini File",,Drag and Drop™ library action name
-GMStdIniRead_Desc,"Read a string or numeric value from an ini file.","Read a string or numeric value from an ini file.",,Drag and Drop™ library action description
-GMStdSetTimeline_Name,"Set Instance Timeline","Set Instance Timeline",,Drag and Drop™ library action name
-GMStdSetTimeline_Desc,"Attach a timeline to an instance.","Attach a timeline to an instance.",,Drag and Drop™ library action description
-GMStdPositionTimeline_Name,"Set Timeline Moment","Set Timeline Moment",,Drag and Drop™ library action name
-GMStdPositionTimeline_Desc,"Set the current moment of an instance's timeline.","Set the current moment of an instance's timeline.",,Drag and Drop™ library action description
-GMStdSpeedTimeline_Name,"Set Timeline Speed","Set Timeline Speed",,Drag and Drop™ library action name
-GMStdSpeedTimeline_Desc,"Set the speed of an instance's timeline.","Set the speed of an instance's timeline.",,Drag and Drop™ library action description
-GMStdSetTimelineState_Name,"Set Timeline State","Set Timeline State",,Drag and Drop™ library action name
-GMStdSetTimelineState_Desc,"Set the state of an instance's timeline.","Set the state of an instance's timeline.",,Drag and Drop™ library action description
-GMStdStartPath_Name,"Start Following Path","Start Following Path",,Drag and Drop™ library action name
-GMStdStartPath_Desc,"Start following a path with an instance.","Start following a path with an instance.",,Drag and Drop™ library action description
-GMStdStopPath_Name,"Stop Following Path","Stop Following Path",,Drag and Drop™ library action name
-GMStdStopPath_Desc,"Stop an instance from following a path.","Stop an instance from following a path.",,Drag and Drop™ library action description
-GMStdPathPosition_Name,"Set Position Along Path","Set Position Along Path",,Drag and Drop™ library action name
-GMStdPathPosition_Desc,"Set the position of the instance along the path it is following.","Set the position of the instance along the path it is following.",,Drag and Drop™ library action description
-GMStdPathSpeed_Name,"Set Path Follow Speed","Set Path Follow Speed",,Drag and Drop™ library action name
-GMStdPathSpeed_Desc,"Set the speed of the instance following a path.","Set the speed of the instance following a path.",,Drag and Drop™ library action description
-GMStdDebugShowMessage_Name,"Show Debug Message","Show Debug Message",,Drag and Drop™ library action name
-GMStdDebugShowMessage_Desc,"Display a debug message in the output console.","Display a debug message in the output console.",,Drag and Drop™ library action description
-GMStdSetWindowState_Name,"Set Window State","Set Window State",,Drag and Drop™ library action name
-GMStdSetWindowState_Desc,"Set the window state of the game.","Set the window state of the game.",,Drag and Drop™ library action description
-GMStdPartTypeDestroy_Name,"Destroy Particle Type","Destroy Particle Type",,Drag and Drop™ library action name
-GMStdPartTypeDestroy_Desc,"Destroy the particle type.","Destroy the particle type.",,Drag and Drop™ library action description
-GMStdPartTypeOrientation_Name,"Set Particle Orientation","Set Particle Orientation",,Drag and Drop™ library action name
-GMStdPartTypeOrientation_Desc,"Set the orientation of a particle type.","Set the orientation of a particle type.",,Drag and Drop™ library action description
-GMStdPartCreateBurst_Name,"Burst Particles","Burst Particles",,Drag and Drop™ library action name
-GMStdPartCreateBurst_Desc,"Create a burst of particles without an emitter.","Create a burst of particles without an emitter.",,Drag and Drop™ library action description
-GMStdPartSystCreate_Name,"Create Particle System","Create Particle System",,Drag and Drop™ library action name
-GMStdPartSystCreate_Desc,"Create a new particle system.","Create a new particle system.",,Drag and Drop™ library action description
-GMStdPartSystDestroy_Name,"Destroy Particle System","Destroy Particle System",,Drag and Drop™ library action name
-GMStdPartSystDestroy_Desc,"Destroy the particle system.","Destroy the particle system.",,Drag and Drop™ library action description
-GMStdPartSystClear_Name,"Clear Particle System","Clear Particle System",,Drag and Drop™ library action name
-GMStdPartSystClear_Desc,"Clear the particle system.","Clear the particle system.",,Drag and Drop™ library action description
-GMStdPauseParticles_Name,"Pause Particle System","Pause Particle System",,Drag and Drop™ library action name
-GMStdPauseParticles_Desc,"Pause or resume the particle system.","Pause or resume the particle system.",,Drag and Drop™ library action description
-GMStdRefreshParticles_Name,"Update Particle System","Update Particle System",,Drag and Drop™ library action name
-GMStdRefreshParticles_Desc,"Update the particle system, advancing it another step.","Update the particle system, advancing it another step.",,Drag and Drop™ library action description
-GMStdPartTypeCreate_Name,"Create Particle Type","Create Particle Type",,Drag and Drop™ library action name
-GMStdPartTypeCreate_Desc,"Create a new particle type.","Create a new particle type.",,Drag and Drop™ library action description
-GMStdPartTypeColor_Name,"Set Particle Colour","Set Particle Colour",,Drag and Drop™ library action name
-GMStdPartTypeColor_Desc,"Set the colour of a particle type.","Set the colour of a particle type.",,Drag and Drop™ library action description
-GMStdPartTypeLife_Name,"Set Particle Life","Set Particle Life",,Drag and Drop™ library action name
-GMStdPartTypeLife_Desc,"Set the life of a particle type.","Set the life of a particle type.",,Drag and Drop™ library action description
-GMStdPartTypeGravity_Name,"Set Particle Gravity","Set Particle Gravity",,Drag and Drop™ library action name
-GMStdPartTypeGravity_Desc,"Set the gravity of a particle type.","Set the gravity of a particle type.",,Drag and Drop™ library action description
-GMStdPartTypeSecondary_Name,"Set Secondary Particles","Set Secondary Particles",,Drag and Drop™ library action name
-GMStdPartTypeSecondary_Desc,"Add secondary particle emissions to a particle type.","Add secondary particle emissions to a particle type.",,Drag and Drop™ library action description
-GMStdPartEmitCreate_Name,"Create Particle Emitter","Create Particle Emitter",,Drag and Drop™ library action name
-GMStdPartEmitCreate_Desc,"Create a new particle emitter.","Create a new particle emitter.",,Drag and Drop™ library action description
-GMStdPartEmitDestroy_Name,"Destroy Particle Emitter","Destroy Particle Emitter",,Drag and Drop™ library action name
-GMStdPartEmitDestroy_Desc,"Destroy a particle emitter.","Destroy a particle emitter.",,Drag and Drop™ library action description
-GMStdPartEmitterEmit_Name,"Emit Particles","Emit Particles",,Drag and Drop™ library action name
-GMStdPartEmitterEmit_Desc,"Emit particles from a particle system.","Emit particles from a particle system.",,Drag and Drop™ library action description
-GMStdEffect_Name,"Do Effect","Do Effect",,Drag and Drop™ library action name
-GMStdEffect_Desc,"Show an effect at the specified position.","Show an effect at the specified position.",,Drag and Drop™ library action description
-GMStdScript,"Script","Script",,Drag and Drop™ library argument label
-GMStdArgument,"Argument","Argument",,DnD argument label
-GMStdOptional,"Optional","Optional",, DnD optional label
-GMStdDefaultValue,"Value","Value",, DnD default value label
-GMStdTarget,"Target","Target",,Drag and Drop™ library argument label
-GMStdReturnList,"Return List","Return List",,Drag and Drop™ library argument label
-GMStdFreeTarget,"Free Target","Free Target",,Drag and Drop™ library argument label
-GMStdObject,"Object","Object",,Drag and Drop™ library argument label
-GMStdSequence,"Sequence","Sequence",,Drag and Drop™ library argument label
-GMStdX,X,X,,Drag and Drop™ library argument label
-GMStdY,Y,Y,,Drag and Drop™ library argument label
-GMStdTargetX,Target X,Target X,,Drag and Drop™ library argument label
-GMStdTargetY,Target Y,Target Y,,Drag and Drop™ library argument label
-GMStdLayer,"Layer","Layer",,Drag and Drop™ library argument label
-GMStdAlarm,"Alarm","Alarm",,Drag and Drop™ library argument label
-GMStdCountdown,"Countdown","Countdown",,Drag and Drop™ library argument label
-GMStdNot,"Not","Not",,Drag and Drop™ library argument label
-GMStdExcludeSelf,"Exclude Self","Exclude Self",,DnD argument label
-GMStdGamepad,"Gamepad","Gamepad",,Drag and Drop™ library argument label
-GMStdThreshold,"Threshold","Threshold",,Drag and Drop™ library argument label
-GMStdAxis,"Axis","Axis",,Drag and Drop™ library argument labelf
-GMStdTrigger,"Trigger","Trigger",,Drag and Drop™ library argument label
-GMStdButton,"Button","Button",,Drag and Drop™ library argument label
-GMStdDeadzone,"Deadzone","Deadzone",,Drag and Drop™ library argument label
-GMStdAdditiveBlend,Blend,Blend,,DnD
-GMStdDirection,"Direction","Direction",,Drag and Drop™ library argument label
-GMStdType,"Type","Type",,Drag and Drop™ library argument label
-GMStdSpeed,"Speed","Speed",,Drag and Drop™ library argument labelG
-GMStdMinSpeed,"Min Speed","Min Speed",,Drag and Drop™ library argument label
-GMStdMaxSpeed,"Max Speed","Max Speed",,Drag and Drop™ library argument label
-GMStdForce,"Force","Force",,Drag and Drop™ library argument label
-GMStdX2,"X2","X2",,Drag and Drop™ library argument label
-GMStdY2,"Y2","Y2",,Drag and Drop™ library argument label
-GMStdSprite,"Sprite","Sprite",,Drag and Drop™ library argument label
-GMStdFrameIndex,"Frame","Frame",,Drag and Drop™ library argument label
-GMStdStackOrder,"Stack Order","Stack Order",,Drag and Drop™ library argument label
-GMStdNumber,"Number","Number",,Drag and Drop™ library argument label
-GMStdLeft,"Left","Left",,Drag and Drop™ library argument label
-GMStdTop,"Top","Top",,Drag and Drop™ library argument label
-GMStdRight,"Right","Right",,Drag and Drop™ library argument label
-GMStdBottom,"Bottom","Bottom",,Drag and Drop™ library argument label
-GMStdFill,"Fill","Fill",,Drag and Drop™ library argument label
-GMStdBackground,"Background","Background",,Drag and Drop™ library argument label
-GMStdMinCol,"Min Colour","Min Colour",,Drag and Drop™ library argument label
-GMStdMaxCol,"Max Colour","Max Colour",,Drag and Drop™ library argument label
-GMStdFont,"Font","Font",,Drag and Drop™ library argument label
-GMStdHAlign,"HAlign","HAlign",,Drag and Drop™ library argument label
-GMStdVAlign,"VAlign","VAlign",,Drag and Drop™ library argument label
-GMStdLayerName,"Layer","Layer",,Drag and Drop™ library argument label
-GMStdTileIndex,"Tile","Tile",,Drag and Drop™ library argument label
-GMStdData,Data,Data,,DnD label
-GMStdColumn,"Column","Column",,Drag and Drop™ library argument label
-GMStdRow,"Row","Row",,Drag and Drop™ library argument label
-GMStdScore,"Score","Score",,Drag and Drop™ library argument label
-GMStdLives,"Lives","Lives",,Drag and Drop™ library argument label
-GMStdHealth,"Health","Health",,Drag and Drop™ library argument label
-GMStdGlobal,"Global","Global",,Drag and Drop™ library argument label
-GMStdMin,"Minimum","Minimum",,Drag and Drop™ library argument label
-GMStdMax,"Maximum","Maximum",,Drag and Drop™ library argument label
-GMStdTimes,"Times","Times",,Drag and Drop™ library argument label
-GMStdVariable,"Variable","Variable",,Drag and Drop™ library argument label
-GMStdTransformation,"Transform","Transform",,DnD argument label
-GMStdIs,"Is","Is",,Drag and Drop™ library argument label
-GMStdValue,"Value","Value",,Drag and Drop™ library argument label
-GMStdValue100,"Value (0-100)","Value (0-100)",,DnD
-GMStdConstant,"Constant","Constant",,Drag and Drop™ library argument label
-GMStdRounding,"Rounding","Rounding",,Drag and Drop™ library argument label
-GMStdWidth,"Width","Width",,Drag and Drop™ library argument label
-GMStdHeight,"Height","Height",,Drag and Drop™ library argument label
-GMStdStructure,"Structure","Structure",,Drag and Drop™ library argument label
-GMStdList,"List","List",,Drag and Drop™ library argument label
-GMStdIndex,"Index","Index",,Drag and Drop™ library argument label
-GMStdGrid,"Grid","Grid",,Drag and Drop™ library argument label
-GMStdStack,"Stack","Stack",,Drag and Drop™ library argument label
-GMStdSound,"Sound","Sound",,Drag and Drop™ library argument label
-GMStdLoop,"Loop","Loop",,Drag and Drop™ library argument label
-GMStdTimeInSecs,"Time In Seconds","Time In Seconds",,Drag and Drop™ library argument label
-GMStdPitch,"Pitch","Pitch",,Drag and Drop™ library argument label
-GMStdVolume,"Volume","Volume",,Drag and Drop™ library argument label
-GMStdRoom,"Room","Room",,Drag and Drop™ library argument label
-GMStdFilename,"Filename","Filename",,Drag and Drop™ library argument label
-GMStdSection,"Section","Section",,Drag and Drop™ library argument label
-GMStdDefault,"Default","Default",,Drag and Drop™ library argument label
-GMStdTimeline,"Timeline","Timeline",,Drag and Drop™ library argument label
-GMStdMoment,"Moment","Moment",,Drag and Drop™ library argument label
-GMStdState,"State","State",,Drag and Drop™ library argument label
-GMStdMessage,"Message","Message",,Drag and Drop™ library argument label
-GMStdMap,"Map","Map",,Drag and Drop™ library argument label
-GMStdKey,"Key","Key",,Drag and Drop™ library argument label
-GMStdColorMix,"Colour Mix","Colour Mix",,Drag and Drop™ library argument label
-GMStdStart,"Start","Start",,Drag and Drop™ library argument label
-GMStdEnd,"End","End",,Drag and Drop™ library argument label
-GMStdMinLife,"Min Life","Min Life",,Drag and Drop™ library argument label
-GMStdMaxLife,"Max Life","Max Life",,Drag and Drop™ library argument label
-GMStdRenderDepth,"Depth","Depth",,Drag and Drop™ library argument label
-GMStdShape,"Shape","Shape",,Drag and Drop™ library argument label
-GMStdMinSize,"Min Size","Min Size",,Drag and Drop™ library argument label
-GMStdMaxSize,"Max Size","Max Size",,Drag and Drop™ library argument label
-GMStdIncrease,"Increase","Increase",,Drag and Drop™ library argument label
-GMStdWiggle,Wiggle,Wiggle,,DnD lib argument label
-GMStdCount,Count,Count,,Drag and Drop™ library argument label
-GMStdSecondaryType,Secondary,Secondary,,DnD lib argument label
-GMStdEmitter,"Emitter","Emitter",,Drag and Drop™ library argument label
-GMStdBurst,"Burst","Burst",,Drag and Drop™ library argument label
-GMStdStream,"Stream","Stream",,Drag and Drop™ library argument label
-GMStdWhere,"Where","Where",,Drag and Drop™ library argument label
-GMStdMinDir,"Min Dir","Min Dir",,Drag and Drop™ library argument label
-GMStdMaxDir,"Max Dir","Max Dir",,Drag and Drop™ library argument label
-GMStdFriction,"Friction","Friction",,Drag and Drop™ library argument label
-GMStdPositionNorm,"Position (0-1)","Position (0-1)",,Drag and Drop™ library argument label
-GMStdColor,"Colour","Colour",,Drag and Drop™ library argument label
-GMStdHor,"Horizontal","Horizontal",,Drag and Drop™ library argument label
-GMStdVer,"Vertical","Vertical",,Drag and Drop™ library argument label
-GMStdExpr,"Expression","Expression",,Drag and Drop™ library argument label
-GMStdMargin,"Margin","Margin",,Drag and Drop™ library argument label
-GMStdOutline,"Outline","Outline",,Drag and Drop™ library argument label
-GMStdCaption,"Caption","Caption",,Drag and Drop™ library argument label
-GMStdCamera,Camera,Camera,,DnD label
-GMStdVisibility,Visibility,Visibility,,DnD label
-GMStdParticleSystem,System,System,,Dnd library argument label
-GMStdParticleType,Type,Type,,DnD library argument label
-GMStdFrame,"Frame","Frame",,Drag and Drop™ library argument label
-GMStdAngle,"Angle","Angle",,Drag and Drop™ library argument labelG
-GMStdMinAngle,Min Angle,Min Angle,,DnD
-GMStdMaxAngle,Max Angle,Max Angle,,DnD
-GMStdDistribution,Distribution,Distribution,,DnD
-GMStdAlpha,"Alpha","Alpha",,Drag and Drop™ library argument label
-GMStdAlignment,"Alignment","Alignment",,Drag and Drop™ library argument label
-GMStdReturn,"Return","Return",,Drag and Drop™ library argument label
-GMStdReturnKey,"Return Key","Return Key",,Drag and Drop™ library argument label
-GMStdAutoCapitalization,"Capitalization","Capitalization",,Drag and Drop™ library argument label
-GMStdPredictiveText,"Text Prediction","Text Prediction",,Drag and Drop™ library argument label
-GMStdRelativeToDir,Relative To Direction,Relative To Direction,,DnD
-GMStdMacro,"Macro","Macro",,Drag and Drop™ library argument label
-GMStdDirs,"Directions","Directions",,Drag and Drop™ library argument label
-GMStdPath,"Path","Path",,Drag and Drop™ library argument label
-GMStdOnEnd,"On End","On End",,Drag and Drop™ library argument label
-GMStdMouseButton,"Button","Button",,Drag and Drop™ library argument label
-GMStdTopLeft,"Top Left","Top Left",,Drag and Drop™ library argument label
-GMStdTopRight,"Top Right","Top Right",,Drag and Drop™ library argument label
-GMStdBottomLeft,"Bottom Left","Bottom Left",,Drag and Drop™ library argument label
-GMStdBottomRight,"Bottom Right","Bottom Right",,Drag and Drop™ library argument label
-GMStdCenter,"Center","Center",,Drag and Drop™ library argument label
-GMStdEdge,"Edge","Edge",,Drag and Drop™ library argument label
-GMStdScaleX,"Scale X","Scale X",,Drag and Drop™ library argument label
-GMStdScaleY,"Scale Y","Scale Y",,Drag and Drop™ library argument label
-GMStdRotation,"Rotation","Rotation",,Drag and Drop™ library argument label
-GMStdName,"Name","Name",,Drag and Drop™ library argument label
-GMStdVertically,"Vertical","Vertical",,Drag and Drop™ library argument label
-GMStdHorizontally,"Horizontal","Horizontal",,Drag and Drop™ library argument label
-GMStdSeqHead,"Head (frames)","Head (frames)",,dnd library argument label
-GMStdEqual,Equal,Equal,,DnD
-GMStdLess,Less,Less,,DnD
-GMStdGreater,Greater,Greater,,DnD
-GMStdLessorEqual,Less or Equal,Less or Equal,,DnD
-GMStdGreaterorEqual,Greater or Equal,Greater or Equal,,DnD
-GMStdString,String,String,,DnD
-GMStdResume,Resume,Resume,,DnD
-GMStdPaused,Paused,Paused,,DnD
-GMStdPause,Pause,Pause,,DnD
-GMStdToggle,Toggle,Toggle,,DnD
-GMStdWindow,Window,Window,,DnD
-GMStdFullscreen,Fullscreen,Fullscreen,,DnD
-GMStdSnow,Snow,Snow,,DnD
-GMStdRain,Rain,Rain,,DnD
-GMStdCloud,Cloud,Cloud,,DnD
-GMStdFlare,Flare,Flare,,DnD
-GMStdSpark,Spark,Spark,,DnD
-GMStdStar,Star,Star,,DnD
-GMStdSmokeUp,Smoke Up,Smoke Up,,DnD
-GMStdSmoke,Smoke,Smoke,,DnD
-GMStdFirework,Firework,Firework,,DnD
-GMStdEllipse,Ellipse,Ellipse,,DnD
-GMStdRing,Ring,Ring,,DnD
-GMStdExplosion,Explosion,Explosion,,DnD
-GMStdSphere,Sphere,Sphere,,DnD
-GMStdCircle,Circle,Circle,,DnD
-GMStdSquare,Square,Square,,DnD
-GMStdDisk,Disk,Disk,,DnD
-GMStdPixel,Pixel,Pixel,,DnD
-GMStdSmall,Small,Small,,DnD
-GMStdMedium,Medium,Medium,,DnD
-GMStdLarge,Large,Large,,DnD
-GMStdBelowObjects,Below Objects,Below Objects,,DnD
-GMStdAboveObjects,Above Objects,Above Objects,,DnD
-GMStdAlarm0,Alarm 0,Alarm 0,,DnD
-GMStdAlarm1,Alarm 1,Alarm 1,,DnD
-GMStdAlarm2,Alarm 2,Alarm 2,,DnD
-GMStdAlarm3,Alarm 3,Alarm 3,,DnD
-GMStdAlarm4,Alarm 4,Alarm 4,,DnD
-GMStdAlarm5,Alarm 5,Alarm 5,,DnD
-GMStdAlarm6,Alarm 6,Alarm 6,,DnD
-GMStdAlarm7,Alarm 7,Alarm 7,,DnD
-GMStdAlarm8,Alarm 8,Alarm 8,,DnD
-GMStdAlarm9,Alarm 9,Alarm 9,,DnD
-GMStdAlarm10,Alarm 10,Alarm 10,,DnD
-GMStdAlarm11,Alarm 11,Alarm 11,,DnD
-GMStdMiddle,Middle,Middle,,DnD
-GMStdAny,Any,Any,,DnD
-GMStdNone,None,None,,DnD
-GMStdLeftTrigger,Left Trigger,Left Trigger,,DnD
-GMStdRightTrigger,Right Trigger,Right Trigger,,DnD
-GMStdActionTop,Action Top,Action Top,,DnD
-GMStdActionLeft,Action Left,Action Left,,DnD
-GMStdActionBottom,Action Bottom,Action Bottom,,DnD
-GMStdActionRight,Action Right,Action Right,,DnD
-GMStdShoulderLeft,Shoulder Left,Shoulder Left,,DnD
-GMStdShoulderRight,Shoulder Right,Shoulder Right,,DnD
-GMStdDPadUp,D-Pad Up,D-Pad Up,,DnD
-GMStdDPadLeft,D-Pad Left,D-Pad Left,,DnD
-GMStdDPadDown,D-Pad Down,D-Pad Down,,DnD
-GMStdDPadRight,D-Pad Right,D-Pad Right,,DnD
-GMStdLeftStick,Left Stick,Left Stick,,DnD
-GMStdRightStick,Right Stick,Right Stick,,DnD
-GMStdSelect,Select,Select,,DnD
-GMStdGravity,Gravity,Gravity,,DnD
-GMStdSize,Size,Size,,DnD
-GMStdXAndY,X And Y,X And Y,,DnD
-GMStdXOnly,X Only,X Only,,DnD
-GMStdYOnly,Y Only,Y Only,,DnD
-GMStdRectangle,Rectangle,Rectangle,,DnD
-GMStdLine,Line,Line,,DnD
-GMStdLeftStickHor,Left Stick (Horizontal),Left Stick (Horizontal),,DnD
-GMStdLeftStickVer,Left Stick (Vertical),Left Stick (Vertical),,DnD
-GMStdRightStickHor,Right Stick (Horizontal),Right Stick (Horizontal),,DnD
-GMStdRightStickVer,Right Stick (Vertical),Right Stick (Vertical),,DnD
-GMStdDecimal,Decimal,Decimal,,DnD
-GMStdInteger,Integer,Integer,,DnD
-GMStdRound,Round,Round,,DnD
-GMStdCeil,Ceil,Ceil,,DnD
-GMStdFloor,Floor,Floor,,DnD
-GMStdStop,Stop,Stop,,DnD
-GMStdLinear,Linear,Linear,,DnD
-GMStdGaussian,Gaussian,Gaussian,,DnD
-GMStdInverseGaussian,Inverse Gaussian,Inverse Gaussian,,DnD
-GMStdRestart,Restart,Restart,,DnD
-GMStdReverse,Reverse,Reverse,,DnD
-GMStdDiamond,Diamond,Diamond,,DnD
-GMStdMixed,Mixed,Mixed,,DnD
-GMStdChanging,Changing,Changing,,DnD
-GMStdFileMode,Mode,Mode,,DnD
-GMStdFileMode_Read,Read,Read,,DnD
-GMStdFileMode_Write,Write,Write,,DnD
-GMStdFileType,Type,Type,,DnD
-GMStdFileType_Bin,Binary,Binary,,DnD
-GMStdFileType_Text,Text,Text,,DnD
-GMStdCopyTo,Copy To,Copy To,,DnD
-GMStdNewFilename,New Name,New Name,,DnD
-GMStdFile,File,File,,DnD
-GMStdBuffer,Buffer,Buffer,,DnD
-GMStdSeek,Seek,Seek,,DnD
-GMStdRelative,Relative,Relative,,DnD argument label
-GMStdAbsolute,Absolute,Absolute,,DnD argument label
-GMStdOffset,Offset,Offset,,DnD
-GMStdVar_mirror,Mirror,Mirror,,Mirror DnD
-GMStdVar_flip,Flip,Flip,,Flip DnD
-GMStdVar_bboxleft,Bounding Box Left,Bounding Box Left,,DnD label
-GMStdVar_bboxtop,Bounding Box Top,Bounding Box Top,,DnD label
-GMStdVar_bboxright,Bounding Box Right,Bounding Box Right,,DnD label
-GMStdVar_bboxbottom,Bounding Box Bottom,Bounding Box Bottom,,DnD label
-GMStdVar_insequence,In Sequence,In Sequence,,Dnd label
-GMStdVar_xoffset,Sprite Origin X,Sprite Origin X,,DnD label
-GMStdVar_yoffset,Sprite Origin Y,Sprite Origin Y,,DnD label
-GMStdVar_rotate,Rotate,Rotate,,Rotate DnD
-GMStdVar_xstart,Initial X Coordinate,Initial X Coordinate,,DnD
-GMStdVar_ystart,Initial Y Coordinate,Initial Y Coordinate,,DnD
-GMStdVar_xprevious,Previous X Coordinate,Previous X Coordinate,,DnD
-GMStdVar_yprevious,Previous Y Coordinate,Previous Y Coordinate,,DnD
-GMStdVar_x,X Coordinate,X Coordinate,,DnD
-GMStdVar_y,Y Coordinate,Y Coordinate,,DnD
-GMStdVar_width,Width,Width,,DnD
-GMStdVar_height,Height,Height,,DnD
-GMStdVar_rows,Rows,Rows,,DnD
-GMStdVar_columns,Columns,Columns,,DnD
-GMStdVar_tilewidth,Tile Width,Tile Width,,DnD
-GMStdVar_tileheight,Tile Height,Tile Height,,DnD
-GMStdVar_tileset,Tile Set Resource,Tile Set Resource,,DnD
-GMStdVar_frame,Current Frame,Current Frame,,DnD
-GMStdVar_tilemask,Mask,Mask,,DnD
-GMStdVar_tileglobalmask,Global Mask,Global Mask,,DnD
-GMStdVar_hspeed,Horizontal Speed,Horizontal Speed,,DnD
-GMStdVar_vspeed,Vertical Speed,Vertical Speed,,DnD
-GMStdVar_direction,Direction,Direction,,DnD
-GMStdVar_speed,Speed,Speed,,DnD
-GMStdVar_friction,Friction,Friction,,DnD
-GMStdVar_gravity,Gravity,Gravity,,DnD
-GMStdVar_gravity_direction,Gravity Direction,Gravity Direction,,DnD
-GMStdVar_visible,Visible,Visible,,DnD
-GMStdVar_sprite_index,Sprite,Sprite,,DnD
-GMStdVar_image_index,Image Index,Image Index,,DnD
-GMStdVar_layer,Layer,Layer,,DnD
-GMStdVar_persistent,Persistent,Persistent,,DnD
-GMStdVar_mask_index,Mask,Mask,,DnD
-GMStdVar_score,Score,Score,,DnD
-GMStdVar_lives,Lives,Lives,,DnD
-GMStdVar_health,Health,Health,,DnD
-GMStdVar_depth,Depth,Depth,,DnD
-GMStdVar_image_xscale,Horizontal Scale,Horizontal Scale,,DnD
-GMStdVar_image_yscale,Vertical Scale,Vertical Scale,,DnD
-GMStdVar_image_angle,Image Rotation,Image Rotation,,DnD
-GMStdVar_image_alpha,Image Alpha,Image Alpha,,DnD
-GMStdVar_image_blend,Image Blend Colour,Image Blend Colour,,DnD
-GMStdVar_xport,Viewport X Coordinate,Viewport X Coordinate,,DnD label
-GMStdVar_yport,Viewport Y Coordinate,Viewport Y Coordinate,,DnD label
-GMStdVar_wport,Viewport Width,Viewport Width,,DnD label
-GMStdVar_hport,Viewport Height,Viewport Height,,DnD label
-GMStdVar_surfaceid,Viewport Surface ID,Viewport Surface ID,,DnD label
-GMStdCatBuffers,Buffers,Buffers,,DnD
-GMStdEvent,Event,Event,,DnD
-GMStdPerStep,Per Step,Per Step,,DnD
-GMStdOnDeath,On Death,On Death,,DnD
-GMStdCallUserEvent_Name,Call User Event,Call User Event,,DnD action name
-GMStdCallUserEvent_Desc,Call a user event on an instance.,Call a user event on an instance.,,DnD action description
-GMStdInstExists_Name,If Instance Exists,If Instance Exists,,DnD action name
-GMStdInstExists_Desc,Checks if an instance exists.,Checks if an instance exists.,,DnD action description
-GMStdIfFileExists_Name,If File Exists,If File Exists,,DnD action name
-GMStdIfFileExists_Desc,Checks if a file exists.,Checks if a file exists.,,DnD action description
-GMStdFileCopy_Name,Copy File,Copy File,,DnD action name
-GMStdFileCopy_Desc,Copy a file to a new location.,Copy a file to a new location.,,DnD action description
-GMStdFileDelete_Name,Delete File,Delete File,,DnD action name
-GMStdFileDelete_Desc,Delete a file.,Delete a file.,,DnD action description
-GMStdFileRename_Name,Rename File,Rename File,,DnD action name
-GMStdFileRename_Desc,Rename a file.,Rename a file.,,DnD action description
-GMStdBufferCreate_Name,Create Buffer,Create Buffer,,DnD action name
-GMStdBufferCreate_Desc,Create a buffer.,Create a buffer.,,DnD action description
-GMStdBufferCopy_Name,Copy Buffer,Copy Buffer,,DnD action name
-GMStdBufferCopy_Desc,Copy a buffer.,Copy a buffer.,,DnD action description
-GMStdBufferDelete_Name,Delete Buffer,Delete Buffer,,DnD action name
-GMStdBufferDelete_Desc,Delete a buffer.,Delete a buffer.,,DnD action description
-GMStdBufferGetSize_Name,Get Buffer Size,Get Buffer Size,,DnD action name
-GMStdBufferGetSize_Desc,Get the size of a buffer.,Get the size of a buffer.,,DnD action description
-GMStdBufferSeek_Name,Seek Buffer,Seek Buffer,,DnD action name
-GMStdBufferSeek_Desc,Seek to a position in a buffer.,Seek to a position in a buffer.,,DnD action description
-GMStdBufferGetPosition_Name,Get Buffer Position,Get Buffer Position,,DnD action name
-GMStdBufferGetPosition_Desc,Get current position in a buffer.,Get current position in a buffer.,,DnD action description
-GMStdBufferLoad_Name,Load Buffer,Load Buffer,,DnD action name
-GMStdBufferLoad_Desc,Load a file into a buffer.,Load a file into a buffer.,,DnD action description
-GMStdBufferSave_Name,Save Buffer,Save Buffer,,DnD action name
-GMStdBufferSave_Desc,Save a buffer to a file.,Save a buffer to a file.,,DnD action description
-GMStdBufferRead_Name,Read Buffer,Read Buffer,,DnD action name
-GMStdBufferRead_Desc,Read from a buffer.,Read from a buffer.,,DnD action description
-GMStdBufferWrite_Name,Write Buffer,Write Buffer,,DnD action name
-GMStdBufferWrite_Desc,Write to a buffer.,Write to a buffer.,,DnD action description
-GMStdPartTypeSize_Name,Set Particle Size,Set Particle Size,,DnD action name
-GMStdPartTypeSize_Desc,Set the size of a particle type.,Set the size of a particle type.,,DnD action description
-GMStdPartTypeShape_Name,Set Particle Shape,Set Particle Shape,,DnD action name
-GMStdPartTypeShape_Desc,Set the shape of a particle type.,Set the shape of a particle type.,,DnD action description
-GMStdPartTypeAlpha_Name,Set Particle Alpha,Set Particle Alpha,,DnD action name
-GMStdPartTypeAlpha_Desc,Set the alpha channel of a particle type.,Set the alpha channel of a particle type.,,DnD action description
-GMStdPartTypeSprite_Name,Set Particle Sprite,Set Particle Sprite,,DnD action name
-GMStdPartTypeSprite_Desc,Set the sprite of a particle type.,Set the sprite of a particle type.,,DnD action description
-GMStdPartTypeSpeed_Name,Set Particle Speed,Set Particle Speed,,DnD action name
-GMStdPartTypeSpeed_Desc,Set the speed of a particle type.,Set the speed of a particle type.,,DnD action description
-GMStdPartTypeDirection_Name,Set Particle Direction,Set Particle Direction,,DnD action name
-GMStdPartTypeDirection_Desc,Set the direction of a particle type.,Set the direction of a particle type.,,DnD action description
-GMStdPartEmitRegion_Name,Set Emitter Region,Set Emitter Region,,DnD action name
-GMStdPartEmitRegion_Desc,Set the region of an emitter.,Set the region of an emitter.,,DnD action description
-GMStdBufferEOS_Name,If End Of Buffer,If End Of Buffer,,DnD action name
-GMStdBufferEOS_Desc,Checks if the end of a buffer has been reached.,Checks if the end of a buffer has been reached.,,DnD action description
-GMStdBufferExists_Name,If Buffer Exists,If Buffer Exists,,DnD action name
-GMStdBufferExists_Desc,Checks if a buffer exists.,Checks if a buffer exists.,,DnD action description
-GMStdDefault_Name,Default,Default,,DnD action name
-GMStdDefault_Desc,A default switch case for when no other case is matched.,A default switch case for when no other case is matched.,,DnD action description
-GMStdLoop_Name,Loop,Loop,,DnD action name
-GMStdLoop_Desc,A generic loop that continues until a Break action is hit.,A generic loop that continues until a Break action is hit.,,DnD action description
-GMStdGetInstanceVar_Name,Get Instance Variable,Get Instance Variable,,DnD action name
-GMStdGetInstanceVar_Desc,Get the value of an instance variable.,Get the value of an instance variable.,,DnD action description
-GMStdSetInstanceVar_Name,Set Instance Variable,Set Instance Variable,,DnD action name
-GMStdSetInstanceVar_Desc,Set the value of an instance variable.,Set the value of an instance variable.,,DnD action description
-GMStdPathGetSpeed_Name,Get Path Follow Speed,Get Path Follow Speed,,DnD action name
-GMStdPathGetSpeed_Desc,Get the speed of the instance following a path.,Get the speed of the instance following a path.,,DnD action description
-GMStdPathGetPosition_Name,Get Position Along Path,Get Position Along Path,,DnD action name
-GMStdPathGetPosition_Desc,Get the position of the instance along the path it is following.,Get the position of the instance along the path it is following.,,DnD action description
-GMStdConstructor,"Constructor","Constructor",,dnd function label for constructor
-GMStdStatic,"Static","Static",,dnd function label for static
-GMStdDeclFunction_Desc,"Declare a new function","Declare a new function",,dnd declare a new function
-GMStdDeclFunction_Name,"Declare A New Function","Declare A New Function",,dnd declare a new function
-GMStdDeclFunction_Story,"Declare a new function ${funcName}","Declare a new function ${funcName}",,dnd declare a new function
-DnDManager_UnknownAction,Unknown Action,Unknown Action,,DnD Manager action name returned for action that doesnt exist
-DnDEditor_EmptyChain,Empty,Empty,,DnD empty chain notice
+GMStdCatDefault,"Default","Default",,GML Visual library category name
+GMStdFunction,Function,Function,,GML Visual label
+GMStdOption,Option,Option,,GML Visual label
+GMStdChoose_Name,Choose,Choose,,GML Visual label
+GMStdChoose_Desc,Randomly chooses one of the supplied arguments.,Randomly chooses one of the supplied arguments.,,GML Visual label
+GMStdCallFunction_Name,Function Call,Function Call,,GML Visual label
+GMStdCallFunction_Desc,Call any function with optional arguments and get the return value of the function.,Call any function with optional arguments and get the return value of the function.,,GML Visual label
+GMStdNew_Name,New Struct,New Struct,,GML Visual label
+GMStdNew_Desc,Create a new struct with optional arguments and assign it to a variable.,Create a new struct with optional arguments and assign it to a variable.,,GML Visual label
+GMStdCatCommon,"Common","Common",,GML Visual library category name
+GMStdCatCamera,"Cameras","Cameras",,GML Visual library category name
+GMStdCatInstances,"Instances","Instances",,GML Visual library category name
+GMStdCatSequences,"Sequences","Sequences",,GML Visual library category name
+GMStdCatMouseKeyboard,"Mouse & Keyboard","Mouse & Keyboard",,GML Visual library category name
+GMStdCatGamepad,"Gamepad","Gamepad",,GML Visual library category name
+GMStdCatMovement,"Movement","Movement",,GML Visual library category name
+GMStdCatCollisions,"Collisions","Collisions",,GML Visual library category name
+GMStdCatDrawing,"Drawing","Drawing",,GML Visual library category name
+GMStdCatTiles,"Tiles","Tiles",,GML Visual library category name
+GMStdCatInstVars,"Instance Variables","Instance Variables",,GML Visual library category name
+GMStdCatGlobal,"Global","Global",,GML Visual library category name
+GMStdCatRandom,"Random","Random",,GML Visual library category name
+GMStdCatLoops,"Loops","Loops",,GML Visual library category name
+GMStdCatSwitch,"Switch","Switch",,GML Visual library category name
+GMStdCatTypes,"Types","Types",,GML Visual library category name
+GMStdCatDataStructs,"Data Structures","Data Structures",,GML Visual library category name
+GMStdCatAudio,"Audio","Audio",,GML Visual library category name
+GMStdCatRooms,"Rooms","Rooms",,GML Visual library category name
+GMStdCatGame,"Game","Game",,GML Visual library category name
+GMStdCatFiles,"Files","Files",,GML Visual library category name
+GMStdCatTimelines,"Timelines","Timelines",,GML Visual library category name
+GMStdCatPaths,"Paths","Paths",,GML Visual library category name
+GMStdCatMisc,"Miscellaneous","Miscellaneous",,GML Visual library category name
+GMStdCatParticles,"Particles","Particles",,GML Visual library category name
+GMStdCatRollback,Rollback,Rollback,,GML Visual library category name
+GMStdVar_Name,"Assign Variable","Assign Variable",,GML Visual library action name
+GMStdVar_Desc,"Assign a value to a variable.","Assign a value to a variable.",,GML Visual library action description
+GMStdTempVar_Name,"Declare Temp","Declare Temp",,GML Visual library action name
+GMStdTempVar_Desc,"Declare a temporary variable.","Declare a temporary variable.",,GML Visual library action description
+GMStdTemp,Temp,Temp,,GML Visual library
+GMStdIfVar_Name,"If Variable","If Variable",,GML Visual library action name
+GMStdIfVar_Desc,"Check if a variable satisfies a condition.","Check if a variable satisfies a condition.",,GML Visual library action description
+GMStdIfScore_Name,"If Score","If Score",,GML Visual library action name
+GMStdIfScore_Desc,"Check if an instance's score satisfies a condition.","Check if an instance's score satisfies a condition.",,GML Visual library action description
+GMStdIfLives_Name,"If Lives","If Lives",,GML Visual library action name
+GMStdIfLives_Desc,"Check if an instance's lives satisfies a condition.","Check if an instance's lives satisfies a condition.",,GML Visual library action description
+GMStdIfHealth_Name,"If Health","If Health",,GML Visual library action name
+GMStdIfHealth_Desc,"Check if an instance's health satisfies a condition.","Check if an instance's health satisfies a condition.",,GML Visual library action description
+GMStdIfExpr_Name,"If Expression","If Expression",,GML Visual library action name
+GMStdIfExpr_Desc,"Check if an expression is true or false.","Check if an expression is true or false.",,GML Visual library action description
+GMStdIfUndef_Name,"If Undefined","If Undefined",,GML Visual library action name
+GMStdIfUndef_Desc,"Check if a variable is or isn't undefined.","Check if a variable is or isn't undefined.",,GML Visual library action description
+GMStdElse_Name,"Else","Else",,GML Visual library action name
+GMStdElse_Desc,"Append this to an if-statement to execute code when the condition evaluates to false.","Append this to an if-statement to execute code when the condition evaluates to false.",,GML Visual library action description
+GMStdExCode_Name,"Execute Code","Execute Code",,GML Visual library action name
+GMStdExCode_Desc,"Execute a piece of code.","Execute a piece of code.",,GML Visual library action description
+GMStdExScript_Name,"Execute Script","Execute Script",,GML Visual library action name
+GMStdExScript_Desc,"Execute a script resource.","Execute a script resource.",,GML Visual library action description
+GMStdApplyTo_Name,"Apply To","Apply To",,GML Visual library action name
+GMStdApply,"Apply","Apply",,Apply GML Visual label
+GMStdApplyTo_Desc,"Execute code in the context of a specific object or instance.","Execute code in the context of a specific object or instance.",,GML Visual library action description
+GMStdRet_Name,"Return","Return",,GML Visual library action name
+GMStdRet_Desc,"Return a value from a function.","Return a value from a function.",,GML Visual library action description
+GMStdMacro_Name,"Macro","Macro",,GML Visual library action name
+GMStdMacro_Desc,"Define a global compile-time macro.","Define a global compile-time macro.",,GML Visual library action description
+GMStdExit_Name,"Exit","Exit",,GML Visual library action name
+GMStdExit_Desc,"Exit the current event without executing the remaining code.","Exit the current event without executing the remaining code.",,GML Visual library action description
+GMStdInstCount_Name,"Get Instance Count","Get Instance Count",,GML Visual library action name
+GMStdInstCount_Desc,"Returns the number of active instances of the object.","Returns the number of active instances of the object.",,GML Visual library action description
+GMStdInstCreate_Name,"Create Instance","Create Instance",,GML Visual library action name
+GMStdInstCreate_Desc,"Creates an instance of an object.","Creates an instance of an object.",,GML Visual library action description
+GMStdInstChange_Name,"Change Instance","Change Instance",,GML Visual library action name
+GMStdInstChange_Desc,"Change an instance to be an instance of another object.","Change an instance to be an instance of another object.",,GML Visual library action description
+GMStdInstDestroy_Name,"Destroy Instance","Destroy Instance",,GML Visual library action name
+GMStdInstDestroy_Desc,"Destroy an instance and remove it from the room.","Destroy an instance and remove it from the room.",,GML Visual library action description
+GMStdSeqCreate_Name,"Create Sequence","Create Sequence",,GML Visual library action name
+GMStdSeqCreate_Desc,"Creates an instance of a sequence.","Creates an instance of a sequence.",,GML Visual library action description
+GMStdSeqDestroy_Name,"Destroy Sequence","Destroy Sequence",,GML Visual library action name
+GMStdSeqDestroy_Desc,"Destroys an instance of a sequence and remove it from the room.","Destroys an instance of a sequence and remove it from the room.",,GML Visual library action description
+GMStdSeqGetPosition_Name,"Get Sequence Position","Get Sequence Position",,GML Visual library action name
+GMStdSeqGetPosition_Desc,"Sets the values of the x and y variables to the position of the sequence.","Sets the values of the x and y variables to the position of the sequence.",,GML Visual library action description
+GMStdSeqSetPosition_Name,"Set Sequence Position","Set Sequence Position",,GML Visual library action name
+GMStdSeqSetPosition_Desc,"Sets the position of the sequence.","Sets the position of the sequence.",,GML Visual library action description
+GMStdSeqPlay_Name,"Play Sequence","Play Sequence",,GML Visual library action name
+GMStdSeqPlay_Desc,"Plays the sequence.","Plays the sequence.",,GML Visual library action description
+GMStdSeqPause_Name,"Pause Sequence","Pause Sequence",,GML Visual library action name
+GMStdSeqPause_Desc,"Pauses the sequence.","Pauses the sequence.",,GML Visual library action description
+GMStdIfSeqExists_Name,"If Sequence Exists","If Sequence Exists",,GML Visual library action name
+GMStdIfSeqExists_Desc,"Check if a sequence exists.","Check if a sequence exists.",,GML Visual library action description
+GMStdSeqGetLength_Name,"Get Sequence Length","Get Sequence Length",,GML Visual library action name
+GMStdSeqGetLength_Desc,"Gets the length of a sequence element.","Gets the length of a sequence element.",,GML Visual library action description
+GMStdSeqGetHead_Name,"Get Sequence Head","Get Sequence Head",,GML Visual library action name
+GMStdSeqGetHead_Desc,"Gets the head position (in frames) of a sequence element.","Gets the head position (in frames) of a sequence element.",,GML Visual library action description
+GMStdSeqSetHead_Name,"Set Sequence Head","Set Sequence Head",,GML Visual library action name
+GMStdSeqSetHead_Desc,"Sets the head position (in frames) of a sequence element.","Sets the head position (in frames) of a sequence element.",,GML Visual library action description
+GMStdSeqGetLength_Story_1,"Get length of sequence instance ${sequenceelmid} into ${var}","Get length of sequence instance ${sequenceelmid} into ${var}",,GML Visual story text
+GMStdSeqGetLength_Story_2,"Get length of sequence instance ${sequenceelmid} into temp ${var}","Get length of sequence instance ${sequenceelmid} into temp ${var}",,GML Visual story text
+GMStdSeqSetHead_Story_1,"Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}","Set head position (in frames) of sequence instance ${sequenceelmid} to ${var}",,GML Visual story text
+GMStdSeqGetHead_Story_1,"Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}","Get head position (in frames) of sequence instance ${sequenceelmid} into ${var}",,GML Visual story text
+GMStdSeqGetHead_Story_2,"Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}","Get head position (in frames) of sequence instance ${sequenceelmid} into temp ${var}",,GML Visual story text
+GMStdDestroyAtPos_Name,"Destroy At Position","Destroy At Position",,GML Visual library action name
+GMStdDestroyAtPos_Desc,"Destroy all instances at a position.","Destroy all instances at a position.",,GML Visual library action description
+GMStdSetSprite_Name,"Set Sprite","Set Sprite",,GML Visual library action name
+GMStdSetSprite_Desc,"Change the sprite of an object instance.","Change the sprite of an object instance.",,GML Visual library action description
+GMStdRotSprite_Name,"Set Instance Rotation","Set Instance Rotation",,GML Visual library action name
+GMStdRotSprite_Desc,"Set the rotation of an instance.","Set the rotation of an instance.",,GML Visual library action description
+GMStdSpriteAnimSpd_Name,"Set Animation Speed","Set Animation Speed",,GML Visual library action name
+GMStdSpriteAnimSpd_Desc,"Set the animation speed of an instance's sprite.","Set the animation speed of an instance's sprite.",,GML Visual library action description
+GMStdSpriteScale_Name,"Set Instance Scale","Set Instance Scale",,GML Visual library action name
+GMStdSpriteScale_Desc,"Set the horizontal and vertical scaling of an instance's sprite.","Set the horizontal and vertical scaling of an instance's sprite.",,GML Visual library action description
+GMStdSpriteAlpha_Name,"Set Instance Alpha","Set Instance Alpha",,GML Visual library action name
+GMStdSpriteAlpha_Desc,"Set the transparency (0-1) of an instance's sprite.","Set the transparency (0-1) of an instance's sprite.",,GML Visual library action description
+GMStdSpriteColor_Name,"Set Instance Colour","Set Instance Colour",,GML Visual library action name
+GMStdSpriteColor_Desc,"Set the colour blend of an instance's sprite.","Set the colour blend of an instance's sprite.",,GML Visual library action description
+GMStdSetAlarm_Name,"Set Alarm Countdown","Set Alarm Countdown",,GML Visual library action name
+GMStdSetAlarm_Desc,"Set the countdown value of an alarm event.","Set the countdown value of an alarm event.",,GML Visual library action description
+GMStdGetAlarm_Name,"Get Alarm Countdown","Get Alarm Countdown",,GML Visual library action name
+GMStdGetAlarm_Desc,"Get the countdown value of an alarm event.","Get the countdown value of an alarm event.",,GML Visual library action description
+GMStdInheritEvent_Name,"Call Parent Event","Call Parent Event",,GML Visual library action name
+GMStdInheritEvent_Desc,"Call this event on the instance's parent object.","Call this event on the instance's parent object.",,GML Visual library action description
+GMStdIfMousePressed_Name,"If Mouse Pressed","If Mouse Pressed",,GML Visual library action name
+GMStdIfMousePressed_Desc,"Check if a mouse button is pressed.","Check if a mouse button is pressed.",,GML Visual library action description
+GMStdIfMouseDown_Name,"If Mouse Down","If Mouse Down",,GML Visual library action name
+GMStdIfMouseDown_Desc,"Check if a mouse button is held or released.","Check if a mouse button is held or released.",,GML Visual library action description
+GMStdIfMouseUp_Name,"If Mouse Released","If Mouse Released",,GML Visual library action name
+GMStdIfMouseUp_Desc,"Check if a mouse button is released.","Check if a mouse button is released.",,GML Visual library action description
+GMStdIfKeyPressed_Name,"If Key Pressed","If Key Pressed",,GML Visual library action name
+GMStdIfKeyPressed_Desc,"Check if a key is pressed.","Check if a key is pressed.",,GML Visual library action description
+GMStdIfKeyDown_Name,"If Key Down","If Key Down",,GML Visual library action name
+GMStdIfKeyDown_Desc,"Check if a key is down or released.","Check if a key is down or released.",,GML Visual library action description
+GMStdIfKeyUp_Name,"If Key Released","If Key Released",,GML Visual library action name
+GMStdIfKeyUp_Desc,"Check if a key is released.","Check if a key is released.",,GML Visual library action description
+GMStdGPAxis_Name,"Get Gamepad Axis","Get Gamepad Axis",,GML Visual library action name
+GMStdGPAxis_Desc,"Get the value of an axis on a gamepad.","Get the value of an axis on a gamepad.",,GML Visual library action description
+GMStdGPTrigger_Name,"Get Gamepad Trigger","Get Gamepad Trigger",,GML Visual library action name
+GMStdGPTrigger_Desc,"Get the value of a gamepad's trigger button.","Get the value of a gamepad's trigger button.",,GML Visual library action description
+GMStdIfGPDown_Name,"If Gamepad Button Down","If Gamepad Button Down",,GML Visual library action name
+GMStdIfGPDown_Desc,"Check if a gamepad button is down or released.","Check if a gamepad button is down or released.",,GML Visual library action description
+GMStdIfGPPressed_Name,"If Gamepad Button Pressed","If Gamepad Button Pressed",,GML Visual library action name
+GMStdIfGPPressed_Desc,"Check if a gamepad button is pressed.","Check if a gamepad button is pressed.",,GML Visual library action description
+GMStdIfGPUp_Name,"If Gamepad Button Released","If Gamepad Button Released",,GML Visual library action name
+GMStdIfGPUp_Desc,"Check if a gamepad button is released.","Check if a gamepad button is released.",,GML Visual library action description
+GMStdGPDeadzone_Name,"Set Gamepad Axis Deadzone","Set Gamepad Axis Deadzone",,GML Visual library action name
+GMStdGPDeadzone_Desc,"Set the deadzone of a gamepad axis.","Set the deadzone of a gamepad axis.",,GML Visual library action description
+GMStdGPThreshold_Name,"Set Gamepad Button Threshold","Set Gamepad Button Threshold",,GML Visual library action name
+GMStdGPThreshold_Desc,"Set the threshold for the analogue buttons of the given gamepad device.","Set the threshold for the analogue buttons of the given gamepad device.",,GML Visual library action description
+GMStdGpDeviceC_Name,"Get Gamepad Count","Get Gamepad Count",,GML Visual library action name
+GMStdGpDeviceC_Desc,"Get the number of connected gamepad devices.","Get the number of connected gamepad devices.",,GML Visual library action description
+GMStdGPConnc_Name,"Get Gamepad Connected","Get Gamepad Connected",,GML Visual library action name
+GMStdGPConnc_Desc,"Get whether a given gamepad is connected.","Get whether a given gamepad is connected.",,GML Visual library action description
+GMStdDirFixed_Name,"Set Direction Fixed","Set Direction Fixed",,GML Visual library action name
+GMStdDirFixed_Desc,"Set a fixed direction.","Set a fixed direction.",,GML Visual library action description
+GMStdDirFree_Name,"Set Direction Variable","Set Direction Variable",,GML Visual library action name
+GMStdDirFree_Desc,"Set a variable direction.","Set a variable direction.",,GML Visual library action description
+GMStdDirPoint_Name,"Set Point Direction","Set Point Direction",,GML Visual library action name
+GMStdDirPoint_Desc,"Set a direction towards a specified point.","Set a direction towards a specified point.",,GML Visual library action description
+GMStdDirRandom_Name,"Set Direction Random","Set Direction Random",,GML Visual library action name
+GMStdDirRandom_Desc,"Set a random direction based on the specified directions.","Set a random direction based on the specified directions.",,GML Visual library action description
+GMStdSpeed_Name,"Set Speed","Set Speed",,GML Visual library action name
+GMStdSpeed_Desc,"Set the speed of an instance.","Set the speed of an instance.",,GML Visual library action description
+GMStdGravDir_Name,"Set Gravity Direction","Set Gravity Direction",,GML Visual library action name
+GMStdGravDir_Desc,"Set the gravitational direction.","Set the gravitational direction.",,GML Visual library action description
+GMStdGravForce_Name,"Set Gravity Force","Set Gravity Force",,GML Visual library action name
+GMStdGravForce_Desc,"Set the gravitational force.","Set the gravitational force.",,GML Visual library action description
+GMStdVKeyShow_Name,"Show Virtual Keyboard","Show Virtual Keyboard",,GML Visual library action name
+GMStdVKeyShow_Desc,"Display the virtual keyboard. Once the keyboard is shown, a System event of type ""keyboard status"" is raised.","Display the virtual keyboard. Once the keyboard is shown, a System event of type ""keyboard status"" is raised.",,GML Visual library action description
+GMStdVKeyHide_Name,"Hide Virtual Keyboard","Hide Virtual Keyboard",,GML Visual library action name
+GMStdVKeyHide_Desc,"Hide the virtual keyboard. Once the keyboard is hidden, a System event of type ""keyboard status"" is raised.","Hide the virtual keyboard. Once the keyboard is hidden, a System event of type ""keyboard status"" is raised.",,GML Visual library action description
+GMStdVKeyStatus_Name,"If Virtual Keyboard Showing","If Virtual Keyboard Showing",,GML Visual library action name
+GMStdVKeyStatus_Desc,"Check if the virtual keyboard is showing. If querying the status, a System event of type ""keyboard status"" is raised.","Check if the virtual keyboard is showing. If querying the status, a System event of type ""keyboard status"" is raised.",,GML Visual library action description
+GMStdVKeyHeight_Name,"Get Virtual Keyboard Height","Get Virtual Keyboard Height",,GML Visual library action name
+GMStdVKeyHeight_Desc,"Get the current pixel height of the virtual keyboard if it is visible.","Get the current pixel height of the virtual keyboard if it is visible.",,GML Visual library action description
+GMStdReverse_Name,"Reverse","Reverse",,GML Visual library action name
+GMStdReverse_Desc,"Reverse a direction from a list of presets.","Reverse a direction from a list of presets.",,GML Visual library action description
+GMStdFriction_Name,"Set Friction","Set Friction",,GML Visual library action name
+GMStdFriction_Desc,"Apply friction to the instance's movement.","Apply friction to the instance's movement.",,GML Visual library action description
+GMStdJumpPoint_Name,"Jump To Point","Jump To Point",,GML Visual library action name
+GMStdJumpPoint_Desc,"Jump to the specified position.","Jump to the specified position.",,GML Visual library action description
+GMStdJumpStart_Name,"Jump To Start","Jump To Start",,GML Visual library action nameGM
+GMStdJumpStart_Desc,"Jump to the instance's start position.","Jump to the instance's start position.",,GML Visual library action description
+GMStdSnapPos_Name,"Snap Position","Snap Position",,GML Visual library action name
+GMStdSnapPos_Desc,"Snap an instance's position to a grid.","Snap an instance's position to a grid.",,GML Visual library action description
+GMStdWrapRoom_Name,"Wrap Around Room","Wrap Around Room",,GML Visual library action name
+GMStdWrapRoom_Desc,"Wrap around room.","Wrap around room.",,GML Visual library action description
+GMStdIfAnyObjAt_Name,"If Any Object At Place","If Any Object At Place",,GML Visual library action name
+GMStdIfAnyObjAt_Desc,"Check if an instance overlaps any object instances at a position.","Check if an instance overlaps any object instances at a position.",,GML Visual library action description
+GMStdIfObjAt_Name,"If Object At Place","If Object At Place",,GML Visual library action name
+GMStdIfObjAt_Desc,"Check if an instance overlaps one or more instances of a specific object at a position.","Check if an instance overlaps one or more instances of a specific object at a position.",,GML Visual library action description
+GMStdIfColShape_Name,"If Collision Shape","If Collision Shape",,GML Visual library action name
+GMStdIfColShape_Desc,"Check if one or more instances intersect a shape.","Check if one or more instances intersect a shape.",,GML Visual library action description
+GMStdIfColPoint_Name,"If Collision Point","If Collision Point",,GML Visual library action name
+GMStdIfColPoint_Desc,"Check if one or more instances intersect a point.","Check if one or more instances intersect a point.",,GML Visual library action description
+GMStdDrawSelf_Name,"Draw Self","Draw Self",,GML Visual library action name
+GMStdDrawSelf_Desc,"Draw this instance's sprite.","Draw this instance's sprite.",,GML Visual library action description
+GMStdDrawValue_Name,"Draw Value","Draw Value",,GML Visual library action name
+GMStdDrawValue_Desc,"Draw the specified value. It can be a string, number or variable.","Draw the specified value. It can be a string, number or variable.",,GML Visual library action description
+GMStdDrawValueTransformed_Name,"Draw Transformed Value","Draw Transformed Value",,GML Visual library action name
+GMStdDrawValueTransformed_Desc,"Draw a value with a transformation. It can be a string, number or variable.","Draw a value with a transformation. It can be a string, number or variable.",,GML Visual library action description
+GMStdDrawSprite_Name,"Draw Sprite","Draw Sprite",,GML Visual library action name
+GMStdDrawSprite_Desc,"Draw a sprite.","Draw a sprite.",,GML Visual library action description
+GMStdDrawSpritesStacked_Name,"Draw Stacked Sprites","Draw Stacked Sprites",,GML Visual library action name
+GMStdDrawSpritesStacked_Desc,"Draw a sprite multiple times in a stack.","Draw a sprite multiple times in a stack.",,GML Visual library action description
+GMStdDrawRectangle_Name,"Draw Rectangle","Draw Rectangle",,GML Visual library action name
+GMStdDrawRectangle_Desc,"Draw a rectangle.","Draw a rectangle.",,GML Visual library action description
+GMStdDrawGradientRect_Name,"Draw Gradient Rectangle","Draw Gradient Rectangle",,GML Visual library action name
+GMStdDrawGradientRect_Desc,"Draw a gradient in a rectangular shape.","Draw a gradient in a rectangular shape.",,GML Visual library action description
+GMStdDrawEllipse_Name,"Draw Ellipse","Draw Ellipse",,GML Visual library action name
+GMStdDrawEllipse_Desc,"Draw an ellipse.","Draw an ellipse.",,GML Visual library action description
+GMStdDrawGradientEllipse_Name,"Draw Gradient Ellipse","Draw Gradient Ellipse",,GML Visual library action name
+GMStdDrawGradientEllipse_Desc,"Draw a gradient in an elliptical shape.","Draw a gradient in an elliptical shape.",,GML Visual library action description
+GMStdDrawLine_Name,"Draw Line","Draw Line",,GML Visual library action name
+GMStdDrawLine_Desc,"Draw a line.","Draw a line.",,GML Visual library action description
+GMStdDrawHealthbar_Name,"Draw Healthbar","Draw Healthbar",,GML Visual library action name
+GMStdDrawHealthbar_Desc,"Draw a healthbar from a 0-100 value.","Draw a healthbar from a 0-100 value.",,GML Visual library action description
+GMStdDrawInstanceScore_Name,"Draw Instance Score","Draw Instance Score",,GML Visual library action name
+GMStdDrawInstanceScore_Desc,"Draw an instance's score with a caption.","Draw an instance's score with a caption.",,GML Visual library action description
+GMStdDrawInstanceHealth_Name,"Draw Instance Health","Draw Instance Health",,GML Visual library action name
+GMStdDrawInstanceHealth_Desc,"Draw an instance's health with a healthbar.","Draw an instance's health with a healthbar.",,GML Visual library action description
+GMStdDrawInstanceLives_Name,"Draw Instance Lives","Draw Instance Lives",,GML Visual library action name
+GMStdDrawInstanceLives_Desc,"Draw an instance's lives with stacked sprites.","Draw an instance's lives with stacked sprites.",,GML Visual library action description
+GMStdSetColor_Name,"Set Draw Colour","Set Draw Colour",,GML Visual library action name
+GMStdSetColor_Desc,"Set the colour to blend all drawing with.","Set the colour to blend all drawing with.",,GML Visual library action description
+GMStdGetColor_Name,"Get Draw Colour","Get Draw Colour",,GML Visual library action name
+GMStdGetColor_Desc,"Get the colour used to blend all drawing with.","Get the colour used to blend all drawing with.",,GML Visual library action description
+GMStdGetFont_Name,"Get Draw Font","Get Draw Font",,GML Visual library action name
+GMStdGetFont_Desc,"Get the font used for all text drawing.","Get the font used for all text drawing.",,GML Visual library action description
+GMStdGetTextAlign_Name,"Get Text Alignment","Get Text Alignment",,GML Visual library action name
+GMStdGetTextAlign_Desc,"Get the horizontal or vertical alignment of text drawing.","Get the horizontal or vertical alignment of text drawing.",,GML Visual library action description
+GMStdSetFont_Name,"Set Font","Set Font",,GML Visual library action name
+GMStdSetFont_Desc,"Set the font to use for all text drawing.","Set the font to use for all text drawing.",,GML Visual library action description
+GMStdSetAlignment_Name,"Set Text Alignment","Set Text Alignment",,GML Visual library action name
+GMStdSetAlignment_Desc,"Set the horizontal and vertical alignment of text drawing.","Set the horizontal and vertical alignment of text drawing.",,GML Visual library action description
+GMStdTileSetAtPixel_Name,"Set Tile Index At Pixel","Set Tile Index At Pixel",,GML Visual library action name
+GMStdTileSetAtPixel_Desc,"Set the tile index at the specified position.","Set the tile index at the specified position.",,GML Visual library action description
+GMStdTileGetAtPixel_Name,"Get Tile Index At Pixel","Get Tile Index At Pixel",,GML Visual library action name
+GMStdTileGetAtPixel_Desc,"Get the tile index at the specified position.","Get the tile index at the specified position.",,GML Visual library action description
+GMStdTileSetInCell_Name,"Set Tile Index In Cell","Set Tile Index In Cell",,GML Visual library action name
+GMStdTileSetInCell_Desc,"Set the tile index in the specified cell.","Set the tile index in the specified cell.",,GML Visual library action description
+GMStdTileGetInCell_Name,"Get Tile Index In Cell","Get Tile Index In Cell",,GML Visual library action name
+GMStdTileGetInCell_Desc,"Get the tile index in the specified cell.","Get the tile index in the specified cell.",,GML Visual library action description
+GMStdTileGetElm_Name,"Get Tile Data In Cell","Get Tile Data In Cell",,GML Visual label
+GMStdTileGetElm_Desc,"Get the tile data in a cell on a tile layer.","Get the tile data in a cell on a tile layer.",,GML Visual label
+GMStdTileGetElmPixel_Name,"Get Tile Data At Pixel","Get Tile Data At Pixel",,GML Visual label
+GMStdTileGetElmPixel_Desc,"Get the tile data at the specified position on a tile layer.","Get the tile data at the specified position on a tile layer.",,GML Visual label
+GMStdTileSetElm_Name,"Set Tile Data In Cell","Set Tile Data In Cell",,GML Visual label
+GMStdTileSetElm_Desc,"Set the tile data in a cell on a tile layer.","Set the tile data in a cell on a tile layer.",,GML Visual label
+GMStdTileSetElmPixel_Name,"Set Tile Data At Pixel","Set Tile Data At Pixel",,GML Visual label
+GMStdTileSetElmPixel_Desc,"Set the tile data at the specified position on a tile layer.","Set the tile data at the specified position on a tile layer.",,GML Visual label
+GMStdTileGetVar_Name,"Get Tilemap Variable","Get Tilemap Variable",,GML Visual label
+GMStdTileGetVar_Desc,"Get a variable from a tilemap element.","Get a variable from a tilemap element.",,GML Visual label
+GMStdTileSetTileSet_Name,"Set Tile Set","Set Tile Set",,GML Visual label
+GMStdTileSetTileSet_Desc,"Set the tile set resource of a tilemap.","Set the tile set resource of a tilemap.",,GML Visual label
+GMStdTileTransform_Name,"Set Tile Data Transform","Set Tile Data Transform",,GML Visual library action name
+GMStdTileTransform_Desc,"Apply a transformation to tile data.","Apply a transformation to tile data.",,GML Visual library action description
+GMStdTileGetTransform_Name,"Get Tile Data Transform","Get Tile Data Transform",,GML Visual library action name
+GMStdTileGetTransform_Desc,"Get the transformation of tile data.","Get the transformation of tile data.",,GML Visual library action description
+GMStdTileSet,Tile Set,Tile Set,,GML Visual label
+GMStdSetScore_Name,"Set Score","Set Score",,GML Visual library action name
+GMStdSetScore_Desc,"Set the score variable on the instance.","Set the score variable on the instance.",,GML Visual library action description
+GMStdGetScore_Name,"Get Score","Get Score",,GML Visual library action name
+GMStdGetScore_Desc,"Get the score of the instance.","Get the score of the instance.",,GML Visual library action description
+GMStdSetLives_Name,"Set Lives","Set Lives",,GML Visual library action name
+GMStdSetLives_Desc,"Set the life count of the instance.","Set the life count of the instance.",,GML Visual library action description
+GMStdGetLives_Name,"Get Lives","Get Lives",,GML Visual library action name
+GMStdGetLives_Desc,"Get the life count of the instance.","Get the life count of the instance.",,GML Visual library action description
+GMStdSetHealth_Name,"Set Health","Set Health",,GML Visual library action name
+GMStdSetHealth_Desc,"Set the health variable of the instance.","Set the health variable of the instance.",,GML Visual library action description
+GMStdGetHealth_Name,"Get Health","Get Health",,GML Visual library action name
+GMStdGetHealth_Desc,"Get the health of the instance.","Get the health of the instance.",,GML Visual library action description
+GMStdSetGlobal_Name,"Set Global Variable","Set Global Variable",,GML Visual library action name
+GMStdSetGlobal_Desc,"Set a global variable.","Set a global variable.",,GML Visual library action description
+GMStdGetGlobal_Name,"Get Global Variable","Get Global Variable",,GML Visual library action name
+GMStdGetGlobal_Desc,"Get a global variable.","Get a global variable.",,GML Visual library action description
+GMStdGetRandomNumber_Name,"Get Random Number","Get Random Number",,GML Visual library action name
+GMStdGetRandomNumber_Desc,"Get a random inclusive number.","Get a random inclusive number.",,GML Visual library action description
+GMStdRandomize_Name,"Randomize","Randomize",,GML Visual library action name
+GMStdRandomize_Desc,"Create a new random seed used by the random number generator.","Create a new random seed used by the random number generator.",,GML Visual library action description
+GMStdRepeat_Name,"Repeat","Repeat",,GML Visual library action name
+GMStdRepeat_Desc,"Repeat code a number of times.","Repeat code a number of times.",,GML Visual library action description
+GMStdWhileLoop_Name,"While Loop","While Loop",,GML Visual library action name
+GMStdWhileLoop_Desc,"Execute code while a given expression is true.","Execute code while a given expression is true.",,GML Visual library action description
+GMStdBreak_Name,"Break","Break",,GML Visual library action name
+GMStdBreak_Desc,"Break out of a loop.","Break out of a loop.",,GML Visual library action description
+GMStdSwitch_Name,"Switch","Switch",,GML Visual library action name
+GMStdSwitch_Desc,"Switch which branch to execute based on input.","Switch which branch to execute based on input.",,GML Visual library action description
+GMStdCase_Name,"Case","Case",,GML Visual library action name
+GMStdCase_Desc,"A branch to execute in a switch if the case is true.","A branch to execute in a switch if the case is true.",,GML Visual library action description
+GMStdDecimalToInteger_Name,"Decimal To Integer","Decimal To Integer",,GML Visual library action name
+GMStdDecimalToInteger_Desc,"Round a decimal value to an integer value by rounding, ceiling or flooring it.","Round a decimal value to an integer value by rounding, ceiling or flooring it.",,GML Visual library action description
+GMStdStringToNumber_Name,"String To Number","String To Number",,GML Visual library action name
+GMStdStringToNumber_Desc,"Convert a string to a number.","Convert a string to a number.",,GML Visual library action description
+GMStdNumberToString_Name,"Number To String","Number To String",,GML Visual library action name
+GMStdNumberToString_Desc,"Convert a number to a string.","Convert a number to a string.",,GML Visual library action description
+GMStdCreateList_Name,"Create List","Create List",,GML Visual library action name
+GMStdCreateList_Desc,"Create a list data structure.","Create a list data structure.",,GML Visual library action description
+GMStdCreateMap_Name,"Create Map","Create Map",,GML Visual library action name
+GMStdCreateMap_Desc,"Create a map data structure.","Create a map data structure.",,GML Visual library action description
+GMStdForLoop_Name,"For Loop","For Loop",,GML Visual library action name
+GMStdForLoop_Desc,"A self-contained loop structure with initialise, condition and increment statements.","A self-contained loop structure with initialise, condition and increment statements.",,GML Visual library action description
+GMStdDrawSpriteExt_Name,"Draw Sprite Transformed","Draw Sprite Transformed",,GML Visual library action name
+GMStdDrawSpriteExt_Desc,"Draw a sprite with transformations.","Draw a sprite with transformations.",,GML Visual library action description
+GMStdSetViewVar_Name,"Set View Variable","Set View Variable",,GML Visual library action name
+GMStdSetViewVar_Desc,"Set a variable pertaining to a room view.","Set a variable pertaining to a room view.",,GML Visual library action description
+GMStdGetViewVar_Name,"Get View Variable","Get View Variable",,GML Visual library action name
+GMStdGetViewVar_Desc,"Get a variable pertaining to a room view.","Get a variable pertaining to a room view.",,GML Visual library action description
+GMStdCreateGrid_Name,"Create Grid","Create Grid",,GML Visual library action name
+GMStdCreateGrid_Desc,"Create a new grid data structure.","Create a new grid data structure.",,GML Visual library action description
+GMStdCreateStack_Name,"Create Stack","Create Stack",,GML Visual library action name
+GMStdCreateStack_Desc,"Create a stack data structure.","Create a stack data structure.",,GML Visual library action description
+GMStdIfDSExists_Name,"If Data Structure Exists","If Data Structure Exists",,GML Visual library action name
+GMStdIfDSExists_Desc,"Check if a data structure exists.","Check if a data structure exists.",,GML Visual library action description
+GMStdIfDSEmpty_Name,"If Data Structure Empty","If Data Structure Empty",,GML Visual library action name
+GMStdIfDSEmpty_Desc,"Check if a data structure is empty.","Check if a data structure is empty.",,GML Visual library action description
+GMStdDSClear_Name,"Clear Data Structure","Clear Data Structure",,GML Visual library action name
+GMStdDSClear_Desc,"Clear the contents of a data structure.","Clear the contents of a data structure.",,GML Visual library action description
+GMStdDSFree_Name,"Free Data Structure","Free Data Structure",,GML Visual library action name
+GMStdDSFree_Desc,"Free an existing data structure.","Free an existing data structure.",,GML Visual library action description
+GMStdListAdd_Name,"Add To List","Add To List",,GML Visual library action name
+GMStdListAdd_Desc,"Add a value to a list.","Add a value to a list.",,GML Visual library action description
+GMStdListRemove_Name,"Remove From List","Remove From List",,GML Visual library action name
+GMStdListRemove_Desc,"Remove a value from a list.","Remove a value from a list.",,GML Visual library action description
+GMStdListGetAt_Name,"Get List Item At","Get List Item At",,GML Visual library action name
+GMStdListGetAt_Desc,"Get a list item at an index.","Get a list item at an index.",,GML Visual library action description
+GMStdListIndexOf_Name,"Get Index Of List Item","Get Index Of List Item",,GML Visual library action name
+GMStdListIndexOf_Desc,"Get the index of a list item.","Get the index of a list item.",,GML Visual library action description
+GMStdListInsert_Name,"Insert Into List","Insert Into List",,GML Visual library action name
+GMStdListInsert_Desc,"Insert an item into a list at an index.","Insert an item into a list at an index.",,GML Visual library action description
+GMStdListCount_Name,"Get List Item Count","Get List Item Count",,GML Visual library action name
+GMStdListCount_Desc,"Get the number of items in a list.","Get the number of items in a list.",,GML Visual library action description
+GMStdMapSetValue_Name,"Set Map Value","Set Map Value",,GML Visual library action name
+GMStdMapSetValue_Desc,"Set the value of a map entry.","Set the value of a map entry.",,GML Visual library action description
+GMStdMapGetValue_Name,"Get Map Value","Get Map Value",,GML Visual library action name
+GMStdMapGetValue_Desc,"Get the value of a map entry.","Get the value of a map entry.",,GML Visual library action description
+GMStdMapRemove_Name,"Remove Map Entry","Remove Map Entry",,GML Visual library action name
+GMStdMapRemove_Desc,"Remove a map entry.","Remove a map entry.",,GML Visual library action description
+GMStdGridSetValue_Name,"Set Grid Value","Set Grid Value",,GML Visual library action name
+GMStdGridSetValue_Desc,"Set a value in a grid.","Set a value in a grid.",,GML Visual library action description
+GMStdGridGetValue_Name,"Get Grid Value","Get Grid Value",,GML Visual library action name
+GMStdGridGetValue_Desc,"Get a value in a grid.","Get a value in a grid.",,GML Visual library action description
+GMStdGridClear_Name,"Clear Grid","Clear Grid",,GML Visual library action name
+GMStdGridClear_Desc,"Clear a grid to a specific value.","Clear a grid to a specific value.",,GML Visual library action description
+GMStdStackPush_Name,"Push Onto Stack","Push Onto Stack",,GML Visual library action name
+GMStdStackPush_Desc,"Push a value onto a stack.","Push a value onto a stack.",,GML Visual library action description
+GMStdStackPop_Name,"Pop Stack","Pop Stack",,GML Visual library action name
+GMStdStackPop_Desc,"Pop a value off a stack.","Pop a value off a stack.",,GML Visual library action description
+GMStdPlayAudio_Name,"Play Audio","Play Audio",,GML Visual library action name
+GMStdPlayAudio_Desc,"Play a sound effect or a music track.","Play a sound effect or a music track.",,GML Visual library action description
+GMStdStopAudio_Name,"Stop Audio","Stop Audio",,GML Visual library action name
+GMStdStopAudio_Desc,"Stop playing a sound effect or a music track.","Stop playing a sound effect or a music track.",,GML Visual library action description
+GMStdStopAllAudio_Name,"Stop All Audio","Stop All Audio",,GML Visual library action name
+GMStdStopAllAudio_Desc,"Stop all audio.","Stop all audio.",,GML Visual library action description
+GMStdPauseAudio_Name,"Pause Audio","Pause Audio",,GML Visual library action name
+GMStdPauseAudio_Desc,"Pause a sound effect or a music track.","Pause a sound effect or a music track.",,GML Visual library action description
+GMStdPauseAllAudio_Name,"Pause All Audio","Pause All Audio",,GML Visual library action name
+GMStdPauseAllAudio_Desc,"Pause all audio.","Pause all audio.",,GML Visual library action description
+GMStdResumeAudio_Name,"Resume Audio","Resume Audio",,GML Visual library action name
+GMStdResumeAudio_Desc,"Resume playing a sound effect or a music track.","Resume playing a sound effect or a music track.",,GML Visual library action description
+GMStdResumeAllAudio_Name,"Resume All Audio","Resume All Audio",,GML Visual library action name
+GMStdResumeAllAudio_Desc,"Resume playing all paused audio.","Resume playing all paused audio.",,GML Visual library action description
+GMStdIfAudioPlaying_Name,"If Audio Is Playing","If Audio Is Playing",,GML Visual library action name
+GMStdIfAudioPlaying_Desc,"Check if a sound effect or a music track is playing.","Check if a sound effect or a music track is playing.",,GML Visual library action description
+GMStdIfAudioPaused_Name,"If Audio Is Paused","If Audio Is Paused",,GML Visual library action name
+GMStdIfAudioPaused_Desc,"Check if a sound effect or a music track is paused.","Check if a sound effect or a music track is paused.",,GML Visual library action description
+GMStdAudioSetPosition_Name,"Set Audio Position","Set Audio Position",,GML Visual library action name
+GMStdAudioSetPosition_Desc,"Set the playback position of a sound effect or a music track.","Set the playback position of a sound effect or a music track.",,GML Visual library action description
+GMStdAudioGetLength_Name,"Get Audio Length","Get Audio Length",,GML Visual library action name
+GMStdAudioGetLength_Desc,"Get the length of a sound effect or a music track in seconds.","Get the length of a sound effect or a music track in seconds.",,GML Visual library action description
+GMStdAudioSetPitch_Name,"Set Audio Pitch","Set Audio Pitch",,GML Visual library action name
+GMStdAudioSetPitch_Desc,"Set the pitch of a sound effect or a music track.","Set the pitch of a sound effect or a music track.",,GML Visual library action description
+GMStdAudioGetPitch_Name,"Get Audio Pitch","Get Audio Pitch",,GML Visual library action name
+GMStdAudioGetPitch_Desc,"Get the pitch of a sound effect or a music track.","Get the pitch of a sound effect or a music track.",,GML Visual library action description
+GMStdAudioSetVolume_Name,"Set Audio Volume","Set Audio Volume",,GML Visual library action name
+GMStdAudioSetVolume_Desc,"Set the volume of a sound effect or a music track.","Set the volume of a sound effect or a music track.",,GML Visual library action description
+GMStdAudioGetVolume_Name,"Get Audio Volume","Get Audio Volume",,GML Visual library action name
+GMStdAudioGetVolume_Desc,"Get the volume of a sound effect or a music track.","Get the volume of a sound effect or a music track.",,GML Visual library action description
+GMStdAudoSetMasterVolume_Name,"Set Master Volume","Set Master Volume",,GML Visual library action name
+GMStdAudoSetMasterVolume_Desc,"Set the master volume that all other volumes are relative to.","Set the master volume that all other volumes are relative to.",,GML Visual library action description
+GMStdAudioGetMasterVolume_Name,"Get Master Volume","Get Master Volume",,GML Visual library action name
+GMStdAudioGetMasterVolume_Desc,"Get the master volume all other volumes are relative to.","Get the master volume all other volumes are relative to.",,GML Visual library action description
+GMStdGetCurrentRoom_Name,"Get Current Room","Get Current Room",,GML Visual library action name
+GMStdGetCurrentRoom_Desc,"Get the currently active room.","Get the currently active room.",,GML Visual library action description
+GMStdPreviousRoom_Name,"Go To Previous Room","Go To Previous Room",,GML Visual library action name
+GMStdPreviousRoom_Desc,"Go to the room that was previously active.","Go to the room that was previously active.",,GML Visual library action description
+GMStdNextRoom_Name,"Go To Next Room","Go To Next Room",,GML Visual library action name
+GMStdNextRoom_Desc,"Go to the next room in the list.","Go to the next room in the list.",,GML Visual library action description
+GMStdRestartRoom_Name,"Restart Room","Restart Room",,GML Visual library action name
+GMStdRestartRoom_Desc,"Restart the current room.","Restart the current room.",,GML Visual library action description
+GMStdGoToRoom_Name,"Go To Room","Go To Room",,GML Visual library action name
+GMStdGoToRoom_Desc,"Go to a specific room.","Go to a specific room.",,GML Visual library action description
+GMStdIfFirstRoom_Name,"If Room Is First","If Room Is First",,GML Visual library action name
+GMStdIfFirstRoom_Desc,"Check if the current room is the first room or not.","Check if the current room is the first room or not.",,GML Visual library action description
+GMStdIfLastRoom_Name,"If Room Is Last","If Room Is Last",,GML Visual library action name
+GMStdIfLastRoom_Desc,"Check if the current room is the last room or not.","Check if the current room is the last room or not.",,GML Visual library action description
+GMStdRestartGame_Name,"Restart Game","Restart Game",,GML Visual library action name
+GMStdRestartGame_Desc,"Restart the game.","Restart the game.",,GML Visual library action description
+GMStdEndGame_Name,"Exit Game","Exit Game",,GML Visual library action name
+GMStdEndGame_Desc,"Exit the game application.","Exit the game application.",,GML Visual library action description
+GMStdSaveGame_Name,"Save Game","Save Game",,GML Visual library action name
+GMStdSaveGame_Desc,"Save the current progress.","Save the current progress.",,GML Visual library action description
+GMStdLoadGame_Name,"Load Game","Load Game",,GML Visual library action name
+GMStdLoadGame_Desc,"Load the game from a save file.","Load the game from a save file.",,GML Visual library action description
+GMStdOpenIni_Name,"Open Ini File","Open Ini File",,GML Visual library action name
+GMStdOpenIni_Desc,"Open an ini file for reading and writing. You can only have 1 ini file open at a time.","Open an ini file for reading and writing. You can only have 1 ini file open at a time.",,GML Visual library action description
+GMStdCloseIni_Name,"Close Ini File","Close Ini File",,GML Visual library action name
+GMStdCloseIni_Desc,"Close the currently open ini file.","Close the currently open ini file.",,GML Visual library action description
+GMStdInit,Initialise,Initialise,,GML Visual label
+GMStdCondition,Condition,Condition,,GML Visual label
+GMStdIncrement,Increment,Increment,,GML Visual label
+GMStdView,View,View,,GML Visual label
+GMStdIniWrite_Name,"Write To Ini File","Write To Ini File",,GML Visual library action name
+GMStdIniWrite_Desc,"Write a string or numeric value to an ini file.","Write a string or numeric value to an ini file.",,GML Visual library action description
+GMStdIniRead_Name,"Read Ini File","Read Ini File",,GML Visual library action name
+GMStdIniRead_Desc,"Read a string or numeric value from an ini file.","Read a string or numeric value from an ini file.",,GML Visual library action description
+GMStdSetTimeline_Name,"Set Instance Timeline","Set Instance Timeline",,GML Visual library action name
+GMStdSetTimeline_Desc,"Attach a timeline to an instance.","Attach a timeline to an instance.",,GML Visual library action description
+GMStdPositionTimeline_Name,"Set Timeline Moment","Set Timeline Moment",,GML Visual library action name
+GMStdPositionTimeline_Desc,"Set the current moment of an instance's timeline.","Set the current moment of an instance's timeline.",,GML Visual library action description
+GMStdSpeedTimeline_Name,"Set Timeline Speed","Set Timeline Speed",,GML Visual library action name
+GMStdSpeedTimeline_Desc,"Set the speed of an instance's timeline.","Set the speed of an instance's timeline.",,GML Visual library action description
+GMStdSetTimelineState_Name,"Set Timeline State","Set Timeline State",,GML Visual library action name
+GMStdSetTimelineState_Desc,"Set the state of an instance's timeline.","Set the state of an instance's timeline.",,GML Visual library action description
+GMStdStartPath_Name,"Start Following Path","Start Following Path",,GML Visual library action name
+GMStdStartPath_Desc,"Start following a path with an instance.","Start following a path with an instance.",,GML Visual library action description
+GMStdStopPath_Name,"Stop Following Path","Stop Following Path",,GML Visual library action name
+GMStdStopPath_Desc,"Stop an instance from following a path.","Stop an instance from following a path.",,GML Visual library action description
+GMStdPathPosition_Name,"Set Position Along Path","Set Position Along Path",,GML Visual library action name
+GMStdPathPosition_Desc,"Set the position of the instance along the path it is following.","Set the position of the instance along the path it is following.",,GML Visual library action description
+GMStdPathSpeed_Name,"Set Path Follow Speed","Set Path Follow Speed",,GML Visual library action name
+GMStdPathSpeed_Desc,"Set the speed of the instance following a path.","Set the speed of the instance following a path.",,GML Visual library action description
+GMStdDebugShowMessage_Name,"Show Debug Message","Show Debug Message",,GML Visual library action name
+GMStdDebugShowMessage_Desc,"Display a debug message in the output console.","Display a debug message in the output console.",,GML Visual library action description
+GMStdSetWindowState_Name,"Set Window State","Set Window State",,GML Visual library action name
+GMStdSetWindowState_Desc,"Set the window state of the game.","Set the window state of the game.",,GML Visual library action description
+GMStdPartTypeDestroy_Name,"Destroy Particle Type","Destroy Particle Type",,GML Visual library action name
+GMStdPartTypeDestroy_Desc,"Destroy the particle type.","Destroy the particle type.",,GML Visual library action description
+GMStdPartTypeOrientation_Name,"Set Particle Orientation","Set Particle Orientation",,GML Visual library action name
+GMStdPartTypeOrientation_Desc,"Set the orientation of a particle type.","Set the orientation of a particle type.",,GML Visual library action description
+GMStdPartCreateBurst_Name,"Burst Particles","Burst Particles",,GML Visual library action name
+GMStdPartCreateBurst_Desc,"Create a burst of particles without an emitter.","Create a burst of particles without an emitter.",,GML Visual library action description
+GMStdPartSystCreate_Name,"Create Particle System","Create Particle System",,GML Visual library action name
+GMStdPartSystCreate_Desc,"Create a new particle system.","Create a new particle system.",,GML Visual library action description
+GMStdPartSystDestroy_Name,"Destroy Particle System","Destroy Particle System",,GML Visual library action name
+GMStdPartSystDestroy_Desc,"Destroy the particle system.","Destroy the particle system.",,GML Visual library action description
+GMStdPartSystClear_Name,"Clear Particle System","Clear Particle System",,GML Visual library action name
+GMStdPartSystClear_Desc,"Clear the particle system.","Clear the particle system.",,GML Visual library action description
+GMStdPauseParticles_Name,"Pause Particle System","Pause Particle System",,GML Visual library action name
+GMStdPauseParticles_Desc,"Pause or resume the particle system.","Pause or resume the particle system.",,GML Visual library action description
+GMStdRefreshParticles_Name,"Update Particle System","Update Particle System",,GML Visual library action name
+GMStdRefreshParticles_Desc,"Update the particle system, advancing it another step.","Update the particle system, advancing it another step.",,GML Visual library action description
+GMStdPartTypeCreate_Name,"Create Particle Type","Create Particle Type",,GML Visual library action name
+GMStdPartTypeCreate_Desc,"Create a new particle type.","Create a new particle type.",,GML Visual library action description
+GMStdPartTypeColor_Name,"Set Particle Colour","Set Particle Colour",,GML Visual library action name
+GMStdPartTypeColor_Desc,"Set the colour of a particle type.","Set the colour of a particle type.",,GML Visual library action description
+GMStdPartTypeLife_Name,"Set Particle Life","Set Particle Life",,GML Visual library action name
+GMStdPartTypeLife_Desc,"Set the life of a particle type.","Set the life of a particle type.",,GML Visual library action description
+GMStdPartTypeGravity_Name,"Set Particle Gravity","Set Particle Gravity",,GML Visual library action name
+GMStdPartTypeGravity_Desc,"Set the gravity of a particle type.","Set the gravity of a particle type.",,GML Visual library action description
+GMStdPartTypeSecondary_Name,"Set Secondary Particles","Set Secondary Particles",,GML Visual library action name
+GMStdPartTypeSecondary_Desc,"Add secondary particle emissions to a particle type.","Add secondary particle emissions to a particle type.",,GML Visual library action description
+GMStdPartEmitCreate_Name,"Create Particle Emitter","Create Particle Emitter",,GML Visual library action name
+GMStdPartEmitCreate_Desc,"Create a new particle emitter.","Create a new particle emitter.",,GML Visual library action description
+GMStdPartEmitDestroy_Name,"Destroy Particle Emitter","Destroy Particle Emitter",,GML Visual library action name
+GMStdPartEmitDestroy_Desc,"Destroy a particle emitter.","Destroy a particle emitter.",,GML Visual library action description
+GMStdPartEmitterEmit_Name,"Emit Particles","Emit Particles",,GML Visual library action name
+GMStdPartEmitterEmit_Desc,"Emit particles from a particle system.","Emit particles from a particle system.",,GML Visual library action description
+GMStdEffect_Name,"Do Effect","Do Effect",,GML Visual library action name
+GMStdEffect_Desc,"Show an effect at the specified position.","Show an effect at the specified position.",,GML Visual library action name
+GMStdRollbackDefinePlayer_Name,Define Player (Rollback),Define Player (Rollback),,GML Visual library action description
+GMStdRollbackDefinePlayer_Desc,This function defines the object to use for players in rollback multiplayer.,This function defines the object to use for players in rollback multiplayer.,,GML Visual library action description
+GMStdRollbackDefineInput_Name,Define Input (Rollback),Define Input (Rollback),,GML Visual library action name
+GMStdRollbackDefineInput_Desc,This function defines the input to be used by the rollback system.,This function defines the input to be used by the rollback system.,,GML Visual library action description
+GMStdInputStructure,Input Structure,Input Structure,,GML Visual library argument label
+GMStdRollbackDefineMockInput_Name,Define Mock Input (Rollback),Define Mock Input (Rollback),,GML Visual library action name
+GMStdRollbackDefineMockInput_Desc,This function defines the mocked input to be used by the rollback system during sync test.,This function defines the mocked input to be used by the rollback system during sync test.,,GML Visual library action description
+GMStdRollbackPlayerId,Player ID,Player ID,,GML Visual library argument label
+GMStdRollbackDefineInputFrameDelay_Name,Define input frame delay (Rollback),Define input frame delay (Rollback),,GML Visual library action name
+GMStdRollbackDefineInputFrameDelay_Desc,This function sets a fixed local input frame delay.,This function sets a fixed local input frame delay.,,GML Visual library action description
+GMStdRollbackEnabled,Enabled,Enabled,,GML Visual library argument label
+GMStdRollbackStartGame_Name,Start Rollback Game,Start Rollback Game,,GML Visual library action name
+GMStdRollbackStartGame_Desc,This function starts the current game.,This function starts the current game.,,GML Visual library action description
+GMStdRollbackCreateGame_Name,Create Rollback Game,Create Rollback Game,,GML Visual library action name
+GMStdRollbackCreateGame_Desc,This function connects to GXC and creates a game instance of the specified size. The user needs to be signed in to GXC.,This function connects to GXC and creates a game instance of the specified size. The user needs to be signed in to GXC.,,GML Visual library action description
+GMStdRollbackNumPlayers,Count of players,Count of players,,GML Visual library argument label
+GMStdSyncTest,Sync test,Sync test,,GML Visual library argument label
+GMStdRegion,Region,Region,,Region to create a multiplayer game
+GMStdRollbackJoinGame_Name,Join Rollback Game,Join Rollback Game,,GML Visual library action name
+GMStdRollbackJoinGame_Desc,This function checks if the game was started via an invite to a GXC game and if so joins it.,This function checks if the game was started via an invite to a GXC game and if so joins it.,,GML Visual library action description
+GMStdRollbackLeaveGame_Name,Leave Rollback Game,Leave Rollback Game,,GML Visual library action name
+GMStdRollbackLeaveGame_Desc,This function leaves the current game.,This function leaves the current game.,,GML Visual library action description
+GMStdRollbackGetInput_Name,Get Input (Rollback),Get Input (Rollback),,GML Visual library action name
+GMStdRollbackGetInput_Desc,"This function returns a struct containing fields w,a,s,d,z,x,c,space,up,left,down,right and the corresponding last_? fields for last frames input.","This function returns a struct containing fields w,a,s,d,z,x,c,space,up,left,down,right and the corresponding last_? fields for last frames input.",,GML Visual library action description
+GMStdRollbackUseRandomInput_Name,Use Random Input (Rollback),Use Random Input (Rollback),,GML Visual library action name
+GMStdRollbackUseRandomInput_Desc,This function switches random input for other players in sync test.,This function switches random input for other players in sync test.,,GML Visual library action descriptio
+GMStdRollbackDisplayEvents_Name,Display Rollback Events,Display Rollback Events,,GML Visual library action name
+GMStdRollbackDisplayEvents_Desc,This function sets if the default display of rollback events should be used or not. Default value is true.,This function sets if the default display of rollback events should be used or not. Default value is true.,,GML Visual library action description
+GMStdInput,Input,Input,,GML Visual library argument label
+GMStdRollbackIfInputDown_Name,If Key Down (Rollback),If Key Down (Rollback),,GML Visual library action name
+GMStdRollbackIfInputDown_Desc,Check if a key managed by the rollback is pressed down.,Check if a key managed by the rollback is pressed down.,,GML Visual library action description
+GMStdRollbackIfInputUp_Name,If Key Up (Rollback),If Key Up (Rollback),,GML Visual library action name
+GMStdRollbackIfInputUp_Desc,Check if a key managed by the rollback is released.,Check if a key managed by the rollback is released.,,GML Visual library action description
+GMStdRollbackIfInput_Name,If Key Pressed (Rollback),If Key Pressed (Rollback),,GML Visual library action name
+GMStdRollbackIfInput_Desc,Check if a key managed by the rollback is held down.,Check if a key managed by the rollback is held down.,,GML Visual library action description
+GMStdRollbackIfEventFired_Name,If Rollback Event Fired,If Rollback Event Fired,,GML Visual library action name
+GMStdRollbackIfEventFired_Desc,If a rollback event was fired,If a rollback event was fired,,GML Visual library action description
+GMStdRollbackSyncOnFrame_Name,Sync on frame (Rollback),Sync on frame (Rollback),,GML Visual library action name
+GMStdRollbackSyncOnFrame_Desc,"Synchronize the rollback game on the current frame. This means that we will only proceed past the current frame if all inputs are confirmed. Returns true if successful, false if the current frame will be rerun.","Synchronize the rollback game on the current frame. This means that we will only proceed past the current frame if all inputs are confirmed. Returns true if successful, false if the current frame will be rerun.",,GML Visual library action description
+GMStdRollbackGetInfo_Name,Get Rollback Info,Get Rollback Info,,GML Visual library action name
+GMStdRollbackGetInfo_Desc,This function returns a struct containing player_name and avatar_url for the player.,This function returns a struct containing player_name and avatar_url for the player.,,GML Visual library action description
+GMLVisual_Rollback_Synchronizing_With_Peer,Synchronizing With Peer,Synchronizing With Peer,,GML Visual library selection option
+GMLVisual_Rollback_Synchronized_With_Peer,Synchronized With Peer,Synchronized With Peer,,GML Visual library selection option
+GMLVisual_Rollback_Disconnected_From_Peer,Disconnected From Peer,Disconnected From Peer,,GML Visual library selection option
+GMLVisual_Rollback_Game_Interrupted,Game Interrupted,Game Interrupted,,GML Visual library selection option
+GMLVisual_Rollback_Game_Resumed,Game Resumed,Game Resumed,,GML Visual library selection option
+GMLVisual_Rollback_Game_Full,Game Full,Game Full,,GML Visual library selection option
+GMLVisual_Rollback_Game_Info,Game Info,Game Info,,GML Visual library selection option
+GMLVisual_Rollback_Connect_Info,Connect Info,Connect Info,,GML Visual library selection option
+GMStdScript,"Script","Script",,GML Visual library argument label
+GMStdArgument,"Argument","Argument",,GML Visual argument label
+GMStdOptional,"Optional","Optional",,GML Visual optional label
+GMStdDefaultValue,"Value","Value",,GML Visual default value label
+GMStdTarget,"Target","Target",,GML Visual library argument label
+GMStdReturnList,"Return List","Return List",,GML Visual library argument label
+GMStdFreeTarget,"Free Target","Free Target",,GML Visual library argument label
+GMStdObject,"Object","Object",,GML Visual library argument label
+GMStdSequence,"Sequence","Sequence",,GML Visual library argument label
+GMStdX,X,X,,GML Visual library argument label
+GMStdY,Y,Y,,GML Visual library argument label
+GMStdTargetX,Target X,Target X,,GML Visual library argument label
+GMStdTargetY,Target Y,Target Y,,GML Visual library argument label
+GMStdLayer,"Layer","Layer",,GML Visual library argument label
+GMStdAlarm,"Alarm","Alarm",,GML Visual library argument label
+GMStdCountdown,"Countdown","Countdown",,GML Visual library argument label
+GMStdNot,"Not","Not",,GML Visual library argument label
+GMStdExcludeSelf,"Exclude Self","Exclude Self",,GML Visual argument label
+GMStdGamepad,"Gamepad","Gamepad",,GML Visual library argument label
+GMStdThreshold,"Threshold","Threshold",,GML Visual library argument label
+GMStdAxis,"Axis","Axis",,GML Visual library argument labelf
+GMStdTrigger,"Trigger","Trigger",,GML Visual library argument label
+GMStdButton,"Button","Button",,GML Visual library argument label
+GMStdDeadzone,"Deadzone","Deadzone",,GML Visual library argument label
+GMStdAdditiveBlend,Blend,Blend,,GML Visual
+GMStdDirection,"Direction","Direction",,GML Visual library argument label
+GMStdType,"Type","Type",,GML Visual library argument label
+GMStdSpeed,"Speed","Speed",,GML Visual library argument labelG
+GMStdMinSpeed,"Min Speed","Min Speed",,GML Visual library argument label
+GMStdMaxSpeed,"Max Speed","Max Speed",,GML Visual library argument label
+GMStdForce,"Force","Force",,GML Visual library argument label
+GMStdX2,"X2","X2",,GML Visual library argument label
+GMStdY2,"Y2","Y2",,GML Visual library argument label
+GMStdSprite,"Sprite","Sprite",,GML Visual library argument label
+GMStdFrameIndex,"Frame","Frame",,GML Visual library argument label
+GMStdStackOrder,"Stack Order","Stack Order",,GML Visual library argument label
+GMStdNumber,"Number","Number",,GML Visual library argument label
+GMStdLeft,"Left","Left",,GML Visual library argument label
+GMStdTop,"Top","Top",,GML Visual library argument label
+GMStdRight,"Right","Right",,GML Visual library argument label
+GMStdBottom,"Bottom","Bottom",,GML Visual library argument label
+GMStdFill,"Fill","Fill",,GML Visual library argument label
+GMStdBackground,"Background","Background",,GML Visual library argument label
+GMStdMinCol,"Min Colour","Min Colour",,GML Visual library argument label
+GMStdMaxCol,"Max Colour","Max Colour",,GML Visual library argument label
+GMStdFont,"Font","Font",,GML Visual library argument label
+GMStdHAlign,"HAlign","HAlign",,GML Visual library argument label
+GMStdVAlign,"VAlign","VAlign",,GML Visual library argument label
+GMStdLayerName,"Layer","Layer",,GML Visual library argument label
+GMStdTileIndex,"Tile","Tile",,GML Visual library argument label
+GMStdData,Data,Data,,GML Visual label
+GMStdColumn,"Column","Column",,GML Visual library argument label
+GMStdRow,"Row","Row",,GML Visual library argument label
+GMStdScore,"Score","Score",,GML Visual library argument label
+GMStdLives,"Lives","Lives",,GML Visual library argument label
+GMStdHealth,"Health","Health",,GML Visual library argument label
+GMStdGlobal,"Global","Global",,GML Visual library argument label
+GMStdMin,"Minimum","Minimum",,GML Visual library argument label
+GMStdMax,"Maximum","Maximum",,GML Visual library argument label
+GMStdTimes,"Times","Times",,GML Visual library argument label
+GMStdVariable,"Variable","Variable",,GML Visual library argument label
+GMStdTransformation,"Transform","Transform",,GML Visual argument label
+GMStdIs,"Is","Is",,GML Visual library argument label
+GMStdValue,"Value","Value",,GML Visual library argument label
+GMStdValue100,"Value (0-100)","Value (0-100)",,GML Visual
+GMStdConstant,"Constant","Constant",,GML Visual library argument label
+GMStdRounding,"Rounding","Rounding",,GML Visual library argument label
+GMStdWidth,"Width","Width",,GML Visual library argument label
+GMStdHeight,"Height","Height",,GML Visual library argument label
+GMStdStructure,"Structure","Structure",,GML Visual library argument label
+GMStdList,"List","List",,GML Visual library argument label
+GMStdIndex,"Index","Index",,GML Visual library argument label
+GMStdGrid,"Grid","Grid",,GML Visual library argument label
+GMStdStack,"Stack","Stack",,GML Visual library argument label
+GMStdSound,"Sound","Sound",,GML Visual library argument label
+GMStdLoop,"Loop","Loop",,GML Visual library argument label
+GMStdTimeInSecs,"Time In Seconds","Time In Seconds",,GML Visual library argument label
+GMStdPitch,"Pitch","Pitch",,GML Visual library argument label
+GMStdVolume,"Volume","Volume",,GML Visual library argument label
+GMStdRoom,"Room","Room",,GML Visual library argument label
+GMStdFilename,"Filename","Filename",,GML Visual library argument label
+GMStdSection,"Section","Section",,GML Visual library argument label
+GMStdDefault,"Default","Default",,GML Visual library argument label
+GMStdTimeline,"Timeline","Timeline",,GML Visual library argument label
+GMStdMoment,"Moment","Moment",,GML Visual library argument label
+GMStdState,"State","State",,GML Visual library argument label
+GMStdMessage,"Message","Message",,GML Visual library argument label
+GMStdMap,"Map","Map",,GML Visual library argument label
+GMStdKey,"Key","Key",,GML Visual library argument label
+GMStdColorMix,"Colour Mix","Colour Mix",,GML Visual library argument label
+GMStdStart,"Start","Start",,GML Visual library argument label
+GMStdEnd,"End","End",,GML Visual library argument label
+GMStdMinLife,"Min Life","Min Life",,GML Visual library argument label
+GMStdMaxLife,"Max Life","Max Life",,GML Visual library argument label
+GMStdRenderDepth,"Depth","Depth",,GML Visual library argument label
+GMStdShape,"Shape","Shape",,GML Visual library argument label
+GMStdMinSize,"Min Size","Min Size",,GML Visual library argument label
+GMStdMaxSize,"Max Size","Max Size",,GML Visual library argument label
+GMStdIncrease,"Increase","Increase",,GML Visual library argument label
+GMStdWiggle,Wiggle,Wiggle,,GML Visual lib argument label
+GMStdCount,Count,Count,,GML Visual library argument label
+GMStdSecondaryType,Secondary,Secondary,,GML Visual lib argument label
+GMStdEmitter,"Emitter","Emitter",,GML Visual library argument label
+GMStdBurst,"Burst","Burst",,GML Visual library argument label
+GMStdStream,"Stream","Stream",,GML Visual library argument label
+GMStdWhere,"Where","Where",,GML Visual library argument label
+GMStdMinDir,"Min Dir","Min Dir",,GML Visual library argument label
+GMStdMaxDir,"Max Dir","Max Dir",,GML Visual library argument label
+GMStdFriction,"Friction","Friction",,GML Visual library argument label
+GMStdPositionNorm,"Position (0-1)","Position (0-1)",,GML Visual library argument label
+GMStdColor,"Colour","Colour",,GML Visual library argument label
+GMStdHor,"Horizontal","Horizontal",,GML Visual library argument label
+GMStdVer,"Vertical","Vertical",,GML Visual library argument label
+GMStdExpr,"Expression","Expression",,GML Visual library argument label
+GMStdMargin,"Margin","Margin",,GML Visual library argument label
+GMStdOutline,"Outline","Outline",,GML Visual library argument label
+GMStdCaption,"Caption","Caption",,GML Visual library argument label
+GMStdCamera,Camera,Camera,,GML Visual label
+GMStdVisibility,Visibility,Visibility,,GML Visual label
+GMStdParticleSystem,System,System,,GML Visual library argument label
+GMStdParticleType,Type,Type,,GML Visual library argument label
+GMStdFrame,"Frame","Frame",,GML Visual library argument label
+GMStdAngle,"Angle","Angle",,GML Visual library argument labelG
+GMStdMinAngle,Min Angle,Min Angle,,GML Visual
+GMStdMaxAngle,Max Angle,Max Angle,,GML Visual
+GMStdDistribution,Distribution,Distribution,,GML Visual
+GMStdAlpha,"Alpha","Alpha",,GML Visual library argument label
+GMStdAlignment,"Alignment","Alignment",,GML Visual library argument label
+GMStdReturn,"Return","Return",,GML Visual library argument label
+GMStdReturnKey,"Return Key","Return Key",,GML Visual library argument label
+GMStdAutoCapitalization,"Capitalization","Capitalization",,GML Visual library argument label
+GMStdPredictiveText,"Text Prediction","Text Prediction",,GML Visual library argument label
+GMStdRelativeToDir,Relative To Direction,Relative To Direction,,GML Visual
+GMStdMacro,"Macro","Macro",,GML Visual library argument label
+GMStdDirs,"Directions","Directions",,GML Visual library argument label
+GMStdPath,"Path","Path",,GML Visual library argument label
+GMStdOnEnd,"On End","On End",,GML Visual library argument label
+GMStdMouseButton,"Button","Button",,GML Visual library argument label
+GMStdTopLeft,"Top Left","Top Left",,GML Visual library argument label
+GMStdTopRight,"Top Right","Top Right",,GML Visual library argument label
+GMStdBottomLeft,"Bottom Left","Bottom Left",,GML Visual library argument label
+GMStdBottomRight,"Bottom Right","Bottom Right",,GML Visual library argument label
+GMStdCenter,"Center","Center",,GML Visual library argument label
+GMStdEdge,"Edge","Edge",,GML Visual library argument label
+GMStdScaleX,"Scale X","Scale X",,GML Visual library argument label
+GMStdScaleY,"Scale Y","Scale Y",,GML Visual library argument label
+GMStdRotation,"Rotation","Rotation",,GML Visual library argument label
+GMStdName,"Name","Name",,GML Visual library argument label
+GMStdVertically,"Vertical","Vertical",,GML Visual library argument label
+GMStdHorizontally,"Horizontal","Horizontal",,GML Visual library argument label
+GMStdSeqHead,"Head (frames)","Head (frames)",,GML Visual library argument label
+GMStdEqual,Equal,Equal,,GML Visual
+GMStdLess,Less,Less,,GML Visual
+GMStdGreater,Greater,Greater,,GML Visual
+GMStdLessorEqual,Less or Equal,Less or Equal,,GML Visual
+GMStdGreaterorEqual,Greater or Equal,Greater or Equal,,GML Visual
+GMStdString,String,String,,GML Visual
+GMStdResume,Resume,Resume,,GML Visual
+GMStdPaused,Paused,Paused,,GML Visual
+GMStdPause,Pause,Pause,,GML Visual
+GMStdToggle,Toggle,Toggle,,GML Visual
+GMStdWindow,Window,Window,,GML Visual
+GMStdFullscreen,Fullscreen,Fullscreen,,GML Visual
+GMStdSnow,Snow,Snow,,GML Visual
+GMStdRain,Rain,Rain,,GML Visual
+GMStdCloud,Cloud,Cloud,,GML Visual
+GMStdFlare,Flare,Flare,,GML Visual
+GMStdSpark,Spark,Spark,,GML Visual
+GMStdStar,Star,Star,,GML Visual
+GMStdSmokeUp,Smoke Up,Smoke Up,,GML Visual
+GMStdSmoke,Smoke,Smoke,,GML Visual
+GMStdFirework,Firework,Firework,,GML Visual
+GMStdEllipse,Ellipse,Ellipse,,GML Visual
+GMStdRing,Ring,Ring,,GML Visual
+GMStdExplosion,Explosion,Explosion,,GML Visual
+GMStdSphere,Sphere,Sphere,,GML Visual
+GMStdCircle,Circle,Circle,,GML Visual
+GMStdSquare,Square,Square,,GML Visual
+GMStdDisk,Disk,Disk,,GML Visual
+GMStdPixel,Pixel,Pixel,,GML Visual
+GMStdSmall,Small,Small,,GML Visual
+GMStdMedium,Medium,Medium,,GML Visual
+GMStdLarge,Large,Large,,GML Visual
+GMStdBelowObjects,Below Objects,Below Objects,,GML Visual
+GMStdAboveObjects,Above Objects,Above Objects,,GML Visual
+GMStdAlarm0,Alarm 0,Alarm 0,,GML Visual
+GMStdAlarm1,Alarm 1,Alarm 1,,GML Visual
+GMStdAlarm2,Alarm 2,Alarm 2,,GML Visual
+GMStdAlarm3,Alarm 3,Alarm 3,,GML Visual
+GMStdAlarm4,Alarm 4,Alarm 4,,GML Visual
+GMStdAlarm5,Alarm 5,Alarm 5,,GML Visual
+GMStdAlarm6,Alarm 6,Alarm 6,,GML Visual
+GMStdAlarm7,Alarm 7,Alarm 7,,GML Visual
+GMStdAlarm8,Alarm 8,Alarm 8,,GML Visual
+GMStdAlarm9,Alarm 9,Alarm 9,,GML Visual
+GMStdAlarm10,Alarm 10,Alarm 10,,GML Visual
+GMStdAlarm11,Alarm 11,Alarm 11,,GML Visual
+GMStdMiddle,Middle,Middle,,GML Visual
+GMStdAny,Any,Any,,GML Visual
+GMStdNone,None,None,,GML Visual
+GMStdLeftTrigger,Left Trigger,Left Trigger,,GML Visual
+GMStdRightTrigger,Right Trigger,Right Trigger,,GML Visual
+GMStdActionTop,Action Top,Action Top,,GML Visual
+GMStdActionLeft,Action Left,Action Left,,GML Visual
+GMStdActionBottom,Action Bottom,Action Bottom,,GML Visual
+GMStdActionRight,Action Right,Action Right,,GML Visual
+GMStdShoulderLeft,Shoulder Left,Shoulder Left,,GML Visual
+GMStdShoulderRight,Shoulder Right,Shoulder Right,,GML Visual
+GMStdDPadUp,D-Pad Up,D-Pad Up,,GML Visual
+GMStdDPadLeft,D-Pad Left,D-Pad Left,,GML Visual
+GMStdDPadDown,D-Pad Down,D-Pad Down,,GML Visual
+GMStdDPadRight,D-Pad Right,D-Pad Right,,GML Visual
+GMStdLeftStick,Left Stick,Left Stick,,GML Visual
+GMStdRightStick,Right Stick,Right Stick,,GML Visual
+GMStdSelect,Select,Select,,GML Visual
+GMStdGravity,Gravity,Gravity,,GML Visual
+GMStdSize,Size,Size,,GML Visual
+GMStdXAndY,X And Y,X And Y,,GML Visual
+GMStdXOnly,X Only,X Only,,GML Visual
+GMStdYOnly,Y Only,Y Only,,GML Visual
+GMStdRectangle,Rectangle,Rectangle,,GML Visual
+GMStdLine,Line,Line,,GML Visual
+GMStdLeftStickHor,Left Stick (Horizontal),Left Stick (Horizontal),,GML Visual
+GMStdLeftStickVer,Left Stick (Vertical),Left Stick (Vertical),,GML Visual
+GMStdRightStickHor,Right Stick (Horizontal),Right Stick (Horizontal),,GML Visual
+GMStdRightStickVer,Right Stick (Vertical),Right Stick (Vertical),,GML Visual
+GMStdDecimal,Decimal,Decimal,,GML Visual
+GMStdInteger,Integer,Integer,,GML Visual
+GMStdRound,Round,Round,,GML Visual
+GMStdCeil,Ceil,Ceil,,GML Visual
+GMStdFloor,Floor,Floor,,GML Visual
+GMStdStop,Stop,Stop,,GML Visual
+GMStdLinear,Linear,Linear,,GML Visual
+GMStdGaussian,Gaussian,Gaussian,,GML Visual
+GMStdInverseGaussian,Inverse Gaussian,Inverse Gaussian,,GML Visual
+GMStdRestart,Restart,Restart,,GML Visual
+GMStdReverse,Reverse,Reverse,,GML Visual
+GMStdDiamond,Diamond,Diamond,,GML Visual
+GMStdMixed,Mixed,Mixed,,GML Visual
+GMStdChanging,Changing,Changing,,GML Visual
+GMStdFileMode,Mode,Mode,,GML Visual
+GMStdFileMode_Read,Read,Read,,GML Visual
+GMStdFileMode_Write,Write,Write,,GML Visual
+GMStdFileType,Type,Type,,GML Visual
+GMStdFileType_Bin,Binary,Binary,,GML Visual
+GMStdFileType_Text,Text,Text,,GML Visual
+GMStdCopyTo,Copy To,Copy To,,GML Visual
+GMStdNewFilename,New Name,New Name,,GML Visual
+GMStdFile,File,File,,GML Visual
+GMStdBuffer,Buffer,Buffer,,GML Visual
+GMStdSeek,Seek,Seek,,GML Visual
+GMStdRelative,Relative,Relative,,GML Visual argument label
+GMStdAbsolute,Absolute,Absolute,,GML Visual argument label
+GMStdOffset,Offset,Offset,,GML Visual
+GMStdVar_mirror,Mirror,Mirror,,Mirror GML Visual
+GMStdVar_flip,Flip,Flip,,Flip GML Visual
+GMStdVar_bboxleft,Bounding Box Left,Bounding Box Left,,GML Visual label
+GMStdVar_bboxtop,Bounding Box Top,Bounding Box Top,,GML Visual label
+GMStdVar_bboxright,Bounding Box Right,Bounding Box Right,,GML Visual label
+GMStdVar_bboxbottom,Bounding Box Bottom,Bounding Box Bottom,,GML Visual label
+GMStdVar_insequence,In Sequence,In Sequence,,GML Visual label
+GMStdVar_xoffset,Sprite Origin X,Sprite Origin X,,GML Visual label
+GMStdVar_yoffset,Sprite Origin Y,Sprite Origin Y,,GML Visual label
+GMStdVar_rotate,Rotate,Rotate,,Rotate GML Visual
+GMStdVar_xstart,Initial X Coordinate,Initial X Coordinate,,GML Visual
+GMStdVar_ystart,Initial Y Coordinate,Initial Y Coordinate,,GML Visual
+GMStdVar_xprevious,Previous X Coordinate,Previous X Coordinate,,GML Visual
+GMStdVar_yprevious,Previous Y Coordinate,Previous Y Coordinate,,GML Visual
+GMStdVar_x,X Coordinate,X Coordinate,,GML Visual
+GMStdVar_y,Y Coordinate,Y Coordinate,,GML Visual
+GMStdVar_width,Width,Width,,GML Visual
+GMStdVar_height,Height,Height,,GML Visual
+GMStdVar_rows,Rows,Rows,,GML Visual
+GMStdVar_columns,Columns,Columns,,GML Visual
+GMStdVar_tilewidth,Tile Width,Tile Width,,GML Visual
+GMStdVar_tileheight,Tile Height,Tile Height,,GML Visual
+GMStdVar_tileset,Tile Set Resource,Tile Set Resource,,GML Visual
+GMStdVar_frame,Current Frame,Current Frame,,GML Visual
+GMStdVar_tilemask,Mask,Mask,,GML Visual
+GMStdVar_tileglobalmask,Global Mask,Global Mask,,GML Visual
+GMStdVar_hspeed,Horizontal Speed,Horizontal Speed,,GML Visual
+GMStdVar_vspeed,Vertical Speed,Vertical Speed,,GML Visual
+GMStdVar_direction,Direction,Direction,,GML Visual
+GMStdVar_speed,Speed,Speed,,GML Visual
+GMStdVar_friction,Friction,Friction,,GML Visual
+GMStdVar_gravity,Gravity,Gravity,,GML Visual
+GMStdVar_gravity_direction,Gravity Direction,Gravity Direction,,GML Visual
+GMStdVar_visible,Visible,Visible,,GML Visual
+GMStdVar_sprite_index,Sprite,Sprite,,GML Visual
+GMStdVar_image_index,Image Index,Image Index,,GML Visual
+GMStdVar_layer,Layer,Layer,,GML Visual
+GMStdVar_persistent,Persistent,Persistent,,GML Visual
+GMStdVar_mask_index,Mask,Mask,,GML Visual
+GMStdVar_score,Score,Score,,GML Visual
+GMStdVar_lives,Lives,Lives,,GML Visual
+GMStdVar_health,Health,Health,,GML Visual
+GMStdVar_depth,Depth,Depth,,GML Visual
+GMStdVar_image_xscale,Horizontal Scale,Horizontal Scale,,GML Visual
+GMStdVar_image_yscale,Vertical Scale,Vertical Scale,,GML Visual
+GMStdVar_image_angle,Image Rotation,Image Rotation,,GML Visual
+GMStdVar_image_alpha,Image Alpha,Image Alpha,,GML Visual
+GMStdVar_image_blend,Image Blend Colour,Image Blend Colour,,GML Visual
+GMStdVar_xport,Viewport X Coordinate,Viewport X Coordinate,,GML Visual label
+GMStdVar_yport,Viewport Y Coordinate,Viewport Y Coordinate,,GML Visual label
+GMStdVar_wport,Viewport Width,Viewport Width,,GML Visual label
+GMStdVar_hport,Viewport Height,Viewport Height,,GML Visual label
+GMStdVar_surfaceid,Viewport Surface ID,Viewport Surface ID,,GML Visual label
+GMStdCatBuffers,Buffers,Buffers,,GML Visual
+GMStdEvent,Event,Event,,GML Visual
+GMStdPerStep,Per Step,Per Step,,GML Visual
+GMStdOnDeath,On Death,On Death,,GML Visual
+GMStdCallUserEvent_Name,Call User Event,Call User Event,,GML Visual action name
+GMStdCallUserEvent_Desc,Call a user event on an instance.,Call a user event on an instance.,,GML Visual action description
+GMStdInstExists_Name,If Instance Exists,If Instance Exists,,GML Visual action name
+GMStdInstExists_Desc,Checks if an instance exists.,Checks if an instance exists.,,GML Visual action description
+GMStdIfFileExists_Name,If File Exists,If File Exists,,GML Visual action name
+GMStdIfFileExists_Desc,Checks if a file exists.,Checks if a file exists.,,GML Visual action description
+GMStdFileCopy_Name,Copy File,Copy File,,GML Visual action name
+GMStdFileCopy_Desc,Copy a file to a new location.,Copy a file to a new location.,,GML Visual action description
+GMStdFileDelete_Name,Delete File,Delete File,,GML Visual action name
+GMStdFileDelete_Desc,Delete a file.,Delete a file.,,GML Visual action description
+GMStdFileRename_Name,Rename File,Rename File,,GML Visual action name
+GMStdFileRename_Desc,Rename a file.,Rename a file.,,GML Visual action description
+GMStdBufferCreate_Name,Create Buffer,Create Buffer,,GML Visual action name
+GMStdBufferCreate_Desc,Create a buffer.,Create a buffer.,,GML Visual action description
+GMStdBufferCopy_Name,Copy Buffer,Copy Buffer,,GML Visual action name
+GMStdBufferCopy_Desc,Copy a buffer.,Copy a buffer.,,GML Visual action description
+GMStdBufferDelete_Name,Delete Buffer,Delete Buffer,,GML Visual action name
+GMStdBufferDelete_Desc,Delete a buffer.,Delete a buffer.,,GML Visual action description
+GMStdBufferGetSize_Name,Get Buffer Size,Get Buffer Size,,GML Visual action name
+GMStdBufferGetSize_Desc,Get the size of a buffer.,Get the size of a buffer.,,GML Visual action description
+GMStdBufferSeek_Name,Seek Buffer,Seek Buffer,,GML Visual action name
+GMStdBufferSeek_Desc,Seek to a position in a buffer.,Seek to a position in a buffer.,,GML Visual action description
+GMStdBufferGetPosition_Name,Get Buffer Position,Get Buffer Position,,GML Visual action name
+GMStdBufferGetPosition_Desc,Get current position in a buffer.,Get current position in a buffer.,,GML Visual action description
+GMStdBufferLoad_Name,Load Buffer,Load Buffer,,GML Visual action name
+GMStdBufferLoad_Desc,Load a file into a buffer.,Load a file into a buffer.,,GML Visual action description
+GMStdBufferSave_Name,Save Buffer,Save Buffer,,GML Visual action name
+GMStdBufferSave_Desc,Save a buffer to a file.,Save a buffer to a file.,,GML Visual action description
+GMStdBufferRead_Name,Read Buffer,Read Buffer,,GML Visual action name
+GMStdBufferRead_Desc,Read from a buffer.,Read from a buffer.,,GML Visual action description
+GMStdBufferWrite_Name,Write Buffer,Write Buffer,,GML Visual action name
+GMStdBufferWrite_Desc,Write to a buffer.,Write to a buffer.,,GML Visual action description
+GMStdPartTypeSize_Name,Set Particle Size,Set Particle Size,,GML Visual action name
+GMStdPartTypeSize_Desc,Set the size of a particle type.,Set the size of a particle type.,,GML Visual action description
+GMStdPartTypeShape_Name,Set Particle Shape,Set Particle Shape,,GML Visual action name
+GMStdPartTypeShape_Desc,Set the shape of a particle type.,Set the shape of a particle type.,,GML Visual action description
+GMStdPartTypeAlpha_Name,Set Particle Alpha,Set Particle Alpha,,GML Visual action name
+GMStdPartTypeAlpha_Desc,Set the alpha channel of a particle type.,Set the alpha channel of a particle type.,,GML Visual action description
+GMStdPartTypeSprite_Name,Set Particle Sprite,Set Particle Sprite,,GML Visual action name
+GMStdPartTypeSprite_Desc,Set the sprite of a particle type.,Set the sprite of a particle type.,,GML Visual action description
+GMStdPartTypeSpeed_Name,Set Particle Speed,Set Particle Speed,,GML Visual action name
+GMStdPartTypeSpeed_Desc,Set the speed of a particle type.,Set the speed of a particle type.,,GML Visual action description
+GMStdPartTypeDirection_Name,Set Particle Direction,Set Particle Direction,,GML Visual action name
+GMStdPartTypeDirection_Desc,Set the direction of a particle type.,Set the direction of a particle type.,,GML Visual action description
+GMStdPartEmitRegion_Name,Set Emitter Region,Set Emitter Region,,GML Visual action name
+GMStdPartEmitRegion_Desc,Set the region of an emitter.,Set the region of an emitter.,,GML Visual action description
+GMStdBufferEOS_Name,If End Of Buffer,If End Of Buffer,,GML Visual action name
+GMStdBufferEOS_Desc,Checks if the end of a buffer has been reached.,Checks if the end of a buffer has been reached.,,GML Visual action description
+GMStdBufferExists_Name,If Buffer Exists,If Buffer Exists,,GML Visual action name
+GMStdBufferExists_Desc,Checks if a buffer exists.,Checks if a buffer exists.,,GML Visual action description
+GMStdDefault_Name,Default,Default,,GML Visual action name
+GMStdDefault_Desc,A default switch case for when no other case is matched.,A default switch case for when no other case is matched.,,GML Visual action description
+GMStdLoop_Name,Loop,Loop,,GML Visual action name
+GMStdLoop_Desc,A generic loop that continues until a Break action is hit.,A generic loop that continues until a Break action is hit.,,GML Visual action description
+GMStdGetInstanceVar_Name,Get Instance Variable,Get Instance Variable,,GML Visual action name
+GMStdGetInstanceVar_Desc,Get the value of an instance variable.,Get the value of an instance variable.,,GML Visual action description
+GMStdSetInstanceVar_Name,Set Instance Variable,Set Instance Variable,,GML Visual action name
+GMStdSetInstanceVar_Desc,Set the value of an instance variable.,Set the value of an instance variable.,,GML Visual action description
+GMStdPathGetSpeed_Name,Get Path Follow Speed,Get Path Follow Speed,,GML Visual action name
+GMStdPathGetSpeed_Desc,Get the speed of the instance following a path.,Get the speed of the instance following a path.,,GML Visual action description
+GMStdPathGetPosition_Name,Get Position Along Path,Get Position Along Path,,GML Visual action name
+GMStdPathGetPosition_Desc,Get the position of the instance along the path it is following.,Get the position of the instance along the path it is following.,,GML Visual action description
+GMStdConstructor,"Constructor","Constructor",,GML Visual function label for constructor
+GMStdStatic,"Static","Static",,GML Visual function label for static
+GMStdDeclFunction_Desc,"Declare a new function","Declare a new function",,GML Visual declare a new function
+GMStdDeclFunction_Name,"Declare A New Function","Declare A New Function",,GML Visual declare a new function
+GMStdDeclFunction_Story,"Declare a new function ${funcName}","Declare a new function ${funcName}",,GML Visual declare a new function
+GMLVisualManager_UnknownAction,Unknown Action,Unknown Action,,GML Visual Manager action name returned for action that doesnt exist
+GMLVisualEditor_EmptyChain,Empty,Empty,,GML Visual empty chain notice
 SplineEditor_InvalidConvex,Shape is not convex!,Shape is not convex!,,Spline editor non convex shape
 Validation_Error,Validation Error,Validation Error,,title used for validation error windows
 ProgressBar_Load,Loading...,Loading...,,the progress bar caption while loading
 ProgressBar_Extract,Extracting...,Extracting...,,the progress bar caption while extracting
+ProgressBar_CopyFromCache,Copying from cache...,Copying from cache...,,the progress bar caption while copying the imported project from cache into a destination folder
 ProgressBar_Import,Importing...,Importing...,,the progress bar caption while importing
 ProgressBar_Install,Installing...,Installing...,,the progress bar caption while installing
 ProgressBar_Save,Saving...,Saving...,,the progress bar caption while saving
@@ -5429,6 +5536,7 @@ ExtEditor_Tooltip_Remove3rdFramework,Remove selected framework,Remove selected f
 ExtEditor_Tooltip_FrameworkPathOnMac,Full path on Mac to import framework from,Full path on Mac to import framework from,,tooltip
 ExtEditor_Tooltip_AddFrameworkFromMac,Import from Mac,Import from Mac,,tooltip
 ExtEditor_Tooltip_iOS_AddSource,Add local source folder,Add local source folder,,tooltip
+ExtEditor_ToolTip_FuncHidden,Hide functions from auto-complete list,Hide functions from auto-complete list,,tooltip
 DnD_StoryPanel_Empty,An overview will appear here when you add an action,An overview will appear here when you add an action,,Empty panel text
 allowoverlappingchains_description,Workspace chains can overlap,Workspace chains can overlap,,preference description for whether we allow overlapping chains
 IcoFailedLoad,An image in the {0} file failed to load.,An image in the {0} file failed to load.,,Ico image failed to load
@@ -5901,6 +6009,7 @@ iPad,iPad,iPad,DO NOT TRANSLATE,iPad option group subheading
 iPad Retina,iPad Retina,iPad Retina,DO NOT TRANSLATE iPad,iPad Retina option group subheading
 Permissions,Permissions,Permissions,,Permissions option group subheading
 Architecture,Architecture,Architecture,,Architecture option group subheading
+ArchitectureMac,Architecture (Only YYC),Architecture (Only YYC),,Architecture option group subheading
 Android TV,Android TV,Android TV,DO NOT TRANSLATE,Android TV option group subheading
 Google,Google,Google,DO NOT TRANSLATE,Google option group subheading
 Amazon,Amazon,Amazon,DO NOT TRANSLATE,Amazon option group subheading
@@ -6164,6 +6273,7 @@ UserLogin_SaveFailedNoResult,Failed to save licence file {0} - no result,Failed 
 UserLogin_LicenceStatus,Status: {0},Status: {0},,licence status error
 UserLogin_RestartForCustomFeed,You have a new IDE update feed available. \nWould you like to restart and check for updates?,You have a new IDE update feed available. \nWould you like to restart and check for updates?,,message when a user has a custom ide feed available
 SearchResult_Info,{0} at line {1}: \t{2},{0} at line {1}: \t{2},,search result information
+SearchResult_Info_Dnd,{0} at action '{1}': \t{2},{0} at action '{1}': \t{2},,dnd search result information
 UserLogin_ManageDevices,My Account,My Account,,ok button caption for too many devices error
 UserLogin_CommonInternetProblems,"If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker access.\nCheck any antivirus is not blocking GameMaker access.\nCheck any proxy or VPN is not blocking GameMaker access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2","If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker access.\nCheck any antivirus is not blocking GameMaker access.\nCheck any proxy or VPN is not blocking GameMaker access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2",,Common steps to try for internet connection failures
 RSS_Download_Exception,Could not reach the RSS feed,Could not reach the RSS feed,,A message which is shown when the RSS feed is not accessible
@@ -7030,6 +7140,7 @@ ConfigurationProblem_XboxOneSDK,Configuration Problem : Xbox One SDK Directory n
 ConfigurationProblem_XboxOneSDKVersion,Configuration Problem : Xbox One SDK Version does not match {0}. Check your Preferences.,Configuration Problem : Xbox One SDK Version does not match {0}. Check your Preferences.,,Configuration Problem : Xbox One SDK Version does not match
 ConfigurationProblem_XboxOneSDKDir,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.,,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.
 ConfigurationProblem_XboxOneVSPath,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
+ConfigurationProblem_XboxSeriesXSSDKVersion,Configuration Problem : Xbox One & Series X/S SDK Version does not match {0}. Check your Preferences.,Configuration Problem : Xbox One & Series X/S SDK Version does not match {0}. Check your Preferences.,,Configuration Problem : Xbox One & Series X/S SDK Version does not match
 Provisioning,Provisioning,Provisioning,DO NOT TRANSLATE,tvOS provisioning preference group subheading
 Base_Unit_Memory,PS4 Base Memory,PS4 Base Memory,,title for options related to memory pool sizes
 Neo_Memory,PS4 Pro Memory,PS4 Pro Memory,,title for options related to memory pool sizes
@@ -7217,6 +7328,7 @@ Highlighting,Highlighting,Highlighting,,Highlighting preference group heading
 Message Severity,Message Severity,Message Severity,,Message Severity group heading
 Naming Rules,Naming Rules,Naming Rules,,Naming Rules group heading
 Feather_NameBlocklist,Identifier Blocklist,Identifier Blocklist,,Identifier Blocklist
+Feather_GM2017Help,GM2017 Message Severity must not be set to Ignore for these to take effect,GM2017 Message Severity must not be set to Ignore for these to take effect,,GM2017 Message Severity must not be set to Ignore for these to take effect
 InstanceVariableNameRule,Instance Variable Naming Rule,Instance Variable Naming Rule,,Instance Variable Naming Rule
 LocalVariableNameRule,Local Variable Naming Rule,Local Variable Naming Rule,,Local Variable Naming Rule
 ParamVariableNameRule,Function Parameter Naming Rule,Function Parameter Naming Rule,,Function Parameter Naming Rule
@@ -7261,6 +7373,7 @@ GMStdCallback,"Callback","Callback",,DnD library argument label
 GMStdArguments,"Arguments","Arguments",,DnD library argument label
 GMStdReps,"Repetitions","Repetitions",,DnD library argument label
 GMStdExpiryType,"Expiry Type","Expiry Type",,DnD library argument label
+GMStdDestroyTree,"Destroy Tree","Destroy Tree",,DnD library argument label
 GMStdVar_time_source_global,"Global Time Source","Global Time Source",,DnD argument value
 GMStdVar_time_source_game,"Game Time Source","Game Time Source",,DnD argument value
 GMStdVar_time_source_units_seconds,"Seconds","Seconds",,DnD argument value
@@ -7276,7 +7389,8 @@ GMStdTimeSourceCreate_Desc,"Create a time source.","Create a time source.",,DnD 
 GMStdTimeSourceCreate_Story,"Create a time source and assign it to ${idx}","Create a time source and assign it to ${idx}",,DnD story text
 GMStdTimeSourceDestroy_Name,"Destroy Time Source","Destroy Time Source",,DnD action name
 GMStdTimeSourceDestroy_Desc,"Destroy a time source.","Destroy a time source.",,DnD action description
-GMStdTimeSourceDestroy_Story,"Destroy time source ${idx}","Destroy time source ${idx}",,DnD story text
+GMStdTimeSourceDestroy_Story_1,"Destroy time source ${idx}","Destroy time source ${idx}",,DnD story text
+GMStdTimeSourceDestroy_Story_2,"Destroy all time sources in the tree with time source ${idx} as its root","Destroy all time sources in the tree with time source ${idx} as its root",,DnD story text
 GMStdTimeSourceStart_Name,"Start Time Source","Start Time Source",,DnD action name
 GMStdTimeSourceStart_Desc,"Start a time source.","Start a time source.",,DnD action description
 GMStdTimeSourceStart_Story,"Start time source ${idx}","Start time source ${idx}",,DnD story text
@@ -7286,6 +7400,9 @@ GMStdTimeSourceStop_Story,"Stop time source ${idx}","Stop time source ${idx}",,D
 GMStdTimeSourcePause_Name,"Pause Time Source","Pause Time Source",,DnD action name
 GMStdTimeSourcePause_Desc,"Pause a time source.","Pause a time source.",,DnD action description
 GMStdTimeSourcePause_Story,"Pause time source ${idx}","Pause time source ${idx}",,DnD story text
+GMStdTimeSourceResume_Name,"Resume Time Source","Resume Time Source",,DnD action name
+GMStdTimeSourceResume_Desc,"Resume a time source.","Resume a time source.",,DnD action description
+GMStdTimeSourceResume_Story,"Resume time source ${idx}","Resume time source ${idx}",,DnD story text
 GMStdTimeSourceReset_Name,"Reset Time Source","Reset Time Source",,DnD action name
 GMStdTimeSourceReset_Desc,"Reset a time source.","Reset a time source.",,DnD action description
 GMStdTimeSourceReset_Story,"Reset time source ${idx}","Reset time source ${idx}",,DnD story text
@@ -7978,4 +8095,15 @@ RedefineKeys_FontEditor,Font Editor,Font Editor,,Redefine keys location entry
 RedefineKeys_SoundEditor,Sound Editor,Sound Editor,,Redefine keys location entry
 RedefineKeys_SoundMixer,Sound Mixer,Sound Mixer,,Redefine keys location entry
 RedefineKeys_Command,Command,Command,,Redefine keys Command label
+RedefineKeys_workspace_chain_move_up,Move to next window up,Move to next window up,,Redefine Keys label for moving the workspace chain
+RedefineKeys_workspace_chain_move_down,Move to next window down,Move to next window down,,Redefine Keys label for moving the workspace chain
+RedefineKeys_workspace_chain_move_left,Move to next window left,Move to next window left,,Redefine Keys label for moving the workspace chain
+RedefineKeys_workspace_chain_move_right,Move to next window right,Move to next window right,,Redefine Keys label for moving the workspace chain
+RedefineKeys_workspace_chain_move_up_left,Move to next window up and left,Move to next window up and left,,Redefine Keys label for moving the workspace chain
+RedefineKeys_workspace_chain_move_down_left,Move to next window down and left,Move to next window down and left,,Redefine Keys label for moving the workspace chain
+RedefineKeys_workspace_chain_move_up_right,Move to next window up and right,Move to next window up and right,,Redefine Keys label for moving the workspace chain
+RedefineKeys_workspace_chain_move_down_right,Move to next window down and right,Move to next window down and right,,Redefine Keys label for moving the workspace chain
+RedefineKeys_zoom_and_pan_to_gadget,Pan and zoom in on the active window,Pan and zoom in on the active window,,Redefine Keys label to pan and zoom in on the active window
 RedefineKeys_Keys,Keys,Keys,,Redefine keys Keys label
+DeviceManager_Name_Already_Taken,A device with this name has already been created.,A device with this name has already been created.,,Device manager name already taken error message
+GMStdTime,Time,Time,,DnD library argument label
