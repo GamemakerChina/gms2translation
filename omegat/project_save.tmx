@@ -2702,6 +2702,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Destroy Tree"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055800Z" creationid="LiarOnce" creationdate="20220730T055800Z">
+        <seg>"销毁树"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Destroy a particle emitter."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T132252Z" creationid="liaronce" creationdate="20210228T132252Z">
@@ -2722,6 +2730,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T121032Z">
         <seg>"销毁某个位置的所有实例。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Destroy all time sources in the tree with time source ${idx} as its root"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055805Z" creationid="LiarOnce" creationdate="20220730T055805Z">
+        <seg>“销毁树中以时间源${idx}为根的所有时间源”</seg>
       </tuv>
     </tu>
     <tu>
@@ -11630,6 +11646,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Resume Time Source"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055809Z" creationid="LiarOnce" creationdate="20220730T055809Z">
+        <seg>“继续时间源”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Resume a time source."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055821Z" creationid="LiarOnce" creationdate="20220730T055811Z">
+        <seg>“继续一个时间源。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Resume all audio on ${applyto}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210304T131949Z">
@@ -11690,6 +11722,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T130835Z" creationid="liaronce" creationdate="20210228T130835Z">
         <seg>"恢复所有的暂停音频的播放。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Resume time source ${idx}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055840Z" creationid="LiarOnce" creationdate="20220730T055813Z">
+        <seg>“恢复时间源 ${idx}”</seg>
       </tuv>
     </tu>
     <tu>
@@ -14486,6 +14526,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set volume of audio ${sound} to ${volume} over ${time} milliseconds on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T060141Z" creationid="LiarOnce" creationdate="20220730T060141Z">
+        <seg>"在 ${applyto} 上将音频 ${sound} 的音量设置为 ${volume} 超过 ${time} 毫秒"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set volume of audio ${sound} to ${volume} over ${time} milliseconds"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T060124Z" creationid="LiarOnce" creationdate="20220730T060124Z">
+        <seg>"在 ${time} 毫秒内将音频 ${sound} 的音量设置为 ${volume}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set volume of audio ${sound} to ${volume}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210304T132000Z">
@@ -15178,6 +15234,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T120252Z">
         <seg>"切换"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Synchronize the rollback game on the current frame.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055523Z" creationid="LiarOnce" creationdate="20220730T055523Z">
+        <seg>“在当前帧上同步回滚游戏。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17498,6 +17562,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T090153Z" creationid="deciia" creationdate="20170303T150808Z">
         <seg>当没有其他情形匹配时的默认情形。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A device with this name has already been created.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T060106Z" creationid="LiarOnce" creationdate="20220730T060106Z">
+        <seg>已创建具有此名称的设备。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20791,6 +20863,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T082543Z" creationid="deciia" creationdate="20180922T082543Z">
         <seg>架构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Architecture (Only YYC)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055649Z" creationid="LiarOnce" creationdate="20220730T055649Z">
+        <seg>架构 (仅 YYC)</seg>
       </tuv>
     </tu>
     <tu>
@@ -25210,10 +25290,26 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Check if a key managed by the rollback is held down.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055455Z" creationid="LiarOnce" creationdate="20220730T055455Z">
+        <seg>检查是否按下了回滚管理的键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Check if a key managed by the rollback is pressed down.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055144Z" creationid="LiarOnce" creationdate="20220730T055144Z">
         <seg>检查是否按下回滚管理的键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Check if a key managed by the rollback is released.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055446Z" creationid="LiarOnce" creationdate="20220730T055446Z">
+        <seg>检查回滚管理的密钥是否被释放。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27426,6 +27522,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Configuration Problem : Xbox One &amp; Series X/S SDK Version does not match {0}.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055733Z" creationid="LiarOnce" creationdate="20220730T055733Z">
+        <seg>配置问题：Xbox One和系列X/S SDK版本与 {0} 不匹配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Configuration Problem : Xbox One SDK Directory not found.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T024846Z" creationid="deciia" creationdate="20180922T104046Z">
@@ -27543,6 +27647,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T073611Z" creationid="deciia" creationdate="20180922T073611Z">
         <seg>连接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Connect Info</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055630Z" creationid="LiarOnce" creationdate="20220730T055630Z">
+        <seg>连接信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -28313,6 +28425,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T064237Z" creationid="deciia" creationdate="20170102T064237Z">
         <seg>复制文件...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Copying from cache...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055633Z" creationid="LiarOnce" creationdate="20220730T055633Z">
+        <seg>正在从缓存中复制...</seg>
       </tuv>
     </tu>
     <tu>
@@ -32009,6 +32129,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T064627Z" creationid="deciia" creationdate="20180922T064627Z">
         <seg>丢弃收集的数据并结束调试会话。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Disconnected From Peer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055552Z" creationid="LiarOnce" creationdate="20220730T055552Z">
+        <seg>与对等设备断开连接</seg>
       </tuv>
     </tu>
     <tu>
@@ -38641,6 +38769,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GM2017 Message Severity must not be set to Ignore for these to take effect</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055740Z" creationid="LiarOnce" creationdate="20220730T055740Z">
+        <seg>GM2017 消息严重性不得设置为忽略以使这些生效</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GML</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135348Z" creationid="liaronce" creationdate="20191117T135348Z">
@@ -38891,6 +39027,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Game Full</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055627Z" creationid="LiarOnce" creationdate="20220730T055627Z">
+        <seg>游戏完整</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Game GUID</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T094025Z" creationid="deciia" creationdate="20170105T070311Z">
@@ -38903,6 +39047,22 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170317T133654Z" creationid="deciia" creationdate="20170105T070305Z">
         <seg>游戏标识号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Game Info</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055628Z" creationid="LiarOnce" creationdate="20220730T055628Z">
+        <seg>游戏信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Game Interrupted</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055616Z" creationid="LiarOnce" creationdate="20220730T055616Z">
+        <seg>游戏中断</seg>
       </tuv>
     </tu>
     <tu>
@@ -38935,6 +39095,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140403Z" creationid="liaronce" creationdate="20191118T140403Z">
         <seg>游戏预览</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Game Resumed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055624Z" creationid="LiarOnce" creationdate="20220730T055618Z">
+        <seg>游戏继续</seg>
       </tuv>
     </tu>
     <tu>
@@ -39731,6 +39899,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T041421Z" creationid="deciia" creationdate="20170212T041421Z">
         <seg>获取一个随机数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get Rollback Info</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055532Z" creationid="LiarOnce" creationdate="20220730T055532Z">
+        <seg>获取回滚信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -42928,6 +43104,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Hide functions from auto-complete list</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055636Z" creationid="LiarOnce" creationdate="20220730T055636Z">
+        <seg>从自动完成列表中隐藏函数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Hide the virtual keyboard.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T044036Z" creationid="deciia" creationdate="20180922T044036Z">
@@ -44692,10 +44876,26 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If Key Pressed (Rollback)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055509Z" creationid="LiarOnce" creationdate="20220730T055509Z">
+        <seg>如果按下键 (回滚)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If Key Released</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T043655Z" creationid="deciia" creationdate="20170107T064631Z">
         <seg>如果键位松开</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If Key Up (Rollback)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055502Z" creationid="LiarOnce" creationdate="20220730T055423Z">
+        <seg>如果键释放 (回滚)</seg>
       </tuv>
     </tu>
     <tu>
@@ -44736,6 +44936,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T050937Z" creationid="deciia" creationdate="20180922T044548Z">
         <seg>如果物体位于</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If Rollback Event Fired</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055516Z" creationid="LiarOnce" creationdate="20220730T055516Z">
+        <seg>如果触发回滚事件</seg>
       </tuv>
     </tu>
     <tu>
@@ -44792,6 +45000,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T044124Z" creationid="deciia" creationdate="20180922T044124Z">
         <seg>如果虚拟键盘正在显示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If a rollback event was fired</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055517Z" creationid="LiarOnce" creationdate="20220730T055517Z">
+        <seg>如果触发了回滚事件</seg>
       </tuv>
     </tu>
     <tu>
@@ -52422,6 +52638,70 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Move to next window down</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T060002Z" creationid="LiarOnce" creationdate="20220730T055949Z">
+        <seg>移至下一个窗口下方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Move to next window down and left</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T060047Z" creationid="LiarOnce" creationdate="20220730T060047Z">
+        <seg>移至下一个窗口左下方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Move to next window down and right</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T060100Z" creationid="LiarOnce" creationdate="20220730T060100Z">
+        <seg>移至下一个窗口右下方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Move to next window left</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T060021Z" creationid="LiarOnce" creationdate="20220730T060021Z">
+        <seg>移至下一个窗口左方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Move to next window right</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T060029Z" creationid="LiarOnce" creationdate="20220730T060029Z">
+        <seg>移至下一个窗口右方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Move to next window up</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055946Z" creationid="LiarOnce" creationdate="20220730T055946Z">
+        <seg>移至下一个窗口上方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Move to next window up and left</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T060038Z" creationid="LiarOnce" creationdate="20220730T060038Z">
+        <seg>移至下一个窗口左上方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Move to next window up and right</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T060055Z" creationid="LiarOnce" creationdate="20220730T060055Z">
+        <seg>移至下一个窗口右上方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Movement</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T054018Z" creationid="deciia" creationdate="20170107T054018Z">
@@ -55971,6 +56251,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T135306Z" creationid="deciia" creationdate="20170103T025922Z">
         <seg>平移到路径位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Pan and zoom in on the active window</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T060103Z" creationid="LiarOnce" creationdate="20220730T060103Z">
+        <seg>在活动窗口上平移和放大</seg>
       </tuv>
     </tu>
     <tu>
@@ -61322,6 +61610,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T042301Z" creationid="deciia" creationdate="20170107T060234Z">
         <seg>返回某一物体处于活跃状态的实例数量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Returns true if successful, false if the current frame will be rerun."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055530Z" creationid="LiarOnce" creationdate="20220730T055530Z">
+        <seg>如果成功则返回 true，如果当前帧将重新运行则返回 false。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -71462,6 +71758,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sync on frame (Rollback)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055520Z" creationid="LiarOnce" creationdate="20220730T055520Z">
+        <seg>帧同步 (回滚)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sync test</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T053407Z" creationid="LiarOnce" creationdate="20220730T053407Z">
@@ -71490,6 +71794,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124428Z" creationid="liaronce" creationdate="20220202T124428Z">
         <seg>同步</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Synchronized With Peer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055542Z" creationid="LiarOnce" creationdate="20220730T055542Z">
+        <seg>与对等设备同步</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Synchronizing With Peer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055606Z" creationid="LiarOnce" creationdate="20220730T055536Z">
+        <seg>与对等设备同步中</seg>
       </tuv>
     </tu>
     <tu>
@@ -73673,6 +73993,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This function returns a struct containing player_name and avatar_url for the player.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055534Z" creationid="LiarOnce" creationdate="20220730T055534Z">
+        <seg>此函数返回一个包含播放器的 player_name 和 avatar_url 的结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This function sets a fixed local input frame delay.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T053327Z" creationid="LiarOnce" creationdate="20220730T053327Z">
@@ -73839,6 +74167,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T102345Z" creationid="lazyeo" creationdate="20191120T102345Z">
         <seg>这意味着它可能存在BUG甚至破坏你现有的项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This means that we will only proceed past the current frame if all inputs are confirmed.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055526Z" creationid="LiarOnce" creationdate="20220730T055526Z">
+        <seg>这意味着，如果所有输入都已确认，我们将只跳过当前帧。</seg>
       </tuv>
     </tu>
     <tu>
@@ -74583,6 +74919,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170104T033316Z">
         <seg>Tile 贴图集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Time</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T060109Z" creationid="LiarOnce" creationdate="20220730T060109Z">
+        <seg>时间</seg>
       </tuv>
     </tu>
     <tu>
@@ -81933,6 +82277,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115146Z" creationid="liaronce" creationdate="20201124T115146Z">
         <seg>{0} [{1}] - 摄影表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0} at action '{1}': \t{2}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055726Z" creationid="LiarOnce" creationdate="20220730T055726Z">
+        <seg>动作 '{1}' 的 {0}：\t{2}</seg>
       </tuv>
     </tu>
     <tu>
