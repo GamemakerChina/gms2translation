@@ -1,4 +1,4 @@
-﻿Name,English,Translation,Restrictions,Comment
+Name,English,Translation,Restrictions,Comment
 __Priority,0,0,,Order of language importance. Allows other packs to supplement or replace sections
 _Argument0,{0},{0},,single unlocalised argument
 _Error,Error: {0},Error: {0},,General error prefix
@@ -358,13 +358,13 @@ Event_Mouse_MouseLeave,Mouse Leave,Mouse Leave,,Mouse event subtype
 Event_Mouse_MouseWheelDown,Mouse Wheel Down,Mouse Wheel Down,,Mouse event subtype
 Event_Mouse_MouseWheelUp,Mouse Wheel Up,Mouse Wheel Up,,Mouse event subtype
 Event_Mouse_NoButton,No Mouse Input,No Mouse Input,,Mouse event subtype
-DnD_Event_Mouse_Any,Any Button,Any Button,,Mouse event subtype
-DnD_Event_Mouse_None,No Button,No Button,,Mouse event subtype
-DnD_Event_Mouse_Left,Left,Left,,Mouse event subtype
-DnD_Event_Mouse_Right,Right,Right,,Mouse event subtype
-DnD_Event_Mouse_Middle,Middle,Middle,,Mouse event subtype
-DnD_Event_Mouse_Side1,Side 1,Side 1,,Mouse event subtype
-DnD_Event_Mouse_Side2,Side 2,Side 2,,Mouse event subtype
+GMLVisual_Event_Mouse_Any,Any Button,Any Button,,Mouse event subtype
+GMLVisual_Event_Mouse_None,No Button,No Button,,Mouse event subtype
+GMLVisual_Event_Mouse_Left,Left,Left,,Mouse event subtype
+GMLVisual_Event_Mouse_Right,Right,Right,,Mouse event subtype
+GMLVisual_Event_Mouse_Middle,Middle,Middle,,Mouse event subtype
+GMLVisual_Event_Mouse_Side1,Side 1,Side 1,,Mouse event subtype
+GMLVisual_Event_Mouse_Side2,Side 2,Side 2,,Mouse event subtype
 Event_Mouse_RightButton,Right Down,Right Down,,Mouse event subtype
 Event_Mouse_RightPressed,Right Pressed,Right Pressed,,Mouse event subtype
 Event_Mouse_RightReleased,Right Released,Right Released,,Mouse event subtype
@@ -767,7 +767,7 @@ GadgetToolbox_ResourceObjectIcon,Object Icon,Object Icon,,Gadget toolbox display
 GadgetToolbox_ResourceTileSetIcon,Tile Set Icon,Tile Set Icon,,Gadget toolbox display for the tileset icon
 GadgetToolbox_SpriteSelector,Sprite Selector,Sprite Selector,,Gadget toolbox display for the sprite selector
 GadgetToolbox_Resources,Resources,Resources,,Gadget toolbox heading for the resources group
-GadgetToolbox_DnD,GML Visual,GML Visual,,Gadget toolbox heading for the Drag and Drop group
+GadgetToolbox_GMLVisual,GML Visual,GML Visual,,Gadget toolbox heading for the GML Visual group
 Game_Options,Game Options - {0},Game Options - {0},,Takes platform argument to show type of Game Options being displayed
 AddOns,Add-ons,Add-ons,,Add-ons node label
 GameOptions_AddOns_Label,Add one or more add-ons to this project,Add one or more add-ons to this project,,Add addon to this project label
@@ -1100,11 +1100,8 @@ IncludedFilesPlatform_Windows_Phone_8_YYC,Windows Phone 8 (YYC),Windows Phone 8 
 IncludedFilesPlatform_Windows_YYC,Windows (YYC),Windows (YYC),DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Windows8_Javascript,Windows 8 (Javascript),Windows 8 (Javascript),DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Windows8_Native,Windows 8 (Native),Windows 8 (Native),DO NOT TRANSLATE,included files platform list entry
-IncludedFilesPlatform_XBox_One,Xbox One (Legacy/XDK),Xbox One (Legacy/XDK),DO NOT TRANSLATE,included files platform list entry
-IncludedFilesPlatform_XBox_One_YYC,Xbox One (Legacy/XDK) (YYC),Xbox One (Legacy/XDK) (YYC),DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Xbox_Series_XS,Xbox One & Series X/S,Xbox One & Series X/S,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Xbox_Series_XS_YYC,Xbox One & Series X/S (YYC),Xbox One & Series X/S (YYC),DO NOT TRANSLATE,included files platform list entry
-IncludedFilesPlatform_Windows_UWP,Windows UWP,Windows UWP,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_Android_TV,Android TV,Android TV,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_TV_OS,tvOS,tvOS,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_AmazonFire,Amazon Fire,Amazon Fire,DO NOT TRANSLATE,Amazon Fire platform list entry
@@ -1345,9 +1342,9 @@ ObjectEditor_Box,Box,Box,,Object editor collision shape box
 ObjectEditor_ChangeEvent,Change Event,Change Event,,Object editor change event menu option
 ObjectEditor_ChangeEventExistsTitle,Cannot change event,Cannot change event,,Object Editor tried to change an event to one that already exists
 ObjectEditor_ChangeEventExistsMessage,The Event cannot be changed to an existing Event.,The Event cannot be changed to an existing Event.,,Object Editor tried to change an event to one that already exists
-ObjectEditor_ConvertEventType,Convert to {0},Convert to {0},,Change the event from DnD to script or from script to DnD
+ObjectEditor_ConvertEventType,Convert to {0},Convert to {0},,Change the event from GML Visual to script or from script to GML Visual
 ObjectEditor_EventTypeScript,GML Code,GML Code,,Event type when script
-ObjectEditor_EventTypeDnD,GML Visual,GML Visual,,Event type when DnD
+ObjectEditor_EventTypeGMLVisual,GML Visual,GML Visual,,Event type when GML Visual
 ObjectEditor_Children,Children,Children,,Children label in Object Editor
 ObjectEditor_Circle,Circle,Circle,,Object editor collision shape circle
 ObjectEditor_CodeWindow,Code,Code,,object editor code window heading
@@ -1478,8 +1475,8 @@ ResourceNode_AddFromDefault,Add From Default View,Add From Default View,,submenu
 ResourceNode_RemoveFromView,Remove From Current View,Remove From Current View,,Resource Tree - remove a resource from the current view
 ResourceNode_RemoveFromView_Confirm,You are about to remove ""{0}"" from view ""{1}"". Continue?,You are about to remove ""{0}"" from view ""{1}"". Continue?,,Resource Tree - confirmation of removal from the current view
 ResourceNode_Create,Create,Create,,Resource Tree node menu - create resource
-ResourceNode_DndToScript,Convert to GML Code,Convert to GML Code,,Resource Tree node menu - Dnd To GML
-ResourceNode_ScriptToDnd,Convert to GML Visual,Convert to GML Visual,,Resource Tree node menu - Script To Dnd
+ResourceNode_GMLVisualToScript,Convert to GML Code,Convert to GML Code,,Resource Tree node menu - GML Visual To GML
+ResourceNode_ScriptToGMLVisual,Convert to GML Visual,Convert to GML Visual,,Resource Tree node menu - Script To GML Visual
 ResourceNode_CreateChild,Create Child,Create Child,,Resource tree context menu label for creating a child resource of the selected node
 ResourceNode_CreateDataFile,Create Included File,Create Included File,,Resource Tree node menu - create included file
 ResourceNode_Delete,Delete,Delete,,Resource Tree node menu - delete resource
@@ -1698,6 +1695,7 @@ ROOM_EFFECTS_filter_posterise,Posterise,Posterise,,posterise filter name
 ROOM_EFFECTS_Colour Levels,Colour Levels,Colour Levels,,colour levels param
 ROOM_EFFECTS_filter_tintfilter,Colour Tint,Colour Tint,,colour tint filter name
 ROOM_EFFECTS_Tint colour,Tint Colour,Tint Colour,,tint colour parameter name
+ROOM_EFFECTS_Tint Colour,Tint Colour,Tint Colour,,tint colour parameter name
 ROOM_EFFECTS_filter_underwater,Underwater,Underwater,,underwater filter name
 ROOM_EFFECTS_Glint Colour,Glint Colour,Glint Colour,,glint colour parameter name
 ROOM_EFFECTS_Add Colour,Add Colour,Add Colour,,add colour parameter name
@@ -1721,6 +1719,8 @@ ROOM_EFFECTS_Angle,Angle,Angle,,angle filter param
 ROOM_EFFECTS_filter_dots,Dots Background,Dots Background,,dots backgroundfilter name
 ROOM_EFFECTS_Spacing,Spacing,Spacing,,spacing param
 ROOM_EFFECTS_Size,Size,Size,,size param
+ROOM_EFFECTS_Size_0,Size 1,Size 1,,size param min
+ROOM_EFFECTS_Size_1,Size 2,Size 2,,size param max
 ROOM_EFFECTS_Displacement,Displacement,Displacement,,displacement param
 ROOM_EFFECTS_Animation Speed,Animation Speed,Animation Speed,,animation speed param
 ROOM_EFFECTS_Colour Speed,Colour Speed,Colour Speed,,colour speed param
@@ -1784,19 +1784,43 @@ ROOM_EFFECTS_Particle drag,Particle drag,Particle drag,,particle drag param name
 ROOM_EFFECTS_Gravity,Gravity,Gravity,,gravity param name
 ROOM_EFFECTS_Enable debug mode,Enable debug mode,Enable debug mode,,enable debug mode param name
 ROOM_EFFECTS_filter_boxes,Boxes,Boxes,,boxes filter name
-ROOM_EFFECTS_Rotation Speed,Rotation Speed,Rotation Speed,,rotation speed filter param
+ROOM_EFFECTS_Rotation Speed_0,Rotation Speed 1,Rotation Speed 1,,rotation speed filter param 1
+ROOM_EFFECTS_Rotation Speed_1,Rotation Speed 2,Rotation Speed 2,,rotation speed filter param 2
 ROOM_EFFECTS_Roundness,Roundness,Roundness,,roundness filter param
 ROOM_EFFECTS_filter_colour_balance,Colour Balance,Colour Balance,,colour balance filter name
-ROOM_EFFECTS_Shadows RGB,Shadows RGB,Shadows RGB,,shadows rgb filter param
-ROOM_EFFECTS_Midtones RGB,Midtones RGB,Midtones RGB,,midtones rgb filter param
-ROOM_EFFECTS_Highlights RGB,Highlights RGB,Highlights RGB,,highlights rgb filter param
+ROOM_EFFECTS_Shadows RGB_0,Shadows R,Shadows R,,shadows rgb filter param red
+ROOM_EFFECTS_Shadows RGB_1,Shadows G,Shadows G,,shadows rgb filter param green
+ROOM_EFFECTS_Shadows RGB_2,Shadows B,Shadows B,,shadows rgb filter param blue
+ROOM_EFFECTS_Midtones RGB_0,Midtones R,Midtones R,,midtones rgb filter param red
+ROOM_EFFECTS_Midtones RGB_1,Midtones G,Midtones G,,midtones rgb filter param green
+ROOM_EFFECTS_Midtones RGB_2,Midtones B,Midtones B,,midtones rgb filter param blue
+ROOM_EFFECTS_Highlights RGB_0,Highlights R,Highlights R,,highlights rgb filter param red
+ROOM_EFFECTS_Highlights RGB_1,Highlights G,Highlights G,,highlights rgb filter param green
+ROOM_EFFECTS_Highlights RGB_2,Highlights B,Highlights B,,highlights rgb filter param blue
 ROOM_EFFECTS_filter_rgbnoise,RGB Noise,RGB Noise,,rgb noise filter name
 ROOM_EFFECTS_filter_vignette,Vignette,Vignette,,vignette filter name
-ROOM_EFFECTS_Edges,Edges,Edges,,edges filter param
+ROOM_EFFECTS_Edges_0,Edges 1,Edges 1,,edges filter param 1
+ROOM_EFFECTS_Edges_1,Edges 2,Edges 2,,edges filter param 2
 ROOM_EFFECTS_Vignette Texture,Vignette Texture,Vignette Texture,,vignette texture filter param
 ROOM_EFFECTS_filter_zoom_blur,Zoom Blur,Zoom Blur,,zoom blur filter name
-ROOM_EFFECTS_Position,Position,Position,,position filter param
+ROOM_EFFECTS_Position_0,Position 1,Position 1,,position filter param
+ROOM_EFFECTS_Position_1,Position 2,Position 2,,position filter param
 ROOM_EFFECTS_Focus Radius,Focus Radius,Focus Radius,,focus radius filter param
+ROOM_EFFECTS_filter_contrast,Contrast,Contrast,,contrast filter name
+ROOM_EFFECTS_Contrast,Contrast,Contrast,,contrast filter param
+ROOM_EFFECTS_Brightness,Brightness,Brightness,,brightness filter param
+ROOM_EFFECTS_filter_fractal_noise,Fractal Noise,Fractal Noise,,Fractal Noise filter name
+ROOM_EFFECTS_Persistence,Persistence,Persistence,,persistence filter param
+ROOM_EFFECTS_filter_gradient,Gradient,Gradient,,gradient filter name
+ROOM_EFFECTS_Start Colour,Start Colour,Start Colour,,start colour filter param
+ROOM_EFFECTS_End Colour,End Colour,End Colour,,end colour filter param
+ROOM_EFFECTS_Start Point,Start Point,Start Point,,start point filter param
+ROOM_EFFECTS_End Point,End Point,End Point,,end point filter param
+ROOM_EFFECTS_Gradient Mode,Gradient Mode,Gradient Mode,,gradient mode filter param
+ROOM_EFFECTS_filter_lut_colour,LUT Colour Grading,LUT Colour Grading,,look-up-table colour grading filter name
+ROOM_EFFECTS_LUT Texture,LUT Texture,LUT Texture,,look-up-table texture filter param
+ROOM_EFFECTS_filter_twist_blur,Twist Blur,Twist Blur,,twist blur filter name
+ROOM_EFFECTS_Position,Position,Position,,position filter param
 ROOM_EFFECT_GROUP_Particles,Particle,Particle,,room effect group name
 ROOM_EFFECT_GROUP_Trail,Trail,Trail,,room effect group name
 ROOM_EFFECT_GROUP_Blower,Blower,Blower,,room effect group name
@@ -1813,6 +1837,12 @@ ROOM_EFFECT_FIELD_,,,,room effect field name
 ROOM_EFFECT_FIELD_Alt,Alt,Alt,,room effect field name
 ROOM_EFFECT_FIELD_Pos,Pos,Pos,,room effect field name
 ROOM_EFFECT_FIELD_Enabled,On,On,,room effect field name
+ROOM_EFFECT_VALUE_Linear,Linear,Linear,,room effect value name
+ROOM_EFFECT_VALUE_Radial,Radial,Radial,,room effect value name
+ROOM_EFFECT_VALUE_Rectangle,Rectangle,Rectangle,,room effect value name
+ROOM_EFFECT_VALUE_Rotated Square,Rotated Square,Rotated Square,,room effect value name
+ROOM_EFFECT_VALUE_Symmetrical conic,Symmetrical conic,Symmetrical conic,,room effect value name
+ROOM_EFFECT_VALUE_Asymmetrical conic,Asymmetrical conic,Asymmetrical conic,,room effect value name
 ListBoxEnum_eGMBlendMode_bm_zero,bm_zero,bm_zero,,gm blendmode enum
 ListBoxEnum_eGMBlendMode_bm_one,bm_one,bm_one,,gm blendmode enum
 ListBoxEnum_eGMBlendMode_bm_src_color,bm_src_color,bm_src_color,,gm blendmode enum
@@ -1984,7 +2014,7 @@ Splash_LoadingDevices,Loading Devices...,Loading Devices...,,Loading the devices
 Splash_LoadingPluginGUI,Loading Plugin Resources...,Loading Plugin Resources...,,Loading the plugin resources
 Splash_LoadingPluginLanguages,Loading Plugin Languages...,Loading Plugin Languages...,,Loading the plugin languages
 Splash_UserLogin,User Login,User Login,,User Login has been started
-Splash_InitDnD,GML Visual...,GML Visual...,,Initialising Drag and Drop™
+Splash_InitGMLVisual,GML Visual...,GML Visual...,,Initialising GML Visual 
 Splash_CheckingRSS,Checking RSS...,Checking RSS...,,Checking RSS...
 Splash_DownloadingManual,Downloading Manual...,Downloading Manual...,,Downloading Manual...
 SplineEditor_DeletePoints,Delete Points,Delete Points,,Path spline editor context menu entry
@@ -2346,7 +2376,7 @@ TimeLine_Name,Name:,Name:,,Time line editor name label
 TimeLine_Names,Description,Description,,Time line editor names caption
 TimeLine_WindowTitle,Timeline: {0},Timeline: {0},,Time line editor window caption
 TimeLine_WindowTitle_CodeEditor,"Timeline Moments: {0}","Timeline Moments: {0}",,Time line code editor window title
-TimeLine_ConvertType,Convert to {0},Convert to {0},,Change the event from DnD to script or from script to DnD
+TimeLine_ConvertType,Convert to {0},Convert to {0},,Change the event from GML Visual to script or from script to GML Visual
 TreeView_AddChildNode,Add Child Node,Add Child Node,,context menu option to add a child node
 TreeView_AddNode,Add Node,Add Node,,context menu option to add a node
 TreeView_AddNodeAfter,Add Node After,Add Node After,,context menu option to add a node after
@@ -2359,6 +2389,8 @@ UpdateDialogRemindMe,Remind me later,Remind me later,,Update new version dialog 
 UpdateDialogLabel,New version is available! \nYou are on v{0}\nNew version is {1},New version is available! \nYou are on v{0}\nNew version is {1},,Update new version dialog - tell user which version they are on and which version update will take them to
 UpdateDialogReleaseNotes,View Release notes,View Release notes,,Update new version dialog - view release notes button
 UpdateDialogTitle,New Version,New Version,,Update new version dialog title
+UpdateDialog_ViewReleaseNotes,View release notes,View release notes,,view release notes
+UpdateDialog_IgnoreUpdate,Ignore this update,Ignore this update,,ignore this update
 User_Login,Login,Login,,Login button
 User_Register,Register,Register,,User Login dialog - Register button
 User_Login_Title,YoYo Account Login,YoYo Account Login,,User Login dialog
@@ -2465,123 +2497,123 @@ ResourceTree_SearchOptions,Search Options,Search Options,,Additional Search Opti
 SearchInScript_Search,Find...,Find...,,Search in Script Search default box text
 SearchInScript_Replace,Replace...,Replace...,,Search in Script Replace default box text
 SearchInScript_SelectionOnly,Selection Only,Selection Only,,Search in Script Selection Only
-DnD_Gadget_DirectionalInput,Directional Input,Directional Input,,DnD gadget for directional input
-DnD_Gadget_NumericInput,Numeric Input,Numeric Input,,DnD gadget for numeric input
-DnD_Gadget_ApplyTo,Apply To,Apply To,,DnD gadget for applying to a specific object or instance
-DnD_Gadget_IsRelative,Is Relative,Is Relative,,DnD gadget for determining if a change is relative
-DnD_Gadget_IsTemp,Is Temp,Is Temp,,DnD gadget for determining if a target is temp
-DnD_Gadget_TextInput,Text Input,Text Input,,DnD gadget for text input
-DnD_Gadget_ExpressionInput,Expression,Expression,,DnD gadget for expression input
-DnD_Gadget_ArgumentInput,Argument,Argument,,DnD gadget for argument input and optional arguments
-DnD_Gadget_MenuInput,Menu Input,Menu Input,,DnD gadget for menu input
-DnD_Gadget_MenuExpressionInput,Menu Expression Input,Menu Expression Input,,DnD gadget for menu expression input
-DnD_Gadget_ResourceSelection,Resource Selection,Resource Selection,,DnD gadget for resource selection
-DnD_Gadget_ResourceSelection_SelectResource,Select Asset,Select Asset,,DnD gadget list view explorer title
-DnD_Gadget_BooleanInput,Boolean Input,Boolean Input,,DnD gadget for boolean input
-DnD_Gadget_BooleanExprInput,Boolean Expression Input,Boolean Expression Input,,DnD gadget for boolean input
-DnD_Gadget_ColorPicker,Colour Picker,Colour Picker,,DnD gadget for picking a color
-DnD_Gadget_ColorPalette,Colour Palette,Colour Palette,,DnD gadget for picking a color
-DnD_Gadget_MultiLineTextInput,Text Input (MultiLine),Text Input (MultiLine),,DnD gadget for multiline text input
-DnD_Gadget_CodeInput,Code Input,Code Input,,DnD gadget for code input
-DnD_Gadget_Caption_GroupSelector,Options,Options,,DnD label caption for the group selector gadget
-DnD_Gadget_GroupSelector,Group Selector,Group Selector,,DnD group selector gadget name
-DnD_Gadget_Caption_IsRelative,Relative,Relative,,DnD gadget caption name for Is Relative
-DnD_Gadget_Caption_IsTemp,Temp,Temp,,DnD gadget caption name for Is Temp
-DnD_Gadget_Caption_ApplyTo,Apply To,Apply To,,DnD gadget caption name for Apply To
-DnDMaker_AppTitle,DnD Maker,DnD Maker,,DnD Maker application title
-DnDMaker_Arguments,Arguments,Arguments,,DnD Maker argument gadgets header
-DnDMaker_Gadgets,Gadgets,Gadgets,,DnD Maker gui gadgets header
-DnDMaker_Properties,Argument Properties,Argument Properties,,DnD Maker properties header
-DnDMaker_Layout,Argument Layout,Argument Layout,,DnD Maker layout header
-DnDMaker_LivePreview,Node Designer ({0}),Node Designer ({0}),,DnD Maker live preview header
-DnDMaker_NoAction,No Action,No Action,,DnD Maker designer title no action selected
-DnDMaker_Groups,Layout Groups,Layout Groups,,DnD Maker layout groups view header
-DnDMaker_Menu_Library,Library,Library,,DnD Maker menu entry
-DnDMaker_Menu_Nodes,Nodes,Nodes,,DnD Maker menu entry
-DnDMaker_Menu_Layout,Layout,Layout,,DnD Maker menu entry
-DnDMaker_Menu_Translation,Translations,Translations,,DnD Maker menu entry
-DnDMaker_LangName,Name,Name,,column
-DnDMaker_LangEng,English,English,,column
-DnDMaker_LangTrans,Translation,Translation,,column
-DnDMaker_LangRes,Restrictions,Restrictions,,column
-DnDMaker_LangDesc,Description,Description,,column
-DnDMaker_Menu_Languages,Languages,Languages,,DnD Maker menu entry
-DnDMaker_Menu_NewLang,New Language,New Language,,DnD Maker menu entry
-DnDMaker_Menu_EditLang,Edit Language,Edit Language,,DnD Maker menu entry
-DnDMaker_Group_Default,Default,Default,,DnD Maker default group name
-DnDMaker_NewGroup,Group,Group,,DnD Maker default new group name
-DnDMaker_NewSection,New Section,New Section,,DnD Maker default new section name
-DnDMaker_NewAction,New Action,New Action,,DnD Maker default new action name
-DnDMaker_Menu_NewNode,New Node,New Node,,DnD Maker new node menu item
-DnDMaker_Menu_SaveNode,Save Node,Save Node,,DnD Maker save node menu item
-DnDMaker_Menu_PreviewNode,Preview,Preview,,DnD Maker preview node menu item
-DnDMaker_Menu_EvaluateNode,Evaluate,Evaluate,,DnD Maker evaluate node menu item
-DnDMaker_Menu_LoadLibrary,Load Library,Load Library,,DnD Maker load library menu item
-DnDMaker_Menu_SaveLibrary,Save Library,Save Library,,DnD Maker save library menu item
-DnDMaker_Menu_NewLibrary,New Library,New Library,,DnD Maker new library menu item
-DnDMaker_Library,My Library,My Library,,DnD Maker library header text
-DnDMaker_Menu_ExportLibrary,Export Library,Export Library,,DnD Maker export library menu item
-DnDMaker_LibWizard_Label,Write new library name,Write new library name,,DnD Maker library wizard name label
-DnDMaker_LibWizard_OK,Create Library,Create Library,,DnD Maker library wizard OK button
-DnDMaker_LibWizard_Cancel,Cancel,Cancel,,DnD Maker library wizard Cancel button
-DnDMaker_Menu_Sections,Sections,Sections,,DnD Maker sections menu item
-DnDMaker_Menu_AddSection,Add Section,Add Section,,DnD Maker add section menu item
-DnDMaker_Menu_LayoutWizard,Open Layout Wizard...,Open Layout Wizard...,,DnD Maker Open Layout Wizard menu item
-DnDMaker_Menu_ExpandLocalisation,Expand Localisation,Expand Localisation,,DnD Maker Open Layout Wizard menu item
-DnDMaker_Menu_AddGroup,Add Layout Group,Add Layout Group,,DnD Maker add layout group menu item
-DnDMaker_Menu_RenameGroup,Rename Layout Group,Rename Layout Group,,DnD Maker rename layout group menu item
-DnDMaker_Menu_RemoveGroup,Remove Layout Group,Remove Layout Group,,DnD Maker remove layout group menu item
-DnDMaker_CMenu_AddSection,Add Section,Add Section,,DnD Maker context menu add section caption
-DnDMaker_CMenu_RemoveSectionOrAction,Remove,Remove,,DnD Maker library context menu remove caption
-DnDMaker_CMenu_RenameSectionOrAction,Rename,Rename,,DnD Maker library context menu rename caption
-DnDMaker_CMenu_EditAction,Edit Action,Edit Action,,DnD Maker library context menu edit caption
-DnDMaker_CMenu_RemoveGadget,Remove Gadget,Remove Gadget,,DnD Maker designer remove gadget menu entry
-DnDMaker_CMenu_CopyGadget,Copy Gadget,Copy Gadget,,DnD Maker designer copy gadget menu entry
-DnDMaker_CMenu_CutGadget,Cut Gadget,Cut Gadget,,DnD Maker designer cut gadget menu entry
-DnDMaker_CMenu_PasteGadget,Paste Gadget,Paste Gadget,,DnD Maker designer paste gadget menu entry
-DnDMaker_PopUp_OK,OK,OK,,DnD Maker popup window OK button
-DnDMaker_MustMakeLibrary,No library loaded.,No library loaded.,,DnD Maker no library loaded warning message
-DnDMaker_CMenu_AddGroup,Add Group,Add Group,,DnD Maker add group menu entry
-DnDMaker_CMenu_RenameGroup,Rename Group,Rename Group,,DnD Maker rename group menu entry
-DnDMaker_CMenu_RemoveGroup,Remove Group,Remove Group,,DnD Maker remove group menu entry
-DnDMaker_CannotDeleteDefaultGroup,Default group cannot be deleted.,Default group cannot be deleted.,,DnD Maker warning message
-DnDMaker_CannotDeleteLibrary,Library cannot be deleted.,Library cannot be deleted.,,DnD Maker cannot delete library node warning message
-DnDMaker_InvalidActionName,Invalid action name: must be XML compatible.,Invalid action name: must be XML compatible.,,DnD Maker invalid action name warning message
-DnDMaker_NoActionLayout,This action has no layout.,This action has no layout.,,DnD Maker invalid action layout warning message
-DnDMaker_CantShowPreview,Error -- Cannot show preview.,Error -- Cannot show preview.,,DnD Maker cannot show preview warning message
-DnDMaker_NotEditingAction,You are not editing an action.,You are not editing an action.,,DnD Maker not editing action warning message
-DnDMaker_NotPreviewingAction,You are not previewing an action.,You are not previewing an action.,,DnD Maker not previewing action warning message
-DnDMaker_EvaluationResult,Evaluation Result,Evaluation Result,,DnD Maker evaluation result window caption
-DnDMaker_ActionProperties,Action Properties,Action Properties,,DnD Maker action properties caption
-DnDMaker_DefaultCode,// Your code here,// Your code here,,DnD Maker default code input for group
-DnDMaker_CodeCaption,Code (Group: {0}),Code (Group: {0}),,DnD Maker code for selected group caption
-DnDMaker_SaveError,Saving failed.,Saving failed.,,DnD Maker save error message
-DnDMaker_SaveComplete,Library saved.,Library saved.,,DnD Maker library save message
-DnDMaker_DialogTitle,DnD Maker,DnD Maker,,DnD Maker dialog title
-DnDMaker_UnsavedChanges,There are unsaved changes. Do you want to save?,There are unsaved changes. Do you want to save?,,DnD Maker unsaved changes confirmation dialog
-DnDMaker_UnsavedLibrary,Do you want to save the current library before continuing?,Do you want to save the current library before continuing?,,DnD Maker unsaved library
-DnDMaker_ExportFailed,Exporting library failed.,Exporting library failed.,,DnD Maker export failed message
-DnDMaker_OpenFailed,Couldn't open the specified library.,Couldn't open the specified library.,,DnD Maker open library error message
-DnDMaker_CantParentAction,Actions can't be parents.,Actions can't be parents.,,DnD Maker drag into action error
-DnDMaker_CantParentGadget,Gadgets can't be parents.,Gadgets can't be parents.,,DnD Maker drag into Gadgets error
-DnDMaker_NoSelectedGadget,You have not selected a gadget.,You have not selected a gadget.,,DnD Maker no selected gadget error
-DnDMaker_NoCopiedGadget,You have not copied a gadget.,You have not copied a gadget.,,DnD Maker no copied gadget error
-DnDMaker_LayoutWizard,Layout Wizard,Layout Wizard,,DnD Maker layout wizard name
-DnDMaker_LayoutWizardHelpText,This wizard helps you easily create a layout for your DnD action.,This wizard helps you easily create a layout for your DnD action.,,DnD Maker layout wizard help text
-DnDMaker_LayoutWizardArgCount,How many arguments do you need?,How many arguments do you need?,,DnD Maker layout wizard arg count
-DnDMaker_LayoutWizardArgCaption,Caption,Caption,,DnD Maker layout wizard arg caption label
-DnDMaker_LayoutWizardArgGadget,Gadget,Gadget,,DnD Maker layout wizard arg gadget label
-DnDMaker_LayoutWizardArgTagName,Tag Name,Tag Name,,DnD Maker layout wizard arg tag name label
-DnDMaker_LayoutWizardIsRelative,Can Be Relative?,Can Be Relative?,,DnD Maker layout wizard can be relative label
-DnDMaker_LayoutWizardProperties,Properties,Properties,,DnD Maker layout wizard properties label
-DnDMaker_LayoutWizardIsTemp,Can Be Temp?,Can Be Temp?,,DnD Maker layout wizard can be temp label
-DnDMaker_NoLayoutWizardLayout,Layout wizard layout is missing.,Layout wizard layout is missing.,,DnD Maker layout wizard error
-DnD_Loading,Loading...,Loading...,,Loading dnd script
-DnDMaker_ExpandLocalisationFailed,Failed to expand localisation,Failed to expand localisation,,expand localisation error message
-DnD_Gadget_Label,Label,Label,,DnD Label gadget localised name
-DnD_Gadget_StackPanel,Stack Panel,Stack Panel,,DnD Stack Panel gadget localised name
-DnD_Gadget_Grid,Grid,Grid,,DnD Grid gadget localised name
-DnD_Gadget_MKConstantSelector,Mouse & Key Selector,Mouse & Key Selector,,DnD gadget localised name
+GMLVisual_Gadget_DirectionalInput,Directional Input,Directional Input,,GML Visual gadget for directional input
+GMLVisual_Gadget_NumericInput,Numeric Input,Numeric Input,,GML Visual gadget for numeric input
+GMLVisual_Gadget_ApplyTo,Apply To,Apply To,,GML Visual gadget for applying to a specific object or instance
+GMLVisual_Gadget_IsRelative,Is Relative,Is Relative,,GML Visual gadget for determining if a change is relative
+GMLVisual_Gadget_IsTemp,Is Temp,Is Temp,,GML Visual gadget for determining if a target is temp
+GMLVisual_Gadget_TextInput,Text Input,Text Input,,GML Visual gadget for text input
+GMLVisual_Gadget_ExpressionInput,Expression,Expression,,GML Visual gadget for expression input
+GMLVisual_Gadget_ArgumentInput,Argument,Argument,,GML Visual gadget for argument input and optional arguments
+GMLVisual_Gadget_MenuInput,Menu Input,Menu Input,,GML Visual gadget for menu input
+GMLVisual_Gadget_MenuExpressionInput,Menu Expression Input,Menu Expression Input,,GML Visual gadget for menu expression input
+GMLVisual_Gadget_ResourceSelection,Resource Selection,Resource Selection,,GML Visual gadget for resource selection
+GMLVisual_Gadget_ResourceSelection_SelectResource,Select Asset,Select Asset,,GML Visual gadget list view explorer title
+GMLVisual_Gadget_BooleanInput,Boolean Input,Boolean Input,,GML Visual gadget for boolean input
+GMLVisual_Gadget_BooleanExprInput,Boolean Expression Input,Boolean Expression Input,,GML Visual gadget for boolean input
+GMLVisual_Gadget_ColorPicker,Colour Picker,Colour Picker,,GML Visual gadget for picking a color
+GMLVisual_Gadget_ColorPalette,Colour Palette,Colour Palette,,GML Visual gadget for picking a color
+GMLVisual_Gadget_MultiLineTextInput,Text Input (MultiLine),Text Input (MultiLine),,GML Visual gadget for multiline text input
+GMLVisual_Gadget_CodeInput,Code Input,Code Input,,GML Visual gadget for code input
+GMLVisual_Gadget_Caption_GroupSelector,Options,Options,,GML Visual label caption for the group selector gadget
+GMLVisual_Gadget_GroupSelector,Group Selector,Group Selector,,GML Visual group selector gadget name
+GMLVisual_Gadget_Caption_IsRelative,Relative,Relative,,GML Visual gadget caption name for Is Relative
+GMLVisual_Gadget_Caption_IsTemp,Temp,Temp,,GML Visual gadget caption name for Is Temp
+GMLVisual_Gadget_Caption_ApplyTo,Apply To,Apply To,,GML Visual gadget caption name for Apply To
+GMLVisualMaker_AppTitle,GML Visual Maker,GML Visual Maker,,GML Visual Maker application title
+GMLVisualMaker_Arguments,Arguments,Arguments,,GML Visual Maker argument gadgets header
+GMLVisualMaker_Gadgets,Gadgets,Gadgets,,GML Visual Maker gui gadgets header
+GMLVisualMaker_Properties,Argument Properties,Argument Properties,,GML Visual Maker properties header
+GMLVisualMaker_Layout,Argument Layout,Argument Layout,,GML Visual Maker layout header
+GMLVisualMaker_LivePreview,Node Designer ({0}),Node Designer ({0}),,GML Visual Maker live preview header
+GMLVisualMaker_NoAction,No Action,No Action,,GML Visual Maker designer title no action selected
+GMLVisualMaker_Groups,Layout Groups,Layout Groups,,GML Visual Maker layout groups view header
+GMLVisualMaker_Menu_Library,Library,Library,,GML Visual Maker menu entry
+GMLVisualMaker_Menu_Nodes,Nodes,Nodes,,GML Visual Maker menu entry
+GMLVisualMaker_Menu_Layout,Layout,Layout,,GML Visual Maker menu entry
+GMLVisualMaker_Menu_Translation,Translations,Translations,,GML Visual Maker menu entry
+GMLVisualMaker_LangName,Name,Name,,column
+GMLVisualMaker_LangEng,English,English,,column
+GMLVisualMaker_LangTrans,Translation,Translation,,column
+GMLVisualMaker_LangRes,Restrictions,Restrictions,,column
+GMLVisualMaker_LangDesc,Description,Description,,column
+GMLVisualMaker_Menu_Languages,Languages,Languages,,GML Visual Maker menu entry
+GMLVisualMaker_Menu_NewLang,New Language,New Language,,GML Visual Maker menu entry
+GMLVisualMaker_Menu_EditLang,Edit Language,Edit Language,,GML Visual Maker menu entry
+GMLVisualMaker_Group_Default,Default,Default,,GML Visual Maker default group name
+GMLVisualMaker_NewGroup,Group,Group,,GML Visual Maker default new group name
+GMLVisualMaker_NewSection,New Section,New Section,,GML Visual Maker default new section name
+GMLVisualMaker_NewAction,New Action,New Action,,GML Visual Maker default new action name
+GMLVisualMaker_Menu_NewNode,New Node,New Node,,GML Visual Maker new node menu item
+GMLVisualMaker_Menu_SaveNode,Save Node,Save Node,,GML Visual Maker save node menu item
+GMLVisualMaker_Menu_PreviewNode,Preview,Preview,,GML Visual Maker preview node menu item
+GMLVisualMaker_Menu_EvaluateNode,Evaluate,Evaluate,,GML Visual Maker evaluate node menu item
+GMLVisualMaker_Menu_LoadLibrary,Load Library,Load Library,,GML Visual Maker load library menu item
+GMLVisualMaker_Menu_SaveLibrary,Save Library,Save Library,,GML Visual Maker save library menu item
+GMLVisualMaker_Menu_NewLibrary,New Library,New Library,,GML Visual Maker new library menu item
+GMLVisualMaker_Library,My Library,My Library,,GML Visual Maker library header text
+GMLVisualMaker_Menu_ExportLibrary,Export Library,Export Library,,GML Visual Maker export library menu item
+GMLVisualMaker_LibWizard_Label,Write new library name,Write new library name,,GML Visual Maker library wizard name label
+GMLVisualMaker_LibWizard_OK,Create Library,Create Library,,GML Visual Maker library wizard OK button
+GMLVisualMaker_LibWizard_Cancel,Cancel,Cancel,,GML Visual Maker library wizard Cancel button
+GMLVisualMaker_Menu_Sections,Sections,Sections,,GML Visual Maker sections menu item
+GMLVisualMaker_Menu_AddSection,Add Section,Add Section,,GML Visual Maker add section menu item
+GMLVisualMaker_Menu_LayoutWizard,Open Layout Wizard...,Open Layout Wizard...,,GML Visual Maker Open Layout Wizard menu item
+GMLVisualMaker_Menu_ExpandLocalisation,Expand Localisation,Expand Localisation,,GML Visual Maker Open Layout Wizard menu item
+GMLVisualMaker_Menu_AddGroup,Add Layout Group,Add Layout Group,,GML Visual Maker add layout group menu item
+GMLVisualMaker_Menu_RenameGroup,Rename Layout Group,Rename Layout Group,,GML Visual Maker rename layout group menu item
+GMLVisualMaker_Menu_RemoveGroup,Remove Layout Group,Remove Layout Group,,GML Visual Maker remove layout group menu item
+GMLVisualMaker_CMenu_AddSection,Add Section,Add Section,,GML Visual Maker context menu add section caption
+GMLVisualMaker_CMenu_RemoveSectionOrAction,Remove,Remove,,GML Visual Maker library context menu remove caption
+GMLVisualMaker_CMenu_RenameSectionOrAction,Rename,Rename,,GML Visual Maker library context menu rename caption
+GMLVisualMaker_CMenu_EditAction,Edit Action,Edit Action,,GML Visual Maker library context menu edit caption
+GMLVisualMaker_CMenu_RemoveGadget,Remove Gadget,Remove Gadget,,GML Visual Maker designer remove gadget menu entry
+GMLVisualMaker_CMenu_CopyGadget,Copy Gadget,Copy Gadget,,GML Visual Maker designer copy gadget menu entry
+GMLVisualMaker_CMenu_CutGadget,Cut Gadget,Cut Gadget,,GML Visual Maker designer cut gadget menu entry
+GMLVisualMaker_CMenu_PasteGadget,Paste Gadget,Paste Gadget,,GML Visual Maker designer paste gadget menu entry
+GMLVisualMaker_PopUp_OK,OK,OK,,GML Visual Maker popup window OK button
+GMLVisualMaker_MustMakeLibrary,No library loaded.,No library loaded.,,GML Visual Maker no library loaded warning message
+GMLVisualMaker_CMenu_AddGroup,Add Group,Add Group,,GML Visual Maker add group menu entry
+GMLVisualMaker_CMenu_RenameGroup,Rename Group,Rename Group,,GML Visual Maker rename group menu entry
+GMLVisualMaker_CMenu_RemoveGroup,Remove Group,Remove Group,,GML Visual Maker remove group menu entry
+GMLVisualMaker_CannotDeleteDefaultGroup,Default group cannot be deleted.,Default group cannot be deleted.,,GML Visual Maker warning message
+GMLVisualMaker_CannotDeleteLibrary,Library cannot be deleted.,Library cannot be deleted.,,GML Visual Maker cannot delete library node warning message
+GMLVisualMaker_InvalidActionName,Invalid action name: must be XML compatible.,Invalid action name: must be XML compatible.,,GML Visual Maker invalid action name warning message
+GMLVisualMaker_NoActionLayout,This action has no layout.,This action has no layout.,,GML Visual Maker invalid action layout warning message
+GMLVisualMaker_CantShowPreview,Error -- Cannot show preview.,Error -- Cannot show preview.,,GML Visual Maker cannot show preview warning message
+GMLVisualMaker_NotEditingAction,You are not editing an action.,You are not editing an action.,,GML Visual Maker not editing action warning message
+GMLVisualMaker_NotPreviewingAction,You are not previewing an action.,You are not previewing an action.,,GML Visual Maker not previewing action warning message
+GMLVisualMaker_EvaluationResult,Evaluation Result,Evaluation Result,,GML Visual Maker evaluation result window caption
+GMLVisualMaker_ActionProperties,Action Properties,Action Properties,,GML Visual Maker action properties caption
+GMLVisualMaker_DefaultCode,// Your code here,// Your code here,,GML Visual Maker default code input for group
+GMLVisualMaker_CodeCaption,Code (Group: {0}),Code (Group: {0}),,GML Visual Maker code for selected group caption
+GMLVisualMaker_SaveError,Saving failed.,Saving failed.,,GML Visual Maker save error message
+GMLVisualMaker_SaveComplete,Library saved.,Library saved.,,GML Visual Maker library save message
+GMLVisualMaker_DialogTitle,GML Visual Maker,GML Visual Maker,,GML Visual Maker dialog title
+GMLVisualMaker_UnsavedChanges,There are unsaved changes. Do you want to save?,There are unsaved changes. Do you want to save?,,GML Visual Maker unsaved changes confirmation dialog
+GMLVisualMaker_UnsavedLibrary,Do you want to save the current library before continuing?,Do you want to save the current library before continuing?,,GML Visual Maker unsaved library
+GMLVisualMaker_ExportFailed,Exporting library failed.,Exporting library failed.,,GML Visual Maker export failed message
+GMLVisualMaker_OpenFailed,Couldn't open the specified library.,Couldn't open the specified library.,,GML Visual Maker open library error message
+GMLVisualMaker_CantParentAction,Actions can't be parents.,Actions can't be parents.,,GML Visual Maker drag into action error
+GMLVisualMaker_CantParentGadget,Gadgets can't be parents.,Gadgets can't be parents.,,GML Visual Maker drag into Gadgets error
+GMLVisualMaker_NoSelectedGadget,You have not selected a gadget.,You have not selected a gadget.,,GML Visual Maker no selected gadget error
+GMLVisualMaker_NoCopiedGadget,You have not copied a gadget.,You have not copied a gadget.,,GML Visual Maker no copied gadget error
+GMLVisualMaker_LayoutWizard,Layout Wizard,Layout Wizard,,GML Visual Maker layout wizard name
+GMLVisualMaker_LayoutWizardHelpText,This wizard helps you easily create a layout for your GML Visual action.,This wizard helps you easily create a layout for your GML Visual action.,,GML Visual Maker layout wizard help text
+GMLVisualMaker_LayoutWizardArgCount,How many arguments do you need?,How many arguments do you need?,,GML Visual Maker layout wizard arg count
+GMLVisualMaker_LayoutWizardArgCaption,Caption,Caption,,GML Visual Maker layout wizard arg caption label
+GMLVisualMaker_LayoutWizardArgGadget,Gadget,Gadget,,GML Visual Maker layout wizard arg gadget label
+GMLVisualMaker_LayoutWizardArgTagName,Tag Name,Tag Name,,GML Visual Maker layout wizard arg tag name label
+GMLVisualMaker_LayoutWizardIsRelative,Can Be Relative?,Can Be Relative?,,GML Visual Maker layout wizard can be relative label
+GMLVisualMaker_LayoutWizardProperties,Properties,Properties,,GML Visual Maker layout wizard properties label
+GMLVisualMaker_LayoutWizardIsTemp,Can Be Temp?,Can Be Temp?,,GML Visual Maker layout wizard can be temp label
+GMLVisualMaker_NoLayoutWizardLayout,Layout wizard layout is missing.,Layout wizard layout is missing.,,GML Visual Maker layout wizard error
+GMLVisual_Loading,Loading...,Loading...,,Loading GML Visual script
+GMLVisualMaker_ExpandLocalisationFailed,Failed to expand localisation,Failed to expand localisation,,expand localisation error message
+GMLVisual_Gadget_Label,Label,Label,,GML Visual Label gadget localised name
+GMLVisual_Gadget_StackPanel,Stack Panel,Stack Panel,,GML Visual Stack Panel gadget localised name
+GMLVisual_Gadget_Grid,Grid,Grid,,GML Visual Grid gadget localised name
+GMLVisual_Gadget_MKConstantSelector,Mouse & Key Selector,Mouse & Key Selector,,GML Visual gadget localised name
 kbv_type_default,Default,Default,,Default virtual keyboard type
 kbv_type_ascii,ASCII,ASCII,,ASCII virtual keyboard type
 kbv_type_url,URL,URL,,URL virtual keyboard type
@@ -2649,19 +2681,19 @@ TemplateExport_Overwrite,Overwrite,Overwrite,,overwrite button label
 TemplateExport_Overwrite_Title,Warning,Warning,,overwrite dialog title
 ImportLoad_FileNotFound,"Unable to find file {0}.\nIf the file is inside an archive, please extract it first.","Unable to find file {0}.\nIf the file is inside an archive, please extract it first.",,project load or import file not found error
 InheritFromDialog_Title,Inherit From Project,Inherit From Project,,title for inherit from project dialog
-DnDEditor_Menu_Workspace,Workspace,Workspace,,DnD Editor Workspace caption
-DnDEditor_Menu_Save,Save,Save,,DnD Editor Workspace Save caption
-DnDEditor_Menu_Reload,Reload,Reload,,DnD Editor Workspace Reload caption
-DnDEditor_CMenu_Preview,Live Preview,Live Preview,,DnD Editor Workspace Reload caption
-DnDEditor_LivePreviewTitle,GML Preview,GML Preview,,DnD live preview tab title
-DnDNodeWindow_CMenu_PanToThis,Pan,Pan,,DnD node window context menu
-DnDNodeWindow_CMenu_Copy,Copy,Copy,,DnD node window context menu
-DnDNodeWindow_CMenu_Cut,Cut,Cut,,DnD node window context menu
-DnDNodeWindow_CMenu_Help,Show Help...,Show Help...,,DnD node window context menu
-DnDNodeWindow_CMenu_Paste,Paste,Paste,,DnD node window context menu
-DnDNodeWindow_CMenu_CollapseAll,Collapse All,Collapse All,,DnD node window context menu collapse all nodes
-DnDNodeWindow_CMenu_ExpandAll,Expand All,Expand All,,DnD node window context menu expand all nodes
-DnDNodeWindow_CMenu_Evaluate,Evaluate...,Evaluate...,,DnD node window context menu
+GMLVisualEditor_Menu_Workspace,Workspace,Workspace,,GML Visual Editor Workspace caption
+GMLVisualEditor_Menu_Save,Save,Save,,GML Visual Editor Workspace Save caption
+GMLVisualEditor_Menu_Reload,Reload,Reload,,GML Visual Editor Workspace Reload caption
+GMLVisualEditor_CMenu_Preview,Live Preview,Live Preview,,GML Visual Editor Workspace Reload caption
+GMLVisualEditor_LivePreviewTitle,GML Preview,GML Preview,,GML Visual live preview tab title
+GMLVisualNodeWindow_CMenu_PanToThis,Pan,Pan,,GML Visual node window context menu
+GMLVisualNodeWindow_CMenu_Copy,Copy,Copy,,GML Visual node window context menu
+GMLVisualNodeWindow_CMenu_Cut,Cut,Cut,,GML Visual node window context menu
+GMLVisualNodeWindow_CMenu_Help,Show Help...,Show Help...,,GML Visual node window context menu
+GMLVisualNodeWindow_CMenu_Paste,Paste,Paste,,GML Visual node window context menu
+GMLVisualNodeWindow_CMenu_CollapseAll,Collapse All,Collapse All,,GML Visual node window context menu collapse all nodes
+GMLVisualNodeWindow_CMenu_ExpandAll,Expand All,Expand All,,GML Visual node window context menu expand all nodes
+GMLVisualNodeWindow_CMenu_Evaluate,Evaluate...,Evaluate...,,GML Visual node window context menu
 ggs_graphics_scale,Scaling,Scaling,,Game Settings Graphics Scale title
 ggs_graphics_scale_keepaspectratio,Keep aspect ratio,Keep aspect ratio,,Game Settings Graphics Scale - Keep Aspect Ratio option
 ggs_launchscreen_fill,Launchscreen fill,Launchscreen fill,,Launchscreen fill
@@ -2669,6 +2701,7 @@ ggs_graphics_scale_fullscale,Full scale,Full scale,,Game Settings Graphics Scale
 ggs_version,Version,Version,,Game Settings Version title
 ggs_version_new,Next Version,Next Version,,Next version to be uploaded
 ggs_game_name,Game Name,Game Name,,Game Settings Game Name label
+ggs_valid_characters_tip,The name contains invalid characters,The name contains invalid characters,,Tip after the game name validation
 ggs_gxc_guid,Select game,Select game,,A caption for the game selection dropdown list
 ggs_gxc_group,Select group (for new games only),Select group (for new games only),,A caption for the group selection dropdown list
 ggs_team_name,Team Name,Team Name,,Team Name
@@ -2754,7 +2787,6 @@ ggs_package_company,Package Company,Package Company,,Package Company
 ggs_package_product,Package Product,Package Product,,Package Product
 ggs_build_armv5,Build for Armv5,Build for Armv5,,Build for Armv5
 ggs_build_armv7,Build for Armv7,Build for Armv7,,Build for Armv7
-ggs_build_x86,Build for x86,Build for x86,,Build for x86
 ggs_build_mips,Build for Mips,Build for Mips,,Build for Mips
 ggs_build_mips64,Build for Mips64,Build for Mips64,,Build for Mips64
 ggs_build_x86_64,Build for x86_64,Build for x86_64,,Build for x86_64
@@ -2827,6 +2859,8 @@ ggs_use_google_apk_expansion,Use Google APK expansion,Use Google APK expansion,,
 ggs_use_google_dynamic_asset_delivery,Use Google Dynamic Asset Delivery,Use Google Dynamic Asset Delivery,,Use Google Dynamic Asset Delivery
 ggs_banner,Banner Image,Banner Image,,Banner Image
 ggs_isgame,Is game,Is game,,Is Game
+proguard_minifying,minifyEnabled,minifyEnabled,,minifyEnabled
+proguard_shrinking,shrinkResources,shrinkResources,,shrinkResources
 ggs_android_application_tag_inject,Inject to Android Application Tag,Inject to Android Application Tag,,Inject to Android Application Tag
 ggs_included_file_as_index.html,Included file as index.html,Included file as index.html,,Included file as index.html
 ggs_loading_bar_extension,Loading bar extension,Loading bar extension,,Loading Bar Extension
@@ -2877,7 +2911,6 @@ ggs_short_description,Short Description,Short Description,,Short Description
 ggs_long_description,Long Description,Long Description,,Long Description
 ggs_start_fullscreen,Start fullscreen,Start fullscreen,,Start Fullscreen
 ggs_vsync,Use synchronization to avoid tearing,Use synchronization to avoid tearing,,Use synchronization to avoid tearing
-ggs_vsync_winuwp_tooltip,synchronization must be enabled for this platform,synchronization must be enabled for this platform,,vsync tooltip in win uwp options
 ggs_player_resize_window,Allow window resize,Allow window resize,,Allow player to resize window
 ggs_app_id,App ID,App ID,,App Id
 ggs_app_output,App Output,App Output,,App Output
@@ -3141,6 +3174,7 @@ roomeditor_multiselectcolour,Area select highlight colour,Area select highlight 
 roomeditor_tileselectcolour,Selected tile highlight colour,Selected tile highlight colour,,Tile Select colour in Room Editor
 roomeditor_tilehighlightcolour,Mouseover tile highlight colour,Mouseover tile highlight colour,,Tile Highlight Colour in Room Editor
 roomeditor_tileinheritcolour,Inherited tile highlight colour,Inherited tile highlight colour,,Tile Inherit colour in Room Editor
+roomeditor_inspectorselectcolour,Inspector selection colour,Inspector selection colour,,Inspector selection colour in Room Editor
 roomeditor_showviews,Show room views,Show room views,,Show Views in Room Editor
 roomeditor_volume,Volume,Volume,,Volume in Room Editor
 roomeditor_mastervolume,Master Volume Setting,Master Volume Setting,,room editor master volume
@@ -3245,7 +3279,6 @@ prefs_logout_on_exit,Logout on exit,Logout on exit,,logout on exit pref
 ggs_enable_steam,Enable steam,Enable steam,,Enable Steam
 ggs_steam_alternative_launcher,Use alternative launcher for Steam application,Use alternative launcher for Steam application,,"Use alternative launcher for Steam application when running from Steam IDE, this allows the correct Steam application id to be used by a game launched from the Steam IDE"
 ggs_disable_sandbox,Disable file system sandbox,Disable file system sandbox,,Disable file system sandbox
-ggs_use_x64,Use x64 Windows Runtime,Use x64 Windows Runtime,,Use x64 Windows Runtime
 ggs_steam_id,Steam ID,Steam ID,,Steam Id
 ggs_enable_iap_sandbox,Enable IAP sandbox,Enable IAP sandbox,,Enable IAP Sandbox
 ggs_tile_type,Type of Tiles to display,Type of Tiles to display,,Type of Tiles to display
@@ -3271,7 +3304,6 @@ TargetSelection_Device,Device:,Device:,,the list title for target selecting devi
 TargetSelection_Runtime,Output:,Output:,,the list title for target selecting runtime
 TargetSelection_Platform_Test,Test,Test,,the teset platform title in the platform selection list
 TargetSelection_Platform_Windows,Windows,Windows,DO NOT TRANSLATE,the windows platform title in the platform selection list
-TargetSelection_Platform_windowsuap,Windows UWP,Windows UWP,DO NOT TRANSLATE,the windows uwp platform title in the platform selection list
 TargetSelection_Platform_WinPhone8,Windows Phone 8,Windows Phone 8,DO NOT TRANSLATE,the windows phone platform title in the platform selection list
 TargetSelection_Platform_Mac,macOS,macOS,DO NOT TRANSLATE,the mac platform title in the platform selection list
 TargetSelection_Platform_Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,the linux platform title in the platform selection list
@@ -3282,7 +3314,6 @@ TargetSelection_Platform_ios,iOS,iOS,DO NOT TRANSLATE,the apple iOS platform tit
 TargetSelection_Platform_tvos,tvOS,tvOS,DO NOT TRANSLATE,the apple tvOS platform title in the platform selection list
 TargetSelection_Platform_ps4,PlayStation 4,PlayStation 4,,the ps4 platform title in the platform selection list
 TargetSelection_Platform_ps5,PlayStation 5,PlayStation 5,,the ps5 platform title in the platform selection list
-TargetSelection_Platform_xboxone,Xbox One (Legacy/XDK),Xbox One (Legacy/XDK),DO NOT TRANSLATE,the xbox one platform title in the platform selection list
 TargetSelection_Platform_xboxseriesxs,Xbox One & Series X/S,Xbox One & Series X/S,DO NOT TRANSLATE,the Xbox One & Series X/S platform title in the platform selection list
 TargetSelection_Platform_wasm,WASM,WASM,DO NOT TRANSLATE,the WASM platform title in the platform selection list
 TargetSelection_Platform_operagx,Opera GX,Opera GX,DO NOT TRANSLATE,the opera gx platform title in the platform selection list
@@ -3310,14 +3341,14 @@ TargetSelection_Device_Editor_Tooltop,Open Device Editor,Open Device Editor,,the
 TargetSelection_Device_Editor_Cancel,"This will lose any unapplied changes you have made - do you want to continue?","This will lose any unapplied changes you have made - do you want to continue?",,Cancelling the device manager does this
 TargetSelection_Worker_Local,Local,Local,,Local worker target
 TargetSelection_Config_Editor,Edit Configs,Edit Configs,,edit configs
-DnDModule_ToolboxWindow,Toolbox,Toolbox,,The Drag and Drop™ toolbox when in a standalone window
-DnDModule_CodeOutputWindow,Equivalent Code,Equivalent Code,,The Drag and Drop™ equivalent code window for nodes
-DnDModule_Toolbox_Title,Toolbox,Toolbox,,The toolbox title when docked
-DnDModule_Toolbox_Recent,Recently Used,Recently Used,,Toolbox recent category
-DnDModule_Toolbox_Favorites,Favourites,Favourites,,Toolbox favourites category
-DnDModule_Toolbox_SearchText,Search...,Search...,,Toolbox search placeholder text
-DnDFeatureFlagUi_Warning_Title,DnD: actions disabled,DnD: actions disabled,,Feature Flag warning title
-DnDFeatureFlagUi_Warning_Message,Failed to fully load a DnD script {0}. It contains actions which are disabled for your account. Disabled categories:\n{1},Failed to fully load a DnD script {0}. It contains actions which are disabled for your account. Disabled categories:\n{1},,Feature Flag warning message
+GMLVisualModule_ToolboxWindow,Toolbox,Toolbox,,The GML Visual toolbox when in a standalone window
+GMLVisualModule_CodeOutputWindow,Equivalent Code,Equivalent Code,,The GML Visual equivalent code window for nodes
+GMLVisualModule_Toolbox_Title,Toolbox,Toolbox,,The toolbox title when docked
+GMLVisualModule_Toolbox_Recent,Recently Used,Recently Used,,Toolbox recent category
+GMLVisualModule_Toolbox_Favorites,Favourites,Favourites,,Toolbox favourites category
+GMLVisualModule_Toolbox_SearchText,Search...,Search...,,Toolbox search placeholder text
+GMLVisualFeatureFlagUi_Warning_Title,GML Visual: actions disabled,GML Visual: actions disabled,,Feature Flag warning title
+GMLVisualFeatureFlagUi_Warning_Message,Failed to fully load a GML Visual script {0}. It contains actions which are disabled for your account. Disabled categories:\n{1},Failed to fully load a GML Visual script {0}. It contains actions which are disabled for your account. Disabled categories:\n{1},,Feature Flag warning message
 fonteditor_aa_default,Default,Default,,Default setting for font AA
 use_default,Use Default,Use Default,,Use Default setting
 desktop_unmaxdragdist,Tab drag distance to unmaximise desktop (px),Tab drag distance to unmaximise desktop (px),,Distance in pixels the tab must be dragged before it will unmaximise the desktop
@@ -3330,22 +3361,22 @@ SplashScreen_LaunchProjectInvalid,'{0}' is not a valid GameMaker project,'{0}' i
 SplashScreen_LaunchProjectFailed,Launch Project Failed,Launch Project Failed,,Message dialog title when the program was launched with a file command argument but it has failed
 SplashScreen_LaunchImportTrialDenied,Cannot import project '{0}' with a Trial Licence,Cannot import project '{0}' with a Trial Licence,,launch yyz project import blocked by free licence msg
 LicensedModulesError,Your licence does not have this module enabled,Your licence does not have this module enabled,,Message Dialog for when a user tries to build/run a target their licence doesn't have
-DnD_Pref_ToolboxLocation,GML Visual toolbox default location,GML Visual toolbox default location,,DnDpref
-DnD_Pref_StoryMode,GML Visual node overview visibility mode,GML Visual node overview visibility mode,,DnD pref
-DnD_Pref_CollapseToolbox,Hide docked GML Visual toolboxes if floating GML Visual toolbox is open,Hide docked GML Visual toolboxes if floating GML Visual toolbox is open,,DnD pref
-DnD_Pref_ChainThickness,Thickness of the chain that connects GML Visual actions,Thickness of the chain that connects GML Visual actions,,DnD pref
-DnD_Pref_CollapseStory,Hide GML Visual node overview panel,Hide GML Visual node overview panel,,DnD pref
-DnD_Pref_MaxThumbSize,Maximum size for GML Visual toolbox action thumbnails,Maximum size for GML Visual toolbox action thumbnails,,DnD pref
-DnD_Pref_MinThumbSize,Minimum size for GML Visual toolbox action thumbnails,Minimum size for GML Visual toolbox action thumbnails,,DnD pref
-DnD_Pref_ThumbSize,Default size for GML Visual toolbox action thumbnails,Default size for GML Visual toolbox action thumbnails,,DnD pref
-DnD_Pref_RecentlyUsed,Maximum number of recently used actions to display,Maximum number of recently used actions to display,,DnD pref
-DnD_Pref_ChainSmoothness,The smoothness of the chain.,The smoothness of the chain.,,DnD pref
-DnD_Pref_DragTime,Mouse down time to start dragging node (ms),Mouse down time to start dragging node (ms),,DnD pref
-DnD_Pref_CommentStyle,Comment text style,Comment text style,,DnD pref
-DnD_Message_Error_Prefix,ERROR:,ERROR:,,DnD message prefix
-DnD_Message_InvalidSyntaxError,The "{0}" node is causing an invalid program flow. Move it to a correct location.,The "{0}" node is causing an invalid program flow. Move it to a correct location.,,DnD message syntax error
-DnD_Message_InvalidSyntaxInsertionTitle,Invalid Insertion,Invalid Insertion,,DnD pop up title for below message
-DnD_Message_InvalidSyntaxInsertion,Inserting {0} at this location would result in an invalid program.,Inserting {0} at this location would result in an invalid program.,,DnD pop up message for invalid syntax insertion
+GMLVisual_Pref_ToolboxLocation,GML Visual toolbox default location,GML Visual toolbox default location,,GML Visualpref
+GMLVisual_Pref_StoryMode,GML Visual node overview visibility mode,GML Visual node overview visibility mode,,GML Visual pref
+GMLVisual_Pref_CollapseToolbox,Hide docked GML Visual toolboxes if floating GML Visual toolbox is open,Hide docked GML Visual toolboxes if floating GML Visual toolbox is open,,GML Visual pref
+GMLVisual_Pref_ChainThickness,Thickness of the chain that connects GML Visual actions,Thickness of the chain that connects GML Visual actions,,GML Visual pref
+GMLVisual_Pref_CollapseStory,Hide GML Visual node overview panel,Hide GML Visual node overview panel,,GML Visual pref
+GMLVisual_Pref_MaxThumbSize,Maximum size for GML Visual toolbox action thumbnails,Maximum size for GML Visual toolbox action thumbnails,,GML Visual pref
+GMLVisual_Pref_MinThumbSize,Minimum size for GML Visual toolbox action thumbnails,Minimum size for GML Visual toolbox action thumbnails,,GML Visual pref
+GMLVisual_Pref_ThumbSize,Default size for GML Visual toolbox action thumbnails,Default size for GML Visual toolbox action thumbnails,,GML Visual pref
+GMLVisual_Pref_RecentlyUsed,Maximum number of recently used actions to display,Maximum number of recently used actions to display,,GML Visual pref
+GMLVisual_Pref_ChainSmoothness,The smoothness of the chain.,The smoothness of the chain.,,GML Visual pref
+GMLVisual_Pref_DragTime,Mouse down time to start dragging node (ms),Mouse down time to start dragging node (ms),,GML Visual pref
+GMLVisual_Pref_CommentStyle,Comment text style,Comment text style,,GML Visual pref
+GMLVisual_Message_Error_Prefix,ERROR:,ERROR:,,GML Visual message prefix
+GMLVisual_Message_InvalidSyntaxError,The "{0}" node is causing an invalid program flow. Move it to a correct location.,The "{0}" node is causing an invalid program flow. Move it to a correct location.,,GML Visual message syntax error
+GMLVisual_Message_InvalidSyntaxInsertionTitle,Invalid Insertion,Invalid Insertion,,GML Visual pop up title for below message
+GMLVisual_Message_InvalidSyntaxInsertion,Inserting {0} at this location would result in an invalid program.,Inserting {0} at this location would result in an invalid program.,,GML Visual pop up message for invalid syntax insertion
 ggs_webserver_port,Web Server Port,Web Server Port,,Webserver Port
 ggs_webserver_ips,Allowed Web Server IPs,Allowed Web Server IPs,,Allowed IPs to connect to the debug webserver
 ggs_browser_path,Path to Browser,Path to Browser,,Path to Browser to use for testing HTML5
@@ -3451,29 +3482,29 @@ ListBoxEnum_eEventClickType_DoubleClick,Double-Click,Double-Click,,double click 
 EventLabelFormat_Name,Event Name,Event Name,,event label format name item
 EventLabelFormat_Description,Event Description,Event Description,,event label format description item
 EventLabelFormat_ParentObject,Parent Object,Parent Object,,event label format parent object item
-DnD_ReservedTagName,The tag name {0} is reserved and cannot be used.,The tag name {0} is reserved and cannot be used.,,DnDGadget reserved tag name warning
-DnD_ReservedTagName_Title,Reserved Tag Name,Reserved Tag Name,,DnDGadget reserved tag name warning message title
+GMLVisual_ReservedTagName,The tag name {0} is reserved and cannot be used.,The tag name {0} is reserved and cannot be used.,,GML VisualGadget reserved tag name warning
+GMLVisual_ReservedTagName_Title,Reserved Tag Name,Reserved Tag Name,,GML VisualGadget reserved tag name warning message title
 Room_InvalidDepthsImportedLog,"Imported layer depths for room(s) '{0}' were not adequately spaced. Unless updated this will have undefined results in game.","Imported layer depths for room(s) '{0}' were not adequately spaced. Unless updated this will have undefined results in game.",,conversion log message where layer depths are invalid and have not been adjusted
 Room_InvalidDepthsImportedMessage,Imported layer depths for rooms listed below are not adequately spaced. Do you want to redistribute depths? This may require updating scripts where depth values have been used. \nChoosing 'no' will maintain the user defined depths but will have undefined results in game.,Imported layer depths for rooms listed below are not adequately spaced. Do you want to redistribute depths? This may require updating scripts where depth values have been used. \nChoosing 'no' will maintain the user defined depths but will have undefined results in game.,, message when importing a project which has invalid layer depths
 Room_AutoDepthUpdateMessage,"User defined layer depths are not adequately spaced. Do you want to redistribute depths? \nChoosing 'no' will maintain the user defined depths, but will have undefined results in game.","User defined layer depths are not adequately spaced. Do you want to redistribute depths? \nChoosing 'no' will maintain the user defined depths, but will have undefined results in game.",,the message when a user tries to put too many layers between their user defined layers such that we can't create unique depths.
 Room_AutoDepthUpdateTitle,Layer Depth Error,Layer Depth Error,,message title when the user has given invalid layer depths
 roomdefaultstep,Default layer depth spacing,Default layer depth spacing,,the preference label for auto depth layer spacing
 room_autodepthchoice,Automatic response to updating layer depths,Automatic response to updating layer depths,,preference label for the auto depth confirmation dialog preference
-DnDConvert_Warning,You are performing a one-way conversion from GML Visual to GML Code. Do you want to continue?,You are performing a one-way conversion from GML Visual to GML Code. Do you want to continue?,,Object editor convert dnd to script warning
-DnDConvert_WarningTitle,Convert GML Visual,Convert GML Visual,,object editor dnd convert warning title
-TimelineEditor_ConvertMerge,Merging the selected moments will result in conversion from DnD to GameMaker Language. Do you want to continue?,Merging the selected moments will result in conversion from DnD to GameMaker Language. Do you want to continue?,,Merge warning
-TimelineDnD_ConvertOpposite,Opposite,Opposite,,Convert dnd or script to opposite type
-Settings_DnDConvert,Automatic response to GML Visual conversion to GML Code,Automatic response to GML Visual conversion to GML Code,,DnD convert pref
-Settings_DnDDeleteNode,Automatic response to GML Visual node deletion,Automatic response to GML Visual node deletion,,DnD deletion pref
-DnDModule_DeleteNodeMsg,Are you sure you want to delete this GML Visual action?,Are you sure you want to delete this GML Visual action?,,DnD delete message
-DnDModule_ConvertToScript,Convert to GML Code,Convert to GML Code,,DnD module convert to gml context menu
-DnDModule_AddComment,Comment...,Comment...,,Add a comment to a DnD script
-DnDModule_RemoveComment,Remove Comment,Remove Comment,,Remove a comment from a DnD script
-DnDModule_RemoveComments,Remove Comments,Remove Comments,,Remove comments from a DnD script
-DnDModule_Window,Window,Window,,Window submenu
+GMLVisualConvert_Warning,You are performing a one-way conversion from GML Visual to GML Code. Do you want to continue?,You are performing a one-way conversion from GML Visual to GML Code. Do you want to continue?,,Object editor convert GML Visual to script warning
+GMLVisualConvert_WarningTitle,Convert GML Visual,Convert GML Visual,,object editor GML Visual convert warning title
+TimelineEditor_ConvertMerge,Merging the selected moments will result in conversion from GML Visual to GameMaker Language. Do you want to continue?,Merging the selected moments will result in conversion from GML Visual to GameMaker Language. Do you want to continue?,,Merge warning
+TimelineGMLVisual_ConvertOpposite,Opposite,Opposite,,Convert GML Visual or script to opposite type
+Settings_GMLVisualConvert,Automatic response to GML Visual conversion to GML Code,Automatic response to GML Visual conversion to GML Code,,GML Visual convert pref
+Settings_GMLVisualDeleteNode,Automatic response to GML Visual node deletion,Automatic response to GML Visual node deletion,,GML Visual deletion pref
+GMLVisualModule_DeleteNodeMsg,Are you sure you want to delete this GML Visual action?,Are you sure you want to delete this GML Visual action?,,GML Visual delete message
+GMLVisualModule_ConvertToScript,Convert to GML Code,Convert to GML Code,,GML Visual module convert to gml context menu
+GMLVisualModule_AddComment,Comment...,Comment...,,Add a comment to a GML Visual script
+GMLVisualModule_RemoveComment,Remove Comment,Remove Comment,,Remove a comment from a GML Visual script
+GMLVisualModule_RemoveComments,Remove Comments,Remove Comments,,Remove comments from a GML Visual script
+GMLVisualModule_Window,Window,Window,,Window submenu
 dpi_percentage,% of native DPI,% of native DPI,,Slider to control percentage of DPI
 dpi_raw,Raw DPI value,Raw DPI value,,Raw value of DPI to override with
-DnDModule_ResetLayout,Reset Layout,Reset Layout,,DnD module reset layout context menu
+GMLVisualModule_ResetLayout,Reset Layout,Reset Layout,,GML Visual module reset layout context menu
 ggs_support_lib,Support Library,Support Library,,Support Library
 BackgroundLayer_AnimationFPS,Animation Speed:,Animation Speed:,,The caption for the background layer animation fps property
 ListViewExplorer_None,None,None,,None resource
@@ -3481,11 +3512,11 @@ ListViewExplorer_GoBack,Back,Back,,Back item
 ListView_SearchResultsSingular,{0} item,{0} item,,ListView search results label
 ListView_SearchResultsPlural,{0} items,{0} items,,ListView search results label
 ListViewExplorer_CancelSearch,Cancel,Cancel,,ListView cancel search label
-DnDModule_ApplyToExplorer,Applies To...,Applies To...,,Apply to list view explorer title
-DnDModule_ApplyTo_Self,Self,Self,,Apply to self caption
-DnDModule_ApplyTo_Other,Other,Other,,Apply to other caption
-DnDModule_ApplyTo_All,All,All,,Apply to all caption
-DnDModule_ApplyTo_Expression,Expression,Expression,,Apply To expression label
+GMLVisualModule_ApplyToExplorer,Applies To...,Applies To...,,Apply to list view explorer title
+GMLVisualModule_ApplyTo_Self,Self,Self,,Apply to self caption
+GMLVisualModule_ApplyTo_Other,Other,Other,,Apply to other caption
+GMLVisualModule_ApplyTo_All,All,All,,Apply to all caption
+GMLVisualModule_ApplyTo_Expression,Expression,Expression,,Apply To expression label
 RoomEditor_DockTab,Room Editor,Room Editor,,The default tab name for a tab created by the room editor
 keystore_error,Error with Keystore,Error with Keystore,,Error with Keystore
 keystore_invalid_alias,Invalid characters in alias,Invalid characters in alias,,Invalid characters in alias
@@ -3547,6 +3578,7 @@ operagx_out_upload_exiting,GXC Upload Exiting...,GXC Upload Exiting...,,Output M
 operagx_out_upload_timeout,GXC Upload Timeout...,GXC Upload Timeout...,,Output Message tracking Packaging for OperaGX process
 operagx_out_upload_success,GXC Upload succeeded,GXC Upload succeeded,,Output Message tracking Packaging for OperaGX process
 operagx_out_upload_failed,GXC Upload failed,GXC Upload failed,,Output Message tracking Packaging for OperaGX process
+operagx_out_sync_failed,GXC synchronization failed,GXC synchronization failed,,Output Message tracking Packaging for OperaGX process
 operagx_out_compilationbeforeupload_failed,Compilation failed. GXC upload cancelled. See the console output and the compile errors.,Compilation failed. GXC upload cancelled. See the console output and the compile errors.,,Output Message to show then the compilation failed in the "OperaGX Packaging" window
 operagx_out_game_created,Game Created!,Game Created!,,Output Message tracking Packaging for OperaGX process
 operagx_out_game_create_error,ERROR - Creating Game,ERROR - Creating Game,,Output Message tracking Packaging for OperaGX process
@@ -3563,6 +3595,7 @@ operagx_out_auth_timeout,OAuth2 Timeout...,OAuth2 Timeout...,,Output Message tra
 operagx_out_auth_error,ERROR - Unable to refresh OAuth token,ERROR - Unable to refresh OAuth token,,Output Message tracking Packaging for OperaGX process
 operagx_out_auth_retrieve_error,Failed to retrieve OAuth token,Failed to retrieve OAuth token,,Output Message tracking Packaging for OperaGX process
 operagx_out_auth_token_success,OAuth2 access token received,OAuth2 access token received,,Output Message tracking Packaging for OperaGX process
+invalid_characters_in_name,The game name contains invalid characters,The game name contains invalid characters,,Output message for registering a game on GXC
 operagx_project_id_taken,The Project GUID is already taken. Try to generate a new one through the Main Game Options,The Project GUID is already taken. Try to generate a new one through the Main Game Options,,A message on error 400 - project_id_taken
 opera_sync_empty_guid,The GUID is empty. The project will be registered on GXC as a new game,The GUID is empty. The project will be registered on GXC as a new game,,Empty GUID tip for the user
 opera_sync_syncronization_on,Synchronization...,Synchronization...,,Synchronization button label during synchronization process
@@ -3573,8 +3606,14 @@ opera_sync_guid_valid,"With the GUID provided, you may change the game settings 
 opera_sync_guid_not_valid_format,GUID format is not valid,GUID format is not valid,,Tip for an invalid GUID
 opera_sync_incorrect_data,Incorrect data. Check the output,Incorrect data. Check the output,,Incorrect data warning message
 opera_sync_game_not_found,The game has not been found on the server,The game has not been found on the server,,The message is shown when the game with the given GUID has not been found in the list of games received from GXC
+opera_sync_game_forced_new,The game was not found on the server and its settings were not synchronized. You may register it as a new game.,The game was not found on the server and its settings were not synchronized. You may register it as a new game.,,Game not found on GXC - detailed message
+opera_sync_group_not_found,The group selected in the game options was not found on GX.Games.,The group selected in the game options was not found on GX.Games.,,Warning message on creating a game on GXC
 opera_sync_update_user_data_started,Updating the list of games and groups...,Updating the list of games and groups...,,The message on starting updating the user data: list of his games and groups
 opera_sync_zero_groups,Zero groups received from the server,Zero groups received from the server,,The message which is shown in a case when the list of groups received from the server is empty
+opera_sync_fetching_profile,Fetching profile info...,Fetching profile info...,,The label caption during request to OperaGX
+opera_sync_profile_error,Fetching profile info failed,Fetching profile info failed,,The label caption which is shown after failing fetching the profile info from GX.Games
+opera_sync_not_logged,Not signed-in to Opera GX,Not signed-in to Opera GX,,The label caption when a user is not logged in to OperaGX
+opera_sync_logged_info,Signed-in to Opera GX as: {0},Signed-in to Opera GX as: {0},,The label caption when a user is logged in to OperaGX
 gxc_err_game_creation_not_allowed,Only the owner of the group may create a game for the group,Only the owner of the group may create a game for the group,,Error message from GXC
 gxc_err_no_specific_group_for_user,The user doesn't have a specific group,The user doesn't have a specific group,,Error message from GXC
 gxc_err_max_games_limit_reached,The group has reached its max games limit,The group has reached its max games limit,,Error message from GXC
@@ -3583,11 +3622,6 @@ gxc_err_game_name_too_long,The provided game name is too long,The provided game 
 gxc_err_invalid_group_ownership,The users group has an invalid amount of owners (not 1),The users group has an invalid amount of owners (not 1),,Error message from GXC
 option_operagx_team_tip,The selected group is missing on GX.Games,The selected group is missing on GX.Games,,A tip shown when a group from the local settings cannot be found on GXC
 sso_new_game,[New Game...],[New Game...],,An item in a dropdown list representing the games registered on GXC. Should be enclosed into square brackets: that's because these symbols are not allowed on GXC and it guarantees that the user cannot create a game with the same name as this option.
-windowsuwp_package_arm,Package an ARM build,Package an ARM build,,Package an ARM build
-windowsuwp_package_x86,Package an x86 build,Package an x86 build,,Package an x86 build
-windowsuwp_package_x64,Package an x64 build,Package an x64 build,,Package an x64 build
-win_uwp_package_default_type,Default package architecture,Default package architecture,,Win UWP Preference for package architecture
-win_uwp_store_package_default_type,Automatic response to creating store package,Automatic response to creating store package,,Default response for creating store package - sits on same dialogue as package_default_type above
 windows_package_remember,Remember Packaging Option?,Remember Packaging Option?,,Remember Packaging Option?
 windows_package_nsis,Package as Installer,Package as Installer,,Package as Installer
 windows_package_zip,Package as Zip,Package as Zip,,Package as Zip
@@ -3606,26 +3640,16 @@ html5_default_allowed_ips,Default Web Server Allowed IPs,Default Web Server Allo
 ListBoxEnum_HTML5PackageChoice_HTML5Package_LooseFiles,Package as Loose Files,Package as Loose Files,,Package as Loose Files
 ListBoxEnum_HTML5PackageChoice_HTML5Package_Zip,Package as Zip,Package as Zip,,Package as Zip
 ListBoxEnum_HTML5PackageChoice_HTML5Package_Show,Show Dialog,Show Dialog,,Show Dialog
-windows_uwp_package_upload,Package for Store Upload,Package for Store Upload,,Package for Store Upload
-windows_uwp_package_for,Package for:,Package for:,,Followed by a list of architectures to package for
-windows_uwp_arm,ARM,ARM,DO NOT TRANSLATE,ARM
-windows_uwp_x86,x86,x86,DO NOT TRANSLATE,x86
-windows_uwp_x64,x64,x64,DO NOT TRANSLATE,x64
-windows_uwp_package_no_arch_error,At least one architecture must be selected to create a package,At least one architecture must be selected to create a package,,Error message shown if the user doesn't select any architectures
-windows_uwp_package_no_arch_error_title,Error,Error,,Title for error dialog shown when the user hasn't selected any architectures
 xbox_package_dev,Developer Package,Developer Package,,Normal Package type used during development
 xbox_package_submission,Submission Package (/l),Submission Package (/l),,Package created for final submission to Microsoft
 xbox_package_xbone,Xbox One package,Xbox One package,,Package built for Xbox One consoles
 xbox_package_seriesxs,Xbox One or Series X/S package,Xbox One or Series X/S package,,Package built for Xbox consoles
+xbox_package_deploy,Deploy the package after completing the compilation?,Deploy the package after completing the compilation?,,Diagogue message to request from user whether the compiled package should be deployed to the device
 build_no_packaging_on_platform,Packages can not be built for the selected platform,Packages can not be built for the selected platform,,It is not possible to Create Application on this platform
 build_no_packaging_on_platform_title,Error,Error,,Title for dialog box shown when trying to Create Application with Test platform selected
 ListBoxEnum_WindowsPackageChoice_WindowsPackage_Show,Show Dialog,Show Dialog,,Show Dialog
 ListBoxEnum_WindowsPackageChoice_WindowsPackage_Zip,Create Zip Archive,Create Zip Archive,,Create Zip Archive
 ListBoxEnum_WindowsPackageChoice_WindowsPackage_Nsis,Create Nsis Installer,Create Nsis Installer,,Create Nsis Installer
-ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_Show,Show Dialog,Show Dialog,,Show Dialog
-ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_X86,Create X86 Package,Create X86 Package,,Create X86 Package
-ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_X64,Create X64 Package,Create X64 Package,,Create X64 Package
-ListBoxEnum_WindowsUWPPackageArchitectureChoice_WinUWPPackage_ARM,Create Arm Package,Create Arm Package,,Create Arm Package
 ListBoxEnum_MacPackageChoice_MacPackage_Dmg,Create DMG Installer,Create DMG Installer,,Create DMG Installer
 ListBoxEnum_MacPackageChoice_MacPackage_Zip,Create Zip Archive,Create Zip Archive,,Create Zip Archive
 ListBoxEnum_MacPackageChoice_MacPackage_Show,Show Dialog,Show Dialog,,Show Dialog
@@ -3663,7 +3687,6 @@ platformdevice_edit_psvita_devices,Edit PS Vita Devices,Edit PS Vita Devices,,Ed
 platformdevice_edit_tvos_devices,Edit tvOS Devices,Edit tvOS Devices,,Edit tvOS Devices Window Name
 platformdevice_edit_windows_devices,Edit Windows Devices,Edit Windows Devices,,Edit Windows Devices Window Name
 platformdevice_edit_winphone8_devices,Edit Windows Phone 8 Devices,Edit Windows Phone 8 Devices,,Edit Windows Phone 8 Devices
-platformdevice_edit_xbone_devices,Edit Xbox One Devices,Edit Xbox One Devices,,Edit Xbox One Devices
 platformdevice_detecting,Detecting devices...,Detecting devices...,,Shown when the user has selected to auto-detect devices (iOS mainly)
 platformdevice_checkdevice,Test Connection,Test Connection,,Platform Device Check Device Connection
 platformdevice_clearkeys,Clear SSH Key,Clear SSH Key,,Platform Device Clear Keys
@@ -3691,16 +3714,18 @@ platformdevice_connection_failed,Connection to {0} Failed,Connection to {0} Fail
 platformdevice_connection_success_title,Connection Successful,Connection Successful,,Connection Successful title
 platformdevice_connection_failed_title,Connection Failed,Connection Failed,,Connection Failed title
 platformdevice_connection_no_devices,No Devices found,No Devices found,,no devices are found
+filter_sprite_texturegroup_warning_title,Warning,Warning,,sprite texture page warning title
+filter_sprite_texturegroup_warning,Selected sprite may not work correctly in-game unless the ""Separate Texture Page"" option is selected for it,Selected sprite may not work correctly in-game unless the ""Separate Texture Page"" option is selected for it,,sprite texture page warning
 AssetExplorer_SelectResource,Select Asset,Select Asset,,Fallback title for asset explorer
 AssetExplorer_SelectResourceType,Select {0},Select {0},,select (resource type name) title for asset explorer
 AssetExplorer_FilterCaptionGeneric,Showing {0}/{1} filtered items,Showing {0}/{1} filtered items,,Title for filtered items in asset explorer
-ParserError_DnD,{0} in GML Visual action {1},{0} in GML Visual action {1},,DnD parser error message
+ParserError_GMLVisual,{0} in GML Visual action {1},{0} in GML Visual action {1},,GML Visual parser error message
 GadgetToolbox_ListView,List View,List View,,List View dialog editor name
 GadgetToolbox_Table,Table,Table,,Table dialog editor name
 GadgetToolbox_TableListBox,TableListBox,TableListBox,,The table gadgets list box name
 GadgetToolbox_ProgressBar,Progress Bar,Progress Bar,,The progress bar name
-DnDMaker_Menu_RegenerateLayouts,Regenerate Layouts,Regenerate Layouts,,Regenerate all layouts in the loaded library
-DnDMaker_Menu_RegenerateLayout,Regenerate Current,Regenerate Current,,Regenerate current layout in the loaded library
+GMLVisualMaker_Menu_RegenerateLayouts,Regenerate Layouts,Regenerate Layouts,,Regenerate all layouts in the loaded library
+GMLVisualMaker_Menu_RegenerateLayout,Regenerate Current,Regenerate Current,,Regenerate current layout in the loaded library
 runtimes_available,Runtimes Available:,Runtimes Available:,,Runtimes Available
 runtime_version,Version No.,Version No.,,Runtime Version
 runtime_is_installed,Is Installed,Is Installed,,Runtime Is Installed
@@ -3815,7 +3840,7 @@ TileSetEditor_SelectedFrame,Selected Frame:,Selected Frame:,,the caption in the 
 TileSetEditor_SelectedTile,Selected Tile:,Selected Tile:,,the caption in the animations window status bar
 TileSetEditor_SelectAnimationFrameCount,Set number of frames,Set number of frames,,the message displayed on a new animation which the user has not selected the frame count
 TileSetEditor_TileTemplates,Auto Tile Templates,Auto Tile Templates,,The auto tile editor heading for the auto tile set list
-ApplyTo_DnD_ToolTip,Apply to a different instance.,Apply to a different instance.,,Apply To dnd tooltip caption
+ApplyTo_GMLVisual_ToolTip,Apply to a different instance.,Apply to a different instance.,,Apply To GML Visual tooltip caption
 YoYoImage_UnknownImageFormat,Unknown image format,Unknown image format,,ouput to show that the selected image file was of an unknown type
 YoYoImage_ImageTooLarge,Tried to load an image that was too large. Skipping pixels.,Tried to load an image that was too large. Skipping pixels.,,tried to load image message
 YoYoImage_BmpRleNotSupported,Runlength encoded not supported for .bmp formatted images. Skipping pixels.,Runlength encoded not supported for .bmp formatted images. Skipping pixels.,,BMP RLE not suported message
@@ -3909,18 +3934,25 @@ ExtensionEditor_RemoveIos3rdPartyFrameworkAreYouSure,Are you sure you want to de
 ExtensionEditor_ButtonChoiceOnIos3rdPartyFrameworkDeletion,Automatic button choice on iOS 3rd Party Framework deletion,Automatic button choice on iOS 3rd Party Framework deletion,,Automatic button choice on iOS 3rd Party Framework deletion setting
 ExtensionEditor_CodeInjection,Code Injection:,Code Injection:,,ext editor code injection label
 ExtensionEditor_Options_Tooltip,Manage extension options,Manage extension options,,button to open extension options managing window
+ExtensionEditor_Config_Reset_Tooltip,Reset to default value,Reset to default value,,button to reset the extension option value to the default one
 ExtensionEditor_Option_Name,Name,Name,,Option name
 ExtensionEditor_Option_Name_Tooltip,This is how you will refer to it at compile/run time.,This is how you will refer to it at compile/run time.,,Tooltip option name
 ExtensionEditor_Option_Default,Default,Default,,Default value
 ExtensionEditor_Option_Type,Type,Type,,Option type
 ExtensionEditor_Option_Extras,Extras,Extras,,Extra option parameters
 ExtensionEditor_Options_Window,Extension Options,Extension Options,,Extension Options definitions label in Extension Editor
+ExtensionEditor_OptionAddButton,Add Option,Add Option,,Add an extension option
+ExtensionEditor_OptionAddSectionButton,Add Section,Add Section,,Add an extension option section
 ExtensionEditor_OptionAddButton_Tooltip,Add a new option,Add a new option,,Add option tooltip
+ExtensionEditor_OptionAddSectionButton_Tooltip,Add a new section,Add a new section,,add a new ext option section button tooltip
 ExtensionEditor_OptionBoolean_Label,True,True,,Boolean label
 ExtensionEditor_WindowExtras,Extras: {0},Extras: {0},,Extras window title
 ExtensionEditor_WindowExtras_DisplayName,Display Name:,Display Name:,,extension option display name label
 ExtensionEditor_WindowExtras_Description,Description (tooltip):,Description (tooltip):,,extension option description tooltip label
 ExtensionEditor_WindowExtras_Export,Export to INI file:,Export to INI file:,,extension option export to INI label
+ExtensionEditor_WindowExtras_ListItems,List Items:,List Items:,,list items for list extension option type
+ExtensionEditor_WindowExtras_ListAddButton_Tooltip,Add Item,Add Item,,button to add new item to list
+ExtensionEditor_WindowExtras_ListRemoveItem_Tooltip,Remove Item,Remove Item,,button to remove item from list
 ExtensionEditor_Option_ExtrasTooltip,Open extras...,Open extras...,,Open option extras tooltip
 ExtensionEditor_Option_RemoveTooltip,Remove this option,Remove this option,,Remove option row tooltip
 ExtensionEditor_OptionWarning_Message,This window should only be used by the extension's author!\nDo you want to proceed?,This window should only be used by the extension's author!\nDo you want to proceed?,,Extension Options editor warning
@@ -3931,7 +3963,8 @@ Help_eExtensionOptionType_String,The value is a string (quotes are optional),The
 Help_eExtensionOptionType_Multiline,The value is a multiple line string (quotes are optional),The value is a multiple line string (quotes are optional),,Multiline string value type help tip
 Help_eExtensionOptionType_FilePath,The value is a file path string,The value is a file path string,,Folder path string value type help tip
 Help_eExtensionOptionType_FolderPath,The value is a folder path string,The value is a folder path string,,Folder path string value type help tip
-Help_eExtensionOptionType_Section,The value represents a label in the UI (not compiled),The value represents a label in the UI (not compiled),,Label value type help tip
+Help_eExtensionOptionType_Label,The value represents a label in the UI (not compiled),The value represents a label in the UI (not compiled),,Label value type help tip
+Help_eExtensionOptionType_List,The value is a selection from a list (handled as a string),The value is a selection from a list (handled as a string),,List value type help tip
 GoToType_WindowTitle,"Search for Assets, Options, Preferences:","Search for Assets, Options, Preferences:",,Go To Type window title
 GoToType_FieldCaption,What are you looking for?,What are you looking for?,,Go To Type default search field caption
 GoToType_MaxItemPref,Maximum number of search results to display,Maximum number of search results to display,,Go To max number pref
@@ -4058,12 +4091,12 @@ Help_eObjectPropertyType_Expression,The value is any code expression,The value i
 Help_eObjectPropertyType_Resource,The value is an asset (allows expressions),The value is an asset (allows expressions),,Asset value type help tip
 Help_eObjectPropertyType_Color,The value is a colour (allows expressions),The value is a colour (allows expressions),,Color value type help tip
 Help_eObjectPropertyType_List,The value is one or more expressions from a list (if multi-select is on then\nthis is an array of expressions),The value is one or more expressions from a list (if multi-select is on then\nthis is an array of expressions),,List value type help tip
-DnDToolbox_Menu_AddToWorkspace,Use {0},Use {0},,DnD Toolbox use action
-DnDToolbox_Menu_CollapseAll,Collapse All,Collapse All,,DnD toolbox collapse all
-DnDToolbox_Menu_Favorite,Make Favourite,Make Favourite,,DnD Toolbox make favourite
-DnDToolbox_Menu_RemoveFav,Remove Favourite,Remove Favourite,,DnD Toolbox remove favourite
-DnDToolbox_Menu_ClearRecentlyUsed,Clear Recently Used,Clear Recently Used,,DnD Toolbox clear recently used
-DnDToolbox_Menu_ClearFavs,Clear Favourites,Clear Favourites,,DnD Toolbox clear favourites
+GMLVisualToolbox_Menu_AddToWorkspace,Use {0},Use {0},,GML Visual Toolbox use action
+GMLVisualToolbox_Menu_CollapseAll,Collapse All,Collapse All,,GML Visual toolbox collapse all
+GMLVisualToolbox_Menu_Favorite,Make Favourite,Make Favourite,,GML Visual Toolbox make favourite
+GMLVisualToolbox_Menu_RemoveFav,Remove Favourite,Remove Favourite,,GML Visual Toolbox remove favourite
+GMLVisualToolbox_Menu_ClearRecentlyUsed,Clear Recently Used,Clear Recently Used,,GML Visual Toolbox clear recently used
+GMLVisualToolbox_Menu_ClearFavs,Clear Favourites,Clear Favourites,,GML Visual Toolbox clear favourites
 SourceControlGit_FileLock,One or more files may be locked. Please check that none of the files are open in external programs. Do you want to try again?,One or more files may be locked. Please check that none of the files are open in external programs. Do you want to try again?,,Files potentially locked and need to try again
 SourceControlGit_Error,Source Control (Git) Error,Source Control (Git) Error,,Error with Source Control (Git)
 SourceControlGit_ProjectBreakRetry,"Be aware that this may have broken your project, as the command was not successful and you have chosen not to retry it.","Be aware that this may have broken your project, as the command was not successful and you have chosen not to retry it.",,Project may be broken warning due to command failing and choosing not to retry
@@ -4570,6 +4603,8 @@ GMStdRollbackPlayerId,Player ID,Player ID,,GML Visual library argument label
 GMStdRollbackDefineInputFrameDelay_Name,Define input frame delay (Rollback),Define input frame delay (Rollback),,GML Visual library action name
 GMStdRollbackDefineInputFrameDelay_Desc,This function sets a fixed local input frame delay.,This function sets a fixed local input frame delay.,,GML Visual library action description
 GMStdRollbackEnabled,Enabled,Enabled,,GML Visual library argument label
+GMStdRollbackUseManualStart_Name,Use Manual Start (Rollback),Use Manual Start (Rollback),,GML Visual library action name
+GMStdRollbackUseManualStart_Desc,This function enables manual start (waiting for rollback_start_game to be called),This function enables manual start (waiting for rollback_start_game to be called),,GML Visual library action description
 GMStdRollbackStartGame_Name,Start Rollback Game,Start Rollback Game,,GML Visual library action name
 GMStdRollbackStartGame_Desc,This function starts the current game.,This function starts the current game.,,GML Visual library action description
 GMStdRollbackCreateGame_Name,Create Rollback Game,Create Rollback Game,,GML Visual library action name
@@ -4594,6 +4629,9 @@ GMStdRollbackIfInputUp_Name,If Key Up (Rollback),If Key Up (Rollback),,GML Visua
 GMStdRollbackIfInputUp_Desc,Check if a key managed by the rollback is released.,Check if a key managed by the rollback is released.,,GML Visual library action description
 GMStdRollbackIfInput_Name,If Key Pressed (Rollback),If Key Pressed (Rollback),,GML Visual library action name
 GMStdRollbackIfInput_Desc,Check if a key managed by the rollback is held down.,Check if a key managed by the rollback is held down.,,GML Visual library action description
+GMStdRollbackChat_Name,Send Message (Rollback),Send Message (Rollback),,GML Visual library action name
+GMStdRollbackChat_Desc,Sends a message to another player or to everyone,Sends a message to another player or to everyone,,GML Visual library action description
+GMStdTo,To,To,,The recepient of the message
 GMStdRollbackIfEventFired_Name,If Rollback Event Fired,If Rollback Event Fired,,GML Visual library action name
 GMStdRollbackIfEventFired_Desc,If a rollback event was fired,If a rollback event was fired,,GML Visual library action description
 GMStdRollbackSyncOnFrame_Name,Sync on frame (Rollback),Sync on frame (Rollback),,GML Visual library action name
@@ -4606,6 +4644,7 @@ GMLVisual_Rollback_Disconnected_From_Peer,Disconnected From Peer,Disconnected Fr
 GMLVisual_Rollback_Game_Interrupted,Game Interrupted,Game Interrupted,,GML Visual library selection option
 GMLVisual_Rollback_Game_Resumed,Game Resumed,Game Resumed,,GML Visual library selection option
 GMLVisual_Rollback_Game_Full,Game Full,Game Full,,GML Visual library selection option
+GMLVisual_Rollback_ChatMessage,Chat Message,Chat Message,,GML Visual library selection option
 GMLVisual_Rollback_Game_Info,Game Info,Game Info,,GML Visual library selection option
 GMLVisual_Rollback_Connect_Info,Connect Info,Connect Info,,GML Visual library selection option
 GMStdScript,"Script","Script",,GML Visual library argument label
@@ -4685,6 +4724,7 @@ GMStdStack,"Stack","Stack",,GML Visual library argument label
 GMStdSound,"Sound","Sound",,GML Visual library argument label
 GMStdLoop,"Loop","Loop",,GML Visual library argument label
 GMStdTimeInSecs,"Time In Seconds","Time In Seconds",,GML Visual library argument label
+GMStdGain,"Gain","Gain",,GML Visual library argument label
 GMStdPitch,"Pitch","Pitch",,GML Visual library argument label
 GMStdVolume,"Volume","Volume",,GML Visual library argument label
 GMStdRoom,"Room","Room",,GML Visual library argument label
@@ -5059,7 +5099,7 @@ StartPage_Web_Marketplace,Marketplace,Marketplace,,Start page localised web cont
 StartPage_Web_Tutorials,Tutorials,Tutorials,,Start page localised web content
 StartPage_Web_About,More,More,,Start page localised web content
 StartPage_Web_CreateNewProject,Create New Project,Create New Project,,Start page localised web content
-StartPage_Web_NewDnD,Drag and Drop,Drag and Drop,,Start page localised web content
+StartPage_Web_NewVisual,GML Visual,GML Visual,,Start page localised web content
 StartPage_Web_NewGml,GameMaker Language,GameMaker Language,,Start page localised web content
 StartPage_Web_NewJS,JavaScript,JavaScript,,Start page localised web content
 StartPage_Web_InheritFromProject,Inherit Project,Inherit Project,,Start page localised web content
@@ -5154,7 +5194,7 @@ ListBoxEnum_eTemplateFilter_User,User Templates,User Templates,,listbox enum
 default_audio_setting,Default Audio Device,Default Audio Device,,Default Audio Device setting
 Validate_NameLength,Resource name must be between {2} and {1} characters long,Resource name must be between {2} and {1} characters long,,validation error message for resource name
 Validate_InvalidFolderName,Folder name contains invalid characters: {0},Folder name contains invalid characters: {0},,validation error message for folder names
-DnD_ResourceSelection_DropLabel,Drop here to assign asset,Drop here to assign asset,,DnD Resource Input label
+GMLVisual_ResourceSelection_DropLabel,Drop here to assign asset,Drop here to assign asset,,GML Visual Resource Input label
 TextureGroups_OpenResource,Open,Open,,Open Resource
 RemoteWorker_WindowTitle,Settings for {0},Settings for {0},,Remote worker window title
 RemoteWorker_PlatformNotSupportedTitle,Remote Worker - Platform Not Supported,Remote Worker - Platform Not Supported,,Platform is not supported on this remote worker title
@@ -5167,12 +5207,12 @@ SearchOutput_Default,Press ${open_search_replace} to open the Search and Replace
 SourceControl_Default,"Source Control Output will go here.","Source Control Output will go here.",,Default text for the Source Control Window
 SourceControl_Trial,"Source Control Output would go here, but you are currently using a Trial version.\nPlease upgrade to a paid version to enable the Source Control features!\nVisit https://www.yoyogames.com/get2 to view our pricing.","Source Control Output would go here, but you are currently using a Trial version.\nPlease upgrade to a paid version to enable the Source Control features!\nVisit https://www.yoyogames.com/get2 to view our pricing.",,Default text for source control window when in trial mode.
 TileSetEditor_WarningRoomTileLayersAffected,"Tile size increase will cause rooms to lose some tile layer data, are you sure you want to make this change?\n\nTo avoid data loss press cancel and increase room size of the affected rooms: {0}","Tile size increase will cause rooms to lose some tile layer data, are you sure you want to make this change?\n\nTo avoid data loss press cancel and increase room size of the affected rooms: {0}",,warning for user when increasing tile width/height which would cause a room tile layer to be truncated and lose painted tiles
-GMStdAlpha_Name,Set Draw Alpha,Set Draw Alpha,,dnd set draw alpha node
-GMStdAlpha_Desc,Set the alpha channel (0 to 1) used for drawing.,Set the alpha channel (0 to 1) used for drawing.,,dnd set draw alpha node
-GMStdGetAlpha_Name,Get Draw Alpha,Get Draw Alpha,,dnd set draw alpha node
-GMStdGetAlpha_Desc,Get the alpha channel (0 to 1) used for drawing.,Get the alpha channel (0 to 1) used for drawing.,,dnd set draw alpha node
-GMStdUseAlpha,Use Alpha,Use Alpha,,dnd node label
-TextEditorPanel_ConvertToDnD,Convert to GML Visual,Convert to GML Visual,,Convert the current script to DnD
+GMStdAlpha_Name,Set Draw Alpha,Set Draw Alpha,,GML Visual set draw alpha node
+GMStdAlpha_Desc,Set the alpha channel (0 to 1) used for drawing.,Set the alpha channel (0 to 1) used for drawing.,,GML Visual set draw alpha node
+GMStdGetAlpha_Name,Get Draw Alpha,Get Draw Alpha,,GML Visual set draw alpha node
+GMStdGetAlpha_Desc,Get the alpha channel (0 to 1) used for drawing.,Get the alpha channel (0 to 1) used for drawing.,,GML Visual set draw alpha node
+GMStdUseAlpha,Use Alpha,Use Alpha,,GML Visual node label
+TextEditorPanel_ConvertToGMLVisual,Convert to GML Visual,Convert to GML Visual,,Convert the current script to GML Visual
 Marketplace_CreatePackageDetails,Package Details:,Package Details:,,package details heading
 Marketplace_InactiveTutorialSettings,Tutorial Content Settings will appear here when 'Tutorial' Package Type has been selected,Tutorial Content Settings will appear here when 'Tutorial' Package Type has been selected,,the message displayed when the tutorial settings are inactive
 CloseNonEmptyWorkspaceTabMessage,"Closing this workspace will also close the contained editors, are you sure?","Closing this workspace will also close the contained editors, are you sure?",,confirmation dialog message when closing a workspace tab with open editors
@@ -5307,13 +5347,13 @@ SmartGuidePref_SnapRulers,Snap Rulers to edges,Snap Rulers to edges,,snap rulers
 PickWhipSettings_ChainSoftness,Pick whip chain rendering segment count,Pick whip chain rendering segment count,,Pick whip chain softness preference
 PickWhipSettings_ChainThickness,Pick whip chain thickness,Pick whip chain thickness,,Pick whip chain thickness preference
 PickWhipSettings_Color,Pick whip colour,Pick whip colour,,The color of the pick whip preference
-DnDModule_ToggleBreakpoint,Toggle Breakpoint,Toggle Breakpoint,,Toggle breakpoint on a DnD node
-DnDModule_DisableNode,Disable,Disable,,Disable node output
-DnDModule_EnableNode,Enable,Enable,,Enable node output
-DnDModule_ToggleDisabled,Toggle Enabled,Toggle Enabled,,Toggle node output
-DnDModule_NodeDisabled,(Disabled),(Disabled),,Node disabled story entry
-DnDModule_DeleteAllBreakpoints,Delete All Breakpoints,Delete All Breakpoints,,Delete breakpoints on selected DnD nodes
-DnDModule_DeleteNode,Delete,Delete,,DnD module delete selected
+GMLVisualModule_ToggleBreakpoint,Toggle Breakpoint,Toggle Breakpoint,,Toggle breakpoint on a GML Visual node
+GMLVisualModule_DisableNode,Disable,Disable,,Disable node output
+GMLVisualModule_EnableNode,Enable,Enable,,Enable node output
+GMLVisualModule_ToggleDisabled,Toggle Enabled,Toggle Enabled,,Toggle node output
+GMLVisualModule_NodeDisabled,(Disabled),(Disabled),,Node disabled story entry
+GMLVisualModule_DeleteAllBreakpoints,Delete All Breakpoints,Delete All Breakpoints,,Delete breakpoints on selected GML Visual nodes
+GMLVisualModule_DeleteNode,Delete,Delete,,GML Visual module delete selected
 IDETooltip_LaptopMode_Title,Laptop Mode ({0}),Laptop Mode ({0}),,IDE toolbar laptop mode title
 IDETooltip_LaptopMode_On,On,On,,On text
 IDETooltip_LaptopMode_Off,Off,Off,,Off text
@@ -5537,7 +5577,7 @@ ExtEditor_Tooltip_FrameworkPathOnMac,Full path on Mac to import framework from,F
 ExtEditor_Tooltip_AddFrameworkFromMac,Import from Mac,Import from Mac,,tooltip
 ExtEditor_Tooltip_iOS_AddSource,Add local source folder,Add local source folder,,tooltip
 ExtEditor_ToolTip_FuncHidden,Hide functions from auto-complete list,Hide functions from auto-complete list,,tooltip
-DnD_StoryPanel_Empty,An overview will appear here when you add an action,An overview will appear here when you add an action,,Empty panel text
+GMLVisual_StoryPanel_Empty,An overview will appear here when you add an action,An overview will appear here when you add an action,,Empty panel text
 allowoverlappingchains_description,Workspace chains can overlap,Workspace chains can overlap,,preference description for whether we allow overlapping chains
 IcoFailedLoad,An image in the {0} file failed to load.,An image in the {0} file failed to load.,,Ico image failed to load
 desktop_windowlockzoomlevel,Minimum zoom level for interacting with window contents (%),Minimum zoom level for interacting with window contents (%),,preference description for when a window is locked and only responds to mouse interaction for dragging
@@ -5571,8 +5611,8 @@ PlatformImage_NoFileSelectedTitle,No Image Selected,No Image Selected,,the title
 PlatformImage_NoFileSelectedMessage,Please select an image using the file browser,Please select an image using the file browser,,the warning message that no image has been selected
 PlatformImage_Images,Images:,Images:,,the images section header
 PlatformImage_Icons,Icons:,Icons:,,the icons section header
-OverwriteFramesTitle,Replace all frames,Replace all frames,,image editor replace frames with os dnd files dialog title
-OverwriteFramesMessage,Do you wish to replace ALL the frames with the dropped image files?,Do you wish to replace ALL the frames with the dropped image files?,,image editor replace frames with os dnd files dialog title
+OverwriteFramesTitle,Replace all frames,Replace all frames,,image editor replace frames with os GML Visual files dialog title
+OverwriteFramesMessage,Do you wish to replace ALL the frames with the dropped image files?,Do you wish to replace ALL the frames with the dropped image files?,,image editor replace frames with os GML Visual files dialog title
 ListBoxEnum_eSymbolType_eNone,Unknown,Unknown,,Symbol type
 ListBoxEnum_eSymbolType_eEnumEntry,Enum Field,Enum Field,,Symbol type
 ListBoxEnum_eSymbolType_eGlobal,Global Variable,Global Variable,,Symbol type
@@ -5605,7 +5645,7 @@ ggs_window_colour,Default colour outside the room region,Default colour outside 
 defaultprojectdrawcolour_description,Initial default draw colour for new projects,Initial default draw colour for new projects,,the preference for setting the default draw colour option on project creation
 defaultprojectwindowcolour_description,Initial default window colour for new projects,Initial default window colour for new projects,,the preference for setting the default window colour option on project creation
 macroeditor_title,IDE Environment Variables,IDE Environment Variables,,MacroEditor title
-DnDModule_LivePreview_Text,Preview (Read-Only),Preview (Read-Only),,DnD module live preview top comment text
+GMLVisualModule_LivePreview_Text,Preview (Read-Only),Preview (Read-Only),,GML Visual module live preview top comment text
 No_Resources_To_Add,No resources to add,No resources to add,,Add from Default View status message
 FreeVersion_ProjectInvalid,The project '{0}' cannot be loaded with GameMaker Trial,The project '{0}' cannot be loaded with GameMaker Trial,,Error message when the user tries to load a project that exceeds free limits
 FreeVersion_ResourceLimitReached,You have reached the limits of GameMaker Trial for '{0}'.,You have reached the limits of GameMaker Trial for '{0}'.,,Error message when the user tries to create more resources than the Trial version allows
@@ -5654,7 +5694,7 @@ RestoreResourceName_FilesFailure,Renaming failed: unable to restore files to the
 SaveFailures_Title,Save Project Failed,Save Project Failed,,Save project failed dialog title
 SaveFailures_Message,Unable to save the following files (please see the output panel for more details).,Unable to save the following files (please see the output panel for more details).,,Save project failed dialog message
 SaveFailures_Message_LongPath,Unable to save the following files (please see the output panel for more details).\nOne or more file paths exceed the system-defined maximum length.,Unable to save the following files (please see the output panel for more details).\nOne or more file paths exceed the system-defined maximum length.,,Save project failed dialog message(long path exception)
-DnDMaker_CantRegenerateAction,Cannot regenerate this action.,Cannot regenerate this action.,,Cant regenerate
+GMLVisualMaker_CantRegenerateAction,Cannot regenerate this action.,Cannot regenerate this action.,,Cant regenerate
 PNG2Tileset_ImportDialog,Import image and convert to Tilemap,Import image and convert to Tilemap,,Import an image and convert to a tilemap dilog
 PNG2Tileset_ImageLeft,Left Edge,Left Edge,,Pixel offset to left edge of image
 PNG2Tileset_ImageTop,Top Edge,Top Edge,,Pixel offset to top of image
@@ -5745,8 +5785,6 @@ Preferences_android_sdk_location,Android SDK location,Android SDK location,,Pref
 Preferences_android_ndk_location,Android NDK location,Android NDK location,,Preferences/Platform Settings/Android
 Preferences_android_jdk_location,Java JDK location,Java JDK location,,Preferences/Platform Settings/Android
 Preferences_windows_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/Windows
-Preferences_winuwp_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/WinUWP
-Preferences_winuwp_tools_folder,Win UWP Tools location,Win UWP Tools location,,Preferences/Platform Settings/WinUWP
 Preferences_macos_default_team_id,Default team identifier,Default team identifier,,Preferences/Platform Settings/macOS
 Preference_macos_package_default_type,Automatic packaging choice,Automatic packaging choice,,Preferences/Platform Settings/macOS
 Preferences_ps4_sdk_dir,PS4 SDK location,PS4 SDK location,,Preferences/Platform Settings/PS4
@@ -5755,13 +5793,10 @@ Preferences_ps4_vs_path,Visual Studio location,Visual Studio location,,Preferenc
 Preferences_ps5_sdk_dir,PS5 SDK location,PS5 SDK location,,Preferences/Platform Settings/PS5
 Preferences_ps5_tools_dir,PS5 Tools location,PS5 Tools location,,Preferences/Platform Settings/PS5
 Preferences_ps5_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/PS5
-Preferences_xbone_xdk_dir,XDK location,XDK location,,Preferences/Platform Settings/Xbone
-Preferences_xbone_tools_dir,Xbox One Tools location,Xbox One Tools location,,Preferences/Platform Settings/Xbone
-Preferences_xbone_xbone_dir,Xbox One SDK location,Xbox One SDK location,,Preferences/Platform Settings/Xbone
-Preferences_xbone_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/Xbone
 Preferences_xboxseriesxs_dir,GDK location,GDK location,,Preferences/Platform Settings/XboxSeriesXS
 Preferences_xboxseriesxs_tools_dir,GDK base location,GDK base location,,Preferences/Platform Settings/XboxSeriesXS
 Preferences_xboxseriesxs_vs_path,Visual Studio location,Visual Studio location,,Preferences/Platform Settings/XboxSeriesXS
+Preferences_xboxseriesxs_deploy_development_package,Deploy developer package,Deploy developer package,,Preferences/Platform Settings/XboxSeriesXS
 Preferences_operagx_sdk_dir,EMSCRIPTEN SDK location,EMSCRIPTEN SDK location,,Preferences/Platform Settings/Opera GX
 Preferences_linux_steamrt_sdk_dir,Steam Runtime SDK location,Steam Runtime SDK location,,Preferences/Platform Settings/Ubuntu
 ProjectLoad_BadPathTitle,Unsafe Path,Unsafe Path,,Bad Path message title when failing badpath check on load
@@ -5893,10 +5928,6 @@ RecentWindows_ShowByDefault,Open automatically on project load,Open automaticall
 Project_Error_Invalid_Shaders,The shader '{0}' has an invalid type.,The shader '{0}' has an invalid type.,,Invalid shader error message
 Project_Error_Invalid_IncludedFiles,There are included files which starts with a number. Various platforms do not support this. Please check the Compile Errors for more information.,There are included files which starts with a number. Various platforms do not support this. Please check the Compile Errors for more information.,,Invalid Included File error message
 AVDVersion_Error,Cannot run AVD directly with version '{0}' of the Android SDK.\nPlease launch 'Android Studio' and select 'Tools > Android > AVD Manager'.,Cannot run AVD directly with version '{0}' of the Android SDK.\nPlease launch 'Android Studio' and select 'Tools > Android > AVD Manager'.,,error message for later versions of Android Studio
-ggs_windowsuap_enable_xbox_live,Enable Xbox Live,Enable Xbox Live,,Enable Xbox Live
-ggs_windowsuap_xbox_live_creators_program,Creators Program App,Creators Program App,,Specifies that this is a Creators Program app
-ggs_windowsuap_xbox_live_title_id,Title ID,Title ID,,The Title ID of the app
-ggs_windowsuap_xbox_live_scid,Service Configuration ID,Service Configuration ID,,The Service Configuration ID of the app
 Proxy_Settings,Proxy Settings,Proxy Settings,,Proxy settings window title
 Proxy_Address,Proxy,Proxy,,proxy address label
 Proxy_Address_Tooltip,Proxy address and port (http://address:port),Proxy address and port (http://address:port),,proxy address tooltip
@@ -5978,9 +6009,6 @@ PS5,PlayStation 5,PlayStation 5,DO NOT TRANSLATE,PlayStation 5 preference group 
 PlayStation 5,PlayStation 5,PlayStation 5,DO NOT TRANSLATE,PlayStation 5 preference group subheading
 Steam,Steam,Steam,DO NOT TRANSLATE,Steam preference group subheading
 Windows,Windows,Windows,DO NOT TRANSLATE,Windows preference group subheading
-Windows UWP,Windows UWP,Windows UWP,DO NOT TRANSLATE,Windows UWP preference group subheading
-Xbox One,Xbox One (Legacy/XDK),Xbox One (Legacy/XDK),DO NOT TRANSLATE,Xbox One preference group subheading
-XBox One,Xbox One (Legacy/XDK),Xbox One (Legacy/XDK),DO NOT TRANSLATE,Xbox One preference group subheading
 Xbox Series XS,Xbox One & Series X/S,Xbox One & Series X/S,DO NOT TRANSLATE,Xbox One & Series X/S preference group subheading
 Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,Ubuntu preference group subheading
 WebAssembly,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
@@ -6011,6 +6039,7 @@ Permissions,Permissions,Permissions,,Permissions option group subheading
 Architecture,Architecture,Architecture,,Architecture option group subheading
 ArchitectureMac,Architecture (Only YYC),Architecture (Only YYC),,Architecture option group subheading
 Android TV,Android TV,Android TV,DO NOT TRANSLATE,Android TV option group subheading
+Proguard,Proguard,Proguard,,Proguard option group subheading
 Google,Google,Google,DO NOT TRANSLATE,Google option group subheading
 Amazon,Amazon,Amazon,DO NOT TRANSLATE,Amazon option group subheading
 Analytics,Analytics,Analytics,,Analytics option group subheading
@@ -6030,6 +6059,8 @@ Option_Project_Start_Date,Project Start Date,Project Start Date,,Project Start D
 Option_Project_GUID,Project GUID,Project GUID,,Project GUID option display caption
 Option_License_Agreement,Licence Agreement,Licence Agreement,,Licence Agreement file path option location caption
 Option_NSIS_Script,NSIS Script,NSIS Script,,NSIS Script file path option location caption
+FileFilters_InstallerLicense,License Agreement File,License Agreement File,,License Agreement file filter for the file selection dialog
+FileFilters_IntallerScript,NSIS Script File,NSIS Script File,,NSIS Script file filter for the file selection dialog
 Pref_Visual_Studio_Path,Visual Studio Path,Visual Studio Path,,Visual Studio Path preference location caption
 ggs_share_overlay,"Share Overlay (128x128, 64x64, 256x128, 256x64)","Share Overlay (128x128, 64x64, 256x128, 256x64)",,Share Overlay image for playstation 4 caption
 Button_Preview,Preview,Preview,,Preview button caption
@@ -6100,13 +6131,13 @@ Identity,Identity,Identity,,Identity source control preference subheading
 Authentication,Authentication,Authentication,,Authentication source control preference subheading
 Merge,Merge,Merge,,Merge tool source control preference subheading
 Diff,Diff,Diff,,Diff tool source control preference subheading
-DNDInputCountMacro,(${input_count} inputs),(${input_count} inputs),,to append the input count information to a dnd story string
+GMLVisualInputCountMacro,(${input_count} inputs),(${input_count} inputs),,to append the input count information to a GML Visual story string
 Pref_SystemAudioDevice,<System Device>,<System Device>,,name of the device representing the system settings device selection
-ListBoxEnum_eStoryMode_Never,Never,Never,,list box option for when the dnd story should show
-ListBoxEnum_eStoryMode_Collapsed,Collapsed,Collapsed,,list box option for when the dnd story should show
-ListBoxEnum_eStoryMode_Always,Always,Always,,list box option for when the dnd story should show
-ListBoxEnum_eToolboxLocation_Left,Left,Left,,list box option for where to display the dnd toolbox
-ListBoxEnum_eToolboxLocation_Right,Right,Right,,list box option for where to display the dnd toolbox
+ListBoxEnum_eStoryMode_Never,Never,Never,,list box option for when the GML Visual story should show
+ListBoxEnum_eStoryMode_Collapsed,Collapsed,Collapsed,,list box option for when the GML Visual story should show
+ListBoxEnum_eStoryMode_Always,Always,Always,,list box option for when the GML Visual story should show
+ListBoxEnum_eToolboxLocation_Left,Left,Left,,list box option for where to display the GML Visual toolbox
+ListBoxEnum_eToolboxLocation_Right,Right,Right,,list box option for where to display the GML Visual toolbox
 platformdevice_nomac,No mac found,No mac found,,message for when no mac has been discovered
 ImageEditor_ChooseResize,Choose a resize option,Choose a resize option,,radio group label for resize options
 ImageEditor_StatusSize,Size: {0} x {1},Size: {0} x {1},,dimensions of image displayed in status bar
@@ -6126,10 +6157,6 @@ Options_PS5ToolsSetupTrophyMessage,"Unable to find PlayStation 5 trophy editor.\
 Options_PS5ToolsPreference,Go to PlayStation 5 settings,Go to PlayStation 5 settings,,button message to take user to PS5 preferences
 Options_PS5ToolsSetupParamSFOMessage,"Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0}","Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0}",,error message when failed to find the param.sfo editor
 Options_PS5ToolsSetupShareParamMessage,"Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0}","Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0}",,error message when failed to find the param.sfo editor
-Options_XBoxToolsSetupServiceConfigMessage,"Unable to find Xbox One executable xcetool.exe.\nPlease update your tools directory.\n{0}","Unable to find Xbox One executable xcetool.exe.\nPlease update your tools directory.\n{0}",,error message when failed to find the xce.exe
-Options_XBoxToolsSetupError,Xbox One Tools Missing,Xbox One Tools Missing,,error dialog title when unable to find a xbox tool
-Options_XBoxToolsPreference,Go to Xbox One settings,Go to Xbox One settings,,button message to take user to xbox preferences
-Error_XBoxTools,XBox One tools not available on Mac.\nPlease edit on Windows,XBox One tools not available on Mac.\nPlease edit on Windows,,Shown when trying to copy the xbox service manifest on mac
 BreakpointManager_Script,Script: {0},Script: {0},,breakpoint manager caption for a script
 BreakpointManager_Object,Object: {0}: {1},Object: {0}: {1},,breakpoint manager caption for an object event
 BreakpointManager_Timeline,Timeline: {0}: moment {1},Timeline: {0}: moment {1},,breakpoint manager caption for a timeline moment
@@ -6273,7 +6300,7 @@ UserLogin_SaveFailedNoResult,Failed to save licence file {0} - no result,Failed 
 UserLogin_LicenceStatus,Status: {0},Status: {0},,licence status error
 UserLogin_RestartForCustomFeed,You have a new IDE update feed available. \nWould you like to restart and check for updates?,You have a new IDE update feed available. \nWould you like to restart and check for updates?,,message when a user has a custom ide feed available
 SearchResult_Info,{0} at line {1}: \t{2},{0} at line {1}: \t{2},,search result information
-SearchResult_Info_Dnd,{0} at action '{1}': \t{2},{0} at action '{1}': \t{2},,dnd search result information
+SearchResult_Info_GMLVisual,{0} at action '{1}': \t{2},{0} at action '{1}': \t{2},,GML Visual search result information
 UserLogin_ManageDevices,My Account,My Account,,ok button caption for too many devices error
 UserLogin_CommonInternetProblems,"If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker access.\nCheck any antivirus is not blocking GameMaker access.\nCheck any proxy or VPN is not blocking GameMaker access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2","If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker access.\nCheck any antivirus is not blocking GameMaker access.\nCheck any proxy or VPN is not blocking GameMaker access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2",,Common steps to try for internet connection failures
 RSS_Download_Exception,Could not reach the RSS feed,Could not reach the RSS feed,,A message which is shown when the RSS feed is not accessible
@@ -7130,16 +7157,6 @@ ConfigurationProblem_PS5Tools,Configuration Problem : PS5 Tools directory not fo
 ConfigurationProblem_PS5VSPath,Configuration Problem : PS5 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,Configuration Problem : PS5 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : PS5 Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
 ConfigurationProblem_tvOSDevice,Configuration Problem : No tvOS device found. Check your target settings.,Configuration Problem : No tvOS device found. Check your target settings.,,Configuration Problem : No tvOS device found. Check your target settings.
 ConfigurationProblem_tvOSPath,Configuration Problem : tvOS install path not set. Check your Preferences.,Configuration Problem : tvOS install path not set. Check your Preferences.,,Configuration Problem : tvOS install path not set. Check your Preferences.
-ConfigurationProblem_WindowsUWPDevice,Configuration Problem : No Windows UWP device found. Check your target settings.,Configuration Problem : No Windows UWP device found. Check your target settings.,,Configuration Problem : No Windows UWP device found. Check your target settings.
-ConfigurationProblem_WindowsUWPSDK,Configuration Problem : Windows 10 SDK not found at path given in Windows UWP Preferences.,Configuration Problem : Windows 10 SDK not found at path given in Windows UWP Preferences.,,Configuration Problem : Windows 10 SDK not found at path given in Windows UWP Preferences.
-ConfigurationProblem_WindowsUWPVSPath,Configuration Problem : Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,Configuration Problem : Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : Windows UWP Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
-ConfigurationProblem_WindowsUWPMinVersion,Configuration Problem : Windows Target Platform Minimum Version has not been filled out.,Configuration Problem : Windows Target Platform Minimum Version has not been filled out.,,Configuration Problem : Windows Target Platform Minimum Version has not been filled out.
-ConfigurationProblem_WindowsUWPPlatformVersion,Configuration Problem : Windows Target Platform Version has not been filled out.,Configuration Problem : Windows Target Platform Version has not been filled out.,,Configuration Problem : Windows Target Platform Version has not been filled out.
-ConfigurationProblem_XboxOneTools,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.,,Configuration Problem : Xbox One Tools Directory not found. Check your Preferences.
-ConfigurationProblem_XboxOneSDK,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.,,Configuration Problem : Xbox One SDK Directory not found. Check your Preferences.
-ConfigurationProblem_XboxOneSDKVersion,Configuration Problem : Xbox One SDK Version does not match {0}. Check your Preferences.,Configuration Problem : Xbox One SDK Version does not match {0}. Check your Preferences.,,Configuration Problem : Xbox One SDK Version does not match
-ConfigurationProblem_XboxOneSDKDir,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.,,Configuration Problem : Microsoft Xbox One Directory not found. Check your Preferences.
-ConfigurationProblem_XboxOneVSPath,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.,,Configuration Problem : Xbox One Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.
 ConfigurationProblem_XboxSeriesXSSDKVersion,Configuration Problem : Xbox One & Series X/S SDK Version does not match {0}. Check your Preferences.,Configuration Problem : Xbox One & Series X/S SDK Version does not match {0}. Check your Preferences.,,Configuration Problem : Xbox One & Series X/S SDK Version does not match
 Provisioning,Provisioning,Provisioning,DO NOT TRANSLATE,tvOS provisioning preference group subheading
 Base_Unit_Memory,PS4 Base Memory,PS4 Base Memory,,title for options related to memory pool sizes
@@ -7207,7 +7224,10 @@ Convert_Failed_Message,The Project conversion has failed,The Project conversion 
 Convert_SameFolderMessage,You cannot save the converted project to the same folder as the original. Please select a new location.,You cannot save the converted project to the same folder as the original. Please select a new location.,,convert same folder dont do it message
 exception_faq_button_caption,"To see what data this report contains, <a href="https://help.yoyogames.com/hc/en-us/articles/360028120992">click here</a>","To see what data this report contains, <a href="https://help.yoyogames.com/hc/en-us/articles/360028120992">click here</a>",,exception faq button caption
 exception_fatal_error_header_caption,"A fatal exception has occurred in GameMaker and the program needs to close.\n\nWe are sorry for the inconvenience.","A fatal exception has occurred in GameMaker and the program needs to close.\n\nWe are sorry for the inconvenience.",,exception fatal error header caption
+exception_fatal_error_header_caption_new,"A fatal exception occurred on a previous run of GameMaker and the program needed to close.\n\nWe are sorry for the inconvenience.","A fatal exception occurred on a previous run of GameMaker and the program needed to close.\n\nWe are sorry for the inconvenience.",,new exception fatal error header caption
 exception_problem_header_caption,"Please tell us about this problem.","Please tell us about this problem.",,exception problem header caption
+exception_privacy_policy,Privacy Policy,Privacy Policy,,privacy policy caption
+exception_cookie_policy,Cookie Policy,Cookie Policy,,cookie policy caption
 exception_blurb,"An error report has been created so that we can examine and prevent issues like this. It would be very helpful if you could provide further details relating to the context of this event. Specifically, what you were working on immediately beforehand.\n\nImportant\nBy pressing Send, you are providing consent for us to process the data detailed below in line with our Privacy Policy.","An error report has been created so that we can examine and prevent issues like this. It would be very helpful if you could provide further details relating to the context of this event. Specifically, what you were working on immediately beforehand.\n\nImportant\nBy pressing Send, you are providing consent for us to process the data detailed below in line with our Privacy Policy.",,exception blurb
 exception_send_caption,"Send","Send",,exception send button caption
 exception_dont_send_caption,"Don't Send","Don't Send",,exception dont send button caption
@@ -7216,6 +7236,7 @@ exception_privacy_policy_caption,"Privacy Policy","Privacy Policy",,exception pr
 exception_form_version,"crash-0.2","crash-0.2",,exception form version
 exception_upload_caption,"Upload Status","Upload Status",,exception form confirmation box caption
 exception_upload_confirmation,"Upload Successful.","Upload Successful.",,exception form confirmation box message
+exception_legal_blurb2,"Our Privacy Policy and Cookie Policy governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at datacontroller@yoyogames.com","Our Privacy Policy and Cookie Policy governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at datacontroller@yoyogames.com",,placeholder crash dialog text
 Project_OldFormat_Title,Old Project Format,Old Project Format,,Old Project Format
 Project_OldFormat_Message,Project was created in an older IDE which may have format changes,Project was created in an older IDE which may have format changes,,Project was created in an older IDE which may have format changes
 ImportFromYY_Title,Importing Resources,Importing Resources,,Importing Resources Title
@@ -7322,6 +7343,7 @@ Feather_RefactorCannotRenameDialog_Title,Cannot Rename,Cannot Rename,,Cannot Ren
 Feather_RefactorCannotRenameDialog_Content,The symbol under the caret cannot be renamed.,The symbol under the caret cannot be renamed.,,Cannot rename symbol under cursor.
 Feather_InitializationError_Title,Initialization Error,Initialization Error,,Initialization Error
 ProgressBar_Feather_ParseProject,Analyzing Project...,Analyzing Project...,,Analyzing Project...
+ProgressBar_Feather_ApplyRewrite,Refactoring...,Refactoring...,,Refactoring...
 Feather_OccurrencesGadget_Occurrences,Goto next usage of '{0}' ({1}/{2}),Goto next usage of '{0}' ({1}/{2}),,Goto next usage of '{0}' ({1}/{2})
 Feather Settings,Feather Settings,Feather Settings,,Feather Settings preference group heading
 Highlighting,Highlighting,Highlighting,,Highlighting preference group heading
@@ -7329,6 +7351,14 @@ Message Severity,Message Severity,Message Severity,,Message Severity group headi
 Naming Rules,Naming Rules,Naming Rules,,Naming Rules group heading
 Feather_NameBlocklist,Identifier Blocklist,Identifier Blocklist,,Identifier Blocklist
 Feather_GM2017Help,GM2017 Message Severity must not be set to Ignore for these to take effect,GM2017 Message Severity must not be set to Ignore for these to take effect,,GM2017 Message Severity must not be set to Ignore for these to take effect
+Feather_NamingStyle,Naming Style,Naming Style,,Naming Style
+Feather_NamingPrefix,Prefix,Prefix,,Prefix
+Feather_NamingSuffix,Suffix,Suffix,,Suffix
+ListBoxEnum_NameStyle_Unconstrained,Unconstrained,Unconstrained,,Unconstrained
+ListBoxEnum_NameStyle_UpperCamelCase,UpperCamelCase,UpperCamelCase,,UpperCamelCase (Localize to the casing style)
+ListBoxEnum_NameStyle_lowerCamelCase,lowerCamelCase,lowerCamelCase,,lowerCamelCase (Localize to the casing style)
+ListBoxEnum_NameStyle_ALL_UPPER,ALL_UPPER,ALL_UPPER,,ALL_UPPER (Localize to the casing style)
+ListBoxEnum_NameStyle_all_lower,all_lower,all_lower,,all_lower (Localize to the casing style)
 InstanceVariableNameRule,Instance Variable Naming Rule,Instance Variable Naming Rule,,Instance Variable Naming Rule
 LocalVariableNameRule,Local Variable Naming Rule,Local Variable Naming Rule,,Local Variable Naming Rule
 ParamVariableNameRule,Function Parameter Naming Rule,Function Parameter Naming Rule,,Function Parameter Naming Rule
@@ -7345,6 +7375,10 @@ FontNameRule,Font Naming Rule,Font Naming Rule,,Font Naming Rule
 TimelineNameRule,Timeline Naming Rule,Timeline Naming Rule,,Timeline Naming Rule
 ObjectNameRule,Object Naming Rule,Object Naming Rule,,Object Naming Rule
 RoomNameRule,Room Naming Rule,Room Naming Rule,,Room Naming Rule
+SequenceNameRule,Sequence Naming Rule,Sequence Naming Rule,,Sequence Naming Rule
+AnimationCurveNameRule,Animation Curve Naming Rule,Animation Curve Naming Rule,,Animation Curve Naming Rule
+FunctionNameRule,Function Naming Rule,Function Naming Rule,,Function Naming Rule
+ConstructorFunctionNameRule,Constructor Function Naming Rule,Constructor Function Naming Rule,,Constructor Function Naming Rule
 OtherResourceNameRule,Other Resource Naming Rule,Other Resource Naming Rule,,Other Resource Naming Rule
 ErrorColor,Error Colour,Error Colour,,Error Colour
 WarningColor,Warning Colour,Warning Colour,,Warning Colour
@@ -7362,99 +7396,99 @@ ScriptType_DontAskProject,Don't ask again for this project,Don't ask again for t
 ScriptType_DontAskEver,Don't ask again ever,Don't ask again ever,,dont ask again all projects
 ListBoxEnum_eDefaultScriptType_None,Always Ask,Always Ask,,default script type none
 ListBoxEnum_eDefaultScriptType_GML,GML Code,GML Code,,default script type gml
-ListBoxEnum_eDefaultScriptType_DND,GML Visual,GML Visual,,default script type dnd
+ListBoxEnum_eDefaultScriptType_GMLVisual,GML Visual,GML Visual,,default script type GML Visual
 default_script_pref,Default scripting language,Default scripting language,,default scripting language preference
-GMStdCatTime,"Time","Time",,DnD library category name
-GMStdTimeSource,"Time Source","Time Source",,DnD library argument label
-GMStdParent,"Parent","Parent",,DnD library argument label
-GMStdPeriod,"Period","Period",,DnD library argument label
-GMStdUnits,"Units","Units",,DnD library argument label
-GMStdCallback,"Callback","Callback",,DnD library argument label
-GMStdArguments,"Arguments","Arguments",,DnD library argument label
-GMStdReps,"Repetitions","Repetitions",,DnD library argument label
-GMStdExpiryType,"Expiry Type","Expiry Type",,DnD library argument label
-GMStdDestroyTree,"Destroy Tree","Destroy Tree",,DnD library argument label
-GMStdVar_time_source_global,"Global Time Source","Global Time Source",,DnD argument value
-GMStdVar_time_source_game,"Game Time Source","Game Time Source",,DnD argument value
-GMStdVar_time_source_units_seconds,"Seconds","Seconds",,DnD argument value
-GMStdVar_time_source_units_frames,"Frames","Frames",,DnD argument value
-GMStdVar_time_source_expire_nearest,"Nearest","Nearest",,DnD argument value
-GMStdVar_time_source_expire_after,"After","After",,DnD argument value
-GMStdVar_time_source_state_initial,"Initial","Initial",,DnD argument value
-GMStdVar_time_source_state_active,"Active","Active",,DnD argument value
-GMStdVar_time_source_state_paused,"Paused","Paused",,DnD argument value
-GMStdVar_time_source_state_stopped,"Stopped","Stopped",,DnD argument value
-GMStdTimeSourceCreate_Name,"Create Time Source","Create Time Source",,DnD action name
-GMStdTimeSourceCreate_Desc,"Create a time source.","Create a time source.",,DnD action description
-GMStdTimeSourceCreate_Story,"Create a time source and assign it to ${idx}","Create a time source and assign it to ${idx}",,DnD story text
-GMStdTimeSourceDestroy_Name,"Destroy Time Source","Destroy Time Source",,DnD action name
-GMStdTimeSourceDestroy_Desc,"Destroy a time source.","Destroy a time source.",,DnD action description
-GMStdTimeSourceDestroy_Story_1,"Destroy time source ${idx}","Destroy time source ${idx}",,DnD story text
-GMStdTimeSourceDestroy_Story_2,"Destroy all time sources in the tree with time source ${idx} as its root","Destroy all time sources in the tree with time source ${idx} as its root",,DnD story text
-GMStdTimeSourceStart_Name,"Start Time Source","Start Time Source",,DnD action name
-GMStdTimeSourceStart_Desc,"Start a time source.","Start a time source.",,DnD action description
-GMStdTimeSourceStart_Story,"Start time source ${idx}","Start time source ${idx}",,DnD story text
-GMStdTimeSourceStop_Name,"Stop Time Source","Stop Time Source",,DnD action name
-GMStdTimeSourceStop_Desc,"Stop a time source.","Stop a time source.",,DnD action description
-GMStdTimeSourceStop_Story,"Stop time source ${idx}","Stop time source ${idx}",,DnD story text
-GMStdTimeSourcePause_Name,"Pause Time Source","Pause Time Source",,DnD action name
-GMStdTimeSourcePause_Desc,"Pause a time source.","Pause a time source.",,DnD action description
-GMStdTimeSourcePause_Story,"Pause time source ${idx}","Pause time source ${idx}",,DnD story text
-GMStdTimeSourceResume_Name,"Resume Time Source","Resume Time Source",,DnD action name
-GMStdTimeSourceResume_Desc,"Resume a time source.","Resume a time source.",,DnD action description
-GMStdTimeSourceResume_Story,"Resume time source ${idx}","Resume time source ${idx}",,DnD story text
-GMStdTimeSourceReset_Name,"Reset Time Source","Reset Time Source",,DnD action name
-GMStdTimeSourceReset_Desc,"Reset a time source.","Reset a time source.",,DnD action description
-GMStdTimeSourceReset_Story,"Reset time source ${idx}","Reset time source ${idx}",,DnD story text
-GMStdTimeSourceReconfigure_Name,"Reconfigure Time Source","Reconfigure Time Source",,DnD action name
-GMStdTimeSourceReconfigure_Desc,"Reset and reconfigure a time source.","Reset and reconfigure a time source.",,DnD action description
-GMStdTimeSourceReconfigure_Story,"Reset and reconfigure time source ${idx}","Reset and reconfigure time source ${idx}",,DnD story text
-GMStdTimeSourceGetPeriod_Name,"Get Period","Get Period",,DnD action name
-GMStdTimeSourceGetPeriod_Desc,"Get the period of a time source.","Get the period of a time source.",,DnD action description
-GMStdTimeSourceGetPeriod_Story,"Get the period of time source ${idx} and assign it to ${var}","Get the period of time source ${idx} and assign it to ${var}",,DnD story text
-GMStdTimeSourceGetRepsCompleted_Name,"Get Reps Completed","Get Reps Completed",,DnD action name
-GMStdTimeSourceGetRepsCompleted_Desc,"Get the number of repetitions a time source has completed.","Get the number of repetitions a time source has completed.",,DnD action description
-GMStdTimeSourceGetRepsCompleted_Story,"Get the number of completed repetitions of time source ${idx} and assign it to ${var}","Get the number of completed repetitions of time source ${idx} and assign it to ${var}",,DnD story text
-GMStdTimeSourceGetRepsRemaining_Name,"Get Reps Remaining","Get Reps Remaining",,DnD action name
-GMStdTimeSourceGetRepsRemaining_Desc,"Get the number of repetitions a time source has remaining.","Get the number of repetitions a time source has remaining.",,DnD action description
-GMStdTimeSourceGetRepsRemaining_Story,"Get the number of remaining repetitions of time source ${idx} and assign it to ${var}","Get the number of remaining repetitions of time source ${idx} and assign it to ${var}",,DnD story text
-GMStdTimeSourceGetUnits_Name,"Get Units","Get Units",,DnD action name
-GMStdTimeSourceGetUnits_Desc,"Get the units of a time source.","Get the units of a time source.",,DnD action description
-GMStdTimeSourceGetUnits_Story,"Get the units of time source ${idx} and assign it to ${var}","Get the units of time source ${idx} and assign it to ${var}",,DnD story text
-GMStdTimeSourceGetTimeRemaining_Name,"Get Time Remaining","Get Time Remaining",,DnD action name
-GMStdTimeSourceGetTimeRemaining_Desc,"Get the time remaining on a time source.","Get the time remaining on a time source.",,DnD action description
-GMStdTimeSourceGetTimeRemaining_Story,"Get the time remaining on time source ${idx} and assign it to ${var}","Get the time remaining on time source ${idx} and assign it to ${var}",,DnD story text
-GMStdTimeSourceGetState_Name,"Get State","Get State",,DnD action name
-GMStdTimeSourceGetState_Desc,"Get the current state of a time source.","Get the current state of a time source.",,DnD action description
-GMStdTimeSourceGetState_Story,"Get the current state of time source ${idx} and assign it to ${var}","Get the current state of time source ${idx} and assign it to ${var}",,DnD story text
-GMStdTimeSourceGetParent_Name,"Get Parent","Get Parent",,DnD action name
-GMStdTimeSourceGetParent_Desc,"Get the parent of a time source.","Get the parent of a time source.",,DnD action description
-GMStdTimeSourceGetParent_Story,"Get the parent of time source ${idx} and assign it to ${var}","Get the parent of time source ${idx} and assign it to ${var}",,DnD story text
-GMStdTimeSourceGetChildren_Name,"Get Children","Get Children",,DnD action name
-GMStdTimeSourceGetChildren_Desc,"Get the children of a time source.","Get the children of a time source.",,DnD action description
-GMStdTimeSourceGetChildren_Story,"Get the children of time source ${idx} and assign it to ${var}","Get the children of time source ${idx} and assign it to ${var}",,DnD story text
-GMStdTimeSourceExists_Name,"If Time Source Exists","If Time Source Exists",,DnD action name
-GMStdTimeSourceExists_Desc,"Check if a time source exists.","Check if a time source exists.",,DnD action description
-GMStdTimeSourceExists_Story_1,"If time source ${idx} exists","If time source ${idx} exists",,DnD story text
-GMStdTimeSourceExists_Story_2,"If time source ${idx} does not exist","If time source ${idx} does not exist",,DnD story text
-GMStdIfTimeSourceState_Name,"If State","If State",,DnD action name
-GMStdIfTimeSourceState_Desc,"Check if a time source's state satisfies a condition.","Check if a time source's state satisfies a condition.",,DnD action description
-GMStdIfTimeSourceState_Story_1,"If the state of time source ${idx} is ${state}","If the state of time source ${idx} is ${state}",,DnD story text
-GMStdIfTimeSourceState_Story_2,"If the state of time source ${idx} is not ${state}","If the state of time source ${idx} is not ${state}",,DnD story text
-GMStdIfTimeSourceUnits_Name,"If Units","If Units",,DnD action name
-GMStdIfTimeSourceUnits_Desc,"Check if a time source's units satisfies a condition.","Check if a time source's units satisfies a condition.",,DnD action description
-GMStdIfTimeSourceUnits_Story_1,"If the units of time source ${idx} are ${units}","If the units of time source ${idx} are ${units}",,DnD story text
-GMStdIfTimeSourceUnits_Story_2,"If the units of time source ${idx} are not ${units}","If the units of time source ${idx} are not ${units}",,DnD story text
-GMStdIfTimeSourceParent_Name,"If Parent","If Parent",,DnD action name
-GMStdIfTimeSourceParent_Desc,"Check if a time source's parent satisfies a condition.","Check if a time source's parent satisfies a condition.",,DnD action description
-GMStdIfTimeSourceParent_Story_1,"If the parent of time source ${idx} is ${parent}","If the parent of time source ${idx} is ${parent}",,DnD story text
-GMStdIfTimeSourceParent_Story_2,"If the parent of time source ${idx} is not ${parent}","If the parent of time source ${idx} is not ${parent}",,DnD story text
-GMStdTimeBpmToSeconds_Name,"BPM to Seconds","BPM to Seconds",,DnD action name
-GMStdTimeBpmToSeconds_Desc,"Convert a frequency in beats-per-minute to its equivalent period in seconds.","Convert a frequency in beats-per-minute to its equivalent period in seconds.",,DnD action description
-GMStdTimeBpmToSeconds_Story,"Convert a frequency of ${in_var} beats-per-minute to a period in seconds and assign it to ${out_var}","Convert a frequency of ${in_var} beats-per-minute to a period in seconds and assign it to ${out_var}",,DnD story text
-GMStdTimeSecondsToBpm_Name,"Seconds to BPM","Seconds to BPM",,DnD action name
-GMStdTimeSecondsToBpm_Desc,"Convert a period in seconds to its equivalent frequency in beats-per-minute.","Convert a period in seconds to its equivalent frequency in beats-per-minute.",,DnD action description
-GMStdTimeSecondsToBpm_Story,"Convert a period of ${in_var} seconds to a frequency in beats-per-minute and assign it to ${out_var}","Convert a period of ${in_var} seconds to a frequency in beats-per-minute and assign it to ${out_var}",,DnD story text
+GMStdCatTime,"Time","Time",,GML Visual library category name
+GMStdTimeSource,"Time Source","Time Source",,GML Visual library argument label
+GMStdParent,"Parent","Parent",,GML Visual library argument label
+GMStdPeriod,"Period","Period",,GML Visual library argument label
+GMStdUnits,"Units","Units",,GML Visual library argument label
+GMStdCallback,"Callback","Callback",,GML Visual library argument label
+GMStdArguments,"Arguments","Arguments",,GML Visual library argument label
+GMStdReps,"Repetitions","Repetitions",,GML Visual library argument label
+GMStdExpiryType,"Expiry Type","Expiry Type",,GML Visual library argument label
+GMStdDestroyTree,"Destroy Tree","Destroy Tree",,GML Visual library argument label
+GMStdVar_time_source_global,"Global Time Source","Global Time Source",,GML Visual argument value
+GMStdVar_time_source_game,"Game Time Source","Game Time Source",,GML Visual argument value
+GMStdVar_time_source_units_seconds,"Seconds","Seconds",,GML Visual argument value
+GMStdVar_time_source_units_frames,"Frames","Frames",,GML Visual argument value
+GMStdVar_time_source_expire_nearest,"Nearest","Nearest",,GML Visual argument value
+GMStdVar_time_source_expire_after,"After","After",,GML Visual argument value
+GMStdVar_time_source_state_initial,"Initial","Initial",,GML Visual argument value
+GMStdVar_time_source_state_active,"Active","Active",,GML Visual argument value
+GMStdVar_time_source_state_paused,"Paused","Paused",,GML Visual argument value
+GMStdVar_time_source_state_stopped,"Stopped","Stopped",,GML Visual argument value
+GMStdTimeSourceCreate_Name,"Create Time Source","Create Time Source",,GML Visual action name
+GMStdTimeSourceCreate_Desc,"Create a time source.","Create a time source.",,GML Visual action description
+GMStdTimeSourceCreate_Story,"Create a time source and assign it to ${idx}","Create a time source and assign it to ${idx}",,GML Visual story text
+GMStdTimeSourceDestroy_Name,"Destroy Time Source","Destroy Time Source",,GML Visual action name
+GMStdTimeSourceDestroy_Desc,"Destroy a time source.","Destroy a time source.",,GML Visual action description
+GMStdTimeSourceDestroy_Story_1,"Destroy time source ${idx}","Destroy time source ${idx}",,GML Visual story text
+GMStdTimeSourceDestroy_Story_2,"Destroy all time sources in the tree with time source ${idx} as its root","Destroy all time sources in the tree with time source ${idx} as its root",,GML Visual story text
+GMStdTimeSourceStart_Name,"Start Time Source","Start Time Source",,GML Visual action name
+GMStdTimeSourceStart_Desc,"Start a time source.","Start a time source.",,GML Visual action description
+GMStdTimeSourceStart_Story,"Start time source ${idx}","Start time source ${idx}",,GML Visual story text
+GMStdTimeSourceStop_Name,"Stop Time Source","Stop Time Source",,GML Visual action name
+GMStdTimeSourceStop_Desc,"Stop a time source.","Stop a time source.",,GML Visual action description
+GMStdTimeSourceStop_Story,"Stop time source ${idx}","Stop time source ${idx}",,GML Visual story text
+GMStdTimeSourcePause_Name,"Pause Time Source","Pause Time Source",,GML Visual action name
+GMStdTimeSourcePause_Desc,"Pause a time source.","Pause a time source.",,GML Visual action description
+GMStdTimeSourcePause_Story,"Pause time source ${idx}","Pause time source ${idx}",,GML Visual story text
+GMStdTimeSourceResume_Name,"Resume Time Source","Resume Time Source",,GML Visual action name
+GMStdTimeSourceResume_Desc,"Resume a time source.","Resume a time source.",,GML Visual action description
+GMStdTimeSourceResume_Story,"Resume time source ${idx}","Resume time source ${idx}",,GML Visual story text
+GMStdTimeSourceReset_Name,"Reset Time Source","Reset Time Source",,GML Visual action name
+GMStdTimeSourceReset_Desc,"Reset a time source.","Reset a time source.",,GML Visual action description
+GMStdTimeSourceReset_Story,"Reset time source ${idx}","Reset time source ${idx}",,GML Visual story text
+GMStdTimeSourceReconfigure_Name,"Reconfigure Time Source","Reconfigure Time Source",,GML Visual action name
+GMStdTimeSourceReconfigure_Desc,"Reset and reconfigure a time source.","Reset and reconfigure a time source.",,GML Visual action description
+GMStdTimeSourceReconfigure_Story,"Reset and reconfigure time source ${idx}","Reset and reconfigure time source ${idx}",,GML Visual story text
+GMStdTimeSourceGetPeriod_Name,"Get Period","Get Period",,GML Visual action name
+GMStdTimeSourceGetPeriod_Desc,"Get the period of a time source.","Get the period of a time source.",,GML Visual action description
+GMStdTimeSourceGetPeriod_Story,"Get the period of time source ${idx} and assign it to ${var}","Get the period of time source ${idx} and assign it to ${var}",,GML Visual story text
+GMStdTimeSourceGetRepsCompleted_Name,"Get Reps Completed","Get Reps Completed",,GML Visual action name
+GMStdTimeSourceGetRepsCompleted_Desc,"Get the number of repetitions a time source has completed.","Get the number of repetitions a time source has completed.",,GML Visual action description
+GMStdTimeSourceGetRepsCompleted_Story,"Get the number of completed repetitions of time source ${idx} and assign it to ${var}","Get the number of completed repetitions of time source ${idx} and assign it to ${var}",,GML Visual story text
+GMStdTimeSourceGetRepsRemaining_Name,"Get Reps Remaining","Get Reps Remaining",,GML Visual action name
+GMStdTimeSourceGetRepsRemaining_Desc,"Get the number of repetitions a time source has remaining.","Get the number of repetitions a time source has remaining.",,GML Visual action description
+GMStdTimeSourceGetRepsRemaining_Story,"Get the number of remaining repetitions of time source ${idx} and assign it to ${var}","Get the number of remaining repetitions of time source ${idx} and assign it to ${var}",,GML Visual story text
+GMStdTimeSourceGetUnits_Name,"Get Units","Get Units",,GML Visual action name
+GMStdTimeSourceGetUnits_Desc,"Get the units of a time source.","Get the units of a time source.",,GML Visual action description
+GMStdTimeSourceGetUnits_Story,"Get the units of time source ${idx} and assign it to ${var}","Get the units of time source ${idx} and assign it to ${var}",,GML Visual story text
+GMStdTimeSourceGetTimeRemaining_Name,"Get Time Remaining","Get Time Remaining",,GML Visual action name
+GMStdTimeSourceGetTimeRemaining_Desc,"Get the time remaining on a time source.","Get the time remaining on a time source.",,GML Visual action description
+GMStdTimeSourceGetTimeRemaining_Story,"Get the time remaining on time source ${idx} and assign it to ${var}","Get the time remaining on time source ${idx} and assign it to ${var}",,GML Visual story text
+GMStdTimeSourceGetState_Name,"Get State","Get State",,GML Visual action name
+GMStdTimeSourceGetState_Desc,"Get the current state of a time source.","Get the current state of a time source.",,GML Visual action description
+GMStdTimeSourceGetState_Story,"Get the current state of time source ${idx} and assign it to ${var}","Get the current state of time source ${idx} and assign it to ${var}",,GML Visual story text
+GMStdTimeSourceGetParent_Name,"Get Parent","Get Parent",,GML Visual action name
+GMStdTimeSourceGetParent_Desc,"Get the parent of a time source.","Get the parent of a time source.",,GML Visual action description
+GMStdTimeSourceGetParent_Story,"Get the parent of time source ${idx} and assign it to ${var}","Get the parent of time source ${idx} and assign it to ${var}",,GML Visual story text
+GMStdTimeSourceGetChildren_Name,"Get Children","Get Children",,GML Visual action name
+GMStdTimeSourceGetChildren_Desc,"Get the children of a time source.","Get the children of a time source.",,GML Visual action description
+GMStdTimeSourceGetChildren_Story,"Get the children of time source ${idx} and assign it to ${var}","Get the children of time source ${idx} and assign it to ${var}",,GML Visual story text
+GMStdTimeSourceExists_Name,"If Time Source Exists","If Time Source Exists",,GML Visual action name
+GMStdTimeSourceExists_Desc,"Check if a time source exists.","Check if a time source exists.",,GML Visual action description
+GMStdTimeSourceExists_Story_1,"If time source ${idx} exists","If time source ${idx} exists",,GML Visual story text
+GMStdTimeSourceExists_Story_2,"If time source ${idx} does not exist","If time source ${idx} does not exist",,GML Visual story text
+GMStdIfTimeSourceState_Name,"If State","If State",,GML Visual action name
+GMStdIfTimeSourceState_Desc,"Check if a time source's state satisfies a condition.","Check if a time source's state satisfies a condition.",,GML Visual action description
+GMStdIfTimeSourceState_Story_1,"If the state of time source ${idx} is ${state}","If the state of time source ${idx} is ${state}",,GML Visual story text
+GMStdIfTimeSourceState_Story_2,"If the state of time source ${idx} is not ${state}","If the state of time source ${idx} is not ${state}",,GML Visual story text
+GMStdIfTimeSourceUnits_Name,"If Units","If Units",,GML Visual action name
+GMStdIfTimeSourceUnits_Desc,"Check if a time source's units satisfies a condition.","Check if a time source's units satisfies a condition.",,GML Visual action description
+GMStdIfTimeSourceUnits_Story_1,"If the units of time source ${idx} are ${units}","If the units of time source ${idx} are ${units}",,GML Visual story text
+GMStdIfTimeSourceUnits_Story_2,"If the units of time source ${idx} are not ${units}","If the units of time source ${idx} are not ${units}",,GML Visual story text
+GMStdIfTimeSourceParent_Name,"If Parent","If Parent",,GML Visual action name
+GMStdIfTimeSourceParent_Desc,"Check if a time source's parent satisfies a condition.","Check if a time source's parent satisfies a condition.",,GML Visual action description
+GMStdIfTimeSourceParent_Story_1,"If the parent of time source ${idx} is ${parent}","If the parent of time source ${idx} is ${parent}",,GML Visual story text
+GMStdIfTimeSourceParent_Story_2,"If the parent of time source ${idx} is not ${parent}","If the parent of time source ${idx} is not ${parent}",,GML Visual story text
+GMStdTimeBpmToSeconds_Name,"BPM to Seconds","BPM to Seconds",,GML Visual action name
+GMStdTimeBpmToSeconds_Desc,"Convert a frequency in beats-per-minute to its equivalent period in seconds.","Convert a frequency in beats-per-minute to its equivalent period in seconds.",,GML Visual action description
+GMStdTimeBpmToSeconds_Story,"Convert a frequency of ${in_var} beats-per-minute to a period in seconds and assign it to ${out_var}","Convert a frequency of ${in_var} beats-per-minute to a period in seconds and assign it to ${out_var}",,GML Visual story text
+GMStdTimeSecondsToBpm_Name,"Seconds to BPM","Seconds to BPM",,GML Visual action name
+GMStdTimeSecondsToBpm_Desc,"Convert a period in seconds to its equivalent frequency in beats-per-minute.","Convert a period in seconds to its equivalent frequency in beats-per-minute.",,GML Visual action description
+GMStdTimeSecondsToBpm_Story,"Convert a period of ${in_var} seconds to a frequency in beats-per-minute and assign it to ${out_var}","Convert a period of ${in_var} seconds to a frequency in beats-per-minute and assign it to ${out_var}",,GML Visual story text
 RedefineKeys_MoveFlowNext,Move Flow Next,Move Flow Next,,Redefine keys MoveFlowNext string
 RedefineKeys_MoveFlowPrevious,Move Flow Previous,Move Flow Previous,,Redefine keys MoveFlowPrevious string
 RedefineKeys_FlowAccept,Flow Accept,Flow Accept,,Redefine keys FlowAccept string
@@ -7916,7 +7950,7 @@ RedefineKeys_RoomEditor_NewAssetLayer,Room Editor New Asset Layer,Room Editor Ne
 RedefineKeys_RoomEditor_NewFolder,Room Editor New Folder,Room Editor New Folder,,Redefine keys RoomEditor_NewFolder string
 RedefineKeys_TextEditor_RegionsMenu,Text Editor Regions Menu,Text Editor Regions Menu,,Redefine keys TextEditor_RegionsMenu string
 RedefineKeys_Breakpoint_MenuToggle,Breakpoint Menu Toggle,Breakpoint Menu Toggle,,Redefine keys Breakpoint_MenuToggle string
-RedefineKeys_TextEditorPanel_ConvertToDnD,Text Editor Panel Convert To Dn D,Text Editor Panel Convert To Dn D,,Redefine keys TextEditorPanel_ConvertToDnD string
+RedefineKeys_TextEditorPanel_ConvertToGMLVisual,Text Editor Panel Convert To GML Visual,Text Editor Panel Convert To GML Visual,,Redefine keys TextEditorPanel_ConvertToVisual string
 RedefineKeys_SequenceDopeSheet_Timeline_Frames,Sequence Dope Sheet Timeline Frames,Sequence Dope Sheet Timeline Frames,,Redefine keys SequenceDopeSheet_Timeline_Frames string
 RedefineKeys_SequenceDopeSheet_Timeline_Time,Sequence Dope Sheet Timeline Time,Sequence Dope Sheet Timeline Time,,Redefine keys SequenceDopeSheet_Timeline_Time string
 RedefineKeys_Shader_ChangeShaderType,Shader Change Shader Type,Shader Change Shader Type,,Redefine keys Shader_ChangeShaderType string
@@ -8106,4 +8140,5 @@ RedefineKeys_workspace_chain_move_down_right,Move to next window down and right,
 RedefineKeys_zoom_and_pan_to_gadget,Pan and zoom in on the active window,Pan and zoom in on the active window,,Redefine Keys label to pan and zoom in on the active window
 RedefineKeys_Keys,Keys,Keys,,Redefine keys Keys label
 DeviceManager_Name_Already_Taken,A device with this name has already been created.,A device with this name has already been created.,,Device manager name already taken error message
-GMStdTime,Time,Time,,DnD library argument label
+GMStdTime,Time,Time,,GML Visual library argument label
+GMStdTooltipOffset,The track position to start playing from,The track position to start playing from,,GML Visual argument tooltip
