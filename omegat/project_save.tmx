@@ -16870,6 +16870,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(Hold {0})</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221009T143441Z" creationid="LiarOnce" creationdate="20221009T143441Z">
+        <seg>(保留 {0} )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>(List is empty)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T125247Z" creationid="liaronce" creationdate="20200820T125247Z">
@@ -17903,6 +17911,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Accelerate the instance in a direction.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221009T143503Z" creationid="LiarOnce" creationdate="20221009T143503Z">
+        <seg>将实例加速到某个方向。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Accept Spine licence</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T051323Z" creationid="deciia" creationdate="20180922T051323Z">
@@ -18139,6 +18155,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151656Z">
         <seg>将 ${direction} 添加到 ${applyto} 上的重力方向</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${dir} to ${applyto}'s direction and ${speed} to its speed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221009T143528Z" creationid="LiarOnce" creationdate="20221009T143528Z">
+        <seg>将 ${dir} 添加到 ${applyto} 的方向，并将 ${speed} 添加到其速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add ${dir} to this instance's direction and ${speed} to its speed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221009T143512Z" creationid="LiarOnce" creationdate="20221009T143512Z">
+        <seg>将 ${dir} 添加到此实例的方向，并将 ${speed} 添加到其速度</seg>
       </tuv>
     </tu>
     <tu>
@@ -18795,6 +18827,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115539Z" creationid="liaronce" creationdate="20201124T115539Z">
         <seg>添加力矩(Ctrl+9)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add Motion</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221009T143502Z" creationid="LiarOnce" creationdate="20221009T143502Z">
+        <seg>添加运动</seg>
       </tuv>
     </tu>
     <tu>
@@ -49265,6 +49305,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>JSDoc (for Feather):</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221009T143428Z" creationid="LiarOnce" creationdate="20221009T143428Z">
+        <seg>JSDoc (for Feather):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Java JDK Location</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T081733Z" creationid="deciia" creationdate="20170105T081733Z">
@@ -54346,6 +54394,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Not signed-in to Opera</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221009T143426Z" creationid="LiarOnce" creationdate="20221009T143426Z">
+        <seg>未登录到 Opera</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Not signed-in to Opera GX</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220913T022206Z" creationid="LiarOnce" creationdate="20220913T022206Z">
@@ -55246,6 +55302,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T113048Z" creationid="deciia" creationdate="20170103T113048Z">
         <seg>在混音器中打开</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open Included Files</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221009T143457Z" creationid="LiarOnce" creationdate="20221009T143457Z">
+        <seg>打开包含的文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -58863,6 +58927,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T094419Z" creationid="deciia" creationdate="20170104T073551Z">
         <seg>对输出的.js文件开头插入下列内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Preserve trailing and leading underscores</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221009T143456Z" creationid="LiarOnce" creationdate="20221009T143456Z">
+        <seg>保留尾部和前导下划线</seg>
       </tuv>
     </tu>
     <tu>
@@ -64626,6 +64698,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170303T154002Z" creationid="deciia" creationdate="20170303T154002Z">
         <seg>任意层中选择 (P)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select From Any Layer {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221009T143433Z" creationid="LiarOnce" creationdate="20221009T143433Z">
+        <seg>从任意层 {0} 中选择</seg>
       </tuv>
     </tu>
     <tu>
@@ -77097,6 +77177,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133422Z" creationid="liaronce" creationdate="20200820T133422Z">
         <seg>找不到教程项目文件：{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unable to login - SSO timed out</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221009T143451Z" creationid="LiarOnce" creationdate="20221009T143447Z">
+        <seg>无法登录 - SSO 超时</seg>
       </tuv>
     </tu>
     <tu>
