@@ -1106,10 +1106,10 @@ IncludedFilesPlatform_Android_TV,Android TV,Android TV,DO NOT TRANSLATE,included
 IncludedFilesPlatform_TV_OS,tvOS,tvOS,DO NOT TRANSLATE,included files platform list entry
 IncludedFilesPlatform_AmazonFire,Amazon Fire,Amazon Fire,DO NOT TRANSLATE,Amazon Fire platform list entry
 IncludedFilesPlatform_WASM,WASM,WASM,DO NOT TRANSLATE,WASM platform list entry
-IncludedFilesPlatform_OPERAGX,Opera GX,Opera GX,DO NOT TRANSLATE,Opera GX platform list entry
+IncludedFilesPlatform_OPERAGX,GX.games,GX.games,DO NOT TRANSLATE,Opera GX platform list entry
 wasm,WASM,WASM,DO NOT TRANSLATE,WASM Platform settings entry
-operagx,Opera GX,Opera GX,DO NOT TRANSLATE,Opera GX Platform settings entry
-OperaGX,Opera GX,Opera GX,DO NOT TRANSLATE,Opera GX Platform settings entry
+operagx,GX.games,GX.games,DO NOT TRANSLATE,Opera GX Platform settings entry
+OperaGX,GX.games,GX.games,DO NOT TRANSLATE,Opera GX Platform settings entry
 InstanceProperties_CreationCode,Creation Code,Creation Code,,instance properties button caption for opening the creation code
 InstanceProperties_EditObject,Edit Object,Edit Object,,instance properties button caption for opening the object for edit
 InstanceProperties_FlipX,Flip X,Flip X,,instance properties checkbox label for flip x
@@ -2098,6 +2098,7 @@ SpriteEditor_Tile_Tooltip,"Tile Horizontally and Tile Vertically relate to how t
 SpriteEditor_TileVer,Tile Vertically,Tile Vertically,,Sprite editor tile ver label
 SpriteEditor_Tolerance,Tolerance,Tolerance,,Sprite editor alpha tolerance slider label
 SpriteEditor_Use3D,Separate Texture Page,Separate Texture Page,,Sprite editor use for 3D label
+SpriteEditor_DynamicTexturePage,Dynamic Texture Page,Dynamic Texture Page,,Sprite editor dynamic texture page label
 SpriteEditor_WindowTitle,Sprite: {0},Sprite: {0},,Sprite editor window title
 SpriteEditor_SpineLabel,Spine Sprite,Spine Sprite,,spine type sprite
 SpriteEditor_SpineLabelTT,Spine Sprite - some editor settings disabled,Spine Sprite - some editor settings disabled,,spine sprite label tooltip
@@ -2297,9 +2298,15 @@ TextureGroups_List_Sprites,Sprites,Sprites,,Texture group list category
 TextureGroups_NoResources,This group is empty.,This group is empty.,,Texture groups label when a sub-tree is empty
 TextureGroups_ParentTexGorup,Parent Texture Group,Parent Texture Group,,Texture group parent texture group label
 TextureGroups_Format,Texture Group Format,Texture Group Format,,Format texture group
+TextureGroups_LoadType,Texture Group Type,Texture Group Type,,Load Type for texture group
+TextureGroups_Directory,Dynamic Group/Page Path:,Dynamic Group/Page Path:,,Dynamic Group/Page Path for texture group
 Format_BZ2,BZ2 + QOI,BZ2 + QOI,,Format BZ2
 Format_QOI,QOI,QOI,,Format QOI
 Format_PNG,PNG,PNG,,Format PNG
+LoadType_Default,Default,Default,,Default Load Type
+LoadType_Dynamic,Dynamic,Dynamic,,Dynamic Load Type
+LoadType_DynamicGroup,Dynamic Group,Dynamic Group,,Dynamic Group Load Type
+LoadType_DynamicPages,Dynamic Pages,Dynamic Pages,,Dynamic Pages Load Type
 FrameworkEmbed_DoNotEmbed,Do Not Embed,Do Not Embed,,Do Not Embed
 FrameworkEmbed_EmbedAndSign,Embed & Sign,Embed & Sign,,Embed & Sign
 FrameworkEmbed_EmbedWithoutSigning,Embed Without Signing,Embed Without Signing,,Embed Without Signing
@@ -2403,6 +2410,7 @@ User_OK,OK,OK,,User Login - two step authentication ok button
 User_AuthenticationCode,Authentication Code,Authentication Code,,User Login - two step authentication label for the authentication code
 UserLogin_Retry,Retry,Retry,,User Login - Error Retry
 UserLogin_MaxDevice,Maximum logins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,Maximum logins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,,User Login Error response 29
+UserLogin_Error17,You need to authenticate with your Opera SSO details,You need to authenticate with your Opera SSO details,,User Login Error response 17
 UserLogin_Error34,Invalid session (User),Invalid session (User),,User Login Error response 34
 UserLogin_Error36,Two-step login required,Two-step login required,,User Login Error response 36
 UserLogin_Error37,Required fields missing,Required fields missing,,User Login Error response 37
@@ -2426,10 +2434,15 @@ UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free 
 UserLogin_Continue,Continue,Continue,,continue label
 UserLogin_AccessTokenGetFail,Failed to acquire access token,Failed to acquire access token,,failed to acquire access token error message
 UserLogin_OperaAccount,Opera Account,Opera Account,,opera account
-UserLogin_OperaLoginInfo,"Use your Opera account to sign in to YoYo Accounts.\nBoth accounts must be linked","Use your Opera account to sign in to YoYo Accounts.\nBoth accounts must be linked",,opera login info text
+UserLogin_OperaLoginInfo,Sign in to GameMaker with your Opera account.,Sign in to GameMaker with your Opera account.,,opera login info text
 UserLogin_LinkAccountsAt,Link your accounts at,Link your accounts at,,link accounts info label
-UserLogin_OperaSSO,Opera Single Sign-In,Opera Single Sign-In,,single sign in button label
+UserLogin_OperaSSO,Sign In,Sign In,,single sign in button label
 UserLogin_ForgottenPassword,Forgotten password?,Forgotten password?,,login forgotten password label
+UserLogin_SSO_unverified,SSO email not verified,SSO email not verified,,SSO error message
+UserLogin_SSO_unrequested,Non-200 response from SSO auth site,Non-200 response from SSO auth site,,SSO error message
+UserLogin_SSO_unreadable,UID not present in SSO auth response,UID not present in SSO auth response,,SSO error message
+UserLogin_SSO_unrelated,Please complete your profile to continue.,Please complete your profile to continue.,,SSO error message
+UserLogin_SSO_unknown,Unknown error from the SSO server,Unknown error from the SSO server,,SSO error message
 Validate_MaxLength,{0} - Length should be less than {1},{0} - Length should be less than {1},,Failed validation by passing an object whose length is too long
 Validate_MinLength,{0} - Length should be greater than {1},{0} - Length should be greater than {1},,Failed validation by passing an object whose length is too short
 Validate_MVCType,{0} - Object should be of type {2}{1},{0} - Object should be of type {2}{1},,Failed validation by passing an object of the wrong type
@@ -3295,6 +3308,7 @@ ggs_game_identifier,Game Identifier,Game Identifier,,Game Identifier
 ggs_game_guid,Project GUID,Project GUID,,Project GUID
 ggs_game_guid_change_confirmation,Are you sure to change the GUID?,Are you sure to change the GUID?,,Confirmation of changing the game GUID
 ggs_mips_for_3d_textures,Generate mipmaps for separate texture pages,Generate mipmaps for separate texture pages,,Generate mipmaps for separate texture pages
+ggs_dynamically_load_3d_textures,Dynamically load separate texture pages,Dynamically load separate texture pages,,Dynamically load separate texture pages
 TargetSelection_RequiresWorker,Requires Worker,Requires Worker,,label for when a selected platform requires a worker
 TargetSelection_RequiresWindowsPC,Requires Windows PC,Requires Windows PC,,remote worker not available on mac
 TargetSelection_Worker,Worker:,Worker:,,the list title for target selecting worker
@@ -3316,7 +3330,7 @@ TargetSelection_Platform_ps4,PlayStation 4,PlayStation 4,,the ps4 platform title
 TargetSelection_Platform_ps5,PlayStation 5,PlayStation 5,,the ps5 platform title in the platform selection list
 TargetSelection_Platform_xboxseriesxs,Xbox One & Series X/S,Xbox One & Series X/S,DO NOT TRANSLATE,the Xbox One & Series X/S platform title in the platform selection list
 TargetSelection_Platform_wasm,WASM,WASM,DO NOT TRANSLATE,the WASM platform title in the platform selection list
-TargetSelection_Platform_operagx,Opera GX,Opera GX,DO NOT TRANSLATE,the opera gx platform title in the platform selection list
+TargetSelection_Platform_operagx,GX.games,GX.games,DO NOT TRANSLATE,the opera gx platform title in the platform selection list
 TargetSelection_Runtime_VM,VM,VM,, the VM (Virtual Machine) title in the runtime selection list
 TargetSelection_Runtime_YYC,YYC,YYC,DO NOT TRANSLATE, the yyc title in the runtime selection list
 TargetSelection_Runtime_Javascript,JavaScript,JavaScript,DO NOT TRANSLATE, the javascript title in the runtime selection list
@@ -3544,7 +3558,7 @@ ggs_advertising_key1,Key 1,Key 1,,Key 1
 ggs_advertising_key2,Key 2,Key 2,,Key 2
 ggs_advertising_key3,Key 3,Key 3,,Key 3
 ggs_advertising_key4,Key 4,Key 4,,Key 4
-wasm_package_title,OperaGX Packaging,OperaGX Packaging,,Title for dialog performing the packing for the OperaGX Target (upload to GXC)
+wasm_package_title,GX.Games Packaging,GX.Games Packaging,,Title for dialog performing the packing for the OperaGX Target (upload to GXC)
 wasm_login,Sign-In to Opera,Sign-In to Opera,,Button label for OperaGX packaging
 wasm_view_on_web,Edit Game on Opera,Edit Game on Opera,,Button label for OperaGX packaging
 wasm_out_start_login,Starting Sign-In to Opera,Starting Sign-In to Opera,,Output Message tracking Packaging for OperaGX process
@@ -3565,7 +3579,7 @@ wasm_out_auth_timeout,OAuth2 Timeout...,OAuth2 Timeout...,,Output Message tracki
 wasm_out_auth_error,ERROR - Unable to refresh OAuth token,ERROR - Unable to refresh OAuth token,,Output Message tracking Packaging for OperaGX process
 wasm_out_auth_retrieve_error,Failed to retrieve OAuth token,Failed to retrieve OAuth token,,Output Message tracking Packaging for OperaGX process
 wasm_out_auth_token_success,OAuth2 access token received,OAuth2 access token received,,Output Message tracking Packaging for OperaGX process
-operagx_package_title,OperaGX Packaging,OperaGX Packaging,,Title for dialog performing the packing for the OperaGX Target (upload to GXC)
+operagx_package_title,GX.Games Packaging,GX.Games Packaging,,Title for dialog performing the packing for the OperaGX Target (upload to GXC)
 operagx_login,Sign-In to Opera,Sign-In to Opera,,Button label for OperaGX packaging
 operagx_view_on_web,Edit Game on Opera,Edit Game on Opera,,Button label for OperaGX packaging
 operagx_out_start_login,Starting Sign-In to Opera,Starting Sign-In to Opera,,Output Message tracking Packaging for OperaGX process
@@ -3612,7 +3626,7 @@ opera_sync_update_user_data_started,Updating the list of games and groups...,Upd
 opera_sync_zero_groups,Zero groups received from the server,Zero groups received from the server,,The message which is shown in a case when the list of groups received from the server is empty
 opera_sync_fetching_profile,Fetching profile info...,Fetching profile info...,,The label caption during request to OperaGX
 opera_sync_profile_error,Fetching profile info failed,Fetching profile info failed,,The label caption which is shown after failing fetching the profile info from GX.Games
-opera_sync_not_logged,Not signed-in to Opera GX,Not signed-in to Opera GX,,The label caption when a user is not logged in to OperaGX
+opera_sync_not_logged,Not signed-in to Opera,Not signed-in to Opera,,The label caption when a user is not logged in to OperaGX
 opera_sync_logged_info,Signed-in to Opera GX as: {0},Signed-in to Opera GX as: {0},,The label caption when a user is logged in to OperaGX
 gxc_err_game_creation_not_allowed,Only the owner of the group may create a game for the group,Only the owner of the group may create a game for the group,,Error message from GXC
 gxc_err_no_specific_group_for_user,The user doesn't have a specific group,The user doesn't have a specific group,,Error message from GXC
@@ -3885,6 +3899,7 @@ ExtensionEditor_Key,Key:,Key:,,key label
 ExtensionEditor_Value,Value:,Value:,,value label
 ExtensionEditor_Hidden,Hidden,Hidden,,hidden label
 ExtensionEditor_Help,Help:,Help:,,help label
+ExtensionEditor_Documentation,JSDoc (for Feather):,JSDoc (for Feather):,,JSDoc Feather label
 ExtensionEditor_ReturnType,ReturnType:,ReturnType:,,return type label
 ExtensionEditor_Arguments,Arguments:,Arguments:,,heading label
 ExtensionEditor_ExternalName,External Name:,External Name:,,external name label
@@ -5052,7 +5067,8 @@ Sprite_FileFilters_SwfFiles,Shockwave Flash Object,Shockwave Flash Object,,Sprit
 SpriteEditor_NoExport,Export Sprite Disabled,Export Sprite Disabled,,The caption alongside the checkbox to show if a sprite will be exported
 SpriteEditor_ToolTip_WillExport,Sprite will export,Sprite will export,,THe tooltip when the sprite will be exported
 SpriteEditor_ToolTip_NoExport,Sprite export disabled by tile set(s): {0},Sprite export disabled by tile set(s): {0},,The tooltip when the sprite will not be exported
-RoomEditor_SelectFromAnyLayer,Select From Any Layer ,Select From Any Layer ,,tool tip for the select from any layer button
+RoomEditor_SelectFromAnyLayer,Select From Any Layer {0},Select From Any Layer {0},,tool tip for the select from any layer button
+RoomEditor_SelectFromAnyLayer_HoldPrompt,(Hold {0}),(Hold {0}),,tooltip to be displayed prefixing shortcut for RoomEditor_SelectFromAnyLayer
 RoomEditor_InstanceLayerStatus,LMB + {0} to paint with selected object resources,LMB + {0} to paint with selected object resources,,status bar information for painting in an instance layer
 RoomEditor_AssetLayerStatus,LMB + {0} to paint with selected sprite resources,LMB + {0} to paint with selected sprite resources,,status bar information for painting in an asset layer
 RoomEditor_InstanceLayerStatus_Laptop,LMB + {0} to paint with selected object resources,LMB + {0} to paint with selected object resources,,status bar information for painting in an instance layer when laptop compatibility is enabled
@@ -6013,7 +6029,7 @@ Xbox Series XS,Xbox One & Series X/S,Xbox One & Series X/S,DO NOT TRANSLATE,Xbox
 Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,Ubuntu preference group subheading
 WebAssembly,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
 Wasm,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
-Opera GX,Opera GX,Opera GX,DO NOT TRANSLATE,Opera GX preference group subheading
+Opera GX,GX.games,GX.games,DO NOT TRANSLATE,Opera GX preference group subheading
 Xbox Live,Xbox Live,Xbox Live,DO NOT TRANSLATE,Xbox Live options group subheading
 Dialogue Editor,Dialog Editor,Dialog Editor,,Dialog Editor preference group subheading
 Options,Options,Options,,Options preference group subheading
@@ -6292,6 +6308,7 @@ UserLogin_LicenseExpiredTitle,Licence Expired,Licence Expired,,Licence expired d
 UserLogin_LicenceNoBuildAccessDetail,Licence does not have permission to access this build,Licence does not have permission to access this build,,message when user licence is not allowed to access a particular build
 UserLogin_OfflineError,Unable to take user offline,Unable to take user offline,,offline error
 UserLogin_NoConnection,Unable to login - no network connection,Unable to login - no network connection,,connection error
+UserLogin_SSOTimeout,Unable to login - SSO timed out,Unable to login - SSO timed out,,SSO timeout error
 UserLogin_NoAccountsServer,Unable to Login - Cannot reach https://accounts.yoyogames.com,Unable to Login - Cannot reach https://accounts.yoyogames.com,,accounts server connection error
 UserLogin_SteamError,Unable to login - failed to get a Steam session ticket,Unable to login - failed to get a Steam session ticket,,steam error
 UserLogin_ServerConnectionError,"Unable to login - server error, allowing offline","Unable to login - server error, allowing offline",,server connection error
@@ -7354,6 +7371,7 @@ Feather_GM2017Help,GM2017 Message Severity must not be set to Ignore for these t
 Feather_NamingStyle,Naming Style,Naming Style,,Naming Style
 Feather_NamingPrefix,Prefix,Prefix,,Prefix
 Feather_NamingSuffix,Suffix,Suffix,,Suffix
+Feather_NamingPreserveUnderscores,Preserve trailing and leading underscores,Preserve trailing and leading underscores,,Preserve trailing and leading underscores
 ListBoxEnum_NameStyle_Unconstrained,Unconstrained,Unconstrained,,Unconstrained
 ListBoxEnum_NameStyle_UpperCamelCase,UpperCamelCase,UpperCamelCase,,UpperCamelCase (Localize to the casing style)
 ListBoxEnum_NameStyle_lowerCamelCase,lowerCamelCase,lowerCamelCase,,lowerCamelCase (Localize to the casing style)
@@ -7778,6 +7796,7 @@ RedefineKeys_Create Sound,Create Sound,Create Sound,,Redefine keys Create Sound 
 RedefineKeys_Create Sprite,Create Sprite,Create Sprite,,Redefine keys Create Sprite string
 RedefineKeys_Create Tile Set,Create Tile Set,Create Tile Set,,Redefine keys Create Tile Set string
 RedefineKeys_Create Timeline,Create Timeline,Create Timeline,,Redefine keys Create Timeline string
+RedefineKeys_Open IncludedFile,Open Included Files,Open Included Files,,Redefine keys Open Included File string
 RedefineKeys_AssetBrowser_ExpandChildren,Asset Browser Expand Children,Asset Browser Expand Children,,Redefine keys AssetBrowser_ExpandChildren string
 RedefineKeys_ResourceTree_ExpandAll,Resource Tree Expand All,Resource Tree Expand All,,Redefine keys ResourceTree_ExpandAll string
 RedefineKeys_ResourceTree_CollapseAll,Resource Tree Collapse All,Resource Tree Collapse All,,Redefine keys ResourceTree_CollapseAll string
@@ -8142,3 +8161,7 @@ RedefineKeys_Keys,Keys,Keys,,Redefine keys Keys label
 DeviceManager_Name_Already_Taken,A device with this name has already been created.,A device with this name has already been created.,,Device manager name already taken error message
 GMStdTime,Time,Time,,GML Visual library argument label
 GMStdTooltipOffset,The track position to start playing from,The track position to start playing from,,GML Visual argument tooltip
+GMStdAddMotion_Name,Add Motion,Add Motion,,GMLV action name
+GMStdAddMotion_Desc,Accelerate the instance in a direction.,Accelerate the instance in a direction.,,GMLV action description
+GMStdAddMotion_Story_1,Add ${dir} to this instance's direction and ${speed} to its speed,Add ${dir} to this instance's direction and ${speed} to its speed,,GMLV story text
+GMStdAddMotion_Story_2,Add ${dir} to ${applyto}'s direction and ${speed} to its speed,Add ${dir} to ${applyto}'s direction and ${speed} to its speed,,GMLV story text
