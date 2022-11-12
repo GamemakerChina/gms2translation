@@ -8121,7 +8121,7 @@ RedefineKeys_TileRectTool,Tile Rect Tool,Tile Rect Tool,,Redefine keys TileRectT
 RedefineKeys_TileRotateTool,Tile Rotate Tool,Tile Rotate Tool,,Redefine keys TileRotateTool string
 RedefineKeys_TileSelectionTool,Tile Selection Tool,Tile Selection Tool,,Redefine keys TileSelectionTool string
 RedefineKeys_AutoTileTool,Auto Tile Tool,Auto Tile Tool,,Redefine keys AutoTileTool string
-RedefineKeys_RoomEditorPaintBrush,Room Editor Paint Brush,Room Editor Paint Brush,,Redefine keys RoomEditorPaintBrush string
+RedefineKeys_PaintBrush,Room Editor Paint Brush,Room Editor Paint Brush,,Redefine keys RoomEditorPaintBrush string
 RedefineKeys_ActivateTileSelectWindow,Activate Tile Select Window,Activate Tile Select Window,,Redefine keys ActivateTileSelectWindow string
 RedefineKeys_InvertSelection,Invert Selection,Invert Selection,,Redefine keys InvertSelection string
 RedefineKeys_ToggleMacroEditingMode,Toggle Macro Editing Mode,Toggle Macro Editing Mode,,Redefine keys ToggleMacroEditingMode string
@@ -8158,6 +8158,7 @@ RedefineKeys_workspace_chain_move_up_right,Move to next window up and right,Move
 RedefineKeys_workspace_chain_move_down_right,Move to next window down and right,Move to next window down and right,,Redefine Keys label for moving the workspace chain
 RedefineKeys_zoom_and_pan_to_gadget,Pan and zoom in on the active window,Pan and zoom in on the active window,,Redefine Keys label to pan and zoom in on the active window
 RedefineKeys_Keys,Keys,Keys,,Redefine keys Keys label
+RedefineKeys_DeleteLineAfterCursor,Delete Line After Cursor,Delete Line After Cursor,,Delete line after cursor message
 DeviceManager_Name_Already_Taken,A device with this name has already been created.,A device with this name has already been created.,,Device manager name already taken error message
 GMStdTime,Time,Time,,GML Visual library argument label
 GMStdTooltipOffset,The track position to start playing from,The track position to start playing from,,GML Visual argument tooltip
@@ -8165,3 +8166,4 @@ GMStdAddMotion_Name,Add Motion,Add Motion,,GMLV action name
 GMStdAddMotion_Desc,Accelerate the instance in a direction.,Accelerate the instance in a direction.,,GMLV action description
 GMStdAddMotion_Story_1,Add ${dir} to this instance's direction and ${speed} to its speed,Add ${dir} to this instance's direction and ${speed} to its speed,,GMLV story text
 GMStdAddMotion_Story_2,Add ${dir} to ${applyto}'s direction and ${speed} to its speed,Add ${dir} to ${applyto}'s direction and ${speed} to its speed,,GMLV story text
+RedefineKeys_GML Visual Pan To,Pan To,Pan To,,Pan to
