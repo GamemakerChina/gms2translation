@@ -165,6 +165,8 @@ Dialog_Invalid,Invalid,Invalid,,Dialog caption text for invalid input
 Dialog_InvalidInput,Invalid input. Please provide the required information.,Invalid input. Please provide the required information.,,A dialog message for invalid input in dialogs
 Dialog_SaveChangesToX,Save the changes to {0}?,Save the changes to {0}?,,Save changes to X query
 Dialog_Warning,Warning,Warning,,"Dialog ""Warning"" title"
+QR_MQTT_Dialog_Title,Scan QR Code in Opera GX mobile,Scan QR Code in Opera GX mobile,,"QR Code Dialog title"
+QR_MQTT_Dialog_Content,"Scan the QR Code in Opera GX on Android or IOS to link the device to GameMaker","Scan the QR Code in Opera GX on Android or IOS to link the device to GameMaker",,"QR Code Dialog content"
 DialogEditor_AddContextMenu,Add Context Menu,Add Context Menu,,Context menu option to add a context menu to the selected gadget
 DialogEditor_Cell,Grid Cell,Grid Cell,,Layout Hierarchy heading for a grid cell group
 DialogEditor_ChildGadgets,Child Gadgets,Child Gadgets,,Layout Hierarchy heading for a child gadgets group
@@ -1016,7 +1018,7 @@ ImageEditor_ColourReplaceTool_Info,Click to swap colours ({0} to replace alpha a
 ImageEditor_ColourRemoveTool_Info,Click to remove a colour,Click to remove a colour,,image editor tool info
 ImageEditor_LineTool_Info,Click and drag to draw a line ({0} for a straight line),Click and drag to draw a line ({0} for a straight line),,image editor tool info
 ImageEditor_MagicWand_Info,"Click to replace selection ({0} to add to selection, {1} to subtract from selection)","Click to replace selection ({0} to add to selection, {1} to subtract from selection)",,image editor tool info
-ImageEditor_Paintbrush_Info,"Click to paint ({0} for a straight line, ${ctrl} to pick a colour)","Click to paint ({0} for a straight line, ${ctrl} to pick a colour)",,image editor tool info
+ImageEditor_Paintbrush_Info,"Click to paint ({0} for a straight line, {1} to pick a colour)","Click to paint ({0} for a straight line, {1} to pick a colour)",,image editor tool info
 ImageEditor_PanTool_Info,Click and drag to pan,Click and drag to pan,,image editor tool info
 ImageEditor_PolyTool_Info,Click to add points (Enter to commit),Click to add points (Enter to commit),,image editor tool info
 ImageEditor_RectangleTool_Info,Click and drag to draw a rectangle ({0} for a square),Click and drag to draw a rectangle ({0} for a square),,image editor tool info
@@ -1136,6 +1138,9 @@ ListBoxEnum_eImageBGStyle_SingleColour,Single Colour,Single Colour,,image editor
 ListBoxEnum_eAnimLoopMode_PlayOnce,Play once,Play once,,image editor anim loop mode enum
 ListBoxEnum_eAnimLoopMode_Loop,Loop,Loop,,image editor anim loop mode enum
 ListBoxEnum_eAnimLoopMode_PingPong,Ping pong,Ping pong,,image editor anim loop mode enum
+imageeditor_pastemode,Image Selection Copy/Paste,Image Selection Copy/Paste,,image editor paste made pref
+ListBoxEnum_eImagePasteMode_PasteAsBrush,Paste as Brush,Paste as Brush,,image editor image paste mode brush
+ListBoxEnum_eImagePasteMode_PasteAsLayer,Paste as Layer,Paste as Layer,,image editor image paste mode layer
 ListBoxEnum_eImageInterp_Cubic,Cubic,Cubic,,Image interpolation enum  - cubic
 ListBoxEnum_eImageInterp_Linear,Linear,Linear,,Image interpolation enum  -linear
 ListBoxEnum_eImageInterp_Nearest,None,None,,Image interpolation enum  - nearest / none
@@ -1821,6 +1826,41 @@ ROOM_EFFECTS_filter_lut_colour,LUT Colour Grading,LUT Colour Grading,,look-up-ta
 ROOM_EFFECTS_LUT Texture,LUT Texture,LUT Texture,,look-up-table texture filter param
 ROOM_EFFECTS_filter_twist_blur,Twist Blur,Twist Blur,,twist blur filter name
 ROOM_EFFECTS_Position,Position,Position,,position filter param
+ROOM_EFFECTS_filter_blocks,Blocks Background,Blocks Background,,blocks background filter name
+ROOM_EFFECTS_View Position,View Position,View Position,,view position filter param
+ROOM_EFFECTS_Perspective,Perspective,Perspective,,perspective filter param
+ROOM_EFFECTS_Shading,Shading,Shading,,shading filter param
+ROOM_EFFECTS_Face Lighting,Face Lighting,Face Lighting,,face lighting filter param
+ROOM_EFFECTS_Block Tiles,Block Tiles,Block Tiles,,block tiles filter param
+ROOM_EFFECTS_Blocks Texture,Blocks Texture,Blocks Texture,,blocks texture filter param
+ROOM_EFFECTS_filter_hue,Hue,Hue,,hue filter name
+ROOM_EFFECTS_Hue Shift,Hue Shift,Hue Shift,,hue shift filter param
+ROOM_EFFECTS_Saturation,Saturation,Saturation,,saturation filter param
+ROOM_EFFECTS_filter_old_film,Old Film,Old Film,,old film filter name
+ROOM_EFFECTS_Flicker Intensity,Flicker Intensity,Flicker Intensity,,flicker intensity filter param
+ROOM_EFFECTS_Flicker Speed,Flicker Speed,Flicker Speed,,flicker speed filter param
+ROOM_EFFECTS_Jitter Intensity,Jitter Intensity,Jitter Intensity,,jitter intensity filter param
+ROOM_EFFECTS_Speck Intensity,Speck Intensity,Speck Intensity,,speck intensity filter param
+ROOM_EFFECTS_Bar Scale,Bar Scale,Bar Scale,,bar scale filter param
+ROOM_EFFECTS_Bar Speed,Bar Speed,Bar Speed,,bar speed filter param
+ROOM_EFFECTS_Bar Frequency,Bar Frequency,Bar Frequency,,bar frequency filter param
+ROOM_EFFECTS_Ring Scale,Ring Scale,Ring Scale,,ring scale filter param
+ROOM_EFFECTS_Ring Sharpness,Ring Sharpness,Ring Sharpness,,ring sharpness filter param
+ROOM_EFFECTS_Ring Intensity,Ring Intensity,Ring Intensity,,ring intensity filter param
+ROOM_EFFECTS_filter_panorama,Panorama Background,Panorama Background,,panorama background filter name
+ROOM_EFFECTS_View Direction,View Direction,View Direction,,view direction filter param
+ROOM_EFFECTS_Cylinder,Cylinder,Cylinder,,cylinder filter param
+ROOM_EFFECTS_Panorama Texture,Panorama Texture,Panorama Texture,,panorama texture param
+ROOM_EFFECTS_filter_parallax,Parallax Background,Parallax Background,,parallax background filter name
+ROOM_EFFECTS_Texture Scale,Texture Scale,Texture Scale,,texture scale param
+ROOM_EFFECTS_Texture Depth,Texture Depth,Texture Depth,,texture depth param
+ROOM_EFFECTS_Fog Colour,Fog Colour,Fog Colour,,fog colour param
+ROOM_EFFECTS_Fog Range,Fog Range,Fog Range,,fog range param
+ROOM_EFFECTS_Fog Depth,Fog Depth,Fog Depth,,fog Depth param
+ROOM_EFFECTS_Parallax Texture,Parallax Texture,Parallax Texture,,parallax texture param
+ROOM_EFFECTS_filter_ripples,Ripples,Ripples,,ripples filter name
+ROOM_EFFECTS_Speed,Speed,Speed,,speed filter param
+ROOM_EFFECTS_Amplitude,Amplitude,Amplitude,,amplitude filter param
 ROOM_EFFECT_GROUP_Particles,Particle,Particle,,room effect group name
 ROOM_EFFECT_GROUP_Trail,Trail,Trail,,room effect group name
 ROOM_EFFECT_GROUP_Blower,Blower,Blower,,room effect group name
@@ -1833,6 +1873,7 @@ ROOM_EFFECT_FIELD_1,1,1,,room effect field name
 ROOM_EFFECT_FIELD_2,2,2,,room effect field name
 ROOM_EFFECT_FIELD_X,X,X,,room effect field name
 ROOM_EFFECT_FIELD_Y,Y,Y,,room effect field name
+ROOM_EFFECT_FIELD_Z,Z,Z,,room effect field name
 ROOM_EFFECT_FIELD_,,,,room effect field name
 ROOM_EFFECT_FIELD_Alt,Alt,Alt,,room effect field name
 ROOM_EFFECT_FIELD_Pos,Pos,Pos,,room effect field name
@@ -3101,11 +3142,12 @@ assetcachelocation,Asset cache directory,Asset cache directory,,Location of Asse
 myprojectslocation,'My Projects' directory,'My Projects' directory,,My Projects location setting
 mytemplateprojectslocation,Template Projects directory,Template Projects directory,,user Template Projects location setting
 autoreloadchangedfiles,Automatically reload changed files,Automatically reload changed files,,Automatically reload changed files setting
+caseinsensitivemode,Case-Insensitive mode for project files (may affect performance),Case-Insensitive mode for project files (may affect performance),,Case-Insensitive compatibility mode
 deleteassetcache,Delete Asset Cache,Delete Asset Cache,,Delete the asset cache now
 deleteassetcacheonquit,Automatically delete asset cache directory on close,Automatically delete asset cache directory on close,,Delete the asset cache on quit setting
 deletetemponquit,Delete temp folder on quit,Delete temp folder on quit,,Delete the temp folder on quit setting
-opennewresources,Open new resources for edit on creation,Open new resources for edit on creation,,Open new resources setting
-alwaysopendroppedresources,Open new resources for edit on dragging files into IDE,Open new resources for edit on dragging files into IDE,,Setting to stop the IDE from opening new resources via drag/drop
+opennewresources,Open new assets for edit on creation,Open new assets for edit on creation,,Open new resources setting
+alwaysopendroppedresources,Open new assets for edit on dragging files into IDE,Open new assets for edit on dragging files into IDE,,Setting to stop the IDE from opening new resources via drag/drop
 externalswfeditor,SWF files,SWF files,,Path to external swf editor
 externalspineeditor,Spine files,Spine files,,Path to external spine editor
 androidsdkpath,Path to Android SDK,Path to Android SDK,,Path to Android SDK
@@ -3334,6 +3376,7 @@ TargetSelection_Platform_operagx,GX.games,GX.games,DO NOT TRANSLATE,the opera gx
 TargetSelection_Runtime_VM,VM,VM,, the VM (Virtual Machine) title in the runtime selection list
 TargetSelection_Runtime_YYC,YYC,YYC,DO NOT TRANSLATE, the yyc title in the runtime selection list
 TargetSelection_Runtime_Javascript,JavaScript,JavaScript,DO NOT TRANSLATE, the javascript title in the runtime selection list
+TargetSelection_Runtime_Cronus,Cronus,Cronus,DO NOT TRANSLATE,the cronus title in the runtime selection list
 TargetSelection_Device_Local,Local,Local,, the local device title in the device selection list
 TargetSelection_Device_Default,Default,Default,, the default device title in the device selection list
 TargetSelection_Device_Device,Device,Device,, the 'device' device title in the device selection list
@@ -3426,6 +3469,8 @@ Project_Deleted_Message,"The project file '{0}' was deleted. Your project will n
 keystore_filename,Filename,Filename,,Keystore Filename
 keystore_password,Password,Password,,Keystore Password
 keystore_alias,Alias,Alias,,Keystore Alais
+cocoapods_checkbox,Cocoapods,Cocoapods,,Cocoapods
+ios_min_version,Min Version,Min Version,,Min Version
 keystore_commonname,Common Name,Common Name,,Keystore Common Name
 keystore_organisationalunit,Organisational Unit,Organisational Unit,,Keystore Organisational Unit
 keystore_organisation,Organisation,Organisation,,Keystore Organisation
@@ -3678,6 +3723,8 @@ platformdevice_add_browser,Add New Browser,Add New Browser,,Add New Browser
 platformdevice_remove,Remove Device,Remove Device,,Remove Platform Device
 platformdevice_remove_browser,Remove Browser,Remove Browser,,Remove Browser
 platformdevice_displayname,Display Name:,Display Name:,,Platform Device Display Name
+platformdevice_run,Run,Run,,Platform Device Run
+platformdevice_output,Output,Output,,Platform Device Output
 platformdevice_installdir,Install Folder:,Install Folder:,,Linux Install Folder
 platformdevice_browserpath,Path to Browser:,Path to Browser:,,Path to Browser
 platformdevice_browserargs,Browser Command Line Arguments:,Browser Command Line Arguments:,,Browser Command Line Arguments
@@ -3747,6 +3794,7 @@ runtime_install_failed,Install Failed,Install Failed,,Runtime failed to install
 runtime_published,Date,Date,,Runtime Published
 runtime_location,Location,Location,,Runtime Location
 runtime_modules,Modules,Modules,,Runtime Modules
+runtime_modify_modules,Modify Current Runtime Modules,Modify Current Runtime Modules,,Modify Current Runtime Modules
 runtime_current_version,Current Version:,Current Version:,,Current Runtime Version
 runtime_new_version,New Version:,New Version:,,New Runtime Version
 runtime_current_date,Date:,Date:,,Current Runtime Date
@@ -3777,6 +3825,17 @@ runtime_dns_DnsTestHasFailedMessage,DNS resolving test has failed with the curre
 runtime_dns_ResolvingFailed,DNS resolving has failed,DNS resolving has failed,,A title of the warning which is shown when after the IDE failed to resolve an address against an alternative DNS
 runtime_dns_ResolvingFailedMessage,Could not resolve {0} with an alternative DNS. A system DNS has been used,Could not resolve {0} with an alternative DNS. A system DNS has been used,,Could not use an alternative DNS
 runtime_empty_dns_warning,"No DNS IP specified - the runtime feeds will be resolved against a system DNS","No DNS IP specified - the runtime feeds will be resolved against a system DNS",,A tip which is shown in the Preferences window when a user leaves the field "Alternative DNS IP" empty
+runtime_modules_window,Runtime Modules,Runtime Modules,,A title for a window with runtime modules
+runtime_select_modules,Select Modules:,Select Modules:,,A label proposing to select modules
+runtime_modules_required_only,Required only,Required only,,A button name
+runtime_modules_remember_selection,Remember Selection,Remember Selection,,Remember selection checkbox label
+runtime_modules_not_available_tooltip,Not available on {0},Not available on {0},,Tooltip. Argument - current platform
+runtime_no_licence_for_module,"You have no licence for the platform {0}, runtime {1}","You have no licence for the platform {0}, runtime {1}",,No licence warning. Arguments: platform; runtime.
+runtime_module_installation_started,Started to install the module "{0}",Started to install the module "{0}",,Message on starting installation of a module. Arguments: module.
+runtime_module_installed_successfully,The module "{0}" installed successfully,The module "{0}" installed successfully,,Message on successful installation of a module. Arguments: module.
+runtime_could_not_install_module,Failed to install "{0}". See ui.log for details,Failed to install "{0}". See ui.log for details,,Message on failing installation of a module. Arguments: module.
+runtime_install_module_dialogue,The module "{0}" is not installed in the current runtime. Download and install it now?,The module "{0}" is not installed in the current runtime. Download and install it now?,,A confirm dialogue to install a module.
+runtime_remember_modules,Remember last selection of modules,Remember last selection of modules,,Setting caption
 ProgressBar_DnsTest,Testing DNS...,Testing DNS...,,A title of the progress bar
 IDE_OpenProject_NotExists_Title,Invalid Project,Invalid Project,,Title for IDE_OpenProject_NotExists message dialog
 SpriteEditor_InvalidFileFormat,"The file(s) you attempted to load are not supported by the sprite editor.","The file(s) you attempted to load are not supported by the sprite editor.",,Sprite editor invalid file format dropped
@@ -4653,6 +4712,14 @@ GMStdRollbackSyncOnFrame_Name,Sync on frame (Rollback),Sync on frame (Rollback),
 GMStdRollbackSyncOnFrame_Desc,"Synchronize the rollback game on the current frame. This means that we will only proceed past the current frame if all inputs are confirmed. Returns true if successful, false if the current frame will be rerun.","Synchronize the rollback game on the current frame. This means that we will only proceed past the current frame if all inputs are confirmed. Returns true if successful, false if the current frame will be rerun.",,GML Visual library action description
 GMStdRollbackGetInfo_Name,Get Rollback Info,Get Rollback Info,,GML Visual library action name
 GMStdRollbackGetInfo_Desc,This function returns a struct containing player_name and avatar_url for the player.,This function returns a struct containing player_name and avatar_url for the player.,,GML Visual library action description
+GMStdRollbackUsePlayerPrefs_Name,Use Player Prefs (Rollback),Use Player Prefs (Rollback),,GML Visual library action name
+GMStdRollbackUsePlayerPrefs_Desc,This function is used to enable player preferences and needs to be called before joining or creating a rollback game.,This function is used to enable player preferences and needs to be called before joining or creating a rollback game.,,GML Visual library action description
+GMStdRollbackDefaultPrefs,Default Prefs,Default Prefs,,GML Visual library argument label
+GMStdRollbackSetPlayerPrefs_Name,Set Player Prefs (Rollback),Set Player Prefs (Rollback),,GML Visual library action name
+GMStdRollbackSetPlayerPrefs_Desc,This function is used to update the local player preferences.,This function is used to update the local player preferences.,,GML Visual library action description
+GMStdRollbackPrefs,Prefs,Prefs,,GML Visual library argument label
+GMStdRollbackGetPlayerPrefs_Name,Get Player Prefs (Rollback),Get Player Prefs (Rollback),,GML Visual library action name
+GMStdRollbackGetPlayerPrefs_Desc,This function is used to get the preferences for a given player.,This function is used to get the preferences for a given player.,,GML Visual library action description
 GMLVisual_Rollback_Synchronizing_With_Peer,Synchronizing With Peer,Synchronizing With Peer,,GML Visual library selection option
 GMLVisual_Rollback_Synchronized_With_Peer,Synchronized With Peer,Synchronized With Peer,,GML Visual library selection option
 GMLVisual_Rollback_Disconnected_From_Peer,Disconnected From Peer,Disconnected From Peer,,GML Visual library selection option
@@ -4662,6 +4729,7 @@ GMLVisual_Rollback_Game_Full,Game Full,Game Full,,GML Visual library selection o
 GMLVisual_Rollback_ChatMessage,Chat Message,Chat Message,,GML Visual library selection option
 GMLVisual_Rollback_Game_Info,Game Info,Game Info,,GML Visual library selection option
 GMLVisual_Rollback_Connect_Info,Connect Info,Connect Info,,GML Visual library selection option
+GMLVisual_Rollback_Player_Prefs,Player Prefs Changed,Player Prefs Changed,,GML Visual library selection option
 GMStdScript,"Script","Script",,GML Visual library argument label
 GMStdArgument,"Argument","Argument",,GML Visual argument label
 GMStdOptional,"Optional","Optional",,GML Visual optional label
@@ -5693,6 +5761,8 @@ SearchReplaceTextSettings,Search Result Window Font Settings,Search Result Windo
 SyntaxErrorsTextSettings,Syntax Error Window Font Settings,Syntax Error Window Font Settings,,Syntax Error Window Font Settings
 CompileErrorsTextSettings,Compile Error Window Font Settings,Compile Error Window Font Settings,,Compile Error Window Font Settings
 desktop_ctrlmousewheelzoom,Mouse wheel zoom requires ${ctrl} key,Mouse wheel zoom requires ${ctrl} key,,Preference description for whether the user needs to hold ctrl to zoom in/out
+desktop_pinchtozoom,Enable pinch to zoom,Enable pinch to zoom,,Preference description for whether pinch to zoom is enabled
+desktop_pinchtozoomscale,Pinch to zoom sensitivity (%),Pinch to zoom sensitivity (%),,Preference description for pinch to zoom sensitivity
 desktop_wrapcursor,Wrap cursor around screen when panning,Wrap cursor around screen when panning,,pref desktop wrap cursor
 dpi_setting_change,DPI override changes requires a restart of the IDE. Do you want to restart now?,DPI override changes requires a restart of the IDE. Do you want to restart now?,,Restart IDE after a DPI change
 dpi_override,Enable DPI override,Enable DPI override,,DPI Override
@@ -6155,6 +6225,7 @@ ListBoxEnum_eStoryMode_Always,Always,Always,,list box option for when the GML Vi
 ListBoxEnum_eToolboxLocation_Left,Left,Left,,list box option for where to display the GML Visual toolbox
 ListBoxEnum_eToolboxLocation_Right,Right,Right,,list box option for where to display the GML Visual toolbox
 platformdevice_nomac,No mac found,No mac found,,message for when no mac has been discovered
+platformdevice_nogx,No GX subscribers found,No GX subscribers found,,message for when no GX subscribers have been discovered
 ImageEditor_ChooseResize,Choose a resize option,Choose a resize option,,radio group label for resize options
 ImageEditor_StatusSize,Size: {0} x {1},Size: {0} x {1},,dimensions of image displayed in status bar
 SoundMixer_Duration,{0} / {1}s,{0} / {1}s,,the current time and overall duration of a sound clip information
@@ -6320,7 +6391,7 @@ SearchResult_Info,{0} at line {1}: \t{2},{0} at line {1}: \t{2},,search result i
 SearchResult_Info_GMLVisual,{0} at action '{1}': \t{2},{0} at action '{1}': \t{2},,GML Visual search result information
 UserLogin_ManageDevices,My Account,My Account,,ok button caption for too many devices error
 UserLogin_CommonInternetProblems,"If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker access.\nCheck any antivirus is not blocking GameMaker access.\nCheck any proxy or VPN is not blocking GameMaker access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2","If this is a persistent issue, please try the following:\nCheck any firewall is not blocking GameMaker access.\nCheck any antivirus is not blocking GameMaker access.\nCheck any proxy or VPN is not blocking GameMaker access.\nAnd if all else fails, submit a help ticket and include your ui.log which can be found:\nOn Mac - /Users/Shared/GameMakerStudio2\nOn PC - C:\ProgramData\GameMakerStudio2",,Common steps to try for internet connection failures
-RSS_Download_Exception,Could not reach the RSS feed,Could not reach the RSS feed,,A message which is shown when the RSS feed is not accessible
+RSS_Download_Exception,Could not reach the RSS feed: {0},Could not reach the RSS feed: {0},,A message which is shown when the RSS feed is not accessible
 Amazon Fire,Amazon Fire,Amazon Fire,,Amazon Fire label
 addon_amazon_apis,Amazon APIs,Amazon APIs,,Amazon APIs label for addon download
 addon_google_play_services,Google Play Services,Google Play Services,,Google play services label for addon download
@@ -6353,6 +6424,7 @@ FileFilter_AssetPackage,GameMaker Asset Package,GameMaker Asset Package,,yymp fi
 FileFilter_TemplateProject,GameMaker Project Template,GameMaker Project Template,,template project filter
 FileFilter_AndroidCreateExeMessage,Save as .aab or .apk,Save as .aab or .apk,,Save as .aab or .apk
 tvOS,tvOS,tvOS,,tvOS label for game options
+Cronus,Cronus,Cronus,,Cronus label for game options
 amazonfire_nodevices_title,No Amazon devices detected,No Amazon devices detected,,No Amazon devices detected title
 amazonfire_nodevices_messages,There were no Amazon Fire devices detected.,There were no Amazon Fire devices detected.,,No Amazon devices detected message
 device_manager_error,Device Manager Error,Device Manager Error,,Error message title for Device Manager
@@ -7253,7 +7325,8 @@ exception_privacy_policy_caption,"Privacy Policy","Privacy Policy",,exception pr
 exception_form_version,"crash-0.2","crash-0.2",,exception form version
 exception_upload_caption,"Upload Status","Upload Status",,exception form confirmation box caption
 exception_upload_confirmation,"Upload Successful.","Upload Successful.",,exception form confirmation box message
-exception_legal_blurb2,"Our Privacy Policy and Cookie Policy governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at datacontroller@yoyogames.com","Our Privacy Policy and Cookie Policy governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at datacontroller@yoyogames.com",,placeholder crash dialog text
+exception_legal_blurb_new,"Our <a href="https://www.yoyogames.com/legal/privacy">Privacy Policy</a> and <a href="https://www.yoyogames.com/legal/cookies">Cookie Policy</a> governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at <a href="mailto:datacontroller@yoyogames.com">datacontroller@yoyogames.com</a>","Our <a href="https://www.yoyogames.com/legal/privacy">Privacy Policy</a> and <a href="https://www.yoyogames.com/legal/cookies">Cookie Policy</a> governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at <a href="mailto:datacontroller@yoyogames.com">datacontroller@yoyogames.com</a>",,exception legal blurb
+exception_default_story,Please enter a description of the problem here,Please enter a description of the problem here,,exception story default text
 Project_OldFormat_Title,Old Project Format,Old Project Format,,Old Project Format
 Project_OldFormat_Message,Project was created in an older IDE which may have format changes,Project was created in an older IDE which may have format changes,,Project was created in an older IDE which may have format changes
 ImportFromYY_Title,Importing Resources,Importing Resources,,Importing Resources Title
@@ -7366,8 +7439,139 @@ Feather Settings,Feather Settings,Feather Settings,,Feather Settings preference 
 Highlighting,Highlighting,Highlighting,,Highlighting preference group heading
 Message Severity,Message Severity,Message Severity,,Message Severity group heading
 Naming Rules,Naming Rules,Naming Rules,,Naming Rules group heading
+Feather_Enabled,Enable Feather,Enable Feather,,Enable Feather
+Feather_Delay,Document Parse Delay (ms),Document Parse Delay (ms),,Delay before feather picks up problems
+Feather_Tooltip,Compact Tooltips. Disables certain tooltip information such as parameter descriptions.,Compact Tooltips. Disables certain tooltip information such as parameter descriptions.,,Use compact tooltips for feather
+Feather_TooltipLength,The maximum number of struct fields that are displayed by tooltips.,The maximum number of struct fields that are displayed by tooltips.,,The maximum number of struct fields that are displayed by tooltips
+Feather_Rename,Refactor references to asset name when asset is renamed in Asset Browser.,Refactor references to asset name when asset is renamed in Asset Browser.,,Refactor references to asset name when asset is renamed in Asset Browser.
+Feather_JsDocStyle,Prefer multiline jsdoc comment style when creating from Quick Fix.,Prefer multiline jsdoc comment style when creating from Quick Fix.,,Prefer multiline jsdoc comment style when creating from Quick Fix.
+Feather_StrictTypes,Enable Strict Type mode.,Enable Strict Type mode.,,Enable Strict Type mode.
 Feather_NameBlocklist,Identifier Blocklist,Identifier Blocklist,,Identifier Blocklist
 Feather_GM2017Help,GM2017 Message Severity must not be set to Ignore for these to take effect,GM2017 Message Severity must not be set to Ignore for these to take effect,,GM2017 Message Severity must not be set to Ignore for these to take effect
+Feather_Profile,Profile,Profile,,Feather profile type setting
+Feather_GM1000,GM1000 - No enclosing loop from which to break.,GM1000 - No enclosing loop from which to break.,,Feather rule
+Feather_GM1001,GM1001 - No enclosing loop from which to continue.,GM1001 - No enclosing loop from which to continue.,,Feather rule
+Feather_GM1002,GM1002 - globalvar does not support inline initializers.,GM1002 - globalvar does not support inline initializers.,,Feather rule
+Feather_GM1003,GM1003 - Enum assignment must be integer assignment.,GM1003 - Enum assignment must be integer assignment.,,Feather rule
+Feather_GM1004,GM1004 - The enum value '{0}' has already been previously defined in the enum '{1}'.,GM1004 - The enum value '{0}' has already been previously defined in the enum '{1}'.,,Feather rule
+Feather_GM1005,GM1005 - Argument must be provided.,GM1005 - Argument must be provided.,,Feather rule
+Feather_GM1006,GM1006 - The enum '{0}' has already been previously declared.,GM1006 - The enum '{0}' has already been previously declared.,,Feather rule
+Feather_GM1007,GM1007 - Left-hand side of an assignment must be a variable.,GM1007 - Left-hand side of an assignment must be a variable.,,Feather rule
+Feather_GM1008,GM1008 - The variable '{0}' is readonly and cannot be assigned to.,GM1008 - The variable '{0}' is readonly and cannot be assigned to.,,Feather rule
+Feather_GM1009,GM1009 - Operation {2} between types '{0}' and '{1}' may result in unexpected behavior or an error during runtime.,GM1009 - Operation {2} between types '{0}' and '{1}' may result in unexpected behavior or an error during runtime.,,Feather rule
+Feather_GM1010,GM1010 - Cannot perform {2} operation between types '{0}' and '{1}'.,GM1010 - Cannot perform {2} operation between types '{0}' and '{1}'.,,Feather rule
+Feather_GM1011,GM1011 - Implicit cast of type '{0}' to '{1}' may result in unexpected behavior or an error during runtime.,GM1011 - Implicit cast of type '{0}' to '{1}' may result in unexpected behavior or an error during runtime.,,Feather rule
+Feather_GM1012,GM1012 - Malformed variable addressing expression.,GM1012 - Malformed variable addressing expression.,,Feather rule
+Feather_GM1013,GM1013 - Reference to variable '{0}' which has not been previously declared in '{1}'.,GM1013 - Reference to variable '{0}' which has not been previously declared in '{1}'.,,Feather rule
+Feather_GM1014,GM1014 - The enum '{0}' does not contain the value '{1}'.,GM1014 - The enum '{0}' does not contain the value '{1}'.,,Feather rule
+Feather_GM1015,GM1015 - Cannot divide or modulo expression by 0.,GM1015 - Cannot divide or modulo expression by 0.,,Feather rule
+Feather_GM1016,GM1016 - A boolean literal was unexpected at this time.,GM1016 - A boolean literal was unexpected at this time.,,Feather rule
+Feather_GM1017,GM1017 - The function '{0}' is deprecated and usage is discouraged.,GM1017 - The function '{0}' is deprecated and usage is discouraged.,,Feather rule
+Feather_GM1019,GM1019 - The function '{0}' takes no more than {1} arguments but {2} are provided.,GM1019 - The function '{0}' takes no more than {1} arguments but {2} are provided.,,Feather rule
+Feather_GM1020,GM1020 - The function '{0}' takes no less than {1} arguments but {2} are provided.,GM1020 - The function '{0}' takes no less than {1} arguments but {2} are provided.,,Feather rule
+Feather_GM1021,GM1021 - The function or script '{0}' does not exist.,GM1021 - The function or script '{0}' does not exist.,,Feather rule
+Feather_GM1022,GM1022 - An assignment was expected at this time.,GM1022 - An assignment was expected at this time.,,Feather rule
+Feather_GM1023,GM1023 - The constant '{0}' is deprecated and usage is discouraged.,GM1023 - The constant '{0}' is deprecated and usage is discouraged.,,Feather rule
+Feather_GM1024,GM1024 - The built-in variable '{0}' is deprecated and usage is discouraged.,GM1024 - The built-in variable '{0}' is deprecated and usage is discouraged.,,Feather rule
+Feather_GM1025,GM1025 - A number literal was unexpected at this time.,GM1025 - A number literal was unexpected at this time.,,Feather rule
+Feather_GM1026,GM1026 - Left-hand side of postfix expression must be a variable.,GM1026 - Left-hand side of postfix expression must be a variable.,,Feather rule
+Feather_GM1027,GM1027 - A string literal was unexpected at this time.,GM1027 - A string literal was unexpected at this time.,,Feather rule
+Feather_GM1028,GM1028 - Accessor is intended for type of '{0}' but '{1}' appears instead.,GM1028 - Accessor is intended for type of '{0}' but '{1}' appears instead.,,Feather rule
+Feather_GM1029,GM1029 - Potentially dangerous or unintended implicit cast from '{0}' to '{1}'.,GM1029 - Potentially dangerous or unintended implicit cast from '{0}' to '{1}'.,,Feather rule
+Feather_GM1030,GM1030 - The identifier '{0}' is reserved and cannot be used as a variable name.,GM1030 - The identifier '{0}' is reserved and cannot be used as a variable name.,,Feather rule
+Feather_GM1031,GM1031 - The name '{0}' is an asset or constant and cannot be assigned to.,GM1031 - The name '{0}' is an asset or constant and cannot be assigned to.,,Feather rule
+Feather_GM1032,GM1032 - No references to arguments {0} but references argument {1},GM1032 - No references to arguments {0} but references argument {1},,Feather rule
+Feather_GM1033,GM1033 - Possibly unintended or misplaced semicolon.,GM1033 - Possibly unintended or misplaced semicolon.,,Feather rule
+Feather_GM1034,GM1034 - Argument cannot be referenced outside of script or function.,GM1034 - Argument cannot be referenced outside of script or function.,,Feather rule
+Feather_GM1035,GM1035 - Return type differs from previously established return type.,GM1035 - Return type differs from previously established return type.,,Feather rule
+Feather_GM1036,GM1036 - Array cannot be indexed in this way.,GM1036 - Array cannot be indexed in this way.,,Feather rule
+Feather_GM1038,GM1038 - Macro with this name has been previously declared.,GM1038 - Macro with this name has been previously declared.,,Feather rule
+Feather_GM1040,GM1040 - argument# and argument[#] referencing cannot be mixed.,GM1040 - argument# and argument[#] referencing cannot be mixed.,,Feather rule
+Feather_GM1041,GM1041 - The type '{1}' appears where the type '{0}' is expected.,GM1041 - The type '{1}' appears where the type '{0}' is expected.,,Feather rule
+Feather_GM1042,GM1042 - Parameter name '{0}' differs from '{1}' specified in jsdoc.,GM1042 - Parameter name '{0}' differs from '{1}' specified in jsdoc.,,Feather rule
+Feather_GM1043,GM1043 - Potentially unintentional type reassignment from '{0}' to '{1}'.,GM1043 - Potentially unintentional type reassignment from '{0}' to '{1}'.,,Feather rule
+Feather_GM1044,GM1044 - Constant is expected to be one of the following: {0},GM1044 - Constant is expected to be one of the following: {0},,Feather rule
+Feather_GM1045,GM1045 - Type '{0}' differs from type '{1}' specified in jsdoc.,GM1045 - Type '{0}' differs from type '{1}' specified in jsdoc.,,Feather rule
+Feather_GM1046,GM1046 - Reference to non-existent '{0}': '{1}'.,GM1046 - Reference to non-existent '{0}': '{1}'.,,Feather rule
+Feather_GM1048,GM1048 - The keyword 'other' does not resolve to anything in this scope and cannot be used.,GM1048 - The keyword 'other' does not resolve to anything in this scope and cannot be used.,,Feather rule
+Feather_GM1049,GM1049 - This identifier cannot be captured in this context.,GM1049 - This identifier cannot be captured in this context.,,Feather rule
+Feather_GM1050,GM1050 - The identifier '{0}' is declared as a local variable and cannot be accessed in this way.,GM1050 - The identifier '{0}' is declared as a local variable and cannot be accessed in this way.,,Feather rule
+Feather_GM1051,GM1051 - Macro expressions should not be terminated with a ';' semicolon.,GM1051 - Macro expressions should not be terminated with a ';' semicolon.,,Feather rule
+Feather_GM1052,GM1052 - The delete operator can only act on a variable of type 'struct'.,GM1052 - The delete operator can only act on a variable of type 'struct'.,,Feather rule
+Feather_GM1054,GM1054 - Cannot inherit from non-existent function '{0}'.,GM1054 - Cannot inherit from non-existent function '{0}'.,,Feather rule
+Feather_GM1055,GM1055 - Cannot mix argument# and named parameters.,GM1055 - Cannot mix argument# and named parameters.,,Feather rule
+Feather_GM1056,GM1056 - Bad practice to declare non-optional parameter after an optional parameter.,GM1056 - Bad practice to declare non-optional parameter after an optional parameter.,,Feather rule
+Feather_GM1057,GM1057 - Cannot inherit due to cyclic reference.,GM1057 - Cannot inherit due to cyclic reference.,,Feather rule
+Feather_GM1058,GM1058 - Cannot 'new' the identifier '{0}' as it is not a constructor function.,GM1058 - Cannot 'new' the identifier '{0}' as it is not a constructor function.,,Feather rule
+Feather_GM1059,GM1059 - The parameter '{0}' has been previously declared.,GM1059 - The parameter '{0}' has been previously declared.,,Feather rule
+Feather_GM1060,GM1060 - Dangerous call to variable of type '{0}'.,GM1060 - Dangerous call to variable of type '{0}'.,,Feather rule
+Feather_GM1062,GM1062 - Malformed type '{0}' in jsdoc.,GM1062 - Malformed type '{0}' in jsdoc.,,Feather rule
+Feather_GM1063,GM1063 - Ternary may yield differing types '{0}' and '{1}'.,GM1063 - Ternary may yield differing types '{0}' and '{1}'.,,Feather rule
+Feather_GM1100,GM1100 - Syntax Error,GM1100 - Syntax Error,,Feather rule
+Feather_GM2000,GM2000 - Not all code paths call draw_set_blend_mode(bm_normal) before the end of the script.,GM2000 - Not all code paths call draw_set_blend_mode(bm_normal) before the end of the script.,,Feather rule
+Feather_GM2001,"GM2001 - Floating point comparison on integer division, use the '/' operator instead.","GM2001 - Floating point comparison on integer division, use the '/' operator instead.",,Feather rule
+Feather_GM2002,"GM2002 - The function '{0}' is slow, consider alternatives.","GM2002 - The function '{0}' is slow, consider alternatives.",,Feather rule
+Feather_GM2003,GM2003 - Not all code paths call shader_reset() before end of script.,GM2003 - Not all code paths call shader_reset() before end of script.,,Feather rule
+Feather_GM2004,GM2004 - This for statement does not use its index and can be written as a repeat statement instead.,GM2004 - This for statement does not use its index and can be written as a repeat statement instead.,,Feather rule
+Feather_GM2005,GM2005 - Not all code paths call surface_reset_target() before end of script.,GM2005 - Not all code paths call surface_reset_target() before end of script.,,Feather rule
+Feather_GM2006,GM2006 - The draw function '{0}' is potentially called outside of a valid context.,GM2006 - The draw function '{0}' is potentially called outside of a valid context.,,Feather rule
+Feather_GM2007,GM2007 - var expression should be terminated with a ';' (semicolon.),GM2007 - var expression should be terminated with a ';' (semicolon.),,Feather rule
+Feather_GM2008,GM2008 - Opening another vertex batch before closing a previous vertex batch.,GM2008 - Opening another vertex batch before closing a previous vertex batch.,,Feather rule
+Feather_GM2009,GM2009 - Closing a vertex batch without opening a vertex batch.,GM2009 - Closing a vertex batch without opening a vertex batch.,,Feather rule
+Feather_GM2010,GM2010 - The function '{0}' cannot be called outside of a vertex_begin()/vertex_end() block.,GM2010 - The function '{0}' cannot be called outside of a vertex_begin()/vertex_end() block.,,Feather rule
+Feather_GM2011,GM2011 - Not all code paths call vertex_end() before the end of the script.,GM2011 - Not all code paths call vertex_end() before the end of the script.,,Feather rule
+Feather_GM2012,GM2012 - Opening another vertex format before closing a previous vertex format.,GM2012 - Opening another vertex format before closing a previous vertex format.,,Feather rule
+Feather_GM2013,GM2013 - Closing a vertex format without opening a vertex format.,GM2013 - Closing a vertex format without opening a vertex format.,,Feather rule
+Feather_GM2014,GM2014 - The function '{0}' cannot be called outside of a vertex_format_begin()/vertex_format_end() block.,GM2014 - The function '{0}' cannot be called outside of a vertex_format_begin()/vertex_format_end() block.,,Feather rule
+Feather_GM2015,GM2015 - Not all code paths call vertex_format_end() before the end of the script.,GM2015 - Not all code paths call vertex_format_end() before the end of the script.,,Feather rule
+Feather_GM2016,"GM2016 - Instance variable '{0}' declared outside of Create event, declare with 'var' or move to Create event.","GM2016 - Instance variable '{0}' declared outside of Create event, declare with 'var' or move to Create event.",,Feather rule
+Feather_GM2017,GM2017 - Inconsistent naming. Recommended name is '{0}'.,GM2017 - Inconsistent naming. Recommended name is '{0}'.,,Feather rule
+Feather_GM2018,GM2018 - Potentially dangerous variable declaration.,GM2018 - Potentially dangerous variable declaration.,,Feather rule
+Feather_GM2019,GM2019 - Not all code paths call draw_set_valign(fa_top) before the end of the script.,GM2019 - Not all code paths call draw_set_valign(fa_top) before the end of the script.,,Feather rule
+Feather_GM2020,GM2020 - all cannot be referenced in this way.,GM2020 - all cannot be referenced in this way.,,Feather rule
+Feather_GM2021,GM2021 - global cannot be referenced in this way.,GM2021 - global cannot be referenced in this way.,,Feather rule
+Feather_GM2022,GM2022 - Return value of a pure function is not being used.,GM2022 - Return value of a pure function is not being used.,,Feather rule
+Feather_GM2023,GM2023 - Evaluation order of function calls in argument list not guaranteed between platforms.,GM2023 - Evaluation order of function calls in argument list not guaranteed between platforms.,,Feather rule
+Feather_GM2025,GM2025 - Reference to non-existent event '{0}'.,GM2025 - Reference to non-existent event '{0}'.,,Feather rule
+Feather_GM2026,GM2026 - Not all code paths call draw_set_halign(fa_left) before the end of the script.,GM2026 - Not all code paths call draw_set_halign(fa_left) before the end of the script.,,Feather rule
+Feather_GM2027,GM2027 - Opening another primitive before closing a previous primitive.,GM2027 - Opening another primitive before closing a previous primitive.,,Feather rule
+Feather_GM2028,GM2028 - Closing a primitive without opening a primitive.,GM2028 - Closing a primitive without opening a primitive.,,Feather rule
+Feather_GM2029,GM2029 - The function '{0}' cannot be called outside of a draw_primitive_begin()/draw_primitive_end() block.,GM2029 - The function '{0}' cannot be called outside of a draw_primitive_begin()/draw_primitive_end() block.,,Feather rule
+Feather_GM2030,GM2030 - Not all code paths call draw_primitive_end() before the end of the script.,GM2030 - Not all code paths call draw_primitive_end() before the end of the script.,,Feather rule
+Feather_GM2031,GM2031 - Opening another File Find before closing a previous File Find.,GM2031 - Opening another File Find before closing a previous File Find.,,Feather rule
+Feather_GM2032,GM2032 - Closing a File Find without opening a File Find.,GM2032 - Closing a File Find without opening a File Find.,,Feather rule
+Feather_GM2033,GM2033 - The function '{0}' cannot be called outside of a file_find_first()/file_find_close() block.,GM2033 - The function '{0}' cannot be called outside of a file_find_first()/file_find_close() block.,,Feather rule
+Feather_GM2034,GM2034 - Not all code paths call file_find_close() before the end of the script.,GM2034 - Not all code paths call file_find_close() before the end of the script.,,Feather rule
+Feather_GM2035,GM2035 - Not all code paths call gpu_pop_state() before end of script.,GM2035 - Not all code paths call gpu_pop_state() before end of script.,,Feather rule
+Feather_GM2036,GM2036 - Allocated resource not released.,GM2036 - Allocated resource not released.,,Feather rule
+Feather_GM2037,GM2037 - Dangerous resource allocation. {0},GM2037 - Dangerous resource allocation. {0},,Feather rule
+Feather_GM2038,GM2038 - Modifications to array not visible outside of script.,GM2038 - Modifications to array not visible outside of script.,,Feather rule
+Feather_GM2039,GM2039 - Call to execute a global script resource like a function is deprecated.,GM2039 - Call to execute a global script resource like a function is deprecated.,,Feather rule
+Feather_GM2040,GM2040 - Call to event_inherited() in object with no parent event.,GM2040 - Call to event_inherited() in object with no parent event.,,Feather rule
+Feather_GM2041,GM2041 - Not all code paths call gpu_push_state() before end of script.,GM2041 - Not all code paths call gpu_push_state() before end of script.,,Feather rule
+Feather_GM2042,GM2042 - Inconsistent stack depth for gpu_push_state()/gpu_pop_state() blocks. All branches should call these functions an equal number of times.,GM2042 - Inconsistent stack depth for gpu_push_state()/gpu_pop_state() blocks. All branches should call these functions an equal number of times.,,Feather rule
+Feather_GM2043,GM2043 - Attempting to access the local variable '{0}' outside of the scope it was defined in.,GM2043 - Attempting to access the local variable '{0}' outside of the scope it was defined in.,,Feather rule
+Feather_GM2044,GM2044 - Local variable '{0}' is already declared.,GM2044 - Local variable '{0}' is already declared.,,Feather rule
+Feather_GM2045,GM2045 - Local variable '{0}' is unset before reading it.,GM2045 - Local variable '{0}' is unset before reading it.,,Feather rule
+Feather_GM2046,GM2046 - Inconsistent stack depth for surface_set_target()/surface_reset_target() blocks. All branches should call these functions the same number of times.,GM2046 - Inconsistent stack depth for surface_set_target()/surface_reset_target() blocks. All branches should call these functions the same number of times.,,Feather rule
+Feather_GM2047,GM2047 - Unreachable code.,GM2047 - Unreachable code.,,Feather rule
+Feather_GM2048,GM2048 - Not all code paths call gpu_set_blendenable(true) before the end of the script.,GM2048 - Not all code paths call gpu_set_blendenable(true) before the end of the script.,,Feather rule
+Feather_GM2049,GM2049 - Not all code paths call gpu_set_zfunc(cmpfunc_lessequal) before the end of the script.,GM2049 - Not all code paths call gpu_set_zfunc(cmpfunc_lessequal) before the end of the script.,,Feather rule
+Feather_GM2050,"GM2050 - Not all code paths call gpu_set_fog(false, c_black, 0, 1) before the end of the script.","GM2050 - Not all code paths call gpu_set_fog(false, c_black, 0, 1) before the end of the script.",,Feather rule
+Feather_GM2051,GM2051 - Not all code paths call gpu_set_cullmode(cull_noculling) before the end of the script.,GM2051 - Not all code paths call gpu_set_cullmode(cull_noculling) before the end of the script.,,Feather rule
+Feather_GM2052,"GM2052 - Not all code paths call gpu_set_colourwriteenable(true, true, true, true) before the end of the script.","GM2052 - Not all code paths call gpu_set_colourwriteenable(true, true, true, true) before the end of the script.",,Feather rule
+Feather_GM2053,GM2053 - Not all code paths call gpu_set_alphatestenable(false) before the end of the script.,GM2053 - Not all code paths call gpu_set_alphatestenable(false) before the end of the script.,,Feather rule
+Feather_GM2054,GM2054 - Not all code paths call gpu_set_alphatestref(0) before the end of the script.,GM2054 - Not all code paths call gpu_set_alphatestref(0) before the end of the script.,,Feather rule
+Feather_GM2055,GM2055 - Not all code paths call gpu_set_texfilter(false) before the end of the script.,GM2055 - Not all code paths call gpu_set_texfilter(false) before the end of the script.,,Feather rule
+Feather_GM2056,GM2056 - Not all code paths call gpu_set_texrepeat(false) before the end of the script.,GM2056 - Not all code paths call gpu_set_texrepeat(false) before the end of the script.,,Feather rule
+Feather_GM2057,GM2057 - Allocated resource is never destroyed before the end of the script.,GM2057 - Allocated resource is never destroyed before the end of the script.,,Feather rule
+Feather_GM2058,GM2058 - This assignment potentially introduces a memory leak.,GM2058 - This assignment potentially introduces a memory leak.,,Feather rule
+Feather_GM2059,GM2059 - Attempting to deallocate a resource after it has already been deallocated.,GM2059 - Attempting to deallocate a resource after it has already been deallocated.,,Feather rule
+Feather_GM2060,GM2060 - Potentially dangerous resource deallocation. You may be trying to destroy a resource that is not yet fully initialised.,GM2060 - Potentially dangerous resource deallocation. You may be trying to destroy a resource that is not yet fully initialised.,,Feather rule
+Feather_GM2061,GM2061 - Opportunity to use nullish coalesce operator.,GM2061 - Opportunity to use nullish coalesce operator.,,Feather rule
+Feather_GM2062,GM2062 - Not all code paths call draw_set_colour(c_white) before the end of the script.,GM2062 - Not all code paths call draw_set_colour(c_white) before the end of the script.,,Feather rule
+Feather_GM2063,GM2063 - Not all code paths call draw_set_alpha(1) before the end of the script.,GM2063 - Not all code paths call draw_set_alpha(1) before the end of the script.,,Feather rule
+Feather_GM2064,GM2064 - Variable '{0}' does not exist in object's Variable Definitions.,GM2064 - Variable '{0}' does not exist in object's Variable Definitions.,,Feather rule
 Feather_NamingStyle,Naming Style,Naming Style,,Naming Style
 Feather_NamingPrefix,Prefix,Prefix,,Prefix
 Feather_NamingSuffix,Suffix,Suffix,,Suffix
@@ -7398,9 +7602,9 @@ AnimationCurveNameRule,Animation Curve Naming Rule,Animation Curve Naming Rule,,
 FunctionNameRule,Function Naming Rule,Function Naming Rule,,Function Naming Rule
 ConstructorFunctionNameRule,Constructor Function Naming Rule,Constructor Function Naming Rule,,Constructor Function Naming Rule
 OtherResourceNameRule,Other Resource Naming Rule,Other Resource Naming Rule,,Other Resource Naming Rule
-ErrorColor,Error Colour,Error Colour,,Error Colour
-WarningColor,Warning Colour,Warning Colour,,Warning Colour
-SuggestionColor,Suggestion Colour,Suggestion Colour,,Suggestion Colour
+Feather_ErrorColour,Error Colour,Error Colour,,Error Colour
+Feather_WarningColour,Warning Colour,Warning Colour,,Warning Colour
+Feather_SuggestionColour,Suggestion Colour,Suggestion Colour,,Suggestion Colour
 ProjectLoad_ReadOnly_Message,This Project has been loaded in Read-Only mode,This Project has been loaded in Read-Only mode,,Message to say that the project has been loaded as read-only
 Project_ReadOnly_SeeURL,Click here for a HelpDesk article with more information,Click here for a HelpDesk article with more information,,Message to tell the user to see a linked helpdesk article
 ScriptType_Title,Scripting Preference,Scripting Preference,,script preference dialog title
@@ -8166,4 +8370,32 @@ GMStdAddMotion_Name,Add Motion,Add Motion,,GMLV action name
 GMStdAddMotion_Desc,Accelerate the instance in a direction.,Accelerate the instance in a direction.,,GMLV action description
 GMStdAddMotion_Story_1,Add ${dir} to this instance's direction and ${speed} to its speed,Add ${dir} to this instance's direction and ${speed} to its speed,,GMLV story text
 GMStdAddMotion_Story_2,Add ${dir} to ${applyto}'s direction and ${speed} to its speed,Add ${dir} to ${applyto}'s direction and ${speed} to its speed,,GMLV story text
+Prod,Prod,Prod,,Localization of enumeration EnvironmentType
+Sandbox,Sandbox,Sandbox,,Localization of enumeration EnvironmentType
+Stage,Stage,Stage,,Localization of enumeration EnvironmentType
+Test,Test,Test,,Localization of enumeration EnvironmentType
+Local,Local,Local,,Localization of enumeration EnvironmentType
+Environment,Opera GX Environment,Opera GX Environment,,Category name
+opera_env_environment,Environment,Environment,,Preference name
+opera_env_path,Path to Environments,Path to Environments,,Preference name
+opera_env_valid_settings_message,"The IDE needs restarting to apply the settings. Restart now?","The IDE needs restarting to apply the settings. Restart now?",,Warning on changing the environments settings
+opera_env_invalid_settings_message,"The settings are not valid. Restart anyway to apply the settings?","The settings are not valid. Restart anyway to apply the settings?",,Warning on changing the environments settings
+opera_env_logout_warning,"You are signed-in via SSO. You will be signed-out on the next start of Game Maker","You are signed-in via SSO. You will be signed-out on the next start of Game Maker",,Warning on changing the environments settings
+opera_env_switch_failed_message,"Failed to switch to the custom OperaGX environment: {0}. Environment preferences were reset to default","Failed to switch to the custom OperaGX environment: {0}. Environment preferences were reset to default",,Warning shown when the environment switch on starting the IDE has failed
+opera_env_sso_confirm,"You are using a custom environment for Opera GX settings. If you use Opera Single Sign-on, these settings will be overriden. Do you wish to proceed anyway?","You are using a custom environment for Opera GX settings. If you use Opera Single Sign-on, these settings will be overriden. Do you wish to proceed anyway?",,Warning shown when a user tries to log-in via Opera SSO with a custom environment
+opera_env_current_env,Current environment: {0},Current environment: {0},,Label to indicate the current environment
+opera_env_prohibited_env,Your account does not have permissions to use the current Opera GX environment. Falling back on Prod. The IDE will be restared.,Your account does not have permissions to use the current Opera GX environment. Falling back on Prod. The IDE will be restared.,,This warning is shown when a user's account doesn't have permissions to use some environments (e.g. Prod) but this environment was saved in the preferences before
+RedefineKeys_create_resource_GMIncludedFile,Open Included files,Open Included files,,Open Included files
+RedefineKeys__AutoTileTool,Auto Tile tool,Auto Tile tool,,Auto Tile tool
+RedefineKeys__TileEraserTool,Tile Eraser tool,Tile Eraser tool,,Tile Eraser tool
+RedefineKeys__TileFillTool,Tile Fill tool,Tile Fill tool,,Tile Fill tool
+RedefineKeys__TileInheritanceTool,Tile Inheritance tool,Tile Inheritance tool,,Tile Inheritance tool
+RedefineKeys__TileLineTool,Tile Line tool,Tile Line tool,,Tile Line tool
+RedefineKeys__TilePenTool,Tile Pen tool,Tile Pen tool,,Tile Pen tool
+RedefineKeys__TileRectTool,Tile Rect tool,Tile Rect tool,,Tile Rect tool
+RedefineKeys__TileRotateTool,Tile Rotate tool,Tile Rotate tool,,Tile Rotate tool
+RedefineKeys__TileSelectionTool,Tile Selection tool,Tile Selection tool,,Tile Selection tool
+RedefineKeys_RoomEditor_PaintBrush,Paint Brush,Paint Brush,,Paint Brush
 RedefineKeys_GML Visual Pan To,Pan To,Pan To,,Pan to
+RedefineKeys_ColourPickerSubtool,Colour Picker subtool,Colour Picker subtool,,colour picker ctrl
+RedefineKeys_BrushScalerSubtool,Brush Scaler subtool,Brush Scaler subtool,,brush scaler
