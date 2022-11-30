@@ -39445,16 +39445,216 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>GM1017 - The function '{0}' is deprecated and usage is discouraged.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095352Z" creationid="LiarOnce" creationdate="20221130T095352Z">
-        <seg>GM1017 - 已被弃用或未来将被弃用的函数 ‘{0}’，不建议使用。</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095518Z" creationid="LiarOnce" creationdate="20221130T095352Z">
+        <seg>GM1017 - 函数 ‘{0}’ 已弃用，不建议使用。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>GM1019 - The function '{0}' takes no more than {1} arguments but {2} are provided.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095406Z" creationid="LiarOnce" creationdate="20221130T095406Z">
-        <seg>GM1019 - 函数 ‘{0}’ 接受的参数不超过 {1} 个，但提供了 {2} 个。</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095434Z" creationid="LiarOnce" creationdate="20221130T095406Z">
+        <seg>GM1019 - 函数 ‘{0}’ 接受不超过 {1} 个参数，但提供了 {2} 个参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1020 - The function '{0}' takes no less than {1} arguments but {2} are provided.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095418Z" creationid="LiarOnce" creationdate="20221130T095418Z">
+        <seg>GM1020 - 函数 ‘{0}’ 接受不少于 {1} 个参数，但提供了 {2} 个参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1021 - The function or script '{0}' does not exist.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095443Z" creationid="LiarOnce" creationdate="20221130T095443Z">
+        <seg>GM1021 - 函数或脚本 ‘{0}’ 不存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1022 - An assignment was expected at this time.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095448Z" creationid="LiarOnce" creationdate="20221130T095448Z">
+        <seg>GM1022 - 此时预计会有一项任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1023 - The constant '{0}' is deprecated and usage is discouraged.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095455Z" creationid="LiarOnce" creationdate="20221130T095455Z">
+        <seg>GM1023 - 常量 ‘{0}’ 已弃用，不建议使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1024 - The built-in variable '{0}' is deprecated and usage is discouraged.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095527Z" creationid="LiarOnce" creationdate="20221130T095527Z">
+        <seg>GM1024 - 内置变量 ‘{0}’ 已弃用，不建议使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1025 - A number literal was unexpected at this time.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095531Z" creationid="LiarOnce" creationdate="20221130T095531Z">
+        <seg>GM1025 - 此时出现意外的数字文字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1026 - Left-hand side of postfix expression must be a variable.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095535Z" creationid="LiarOnce" creationdate="20221130T095535Z">
+        <seg>GM1026 - 后缀表达式的左侧必须是变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1027 - A string literal was unexpected at this time.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095539Z" creationid="LiarOnce" creationdate="20221130T095539Z">
+        <seg>GM1027 - 此时出现意外的字符串文字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1028 - Accessor is intended for type of '{0}' but '{1}' appears instead.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095548Z" creationid="LiarOnce" creationdate="20221130T095548Z">
+        <seg>GM1028 - 存取器应用于 ‘{0}’ 类型，但显示为 ‘{1}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1029 - Potentially dangerous or unintended implicit cast from '{0}' to '{1}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095610Z" creationid="LiarOnce" creationdate="20221130T095610Z">
+        <seg>GM1029 - 从 ‘{0}’ 到 ‘{1}’ 可能存在危险或意外的隐式强制转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1030 - The identifier '{0}' is reserved and cannot be used as a variable name.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095627Z" creationid="LiarOnce" creationdate="20221130T095627Z">
+        <seg>GM1030 - ‘{0}’ 标识符为保留状态，不能用作变量名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1031 - The name '{0}' is an asset or constant and cannot be assigned to.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095647Z" creationid="LiarOnce" creationdate="20221130T095647Z">
+        <seg>GM1031 - 名称 ‘{0}’ 是资源或常量，不能赋值给它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1032 - No references to arguments {0} but references argument {1}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095654Z" creationid="LiarOnce" creationdate="20221130T095654Z">
+        <seg>GM1032 - 未引用参数 {0}，但引用了参数 {1}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1033 - Possibly unintended or misplaced semicolon.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095657Z" creationid="LiarOnce" creationdate="20221130T095657Z">
+        <seg>GM1033 - 可能是无意的或放错了分号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1034 - Argument cannot be referenced outside of script or function.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095700Z" creationid="LiarOnce" creationdate="20221130T095700Z">
+        <seg>GM1034 - 不能在脚本或函数外部引用参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1035 - Return type differs from previously established return type.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095706Z" creationid="LiarOnce" creationdate="20221130T095706Z">
+        <seg>GM1035 - 返回类型与之前建立的返回类型不同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1036 - Array cannot be indexed in this way.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095711Z" creationid="LiarOnce" creationdate="20221130T095711Z">
+        <seg>GM1036 - 数组不能以这种方式编制索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1038 - Macro with this name has been previously declared.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095714Z" creationid="LiarOnce" creationdate="20221130T095714Z">
+        <seg>GM1038 - 之前已声明具有此名称的宏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1040 - argument# and argument[#] referencing cannot be mixed.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095733Z" creationid="LiarOnce" creationdate="20221130T095733Z">
+        <seg>GM1040 - argument# 和 argument[#] 引用不能混合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1041 - The type '{1}' appears where the type '{0}' is expected.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095741Z" creationid="LiarOnce" creationdate="20221130T095741Z">
+        <seg>GM1041 - 在应为类型 “{0}” 的位置显示类型 “{1}”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1042 - Parameter name '{0}' differs from '{1}' specified in jsdoc.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095753Z" creationid="LiarOnce" creationdate="20221130T095753Z">
+        <seg>GM1042 - 参数名称 ‘{0}’ 不同于在 jsdoc 中指定的 ‘{1}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1043 - Potentially unintentional type reassignment from '{0}' to '{1}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095817Z" creationid="LiarOnce" creationdate="20221130T095817Z">
+        <seg>GM1043 - 可能无意中将类型从 ‘{0}’ 重新分配到 ‘{1}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1044 - Constant is expected to be one of the following: {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095822Z" creationid="LiarOnce" creationdate="20221130T095822Z">
+        <seg>GM1044 - 常量应为以下值之一：{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1045 - Type '{0}' differs from type '{1}' specified in jsdoc.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095834Z" creationid="LiarOnce" creationdate="20221130T095834Z">
+        <seg>GM1045 - 类型 ‘{0}’ 不同于在 jsdoc 中指定的类型 ‘{1}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1046 - Reference to non-existent '{0}': '{1}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T100245Z" creationid="LiarOnce" creationdate="20221130T100245Z">
+        <seg>GM1046 - 对不存在的 ‘{0}’ 的引用：‘{1}’。</seg>
       </tuv>
     </tu>
     <tu>
