@@ -39659,6 +39659,86 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GM1048 - The keyword 'other' does not resolve to anything in this scope and cannot be used.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T100307Z" creationid="LiarOnce" creationdate="20221130T100307Z">
+        <seg>GM1048 - 关键字 ‘other’ 不能解析为此作用域中的任何内容，因此不能使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1049 - This identifier cannot be captured in this context.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T100311Z" creationid="LiarOnce" creationdate="20221130T100311Z">
+        <seg>GM1049 - 无法在此上下文中捕获此标识符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1050 - The identifier '{0}' is declared as a local variable and cannot be accessed in this way.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T100332Z" creationid="LiarOnce" creationdate="20221130T100332Z">
+        <seg>GM1050 - 标识符 '{0}' 被声明为局部变量，不能以此方式访问。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1051 - Macro expressions should not be terminated with a ';' semicolon.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T100604Z" creationid="LiarOnce" creationdate="20221130T100604Z">
+        <seg>GM1051 - 宏表达式不应以分号 ';' 结尾。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1052 - The delete operator can only act on a variable of type 'struct'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T100620Z" creationid="LiarOnce" creationdate="20221130T100620Z">
+        <seg>GM1052 - delete 运算符只能作用于 ‘struct’ 类型的变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1054 - Cannot inherit from non-existent function '{0}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101533Z" creationid="LiarOnce" creationdate="20221130T101533Z">
+        <seg>GM1054 - 不能从不存在的函数 ‘{0}’ 继承。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1055 - Cannot mix argument# and named parameters.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101547Z" creationid="LiarOnce" creationdate="20221130T101547Z">
+        <seg>GM1055 - 不能混合 argument# 和命名参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1056 - Bad practice to declare non-optional parameter after an optional parameter.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101552Z" creationid="LiarOnce" creationdate="20221130T101552Z">
+        <seg>GM1056 - 在可选参数后声明非可选参数的错误做法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1057 - Cannot inherit due to cyclic reference.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101605Z" creationid="LiarOnce" creationdate="20221130T101605Z">
+        <seg>GM1057 - 由于循环引用，无法继承。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1058 - Cannot 'new' the identifier '{0}' as it is not a constructor function.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101622Z" creationid="LiarOnce" creationdate="20221130T101622Z">
+        <seg>GM1058 - 不能对标识符 ‘{0}’ 进行 ‘new’，因为它不是构造函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GM2017 Message Severity must not be set to Ignore for these to take effect</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055740Z" creationid="LiarOnce" creationdate="20220730T055740Z">
