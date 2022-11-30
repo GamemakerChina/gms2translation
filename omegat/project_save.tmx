@@ -4486,6 +4486,46 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"GM2001 - Floating point comparison on integer division, use the '/' operator instead."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101731Z" creationid="LiarOnce" creationdate="20221130T101731Z">
+        <seg>GM2001 - 整数除法上的浮点比较，请改用 ‘/’ 运算符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"GM2002 - The function '{0}' is slow, consider alternatives."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101739Z" creationid="LiarOnce" creationdate="20221130T101739Z">
+        <seg>“GM2002 - 函数 ‘{0}’ 速度较慢，请考虑其他方法。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"GM2016 - Instance variable '{0}' declared outside of Create event, declare with 'var' or move to Create event."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102023Z" creationid="LiarOnce" creationdate="20221130T102023Z">
+        <seg>“GM2016 - 在创建事件外部声明的实例变量 ‘{0}’，使用 ‘var’ 声明或移动到创建事件。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"GM2050 - Not all code paths call gpu_set_fog(false, c_black, 0, 1) before the end of the script."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102800Z" creationid="LiarOnce" creationdate="20221130T102800Z">
+        <seg>"GM2050-并非所有代码路径都在脚本结束前调用 gpu_set_fog(false, c_black, 0, 1)。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"GM2052 - Not all code paths call gpu_set_colourwriteenable(true, true, true, true) before the end of the script."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102831Z" creationid="LiarOnce" creationdate="20221130T102831Z">
+        <seg>"GM2052 - 并非所有代码路径都在脚本结束前调用 gpu_set_colourwriteenable(true, true, true, true)。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Gain"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220913T022347Z" creationid="LiarOnce" creationdate="20220913T022347Z">
@@ -15326,6 +15366,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"The IDE needs restarting to apply the settings.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103106Z" creationid="LiarOnce" creationdate="20221130T103106Z">
+        <seg>“IDE需要重新启动才能应用设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"The NX CPU Profiler can only be used on YYC builds.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134623Z" creationid="liaronce" creationdate="20210228T134623Z">
@@ -15418,6 +15466,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092359Z" creationid="liaronce" creationdate="20210228T114818Z">
         <seg>"所选层不接受拖动的资源，请选择合适的图层类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"The settings are not valid.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103113Z" creationid="LiarOnce" creationdate="20221130T103113Z">
+        <seg>“设置无效。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16322,6 +16378,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T102959Z">
         <seg>"您即将删除文件""{0}""。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"You are signed-in via SSO.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103117Z" creationid="LiarOnce" creationdate="20221130T103117Z">
+        <seg>“您已通过SSO登录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19866,6 +19930,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T050959Z" creationid="deciia" creationdate="20180922T050959Z">
         <seg>所有支持的文件类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>All branches should call these functions an equal number of times.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102628Z" creationid="LiarOnce" creationdate="20221130T102609Z">
+        <seg>所有分支都应该调用这些相同次数的函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>All branches should call these functions the same number of times.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102705Z" creationid="LiarOnce" creationdate="20221130T102705Z">
+        <seg>所有分支调用这些函数的次数都应该相同。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36154,6 +36234,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Environment</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103052Z" creationid="LiarOnce" creationdate="20221130T103052Z">
+        <seg>环境</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Equal</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170219T005907Z" creationid="deciia" creationdate="20170219T005907Z">
@@ -39739,10 +39827,522 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GM1059 - The parameter '{0}' has been previously declared.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101635Z" creationid="LiarOnce" creationdate="20221130T101635Z">
+        <seg>GM1059 - 之前已声明参数 ‘{0}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1060 - Dangerous call to variable of type '{0}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101642Z" creationid="LiarOnce" creationdate="20221130T101642Z">
+        <seg>GM1060 - 对类型为 ‘{0}’ 的变量的危险调用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1062 - Malformed type '{0}' in jsdoc.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101651Z" creationid="LiarOnce" creationdate="20221130T101651Z">
+        <seg>GM1062 - jsdoc 中的类型 ‘{0}’ 格式错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1063 - Ternary may yield differing types '{0}' and '{1}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101705Z" creationid="LiarOnce" creationdate="20221130T101705Z">
+        <seg>GM1063 - Ternary 可能会生成不同的类型 ‘{0}’ 和 ‘{1}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1100 - Syntax Error</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101709Z" creationid="LiarOnce" creationdate="20221130T101709Z">
+        <seg>GM1100 - 语法错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2000 - Not all code paths call draw_set_blend_mode(bm_normal) before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101722Z" creationid="LiarOnce" creationdate="20221130T101722Z">
+        <seg>GM2000 - 并非所有代码路径都在脚本结束之前调用 draw_set_blend_mode(bm_normal)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2003 - Not all code paths call shader_reset() before end of script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101748Z" creationid="LiarOnce" creationdate="20221130T101748Z">
+        <seg>GM2003 - 并非所有代码路径都在脚本结束之前调用 shader_reset()。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2004 - This for statement does not use its index and can be written as a repeat statement instead.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101759Z" creationid="LiarOnce" creationdate="20221130T101759Z">
+        <seg>GM2004 - 这条 for 语句不使用其索引，可以改写为 repeat 语句。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2005 - Not all code paths call surface_reset_target() before end of script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101809Z" creationid="LiarOnce" creationdate="20221130T101809Z">
+        <seg>GM2005 - 并非所有代码路径都在脚本结束之前调用 surface_reset_target()。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2006 - The draw function '{0}' is potentially called outside of a valid context.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101815Z" creationid="LiarOnce" creationdate="20221130T101815Z">
+        <seg>GM2006 - 可能在有效的上下文外部调用了绘制函数 ‘{0}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2007 - var expression should be terminated with a ';' (semicolon.)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101830Z" creationid="LiarOnce" creationdate="20221130T101830Z">
+        <seg>GM2007 - var表达式应以  ';'  (分号)结尾。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2008 - Opening another vertex batch before closing a previous vertex batch.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101856Z" creationid="LiarOnce" creationdate="20221130T101837Z">
+        <seg>GM2008 - 在关闭上一个顶点分量之前打开另一个顶点分量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2009 - Closing a vertex batch without opening a vertex batch.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101903Z" creationid="LiarOnce" creationdate="20221130T101903Z">
+        <seg>GM2009 - 关闭顶点分量而不打开顶点分量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2010 - The function '{0}' cannot be called outside of a vertex_begin()/vertex_end() block.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101919Z" creationid="LiarOnce" creationdate="20221130T101919Z">
+        <seg>GM2010 - 不能在 vertex_begin() / vertex_end() 块外部调用函数 ‘{0}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2011 - Not all code paths call vertex_end() before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101925Z" creationid="LiarOnce" creationdate="20221130T101925Z">
+        <seg>GM2011 - 并非所有代码路径都在脚本结束之前调用 vertex_end()。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2012 - Opening another vertex format before closing a previous vertex format.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101930Z" creationid="LiarOnce" creationdate="20221130T101930Z">
+        <seg>GM2012 - 在关闭以前的顶点格式之前打开另一个顶点格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2013 - Closing a vertex format without opening a vertex format.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101934Z" creationid="LiarOnce" creationdate="20221130T101934Z">
+        <seg>GM2013 - 关闭顶点格式而不打开顶点格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2014 - The function '{0}' cannot be called outside of a vertex_format_begin()/vertex_format_end() block.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101949Z" creationid="LiarOnce" creationdate="20221130T101949Z">
+        <seg>GM2014 - 不能在 vertex_format_begin() / vertex_format_end() 块外部调用函数 ‘{0}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2015 - Not all code paths call vertex_format_end() before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T101956Z" creationid="LiarOnce" creationdate="20221130T101956Z">
+        <seg>GM2015 - 并非所有代码路径都在脚本结束之前调用 vertex_Format_end()。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2017 - Inconsistent naming.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102028Z" creationid="LiarOnce" creationdate="20221130T102028Z">
+        <seg>GM2017 - 命名不一致。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GM2017 Message Severity must not be set to Ignore for these to take effect</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055740Z" creationid="LiarOnce" creationdate="20220730T055740Z">
         <seg>GM2017 消息严重性不得设置为忽略以使这些生效</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2018 - Potentially dangerous variable declaration.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102036Z" creationid="LiarOnce" creationdate="20221130T102036Z">
+        <seg>GM2018 - 潜在危险的变量声明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2019 - Not all code paths call draw_set_valign(fa_top) before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102050Z" creationid="LiarOnce" creationdate="20221130T102050Z">
+        <seg>GM2019 - 并非所有代码路径都在脚本结束之前调用 draw_set_valign(fa_top)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2020 - all cannot be referenced in this way.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102054Z" creationid="LiarOnce" creationdate="20221130T102054Z">
+        <seg>GM2020 - 不能以这种方式引用所有内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2021 - global cannot be referenced in this way.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102100Z" creationid="LiarOnce" creationdate="20221130T102100Z">
+        <seg>GM2021 - global不能以这种方式引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2022 - Return value of a pure function is not being used.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102104Z" creationid="LiarOnce" creationdate="20221130T102104Z">
+        <seg>GM2022 - 未使用纯函数的返回值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2023 - Evaluation order of function calls in argument list not guaranteed between platforms.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102114Z" creationid="LiarOnce" creationdate="20221130T102114Z">
+        <seg>GM2023 - 平台之间不保证参数列表中函数调用的求值顺序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2025 - Reference to non-existent event '{0}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102120Z" creationid="LiarOnce" creationdate="20221130T102120Z">
+        <seg>GM2025 - 对不存在的事件 ‘{0}’ 的引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2026 - Not all code paths call draw_set_halign(fa_left) before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102128Z" creationid="LiarOnce" creationdate="20221130T102128Z">
+        <seg>GM2026 - 并非所有代码路径都在脚本结束之前调用 draw_set_halign(fa_left)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2027 - Opening another primitive before closing a previous primitive.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102134Z" creationid="LiarOnce" creationdate="20221130T102134Z">
+        <seg>GM2027 - 在关闭上一个基元之前打开另一个基元。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2028 - Closing a primitive without opening a primitive.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102155Z" creationid="LiarOnce" creationdate="20221130T102146Z">
+        <seg>GM2028 - 关闭基元而不打开基元。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2029 - The function '{0}' cannot be called outside of a draw_primitive_begin()/draw_primitive_end() block.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102212Z" creationid="LiarOnce" creationdate="20221130T102212Z">
+        <seg>GM2029 - 不能在 draw_primitive_begin() / draw_primitive_end() 块外部调用函数 ‘{0}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2030 - Not all code paths call draw_primitive_end() before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102220Z" creationid="LiarOnce" creationdate="20221130T102220Z">
+        <seg>GM2030 - 并非所有代码路径都在脚本结束之前调用 draw_primitive_end()。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2031 - Opening another File Find before closing a previous File Find.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102429Z" creationid="LiarOnce" creationdate="20221130T102429Z">
+        <seg>GM2031 - 在关闭上一个文件查找之前打开另一个文件查找。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2032 - Closing a File Find without opening a File Find.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102434Z" creationid="LiarOnce" creationdate="20221130T102434Z">
+        <seg>GM2032 - 关闭文件查找而不打开文件查找。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2033 - The function '{0}' cannot be called outside of a file_find_first()/file_find_close() block.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102454Z" creationid="LiarOnce" creationdate="20221130T102454Z">
+        <seg>GM2033 - 不能在 file_find_first() / file_find_close() 块外部调用函数 ‘{0}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2034 - Not all code paths call file_find_close() before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102502Z" creationid="LiarOnce" creationdate="20221130T102502Z">
+        <seg>GM2034 - 并非所有代码路径都在脚本结束之前调用 file_find_close()。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2035 - Not all code paths call gpu_pop_state() before end of script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102509Z" creationid="LiarOnce" creationdate="20221130T102509Z">
+        <seg>GM2035 - 并非所有代码路径都在脚本结束之前调用 gpu_pop_state()。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2036 - Allocated resource not released.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102513Z" creationid="LiarOnce" creationdate="20221130T102513Z">
+        <seg>GM2036 - 分配的资源未释放。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2037 - Dangerous resource allocation.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102518Z" creationid="LiarOnce" creationdate="20221130T102518Z">
+        <seg>GM2037 - 危险资源分配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2038 - Modifications to array not visible outside of script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102524Z" creationid="LiarOnce" creationdate="20221130T102524Z">
+        <seg>GM2038 - 对脚本外部不可见的数组的修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2039 - Call to execute a global script resource like a function is deprecated.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102529Z" creationid="LiarOnce" creationdate="20221130T102529Z">
+        <seg>GM2039 - 不建议使用调用来执行全局脚本资源(如函数)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2040 - Call to event_inherited() in object with no parent event.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102543Z" creationid="LiarOnce" creationdate="20221130T102543Z">
+        <seg>GM2040 - 在没有父事件的对象中调用 event_inherited()。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2041 - Not all code paths call gpu_push_state() before end of script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102551Z" creationid="LiarOnce" creationdate="20221130T102551Z">
+        <seg>GM2041 - 并非所有代码路径都在脚本结束之前调用 gpu_push_state()。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2042 - Inconsistent stack depth for gpu_push_state()/gpu_pop_state() blocks.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102606Z" creationid="LiarOnce" creationdate="20221130T102606Z">
+        <seg>GM2042 - gpu_push_state() / gpu_pop_state() 块的堆栈深度不一致。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2043 - Attempting to access the local variable '{0}' outside of the scope it was defined in.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102634Z" creationid="LiarOnce" creationdate="20221130T102634Z">
+        <seg>GM2043 - 正在尝试访问定义该变量的作用域之外的局部变量 ‘{0}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2044 - Local variable '{0}' is already declared.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102639Z" creationid="LiarOnce" creationdate="20221130T102639Z">
+        <seg>GM2044 - 已声明局部变量 ‘{0}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2045 - Local variable '{0}' is unset before reading it.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102645Z" creationid="LiarOnce" creationdate="20221130T102645Z">
+        <seg>GM2045 - 在读取局部变量 ‘{0}’ 之前未设置该变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2046 - Inconsistent stack depth for surface_set_target()/surface_reset_target() blocks.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102657Z" creationid="LiarOnce" creationdate="20221130T102657Z">
+        <seg>GM2046 - surface_set_target() / surface_reset_target() 块的堆栈深度不一致。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2047 - Unreachable code.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102713Z" creationid="LiarOnce" creationdate="20221130T102713Z">
+        <seg>GM2047 - 无法访问的代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2048 - Not all code paths call gpu_set_blendenable(true) before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102723Z" creationid="LiarOnce" creationdate="20221130T102723Z">
+        <seg>GM2048 - 并非所有代码路径都会在脚本结束之前调用 gpu_set_blendenable(true)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2049 - Not all code paths call gpu_set_zfunc(cmpfunc_lessequal) before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102732Z" creationid="LiarOnce" creationdate="20221130T102732Z">
+        <seg>GM2049 - 并非所有代码路径都在脚本结束之前调用 gpu_set_zfunc(cmpfunc_lessequal)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2051 - Not all code paths call gpu_set_cullmode(cull_noculling) before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102810Z" creationid="LiarOnce" creationdate="20221130T102810Z">
+        <seg>GM2051 - 并非所有代码路径都在脚本结束之前调用 gpu_set_cullmode(cull_noculling)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2053 - Not all code paths call gpu_set_alphatestenable(false) before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102843Z" creationid="LiarOnce" creationdate="20221130T102843Z">
+        <seg>GM2053 - 并非所有代码路径都在脚本结束之前调用 gpu_set_alphatestenable(false)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2054 - Not all code paths call gpu_set_alphatestref(0) before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102856Z" creationid="LiarOnce" creationdate="20221130T102856Z">
+        <seg>GM2054 - 并非所有代码路径都在脚本结束之前调用 gpu_set_alphatestref(0)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2055 - Not all code paths call gpu_set_texfilter(false) before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102910Z" creationid="LiarOnce" creationdate="20221130T102910Z">
+        <seg>GM2055 - 并非所有代码路径都在脚本结束之前调用 gpu_set_texfilter(false)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2056 - Not all code paths call gpu_set_texrepeat(false) before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102920Z" creationid="LiarOnce" creationdate="20221130T102920Z">
+        <seg>GM2056 - 并非所有代码路径都在脚本结束之前调用 gpu_set_texrepeat(false)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2057 - Allocated resource is never destroyed before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102926Z" creationid="LiarOnce" creationdate="20221130T102926Z">
+        <seg>GM2057 - 在脚本结束之前，分配的资源永远不会被销毁。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2058 - This assignment potentially introduces a memory leak.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102931Z" creationid="LiarOnce" creationdate="20221130T102931Z">
+        <seg>GM2058 - 此赋值可能会导致内存泄漏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2059 - Attempting to deallocate a resource after it has already been deallocated.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102935Z" creationid="LiarOnce" creationdate="20221130T102935Z">
+        <seg>GM2059 - 在已释放资源后尝试释放资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2060 - Potentially dangerous resource deallocation.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102939Z" creationid="LiarOnce" creationdate="20221130T102939Z">
+        <seg>GM2060 - 潜在危险的资源释放。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2061 - Opportunity to use nullish coalesce operator.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103006Z" creationid="LiarOnce" creationdate="20221130T103001Z">
+        <seg>GM2061 - 有机会使用无效的合并运算符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2062 - Not all code paths call draw_set_colour(c_white) before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103016Z" creationid="LiarOnce" creationdate="20221130T103016Z">
+        <seg>GM2062 - 并非所有代码路径都在脚本结束之前调用 draw_set_colour(c_white)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2063 - Not all code paths call draw_set_alpha(1) before the end of the script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103027Z" creationid="LiarOnce" creationdate="20221130T103027Z">
+        <seg>GM2063 - 并非所有代码路径都在脚本结束之前调用 draw_set_alpha(1)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM2064 - Variable '{0}' does not exist in object's Variable Definitions.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103034Z" creationid="LiarOnce" creationdate="20221130T103034Z">
+        <seg>GM2064 - 对象的变量定义中不存在变量 ‘{0}’。</seg>
       </tuv>
     </tu>
     <tu>
@@ -56549,6 +57149,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Opera GX Environment</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103050Z" creationid="LiarOnce" creationdate="20221130T103050Z">
+        <seg>Opera GX 环境</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Opera Single Sign-In</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143150Z" creationid="liaronce" creationdate="20211105T143150Z">
@@ -58093,6 +58701,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170510T013524Z" creationid="deciia" creationdate="20170510T013524Z">
         <seg>差异工具（Diff Tool）路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Path to Environments</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103103Z" creationid="LiarOnce" creationdate="20221130T103103Z">
+        <seg>环境路径</seg>
       </tuv>
     </tu>
     <tu>
@@ -60054,6 +60670,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Prod</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103037Z" creationid="LiarOnce" creationdate="20221130T103037Z">
+        <seg>生产</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Product</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T083624Z" creationid="deciia" creationdate="20170104T083624Z">
@@ -61154,6 +61778,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T070942Z" creationid="deciia" creationdate="20170105T070932Z">
         <seg>最近使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Recommended name is '{0}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102031Z" creationid="LiarOnce" creationdate="20221130T102031Z">
+        <seg>建议的名称为 ‘{0}’。</seg>
       </tuv>
     </tu>
     <tu>
@@ -62856,6 +63488,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Restart anyway to apply the settings?"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103115Z" creationid="LiarOnce" creationdate="20221130T103115Z">
+        <seg>是否仍要重新启动以应用设置？“</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Restart current room</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T152509Z" creationid="liaronce" creationdate="20200820T152509Z">
@@ -62868,6 +63508,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T064537Z" creationid="deciia" creationdate="20180922T064537Z">
         <seg>重启游戏</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Restart now?"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103111Z" creationid="LiarOnce" creationdate="20221130T103111Z">
+        <seg>现在就重启吗？“</seg>
       </tuv>
     </tu>
     <tu>
@@ -64476,6 +65124,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T134701Z" creationid="deciia" creationdate="20170311T134701Z">
         <seg>示例文本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sandbox</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103038Z" creationid="LiarOnce" creationdate="20221130T103038Z">
+        <seg>沙箱</seg>
       </tuv>
     </tu>
     <tu>
@@ -72304,6 +72960,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T114425Z" creationid="deciia" creationdate="20170102T075142Z">
         <seg>层叠面板</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Stage</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103044Z" creationid="LiarOnce" creationdate="20221130T103044Z">
+        <seg>加载</seg>
       </tuv>
     </tu>
     <tu>
@@ -81927,6 +82591,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You may be trying to destroy a resource that is not yet fully initialised.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T102941Z" creationid="LiarOnce" creationdate="20221130T102941Z">
+        <seg>您可能正在尝试销毁尚未完全初始化的资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You may not have permission to save here.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143349Z" creationid="liaronce" creationdate="20200820T143349Z">
@@ -81979,6 +82651,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170106T160749Z" creationid="deciia" creationdate="20170106T160749Z">
         <seg>在拉取之前你需要提交更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will be signed-out on the next start of Game Maker"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103147Z" creationid="LiarOnce" creationdate="20221130T103147Z">
+        <seg>您将在下一次启动Game Maker时注销。“</seg>
       </tuv>
     </tu>
     <tu>
