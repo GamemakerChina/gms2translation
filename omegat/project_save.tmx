@@ -35753,6 +35753,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Enable Strict Type mode.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T094406Z" creationid="LiarOnce" creationdate="20221130T094406Z">
+        <seg>启用严格类型模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Enable Viewports</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T220957Z" creationid="deciia" creationdate="20170103T131524Z">
@@ -39295,6 +39303,158 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135522Z" creationid="liaronce" creationdate="20191117T135522Z">
         <seg>GLSL ES</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1000 - No enclosing loop from which to break.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T094411Z" creationid="LiarOnce" creationdate="20221130T094407Z">
+        <seg>GM1000 - 没有要中断的封闭循环。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1001 - No enclosing loop from which to continue.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T094419Z" creationid="LiarOnce" creationdate="20221130T094419Z">
+        <seg>GM1001 - 没有要继续的封闭循环。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1002 - globalvar does not support inline initializers.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T094427Z" creationid="LiarOnce" creationdate="20221130T094427Z">
+        <seg>GM1002 - globalvar 不支持内联初始值设定项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1003 - Enum assignment must be integer assignment.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T094431Z" creationid="LiarOnce" creationdate="20221130T094431Z">
+        <seg>GM1003 - 枚举赋值必须是整数赋值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1004 - The enum value '{0}' has already been previously defined in the enum '{1}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T094450Z" creationid="LiarOnce" creationdate="20221130T094441Z">
+        <seg>GM1004 - 枚举值 ‘{0}’ 之前已在枚举 ‘{1}’ 中定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1005 - Argument must be provided.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T094445Z" creationid="LiarOnce" creationdate="20221130T094445Z">
+        <seg>GM1005 - 必须提供参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1006 - The enum '{0}' has already been previously declared.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095122Z" creationid="LiarOnce" creationdate="20221130T095122Z">
+        <seg>GM1006 - 之前已声明了枚举‘{0}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1007 - Left-hand side of an assignment must be a variable.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095130Z" creationid="LiarOnce" creationdate="20221130T095130Z">
+        <seg>GM1007 - 赋值的左侧必须是变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1008 - The variable '{0}' is readonly and cannot be assigned to.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095142Z" creationid="LiarOnce" creationdate="20221130T095142Z">
+        <seg>GM1008 - 变量 ‘{0}’ 是只读的，无法赋值给该变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1009 - Operation {2} between types '{0}' and '{1}' may result in unexpected behavior or an error during runtime.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095158Z" creationid="LiarOnce" creationdate="20221130T095158Z">
+        <seg>GM1009 - 在运行时，类型 ‘{0}’ 和 ‘{1}’ 之间的操作 {2} 可能导致意外行为或错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1010 - Cannot perform {2} operation between types '{0}' and '{1}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095209Z" creationid="LiarOnce" creationdate="20221130T095209Z">
+        <seg>GM1010 - 无法在类型 ‘{0}’ 和 ‘{1}’ 之间执行 {2} 操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1011 - Implicit cast of type '{0}' to '{1}' may result in unexpected behavior or an error during runtime.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095225Z" creationid="LiarOnce" creationdate="20221130T095225Z">
+        <seg>GM1011 - 在运行时，类型为 ‘{0}’ 到 ‘{1}’ 的隐式强制转换可能会导致意外行为或错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1012 - Malformed variable addressing expression.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095229Z" creationid="LiarOnce" creationdate="20221130T095229Z">
+        <seg>GM1012 - 变量寻址表达式格式错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1013 - Reference to variable '{0}' which has not been previously declared in '{1}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095241Z" creationid="LiarOnce" creationdate="20221130T095241Z">
+        <seg>GM1013 - 引用之前未在 ‘{1}’ 中声明的变量 ‘{0}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1014 - The enum '{0}' does not contain the value '{1}'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095249Z" creationid="LiarOnce" creationdate="20221130T095249Z">
+        <seg>GM1014 - 枚举 ‘{0}’ 不包含值 ‘{1}’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1015 - Cannot divide or modulo expression by 0.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095301Z" creationid="LiarOnce" creationdate="20221130T095255Z">
+        <seg>GM1015 - 不能将表达式除以 0 或以 0 为模。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1016 - A boolean literal was unexpected at this time.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095313Z" creationid="LiarOnce" creationdate="20221130T095313Z">
+        <seg>GM1016 - 此时出现了意外的布尔值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1017 - The function '{0}' is deprecated and usage is discouraged.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095352Z" creationid="LiarOnce" creationdate="20221130T095352Z">
+        <seg>GM1017 - 已被弃用或未来将被弃用的函数 ‘{0}’，不建议使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GM1019 - The function '{0}' takes no more than {1} arguments but {2} are provided.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T095406Z" creationid="LiarOnce" creationdate="20221130T095406Z">
+        <seg>GM1019 - 函数 ‘{0}’ 接受的参数不超过 {1} 个，但提供了 {2} 个。</seg>
       </tuv>
     </tu>
     <tu>
