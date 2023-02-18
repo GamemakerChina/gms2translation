@@ -310,6 +310,14 @@ GMStdJumpPoint_Story_1,"Jump to ${dnd_position}","Jump to ${dnd_position}",,GML 
 GMStdJumpPoint_Story_2,"Jump to ${dnd_position} on ${applyto}","Jump to ${dnd_position} on ${applyto}",,GML Visual story text
 GMStdJumpStart_Story_1,"Jump to start","Jump to start",,GML Visual story text
 GMStdJumpStart_Story_2,"Jump ${applyto} to start","Jump ${applyto} to start",,GML Visual story text
+GMStdMove_And_Collide_Story,"Move by ${xvel},${yvel} colliding with ${object} performing ${num_iterations} steps","Move by ${xvel},${yvel} colliding with ${object} performing ${num_iterations} steps",,GML Visual story text
+GMStdMaxXMove,"Max X Movement","Max X Movement",,GML Visual story text
+GMStdMaxYMove,"Max Y Movement","Max Y Movement",,GML Visual story text
+GMStdXOff,"X offset","X offset",,GML Visual story text
+GMStdYOff,"Y offset","Y offset",,GML Visual story text
+GMStdNumIterations,Iterations,Iterations,,GML Visual library action name
+GMStdXDir,X Dist,X Dist,,GML Visual library action name
+GMStdYDir,Y Dist,Y Dist,,GML Visual library action name
 GMStdSnapPos_Story_1,"Snap  to ${xsnap},${ysnap}","Snap  to ${xsnap},${ysnap}",,GML Visual story text
 GMStdSnapPos_Story_2,"Snap ${applyto} to ${xsnap},${ysnap} on ${applyto}","Snap ${applyto} to ${xsnap},${ysnap} on ${applyto}",,GML Visual story text
 GMStdWrapRoom_Story_1,"Wrap around room","Wrap around room",,GML Visual story text
