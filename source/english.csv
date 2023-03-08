@@ -39,9 +39,6 @@ $linux_LaptopRHSKeys,Right Control and Right Alt,Right Control and Right Alt,,Li
 $win_LaptopLZoomKey,Left Control,Left Control,,Windows laptop mode zoom key
 $mac_LaptopLZoomKey,Left Command,Left Command,,Mac laptop mode zoom key
 $linux_LaptopLZoomKey,Left Control,Left Control,,Linux laptop mode zoom key
-Account_Menu_Login,Login,Login,,"Account menu ""Login"""
-Account_Menu_Logout,Logout,Logout,,"Acount menu ""Logout"""
-Account_Menu_ManageAccount,Manage Account,Manage Account,,"Account menu ""Account"""
 AnimationManager_InvalidTransition,The transition specified '{0}' is not valid,The transition specified '{0}' is not valid,,The transition specified in the animation json is not a valid value
 BackgroundLayer_HSpeed,Horizontal Speed,Horizontal Speed,,Numeric textbox label for horizontal scroll speed
 BackgroundLayer_HTile,Horizontal Tile,Horizontal Tile,,Checkbox label for horizontal tiling
@@ -76,6 +73,7 @@ Button_Create,Create,Create,,create button label
 Button_Apply,Apply,Apply,,apply button label
 Button_Search,Search,Search,,search button label
 Button_Remove_All,Remove All,Remove All,,button label - remove all
+Button_Save,Save,Save,,save button label
 Dialog_ResetLayout_Title,Reset Layout,Reset Layout,,Reset layout dialog title
 Dialog_ResetLayout,Resetting the project layout will close any open resources. Are you sure you want to reset the layout?,Resetting the project layout will close any open resources. Are you sure you want to reset the layout?,,Dialog message reset layout
 Dialog_ResetLayout_ChoicePref,Automatic response to resetting the project layout,Automatic response to resetting the project layout,,Default reset layout dialog choice
@@ -430,9 +428,14 @@ Extension_Import_Resources_Title,Import resources: {0},Import resources: {0},,ex
 Extension_Import_Legacy_Resources_Title,Import legacy resources: {0},Import legacy resources: {0},,legacy extension(1.x) import resource title
 Logout_Query,Logout user '{0}'?\nThis will save any changes and restart the IDE.,Logout user '{0}'?\nThis will save any changes and restart the IDE.,,Query if the user really wants to logout
 Restored_Default_Settings_Restart,Are you sure you want to restore default settings?\nThis will restart the application for the changes to take effect.,Are you sure you want to restore default settings?\nThis will restart the application for the changes to take effect.,,Restore default settings restart prompt
+Account_Menu_Update_License,Update License,Update License,,Update License menu item
+Account_Menu_GxGames,GX.Games,GX.Games,,Open GX.Games menu item
+Account_Menu_Login,Login,Login,,Login menu item
+Account_Menu_Logout,Logout,Logout,,Logout menu item
+Account_Menu_GMAccount,GameMaker Account,GameMaker Account,,GameMaker account menu item
+Account_Menu_Opera,Opera Account,Opera Account,,Opera account menu item
+Account_Menu_SignInLabel,Sign In,Sign In,,Label to tell user to sign in if not logged in
 File_Menu_NewIDE,New IDE,New IDE,,Start a new instance of the IDE from the file menu
-File_Menu_Logout,Logout,Logout,,The Logout program menu item
-File_Menu_MyAccount,My Account,My Account,,Launches my account web page menu item
 File_Menu_Exit,${FileMenuExit},${FileMenuExit},,The Exit program menu item
 File_Menu_ExportProject,Export Project,Export Project,,The Export Project menu item
 File_Menu_ExportYYZ,YYZ,YYZ,,yyz export option
@@ -536,6 +539,8 @@ SeqSeqTrack_Singular,Sequence Track,Sequence Track,,sequence instance track type
 SeqSeqTrack_Plural,Sequence Tracks,Sequence Tracks,,sequence instance track type name plural
 SeqTextTrack_Singular,Text Track,Text Track,,sequence text track type name singular
 SeqTextTrack_Plural,Text Tracks,Text Tracks,,sequence text track type name plural
+SeqParticleTrack_Singular,Particle Track,Particle Track,,sequence particle system track type name singular
+SeqParticleTrack_Plural,Particle Tracks,Particle Tracks,,sequence particle system track type name plural
 Inspector_Category_Transform,Transform,Transform,,Inspector category
 Inspector_Category_Physics,Physics,Physics,,Inspector category
 Inspector_Category_Permissions,Permissions,Permissions,,Inspector category
@@ -585,6 +590,8 @@ Inspector_Field_Left,L,L,,left abbreviated
 Inspector_Field_Right,R,R,,right abbreviated
 Inspector_Field_Top,T,T,,top abbreviated
 Inspector_Field_Bottom,B,B,,bottom abbreviated
+Inspector_Field_Min,Min,Min,,inspector field minimum
+Inspector_Field_Max,Max,Max,,inspector field maximum
 Inspector_TileOffset,Tile Offset,Tile Offset,,inspector property label
 Inspector_Separation,Separation,Separation,,inspector property label
 Inspector_OutputBorder,Output Border,Output Border,,inspector property label
@@ -601,6 +608,34 @@ Inspector_Size,Size,Size,,inspector property label
 Inspector_EditCC,Edit Creation Code,Edit Creation Code,,inspector edit creation code button label
 Inspector_RoomLayerAssets,Assets,Assets,,room asset layer assets list
 Inspector_RoomLayerInstances,Instances,Instances,,room instance layer instances list
+Inspector_Category_EmitterSettings,Emitter Settings,Emitter Settings,,emitter settings category
+Inspector_Category_Library,Library,Library,,emitter library category
+Inspector_Category_Textures,Textures,Textures,,textures category
+PSys_DrawOrder,Draw Order,Draw Order,,particle system draw order
+PSEmitter_Enabled,Enabled,Enabled,,particle emitter enabled property
+PSEmitter_Mode,Mode,Mode,,particle emitter mode property
+PSEmitter_Distribution,Distribution,Distribution,,particle emitter property
+PSEmitter_Shape,Shape,Shape,,particle emitter property
+PSEmitter_Presets,Presets,Presets,,particle emitter property
+PSEmitter_AdditiveBlend,Additive,Additive,,particle emitter property
+ListBoxEnum_ePSysDrawOrder_NewOnTop,Default,Default,,particle system draw order enum
+ListBoxEnum_ePSysDrawOrder_OldOnTop,Reversed,Reversed,,particle system draw order enum- new particles draw behind old
+ListBoxEnum_ePSEmitterMode_Stream,Stream,Stream,,particle emitter mode stream
+ListBoxEnum_ePSEmitterMode_Burst,Burst,Burst,,particle emitter mode burst
+ListBoxEnum_ePSysTexture_Pixel,Pixel,Pixel,,particle texture type
+ListBoxEnum_ePSysTexture_Disk,Disk,Disk,,particle texture type
+ListBoxEnum_ePSysTexture_Square,Square,Square,,particle texture type
+ListBoxEnum_ePSysTexture_Line,Line,Line,,particle texture type
+ListBoxEnum_ePSysTexture_Star,Star,Star,,particle texture type
+ListBoxEnum_ePSysTexture_Circle,Circle,Circle,,particle texture type
+ListBoxEnum_ePSysTexture_Ring,Ring,Ring,,particle texture type
+ListBoxEnum_ePSysTexture_Sphere,Sphere,Sphere,,particle texture type
+ListBoxEnum_ePSysTexture_Flare,Flare,Flare,,particle texture type
+ListBoxEnum_ePSysTexture_Spark,Spark,Spark,,particle texture type
+ListBoxEnum_ePSysTexture_Explosion,Explosion,Explosion,,particle texture type
+ListBoxEnum_ePSysTexture_Cloud,Cloud,Cloud,,particle texture type
+ListBoxEnum_ePSysTexture_Smoke,Smoke,Smoke,,particle texture type
+ListBoxEnum_ePSysTexture_Snow,Snow,Snow,,particle texture type
 GMShader_VertexShaderPath,.VSH (Read-only),.VSH (Read-only),,inspector property name
 GMShader_FragmentShaderPath,.FSH (Read-only),.FSH (Read-only),,inspector property name
 Inspector_Script,Script (Read-only),Script (Read-only),,inspector property name
@@ -851,7 +886,9 @@ IDETooltip_NewProject,New Project ,New Project ,,IDE toolbar tooltip
 IDETooltip_OpenProject,Open Project ,Open Project ,,IDE toolbar tooltip
 IDETooltip_Save,Save Project ,Save Project ,,IDE toolbar tooltip
 IDETooltip_Package,Create Executable ,Create Executable ,,IDE toolbar tooltip
+IDETooltip_Package_Run,Create Executable and Launch,Create Executable and Launch,,IDE toolbar tooltip
 IDETooltip_Package_FreeDisabled,Create Executable (not available with Trial Licence),Create Executable (not available with Trial Licence),,IDE toolbar tooltip
+IDETooltip_Package_NotLoggedInDisabled,Create Executable (login to Enable),Create Executable (login to Enable),,IDE toolbar tooltip
 IDETooltip_Debug,Debug ,Debug ,,IDE toolbar tooltip
 IDETooltip_Run,Run ,Run ,,IDE toolbar tooltip
 IDETooltip_Stop,Stop,Stop,,IDE toolbar tooltip
@@ -1465,6 +1502,7 @@ PrefsTree_Title,Preferences,Preferences,,Preferences tree title
 DebugInfo_Title,Debug Info,Debug Info,,Debug info window title
 DebugInfo_DumpMemory,Memory Usage,Memory Usage,,Dump memory button label
 DebugInfo_CrashButton,DIE DIE DIE (Crash),DIE DIE DIE (Crash),,Crash button label
+DebugInfo_SkinChangeButton, Update Skin, Update Skin,,Debug Skin Change button label
 OutputPanel_Title,Output,Output,,Output panel window title
 PropertyButton_NoResourceArg,No {0},No {0},,no resource (type name) selected caption for resource button
 PropertyButton_NoResource,No Resource,No Resource,,no resource selected caption for resource button
@@ -1898,6 +1936,7 @@ ListBoxEnum_eGMBlendMode_bm_inv_dest_color,bm_inv_dest_color,bm_inv_dest_color,,
 ListBoxEnum_eGMBlendMode_bm_src_alpha_sat,bm_src_alpha_sat,bm_src_alpha_sat,,gm blendmode enum
 Run_Menu_Clean,Clean,Clean,,"Run menu ""Clean"""
 Run_Menu_CreateExecutable,Create Executable,Create Executable,,The Create Executable menu item
+Run_Menu_DeployExecutable,Create Executable and Launch,Create Executable and Launch,,The Deploy Executable menu item
 Run_Menu_Run,Run,Run,,"Run menu ""Run"""
 Run_Menu_RunDebug,Debug,Debug,,"Run menu ""Debug"""
 Saving,Saving...,Saving...,,Saving
@@ -2058,7 +2097,7 @@ Splash_LoadingPrefs,Loading Preferences...,Loading Preferences...,,Loading the p
 Splash_LoadingDevices,Loading Devices...,Loading Devices...,,Loading the devices
 Splash_LoadingPluginGUI,Loading Plugin Resources...,Loading Plugin Resources...,,Loading the plugin resources
 Splash_LoadingPluginLanguages,Loading Plugin Languages...,Loading Plugin Languages...,,Loading the plugin languages
-Splash_UserLogin,User Login,User Login,,User Login has been started
+Splash_UserLogin,User Processing,User Processing,,User Processing has been started
 Splash_InitGMLVisual,GML Visual...,GML Visual...,,Initialising GML Visual 
 Splash_CheckingRSS,Checking RSS...,Checking RSS...,,Checking RSS...
 Splash_DownloadingManual,Downloading Manual...,Downloading Manual...,,Downloading Manual...
@@ -2218,7 +2257,7 @@ ParticleTypeEditor_SpawnDeath,On Death,On Death,,Particle type editor spawn on d
 ParticleTypeEditor_SpawnDeathHelp,Spawn another particle when this dies,Spawn another particle when this dies,,Particle type editor spawn on death help label
 ParticleTypeEditor_SpawnUpdate,On Update,On Update,,Particle type editor spawn on update label
 ParticleTypeEditor_SpawnUpdateHelp,Spawn another particle each update,Spawn another particle each update,,Particle type editor spawn on update help label
-ParticleTypeEditor_Headposition,Head,Head,,Particle type editor head label
+ParticleTypeEditor_Headposition,Frame,Frame,,Particle type editor head label
 ParticleTypeEditor_HeadHelp,Use the sprite frame at the given head position,Use the sprite frame at the given head position,,Particle type editor head help label
 ParticleEditor_RuntimeNoBinderTitle,Incompatible Runtime,Incompatible Runtime,,Title for below error message
 ParticleEditor_RuntimeNoBinder,The active runtime does not support editor particle systems. Upgrade to a newer runtime to use this feature.,The active runtime does not support editor particle systems. Upgrade to a newer runtime to use this feature.,,Not supported by runtime error message
@@ -2240,7 +2279,8 @@ ParticleEditor_EmitterCount,Particle Count,Particle Count,,Emitter particle coun
 ParticleEditor_EmitterShape,Shape,Shape,,Emitter shape label
 ParticleEditor_EmitterDistribution,Distribution,Distribution,,Emitter particle distribution label
 ParticleEditor_EmitterEnabled,Enabled,Enabled,,Emitter enabled label
-ParticleEditor_EmitterColor,Editor Colour,Editor Colour,,Emitter editor color label
+ParticleEditor_DrawEmitterShape,Preview,Preview,,toggle emitter shape draw label
+ParticleEditor_EmitterColor,Preview Colour,Preview Colour,,Emitter editor shape color label
 ParticleEditor_ShapeLeft,Left,Left,,Emitter shape region left label
 ParticleEditor_ShapeTop,Top,Top,,Emitter shape region top label
 ParticleEditor_ShapeWidth,Width,Width,,Emitter shape region width label
@@ -2260,6 +2300,29 @@ ParticleEditor_TimeOffset,Time Offset,Time Offset,,Time offset particle system l
 ParticleEditorStats_ParticleCount,Particles: {0},Particles: {0},,Particle editor stats label
 ParticleEditorStats_UpdateTime,Update: {0}ms,Update: {0}ms,,Particle editor stats label for how long it took to update
 ParticleEditorStats_DrawTime,Drawing: {0}ms,Drawing: {0}ms,,Particle editor stats label for how long it took to draw
+ParticleEd_NewPresetTitle,New Particle Preset,New Particle Preset,,new particle preset title
+ParticleEd_NewPresetMsg,"This preset can be shared amongst different Particle Systems in your project.\nEditing when linked will update everywhere its applied in your project.","This preset can be shared amongst different Particle Systems in your project.\nEditing when linked will update everywhere its applied in your project.",,new particle preset message
+ParticleEd_SaveNewPreset,Save new preset:,Save new preset:,,save new preset
+ParticleEd_DefaultPresetName,{0} Preset,{0} Preset,,default preset name
+ParticleEd_OverwritePresetTitle,Overwrite Existing Preset?,Overwrite Existing Preset?,,overwrite existing preset title
+ParticleEd_OverwritePresetMessage,Particle Preset '{0}' already exists. Do you want to overwrite it with the current settings?\nThis operation is not undoable.,Particle Preset '{0}' already exists. Do you want to overwrite it with the current settings?\nThis operation is not undoable.,,overwrite preset message
+ParticleEd_ApplyPresetTitle,Apply Preset?,Apply Preset?,,particle editor apply preset title
+ParticleEd_ApplyPresetMessage,Applying a Preset will replace the current emitter settings.\nThis operation is not undoable.,Applying a Preset will replace the current emitter settings.\nThis operation is not undoable.,,particle editor apply preset message
+ParticleEd_SelectPresetParticles,Select Particles,Select Particles,,particle preset select label
+ParticleEd_CustomParticles,Custom Particles,Custom Particles,,particle preset custom label
+ParticleEd_TT_UnlinkEmitter,Unlink,Unlink,,unlink tool tip
+ParticleEd_Unlink_Title,Unlink emitters,Unlink emitters,,unlink dialog title
+ParticleEd_Unlink_Message,You are going to unlink this item from its current preset.\nDo you want to continue?,You are going to unlink this item from its current preset.\nDo you want to continue?,,unlink emitter dialog message
+ParticleEd_TT_AddEmitter,Add new Emitter,Add new Emitter,,add new emitter tooltip
+ParticleEd_TT_DeleteEmitters,Delete selected Emitters,Delete selected Emitters,,delete emitters tooltip
+ParticleEd_TT_SaveToLibrary,Save as Preset,Save as Preset,,save to library as preset tooltip
+ParticleEd_TT_SharedEmitter,Shared Particle Emitter,Shared Particle Emitter,,shared emitter tooltip
+ParticleEd_FloatingEmitters_TitleBar,{0} [{1}] - Emitters,{0} [{1}] - Emitters,,particle editor emitters panel floating window title bar
+ParticleLibraryFolder,Particle Library,Particle Library,,particle library folder title
+particleEd_presetapply_confirm,Automatic response to applying a preset,Automatic response to applying a preset,,ConfirmPresetApply preference label
+particleEd_unlink_confirm,Automatic response to unlinking emitters,Automatic response to unlinking emitters,,particle emitter unlink confirm preference label
+particleEd_emitters_orientation,Default emitters panel orientation,Default emitters panel orientation,,particle editor default emitters panel orientation preference
+ParticleEditor,Particle Editor,Particle Editor,,particle editor preference type name
 ToolTip_eParticleSystemDrawOrder_OldFirst,Draw older particles below newer particles (default),Draw older particles below newer particles (default),,Particle system draw order help tip for drawing old first
 ToolTip_eParticleSystemDrawOrder_NewFirst,Draw newer particles below older particles,Draw newer particles below older particles,,Particle system draw order help tip for drawing new first
 ListBoxEnum_eParticleSystemDrawOrder_OldFirst,Default,Default,,Particle system draw order localised label
@@ -2287,9 +2350,15 @@ ListBoxEnum_ePartTypeTexture_Cloud,Cloud,Cloud,,Particle type texture
 ListBoxEnum_ePartTypeTexture_Snow,Snow,Snow,,Particle type texture
 ListBoxEnum_eEmitMode_Stream,Stream,Stream,,Emitter mode
 ListBoxEnum_eEmitMode_Burst,Burst,Burst,,Emitter mode
+ListBoxEnum_eSnappableWidgetOrientation_Floating,Floating,Floating,,snappable orientation enum
+ListBoxEnum_eSnappableWidgetOrientation_Top,Top,Top,,snappable orientation enum
+ListBoxEnum_eSnappableWidgetOrientation_Right,Right,Right,,snappable orientation enum
+ListBoxEnum_eSnappableWidgetOrientation_Bottom,Bottom,Bottom,,snappable orientation enum
+ListBoxEnum_eSnappableWidgetOrientation_Left,Left,Left,,snappable orientation enum
 StartPage_Error,Start page failed to load.\nYou can create new projects from the File menu.,Start page failed to load.\nYou can create new projects from the File menu.,,Start page error text
 StartPage_ErrorTitle,An Error Occurred,An Error Occurred,,Start page error title
 StartPage_Title,Start Page,Start Page,,Start page title
+StartPage_WelcomeLabel,Welcome To GameMaker,Welcome To GameMaker,,Welcome to GameMaker label on start screen banner
 StripDialog_NumberOfImages,Number of Frames,Number of Frames,,strip dialog frame count
 StripDialog_ImagesPerRow,Frames per Row,Frames per Row,,strip dialog frames per row
 StripDialog_ImageWidth,Frame Width,Frame Width,,strip dialog frame width
@@ -2488,6 +2557,12 @@ UserLogin_SSO_unrequested,Non-200 response from SSO auth site,Non-200 response f
 UserLogin_SSO_unreadable,UID not present in SSO auth response,UID not present in SSO auth response,,SSO error message
 UserLogin_SSO_unrelated,Please complete your profile to continue.,Please complete your profile to continue.,,SSO error message
 UserLogin_SSO_unknown,Unknown error from the SSO server,Unknown error from the SSO server,,SSO error message
+UserLogin_Login,User Sign In,User Sign In,,Login dialog title
+UserLogin_Login_Success,You have signed in successfully!,You have signed in successfully!,,Login success dialog message
+UserLogin_Login_Fail,Login Failed!,Login Failed!,,Login fail dialog message
+UserLogin_LicenseUpdate,Update License,Update License,,Update license dialog title
+UserLogin_LicenseUpdate_Success,Updated License Successfully!,Updated License Successfully!,,Update license success dialog message
+UserLogin_LicenseUpdate_Fail,Update License Failed!,Update License Failed!,,Update license fail dialog message
 Validate_MaxLength,{0} - Length should be less than {1},{0} - Length should be less than {1},,Failed validation by passing an object whose length is too long
 Validate_MinLength,{0} - Length should be greater than {1},{0} - Length should be greater than {1},,Failed validation by passing an object whose length is too short
 Validate_MVCType,{0} - Object should be of type {2}{1},{0} - Object should be of type {2}{1},,Failed validation by passing an object of the wrong type
@@ -3196,6 +3271,7 @@ arctool_colourofcontrolpoints,Control point colour,Control point colour,,Colour 
 arctool_colourofcontrollines,Tangent line colour,Tangent line colour,,Colour of Control Lines in Arc Tool
 arctool_colourofselectedpoints,Selected point colour,Selected point colour,,Colour of Selected Points in Arc Tool
 arctool_sizeofpoints,Point size,Point size,,Size of Points in Arc Tool
+colourselecttool_numberofswatches,Number of Swatches,Number of Swatches,,Number of swatches in colour select panel
 objecteditor_buttonchoiceondeletion,Automatic response to deleting event,Automatic response to deleting event,,Automatic button choice on event deletion in Object Editor
 patheditor_linecolour,Path colour,Path colour,,Line Colour in Path Editor
 patheditor_lineerrorcolour,Invalid path colour,Invalid path colour,,Line Error Colour in Path Editor
@@ -3501,7 +3577,6 @@ android_sdklocation,Android SDK Location,Android SDK Location,,Location of Andro
 android_ndklocation,Android NDK Location,Android NDK Location,,Location of Android NDK
 android_jdklocation,Java JDK Location,Java JDK Location,,Location of Java JDK
 android_fullinstall,Always do full install of APK,Always do full install of APK,,Always do full install of APK
-android_packageinstall,Install on package,Install on package,,Install on Package
 android_maxheapsize,JDK maximum heap size (GB),JDK maximum heap size (GB),,Android build system max heap size
 android_maxheapsize_tooltip,Gigabytes of RAM the Android build is allowed to use,Gigabytes of RAM the Android build is allowed to use,,Android build system max heap size tooltip
 android_usemac,Use Mac for ADB connection,Use Mac for ADB connection,,Use Mac for ADB connection
@@ -3708,11 +3783,6 @@ html5_verbose,Verbose,Verbose,,HTML5 Verbose
 ListBoxEnum_HTML5PackageChoice_HTML5Package_LooseFiles,Package as Loose Files,Package as Loose Files,,Package as Loose Files
 ListBoxEnum_HTML5PackageChoice_HTML5Package_Zip,Package as Zip,Package as Zip,,Package as Zip
 ListBoxEnum_HTML5PackageChoice_HTML5Package_Show,Show Dialog,Show Dialog,,Show Dialog
-xbox_package_dev,Developer Package,Developer Package,,Normal Package type used during development
-xbox_package_submission,Submission Package (/l),Submission Package (/l),,Package created for final submission to Microsoft
-xbox_package_xbone,Xbox One package,Xbox One package,,Package built for Xbox One consoles
-xbox_package_seriesxs,Xbox One or Series X/S package,Xbox One or Series X/S package,,Package built for Xbox consoles
-xbox_package_deploy,Deploy the package after completing the compilation?,Deploy the package after completing the compilation?,,Diagogue message to request from user whether the compiled package should be deployed to the device
 build_no_packaging_on_platform,Packages can not be built for the selected platform,Packages can not be built for the selected platform,,It is not possible to Create Application on this platform
 build_no_packaging_on_platform_title,Error,Error,,Title for dialog box shown when trying to Create Application with Test platform selected
 ListBoxEnum_WindowsPackageChoice_WindowsPackage_Show,Show Dialog,Show Dialog,,Show Dialog
@@ -3945,7 +4015,7 @@ ExtensionEditor_Version,Version:,Version:,,the version number title
 ExtensionEditor_Resources,Resources:,Resources:,,the resources title
 ExtensionEditor_Extensions,Extensions,Extensions,,the extensions title
 ExtensionEditor_Files,Files,Files,,the main props filelist title
-ExtensionEditor_AdditionalFeatures,Extra Platforms,Extra Platforms,,the additional features title
+ExtensionEditor_AdditionalFeatures,Platform Settings,Platform Settings,,the additional features title
 ExtensionEditor_ImportExport,Import / Export,Import / Export,,import export header
 ExtensionEditor_Import,Import,Import,,Import label
 ExtensionEditor_Export,Export,Export,,Export label
@@ -3982,6 +4052,7 @@ ExtensionEditor_3rdPartyFrameworks,3rd Party Frameworks + Bundles,3rd Party Fram
 ExtensionEditor_CocoaPods,CocoaPods,CocoaPods,,List of CocoaPods for this extension
 ExtensionEditor_CocoaPods_Dependencies,CocoaPods Dependencies,CocoaPods Dependencies,,List of CocoaPods Dependencies for this extension
 ExtensionEditor_CheckForWeakRef,Check for weak reference,Check for weak reference,,weak reference label
+ExtensionEditor_HTML5Properties,Extension HTML5 Properties,Extension HTML5 Properties,,html5 properties window title
 ExtensionEditor_AndroidProperties,Extension Android Properties,Extension Android Properties,,android window title
 ExtensionEditor_InjectToGradle,Inject to Gradle dependencies:,Inject to Gradle dependencies:,,gradle injection label
 ExtensionEditor_InjectToManifest,Inject to AndroidManifest.xml Manifest:,Inject to AndroidManifest.xml Manifest:,,manifest injection label
@@ -4205,6 +4276,7 @@ ZoomWidget_ZoomCentreFit,Centre Fit,Centre Fit,,Tooltip for zoom centre fit
 RoomEditor_ShowViews,Show Views,Show Views,,Tooltip for show views button
 RoomEditor_PlayAnimation,Play Animation,Play Animation,,Tooltip for play animation button
 display_us_spelling_functions,Show US Spelling for system functions,Show US Spelling for system functions,,Show US Spelling for system functions
+use_us_customs,Use US Date Format,Use US Date Format,,Use the US date format on the start screen
 max_num_syntax_errors,Maximum number of Syntax Errors to display,Maximum number of Syntax Errors to display,,Maximum number of Syntax Errors to display
 enable_reference_warnings,Enable variable reference warnings,Enable variable reference warnings,,Enable variable reference warnings
 enable_statement_folding,Enable statement folding as regions,Enable statement folding as regions,,Enable statement folding as regions
@@ -5985,6 +6057,10 @@ ResourceTree_Sequences_Singular,Sequence,Sequence,,Sequence resource name singul
 ResourceTree_AnimCurves_Singular,Animation Curve,Animation Curve,,Animcurve resource name singular
 ResourceTree_Extensions_Singular,Extension,Extension,,Extension resource name singular
 ResourceTree_IncludedFiles_Singular,Included File,Included File,,Included File resource name singular
+ResourceTree_ParticleSystems,Particle Systems,Particle Systems,,Particle systems resource name plural
+ResourceTree_ParticleSystems_Singular,Particle System,Particle System,,Particle system resource name singular
+ResourceTree_ParticleEmitters,Particle Emitters,Particle Emitters,,particle emitters resource plural
+ResourceTree_ParticleEmitters_Singular,Particle Emitter,Particle Emitter,,particle emitter resource singular
 RT_Unknown,Resource,Resource,,unknown resource type name
 RT_RoomInstance,Object Instances,Object Instances,,room instance resource name
 RT_RoomInstance_Singular,Object Instance,Object Instance,,room instance resource name singular
@@ -5992,6 +6068,8 @@ RT_RoomSpriteGraphic,Sprite Instances,Sprite Instances,,room sprite graphic reso
 RT_RoomSpriteGraphic_Singular,Sprite Instance,Sprite Instance,,room sprite graphic resource name singular
 RT_RoomSequenceGraphic,Sequence Instances,Sequence Instances,,room sequence graphic resource name
 RT_RoomSequenceGraphic_Singular,Sequence Instance,Sequence Instance,,room sequence graphic resource name singular
+RT_RoomParticleSystem,Particle System Instances,Particle System Instances,,room particle system instance resource name plural
+RT_RoomParticleSystem_Singular,Particle System Instance,Particle System Instance,,room particle system instance resource name singular
 RT_RoomAssetLayer,Asset Layers,Asset Layers,,room asset layer resource name
 RT_RoomAssetLayer_Singular,Asset Layer,Asset Layer,,room asset layer resource name singular
 RT_RoomBackgroundLayer,Background Layers,Background Layers,,room background layers plural
@@ -6174,6 +6252,7 @@ Output,Output,Output,,Output preference group subheading
 Compile Errors,Compile Errors,Compile Errors,,Compile Errors preference group subheading
 Syntax Errors,Syntax Errors,Syntax Errors,,Syntax Errors preference group subheading
 Arc,Arc,Arc,,Arc preference group subheading
+Colour Select,Colour Select,Colour Select,,Colour Select preference group subheading
 Label,Label,Label,,Label preference group subheading
 Default,Default,Default,,Default preference group subheading
 Sprites,Sprites,Sprites,,Sprites preference group subheading
@@ -6193,7 +6272,7 @@ Extensions,Extensions,Extensions,,Extensions preference group subheading
 Resource Label,Resource Label,Resource Label,,Resource Label preference group subheading
 Icon,Icon,Icon,,Icon preference group subheading
 Normal Text,Normal Text,Normal Text,,Normal Text preference group subheading
-Keyword,Keyword,Keyword,,Keyword preference group subheading
+Keywords,Keywords,Keywords,,Keywords preference group subheading
 Values,Values,Values,,Values preference group subheading
 Strings,Strings,Strings,,Strings preference group subheading
 Comments,Comments,Comments,,Comments preference group subheading
@@ -6433,6 +6512,12 @@ FileFilters_SSHKey,SSH Key,SSH Key,,ssh key filter
 FileFilter_AssetPackage,GameMaker Asset Package,GameMaker Asset Package,,yymp filter
 FileFilter_TemplateProject,GameMaker Project Template,GameMaker Project Template,,template project filter
 FileFilter_AndroidCreateExeMessage,Save as .aab or .apk,Save as .aab or .apk,,Save as .aab or .apk
+FileFilter_XboxOneDevPackage,Xbox One Developer Package,Xbox One Developer Package,,
+FileFilter_XboxSeriesDevPackage,Xbox Series X/S Developer Package,Xbox Series X/S Developer Package,,
+FileFilter_XboxOneSubmissionPackage,Xbox One Submission Package,Xbox One Submission Package,,
+FileFilter_XboxSeriesSubmissionPackage,Xbox Series X/S Submission Package,Xbox Series X/S Submission Package,,
+XboxDeploySubmissionPackageError_Title,Error,Error,,
+XboxDeploySubmissionPackageError_Message,Submission packages cannot be launched on an Xbox development kit,Submission packages cannot be launched on an Xbox development kit,,
 tvOS,tvOS,tvOS,,tvOS label for game options
 Cronus,Cronus,Cronus,,Cronus label for game options
 amazonfire_nodevices_title,No Amazon devices detected,No Amazon devices detected,,No Amazon devices detected title
@@ -8377,6 +8462,7 @@ RedefineKeys_workspace_chain_move_down_right,Move to next window down and right,
 RedefineKeys_zoom_and_pan_to_gadget,Pan and zoom in on the active window,Pan and zoom in on the active window,,Redefine Keys label to pan and zoom in on the active window
 RedefineKeys_Keys,Keys,Keys,,Redefine keys Keys label
 RedefineKeys_DeleteLineAfterCursor,Delete Line After Cursor,Delete Line After Cursor,,Delete line after cursor message
+RedefineKeys_DatafileScanner,File Scanner,File Scanner,,File Scanner location header
 DeviceManager_Name_Already_Taken,A device with this name has already been created.,A device with this name has already been created.,,Device manager name already taken error message
 GMStdTime,Time,Time,,GML Visual library argument label
 GMStdTooltipOffset,The track position to start playing from,The track position to start playing from,,GML Visual argument tooltip
@@ -8416,3 +8502,36 @@ RedefineKeys_GML Visual Pan To,Pan To,Pan To,,Pan to
 RedefineKeys_ColourPickerSubtool,Colour Picker subtool,Colour Picker subtool,,colour picker ctrl
 RedefineKeys_BrushScalerSubtool,Brush Scaler subtool,Brush Scaler subtool,,brush scaler
 RedefineKeys_brush_from_selection,Make Brush from Selection,Make Brush from Selection,,image editor make brush from selection
+Plugin_ErrorLoadingJSON_Title,Errors Occured,Errors Occured,,Errors occured during plugin JSON load title bar
+Plugin_ErrorLoadingJSON_Body,{0} errors occured while parsing plugin metadata. See your ui.log for more info,{0} errors occured while parsing plugin metadata. See your ui.log for more info,,Errors occured during plugin JSON load body
+Cronus_GMPM_FileHelp,This should be the filepath of a 'conanfile.txt' which contains the packages to fetch.,This should be the filepath of a 'conanfile.txt' which contains the packages to fetch.,,Label for GMPM Package File field
+Cronus_GMPM_InstallDir,The root directory where the packages will be installed into.,The root directory where the packages will be installed into.,,Label for GMPM Package Install Directory field
+Cronus_GMPM_Remote,The name of the remote Conan repository containing the packages.,The name of the remote Conan repository containing the packages.,,Label for GMPM Package Remote field
+Cronus_GMPM_AdditionalArgs,Additional command-line arguments passed into the Conan process.,Additional command-line arguments passed into the Conan process.,,Label for GMPM Package Additional Args field
+Cronus_GMPM_InvokeMultiple,Cannot invoke multiple instances of GMPM. Please wait for the package manager to complete before invoking it a second time.,Cannot invoke multiple instances of GMPM. Please wait for the package manager to complete before invoking it a second time.,,Error content when attempting to spawn multiple instances of GMPM
+Cronus_GMPM_Invalid_Title,GMPM invalid,GMPM invalid,,Invalid title for GMPM
+Cronus_GMPM_Invalid_File,The Packages File field must not be empty.,The Packages File field must not be empty.,,Invalid GMPM Package File field
+Cronus_GMPM_Invalid_InstallDir,The Packages Install Directory field must not be empty.,The Packages Install Directory field must not be empty.,,Invalid GMPM Package Install Directory field
+Cronus_GMPM_Invalid_Remote,The Packages Remote field must not be empty.,The Packages Remote field must not be empty.,,Invalid GMPM Package Remote field
+Cronus_GMPM_Success_Title,GMPM success,GMPM success,,Success title for GMPM
+Cronus_GMPM_Success,Successfully installed packages to '{0}'!,Successfully installed packages to '{0}'!,,Success content for GMPM
+Cronus_GMPM_Failure_Title,GMPM failure,GMPM failure,,Failure title for GMPM
+Cronus_GMPM_Failure,An unexpected error (code: {0}) occurred when updating the packages. See the output log for more information.,An unexpected error (code: {0}) occurred when updating the packages. See the output log for more information.,,Success content for GMPM
+GMStdSetAudioLoopState_Name,"Set Audio Loop State","Set Audio Loop State",,GMLV action name
+GMStdSetAudioLoopState_Desc,"Set the loop state of a playing sound.","Set the loop state of a playing sound.",,GMLV action description
+GMStdSetAudioLoopState_Story,"Set the loop state of sound ${idx} to ${state}.","Set the loop state of sound ${idx} to ${state}.",,GMLV action story
+GMStdGetAudioLoopState_Name,"Get Audio Loop State","Get Audio Loop State",,GMLV action name
+GMStdGetAudioLoopState_Desc,"Get the loop state of a playing sound.","Get the loop state of a playing sound.",,GMLV action description
+GMStdGetAudioLoopState_Story,"Get the loop state of sound ${idx} and store it in ${target}.","Get the loop state of sound ${idx} and store it in ${target}.",,GMLV action story
+GMStdSetAudioLoopStart_Name,"Set Audio Loop Start","Set Audio Loop Start",,GMLV action name
+GMStdSetAudioLoopStart_Desc,"Set the loop-start offset of a sound.","Set the loop-start offset of a sound.",,GMLV action description
+GMStdSetAudioLoopStart_Story,"Set the loop-start offset of sound ${idx} to ${offset}.","Set the loop-start offset of sound ${idx} to ${offset}.",,GMLV action story
+GMStdGetAudioLoopStart_Name,"Get Audio Loop Start","Get Audio Loop Start",,GMLV action name
+GMStdGetAudioLoopStart_Desc,"Get the loop-start offset of a sound.","Get the loop-start offset of a sound.",,GMLV action description
+GMStdGetAudioLoopStart_Story,"Get the loop-start offset of sound ${idx} and store it in ${target}.","Get the loop-start offset of sound ${idx} and store it in ${target}.",,GMLV action story
+GMStdSetAudioLoopEnd_Name,"Set Audio Loop End","Set Audio Loop End",,GMLV action name
+GMStdSetAudioLoopEnd_Desc,"Set the loop-end offset of a sound.","Set the loop-end offset of a sound.",,GMLV action description
+GMStdSetAudioLoopEnd_Story,"Set the loop-end offset of sound ${idx} to ${offset}.","Set the loop-end offset of sound ${idx} to ${offset}.",,GMLV action story
+GMStdGetAudioLoopEnd_Name,"Get Audio Loop End","Get Audio Loop End",,GMLV action name
+GMStdGetAudioLoopEnd_Desc,"Get the loop-end offset of a sound.","Get the loop-end offset of a sound.",,GMLV action description
+GMStdGetAudioLoopEnd_Story,"Get the loop-end offset of sound ${idx} and store it in ${target}.","Get the loop-end offset of sound ${idx} and store it in ${target}.",,GMLV action story
