@@ -4702,6 +4702,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Get Audio Loop End"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112051Z">
+        <seg>"获取音频循环结束"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Audio Loop Start"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112044Z">
+        <seg>"获取音频循环结束"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get Audio Loop State"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112000Z">
+        <seg>"获取音频循环状态"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Get Audio Pitch"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T131035Z">
@@ -6050,6 +6074,54 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T011810Z" creationid="liaronce" creationdate="20210228T124918Z">
         <seg>"获取实例中的生命值。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the loop state of a playing sound."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112003Z">
+        <seg>"获取播放声音的循环状态。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the loop state of sound ${idx} and store it in ${target}."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112010Z">
+        <seg>"获取声音 ${idx} 的循环状态并将其存储在 ${target} 中。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the loop-end offset of a sound."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112053Z">
+        <seg>"获取声音的循环结束偏移量。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the loop-end offset of sound ${idx} and store it in ${target}."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112103Z">
+        <seg>"获取声音 ${idx} 的循环结束偏移量并将其存储在 ${target} 中。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the loop-start offset of a sound."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112045Z">
+        <seg>"获取声音的循环起始偏移量。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Get the loop-start offset of sound ${idx} and store it in ${target}."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112046Z">
+        <seg>"获取声音 ${idx} 的循环起始偏移量并将其存储在 ${target} 中。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -12630,6 +12702,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set Audio Loop End"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112047Z">
+        <seg>"设置音频循环结束"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set Audio Loop Start"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112012Z">
+        <seg>"设置音频循环开始"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set Audio Loop State"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T111945Z">
+        <seg>"设置音频循环状态"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set Audio Pitch"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T131027Z">
@@ -14206,6 +14302,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Set the loop state of a playing sound."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T111948Z">
+        <seg>"设置播放声音的循环状态。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set the loop state of sound ${idx} to ${state}."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T111957Z">
+        <seg>"将声音 ${idx} 的循环状态设置为 ${state}。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set the loop-end offset of a sound."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112049Z">
+        <seg>"设置声音的循环结束偏移量。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set the loop-end offset of sound ${idx} to ${offset}."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112050Z">
+        <seg>"将声音 ${idx} 的循环结束偏移量设置为 ${offset}。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set the loop-start offset of a sound."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112031Z">
+        <seg>"设置声音的循环开始偏移。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Set the loop-start offset of sound ${idx} to ${offset}."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T112038Z">
+        <seg>"将声音 ${idx} 的循环起始偏移量设置为 ${offset}。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Set the master volume that all other volumes are relative to."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T131519Z" creationid="liaronce" creationdate="20210228T131519Z">
@@ -15624,8 +15768,8 @@
       <tuv lang="en-US">
         <seg>"This preset can be shared amongst different Particle Systems in your project.\nEditing when linked will update everywhere its applied in your project."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105722Z" creationid="LiarOnce" creationdate="20230308T105722Z">
-        <seg>“此预设可在项目中的不同粒子系统之间共享。\n链接时的编辑将更新其在项目中应用的所有位置。”</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T112219Z" creationid="LiarOnce" creationdate="20230308T105722Z">
+        <seg>"此预设可在项目中的不同粒子系统之间共享。\n链接时的编辑将更新其在项目中应用的所有位置。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -19548,6 +19692,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Add new Emitter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110906Z" creationid="LiarOnce" creationdate="20230308T110906Z">
+        <seg>添加新发射器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Add new range</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170313T143955Z" creationid="deciia" creationdate="20170102T071353Z">
@@ -19666,6 +19818,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141550Z" creationid="liaronce" creationdate="20200820T141550Z">
         <seg>已将参数 ‘{0}’ 添加到轨道。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Additional command-line arguments passed into the Conan process.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111812Z" creationid="LiarOnce" creationdate="20230308T111812Z">
+        <seg>传递给 Conan 进程的其他命令行参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20488,6 +20648,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>An unexpected error (code: {0}) occurred when updating the packages.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111939Z" creationid="LiarOnce" creationdate="20230308T111939Z">
+        <seg>更新包时发生意外错误(代码：{0})。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>An update is available for the current manual language ({0}).</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115907Z" creationid="liaronce" creationdate="20201124T115907Z">
@@ -21040,6 +21208,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Apply Preset?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110834Z" creationid="LiarOnce" creationdate="20230308T110834Z">
+        <seg>是否应用预设？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Apply To</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T052336Z" creationid="deciia" creationdate="20170104T052336Z">
@@ -21124,6 +21300,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T022234Z" creationid="deciia" creationdate="20170106T155959Z">
         <seg>应用于其他实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Applying a Preset will replace the current emitter settings.\nThis operation is not undoable.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110846Z" creationid="LiarOnce" creationdate="20230308T110846Z">
+        <seg>应用预设将替换当前发射器设置。\n此操作不可撤消。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22662,6 +22846,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Automatic response to applying a preset</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110926Z" creationid="LiarOnce" creationdate="20230308T110916Z">
+        <seg>自动响应应用预设</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Automatic response to closing a workspace via keyboard shortcut</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T052000Z" creationid="deciia" creationdate="20180922T052000Z">
@@ -22988,6 +23180,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T102210Z" creationid="deciia" creationdate="20180922T102210Z">
         <seg>自动响应tvOS持久存储限制警告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatic response to unlinking emitters</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110917Z" creationid="LiarOnce" creationdate="20230308T110917Z">
+        <seg>自动响应解除链接的发射器</seg>
       </tuv>
     </tu>
     <tu>
@@ -24782,6 +24982,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20191118T141738Z">
         <seg>无法使用试用许可证导入项目 "{0}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Cannot invoke multiple instances of GMPM. Please wait for the package manager to complete before invoking it a second time.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111819Z" creationid="LiarOnce" creationdate="20230308T111819Z">
+        <seg>无法调用多个 GMPM 实例。请等待包管理器完成，然后再次调用它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27215,6 +27423,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T151247Z" creationid="LiarOnce" creationdate="20220527T151247Z">
         <seg>颜色替换为 Alpha</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colour Select</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111615Z" creationid="LiarOnce" creationdate="20230308T111615Z">
+        <seg>颜色选择</seg>
       </tuv>
     </tu>
     <tu>
@@ -30510,6 +30726,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Custom Particles</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110850Z" creationid="LiarOnce" creationdate="20230308T110850Z">
+        <seg>自定义粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Cut</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T091819Z" creationid="deciia" creationdate="20170102T091819Z">
@@ -31106,6 +31330,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T160728Z" creationid="deciia" creationdate="20170311T160728Z">
         <seg>默认绘制颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Default emitters panel orientation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110928Z" creationid="LiarOnce" creationdate="20230308T110928Z">
+        <seg>默认发射器面板方向</seg>
       </tuv>
     </tu>
     <tu>
@@ -31835,6 +32067,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133101Z" creationid="liaronce" creationdate="20200820T133101Z">
         <seg>删除粒子发射器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Delete selected Emitters</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110907Z" creationid="LiarOnce" creationdate="20230308T110907Z">
+        <seg>删除选定的发射器</seg>
       </tuv>
     </tu>
     <tu>
@@ -36725,6 +36965,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Errors Occured</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111649Z" creationid="LiarOnce" creationdate="20230308T111649Z">
+        <seg>发生错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Errors creating session</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180924T031319Z" creationid="deciia" creationdate="20170104T043431Z">
@@ -37385,6 +37633,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T042032Z" creationid="deciia" creationdate="20180922T042032Z">
         <seg>扩展错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Extension HTML5 Properties</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111004Z" creationid="LiarOnce" creationdate="20230308T111004Z">
+        <seg>扩展 HTML5 属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -38189,6 +38445,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>File Scanner</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111648Z" creationid="LiarOnce" creationdate="20230308T111648Z">
+        <seg>文件扫描仪</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>File Size:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T073131Z" creationid="deciia" creationdate="20170103T073131Z">
@@ -38635,6 +38899,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170105T065916Z">
         <seg>翻转Tile 贴图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Floating</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110936Z" creationid="LiarOnce" creationdate="20230308T110936Z">
+        <seg>浮动</seg>
       </tuv>
     </tu>
     <tu>
@@ -40655,6 +40927,30 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T095328Z" creationid="deciia" creationdate="20170311T144530Z">
         <seg>GML函数可以支持可变数量参数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMPM failure</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111859Z" creationid="LiarOnce" creationdate="20230308T111859Z">
+        <seg>GMPM 失败</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMPM invalid</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111823Z" creationid="LiarOnce" creationdate="20230308T111823Z">
+        <seg>GMPM 无效</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMPM success</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111845Z" creationid="LiarOnce" creationdate="20230308T111845Z">
+        <seg>GMPM 成功</seg>
       </tuv>
     </tu>
     <tu>
@@ -52765,6 +53061,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Login Failed!</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110944Z" creationid="LiarOnce" creationdate="20230308T110944Z">
+        <seg>登录失败！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Login successful</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T043208Z" creationid="deciia" creationdate="20170104T043208Z">
@@ -56172,6 +56476,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Number of Swatches</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110955Z" creationid="LiarOnce" creationdate="20230308T110955Z">
+        <seg>样本数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Number of blowers</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115051Z" creationid="LiarOnce" creationdate="20220527T115051Z">
@@ -58641,6 +58953,22 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Particle Editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110929Z" creationid="LiarOnce" creationdate="20230308T110929Z">
+        <seg>粒子编辑器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Particle Emitter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111611Z" creationid="LiarOnce" creationdate="20230308T111611Z">
+        <seg>粒子发射器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Particle Emitters</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20180216T150153Z" creationid="36011" creationdate="20180216T150153Z">
@@ -58649,10 +58977,42 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Particle Library</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110915Z" creationid="LiarOnce" creationdate="20230308T110915Z">
+        <seg>粒子库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Particle Preset '{0}' already exists.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105751Z" creationid="LiarOnce" creationdate="20230308T105751Z">
         <seg>粒子预设 '{0}' 已存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Particle System</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111610Z" creationid="LiarOnce" creationdate="20230308T111610Z">
+        <seg>粒子系统</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Particle System Instance</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111614Z" creationid="LiarOnce" creationdate="20230308T111614Z">
+        <seg>粒子系统实例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Particle System Instances</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111613Z" creationid="LiarOnce" creationdate="20230308T111613Z">
+        <seg>粒子系统实例</seg>
       </tuv>
     </tu>
     <tu>
@@ -65728,6 +66088,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Save as Preset</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110908Z" creationid="LiarOnce" creationdate="20230308T110908Z">
+        <seg>另存为预设</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Save buffer ${buffer} to file ${filename}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152343Z">
@@ -66456,6 +66824,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>See the output log for more information.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111941Z" creationid="LiarOnce" creationdate="20230308T111941Z">
+        <seg>有关详细信息，请参阅输出日志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>See the release notes for an installer download link.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T141855Z" creationid="lazyeo" creationdate="20191120T141855Z">
@@ -66476,6 +66852,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T093001Z" creationid="LiarOnce" creationdate="20221130T093001Z">
         <seg>详细信息请参见 ui.log</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>See your ui.log for more info</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111659Z" creationid="LiarOnce" creationdate="20230308T111659Z">
+        <seg>有关更多信息，请参阅您的 ui.log</seg>
       </tuv>
     </tu>
     <tu>
@@ -66820,6 +67204,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T102711Z" creationid="deciia" creationdate="20170103T102704Z">
         <seg>选择父物体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select Particles</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110848Z" creationid="LiarOnce" creationdate="20230308T110848Z">
+        <seg>选择粒子</seg>
       </tuv>
     </tu>
     <tu>
@@ -70936,6 +71328,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Shared Particle Emitter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110909Z" creationid="LiarOnce" creationdate="20230308T110909Z">
+        <seg>共享粒子发射器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>SharedBinary SubConfigs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112400Z" creationid="liaronce" creationdate="20211002T112400Z">
@@ -74206,6 +74606,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Submission packages cannot be launched on an Xbox development kit</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111646Z" creationid="LiarOnce" creationdate="20230308T111646Z">
+        <seg>提交包不能在 Xbox 开发工具包上启动</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Submit</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T051415Z" creationid="deciia" creationdate="20180922T051415Z">
@@ -74250,6 +74658,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T201215Z" creationid="deciia" creationdate="20180922T201215Z">
         <seg>成功导入项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Successfully installed packages to '{0}'!</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111854Z" creationid="LiarOnce" creationdate="20230308T111854Z">
+        <seg>已成功将程序包安装到 '{0}'！</seg>
       </tuv>
     </tu>
     <tu>
@@ -75511,6 +75927,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The Packages File field must not be empty.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111824Z" creationid="LiarOnce" creationdate="20230308T111824Z">
+        <seg>包文件字段不能为空。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The Packages Install Directory field must not be empty.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111826Z" creationid="LiarOnce" creationdate="20230308T111826Z">
+        <seg>程序包安装目录字段不能为空。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The Packages Remote field must not be empty.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111841Z" creationid="LiarOnce" creationdate="20230308T111835Z">
+        <seg>程序包远程字段不能为空。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The Patch file is missing.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T022107Z" creationid="deciia" creationdate="20180922T202458Z">
@@ -76087,6 +76527,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The name of the remote Conan repository containing the packages.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111715Z" creationid="LiarOnce" creationdate="20230308T111715Z">
+        <seg>包含包的远程 Conan 存储库的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The path for the Nintendo Switch NEX SDK does not exist.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T142829Z" creationid="liaronce" creationdate="20191118T142829Z">
@@ -76243,6 +76691,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T142838Z" creationid="deciia" creationdate="20170311T142838Z">
         <seg>该请求在完成之前被取消。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The root directory where the packages will be installed into.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111706Z" creationid="LiarOnce" creationdate="20230308T111706Z">
+        <seg>程序包将安装到的根目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -77313,6 +77769,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T070707Z" creationid="deciia" creationdate="20180922T070707Z">
         <seg>该脚本没有源代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This should be the filepath of a 'conanfile.txt' which contains the packages to fetch.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111704Z" creationid="LiarOnce" creationdate="20230308T111704Z">
+        <seg>这应该是包含要获取的包的 ‘conanfile.txt’ 的文件路径。</seg>
       </tuv>
     </tu>
     <tu>
@@ -79751,6 +80215,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Unlink</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110903Z" creationid="LiarOnce" creationdate="20230308T110858Z">
+        <seg>取消链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unlink emitters</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110902Z" creationid="LiarOnce" creationdate="20230308T110902Z">
+        <seg>取消链接发射器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Unlock asset track in track panel\n to continue editing</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115425Z" creationid="liaronce" creationdate="20201124T115425Z">
@@ -79895,6 +80375,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Update License Failed!</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110954Z" creationid="LiarOnce" creationdate="20230308T110946Z">
+        <seg>许可证更新失败！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Update Particle System</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170212T151422Z" creationid="deciia" creationdate="20170212T151422Z">
@@ -79979,6 +80467,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133202Z" creationid="liaronce" creationdate="20200820T133202Z">
         <seg>更新： {0}ms</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Updated License Successfully!</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110945Z" creationid="LiarOnce" creationdate="20230308T110945Z">
+        <seg>许可证更新成功！</seg>
       </tuv>
     </tu>
     <tu>
@@ -80327,6 +80823,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use US Date Format</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111609Z" creationid="LiarOnce" creationdate="20230308T111609Z">
+        <seg>使用美国日期格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use a Sprite from the project as a particle type</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T131703Z" creationid="liaronce" creationdate="20200820T131703Z">
@@ -80483,6 +80987,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105719Z" creationid="LiarOnce" creationdate="20230308T105719Z">
         <seg>用户处理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Sign In</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110941Z" creationid="LiarOnce" creationdate="20230308T110941Z">
+        <seg>用户登录</seg>
       </tuv>
     </tu>
     <tu>
@@ -81520,6 +82032,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T084200Z" creationid="deciia" creationdate="20170102T084200Z">
         <seg>欢迎页</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Welcome To GameMaker</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110940Z" creationid="LiarOnce" creationdate="20230308T110940Z">
+        <seg>欢迎使用 GameMaker</seg>
       </tuv>
     </tu>
     <tu>
@@ -82669,10 +83189,26 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Xbox One Developer Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111627Z" creationid="LiarOnce" creationdate="20230308T111616Z">
+        <seg>Xbox One 开发人员包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Xbox One SDK location</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T081930Z" creationid="deciia" creationdate="20180922T081930Z">
         <seg>Xbox One SDK 位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Xbox One Submission Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111634Z" creationid="LiarOnce" creationdate="20230308T111634Z">
+        <seg>Xbox One 提交包</seg>
       </tuv>
     </tu>
     <tu>
@@ -82731,6 +83267,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112309Z" creationid="liaronce" creationdate="20211002T112309Z">
         <seg>Xbox Series X/S (YYC)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Xbox Series X/S Developer Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111629Z" creationid="LiarOnce" creationdate="20230308T111629Z">
+        <seg>Xbox Series X/S 开发人员包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Xbox Series X/S Submission Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111639Z" creationid="LiarOnce" creationdate="20230308T111639Z">
+        <seg>Xbox Series X/S 提交包</seg>
       </tuv>
     </tu>
     <tu>
@@ -82915,6 +83467,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T064157Z" creationid="deciia" creationdate="20170103T111839Z">
         <seg>您正要从视野 ""{1}""中删除""{0}""。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You are going to unlink this item from its current preset.\nDo you want to continue?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110905Z" creationid="LiarOnce" creationdate="20230308T110905Z">
+        <seg>您将取消此项目与其当前预设的链接。\n是否要继续？</seg>
       </tuv>
     </tu>
     <tu>
@@ -83139,6 +83699,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170106T160937Z" creationid="deciia" creationdate="20170106T160937Z">
         <seg>你选择使用一个新皮肤，但是这个更改需要重启。\n现在你希望重启IDE吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You have signed in successfully!</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110943Z" creationid="LiarOnce" creationdate="20230308T110943Z">
+        <seg>您已成功登录！</seg>
       </tuv>
     </tu>
     <tu>
@@ -85611,6 +86179,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>{0} [{1}] - Emitters</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T110914Z" creationid="LiarOnce" creationdate="20230308T110914Z">
+        <seg>{0} [{1}] - 发射器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>{0} at action '{1}': \t{2}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T055726Z" creationid="LiarOnce" creationdate="20220730T055726Z">
@@ -85647,6 +86223,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170114T040456Z" creationid="deciia" creationdate="20161224T080909Z">
         <seg>{0} 没有实现ICloneable接口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0} errors occured while parsing plugin metadata.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111653Z" creationid="LiarOnce" creationdate="20230308T111653Z">
+        <seg>分析插件元数据时出现 {0} 个错误。</seg>
       </tuv>
     </tu>
     <tu>
