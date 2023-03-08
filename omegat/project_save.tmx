@@ -15622,6 +15622,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"This preset can be shared amongst different Particle Systems in your project.\nEditing when linked will update everywhere its applied in your project."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105722Z" creationid="LiarOnce" creationdate="20230308T105722Z">
+        <seg>“此预设可在项目中的不同粒子系统之间共享。\n链接时的编辑将更新其在项目中应用的所有位置。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"This project is of an older format and will need to be converted.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135059Z" creationid="liaronce" creationdate="20210228T135056Z">
@@ -29358,10 +29366,26 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create Executable (login to Enable)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105717Z" creationid="LiarOnce" creationdate="20230308T105717Z">
+        <seg>创建可执行文件(登录以启用)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create Executable (not available with Trial Licence)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T151403Z" creationid="deciia" creationdate="20180921T151403Z">
         <seg>创建可执行文件 (试用版许可证不可用)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create Executable and Launch</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105716Z" creationid="LiarOnce" creationdate="20230308T105716Z">
+        <seg>创建可执行文件并启动</seg>
       </tuv>
     </tu>
     <tu>
@@ -33155,6 +33179,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T153600Z" creationid="deciia" creationdate="20170103T115404Z">
         <seg>您要打开{0}这些资源进行编辑吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do you want to overwrite it with the current settings?\nThis operation is not undoable.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105754Z" creationid="LiarOnce" creationdate="20230308T105754Z">
+        <seg>是否要用当前设置覆盖它？\n此操作不可撤消。</seg>
       </tuv>
     </tu>
     <tu>
@@ -55184,6 +55216,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>New Particle Preset</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105720Z" creationid="LiarOnce" creationdate="20230308T105720Z">
+        <seg>新粒子预设</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>New Project</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170320T142811Z" creationid="deciia" creationdate="20170102T070427Z">
@@ -57911,6 +57951,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Overwrite Existing Preset?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105743Z" creationid="LiarOnce" creationdate="20230308T105743Z">
+        <seg>是否覆盖现有预设？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Overwrite: Apply curve once across all selected sections</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210305T014239Z" creationid="liaronce" creationdate="20210305T014239Z">
@@ -58597,6 +58645,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20180216T150153Z" creationid="36011" creationdate="20180216T150153Z">
         <seg>粒子发射器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Particle Preset '{0}' already exists.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105751Z" creationid="LiarOnce" creationdate="20230308T105751Z">
+        <seg>粒子预设 '{0}' 已存在。</seg>
       </tuv>
     </tu>
     <tu>
@@ -60833,6 +60889,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T143042Z" creationid="liaronce" creationdate="20191118T143042Z">
         <seg>预览自适应图标：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Preview Colour</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105719Z" creationid="LiarOnce" creationdate="20230308T105719Z">
+        <seg>预览颜色</seg>
       </tuv>
     </tu>
     <tu>
@@ -65692,6 +65756,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152559Z">
         <seg>将游戏保存到 ${applyto} 上的文件 ${filename} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save new preset:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105724Z" creationid="LiarOnce" creationdate="20230308T105724Z">
+        <seg>保存新预设：</seg>
       </tuv>
     </tu>
     <tu>
@@ -79839,6 +79911,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Update Skin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105718Z" creationid="LiarOnce" creationdate="20230308T105718Z">
+        <seg>更新皮肤</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Update System Fonts</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T143627Z" creationid="LiarOnce" creationdate="20220527T143627Z">
@@ -80395,6 +80475,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T101407Z" creationid="deciia" creationdate="20170105T101407Z">
         <seg>用户名：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>User Processing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105719Z" creationid="LiarOnce" creationdate="20230308T105719Z">
+        <seg>用户处理</seg>
       </tuv>
     </tu>
     <tu>
@@ -85487,6 +85575,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T194130Z" creationid="deciia" creationdate="20180922T194130Z">
         <seg>{0} 程序包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0} Preset</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105741Z" creationid="LiarOnce" creationdate="20230308T105741Z">
+        <seg>{0} 预设</seg>
       </tuv>
     </tu>
     <tu>
