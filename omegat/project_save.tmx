@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.8.0_0_33926380" segtype="sentence" srclang="en-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.7.1_0_c3206253" segtype="sentence" srclang="en-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -36579,8 +36579,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>English</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T102545Z" creationid="qq106" creationdate="20191117T134244Z">
-        <seg>English</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T113034Z" creationid="qq106" creationdate="20191117T134244Z">
+        <seg>中文(简体)</seg>
       </tuv>
     </tu>
     <tu>
@@ -86594,6 +86594,36 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
     </tu>
 <!-- Alternative translations -->
+    <tu>
+      <prop type="file">English/english.csv</prop>
+      <prop type="id">GMLVisualMaker_LangEng</prop>
+      <tuv lang="en-US">
+        <seg>English</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T113117Z" creationid="LiarOnce" creationdate="20230505T113117Z">
+        <seg>English</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">English/english.csv</prop>
+      <prop type="id">_Language</prop>
+      <tuv lang="en-US">
+        <seg>English</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T113100Z" creationid="LiarOnce" creationdate="20230505T113100Z">
+        <seg>Chinese(Simplified)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <prop type="file">English/english_dnd.csv</prop>
+      <prop type="id">_Language</prop>
+      <tuv lang="en-US">
+        <seg>English</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T113149Z" creationid="LiarOnce" creationdate="20230505T113043Z">
+        <seg>Chinese(Simplified)</seg>
+      </tuv>
+    </tu>
     <tu>
       <prop type="file">english.csv</prop>
       <prop type="id">$win_IDEMenuViews</prop>
