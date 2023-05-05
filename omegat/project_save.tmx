@@ -3038,6 +3038,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Draw ""${caption}"" ${var} at ${dnd_position} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120601Z" creationid="LiarOnce" creationdate="20230505T120601Z">
+        <seg>"在${applyto}上的${dnd_position}处绘制"${caption}"${var}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Draw ""${caption}"" ${var} at ${dnd_position}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120600Z" creationid="LiarOnce" creationdate="20230505T120600Z">
+        <seg>"在${DND_POSITION}处绘制"${Caption}"${var}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Draw ""${caption}"" at ${dnd_position} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120558Z" creationid="LiarOnce" creationdate="20230505T120558Z">
+        <seg>在${applyto}上的${DND_Position}处绘制"${Caption}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Draw ""${caption}"" at ${dnd_position}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120550Z" creationid="LiarOnce" creationdate="20230505T120550Z">
+        <seg>"在${dnd_position}处绘制"${caption}""</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Draw "${caption}" ${var} at ${dnd_position} on ${applyto}"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210304T131720Z">
@@ -3098,6 +3130,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210304T131751Z">
         <seg>"在${applyto}上的${DND_Position}处绘制${applyto}的分数"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Draw ${applyto}'s score at ${dnd_position} with caption ""${caption}"" on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120618Z" creationid="LiarOnce" creationdate="20230505T120618Z">
+        <seg>在${applyto}上的${DND_POSITION}处绘制${applyto}的分数，标题为"${caption}"</seg>
       </tuv>
     </tu>
     <tu>
@@ -3486,6 +3526,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Draw score at ${dnd_position} with caption ""${caption}"""</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120617Z" creationid="LiarOnce" creationdate="20230505T120617Z">
+        <seg>"在${DND_POSITION}处绘制分数，标题为"${CAPTION}""</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Draw score at ${dnd_position} with caption "${caption}""</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210304T131750Z">
@@ -3610,6 +3658,38 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210304T131721Z">
         <seg>"在${DND_POSITION}转换的绘图"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Draw transformed ""${caption}"" ${var} at ${dnd_position} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120616Z" creationid="LiarOnce" creationdate="20230505T120616Z">
+        <seg>在${applyto}的${DND_POSITION}处绘制已转换的"${Caption}"${var}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Draw transformed ""${caption}"" ${var} at ${dnd_position}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120615Z" creationid="LiarOnce" creationdate="20230505T120615Z">
+        <seg>"在${DND_POSITION}处绘制转换后的"${Caption}"${var}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Draw transformed ""${caption}"" at ${dnd_position} on ${applyto}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120614Z" creationid="LiarOnce" creationdate="20230505T120614Z">
+        <seg>在${applyto}上的${DND_POSITION}处绘制已转换的"${CAPTION}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Draw transformed ""${caption}"" at ${dnd_position}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120613Z" creationid="LiarOnce" creationdate="20230505T120613Z">
+        <seg>"在${DND_POSITION}处绘制转换后的"${Caption}"</seg>
       </tuv>
     </tu>
     <tu>
@@ -34541,10 +34621,34 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Draw  ${var} at ${dnd_position}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120537Z" creationid="LiarOnce" creationdate="20230505T120537Z">
+        <seg>在 ${dnd_position} 处绘制 ${var} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Draw  ${var} at ${dnd_position} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120538Z" creationid="LiarOnce" creationdate="20230505T120538Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 处绘制 ${var} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Draw  at ${dnd_position}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120532Z" creationid="LiarOnce" creationdate="20230505T120532Z">
         <seg>在 ${dnd_position} 处绘制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Draw  at ${dnd_position} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120536Z" creationid="LiarOnce" creationdate="20230505T120536Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 处绘制</seg>
       </tuv>
     </tu>
     <tu>
@@ -35225,6 +35329,38 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115032Z" creationid="LiarOnce" creationdate="20220527T115032Z">
         <seg>仅绘制轨迹</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Draw transformed  ${var} at ${dnd_position}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120611Z" creationid="LiarOnce" creationdate="20230505T120611Z">
+        <seg>在 ${dnd_position} 处绘制转换后的 ${var} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Draw transformed  ${var} at ${dnd_position} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120612Z" creationid="LiarOnce" creationdate="20230505T120612Z">
+        <seg>在 ${applyto} 的 ${dnd_position} 处绘制转换后的 ${var} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Draw transformed  at ${dnd_position}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120603Z" creationid="LiarOnce" creationdate="20230505T120603Z">
+        <seg>在 ${dnd_position} 转换的绘图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Draw transformed  at ${dnd_position} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120605Z" creationid="LiarOnce" creationdate="20230505T120605Z">
+        <seg>在 ${applyto} 上的 ${dnd_position} 处转换的绘图</seg>
       </tuv>
     </tu>
     <tu>
@@ -71326,6 +71462,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation ${incr} and wiggle ${wiggle}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120625Z" creationid="LiarOnce" creationdate="20230505T120625Z">
+        <seg>设置粒子类型 ${type} 的方向，从最小 ${mindir} 到最大 ${maxdir} ，旋转 $(incr} 和摆动 ${wigger} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set direction of particle type ${type} from min ${mindir} to max ${maxdir} with rotation ${incr} and wiggle ${wiggle} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120625Z" creationid="LiarOnce" creationdate="20230505T120625Z">
+        <seg>在 ${applyto} 上设置粒子类型 ${type} 的方向，从最小 ${mindir} 到最大 ${maxdir} ，旋转 $(incr} 和摆动 ${wigger} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set direction to ${direction}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151638Z">
@@ -71638,6 +71790,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120627Z" creationid="LiarOnce" creationdate="20230505T120627Z">
+        <seg>将粒子类型 ${type} 的方向从最小 ${minangle} 设置为最大 ${maxangle} ，旋转 $(incr} 和摆动 ${wigger} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120631Z" creationid="LiarOnce" creationdate="20230505T120631Z">
+        <seg>在 ${applyto} 上将粒子类型 ${type} 的方向从最小 ${minangle} 设置为最大 ${maxangle} ，并使用旋转 $(incr} 和摆动 ${wigger} 设置粒子类型 ${type} 的方向</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set path position to ${position}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152522Z">
@@ -71726,6 +71894,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120626Z" creationid="LiarOnce" creationdate="20230505T120626Z">
+        <seg>将粒子类型 ${type} 的相对方向从最小 ${minangle} 设置为最大 ${maxangle} ，旋转 $(incr} 和摆动 ${wiggle} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set relative orientation of particle type ${type} from min ${minangle} to max ${maxangle} with rotation ${incr} and wiggle ${wiggle} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120627Z" creationid="LiarOnce" creationdate="20230505T120627Z">
+        <seg>将粒子类型 ${type} 的相对方向从最小 ${minangle} 设置为最大 ${maxangle} ，旋转 $(incr} )，并在 ${applyto} 上摆动 ${wiggle} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set rotation to ${angle}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T144156Z">
@@ -71790,6 +71974,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase ${sizeincr} and wiggle ${wiggle}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120622Z" creationid="LiarOnce" creationdate="20230505T120622Z">
+        <seg>将粒子类型 ${type} 的大小从最小 ${minsize} 设置为最大 ${maxsize} ，并增加$(sizeincr}和wigger ${wigger} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set size of particle type ${type} from min ${minsize} to max ${maxsize} with increase ${sizeincr} and wiggle ${wiggle} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120623Z" creationid="LiarOnce" creationdate="20230505T120623Z">
+        <seg>将粒子类型 ${type} 的大小从最小 ${minsize} 设置为最大 ${maxsize} ，并在 ${applyto} 上增加 $(sizeincr} 和wigger ${wiggle} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase $(incr} and wiggle ${wiggle}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010801Z" creationid="liaronce" creationdate="20200820T152759Z">
@@ -71801,6 +72001,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
         <seg>Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase $(incr} and wiggle ${wiggle} on ${applyto}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010801Z" creationid="liaronce" creationdate="20200820T153722Z">
+        <seg>将粒子类型 ${type} 的速度从最小 ${minspeed} 设置为最大 ${maxspeed} ，并在 ${applyto} 上增加 $(incr} 和wigger ${wiggle} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase ${incr} and wiggle ${wiggle}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120623Z" creationid="LiarOnce" creationdate="20230505T120623Z">
+        <seg>将粒子类型 ${type} 的速度从最小 ${minspeed} 设置为最大 ${maxspeed} ，并增加 $(incr} 和wigger ${wiggle} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set speed of particle type ${type} from min ${minspeed} to max ${maxspeed} with increase ${incr} and wiggle ${wiggle} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120624Z" creationid="LiarOnce" creationdate="20230505T120624Z">
         <seg>将粒子类型 ${type} 的速度从最小 ${minspeed} 设置为最大 ${maxspeed} ，并在 ${applyto} 上增加 $(incr} 和wigger ${wiggle} </seg>
       </tuv>
     </tu>
@@ -71954,6 +72170,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T151902Z">
         <seg>在 ${applyto} 上将文本对齐方式设置为$(halign}和$(valign}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set text alignment to ${halign} and ${valign}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120619Z" creationid="LiarOnce" creationdate="20230505T120619Z">
+        <seg>"将文本对齐方式设置为 ${halign} 和 ${valign}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set text alignment to ${halign} and ${valign} on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120620Z" creationid="LiarOnce" creationdate="20230505T120620Z">
+        <seg>"在 ${applyto} 上将文本对齐方式设置为 ${halign} 和 ${valign}"</seg>
       </tuv>
     </tu>
     <tu>
@@ -72722,6 +72954,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152049Z">
         <seg>在 ${applyto} 上将音频 ${ound} 的音量设置为 ${volume} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set volume of audio ${sound} to ${volume} over ${time} milliseconds</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120620Z" creationid="LiarOnce" creationdate="20230505T120620Z">
+        <seg>"在 ${time} 毫秒内将音频 ${sound} 的音量设置为 ${volume}"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set volume of audio ${sound} to ${volume} over ${time} milliseconds on ${applyto}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120621Z" creationid="LiarOnce" creationdate="20230505T120621Z">
+        <seg>"在 ${applyto} 上将音频 ${sound} 的音量设置为 ${volume} 超过 ${time} 毫秒"</seg>
       </tuv>
     </tu>
     <tu>
