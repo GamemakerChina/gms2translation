@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.7.1_0_c3206253" segtype="sentence" srclang="en-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.8.0_0_33926380" segtype="sentence" srclang="en-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -16598,6 +16598,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"You are about to remove ""{0}"" from view ""{1}"".</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T105708Z" creationid="LiarOnce" creationdate="20230505T105708Z">
+        <seg>“您正要从视野 ""{1}""中删除""{0}""。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"You are signed-in via SSO.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103149Z" creationid="LiarOnce" creationdate="20221130T103117Z">
@@ -22171,6 +22179,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Async - Audio Playback Ended</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T105617Z" creationid="LiarOnce" creationdate="20230505T105608Z">
+        <seg>异步 - 录音回放结束</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Async - Audio Recording</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T043728Z" creationid="deciia" creationdate="20170102T043706Z">
@@ -23758,6 +23774,30 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T151705Z" creationid="deciia" creationdate="20170215T151705Z">
         <seg>混合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Blend (in-game only)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T105712Z" creationid="LiarOnce" creationdate="20230505T105712Z">
+        <seg>混合(仅限游戏中)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Blend Ext (in-game only)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T105726Z" creationid="LiarOnce" creationdate="20230505T105726Z">
+        <seg>混合拓展(仅限游戏中)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Blend Mode</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T105714Z" creationid="LiarOnce" creationdate="20230505T105714Z">
+        <seg>混合模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -29582,6 +29622,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create Executable (Sign In to Export)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T105641Z" creationid="LiarOnce" creationdate="20230505T105641Z">
+        <seg>创建可执行文件(登录以导出)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create Executable (login to Enable)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T105717Z" creationid="LiarOnce" creationdate="20230308T105717Z">
@@ -29594,6 +29642,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T151403Z" creationid="deciia" creationdate="20180921T151403Z">
         <seg>创建可执行文件 (试用版许可证不可用)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create Executable And Run (Sign In to Export)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T105650Z" creationid="LiarOnce" creationdate="20230505T105650Z">
+        <seg>创建可执行文件并启动(登录以导出)</seg>
       </tuv>
     </tu>
     <tu>
@@ -66408,6 +66464,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Scan the QR Code in Opera GX on Android or IOS to link the device to GameMaker</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T105603Z" creationid="LiarOnce" creationdate="20230505T105603Z">
+        <seg>在 Android 或 iOS 上扫描 Opera GX 中的二维码，将设备连接到 GameMaker</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Score</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T151936Z" creationid="deciia" creationdate="20170215T151936Z">
@@ -72090,6 +72154,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sign Out</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T105628Z" creationid="LiarOnce" creationdate="20230505T105628Z">
+        <seg>登出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sign Package</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T084227Z" creationid="lazyeo" creationdate="20191120T084227Z">
@@ -72894,6 +72966,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T091450Z" creationid="deciia" creationdate="20180922T091450Z">
         <seg>声音图标颜色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source Blend Mode</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T105732Z" creationid="LiarOnce" creationdate="20230505T105732Z">
+        <seg>源混合模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -74626,6 +74706,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T132056Z" creationid="liaronce" creationdate="20200820T132056Z">
         <seg>子粒子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Subscribe</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T105550Z" creationid="LiarOnce" creationdate="20230505T105550Z">
+        <seg>订阅</seg>
       </tuv>
     </tu>
     <tu>
@@ -77255,6 +77343,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090551Z" creationid="LiarOnce" creationdate="20220407T090538Z">
         <seg>连接 GML 可视化动作的链的厚度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This Object currently has no Events.\nAdd Events here or via the editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T105634Z" creationid="LiarOnce" creationdate="20230505T105634Z">
+        <seg>此物体当前没有事件。\n在此处或通过编辑器添加事件</seg>
       </tuv>
     </tu>
     <tu>
@@ -81884,6 +81980,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Wallpaper Config</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T105623Z" creationid="LiarOnce" creationdate="20230505T105623Z">
+        <seg>壁纸配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Warmup Frames</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114949Z" creationid="LiarOnce" creationdate="20220527T114949Z">
@@ -84667,6 +84771,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T102147Z" creationid="liaronce" creationdate="20201124T102147Z">
         <seg>https://manual-en.yoyogames.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>https://www.yoyogames.com/en/tutorials</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T105526Z" creationid="LiarOnce" creationdate="20230505T105526Z">
+        <seg>https://www.yoyogames.com/en/tutorials</seg>
       </tuv>
     </tu>
     <tu>
