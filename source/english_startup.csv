@@ -55,6 +55,7 @@ runtime_modules_required_only,Required only,Required only,,A button name
 ImageEditor_SelectAll,Select All,Select All,,Image editor select all menu option
 runtime_modules_remember_selection,Remember Selection,Remember Selection,,Remember selection checkbox label
 Button_Cancel,Cancel,Cancel,,cancel button
+TargetSelection_Platform_Test,Test,Test,,the teset platform title in the platform selection list
 TargetSelection_Platform_android,Android,Android,DO NOT TRANSLATE,the android platform title in the platform selection list
 TargetSelection_Platform_HTML5,HTML5,HTML5,DO NOT TRANSLATE,the html5 platform title in the platform selection list
 TargetSelection_Platform_Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,the linux platform title in the platform selection list
@@ -73,6 +74,12 @@ DialogEditor_Error,Error,Error,,dialog editor error box title
 UserLogin_Exception,Exception - {0},Exception - {0},,exception error
 UserLogin_ServerError,Error ({0}) - {1},Error ({0}) - {1},,server response error
 UserLogin_Retry,Retry,Retry,,User Login - Error Retry
+UserLogin_RetrySSO,Retry Opera Login,Retry Opera Login,,User Login - Error Retry SSO login
+UserLogin_NoRuntime,Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker again.,Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker again.,,user login no runtime message
+UserLogin_InstallRuntimeTitle,Install Runtime {0},Install Runtime {0},,install runtime title
+UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,,runtime free space warning message
+UserLogin_Continue,Continue,Continue,,continue label
 runtime_selection,Runtime Selection,Runtime Selection,,Runtime Selection Window title
 runtime_onstartup_change,Do you want to change your current runtime to the matching IDE version {0}?,Do you want to change your current runtime to the matching IDE version {0}?,,Change current runtime to the version matching the IDE
 UserLogin_OfflineError,Unable to take user offline,Unable to take user offline,,offline error
+opera_env_sso_confirm,"You are using a custom environment for Opera GX settings. If you use Opera Single Sign-on, these settings will be overriden. Do you wish to proceed anyway?","You are using a custom environment for Opera GX settings. If you use Opera Single Sign-on, these settings will be overriden. Do you wish to proceed anyway?",,Warning shown when a user tries to log-in via Opera SSO with a custom environment

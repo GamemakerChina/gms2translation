@@ -703,6 +703,10 @@ fonteditor_includettf,Copy to project,Copy to project,,Font editor include TTF c
 fonteditor_includettf_tooltip,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,Copy the source font into the project\nMarketplace assets containing this resource will also include the source font,,tooltip for the 'includettf' copy to project checkbox
 fonteditor_ttfpath,{0},{0},,Font editor included TTF path
 fonteditor_selectttf,Select Font to Include,Select Font to Include,,Font editor include Font dialog title
+fonteditor_enablesdf,Enable SDF,Enable SDF,,Font editor enable SDF for font checkbox
+fonteditor_enablesdf_tooltip,Enable SDF rendering for this font,Enable SDF rendering for this font,,Font editor enable SDF tooltip
+fonteditor_sdfspread,SDF spread,SDF spread,,Font editor sdf spread value numerical textbox
+fonteditor_sdfspread_tooltip,Select the desired SDF spread distance in pixels\nSmaller values give higher quality results\nLarger values allow for effects that extend further from each character,Select the desired SDF spread distance in pixels\nSmaller values give higher quality results\nLarger values allow for effects that extend further from each character,,Font editor sdf spread value tooltip
 fontrange_add_range,Add Range,Add Range,,Confirm adding the range
 fontrange_ascii,ASCII,ASCII,,Font range dialog - ASCII characters button
 fontrange_caption,Font Range,Font Range,,Name of the font range dialog
@@ -2164,6 +2168,7 @@ SpriteEditor_ColPrecise_Separate,Precise Per Frame (Slow),Precise Per Frame (Slo
 SpriteEditor_ColRectangle,Rectangle,Rectangle,,Sprite editor collision type
 SpriteEditor_ColRectangleRotation,Rectangle with rotation,Rectangle with rotation,,Sprite editor collision type
 SpriteEditor_ColMaskAutomatic,Automatic,Automatic,,Sprite editor automatic collision mask
+SpriteEditor_ColSpineMesh,Spine collision mesh,Spine collision mesh,,Sprite editor collision mask type
 SpriteEditor_ContextMenu_AddFrame,Add Frame,Add Frame,,Sprite editor frame context menu
 SpriteEditor_ContextMenu_Copy,Copy,Copy,,Sprite editor frame context menu
 SpriteEditor_ContextMenu_Delete,Delete,Delete,,Sprite editor frame context menu
@@ -2256,6 +2261,7 @@ ListBoxEnum_eSpriteColKind_Ellipse,Ellipse (Slow),Ellipse (Slow),,Sprite editor 
 ListBoxEnum_eSpriteColKind_Diamond,Diamond (Slow),Diamond (Slow),,Sprite editor collision type
 ListBoxEnum_eSpriteColKind_PrecisePerFrame,Precise Per Frame (Slow),Precise Per Frame (Slow),,Sprite editor collision mask type
 ListBoxEnum_eSpriteColKind_RectangleRotation,Rectangle with rotation,Rectangle with rotation,,Sprite editor collision type
+ListBoxEnum_eSpriteColKind_SpineMesh,Spine collision mesh,Spine collision mesh,,Sprite editor collision type
 ParticleType_NewName,New_Particle_Type,New_Particle_Type,,Name of a newly created particle type resource
 ParticleEmitter_NewName,New_Emitter,New_Emitter,,Name of a newly created particle emitter resource
 ParticleTypeEditor_Title,Particle Types,Particle Types,,Particle type editor window title
@@ -2360,6 +2366,8 @@ ParticleEd_TT_DeleteEmitters,Delete selected Emitters,Delete selected Emitters,,
 ParticleEd_TT_SaveToLibrary,Save as Preset,Save as Preset,,save to library as preset tooltip
 ParticleEd_TT_SharedEmitter,Shared Particle Emitter,Shared Particle Emitter,,shared emitter tooltip
 ParticleEd_FloatingEmitters_TitleBar,{0} [{1}] - Emitters,{0} [{1}] - Emitters,,particle editor emitters panel floating window title bar
+ParticleEd_CopyGMLToClipboard,Copy GML to clipboard,Copy GML to clipboard,,particle ed copy gml to clipboard
+ParticleEd_CopyClipboardMsg,Copied to clipboard!,Copied to clipboard!,,copied to clipboard
 ParticleLibraryFolder,Particle Library,Particle Library,,particle library folder title
 particleEd_presetapply_confirm,Automatic response to applying a preset,Automatic response to applying a preset,,ConfirmPresetApply preference label
 particleEd_unlink_confirm,Automatic response to unlinking emitters,Automatic response to unlinking emitters,,particle emitter unlink confirm preference label
@@ -2567,6 +2575,7 @@ User_Authentication,Two Step Authentication,Two Step Authentication,,User Login 
 User_OK,OK,OK,,User Login - two step authentication ok button
 User_AuthenticationCode,Authentication Code,Authentication Code,,User Login - two step authentication label for the authentication code
 UserLogin_Retry,Retry,Retry,,User Login - Error Retry
+UserLogin_RetrySSO,Retry Opera Login,Retry Opera Login,,User Login - Error Retry SSO login
 UserLogin_MaxDevice,Maximum sign ins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,Maximum sign ins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,,User Login Error response 29
 UserLogin_Error17,You need to authenticate with your Opera SSO details,You need to authenticate with your Opera SSO details,,User Login Error response 17
 UserLogin_Error34,Invalid session (User),Invalid session (User),,User Login Error response 34
@@ -3508,7 +3517,7 @@ TargetSelection_Platform_operagx,GX.games,GX.games,DO NOT TRANSLATE,the opera gx
 TargetSelection_Runtime_VM,VM,VM,, the VM (Virtual Machine) title in the runtime selection list
 TargetSelection_Runtime_YYC,YYC,YYC,DO NOT TRANSLATE, the yyc title in the runtime selection list
 TargetSelection_Runtime_Javascript,JavaScript,JavaScript,DO NOT TRANSLATE, the javascript title in the runtime selection list
-TargetSelection_Runtime_Cronus,Cronus,Cronus,DO NOT TRANSLATE,the cronus title in the runtime selection list
+TargetSelection_Runtime_Cronus,New Runtime,New Runtime,DO NOT TRANSLATE,the cronus title in the runtime selection list
 TargetSelection_Device_Local,Local,Local,, the local device title in the device selection list
 TargetSelection_Device_Default,Default,Default,, the default device title in the device selection list
 TargetSelection_Device_Device,Device,Device,, the 'device' device title in the device selection list
@@ -3555,6 +3564,8 @@ GMLVisual_Pref_StoryMode,GML Visual node overview visibility mode,GML Visual nod
 GMLVisual_Pref_CollapseToolbox,Hide docked GML Visual toolboxes if floating GML Visual toolbox is open,Hide docked GML Visual toolboxes if floating GML Visual toolbox is open,,GML Visual pref
 GMLVisual_Pref_ChainThickness,Thickness of the chain that connects GML Visual actions,Thickness of the chain that connects GML Visual actions,,GML Visual pref
 GMLVisual_Pref_CollapseStory,Hide GML Visual node overview panel,Hide GML Visual node overview panel,,GML Visual pref
+GMLVisual_Pref_ConvertCommentDisabledNodes,Comment out code for disabled nodes when converting to GML Code,Comment out code for disabled nodes when converting to GML Code,,disabled node convert pref
+GMLVisual_Pref_PreviewCommentDisabledNodes,Comment out code for disabled nodes when previewing GML Code,Comment out code for disabled nodes when previewing GML Code,,disabled node preview pref
 GMLVisual_Pref_MaxThumbSize,Maximum size for GML Visual toolbox action thumbnails,Maximum size for GML Visual toolbox action thumbnails,,GML Visual pref
 GMLVisual_Pref_MinThumbSize,Minimum size for GML Visual toolbox action thumbnails,Minimum size for GML Visual toolbox action thumbnails,,GML Visual pref
 GMLVisual_Pref_ThumbSize,Default size for GML Visual toolbox action thumbnails,Default size for GML Visual toolbox action thumbnails,,GML Visual pref
@@ -5281,6 +5292,7 @@ ProgressBar_SpritePreview,Sprite Preview...,Sprite Preview...,,The progress bar 
 ProgressBar_Archiving,Archiving...,Archiving...,,Compressing to a .zip/.yyz/etc...
 ProgressBar_ConvertingGMX,Converting GMX...,Converting GMX...,,converting gmx progress caption
 ProgressBar_FallbackUploading,Fallback Uploading...,Fallback Uploading...,,Uploading with a fallback strategy when the progress is not indicated
+ProgressBar_ProjectTool,ProjectTool...,ProjectTool...,,ProjectTool is running
 TileSetEditor_SpriteNoExport,Disable Source Sprite Export,Disable Source Sprite Export,,checkbox caption to disable the export on the source sprite
 TileSetEditor_AutoTileLibrary_Tooltip,Edit Autotiling,Edit Autotiling,,autotile tooltip
 TileSetEditor_AnimationsLibrary_Tooltip,Edit Tile Animation,Edit Tile Animation,,animation library tooltip
@@ -5854,6 +5866,7 @@ aboutbox_username,Username:,Username:,,Username in About Box
 aboutbox_username_notsignedin,Not Signed In,Not Signed In,,Username in About Box when not signed in
 aboutbox_graphicsvendor,Graphics Vendor:,Graphics Vendor:,,Graphics Vendor in About Box
 aboutbox_cpuvendor,CPU Vendor:,CPU Vendor:,,CPU Vendor in About Box
+aboutbox_credits,Staff Credits,Staff Credits,,Credits in About Box
 Views_Menu_ImageGenerator,Generate Project Images,Generate Project Images,,the ide menu entry for opening the project image generator window
 Update_System_fonts,Refresh System Fonts,Refresh System Fonts,,Refresh system fonts ide menu entry
 PlatformImage_NoFileSelectedTitle,No Image Selected,No Image Selected,,the title for the warning message that no image has been selected
@@ -6222,6 +6235,7 @@ Compiling,Compiling,Compiling,,Compiling preference group subheading
 Confirm Dialogs,Confirm Dialogs,Confirm Dialogs,,Confirm Dialogs preference group subheading
 Debug,Debug,Debug,,Debug preference group subheading
 Font Editor,Font Editor,Font Editor,,Font editor preference group heading
+Theme Editor,Theme Editor,Theme Editor,,Theme editor preference group heading
 Compatibility,Compatibility,Compatibility,,Compatibility preference group subheading
 Debugging,Debugging,Debugging,,Debugging preference group subheading
 Go To,Go To,Go To,,Go To preference group subheading
@@ -6241,6 +6255,7 @@ Tools,Tools,Tools,,Tools preference group subheading
 Auto Tiling,Auto Tiling,Auto Tiling,,Auto Tiling preference group subheading
 Colours,Colours,Colours,,Colours preference group subheading
 Code Editor,Code Editor,Code Editor,,Code Editor preference group subheading
+Code Editor 2,Code Editor 2,Code Editor 2,,Code Editor 2 preference group subheading
 Visual Editor,Visual Editor,Visual Editor,,Visual Editor preference group subheading
 GML,GML Code,GML Code,,GML Code preference group subheading
 GMLVisual,GML Visual,GML Visual,,GML Visual preference group subheading
@@ -6417,6 +6432,9 @@ Options_PS5ToolsSetupTrophyMessage,Unable to find PlayStation 5 trophy editor.\n
 Options_PS5ToolsPreference,Go to PlayStation 5 settings,Go to PlayStation 5 settings,,button message to take user to PS5 preferences
 Options_PS5ToolsSetupParamSFOMessage,Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0},Unable to find PlayStation 5 param.sfo editor.\nPlease update your tools directory.\n{0},,error message when failed to find the param.sfo editor
 Options_PS5ToolsSetupShareParamMessage,Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0},Unable to find PlayStation 5 share file editor.\nPlease update your tools directory.\n{0},,error message when failed to find the param.sfo editor
+Options_XBoxToolsPreference,Go to Xbox settings,Go to Xbox settings,,button message to take user to xbox preferences
+Options_XBoxToolsSetupError,Xbox Tools Missing,Xbox Tools Missing,,error dialog title when unable to find a xbox tool
+Options_XBoxToolsSetupServiceConfigMessage,Unable to find GDK executable xcetool.exe.\nPlease update your GDK base location directory.\n{0},Unable to find GDK executable xcetool.exe.\nPlease update your GDK base location directory.\n{0},,error message when failed to find the xce.exe
 BreakpointManager_Script,Script: {0},Script: {0},,breakpoint manager caption for a script
 BreakpointManager_Object,Object: {0}: {1},Object: {0}: {1},,breakpoint manager caption for an object event
 BreakpointManager_Timeline,Timeline: {0}: moment {1},Timeline: {0}: moment {1},,breakpoint manager caption for a timeline moment
@@ -6603,7 +6621,8 @@ FileFilter_XboxSeriesSubmissionPackage,Xbox Series X/S Submission Package,Xbox S
 XboxDeploySubmissionPackageError_Title,Error,Error,,
 XboxDeploySubmissionPackageError_Message,Submission packages cannot be launched on an Xbox development kit,Submission packages cannot be launched on an Xbox development kit,,
 tvOS,tvOS,tvOS,,tvOS label for game options
-Cronus,Cronus,Cronus,,Cronus label for game options
+Cronus,New Runtime,New Runtime,,Cronus label for game options
+GMPM,GMPM,GMPM,,GMPM label for game options
 amazonfire_nodevices_title,No Amazon devices detected,No Amazon devices detected,,No Amazon devices detected title
 amazonfire_nodevices_messages,There were no Amazon Fire devices detected.,There were no Amazon Fire devices detected.,,No Amazon devices detected message
 device_manager_error,Device Manager Error,Device Manager Error,,Error message title for Device Manager
@@ -6695,6 +6714,8 @@ ggs_xboxone_x_title_memory,Xbox One X title memory (GB),Xbox One X title memory 
 ggs_xboxone_x_title_memory_tooltip,The amount of memory in gigabytes to dedicate to this game on Xbox One X \nAllows games to take advantage of full xbox one x available memory or request less to improve load times,The amount of memory in gigabytes to dedicate to this game on Xbox One X \nAllows games to take advantage of full xbox one x available memory or request less to improve load times,,tooltip for xbox one x dedicated memory
 ggs_xboxone_support_4k_one_x,Support 4k on Xbox One X,Support 4k on Xbox One X,,Support 4k output resolution on Xbox One X
 ggs_xboxone_support_4k_one_s,Support 4k on Xbox One S,Support 4k on Xbox One S,,Support 4k output resolution on Xbox One S
+ggs_xboxone_support_4k_sx,Support 4k on Xbox Series X,Support 4k on Xbox Series X,,Support 4k output resolution on Xbox Series X
+ggs_xboxone_support_4k_ss,Support 4k on Xbox Series S,Support 4k on Xbox Series S,,Support 4k output resolution on Xbox Series S
 preferences_generate_patch,Generate Patch,Generate Patch,,Label for generating new patch
 preferences_install_patch,Install Patch,Install Patch,,Label for installing a patch
 Patching,Patching,Patching,,Patching
@@ -7460,6 +7481,7 @@ runtime_clean_title,Runtime Deletion,Runtime Deletion,,Runtime Deletion title
 tvos_show_file_warning,Automatic response to tvOS persistent storage limitation warning,Automatic response to tvOS persistent storage limitation warning,,Show tvOS file system warning preference setting
 tvos_file_warning,tvOS persistent storage space is currently limited to 500k via NSUserDefaults. Please consider using cloud storage for this target.,tvOS persistent storage space is currently limited to 500k via NSUserDefaults. Please consider using cloud storage for this target.,,Warning message for the tvos file system limitations
 ggs_requires_nex,Enable support for NEX libraries,Enable support for NEX libraries,,Enable support for NEX libraries
+ggs_requires_npln,Enable support for NPLN libraries,Enable support for NPLN libraries,,Enable support for NPLN libraries
 Build_Switch_NoNMetaSlim_Message,There is no SLIM data configured. Visit https://slim.mng.nintendo.net/slim/home to create it?,There is no SLIM data configured. Visit https://slim.mng.nintendo.net/slim/home to create it?,,No SLIM data message box
 Error_AppleDeviceNotPaired,ERROR: Device '{0}' has not been paired. Does it have a valid provisioning profile?,ERROR: Device '{0}' has not been paired. Does it have a valid provisioning profile?,,!AMDeviceIsPaired has been returned for an iOS/tvOS device type and is probably just missing its provisioning profile
 Error_AppleDevicesNotPaired,The following devices have not been paired. Please ensure they have valid provisioning profiles.,The following devices have not been paired. Please ensure they have valid provisioning profiles.,,The following devices have not been paired. Please ensure they have valid provisioning profiles
@@ -8370,10 +8392,10 @@ RedefineKeys_Insert,Insert,Insert,,Redefine keys Insert string
 RedefineKeys_ImageEditor_AddFromFile,Image Editor Add From File,Image Editor Add From File,,Redefine keys ImageEditor_AddFromFile string
 RedefineKeys_ImageEditor_CreateFromStrip,Image Editor Create From Strip,Image Editor Create From Strip,,Redefine keys ImageEditor_CreateFromStrip string
 RedefineKeys_ImageEditor_ImportFromStrip,Image Editor Import From Strip,Image Editor Import From Strip,,Redefine keys ImageEditor_ImportFromStrip string
-RedefineKeys_ImageEditor_ExportToPNG,Image Editor Export To PNG,Image Editor Export To PNG,,Redefine keys ImageEditor_ExportToPNG string
+RedefineKeys_Export To PNG,Image Editor Export To PNG,Image Editor Export To PNG,,Redefine keys ImageEditor_ExportToPNG string
 RedefineKeys_ImageEditor_ResizeCanvas,Image Editor Resize Canvas,Image Editor Resize Canvas,,Redefine keys ImageEditor_ResizeCanvas string
 RedefineKeys_ImageEditor_CropToSelection,Image Editor Crop To Selection,Image Editor Crop To Selection,,Redefine keys ImageEditor_CropToSelection string
-RedefineKeys_ImageEditor_AutoTrim,Image Editor Auto Trim,Image Editor Auto Trim,,Redefine keys ImageEditor_AutoTrim string
+RedefineKeys_Auto Trim Frames,Image Editor Auto Trim,Image Editor Auto Trim,,Redefine keys ImageEditor_AutoTrim string
 RedefineKeys_ImageEditor_ReverseFrames,Image Editor Reverse Frames,Image Editor Reverse Frames,,Redefine keys ImageEditor_ReverseFrames string
 RedefineKeys_Transform Current Frame,Transform Current Frame,Transform Current Frame,,Redefine keys Transform Current Frame string
 RedefineKeys_Transform All Frames,Transform All Frames,Transform All Frames,,Redefine keys Transform All Frames string
@@ -8549,6 +8571,13 @@ RedefineKeys_zoom_and_pan_to_gadget,Pan and zoom in on the active window,Pan and
 RedefineKeys_Keys,Keys,Keys,,Redefine keys Keys label
 RedefineKeys_DeleteLineAfterCursor,Delete Line After Cursor,Delete Line After Cursor,,Delete line after cursor message
 RedefineKeys_DatafileScanner,File Scanner,File Scanner,,File Scanner location header
+RedefineKeys_Create Particle System,Create Particle System,Create Particle System,,create particle system redefine keys label
+RedefineKeys_create_resource_GMParticleSystem,Create Particle System,Create Particle System,,create particle system redefine keys label
+RedefineKeys_start_dnd_maker,Start GML Visual Maker,Start GML Visual Maker,,start gml visual maker redefine keys label
+RedefineKeys_AIAssistant,AI Assistant,AI Assistant,,Redefine keys location entry
+RedefineKeys_open_ai_assistant,Open AI Assistant,Open AI Assistant,,open ai assistant redefine keys label
+RedefineKeys_ai_assistant_search_next,Search Next,Search Next,,ai assistant search next
+RedefineKeys_ai_assistant_search_previous,Search Previous,Search Previous,,ai assistant search next
 DeviceManager_Name_Already_Taken,A device with this name has already been created.,A device with this name has already been created.,,Device manager name already taken error message
 GMStdTime,Time,Time,,GML Visual library argument label
 GMStdTooltipOffset,The track position to start playing from,The track position to start playing from,,GML Visual argument tooltip
@@ -8590,10 +8619,10 @@ RedefineKeys_BrushScalerSubtool,Brush Scaler subtool,Brush Scaler subtool,,brush
 RedefineKeys_brush_from_selection,Make Brush from Selection,Make Brush from Selection,,image editor make brush from selection
 Plugin_ErrorLoadingJSON_Title,Errors Occured,Errors Occured,,Errors occured during plugin JSON load title bar
 Plugin_ErrorLoadingJSON_Body,{0} errors occured while parsing plugin metadata. See your ui.log for more info,{0} errors occured while parsing plugin metadata. See your ui.log for more info,,Errors occured during plugin JSON load body
-Cronus_GMPM_FileHelp,The contents of the 'conanfile.txt' which contains the packages to fetch.,The contents of the 'conanfile.txt' which contains the packages to fetch.,,Label for GMPM Package File field
+Cronus_GMPM_FileHelp,The contents of the 'package.json' file which contains the packages to fetch.,The contents of the 'package.json' file which contains the packages to fetch.,,Label for GMPM Package File field
 Cronus_GMPM_InstallDir,The root directory where the packages will be installed into.,The root directory where the packages will be installed into.,,Label for GMPM Package Install Directory field
-Cronus_GMPM_Remote,The name of the remote Conan repository containing the packages.,The name of the remote Conan repository containing the packages.,,Label for GMPM Package Remote field
-Cronus_GMPM_AdditionalArgs,Additional command-line arguments passed into the Conan process.,Additional command-line arguments passed into the Conan process.,,Label for GMPM Package Additional Args field
+Cronus_GMPM_Remote,The package registry url or remote.,The package registry url or remote.,,Label for GMPM Package Remote field
+Cronus_GMPM_AdditionalArgs,Additional command-line arguments passed into GMPM for specialisation.,Additional command-line arguments passed into GMPM for specialisation.,,Label for GMPM Package Additional Args field
 Cronus_GMPM_InvokeMultiple,Cannot invoke multiple instances of GMPM. Please wait for the package manager to complete before invoking it a second time.,Cannot invoke multiple instances of GMPM. Please wait for the package manager to complete before invoking it a second time.,,Error content when attempting to spawn multiple instances of GMPM
 Cronus_GMPM_Invalid_Title,GMPM invalid,GMPM invalid,,Invalid title for GMPM
 Cronus_GMPM_Invalid_File,The Packages File field must not be empty.,The Packages File field must not be empty.,,Invalid GMPM Package File field
@@ -8603,6 +8632,8 @@ Cronus_GMPM_Success_Title,GMPM success,GMPM success,,Success title for GMPM
 Cronus_GMPM_Success,Successfully installed packages to '{0}'!,Successfully installed packages to '{0}'!,,Success content for GMPM
 Cronus_GMPM_Failure_Title,GMPM failure,GMPM failure,,Failure title for GMPM
 Cronus_GMPM_Failure,An unexpected error (code: {0}) occurred when updating the packages. See the output log for more information.,An unexpected error (code: {0}) occurred when updating the packages. See the output log for more information.,,Success content for GMPM
+Preferences_cronus_toolchain_path,Path to New Runtime Toolchain,Path to New Runtime Toolchain,,Path to New Runtime Toolchain
+Preferences_cronus_asset_compiler_path,Path to New Runtime Asset Compiler,Path to New Runtime Asset Compiler,,Path to New Runtime Asset Compiler
 GMStdSetAudioLoopState_Name,Set Audio Loop State,Set Audio Loop State,,GMLV action name
 GMStdSetAudioLoopState_Desc,Set the loop state of a playing sound.,Set the loop state of a playing sound.,,GMLV action description
 GMStdSetAudioLoopState_Story,Set the loop state of sound ${idx} to ${state}.,Set the loop state of sound ${idx} to ${state}.,,GMLV action story
@@ -8624,3 +8655,96 @@ GMStdGetAudioLoopEnd_Story,Get the loop-end offset of sound ${idx} and store it 
 PluginUpgrade_NewerVersionAvailable_YesNoDialog_Title,Plugin upgrade available,Plugin upgrade available,,Plugin upgrade yes no prompt title
 PluginUpgrade_NewerVersionAvailable_YesNoDialog_Body,A newer version of {0} is available. Would you like to download and update?,A newer version of {0} is available. Would you like to download and update?,,Plugin upgrade yes no prompt body
 LanguageLoad_StartupError,Could not load language {0}. Check your ui.log for details,Could not load language {0}. Check your ui.log for details,,Language load on startup error
+ErrorLoadingFont,"Error loading font ""{0}"". See ui.log for details","Error loading font ""{0}"". See ui.log for details",,Font load error
+theme_editor_name,Theme Name:,Theme Name:,,theme name preference label
+theme_editor_skin_name,Skin Name:,Skin Name:,,theme editor skin name preference label
+theme_editor_version,Version Tag:,Version Tag:,,theme version tag preference label
+Views_Menu_AIAssistant,AI Assistant,AI Assistant,,ai assistant menu entry
+AIAssistant_Title,AI Assistant,AI Assistant,,ai assistant window title
+AIAssistant_DeleteChat,Delete Conversation,Delete Conversation,,delete conversation
+AIAssistant_DeleteChatConfirm,Are you sure you want to delete chat '{0}'?,Are you sure you want to delete chat '{0}'?,,confirm chat delete msg
+AIAssistant_DeleteChatTitle,Delete Conversation?,Delete Conversation?,,confirm chat delete title
+AIAssistant_DeleteChatConfirm_Multi,Are you sure you want to delete {0} chats?,Are you sure you want to delete {0} chats?,,confirm delete N chats
+AIAssistant_DeleteThisChatConfirm,Are you sure you want to delete this chat?,Are you sure you want to delete this chat?,,confirm chat delete msg
+aiassistant_showwelcome,Show the Welcome screen,Show the Welcome screen,,show welcome confirm pref
+aiassistant_deletechat_confirm,Automatic response to delete conversation,Automatic response to delete conversation,,delete chat confirm pref
+aiassistant_deletechat_response_confirm,Automatic response to delete chat query/response,Automatic response to delete chat query/response,,delete chat response confirm pref
+aiassistant_default_position,Default window location,Default window location,,default window position pref
+ListBoxEnum_eAIAssistantPosition_LeftDock,Left dock,Left dock,,aiasst default location enum
+ListBoxEnum_eAIAssistantPosition_RightDock,Right dock,Right dock,,aiasst default location enum
+ListBoxEnum_eAIAssistantPosition_FloatingWindow,Floating window,Floating window,,aiasst default location enum
+AIAsst_DeleteChatResponse_Title,Delete Response,Delete Response,,delete chat response title
+AIAsst_DeleteChatResponse_Msg,"Are you sure you want to delete the Assistant's response? Your attached query will also be deleted.","Are you sure you want to delete the Assistant's response? Your attached query will also be deleted.",,delete chat response dialog msg
+AIAssistant,AI Assistant,AI Assistant,,AI Assistant pref heading
+AIAssistant_CopyContent,Copy Content,Copy Content,,ai assistant context menu
+AIAssistant_RegenResponse,Regenerate Response,Regenerate Response,,ai assistant context menu
+AIAssistant_Regenerate,Regenerate,Regenerate,,ai assistant regenerate label
+AIAssistant_DeleteResponse,Delete Response,Delete Response,,ai assistant context menu
+AIAssistant_FlagResponse,Flag Response,Flag Response,,ai assistant context menu
+AIAssistant_Inaccurate,Inaccurate,Inaccurate,,flag response option
+AIAssistant_Unhelpful,Unhelpful,Unhelpful,,flag response option
+AIAssistant_Offensive,Offensive,Offensive,,flag response option
+AIAssistant_FlagInfoText,Note: Query will be included in message if sent,Note: Query will be included in message if sent,,flag response info text
+AIAsst_ChatHistory,Chat History,Chat History,,chat history panel title
+AIAsst_Home,Home,Home,,ai assistant home
+AIAsst_ChatSearchDefault,Search Chats...,Search Chats...,,chat search default label
+AIAsst_Title,Title,Title,,title label
+AIAsst_LastModified,Last Modified,Last Modified,,last modified label
+AIAsst_Shared,Public,Public,,shared/public label
+AIAsst_ShareChat,Make Public,Make Public,,share chat/make public
+AIAsst_UnshareChat,Make Private,Make Private,,unshare chat/make private
+AIAsst_RenameChat,Rename,Rename,,menu rename
+AIAsst_DeleteChat,Delete chat,Delete chat,,menu delete
+AIAsst_DeleteChats,Delete chats,Delete chats,,menu delete multiple
+AIAsst_NewChat,New chat,New chat,,menu new chat
+AIAsst_ChatListCount,{0} chats listed,{0} chats listed,,chat list count label
+AIAsst_HeaderTitle,GameMaker AI Assistant,GameMaker AI Assistant,,header title
+AIAsst_StartNewChat,Start New Chat,Start New Chat,,start new chat
+AIAsst_OpenHome,Open Home,Open Home,,open home
+AIAsst_OpenChatHistory,Open chat history,Open chat history,,open chat history
+AIAsst_ViewChatHistory,View Chat History,View Chat History,,view chat history
+AIAsst_ChatHistoryEmpty,Chat history is empty,Chat history is empty,,chat history empty label
+AIAsst_Home1_Title,Quick Start Guide,Quick Start Guide,,home content title
+AIAsst_Home1_Detail,An Introduction to GameMaker,An Introduction to GameMaker,,home content detail
+AIAsst_Home2_Title,GameMaker Language,GameMaker Language,,home content title
+AIAsst_Home2_Detail,GML Introduction,GML Introduction,,home content detail
+AIAsst_Home3_Title,Additional Information,Additional Information,,home content title
+AIAsst_Home3_Detail,GameMaker best practices,GameMaker best practices,,home content detail
+AIAsst_HomeButton,Home,Home,,home button title
+AIAsst_ChatsButton,Chats,Chats,,chats button title
+AIAsst_HelpButton,Help,Help,,help button title
+AIAsst_Premium,Premium,Premium,,premium
+AIAsst_Free,Free,Free,,free
+AIAsst_ChatCount,Chats - {0},Chats - {0},,chat count
+AIAsst_ChatSelectedCount,Chats - {0} selected,Chats - {0} selected,,chat selected count
+AIAsst_HelpCount,Help - {0} topics,Help - {0} topics,,help topics count
+AIAsst_TopicTitle,Getting Started with Gamemaker,Getting Started with Gamemaker,,example topic title
+AIAsst_TopicDetail,All you need to know to get started,All you need to know to get started,,example topic detail
+AIAsst_ArticleCountPlural,{0} Articles,{0} Articles,,article count plural
+AIAsst_ArticleCountSingular,{0} Article,{0} Article,,article count singular
+AIAsst_TopicCountPlural,{0} Topics,{0} Topics,,topic count plural
+AIAsst_TopicCountSingular,{0} Topic,{0} Topic,,topic count singular
+AIAsst_ChatMsgDefault,Type message...,Type message...,,default chat msg entry caption
+AIAsst_SharedYes,Yes,Yes,,yes
+AIAsst_SharedNo,No,No,,no
+AIAsst_NRecentChats,{0} Recent,{0} Recent,,N recent chats
+AIAsst_DefaultNewChatName,New Chat,New Chat,,default new chat name
+AIAsst_CopyCode,Copy Code,Copy Code,,copy code
+AIAsst_Undelivered,Undelivered,Undelivered,,ai assistant query undelivered message
+AIAsst_Intro_Title,New Feature - AI Assistant,New Feature - AI Assistant,,intro title
+AIAsst_Intro_Welcome,Meet your new AI Assistant!,Meet your new AI Assistant!,,intro header label
+AIAsst_Intro_Label1,The GameMaker AI Assistant can help you with:,The GameMaker AI Assistant can help you with:,,intro label
+AIAsst_Intro_Item1,- Beginner guides,- Beginner guides,,intro label
+AIAsst_Intro_Item2,- Tutorial links,- Tutorial links,,intro label
+AIAsst_Intro_Item3,- Helpful tips and tricks,- Helpful tips and tricks,,intro label
+AIAsst_Intro_Label2,Dock your AI Assistant or access it as a floating window whenever you need it:,Dock your AI Assistant or access it as a floating window whenever you need it:,,intro label
+AIAsst_Intro_Item4,- Menu > Windows > AI Assistant,- Menu > Windows > AI Assistant,,intro label
+AIAsst_Intro_Item5,- Toolbar icon,- Toolbar icon,,intro label
+AIAsst_Intro_Label3,Ready to get started?,Ready to get started?,,intro label
+AIAsst_Intro_Link,"For more info, see <a href=""https://www.yoyogames.com/legal/privacy"">here</a>","For more info, see <a href=""https://www.yoyogames.com/legal/privacy"">here</a>",,intro link label
+AIAsst_Intro_DontShowAgain,Don't show again,Don't show again,,don't show again
+BugPackageModule_IncludeYYZ,"Include the current package:\n\nWould you like to include this project in your bug submission as an example of how to cause the bug?\n\n\nA project is usually required for all issues regarding compiling and is extremely helpful when the problem is in-game.\n\nIf you do not include a sample project, we may request one later if we are unable to reproduce your bug.","Include the current package:\n\nWould you like to include this project in your bug submission as an example of how to cause the bug?\n\n\nA project is usually required for all issues regarding compiling and is extremely helpful when the problem is in-game.\n\nIf you do not include a sample project, we may request one later if we are unable to reproduce your bug.",,Message to include a YYZ of the project
+BugPackageModule_message,Bug Report Packaging,Bug Report Packaging,,Title for Bug Report Packging messages
+BugPackageModule_failed,Failed to create a bug report package. Please check the output logs for details,Failed to create a bug report package. Please check the output logs for details,,Error when creating a bug report package
+IDEMenu_Help_CreateBugPackage,Create Your Bug Report Package,Create Your Bug Report Package,,Menu Item for creating a bug package
+verbose_logging,Enable Verbose Logging,Enable Verbose Logging,,Enable Verbose Logging
