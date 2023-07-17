@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.7.1_0_c3206253" segtype="sentence" srclang="en-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="6.0.0_0_1bf1729c" segtype="sentence" srclang="en-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -746,6 +746,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230218T024828Z" creationid="LiarOnce" creationdate="20230218T024038Z">
         <seg>"确实要全部替换吗？\n这将编辑磁盘上的文件。\n在GML可视化生成的GML代码中找到的结果不会被替换。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Are you sure you want to delete the Assistant's response?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053605Z" creationid="LiarOnce" creationdate="20230717T053605Z">
+        <seg>"是否确实要删除助手的响应？</seg>
       </tuv>
     </tu>
     <tu>
@@ -4030,6 +4038,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Error loading font ""{0}"".</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053119Z" creationid="LiarOnce" creationdate="20230717T053119Z">
+        <seg>"加载字体出错: ""{0}"".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Error: variable '{0}' has same name as a built-in (function, constant or variable), it must be renamed to function correctly"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134535Z" creationid="liaronce" creationdate="20210228T134535Z">
@@ -4514,6 +4530,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T125214Z" creationid="liaronce" creationdate="20210228T125214Z">
         <seg>"For 循环"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"For more info, see &lt;a href=""https://www.yoyogames.com/legal/privacy""&gt;here&lt;/a&gt;"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060512Z" creationid="LiarOnce" creationdate="20230717T060512Z">
+        <seg>"了解更多信息，请参阅 &lt;a href=""https://www.yoyogames.com/legal/privacy""&gt;此处&lt;/a&gt;"</seg>
       </tuv>
     </tu>
     <tu>
@@ -10242,6 +10266,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134205Z" creationid="liaronce" creationdate="20210228T134205Z">
         <seg>"为使用该功能你需要安装Google Play服务扩展。\n你想马上通过市场下载吗？"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Include the current package:\n\nWould you like to include this project in your bug submission as an example of how to cause the bug?\n\n\nA project is usually required for all issues regarding compiling and is extremely helpful when the problem is in-game.\n\nIf you do not include a sample project, we may request one later if we are unable to reproduce your bug."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060741Z" creationid="LiarOnce" creationdate="20230717T060741Z">
+        <seg>"包括当前包：\n\n是否要将此项目包括在错误提交中，作为如何导致错误的示例?\n\n\nA项目通常是所有与编译有关的问题所必需的，并且在游戏中出现问题时非常有用。\n\n如果不包括示例项目，一旦我们无法复现您的错误，我们可以稍后请求它。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -17518,6 +17550,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>- Beginner guides</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060331Z" creationid="LiarOnce" creationdate="20230717T060309Z">
+        <seg>- 初学者指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>- Cannot contain spaces</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T105253Z" creationid="liaronce" creationdate="20210228T105253Z">
@@ -17530,6 +17570,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T105350Z" creationid="liaronce" creationdate="20210228T105350Z">
         <seg>- 公司和资源名称可以包含字母和数字</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>- Helpful tips and tricks</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060352Z" creationid="LiarOnce" creationdate="20230717T060352Z">
+        <seg>- 有帮助的提示和技巧</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>- Menu &gt; Windows &gt; AI Assistant</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060426Z" creationid="LiarOnce" creationdate="20230717T060426Z">
+        <seg>- 菜单 &gt; 窗口 &gt; AI 助手</seg>
       </tuv>
     </tu>
     <tu>
@@ -17554,6 +17610,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T105226Z" creationid="liaronce" creationdate="20210228T105226Z">
         <seg>- 必须以字母开头</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>- Toolbar icon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060433Z" creationid="LiarOnce" creationdate="20230717T060433Z">
+        <seg>- 任务栏图标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>- Tutorial links</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060317Z" creationid="LiarOnce" creationdate="20230717T060317Z">
+        <seg>- 教程链接</seg>
       </tuv>
     </tu>
     <tu>
@@ -18394,6 +18466,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T083310Z" creationid="deciia" creationdate="20170105T083310Z">
         <seg>Mac 上的 ADB 路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>AI Assistant</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052751Z" creationid="LiarOnce" creationdate="20230717T052751Z">
+        <seg>AI 助手</seg>
       </tuv>
     </tu>
     <tu>
@@ -20134,6 +20214,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Additional Information</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170314T162804Z" creationid="deciia" creationdate="20170314T162804Z">
+        <seg>附加信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Additional command-line arguments passed into GMPM for specialisation.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052945Z" creationid="LiarOnce" creationdate="20230717T052945Z">
+        <seg>传递给 GMPM 进程的其他命令行参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Additional command-line arguments passed into the Conan process.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111812Z" creationid="LiarOnce" creationdate="20230308T111812Z">
@@ -20526,6 +20622,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>All you need to know to get started</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060100Z" creationid="LiarOnce" creationdate="20230717T060100Z">
+        <seg>所有你需要知道才能开始的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Allow Block Comments</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T063412Z" creationid="deciia" creationdate="20170105T063412Z">
@@ -20850,6 +20954,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180923T230806Z" creationid="deciia" creationdate="20170104T025105Z">
         <seg>发生错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>An Introduction to GameMaker</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T055904Z" creationid="LiarOnce" creationdate="20230717T055904Z">
+        <seg>GameMaker 简介</seg>
       </tuv>
     </tu>
     <tu>
@@ -21819,6 +21931,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Are you sure you want to delete chat '{0}'?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053301Z" creationid="LiarOnce" creationdate="20230717T053301Z">
+        <seg>是否确实要删除对话"{0}"?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Are you sure you want to delete configuration '{0}' and all of its children?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T120432Z" creationid="liaronce" creationdate="20220202T120432Z">
@@ -21987,6 +22107,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Are you sure you want to delete this chat?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053337Z" creationid="LiarOnce" creationdate="20230717T053337Z">
+        <seg>是否确实要删除这个对话?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Are you sure you want to delete this event and its contents?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T090203Z" creationid="lazyeo" creationdate="20191120T090203Z">
@@ -22007,6 +22135,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145132Z" creationid="liaronce" creationdate="20200820T142205Z">
         <seg>是否确实要删除 {0} 的资源：{1}？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Are you sure you want to delete {0} chats?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053325Z" creationid="LiarOnce" creationdate="20230717T053325Z">
+        <seg>是否确实要删除"{0}"对话?</seg>
       </tuv>
     </tu>
     <tu>
@@ -23266,6 +23402,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140431Z" creationid="liaronce" creationdate="20200820T140431Z">
         <seg>自动响应曲线删除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatic response to delete chat query/response</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053456Z" creationid="LiarOnce" creationdate="20230717T053456Z">
+        <seg>自动响应删除聊天查询/响应</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Automatic response to delete conversation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053409Z" creationid="LiarOnce" creationdate="20230717T053409Z">
+        <seg>自动响应删除对话</seg>
       </tuv>
     </tu>
     <tu>
@@ -24738,6 +24890,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Bug Report Packaging</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060811Z" creationid="LiarOnce" creationdate="20230717T060758Z">
+        <seg>错误报告包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Build</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170318T093747Z" creationid="deciia" creationdate="20170102T083659Z">
@@ -26186,10 +26346,50 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Chat History</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053858Z" creationid="LiarOnce" creationdate="20230717T053753Z">
+        <seg>聊天记录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Chat Message</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220913T022337Z" creationid="LiarOnce" creationdate="20220913T022337Z">
         <seg>聊天消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Chat history is empty</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T055845Z" creationid="LiarOnce" creationdate="20230717T055845Z">
+        <seg>聊天记录为空</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Chats</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T055927Z" creationid="LiarOnce" creationdate="20230717T055927Z">
+        <seg>聊天</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Chats - {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T055936Z" creationid="LiarOnce" creationdate="20230717T055936Z">
+        <seg>聊天 - {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Chats - {0} selected</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T055950Z" creationid="LiarOnce" creationdate="20230717T055950Z">
+        <seg>聊天 - {0} 已选择</seg>
       </tuv>
     </tu>
     <tu>
@@ -27659,6 +27859,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Code Editor 2</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052540Z" creationid="LiarOnce" creationdate="20230717T052540Z">
+        <seg>代码编辑器 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Code Error</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T074240Z" creationid="deciia" creationdate="20180922T074240Z">
@@ -28146,6 +28354,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T032436Z" creationid="deciia" creationdate="20170104T032010Z">
         <seg>注释所选内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Comment out code for disabled nodes when converting to GML Code</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052424Z" creationid="LiarOnce" creationdate="20230717T052424Z">
+        <seg>转换为 GML 代码时注释禁用节点的代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Comment out code for disabled nodes when previewing GML Code</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052511Z" creationid="LiarOnce" creationdate="20230717T052511Z">
+        <seg>转换为 GML 代码时预览禁用节点的代码</seg>
       </tuv>
     </tu>
     <tu>
@@ -29428,6 +29652,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Copied to clipboard!</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052324Z" creationid="LiarOnce" creationdate="20230717T052324Z">
+        <seg>已复制到剪贴板！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Copies To:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T143415Z" creationid="deciia" creationdate="20170106T161331Z">
@@ -29448,6 +29680,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170224T005045Z" creationid="deciia" creationdate="20170224T005045Z">
         <seg>复制缓冲区</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Copy Code</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060151Z" creationid="LiarOnce" creationdate="20230717T060151Z">
+        <seg>复制代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Copy Content</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053639Z" creationid="LiarOnce" creationdate="20230717T053639Z">
+        <seg>复制内容</seg>
       </tuv>
     </tu>
     <tu>
@@ -29488,6 +29736,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T142212Z" creationid="LiarOnce" creationdate="20220527T142212Z">
         <seg>复制帧窗口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Copy GML to clipboard</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052308Z" creationid="LiarOnce" creationdate="20230717T052308Z">
+        <seg>复制 GML 到剪贴板</seg>
       </tuv>
     </tu>
     <tu>
@@ -30588,6 +30844,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T172637Z" creationid="deciia" creationdate="20170311T172637Z">
         <seg>创建 X86 程序包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create Your Bug Report Package</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060921Z" creationid="LiarOnce" creationdate="20230717T060921Z">
+        <seg>创建您的错误报告包</seg>
       </tuv>
     </tu>
     <tu>
@@ -32166,6 +32430,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Default window location</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053516Z" creationid="LiarOnce" creationdate="20230717T053516Z">
+        <seg>默认窗口位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Default zoom (%)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T043342Z" creationid="deciia" creationdate="20180922T043342Z">
@@ -32322,6 +32594,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170224T005102Z" creationid="deciia" creationdate="20170224T005102Z">
         <seg>删除缓冲区</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Delete Conversation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053212Z" creationid="LiarOnce" creationdate="20230717T053212Z">
+        <seg>删除对话</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Delete Conversation?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053310Z" creationid="LiarOnce" creationdate="20230717T053310Z">
+        <seg>删除对话？</seg>
       </tuv>
     </tu>
     <tu>
@@ -32510,6 +32798,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Delete Response</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053542Z" creationid="LiarOnce" creationdate="20230717T053542Z">
+        <seg>删除响应</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Delete Selected Frames</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T092218Z" creationid="deciia" creationdate="20170102T092218Z">
@@ -32627,6 +32923,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010128Z" creationid="liaronce" creationdate="20200820T152311Z">
         <seg>删除缓冲区 ${buffer} ${show_input_count} </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Delete chat</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053833Z" creationid="LiarOnce" creationdate="20230717T053833Z">
+        <seg>删除聊天</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Delete chats</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053847Z" creationid="LiarOnce" creationdate="20230717T053847Z">
+        <seg>删除聊天</seg>
       </tuv>
     </tu>
     <tu>
@@ -34247,6 +34559,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Dock your AI Assistant or access it as a floating window whenever you need it:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060413Z" creationid="LiarOnce" creationdate="20230717T060413Z">
+        <seg>停靠您的 AI 助手，或在需要时将其作为浮动窗口访问：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Document End</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T144429Z" creationid="LiarOnce" creationdate="20220527T135902Z">
@@ -34331,6 +34651,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091341Z" creationid="LiarOnce" creationdate="20220407T091341Z">
         <seg>不要再提醒这个项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Don't show again</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060525Z" creationid="LiarOnce" creationdate="20230717T060525Z">
+        <seg>不再显示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37033,6 +37361,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Enable SDF</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T050811Z" creationid="LiarOnce" creationdate="20230717T050811Z">
+        <seg>启用 SDF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable SDF rendering for this font</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T050829Z" creationid="LiarOnce" creationdate="20230717T050829Z">
+        <seg>为该字体启用 SDF 渲染</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Enable SEARCH permission</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T072528Z" creationid="deciia" creationdate="20170104T072528Z">
@@ -37069,6 +37413,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T094406Z" creationid="LiarOnce" creationdate="20221130T094406Z">
         <seg>启用严格类型模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable Verbose Logging</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060934Z" creationid="LiarOnce" creationdate="20230717T060934Z">
+        <seg>启用详细日志记录</seg>
       </tuv>
     </tu>
     <tu>
@@ -37213,6 +37565,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T101847Z" creationid="deciia" creationdate="20180922T101847Z">
         <seg>启用对NEX库的支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable support for NPLN libraries</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052733Z" creationid="LiarOnce" creationdate="20230717T052733Z">
+        <seg>启用对 NPLN 库的支持</seg>
       </tuv>
     </tu>
     <tu>
@@ -38749,6 +39109,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Failed to create a bug report package.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060833Z" creationid="LiarOnce" creationdate="20230717T060833Z">
+        <seg>创建错误报告包失败</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Failed to create certificate file: {0}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161223T065932Z" creationid="deciia" creationdate="20161223T065932Z">
@@ -39577,6 +39945,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T090000Z" creationid="deciia" creationdate="20170102T090000Z">
         <seg>适应屏幕</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Flag Response</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053656Z" creationid="LiarOnce" creationdate="20230717T053656Z">
+        <seg>标记响应</seg>
       </tuv>
     </tu>
     <tu>
@@ -40423,6 +40799,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180927T233027Z" creationid="deciia" creationdate="20170107T052550Z">
         <seg>每秒帧数（fps，cpu steps）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Free</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T055933Z" creationid="LiarOnce" creationdate="20230717T055933Z">
+        <seg>免费</seg>
       </tuv>
     </tu>
     <tu>
@@ -41683,6 +42067,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GML Introduction</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T055912Z" creationid="LiarOnce" creationdate="20230717T055908Z">
+        <seg>GML 简介</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GML Preview</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090442Z" creationid="LiarOnce" creationdate="20220407T090442Z">
@@ -41751,6 +42143,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T095328Z" creationid="deciia" creationdate="20170311T144530Z">
         <seg>GML函数可以支持可变数量参数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GMPM</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052629Z" creationid="LiarOnce" creationdate="20230717T052629Z">
+        <seg>GMPM</seg>
       </tuv>
     </tu>
     <tu>
@@ -42117,6 +42517,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GameMaker AI Assistant</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053940Z" creationid="LiarOnce" creationdate="20230717T053940Z">
+        <seg>GameMaker AI 助手</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GameMaker Account</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T103903Z" creationid="LiarOnce" creationdate="20230308T103903Z">
@@ -42281,6 +42689,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T143337Z" creationid="liaronce" creationdate="20200820T143337Z">
         <seg>Gamemaker Studio 2无法访问重要的系统文件夹。\n请检查首选项中的路径并验证您的文件夹权限或与系统管理员联系。\n\n{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GameMaker best practices</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T055924Z" creationid="LiarOnce" creationdate="20230717T055924Z">
+        <seg>GameMaker 最佳实践</seg>
       </tuv>
     </tu>
     <tu>
@@ -45305,6 +45721,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Getting Started with Gamemaker</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060033Z" creationid="LiarOnce" creationdate="20230717T060033Z">
+        <seg>Gamemaker 入门</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Gigabytes of RAM the Android build is allowed to use</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T200959Z" creationid="deciia" creationdate="20170209T082633Z">
@@ -45709,6 +46133,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T225331Z" creationid="deciia" creationdate="20180922T093837Z">
         <seg>前往 Xbox One 设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Go to Xbox settings</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052550Z" creationid="LiarOnce" creationdate="20230717T052550Z">
+        <seg>前往 Xbox 设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -46350,6 +46782,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T084451Z" creationid="deciia" creationdate="20170102T084451Z">
         <seg>帮助 (F1)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Help - {0} topics</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060007Z" creationid="LiarOnce" creationdate="20230717T060007Z">
+        <seg>帮助 - {0} 主题</seg>
       </tuv>
     </tu>
     <tu>
@@ -50902,6 +51342,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Inaccurate</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053710Z" creationid="LiarOnce" creationdate="20230717T053710Z">
+        <seg>不准确</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Included File</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T135127Z" creationid="liaronce" creationdate="20200820T135127Z">
@@ -53156,6 +53604,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Last Modified</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053810Z" creationid="LiarOnce" creationdate="20230717T053810Z">
+        <seg>最后修改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Last Sign In:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T114942Z" creationid="LiarOnce" creationdate="20230505T114942Z">
@@ -53496,6 +53952,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T175154Z" creationid="deciia" creationdate="20170311T175154Z">
         <seg>左触发器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Left dock</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053524Z" creationid="LiarOnce" creationdate="20230717T053524Z">
+        <seg>左侧 dock</seg>
       </tuv>
     </tu>
     <tu>
@@ -54749,6 +55213,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Make Private</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053825Z" creationid="LiarOnce" creationdate="20230717T053825Z">
+        <seg>设为私有</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Make Public</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053820Z" creationid="LiarOnce" creationdate="20230717T053820Z">
+        <seg>设为公共</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Make a track invisible by disabling all rendering</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140125Z" creationid="liaronce" creationdate="20200820T140125Z">
@@ -55312,6 +55792,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112655Z" creationid="liaronce" creationdate="20211002T112655Z">
         <seg>Medium Logo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Meet your new AI Assistant!</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060226Z" creationid="LiarOnce" creationdate="20230717T060226Z">
+        <seg>认识您的新AI助理!</seg>
       </tuv>
     </tu>
     <tu>
@@ -56920,6 +57408,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>New Chat</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060146Z" creationid="LiarOnce" creationdate="20230717T060146Z">
+        <seg>新建聊天</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>New Colour</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T105920Z" creationid="deciia" creationdate="20170105T105920Z">
@@ -56948,6 +57444,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T154151Z" creationid="deciia" creationdate="20180921T154151Z">
         <seg>新事件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>New Feature - AI Assistant</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060210Z" creationid="LiarOnce" creationdate="20230717T060210Z">
+        <seg>新功能 - AI 助手</seg>
       </tuv>
     </tu>
     <tu>
@@ -57055,6 +57559,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>New Runtime</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052351Z" creationid="LiarOnce" creationdate="20230717T052351Z">
+        <seg>新建 Runtime</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>备注：DnDMaker_NewSection：DnD™ Maker default new section name
 新建节？新部分？默认的新节的名字，在哪，点击什么创建？</note>
       <tuv lang="en-US">
@@ -57102,6 +57614,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T103327Z" creationid="deciia" creationdate="20170105T103327Z">
         <seg>新版本：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>New chat</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053916Z" creationid="LiarOnce" creationdate="20230717T053916Z">
+        <seg>新建聊天</seg>
       </tuv>
     </tu>
     <tu>
@@ -57916,6 +58436,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Note: Query will be included in message if sent</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053746Z" creationid="LiarOnce" creationdate="20230717T053746Z">
+        <seg>注意：如果发送，查询结果将包含在邮件中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Note: This can be changed at any time</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T091258Z" creationid="LiarOnce" creationdate="20220407T091258Z">
@@ -58420,6 +58948,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Offensive</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T081805Z" creationid="LiarOnce" creationdate="20230717T081729Z">
+        <seg>冒犯</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Official</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T114949Z" creationid="deciia" creationdate="20170311T114949Z">
@@ -58676,6 +59212,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open AI Assistant</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052758Z" creationid="LiarOnce" creationdate="20230717T052758Z">
+        <seg>打开 AI 助手</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open All</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T113017Z" creationid="deciia" creationdate="20170103T113017Z">
@@ -58808,6 +59352,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114722Z" creationid="LiarOnce" creationdate="20220527T114722Z">
         <seg>打开组混音器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open Home</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053954Z" creationid="LiarOnce" creationdate="20230717T053954Z">
+        <seg>打开主页</seg>
       </tuv>
     </tu>
     <tu>
@@ -59117,6 +59669,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T092616Z" creationid="deciia" creationdate="20180922T092616Z">
         <seg>在项目加载时自动打开</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open chat history</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T054002Z" creationid="LiarOnce" creationdate="20230717T054002Z">
+        <seg>打开聊天记录</seg>
       </tuv>
     </tu>
     <tu>
@@ -61017,6 +61577,22 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Path to New Runtime Asset Compiler</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053056Z" creationid="LiarOnce" creationdate="20230717T053056Z">
+        <seg>新的运行时资源编译器的路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Path to New Runtime Toolchain</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053059Z" creationid="LiarOnce" creationdate="20230717T053029Z">
+        <seg>新的运行时工具链的路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Path to Private Key</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170510T013339Z" creationid="deciia" creationdate="20170510T013328Z">
@@ -61986,6 +62562,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Please check the output logs for details</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060911Z" creationid="LiarOnce" creationdate="20230717T060911Z">
+        <seg>有关相关细节，请查看输出日志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Please check the path.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T202418Z" creationid="deciia" creationdate="20180922T202418Z">
@@ -62741,6 +63325,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Premium</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T055930Z" creationid="LiarOnce" creationdate="20230717T055930Z">
+        <seg>高级版</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Premultiply Alpha</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T010402Z" creationid="deciia" creationdate="20180922T013522Z">
@@ -63374,6 +63966,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>ProjectTool...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052518Z" creationid="LiarOnce" creationdate="20230717T052518Z">
+        <seg>项目工具...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Promote</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20161223T074237Z" creationid="deciia" creationdate="20161223T074237Z">
@@ -63514,6 +64114,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T093038Z" creationid="deciia" creationdate="20180922T093038Z">
         <seg>代理用户名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Public</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053815Z" creationid="LiarOnce" creationdate="20230717T053815Z">
+        <seg>公共</seg>
       </tuv>
     </tu>
     <tu>
@@ -63706,6 +64314,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142006Z" creationid="liaronce" creationdate="20200820T142006Z">
         <seg>快速访问</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Quick Start Guide</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="deciia" changedate="20170314T171741Z" creationid="deciia" creationdate="20170314T171741Z">
+        <seg>快速入门指南</seg>
       </tuv>
     </tu>
     <tu>
@@ -64050,6 +64666,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T055456Z" creationid="deciia" creationdate="20170105T055456Z">
         <seg>只读行样式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Ready to get started?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060447Z" creationid="LiarOnce" creationdate="20230717T060447Z">
+        <seg>准备上手了吗？准备上手了吗？</seg>
       </tuv>
     </tu>
     <tu>
@@ -64426,6 +65050,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T103150Z" creationid="deciia" creationdate="20170105T103150Z">
         <seg>重新生成布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Regenerate Response</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053650Z" creationid="LiarOnce" creationdate="20230717T053650Z">
+        <seg>重新生成响应</seg>
       </tuv>
     </tu>
     <tu>
@@ -66184,6 +66816,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Retry Opera Login</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052347Z" creationid="LiarOnce" creationdate="20230717T052347Z">
+        <seg>重新尝试登录 Opera</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Return</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T055612Z" creationid="deciia" creationdate="20170107T055612Z">
@@ -66588,6 +67228,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T175205Z" creationid="deciia" creationdate="20170311T175205Z">
         <seg>右触发器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Right dock</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053529Z" creationid="LiarOnce" creationdate="20230717T053529Z">
+        <seg>右侧 dock</seg>
       </tuv>
     </tu>
     <tu>
@@ -67496,6 +68144,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>SDF spread</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T050835Z" creationid="LiarOnce" creationdate="20230717T050835Z">
+        <seg>SDF 扩散</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>SKIP Tour</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T144135Z" creationid="liaronce" creationdate="20211105T143632Z">
@@ -68392,6 +69048,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Search Chats...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053908Z" creationid="LiarOnce" creationdate="20230717T053759Z">
+        <seg>搜索聊天...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Search Complete ({0} results)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T133213Z" creationid="deciia" creationdate="20170103T133213Z">
@@ -68400,10 +69064,26 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Search Next</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052804Z" creationid="LiarOnce" creationdate="20230717T052804Z">
+        <seg>查找下一个</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Search Options</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T020209Z" creationid="deciia" creationdate="20180922T020209Z">
         <seg>搜索选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Search Previous</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052807Z" creationid="LiarOnce" creationdate="20230717T052807Z">
+        <seg>查找上一个</seg>
       </tuv>
     </tu>
     <tu>
@@ -69300,6 +69980,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140527Z" creationid="liaronce" creationdate="20191118T140527Z">
         <seg>选择 TrueType 解释器版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select the desired SDF spread distance in pixels\nSmaller values give higher quality results\nLarger values allow for effects that extend further from each character</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052145Z" creationid="LiarOnce" creationdate="20230717T052145Z">
+        <seg>选择所需的以像素为单位的 SDF 扩散距离\n较小的值提供更高的质量结果\n较大的值允许从每个字符延伸更远的效果</seg>
       </tuv>
     </tu>
     <tu>
@@ -74002,6 +74690,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Show the Welcome screen</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053344Z" creationid="LiarOnce" creationdate="20230717T053344Z">
+        <seg>显示欢迎页面</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Show the compile window during compilation</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T023451Z" creationid="deciia" creationdate="20180922T023451Z">
@@ -74470,6 +75166,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T085040Z" creationid="deciia" creationdate="20180922T085040Z">
         <seg>尺寸：{0} x {1}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Skin Name:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053135Z" creationid="LiarOnce" creationdate="20230717T053135Z">
+        <seg>皮肤名称:</seg>
       </tuv>
     </tu>
     <tu>
@@ -75412,6 +76116,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Spine collision mesh</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052258Z" creationid="LiarOnce" creationdate="20230717T052258Z">
+        <seg>Spine 碰撞网格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Spine files</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T042630Z" creationid="deciia" creationdate="20170105T042630Z">
@@ -75876,6 +76588,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Staff Credits</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052532Z" creationid="LiarOnce" creationdate="20230717T052532Z">
+        <seg>制作者许可</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Stage</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103044Z" creationid="LiarOnce" creationdate="20221130T103044Z">
@@ -75956,10 +76676,26 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Start GML Visual Maker</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052746Z" creationid="LiarOnce" creationdate="20230717T052746Z">
+        <seg>开启 GML Visual 制作器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Start Menu Shortcuts</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T203512Z" creationid="deciia" creationdate="20180922T203512Z">
         <seg>开始菜单快捷方式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Start New Chat</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053947Z" creationid="LiarOnce" creationdate="20230717T053947Z">
+        <seg>开启新聊天</seg>
       </tuv>
     </tu>
     <tu>
@@ -76946,6 +77682,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135951Z" creationid="liaronce" creationdate="20191117T135951Z">
         <seg>Support 4k on Xbox One X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Support 4k on Xbox Series S</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052720Z" creationid="LiarOnce" creationdate="20230717T052720Z">
+        <seg>在 Xbox Series S 上支持 4K</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Support 4k on Xbox Series X</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052704Z" creationid="LiarOnce" creationdate="20230717T052704Z">
+        <seg>在 Xbox Series X 上支持 4K</seg>
       </tuv>
     </tu>
     <tu>
@@ -78103,6 +78855,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The GameMaker AI Assistant can help you with:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060252Z" creationid="LiarOnce" creationdate="20230717T060252Z">
+        <seg>GameMaker AI 助手可以帮助您：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The IDE needs restarting to apply the settings.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120313Z" creationid="LiarOnce" creationdate="20230505T120313Z">
@@ -78411,6 +79171,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T120356Z" creationid="LiarOnce" creationdate="20230505T120356Z">
         <seg>‘conanfile.txt’的内容，其中包含要获取的包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The contents of the 'package.json' file which contains the packages to fetch.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052842Z" creationid="LiarOnce" creationdate="20230717T052829Z">
+        <seg>'package.json' 的内容，其中包含要获取的包。</seg>
       </tuv>
     </tu>
     <tu>
@@ -78755,6 +79523,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111715Z" creationid="LiarOnce" creationdate="20230308T111715Z">
         <seg>包含包的远程 Conan 存储库的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The package registry url or remote.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052931Z" creationid="LiarOnce" creationdate="20230717T052931Z">
+        <seg>软件包 registry url 或 远程地址.</seg>
       </tuv>
     </tu>
     <tu>
@@ -79279,6 +80055,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141712Z" creationid="liaronce" creationdate="20200820T141712Z">
         <seg>未输入该值或未输入正确的格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Theme Editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052536Z" creationid="LiarOnce" creationdate="20230717T052536Z">
+        <seg>主题编辑器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Theme Name:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053130Z" creationid="LiarOnce" creationdate="20230717T053130Z">
+        <seg>主题名称：</seg>
       </tuv>
     </tu>
     <tu>
@@ -81967,6 +82759,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Type message...</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060137Z" creationid="LiarOnce" creationdate="20230717T060137Z">
+        <seg>键入消息…</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Type of Tiles to display</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170105T065910Z">
@@ -82099,6 +82899,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180924T032326Z" creationid="deciia" creationdate="20170104T050939Z">
         <seg>无法将资源拖拽到房间，确保选中的层 '{0}'未锁定并可见</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unable to find GDK executable xcetool.exe.\nPlease update your GDK base location directory.\n{0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052627Z" creationid="LiarOnce" creationdate="20230717T052627Z">
+        <seg>找不到 GDK 程序 xcetool.exe.\n请更新你的 GDK 工具路径.\n{0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -82383,6 +83191,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Undelivered</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T081428Z" creationid="LiarOnce" creationdate="20230717T081428Z">
+        <seg>未送达</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Underwater</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143057Z" creationid="liaronce" creationdate="20211105T143057Z">
@@ -82443,6 +83259,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180928T001814Z" creationid="deciia" creationdate="20180922T194652Z">
         <seg>很抱歉，这个附加组件不适用于您当前拥有的许可证。\n您要前往您的账户来查看您的许可证吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unhelpful</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053714Z" creationid="LiarOnce" creationdate="20230717T053714Z">
+        <seg>没有帮助</seg>
       </tuv>
     </tu>
     <tu>
@@ -83698,6 +84522,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Version Tag:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053142Z" creationid="LiarOnce" creationdate="20230717T053142Z">
+        <seg>版本标签:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Version {0}.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T075740Z" creationid="deciia" creationdate="20170103T075740Z">
@@ -83840,6 +84672,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T072124Z" creationid="deciia" creationdate="20180922T072124Z">
         <seg>视为...?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>View Chat History</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T054010Z" creationid="LiarOnce" creationdate="20230717T054010Z">
+        <seg>查看聊天记录</seg>
       </tuv>
     </tu>
     <tu>
@@ -85711,6 +86551,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Xbox Tools Missing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T052557Z" creationid="LiarOnce" creationdate="20230717T052557Z">
+        <seg>Xbox Tools 缺失</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Xbox family platform min version</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211002T112554Z" creationid="liaronce" creationdate="20211002T112528Z">
@@ -86299,6 +87147,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T103240Z" creationid="LiarOnce" creationdate="20221130T103240Z">
         <seg>您的帐户没有使用当前 Opera GX 环境的权限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your attached query will also be deleted."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053628Z" creationid="LiarOnce" creationdate="20230717T053628Z">
+        <seg>您额外的查询也将被删除。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -88539,6 +89395,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>{0} Article</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060109Z" creationid="LiarOnce" creationdate="20230717T060109Z">
+        <seg>{0} 文章</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0} Articles</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060104Z" creationid="LiarOnce" creationdate="20230717T060104Z">
+        <seg>{0} 文章</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>{0} Collision Event With {1}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T101145Z" creationid="deciia" creationdate="20180922T101145Z">
@@ -88675,6 +89547,30 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>{0} Recent</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060142Z" creationid="LiarOnce" creationdate="20230717T060142Z">
+        <seg>{0} 最近</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0} Topic</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060116Z" creationid="LiarOnce" creationdate="20230717T060116Z">
+        <seg>{0} 主题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0} Topics</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T060113Z" creationid="LiarOnce" creationdate="20230717T060113Z">
+        <seg>{0} 主题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>{0} Vertex Shader</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T162407Z" creationid="deciia" creationdate="20170311T162407Z">
@@ -88727,6 +89623,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T193634Z" creationid="deciia" creationdate="20180922T193634Z">
         <seg>{0}位于第{1}行: \t{2}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0} chats listed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053934Z" creationid="LiarOnce" creationdate="20230717T053934Z">
+        <seg>{0} 列出的聊天</seg>
       </tuv>
     </tu>
     <tu>
