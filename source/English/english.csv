@@ -8,7 +8,7 @@ _LanguageCode,en,en,,standard windows os language code this pack represents (can
 _GameMaker2016,GameMaker,GameMaker,,IDE title
 _MANUAL_LOCATION,http://zeus.yoyogames.com/GMS2_English-master.zip,http://zeus.yoyogames.com/GMS2_English-master.zip,,Location of language manual
 _MANUAL_ONLINE_URL,https://manual-en.yoyogames.com,https://manual-en.yoyogames.com,,online manual url
-_TUTORIALS_ONLINE_URL,https://www.yoyogames.com/en/tutorials,https://www.yoyogames.com/en/tutorials,,Location of Tutorials url
+_TUTORIALS_ONLINE_URL,https://gamemaker.io/en/tutorials,https://gamemaker.io/en/tutorials,,Location of Tutorials url
 $win_OpenInExplorer,Open In Explorer,Open In Explorer,,Windows version of Open In Explorer
 $win_OpenProjectInExplorer,Open Project In Explorer,Open Project In Explorer,,Windows version of Open Project In Explorer
 $win_ShowLogFileInExplorer,Open Log In Explorer,Open Log In Explorer,,Windows version of Show Log In Explorer
@@ -638,6 +638,8 @@ ListBoxEnum_ePSysTexture_Explosion,Explosion,Explosion,,particle texture type
 ListBoxEnum_ePSysTexture_Cloud,Cloud,Cloud,,particle texture type
 ListBoxEnum_ePSysTexture_Smoke,Smoke,Smoke,,particle texture type
 ListBoxEnum_ePSysTexture_Snow,Snow,Snow,,particle texture type
+ListBoxEnum_ePSEmitterTimeUnits_Seconds,Seconds,Seconds,,emitter time units seconds
+ListBoxEnum_ePSEmitterTimeUnits_Frames,Frames,Frames,,emitter time units frames
 GMShader_VertexShaderPath,.VSH (Read-only),.VSH (Read-only),,inspector property name
 GMShader_FragmentShaderPath,.FSH (Read-only),.FSH (Read-only),,inspector property name
 Inspector_Script,Script (Read-only),Script (Read-only),,inspector property name
@@ -866,7 +868,7 @@ IDEMenu_Help_GMC,GameMaker Community,GameMaker Community,,Help menu item for gmc
 IDEMenu_Help_BetaForums,Mac Closed beta forums,Mac Closed beta forums,,Closed beta forums for Mac
 IDEMenu_Help_SDKS,Required SDKs,Required SDKs,,Help menu item for the required sdks page
 IDEMenu_Help_KnowledgeBase,Knowledge Base,Knowledge Base,,Help menu item for knowledge base
-IDEMenu_Help_ReportBug,Report a Bug,Report a Bug,,Help menu item for report a bug page
+IDEMenu_Help_ReportBug,Contact Us,Contact Us,,Help menu item for report a bug page
 IDEMenu_Help_ReleaseNotes,Release Notes,Release Notes,,Help menu item for release notes
 IDEMenu_Help_RuntimeReleaseNotes,Current Runtime Release Notes,Current Runtime Release Notes,,Help menu item for current runtime release notes
 IDEMenu_Help_StartPage,Start Page,Start Page,,Help menu item for reopening the start page
@@ -1119,6 +1121,8 @@ SplitWidgetSettings_Horizontal,Split Horizontal,Split Horizontal,,split settings
 SplitWidgetSettings_Vertical,Split Vertical,Split Vertical,,split settings vertical split
 Importing,Importing...,Importing...,,Importing
 Extracting,Extracting...,Extracting...,,Extracting
+IncludedFile_OpenInScriptEd,Open in Script Editor,Open in Script Editor,,open in script editor
+IncludedFile_OpenInExternEd,Open in External Editor,Open in External Editor,,open in external editor
 IncludedFile_AllPlatforms,All,All,,caption for all platforms button
 IncludedFile_FileName,File Name:,File Name:,,Textbox caption for file name
 IncludedFile_FileSize,File Size:,File Size:,,caption for file size
@@ -1212,6 +1216,9 @@ ListBoxEnum_eImageFit_Tile,Tile,Tile,,Tile Image Scaling option
 ListBoxEnum_eImageFit_BestFit,Best Fit,Best Fit,,Best Fit Image Scaling option
 ListBoxEnum_eImageFit_DesktopStretch,Desktop Stretch,Desktop Stretch,,Desktop Stretch Image Scaling option
 ListBoxEnum_eImageFit_ScreenStretch,Screen Stretch,Screen Stretch,,Screen Stretch Image Scaling option
+ListBoxEnum_eIncludedFileOption_Properties,Properties,Properties,,
+ListBoxEnum_eIncludedFileOption_ScriptEditor,Script Editor,Script Editor,,
+ListBoxEnum_eIncludedFileOption_ExternalEditor,External Editor,External Editor,,
 Loading,Loading...,Loading...,,Loading
 Marketplace_Go,Open Marketplace,Open Marketplace,,Open Marketplace
 Marketplace_Assets,My Library,My Library,,Downloaded assets
@@ -1461,6 +1468,7 @@ InstanceEditor_Prop_OverrideTooltip,Override this variable,Override this variabl
 OutputPanel_Output,Output,Output,,Output panel output tab name
 OutputPanel_SearchResults,Search Results,Search Results,,Output panel search results tab name
 OutputPanel_SourceControl,Source Control,Source Control,,Output panel source control tab name
+OutputPanel_ProjectTool,Project Tool,Project Tool,,Output panel project tool tab name
 PathEditor_Increment,Increment:,Increment:,,Increment path label
 PathEditor_Add,Add,Add,,Path editor add button name
 PathEditor_Closed,Closed,Closed,,Path editor closed path checkbox
@@ -1539,7 +1547,7 @@ ResourceTree_ErrorOpeningExternally,Error Opening Externally,Error Opening Exter
 ResourceNode_OpenInExplorer,${OpenInExplorer},${OpenInExplorer},,Resource Tree node menu - open in explorer
 ResourceNode_OpenAll,Open All,Open All,,Resource Tree node menu - open all
 ResourceNode_OpenProperties,Open Properties,Open Properties,,Resource Tree node menu - open properties
-ResourceNode_OpenInMixer,Open In Sound Mixer,Open In Sound Mixer,,Resource Tree node menu - open in sound mixer
+ResourceNode_OpenInMixer,Open in Sound Mixer,Open in Sound Mixer,,Resource Tree node menu - open in sound mixer
 ResourceNode_RegenerateFont,Regenerate Font,Regenerate Font,,Resource Tree node menu - regenerate font
 ResourceNode_RegenerateFonts,Regenerate Fonts,Regenerate Fonts,,Resource Tree node menu - regenerate fonts
 ResourceNode_OpenObjectEvents,Open All Event Scripts,Open All Event Scripts,,Resource Tree node menu - open all event scripts
@@ -1550,6 +1558,7 @@ ResourceNode_NewAudioGroup,Create New...,Create New...,,Resource Tree node menu 
 ResourceNode_SetAudioGroup,Assign Audio Group,Assign Audio Group,,Resource Tree node menu - set the audio group of selected resources
 ResourceNode_Rename,Rename,Rename,,Resource Tree node menu - rename resource
 ResourceNode_OpenInImageEditor,Open in Image Editor,Open in Image Editor,,resource node open in image editor
+ResourceNode_OpenInExternalEditor,Open in External Editor,Open in External Editor,,resource node open in external editor
 Save_RegeneratedFont,Generated font texture for '{0}',Generated font texture for '{0}',,Studio console to notify user of font texture update
 Save_RegeneratedFont_NoneExisted,Generated font texture for '{0}' because non existed,Generated font texture for '{0}' because non existed,,Studio console to notify user of font texture update
 RegeneratedFonts_DidNothing,No fonts were regenerated.,No fonts were regenerated.,,No fonts were regenerated
@@ -2166,9 +2175,9 @@ SpriteEditor_CollisionMaskTimeline,Collision Mask:,Collision Mask:,,Sprite edito
 SpriteEditor_ColPrecise,Precise (Slow),Precise (Slow),,Sprite editor collision type
 SpriteEditor_ColPrecise_Separate,Precise Per Frame (Slow),Precise Per Frame (Slow),,Sprite editor collision mask type
 SpriteEditor_ColRectangle,Rectangle,Rectangle,,Sprite editor collision type
-SpriteEditor_ColRectangleRotation,Rectangle with rotation,Rectangle with rotation,,Sprite editor collision type
+SpriteEditor_ColRectangleRotation,Rectangle With Rotation,Rectangle With Rotation,,Sprite editor collision type
 SpriteEditor_ColMaskAutomatic,Automatic,Automatic,,Sprite editor automatic collision mask
-SpriteEditor_ColSpineMesh,Spine collision mesh,Spine collision mesh,,Sprite editor collision mask type
+SpriteEditor_ColSpineMesh,Spine Collision Mesh,Spine Collision Mesh,,Sprite editor collision mask type
 SpriteEditor_ContextMenu_AddFrame,Add Frame,Add Frame,,Sprite editor frame context menu
 SpriteEditor_ContextMenu_Copy,Copy,Copy,,Sprite editor frame context menu
 SpriteEditor_ContextMenu_Delete,Delete,Delete,,Sprite editor frame context menu
@@ -2260,8 +2269,8 @@ ListBoxEnum_eSpriteColKind_Rectangle,Rectangle,Rectangle,,Sprite editor collisio
 ListBoxEnum_eSpriteColKind_Ellipse,Ellipse (Slow),Ellipse (Slow),,Sprite editor collision type
 ListBoxEnum_eSpriteColKind_Diamond,Diamond (Slow),Diamond (Slow),,Sprite editor collision type
 ListBoxEnum_eSpriteColKind_PrecisePerFrame,Precise Per Frame (Slow),Precise Per Frame (Slow),,Sprite editor collision mask type
-ListBoxEnum_eSpriteColKind_RectangleRotation,Rectangle with rotation,Rectangle with rotation,,Sprite editor collision type
-ListBoxEnum_eSpriteColKind_SpineMesh,Spine collision mesh,Spine collision mesh,,Sprite editor collision type
+ListBoxEnum_eSpriteColKind_RectangleRotation,Rectangle With Rotation,Rectangle With Rotation,,Sprite editor collision type
+ListBoxEnum_eSpriteColKind_SpineMesh,Spine Collision Mesh,Spine Collision Mesh,,Sprite editor collision type
 ParticleType_NewName,New_Particle_Type,New_Particle_Type,,Name of a newly created particle type resource
 ParticleEmitter_NewName,New_Emitter,New_Emitter,,Name of a newly created particle emitter resource
 ParticleTypeEditor_Title,Particle Types,Particle Types,,Particle type editor window title
@@ -2324,6 +2333,16 @@ ParticleEditor_EmitterName,Name,Name,,Emitter name label
 ParticleEditor_EmitterMode,Mode,Mode,,Emitter mode label
 ParticleEditor_EmitterParticleType,Particle Type,Particle Type,,Emitter particle type label
 ParticleEditor_EmitterCount,Particle Count,Particle Count,,Emitter particle count to emit each time label
+ParticleEditor_RewindTT,Restart animation,Restart animation,,particle editor rewind button tooltip
+PSEmitter_Delay,Delay,Delay,,emitter delay
+PSEmitter_DelayMin,Delay Min,Delay Min,,emitter delay min
+PSEmitter_DelayMax,Delay Max,Delay Max,,emitter delay min
+PSEmitter_DelayUnits,Delay units,Delay units,,emitter delay time units
+PSEmitter_BurstRepeat,Burst repeat,Burst repeat,,emitter burst repeat
+PSEmitter_EmitInterval,Interval,Interval,,emitter emit interval
+PSEmitter_EmitIntervalMin,Interval Min,Interval Min,,emitter emit interval min
+PSEmitter_EmitIntervalMax,Interval Max,Interval Max,,emitter emit interval max
+PSEmitter_EmitIntervalUnits,Interval units,Interval units,,interval units
 ParticleEditor_EmitterShape,Shape,Shape,,Emitter shape label
 ParticleEditor_EmitterDistribution,Distribution,Distribution,,Emitter particle distribution label
 ParticleEditor_EmitterEnabled,Enabled,Enabled,,Emitter enabled label
@@ -2437,6 +2456,13 @@ TextEditor_CommentSelection,Comment Selection,Comment Selection,,text editor con
 TextEditor_UncommentSelection,Uncomment Selection,Uncomment Selection,,text editor context menu uncomment selection
 TextEditor_TabIn,Tab In,Tab In,,text editor context menu tab in selection
 TextEditor_TabOut,Tab Out,Tab Out,,text editor context tab out selection
+TextEditor_ConvertCaseTo,Convert Case to,Convert Case to,,Convert Case to
+TextEditor_ConvertCaseTo_Uppercase,UPPERCASE,UPPERCASE,,UPPERCASE
+TextEditor_ConvertCaseTo_Lowercase,lowercase,lowercase,,lowercase
+TextEditor_ConvertCaseTo_ProperCase,Proper Case,Proper Case,,Proper Case
+TextEditor_ConvertCaseTo_SentenceCase,Sentence case,Sentence case,,Sentence case
+TextEditor_ConvertCaseTo_Inverted,iNVERTED,iNVERTED,,iNVERTED
+TextEditor_ConvertCaseTo_RandomCase,rANdOm CAse,rANdOm CAse,,rANdOm CAse
 TextEditor_StatusText,{0}/{1} Col:{2} Ch:{3},{0}/{1} Col:{2} Ch:{3},,text editor status bar column character
 TextEditor_RegionsMenu,Regions,Regions,,text editor regions menu
 TextEditor_FoldAllRegions,Fold All Regions,Fold All Regions,,fold all regions context menu entry
@@ -2445,6 +2471,16 @@ TextEditor_ToggleFold,Fold/Unfold region,Fold/Unfold region,,text editor toggle 
 TextEditor_PreviousRegion,Previous Region,Previous Region,,text editor previous region menu entry
 TextEditor_NextRegion,Next Region,Next Region,,text editor next region menu entry
 TextEditor_CodeSnippets,Code Snippets,Code Snippets,,Code snippets context menu entry
+TextEditor_GoToDefinition,Go To Definition,Go To Definition,,Go To Definition
+TextEditor_JoinLines,Join Lines,Join Lines,,Join Lines
+TextEditor_Insert,Insert,Insert,,Insert
+TextEditor_Insert_UUID,UUID,UUID,,UUID
+TextEditor_Insert_MD5,MD5 of Selection,MD5 of Selection,,MD5 of Selection
+TextEditor_Insert_SHA1,SHA1 of Selection,SHA1 of Selection,,SHA1 of Selection
+TextEditor_Insert_SHA256,SHA256 of Selection,SHA256 of Selection,,SHA256 of Selection
+TextEditor_Insert_ToBase64,Base64 of Selection,Base64 of Selection,,Base64 of Selection
+TextEditor_Insert_FromBase64,Decoded Base64 of Selection,Decoded Base64 of Selection,,Decoded Base64 of Selection
+TextEditor_SortLines,Sort Lines Alphanumerically,Sort Lines Alphanumerically,,Sort Lines Alphanumerically
 TextureGroups_ActiveGroup,Current Group:,Current Group:,,Texture group current group
 TextureGroups_AddNew,Add New,Add New,,Texture group add new button
 TextureGroups_AllowScaling,Allow Scaling,Allow Scaling,,Texture group allow scaling checkbox
@@ -2576,7 +2612,7 @@ User_OK,OK,OK,,User Login - two step authentication ok button
 User_AuthenticationCode,Authentication Code,Authentication Code,,User Login - two step authentication label for the authentication code
 UserLogin_Retry,Retry,Retry,,User Login - Error Retry
 UserLogin_RetrySSO,Retry Opera Login,Retry Opera Login,,User Login - Error Retry SSO login
-UserLogin_MaxDevice,Maximum sign ins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,Maximum sign ins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,,User Login Error response 29
+UserLogin_MaxDevice,Maximum sign ins exceeded \nYou can manage your account sessions at {0},Maximum sign ins exceeded \nYou can manage your account sessions at {0},,User Login Error response 29
 UserLogin_Error17,You need to authenticate with your Opera SSO details,You need to authenticate with your Opera SSO details,,User Login Error response 17
 UserLogin_Error34,Invalid session (User),Invalid session (User),,User Login Error response 34
 UserLogin_Error36,Two-step sign in required,Two-step sign in required,,User Login Error response 36
@@ -3050,9 +3086,11 @@ ggs_use_google_apk_expansion,Use Google APK expansion,Use Google APK expansion,,
 ggs_use_google_dynamic_asset_delivery,Use Google Dynamic Asset Delivery,Use Google Dynamic Asset Delivery,,Use Google Dynamic Asset Delivery
 ggs_banner,Banner Image,Banner Image,,Banner Image
 ggs_isgame,Is game,Is game,,Is Game
+ggs_supports_leanback,Supports Leanback,Supports Leanback,,Supports Leanback
 proguard_minifying,minifyEnabled,minifyEnabled,,minifyEnabled
 proguard_shrinking,shrinkResources,shrinkResources,,shrinkResources
 ggs_android_application_tag_inject,Inject to Android Application Tag,Inject to Android Application Tag,,Inject to Android Application Tag
+ggs_android_attribute_allow_backup,Sets 'android:allowBackup' attribute to true,Sets 'android:allowBackup' attribute to true,,Sets 'android:allowBackup' attribute to true
 ggs_included_file_as_index.html,Included file as index.html,Included file as index.html,,Included file as index.html
 ggs_loading_bar_extension,Loading bar extension,Loading bar extension,,Loading Bar Extension
 ggs_html5_browser_title,Browser Title,Browser Title,,Title for Browser
@@ -3289,6 +3327,11 @@ opennewresources,Open new assets for edit on creation,Open new assets for edit o
 alwaysopendroppedresources,Open new assets for edit on dragging files into IDE,Open new assets for edit on dragging files into IDE,,Setting to stop the IDE from opening new resources via drag/drop
 externalswfeditor,SWF files,SWF files,,Path to external swf editor
 externalspineeditor,Spine files,Spine files,,Path to external spine editor
+externalbitmapeditor,Bitmap files,Bitmap files,,Path to external bitmap editor
+externalsoundeditor,Sound files,Sound files,,Path to external sound editor
+externalbitmapwarningchoice,Automatic response to external bitmap editor warning,Automatic response to external bitmap editor warning,,default choice for external bitmap editing warning
+spineimportwarningchoice,Automatic response to external spine re-import warning,Automatic response to external spine re-import warning,,default choice for external spine re-import warning
+default_included_file_open,Default option for opening included files,Default option for opening included files,,Default option for opening included files
 androidsdkpath,Path to Android SDK,Path to Android SDK,,Path to Android SDK
 clearfontcache,Clear font cache,Clear font cache,,Clear the font cache setting
 openscriptsfullscreen,Open scripts in a full screen editor,Open scripts in a full screen editor,,Open scripts in a full screen editor setting
@@ -3376,7 +3419,9 @@ roomeditor_mastervolume,Master Volume Setting,Master Volume Setting,,room editor
 timeline_noundoactions,Automatic response to permanent action warning,Automatic response to permanent action warning,,No Undo Actions in Timeline Editor
 timeline_opennewmoments,Open new moments for edit on creation,Open new moments for edit on creation,,Open newly created moments for editing preference
 CMenu_CloseAllButThis,Close All But This,Close All But This,,Close all but this context menu
+CMenu_DetachWorkspace,Detach Workspace,Detach Workspace,,Detach workspace context menu
 CMenu_Restore,Restore,Restore,,Restore context menu
+codeeditor_showindentguide,Show Indent Guide,Show Indent Guide,,Show Indent Guide
 codeeditor_textcolour,Colour of text,Colour of text,,Text Colour in Code Editor
 codeeditor_font,Font to use,Font to use,,Font to use in Code Editor
 codeeditor_fontstyle,Font Style,Font Style,,Font Style to use in Code Editor
@@ -3429,12 +3474,17 @@ codeeditor_textcolours,Text colours and style,Text colours and style,,Text colou
 codeeditor_options,Options,Options,,Options for Code Editor
 codeeditor_show_obsoletes,Colour coding/code completion enabled for obsolete content,Colour coding/code completion enabled for obsolete content,,code editor show obsolete symbols pref
 codeeditor_highlight_pairs,Highlight symbol pairs,Highlight symbol pairs,,code editor highlight matching symbol pairs pref
+codeeditor_show_ligatures,Show ligatures,Show ligatures,,code editor fonts show ligatures if available
 codeeditor_obsolete_style,Obsolete functions etc,Obsolete functions etc,,code editor text style for obsolete symbols
 codeeditor_struct_member_style,Struct members (built in),Struct members (built in),,code editor text style for struct members
 codeeditor_braces,Braces,Braces,,code editor text style for braces
 codeeditor_folded_region,Folded region,Folded region,,text style for folded #region
 codeeditor_folded_region_tag,Folded region name,Folded region name,,text style for folded region tag
 codeeditor_tab_lines_colour,Tab lines colour,Tab lines colour,,code editor tab lines colour
+codeeditor_highlightcursorline,Highlight the line that the cursor is on,Highlight the line that the cursor is on,,Highlight the line that the cursor is on
+codeeditor_scrollbar_mode,Scrollbar Mode,Scrollbar Mode,,Scrollbar Mode
+codeeditor_scrollbar_show_diagnostics,Show diagnostics on scrollbar,Show diagnostics on scrollbar,,Show diagnostics on scrollbar
+codeeditor_scrollbar_show_preview,Show code preview when mouse hovers over scrollbar,Show code preview when mouse hovers over scrollbar,,Show code preview when mouse hovers over scrollbar
 dialogeditor_textcolours,Text colours and style,Text colours and style,,Text colours and style in Dialog Editor
 dialogeditor_options,Options,Options,,Options in Dialog Editor
 sourcecontrolgit_username,Commit username,Commit username,,Username to commit as for source control git
@@ -3458,6 +3508,12 @@ ProgressBar_sourcecontrolgit_revert_revision,Reverting Revision...,Reverting Rev
 ProgressBar_sourcecontrolgit_clone,Cloning...,Cloning...,,Clone progress label
 ProgressBar_converting,Converting...,Converting...,,Converting progress label
 ExternalEditor_FailedToOpen,Failed to open external editor {0}.,Failed to open external editor {0}.,,Failed to open external editor message
+ExternalEditor_Bitmap_Warning,All changes to a sprite from an External Editor will be lost if the sprite is later edited in the internal Image Editor,All changes to a sprite from an External Editor will be lost if the sprite is later edited in the internal Image Editor,,External sprite editor warning message
+ExternalEditor_NoEditor_Warning,No External Editor path has been set for '{0}' files,No External Editor path has been set for '{0}' files,,Warning message for opening SWF or Spine sprites in external editors with no path provided
+ExternalEditor_SpineTrial_Warning,Can't open Spine sprites using Spine trial version.\nPlease purchase a Spine license to open Spine sprites from GameMaker in external Spine editor,Can't open Spine sprites using Spine trial version.\nPlease purchase a Spine license to open Spine sprites from GameMaker in external Spine editor,,Warning message for opening Spine sprites in Spine trial
+ExternalEditor_SpineImport_Warning,Any changes done in Spine external editor will need to be re-imported as a new GameMaker sprite,Any changes done in Spine external editor will need to be re-imported as a new GameMaker sprite,,Warning message for opening Spine sprites
+ExternalEditor_AssociatedAppError,There was an error opening this file in the associated application. Please make sure a default application is set in your system settings for this file type.,There was an error opening this file in the associated application. Please make sure a default application is set in your system settings for this file type.,,Error message for failing to open a file in the associated application
+ProgressBar_ExternalEditor,Opening External Editor...,Opening External Editor...,,Progress bar for opening external editor 
 desktop_slowclicktime,Slow double-click time (ms),Slow double-click time (ms),,Slow double-click time in milliseconds
 desktop_scrolllocktime,Scroll lock time (ms),Scroll lock time (ms),,The time in milliseconds to lock scrolling to the gadget scrolling started on as long as the mouse is still over it
 desktop_acpowerspeed,AC power framerate (%),AC power framerate (%),,Speed of IDE while running on AC power
@@ -3514,8 +3570,8 @@ TargetSelection_Platform_ps5,PlayStation 5,PlayStation 5,,the ps5 platform title
 TargetSelection_Platform_xboxseriesxs,Xbox One & Series X/S,Xbox One & Series X/S,DO NOT TRANSLATE,the Xbox One & Series X/S platform title in the platform selection list
 TargetSelection_Platform_wasm,WASM,WASM,DO NOT TRANSLATE,the WASM platform title in the platform selection list
 TargetSelection_Platform_operagx,GX.games,GX.games,DO NOT TRANSLATE,the opera gx platform title in the platform selection list
-TargetSelection_Runtime_VM,VM,VM,, the VM (Virtual Machine) title in the runtime selection list
-TargetSelection_Runtime_YYC,YYC,YYC,DO NOT TRANSLATE, the yyc title in the runtime selection list
+TargetSelection_Runtime_VM,GMS2 VM,GMS2 VM,DO NOT TRANSLATE, the VM (Virtual Machine) title in the runtime selection list
+TargetSelection_Runtime_YYC,GMS2 YYC,GMS2 YYC,DO NOT TRANSLATE, the yyc title in the runtime selection list
 TargetSelection_Runtime_Javascript,JavaScript,JavaScript,DO NOT TRANSLATE, the javascript title in the runtime selection list
 TargetSelection_Runtime_Cronus,New Runtime,New Runtime,DO NOT TRANSLATE,the cronus title in the runtime selection list
 TargetSelection_Device_Local,Local,Local,, the local device title in the device selection list
@@ -5294,6 +5350,7 @@ ProgressBar_ConvertingGMX,Converting GMX...,Converting GMX...,,converting gmx pr
 ProgressBar_FallbackUploading,Fallback Uploading...,Fallback Uploading...,,Uploading with a fallback strategy when the progress is not indicated
 ProgressBar_ProjectTool,ProjectTool...,ProjectTool...,,ProjectTool is running
 TileSetEditor_SpriteNoExport,Disable Source Sprite Export,Disable Source Sprite Export,,checkbox caption to disable the export on the source sprite
+TileSetEditor_SpriteNoExport_Tooltip,Disables the source sprite being exported during a build.\n\nWARNING: Checking this will disable collisions for Tile Layers that use this Tile Set.,Disables the source sprite being exported during a build.\n\nWARNING: Checking this will disable collisions for Tile Layers that use this Tile Set.,,checkbox caption to explain the export on the source sprite
 TileSetEditor_AutoTileLibrary_Tooltip,Edit Autotiling,Edit Autotiling,,autotile tooltip
 TileSetEditor_AnimationsLibrary_Tooltip,Edit Tile Animation,Edit Tile Animation,,animation library tooltip
 FileFilters_AllSupported,All Supported File Types,All Supported File Types,,file filter info
@@ -5403,18 +5460,21 @@ StartScreen_RecentProjects,RECENT PROJECTS,RECENT PROJECTS,,start screen label
 StartScreen_RecentProjectsEmpty,All recent and past projects will appear here,All recent and past projects will appear here,,start screen label
 StartScreen_CurrOffline,Currently Offline,Currently Offline,,offline label
 StartScreen_AvailableTemplates,Showing all available templates,Showing all available templates,,offline label
-SS_Template_NewBlank,New\nGame,New\nGame,,new blank project button label
-SS_Template_PleaseSelect,Please select a project template,Please select a project template,,start screen select template
-SS_NewBlankTemplate,NEW GAME,NEW GAME,,start screen new blank template
+SS_SelectProjectType,SELECT PROJECT TYPE,SELECT PROJECT TYPE,,select project type
+SS_SelectTemplate,SELECT TEMPLATE,SELECT TEMPLATE,,select template
+SS_ScriptingLang_Title,SCRIPTING LANGUAGE,SCRIPTING LANGUAGE,,scripting language header
+SS_ScriptingLang_Desc,Available in the following scripting languages:,Available in the following scripting languages:,,scripting language description
+SS_Description,DESCRIPTION,DESCRIPTION,,description header
 SS_ProjectNameLabel,Project Name:,Project Name:,,start screen project name label
 SS_ProjectLocationLabel,Location:,Location:,,start screen project location label
 SS_ProjDirInUse,Project directory name already exists,Project directory name already exists,,proj dir in use warning
 StartScreen_WizardTitle,Set Up Wizard,Set Up Wizard,,setup wizard title
 SS_WizardStepNum,Step {0} of {1},Step {0} of {1},,setup wizard label
 SS_Wizard_StepDesc_1,"Let's get you started setting up your first project.\nFirst, click on the button below labelled 'NEW'.","Let's get you started setting up your first project.\nFirst, click on the button below labelled 'NEW'.",,setup wizard label
-SS_Wizard_StepDesc_2,"Select a template below, or choose New Game to start a fresh new project","Select a template below, or choose New Game to start a fresh new project",,setup wizard label
+SS_Wizard_StepDesc_2,"Select the type of project you would like to create.","Select the type of project you would like to create.",,setup wizard label
+SS_Wizard_StepDesc_3,"Select a template below, or choose {0} to start a fresh new project","Select a template below, or choose {0} to start a fresh new project",,setup wizard label
 SS_Wizard_StepDesc_3BlankA,You've selected 'New Blank' template.,You've selected 'New Blank' template.,,setup wizard label
-SS_Wizard_StepDesc_3,"Give your project a name, choose a save location, and just jump right in!","Give your project a name, choose a save location, and just jump right in!",,setup wizard label
+SS_Wizard_StepDesc_4,"Give your project a name, choose a save location, and just jump right in!","Give your project a name, choose a save location, and just jump right in!",,setup wizard label
 SS_Wizard_DontShowAgain,Don't show me again,Don't show me again,,dont show again label
 SS_ButtonGo,Let's Go!,Let's Go!,,startscreen go button label
 SS_DirectoryNotExists,Directory '{0}' does not exist.\nPlease verify the project location and try again.,Directory '{0}' does not exist.\nPlease verify the project location and try again.,,Startscreen project directory does not exist
@@ -5425,17 +5485,27 @@ SS_TemplateLoadError,Error Loading Template,Error Loading Template,,template loa
 SS_TemplateFileMissing,Could not found the Template project at '{0}',Could not found the Template project at '{0}',,template file not found
 SS_TemplateInvalidURL,Invalid Download URL,Invalid Download URL,,invalid download url error
 SS_NewDescHeader,Description:,Description:,,start screen new project description
-SS_NewDesc,Create an empty GameMaker project. Build your game up from a blank canvas.,Create an empty GameMaker project. Build your game up from a blank canvas.,,start screen new project description
 SS_NewInfoHeader,Other Info:,Other Info:,,start screen new project description
 SS_NewInfo,Set your scripting preference in Game Options/Preferences.,Set your scripting preference in Game Options/Preferences.,,start screen new project description
-SSNew_Wallpaper_Title,NEW LIVE WALLPAPER,NEW LIVE WALLPAPER,,new project title
-SSNew_Wallpaper_Desc,Create your own Opera GX Live Wallpaper.,Create your own Opera GX Live Wallpaper.,,new project description live wallpaper
-SSNew_Wallpaper_Info,Includes basic setup for display on multiple monitors.,Includes basic setup for display on multiple monitors.,,new project info text live wallpaper
-SSNew_Wallpaper_ButtonCaption,New\nLive Wallpaper,New\nLive Wallpaper,,new project button caption
-SSNew_Gamestrip_Title,NEW GAME STRIP,NEW GAME STRIP,,new project title
+SS_Template_Game,Game,Game,,game type button label
+SS_Template_Wallpaper,Live Wallpaper,Live Wallpaper,,wallpaper type button label
+SS_Template_Gamestrip,Game Strip,Game Strip,,gamestrip type button label
+SS_Template_PleaseSelect,Please select a project type,Please select a project type,,start screen select template type
+SSNew_Game_Title,BLANK GAME,BLANK GAME,,start screen new game title
+SSNew_Game_Desc,Create an empty GameMaker project. Build your game up from a blank canvas.,Create an empty GameMaker project. Build your game up from a blank canvas.,,start screen new project description
+SSNew_Game_ButtonCaption,Blank\nGame,Blank\nGame,,blank game button title
+SSNew_Wallpaper_Title,BLANK LIVE WALLPAPER,BLANK LIVE WALLPAPER,,new project title
+SSNew_Wallpaper_Desc,Create your own Opera GX Live Wallpaper.\nIncludes basic setup for display on multiple monitors.,Create your own Opera GX Live Wallpaper.\nIncludes basic setup for display on multiple monitors.,,new project description live wallpaper
+SSNew_Wallpaper_ButtonCaption,Blank\nLive Wallpaper,Blank\nLive Wallpaper,,new project button caption
+SSNew_Gamestrip_Title,BLANK GAME STRIP,BLANK GAME STRIP,,new project title
 SSNew_Gamestrip_Desc,New Game Strip project description placeholder,New Game Strip project description placeholder,,new project description game strip
-SSNew_Gamestrip_Info,New Game Strip additional info placeholder,New Game Strip additional info placeholder,,new project info text game strip
-SSNew_Gamestrip_ButtonCaption,New\nGame Strip,New\nGame Strip,,new project button caption
+SSNew_Gamestrip_ButtonCaption,Blank\nGame Strip,Blank\nGame Strip,,new project button caption
+SS_GameTemplates_Title,GAME TEMPLATES,GAME TEMPLATES,,game templates title
+SS_GameTemplates_Desc,Make your first game in as little as 15 minutes.,Make your first game in as little as 15 minutes.,,new game template description
+SS_WallpaperTemplates_Title,LIVE WALLPAPERS,LIVE WALLPAPERS,,live wallpapers title
+SS_WallpaperTemplates_Desc,Pimp your browsers and desktop by creating your own personalised wallpaper.,Pimp your browsers and desktop by creating your own personalised wallpaper.,,new live wallpapers template description
+SS_GameStrips_Title,GAME STRIPS,GAME STRIPS,,new game strips title
+SS_GameStrips_Desc,Description of a new GAME STRIP template here. This will provide the user with the information they need to decide what type of GameMaker project they want to work in.,Description of a new GAME STRIP template here. This will provide the user with the information they need to decide what type of GameMaker project they want to work in.,,new gamestrip template description
 startscreen_pref_showtour,Show Tour,Show Tour,,show tour pref
 startscreen_pref_showSetupWizard,Show Setup Wizard,Show Setup Wizard,,show wizard pref
 startscreen_pref_recentProjListStyle,Recent Projects List Style,Recent Projects List Style,,recent proj list style
@@ -6307,6 +6377,7 @@ iPhone 6+,iPhone 6+,iPhone 6+,DO NOT TRANSLATE,iPhone 6+ option group subheading
 iPad,iPad,iPad,DO NOT TRANSLATE,iPad option group subheading
 iPad Retina,iPad Retina,iPad Retina,DO NOT TRANSLATE iPad,iPad Retina option group subheading
 Permissions,Permissions,Permissions,,Permissions option group subheading
+Attributes,Attributes,Attributes,,Attributes option group subheading
 Architecture,Architecture,Architecture,,Architecture option group subheading
 ArchitectureMac,Architecture (Only YYC),Architecture (Only YYC),,Architecture option group subheading
 Android TV,Android TV,Android TV,DO NOT TRANSLATE,Android TV option group subheading
@@ -7597,7 +7668,7 @@ Error_ImportProjectMessage,Could not save imported project at specified path. Yo
 Track Panel,Track Panel,Track Panel,,Track Panel label in Sequence Editor
 at:,at:,at:,,Label for Moment Editor to show which frame this moment triggers at
 Warning_ImportProject_Title,Warning,Warning,,Warning
-Warning_ImportProject_Message,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,You have selected a folder already containing another GMS2 project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,,Warning Importing Project message
+Warning_ImportProject_Message,You have selected a folder already containing another GameMaker project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,You have selected a folder already containing another GameMaker project - importing here will not merge the two projects. Are you sure you wish to save this import as a new subfolder inside the existing project's folder?,,Warning Importing Project message
 Warning_AppIconAlpha_Title,Warning,Warning,,Warning
 Warning_AppIconAlpha_Message,The image selected has transparency. Please select a different image.,The image selected has transparency. Please select a different image.,,App icon image transparency warning message
 Error_CannotPackage_Message,Stop the current running project before creating the executable?,Stop the current running project before creating the executable?,,Application running error message.
@@ -8237,6 +8308,7 @@ RedefineKeys_ResourceTree_Timelines_Singular,Resource Tree Timelines Singular,Re
 RedefineKeys_AssetBrowser_ClearFavourites,Asset Browser Clear Favourites,Asset Browser Clear Favourites,,Redefine keys AssetBrowser_ClearFavourites string
 RedefineKeys_Window_Close,Window Close,Window Close,,Redefine keys Window_Close string
 RedefineKeys_CMenu_CloseAllButThis,CMenu Close All But This,CMenu Close All But This,,Redefine keys CMenu_CloseAllButThis string
+RedefineKeys_CMenu_DetachWorkspace,Context Menu Detach Workspace,Context Menu Detach Workspace,,Redefine keys CMenu_DetachWorkspace string
 RedefineKeys_IDEMenu_Help_StartPage,IDEMenu Help Start Page,IDEMenu Help Start Page,,Redefine keys IDEMenu_Help_StartPage string
 RedefineKeys_IDEMenu_Help_Help,IDEMenu Help Help,IDEMenu Help Help,,Redefine keys IDEMenu_Help_Help string
 RedefineKeys_IDEMenu_Help_KnowledgeBase,IDEMenu Help Knowledge Base,IDEMenu Help Knowledge Base,,Redefine keys IDEMenu_Help_KnowledgeBase string
@@ -8743,8 +8815,86 @@ AIAsst_Intro_Item5,- Toolbar icon,- Toolbar icon,,intro label
 AIAsst_Intro_Label3,Ready to get started?,Ready to get started?,,intro label
 AIAsst_Intro_Link,"For more info, see <a href=""https://www.yoyogames.com/legal/privacy"">here</a>","For more info, see <a href=""https://www.yoyogames.com/legal/privacy"">here</a>",,intro link label
 AIAsst_Intro_DontShowAgain,Don't show again,Don't show again,,don't show again
+IDEMenu_Help_CreateBugReport,Report a GameMaker Bug,Report a GameMaker Bug,,menu item for creating and sending a bug report
+BugReport_WindowTitle,Report a bug,Report a bug,,bug report window title
+BugReport_Overall,"Thank you for taking the time to report an issue you have found in GameMaker. <a href=""https://help.yoyogames.com/hc/en-us/articles/13150754375453"">Submitting a Bug Report - What Does It Contain?</a>","Thank you for taking the time to report an issue you have found in GameMaker. <a href=""https://help.yoyogames.com/hc/en-us/articles/13150754375453"">Submitting a Bug Report - What Does It Contain?</a>",,bug report dialog
+BugReport_KnownIssues,"Please check the <a href=""https://github.com/YoYoGames/GameMaker-Bugs/issues"">Known Issues</a> before submitting to make sure that it has not already been reported.","Please check the <a href=""https://github.com/YoYoGames/GameMaker-Bugs/issues"">Known Issues</a> before submitting to make sure that it has not already been reported.",,bug report known issues
+BugReport_AuthGithub,"You can authorise your GitHub account to post issues on the <a href=""{0}"">Accounts page</a>","You can authorise your GitHub account to post issues on the <a href=""{0}"">Accounts page</a>",,bug report github auth 
+BugReport_CategoryLabel,Issue Category:*,Issue Category:*,,bug report issue category label
+BugReport_PleaseSelect,Please Select...,Please Select...,,please select
+BugReport_Cat_GeneralIDE,General IDE,General IDE,,bugreport category label
+BugReport_Cat_BuildingProject,Building A Project,Building A Project,,bugreport category label
+BugReport_Cat_CrashUnstable,Crash/Unstable Message,Crash/Unstable Message,,bugreport category label
+BugReport_Cat_EditingAssets,Editing Your Assets,Editing Your Assets,,bugreport category label
+BugReport_Cat_InGame,In-Game (GMS2 Runtime),In-Game (GMS2 Runtime),,bugreport category label
+BugReport_Cat_NewRuntime,New Runtime Beta Feedback,New Runtime Beta Feedback,,bugreport category label
+BugReport_ReportDescription,Description*,Description*,,bug report description
+BugReport_ReportTitle,Title*,Title*,,bug report title
+BugReport_TitleTT,Provide a short title,Provide a short title,,bug report title tooltip
+BugReport_DescriptionText,"Describe the issue in as much detail as possible, the more details you supply, the more likely we are able to fix the problem. Include details such as: what you were doing at the time, and target platforms being used.","Describe the issue in as much detail as possible, the more details you supply, the more likely we are able to fix the problem. Include details such as: what you were doing at the time, and target platforms being used.",,bug report dialog
+BugReport_DescWarning,Please complete the fields marked * to submit,Please complete the fields marked * to submit,,complete to submit warning
+BugReport_Steps,Steps To Reproduce,Steps To Reproduce,,bug report steps
+BugReport_StepsTT,Describe the steps required to reproduce the bug,Describe the steps required to reproduce the bug,,bug report steps tooltip
+BugReport_AttachAdditional,Attach additional files,Attach additional files,,bug report dialog
+BugReport_AttachFiles,AttachFiles,AttachFiles,,bug report dialog
+BugReport_AttachFilesTT,"A selection of GameMaker files (ui.log, um.json, licence.plist, etc) will be included within your bug report, these are required to allow us to diagnose the issue you are reporting.","A selection of GameMaker files (ui.log, um.json, licence.plist, etc) will be included within your bug report, these are required to allow us to diagnose the issue you are reporting.",,bug report dialog
+BugReport_IncludeProject,Include project,Include project,,bug report dialog
+BugReport_IncludeProjectTT,"Include a copy of your project file with your submission, please try to refrain from submitting full game projects, and please do create a small sample project that reproduces the issue. If you are unable to recreate the issue in a new project, then it is likely that the issue is caused by your game logic.","Include a copy of your project file with your submission, please try to refrain from submitting full game projects, and please do create a small sample project that reproduces the issue. If you are unable to recreate the issue in a new project, then it is likely that the issue is caused by your game logic.",,bug report dialog
+BugReport_IssueVisibility,Issue Visibility:*,Issue Visibility:*,,issue vis
+ListBoxEnum_eBugReportVis_Public,Public,Public,,public
+ListBoxEnum_eBugReportVis_Private,Private,Private,,public
+BugReport_PublicTT,"Whenever possible, please do not include sensitive/confidential information in your description or steps, so that you can report your issue publicly and be able to see it on our website and get updates. (Your attached files will always be private anyway.)","Whenever possible, please do not include sensitive/confidential information in your description or steps, so that you can report your issue publicly and be able to see it on our website and get updates. (Your attached files will always be private anyway.)",,public issue tooltip
+BugReport_PrivateTT,"If your issue contains sensitive information (e.g. information covered by an NDA) and you would like us not to include this report in the public bug list, then please select this. Please note that if the issue would affect lots of users, we retain the right to redact all private information and make the issue public.","If your issue contains sensitive information (e.g. information covered by an NDA) and you would like us not to include this report in the public bug list, then please select this. Please note that if the issue would affect lots of users, we retain the right to redact all private information and make the issue public.",,bug report dialog
 BugPackageModule_IncludeYYZ,"Include the current package:\n\nWould you like to include this project in your bug submission as an example of how to cause the bug?\n\n\nA project is usually required for all issues regarding compiling and is extremely helpful when the problem is in-game.\n\nIf you do not include a sample project, we may request one later if we are unable to reproduce your bug.","Include the current package:\n\nWould you like to include this project in your bug submission as an example of how to cause the bug?\n\n\nA project is usually required for all issues regarding compiling and is extremely helpful when the problem is in-game.\n\nIf you do not include a sample project, we may request one later if we are unable to reproduce your bug.",,Message to include a YYZ of the project
 BugPackageModule_message,Bug Report Packaging,Bug Report Packaging,,Title for Bug Report Packging messages
 BugPackageModule_failed,Failed to create a bug report package. Please check the output logs for details,Failed to create a bug report package. Please check the output logs for details,,Error when creating a bug report package
-IDEMenu_Help_CreateBugPackage,Create Your Bug Report Package,Create Your Bug Report Package,,Menu Item for creating a bug package
+BugReport_Submit,Submit,Submit,,bug report submit button
+BugReport_Creating,Creating bug report...,Creating bug report...,,bug report creating
+BugReport_ZippingProject, Zipping project..., Zipping project...,,bug report progress msg
+BugReport_ZippingReport, Zipping report..., Zipping report...,,bug report progress msg
+BugReport_SendingReport, Sending bug report..., Sending bug report...,,bug report progress msg
+BugReport_SuccessTitle,Report submitted!,Report submitted!,,submit success title
+BugReport_Success1,Thank you for your submission,Thank you for your submission,,success msg1
+BugReport_Success2,"You can check the progress of this via <a href=""{0}"">{0}</a>","You can check the progress of this via <a href=""{0}"">{0}</a>",,bug report success msg2
+BugReport_ErrorTitle,Error when submitting,Error when submitting,,bug report error title
+BugReport_Failed,There was a problem submitting your bug report.,There was a problem submitting your bug report.,,bug report fail msg
+BugReport_TryLaterMsg,The report has been saved and you can try again later.,The report has been saved and you can try again later.,,try later msg
+BugReport_Issue,Issue:,Issue:,,bug report issue label
+BugReport_SignInTitle,Report a bug - Sign In,Report a bug - Sign In,,bug report sign in title
+BugReport_SignInLabel,You need to be signed in to report a bug.,You need to be signed in to report a bug.,,bug report sign in label
+BugReport_SignInSuggest,"Your bug report will be posted anonymously if you are not signed in to a GameMaker account and have not authorised us to post as your GitHub account. You can authorise us to post on your behalf in your account dashboard.","Your bug report will be posted anonymously if you are not signed in to a GameMaker account and have not authorised us to post as your GitHub account. You can authorise us to post on your behalf in your account dashboard.",,suggest sign in message
+BugReport_SignInMsg1,"You are not signed-in, so this new bug report will be anonymous and you will not get feedback/progress updates about it.","You are not signed-in, so this new bug report will be anonymous and you will not get feedback/progress updates about it.",,bug report signin dialog
+BugReport_SignInMsg2,"We strongly recommend signing-in first and <a href=""{0}"">authorising GameMaker to post your reports using your GitHub account</a> if you have not already done so.","We strongly recommend signing-in first and <a href=""{0}"">authorising GameMaker to post your reports using your GitHub account</a> if you have not already done so.",,bug report signin dialog
+BugReport_ArticleLink,"<a href=""https://help.yoyogames.com/hc/en-us/articles/13150754375453"">Submitting a Bug Report - What Does It Contain?</a>","<a href=""https://help.yoyogames.com/hc/en-us/articles/13150754375453"">Submitting a Bug Report - What Does It Contain?</a>",,bug report article link
+BugReport_KnownIssuesLink,"<a href=""https://github.com/YoYoGames/GameMaker-Bugs/issues"">Known Issues List</a>","<a href=""https://github.com/YoYoGames/GameMaker-Bugs/issues"">Known Issues List</a>",,bug report known issues link
+BugReport_SignInLegacy,Have a legacy account?,Have a legacy account?,,bug report legacy account label
+BugReport_Uploading, Uploading bug report files..., Uploading bug report files...,,bug report progress message
+BugReport_UploadSuccess,Bug Report {0} files uploaded successfully,Bug Report {0} files uploaded successfully,,upload success
+BugReport_UploadFail,Bug Report {0} files failed to upload:,Bug Report {0} files failed to upload:,,upload fail
+BugReport_UploadRetrying, Retrying bug report {0} upload..., Retrying bug report {0} upload...,,bug report progress msg
+BugReport_UploadFailTitle,Bug Report upload failed,Bug Report upload failed,,bug report upload failed title
+BugReport_UploadFailMsg,File upload failed for Bug Report issue {0},File upload failed for Bug Report issue {0},,bug report upload fail msg
+BugReport_UploadRetryMsg,Do you want to retry the upload?,Do you want to retry the upload?,,bug report upload retry msg
+BugReport_ButtonRetryUpload,Retry Upload,Retry Upload,,bug report retry button label
+BugReport_AttachFileLink,"You can instead attach the report zip <a href="""">{0}</a> to the <a href=""{1}"">Github issue</a>","You can instead attach the report zip <a href="""">{0}</a> to the <a href=""{1}"">Github issue</a>",,bug report attach package
+BugReport_UploadFileLink,"You can instead upload the report zip <a href="""">{0}</a> to a shared location and provide the link in a new ticket","You can instead upload the report zip <a href="""">{0}</a> to a shared location and provide the link in a new ticket",,bug report upload package
+BugReport_UploadFailFileLink,"Bug report package <a href="""">{0}</a> failed to upload.","Bug report package <a href="""">{0}</a> failed to upload.",,upload fail file link
+BugReport_UploadFailGithubOK,The GitHub issue was successfully created.,The GitHub issue was successfully created.,,upload fail github msg
+BugReport_UploadFail_AttachRetry,"You can retry the upload, or attach the file to the <a href=""{0}"">GitHub issue</a>","You can retry the upload, or attach the file to the <a href=""{0}"">GitHub issue</a>",,upload fail retry or attach issue
+BugReport_UploadFail_Attach,"You can instead attach the file to the <a href=""{0}"">GitHub issue</a>","You can instead attach the file to the <a href=""{0}"">GitHub issue</a>",,upload fail attach issue
+BugReport_UploadFailRetry,Retry the upload?,Retry the upload?,,upload fail private
+BugReport_CancelUpload,Cancel Upload,Cancel Upload,,cancel upload button label
+BugReport_UploadingLabel,Uploading report files...,Uploading report files...,,uploading msg
+BugReport_UploadComplete,Upload complete,Upload complete,,uploading msg
+BugReport_UploadFailed,Upload failed,Upload failed,,uploading msg
+BugReport_UploadCancelled,Upload cancelled,Upload cancelled,,uploading msg
+BugReport_ContinueAnon,Continue Anonymously,Continue Anonymously,,continue anon
+IDEMenu_Help_CreateBugPackage,Create Your Contact Us Package,Create Your Contact Us Package,,Menu Item for creating a bug package
 verbose_logging,Enable Verbose Logging,Enable Verbose Logging,,Enable Verbose Logging
+TextDocumentTab_CMenu_ShowInAssetBrowser,Show in Asset Browser,Show in Asset Browser,,Show in Asset Browser
+TextDocumentTab_CMenu_ShowInInspector,Show in Inspector,Show in Inspector,,Show in Inspector
+TextDocumentTab_CMenu_CopyFullPath,Copy Full Path,Copy Full Path,,Copy Full Path
+ProjectToolOutputPref,Show Project Tool Output,Show Project Tool Output,,Show Project Tool Output Preference label
+Display,Display,Display,,GeneralDisplay preferences label
+Desktop_MinWindowWidth,Minimum window width,Minimum window width,,Preference to set minimum window width
+Desktop_MinWindowHeight,Minimum window height,Minimum window height,,Preference to set minimum window height
