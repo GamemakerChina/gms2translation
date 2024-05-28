@@ -74,12 +74,31 @@ DialogEditor_Error,Error,Error,,dialog editor error box title
 UserLogin_Exception,Exception - {0},Exception - {0},,exception error
 UserLogin_ServerError,Error ({0}) - {1},Error ({0}) - {1},,server response error
 UserLogin_Retry,Retry,Retry,,User Login - Error Retry
+PluginWarning_AssemblyNotFoundError,"Assembly not found for GMPluginAssembly {0}, path {1}","Assembly not found for GMPluginAssembly {0}, path {1}",,AssemblyNotFoundError
+PluginWarning_ReferencedAssemblyNotFoundError,Referenced assembly {1} not found for GMPluginAssembly {0},Referenced assembly {1} not found for GMPluginAssembly {0},,ReferencedAssemblyNotFoundError
+PluginWarning_AssemblyNotSignedError,"Assembly not signed for GMPluginAssembly {0}, path {1}","Assembly not signed for GMPluginAssembly {0}, path {1}",,AssemblyNotSignedError
+PluginWarning_BadAssemblyError,Assembly {0} has an unspecified bad format,Assembly {0} has an unspecified bad format,,BadAssemblyError
+PluginWarning_BadPortableExecutableFormatError,Assembly {0} has a bad portable executable format,Assembly {0} has a bad portable executable format,,BadPortableExecutableError
+PluginWarning_BadCLRHeaderFormatError,Assembly {0} has a bad CLR header format,Assembly {0} has a bad CLR header format,,BadCLRHeaderFormatError
+PluginWarning_FoundPluginError,{0} IPlugins with a matching name were found in {1} - there can only be one,{0} IPlugins with a matching name were found in {1} - there can only be one,,FoundPluginError
+PluginWarning_InvalidLanguageFileWarning,Language pack {0} has an invalid format,Language pack {0} has an invalid format,,InvalidLanguageFileWarning
+PluginWarning_LanguageFileNotFoundWarning,Language pack {0} could not be found,Language pack {0} could not be found,,LanguageFileNotFoundWarning
+PluginWarning_NoIPluginFoundError,No IPlugin found in plugin {0},No IPlugin found in plugin {0},,NoIPluginFoundError
+PluginWarning_NullAssemblyLoadContextError,Assembly load context was null for GMPluginAssembly {0},Assembly load context was null for GMPluginAssembly {0},,NullAssemblyLoadContextError
+PluginWarning_PluginMetadataLoadError,Error loading plugin metadata file {0},Error loading plugin metadata file {0},,PluginMetadataLoadError
+PluginWarning_SymbolsFailedToLoadWarning,Symbols failed to load for assembly {0},Symbols failed to load for assembly {0},,SymbolsFailedToLoadWarning
+PluginWarning_UnknownPluginTypeError,Unknown plugin type for GMPlugin {0},Unknown plugin type for GMPlugin {0},,UnknownPluginTypeError
+PluginWarning_InvalidPluginDataError,GMPlugin {0} plugin data was invalid,GMPlugin {0} plugin data was invalid,,InvalidPluginDataError
 UserLogin_RetrySSO,Retry Opera Login,Retry Opera Login,,User Login - Error Retry SSO login
 UserLogin_NoRuntime,Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker again.,Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker again.,,user login no runtime message
 UserLogin_InstallRuntimeTitle,Install Runtime {0},Install Runtime {0},,install runtime title
 UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,,runtime free space warning message
 UserLogin_Continue,Continue,Continue,,continue label
+UserLogin_MaxDevice,Maximum sign ins exceeded \nYou can manage your account sessions at {0},Maximum sign ins exceeded \nYou can manage your account sessions at {0},,User Login Error response 29
+User_OK,OK,OK,,User Login - two step authentication ok button
 runtime_selection,Runtime Selection,Runtime Selection,,Runtime Selection Window title
 runtime_onstartup_change,Do you want to change your current runtime to the matching IDE version {0}?,Do you want to change your current runtime to the matching IDE version {0}?,,Change current runtime to the version matching the IDE
 UserLogin_OfflineError,Unable to take user offline,Unable to take user offline,,offline error
 opera_env_sso_confirm,"You are using a custom environment for Opera GX settings. If you use Opera Single Sign-on, these settings will be overriden. Do you wish to proceed anyway?","You are using a custom environment for Opera GX settings. If you use Opera Single Sign-on, these settings will be overriden. Do you wish to proceed anyway?",,Warning shown when a user tries to log-in via Opera SSO with a custom environment
+CodeSnippets_ConversionWarning,An old code snippets format was detected. Would you like to convert these to the new format?,An old code snippets format was detected. Would you like to convert these to the new format?,,Code snippets conversion warning
+IDETooltip_Notifications,Notifications,Notifications,,IDE toolbar notifications tooltip

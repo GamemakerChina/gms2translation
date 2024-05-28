@@ -7,7 +7,7 @@ _LanguageNative,English,English,,Language name in the native language
 _LanguageCode,en,en,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
 _GameMaker2016,GameMaker,GameMaker,,IDE title
 _MANUAL_LOCATION,http://zeus.yoyogames.com/GMS2_English-master.zip,http://zeus.yoyogames.com/GMS2_English-master.zip,,Location of language manual
-_MANUAL_ONLINE_URL,https://manual-en.yoyogames.com,https://manual-en.yoyogames.com,,online manual url
+_MANUAL_ONLINE_URL,https://manual.gamemaker.io/monthly/en,https://manual.gamemaker.io/monthly/en,,online manual url
 _TUTORIALS_ONLINE_URL,https://gamemaker.io/en/tutorials,https://gamemaker.io/en/tutorials,,Location of Tutorials url
 $win_OpenInExplorer,Open In Explorer,Open In Explorer,,Windows version of Open In Explorer
 $win_OpenProjectInExplorer,Open Project In Explorer,Open Project In Explorer,,Windows version of Open Project In Explorer
@@ -65,6 +65,7 @@ Button_Manage,Manage,Manage,,Manage button
 Button_No,No,No,,No
 Button_OK,OK,OK,,ok button
 Button_Subscribe,Subscribe,Subscribe,,Subscribe button
+Button_UpdateLicense,Update License,Update License,,Update License button
 Button_Rename,Rename,Rename,,Rename button
 Button_Resize,Resize,Resize,,resize button label
 Button_Scale,Scale,Scale,,Image editor - scale button
@@ -378,6 +379,7 @@ Event_Other_BroadcastMessage,Broadcast Message,Broadcast Message,,Other event su
 Event_Other_RollbackStart,Rollback Start,Rollback Start,,Other event subtype
 Event_Other_RollbackEvent,Rollback Event,Rollback Event,,Other event subtype
 Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper Config,,Other event subtype
+Event_Other_WallpaperSubscriptionData,Wallpaper Subscription Data,Wallpaper Subscription Data,,Other event subtype
 Event_Other_EndOfPath,Path Ended,Path Ended,,Other event subtype
 Event_Other_GameEnd,Game End,Game End,,Other event subtype
 Event_Other_GameStart,Game Start,Game Start,,Other event subtype
@@ -442,6 +444,7 @@ File_Menu_Exit,${FileMenuExit},${FileMenuExit},,The Exit program menu item
 File_Menu_ExportProject,Export Project,Export Project,,The Export Project menu item
 File_Menu_ExportYYZ,YYZ,YYZ,,yyz export option
 File_Menu_ExportTemplate,As Template,As Template,,export template option
+File_Menu_ExportPrefab,As Prefab,As Prefab,,export prefab option
 File_Menu_ImportProject,Import Project,Import Project,,The Import project menu item
 File_Menu_NewProject,New Project,New Project,,The New Project menu item
 File_Menu_OpenProject,Open Project,Open Project,,The Open Project menu item
@@ -604,8 +607,8 @@ Inspector_SpeedFPS,Speed (FPS),Speed (FPS),,inspector property label
 Inspector_LengthFrames,Length (Frames),Length (Frames),,inspector property label
 Inspector_Offset,Offset,Offset,,inspector property label
 Inspector_Opacity,Opacity,Opacity,,inspector property label
-Inspector_BackdropImage,Backdrop Image,Backdrop Image,,inspector property label
-Inspector_BackdropSize,Backdrop Size,Backdrop Size,,inspector property label
+Inspector_BackdropImage,Image,Image,,inspector property label
+Inspector_BackdropSize,Size,Size,,inspector property label
 Inspector_Size,Size,Size,,inspector property label
 Inspector_EditCC,Edit Creation Code,Edit Creation Code,,inspector edit creation code button label
 Inspector_RoomLayerAssets,Assets,Assets,,room asset layer assets list
@@ -773,6 +776,8 @@ GadgetToolbox_Image,Image,Image,,Gadget toolbox display name for image
 GadgetToolbox_Input,Input,Input,,Gadget toolbox display name for input
 GadgetToolbox_Label,Label,Label,,Gadget toolbox display name for label
 GadgetToolbox_LinkLabel,Link Label,Link Label,,Gadget toolbox display name for link label
+GadgetToolbox_EmbeddedLinkLabel,Embedded Link Label,Embedded Link Label,,gadget toolbox
+GadgetToolbox_SearchBar,Search bar,Search bar,,gadget toolbox search bar
 GadgetToolbox_ListBox,Listbox,Listbox,,Gadget toolbox display name for listbox
 GadgetToolbox_HeaderedListBox,Headered Listbox,Headered Listbox,,Gadget toolbox display name for headered listbox
 GadgetToolbox_Lists,Lists,Lists,,Gadget toolbox display name for lists group
@@ -1158,6 +1163,7 @@ IncludedFilesPlatform_TV_OS,tvOS,tvOS,DO NOT TRANSLATE,included files platform l
 IncludedFilesPlatform_AmazonFire,Amazon Fire,Amazon Fire,DO NOT TRANSLATE,Amazon Fire platform list entry
 IncludedFilesPlatform_WASM,WASM,WASM,DO NOT TRANSLATE,WASM platform list entry
 IncludedFilesPlatform_OPERAGX,GX.games,GX.games,DO NOT TRANSLATE,Opera GX platform list entry
+IncludedFile_Refresh,Refresh Included Files,Refresh Included Files,,Refresh Included Files list from disk
 wasm,WASM,WASM,DO NOT TRANSLATE,WASM Platform settings entry
 operagx,GX.games,GX.games,DO NOT TRANSLATE,Opera GX Platform settings entry
 OperaGX,GX.games,GX.games,DO NOT TRANSLATE,Opera GX Platform settings entry
@@ -1733,6 +1739,7 @@ RoomProperties_VSpeed,Vertical Speed,Vertical Speed,,numeric text box label for 
 RoomProperties_Width,Width,Width,,numeric textbox caption for room width
 RoomEffect_EffectType,Effect Type:,Effect Type:,,effect type
 RoomEffect_EffectNone,None,None,,no effect type label
+RoomEffect_DescHeader,Effect Notes,Effect Notes,,effect desc header
 RoomEffect_DefaultTexture,Default,Default,,default effect texture parameter name
 ROOM_EFFECTS_filter_edgedetect,Edge Detect,Edge Detect,,edge detect filter name
 ROOM_EFFECTS_Difference threshold,Threshold,Threshold,,Difference threshold param
@@ -1761,6 +1768,7 @@ ROOM_EFFECTS_Glint Colour,Glint Colour,Glint Colour,,glint colour parameter name
 ROOM_EFFECTS_Add Colour,Add Colour,Add Colour,,add colour parameter name
 ROOM_EFFECTS_filter_colourise,Colourise,Colourise,,colourise filter name
 ROOM_EFFECTS_filter_large_blur,Large Blur,Large Blur,,large blur filter name
+ROOM_EFFECTS_DESC_filter_large_blur,This filter has a large performance impact on some platforms.\nConsider using Gaussian Blur effect instead if you notice performance drops after applying this filter.,This filter has a large performance impact on some platforms.\nConsider using Gaussian Blur effect instead if you notice performance drops after applying this filter.,,large blur filter desc
 ROOM_EFFECTS_Radius,Radius,Radius,,radius filter param
 ROOM_EFFECTS_filter_pixelate,Pixelate,Pixelate,,pixelate filter name
 ROOM_EFFECTS_Cell Size,Cell Size,Cell Size,,cell size filter param
@@ -1775,7 +1783,7 @@ ROOM_EFFECTS_Offset,Offset,Offset,,offset filter param
 ROOM_EFFECTS_Offset_0,Offset 1,Offset 1,,offset filter param
 ROOM_EFFECTS_Offset_1,Offset 2,Offset 2,,offset filter param
 ROOM_EFFECTS_filter_twirl_distort,Twirl Distort,Twirl Distort,,twirl distort filter name
-ROOM_EFFECTS_Angle,Angle,Angle,,angle filter param
+ROOM_EFFECTS_Angle,Direction,Direction,,direction filter param
 ROOM_EFFECTS_filter_dots,Dots Background,Dots Background,,dots backgroundfilter name
 ROOM_EFFECTS_Spacing,Spacing,Spacing,,spacing param
 ROOM_EFFECTS_Size,Size,Size,,size param
@@ -1928,6 +1936,7 @@ ROOM_EFFECTS_Quality,Quality,Quality,,quality effect param
 ROOM_EFFECTS_Gamma,Gamma,Gamma,,gamma effect param
 ROOM_EFFECTS_Alpha,Alpha,Alpha,,alpha effect param
 ROOM_EFFECTS_effect_recursive_blur,Recursive Blur (in-game only),Recursive Blur (in-game only),,recursive blur effect name
+ROOM_EFFECTS_effect_gaussian_blur,Gaussian Blur (in-game only),Gaussian Blur (in-game only),,gaussian blur effect name
 ROOM_EFFECTS_filter_clouds,Clouds,Clouds,,clouds filter name
 ROOM_EFFECTS_Velocity,Velocity,Velocity,,velocity filter param
 ROOM_EFFECTS_Turbulence,Turbulence,Turbulence,,turbulence filter param
@@ -1945,6 +1954,11 @@ ROOM_EFFECTS_filter_mask,Mask,Mask,,mask filter name
 ROOM_EFFECTS_Alpha Start,Alpha Start,Alpha Start,,alpha start filter param
 ROOM_EFFECTS_Alpha End,Alpha End,Alpha End,,alpha end filter param
 ROOM_EFFECTS_Mask Texture,Mask Texture,Mask Texture,,mask texture filter param
+ROOM_EFFECTS_filter_hard_drop_shadow,Hard Drop Shadow,Hard Drop Shadow,,hard drop shadow filter name
+ROOM_EFFECTS_X Displacement,X Displacement,X Displacement,,x displacement filter param
+ROOM_EFFECTS_Y Displacement,Y Displacement,Y Displacement,,y displacement filter param
+ROOM_EFFECTS_Opacity,Opacity,Opacity,,opacity filter param
+ROOM_EFFECTS_Colour,Colour,Colour,,colour filter param
 ROOM_EFFECT_GROUP_Particles,Particle,Particle,,room effect group name
 ROOM_EFFECT_GROUP_Trail,Trail,Trail,,room effect group name
 ROOM_EFFECT_GROUP_Blower,Blower,Blower,,room effect group name
@@ -1966,8 +1980,8 @@ ROOM_EFFECT_VALUE_Linear,Linear,Linear,,room effect value name
 ROOM_EFFECT_VALUE_Radial,Radial,Radial,,room effect value name
 ROOM_EFFECT_VALUE_Rectangle,Rectangle,Rectangle,,room effect value name
 ROOM_EFFECT_VALUE_Rotated Square,Rotated Square,Rotated Square,,room effect value name
-ROOM_EFFECT_VALUE_Symmetrical conic,Symmetrical conic,Symmetrical conic,,room effect value name
-ROOM_EFFECT_VALUE_Asymmetrical conic,Asymmetrical conic,Asymmetrical conic,,room effect value name
+ROOM_EFFECT_VALUE_Symmetrical conic,Symmetrical Conic,Symmetrical Conic,,room effect value name
+ROOM_EFFECT_VALUE_Asymmetrical conic,Asymmetrical Conic,Asymmetrical Conic,,room effect value name
 ROOM_EFFECT_VALUE_bm_add,bm_add,bm_add,,room effect value name
 ROOM_EFFECT_VALUE_bm_max,bm_max,bm_max,,room effect value name
 ROOM_EFFECT_VALUE_bm_subtract,bm_subtract,bm_subtract,,room effect value name
@@ -2149,6 +2163,7 @@ Splash_LoadingPrefs,Loading Preferences...,Loading Preferences...,,Loading the p
 Splash_LoadingDevices,Loading Devices...,Loading Devices...,,Loading the devices
 Splash_LoadingPluginGUI,Loading Plugin Resources...,Loading Plugin Resources...,,Loading the plugin resources
 Splash_LoadingPluginLanguages,Loading Plugin Languages...,Loading Plugin Languages...,,Loading the plugin languages
+Splash_CheckingForUpdatedPlugins,Checking for Updated Plugins...,Checking for Updated Plugins...,,
 Splash_UserLogin,User Processing,User Processing,,User Processing has been started
 Splash_InitGMLVisual,GML Visual...,GML Visual...,,Initialising GML Visual 
 Splash_CheckingRSS,Checking RSS...,Checking RSS...,,Checking RSS...
@@ -2424,6 +2439,10 @@ ListBoxEnum_eSnappableWidgetOrientation_Top,Top,Top,,snappable orientation enum
 ListBoxEnum_eSnappableWidgetOrientation_Right,Right,Right,,snappable orientation enum
 ListBoxEnum_eSnappableWidgetOrientation_Bottom,Bottom,Bottom,,snappable orientation enum
 ListBoxEnum_eSnappableWidgetOrientation_Left,Left,Left,,snappable orientation enum
+ListBoxEnum_eCodeEditorSnappableWidgetOrientation_Top,Top,Top,,snappable orientation enum for code editor
+ListBoxEnum_eCodeEditorSnappableWidgetOrientation_Right,Right,Right,,snappable orientation enum for code editor
+ListBoxEnum_eCodeEditorSnappableWidgetOrientation_Bottom,Bottom,Bottom,,snappable orientation enum for code editor
+ListBoxEnum_eCodeEditorSnappableWidgetOrientation_Left,Left,Left,,snappable orientation enum for code editor
 StartPage_Error,Start page failed to load.\nYou can create new projects from the File menu.,Start page failed to load.\nYou can create new projects from the File menu.,,Start page error text
 StartPage_ErrorTitle,An Error Occurred,An Error Occurred,,Start page error title
 StartPage_Title,Start Page,Start Page,,Start page title
@@ -2447,6 +2466,8 @@ TabControl_AddTab,Add New Tab,Add New Tab,,Add a new tab to the tab control cont
 TabControl_AddTabAfter,Add New Tab After '{0}',Add New Tab After '{0}',,Add a new tab to the tab control context menu entry after the active tab
 TabControl_MoveTabBack,Move Tab '{0}' Back,Move Tab '{0}' Back,,Move the tab back one space context menu entry
 TabControl_MoveTabForward,Move Tab '{0}' Forward,Move Tab '{0}' Forward,,Move the tab forward one space context menu entry
+TextEditor_Documents,Documents,Documents,,Documents
+TextEditor_Declarations,Declarations,Declarations,,Declarations
 TextEditor_Clear,Clear,Clear,,Clear TextEditor context menu entry
 TextEditor_Copy,Copy,Copy,,Text editor copy command
 TextEditor_Cut,Cut,Cut,,Text editor cut command
@@ -2471,8 +2492,15 @@ TextEditor_ToggleFold,Fold/Unfold region,Fold/Unfold region,,text editor toggle 
 TextEditor_PreviousRegion,Previous Region,Previous Region,,text editor previous region menu entry
 TextEditor_NextRegion,Next Region,Next Region,,text editor next region menu entry
 TextEditor_CodeSnippets,Code Snippets,Code Snippets,,Code snippets context menu entry
-TextEditor_GoToDefinition,Go To Definition,Go To Definition,,Go To Definition
+TextEditor_GoToDeclaration,Go To Declaration,Go To Declaration,,Go To Declaration
+TextEditor_PreviewDeclaration,Preview Declaration,Preview Declaration,,Preview Declaration
+TextEditor_FindUsages,Find Usages,Find Usages,,Find Usages
+TextEditor_RefactorIdentifier,Refactor Identifier,Refactor Identifier,,Refactor Identifier
+TextEditor_Edit,Edit,Edit,,Edit
+TextEditor_Comment,Comment line/selection,Comment line/selection,,Comment line/selection
+TextEditor_Uncomment,Uncomment line/selection,Uncomment line/selection,,Uncomment line/selection
 TextEditor_JoinLines,Join Lines,Join Lines,,Join Lines
+TextEditor_Duplicate,Duplicate line/selection,Duplicate line/selection,,Duplicate line/selection
 TextEditor_Insert,Insert,Insert,,Insert
 TextEditor_Insert_UUID,UUID,UUID,,UUID
 TextEditor_Insert_MD5,MD5 of Selection,MD5 of Selection,,MD5 of Selection
@@ -2481,6 +2509,32 @@ TextEditor_Insert_SHA256,SHA256 of Selection,SHA256 of Selection,,SHA256 of Sele
 TextEditor_Insert_ToBase64,Base64 of Selection,Base64 of Selection,,Base64 of Selection
 TextEditor_Insert_FromBase64,Decoded Base64 of Selection,Decoded Base64 of Selection,,Decoded Base64 of Selection
 TextEditor_SortLines,Sort Lines Alphanumerically,Sort Lines Alphanumerically,,Sort Lines Alphanumerically
+TextEditor_Navigate,Navigate,Navigate,,Navigate
+TextEditor_Navigate_Backward,Backward,Backward,,Backward
+TextEditor_Navigate_Forward,Forward,Forward,,Forward
+TextEditor_Navigate_GoToLine,Go to Line,Go to Line,,Go to Line
+TextEditor_Navigate_GoToType,Go to Type,Go to Type,,Go to Type
+TextEditor_Navigate_NextDocument,Next Document,Next Document,,Next Document
+TextEditor_Navigate_PreviousDocument,Previous Document,Previous Document,,Previous Document
+TextEditor_Navigate_NextRegion,Next Region,Next Region,,Next Region
+TextEditor_Navigate_PreviousRegion,Previous Region,Previous Region,,Previous Region
+TextEditor_FindAndReplace,Find & Replace,Find & Replace,,Find & Replace
+TextEditor_FindInEditor,Find in Editor,Find in Editor,,Find in Editor
+TextEditor_ReplaceInEditor,Replace in Editor,Replace in Editor,,Replace in Editor
+TextEditor_FindInProject,Find in Project,Find in Project,,Find in Project
+TextEditor_FormatDocument,Format Document,Format Document,,Format Document
+TextEditor_ReanalyzeProject,Reanalyze Project,Reanalyze Project,,Reanalyze Project
+TextEditor_FoldActiveDocument,Fold active Document,Fold active Document,,Fold active Document
+TextEditor_FoldAllDocuments,Fold all Documents,Fold all Documents,,Fold all Documents
+TextEditor_UnfoldAllDocuments,Unfold all Documents,Unfold all Documents,,Unfold all Documents
+TextEditor_SearchOutput_FindAllReferences,Find all References to '{0}'...,Find all References to '{0}'...,,Find all references
+TextEditor_Options_Label_EditorView,\n\nEditor View,\n\nEditor View,,Editor View
+TextEditor_Options_Label_Gutter,\n\nGutter,\n\nGutter,,Gutter
+TextEditor_Options_Label_Scrollbars,\n\nScrollbars,\n\nScrollbars,,Scrollbars
+TextEditor_Options_Label_Editor,\n\nEditor,\n\nEditor,,Editor
+TextEditor_Options_Label_Editing,\n\nEditing,\n\nEditing,,Editing
+TextEditor_OpenMarkdownPreview,Show Markdown Preview,Show Markdown Preview,,Show Markdown Preview
+TextEditor_Search_RegexError,{0},{0},,{0}
 TextureGroups_ActiveGroup,Current Group:,Current Group:,,Texture group current group
 TextureGroups_AddNew,Add New,Add New,,Texture group add new button
 TextureGroups_AllowScaling,Allow Scaling,Allow Scaling,,Texture group allow scaling checkbox
@@ -2500,9 +2554,11 @@ TextureGroups_ParentTexGorup,Parent Texture Group,Parent Texture Group,,Texture 
 TextureGroups_Format,Texture Group Format,Texture Group Format,,Format texture group
 TextureGroups_LoadType,Texture Group Type,Texture Group Type,,Load Type for texture group
 TextureGroups_Directory,Dynamic Group/Page Path:,Dynamic Group/Page Path:,,Dynamic Group/Page Path for texture group
+TextureGroups_CustomOptions,Custom Options,Custom Options,,Custom Options
 Format_BZ2,BZ2 + QOI,BZ2 + QOI,,Format BZ2
 Format_QOI,QOI,QOI,,Format QOI
 Format_PNG,PNG,PNG,,Format PNG
+Format_Custom,Custom,Custom,,Custom Format
 LoadType_Default,Default,Default,,Default Load Type
 LoadType_Dynamic,Dynamic,Dynamic,,Dynamic Load Type
 LoadType_DynamicGroup,Dynamic Group,Dynamic Group,,Dynamic Group Load Type
@@ -2584,6 +2640,13 @@ TimeLine_Names,Description,Description,,Time line editor names caption
 TimeLine_WindowTitle,Timeline: {0},Timeline: {0},,Time line editor window caption
 TimeLine_WindowTitle_CodeEditor,Timeline Moments: {0},Timeline Moments: {0},,Time line code editor window title
 TimeLine_ConvertType,Convert to {0},Convert to {0},,Change the event from GML Visual to script or from script to GML Visual
+TE2_TimeLine_ContextMenu_EditStep,Change Moment,Change Moment,,Time line editor context menu entry
+TE2_TimeLine_ContextMenu_Duplicate,Duplicate,Duplicate,,Time line context menu entry
+TE2_TimeLine_ContextMenu_RemoveMoments,Remove,Remove,,Time line context menu entry
+TE2_TimeLine_ContextMenu_CopyMoments,Copy,Copy,,Time line context menu entry
+TE2_TimeLine_ContextMenu_CutMoments,Cut,Cut,,Time line context menu entry
+TE2_TimeLine_ContextMenu_PasteMoments,Paste,Paste,,Time line context menu entry
+TE2_TimeLine_ConvertType,Convert to {0},Convert to {0},,Change the event from GML Visual to script or from script to GML Visual
 TreeView_AddChildNode,Add Child Node,Add Child Node,,context menu option to add a child node
 TreeView_AddNode,Add Node,Add Node,,context menu option to add a node
 TreeView_AddNodeAfter,Add Node After,Add Node After,,context menu option to add a node after
@@ -2681,6 +2744,7 @@ Views_Menu_SourceControl,Source Control Output,Source Control Output,,Views menu
 Views_Menu_Breakpoints,Breakpoints,Breakpoints,,Views menu entry for the breakpoints window
 Views_Menu_CompileErrors,Compile Errors,Compile Errors,,Views menu entry for the compile errors window
 Views_Menu_Macros,IDE Environment Variables,IDE Environment Variables,,View Macros window
+Views_Menu_PackageManager,Package Manager,Package Manager,,menu entry for package manager
 Window_Close,Close,Close,,Close window context menu entry
 Window_Minimize,Minimize,Minimize,,Minimize window context menu entry
 TimeLine_MergeWarning,Merging moments is a permanent action that cannot be undone. Are you sure you want to continue?,Merging moments is a permanent action that cannot be undone. Are you sure you want to continue?,,Merge warning for time lines
@@ -2923,6 +2987,7 @@ ggs_graphics_scale_keepaspectratio,Keep aspect ratio,Keep aspect ratio,,Game Set
 ggs_launchscreen_fill,Launchscreen fill,Launchscreen fill,,Launchscreen fill
 ggs_graphics_scale_fullscale,Full scale,Full scale,,Game Settings Graphics Scale - Full scale option
 ggs_version,Version,Version,,Game Settings Version title
+ggs_build_number,Build Number,Build Number,,Game Settings Build Number title
 ggs_version_new,Next Version,Next Version,,Next version to be uploaded
 ggs_game_name,Game Name,Game Name,,Game Settings Game Name label
 ggs_mod_name,Mod Name,Mod Name,,Game Settings Mod Name label
@@ -2937,6 +3002,7 @@ ggs_public_share_url,Public Share URL,Public Share URL,,Public Share URL
 ImagePath_ImageError,Error Selecting Image,Error Selecting Image,,Error when using image_path gadget to select an image
 ImagePath_NotExpectedDimensions,The image is expected to be of {0}x{1} but received {2}x{3},The image is expected to be of {0}x{1} but received {2}x{3},,Image wrong size with 0x1 being expected size and 2x3 being the image size
 ImagePath_NotExpectedAlpha,The image is expected to have an alpha channel (i.e. be 32-bit),The image is expected to have an alpha channel (i.e. be 32-bit),,The image needs to have an alpha channel but the selected one does not
+ImagePath_IncorrectFormat,The image must be 24-bit (i.e. should not have alpha channel),The image must be 24-bit (i.e. should not have alpha channel),,The image needs to not have an alpha channel but the selected one does
 ImagePath_FileError,Cannot access file: {0},Cannot access file: {0},,Error when trying to access file where 0 is the filename
 ImagePath_NotExpectedFormat,Selected image is not a valid '{0}' format.,Selected image is not a valid '{0}' format.,,invalid image format message
 ggs_windows_save_localappdata,%localappdata%\<Game Name>,%localappdata%\<Game Name>,,Save Path to Local App Data
@@ -2994,6 +3060,7 @@ ggs_webgl_required,Required,Required,,WebGL Required
 ggs_webgl_autodetect,Auto Detect,Auto Detect,,Auto Detect WebGL
 ggs_ios_devices_iphone_and_touch,iPhone or iPod Touch,iPhone or iPod Touch,,iPhone or iPod Touch device selection
 ggs_ios_defer_home_indicator,Defer Home Indicator Input,Defer Home Indicator Input,,Defer Home Indicator Input for iPhone X
+ggs_ios_enable_broadcast,Enable broadcast networking,Enable broadcast networking,,Enable broadcast networking
 ggs_ios_devices_ipad,iPad,iPad,,iPad device selection
 ggs_both,Both,Both,,Both selections
 ggs_orientation,Orientation,Orientation,,Orientation
@@ -3039,6 +3106,7 @@ ggs_screen_colour_depth,Screen Colour Depth,Screen Colour Depth,,Screen Colour D
 ggs_device_support,Device Support,Device Support,,Device Support
 ggs_scaling,Scaling,Scaling,,Scaling
 ggs_texturepage_size,Texture Page Size,Texture Page Size,,Texture Page Size
+ggs_gfx_mem_mb,Graphics Memory Size (MB),Graphics Memory Size (MB),, Graphics Memory Size
 ggs_ldpi_icon,Icon for ldpi,Icon for ldpi,,Icon for ldpi
 ggs_mdpi_icon,Icon for mdpi,Icon for mdpi,,Icon for mdpi
 ggs_hdpi_icon,Icon for hdpi,Icon for hdpi,,Icon for hdpi
@@ -3211,6 +3279,7 @@ ggs_wide_image,Wide Image,Wide Image,,Wide Image
 ggs_logo_image,Logo Image,Logo Image,,Logo Image
 ggs_logo_background_colour,Logo background colour,Logo background colour,,Logo Background Colour
 ggs_logo_foreground_colour,Logo Foreground Text Colour,Logo Foreground Text Colour,,Logo Foreground Text Colour
+ggs_gdk_images_background_colour,Image background colour,Image background colour,,Image background Colour
 ggs_splash_background_colour,Splash background colour,Splash background colour,,Splash Background Colour
 ggs_certificate_js,Certificate (JS),Certificate (JS),,Certificate (JS)
 ggs_certificate_native,Certificate (Native),Certificate (Native),,Certificate (Native)
@@ -3252,6 +3321,11 @@ ggs_iconic_background_colour,Iconic Background Colour,Iconic Background Colour,,
 ggs_iconic_message,Iconic Message,Iconic Message,,Iconic Message
 ggs_ratings_xml,Ratings XML,Ratings XML,,Ratings XML
 ggs_languages_xml,Languages XML,Languages XML,,Languages XML
+ggs_xboxseriesxs_pls_mode,Persistent Local Storage,Persistent Local Storage,,Xbox game options
+ggs_xboxseriesxs_pls_mode_disable,Not used,Not used,,Xbox game options
+ggs_xboxseriesxs_pls_mode_fixed,Fixed-size Persistent Local Storage,Fixed-size Persistent Local Storage,,Xbox game options
+ggs_xboxseriesxs_pls_mode_dynamic,Growable Persistent Local Storage,Growable Persistent Local Storage,,Xbox game options
+ggs_xboxseriesxs_pls_size,Persistent Local Storage Size (MB),Persistent Local Storage Size (MB),,Xbox game options
 ggs_title_id,Title ID,Title ID,,Title Id
 ggs_service_configuration_id,Service Configuration ID,Service Configuration ID,,Service Configuration Id
 ggs_xbox_program_id,Program ID,Program ID,,Program Id
@@ -3421,10 +3495,14 @@ timeline_opennewmoments,Open new moments for edit on creation,Open new moments f
 CMenu_CloseAllButThis,Close All But This,Close All But This,,Close all but this context menu
 CMenu_DetachWorkspace,Detach Workspace,Detach Workspace,,Detach workspace context menu
 CMenu_Restore,Restore,Restore,,Restore context menu
+codeeditor_defaultclosebehavior,Default Close Behavior,Default Close Behavior,,Default Close Behavior
 codeeditor_showindentguide,Show Indent Guide,Show Indent Guide,,Show Indent Guide
 codeeditor_textcolour,Colour of text,Colour of text,,Text Colour in Code Editor
 codeeditor_font,Font to use,Font to use,,Font to use in Code Editor
 codeeditor_fontstyle,Font Style,Font Style,,Font Style to use in Code Editor
+textmate_font,Font,Font,,Font to use in Code Editor
+textmate_textsize,Size,Size,,Font Size to use in Code Editor
+Theme,Theme,Theme,,Theme
 codeeditor_fontaa,Font AA,Font AA,,Anti-Alias Font in Code Editor
 codeeditor_textsize,Size of text,Size of text,,Size of Text in Code Editor
 codeeditor_normaltext,Normal Text,Normal Text,,Colour of Normal Text in Code Editor
@@ -3455,10 +3533,11 @@ codeeditor_intellisenseleft,Post cursor intellisense colour,Post cursor intellis
 codeeditor_whitespacestyle,White space text style,White space text style,,White space style in Code Editor
 codeeditor_keeptabs,Keep tabs,Keep tabs,,Keep Tabs in Code Editor
 codeeditor_tabsize,Tab size,Tab size,,Tab Size in Code Editor
+codeeditor_showrainbowbrackets,Show Rainbow Brackets,Show Rainbow Brackets,,Show Rainbow Brackets
 codeeditor_showwhitespace,Show whitespace,Show whitespace,,Show Whitespace in Code Editor
 codeeditor_showlinenumbers,Show line numbers,Show line numbers,,Show Line Numbers in Code Editor
 codeeditor_showtablines,Show tab lines,Show tab lines,,Show Tab Lines in Code Editor
-codeeditor_colourcoding,Enable colour coding,Enable colour coding,,Enable Colour Coding in Code Editor
+codeeditor_multidocumentmode,Show all documents in single view,Show all documents in single view,,Show all documents in single view
 codeeditor_maxlinecount,Document line limit (<=0 no limit),Document line limit (<=0 no limit),,Max Line Count in Code Editor
 codeeditor_matchindent,Match indent on new lines,Match indent on new lines,,Match indent in code editor
 codeeditor_braceindent,Auto indent after brace,Auto indent after brace,,code editor curly brace indent pref
@@ -3481,10 +3560,26 @@ codeeditor_braces,Braces,Braces,,code editor text style for braces
 codeeditor_folded_region,Folded region,Folded region,,text style for folded #region
 codeeditor_folded_region_tag,Folded region name,Folded region name,,text style for folded region tag
 codeeditor_tab_lines_colour,Tab lines colour,Tab lines colour,,code editor tab lines colour
-codeeditor_highlightcursorline,Highlight the line that the cursor is on,Highlight the line that the cursor is on,,Highlight the line that the cursor is on
+codeeditor_highlightcursorline,Highlight the line that the caret is on,Highlight the line that the caret is on,,Highlight the line that the caret is on
 codeeditor_scrollbar_mode,Scrollbar Mode,Scrollbar Mode,,Scrollbar Mode
 codeeditor_scrollbar_show_diagnostics,Show diagnostics on scrollbar,Show diagnostics on scrollbar,,Show diagnostics on scrollbar
 codeeditor_scrollbar_show_preview,Show code preview when mouse hovers over scrollbar,Show code preview when mouse hovers over scrollbar,,Show code preview when mouse hovers over scrollbar
+codeeditor_preceding_pad_lines,Padding lines preceding Document,Padding lines preceding Document,,Padding lines preceding Document
+codeeditor_following_pad_lines,Padding lines following Document,Padding lines following Document,,Padding lines following Document
+codeeditor_stickyheader_documents,Show Sticky Headers for Documents,Show Sticky Headers for Documents,,Show Sticky Headers for Documents
+codeeditor_stickyheader_statements,Show Sticky Headers for Statements,Show Sticky Headers for Statements,,Show Sticky Headers for Statements
+codeeditor_allow_overwritemode,Allow Overwrite Mode,Allow Overwrite Mode,,Allow Overwrite Mode
+codeeditor_navigationorientation,Navigation Orientation,Navigation Orientation,,Navigation Orientation
+codeeditor_tabtype,Tab Type,Tab Type,,Tab Type
+codeeditor_detecttabtype,Detect Tab Type,Detect Tab Type,,Detect Tab Type
+codeeditor_indentmode,Auto Indent Mode,Auto Indent Mode,,Auto Indent Mode
+codeeditor_indentclipboardcontents,Auto Indent clipboard contents,Auto Indent clipboard contents,,Auto Indent clipboard contents
+codeeditor_autoinsertbraces,Auto insert braces,Auto insert braces,,Auto insert braces
+codeeditor_autofilljsdoc,Autofill jsdoc header comments,Autofill jsdoc header comments,,Autofill jsdoc header comments
+codeeditor_extendmultilinecomments,Auto extend multiline comments on new line,Auto extend multiline comments on new line,,Auto extend multiline comments on new line
+codeeditor_overscroll,Allow Overscroll,Allow Overscroll,,Allow Overscroll
+codeeditor_openassetininspector,Open Asset in Inspector when Editor is opened.,Open Asset in Inspector when Editor is opened.,,Open Asset in Inspector when Editor is opened.
+codeeditor_defaultdeletedocumentbehavior,Default Delete Document Choice,Default Delete Document Choice,,Default Delete Document Choice
 dialogeditor_textcolours,Text colours and style,Text colours and style,,Text colours and style in Dialog Editor
 dialogeditor_options,Options,Options,,Options in Dialog Editor
 sourcecontrolgit_username,Commit username,Commit username,,Username to commit as for source control git
@@ -3573,7 +3668,7 @@ TargetSelection_Platform_operagx,GX.games,GX.games,DO NOT TRANSLATE,the opera gx
 TargetSelection_Runtime_VM,GMS2 VM,GMS2 VM,DO NOT TRANSLATE, the VM (Virtual Machine) title in the runtime selection list
 TargetSelection_Runtime_YYC,GMS2 YYC,GMS2 YYC,DO NOT TRANSLATE, the yyc title in the runtime selection list
 TargetSelection_Runtime_Javascript,JavaScript,JavaScript,DO NOT TRANSLATE, the javascript title in the runtime selection list
-TargetSelection_Runtime_Cronus,New Runtime,New Runtime,DO NOT TRANSLATE,the cronus title in the runtime selection list
+TargetSelection_Runtime_Cronus,GMRT,GMRT,DO NOT TRANSLATE,the cronus title in the runtime selection list
 TargetSelection_Device_Local,Local,Local,, the local device title in the device selection list
 TargetSelection_Device_Default,Default,Default,, the default device title in the device selection list
 TargetSelection_Device_Device,Device,Device,, the 'device' device title in the device selection list
@@ -3607,7 +3702,11 @@ fonteditor_aa_default,Default,Default,,Default setting for font AA
 use_default,Use Default,Use Default,,Use Default setting
 desktop_unmaxdragdist,Tab drag distance to unmaximise desktop (px),Tab drag distance to unmaximise desktop (px),,Distance in pixels the tab must be dragged before it will unmaximise the desktop
 SaveProjectAs_UnsafeLocationMessage,The location you have chosen is unsafe.\n\nAre you sure you want to save to '{0}'?,The location you have chosen is unsafe.\n\nAre you sure you want to save to '{0}'?,,Warning message if the user tries to save to a daft location
+SaveProjectAs_SyncFolderLocationMessage,"Your chosen save location is managed by an external cloud storage application, which could cause problems saving and building errors as it syncs your files.\nIf you want to know more, please see our permissions guide.\n\nAre you sure you want to save there?","Your chosen save location is managed by an external cloud storage application, which could cause problems saving and building errors as it syncs your files.\nIf you want to know more, please see our permissions guide.\n\nAre you sure you want to save there?",,Warning message if user tries to save to cloud folder
+SaveProjectAs_PermissionsGuideLink,Permissions Guide,Permissions Guide,,link label to permissions guide for myprojects warning
 SaveProjectAs_DeleteExisting,Are you sure you want to delete all files in '{0}'?,Are you sure you want to delete all files in '{0}'?,,Confirmation for deleting an existing project and related files
+MyProjects_SyncFolderWarning,"Your GameMaker project location is managed by an external cloud storage application, which could cause problems when saving and building projects.\n\nTo fix this, we strongly recommend changing your Preferences and moving your projects. For more info, please see our permissions guide.\n\nWould you like to change your path for new projects now?","Your GameMaker project location is managed by an external cloud storage application, which could cause problems when saving and building projects.\n\nTo fix this, we strongly recommend changing your Preferences and moving your projects. For more info, please see our permissions guide.\n\nWould you like to change your path for new projects now?",,Warning message if user has MyProjects in sync folder on startup
+MyProjects_SyncFolderSaveWarning,"This project is saved in a location which is managed by an external cloud storage application. We strongly recommend you change your Preferences and you move your existing projects.\n\nIf you want to know more, please see our permissions guide.","This project is saved in a location which is managed by an external cloud storage application. We strongly recommend you change your Preferences and you move your existing projects.\n\nIf you want to know more, please see our permissions guide.",,Warning message if user has project stored in ssync folder on project load or save
 SplashScreen_PluginLoadFailed,Failed to load a required plug-in.  Please try restarting GameMaker.  If the problem persists please reinstall GameMaker.,Failed to load a required plug-in.  Please try restarting GameMaker.  If the problem persists please reinstall GameMaker.,,Error message when you fail to load a required plugin dll
 SplashScreen_PluginLoadFailedTitle,Failed to load a required plug-in,Failed to load a required plug-in,,Title for error message when you fail to load a required plugin dll
 SplashScreen_LaunchProjectNotFound,Project '{0}' does not exist,Project '{0}' does not exist,,Message dialog when the program was launched with a file command argument but the file was not found
@@ -3724,6 +3823,7 @@ Layer_Depth,Depth,Depth,,the layer depth property caption
 stopbeforerun,Automatic response to restarting a running build,Automatic response to restarting a running build,,Automatic choice for stopping a current running build before running again.
 maxparalleljobscompiling,Maximum parallel compile jobs,Maximum parallel compile jobs,,Maximum amount of jobs to use when compiling
 debugyycwarning,Automatic response to warning when attempting to debug YYC,Automatic response to warning when attempting to debug YYC,,Preference to turn off the dialog warning the user that this run action will be completed in the VM not YYC
+myprojectssyncwarning,Automatic response to warning when MyProjects folder is in cloud storage location,Automatic response to warning when MyProjects folder is in cloud storage location,,Preference to turn off the dialog warning the user that MyProjects folder is in cloud storage location
 UseDefaultLicenseAgreement,Use Default Licence Agreement,Use Default Licence Agreement,,Use Default Licence Agreement
 UseDefaultNSISScript,Use Default NSIS Script,Use Default NSIS Script,,Use Default NSIS Script
 ObjectEditor_DefaultCodeComment,/// @description Insert description here\n// You can write your code in this editor\n,/// @description Insert description here\n// You can write your code in this editor\n,Do not translate @description and leave in /// and // at the start of each line,Object editor module default text for new events
@@ -3793,6 +3893,9 @@ keystore_invalid_alias_password,Invalid characters in alias password,Invalid cha
 GMXTextureGroup_BadId,The Texture Group for sprite '{0}' is invalid - setting to Default Texture Group instead,The Texture Group for sprite '{0}' is invalid - setting to Default Texture Group instead,,Error message on importing that a sprite texture group is wrong
 ggs_enable_flurry,Enable Flurry Analytics,Enable Flurry Analytics,,Enable Flurry Analytics
 ggs_enable_google_analytics,Enable Google Analytics,Enable Google Analytics,,Enable Google Analytics
+ggs_obfuscate_debug_rename,Enable Debug Rename,Enable Debug Rename,,Enable Debug Rename
+ggs_obfuscate_conditional_compilation,Enable Conditional Compilation,Enable Conditional Compilation,,Enable Conditional Compilation
+ggs_obfuscate_keep_jsdoc,Keep JSDoc,Keep JSDoc,,Enable Keep JSDoc
 ggs_google_analytics_id,Google Analytics ID,Google Analytics ID,,Google Analytics Id
 ggs_flurry_id,Flurry Analytics ID,Flurry Analytics ID,,Flurry Analytics Id
 ggs_advertising_type,Advertising Type,Advertising Type,,Advertising Type
@@ -4047,7 +4150,7 @@ runtime_select_modules,Select Modules:,Select Modules:,,A label proposing to sel
 runtime_modules_required_only,Required only,Required only,,A button name
 runtime_modules_remember_selection,Remember Selection,Remember Selection,,Remember selection checkbox label
 runtime_modules_not_available_tooltip,Not available on {0},Not available on {0},,Tooltip. Argument - current platform
-runtime_no_licence_for_module,"You have no licence for the platform {0}, runtime {1}\nSubscribe now in your account overview","You have no licence for the platform {0}, runtime {1}\nSubscribe now in your account overview",,No licence warning. Arguments: platform; runtime.
+runtime_no_licence_for_module,"Unable to find licence for {0}, {1}\nPlease check that you are logged in with the correct account\nIf you do not have a licence for {0}, {1} you can subscribe in your account","Unable to find licence for {0}, {1}\nPlease check that you are logged in with the correct account\nIf you do not have a licence for {0}, {1} you can subscribe in your account",,No licence warning. Arguments: platform; runtime.
 runtime_no_licence_for_module_title,Target Manager - Subscription,Target Manager - Subscription,,Dialog title for taregt select subscription conmfirm dialog
 runtime_sign_in,You need to be signed in to export to this target.,You need to be signed in to export to this target.,,Target select offline sign in dialog
 runtime_sign_in_title,Target Manager - Offline,Target Manager - Offline,,Target select offline sign in dialog title
@@ -4252,6 +4355,7 @@ ExtensionEditor_Option_ExtrasTooltip,Open extras...,Open extras...,,Open option 
 ExtensionEditor_Option_RemoveTooltip,Remove this option,Remove this option,,Remove option row tooltip
 ExtensionEditor_OptionWarning_Message,This window should only be used by the extension's author!\nDo you want to proceed?,This window should only be used by the extension's author!\nDo you want to proceed?,,Extension Options editor warning
 ExtensionEditor_OptionWarning_Title,Modifying Extension Options,Modifying Extension Options,,Extension Options editor warning title
+ExtensionEditor_OpenCodeEditor,Open in Script Editor,Open in Script Editor,,Open in Script Editor
 Help_eExtensionOptionType_Boolean,The value is a bool (true/false),The value is a bool (true/false),,Boolean value type help tip
 Help_eExtensionOptionType_Number,The value is a real number and accepts decimal places,The value is a real number and accepts decimal places,,Real value type help tip
 Help_eExtensionOptionType_String,The value is a string (quotes are optional),The value is a string (quotes are optional),,String value type help tip
@@ -5349,6 +5453,7 @@ ProgressBar_Archiving,Archiving...,Archiving...,,Compressing to a .zip/.yyz/etc.
 ProgressBar_ConvertingGMX,Converting GMX...,Converting GMX...,,converting gmx progress caption
 ProgressBar_FallbackUploading,Fallback Uploading...,Fallback Uploading...,,Uploading with a fallback strategy when the progress is not indicated
 ProgressBar_ProjectTool,ProjectTool...,ProjectTool...,,ProjectTool is running
+ProgressBar_IncludedFiles,Included Files...,Included Files...,,Updating Included Files
 TileSetEditor_SpriteNoExport,Disable Source Sprite Export,Disable Source Sprite Export,,checkbox caption to disable the export on the source sprite
 TileSetEditor_SpriteNoExport_Tooltip,Disables the source sprite being exported during a build.\n\nWARNING: Checking this will disable collisions for Tile Layers that use this Tile Set.,Disables the source sprite being exported during a build.\n\nWARNING: Checking this will disable collisions for Tile Layers that use this Tile Set.,,checkbox caption to explain the export on the source sprite
 TileSetEditor_AutoTileLibrary_Tooltip,Edit Autotiling,Edit Autotiling,,autotile tooltip
@@ -5379,6 +5484,7 @@ Spine_License_Show,Show Licence,Show Licence,,spine licence button
 Spine_NeedLicenceAcceptance,Project contains Spine assets - please accept the Spine licence agreement to proceed,Project contains Spine assets - please accept the Spine licence agreement to proceed,,spine licence requirement message
 Collision_Compatibility_Mode,Collision Compatibility Mode,Collision Compatibility Mode,,Collision Compatibility Mode
 Copy_On_Write_Enable,Enable Copy On Write Behaviour for Arrays,Enable Copy On Write Behaviour for Arrays,,Enable Copy On Write Behaviour for Arrays
+Remove_Unused_Assets,Automatically remove unused assets when compiling,Automatically remove unused assets when compiling,,Automatically remove unused assets when compiling
 RoomEditor_BrushEditingModeToolTip,Switch between selection and editing modes in brush builder page ,Switch between selection and editing modes in brush builder page ,,the tooltip for the editing mode button in the brush builder page
 RoomEditor_DuplicateLayer,Duplicate Layer,Duplicate Layer,,context menu option to duplicate a layer
 TileSetEditor_DeleteAnimation_ToolTip,Delete Animation,Delete Animation,,delete animation button tooltip
@@ -5498,14 +5604,14 @@ SSNew_Wallpaper_Title,BLANK LIVE WALLPAPER,BLANK LIVE WALLPAPER,,new project tit
 SSNew_Wallpaper_Desc,Create your own Opera GX Live Wallpaper.\nIncludes basic setup for display on multiple monitors.,Create your own Opera GX Live Wallpaper.\nIncludes basic setup for display on multiple monitors.,,new project description live wallpaper
 SSNew_Wallpaper_ButtonCaption,Blank\nLive Wallpaper,Blank\nLive Wallpaper,,new project button caption
 SSNew_Gamestrip_Title,BLANK GAME STRIP,BLANK GAME STRIP,,new project title
-SSNew_Gamestrip_Desc,New Game Strip project description placeholder,New Game Strip project description placeholder,,new project description game strip
+SSNew_Gamestrip_Desc,Create your own Opera GX Game Strip.\nIncludes basic setup for creating your own mod.,Create your own Opera GX Game Strip.\nIncludes basic setup for creating your own mod.,,new project description game strip
 SSNew_Gamestrip_ButtonCaption,Blank\nGame Strip,Blank\nGame Strip,,new project button caption
 SS_GameTemplates_Title,GAME TEMPLATES,GAME TEMPLATES,,game templates title
 SS_GameTemplates_Desc,Make your first game in as little as 15 minutes.,Make your first game in as little as 15 minutes.,,new game template description
 SS_WallpaperTemplates_Title,LIVE WALLPAPERS,LIVE WALLPAPERS,,live wallpapers title
 SS_WallpaperTemplates_Desc,Pimp your browsers and desktop by creating your own personalised wallpaper.,Pimp your browsers and desktop by creating your own personalised wallpaper.,,new live wallpapers template description
 SS_GameStrips_Title,GAME STRIPS,GAME STRIPS,,new game strips title
-SS_GameStrips_Desc,Description of a new GAME STRIP template here. This will provide the user with the information they need to decide what type of GameMaker project they want to work in.,Description of a new GAME STRIP template here. This will provide the user with the information they need to decide what type of GameMaker project they want to work in.,,new gamestrip template description
+SS_GameStrips_Desc,Level up your browser by creating your own\nOpera GX Game Strip mod.,Level up your browser by creating your own\nOpera GX Game Strip mod.,,new gamestrip template description
 startscreen_pref_showtour,Show Tour,Show Tour,,show tour pref
 startscreen_pref_showSetupWizard,Show Setup Wizard,Show Setup Wizard,,show wizard pref
 startscreen_pref_recentProjListStyle,Recent Projects List Style,Recent Projects List Style,,recent proj list style
@@ -5559,8 +5665,10 @@ workspace_background_pref,Restore Default,Restore Default,,Restore default backg
 IDETooltip_CurrentTarget,Current Build Target,Current Build Target,,tooltip for the current build target info
 spriteanimmode,Default sprite animation mode,Default sprite animation mode,,The default animation mode type for new sprites
 spriteanimspeed,Default sprite animation speed,Default sprite animation speed,,The default animation speed for new sprites
+spriteanimassetspeed,Default sprite animation speed when added to an asset layer,Default sprite animation speed when added to an asset layer,,The default animation speed for sprites in a room asset layer
 NewSpriteWidth,Default sprite width,Default sprite width,,pref label
 NewSpriteHeight,Default sprite height,Default sprite height,,pref label
+NewSpriteSWFQuality,Default sprite SWF precision,Default sprite SWF precision,,pref label
 TileSetEditorMenu_Delete,Delete,Delete,,the delete animation or auto tile set context menu option
 TileSetEditorMenu_Rename,Rename,Rename,,the rename animation or auto tile set context menu option
 RoomEditor_NoSelectionPathLayerStatus,"LMB + {0} to translate path, LMB + {1} to rotate path, LMB + {2} to scale path","LMB + {0} to translate path, LMB + {1} to rotate path, LMB + {2} to scale path",,status bar information for editing paths
@@ -5990,6 +6098,8 @@ SpriteResizeTileset,Recalculate tile set after resize,Recalculate tile set after
 SpriteResizeTilesetSelect,This sprite is used by multiple tile sets of varying tile sizes. Select a reference tile set for this operation.,This sprite is used by multiple tile sets of varying tile sizes. Select a reference tile set for this operation.,,Multiple tilesets pick one
 SelectTileSetTitle,Select Reference Tile Set,Select Reference Tile Set,,Pick a tile set dialog title
 SelectTileSet_NoneSelected,No tile set was selected. Cannot complete operation.,No tile set was selected. Cannot complete operation.,,No tile set selected message
+FragmentShader,Fragment Shader,Fragment Shader,,Fragment Shader title
+VertexShader,Vertex Shader,Vertex Shader,,Vertex Shader title
 DocumentWindow_Title_FragmentShader,{0} Fragment Shader,{0} Fragment Shader,,Fragment Shader title
 DocumentWindow_Title_VertexShader,{0} Vertex Shader,{0} Vertex Shader,,Vertex Shader title
 DocumentWindow_Title_CombinedShader,{0},{0},,Combined Shader title
@@ -6108,6 +6218,7 @@ FindReplace_Title,Find and Replace,Find and Replace,,Find and Replace title
 FindReplace_ToggleReplace,Toggle Replace,Toggle Replace,,Toggle Replace Options
 FindReplace_WholeWord,Whole Word Only,Whole Word Only,,Whole Word Only Option
 FindReplace_CaseSensitive,Case Sensitive,Case Sensitive,,Case Sensitive Option
+FindReplace_Regex,Use Regex,Use Regex,,Use Regex Option
 FindReplace_FindPrevious,Find Previous,Find Previous,,Find Previous
 FindReplace_FindNext,Find Next,Find Next,,Find Next
 FindReplace_ReplaceNext,Replace Next,Replace Next,,Replace Next
@@ -6335,6 +6446,7 @@ Main Options,Main Options,Main Options,,Main Options options group heading
 General,General,General,,General options group heading
 TemplateInfo,Template Info,Template Info,,Template Info options group heading
 Graphics,Graphics,Graphics,,Graphics options group heading
+Storage,Storage,Storage,,Storage options group heading
 Images,Images,Images,,Images options group heading
 Installer,Installer,Installer,,Installer options group heading
 Packaging,Packaging,Packaging,,Packaging options group heading
@@ -6676,6 +6788,8 @@ FileFilters_AppImage,AppImage bundle,AppImage bundle,,compressed application fil
 FileFilters_MacCompressedApp,macOS Application Zip,macOS Application Zip,,mac application as a zip filter
 FileFilters_MacDmgApp,macOS DMG,macOS DMG,,mac application as a dmg file
 FileFilters_Package,{0} Package,{0} Package,,package filter
+FileFilters_DevelopmentPackage,{0} Development Package,{0} Development Package,,package filter
+FileFilters_SubmissionPackage,{0} Submission Package,{0} Submission Package,,package filter
 FileFilters_Installer,{0} Installer,{0} Installer,,installer filter
 FileFilters_Application,{0} Application,{0} Application,,application filter
 FileFilters_Export,{0} Export,{0} Export,,export filter
@@ -6692,7 +6806,7 @@ FileFilter_XboxSeriesSubmissionPackage,Xbox Series X/S Submission Package,Xbox S
 XboxDeploySubmissionPackageError_Title,Error,Error,,
 XboxDeploySubmissionPackageError_Message,Submission packages cannot be launched on an Xbox development kit,Submission packages cannot be launched on an Xbox development kit,,
 tvOS,tvOS,tvOS,,tvOS label for game options
-Cronus,New Runtime,New Runtime,,Cronus label for game options
+Cronus,GMRT,GMRT,,Cronus label for game options
 GMPM,GMPM,GMPM,,GMPM label for game options
 amazonfire_nodevices_title,No Amazon devices detected,No Amazon devices detected,,No Amazon devices detected title
 amazonfire_nodevices_messages,There were no Amazon Fire devices detected.,There were no Amazon Fire devices detected.,,No Amazon devices detected message
@@ -6787,6 +6901,9 @@ ggs_xboxone_support_4k_one_x,Support 4k on Xbox One X,Support 4k on Xbox One X,,
 ggs_xboxone_support_4k_one_s,Support 4k on Xbox One S,Support 4k on Xbox One S,,Support 4k output resolution on Xbox One S
 ggs_xboxone_support_4k_sx,Support 4k on Xbox Series X,Support 4k on Xbox Series X,,Support 4k output resolution on Xbox Series X
 ggs_xboxone_support_4k_ss,Support 4k on Xbox Series S,Support 4k on Xbox Series S,,Support 4k output resolution on Xbox Series S
+ggs_xboxseriesxs_advancedmemorymodel_one_x,Use advanced memory model on Xbox One X,Use advanced memory model on Xbox One X,,Use advanced memory model on Xbox One X
+ggs_xboxseriesxs_advancedmemorymodel_sx,Use advanced memory model on Xbox Series X,Use advanced memory model on Xbox Series X,,Use advanced memory model on Xbox Series X
+ggs_xboxseriesxs_advancedmemorymodel_ss,Use advanced memory model on Xbox Series S,Use advanced memory model on Xbox Series S,,Use advanced memory model on Xbox Series S
 preferences_generate_patch,Generate Patch,Generate Patch,,Label for generating new patch
 preferences_install_patch,Install Patch,Install Patch,,Label for installing a patch
 Patching,Patching,Patching,,Patching
@@ -6996,10 +7113,36 @@ Track_Gain,Volume,Volume,,Track gain
 Track_Pitch,Pitch,Pitch,,Track pitch
 Track_Falloff,Falloff,Falloff,,Track falloff
 Track_SoundMode,Loop Mode,Loop Mode,,sound track loop mode
+Track_AudioEffects,Audio Effects,Audio Effects,, sound track audio effects
 Track_FrameSize,Frame Size,Frame Size,,text track frame size
 Track_CharacterSpacing,Character Spacing,Character Spacing,,text track character spacing
 Track_LineSpacing,Line Spacing,Line Spacing,,text track line spacing
 Track_ParagraphSpacing,Paragraph Spacing,Paragraph Spacing,,text track paragraph spacing
+Track_AudioEffectBypass,Bypass,Bypass,,audio track effect bypass
+Track_BitcrusherFxGain,Gain,Gain,,audio track bitcrusher gain
+Track_BitcrusherFxFactor,Factor,Factor,,audio track bitcrusher factor
+Track_BitcrusherFxResolution,Resolution,Resolution,,audio track bitcrusher resolution
+Track_BitcrusherFxMix,Mix,Mix,,audio track bitcrusher mix
+Track_CompressorFxInGain,In Gain,In Gain,,audio track compressor in gain
+Track_CompressorFxThreshold,Threshold,Threshold,,audio track compressor threshold
+Track_CompressorFxRatio,Ratio,Ratio,,audio track compressor ratio
+Track_CompressorFxAttack,Attack,Attack,,audio track compressor attack
+Track_CompressorFxRelease,Release,Release,,audio track compressor release
+Track_CompressorFxOutGain,Out Gain,Out Gain,,audio track compressor out gain
+Track_DelayFxTime,Time,Time,,audio track delay time
+Track_DelayFxFeedback,Feedback,Feedback,,audio track delay feedback
+Track_DelayFxMix,Mix,Mix,,audio track delay mix
+Track_EqFilterFxGain,Gain,Gain,,audio track filter gain
+Track_FilterFxFrequency,Frequency,Frequency,,audio track filter frequency
+Track_FilterFxQ,Q,Q,,audio track filter q
+Track_GainFxGain,Gain,Gain,,audio track gain-fx gain
+Track_Reverb1FxSize,Size,Size,,audio track reverb1 size
+Track_Reverb1FxDamp,Damp,Damp,,audio track reverb1 damp
+Track_Reverb1FxMix,Mix,Mix,,audio track reverb1 mix
+Track_TremoloFxRate,Rate,Rate,,audio track tremolo rate
+Track_TremoloFxIntensity,Intensity,Intensity,,audio track tremolo intensity
+Track_TremoloFxOffset,Offset,Offset,,audio track tremolo offset
+Track_TremoloFxShape,Shape,Shape,,audio track tremolo shape
 ListBoxEnum_eSoundMode_Loop,Loop,Loop,,loop sound mode enum
 ListBoxEnum_eSoundMode_Single,Play once,Play once,,single sound mode enum
 Track_MultiplyColour,Colour Multiply,Colour Multiply,,Track colour
@@ -7009,6 +7152,18 @@ Track_ImageSpeed,Image Speed,Image Speed,,Sequence parameter
 Track_ImageIndex,Image Index,Image Index,,Sequence parameter
 Track_ImageAngle,Image Angle,Image Angle,,Sequence parameter
 Track_ImageBlend,Image Blend,Image Blend,,Sequence parameter
+Track_AudioEffect_Bus,Bus,Bus,,Sequence parameter
+Track_AudioEffect_Bitcrusher,Bitcrusher,Bitcrusher,,Sequence parameter
+Track_AudioEffect_Compressor,Compressor,Compressor,,Sequence parameter
+Track_AudioEffect_Delay,Delay,Delay,,Sequence parameter
+Track_AudioEffect_Gain,Gain,Gain,,Sequence parameter
+Track_AudioEffect_Hishelf,Hi-shelf,Hi-shelf,,Sequence parameter
+Track_AudioEffect_Hpf2,HPF2,HPF2,,Sequence parameter
+Track_AudioEffect_Loshelf,Lo-shelf,Lo-shelf,,Sequence parameter
+Track_AudioEffect_Lpf2,LPF2,LPF2,,Sequence parameter
+Track_AudioEffect_Peakeq,Peak-EQ,Peak-EQ,,Sequence parameter
+Track_AudioEffect_Reverb1,Reverb,Reverb,,Sequence parameter
+Track_AudioEffect_Tremolo,Tremolo,Tremolo,,Sequence parameter
 Track_Param_Channel_X,x,x,,sequence parameter channel x
 Track_Param_Channel_Y,y,y,,sequence parameter channel y
 Track_Param_Channel_W,w,w,,sequence parameter channel w
@@ -7027,6 +7182,53 @@ Track_Param_Channel_Speed,speed,speed,,sequence parameter channel speed
 Track_Param_Channel_Generic,channel {0},channel {0},,sequence parameter channel generic title
 Track_Param_Channel_Spacing,spacing,spacing,,sequence parameter channel spacing
 Track_Param_Channel_px,px,px,,sequence parameter channel px
+Track_Param_Channel_Bus_Bypass,Bypass,Bypass,,Sequence parameter channel
+Track_Param_Channel_Bus_Gain,Gain,Gain,,Sequence parameter channel
+Track_Param_Channel_BitcrusherFx_Bypass,Bypass,Bypass,,Sequence parameter channel
+Track_Param_Channel_BitcrusherFx_Gain,Gain,Gain,,Sequence parameter channel
+Track_Param_Channel_BitcrusherFx_Factor,Factor,Factor,,Sequence parameter channel
+Track_Param_Channel_BitcrusherFx_Resolution,Resolution,Resolution,,Sequence parameter channel
+Track_Param_Channel_BitcrusherFx_Mix,Mix,Mix,,Sequence parameter channel
+Track_Param_Channel_CompressorFx_Bypass,Bypass,Bypass,,Sequence parameter channel
+Track_Param_Channel_CompressorFx_Ingain,Ingain,Ingain,,Sequence parameter channel
+Track_Param_Channel_CompressorFx_Threshold,Threshold,Threshold,,Sequence parameter channel
+Track_Param_Channel_CompressorFx_Ratio,Ratio,Ratio,,Sequence parameter channel
+Track_Param_Channel_CompressorFx_Attack,Attack,Attack,,Sequence parameter channel
+Track_Param_Channel_CompressorFx_Release,Release,Release,,Sequence parameter channel
+Track_Param_Channel_CompressorFx_Outgain,Outgain,Outgain,,Sequence parameter channel
+Track_Param_Channel_DelayFx_Bypass,Bypass,Bypass,,Sequence parameter channel
+Track_Param_Channel_DelayFx_Time,Time,Time,,Sequence parameter channel
+Track_Param_Channel_DelayFx_Feedback,Feedback,Feedback,,Sequence parameter channel
+Track_Param_Channel_DelayFx_Mix,Mix,Mix,,Sequence parameter channel
+Track_Param_Channel_GainFx_Bypass,Bypass,Bypass,,Sequence parameter channel
+Track_Param_Channel_GainFx_Gain,Gain,Gain,,Sequence parameter channel
+Track_Param_Channel_HishelfFx_Bypass,Bypass,Bypass,,Sequence parameter channel
+Track_Param_Channel_HishelfFx_Freq,Freq,Freq,,Sequence parameter channel
+Track_Param_Channel_HishelfFx_Q,Q,Q,,Sequence parameter channel
+Track_Param_Channel_HishelfFx_Gain,Gain,Gain,,Sequence parameter channel
+Track_Param_Channel_Hpf2Fx_Bypass,Bypass,Bypass,,Sequence parameter channel
+Track_Param_Channel_Hpf2Fx_Cutoff,Cutoff,Cutoff,,Sequence parameter channel
+Track_Param_Channel_Hpf2Fx_Q,Q,Q,,Sequence parameter channel
+Track_Param_Channel_LoshelfFx_Bypass,Bypass,Bypass,,Sequence parameter channel
+Track_Param_Channel_LoshelfFx_Freq,Freq,Freq,,Sequence parameter channel
+Track_Param_Channel_LoshelfFx_Q,Q,Q,,Sequence parameter channel
+Track_Param_Channel_LoshelfFx_Gain,Gain,Gain,,Sequence parameter channel
+Track_Param_Channel_Lpf2Fx_Bypass,Bypass,Bypass,,Sequence parameter channel
+Track_Param_Channel_Lpf2Fx_Cutoff,Cutoff,Cutoff,,Sequence parameter channel
+Track_Param_Channel_Lpf2Fx_Q,Q,Q,,Sequence parameter channel
+Track_Param_Channel_PeakeqFx_Bypass,Bypass,Bypass,,Sequence parameter channel
+Track_Param_Channel_PeakeqFx_Freq,Freq,Freq,,Sequence parameter channel
+Track_Param_Channel_PeakeqFx_Q,Q,Q,,Sequence parameter channel
+Track_Param_Channel_PeakeqFx_Gain,Gain,Gain,,Sequence parameter channel
+Track_Param_Channel_Reverb1Fx_Bypass,Bypass,Bypass,,Sequence parameter channel
+Track_Param_Channel_Reverb1Fx_Size,Size,Size,,Sequence parameter channel
+Track_Param_Channel_Reverb1Fx_Damp,Damp,Damp,,Sequence parameter channel
+Track_Param_Channel_Reverb1Fx_Mix,Mix,Mix,,Sequence parameter channel
+Track_Param_Channel_TremoloFx_Bypass,Bypass,Bypass,,Sequence parameter channel
+Track_Param_Channel_TremoloFx_Rate,Rate,Rate,,Sequence parameter channel
+Track_Param_Channel_TremoloFx_Intensity,Intensity,Intensity,,Sequence parameter channel
+Track_Param_Channel_TremoloFx_Offset,Offset,Offset,,Sequence parameter channel
+Track_Param_Channel_TremoloFx_Shape,Shape,Shape,,Sequence parameter channel
 AnimCurve_DoubleClickToEdit,Double-click to edit,Double-click to edit,,Double-click to edit anim curve tooltip
 AnimCurve_Spline,Curve,Curve,,Spline submenu animation curve
 AnimCurve_FunctionLinear,Linear,Linear,,Animation curve linear function
@@ -7097,7 +7299,7 @@ SequenceCanvas_ToggleGizmoOrigin,Origin,Origin,,Toggle to origin canvas gizmo
 SequenceCanvas_ToggleBackdrop,Toggle canvas frame,Toggle canvas frame,,Toggle canvas frame on/off tooltip
 SequenceCanvas_ToggleBackdropSpecific,Canvas frame settings,Canvas frame settings,,canvas frame settings tooltip
 SequenceCanvas_BackdropEnabled,Canvas frame enabled,Canvas frame enabled,,canvas frame enabled label
-SequenceCanvas_BackdropImageRefEnabled,Image reference enabled,Image reference enabled,,image reference enabled label
+SequenceCanvas_BackdropImageRefEnabled,Backdrop image enabled,Backdrop image enabled,,image reference enabled label
 SequenceCanvas_BackdropWidth,Width,Width,,canvas frame width label
 SequenceCanvas_BackdropHeight,Height,Height,,canvas frame height label
 SequenceCanvas_xorigin,Origin X,Origin X,,canvas origin x
@@ -7229,6 +7431,7 @@ SequenceTrack_ParamString,String,String,,Add string parameter track
 SequenceTrack_ParamBool,Boolean,Boolean,,Add boolean parameter track
 SequenceTrack_ParamResource,Resource,Resource,,Add resource parameter track
 SequenceTrack_ParamColor,Colour,Colour,,Add colour parameter track
+SequenceTrack_ParamAudioEffect,Audio Effect,Audio Effect,,Add audio effect parameter track
 WindowTitle_RaiseEvents,Broadcast messages,Broadcast messages,,Broadcast messages dialog title
 WindowTitle_Moments,Moment,Moment,,Add a moment
 WindowTitle_NewKeyValue,Assign Value at Key {0},Assign Value at Key {0},,assign key value dialog title
@@ -7340,6 +7543,7 @@ AssetBrowser_Rename,Rename,Rename,,rename
 AssetBrowser_Edit,Edit,Edit,,Edit resource from resource tree
 AssetBrowser_EditAll,Edit All,Edit All,,Edit All resource from a resource tree group
 AssetBrowser_Tags,Tags,Tags,,tags
+AssetBrowser_ExportPrefab,Export as Prefab,Export as Prefab,,Export as Prefab
 AssetBrowser,Asset Browser,Asset Browser,,AssetBrowser preference group heading
 AssetBrowser_ResourceDelete_Confirm,Are you sure you want to delete {0}?,Are you sure you want to delete {0}?,,asset tree delete confirmation label
 AssetBrowser_ResourceDelete_ConfirmWithDependents,Are you sure you want to delete {0}?\nIt is referenced by {1},Are you sure you want to delete {0}?\nIt is referenced by {1},,asset tree delete with known dependents confirmation label
@@ -7451,6 +7655,8 @@ assetbrowser_deletetag,Automatic response to delete tag confirmation,Automatic r
 assetbrowser_automaticRoGroupDeletion,Automatic response to Room Order group deletion,Automatic response to Room Order group deletion,,Automatic room order group deletion on asset browser
 assetbrowser_UngroupDeletesGroup,Room Order Ungroup removes the empty group,Room Order Ungroup removes the empty group,,delete group on ungroup pref
 preferences_updateandroidtoolsversion,Pre-populate SDK values to chosen API Level,Pre-populate SDK values to chosen API Level,,Pre-populate SDK values to chosen API Level
+preferences_androidapilevelwarning33,Starting on August 31 2023 Google Play requires API level must be 33+ for new apps and app updates,Starting on August 31 2023 Google Play requires API level must be 33+ for new apps and app updates,,api level warning 33
+preferences_androidapilevelwarning34,From August 31 2024 Google Play will require API level of 34+ for new apps and app updates,From August 31 2024 Google Play will require API level of 34+ for new apps and app updates,,api level warning 34
 preferences_android_genadaptive_icon,Generate Foregrounds From File:,Generate Foregrounds From File:,,generate adaptive icons widget foreground file label
 preferences_android_genadaptive_bg,Generate Backgrounds From File:,Generate Backgrounds From File:,,generate adaptive icons widget background file label
 preferences_android_genadaptive_btn,Generate,Generate,,generate adaptive icons widget icon file button
@@ -7519,6 +7725,9 @@ ConfigurationProblem_PS5VSPath,Configuration Problem : PS5 Visual Studio Path ne
 ConfigurationProblem_tvOSDevice,Configuration Problem : No tvOS device found. Check your target settings.,Configuration Problem : No tvOS device found. Check your target settings.,,Configuration Problem : No tvOS device found. Check your target settings.
 ConfigurationProblem_tvOSPath,Configuration Problem : tvOS install path not set. Check your Preferences.,Configuration Problem : tvOS install path not set. Check your Preferences.,,Configuration Problem : tvOS install path not set. Check your Preferences.
 ConfigurationProblem_XboxSeriesXSSDKVersion,Configuration Problem : Xbox One & Series X/S SDK Version does not match {0}. Check your Preferences.,Configuration Problem : Xbox One & Series X/S SDK Version does not match {0}. Check your Preferences.,,Configuration Problem : Xbox One & Series X/S SDK Version does not match
+ConfigurationProblem_XboxSeriesXSSDK,Configuration Problem : Xbox One & Series X/S SDK not found. Check your Preferences.,Configuration Problem : Xbox One & Series X/S SDK not found. Check your Preferences.,,Configuration Problem : Xbox One & Series X/S SDK not found
+ConfigurationProblem_XboxSeriesXSTools,Configuration Problem : Xbox One & Series X/S tools directory not found. Check your Preferences.,Configuration Problem : Xbox One & Series X/S tools directory not found. Check your Preferences.,,Configuration Problem : Xbox One & Series X/S tools directory not found
+ConfigurationProblem_XboxSeriesXSVSPath,Configuration Problem : Xbox One & Series X/S Visual Studio path not found. Check your Preferences.,Configuration Problem : Xbox One & Series X/S Visual Studio path not found. Check your Preferences.,,Configuration Problem : Xbox One & Series X/S Visual Studio path not found
 Provisioning,Provisioning,Provisioning,DO NOT TRANSLATE,tvOS provisioning preference group subheading
 Base_Unit_Memory,PS4 Base Memory,PS4 Base Memory,,title for options related to memory pool sizes
 Neo_Memory,PS4 Pro Memory,PS4 Pro Memory,,title for options related to memory pool sizes
@@ -7602,6 +7811,10 @@ exception_upload_caption,Upload Status,Upload Status,,exception form confirmatio
 exception_upload_confirmation,Upload Successful.,Upload Successful.,,exception form confirmation box message
 exception_legal_blurb_new,"Our <a href=""https://www.yoyogames.com/legal/privacy"">Privacy Policy</a> and <a href=""https://www.yoyogames.com/legal/cookies"">Cookie Policy</a> governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at <a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>","Our <a href=""https://www.yoyogames.com/legal/privacy"">Privacy Policy</a> and <a href=""https://www.yoyogames.com/legal/cookies"">Cookie Policy</a> governs the way we collect, store and process your data. We strongly recommend you take the time to read them.\n\nRight to withdraw consent: You have the right to withdraw consent at any time. If you wish to withdraw consent, you may do so via our Preference Centre, or by logging a ticket with our Helpdesk.\n\nIf you have any concerns about our use of data, please email our data controller at <a href=""mailto:datacontroller@yoyogames.com"">datacontroller@yoyogames.com</a>",,exception legal blurb
 exception_default_story,Please enter a description of the problem here,Please enter a description of the problem here,,exception story default text
+CrashReport_Title,Crash detected,Crash detected,,crash detected title
+CrashReport_Msg,Would you like to create a bug report to help diagnose this issue?,Would you like to create a bug report to help diagnose this issue?,,crash report message
+CrashReport_Report,Report,Report,,do report
+CrashReport_DontReport,No thanks,No thanks,,don't report
 Project_OldFormat_Title,Old Project Format,Old Project Format,,Old Project Format
 Project_OldFormat_Message,Project was created in an older IDE which may have format changes,Project was created in an older IDE which may have format changes,,Project was created in an older IDE which may have format changes
 ImportFromYY_Title,Importing Resources,Importing Resources,,Importing Resources Title
@@ -7638,11 +7851,37 @@ CanvasItem_Wrap,Wrap,Wrap,,text track wrap
 CanvasText_CharSpacing,Character Spacing,Character Spacing,,text track character spacing
 CanvasText_LineSpacing,Line Spacing,Line Spacing,,text track line spacing
 CanvasText_ParaSpacing,Paragraph Spacing,Paragraph Spacing,,text track paragraph spacing
+CanvasText_EnableEffects,Enable Effects,Enable Effects,,text track enable sdf effects
+CanvasText_EnableEffects_TT,Font must have SDF rendering enabled for effects to be applied,Font must have SDF rendering enabled for effects to be applied,,sdf effects enable tooltip
+Track_TextEffect_Thickness,Thickness,Thickness,,text track sdf thickness
+Track_TextEffect_CoreColour,Core Colour,Core Colour,,text track sdf core colour
+CanvasText_EnableGlow,Enable Glow,Enable Glow,,text track sdf enable glow
+Track_TextEffect_GlowStart,Glow Start,Glow Start,,text track sdf glow start
+Track_TextEffect_GlowEnd,Glow End,Glow End,,text track sdf glow end
+Track_TextEffect_GlowColour,Glow Colour,Glow Colour,,text track sdf glow colour
+CanvasText_EnableOutline,Enable Outline,Enable Outline,,text track sdf enable outline
+Track_TextEffect_OutlineDistance,Outline Distance,Outline Distance,,text track sdf outline distance
+Track_TextEffect_OutlineColour,Outline Colour,Outline Colour,,text track sdf outline colour
+CanvasText_EnableDropShadow,Enable Drop Shadow,Enable Drop Shadow,,text track sdf enable drop shadow
+Track_TextEffect_ShadowSoftness,Shadow Softness,Shadow Softness,,text track sdf shadow softness
+Track_TextEffect_ShadowOffset,Shadow Offset,Shadow Offset,,text track sdf shadow offset 
+Track_TextEffect_ShadowColour,Shadow Colour,Shadow Colour,,text track sdf shadow colour
+CanvasText_ShadowOffsetX,Shadow Offset X,Shadow Offset X,,text track sdf shadow offset x
+CanvasText_ShadowOffsetY,Shadow Offset Y,Shadow Offset Y,,text track sdf shadow offset y
+CanvasText_NoSDFMessage,SDF must be enabled in the Font Editor to use text effects in sequences,SDF must be enabled in the Font Editor to use text effects in sequences,,text track no sdf message
+CanvasText_OpenFontEditor,Edit Font,Edit Font,,edit font
+CanvasText_TextHeading,Text,Text,,text effect heading
+CanvasText_GlowHeading,Glow,Glow,,text effect heading
+CanvasText_Outline,Outline,Outline,,text effect heading
+CanvasText_Shadow,Shadow,Shadow,,text effect heading
+Category_SDFEffects,SDF Effects,SDF Effects,,sdf effects category
+Category_SDFEffects_NoSDF,SDF Effects,SDF Effects,,sdf effects (no sdf) category 
 Category_SpriteInfo,Sprite Information,Sprite Information,,inspector category label
 Category_BasicInfo,Basic Information,Basic Information,,inspector category label
 Category_SoundInfo,Sound Information,Sound Information,,inspector category label
 Category_InstanceInfo,Instance Information,Instance Information,,inspector category label
 Category_SequenceInfo,Sequence Information,Sequence Information,,inspector category label
+ElementName_AudioBusSlot,{1},{1},,inspector array element name format
 GMScript_DefaultComment,// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information,// Script assets have changed for v2.3.0 see\n// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information,,default script comment
 GMScript_DnDBoilerPlate,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDComment : ${comment}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML Boiler plate for a new script
 GMScript_DnDFuncDecl,"/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}","/// @DnDAction : YoYo Games.Common.Function\n/// @DnDVersion : 1\n/// @DnDHash : ${hash}\n/// @DnDArgument : ""funcName"" ""${funcName}""\nfunction ${funcName}(){\n\n}",,GML function declaration template
@@ -7677,6 +7916,8 @@ CannotImportStripImageError_Message,An image of size {0} x {1} can't be split in
 SourceControl_GitExecutablePath,Git executable path,Git executable path,,The path to the git executable
 SourceControl_GitMergeToolPath,Merge tool,Merge tool,,The merge tool path
 SourceControl_GitDiffToolPath,Diff tool,Diff tool,,The diff tool path
+SourceControl_GitAddDefaultsNew,Add skeleton .git defaults to new projects,Add skeleton .git defaults to new projects,,Add .git defaults preference for new projects
+SourceControl_GitAddDefaultsImported,Add skeleton .git defaults to imported projects,Add skeleton .git defaults to imported projects,,Add .git defaults preference for imported projects
 SourceControl_Push_Warning,Your changes couldn't be pushed to the remote. Please check Source Control Output for more information,Your changes couldn't be pushed to the remote. Please check Source Control Output for more information,,Warning message for git push failure.
 SourceControl_Pull_Warning,Changes couldn't be pulled from the remote. Please check Source Control Output for more information,Changes couldn't be pulled from the remote. Please check Source Control Output for more information,,Warning message for git pull failure.
 SourceControl_Status_Warning,The status of the git repository couldn't be queried. Please check Source Control Output for more information,The status of the git repository couldn't be queried. Please check Source Control Output for more information,,Warning for git status failure.
@@ -7697,10 +7938,8 @@ RedefineKeys_Default_Search,Search,Search,,Redefine Keys search box default text
 RedefineKeys_Default_Key_Search,Press a key to search,Press a key to search,,Redefine Keys search box default text when searching for key
 Redefine_Keys_Show_Unbound_Commands,Show Unbound Commands,Show Unbound Commands,,Show Unbound Commands caption
 Redefine_Keys_Show_Only_Redefined_Commands,Show Only Redefined Commands,Show Only Redefined Commands,,Show Only Redefined Commands caption
-Redefine_Keys_WarningKeys_Dialog,This command may not work properly with the {0} key. Are you sure you want to continue?,This command may not work properly with the {0} key. Are you sure you want to continue?,,Are you sure about remapping the command message text
-Redefine_Keys_ForbiddenKeys_Title,Forbidden Key,Forbidden Key,,Forbidden Key Title
-Redefine_Keys_ForbiddenKeys_Dialog,This command cannot be remapped to {0} as the {1} key is forbidden for this command.,This command cannot be remapped to {0} as the {1} key is forbidden for this command.,,Forbidden keys message text
 Feather_LintMessages_Title,Feather Messages,Feather Messages,,Feather Messages Window Title
+Diagnostics_Title,Diagnostics,Diagnostics,,Diagnostics Window Title
 Feather_RefactorDialog_Title,Rename Identifier,Rename Identifier,,Refactor Dialog Title
 Feather_RefactorDialog_Content1,Provide a new name for '{0}':,Provide a new name for '{0}':,,Content 1
 Feather_RefactorFailedDialog_Title,Failed to apply changes,Failed to apply changes,,Refactor Failed Dialog Title
@@ -7709,8 +7948,12 @@ Feather_RefactorFailedDialog_Content2,No changes have been applied.,No changes h
 Feather_RefactorCannotRenameDialog_Title,Cannot Rename,Cannot Rename,,Cannot Rename
 Feather_RefactorCannotRenameDialog_Content,The symbol under the caret cannot be renamed.,The symbol under the caret cannot be renamed.,,Cannot rename symbol under cursor.
 Feather_InitializationError_Title,Initialization Error,Initialization Error,,Initialization Error
+Feather_IgnoreAutogeneratedRoomInstanceNames,Do not analyze project for Room Instances with auto-generated names,Do not analyze project for Room Instances with auto-generated names,,Do not analyze project for Room Instances with auto-generated names
+Feather_IgnoreRoomInstances,Do not analyze Room Instances,Do not analyze Room Instances,,Do not analyze Room Instances
 ProgressBar_Feather_ParseProject,Analyzing Project...,Analyzing Project...,,Analyzing Project...
 ProgressBar_Feather_ApplyRewrite,Refactoring...,Refactoring...,,Refactoring...
+ProgressBar_LSP_Progress,{0},{0},,LSP Progress - Localized on server
+DiagnosticWindow_UnknownAsset,(Unknown),(Unknown),,(Unknown)
 Feather_OccurrencesGadget_Occurrences,Goto next usage of '{0}' ({1}/{2}),Goto next usage of '{0}' ({1}/{2}),,Goto next usage of '{0}' ({1}/{2})
 Feather Settings,Feather Settings,Feather Settings,,Feather Settings preference group heading
 Highlighting,Highlighting,Highlighting,,Highlighting preference group heading
@@ -7718,6 +7961,7 @@ Message Severity,Message Severity,Message Severity,,Message Severity group headi
 Naming Rules,Naming Rules,Naming Rules,,Naming Rules group heading
 Feather_Enabled,Enable Feather,Enable Feather,,Enable Feather
 Feather_Delay,Document Parse Delay (ms),Document Parse Delay (ms),,Delay before feather picks up problems
+Feather_MaxDereferenceCount,Maximum allowed number of dot dereferences per expression.,Maximum allowed number of dot dereferences per expression.,,Maximum allowed number of dot dereferences per expression.
 Feather_Tooltip,Compact Tooltips. Disables certain tooltip information such as parameter descriptions.,Compact Tooltips. Disables certain tooltip information such as parameter descriptions.,,Use compact tooltips for feather
 Feather_TooltipLength,The maximum number of struct fields that are displayed by tooltips.,The maximum number of struct fields that are displayed by tooltips.,,The maximum number of struct fields that are displayed by tooltips
 Feather_Rename,Refactor references to asset name when asset is renamed in Asset Browser.,Refactor references to asset name when asset is renamed in Asset Browser.,,Refactor references to asset name when asset is renamed in Asset Browser.
@@ -7762,7 +8006,9 @@ Feather_GM1033,GM1033 - Possibly unintended or misplaced semicolon.,GM1033 - Pos
 Feather_GM1034,GM1034 - Argument cannot be referenced outside of script or function.,GM1034 - Argument cannot be referenced outside of script or function.,,Feather rule
 Feather_GM1035,GM1035 - Return type differs from previously established return type.,GM1035 - Return type differs from previously established return type.,,Feather rule
 Feather_GM1036,GM1036 - Array cannot be indexed in this way.,GM1036 - Array cannot be indexed in this way.,,Feather rule
+Feather_GM1037,GM1037 - Static variables cannot be declared outside of a function.,GM1037 - Static variables cannot be declared outside of a function.,,Feather rule
 Feather_GM1038,GM1038 - Macro with this name has been previously declared.,GM1038 - Macro with this name has been previously declared.,,Feather rule
+Feather_GM1039,GM1039 - Recursive constructor function declaration.,GM1039 - Recursive constructor function declaration.,,Feather rule
 Feather_GM1040,GM1040 - argument# and argument[#] referencing cannot be mixed.,GM1040 - argument# and argument[#] referencing cannot be mixed.,,Feather rule
 Feather_GM1041,GM1041 - The type '{1}' appears where the type '{0}' is expected.,GM1041 - The type '{1}' appears where the type '{0}' is expected.,,Feather rule
 Feather_GM1042,GM1042 - Parameter name '{0}' differs from '{1}' specified in jsdoc.,GM1042 - Parameter name '{0}' differs from '{1}' specified in jsdoc.,,Feather rule
@@ -7784,8 +8030,10 @@ Feather_GM1059,GM1059 - The parameter '{0}' has been previously declared.,GM1059
 Feather_GM1060,GM1060 - Dangerous call to variable of type '{0}'.,GM1060 - Dangerous call to variable of type '{0}'.,,Feather rule
 Feather_GM1062,GM1062 - Malformed type '{0}' in jsdoc.,GM1062 - Malformed type '{0}' in jsdoc.,,Feather rule
 Feather_GM1063,GM1063 - Ternary may yield differing types '{0}' and '{1}'.,GM1063 - Ternary may yield differing types '{0}' and '{1}'.,,Feather rule
+Feather_GM1064,GM1064 - Redeclaration of global function '{0}' originally declared in '{1}'.,GM1064 - Redeclaration of global function '{0}' originally declared in '{1}'.,,GM1064 - Redeclaration of global function '{0}' originally declared in '{1}'.
+Feather_GM1065,GM1065 - Excessive dot dereferences.,GM1065 - Excessive dot dereferences.,,GM1065 - Excessive dot dereferences.
 Feather_GM1100,GM1100 - Syntax Error,GM1100 - Syntax Error,,Feather rule
-Feather_GM2000,GM2000 - Not all code paths call draw_set_blend_mode(bm_normal) before the end of the script.,GM2000 - Not all code paths call draw_set_blend_mode(bm_normal) before the end of the script.,,Feather rule
+Feather_GM2000,GM2000 - Not all code paths call gpu_set_blendmode(bm_normal) before the end of the script.,GM2000 - Not all code paths call gpu_set_blendmode(bm_normal) before the end of the script.,,Feather rule
 Feather_GM2001,"GM2001 - Floating point comparison on integer division, use the '/' operator instead.","GM2001 - Floating point comparison on integer division, use the '/' operator instead.",,Feather rule
 Feather_GM2002,"GM2002 - The function '{0}' is slow, consider alternatives.","GM2002 - The function '{0}' is slow, consider alternatives.",,Feather rule
 Feather_GM2003,GM2003 - Not all code paths call shader_reset() before end of script.,GM2003 - Not all code paths call shader_reset() before end of script.,,Feather rule
@@ -7989,9 +8237,9 @@ GMStdTimeBpmToSeconds_Story,Convert a frequency of ${in_var} beats-per-minute to
 GMStdTimeSecondsToBpm_Name,Seconds to BPM,Seconds to BPM,,GML Visual action name
 GMStdTimeSecondsToBpm_Desc,Convert a period in seconds to its equivalent frequency in beats-per-minute.,Convert a period in seconds to its equivalent frequency in beats-per-minute.,,GML Visual action description
 GMStdTimeSecondsToBpm_Story,Convert a period of ${in_var} seconds to a frequency in beats-per-minute and assign it to ${out_var},Convert a period of ${in_var} seconds to a frequency in beats-per-minute and assign it to ${out_var},,GML Visual story text
-RedefineKeys_MoveFlowNext,Move Flow Next,Move Flow Next,,Redefine keys MoveFlowNext string
-RedefineKeys_MoveFlowPrevious,Move Flow Previous,Move Flow Previous,,Redefine keys MoveFlowPrevious string
-RedefineKeys_FlowAccept,Flow Accept,Flow Accept,,Redefine keys FlowAccept string
+RedefineKeys_Move Focus Next,Move Flow Next,Move Flow Next,,Redefine keys MoveFlowNext string
+RedefineKeys_Move Focus Previous,Move Flow Previous,Move Flow Previous,,Redefine keys MoveFlowPrevious string
+RedefineKeys_Focus Accept,Flow Accept,Flow Accept,,Redefine keys FlowAccept string
 RedefineKeys_Undo,Undo,Undo,,Redefine keys Undo string
 RedefineKeys_Redo,Redo,Redo,,Redefine keys Redo string
 RedefineKeys_Rename,Rename,Rename,,Redefine keys Rename string
@@ -8001,8 +8249,9 @@ RedefineKeys_Zoom Out,Zoom Out,Zoom Out,,Redefine keys Zoom Out string
 RedefineKeys_Quit,Quit,Quit,,Redefine keys Quit string
 RedefineKeys_Save As,Save As,Save As,,Redefine keys Save As string
 RedefineKeys_Export Project,Export Project,Export Project,,Redefine keys Export Project string
-RedefineKeys_force_dock_expansion,Force Dock Expansion,Force Dock Expansion,,Redefine keys force_dock_expansion string
-RedefineKeys_close_tab,Close Tab,Close Tab,,Redefine keys close_tab string
+RedefineKeys_Force Dock Expansion,Force Dock Expansion,Force Dock Expansion,,Redefine keys force_dock_expansion string
+RedefineKeys_Expand Collapse Docks,Expand/Collapse Docks,Expand/Collapse Docks,,Expand/Collapse Docks
+RedefineKeys_Close Tab,Close Tab,Close Tab,,Redefine keys close_tab string
 RedefineKeys_CaretLeft,Caret Left,Caret Left,,Redefine keys CaretLeft string
 RedefineKeys_CaretRight,Caret Right,Caret Right,,Redefine keys CaretRight string
 RedefineKeys_CaretUp,Caret Up,Caret Up,,Redefine keys CaretUp string
@@ -8045,6 +8294,7 @@ RedefineKeys_Tab,Tab,Tab,,Redefine keys Tab string
 RedefineKeys_DeTab,De Tab,De Tab,,Redefine keys DeTab string
 RedefineKeys_Cancel,Cancel,Cancel,,Redefine keys Cancel string
 RedefineKeys_DeleteWordStart,Delete Word Start,Delete Word Start,,Redefine keys DeleteWordStart string
+RedefineKeys_DeleteWordEnd,Delete Word End,Delete Word End,,Redefine keys DeleteWordEnd string
 RedefineKeys_DeleteEndStart,Delete End Start,Delete End Start,,Redefine keys DeleteEndStart string
 RedefineKeys_DeleteLineBeforeCursor,Delete Line Before Cursor,Delete Line Before Cursor,,Redefine keys DeleteLineBeforeCursor string
 RedefineKeys_Duplicate,Duplicate,Duplicate,,Redefine keys Duplicate string
@@ -8068,15 +8318,15 @@ RedefineKeys_DecrementTextSize,Decrement Text Size,Decrement Text Size,,Redefine
 RedefineKeys_IncrementTextSize,Increment Text Size,Increment Text Size,,Redefine keys IncrementTextSize string
 RedefineKeys_TextEditorGotoLine,Text Editor Goto Line,Text Editor Goto Line,,Redefine keys TextEditorGotoLine string
 RedefineKeys_toggle_canvas_rulers,Toggle Canvas Rulers,Toggle Canvas Rulers,,Redefine keys toggle_canvas_rulers string
-RedefineKeys_Toggle Grid Snap,Toggle Grid Snap,Toggle Grid Snap,,Redefine keys Toggle Grid Snap string
+RedefineKeys_Toggle Snap to Grid,Toggle Grid Snap,Toggle Grid Snap,,Redefine keys Toggle Grid Snap string
 RedefineKeys_sequence_split_keyframe,Sequence Split Keyframe,Sequence Split Keyframe,,Redefine keys sequence_split_keyframe string
 RedefineKeys_sequence_remove_keyframe,Sequence Remove Keyframe,Sequence Remove Keyframe,,Redefine keys sequence_remove_keyframe string
-RedefineKeys_sequence_add_keyframe,Sequence Add Keyframe,Sequence Add Keyframe,,Redefine keys sequence_add_keyframe string
+RedefineKeys_Add Key Frame,Sequence Add Keyframe,Sequence Add Keyframe,,Redefine keys sequence_add_keyframe string
 RedefineKeys_sequence_toggle_autokey,Sequence Toggle Autokey,Sequence Toggle Autokey,,Redefine keys sequence_toggle_autokey string
 RedefineKeys_sequence_delete_bksp,Sequence Delete Bksp,Sequence Delete Bksp,,Redefine keys sequence_delete_bksp string
 RedefineKeys_Delete,Delete,Delete,,Redefine keys Delete string
 RedefineKeys_sequence_toggle_multiselect_origin,Sequence Toggle Multiselect Origin,Sequence Toggle Multiselect Origin,,Redefine keys sequence_toggle_multiselect_origin string
-RedefineKeys_sequence_center_item_origin,Sequence Center Item Origin,Sequence Center Item Origin,,Redefine keys sequence_center_item_origin string
+RedefineKeys_Center Item Origin,Sequence Center Item Origin,Sequence Center Item Origin,,Redefine keys sequence_center_item_origin string
 RedefineKeys_sequence_reset_item_position,Sequence Reset Item Position,Sequence Reset Item Position,,Redefine keys sequence_reset_item_position string
 RedefineKeys_seq_smartguide_toggle_vis,Seq Smartguide Toggle Vis,Seq Smartguide Toggle Vis,,Redefine keys seq_smartguide_toggle_vis string
 RedefineKeys_seq_smartguide_toggle_rulerlock,Seq Smartguide Toggle Rulerlock,Seq Smartguide Toggle Rulerlock,,Redefine keys seq_smartguide_toggle_rulerlock string
@@ -8103,16 +8353,16 @@ RedefineKeys_sequence_trim_key_right,Sequence Trim Key Right,Sequence Trim Key R
 RedefineKeys_sequence_split_key_two_tracks,Sequence Split Key Two Tracks,Sequence Split Key Two Tracks,,Redefine keys sequence_split_key_two_tracks string
 RedefineKeys_sequence_stretch_keys_right,Sequence Stretch Keys Right,Sequence Stretch Keys Right,,Redefine keys sequence_stretch_keys_right string
 RedefineKeys_sequence_stretch_keys_left,Sequence Stretch Keys Left,Sequence Stretch Keys Left,,Redefine keys sequence_stretch_keys_left string
-RedefineKeys_sequence_next_keyframe,Sequence Next Keyframe,Sequence Next Keyframe,,Redefine keys sequence_next_keyframe string
-RedefineKeys_sequence_prev_keyframe,Sequence Prev Keyframe,Sequence Prev Keyframe,,Redefine keys sequence_prev_keyframe string
+RedefineKeys_Go To Next Keyframe,Sequence Next Keyframe,Sequence Next Keyframe,,Redefine keys sequence_next_keyframe string
+RedefineKeys_Go To Previous Keyframe,Sequence Prev Keyframe,Sequence Prev Keyframe,,Redefine keys sequence_prev_keyframe string
 RedefineKeys_sequence_select_next_key,Sequence Select Next Key,Sequence Select Next Key,,Redefine keys sequence_select_next_key string
 RedefineKeys_sequence_select_prev_key,Sequence Select Prev Key,Sequence Select Prev Key,,Redefine keys sequence_select_prev_key string
-RedefineKeys_sequence_goto_start,Sequence Goto Start,Sequence Goto Start,,Redefine keys sequence_goto_start string
-RedefineKeys_sequence_goto_end,Sequence Goto End,Sequence Goto End,,Redefine keys sequence_goto_end string
-RedefineKeys_sequence_goto_start_selection,Sequence Goto Start Selection,Sequence Goto Start Selection,,Redefine keys sequence_goto_start_selection string
-RedefineKeys_sequence_goto_end_selection,Sequence Goto End Selection,Sequence Goto End Selection,,Redefine keys sequence_goto_end_selection string
-RedefineKeys_sequence_expand_tracks_selection,Sequence Expand Tracks Selection,Sequence Expand Tracks Selection,,Redefine keys sequence_expand_tracks_selection string
-RedefineKeys_sequence_expand_tracks_all,Sequence Expand Tracks All,Sequence Expand Tracks All,,Redefine keys sequence_expand_tracks_all string
+RedefineKeys_Go To Start,Sequence Goto Start,Sequence Goto Start,,Redefine keys sequence_goto_start string
+RedefineKeys_Go To End,Sequence Goto End,Sequence Goto End,,Redefine keys sequence_goto_end string
+RedefineKeys_Go To Start of Selection,Sequence Goto Start Selection,Sequence Goto Start Selection,,Redefine keys sequence_goto_start_selection string
+RedefineKeys_Go To End of Selection,Sequence Goto End Selection,Sequence Goto End Selection,,Redefine keys sequence_goto_end_selection string
+RedefineKeys_Expand Selected Tracks,Sequence Expand Tracks Selection,Sequence Expand Tracks Selection,,Redefine keys sequence_expand_tracks_selection string
+RedefineKeys_Expand All Tracks,Sequence Expand Tracks All,Sequence Expand Tracks All,,Redefine keys sequence_expand_tracks_all string
 RedefineKeys_sequence_select_track_above,Sequence Select Track Above,Sequence Select Track Above,,Redefine keys sequence_select_track_above string
 RedefineKeys_sequence_select_track_below,Sequence Select Track Below,Sequence Select Track Below,,Redefine keys sequence_select_track_below string
 RedefineKeys_sequence_select_track_above_additive,Sequence Select Track Above Additive,Sequence Select Track Above Additive,,Redefine keys sequence_select_track_above_additive string
@@ -8121,49 +8371,49 @@ RedefineKeys_sequence_new_clipping_mask,Sequence New Clipping Mask,Sequence New 
 RedefineKeys_sequence_new_group,Sequence New Group,Sequence New Group,,Redefine keys sequence_new_group string
 RedefineKeys_sequence_new_broadcast_message,Sequence New Broadcast Message,Sequence New Broadcast Message,,Redefine keys sequence_new_broadcast_message string
 RedefineKeys_sequence_new_moment,Sequence New Moment,Sequence New Moment,,Redefine keys sequence_new_moment string
-RedefineKeys_sequence_goto_next_event,Sequence Goto Next Event,Sequence Goto Next Event,,Redefine keys sequence_goto_next_event string
-RedefineKeys_sequence_goto_prev_event,Sequence Goto Prev Event,Sequence Goto Prev Event,,Redefine keys sequence_goto_prev_event string
+RedefineKeys_Go To Next Event,Sequence Goto Next Event,Sequence Goto Next Event,,Redefine keys sequence_goto_next_event string
+RedefineKeys_Go To Previous Event,Sequence Goto Prev Event,Sequence Goto Prev Event,,Redefine keys sequence_goto_prev_event string
 RedefineKeys_tool_translate,Tool Translate,Tool Translate,,Redefine keys tool_translate string
 RedefineKeys_tool_scale,Tool Scale,Tool Scale,,Redefine keys tool_scale string
 RedefineKeys_tool_rotate,Tool Rotate,Tool Rotate,,Redefine keys tool_rotate string
 RedefineKeys_tool_origin,Tool Origin,Tool Origin,,Redefine keys tool_origin string
 RedefineKeys_Play,Play,Play,,Redefine keys Play string
 RedefineKeys_Toggle Grid,Toggle Grid,Toggle Grid,,Redefine keys Toggle Grid string
-RedefineKeys_GoTo,Go To,Go To,,Redefine keys GoTo string
-RedefineKeys_OpenWorkspaceOverview,Open Workspace Overview,Open Workspace Overview,,Redefine keys OpenWorkspaceOverview string
+RedefineKeys_Open GoTo Menu,Go To,Go To,,Redefine keys GoTo string
+RedefineKeys_Open Workspace Overview,Open Workspace Overview,Open Workspace Overview,,Redefine keys OpenWorkspaceOverview string
 RedefineKeys_Run,Run,Run,,Redefine keys Run string
 RedefineKeys_Debug,Debug,Debug,,Redefine keys Debug string
 RedefineKeys_Clean,Clean,Clean,,Redefine keys Clean string
-RedefineKeys_Create Executable,Create Executable,Create Executable,,Redefine keys Create Executable string
+RedefineKeys_Package,Create Executable,Create Executable,,Redefine keys Create Executable string
 RedefineKeys_open_debug_info,Open Debug Info,Open Debug Info,,Redefine keys open_debug_info string
 RedefineKeys_run_memory_info,Run Memory Info,Run Memory Info,,Redefine keys run_memory_info string
-RedefineKeys_open_search_replace,Open Search Replace,Open Search Replace,,Redefine keys open_search_replace string
+RedefineKeys_Open Search and Replace,Open Search Replace,Open Search Replace,,Redefine keys open_search_replace string
 RedefineKeys_open_search_in_script_find,Open Search In Script Find,Open Search In Script Find,,Redefine keys open_search_in_script_find string
 RedefineKeys_open_search_in_script_replace,Open Search In Script Replace,Open Search In Script Replace,,Redefine keys open_search_in_script_replace string
-RedefineKeys_open_prefs_tree,Open Prefs Tree,Open Prefs Tree,,Redefine keys open_prefs_tree string
-RedefineKeys_set_bookmark_1,Set Bookmark 1,Set Bookmark 1,,Redefine keys set_bookmark_1 string
-RedefineKeys_set_bookmark_2,Set Bookmark 2,Set Bookmark 2,,Redefine keys set_bookmark_2 string
-RedefineKeys_set_bookmark_3,Set Bookmark 3,Set Bookmark 3,,Redefine keys set_bookmark_3 string
-RedefineKeys_set_bookmark_4,Set Bookmark 4,Set Bookmark 4,,Redefine keys set_bookmark_4 string
-RedefineKeys_set_bookmark_5,Set Bookmark 5,Set Bookmark 5,,Redefine keys set_bookmark_5 string
-RedefineKeys_set_bookmark_6,Set Bookmark 6,Set Bookmark 6,,Redefine keys set_bookmark_6 string
-RedefineKeys_set_bookmark_7,Set Bookmark 7,Set Bookmark 7,,Redefine keys set_bookmark_7 string
-RedefineKeys_set_bookmark_8,Set Bookmark 8,Set Bookmark 8,,Redefine keys set_bookmark_8 string
-RedefineKeys_set_bookmark_9,Set Bookmark 9,Set Bookmark 9,,Redefine keys set_bookmark_9 string
-RedefineKeys_set_bookmark_0,Set Bookmark 0,Set Bookmark 0,,Redefine keys set_bookmark_0 string
-RedefineKeys_get_bookmark_1,Get Bookmark 1,Get Bookmark 1,,Redefine keys get_bookmark_1 string
-RedefineKeys_get_bookmark_2,Get Bookmark 2,Get Bookmark 2,,Redefine keys get_bookmark_2 string
-RedefineKeys_get_bookmark_3,Get Bookmark 3,Get Bookmark 3,,Redefine keys get_bookmark_3 string
-RedefineKeys_get_bookmark_4,Get Bookmark 4,Get Bookmark 4,,Redefine keys get_bookmark_4 string
-RedefineKeys_get_bookmark_5,Get Bookmark 5,Get Bookmark 5,,Redefine keys get_bookmark_5 string
-RedefineKeys_get_bookmark_6,Get Bookmark 6,Get Bookmark 6,,Redefine keys get_bookmark_6 string
-RedefineKeys_get_bookmark_7,Get Bookmark 7,Get Bookmark 7,,Redefine keys get_bookmark_7 string
-RedefineKeys_get_bookmark_8,Get Bookmark 8,Get Bookmark 8,,Redefine keys get_bookmark_8 string
-RedefineKeys_get_bookmark_9,Get Bookmark 9,Get Bookmark 9,,Redefine keys get_bookmark_9 string
-RedefineKeys_get_bookmark_0,Get Bookmark 0,Get Bookmark 0,,Redefine keys get_bookmark_0 string
+RedefineKeys_Open Preferences,Open Preferences,Open Preferences,,Redefine keys open_prefs_tree string
+RedefineKeys_Set Bookmark 1,Set Bookmark 1,Set Bookmark 1,,Redefine keys Set Bookmark 1 string
+RedefineKeys_Set Bookmark 2,Set Bookmark 2,Set Bookmark 2,,Redefine keys Set Bookmark 2 string
+RedefineKeys_Set Bookmark 3,Set Bookmark 3,Set Bookmark 3,,Redefine keys Set Bookmark 3 string
+RedefineKeys_Set Bookmark 4,Set Bookmark 4,Set Bookmark 4,,Redefine keys Set Bookmark 4 string
+RedefineKeys_Set Bookmark 5,Set Bookmark 5,Set Bookmark 5,,Redefine keys Set Bookmark 5 string
+RedefineKeys_Set Bookmark 6,Set Bookmark 6,Set Bookmark 6,,Redefine keys Set Bookmark 6 string
+RedefineKeys_Set Bookmark 7,Set Bookmark 7,Set Bookmark 7,,Redefine keys Set Bookmark 7 string
+RedefineKeys_Set Bookmark 8,Set Bookmark 8,Set Bookmark 8,,Redefine keys Set Bookmark 8 string
+RedefineKeys_Set Bookmark 9,Set Bookmark 9,Set Bookmark 9,,Redefine keys Set Bookmark 9 string
+RedefineKeys_Set Bookmark 0,Set Bookmark 0,Set Bookmark 0,,Redefine keys Set Bookmark 0 string
+RedefineKeys_Get Bookmark 1,Get Bookmark 1,Get Bookmark 1,,Redefine keys Get Bookmark 1 string
+RedefineKeys_Get Bookmark 2,Get Bookmark 2,Get Bookmark 2,,Redefine keys Get Bookmark 2 string
+RedefineKeys_Get Bookmark 3,Get Bookmark 3,Get Bookmark 3,,Redefine keys Get Bookmark 3 string
+RedefineKeys_Get Bookmark 4,Get Bookmark 4,Get Bookmark 4,,Redefine keys Get Bookmark 4 string
+RedefineKeys_Get Bookmark 5,Get Bookmark 5,Get Bookmark 5,,Redefine keys Get Bookmark 5 string
+RedefineKeys_Get Bookmark 6,Get Bookmark 6,Get Bookmark 6,,Redefine keys Get Bookmark 6 string
+RedefineKeys_Get Bookmark 7,Get Bookmark 7,Get Bookmark 7,,Redefine keys Get Bookmark 7 string
+RedefineKeys_Get Bookmark 8,Get Bookmark 8,Get Bookmark 8,,Redefine keys Get Bookmark 8 string
+RedefineKeys_Get Bookmark 9,Get Bookmark 9,Get Bookmark 9,,Redefine keys Get Bookmark 9 string
+RedefineKeys_Get Bookmark 0,Get Bookmark 0,Get Bookmark 0,,Redefine keys Get Bookmark 0 string
 RedefineKeys_manage_plugins,Manage Plugins,Manage Plugins,,Redefine keys manage_plugins string
-RedefineKeys_open_inspector,Open Inspector,Open Inspector,,Redefine keys open_inspector string
-RedefineKeys_open_asset_browser,Open Asset Browser,Open Asset Browser,,Redefine keys open_asset_browser string
+RedefineKeys_Open Inspector,Open Inspector,Open Inspector,,Redefine keys open_inspector string
+RedefineKeys_Open Asset Browser,Open Asset Browser,Open Asset Browser,,Redefine keys open_asset_browser string
 RedefineKeys_do_nothing_rewrite,Do Nothing Rewrite,Do Nothing Rewrite,,Redefine keys do_nothing_rewrite string
 RedefineKeys_enumerate_references,Enumerate References,Enumerate References,,Redefine keys enumerate_references string
 RedefineKeys_find_all_references,Find All References,Find All References,,Redefine keys find_all_references string
@@ -8189,10 +8439,10 @@ RedefineKeys_Add Frame,Add Frame,Add Frame,,Redefine keys Add Frame string
 RedefineKeys_insert_frame,Insert Frame,Insert Frame,,Redefine keys insert_frame string
 RedefineKeys_backspace_delete,Backspace Delete,Backspace Delete,,Redefine keys backspace_delete string
 RedefineKeys_import_files,Import Files,Import Files,,Redefine keys import_files string
-RedefineKeys_move_selection_up,Move Selection Up,Move Selection Up,,Redefine keys move_selection_up string
-RedefineKeys_move_selection_down,Move Selection Down,Move Selection Down,,Redefine keys move_selection_down string
-RedefineKeys_move_selection_left,Move Selection Left,Move Selection Left,,Redefine keys move_selection_left string
-RedefineKeys_move_selection_right,Move Selection Right,Move Selection Right,,Redefine keys move_selection_right string
+RedefineKeys_Move Selection Up,Move Selection Up,Move Selection Up,,Redefine keys move_selection_up string
+RedefineKeys_Move Selection Down,Move Selection Down,Move Selection Down,,Redefine keys move_selection_down string
+RedefineKeys_Move Selection Left,Move Selection Left,Move Selection Left,,Redefine keys move_selection_left string
+RedefineKeys_Move Selection Right,Move Selection Right,Move Selection Right,,Redefine keys move_selection_right string
 RedefineKeys_import_from_strip,Import From Strip,Import From Strip,,Redefine keys import_from_strip string
 RedefineKeys_increment_brush_size,Increment Brush Size,Increment Brush Size,,Redefine keys increment_brush_size string
 RedefineKeys_increment_brush_size2,Increment Brush Size2,Increment Brush Size2,,Redefine keys increment_brush_size2 string
@@ -8205,10 +8455,10 @@ RedefineKeys_Open Layer View,Open Layer View,Open Layer View,,Redefine keys Open
 RedefineKeys_cut_selection_win,Cut Selection Win,Cut Selection Win,,Redefine keys cut_selection_win string
 RedefineKeys_copy_selection_win,Copy Selection Win,Copy Selection Win,,Redefine keys copy_selection_win string
 RedefineKeys_paste_selection_Win,Paste Selection Win,Paste Selection Win,,Redefine keys paste_selection_Win string
-RedefineKeys_Mirror as Individuals,Mirror As Individuals,Mirror As Individuals,,Redefine keys Mirror as Individuals string
-RedefineKeys_Mirror as Group,Mirror As Group,Mirror As Group,,Redefine keys Mirror as Group string
-RedefineKeys_Flip as Individuals,Flip As Individuals,Flip As Individuals,,Redefine keys Flip as Individuals string
-RedefineKeys_Flip as Group,Flip As Group,Flip As Group,,Redefine keys Flip as Group string
+RedefineKeys_Mirror As Individuals,Mirror As Individuals,Mirror As Individuals,,Redefine keys Mirror as Individuals string
+RedefineKeys_Mirror As Group,Mirror As Group,Mirror As Group,,Redefine keys Mirror as Group string
+RedefineKeys_Flip As Individuals,Flip As Individuals,Flip As Individuals,,Redefine keys Flip as Individuals string
+RedefineKeys_Flip As Group,Flip As Group,Flip As Group,,Redefine keys Flip as Group string
 RedefineKeys_toggle_grid,Toggle Grid,Toggle Grid,,Redefine keys toggle_grid string
 RedefineKeys_Add Moment,Add Moment,Add Moment,,Redefine keys Add Moment string
 RedefineKeys_cut_moments_win,Cut Moments Win,Cut Moments Win,,Redefine keys cut_moments_win string
@@ -8239,7 +8489,7 @@ RedefineKeys_insert_sprite_frame,Insert Sprite Frame,Insert Sprite Frame,,Redefi
 RedefineKeys_copy_frames_win,Copy Frames Win,Copy Frames Win,,Redefine keys copy_frames_win string
 RedefineKeys_paste_frames_win,Paste Frames Win,Paste Frames Win,,Redefine keys paste_frames_win string
 RedefineKeys_cut_frames_win,Cut Frames Win,Cut Frames Win,,Redefine keys cut_frames_win string
-RedefineKeys_Pan To Path,Pan To Path,Pan To Path,,Redefine keys Pan To Path string
+RedefineKeys_Pan To,Pan To Path,Pan To Path,,Redefine keys Pan To Path string
 RedefineKeys_Reverse Path,Reverse Path,Reverse Path,,Redefine keys Reverse Path string
 RedefineKeys_Mirror,Mirror,Mirror,,Redefine keys Mirror string
 RedefineKeys_Flip,Flip,Flip,,Redefine keys Flip string
@@ -8255,10 +8505,10 @@ RedefineKeys_debugger_continue,Debugger Continue,Debugger Continue,,Redefine key
 RedefineKeys_debugger_step_into,Debugger Step Into,Debugger Step Into,,Redefine keys debugger_step_into string
 RedefineKeys_debugger_step_over,Debugger Step Over,Debugger Step Over,,Redefine keys debugger_step_over string
 RedefineKeys_debugger_step_out,Debugger Step Out,Debugger Step Out,,Redefine keys debugger_step_out string
-RedefineKeys_ab_arrange_up,Ab Arrange Up,Ab Arrange Up,,Redefine keys ab_arrange_up string
-RedefineKeys_ab_arrange_down,Ab Arrange Down,Ab Arrange Down,,Redefine keys ab_arrange_down string
-RedefineKeys_ab_arrange_top,Ab Arrange Top,Ab Arrange Top,,Redefine keys ab_arrange_top string
-RedefineKeys_ab_arrange_bottom,Ab Arrange Bottom,Ab Arrange Bottom,,Redefine keys ab_arrange_bottom string
+RedefineKeys_ab_arrange_up,Room Manager - Move Room Up One,Room Manager - Move Room Up One,,Redefine keys ab_arrange_up string
+RedefineKeys_ab_arrange_down,Room Manager - Move Room Down One,Room Manager - Move Room Down One,,Redefine keys ab_arrange_down string
+RedefineKeys_ab_arrange_top,Room Manager - Move Room To Top,Room Manager - Move Room To Top,,Redefine keys ab_arrange_top string
+RedefineKeys_ab_arrange_bottom,Room Manager - Move Room To Bottom,Room Manager - Move Room To Bottom,,Redefine keys ab_arrange_bottom string
 RedefineKeys_ac_delete_bksp,Ac Delete Bksp,Ac Delete Bksp,,Redefine keys ac_delete_bksp string
 RedefineKeys_ace_cancel,Ace Cancel,Ace Cancel,,Redefine keys ace_cancel string
 RedefineKeys_ac_path_display,Ac Path Display,Ac Path Display,,Redefine keys ac_path_display string
@@ -8438,7 +8688,7 @@ RedefineKeys_ObjectEditor_InheritParentEvent,Object Editor Inherit Parent Event,
 RedefineKeys_ObjectEditor_OverrideParentEvent,Object Editor Override Parent Event,Object Editor Override Parent Event,,Redefine keys ObjectEditor_OverrideParentEvent string
 RedefineKeys_SplineEditor_DeletePoints,Spline Editor Delete Points,Spline Editor Delete Points,,Redefine keys SplineEditor_DeletePoints string
 RedefineKeys_PathEditor_ContextMenu_EditPoint,Path Editor Context Menu Edit Point,Path Editor Context Menu Edit Point,,Redefine keys PathEditor_ContextMenu_EditPoint string
-RedefineKeys_Generate Tile Map,Generate Tile Map,Generate Tile Map,,Redefine keys Generate Tile Map string
+RedefineKeys_Generate Tile Map From Image,Generate Tile Map,Generate Tile Map,,Redefine keys Generate Tile Map string
 RedefineKeys_RoomEditor_DeleteLayer,Room Editor Delete Layer,Room Editor Delete Layer,,Redefine keys RoomEditor_DeleteLayer string
 RedefineKeys_RoomEditor_AddRootLayer,Room Editor Add Root Layer,Room Editor Add Root Layer,,Redefine keys RoomEditor_AddRootLayer string
 RedefineKeys_RoomEditor_AddSubLayer,Room Editor Add Sub Layer,Room Editor Add Sub Layer,,Redefine keys RoomEditor_AddSubLayer string
@@ -8485,11 +8735,11 @@ RedefineKeys_resize_image,Resize Image,Resize Image,,Redefine keys resize_image 
 RedefineKeys_play_preview,Play Preview,Play Preview,,Redefine keys play_preview string
 RedefineKeys_Jump To End,Jump To End,Jump To End,,Redefine keys Jump To End string
 RedefineKeys_Jump To Start,Jump To Start,Jump To Start,,Redefine keys Jump To Start string
-RedefineKeys_add_new_background_layer,Add New Background Layer,Add New Background Layer,,Redefine keys add_new_background_layer string
-RedefineKeys_add_new_tile_layer,Add New Tile Layer,Add New Tile Layer,,Redefine keys add_new_tile_layer string
-RedefineKeys_add_new_path_layer,Add New Path Layer,Add New Path Layer,,Redefine keys add_new_path_layer string
-RedefineKeys_add_new_asset_layer,Add New Asset Layer,Add New Asset Layer,,Redefine keys add_new_asset_layer string
-RedefineKeys_add_new_folder_layer,Add New Folder Layer,Add New Folder Layer,,Redefine keys add_new_folder_layer string
+RedefineKeys_Create Background Layer,Add New Background Layer,Add New Background Layer,,Redefine keys add_new_background_layer string
+RedefineKeys_Create Tile Layer,Add New Tile Layer,Add New Tile Layer,,Redefine keys add_new_tile_layer string
+RedefineKeys_Create Path Layer,Add New Path Layer,Add New Path Layer,,Redefine keys add_new_path_layer string
+RedefineKeys_Create Asset Layer,Add New Asset Layer,Add New Asset Layer,,Redefine keys add_new_asset_layer string
+RedefineKeys_Create Layer Folder,Add New Folder Layer,Add New Folder Layer,,Redefine keys add_new_folder_layer string
 RedefineKeys_select_PaintbrushTool,Select Paintbrush Tool,Select Paintbrush Tool,,Redefine keys select_PaintbrushTool string
 RedefineKeys_select_EraseTool,Select Erase Tool,Select Erase Tool,,Redefine keys select_EraseTool string
 RedefineKeys_select_FillTool,Select Fill Tool,Select Fill Tool,,Redefine keys select_FillTool string
@@ -8523,11 +8773,11 @@ RedefineKeys_open_variable_definitions,Open Variable Definitions,Open Variable D
 RedefineKeys_add_event,Add Event,Add Event,,Redefine keys add_event string
 RedefineKeys_select_parent,Select Parent,Select Parent,,Redefine keys select_parent string
 RedefineKeys_edit_parent,Edit Parent,Edit Parent,,Redefine keys edit_parent string
-RedefineKeys_add_child,Add Child,Add Child,,Redefine keys add_child string
+RedefineKeys_Add Child,Add Child,Add Child,,Redefine keys add_child string
 RedefineKeys_modify_collision_shape,Modify Collision Shape,Modify Collision Shape,,Redefine keys modify_collision_shape string
 RedefineKeys_physics_toggle_grid,Physics Toggle Grid,Physics Toggle Grid,,Redefine keys physics_toggle_grid string
 RedefineKeys_physics_snap_to_grid,Physics Snap To Grid,Physics Snap To Grid,,Redefine keys physics_snap_to_grid string
-RedefineKeys_add_variable,Add Variable,Add Variable,,Redefine keys add_variable string
+RedefineKeys_Add Variable,Add Variable,Add Variable,,Redefine keys add_variable string
 RedefineKeys_add_new_range,Add New Range,Add New Range,,Redefine keys add_new_range string
 RedefineKeys_delete_selected_range,Delete Selected Range,Delete Selected Range,,Redefine keys delete_selected_range string
 RedefineKeys_open_options,Open Options,Open Options,,Redefine keys open_options string
@@ -8543,19 +8793,20 @@ RedefineKeys_tile_line,Tile Line,Tile Line,,Redefine keys tile_line string
 RedefineKeys_tile_rect,Tile Rect,Tile Rect,,Redefine keys tile_rect string
 RedefineKeys_tile_select,Tile Select,Tile Select,,Redefine keys tile_select string
 RedefineKeys_tile_autotile,Tile Autotile,Tile Autotile,,Redefine keys tile_autotile string
-RedefineKeys_Rotate,Rotate,Rotate,,Redefine keys Rotate string
+RedefineKeys_Select Rotate Image Tool,Select Rotate Image Tool,Select Rotate Image Tool,,Redefine keys Rotate string
+RedefineKeys_Select Rotate Sequence Tool,Select Rotate Sequence Tool,Select Rotate Sequence Tool,,Select Rotate Sequence Tool
 RedefineKeys_autotile_add_full_set,Autotile Add Full Set,Autotile Add Full Set,,Redefine keys autotile_add_full_set string
 RedefineKeys_autotile_add_transition_set,Autotile Add Transition Set,Autotile Add Transition Set,,Redefine keys autotile_add_transition_set string
 RedefineKeys_autotile_delete_set,Autotile Delete Set,Autotile Delete Set,,Redefine keys autotile_delete_set string
 RedefineKeys_autotile_show_guide,Autotile Show Guide,Autotile Show Guide,,Redefine keys autotile_show_guide string
 RedefineKeys_add_curve,Add Curve,Add Curve,,Redefine keys add_curve string
-RedefineKeys_Zoom Fit,Zoom Fit,Zoom Fit,,Redefine keys Zoom Fit string
+RedefineKeys_Zoom Centre Fit,Zoom Fit,Zoom Fit,,Redefine keys Zoom Fit string
 RedefineKeys_set_range,Set Range,Set Range,,Redefine keys set_range string
-RedefineKeys_open_shift_path,Open Shift Path,Open Shift Path,,Redefine keys open_shift_path string
-RedefineKeys_shift_left,Shift Left,Shift Left,,Redefine keys shift_left string
-RedefineKeys_shift_right,Shift Right,Shift Right,,Redefine keys shift_right string
-RedefineKeys_shift_up,Shift Up,Shift Up,,Redefine keys shift_up string
-RedefineKeys_shift_down,Shift Down,Shift Down,,Redefine keys shift_down string
+RedefineKeys_Shift Path,Open Shift Path,Open Shift Path,,Redefine keys open_shift_path string
+RedefineKeys_Shift Path Left,Shift Left,Shift Left,,Redefine keys shift_left string
+RedefineKeys_Shift Path Right,Shift Right,Shift Right,,Redefine keys shift_right string
+RedefineKeys_Shift Path Up,Shift Up,Shift Up,,Redefine keys shift_up string
+RedefineKeys_Shift Path Down,Shift Down,Shift Down,,Redefine keys shift_down string
 RedefineKeys_load_sound,Load Sound,Load Sound,,Redefine keys load_sound string
 RedefineKeys_mute_sound,Mute Sound,Mute Sound,,Redefine keys mute_sound string
 RedefineKeys_play_sound,Play Sound,Play Sound,,Redefine keys play_sound string
@@ -8566,18 +8817,18 @@ RedefineKeys_mute_all,Mute All,Mute All,,Redefine keys mute_all string
 RedefineKeys_play_all,Play All,Play All,,Redefine keys play_all string
 RedefineKeys_loop_all,Loop All,Loop All,,Redefine keys loop_all string
 RedefineKeys_rewind_all,Rewind All,Rewind All,,Redefine keys rewind_all string
-RedefineKeys_create_asset,Create Asset,Create Asset,,Redefine keys create_asset string
+RedefineKeys_Create Asset,Create Asset,Create Asset,,Redefine keys create_asset string
 RedefineKeys_confirm_create_asset,Confirm Create Asset,Confirm Create Asset,,Redefine keys confirm_create_asset string
 RedefineKeys_ide_toolbar_help,Ide Toolbar Help,Ide Toolbar Help,,Redefine keys ide_toolbar_help string
 RedefineKeys_ide_toolbar_collapsedocks,Ide Toolbar Collapsedocks,Ide Toolbar Collapsedocks,,Redefine keys ide_toolbar_collapsedocks string
 RedefineKeys_RestartGame,Restart Game,Restart Game,,Redefine keys RestartGame string
-RedefineKeys_MultiSelect,Multi Select,Multi Select,,Redefine keys MultiSelect string
-RedefineKeys_Zoom,Zoom,Zoom,,Redefine keys Zoom string
-RedefineKeys_Pan,Pan,Pan,,Redefine keys Pan string
-RedefineKeys_SelectRange,Select Range,Select Range,,Redefine keys SelectRange string
-RedefineKeys_PreciseItemPlacement,Precise Item Placement,Precise Item Placement,,Redefine keys PreciseItemPlacement string
-RedefineKeys_PaintWithResource,Paint With Resource,Paint With Resource,,Redefine keys PaintWithResource string
-RedefineKeys_SelectFromAnyLayer,Select From Any Layer,Select From Any Layer,,Redefine keys SelectFromAnyLayer string
+RedefineKeys_Select Multiple,Multi Select,Multi Select,,Redefine keys MultiSelect string
+RedefineKeys_Pan Area Zoom,Zoom,Zoom,,Redefine keys Zoom string
+RedefineKeys_Pan Area Pan,Pan,Pan,,Redefine keys Pan string
+RedefineKeys_Select Range,Select Range,Select Range,,Redefine keys SelectRange string
+RedefineKeys_Precise Item Placement,Paint With Resource with Precise Item Placement,Paint With Resource with Precise Item Placement,,Redefine keys PreciseItemPlacement string
+RedefineKeys_Paint With Resource,Paint With Resource,Paint With Resource,,Redefine keys PaintWithResource string
+RedefineKeys_Select From Any Layer,Select From Any Layer,Select From Any Layer,,Redefine keys SelectFromAnyLayer string
 RedefineKeys_Arc Move Control Point A,Arc Move Control Point A,Arc Move Control Point A,,Redefine keys Arc Move Control Point A string
 RedefineKeys_Arc Move Control Point B,Arc Move Control Point B,Arc Move Control Point B,,Redefine keys Arc Move Control Point B string
 RedefineKeys_Snap Tool Modifier,Snap Tool Modifier,Snap Tool Modifier,,Redefine keys Snap Tool Modifier string
@@ -8585,12 +8836,12 @@ RedefineKeys_ColourReplaceWithAlpha,Colour Replace With Alpha,Colour Replace Wit
 RedefineKeys_Draw Regular Shape,Draw Regular Shape,Draw Regular Shape,,Redefine keys Draw Regular Shape string
 RedefineKeys_Draw Centred Shape,Draw Centred Shape,Draw Centred Shape,,Redefine keys Draw Centred Shape string
 RedefineKeys_FillToolTileWithBrush,Fill Tool Tile With Brush,Fill Tool Tile With Brush,,Redefine keys FillToolTileWithBrush string
-RedefineKeys_AddToSelection,Add To Selection,Add To Selection,,Redefine keys AddToSelection string
-RedefineKeys_RemoveFromSelection,Remove From Selection,Remove From Selection,,Redefine keys RemoveFromSelection string
+RedefineKeys_Add Selection,Add To Selection,Add To Selection,,Redefine keys AddToSelection string
+RedefineKeys_Remove Selection,Remove From Selection,Remove From Selection,,Redefine keys RemoveFromSelection string
 RedefineKeys_OpenColourPanelOnSelect,Open Colour Panel On Select,Open Colour Panel On Select,,Redefine keys OpenColourPanelOnSelect string
-RedefineKeys_RotatePath,Rotate Path,Rotate Path,,Redefine keys RotatePath string
-RedefineKeys_TranslatePath,Translate Path,Translate Path,,Redefine keys TranslatePath string
-RedefineKeys_ScalePath,Scale Path,Scale Path,,Redefine keys ScalePath string
+RedefineKeys_Rotate Path,Rotate Path,Rotate Path,,Redefine keys RotatePath string
+RedefineKeys_Translate Path,Translate Path,Translate Path,,Redefine keys TranslatePath string
+RedefineKeys_Scale Path,Scale Path,Scale Path,,Redefine keys ScalePath string
 RedefineKeys_DopeSheetPanel_ScrollCommand,Dope Sheet Panel Scroll Command,Dope Sheet Panel Scroll Command,,Redefine keys DopeSheetPanel_ScrollCommand string
 RedefineKeys_feather_open_quickfix_menu,Feather Open Quickfix Menu,Feather Open Quickfix Menu,,Redefine keys feather_open_quickfix_menu string
 RedefineKeys_TileFlipTool,Tile Flip Tool,Tile Flip Tool,,Redefine keys TileFlipTool string
@@ -8605,9 +8856,9 @@ RedefineKeys_TileRotateTool,Tile Rotate Tool,Tile Rotate Tool,,Redefine keys Til
 RedefineKeys_TileSelectionTool,Tile Selection Tool,Tile Selection Tool,,Redefine keys TileSelectionTool string
 RedefineKeys_AutoTileTool,Auto Tile Tool,Auto Tile Tool,,Redefine keys AutoTileTool string
 RedefineKeys_PaintBrush,Room Editor Paint Brush,Room Editor Paint Brush,,Redefine keys RoomEditorPaintBrush string
-RedefineKeys_ActivateTileSelectWindow,Activate Tile Select Window,Activate Tile Select Window,,Redefine keys ActivateTileSelectWindow string
+RedefineKeys_Open Tile Selection Window,Activate Tile Select Window,Activate Tile Select Window,,Redefine keys ActivateTileSelectWindow string
 RedefineKeys_InvertSelection,Invert Selection,Invert Selection,,Redefine keys InvertSelection string
-RedefineKeys_ToggleMacroEditingMode,Toggle Macro Editing Mode,Toggle Macro Editing Mode,,Redefine keys ToggleMacroEditingMode string
+RedefineKeys_Toggle Macro Editing Mode,Toggle Macro Editing Mode,Toggle Macro Editing Mode,,Redefine keys ToggleMacroEditingMode string
 RedefineKeys_Increase Brush Size,Increase Brush Size,Increase Brush Size,,Redefine keys Increase Brush Size string
 RedefineKeys_Increase_Brush Size,Increase Brush Size,Increase Brush Size,,Redefine keys Increase_Brush Size string
 RedefineKeys_Decrease Brush Size,Decrease Brush Size,Decrease Brush Size,,Redefine keys Decrease Brush Size string
@@ -8618,8 +8869,8 @@ RedefineKeys_TextEditor,Text Editor,Text Editor,,Redefine keys location entry
 RedefineKeys_SequenceEditor,Sequence Editor,Sequence Editor,,Redefine keys location entry
 RedefineKeys_ImageEditor,Image Editor,Image Editor,,Redefine keys location entry
 RedefineKeys_RoomEditor,Room Editor,Room Editor,,Redefine keys location entry
-RedefineKeys_TimelineEditor,Timeline Editor,Timeline Editor,,Redefine keys location entry
-RedefineKeys_TilesetEditor,Tileset Editor,Tileset Editor,,Redefine keys location entry
+RedefineKeys_TimeLineEditor,Timeline Editor,Timeline Editor,,Redefine keys location entry
+RedefineKeys_TileSetEditor,Tileset Editor,Tileset Editor,,Redefine keys location entry
 RedefineKeys_SpriteEditor,Sprite Editor,Sprite Editor,,Redefine keys location entry
 RedefineKeys_PathEditor,Path Editor,Path Editor,,Redefine keys location entry
 RedefineKeys_ObjectEditor,Object Editor,Object Editor,,Redefine keys location entry
@@ -8630,6 +8881,10 @@ RedefineKeys_ContextMenu,Context Menu,Context Menu,,Redefine keys location entry
 RedefineKeys_FontEditor,Font Editor,Font Editor,,Redefine keys location entry
 RedefineKeys_SoundEditor,Sound Editor,Sound Editor,,Redefine keys location entry
 RedefineKeys_SoundMixer,Sound Mixer,Sound Mixer,,Redefine keys location entry
+RedefineKeys_Debugger,Debugger,Debugger,,Redefine keys location entry
+RedefineKeys_GMLVisual,GML Visual,GML Visual,,Redefine keys location entry
+RedefineKeys_Workspace,Workspace,Workspace,,Redefine keys location entry
+RedefineKeys_Feather,Feather,Feather,,Redefine keys location entry
 RedefineKeys_Command,Command,Command,,Redefine keys Command label
 RedefineKeys_workspace_chain_move_up,Move to next window up,Move to next window up,,Redefine Keys label for moving the workspace chain
 RedefineKeys_workspace_chain_move_down,Move to next window down,Move to next window down,,Redefine Keys label for moving the workspace chain
@@ -8650,6 +8905,61 @@ RedefineKeys_AIAssistant,AI Assistant,AI Assistant,,Redefine keys location entry
 RedefineKeys_open_ai_assistant,Open AI Assistant,Open AI Assistant,,open ai assistant redefine keys label
 RedefineKeys_ai_assistant_search_next,Search Next,Search Next,,ai assistant search next
 RedefineKeys_ai_assistant_search_previous,Search Previous,Search Previous,,ai assistant search next
+RedefineKeys_Backspace,Backspace,Backspace,,Backspace
+RedefineKeys_Enter,Enter,Enter,,Enter
+RedefineKeys_Open Manual,Open Manual,Open Manual,,Open Manual
+RedefineKeys_Workspace Overview Flow Backwards,Workspace Overview Flow Backwards,Workspace Overview Flow Backwards,,Workspace Overview Flow Backwards
+RedefineKeys_Flip Path,Flip Path,Flip Path,,Flip Path
+RedefineKeys_Mirror Path,Mirror Path,Mirror Path,,Mirror Path
+RedefineKeys_Add Comment,Add Comment,Add Comment,,Add Comment
+RedefineKeys_Remove Comment,Remove Comment,Remove Comment,,Remove Comment
+RedefineKeys_Enable Selected Nodes,Enable Selected Nodes,Enable Selected Nodes,,Enable Selected Nodes
+RedefineKeys_Disable Selected Nodes,Disable Selected Nodes,Disable Selected Nodes,,Disable Selected Nodes
+RedefineKeys_Drag All,Drag All,Drag All,,Drag All
+RedefineKeys_Toggle Breakpoints,Toggle Breakpoints,Toggle Breakpoints,,Toggle Breakpoints
+RedefineKeys_Create Effect Layer,Add New Effect Layer,Add New Effect Layer,,Add New Effect Layer
+RedefineKeys_Create Instance Layer,Add New Instance Layer,Add New Instance Layer,,Add New Instance Layer
+RedefineKeys_Select Override,Select Override,Select Override,,Select Override
+RedefineKeys_Toggle Smart Guide & Ruler,Toggle Smart Guide & Ruler,Toggle Smart Guide & Ruler,,Toggle Smart Guide & Ruler
+RedefineKeys_Toggle Smart Guide Ruler Lock,Toggle Smart Guide Ruler Lock,Toggle Smart Guide Ruler Lock,,Toggle Smart Guide Ruler Lock
+RedefineKeys_Toggle Smart Guide Snapping,Toggle Smart Guide Snapping,Toggle Smart Guide Snapping,,Toggle Smart Guide Snapping
+RedefineKeys_Add Broadcast Message,Add Broadcast Message,Add Broadcast Message,,Add Broadcast Message
+RedefineKeys_Clone Translation,Clone Translation,Clone Translation,,Clone Translation
+RedefineKeys_Centre Image with Unit Scale,Centre Image with Unit Scale,Centre Image with Unit Scale,,Centre Image with Unit Scale
+RedefineKeys_Centre Image with Zoom,Centre Image with Zoom,Centre Image with Zoom,,Centre Image with Zoom
+RedefineKeys_Toggle Horizontal Split,Toggle Horizontal Split,Toggle Horizontal Split,,Toggle Horizontal Split
+RedefineKeys_Toggle Vertical Split,Toggle Vertical Split,Toggle Vertical Split,,Toggle Vertical Split
+RedefineKeys_Remove Horizontal and Vertical Split,Remove Horizontal and Vertical Split,Remove Horizontal and Vertical Split,,Remove Horizontal and Vertical Split
+RedefineKeys_Select Ellipse Tool - Outline,Select Ellipse Tool - Outline,Select Ellipse Tool - Outline,,Select Ellipse Tool - Outline
+RedefineKeys_Select Ellipse Tool - Filled,Select Ellipse Tool - Filled,Select Ellipse Tool - Filled,,Select Ellipse Tool - Filled
+RedefineKeys_Select Polygon Tool - Outline,Select Polygon Tool - Outline,Select Polygon Tool - Outline,,Select Polygon Tool - Outline
+RedefineKeys_Select Polygon Tool - Filled,Select Polygon Tool - Filled,Select Polygon Tool - Filled,,Select Polygon Tool - Filled
+RedefineKeys_Select Rectangle Tool - Outline,Select Rectangle Tool - Outline,Select Rectangle Tool - Outline,,Select Rectangle Tool - Outline
+RedefineKeys_Select Rectangle Tool - Filled,Select Rectangle Tool - Filled,Select Rectangle Tool - Filled,,Select Rectangle Tool - Filled
+RedefineKeys_Select Flip Tool,Select Flip Tool,Select Flip Tool,,Select Flip Tool
+RedefineKeys_Select Mirror Tool,Select Mirror Tool,Select Mirror Tool,,Select Mirror Tool
+RedefineKeys_Show Diagnostics,Show Diagnostics,Show Diagnostics,,Show Diagnostics
+RedefineKeys_Open Parent Event,Open Parent Event,Open Parent Event,,Open Parent Event
+RedefineKeys_Search Next,Search Next,Search Next,,Search Next
+RedefineKeys_Search Previous,Search Previous,Search Previous,,Search Previous
+RedefineKeys_Resize Key,Resize Key,Resize Key,,Resize Key
+RedefineKeys_Restrict Translation Axis,Restrict Translation Axis,Restrict Translation Axis,,Restrict Translation Axis
+RedefineKeys_Select Child Keys,Select Child Keys,Select Child Keys,,Select Child Keys
+RedefineKeys_Snap Origin,Snap Origin,Snap Origin,,Snap Origin
+RedefineKeys_Insert Block Snippet,Insert Block Snippet,Insert Block Snippet,,Insert Block Snippet
+RedefineKeys_Insert If Snippet,Insert If Snippet,Insert If Snippet,,Insert If Snippet
+RedefineKeys_Insert If-Else Snippet,Insert If-Else Snippet,Insert If-Else Snippet,,Insert If-Else Snippet
+RedefineKeys_Insert For Loop Snippet,Insert For Loop Snippet,Insert For Loop Snippet,,Insert For Loop Snippet
+RedefineKeys_Insert For Loop (i..n) Snippet,Insert For Loop (i..n) Snippet,Insert For Loop (i..n) Snippet,,Insert For Loop (i..n) Snippet
+RedefineKeys_Insert While Loop Snippet,Insert While Loop Snippet,Insert While Loop Snippet,,Insert While Loop Snippet
+RedefineKeys_Insert Do-Until Loop Snippet,Insert Do-Until Loop Snippet,Insert Do-Until Loop Snippet,,Insert Do-Until Loop Snippet
+RedefineKeys_Insert Repeat Snippet,Insert Repeat Snippet,Insert Repeat Snippet,,Insert Repeat Snippet
+RedefineKeys_Insert Switch Snippet,Insert Switch Snippet,Insert Switch Snippet,,Insert Switch Snippet
+RedefineKeys_Insert With Snippet,Insert With Snippet,Insert With Snippet,,Insert With Snippet
+RedefineKeys_Insert Line Comment Snippet,Insert Line Comment Snippet,Insert Line Comment Snippet,,Insert Line Comment Snippet
+RedefineKeys_Insert Multi-line Comment Snippet,Insert Multi-line Comment Snippet,Insert Multi-line Comment Snippet,,Insert Multi-line Comment Snippet
+RedefineKeys_Insert Region Snippet,Insert Region Snippet,Insert Region Snippet,,Insert Region Snippet
+RedefineKeys_Select Tile Brush Subsection,Select Tile Brush Subsection,Select Tile Brush Subsection,,Select Tile Brush Subsection
 DeviceManager_Name_Already_Taken,A device with this name has already been created.,A device with this name has already been created.,,Device manager name already taken error message
 GMStdTime,Time,Time,,GML Visual library argument label
 GMStdTooltipOffset,The track position to start playing from,The track position to start playing from,,GML Visual argument tooltip
@@ -8674,7 +8984,7 @@ opera_env_switch_failed_message,Failed to switch to the custom OperaGX environme
 opera_env_sso_confirm,"You are using a custom environment for Opera GX settings. If you use Opera Single Sign-on, these settings will be overriden. Do you wish to proceed anyway?","You are using a custom environment for Opera GX settings. If you use Opera Single Sign-on, these settings will be overriden. Do you wish to proceed anyway?",,Warning shown when a user tries to log-in via Opera SSO with a custom environment
 opera_env_current_env,Current environment: {0},Current environment: {0},,Label to indicate the current environment
 opera_env_prohibited_env,Your account does not have permissions to use the current Opera GX environment. Falling back on Prod. The IDE will be restared.,Your account does not have permissions to use the current Opera GX environment. Falling back on Prod. The IDE will be restared.,,This warning is shown when a user's account doesn't have permissions to use some environments (e.g. Prod) but this environment was saved in the preferences before
-RedefineKeys_create_resource_GMIncludedFile,Open Included files,Open Included files,,Open Included files
+RedefineKeys_Open Included Files,Open Included files,Open Included files,,Open Included files
 RedefineKeys__AutoTileTool,Auto Tile tool,Auto Tile tool,,Auto Tile tool
 RedefineKeys__TileEraserTool,Tile Eraser tool,Tile Eraser tool,,Tile Eraser tool
 RedefineKeys__TileFillTool,Tile Fill tool,Tile Fill tool,,Tile Fill tool
@@ -8690,22 +9000,34 @@ RedefineKeys_ColourPickerSubtool,Colour Picker subtool,Colour Picker subtool,,co
 RedefineKeys_BrushScalerSubtool,Brush Scaler subtool,Brush Scaler subtool,,brush scaler
 RedefineKeys_brush_from_selection,Make Brush from Selection,Make Brush from Selection,,image editor make brush from selection
 Plugin_ErrorLoadingJSON_Title,Errors Occured,Errors Occured,,Errors occured during plugin JSON load title bar
-Plugin_ErrorLoadingJSON_Body,{0} errors occured while parsing plugin metadata. See your ui.log for more info,{0} errors occured while parsing plugin metadata. See your ui.log for more info,,Errors occured during plugin JSON load body
-Cronus_GMPM_FileHelp,The contents of the 'package.json' file which contains the packages to fetch.,The contents of the 'package.json' file which contains the packages to fetch.,,Label for GMPM Package File field
-Cronus_GMPM_InstallDir,The root directory where the packages will be installed into.,The root directory where the packages will be installed into.,,Label for GMPM Package Install Directory field
-Cronus_GMPM_Remote,The package registry url or remote.,The package registry url or remote.,,Label for GMPM Package Remote field
-Cronus_GMPM_AdditionalArgs,Additional command-line arguments passed into GMPM for specialisation.,Additional command-line arguments passed into GMPM for specialisation.,,Label for GMPM Package Additional Args field
-Cronus_GMPM_InvokeMultiple,Cannot invoke multiple instances of GMPM. Please wait for the package manager to complete before invoking it a second time.,Cannot invoke multiple instances of GMPM. Please wait for the package manager to complete before invoking it a second time.,,Error content when attempting to spawn multiple instances of GMPM
-Cronus_GMPM_Invalid_Title,GMPM invalid,GMPM invalid,,Invalid title for GMPM
-Cronus_GMPM_Invalid_File,The Packages File field must not be empty.,The Packages File field must not be empty.,,Invalid GMPM Package File field
-Cronus_GMPM_Invalid_InstallDir,The Packages Install Directory field must not be empty.,The Packages Install Directory field must not be empty.,,Invalid GMPM Package Install Directory field
-Cronus_GMPM_Invalid_Remote,The Packages Remote field must not be empty.,The Packages Remote field must not be empty.,,Invalid GMPM Package Remote field
-Cronus_GMPM_Success_Title,GMPM success,GMPM success,,Success title for GMPM
-Cronus_GMPM_Success,Successfully installed packages to '{0}'!,Successfully installed packages to '{0}'!,,Success content for GMPM
-Cronus_GMPM_Failure_Title,GMPM failure,GMPM failure,,Failure title for GMPM
-Cronus_GMPM_Failure,An unexpected error (code: {0}) occurred when updating the packages. See the output log for more information.,An unexpected error (code: {0}) occurred when updating the packages. See the output log for more information.,,Success content for GMPM
-Preferences_cronus_toolchain_path,Path to New Runtime Toolchain,Path to New Runtime Toolchain,,Path to New Runtime Toolchain
-Preferences_cronus_asset_compiler_path,Path to New Runtime Asset Compiler,Path to New Runtime Asset Compiler,,Path to New Runtime Asset Compiler
+Plugin_ErrorLoadingJSON_Body,{0} errors and {1} warnings occured while loading plugins. See your ui.log for more info,{0} errors and {1} warnings occured while loading plugins. See your ui.log for more info,,Errors occured during plugin JSON load body
+GMPM_FileHelp,The contents of the 'package.json' file which contains the packages to fetch.,The contents of the 'package.json' file which contains the packages to fetch.,,Label for GMPM Package File field
+GMPM_InstallDir,The root directory where the packages will be installed into.,The root directory where the packages will be installed into.,,Label for GMPM Package Install Directory field
+GMPM_Remote,The package registry url or remote.,The package registry url or remote.,,Label for GMPM Package Remote field
+GMPM_AdditionalArgs,Additional command-line arguments passed into GMPM for specialisation.,Additional command-line arguments passed into GMPM for specialisation.,,Label for GMPM Package Additional Args field
+GMPM_InvokeMultiple,Cannot invoke multiple instances of GMPM. Please wait for the package manager to complete before invoking it a second time.,Cannot invoke multiple instances of GMPM. Please wait for the package manager to complete before invoking it a second time.,,Error content when attempting to spawn multiple instances of GMPM
+GMPM_Invalid_Title,GMPM invalid,GMPM invalid,,Invalid title for GMPM
+GMPM_Invalid_File,The Packages File field must not be empty.,The Packages File field must not be empty.,,Invalid GMPM Package File field
+GMPM_Invalid_InstallDir,The Packages Install Directory field must not be empty.,The Packages Install Directory field must not be empty.,,Invalid GMPM Package Install Directory field
+GMPM_Invalid_Remote,The Packages Remote field must not be empty.,The Packages Remote field must not be empty.,,Invalid GMPM Package Remote field
+GMPM_Success_Title,GMPM success,GMPM success,,Success title for GMPM
+GMPM_Success,Successfully installed packages to '{0}'!,Successfully installed packages to '{0}'!,,Success content for GMPM
+GMPM_Failure_Title,GMPM failure,GMPM failure,,Failure title for GMPM
+GMPM_Failure,An unexpected error (code: {0}) occurred when updating the packages. See the output log for more information.,An unexpected error (code: {0}) occurred when updating the packages. See the output log for more information.,,Success content for GMPM
+GMPM_Not_Initialised_Title,GMPM Not Initialised,GMPM Not Initialised,,Failure title for GMPM not being initialised
+GMPM_Not_Initialised_Body,GMPM was not found during initialisation,GMPM was not found during initialisation,,Failure body for GMPM not being initialised
+Node_Package_ExtractFailed,Node Extraction Failed '{0}' could not be found,Node Extraction Failed '{0}' could not be found,,extract node package file error body
+Node_Package_ExtractFailed_Title,Node Extraction Failed,Node Extraction Failed,,extract node package file error title
+Preferences_cronus_toolchain_path,Path to GMRT,Path to GMRT,,Path to GMRT
+Preferences_cronus_asset_compiler_path,Path to the GMRT Asset Compiler,Path to the GMRT Asset Compiler,,Path to the GMRT Asset Compiler
+Preferences_cronus_clang_path,Path to Clang executable,Path to Clang executable,,Path to Clang executable
+Preferences_cronus_winsysroot_path,Path to Windows SDK + VCTools root,Path to Windows SDK + VCTools root,,Path to Windows SDK + VCTools root
+Preferences_cronus_winsdk_path,Path to Windows SDK,Path to Windows SDK,,Path to Windows SDK
+Preferences_cronus_vctools_path,Path to VC Tools,Path to VC Tools,,Path to VC Tools
+Preferences_cronus_cmake_path,Path to CMake executable,Path to CMake executable,,Path to CMake executable
+Preferences_cronus_generator,CMake Generator,CMake Generator,,CMake Generator
+Preferences_cronus_generator_path,Path to CMake Generator,Path to CMake Generator,,Path to CMake Generator
+Preferences_cronus_compiler_verbose,Compile with verbose output,Compile with verbose output,,Compile with verbose output
 GMStdSetAudioLoopState_Name,Set Audio Loop State,Set Audio Loop State,,GMLV action name
 GMStdSetAudioLoopState_Desc,Set the loop state of a playing sound.,Set the loop state of a playing sound.,,GMLV action description
 GMStdSetAudioLoopState_Story,Set the loop state of sound ${idx} to ${state}.,Set the loop state of sound ${idx} to ${state}.,,GMLV action story
@@ -8728,6 +9050,21 @@ PluginUpgrade_NewerVersionAvailable_YesNoDialog_Title,Plugin upgrade available,P
 PluginUpgrade_NewerVersionAvailable_YesNoDialog_Body,A newer version of {0} is available. Would you like to download and update?,A newer version of {0} is available. Would you like to download and update?,,Plugin upgrade yes no prompt body
 LanguageLoad_StartupError,Could not load language {0}. Check your ui.log for details,Could not load language {0}. Check your ui.log for details,,Language load on startup error
 ErrorLoadingFont,"Error loading font ""{0}"". See ui.log for details","Error loading font ""{0}"". See ui.log for details",,Font load error
+PluginWarning_AssemblyNotFoundError,"Assembly not found for GMPluginAssembly {0}, path {1}","Assembly not found for GMPluginAssembly {0}, path {1}",,AssemblyNotFoundError
+PluginWarning_ReferencedAssemblyNotFoundError,"Referenced assembly {1} not found for GMPluginAssembly {0}","Referenced assembly {1} not found for GMPluginAssembly {0}",,ReferencedAssemblyNotFoundError
+PluginWarning_AssemblyNotSignedError,"Assembly not signed for GMPluginAssembly {0}, path {1}","Assembly not signed for GMPluginAssembly {0}, path {1}",,AssemblyNotSignedError
+PluginWarning_BadAssemblyError,Assembly {0} has an unspecified bad format,Assembly {0} has an unspecified bad format,,BadAssemblyError
+PluginWarning_BadPortableExecutableFormatError,Assembly {0} has a bad portable executable format,Assembly {0} has a bad portable executable format,,BadPortableExecutableError
+PluginWarning_BadCLRHeaderFormatError,Assembly {0} has a bad CLR header format,Assembly {0} has a bad CLR header format,,BadCLRHeaderFormatError
+PluginWarning_FoundPluginError,{0} IPlugins with a matching name were found in {1} - there can only be one,{0} IPlugins with a matching name were found in {1} - there can only be one,,FoundPluginError
+PluginWarning_InvalidLanguageFileWarning,Language pack {0} has an invalid format,Language pack {0} has an invalid format,,InvalidLanguageFileWarning
+PluginWarning_LanguageFileNotFoundWarning,Language pack {0} could not be found,Language pack {0} could not be found,,LanguageFileNotFoundWarning
+PluginWarning_NoIPluginFoundError,No IPlugin found in plugin {0},No IPlugin found in plugin {0},,NoIPluginFoundError
+PluginWarning_NullAssemblyLoadContextError,Assembly load context was null for GMPluginAssembly {0},Assembly load context was null for GMPluginAssembly {0},,NullAssemblyLoadContextError
+PluginWarning_PluginMetadataLoadError,Error loading plugin metadata file {0},Error loading plugin metadata file {0},,PluginMetadataLoadError
+PluginWarning_SymbolsFailedToLoadWarning,Symbols failed to load for assembly {0},Symbols failed to load for assembly {0},,SymbolsFailedToLoadWarning
+PluginWarning_UnknownPluginTypeError,Unknown plugin type for GMPlugin {0},Unknown plugin type for GMPlugin {0},,UnknownPluginTypeError
+PluginWarning_InvalidPluginDataError,GMPlugin {0} plugin data was invalid,GMPlugin {0} plugin data was invalid,,InvalidPluginDataError
 theme_editor_name,Theme Name:,Theme Name:,,theme name preference label
 theme_editor_skin_name,Skin Name:,Skin Name:,,theme editor skin name preference label
 theme_editor_version,Version Tag:,Version Tag:,,theme version tag preference label
@@ -8748,11 +9085,11 @@ ListBoxEnum_eAIAssistantPosition_FloatingWindow,Floating window,Floating window,
 AIAsst_DeleteChatResponse_Title,Delete Response,Delete Response,,delete chat response title
 AIAsst_DeleteChatResponse_Msg,"Are you sure you want to delete the Assistant's response? Your attached query will also be deleted.","Are you sure you want to delete the Assistant's response? Your attached query will also be deleted.",,delete chat response dialog msg
 AIAssistant,AI Assistant,AI Assistant,,AI Assistant pref heading
-AIAssistant_CopyContent,Copy Content,Copy Content,,ai assistant context menu
+AIAssistant_CopyContent,Copy,Copy,,ai assistant context menu
 AIAssistant_RegenResponse,Regenerate Response,Regenerate Response,,ai assistant context menu
 AIAssistant_Regenerate,Regenerate,Regenerate,,ai assistant regenerate label
-AIAssistant_DeleteResponse,Delete Response,Delete Response,,ai assistant context menu
-AIAssistant_FlagResponse,Flag Response,Flag Response,,ai assistant context menu
+AIAssistant_DeleteResponse,Delete,Delete,,ai assistant context menu
+AIAssistant_FlagResponse,Flag,Flag,,ai assistant context menu
 AIAssistant_Inaccurate,Inaccurate,Inaccurate,,flag response option
 AIAssistant_Unhelpful,Unhelpful,Unhelpful,,flag response option
 AIAssistant_Offensive,Offensive,Offensive,,flag response option
@@ -8811,13 +9148,75 @@ AIAsst_Intro_Item2,- Tutorial links,- Tutorial links,,intro label
 AIAsst_Intro_Item3,- Helpful tips and tricks,- Helpful tips and tricks,,intro label
 AIAsst_Intro_Label2,Dock your AI Assistant or access it as a floating window whenever you need it:,Dock your AI Assistant or access it as a floating window whenever you need it:,,intro label
 AIAsst_Intro_Item4,- Menu > Windows > AI Assistant,- Menu > Windows > AI Assistant,,intro label
+AIAsst_Intro_Item4_Mac,- Menu > Window > AI Assistant,- Menu > Window > AI Assistant,,intro label
 AIAsst_Intro_Item5,- Toolbar icon,- Toolbar icon,,intro label
 AIAsst_Intro_Label3,Ready to get started?,Ready to get started?,,intro label
 AIAsst_Intro_Link,"For more info, see <a href=""https://www.yoyogames.com/legal/privacy"">here</a>","For more info, see <a href=""https://www.yoyogames.com/legal/privacy"">here</a>",,intro link label
 AIAsst_Intro_DontShowAgain,Don't show again,Don't show again,,don't show again
+AIAsst_SelectAssistant,Select Assistant,Select Assistant,,select assistant
 IDEMenu_Help_CreateBugReport,Report a GameMaker Bug,Report a GameMaker Bug,,menu item for creating and sending a bug report
+PackageMan_Title,Package Manager,Package Manager,,package manager title
+PackageMan_AddPackage,Add Package Set,Add Package Set,,pakman add package set
+PackageMan_VersionC,Version:,Version:,,pakman version label
+PackageMan_Update,Update,Update,,pkgman update button
+PackageMan_UpdatePackagesArg,Update {0} packages,Update {0} packages,,update <count> packages
+PackageMan_UpdatingPackagesArg,Updating {0} packages,Updating {0} packages,,updating <count> packages
+PackageMan_UpdatedPackagesArg,{0} Packages updated,{0} Packages updated,,<count> packages updated
+PackageMan_Package,Package,Package,,package
+PackageMan_Version,Version,Version,,version
+PackageMan_ContentName,{0} Contents,{0} Contents,,<package name> Contents
+PackageMan_LatestVArg,Latest {0},Latest {0},,Latest <version num>
+PackageMan_Latest,Latest,Latest,,Latest
+PackageMan_Installed,Installed,Installed,,Installed
+PackageMan_InUse,In use,In use,,in use
+PackageMan_InstallVersionArg,Install version {0},Install version {0},,install version <version number>
+PackageMan_UpdateAvailable,Update Available,Update Available,,update available
+PackageMan_Install,Install,Install,,install button caption
+PackageMan_InstallingNameVersion,Installing {0} {1},Installing {0} {1},,installing <name> <version number>
+PackageMan_InstalledNameVersion,{0} {1} Installed,{0} {1} Installed,,<name> <version number> installed
+PackageMan_Updating,Updating...,Updating...,,updating...
+PackageMan_UpdateSuccess,Update Complete,Update Complete,,update complete
+PackageMan_UpdateFailed,Update Failed,Update Failed,,update failed
+PackageMan_UpdatingName,Updating {0}...,Updating {0}...,,updating <package name>...
+PackageMan_UpdateNameFailed,{0} Update Failed,{0} Update Failed,,<package name> update failed
+PackageMan_UpdateNameSuccess,{0} Update Complete,{0} Update Complete,,<package name> update complete
+PackageMan_AdditionalCmd,Additional command line arguments,Additional command line arguments,,cmd line args
+PackageMan_AddPackageSet,Add Package Set,Add Package Set,,add package set
+PackageMan_EditPackageSet,Edit Package Set,Edit Package Set,,edit package set
+PackageMan_PkgName,Package Set name,Package Set name,,name
+PackageMan_PkgURL,Registry URL,Registry URL,,url
+PackageMan_PkgPassword,Password,Password,,password
+PackageMan_Scope,Scope (optional),Scope (optional),,scope
+PackageMan_PkgIdentifiers,Package Identifiers,Package Identifiers,,package identifiers
+PackageMan_AddIdentifier,Add Identifier,Add Identifier,,add identifier
+PackageMan_PkgIdentifierDefault,Package Identifier,Package Identifier,,package identifier default text
+PackageMan_PkgAdd,Add,Add,,add
+PackageMan_EditApply,Apply,Apply,,pkg edit apply
+PackageMan_DeleteSetConfirmMsg,Are you sure you want to delete Package Set '{0}'?,Are you sure you want to delete Package Set '{0}'?,,delete confirm msg
+PackageMan_DeleteSetConfirmTitle,Delete Package Set?,Delete Package Set?,,package set delete confirm title
+PackageMan_InstallExceptionArg,Package Manager install failed with Exception:\n{0},Package Manager install failed with Exception:\n{0},,failed with exception <message>
+PackageMan_UninstallExceptionArg,Package Manager uninstall failed:\n{0},Package Manager uninstall failed:\n{0},,failed with error <message>
+PackageMan_PkgNameUpdate,{0} Update,{0} Update,,<package name> Update
+PackageMan_UpdateSuccessful,Update successful,Update successful,,update successful
+PackageMan_TryAgain,Try again,Try again,,try again
+PackageMan_SetNameRequired,Package Set name is required,Package Set name is required,,pkgman add pkg validation message
+PackageMan_SetNameInUse,Package Set name already in use,Package Set name already in use,,pkgman add pkg validation message
+PackageMan_PackageIdRequired,At least one Package Identifier is required,At least one Package Identifier is required,,pkgman add pkg validation message
+PackageMan_RegistryURLRequired,Registry URL is required,Registry URL is required,,pkgman add pkg validation message
+PackageMan_UpdateQueued,Update queued...,Update queued...,,update queued
+PackageMan_InstalledVersionArg,Installed version: {0},Installed version: {0},,installed version [version number]
+PackageMan_LatestVersionArg,Latest version: {0},Latest version: {0},,latest version [version number]
+PackageMan_SourcesTitle,Package Sources,Package Sources,,package sources window title
+PackageMan_AddSourceTT,Add new source,Add new source,,add source tooltip
+PackageMan_DeleteSourceTT,Delete selected source,Delete selected source,,delete source tooltip
+packageman_packageInstallDir,Packages Install Directory,Packages Install Directory,,pref install dir
+packageman_defaultRemote,Default Source URL,Default Source URL,,pref default source URL
+PackageMan,Package Manager,Package Manager,,package manager pref node name
+Notification_PackageManager,Package Manager,Package Manager,,notification category
+Notification_PackageUpdateAvailable,An update is available for {0},An update is available for {0},,notification message
 BugReport_WindowTitle,Report a bug,Report a bug,,bug report window title
-BugReport_Overall,"Thank you for taking the time to report an issue you have found in GameMaker. <a href=""https://help.yoyogames.com/hc/en-us/articles/13150754375453"">Submitting a Bug Report - What Does It Contain?</a>","Thank you for taking the time to report an issue you have found in GameMaker. <a href=""https://help.yoyogames.com/hc/en-us/articles/13150754375453"">Submitting a Bug Report - What Does It Contain?</a>",,bug report dialog
+BugReport_WindowTitle_Crash,Report a crash bug,Report a crash bug,,bug report (crash) window title
+BugReport_Overall,"Thanks for submitting your issues. Before you send this report, please do see <a href=""https://help.yoyogames.com/hc/en-us/articles/13150754375453"">How to submit a Bug Report</a>.","Thanks for submitting your issues. Before you send this report, please do see <a href=""https://help.yoyogames.com/hc/en-us/articles/13150754375453"">How to submit a Bug Report</a>.",,bug report dialog
 BugReport_KnownIssues,"Please check the <a href=""https://github.com/YoYoGames/GameMaker-Bugs/issues"">Known Issues</a> before submitting to make sure that it has not already been reported.","Please check the <a href=""https://github.com/YoYoGames/GameMaker-Bugs/issues"">Known Issues</a> before submitting to make sure that it has not already been reported.",,bug report known issues
 BugReport_AuthGithub,"You can authorise your GitHub account to post issues on the <a href=""{0}"">Accounts page</a>","You can authorise your GitHub account to post issues on the <a href=""{0}"">Accounts page</a>",,bug report github auth 
 BugReport_CategoryLabel,Issue Category:*,Issue Category:*,,bug report issue category label
@@ -8828,6 +9227,7 @@ BugReport_Cat_CrashUnstable,Crash/Unstable Message,Crash/Unstable Message,,bugre
 BugReport_Cat_EditingAssets,Editing Your Assets,Editing Your Assets,,bugreport category label
 BugReport_Cat_InGame,In-Game (GMS2 Runtime),In-Game (GMS2 Runtime),,bugreport category label
 BugReport_Cat_NewRuntime,New Runtime Beta Feedback,New Runtime Beta Feedback,,bugreport category label
+BugReport_Cat_Documentation,Manual Content,Manual Content,,bugreport category label
 BugReport_ReportDescription,Description*,Description*,,bug report description
 BugReport_ReportTitle,Title*,Title*,,bug report title
 BugReport_TitleTT,Provide a short title,Provide a short title,,bug report title tooltip
@@ -8838,9 +9238,18 @@ BugReport_StepsTT,Describe the steps required to reproduce the bug,Describe the 
 BugReport_AttachAdditional,Attach additional files,Attach additional files,,bug report dialog
 BugReport_AttachFiles,AttachFiles,AttachFiles,,bug report dialog
 BugReport_AttachFilesTT,"A selection of GameMaker files (ui.log, um.json, licence.plist, etc) will be included within your bug report, these are required to allow us to diagnose the issue you are reporting.","A selection of GameMaker files (ui.log, um.json, licence.plist, etc) will be included within your bug report, these are required to allow us to diagnose the issue you are reporting.",,bug report dialog
-BugReport_IncludeProject,Include project,Include project,,bug report dialog
-BugReport_IncludeProjectTT,"Include a copy of your project file with your submission, please try to refrain from submitting full game projects, and please do create a small sample project that reproduces the issue. If you are unable to recreate the issue in a new project, then it is likely that the issue is caused by your game logic.","Include a copy of your project file with your submission, please try to refrain from submitting full game projects, and please do create a small sample project that reproduces the issue. If you are unable to recreate the issue in a new project, then it is likely that the issue is caused by your game logic.",,bug report dialog
+BugReport_IncludeProject,Privately attach project,Privately attach project,,bug report dialog
+BugReport_IncludeProjectTT,"Submit a PRIVATE copy of your project for analysis. This should be a small sample project to show this problem, rather than a full game, as this helps identify the fix sooner. (Reports about coding mistakes will just be closed.)","Submit a PRIVATE copy of your project for analysis. This should be a small sample project to show this problem, rather than a full game, as this helps identify the fix sooner. (Reports about coding mistakes will just be closed.)",,bug report dialog
 BugReport_IssueVisibility,Issue Visibility:*,Issue Visibility:*,,issue vis
+BugRep_ReqProject_Title,Include the current project?,Include the current project?,,bug report project required title
+BugRep_ReqProj_Message,"Would you like to include the current project in your bug report?\n\nA project is typically required to diagnose compiling or in-game issues.\n\nIf you do not include a sample project we may request one later if we cannot reproduce the issue.","Would you like to include the current project in your bug report?\n\nA project is typically required to diagnose compiling or in-game issues.\n\nIf you do not include a sample project we may request one later if we cannot reproduce the issue.",,bug rep project requested message
+BugRep_ReqProj_TT_Yes,Include current project and send the report,Include current project and send the report,,proj required yes tooltip
+BugRep_ReqProj_TT_No,Send the report without including the project,Send the report without including the project,,proj required no tooltip
+BugRep_ReqProj_TT_Cancel,Return to the bug report form,Return to the bug report form,,proj required cancel tooltip
+BugReport_GithubAuthFailTitle,GitHub authorisation failed.,GitHub authorisation failed.,,github auth fail title
+BugReport_GithubAuthFailMsg,"Please re-authorise your GitHub account on your <a href=""{0}"">GameMaker Account panel</a> and then press ""Send Report"" to post from your GitHub user account.\n\nOr, you can click the button below immediately if do you wish to post anonymously.","Please re-authorise your GitHub account on your <a href=""{0}"">GameMaker Account panel</a> and then press ""Send Report"" to post from your GitHub user account.\n\nOr, you can click the button below immediately if do you wish to post anonymously.",,github auth fail message
+BugReport_GithubAuthFailMsg_MustAuth,"Please re-authorise your GitHub account on your <a href=""{0}"">GameMaker Account panel</a> and then press ""Send Report"".","Please re-authorise your GitHub account on your <a href=""{0}"">GameMaker Account panel</a> and then press ""Send Report"".",,github mandatory auth fail msg
+BugReport_Send,Send Report,Send Report,,Send bug report
 ListBoxEnum_eBugReportVis_Public,Public,Public,,public
 ListBoxEnum_eBugReportVis_Private,Private,Private,,public
 BugReport_PublicTT,"Whenever possible, please do not include sensitive/confidential information in your description or steps, so that you can report your issue publicly and be able to see it on our website and get updates. (Your attached files will always be private anyway.)","Whenever possible, please do not include sensitive/confidential information in your description or steps, so that you can report your issue publicly and be able to see it on our website and get updates. (Your attached files will always be private anyway.)",,public issue tooltip
@@ -8889,12 +9298,144 @@ BugReport_UploadComplete,Upload complete,Upload complete,,uploading msg
 BugReport_UploadFailed,Upload failed,Upload failed,,uploading msg
 BugReport_UploadCancelled,Upload cancelled,Upload cancelled,,uploading msg
 BugReport_ContinueAnon,Continue Anonymously,Continue Anonymously,,continue anon
+BugReport_ManualContentURL,URL of the manual page which has the problem:*,URL of the manual page which has the problem:*,,bug report label
+BugReport_ManualDescText,"Describe the issue in as much detail as possible - please say exactly where on the page you found this issue (screenshots are welcomed), what the problem is, and how you think the current content should be changed to fix the situation.","Describe the issue in as much detail as possible - please say exactly where on the page you found this issue (screenshots are welcomed), what the problem is, and how you think the current content should be changed to fix the situation.",,manual bug description tooltip
+BugReport_PlatformsReproduced,Platforms reproduced on:,Platforms reproduced on:,,bug report label
+BugReport_Platforms,Platforms,Platforms,,bug report platforms label
+BugReport_PlatformsTT,Please indicate the target platform(s) on which the issue occurs,Please indicate the target platform(s) on which the issue occurs,,platforms tooltip
 IDEMenu_Help_CreateBugPackage,Create Your Contact Us Package,Create Your Contact Us Package,,Menu Item for creating a bug package
 verbose_logging,Enable Verbose Logging,Enable Verbose Logging,,Enable Verbose Logging
 TextDocumentTab_CMenu_ShowInAssetBrowser,Show in Asset Browser,Show in Asset Browser,,Show in Asset Browser
 TextDocumentTab_CMenu_ShowInInspector,Show in Inspector,Show in Inspector,,Show in Inspector
 TextDocumentTab_CMenu_CopyFullPath,Copy Full Path,Copy Full Path,,Copy Full Path
+Plugin_UpgradePrompt,A new version of {0} is available. Would you like to update?,A new version of {0} is available. Would you like to update?,,Plugin upgrade prompt
+Plugin_CheckForNewReleases,Automatically check for new plugin versions on startup,Automatically check for new plugin versions on startup,,
+Plugin_DownloadLocation,Path on disk to download plugin updates to,Path on disk to download plugin updates to,,
+ProjectTool_CleanConv,Clean Conversion Folders,Clean Conversion Folders,,Clean Conversion Folders label
 ProjectToolOutputPref,Show Project Tool Output,Show Project Tool Output,,Show Project Tool Output Preference label
+ProjectTool_ForceVERS0,Force VERS0 Conversion if required,Force VERS0 Conversion if required,,Force VERS0 Conversion if required label
+ProjectTool_ForceVERS0_Tooltip,Forces a conversion through VERS0 if it does not completely match up with the current format. Be aware that this may lose data or insert defaults so always ensure project backups are kept,Forces a conversion through VERS0 if it does not completely match up with the current format. Be aware that this may lose data or insert defaults so always ensure project backups are kept,,Tooltip for ForceVERS0 checkbox
+ProjectLoad_ErrorTitle,Project Load Error,Project Load Error,,Project Load Error Title
+ProjectLoad_ErrorMessage,Load Error: {0},Load Error: {0},,Project Load Error Message
 Display,Display,Display,,GeneralDisplay preferences label
 Desktop_MinWindowWidth,Minimum window width,Minimum window width,,Preference to set minimum window width
 Desktop_MinWindowHeight,Minimum window height,Minimum window height,,Preference to set minimum window height
+DocumentWindow2_Title_RoomCreationCode,Room Creation Code,Room Creation Code,,Room Creation Code
+DocumentWindow2_Title_RoomInstanceCreationCode,{0} - Instance Creation Code,{0} - Instance Creation Code,,Single Room Single Instance Creation Code
+DocumentWindow2_Title,{0} Code,{0} Code,,Workspace Code
+DocumentWindow2_Title_Dirty,* {0} Code,* {0} Code,,Workspace Code Dirty
+DocumentWindow2_EmptySetMessage,Your code will appear here when you create a new {0},Your code will appear here when you create a new {0},,Document Window Empty Set Message
+DocumentWindow2_EmptySetMessage_Create,Create {0},Create {0},,Create Button
+DocumentWindow2_UnsavedChanges_Title,Unsaved Changes,Unsaved Changes,,Unsaved Changes Title
+DocumentWindow2_UnsavedChanges_Message,You have changes to your code.\nDo you want to save these changes?,You have changes to your code.\nDo you want to save these changes?,,Unsaved Changes Message
+AssetName_gmextensionfile_create_new_document,File,File,,File
+AssetName_gmobject_create_new_document,Event,Event,,Event
+AssetName_gmroom_create_new_document,Creation Code,Creation Code,,Creation Code
+AssetName_gmtimeline_create_new_document,Moment,Moment,,Moment
+AssetName_Plural_GMObject,Events,Events,,Events
+AssetName_Plural_GMExtensionFile,Files,Files,,Files
+AssetName_Plural_GMRoom,Creation Code,Creation Code,,Creation Code
+AssetName_Plural_GMTimeline,Moments,Moments,,Moments
+AssetName_Plural_GMScript,Scripts,Scripts,,Scripts
+TimelineEditorModule_AddMoment,Add Moment,Add Moment,,Add Moment
+TimelineEditorModule_Moment,Moment {0},Moment {0},,Moment N
+ExtensionEditorModule_AddFile,Add File,Add File,,Add File
+TextMateTheme_New,New...,New...,,New...
+TextMateTheme_New_FromFile,from File,from File,,from File
+TextMateTheme_New_FromCurrent,from Copy of Selected,from Copy of Selected,,from Copy of Selected
+TextMateTheme_New_FromCurrent_Name,{0} - Copy,{0} - Copy,,{0} - Copy
+TextMateTheme_AddScope,Add Scope,Add Scope,,Add Scope
+TextMateTheme_ScopeDetails,Scope Details,Scope Details,,Scope Details
+TextMateTheme_General,General,General,,General
+TextMateTheme_Gutter,Gutter,Gutter,,Gutter
+TextMateTheme_Scopes,Scopes,Scopes,,Scopes
+TextMateTheme_FileType,TextMate Theme,TextMate Theme,,TextMate Theme
+TextMate_NewScope_Name,New Scope,New Scope,,New Scope
+TextMateTheme_Readonly,This theme is readonly as it is a default theme; New... from Copy of Selected to customize.,This theme is readonly as it is a default theme; New... from Copy of Selected to customize.,,This theme is readonly as it is a default theme; New... from Copy of Selected to customize.
+TextMateTheme_Warning_ChangesDiscarded,Unsaved changes to the previous theme have been discarded.,Unsaved changes to the previous theme have been discarded.,,Unsaved changes to the previous theme have been discarded.
+codeeditor_theme,Theme,Theme,,Theme
+LanguageServerMessage_Error,Language Services - Error,Language Services - Error,,Language Services - Error
+LanguageServerMessage_Warning,Language Services - Warning,Language Services - Warning,,Language Services - Warning
+LanguageServerMessage_Info,Language Services - Info,Language Services - Info,,Language Services - Info
+LanguageServerMessage_Log,Language Services - Log,Language Services - Log,,Language Services - Log
+FontManager_VirusErrorTitle,Font Virus Error,Font Virus Error,,font virus error dialog title
+Button_OpenGuide,Open Guide,Open Guide,,font virus error open guide button
+FontManager_VirusError,"""Mysql"" virus font directory found.\nNot all fonts were loaded, please read the attached guide to fix the issue and restart GameMaker.","""Mysql"" virus font directory found.\nNot all fonts were loaded, please read the attached guide to fix the issue and restart GameMaker.",,error message for "Mysql" virus font
+PrefabBrowser_AvailablePrefabs,Available Prefabs,Available Prefabs,,The title on the PrefabBrowser gadget
+PrefabBrowser_CountSelected,{0} selected of {1},{0} selected of {1},,Summary of multi selection status
+PrefabBrowser_CountTotal,{0} items,{0} items,,Total number of items when no selection or selection disabled
+PrefabBrowser_Filter,Filter,Filter,,The Filter context menu option
+PrefabBrowser_SelectAllFiltered,Select all filtered,Select all filtered,,The context menu option
+PrefabBrowser_DeselectAllFiltered,Deselect all filtered,Deselect all filtered,,The context menu option
+PrefabBrowser_SelectAll,Select all,Select all,,The context menu option
+PrefabBrowser_DeselectAll,Deselect all,Deselect all,,The context menu option
+PrefabBrowser_ToggleAllFiltered,Toggle all filtered,Toggle all filtered,,The context menu option
+PrefabBrowser_ToggleAll,Toggle all,Toggle all,,The context menu option
+PrefabBrowser_Sort,Sort,Sort,,The context menu option
+PrefabBrowser_Zoom,Zoom,Zoom,,The context menu option
+PrefabBrowser_SortAZ,Sort A-Z,Sort A-Z,,The context menu option
+PrefabBrowser_SortZA,Sort Z-A,Sort Z-A,,The context menu option
+PrefabBrowser_ZoomLevel,Zoom level,Zoom level,,The context menu option
+PrefabBrowser_ShowAll,Show all,Show all,,The context menu option
+PrefabBrowser_AssetTypes,Asset Types,Asset Types,,The sub context menu
+Prefabs_OpenPrefabLibrary,Prefab Library,Prefab Library,,Prefab Library
+Prefabs_CreatePackage,Create Prefab Package,Create Prefab Package,,Create Prefab Package
+PrefabMetadataEditor_DialogTitle,Prefab metadata settings,Prefab metadata settings,,Dialog title for Prefab metadata settings
+PrefabMetadataEditor_BadImageFile,File selected is invalid image,File selected is invalid image,,File selected is invalid
+PrefabMetadataEditor_DisplayName,Display name,Display name,,Prefab metadata editor DisplayName
+PrefabMetadataEditor_Description,Description,Description,,Prefab metadata editor Description
+PrefabMetadataEditor_PackageId,Package ID,Package ID,,Prefab metadata editor PackageId
+PrefabMetadataEditor_Version,Version,Version,,Prefab metadata editor Version
+PrefabMetadataEditor_Author,Author,Author,,Prefab metadata editor Author
+PrefabMetadataEditor_Signature,Signature,Signature,,Prefab metadata editor Signature
+PrefabMetadataEditor_Verify,Verify,Verify,,Prefab metadata editor Verify
+PrefabMetadataEditor_Icon,Icon,Icon,,Prefab metadata editor change the icon file (overwrite from another source)
+PrefabMetadataEditor_SetLibraryInformation,Set Library Information,Set Library Information,,Prefab library editor - Set Library Information
+PrefabMetadataEditor_SetPrefabInformation,Set Prefab Information,Set Prefab Information,,Prefab library editor - Set information on individual prefab
+PrefabMetadataEditor_ImageFileCopyFailed,Failed to copy image file,Failed to copy image file,,Failed to copy image file to prefab icon folder
+PrefabMetadataEditor_ChangeImage,Change image...,Change image...,,Change image button
+PrefabMetadataEditor_FileMask,PNG file,PNG file,,File mask description for open file dialog
+PrefabLibraryMetadataEditor_DialogTitle,Prefab library metadata settings,Prefab library metadata settings,,Dialog title for Prefab library metadata settings
+PrefabLibrary_DuplicateIntoProject,Duplicate into Project,Duplicate into Project,,Duplicate Asset into Current Project
+Project Tool,Project Tool,Project Tool,,Project Tool preferences namespace
+ProjectTool_NoSourceProject,No Source Project Selected,No Source Project Selected,,No Source Project Selected message
+ProjectTool_NoDestinationProject,No Destination Project Selected,No Destination Project Selected,,No Destination Project Selected message
+Project Tool Output,Project Tool Output,Project Tool Output,,Project Tool Output menu option
+CodeSnippets_ConversionWarning,An old code snippets format was detected. Would you like to convert these to the new format?,An old code snippets format was detected. Would you like to convert these to the new format?,,Code snippets conversion warning
+RedefineKeys_TextEditor2,Code Editor 2,Code Editor 2,,Text Editor 2
+RedefineKeys_Show Code Completion Parameters,Show Code Completion Parameters,Show Code Completion Parameters,,Show Code Completion Parameters
+RedefineKeys_Dismiss Code Completion,Dismiss Code Completion,Dismiss Code Completion,,Dismiss Code Completion
+RedefineKeys_Format Document,Format Document,Format Document,,Format Document
+RedefineKeys_Join Lines,Join Lines,Join Lines,,Join Lines
+RedefineKeys_Convert To Uppercase,Convert To Uppercase,Convert To Uppercase,,Convert To Uppercase
+RedefineKeys_Convert To SentenceCase,Convert To Sentence Case,Convert To Sentence Case,,Convert To Sentence Case
+RedefineKeys_Convert To Lowercase,Convert To Lowercase,Convert To Lowercase,,Convert To Lowercase
+RedefineKeys_Convert To ProperCase,Convert To Proper Case,Convert To Proper Case,,Convert To Proper Case
+RedefineKeys_Replace Next Occurence,Replace Next Occurence,Replace Next Occurence,,Replace Next Occurence
+RedefineKeys_Move To Next History,Move To Next History,Move To Next History,,Move To Next History
+RedefineKeys_Move To Previous History,Move To Previous History,Move To Previous History,,Move To Previous History
+RedefineKeys_Find Usages,Find Usages,Find Usages,,Find Usages
+RedefineKeys_Refactor Identifier,Refactor Identifier,Refactor Identifier,,Refactor Identifier
+RedefineKeys_Preview Definition,Preview Definition,Preview Definition,,Preview Definition
+RedefineKeys_FoldActiveDocument,Fold Active Document,Fold Active Document,,Fold Active Document
+RedefineKeys_FoldAllDocuments,Fold All Documents,Fold All Documents,,Fold All Documents
+RedefineKeys_UnfoldAllDocuments,Unfold All Documents,Unfold All Documents,,Unfold All Documents
+RedefineKeys_GoToDefinition,Go To Definition,Go To Definition,,Go To Definition
+RedefineKeys_GoToMatchingBrace,Go To Matching Brace,Go To Matching Brace,,Go To Matching Brace
+RedefineKeys_GoToType,Go To Type,Go To Type,,Go To Type
+RedefineKeys_GoToLine,Go To Line,Go To Line,,Go To Line
+RedefineKeys_LineBreak,Line Break,Line Break,,Line Break
+RedefineKeys_NextDocument,Next Document,Next Document,,Next Document
+RedefineKeys_PreviousDocument,Previous Document,Previous Document,,Previous Document
+RedefineKeys_ToggleFold,Toggle Fold,Toggle Fold,,Toggle Fold
+CE1HotkeyChordResetConfirm,Hotkey Chords are not compatible with Code Editor 1. This will result in any remapped hotkeys containing a chord being reset to their default. Are you sure?,Hotkey Chords are not compatible with Code Editor 1. This will result in any remapped hotkeys containing a chord being reset to their default. Are you sure?,,CE1 Hotkey Chords Confirm
+RedefineKeys_CollapseAllDocuments,Collapse all Documents,Collapse all Documents,,Collapse all Documents
+RedefineKeys_ExpandAllDocuments,Expand all Documents,Expand all Documents,,Expand all Documents
+RedefineKeys_CollapseCurrentDocument,Collapse current Document,Collapse current Document,,Collapse current Document
+RedefineKeys_ExpandCurrentDocument,Expand current Document,Expand current Document,,Expand current Document
+RedefineKeys_ToggleAssetNavigation,Toggle Asset Navigation Dropdown,Toggle Asset Navigation Dropdown,,Toggle Asset Navigation Dropdown
+RedefineKeys_ToggleDocumentNavigation,Toggle Document Navigation Dropdown,Toggle Document Navigation Dropdown,,Toggle Document Navigation Dropdown
+RedefineKeys_ToggleSymbolsNavigation,Toggle Symbols Navigation Dropdown,Toggle Symbols Navigation Dropdown,,Toggle Symbols Navigation Dropdown
+RedefineKeys_ToggleCreateAsset,Show Create Asset Menu,Show Create Asset Menu,,Show Create Asset Menu
+RedefineKeys_ToggleCreateDocument,Show Create Document Menu,Show Create Document Menu,,Show Create Document Menu
+RoomEditor_DeleteLayerWarning,Are you sure you want to delete the selected layer(s)?,Are you sure you want to delete the selected layer(s)?,,Are you sure you want to delete the selected layer warning
