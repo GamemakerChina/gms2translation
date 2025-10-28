@@ -41,9 +41,12 @@ UpdateDialogDownloadNow,Download now,Download now,,Update new version dialog - d
 UpdateDialogRemindMe,Remind me later,Remind me later,,Update new version dialog - remind me later button
 UpdateDialogLabel,New version is available! \nYou are on v{0}\nNew version is {1},New version is available! \nYou are on v{0}\nNew version is {1},,Update new version dialog - tell user which version they are on and which version update will take them to
 UpdateDialogReleaseNotes,View Release notes,View Release notes,,Update new version dialog - view release notes button
-UpdateDialogTitle,New Version,New Version,,Update new version dialog title
-UpdateDialog_ViewReleaseNotes,View release notes,View release notes,,view release notes
-UpdateDialog_IgnoreUpdate,Ignore this update,Ignore this update,,ignore this update
+UpdateDialogTitle,IDE Update,IDE Update,,IDE Update dialog title
+UpdateDialogRestartNow,Restart Now,Restart Now,,Restart Now
+UpdateDialogUpdateOnClose,Update On Close IDE,Update On Close IDE,,Update On Close
+UpdateDialog_ViewReleaseNotes,Release Notes,Release Notes,,view release notes
+UpdateDialog_IgnoreUpdate,Skip Update,Skip Update,,Skip update
+install_IDE_update,Restart requested to install IDE update.,Restart requested to install IDE update.,,Restart IDE to install update
 RSS_Download_Exception,Could not reach the RSS feed: {0},Could not reach the RSS feed: {0},,A message which is shown when the RSS feed is not accessible
 Splash_CheckingRSS,Checking RSS...,Checking RSS...,,Checking RSS...
 Dialog_Confirm,Confirm,Confirm,,"Dialog ""confirm"" heading"
@@ -97,8 +100,19 @@ UserLogin_Continue,Continue,Continue,,continue label
 UserLogin_MaxDevice,Maximum sign ins exceeded \nYou can manage your account sessions at {0},Maximum sign ins exceeded \nYou can manage your account sessions at {0},,User Login Error response 29
 User_OK,OK,OK,,User Login - two step authentication ok button
 runtime_selection,Runtime Selection,Runtime Selection,,Runtime Selection Window title
-runtime_onstartup_change,Do you want to change your current runtime to the matching IDE version {0}?,Do you want to change your current runtime to the matching IDE version {0}?,,Change current runtime to the version matching the IDE
+runtime_onstartup_change,Do you want to change your current runtime to the latest installed version: {0}?,Do you want to change your current runtime to the latest installed version: {0}?,,Change current runtime to the version matching the IDE
 UserLogin_OfflineError,Unable to take user offline,Unable to take user offline,,offline error
 opera_env_sso_confirm,"You are using a custom environment for Opera GX settings. If you use Opera Single Sign-on, these settings will be overriden. Do you wish to proceed anyway?","You are using a custom environment for Opera GX settings. If you use Opera Single Sign-on, these settings will be overriden. Do you wish to proceed anyway?",,Warning shown when a user tries to log-in via Opera SSO with a custom environment
 CodeSnippets_ConversionWarning,An old code snippets format was detected. Would you like to convert these to the new format?,An old code snippets format was detected. Would you like to convert these to the new format?,,Code snippets conversion warning
 IDETooltip_Notifications,Notifications,Notifications,,IDE toolbar notifications tooltip
+runtime_dns_ResolvingFailed,DNS resolving has failed,DNS resolving has failed,,A title of the warning which is shown when after the IDE failed to resolve an address against an alternative DNS
+runtime_dns_ResolvingFailedMessage,Could not resolve {0} with an alternative DNS. A system DNS has been used,Could not resolve {0} with an alternative DNS. A system DNS has been used,,Could not use an alternative DNS
+ThemeError_MissingComma,"Error in theme at '{0}', check all entries are separated with commas","Error in theme at '{0}', check all entries are separated with commas",,error in skin theme message
+StyleError_LoadError,Error in style file {0}\n Reason: {1},Error in style file {0}\n Reason: {1},,error when loading style
+SplashScreen_PluginLoadFailed,Failed to load a required plug-in.  Please try restarting GameMaker.  If the problem persists please reinstall GameMaker.,Failed to load a required plug-in.  Please try restarting GameMaker.  If the problem persists please reinstall GameMaker.,,Error message when you fail to load a required plugin dll
+SplashScreen_PluginLoadFailedTitle,Failed to load a required plug-in,Failed to load a required plug-in,,Title for error message when you fail to load a required plugin dll
+SplashScreen_UserPluginLoadFailed,A failure occurred while loading user plugins. Consult your ui.log for more details,A failure occurred while loading user plugins. Consult your ui.log for more details,,Failed loading user plugin
+SplashScreen_UserPluginLoadFailedTitle,Failed loading a user plugin,Failed loading a user plugin,,Failed loading a user plugin
+RuntimeDownload_FailedTitle,Runtime install incomplete,Runtime install incomplete,,Runtime download failed title
+RuntimeDownload_Failed,The selected runtime could not fully install,The selected runtime could not fully install,,Runtime download failed message
+ConvertedRemapsSavePrompt,Your remaps file has been converted to a new format. Would you like to save it? This format is not compatible with older versions of GameMaker.,Your remaps file has been converted to a new format. Would you like to save it? This format is not compatible with older versions of GameMaker.,,Conversion remap prompt
