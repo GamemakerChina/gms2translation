@@ -3,20 +3,16 @@ setlocal EnableDelayedExpansion
 
 ::These variables can be change by yourself
 set SEVENZIP_HOME="C:\Program Files\7-Zip"
-set TRANSLATION_LANGUAGE=Chinese
-set TRANSLATION_VERSION="2023.8.2.108"
+set TRANSLATION_LANGUAGE=chinese
+set TRANSLATION_VERSION="2024.13.1"
 ::End
 
 set TARGET_FOLDER=target
 set TRANSLATION_LANGUAGE_NAME=%TRANSLATION_LANGUAGE%
 
-for %%a in (a b c d e f g h i j k l m n o p q r s t u v w x y z) do (
-	set "TRANSLATION_LANGUAGE_NAME=!TRANSLATION_LANGUAGE_NAME:%%a=%%a!"
-)
-
 cd %TARGET_FOLDER%
-if exist "English" (
-	ren English %TRANSLATION_LANGUAGE%
+if exist "english" (
+	ren english %TRANSLATION_LANGUAGE%
 ) else (
 	goto error
 )
