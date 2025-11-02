@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="6.0.0_0_1bf1729c" segtype="sentence" srclang="en-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="6.0.1_0_42ef0143" segtype="sentence" srclang="en-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -17818,6 +17818,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20231020T032315Z" creationid="LiarOnce" creationdate="20231020T032315Z">
         <seg>(无论如何，您的附加文件将始终是私有的。)"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>(you can use an existing GameMaker certificate)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T024158Z" creationid="LiarOnce" creationdate="20251102T024158Z">
+        <seg>(您可以使用现有的 GameMaker 证书)</seg>
       </tuv>
     </tu>
     <tu>
