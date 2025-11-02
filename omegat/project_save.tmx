@@ -2086,6 +2086,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Could not find a version of ProjectTool.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091950Z" creationid="LiarOnce" creationdate="20251102T091950Z">
+        <seg>"找不到项目工具的版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Countdown"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T132741Z">
@@ -4170,6 +4178,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T134530Z">
         <seg>"错误 - 扩展名"{1}"中的函数"{0}"具有4个以上的参数，并且它们的类型不一致"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Error in theme at '{0}', check all entries are separated with commas"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091905Z" creationid="LiarOnce" creationdate="20251102T091905Z">
+        <seg>"主题 "{0}" 中出现错误，请检查所有条目是否用逗号分隔"</seg>
       </tuv>
     </tu>
     <tu>
@@ -10440,8 +10456,8 @@
       <tuv lang="en-US">
         <seg>"Include a copy of all Prefab Collections that are used within this Project.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091102Z" creationid="LiarOnce" creationdate="20251102T090408Z">
-        <seg>"包括本项目中使用的所有预制集合的副本。</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T090408Z">
+        <seg>"包括本项目中使用的所有预制件集合的副本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10456,8 +10472,8 @@
       <tuv lang="en-US">
         <seg>"Include all Prefabs?"</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T090427Z" creationid="LiarOnce" creationdate="20251102T090427Z">
-        <seg>"包括所有预制？"</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T090427Z">
+        <seg>"包括所有预制件？"</seg>
       </tuv>
     </tu>
     <tu>
@@ -15790,6 +15806,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Startup plugins failed to load.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091937Z" creationid="LiarOnce" creationdate="20251102T091937Z">
+        <seg>"启动插件加载失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"State"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T133253Z" creationid="liaronce" creationdate="20210228T133253Z">
@@ -17144,7 +17168,7 @@
       <tuv lang="en-US">
         <seg>"Would you like to include the current project's prefabs in your bug report?\n\nA project is typically required to diagnose compiling or in-game issues.\n\nIf you do not also include the prefabs and they are not publicly accessible, we may request them later if we cannot reproduce the issue."</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T090456Z" creationid="LiarOnce" creationdate="20251102T090456Z">
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20251102T090456Z">
         <seg>"是否要将当前项目的预制件包括在您的错误报告中？\n\n通常需要项目来诊断编译或游戏内问题。\n如果您没有包含预制件，并且它们不能公开访问，如果我们无法重现该问题，我们可能会在以后要求它们。"</seg>
       </tuv>
     </tu>
@@ -19835,6 +19859,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145132Z" creationid="LiarOnce" creationdate="20220407T090426Z">
         <seg>添加资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add Asset Reference</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091833Z" creationid="LiarOnce" creationdate="20251102T091833Z">
+        <seg>添加资产参考</seg>
       </tuv>
     </tu>
     <tu>
@@ -23461,7 +23493,7 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>As Prefab</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T085537Z" creationid="LiarOnce" creationdate="20240528T085537Z">
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20240528T085537Z">
         <seg>作为预制件</seg>
       </tuv>
     </tu>
@@ -25234,8 +25266,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Available Prefabs</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T110535Z" creationid="LiarOnce" creationdate="20240528T110535Z">
-        <seg>可用的预制构件</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20240528T110535Z">
+        <seg>可用的预制件构件</seg>
       </tuv>
     </tu>
     <tu>
@@ -26255,8 +26287,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Browse and Install Prefab Collections from the Package Manager</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091102Z" creationid="LiarOnce" creationdate="20251102T090930Z">
-        <seg>从包管理器浏览和安装预制集合</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T090930Z">
+        <seg>从包管理器浏览和安装预制件集合</seg>
       </tuv>
     </tu>
     <tu>
@@ -31876,7 +31908,7 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Copying prefabs...</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T090742Z" creationid="LiarOnce" creationdate="20251102T090742Z">
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20251102T090742Z">
         <seg>复制预制件...</seg>
       </tuv>
     </tu>
@@ -31966,6 +31998,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T101500Z" creationid="LiarOnce" creationdate="20220527T115255Z">
         <seg>无法在指定路径加载项目: {0}。\n您可能没有在此处加载的权限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Could not load remaps from file.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091915Z" creationid="LiarOnce" creationdate="20251102T091915Z">
+        <seg>无法从文件加载重新映射。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32702,8 +32742,8 @@ Add-ons应该怎么翻译？</note>
       <tuv lang="en-US">
         <seg>Create Prefab Package</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T110642Z" creationid="LiarOnce" creationdate="20240528T110642Z">
-        <seg>创建预制包</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20240528T110642Z">
+        <seg>创建预制件包</seg>
       </tuv>
     </tu>
     <tu>
@@ -36843,6 +36883,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Do you want to delete the project at {0}?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092010Z" creationid="LiarOnce" creationdate="20251102T092010Z">
+        <seg>是否要删除 {0} 处的项目？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Do you want to do this now?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142725Z" creationid="liaronce" creationdate="20200820T142725Z">
@@ -40710,6 +40758,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Error in style file {0}\n Reason: {1}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091913Z" creationid="LiarOnce" creationdate="20251102T091913Z">
+        <seg>样式文件 {0} 中出现错误 \n原因：{1}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Error installing tutorial</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T101500Z" creationid="deciia" creationdate="20170104T060306Z">
@@ -40730,6 +40786,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T101024Z" creationid="LiarOnce" creationdate="20240528T101024Z">
         <seg>加载插件元数据文件 {0} 时出错</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Error loading startup plugins</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091931Z" creationid="LiarOnce" creationdate="20251102T091931Z">
+        <seg>加载启动插件时出错</seg>
       </tuv>
     </tu>
     <tu>
@@ -41443,7 +41507,7 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       <tuv lang="en-US">
         <seg>Export as Prefab</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T093544Z" creationid="LiarOnce" creationdate="20240528T093544Z">
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20240528T093544Z">
         <seg>作为预制件导出</seg>
       </tuv>
     </tu>
@@ -46703,8 +46767,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Get Prefab Information</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T090957Z" creationid="LiarOnce" creationdate="20251102T090957Z">
-        <seg>获取预制信息</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T090957Z">
+        <seg>获取预制件信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -49993,6 +50057,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T025714Z" creationid="deciia" creationdate="20180922T025714Z">
         <seg>网格垂直间距 (px)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Grid view</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091852Z" creationid="LiarOnce" creationdate="20251102T091852Z">
+        <seg>网格视图</seg>
       </tuv>
     </tu>
     <tu>
@@ -55076,23 +55148,23 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Include Prefabs in YYZ?</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T090956Z" creationid="LiarOnce" creationdate="20251102T090956Z">
-        <seg>在 YYZ 中包含预制？</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T090956Z">
+        <seg>在 YYZ 中包含预制件？</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Include Prefabs with Project{0}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T090402Z" creationid="LiarOnce" creationdate="20251102T090402Z">
-        <seg>包含项目 {0} 中的预制</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T090402Z">
+        <seg>包含项目 {0} 中的预制件</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Include current prefabs and send the report</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T090459Z" creationid="LiarOnce" creationdate="20251102T090459Z">
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20251102T090459Z">
         <seg>包括当前的预制件并发送报告</seg>
       </tuv>
     </tu>
@@ -56135,8 +56207,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Install Prefab Collection?</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091102Z" creationid="LiarOnce" creationdate="20251102T085438Z">
-        <seg>安装预制集合？</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T085438Z">
+        <seg>安装预制件集合？</seg>
       </tuv>
     </tu>
     <tu>
@@ -56245,10 +56317,26 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Installing missing prefab {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20251102T092042Z">
+        <seg>正在安装丢失的预制件 {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Installing runtime {0}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T114602Z" creationid="deciia" creationdate="20170311T114602Z">
         <seg>正在安装运行库 {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Installing {0} missing prefab(s)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20251102T092039Z">
+        <seg>正在安装 {0} 缺失的预制件</seg>
       </tuv>
     </tu>
     <tu>
@@ -57992,6 +58080,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Layout type</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091836Z" creationid="LiarOnce" creationdate="20251102T091836Z">
+        <seg>布局类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Layout wizard layout is missing.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T114419Z" creationid="deciia" creationdate="20170104T055659Z">
@@ -58696,6 +58792,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>List view</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091853Z" creationid="LiarOnce" creationdate="20251102T091853Z">
+        <seg>列表视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>List view type</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091837Z" creationid="LiarOnce" creationdate="20251102T091837Z">
+        <seg>列表视图类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Listbox</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T074644Z" creationid="deciia" creationdate="20170102T074644Z">
@@ -58954,8 +59066,8 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       <tuv lang="en-US">
         <seg>Loading Prefab Collections...</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091102Z" creationid="LiarOnce" creationdate="20251102T090935Z">
-        <seg>正在加载预制集合...</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T090935Z">
+        <seg>正在加载预制件集合...</seg>
       </tuv>
     </tu>
     <tu>
@@ -64611,8 +64723,8 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       <tuv lang="en-US">
         <seg>Open the prefab project in a new IDE instance?</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T090924Z" creationid="LiarOnce" creationdate="20251102T090924Z">
-        <seg>在新 IDE 实例中打开预制项目？</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T090924Z">
+        <seg>在新 IDE 实例中打开预制件项目？</seg>
       </tuv>
     </tu>
     <tu>
@@ -65181,8 +65293,8 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       <tuv lang="en-US">
         <seg>Overridden Prefabs Only</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T085211Z" creationid="LiarOnce" creationdate="20251102T085211Z">
-        <seg>仅覆盖预制</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T085211Z">
+        <seg>仅覆盖预制件</seg>
       </tuv>
     </tu>
     <tu>
@@ -67970,6 +68082,14 @@ https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD-%E6%B
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Please install via the Package Manager, or set a path via Preferences -&gt; General Settings -&gt; Paths"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092004Z" creationid="LiarOnce" creationdate="20251102T092004Z">
+        <seg>请通过包管理器安装，或通过偏好设置-&gt;常规设置-&gt;路径来设置"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Please make sure a default application is set in your system settings for this file type.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20231019T163255Z" creationid="LiarOnce" creationdate="20231019T163255Z">
@@ -68114,6 +68234,14 @@ https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD-%E6%B
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Please submit a bug report, so we can take a look."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091940Z" creationid="LiarOnce" creationdate="20251102T091940Z">
+        <seg>请提交错误报告，以便我们查看。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Please tell us about this problem.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T142111Z" creationid="lazyeo" creationdate="20191120T142111Z">
@@ -68174,6 +68302,14 @@ https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD-%E6%B
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T141217Z" creationid="liaronce" creationdate="20191118T141217Z">
         <seg>请验证您的用户名和密码，然后重试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Please wait for the install to complete.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092026Z" creationid="LiarOnce" creationdate="20251102T092026Z">
+        <seg>请等待安装完成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -68511,7 +68647,7 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
       <tuv lang="en-US">
         <seg>Prefab</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074822Z" creationid="LiarOnce" creationdate="20251102T074822Z">
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20251102T074822Z">
         <seg>预制件</seg>
       </tuv>
     </tu>
@@ -68519,64 +68655,80 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
       <tuv lang="en-US">
         <seg>Prefab Collection Detected</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091102Z" creationid="LiarOnce" creationdate="20251102T085448Z">
-        <seg>检测到预制集合</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T085448Z">
+        <seg>检测到预制件集合</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Prefab Collection Installation</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091102Z" creationid="LiarOnce" creationdate="20251102T085533Z">
-        <seg>预制集合安装</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T085533Z">
+        <seg>预制件集合安装</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Prefab Collection Installation Error</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091102Z" creationid="LiarOnce" creationdate="20251102T085614Z">
-        <seg>预制集合安装错误</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T085614Z">
+        <seg>预制件集合安装错误</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Prefab Library</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T110637Z" creationid="LiarOnce" creationdate="20240528T110637Z">
-        <seg>预制库</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20240528T110637Z">
+        <seg>预制件库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Prefab Library - {0} - is currently in use.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T091843Z">
+        <seg>预制件库 - {0} - 当前正在使用中。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Prefab library metadata settings</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T110735Z" creationid="LiarOnce" creationdate="20240528T110735Z">
-        <seg>预制库元数据设置</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20240528T110735Z">
+        <seg>预制件库元数据设置</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Prefab metadata settings</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T110643Z" creationid="LiarOnce" creationdate="20240528T110643Z">
-        <seg>预制元数据设置</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20240528T110643Z">
+        <seg>预制件元数据设置</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Prefab: {0}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074814Z" creationid="LiarOnce" creationdate="20251102T074814Z">
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20251102T074814Z">
         <seg>预制件：{0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Prefabs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20251102T092033Z">
+        <seg>预制件</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Prefabs...</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T090941Z" creationid="LiarOnce" creationdate="20251102T090941Z">
-        <seg>预制...</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T090941Z">
+        <seg>预制件...</seg>
       </tuv>
     </tu>
     <tu>
@@ -69150,6 +69302,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Project Health</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092006Z" creationid="LiarOnce" creationdate="20251102T092006Z">
+        <seg>项目健康</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Project Last Changed</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T082639Z" creationid="deciia" creationdate="20180922T082639Z">
@@ -69242,6 +69402,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20231019T162715Z" creationid="LiarOnce" creationdate="20231019T162715Z">
         <seg>项目工具</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Project Tool Missing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091943Z" creationid="LiarOnce" creationdate="20251102T091943Z">
+        <seg>项目工具缺失</seg>
       </tuv>
     </tu>
     <tu>
@@ -69370,6 +69538,22 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T142702Z" creationid="liaronce" creationdate="20200820T142541Z">
         <seg>项目是在较旧的 IDE 中创建的，该 IDE 的格式可能已更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Project {0} is installing required prefabs in the background.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20251102T092024Z">
+        <seg>项目 {0} 正在后台安装所需的预制件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Project {0} is missing prefab(s) {1}.\nWould you like to try and automatically install them?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20251102T092019Z">
+        <seg>项目 {0} 缺少预制件 {1}。\n您想尝试自动安装它们吗？</seg>
       </tuv>
     </tu>
     <tu>
@@ -70192,7 +70376,7 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       <tuv lang="en-US">
         <seg>Recent Prefabs</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T090918Z" creationid="LiarOnce" creationdate="20251102T090918Z">
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20251102T090918Z">
         <seg>最近的预制件</seg>
       </tuv>
     </tu>
@@ -70694,6 +70878,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Remaps file</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091920Z" creationid="LiarOnce" creationdate="20251102T091920Z">
+        <seg>重新映射文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Remember Me</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180924T030634Z" creationid="deciia" creationdate="20170104T042626Z">
@@ -70794,6 +70986,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170311T143311Z" creationid="deciia" creationdate="20170311T143311Z">
         <seg>移除参数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Remove Asset Reference</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091834Z" creationid="LiarOnce" creationdate="20251102T091834Z">
+        <seg>删除资产参考</seg>
       </tuv>
     </tu>
     <tu>
@@ -75296,6 +75496,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>See your ui.log for info.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091919Z" creationid="LiarOnce" creationdate="20251102T091919Z">
+        <seg>请参阅您的 ui.log 了解信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>See your ui.log for more info</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230308T111659Z" creationid="LiarOnce" creationdate="20230308T111659Z">
@@ -76454,7 +76662,7 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Send the report without including the prefabs</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T090501Z" creationid="LiarOnce" creationdate="20251102T090501Z">
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20251102T090501Z">
         <seg>发送不包括预制件的报告</seg>
       </tuv>
     </tu>
@@ -77799,8 +78007,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Set Prefab Information</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T110714Z" creationid="LiarOnce" creationdate="20240528T110714Z">
-        <seg>设置预制信息</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20240528T110714Z">
+        <seg>设置预制件信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -81442,6 +81650,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Simple</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091845Z" creationid="LiarOnce" creationdate="20251102T091845Z">
+        <seg>简单</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Simple view</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T090902Z" creationid="LiarOnce" creationdate="20251102T090902Z">
@@ -84326,6 +84542,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Successfully installed prefab {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092128Z" creationid="LiarOnce" creationdate="20251102T092044Z">
+        <seg>已成功安装预制件 {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Successfully regenerated {0} fonts.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191118T140945Z" creationid="liaronce" creationdate="20191118T140945Z">
@@ -87165,16 +87389,16 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>This Prefab Collection has been successfully installed.\n{0}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091102Z" creationid="LiarOnce" creationdate="20251102T085523Z">
-        <seg>此预制集合已成功安装。\n{0}</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T085523Z">
+        <seg>此预制件集合已成功安装。\n{0}</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>This Prefab Collection is already installed.\n{0}</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091102Z" creationid="LiarOnce" creationdate="20251102T085512Z">
-        <seg>此预制集合已安装。\n{0}</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T085512Z">
+        <seg>此预制件集合已安装。\n{0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -87335,6 +87559,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T090404Z" creationid="lazyeo" creationdate="20191120T090404Z">
         <seg>该字体缺少一个或多个符号，将从其它字体中获取对应内容进行替换</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This format is not compatible with older versions of GameMaker.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091929Z" creationid="LiarOnce" creationdate="20251102T091929Z">
+        <seg>此格式与 GameMaker 的旧版本不兼容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -89616,6 +89848,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Tree only</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091849Z" creationid="LiarOnce" creationdate="20251102T091849Z">
+        <seg>树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Tree view</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T090903Z" creationid="LiarOnce" creationdate="20251102T090903Z">
@@ -91650,8 +91890,8 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       <tuv lang="en-US">
         <seg>Used Prefabs Only</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T085204Z" creationid="LiarOnce" creationdate="20251102T085140Z">
-        <seg>仅使用预制</seg>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092123Z" creationid="LiarOnce" creationdate="20251102T085140Z">
+        <seg>仅使用预制件</seg>
       </tuv>
     </tu>
     <tu>
@@ -93779,6 +94019,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Would you like to save it?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091923Z" creationid="LiarOnce" creationdate="20251102T091923Z">
+        <seg>您想保存它吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Would you like to update?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T101708Z" creationid="LiarOnce" creationdate="20240528T101705Z">
@@ -94976,6 +95224,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Your remaps file has been converted to a new format.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T091922Z" creationid="LiarOnce" creationdate="20251102T091922Z">
+        <seg>您的重新映射文件已转换为新格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Your tile set preview will appear here when you select a sprite</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T114520Z" creationid="deciia" creationdate="20170106T153210Z">
@@ -95388,6 +95644,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180921T150041Z" creationid="deciia" creationdate="20180921T150041Z">
         <seg>以及更多 (符号过多)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>and {0} others.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T092029Z" creationid="LiarOnce" creationdate="20251102T092029Z">
+        <seg>和{0}其他。</seg>
       </tuv>
     </tu>
     <tu>
