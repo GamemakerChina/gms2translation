@@ -678,6 +678,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Align content defines the distribution of lines along the cross-axis.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075815Z" creationid="LiarOnce" creationdate="20251102T075815Z">
+        <seg>"对齐内容定义了线沿横轴的分布。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Alignment"</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T133545Z">
@@ -786,6 +794,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053605Z" creationid="LiarOnce" creationdate="20230717T053605Z">
         <seg>"是否确实要删除助手的响应？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Are you sure you want to delete the User Interface?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075733Z" creationid="LiarOnce" creationdate="20251102T075733Z">
+        <seg>"您确定要删除用户界面吗？</seg>
       </tuv>
     </tu>
     <tu>
@@ -3058,6 +3074,30 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092359Z" creationid="liaronce" creationdate="20210228T122106Z">
         <seg>"显示虚拟键盘。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Distribute children evenly with remaining container space, with half that size between first and last child"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081547Z" creationid="LiarOnce" creationdate="20251102T081547Z">
+        <seg>"用剩余的容器空间均匀地分配子项，第一个子项和最后一个子项之间的大小为一半"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Distribute wrapped lines evenly with remaining container space, including start and end edges"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081400Z" creationid="LiarOnce" creationdate="20251102T081400Z">
+        <seg>"将包裹线与剩余的容器空间均匀分布，包括开始边缘和结束边缘"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Distribute wrapped lines evenly with remaining container space, with half that size between first and last line"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081347Z" creationid="LiarOnce" creationdate="20251102T081347Z">
+        <seg>"使用剩余的容器空间均匀分布换行，第一行和最后一行之间的大小为该大小的一半"</seg>
       </tuv>
     </tu>
     <tu>
@@ -7606,6 +7646,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"How the UI layer is drawn at runtime, defining its boundaries, relative position and anchoring"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080558Z" creationid="LiarOnce" creationdate="20251102T080553Z">
+        <seg>"如何在运行时绘制 UI 层，定义其边界、相对位置和锚点"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"IDE still running aborting..."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T134934Z">
@@ -10634,6 +10682,38 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T134004Z" creationid="liaronce" creationdate="20210228T133942Z">
         <seg>"层 '{0}' 被锁定，解锁以允许编辑"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Layer holding graphic assets including sprites, sequences and text.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075024Z" creationid="LiarOnce" creationdate="20251102T075024Z">
+        <seg>"保存图形资产的层，包括精灵、序列和文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Layer to display User Interfaces e.g. health bars, menu screens.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075314Z" creationid="LiarOnce" creationdate="20251102T075314Z">
+        <seg>"显示用户界面的层，例如健康栏、菜单屏幕。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Layer to draw your Room’s layout from an assigned tile map.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075254Z" creationid="LiarOnce" creationdate="20251102T075007Z">
+        <seg>"从指定的图块地图中绘制房间的布局的层。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"Layer to hold object instances, which can be used to control and interact with the game.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074929Z" creationid="LiarOnce" creationdate="20251102T074923Z">
+        <seg>"层用于保存对象实例，可用于控制游戏和与游戏交互。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15198,6 +15278,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>"Sets the item’s 0,0 position based on its container"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081021Z" creationid="LiarOnce" creationdate="20251102T081021Z">
+        <seg>"根据物品的容器设置物品的 0,0 位置"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>"Sets the position of the sequence."</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20210228T121008Z">
@@ -16026,6 +16114,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092359Z" creationid="liaronce" creationdate="20210228T105358Z">
         <seg>"下列包资源与现有项目资源同名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"The main axis or direction nodes are laid out.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080909Z" creationid="LiarOnce" creationdate="20251102T080909Z">
+        <seg>"主轴线或方向节点已经布置好了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17474,6 +17570,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T115854Z" creationid="liaronce" creationdate="20210228T115854Z">
         <seg>"{0}: ({1}, {2})"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>"{0}Margin{1}, {2}Padding"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080404Z" creationid="LiarOnce" creationdate="20251102T080404Z">
+        <seg>"{0} 边距 {1}，{2} 填充"</seg>
       </tuv>
     </tu>
     <tu>
@@ -18935,6 +19039,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Absolute nodes do not take up space in its flex container</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081255Z" creationid="LiarOnce" creationdate="20251102T081255Z">
+        <seg>绝对节点不会占用其弹性容器中的空间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Ac Delete Bksp</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145036Z" creationid="LiarOnce" creationdate="20220527T142812Z">
@@ -19655,6 +19767,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Add Effect Layer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075529Z" creationid="LiarOnce" creationdate="20251102T075529Z">
+        <seg>添加效果层</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Add Event</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T102410Z" creationid="deciia" creationdate="20170103T102410Z">
@@ -19691,6 +19811,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170107T035215Z" creationid="deciia" creationdate="20170107T035215Z">
         <seg>添加文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add Flex Panel</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075528Z" creationid="LiarOnce" creationdate="20251102T075528Z">
+        <seg>添加弹性面板</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add Folder</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075522Z" creationid="LiarOnce" creationdate="20251102T075522Z">
+        <seg>添加文件夹</seg>
       </tuv>
     </tu>
     <tu>
@@ -20245,6 +20381,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T141809Z" creationid="liaronce" creationdate="20200820T141809Z">
         <seg>添加轨道</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add UI Layer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075526Z" creationid="LiarOnce" creationdate="20251102T075526Z">
+        <seg>添加 UI 层</seg>
       </tuv>
     </tu>
     <tu>
@@ -20910,10 +21054,26 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Align Content</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075811Z" creationid="LiarOnce" creationdate="20251102T075811Z">
+        <seg>对齐内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Align Icons</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T113653Z" creationid="liaronce" creationdate="20210621T113653Z">
         <seg>对齐图标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align Items</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075839Z" creationid="LiarOnce" creationdate="20251102T075839Z">
+        <seg>对齐项</seg>
       </tuv>
     </tu>
     <tu>
@@ -20934,6 +21094,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Align Self</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075846Z" creationid="LiarOnce" creationdate="20251102T075846Z">
+        <seg>对齐自身</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Align Top</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T113702Z" creationid="liaronce" creationdate="20210621T113702Z">
@@ -20942,10 +21110,138 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Align children along the cross axis of their container</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080745Z" creationid="LiarOnce" creationdate="20251102T080745Z">
+        <seg>将子级沿其容器的横轴对齐</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align children along the flex panel node’s main axis (Flex Direction)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080757Z" creationid="LiarOnce" creationdate="20251102T080757Z">
+        <seg>沿着弹性面板节点的主轴（弹性方向）对齐子项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align children from bottom to top</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081418Z" creationid="LiarOnce" creationdate="20251102T081418Z">
+        <seg>从下到上对齐子项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align children from left to right</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081433Z" creationid="LiarOnce" creationdate="20251102T081433Z">
+        <seg>从左到右对齐子项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align children from right to left</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081439Z" creationid="LiarOnce" creationdate="20251102T081439Z">
+        <seg>从右到左对齐子项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align children from top to bottom</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081415Z" creationid="LiarOnce" creationdate="20251102T081415Z">
+        <seg>从上到下对齐子项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align children to main axis’s centre</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081458Z" creationid="LiarOnce" creationdate="20251102T081458Z">
+        <seg>将子项与主轴的中心对齐</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align children to main axis’s end</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081505Z" creationid="LiarOnce" creationdate="20251102T081505Z">
+        <seg>将子项与主轴的终点对齐</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align children to main axis’s start</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081447Z" creationid="LiarOnce" creationdate="20251102T081447Z">
+        <seg>将子项与主轴的起点对齐</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align node along the cross axis of its container</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080934Z" creationid="LiarOnce" creationdate="20251102T080934Z">
+        <seg>沿着其容器的十字轴对齐节点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align to cross axis’s centre</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081321Z" creationid="LiarOnce" creationdate="20251102T081321Z">
+        <seg>与十字轴的中心对齐</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align to cross axis’s end</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081313Z" creationid="LiarOnce" creationdate="20251102T081313Z">
+        <seg>与十字轴的末端对齐</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align to cross axis’s start</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081308Z" creationid="LiarOnce" creationdate="20251102T081308Z">
+        <seg>与十字轴的起点对齐</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Align with velocity</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115015Z" creationid="LiarOnce" creationdate="20220527T115015Z">
         <seg>与速度对齐</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align wrapped lines to cross axis’s centre</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081335Z" creationid="LiarOnce" creationdate="20251102T081335Z">
+        <seg>将包裹线与十字轴的中心对齐</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align wrapped lines to cross axis’s end</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081330Z" creationid="LiarOnce" creationdate="20251102T081326Z">
+        <seg>将包裹线与十字轴的末端对齐</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Align wrapped lines to cross axis’s start</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081324Z" creationid="LiarOnce" creationdate="20251102T081324Z">
+        <seg>将包裹线与十字轴的起点对齐</seg>
       </tuv>
     </tu>
     <tu>
@@ -21576,6 +21872,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>An unknown error occurred while loading an inspector layout</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074807Z" creationid="LiarOnce" creationdate="20251102T074807Z">
+        <seg>加载检查器布局时发生未知错误</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>An update is available for the current manual language ({0}).</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20201124T115907Z" creationid="liaronce" creationdate="20201124T115907Z">
@@ -21620,6 +21924,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20220202T124827Z" creationid="liaronce" creationdate="20220202T124827Z">
         <seg>正在分析项目......</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Anchor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080529Z" creationid="LiarOnce" creationdate="20251102T080529Z">
+        <seg>锚点</seg>
       </tuv>
     </tu>
     <tu>
@@ -22016,6 +22328,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Any attached scripts are not deactivated</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081028Z" creationid="LiarOnce" creationdate="20251102T081028Z">
+        <seg>任何附加的脚本都不会被停用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Any changes done in Spine external editor will need to be re-imported as a new GameMaker sprite</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20231019T163244Z" creationid="LiarOnce" creationdate="20231019T163244Z">
@@ -22108,6 +22428,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T012907Z" creationid="deciia" creationdate="20170105T100101Z">
         <seg>应用到...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Applies a visual effect (FX) to all other layers below it.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075030Z" creationid="LiarOnce" creationdate="20251102T075030Z">
+        <seg>将视觉效果 (FX) 复制到其下方的所有其他层。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22244,6 +22572,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T022234Z" creationid="deciia" creationdate="20170106T155959Z">
         <seg>应用于其他实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Apply to all sides</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080521Z" creationid="LiarOnce" creationdate="20251102T080521Z">
+        <seg>适用于各方向</seg>
       </tuv>
     </tu>
     <tu>
@@ -22391,6 +22727,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T111254Z" creationid="LiarOnce" creationdate="20240528T101230Z">
         <seg>您确定要删除包集 "{0}" 吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Are you sure you want to delete UI Layer '{0}'?\nThis will remove it from all Rooms.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075648Z" creationid="LiarOnce" creationdate="20251102T075624Z">
+        <seg>您确定要删除 UI 层"{0}"吗？\n这将其从所有房间中删除。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22623,6 +22967,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T101500Z" creationid="liaronce" creationdate="20200820T142205Z">
         <seg>是否确实要删除 {0} 的资源: {1}？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Are you sure you want to delete {0} UI Layers?.\nThis will remove them from all Rooms.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075659Z" creationid="LiarOnce" creationdate="20251102T075659Z">
+        <seg>您确定要删除 "{0}" UI 层吗？\n这将其从所有房间中删除。&lt;片</seg>
       </tuv>
     </tu>
     <tu>
@@ -24792,6 +25144,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Background sprite or colour that will always be drawn behind other Room layers.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074916Z" creationid="LiarOnce" creationdate="20251102T074916Z">
+        <seg>始终绘制在其他房间层后面的背景精灵或颜色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Backgrounds</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T033344Z" creationid="deciia" creationdate="20170104T033344Z">
@@ -24966,6 +25326,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T063356Z" creationid="deciia" creationdate="20170102T063356Z">
         <seg>步开始</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Behaves like relative except it will ignore position offsets</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081241Z" creationid="LiarOnce" creationdate="20251102T081241Z">
+        <seg>行为类似于相对，只是它会忽略位置偏差</seg>
       </tuv>
     </tu>
     <tu>
@@ -26050,6 +26418,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T051424Z" creationid="deciia" creationdate="20180922T051424Z">
         <seg>缓存路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Calculates the width/height for the node based on its content</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081408Z" creationid="LiarOnce" creationdate="20251102T081408Z">
+        <seg>根据节点的内容计算节点的宽度/高度</seg>
       </tuv>
     </tu>
     <tu>
@@ -27350,6 +27726,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Check for Updates</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074850Z" creationid="LiarOnce" creationdate="20251102T074850Z">
+        <seg>检查更新</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Check for publishing errors</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T202543Z" creationid="deciia" creationdate="20180922T202514Z">
@@ -28510,6 +28894,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Clip Contents</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080510Z" creationid="LiarOnce" creationdate="20251102T080510Z">
+        <seg>剪切内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Clip To Parent</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T214114Z" creationid="deciia" creationdate="20170103T022818Z">
@@ -28859,6 +29251,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T145647Z" creationid="LiarOnce" creationdate="20220527T145647Z">
         <seg>代码窗口-单列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Col</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080108Z" creationid="LiarOnce" creationdate="20251102T080108Z">
+        <seg>列</seg>
       </tuv>
     </tu>
     <tu>
@@ -31594,6 +31994,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create Layer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074915Z" creationid="LiarOnce" creationdate="20251102T074915Z">
+        <seg>创建图层</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create Library</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T114249Z" creationid="deciia" creationdate="20170104T054137Z">
@@ -33738,6 +34146,22 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Defines the width/height as a percentage of its containing block's size</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081404Z" creationid="LiarOnce" creationdate="20251102T081404Z">
+        <seg>将宽度/高度定义为其包含块大小的百分比</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Defines the width/height in absolute pixels</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081402Z" creationid="LiarOnce" creationdate="20251102T081402Z">
+        <seg>以绝对像素为单位定义宽度/高度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Delay</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20231019T162726Z" creationid="LiarOnce" creationdate="20231019T162726Z">
@@ -34070,6 +34494,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230717T053542Z" creationid="LiarOnce" creationdate="20230717T053542Z">
         <seg>删除响应</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Delete Room UI</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075727Z" creationid="LiarOnce" creationdate="20251102T075727Z">
+        <seg>删除房间 UI</seg>
       </tuv>
     </tu>
     <tu>
@@ -34463,6 +34895,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20231020T032219Z" creationid="LiarOnce" creationdate="20231020T032219Z">
         <seg>描述复现错误所需的步骤</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Describes how remaining space in the container node should be distributed among its children along the main axis</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081003Z" creationid="LiarOnce" creationdate="20251102T081003Z">
+        <seg>描述容器节点中的剩余空间应如何沿着主轴在其子节点之间分配</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Describes how to shrink children along the main axis in the case that the total size of the children overflow the size of the container on the main axis</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081005Z" creationid="LiarOnce" creationdate="20251102T081005Z">
+        <seg>描述在子部件总尺寸超过主轴上容器尺寸的情况下，如何沿着主轴缩小子部件</seg>
       </tuv>
     </tu>
     <tu>
@@ -35499,6 +35947,14 @@ Add-ons应该怎么翻译？</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Distance between the edges of the node and its parent</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080930Z" creationid="LiarOnce" creationdate="20251102T080930Z">
+        <seg>节点边缘与其父边缘之间的距离</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Distort</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20211105T143118Z" creationid="liaronce" creationdate="20211105T143116Z">
@@ -35575,6 +36031,22 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210621T113710Z" creationid="liaronce" creationdate="20210621T113710Z">
         <seg>垂直分布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Distribute children evenly across the main axis with remaining container space</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081512Z" creationid="LiarOnce" creationdate="20251102T081512Z">
+        <seg>将子项均匀分布在主轴线上，并保留剩余的容器空间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Distribute wrapped lines evenly across the main axis with remaining container space</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081337Z" creationid="LiarOnce" creationdate="20251102T081337Z">
+        <seg>将包裹线均匀分布在主轴上，并保留容器空间</seg>
       </tuv>
     </tu>
     <tu>
@@ -37998,6 +38470,14 @@ Add-ons应该怎么翻译？</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T101515Z" creationid="deciia" creationdate="20170105T101515Z">
         <seg>编辑 iOS 设备</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Edit individually</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080524Z" creationid="LiarOnce" creationdate="20251102T080524Z">
+        <seg>单独编辑</seg>
       </tuv>
     </tu>
     <tu>
@@ -41385,6 +41865,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Fill Container</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075810Z" creationid="LiarOnce" creationdate="20251102T075810Z">
+        <seg>填充容器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Fill Tool Tile With Brush</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T151407Z" creationid="LiarOnce" creationdate="20220527T151407Z">
@@ -41641,6 +42129,30 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Fit cross axis’s size</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081306Z" creationid="LiarOnce" creationdate="20251102T081306Z">
+        <seg>适合十字轴的尺寸</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Fit the container’s height</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081031Z" creationid="LiarOnce" creationdate="20251102T081031Z">
+        <seg>适合容器的高度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Fit the container’s width</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081029Z" creationid="LiarOnce" creationdate="20251102T081029Z">
+        <seg>适合容器的宽度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Fixed-size Persistent Local Storage</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T090243Z" creationid="LiarOnce" creationdate="20240528T090243Z">
@@ -41693,6 +42205,30 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T214712Z" creationid="deciia" creationdate="20161223T084419Z">
         <seg>展平子布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Flex</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075850Z" creationid="LiarOnce" creationdate="20251102T075850Z">
+        <seg>弹性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Flex Basis</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075908Z" creationid="LiarOnce" creationdate="20251102T075908Z">
+        <seg>弹性基础</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Flex Properties</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075750Z" creationid="LiarOnce" creationdate="20251102T075750Z">
+        <seg>弹性属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -42215,6 +42751,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T054700Z" creationid="deciia" creationdate="20170105T054700Z">
         <seg>使用的字体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Font {0} cannot regenerate texture because there are no glyphs / ranges selected!</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074711Z" creationid="LiarOnce" creationdate="20251102T074711Z">
+        <seg>字体 {0} 无法重新生成纹理，因为没有选择字形/范围！</seg>
       </tuv>
     </tu>
     <tu>
@@ -44425,6 +44969,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Game View</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075738Z" creationid="LiarOnce" creationdate="20251102T075738Z">
+        <seg>游戏视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Game frames per second</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180925T094020Z" creationid="deciia" creationdate="20180922T034427Z">
@@ -44689,6 +45241,30 @@ addon，这个和上面的提到的plugins有什么不同。</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Gap</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075910Z" creationid="LiarOnce" creationdate="20251102T075910Z">
+        <seg>间隙</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Gap Column</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075925Z" creationid="LiarOnce" creationdate="20251102T075925Z">
+        <seg>列间隙</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Gap Row</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075920Z" creationid="LiarOnce" creationdate="20251102T075920Z">
+        <seg>行间隙</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Gaussian</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170224T003617Z" creationid="deciia" creationdate="20170224T003617Z">
@@ -44829,6 +45405,14 @@ addon，这个和上面的提到的plugins有什么不同。</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T092415Z" creationid="liaronce" creationdate="20191118T140937Z">
         <seg>为 "{0}" 生成了字体纹理，因为不存在</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Generated font texture for '{0}' because none existed</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074913Z" creationid="LiarOnce" creationdate="20251102T074913Z">
+        <seg>已为 “{0}” 生成字体纹理，因为其不存在</seg>
       </tuv>
     </tu>
     <tu>
@@ -48629,6 +49213,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Grow</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075904Z" creationid="LiarOnce" creationdate="20251102T075857Z">
+        <seg>放大</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Grow/Shrink</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075852Z" creationid="LiarOnce" creationdate="20251102T075852Z">
+        <seg>放大/缩小</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Growable Persistent Local Storage</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T090247Z" creationid="LiarOnce" creationdate="20240528T090247Z">
@@ -49030,6 +49630,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Hide item from rendering at startup.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081024Z" creationid="LiarOnce" creationdate="20251102T081024Z">
+        <seg>在启动时隐藏项目以防止渲染。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Hide items beyond panel bounds</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080958Z" creationid="LiarOnce" creationdate="20251102T080936Z">
+        <seg>隐藏面板约束之外的物体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Hide the virtual keyboard.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T044036Z" creationid="deciia" creationdate="20180922T044036Z">
@@ -49162,6 +49778,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T112216Z" creationid="deciia" creationdate="20170102T083532Z">
         <seg>历史记录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Hold {0} on drop to auto-create flexpanel parent</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075704Z" creationid="LiarOnce" creationdate="20251102T075704Z">
+        <seg>按住 {0} 即可自动创建弹性面板父级</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Hold {0} on drop to create without flexpanel parent</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075714Z" creationid="LiarOnce" creationdate="20251102T075714Z">
+        <seg>按住 {0} 即可在没有弹性面板父级的情况下创建</seg>
       </tuv>
     </tu>
     <tu>
@@ -53522,6 +54154,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Include or remove from the layout</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081007Z" creationid="LiarOnce" creationdate="20251102T081007Z">
+        <seg>包括或从布局中删除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Include project</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20231020T032236Z" creationid="LiarOnce" creationdate="20231020T032236Z">
@@ -55263,6 +55903,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It will always be drawn in front of other layers and can hold flex panels, objects, sprites, sequences, and text.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075515Z" creationid="LiarOnce" creationdate="20251102T075515Z">
+        <seg>它将始终绘制在其他层之前，并且可以容纳弹性面板、对象、精灵、序列和文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It will append to the selected file unless an alternative is selected.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170318T064223Z" creationid="deciia" creationdate="20161224T075457Z">
@@ -55531,6 +56179,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220310T061126Z" creationid="LiarOnce" creationdate="20220310T061126Z">
         <seg>对齐(Justify)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Justify Content</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080459Z" creationid="LiarOnce" creationdate="20251102T080459Z">
+        <seg>两端对齐</seg>
       </tuv>
     </tu>
     <tu>
@@ -55920,6 +56576,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Laid out according to the flex algorithm</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081301Z" creationid="LiarOnce" creationdate="20251102T081301Z">
+        <seg>根据弹性算法进行布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Laid out according to the flow of the flex container it is part of</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081248Z" creationid="LiarOnce" creationdate="20251102T081248Z">
+        <seg>根据其所属弹性容器的流程进行布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Landscape</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T070022Z" creationid="deciia" creationdate="20170104T070022Z">
@@ -56216,6 +56888,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Layer with a path assigned which an instance can follow.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075012Z" creationid="LiarOnce" creationdate="20251102T075012Z">
+        <seg>已分配实例可以遵循的路径的层。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Layers</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T095614Z" creationid="deciia" creationdate="20170102T095609Z">
@@ -56248,6 +56928,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Layout Direction</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080501Z" creationid="LiarOnce" creationdate="20251102T080501Z">
+        <seg>布局方向</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Layout Groups</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T052802Z" creationid="deciia" creationdate="20170104T052802Z">
@@ -56268,6 +56956,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T055227Z" creationid="deciia" creationdate="20170104T055227Z">
         <seg>布局向导</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Layout direction of the node and its children</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080919Z" creationid="LiarOnce" creationdate="20251102T080919Z">
+        <seg>节点及其子节点的布局方向</seg>
       </tuv>
     </tu>
     <tu>
@@ -57713,6 +58409,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Maintain Aspect Ratio</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080542Z" creationid="LiarOnce" creationdate="20251102T080542Z">
+        <seg>保持宽高比</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Maintain Aspect Ratio:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T101500Z" creationid="deciia" creationdate="20170104T022314Z">
@@ -57899,6 +58603,38 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Margin Bottom</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080446Z" creationid="LiarOnce" creationdate="20251102T080346Z">
+        <seg>下方边距</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Margin Left</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080439Z" creationid="LiarOnce" creationdate="20251102T080303Z">
+        <seg>左侧边距</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Margin Right</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080440Z" creationid="LiarOnce" creationdate="20251102T080305Z">
+        <seg>右侧边距</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Margin Top</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080444Z" creationid="LiarOnce" creationdate="20251102T080343Z">
+        <seg>上方边距</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Marketplace</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170318T083823Z" creationid="deciia" creationdate="20170102T084306Z">
@@ -58047,6 +58783,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Match container node</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081305Z" creationid="LiarOnce" creationdate="20251102T081305Z">
+        <seg>匹配容器节点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Match indent on new lines</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170316T120904Z" creationid="deciia" creationdate="20170105T062928Z">
@@ -58087,6 +58831,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Max Height</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080506Z" creationid="LiarOnce" creationdate="20251102T080506Z">
+        <seg>最大高度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Max Life</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="36011" changedate="20170315T072145Z" creationid="deciia" creationdate="20170215T152401Z">
@@ -58107,6 +58859,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170215T151723Z" creationid="deciia" creationdate="20170215T151723Z">
         <seg>最大速度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Max Width</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080503Z" creationid="LiarOnce" creationdate="20251102T080503Z">
+        <seg>最大宽度</seg>
       </tuv>
     </tu>
     <tu>
@@ -58299,6 +59059,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090600Z" creationid="LiarOnce" creationdate="20220407T090600Z">
         <seg>GML 可视化工具箱操作缩略图的最大大小</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Maximum size of the node</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080616Z" creationid="LiarOnce" creationdate="20251102T080616Z">
+        <seg>节点的最大大小</seg>
       </tuv>
     </tu>
     <tu>
@@ -58753,6 +59521,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>Min Height</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080504Z" creationid="LiarOnce" creationdate="20251102T080504Z">
+        <seg>最小高度</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>此处指的是粒子的生命周期，生命数是lives。
 此笔记可删除。</note>
       <tuv lang="en-US">
@@ -58784,6 +59560,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T092926Z" creationid="LiarOnce" creationdate="20221130T092926Z">
         <seg>最低版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Min Width</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080502Z" creationid="LiarOnce" creationdate="20251102T080502Z">
+        <seg>最小宽度</seg>
       </tuv>
     </tu>
     <tu>
@@ -58856,6 +59640,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220407T090605Z" creationid="LiarOnce" creationdate="20220407T090605Z">
         <seg>GML 可视化工具箱操作缩略图的最小大小</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Minimum size of the node</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080614Z" creationid="LiarOnce" creationdate="20251102T080614Z">
+        <seg>节点的最小大小</seg>
       </tuv>
     </tu>
     <tu>
@@ -59548,6 +60340,22 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Move UI Layer instances to bottom</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075725Z" creationid="LiarOnce" creationdate="20251102T075725Z">
+        <seg>将 UI 层实例移至底部</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Move UI Layer instances to top</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075719Z" creationid="LiarOnce" creationdate="20251102T075719Z">
+        <seg>将 UI 层实例移至顶部</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Move and Collide</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230218T024702Z" creationid="LiarOnce" creationdate="20230218T024702Z">
@@ -59584,6 +60392,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20230505T114459Z" creationid="LiarOnce" creationdate="20230505T114459Z">
         <seg>请将它移动到正确的位置。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Move items to the next row/column when it exceeds flex panel dimensions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080927Z" creationid="LiarOnce" creationdate="20251102T080927Z">
+        <seg>当项目超出弹性面板尺寸时，将其移动到下一行/列</seg>
       </tuv>
     </tu>
     <tu>
@@ -60566,6 +61382,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>No Font</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074902Z" creationid="LiarOnce" creationdate="20251102T074902Z">
+        <seg>没有字体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>No GX subscribers found</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20221130T094315Z" creationid="LiarOnce" creationdate="20221130T094315Z">
@@ -60992,10 +61816,26 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Node's width and height</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080618Z" creationid="LiarOnce" creationdate="20251102T080618Z">
+        <seg>节点的宽度和高度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Nodes</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170104T052813Z" creationid="deciia" creationdate="20170104T052813Z">
         <seg>节点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Node’s position type</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080931Z" creationid="LiarOnce" creationdate="20251102T080931Z">
+        <seg>节点位置类型</seg>
       </tuv>
     </tu>
     <tu>
@@ -62008,6 +62848,14 @@ Genre，类型，种类; 体裁，样式; 风俗画。它是指艺术创作中�
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open Collection</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074838Z" creationid="LiarOnce" creationdate="20251102T074838Z">
+        <seg>打开收集器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open Colour Panel On Select</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T151414Z" creationid="LiarOnce" creationdate="20220527T151414Z">
@@ -62449,6 +63297,14 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T053103Z" creationid="LiarOnce" creationdate="20220730T053103Z">
         <seg>打开附加...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open in Code Editor</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074900Z" creationid="LiarOnce" creationdate="20251102T074900Z">
+        <seg>在代码编辑器中打开</seg>
       </tuv>
     </tu>
     <tu>
@@ -63713,6 +64569,46 @@ The Tile Set Editor 有相关说明，选中了就会假定房间外面布满了
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T082221Z" creationid="deciia" creationdate="20180922T082221Z">
         <seg>打包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Padding</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080405Z" creationid="LiarOnce" creationdate="20251102T080405Z">
+        <seg>填充</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Padding Bottom</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080433Z" creationid="LiarOnce" creationdate="20251102T080433Z">
+        <seg>下方填充</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Padding Left</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080410Z" creationid="LiarOnce" creationdate="20251102T080410Z">
+        <seg>左侧填充</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Padding Right</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080418Z" creationid="LiarOnce" creationdate="20251102T080418Z">
+        <seg>右侧填充</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Padding Top</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080438Z" creationid="LiarOnce" creationdate="20251102T080424Z">
+        <seg>上方填充</seg>
       </tuv>
     </tu>
     <tu>
@@ -66381,10 +67277,26 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Precision</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074843Z" creationid="LiarOnce" creationdate="20251102T074843Z">
+        <seg>精度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Precision:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T101500Z" creationid="deciia" creationdate="20170103T104436Z">
         <seg>精度: </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Prefab</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074822Z" creationid="LiarOnce" creationdate="20251102T074822Z">
+        <seg>预制件</seg>
       </tuv>
     </tu>
     <tu>
@@ -66409,6 +67321,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T110643Z" creationid="LiarOnce" creationdate="20240528T110643Z">
         <seg>预制元数据设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Prefab: {0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074814Z" creationid="LiarOnce" creationdate="20251102T074814Z">
+        <seg>预制件：{0}</seg>
       </tuv>
     </tu>
     <tu>
@@ -66509,6 +67429,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Preserves aspect ratio when the item is stretched</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081237Z" creationid="LiarOnce" creationdate="20251102T081237Z">
+        <seg>物品拉伸时保留长宽比</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Presets</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T071556Z" creationid="deciia" creationdate="20170102T071556Z">
@@ -66601,6 +67529,14 @@ CocoaPods：适用于 iOS 的第三方开源库管理工具</note>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T101500Z" creationid="liaronce" creationdate="20191118T143042Z">
         <seg>预览自适应图标: </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Preview All Sides</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074753Z" creationid="LiarOnce" creationdate="20251102T074753Z">
+        <seg>预览所有的边</seg>
       </tuv>
     </tu>
     <tu>
@@ -68902,6 +69838,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Removed from the layout tree and will not be visible</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081303Z" creationid="LiarOnce" creationdate="20251102T081303Z">
+        <seg>从布局树中删除并且将不可见</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Removing instance reference from builtin - line {0} : {1}</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T192127Z" creationid="deciia" creationdate="20180922T192127Z">
@@ -69042,6 +69986,22 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200821T004415Z" creationid="liaronce" creationdate="20200820T152107Z">
         <seg>在 ${applyto} 上重复 ${times} 次</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Repeat across X axis inside container</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081036Z" creationid="LiarOnce" creationdate="20251102T081036Z">
+        <seg>在容器内的X轴重复上述步骤</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Repeat across Y axis inside container</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081043Z" creationid="LiarOnce" creationdate="20251102T081043Z">
+        <seg>在容器内的Y轴重复上述步骤</seg>
       </tuv>
     </tu>
     <tu>
@@ -71068,6 +72028,14 @@ Provisioning 就是维护和预置,或者称之为设置的过程。(野小喵 �
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T062551Z" creationid="deciia" creationdate="20170102T062551Z">
         <seg>房间开始事件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Room Visibility</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074812Z" creationid="LiarOnce" creationdate="20251102T074812Z">
+        <seg>房间可见性</seg>
       </tuv>
     </tu>
     <tu>
@@ -77510,6 +78478,38 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sets the maximum height constraint</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080611Z" creationid="LiarOnce" creationdate="20251102T080611Z">
+        <seg>设置最大高度约束</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sets the maximum width constraint</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080603Z" creationid="LiarOnce" creationdate="20251102T080603Z">
+        <seg>设置最大宽度约束</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sets the minimum height constraint</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080607Z" creationid="LiarOnce" creationdate="20251102T080604Z">
+        <seg>设置最小高度约束</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sets the minimum width constraint</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080601Z" creationid="LiarOnce" creationdate="20251102T080601Z">
+        <seg>设置最小宽度约束</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sets the position of the sequence.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T134313Z" creationid="liaronce" creationdate="20200820T134313Z">
@@ -78746,6 +79746,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Shrink</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075905Z" creationid="LiarOnce" creationdate="20251102T075905Z">
+        <seg>缩小</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Shutdown</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170105T102221Z" creationid="deciia" creationdate="20170105T102221Z">
@@ -79394,6 +80402,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Snap UI</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074858Z" creationid="LiarOnce" creationdate="20251102T074858Z">
+        <seg>对齐 UI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Snap X</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170510T012438Z" creationid="deciia" creationdate="20170510T012438Z">
@@ -79969,6 +80985,46 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>Spacing around the outside of the node</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080804Z" creationid="LiarOnce" creationdate="20251102T080804Z">
+        <seg>节点外部周围的间距</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spacing between columns</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080857Z" creationid="LiarOnce" creationdate="20251102T080857Z">
+        <seg>列与列之间的间距</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spacing between node’s inner edge and children</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080801Z" creationid="LiarOnce" creationdate="20251102T080801Z">
+        <seg>节点的内边缘与子节点之间的间距</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spacing between rows</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080840Z" creationid="LiarOnce" creationdate="20251102T080840Z">
+        <seg>行与行之间的间距</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spacing between rows and columns</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080901Z" creationid="LiarOnce" creationdate="20251102T080837Z">
+        <seg>行与列之间的间距</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>备注：Context menu option to make a gadget span all the columns
 果然还是横跨的意思吗？</note>
       <tuv lang="en-US">
@@ -80064,6 +81120,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20210228T135135Z" creationid="liaronce" creationdate="20210228T135135Z">
         <seg>具体而言，就是您之前正在进行的操作。\n\n 重要 \n 按"发送"即表示您同意我们根据我们的隐私政策来处理您提交的内容"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Specifies the height of the node's border box</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080638Z" creationid="LiarOnce" creationdate="20251102T080627Z">
+        <seg>指定节点边框的高度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Specifies the width of the node's border box</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080636Z" creationid="LiarOnce" creationdate="20251102T080622Z">
+        <seg>指定节点边框的宽度</seg>
       </tuv>
     </tu>
     <tu>
@@ -81438,10 +82510,34 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Stretch Height</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080540Z" creationid="LiarOnce" creationdate="20251102T080540Z">
+        <seg>拉伸高度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Stretch Parameter Key</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T140437Z" creationid="liaronce" creationdate="20200820T140437Z">
         <seg>拉伸参数键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Stretch Width</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080530Z" creationid="LiarOnce" creationdate="20251102T080530Z">
+        <seg>拉伸宽度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Stretch to fit the container’s width or height</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081033Z" creationid="LiarOnce" creationdate="20251102T081033Z">
+        <seg>拉伸以适应容器的宽度或高度</seg>
       </tuv>
     </tu>
     <tu>
@@ -84403,6 +85499,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>These properties will only affect children which are also flex panels</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075807Z" creationid="LiarOnce" creationdate="20251102T075807Z">
+        <seg>这些特性只会影响子项，因为子项也是柔性面板</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Thickness</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220527T115042Z" creationid="LiarOnce" creationdate="20220527T115042Z">
@@ -84475,6 +85579,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This asset can only be applied to a visible UI Layer or Flex Panel and you do not currently have one selected.\n\nWould you like to create a new UI Layer?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075557Z" creationid="LiarOnce" creationdate="20251102T075557Z">
+        <seg>此资产只能应用于可见的 UI 层或弹性面板，并且您当前尚未选择。\n\n您想创建新的 UI 层吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This asset can only be applied to an Asset Layer and you do not currently have one selected.\n\nWould you like to create a new Asset Layer?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20200820T133335Z" creationid="liaronce" creationdate="20200820T133320Z">
@@ -84519,6 +85631,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T101055Z" creationid="lazyeo" creationdate="20191120T101055Z">
         <seg>可能是安装错误或杀毒软件策略过于激进导致本问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This could include decorations, walls, backgrounds or platforms.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075009Z" creationid="LiarOnce" creationdate="20251102T075009Z">
+        <seg>这可能包括装饰、墙壁、背景或平台。</seg>
       </tuv>
     </tu>
     <tu>
@@ -84731,6 +85851,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This influences the direction of other flex properties e.g. align items, flex wrap."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080917Z" creationid="LiarOnce" creationdate="20251102T080917Z">
+        <seg>这会影响其他弹性属性的方向，例如对齐项目、弹性包裹。"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This interpreter imitates subpixel hinting</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="lazyeo" changedate="20191120T080714Z" creationid="lazyeo" creationdate="20191120T080659Z">
@@ -84865,6 +85993,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180922T070612Z" creationid="deciia" creationdate="20180922T070612Z">
         <seg>该物体无源代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This only has effect when items are wrapped to multiple lines using flex wrap."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075832Z" creationid="LiarOnce" creationdate="20251102T075832Z">
+        <seg>这仅在使用弹性包装将物体包裹成多行时才有效。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -85114,6 +86250,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20231020T031405Z" creationid="LiarOnce" creationdate="20231020T031405Z">
         <seg>这将为用户提供他们需要的信息，以决定他们希望在哪种类型的 GameMaker 项目中工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will remove it from all Rooms and is not undoable."</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075736Z" creationid="LiarOnce" creationdate="20251102T075736Z">
+        <seg>这将从所有房间中删除它，并且不可撤销。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -85666,6 +86810,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20180926T095553Z" creationid="deciia" creationdate="20170311T120944Z">
         <seg>图块尺寸增加将导致房间丢失一些图块层数据，你确定要进行此更改吗？\n\n为避免数据丢失请按取消，并扩大受影响的房间的大小： {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Tile vertically or horizontally</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T081235Z" creationid="LiarOnce" creationdate="20251102T081235Z">
+        <seg>垂直或水平图块</seg>
       </tuv>
     </tu>
     <tu>
@@ -87124,6 +88276,22 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135248Z" creationid="liaronce" creationdate="20191117T135248Z">
         <seg>U1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>UI</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075031Z" creationid="LiarOnce" creationdate="20251102T075031Z">
+        <seg>UI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>UI Folder</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075520Z" creationid="LiarOnce" creationdate="20251102T075520Z">
+        <seg>UI 文件夹</seg>
       </tuv>
     </tu>
     <tu>
@@ -89365,6 +90533,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Viewports</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075531Z" creationid="LiarOnce" creationdate="20251102T075531Z">
+        <seg>视口</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Viewports and Cameras</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170103T131837Z" creationid="deciia" creationdate="20170103T131837Z">
@@ -89485,6 +90661,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>View{0}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075537Z" creationid="LiarOnce" creationdate="20251102T075537Z">
+        <seg>视图 {0}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Vignette</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20220730T052346Z" creationid="LiarOnce" creationdate="20220730T052346Z">
@@ -89521,6 +90705,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="deciia" changedate="20170102T112400Z" creationid="deciia" creationdate="20170102T112352Z">
         <seg>可见图层</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Visible in Rooms:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T080525Z" creationid="LiarOnce" creationdate="20251102T080525Z">
+        <seg>在房间内可见：</seg>
       </tuv>
     </tu>
     <tu>
@@ -92064,6 +93256,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Zoom slider</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074848Z" creationid="LiarOnce" creationdate="20251102T074848Z">
+        <seg>缩放滑块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Zoom: {0}%</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T101500Z" creationid="deciia" creationdate="20170103T130312Z">
@@ -94308,6 +95508,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>{0} Layer</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T075517Z" creationid="LiarOnce" creationdate="20251102T075517Z">
+        <seg>{0} 层</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>{0} MB</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="liaronce" changedate="20191117T135306Z" creationid="liaronce" creationdate="20191117T135306Z">
@@ -94640,6 +95848,14 @@ dll情境后面，调知中心前面，根据参考信息“Choose to submit all
       </tuv>
       <tuv lang="zh-CN" changeid="LiarOnce" changedate="20240528T101153Z" creationid="LiarOnce" creationdate="20240528T101153Z">
         <seg>{0} {1} 已安装</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>{0}"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="LiarOnce" changedate="20251102T074935Z" creationid="LiarOnce" creationdate="20251102T074935Z">
+        <seg>{0}"</seg>
       </tuv>
     </tu>
     <tu>
